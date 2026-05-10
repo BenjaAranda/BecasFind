@@ -18,11 +18,17 @@ spring:
       connection-timeout: 20000
       max-lifetime: 1200000
 
+  # SQL Data Seeding
+  sql:
+    init:
+      mode: always
+
   # JPA / Hibernate Configuration
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    defer-datasource-initialization: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
