@@ -63,7 +63,7 @@ public class BecaController {
         Page<BecaDTO> becas = becaService.buscarBecas(
                 request.getRsh(),
                 request.getNem(),
-                request.getRegionId(),
+                request.getRegionId() != null ? request.getRegionId().longValue() : null,
                 pageable
         );
         return ResponseEntity.ok(ApiResponse.success(becas, "Busqueda completada exitosamente"));
