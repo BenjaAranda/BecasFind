@@ -2,17 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { ProtectedRoute } from './components/router/ProtectedRoute';
 import { AdminRoute } from './components/router/AdminRoute';
+import AdminLayout from './components/layout/AdminLayout';
 import LoginPage from './pages/LoginPage';
 import SearchPage from './pages/SearchPage';
 import BecaDetailPage from './pages/BecaDetailPage';
-
-function AdminPage() {
-  return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-gray-800">Panel de Administración</h1>
-    </div>
-  );
-}
+import AdminBecasPage from './pages/admin/AdminBecasPage';
+import AdminUsuariosPage from './pages/admin/AdminUsuariosPage';
 
 function App() {
   return (
@@ -33,10 +28,14 @@ function App() {
             path="/admin"
             element={
               <AdminRoute>
-                <AdminPage />
+                <AdminLayout />
               </AdminRoute>
             }
-          />
+          >
+            <Route index element={<AdminBecasPage />} />
+            <Route path="becas" element={<AdminBecasPage />} />
+            <Route path="usuarios" element={<AdminUsuariosPage />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </AuthProvider>

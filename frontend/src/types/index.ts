@@ -7,6 +7,8 @@ export interface User {
   creadoEn?: string;
 }
 
+export type UsuarioDTO = User;
+
 export interface LoginRequest {
   email: string;
   password: string;
