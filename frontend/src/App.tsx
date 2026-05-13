@@ -3,14 +3,8 @@ import { AuthProvider } from './context/AuthContext';
 import { ProtectedRoute } from './components/router/ProtectedRoute';
 import { AdminRoute } from './components/router/AdminRoute';
 import LoginPage from './pages/LoginPage';
-
-function HomePage() {
-  return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-gray-800">BecasFind — Página Principal</h1>
-    </div>
-  );
-}
+import SearchPage from './pages/SearchPage';
+import BecaDetailPage from './pages/BecaDetailPage';
 
 function AdminPage() {
   return (
@@ -26,11 +20,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/becas/:id" element={<BecaDetailPage />} />
           <Route
             path="/"
             element={
               <ProtectedRoute>
-                <HomePage />
+                <SearchPage />
               </ProtectedRoute>
             }
           />
