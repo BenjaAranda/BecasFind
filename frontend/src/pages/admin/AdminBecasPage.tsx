@@ -1,8 +1,8 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { adminService } from '../../services/adminService';
-import type { BecaSummary } from '../../types';
+import type { BecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
-import { Plus, Edit, Trash2, ExternalLink } from 'lucide-react';
+import { Plus, Edit, Trash2, ExternalLink, Upload, X } from 'lucide-react';
 
 export default function AdminBecasPage() {
   const [becas, setBecas] = useState<BecaSummary[]>([]);
@@ -13,6 +13,11 @@ export default function AdminBecasPage() {
   const [editId, setEditId] = useState<number | null>(null);
   const [editData, setEditData] = useState<Record<string, unknown> | null>(null);
   const [confirmDeleteId, setConfirmDeleteId] = useState<number | null>(null);
+  const [showImport, setShowImport] = useState(false);
+  const [importFile, setImportFile] = useState<File | null>(null);
+  const [importResult, setImportResult] = useState<ImportResult | null>(null);
+  const [importLoading, setImportLoading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const fetchBecas = useCallback(async (p: number) => {
     setLoading(true);
@@ -78,13 +83,22 @@ export default function AdminBecasPage() {
           <h1 className="text-2xl font-bold text-gray-800">Gestión de Becas</h1>
           <p className="text-sm text-gray-500 mt-1">{becas.length} becas en total</p>
         </div>
-        <button
-          onClick={() => { setEditId(null); setEditData(null); setShowForm(true); }}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 cursor-pointer"
-        >
-          <Plus className="w-4 h-4" />
-          Nueva Beca
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => { setShowImport(true); setImportResult(null); setImportFile(null); }}
+            className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer"
+          >
+            <Upload className="w-4 h-4" />
+            Importar CSV
+          </button>
+          <button
+            onClick={() => { setEditId(null); setEditData(null); setShowForm(true); }}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 cursor-pointer"
+          >
+            <Plus className="w-4 h-4" />
+            Nueva Beca
+          </button>
+        </div>
       </div>
 
       {loading ? (
@@ -161,6 +175,80 @@ export default function AdminBecasPage() {
               <button onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
               <button onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">Eliminar</button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {showImport && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-xl shadow-xl w-full max-w-md mx-4 p-6">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold">Importar Becas desde CSV</h3>
+              <button onClick={() => setShowImport(false)} className="p-1 hover:bg-gray-100 rounded cursor-pointer"><X className="w-5 h-5" /></button>
+            </div>
+
+            {importResult ? (
+              <div className="space-y-3">
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="p-3 bg-green-50 rounded-lg text-center">
+                    <p className="text-2xl font-bold text-green-700">{importResult.creadas}</p>
+                    <p className="text-xs text-green-600">Creadas</p>
+                  </div>
+                  <div className="p-3 bg-blue-50 rounded-lg text-center">
+                    <p className="text-2xl font-bold text-blue-700">{importResult.actualizadas}</p>
+                    <p className="text-xs text-blue-600">Actualizadas</p>
+                  </div>
+                  <div className="p-3 bg-red-50 rounded-lg text-center">
+                    <p className="text-2xl font-bold text-red-700">{importResult.errores}</p>
+                    <p className="text-xs text-red-600">Errores</p>
+                  </div>
+                </div>
+                {importResult.mensajesError && importResult.mensajesError.length > 0 && (
+                  <div className="p-3 bg-red-50 border border-red-200 rounded-lg max-h-32 overflow-y-auto">
+                    {importResult.mensajesError.map((msg, i) => (
+                      <p key={i} className="text-xs text-red-700">{msg}</p>
+                    ))}
+                  </div>
+                )}
+                <button onClick={() => { setShowImport(false); fetchBecas(0); }}
+                  className="w-full py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 cursor-pointer">
+                  Cerrar
+                </button>
+              </div>
+            ) : (
+              <>
+                <p className="text-sm text-gray-500 mb-4">
+                  Selecciona un archivo CSV con las becas a importar. El sistema detectará duplicados y los actualizará automáticamente.
+                </p>
+                <input type="file" accept=".csv" ref={fileInputRef}
+                  onChange={e => setImportFile(e.target.files?.[0] || null)}
+                  className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-50 file:text-blue-700 file:cursor-pointer hover:file:bg-blue-100" />
+                <div className="flex justify-end gap-3 mt-4">
+                  <button onClick={() => setShowImport(false)}
+                    className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer">Cancelar</button>
+                  <button
+                    disabled={!importFile || importLoading}
+                    onClick={async () => {
+                      if (!importFile) return;
+                      setImportLoading(true);
+                      try {
+                        const { data } = await adminService.importCsv(importFile);
+                        setImportResult(data.data);
+                      } catch (e) {
+                        console.error(e);
+                        const message = e?.response?.data?.data?.mensajesError?.[0]
+                                     || e?.response?.data?.message
+                                     || 'Error al importar el archivo';
+                        setImportResult({ creadas: 0, actualizadas: 0, errores: 1, mensajesError: [message] });
+                      }
+                      finally { setImportLoading(false); }
+                    }}
+                    className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 cursor-pointer">
+                    {importLoading ? 'Importando...' : 'Importar'}
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}

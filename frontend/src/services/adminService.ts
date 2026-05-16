@@ -1,5 +1,5 @@
 import api from './api';
-import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion } from '../types';
+import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
 
 export const adminService = {
   getBecas(page: number = 0, size: number = 20) {
@@ -52,5 +52,13 @@ export const adminService = {
 
   getInstituciones() {
     return api.get<ApiResponse<Institucion[]>>('/instituciones');
+  },
+
+  importCsv(file: File) {
+    const formData = new FormData();
+    formData.append('file', file);
+    return api.post<ApiResponse<ImportResult>>('/becas/importar-csv', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    });
   },
 };

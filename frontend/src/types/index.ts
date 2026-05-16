@@ -141,3 +141,10 @@ export interface PerfilEstudiante {
   esPrimerAnio: boolean;
   esCursoSuperior: boolean;
 }
+
+export interface ImportResult {
+  creadas: number;
+  actualizadas: number;
+  errores: number;
+  mensajesError: string[];
+}
