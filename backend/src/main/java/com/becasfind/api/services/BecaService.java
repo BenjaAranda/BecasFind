@@ -10,6 +10,8 @@ public interface BecaService {
 
     Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId, Pageable pageable);
 
+    Page<BecaDTO> recomendarBecas(String email, Pageable pageable);
+
     BecaDetailDTO findById(Long id);
 
     BecaDTO create(Long userId, BecaRequest request);

@@ -20,6 +20,7 @@ import com.becasfind.api.models.entities.Usuario;
 import com.becasfind.api.repositories.BecaRepository;
 import com.becasfind.api.repositories.DocumentoRequeridoRepository;
 import com.becasfind.api.repositories.InstitucionRepository;
+import com.becasfind.api.repositories.PerfilEstudianteRepository;
 import com.becasfind.api.repositories.RegionRepository;
 import com.becasfind.api.repositories.TipoBecaRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
@@ -49,19 +50,22 @@ public class BecaServiceImpl implements BecaService {
     private final RegionRepository regionRepository;
     private final UsuarioRepository usuarioRepository;
     private final DocumentoRequeridoRepository documentoRequeridoRepository;
+    private final PerfilEstudianteRepository perfilEstudianteRepository;
 
     public BecaServiceImpl(BecaRepository becaRepository,
                            InstitucionRepository institucionRepository,
                            TipoBecaRepository tipoBecaRepository,
                            RegionRepository regionRepository,
                            UsuarioRepository usuarioRepository,
-                           DocumentoRequeridoRepository documentoRequeridoRepository) {
+                           DocumentoRequeridoRepository documentoRequeridoRepository,
+                           PerfilEstudianteRepository perfilEstudianteRepository) {
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
         this.regionRepository = regionRepository;
         this.usuarioRepository = usuarioRepository;
         this.documentoRequeridoRepository = documentoRequeridoRepository;
+        this.perfilEstudianteRepository = perfilEstudianteRepository;
     }
 
     @Override
@@ -75,6 +79,26 @@ public class BecaServiceImpl implements BecaService {
 
         return becaRepository.findAll(spec, pageable)
                 .map(this::toBecaDTO);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Page<BecaDTO> recomendarBecas(String email, Pageable pageable) {
+        var perfilOpt = perfilEstudianteRepository
+                .findByUsuarioIdUsuario(usuarioRepository.findByEmailAndActivoTrue(email)
+                        .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"))
+                        .getIdUsuario());
+
+        if (perfilOpt.isEmpty()) {
+            return Page.empty(pageable);
+        }
+
+        var perfil = perfilOpt.get();
+        Integer rsh = perfil.getRshPorcentaje();
+        Double nem = perfil.getNemPromedio() != null ? perfil.getNemPromedio().doubleValue() : null;
+        Long regionId = perfil.getRegion() != null ? perfil.getRegion().getIdRegion() : null;
+
+        return buscarBecas(rsh, nem, regionId, pageable);
     }
 
     @Override

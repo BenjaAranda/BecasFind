@@ -47,6 +47,17 @@ public class BecaController {
         return ResponseEntity.ok(ApiResponse.success(becas, "Becas recuperadas exitosamente"));
     }
 
+    @GetMapping("/recomendadas")
+    @PreAuthorize("isAuthenticated()")
+    public ResponseEntity<ApiResponse<Page<BecaDTO>>> recomendar(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            Principal principal) {
+        PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
+        Page<BecaDTO> becas = becaService.recomendarBecas(principal.getName(), pageable);
+        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recomendadas para tu perfil"));
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<ApiResponse<BecaDetailDTO>> findById(@PathVariable Long id) {
         BecaDetailDTO beca = becaService.findById(id);

@@ -126,3 +126,14 @@ export interface AuthContextType {
   isAuthenticated: boolean;
   isAdmin: boolean;
 }
+
+export interface PerfilEstudiante {
+  idPerfil: number;
+  rshPorcentaje: number | null;
+  nemPromedio: number | null;
+  region: Region | null;
+  institucion: Institucion | null;
+  carreraInteres: string | null;
+  esPrimerAnio: boolean;
+  esCursoSuperior: boolean;
+}

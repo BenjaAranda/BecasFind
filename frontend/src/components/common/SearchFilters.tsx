@@ -11,6 +11,7 @@ interface SearchFiltersProps {
   onNemChange: (v: string) => void;
   onRegionChange: (v: string) => void;
   onSearch: () => void;
+  onUseProfile?: () => void;
 }
 
 export default function SearchFilters({
@@ -21,6 +22,7 @@ export default function SearchFilters({
   onNemChange,
   onRegionChange,
   onSearch,
+  onUseProfile,
 }: SearchFiltersProps) {
   const [regiones, setRegiones] = useState<Region[]>([]);
 
@@ -87,6 +89,16 @@ export default function SearchFilters({
           </select>
           <p className="text-xs text-gray-400 mt-1">Filtra por región o ve becas nacionales</p>
         </div>
+
+        {onUseProfile && (
+          <button
+            type="button"
+            onClick={onUseProfile}
+            className="w-full text-sm text-blue-600 hover:text-blue-700 py-1 cursor-pointer"
+          >
+            Usar mi perfil
+          </button>
+        )}
 
         <button
           onClick={onSearch}

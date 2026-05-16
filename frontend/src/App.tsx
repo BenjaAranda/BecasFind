@@ -11,6 +11,8 @@ import SearchPage from './pages/SearchPage';
 import BecaDetailPage from './pages/BecaDetailPage';
 import AdminBecasPage from './pages/admin/AdminBecasPage';
 import AdminUsuariosPage from './pages/admin/AdminUsuariosPage';
+import ProfilePage from './pages/ProfilePage';
+import FavoritosPage from './pages/FavoritosPage';
 
 function App() {
   return (
@@ -27,6 +29,22 @@ function App() {
             element={
               <ProtectedRoute>
                 <SearchPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/perfil"
+            element={
+              <ProtectedRoute>
+                <ProfilePage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/favoritos"
+            element={
+              <ProtectedRoute>
+                <FavoritosPage />
               </ProtectedRoute>
             }
           />

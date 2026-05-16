@@ -12,6 +12,12 @@ export const becaService = {
     });
   },
 
+  recomendar(page: number = 0, size: number = 10) {
+    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/recomendadas', {
+      params: { page, size },
+    });
+  },
+
   findById(id: number) {
     return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`);
   },
