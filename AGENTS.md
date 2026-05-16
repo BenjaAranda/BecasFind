@@ -14,6 +14,7 @@ BecasFind/
 │   ├── pom.xml
 │   ├── src/main/java/com/becasfind/api/
 │   │   ├── config/          # Security, CORS, Swagger/OpenAPI
+│   │   │   └── bootstrap/   # DatabaseSeeder (CommandLineRunner)
 │   │   ├── controllers/     # @RestController · reciben/retornan DTOs
 │   │   ├── services/        # Interfaces + Impl · lógica de negocio
 │   │   ├── repositories/    # Spring Data JPA
@@ -29,15 +30,16 @@ BecasFind/
 │   └── src/
 │       ├── assets/
 │       ├── components/
-│       │   ├── common/      # Botones, modales, loaders reutilizables
-│       │   └── layout/      # Navbar, Sidebar, Footer, Layouts
-│       ├── features/        # Agrupado por dominio
-│       │   ├── auth/        # components/, services/, hooks/
-│       │   ├── becas/       # components/, services/, hooks/
-│       │   └── admin/       # components/, services/, hooks/
+│       │   ├── admin/       # Formularios CRUD admin (BecaForm, UsuarioForm)
+│       │   ├── common/      # Botones, modales, loaders, BecaCard, SearchFilters
+│       │   ├── layout/      # Navbar, Sidebar, Footer, AdminLayout
+│       │   └── router/      # ProtectedRoute, AdminRoute
+│       ├── pages/           # Vistas principales
+│       │   └── admin/       # AdminBecasPage, AdminUsuariosPage
 │       ├── context/         # AuthContext
-│       ├── routes/          # PublicRoutes, ProtectedRoutes
-│       └── config/          # Instancia de Axios
+│       ├── services/        # api.ts, becaService.ts, adminService.ts
+│       ├── routes/          # Configuración de rutas
+│       └── types/           # Interfaces TypeScript
 └── infra/                   # Scripts AWS, systemd, Nginx configs
 ```
 
@@ -96,6 +98,28 @@ tras completar una fase y esperar el comando explícito del usuario para la sigu
 | 8 | React Layouts, Navbar, Vistas de Autenticación | "Ejecuta FASE 8" |
 | 9 | React Buscador Principal, Tarjetas, Filtros | "Ejecuta FASE 9" |
 | 10 | React Panel Admin (CRUD Becas y Usuarios) | "Ejecuta FASE 10" |
+| 11 | Landing Page, Registro público, Recuperación de clave | "Ejecuta FASE 11" |
+| 12 | Perfil Estudiante, Auto-Match, Favoritos (M:N) | "Ejecuta FASE 12" |
+| 13 | Full-Text Search, Filtros avanzados, Ordenamiento, Debounce UX | "Ejecuta FASE 13" |
+| 14 | Importación CSV con Upsert, Scraping externo, Batch insert | "Ejecuta FASE 14" |
+
+### Directrices Globales V2.0 (OBLIGATORIO)
+
+Estas reglas aplican a todas las fases de la V2.0 y deben ser respetadas sin excepción.
+
+| # | Directriz | Fase | Descripción |
+|---|----------|------|-------------|
+| DTO-VALIDATION | 11 | Todo DTO de registro/recuperación debe usar `@Email`, `@Size(min=8)`, `@NotBlank` para prevenir inyecciones |
+| FK-CASCADE | 12 | Toda FK en tablas M:N debe incluir `ON DELETE CASCADE` (`becas_favoritas`, `becas_regiones`) |
+| UX-DEBOUNCE | 13 | Inputs de búsqueda en React deben implementar debounce de 300-500ms. Nunca disparar petición HTTP por cada keystroke |
+| BATCH-SIZE | 14 | `spring.jpa.properties.hibernate.jdbc.batch_size: 50` en `application.yml` para procesar importaciones CSV en lotes |
+
+### Stack V2.0 Adicional
+
+| Capa | Tecnología | Propósito |
+|------|-----------|-----------|
+| CSV Parsing | OpenCSV 5.9 | Importación masiva de becas vía CSV |
+| Scraping Externo | Python 3.11 + Scrapy + BeautifulSoup4 | Extracción de becas de portales chilenos (script externo, no en el monorepo) |
 
 ---
 
@@ -111,6 +135,8 @@ tras completar una fase y esperar el comando explícito del usuario para la sigu
 | Hardcodear credenciales o secrets | Usar `application.yml` con variables de entorno |
 | Usar `FetchType.EAGER` en asociaciones | `FetchType.LAZY` |
 | Improvisar librerías no listadas en este documento | Usar solo lo definido en el Stack Tecnológico |
+| Enviar petición HTTP por cada keystroke en input de búsqueda | Implementar debounce (300-500ms) con `setTimeout`/`clearTimeout` |
+| Omitir `ON DELETE CASCADE` en FKs de tablas M:N | Incluir siempre `ON DELETE CASCADE` (`becas_favoritas`, `becas_regiones`) |
 
 ---
 
@@ -129,6 +155,8 @@ tras completar una fase y esperar el comando explícito del usuario para la sigu
   ```
 - **Manejo de errores**: `@RestControllerAdvice` interceptando:
   - `MethodArgumentNotValidException` → 400
+  - `BadCredentialsException` → 401 (login fallido)
+  - `InternalAuthenticationServiceException` → 401 (usuario no encontrado)
   - `EntityNotFoundException` → 404
   - `AccessDeniedException` → 403
   - `Exception` → 500 (genérico)
@@ -166,6 +194,8 @@ tras completar una fase y esperar el comando explícito del usuario para la sigu
 | RequisitoPerfil | `requisitos_perfil` | 1:1 con Beca |
 | DocumentoRequerido | `documentos_requeridos` | N:1 con Beca |
 | PasswordResetToken | `password_reset_tokens` | UUID token, 15 min exp |
+| PerfilEstudiante | `perfiles_estudiante` | 1:1 con Usuario, RSH, NEM, FK región, FK institución, carrera |
+| BecaFavorita | `becas_favoritas` | M:N Usuario↔Beca, clave compuesta (id_usuario, id_beca), ON DELETE CASCADE |
 
 ---
 
@@ -198,6 +228,32 @@ Si parámetro nem = Y → mostrar becas donde rp.nem_minimo <= Y
 ```
 Si parámetro regionId = Z → mostrar becas que tengan Z en BecaRegion
                               OR que NO tengan ninguna región asociada (becas nacionales)
+```
+
+### BR-TEXT (Búsqueda por Texto Libre)
+```
+Si parámetro query = "texto" → WHERE LOWER(b.nombre) LIKE '%texto%' OR LOWER(b.descripcionCorta) LIKE '%texto%'
+```
+Soporte inicial con LIKE. Si el volumen supera 10k becas, migrar a índice FULLTEXT con MATCH/AGAINST.
+
+### BR-ORDENAMIENTO (Sorting Dinámico)
+```
+El frontend envía sort ∈ {fechaAsc, fechaDesc, montoAsc, montoDesc}
+El backend traduce a Sort.by() y lo incluye en PageRequest
+Default: fechaCierrePostulacion ASC (más próximas a vencer primero)
+```
+
+### BR-RECOMENDACION (Auto-Match por Perfil)
+```
+GET /api/becas/recomendadas → carga PerfilEstudiante del usuario autenticado
+→ extrae rsh, nem, idRegion → ejecuta buscarBecas(rsh, nem, idRegion)
+```
+
+### BR-FAVORITOS (Guardado de Becas)
+```
+M:N Usuario↔Beca vía tabla becas_favoritas. CRUD vía endpoints autenticados.
+Botón toggle en frontend: POST para guardar, DELETE para eliminar.
+GET /api/favoritos/{idBeca}/check para estado visual del ícono.
 ```
 
 ### Paginación
