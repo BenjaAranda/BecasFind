@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { LogIn, GraduationCap } from 'lucide-react';
 
@@ -101,6 +101,15 @@ export default function LoginPage() {
               {loading ? 'Ingresando...' : 'Ingresar'}
             </button>
           </form>
+
+          <div className="mt-4 text-center space-y-2">
+            <p className="text-sm">
+              <Link to="/forgot-password" className="text-blue-600 hover:underline text-sm">¿Olvidaste tu contraseña?</Link>
+            </p>
+            <p className="text-sm text-gray-500">
+              ¿No tienes cuenta? <Link to="/register" className="text-blue-600 hover:underline font-medium">Regístrate</Link>
+            </p>
+          </div>
         </div>
 
         <p className="text-center text-blue-200 text-sm mt-6">

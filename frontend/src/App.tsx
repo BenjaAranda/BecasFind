@@ -3,7 +3,10 @@ import { AuthProvider } from './context/AuthContext';
 import { ProtectedRoute } from './components/router/ProtectedRoute';
 import { AdminRoute } from './components/router/AdminRoute';
 import AdminLayout from './components/layout/AdminLayout';
+import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import SearchPage from './pages/SearchPage';
 import BecaDetailPage from './pages/BecaDetailPage';
 import AdminBecasPage from './pages/admin/AdminBecasPage';
@@ -14,10 +17,13 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/becas/:id" element={<BecaDetailPage />} />
           <Route
-            path="/"
+            path="/explorar"
             element={
               <ProtectedRoute>
                 <SearchPage />

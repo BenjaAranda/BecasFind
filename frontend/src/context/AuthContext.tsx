@@ -66,6 +66,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setUser(userData);
   }, []);
 
+  const register = useCallback(async (nombreCompleto: string, email: string, password: string) => {
+    const { data } = await api.post<ApiResponse<AuthResponse>>('/auth/register', { nombreCompleto, email, password });
+    const { token: jwtToken, nombreRol } = data.data;
+
+    localStorage.setItem(TOKEN_KEY, jwtToken);
+
+    const userData: User = {
+      idUsuario: 0,
+      email,
+      nombreCompleto,
+      rol: nombreRol,
+      activo: true,
+    };
+    localStorage.setItem(USER_KEY, JSON.stringify(userData));
+
+    setToken(jwtToken);
+    setUser(userData);
+  }, []);
+
   const logout = useCallback(() => {
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(USER_KEY);
@@ -78,6 +97,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     token,
     loading,
     login,
+    register,
     logout,
     isAuthenticated: !!token,
     isAdmin: user?.rol === 'ADMIN',
