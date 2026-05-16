@@ -19,6 +19,14 @@ public class BecaSearchRequest {
 
     private Integer regionId;
 
+    private String query;
+
+    private Long idTipoBeca;
+
+    private Long idInstitucion;
+
+    private String sort;
+
     private Integer page = 0;
 
     private Integer size = 10;

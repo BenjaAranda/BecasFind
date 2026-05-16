@@ -15,6 +15,10 @@ export default function SearchPage() {
   const [rsh, setRsh] = useState('');
   const [nem, setNem] = useState('');
   const [regionId, setRegionId] = useState('');
+  const [query, setQuery] = useState('');
+  const [idTipoBeca, setIdTipoBeca] = useState('');
+  const [idInstitucion, setIdInstitucion] = useState('');
+  const [sort, setSort] = useState('fechaAsc');
   const [becas, setBecas] = useState<BecaSummary[]>([]);
   const [loading, setLoading] = useState(false);
   const [totalElements, setTotalElements] = useState(0);
@@ -30,6 +34,10 @@ export default function SearchPage() {
         rsh: rsh ? Number(rsh) : undefined,
         nem: nem ? Number(nem) : undefined,
         regionId: regionId ? Number(regionId) : undefined,
+        query: query || undefined,
+        idTipoBeca: idTipoBeca ? Number(idTipoBeca) : undefined,
+        idInstitucion: idInstitucion ? Number(idInstitucion) : undefined,
+        sort,
         page: p,
         size: 12,
       });
@@ -42,7 +50,7 @@ export default function SearchPage() {
     } finally {
       setLoading(false);
     }
-  }, [rsh, nem, regionId]);
+  }, [rsh, nem, regionId, query, idTipoBeca, idInstitucion, sort]);
 
   useEffect(() => { fetchBecas(0); }, []);
 
@@ -95,7 +103,10 @@ export default function SearchPage() {
             <>
               <SearchFilters
                 rsh={rsh} nem={nem} regionId={regionId}
+                query={query} idTipoBeca={idTipoBeca} idInstitucion={idInstitucion} sort={sort}
                 onRshChange={setRsh} onNemChange={setNem} onRegionChange={setRegionId}
+                onQueryChange={setQuery} onTipoBecaChange={setIdTipoBeca}
+                onInstitucionChange={setIdInstitucion} onSortChange={setSort}
                 onSearch={() => fetchBecas(0)}
               />
               <div className="mt-4 p-4 bg-blue-50 rounded-xl border border-blue-100">
@@ -140,7 +151,7 @@ export default function SearchPage() {
               onClick={() => {
                 setTab('recomendar');
                 setLoading(true);
-                becaService.search({ rsh: undefined, nem: undefined, regionId: undefined, page: 0, size: 12 })
+                becaService.recomendar(0, 12)
                   .then(({ data }) => { setBecas(data.data.content); setTotalElements(data.data.totalElements); setTotalPages(data.data.totalPages); setPage(0); })
                   .catch(() => setBecas([]))
                   .finally(() => setLoading(false));

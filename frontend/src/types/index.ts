@@ -102,6 +102,10 @@ export interface BecaSearchRequest {
   rsh?: number | null;
   nem?: number | null;
   regionId?: number | null;
+  query?: string | null;
+  idTipoBeca?: number | null;
+  idInstitucion?: number | null;
+  sort?: string | null;
   page?: number;
   size?: number;
 }

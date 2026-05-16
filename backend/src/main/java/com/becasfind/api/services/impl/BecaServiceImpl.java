@@ -30,7 +30,9 @@ import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,6 +40,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import org.springframework.data.domain.Sort;
 
 @Service
 public class BecaServiceImpl implements BecaService {
@@ -70,15 +74,31 @@ public class BecaServiceImpl implements BecaService {
 
     @Override
     @Transactional(readOnly = true)
-    public Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId, Pageable pageable) {
+    public Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
+                                     String query, Long idTipoBeca, Long idInstitucion,
+                                     String sort, Pageable pageable) {
         Specification<Beca> spec = Specification
                 .where(BecaSpecifications.isVigente())
                 .and(BecaSpecifications.hasRshMax(rsh))
                 .and(BecaSpecifications.hasNemMin(nem))
-                .and(BecaSpecifications.hasRegionOrNational(regionId));
+                .and(BecaSpecifications.hasRegionOrNational(regionId))
+                .and(BecaSpecifications.hasTextQuery(query))
+                .and(BecaSpecifications.hasTipoBeca(idTipoBeca))
+                .and(BecaSpecifications.hasInstitucion(idInstitucion));
 
-        return becaRepository.findAll(spec, pageable)
-                .map(this::toBecaDTO);
+        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(), parseSort(sort));
+        return becaRepository.findAll(spec, sorted).map(this::toBecaDTO);
+    }
+
+    private Sort parseSort(String sort) {
+        if (sort == null || sort.isBlank()) return Sort.by("fechaCierrePostulacion").ascending();
+        return switch (sort) {
+            case "fechaAsc"  -> Sort.by("fechaCierrePostulacion").ascending();
+            case "fechaDesc" -> Sort.by("fechaCierrePostulacion").descending();
+            case "montoAsc"  -> Sort.by("montoCobertura").ascending();
+            case "montoDesc" -> Sort.by("montoCobertura").descending();
+            default          -> Sort.by("fechaCierrePostulacion").ascending();
+        };
     }
 
     @Override
@@ -98,7 +118,7 @@ public class BecaServiceImpl implements BecaService {
         Double nem = perfil.getNemPromedio() != null ? perfil.getNemPromedio().doubleValue() : null;
         Long regionId = perfil.getRegion() != null ? perfil.getRegion().getIdRegion() : null;
 
-        return buscarBecas(rsh, nem, regionId, pageable);
+        return buscarBecas(rsh, nem, regionId, null, null, null, null, pageable);
     }
 
     @Override

@@ -69,4 +69,33 @@ public final class BecaSpecifications {
             );
         };
     }
+
+    /**
+     * BR-TEXT: Búsqueda por texto libre en nombre o descripción corta.
+     */
+    public static Specification<Beca> hasTextQuery(String queryText) {
+        if (queryText == null || queryText.isBlank()) return null;
+        String pattern = "%" + queryText.toLowerCase().trim() + "%";
+
+        return (root, cq, cb) -> cb.or(
+                cb.like(cb.lower(root.get("nombre")), pattern),
+                cb.like(cb.lower(root.get("descripcionCorta")), pattern)
+        );
+    }
+
+    /**
+     * Filtro por Tipo de Beca.
+     */
+    public static Specification<Beca> hasTipoBeca(Long idTipoBeca) {
+        if (idTipoBeca == null) return null;
+        return (root, cq, cb) -> cb.equal(root.get("tipoBeca").get("idTipoBeca"), idTipoBeca);
+    }
+
+    /**
+     * Filtro por Institución.
+     */
+    public static Specification<Beca> hasInstitucion(Long idInstitucion) {
+        if (idInstitucion == null) return null;
+        return (root, cq, cb) -> cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion);
+    }
 }
