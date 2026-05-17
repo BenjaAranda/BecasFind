@@ -236,8 +236,9 @@ export default function AdminBecasPage() {
                         setImportResult(data.data);
                       } catch (e) {
                         console.error(e);
-                        const message = e?.response?.data?.data?.mensajesError?.[0]
-                                     || e?.response?.data?.message
+                        const err = e as { response?: { data?: { message?: string; data?: { mensajesError?: string[] } } } };
+                        const message = err?.response?.data?.data?.mensajesError?.[0]
+                                     || err?.response?.data?.message
                                      || 'Error al importar el archivo';
                         setImportResult({ creadas: 0, actualizadas: 0, errores: 1, mensajesError: [message] });
                       }

@@ -60,6 +60,7 @@ export default function ProfilePage() {
       });
       setSuccess('Perfil guardado exitosamente');
     } catch (err: unknown) {
+      console.error('Error al guardar perfil:', err);
       const axiosErr = err as { response?: { data?: { message?: string } } };
       setError(axiosErr.response?.data?.message || 'Error al guardar el perfil');
     } finally {

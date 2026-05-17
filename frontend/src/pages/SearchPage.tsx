@@ -52,15 +52,29 @@ export default function SearchPage() {
     }
   }, [rsh, nem, regionId, query, idTipoBeca, idInstitucion, sort]);
 
-  useEffect(() => { fetchBecas(0); }, []);
+  useEffect(() => {
+    fetchBecas(0);
+    favoritoService.listar()
+      .then(({ data }) => setFavIds(new Set(data.data.map(b => b.idBeca))))
+      .catch(() => {});
+  }, []);
 
   const handleToggleFavorito = async (idBeca: number) => {
-    if (favIds.has(idBeca)) {
-      await favoritoService.eliminar(idBeca);
-      setFavIds(prev => { const n = new Set(prev); n.delete(idBeca); return n; });
-    } else {
-      await favoritoService.guardar(idBeca);
-      setFavIds(prev => new Set(prev).add(idBeca));
+    const wasFav = favIds.has(idBeca);
+    setFavIds(prev => {
+      const n = new Set(prev);
+      wasFav ? n.delete(idBeca) : n.add(idBeca);
+      return n;
+    });
+    try {
+      if (wasFav) await favoritoService.eliminar(idBeca);
+      else await favoritoService.guardar(idBeca);
+    } catch {
+      setFavIds(prev => {
+        const n = new Set(prev);
+        wasFav ? n.add(idBeca) : n.delete(idBeca);
+        return n;
+      });
     }
   };
 

@@ -6,9 +6,12 @@ import com.becasfind.api.models.entities.BecaFavorita;
 import com.becasfind.api.models.entities.BecaFavoritaId;
 import com.becasfind.api.models.entities.Usuario;
 import com.becasfind.api.repositories.BecaFavoritaRepository;
+import com.becasfind.api.repositories.BecaRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.FavoritoService;
 import jakarta.persistence.EntityNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,12 +21,17 @@ import java.util.stream.Collectors;
 @Service
 public class FavoritoServiceImpl implements FavoritoService {
 
+    private static final Logger log = LoggerFactory.getLogger(FavoritoServiceImpl.class);
+
     private final BecaFavoritaRepository becaFavoritaRepository;
+    private final BecaRepository becaRepository;
     private final UsuarioRepository usuarioRepository;
 
     public FavoritoServiceImpl(BecaFavoritaRepository becaFavoritaRepository,
+                               BecaRepository becaRepository,
                                UsuarioRepository usuarioRepository) {
         this.becaFavoritaRepository = becaFavoritaRepository;
+        this.becaRepository = becaRepository;
         this.usuarioRepository = usuarioRepository;
     }
 
@@ -34,19 +42,17 @@ public class FavoritoServiceImpl implements FavoritoService {
                 .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
 
         if (becaFavoritaRepository.existsByUsuarioIdUsuarioAndBecaIdBeca(usuario.getIdUsuario(), idBeca)) {
+            log.debug("La beca {} ya es favorita del usuario {}", idBeca, email);
             return;
         }
 
         BecaFavorita favorita = new BecaFavorita();
         favorita.setId(new BecaFavoritaId(usuario.getIdUsuario(), idBeca));
-
-        Usuario proxy = usuarioRepository.getReferenceById(usuario.getIdUsuario());
-        Beca proxyBeca = new Beca();
-        proxyBeca.setIdBeca(idBeca);
-
-        favorita.setUsuario(proxy);
-        favorita.setBeca(proxyBeca);
+        favorita.setUsuario(usuarioRepository.getReferenceById(usuario.getIdUsuario()));
+        favorita.setBeca(becaRepository.getReferenceById(idBeca));
         becaFavoritaRepository.save(favorita);
+
+        log.info("Beca {} guardada como favorita para usuario {}", idBeca, email);
     }
 
     @Override

@@ -13,11 +13,15 @@ import com.becasfind.api.repositories.RegionRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.PerfilService;
 import jakarta.persistence.EntityNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class PerfilServiceImpl implements PerfilService {
+
+    private static final Logger log = LoggerFactory.getLogger(PerfilServiceImpl.class);
 
     private final PerfilEstudianteRepository perfilEstudianteRepository;
     private final UsuarioRepository usuarioRepository;
@@ -48,8 +52,10 @@ public class PerfilServiceImpl implements PerfilService {
     @Override
     @Transactional
     public PerfilEstudianteDTO savePerfil(String email, PerfilEstudianteRequest request) {
+        log.info("Guardando perfil para usuario: {}", email);
+
         Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
-                .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
+                .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado con email: " + email));
 
         PerfilEstudiante perfil = perfilEstudianteRepository
                 .findByUsuarioIdUsuario(usuario.getIdUsuario())
@@ -64,20 +70,26 @@ public class PerfilServiceImpl implements PerfilService {
 
         if (request.getIdRegion() != null) {
             perfil.setRegion(regionRepository.findById(request.getIdRegion())
-                    .orElseThrow(() -> new EntityNotFoundException("Region no encontrada")));
+                    .orElseThrow(() -> new EntityNotFoundException("Region no encontrada con ID: " + request.getIdRegion())));
         } else {
             perfil.setRegion(null);
         }
 
         if (request.getIdInstitucion() != null) {
             perfil.setInstitucion(institucionRepository.findById(request.getIdInstitucion())
-                    .orElseThrow(() -> new EntityNotFoundException("Institucion no encontrada")));
+                    .orElseThrow(() -> new EntityNotFoundException("Institucion no encontrada con ID: " + request.getIdInstitucion())));
         } else {
             perfil.setInstitucion(null);
         }
 
-        perfil = perfilEstudianteRepository.save(perfil);
-        return toDto(perfil);
+        try {
+            perfil = perfilEstudianteRepository.save(perfil);
+            log.info("Perfil guardado exitosamente para: {}", email);
+            return toDto(perfil);
+        } catch (Exception e) {
+            log.error("Error al guardar perfil para usuario {}: {}", email, e.getMessage(), e);
+            throw e;
+        }
     }
 
     private PerfilEstudianteDTO toDto(PerfilEstudiante p) {
