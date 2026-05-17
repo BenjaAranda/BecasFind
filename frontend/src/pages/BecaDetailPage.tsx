@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { becaService } from '../services/becaService';
 import type { BecaDetail } from '../types';
@@ -28,6 +28,31 @@ export default function BecaDetailPage() {
       .finally(() => setLoading(false));
   }, [id, navigate]);
 
+  const goBack = useCallback(() => {
+    if (window.history.length > 1) {
+      navigate(-1);
+    } else {
+      navigate('/explorar');
+    }
+  }, [navigate]);
+
+  useEffect(() => {
+    const handleHardwareBack = (e: Event) => {
+      if (e instanceof KeyboardEvent && e.key === 'Escape') {
+        goBack();
+      } else if (e instanceof MouseEvent && (e.button === 3 || e.button === 4)) {
+        e.preventDefault();
+        goBack();
+      }
+    };
+    window.addEventListener('keydown', handleHardwareBack);
+    window.addEventListener('mouseup', handleHardwareBack);
+    return () => {
+      window.removeEventListener('keydown', handleHardwareBack);
+      window.removeEventListener('mouseup', handleHardwareBack);
+    };
+  }, [goBack]);
+
   const formatDate = (dateStr: string) =>
     new Date(dateStr).toLocaleDateString('es-CL', {
       day: 'numeric',
@@ -52,7 +77,7 @@ export default function BecaDetailPage() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
           <button
-            onClick={() => navigate(-1)}
+            onClick={goBack}
             className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 transition cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4" />
