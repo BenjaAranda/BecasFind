@@ -5,8 +5,8 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: becasfind
-      MYSQL_USER: becas_user
-      MYSQL_PASSWORD: 123456
+      MYSQL_USER: root
+      MYSQL_PASSWORD: becasfind.123
       MYSQL_ROOT_PASSWORD: root123
     ports:
       - "3306:3306"
