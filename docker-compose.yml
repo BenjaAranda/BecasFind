@@ -1,0 +1,51 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: becasfind_mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: becasfind
+      MYSQL_USER: becas_user
+      MYSQL_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: root123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - becasfind_network
+
+  backend:
+    build:
+      context: ./backend
+    container_name: becasfind_backend
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/becasfind?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: becas_user
+      SPRING_DATASOURCE_PASSWORD: 123456
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    ports:
+      - "8080:8080"
+    networks:
+      - becasfind_network
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: becasfind_frontend
+    restart: always
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    networks:
+      - becasfind_network
+
+volumes:
+  mysql_data:
+
+networks:
+  becasfind_network:
