@@ -7,6 +7,8 @@ export interface User {
   creadoEn?: string;
 }
 
+export type UsuarioDTO = User;
+
 export interface LoginRequest {
   email: string;
   password: string;
@@ -100,6 +102,10 @@ export interface BecaSearchRequest {
   rsh?: number | null;
   nem?: number | null;
   regionId?: number | null;
+  query?: string | null;
+  idTipoBeca?: number | null;
+  idInstitucion?: number | null;
+  sort?: string | null;
   page?: number;
   size?: number;
 }
@@ -117,8 +123,28 @@ export interface PageResponse<T> {
 export interface AuthContextType {
   user: User | null;
   token: string | null;
+  loading: boolean;
   login: (email: string, password: string) => Promise<void>;
+  register: (nombreCompleto: string, email: string, password: string) => Promise<void>;
   logout: () => void;
   isAuthenticated: boolean;
   isAdmin: boolean;
+}
+
+export interface PerfilEstudiante {
+  idPerfil: number;
+  rshPorcentaje: number | null;
+  nemPromedio: number | null;
+  region: Region | null;
+  institucion: Institucion | null;
+  carreraInteres: string | null;
+  esPrimerAnio: boolean;
+  esCursoSuperior: boolean;
+}
+
+export interface ImportResult {
+  creadas: number;
+  actualizadas: number;
+  errores: number;
+  mensajesError: string[];
 }

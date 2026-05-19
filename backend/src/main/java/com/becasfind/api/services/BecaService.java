@@ -8,7 +8,11 @@ import org.springframework.data.domain.Pageable;
 
 public interface BecaService {
 
-    Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId, Pageable pageable);
+    Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
+                              String query, Long idTipoBeca, Long idInstitucion,
+                              String sort, Pageable pageable);
+
+    Page<BecaDTO> recomendarBecas(String email, Pageable pageable);
 
     BecaDetailDTO findById(Long id);
 

@@ -169,6 +169,38 @@ CREATE INDEX idx_prt_token ON password_reset_tokens(token);
 CREATE INDEX idx_prt_usuario ON password_reset_tokens(id_usuario);
 
 -- =============================================
+-- Tabla: perfiles_estudiante (Relación 1:1 con Usuario)
+-- =============================================
+CREATE TABLE IF NOT EXISTS perfiles_estudiante (
+    id_perfil BIGINT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario BIGINT NOT NULL UNIQUE,
+    rsh_porcentaje INT,
+    nem_promedio DECIMAL(3,1),
+    id_region BIGINT,
+    id_institucion BIGINT,
+    carrera_interes VARCHAR(255),
+    es_primer_anio BOOLEAN NOT NULL DEFAULT FALSE,
+    es_curso_superior BOOLEAN NOT NULL DEFAULT FALSE,
+    CONSTRAINT fk_pe_usuario FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario) ON DELETE CASCADE,
+    CONSTRAINT fk_pe_region FOREIGN KEY (id_region) REFERENCES regiones(id_region) ON DELETE SET NULL,
+    CONSTRAINT fk_pe_institucion FOREIGN KEY (id_institucion) REFERENCES instituciones(id_institucion) ON DELETE SET NULL
+) ENGINE=InnoDB;
+
+-- =============================================
+-- Tabla: becas_favoritas (Relación M:N Usuario ↔ Beca)
+-- =============================================
+CREATE TABLE IF NOT EXISTS becas_favoritas (
+    id_usuario BIGINT NOT NULL,
+    id_beca BIGINT NOT NULL,
+    PRIMARY KEY (id_usuario, id_beca),
+    CONSTRAINT fk_bf_usuario FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario) ON DELETE CASCADE,
+    CONSTRAINT fk_bf_beca FOREIGN KEY (id_beca) REFERENCES becas(id_beca) ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+CREATE INDEX idx_bf_usuario ON becas_favoritas(id_usuario);
+CREATE INDEX idx_bf_beca ON becas_favoritas(id_beca);
+
+-- =============================================
 -- Datos semilla: Roles
 -- =============================================
 INSERT INTO roles (nombre_rol) VALUES ('ADMIN');

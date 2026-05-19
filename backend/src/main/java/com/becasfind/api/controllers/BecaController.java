@@ -5,6 +5,8 @@ import com.becasfind.api.models.dtos.BecaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
 import com.becasfind.api.models.dtos.BecaSearchRequest;
+import com.becasfind.api.models.dtos.ImportResultDTO;
+import com.becasfind.api.services.BecaImportService;
 import com.becasfind.api.services.BecaService;
 import com.becasfind.api.services.CustomUserDetailsService;
 import jakarta.validation.Valid;
@@ -23,6 +25,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.security.Principal;
 
@@ -31,10 +34,14 @@ import java.security.Principal;
 public class BecaController {
 
     private final BecaService becaService;
+    private final BecaImportService becaImportService;
     private final CustomUserDetailsService customUserDetailsService;
 
-    public BecaController(BecaService becaService, CustomUserDetailsService customUserDetailsService) {
+    public BecaController(BecaService becaService,
+                          BecaImportService becaImportService,
+                          CustomUserDetailsService customUserDetailsService) {
         this.becaService = becaService;
+        this.becaImportService = becaImportService;
         this.customUserDetailsService = customUserDetailsService;
     }
 
@@ -43,8 +50,19 @@ public class BecaController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
-        Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, pageable);
+        Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, null, null, null, null, pageable);
         return ResponseEntity.ok(ApiResponse.success(becas, "Becas recuperadas exitosamente"));
+    }
+
+    @GetMapping("/recomendadas")
+    @PreAuthorize("isAuthenticated()")
+    public ResponseEntity<ApiResponse<Page<BecaDTO>>> recomendar(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            Principal principal) {
+        PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
+        Page<BecaDTO> becas = becaService.recomendarBecas(principal.getName(), pageable);
+        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recomendadas para tu perfil"));
     }
 
     @GetMapping("/{id}")
@@ -57,13 +75,16 @@ public class BecaController {
     public ResponseEntity<ApiResponse<Page<BecaDTO>>> buscar(@Valid @RequestBody BecaSearchRequest request) {
         PageRequest pageable = PageRequest.of(
                 request.getPage() != null ? request.getPage() : 0,
-                request.getSize() != null ? request.getSize() : 10,
-                Sort.by("fechaCierrePostulacion").ascending()
+                request.getSize() != null ? request.getSize() : 10
         );
         Page<BecaDTO> becas = becaService.buscarBecas(
                 request.getRsh(),
                 request.getNem(),
                 request.getRegionId() != null ? request.getRegionId().longValue() : null,
+                request.getQuery(),
+                request.getIdTipoBeca(),
+                request.getIdInstitucion(),
+                request.getSort(),
                 pageable
         );
         return ResponseEntity.ok(ApiResponse.success(becas, "Busqueda completada exitosamente"));
@@ -90,5 +111,14 @@ public class BecaController {
     public ResponseEntity<ApiResponse<Void>> delete(@PathVariable Long id) {
         becaService.delete(id);
         return ResponseEntity.ok(ApiResponse.success(null, "Beca eliminada exitosamente"));
+    }
+
+    @PostMapping("/importar-csv")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<ApiResponse<ImportResultDTO>> importarCsv(@RequestParam("file") MultipartFile file) {
+        ImportResultDTO result = becaImportService.importarDesdeCsv(file);
+        return ResponseEntity.ok(ApiResponse.success(result,
+                "Importacion completada: " + result.getCreadas() + " creadas, " +
+                result.getActualizadas() + " actualizadas, " + result.getErrores() + " errores"));
     }
 }

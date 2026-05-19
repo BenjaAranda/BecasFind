@@ -3,9 +3,12 @@ package com.becasfind.api.services.impl;
 import com.becasfind.api.config.UserDetailsImpl;
 import com.becasfind.api.models.dtos.AuthResponse;
 import com.becasfind.api.models.dtos.LoginRequest;
+import com.becasfind.api.models.dtos.RegisterRequest;
 import com.becasfind.api.models.entities.PasswordResetToken;
+import com.becasfind.api.models.entities.Rol;
 import com.becasfind.api.models.entities.Usuario;
 import com.becasfind.api.repositories.PasswordResetTokenRepository;
+import com.becasfind.api.repositories.RolRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.AuthService;
 import com.becasfind.api.utils.JwtUtil;
@@ -30,17 +33,20 @@ public class AuthServiceImpl implements AuthService {
 
     private final AuthenticationManager authenticationManager;
     private final UsuarioRepository usuarioRepository;
+    private final RolRepository rolRepository;
     private final PasswordResetTokenRepository passwordResetTokenRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtUtil jwtUtil;
 
     public AuthServiceImpl(AuthenticationManager authenticationManager,
                            UsuarioRepository usuarioRepository,
+                           RolRepository rolRepository,
                            PasswordResetTokenRepository passwordResetTokenRepository,
                            PasswordEncoder passwordEncoder,
                            JwtUtil jwtUtil) {
         this.authenticationManager = authenticationManager;
         this.usuarioRepository = usuarioRepository;
+        this.rolRepository = rolRepository;
         this.passwordResetTokenRepository = passwordResetTokenRepository;
         this.passwordEncoder = passwordEncoder;
         this.jwtUtil = jwtUtil;
@@ -66,6 +72,41 @@ public class AuthServiceImpl implements AuthService {
                 .nombreRol(userDetails.getRole())
                 .nombreCompleto(userDetails.getNombreCompleto())
                 .email(userDetails.getUsername())
+                .build();
+    }
+
+    @Override
+    @Transactional
+    public AuthResponse register(RegisterRequest request) {
+        if (usuarioRepository.existsByEmail(request.getEmail())) {
+            throw new IllegalArgumentException("El email ya esta registrado: " + request.getEmail());
+        }
+
+        Rol rolStudent = rolRepository.findByNombreRol("STUDENT")
+                .orElseThrow(() -> new IllegalStateException("Rol STUDENT no encontrado en la base de datos"));
+
+        Usuario usuario = new Usuario();
+        usuario.setEmail(request.getEmail());
+        usuario.setPasswordHash(passwordEncoder.encode(request.getPassword()));
+        usuario.setNombreCompleto(request.getNombreCompleto());
+        usuario.setRol(rolStudent);
+        usuario.setActivo(true);
+
+        usuario = usuarioRepository.save(usuario);
+        log.info("Nuevo usuario registrado: {}", usuario.getEmail());
+
+        String token = jwtUtil.generateToken(
+                usuario.getEmail(),
+                rolStudent.getNombreRol(),
+                usuario.getNombreCompleto()
+        );
+
+        return AuthResponse.builder()
+                .token(token)
+                .tokenType("Bearer")
+                .nombreRol(rolStudent.getNombreRol())
+                .nombreCompleto(usuario.getNombreCompleto())
+                .email(usuario.getEmail())
                 .build();
     }
 

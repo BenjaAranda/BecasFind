@@ -28,4 +28,6 @@ public interface BecaRepository extends JpaRepository<Beca, Long>, JpaSpecificat
     java.util.Optional<Beca> findByIdWithDetails(@Param("idBeca") Long idBeca);
 
     Page<Beca> findByEstadoActivaTrueAndFechaCierrePostulacionAfter(java.time.LocalDate fecha, Pageable pageable);
+
+    java.util.Optional<Beca> findByNombreAndInstitucionIdInstitucion(String nombre, Long idInstitucion);
 }

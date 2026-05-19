@@ -84,14 +84,8 @@ INSERT IGNORE INTO tipos_beca (id_tipo_beca, nombre) VALUES
 -- =============================================
 -- 7. USUARIOS
 -- =============================================
--- NOTA: Los password_hash deben generarse con BCryptPasswordEncoder.
--- Reemplazar los hashes si es necesario usando la app o un generador BCrypt online.
---
--- Password admin123 → hash generado con BCrypt 12 rounds
--- Password student123 → hash generado con BCrypt 12 rounds
-INSERT IGNORE INTO usuarios (id_usuario, id_rol, email, password_hash, nombre_completo, activo, creado_en) VALUES
-(1, (SELECT id_rol FROM roles WHERE nombre_rol = 'ADMIN'),   'admin@becasfind.cl',   '$2a$12$LJ3m4ys3GZfnYMz8kVsX.uLFpB.uN3h5XQvGhFxQG7pHXtVmL3Ob.', 'Admin BecasFind',    TRUE, NOW()),
-(2, (SELECT id_rol FROM roles WHERE nombre_rol = 'STUDENT'), 'estudiante@duoc.cl',    '$2a$12$LJ3m4ys3GZfnYMz8kVsX.uLFpB.uN3h5XQvGhFxQG7pHXtVmL3Ob.', 'María González',     TRUE, NOW());
+-- Los usuarios se crean via DatabaseSeeder.java con BCrypt nativo.
+-- Ver: com.becasfind.api.config.bootstrap.DatabaseSeeder
 
 -- =============================================
 -- 8. BECAS

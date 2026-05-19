@@ -4,6 +4,7 @@ import com.becasfind.api.models.dtos.ApiResponse;
 import com.becasfind.api.models.dtos.AuthResponse;
 import com.becasfind.api.models.dtos.ForgotPasswordRequest;
 import com.becasfind.api.models.dtos.LoginRequest;
+import com.becasfind.api.models.dtos.RegisterRequest;
 import com.becasfind.api.models.dtos.ResetPasswordRequest;
 import com.becasfind.api.services.AuthService;
 import jakarta.validation.Valid;
@@ -28,6 +29,13 @@ public class AuthController {
     public ResponseEntity<ApiResponse<AuthResponse>> login(@Valid @RequestBody LoginRequest request) {
         AuthResponse authResponse = authService.login(request);
         return ResponseEntity.ok(ApiResponse.success(authResponse, "Inicio de sesion exitoso"));
+    }
+
+    @PostMapping("/register")
+    public ResponseEntity<ApiResponse<AuthResponse>> register(@Valid @RequestBody RegisterRequest request) {
+        AuthResponse authResponse = authService.register(request);
+        return ResponseEntity.status(HttpStatus.CREATED)
+                .body(ApiResponse.success(authResponse, "Registro exitoso"));
     }
 
     @PostMapping("/forgot-password")
