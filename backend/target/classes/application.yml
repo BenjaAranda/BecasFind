@@ -21,7 +21,7 @@ spring:
   # SQL Data Seeding
   sql:
     init:
-      mode: never
+      mode: always
 
   # JPA / Hibernate Configuration
   jpa:

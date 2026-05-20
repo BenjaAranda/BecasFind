@@ -170,8 +170,16 @@ public class BecaImportServiceImpl implements BecaImportService {
         }
 
         LocalDate fechaCierre = parseDate(row.getFechaCierre(), "fecha_cierre", row.getNombre());
+        if (fechaCierre == null) {
+            fechaCierre = LocalDate.of(LocalDate.now().getYear(), 12, 31);
+            log.warn("Fila [{}]: fecha_cierre nula/vacía — asignado default 31-12-{}", row.getNombre(), LocalDate.now().getYear());
+        }
         LocalDate fechaInicio = row.getFechaInicio() != null && !row.getFechaInicio().isBlank()
                 ? parseDate(row.getFechaInicio(), "fecha_inicio", row.getNombre()) : null;
+        if (fechaInicio == null) {
+            fechaInicio = LocalDate.of(LocalDate.now().getYear(), 1, 1);
+            log.warn("Fila [{}]: fecha_inicio nula/vacía — asignado default 01-01-{}", row.getNombre(), LocalDate.now().getYear());
+        }
 
         Integer rsh = parseOptionalInt(row.getRshMaximo(), "rsh_maximo", row.getNombre(), result);
         BigDecimal nem = parseOptionalBigDecimal(row.getNemMinimo(), "nem_minimo", row.getNombre(), result);
@@ -196,6 +204,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             }
 
             becaRepository.save(beca);
+            becaRepository.flush();
             result.setActualizadas(result.getActualizadas() + 1);
         } else {
             Beca beca = new Beca();
@@ -218,6 +227,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setRequisitoPerfil(rp);
 
             becaRepository.save(beca);
+            becaRepository.flush();
             result.setCreadas(result.getCreadas() + 1);
         }
     }

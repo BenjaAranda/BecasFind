@@ -88,109 +88,95 @@ INSERT IGNORE INTO tipos_beca (id_tipo_beca, nombre) VALUES
 -- Ver: com.becasfind.api.config.bootstrap.DatabaseSeeder
 
 -- =============================================
--- 8. BECAS
+-- 8. BECAS (DESACTIVADO — seeding vía CSV import)
 -- =============================================
--- Beca 1: ACTIVA (fecha cierre futura → visible en búsqueda)
-INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
-(1, 1, 1, 1,
- 'Beca Nuevo Milenio',
- 'Beca de arancel dirigida a estudiantes de primer año con alto rendimiento académico.',
- 'La Beca Nuevo Milenio es un beneficio estatal destinado a estudiantes que ingresan a primer año en instituciones técnico-profesionales acreditadas. Cubre el arancel anual de la carrera hasta por un monto máximo de $600.000. Está enfocada en jóvenes pertenecientes al 60% más vulnerable de la población según el Registro Social de Hogares.',
- '$600.000 anual',
- '2025-10-01',
- '2026-12-31',
- 'https://portal.becasylemas.cl/beca-nuevo-milenio',
- TRUE);
-
--- Beca 2: EXPIRADA (fecha cierre en el pasado → NO visible en búsqueda, prueba BR-VIGENCIA)
-INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
-(2, 3, 3, 1,
- 'Beca de Alimentación BAES 2024',
- 'Tarjeta electrónica de alimentación para estudiantes de educación superior.',
- 'La Beca BAES (Beca de Alimentación para la Educación Superior) entrega una tarjeta electrónica con un monto mensual equivalente a 1,5 UTM para que los estudiantes puedan adquirir alimentos. Esta convocatoria ya ha expirado y permite probar que el buscador excluye correctamente las becas vencidas.',
- '$40.000 mensual (expirada)',
- '2024-01-02',
- '2024-03-15',
- 'https://www.junaeb.cl/beca-baes',
- TRUE);
-
--- Beca 3: ACTIVA (excelencia académica, NEM alto, RSH amplio)
-INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
-(3, 2, 1, 1,
- 'Beca Excelencia Académica UTFSM',
- 'Beca de arancel completo para estudiantes con excelencia académica en la UTFSM.',
- 'La Beca Excelencia Académica de la Universidad Técnica Federico Santa María cubre el 100% del arancel de referencia para estudiantes con promedio NEM igual o superior a 6.0. Está orientada a alumnos del 80% más vulnerable y exige mantener un rendimiento destacado durante toda la carrera.',
- 'Arancel completo ($3.500.000 anual aprox.)',
- '2025-09-01',
- '2026-11-30',
- 'https://www.usm.cl/admision/becas',
- TRUE);
-
--- Beca 4: ACTIVA (nacional, sin requisito NEM/RSH)
-INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
-(4, 1, 2, 1,
- 'Beca de Mantención DUOC',
- 'Apoyo económico mensual para gastos de manutención durante los estudios.',
- 'Beca interna de DUOC UC que entrega un apoyo económico de $50.000 mensuales durante 10 meses del año académico para estudiantes que demuestren necesidad socioeconómica. Es de alcance nacional y no exige requisitos académicos mínimos, solo estar matriculado y tener asistencia regular.',
- '$50.000 mensual por 10 meses',
- '2025-08-01',
- '2026-07-31',
- 'https://www.duoc.cl/becas-internas',
- TRUE);
-
+-- INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
+-- (1, 1, 1, 1,
+--  'Beca Nuevo Milenio',
+--  'Beca de arancel dirigida a estudiantes de primer año con alto rendimiento académico.',
+--  'La Beca Nuevo Milenio es un beneficio estatal destinado a estudiantes que ingresan a primer año en instituciones técnico-profesionales acreditadas. Cubre el arancel anual de la carrera hasta por un monto máximo de $600.000. Está enfocada en jóvenes pertenecientes al 60% más vulnerable de la población según el Registro Social de Hogares.',
+--  '$600.000 anual',
+--  '2025-10-01',
+--  '2026-12-31',
+--  'https://portal.becasylemas.cl/beca-nuevo-milenio',
+--  TRUE);
+-- 
+-- -- Beca 2: EXPIRADA (fecha cierre en el pasado → NO visible en búsqueda, prueba BR-VIGENCIA)
+-- INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
+-- (2, 3, 3, 1,
+--  'Beca de Alimentación BAES 2024',
+--  'Tarjeta electrónica de alimentación para estudiantes de educación superior.',
+--  'La Beca BAES (Beca de Alimentación para la Educación Superior) entrega una tarjeta electrónica con un monto mensual equivalente a 1,5 UTM para que los estudiantes puedan adquirir alimentos. Esta convocatoria ya ha expirado y permite probar que el buscador excluye correctamente las becas vencidas.',
+--  '$40.000 mensual (expirada)',
+--  '2024-01-02',
+--  '2024-03-15',
+--  'https://www.junaeb.cl/beca-baes',
+--  TRUE);
+-- 
+-- -- Beca 3: ACTIVA (excelencia académica, NEM alto, RSH amplio)
+-- INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
+-- (3, 2, 1, 1,
+--  'Beca Excelencia Académica UTFSM',
+--  'Beca de arancel completo para estudiantes con excelencia académica en la UTFSM.',
+--  'La Beca Excelencia Académica de la Universidad Técnica Federico Santa María cubre el 100% del arancel de referencia para estudiantes con promedio NEM igual o superior a 6.0. Está orientada a alumnos del 80% más vulnerable y exige mantener un rendimiento destacado durante toda la carrera.',
+--  'Arancel completo ($3.500.000 anual aprox.)',
+--  '2025-09-01',
+--  '2026-11-30',
+--  'https://www.usm.cl/admision/becas',
+--  TRUE);
+-- 
+-- -- Beca 4: ACTIVA (nacional, sin requisito NEM/RSH)
+-- INSERT IGNORE INTO becas (id_beca, id_institucion, id_tipo_beca, id_usuario_creador, nombre, descripcion_corta, descripcion_larga, monto_cobertura, fecha_inicio_postulacion, fecha_cierre_postulacion, url_oficial, estado_activa) VALUES
+-- (4, 1, 2, 1,
+--  'Beca de Mantención DUOC',
+--  'Apoyo económico mensual para gastos de manutención durante los estudios.',
+--  'Beca interna de DUOC UC que entrega un apoyo económico de $50.000 mensuales durante 10 meses del año académico para estudiantes que demuestren necesidad socioeconómica. Es de alcance nacional y no exige requisitos académicos mínimos, solo estar matriculado y tener asistencia regular.',
+--  '$50.000 mensual por 10 meses',
+--  '2025-08-01',
+--  '2026-07-31',
+--  'https://www.duoc.cl/becas-internas',
+--  TRUE);
+-- 
 -- =============================================
--- 9. REQUISITOS DE PERFIL (1:1 con Beca)
+-- 9. REQUISITOS DE PERFIL (DESACTIVADO — seeding vía CSV import)
 -- =============================================
--- Beca Nuevo Milenio: RSH <= 60%, NEM >= 5.0, primer año
-INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
-(1, 1, 60, 5.0, NULL, TRUE, FALSE);
-
--- Beca BAES 2024: RSH <= 60%, NEM >= 4.0 (expirada)
-INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
-(2, 2, 60, 4.0, NULL, FALSE, TRUE);
-
--- Beca Excelencia UTFSM: RSH <= 80%, NEM >= 6.0, primer año
-INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
-(3, 3, 80, 6.0, NULL, TRUE, FALSE);
-
--- Beca Mantención DUOC: sin requisitos de RSH ni NEM (nacional, abierta)
-INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
-(4, 4, NULL, NULL, NULL, FALSE, TRUE);
-
+-- INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
+-- (1, 1, 60, 5.0, NULL, TRUE, FALSE);
+-- 
+-- INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
+-- (2, 2, 60, 4.0, NULL, FALSE, TRUE);
+-- 
+-- INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
+-- (3, 3, 80, 6.0, NULL, TRUE, FALSE);
+-- 
+-- INSERT IGNORE INTO requisitos_perfil (id_requisito, id_beca, rsh_maximo_porcentaje, nem_minimo, paes_minimo, es_para_primer_anio, es_para_curso_superior) VALUES
+-- (4, 4, NULL, NULL, NULL, FALSE, TRUE);
+-- 
 -- =============================================
--- 10. BECAS_REGIONES (Relación M:N)
+-- 10. BECAS_REGIONES (DESACTIVADO — seeding vía CSV import)
 -- =============================================
--- Beca Nuevo Milenio: Valparaíso y Metropolitana
-INSERT IGNORE INTO becas_regiones (id_beca, id_region) VALUES
-(1, 6),
-(1, 7);
-
--- Beca BAES 2024: SIN regiones (Nacional — no se inserta registro)
-
--- Beca Excelencia UTFSM: Valparaíso
-INSERT IGNORE INTO becas_regiones (id_beca, id_region) VALUES
-(3, 6);
-
--- Beca Mantención DUOC: SIN regiones (Nacional — no se inserta registro)
-
+-- INSERT IGNORE INTO becas_regiones (id_beca, id_region) VALUES
+-- (1, 6),
+-- (1, 7);
+-- 
+-- INSERT IGNORE INTO becas_regiones (id_beca, id_region) VALUES
+-- (3, 6);
+-- 
 -- =============================================
--- 11. DOCUMENTOS REQUERIDOS
+-- 11. DOCUMENTOS REQUERIDOS (DESACTIVADO — seeding vía CSV import)
 -- =============================================
--- Beca Nuevo Milenio
-INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
-(1, 1, 'Cédula de identidad vigente', TRUE),
-(2, 1, 'Certificado de notas de enseñanza media', TRUE),
-(3, 1, 'Registro Social de Hogares actualizado', TRUE),
-(4, 1, 'Matrícula del año en curso', TRUE);
-
--- Beca Excelencia UTFSM
-INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
-(5, 3, 'Cédula de identidad vigente', TRUE),
-(6, 3, 'Certificado de notas de enseñanza media (NEM)', TRUE),
-(7, 3, 'Carta de motivación personal', FALSE);
-
--- Beca Mantención DUOC
-INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
-(8, 4, 'Cédula de identidad vigente', TRUE),
-(9, 4, 'Comprobante de matrícula DUOC UC', TRUE),
-(10, 4, 'Cartola de Registro Social de Hogares', TRUE);
+-- INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
+-- (1, 1, 'Cédula de identidad vigente', TRUE),
+-- (2, 1, 'Certificado de notas de enseñanza media', TRUE),
+-- (3, 1, 'Registro Social de Hogares actualizado', TRUE),
+-- (4, 1, 'Matrícula del año en curso', TRUE);
+-- 
+-- INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
+-- (5, 3, 'Cédula de identidad vigente', TRUE),
+-- (6, 3, 'Certificado de notas de enseñanza media (NEM)', TRUE),
+-- (7, 3, 'Carta de motivación personal', FALSE);
+-- 
+-- INSERT IGNORE INTO documentos_requeridos (id_documento, id_beca, nombre_documento, es_obligatorio) VALUES
+-- (8, 4, 'Cédula de identidad vigente', TRUE),
+-- (9, 4, 'Comprobante de matrícula DUOC UC', TRUE),
+-- (10, 4, 'Cartola de Registro Social de Hogares', TRUE);
