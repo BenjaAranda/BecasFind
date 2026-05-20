@@ -25,7 +25,7 @@ BecasFind/
 │   │   └── utils/           # JwtUtil, helpers
 │   └── src/main/resources/
 │       └── application.yml
-├── frontend/                # React 18+ · Vite
+├── frontend/                # React 19+ · Vite · Tailwind CSS
 │   ├── package.json
 │   └── src/
 │       ├── assets/
@@ -49,10 +49,11 @@ BecasFind/
 
 | Capa | Tecnología | Versión |
 |------|-----------|---------|
-| Backend | Spring Boot (Maven) | 3.x |
+| Backend | Spring Boot (Maven) | 3.4.5 |
 | Lenguaje Back | Java | 17+ |
-| Frontend | React + Vite | 18+ |
-| Librerías Front | React Router DOM v6, Axios, React-Bootstrap, React Hook Form | — |
+| Frontend | React + Vite | 19.2.5 |
+| CSS | Tailwind CSS + @tailwindcss/vite | 4.3.0 |
+| Librerías Front | React Router DOM v7, Axios, lucide-react, jwt-decode | — |
 | Base de Datos | MySQL (AWS RDS) | 8.0 |
 | Servidor | AWS EC2 Ubuntu | 22.04 LTS |
 | Proxy Web | Nginx | — |
@@ -76,7 +77,7 @@ cd frontend; npm run build
 
 # Tests (cuando existan)
 cd backend; mvn test
-cd frontend; npx vitest run
+cd frontend; npm run lint
 ```
 
 ---
@@ -170,11 +171,11 @@ Estas reglas aplican a todas las fases de la V2.0 y deben ser respetadas sin exc
 ## 7. Convenciones de Código Frontend
 
 - **Feature-based structure**: Agrupar por dominio, no por tipo de archivo.
-- **React Hook Form**: Validación de formularios.
-- **React-Bootstrap**: Componentes UI (NO otros frameworks CSS).
+- **Tailwind CSS**: Estilos utilitarios directo en className. NO usar frameworks CSS ajenos (Bootstrap, MUI).
 - **Axios interceptors**: Inyectar JWT automáticamente en cada request.
 - **AuthContext**: Manejar estado de autenticación global.
 - **Rutas protegidas**: Componente `<ProtectedRoute>` que verifica rol.
+- **lucide-react**: Librería de íconos oficial.
 
 ---
 

@@ -20,7 +20,7 @@ public class CsvBecaRow {
     @CsvBindByName(column = "institucion", required = true)
     private String institucion;
 
-    @CsvBindByName(column = "tipo_beca", required = true)
+    @CsvBindByName(column = "tipo_beca")
     private String tipoBeca;
 
     @CsvBindByName(column = "monto")
@@ -29,7 +29,7 @@ public class CsvBecaRow {
     @CsvBindByName(column = "fecha_inicio")
     private String fechaInicio;
 
-    @CsvBindByName(column = "fecha_cierre", required = true)
+    @CsvBindByName(column = "fecha_cierre")
     private String fechaCierre;
 
     @CsvBindByName(column = "rsh_maximo")

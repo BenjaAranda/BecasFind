@@ -26,12 +26,13 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.Reader;
+
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -68,7 +69,12 @@ public class BecaImportServiceImpl implements BecaImportService {
     public ImportResultDTO importarDesdeCsv(MultipartFile file) {
         ImportResultDTO result = new ImportResultDTO();
 
-        try (Reader reader = new BufferedReader(new InputStreamReader(file.getInputStream(), StandardCharsets.UTF_8))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(file.getInputStream(), StandardCharsets.UTF_8))) {
+            reader.mark(1);
+            if (reader.read() != '\uFEFF') {
+                reader.reset();
+            }
+
             CsvToBean<CsvBecaRow> csvToBean = new CsvToBeanBuilder<CsvBecaRow>(reader)
                     .withType(CsvBecaRow.class)
                     .withIgnoreLeadingWhiteSpace(true)
@@ -76,11 +82,22 @@ public class BecaImportServiceImpl implements BecaImportService {
                     .build();
 
             List<CsvBecaRow> rows = csvToBean.parse();
+
+            log.info("CSV parseado: {} filas detectadas", rows.size());
+            if (rows.isEmpty()) {
+                log.warn("CSV sin filas: verifique que los encabezados del archivo coincidan con los nombres de columna esperados (nombre, institucion, tipo_beca, monto, fecha_inicio, fecha_cierre, rsh_maximo, nem_minimo, regiones, descripcion, url)");
+                result.getMensajesError().add("No se detectaron filas: verifique que los nombres de columna del CSV coincidan exactamente con los esperados");
+                result.setErrores(result.getErrores() + 1);
+            }
+
             for (CsvBecaRow row : rows) {
                 try {
+                    validarCamposRequeridos(row);
                     processRow(row, result);
                 } catch (Exception e) {
-                    result.getMensajesError().add("Fila '" + row.getNombre() + "': " + e.getMessage());
+                    String nombreFila = row.getNombre() != null ? row.getNombre() : "(nombre nulo)";
+                    log.warn("Fila ignorada [{}]: {}", nombreFila, e.getMessage());
+                    result.getMensajesError().add("Fila '" + nombreFila + "': " + e.getMessage());
                     result.setErrores(result.getErrores() + 1);
                 }
             }
@@ -93,6 +110,17 @@ public class BecaImportServiceImpl implements BecaImportService {
         log.info("Importacion completada: {} creadas, {} actualizadas, {} errores",
                 result.getCreadas(), result.getActualizadas(), result.getErrores());
         return result;
+    }
+
+    private void validarCamposRequeridos(CsvBecaRow row) {
+        List<String> faltantes = new ArrayList<>();
+        if (row.getNombre() == null || row.getNombre().isBlank()) faltantes.add("nombre");
+        if (row.getInstitucion() == null || row.getInstitucion().isBlank()) faltantes.add("institucion");
+        if (row.getTipoBeca() == null || row.getTipoBeca().isBlank()) faltantes.add("tipo_beca");
+        if (!faltantes.isEmpty()) {
+            throw new IllegalArgumentException("Campos requeridos ausentes/vacíos: " + String.join(", ", faltantes)
+                    + " — verificar coincidencia exacta de nombres de columna en el CSV");
+        }
     }
 
     private void processRow(CsvBecaRow row, ImportResultDTO result) {
@@ -129,14 +157,24 @@ public class BecaImportServiceImpl implements BecaImportService {
         Set<Region> regionesSet = new HashSet<>();
         if (row.getRegiones() != null && !row.getRegiones().isBlank()) {
             for (String abrev : row.getRegiones().split(",")) {
-                regionRepository.findByAbreviaturaIgnoreCase(abrev.trim())
-                        .ifPresent(regionesSet::add);
+                String abrevTrimmed = abrev.trim();
+                var regionOpt = regionRepository.findByAbreviaturaIgnoreCase(abrevTrimmed);
+                if (regionOpt.isPresent()) {
+                    regionesSet.add(regionOpt.get());
+                } else {
+                    log.warn("Fila [{}]: región no encontrada en BD - abreviatura='{}'",
+                            row.getNombre(), abrevTrimmed);
+                    result.getMensajesError().add("Fila '" + row.getNombre() + "': región no encontrada - '" + abrevTrimmed + "'");
+                }
             }
         }
 
-        LocalDate fechaCierre = parseDate(row.getFechaCierre());
+        LocalDate fechaCierre = parseDate(row.getFechaCierre(), "fecha_cierre", row.getNombre());
         LocalDate fechaInicio = row.getFechaInicio() != null && !row.getFechaInicio().isBlank()
-                ? parseDate(row.getFechaInicio()) : null;
+                ? parseDate(row.getFechaInicio(), "fecha_inicio", row.getNombre()) : null;
+
+        Integer rsh = parseOptionalInt(row.getRshMaximo(), "rsh_maximo", row.getNombre(), result);
+        BigDecimal nem = parseOptionalBigDecimal(row.getNemMinimo(), "nem_minimo", row.getNombre(), result);
 
         var becaExistente = becaRepository.findByNombreAndInstitucionIdInstitucion(
                 row.getNombre().trim(), institucion.getIdInstitucion());
@@ -148,13 +186,13 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
             beca.setDescripcionCorta(row.getDescripcion());
-            beca.setEstadoActiva(fechaCierre != null && fechaCierre.isAfter(LocalDate.now()));
+            beca.setEstadoActiva(fechaCierre == null || fechaCierre.isAfter(LocalDate.now()));
             if (!regionesSet.isEmpty()) beca.setRegiones(regionesSet);
 
             if (beca.getRequisitoPerfil() != null) {
                 RequisitoPerfil rp = beca.getRequisitoPerfil();
-                rp.setRshMaximoPorcentaje(parseInt(row.getRshMaximo()));
-                rp.setNemMinimo(parseBigDecimal(row.getNemMinimo()));
+                rp.setRshMaximoPorcentaje(rsh);
+                rp.setNemMinimo(nem);
             }
 
             becaRepository.save(beca);
@@ -167,7 +205,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
-            beca.setEstadoActiva(fechaCierre != null && fechaCierre.isAfter(LocalDate.now()));
+            beca.setEstadoActiva(fechaCierre == null || fechaCierre.isAfter(LocalDate.now()));
             beca.setInstitucion(institucion);
             beca.setTipoBeca(tipoBeca);
             beca.setUsuarioCreador(admin);
@@ -175,8 +213,8 @@ public class BecaImportServiceImpl implements BecaImportService {
 
             RequisitoPerfil rp = new RequisitoPerfil();
             rp.setBeca(beca);
-            rp.setRshMaximoPorcentaje(parseInt(row.getRshMaximo()));
-            rp.setNemMinimo(parseBigDecimal(row.getNemMinimo()));
+            rp.setRshMaximoPorcentaje(rsh);
+            rp.setNemMinimo(nem);
             beca.setRequisitoPerfil(rp);
 
             becaRepository.save(beca);
@@ -184,23 +222,39 @@ public class BecaImportServiceImpl implements BecaImportService {
         }
     }
 
-    private LocalDate parseDate(String value) {
+    private LocalDate parseDate(String value, String fieldName, String rowName) {
         if (value == null || value.isBlank()) return null;
         for (String fmt : Arrays.asList("yyyy-MM-dd", "dd/MM/yyyy", "dd-MM-yyyy")) {
             try {
                 return LocalDate.parse(value.trim(), DateTimeFormatter.ofPattern(fmt));
             } catch (DateTimeParseException ignored) {}
         }
-        throw new IllegalArgumentException("Formato de fecha no reconocido: " + value);
+        String msg = String.format("Formato de fecha no reconocido en '%s': '%s'", fieldName, value);
+        log.warn("Fila [{}]: {}", rowName, msg);
+        throw new IllegalArgumentException(msg);
     }
 
-    private Integer parseInt(String value) {
+    private Integer parseOptionalInt(String value, String fieldName, String rowName, ImportResultDTO result) {
         if (value == null || value.isBlank()) return null;
-        try { return Integer.parseInt(value.trim()); } catch (NumberFormatException e) { return null; }
+        try {
+            return Integer.parseInt(value.trim());
+        } catch (NumberFormatException e) {
+            String msg = String.format("Valor no numérico en '%s': '%s' — se asignará null", fieldName, value);
+            log.warn("Fila [{}]: {}", rowName, msg);
+            result.getMensajesError().add("Fila '" + rowName + "': " + msg);
+            return null;
+        }
     }
 
-    private BigDecimal parseBigDecimal(String value) {
+    private BigDecimal parseOptionalBigDecimal(String value, String fieldName, String rowName, ImportResultDTO result) {
         if (value == null || value.isBlank()) return null;
-        try { return new BigDecimal(value.trim()); } catch (NumberFormatException e) { return null; }
+        try {
+            return new BigDecimal(value.trim());
+        } catch (NumberFormatException e) {
+            String msg = String.format("Valor no numérico en '%s': '%s' — se asignará null", fieldName, value);
+            log.warn("Fila [{}]: {}", rowName, msg);
+            result.getMensajesError().add("Fila '" + rowName + "': " + msg);
+            return null;
+        }
     }
 }
