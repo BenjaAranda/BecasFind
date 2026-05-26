@@ -194,7 +194,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
             beca.setDescripcionCorta(row.getDescripcion());
-            beca.setEstadoActiva(fechaCierre == null || fechaCierre.isAfter(LocalDate.now()));
+            beca.setEstadoActiva(true);
             if (!regionesSet.isEmpty()) beca.setRegiones(regionesSet);
 
             if (beca.getRequisitoPerfil() != null) {
@@ -214,7 +214,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
-            beca.setEstadoActiva(fechaCierre == null || fechaCierre.isAfter(LocalDate.now()));
+            beca.setEstadoActiva(true);
             beca.setInstitucion(institucion);
             beca.setTipoBeca(tipoBeca);
             beca.setUsuarioCreador(admin);

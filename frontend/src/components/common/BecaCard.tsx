@@ -1,5 +1,5 @@
 import { type BecaSummary } from '../../types';
-import { Calendar, Building2, Tag, MapPin, Bookmark } from 'lucide-react';
+import { Calendar, Building2, Tag, MapPin, Bookmark, Clock } from 'lucide-react';
 
 interface BecaCardProps {
   beca: BecaSummary;
@@ -15,6 +15,8 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
       month: 'long',
       year: 'numeric',
     });
+
+  const isExpired = new Date(beca.fechaCierrePostulacion) < new Date();
 
   return (
     <div
@@ -38,6 +40,15 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
           </span>
         </div>
       </div>
+
+      {isExpired && (
+        <div className="flex items-center gap-1.5 mb-3">
+          <Clock className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+          <span className="text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
+            Postulación cerrada · Abre próximo año
+          </span>
+        </div>
+      )}
 
       {beca.descripcionCorta && (
         <p className="text-sm text-gray-500 mb-4 line-clamp-2">{beca.descripcionCorta}</p>
