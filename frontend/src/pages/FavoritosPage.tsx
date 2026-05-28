@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { favoritoService } from '../services/favoritoService';
 import type { BecaSummary } from '../types';
 import BecaCard from '../components/common/BecaCard';
-import { GraduationCap, Bookmark } from 'lucide-react';
+import { GraduationCap, Bookmark, ArrowLeft } from 'lucide-react';
 
 export default function FavoritosPage() {
   const navigate = useNavigate();
@@ -39,6 +39,9 @@ export default function FavoritosPage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6">
+        <button onClick={() => navigate('/explorar')} className="flex items-center gap-1 text-sm text-gray-500 hover:text-blue-600 mb-3 cursor-pointer">
+          <ArrowLeft className="w-4 h-4" /> Volver al Buscador
+        </button>
         <div className="flex items-center gap-2 mb-6">
           <Bookmark className="w-6 h-6 text-blue-600" />
           <h1 className="text-2xl font-bold text-gray-800">Mis Favoritos</h1>

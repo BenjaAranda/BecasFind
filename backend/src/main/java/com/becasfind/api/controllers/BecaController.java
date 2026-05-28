@@ -50,7 +50,7 @@ public class BecaController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
-        Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, null, null, null, null, pageable);
+        Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, null, null, null, null, null, pageable);
         return ResponseEntity.ok(ApiResponse.success(becas, "Becas recuperadas exitosamente"));
     }
 
@@ -84,6 +84,7 @@ public class BecaController {
                 request.getQuery(),
                 request.getIdTipoBeca(),
                 request.getIdInstitucion(),
+                request.getIdTipoInstitucion(),
                 request.getSort(),
                 pageable
         );

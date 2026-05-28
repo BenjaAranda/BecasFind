@@ -105,6 +105,7 @@ export interface BecaSearchRequest {
   query?: string | null;
   idTipoBeca?: number | null;
   idInstitucion?: number | null;
+  idTipoInstitucion?: number | null;
   sort?: string | null;
   page?: number;
   size?: number;

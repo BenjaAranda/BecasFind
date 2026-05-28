@@ -10,7 +10,7 @@ public interface BecaService {
 
     Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
                               String query, Long idTipoBeca, Long idInstitucion,
-                              String sort, Pageable pageable);
+                              Long idTipoInstitucion, String sort, Pageable pageable);
 
     Page<BecaDTO> recomendarBecas(String email, Pageable pageable);
 

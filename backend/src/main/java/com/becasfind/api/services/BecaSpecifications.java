@@ -96,4 +96,24 @@ public final class BecaSpecifications {
         if (idInstitucion == null) return null;
         return (root, cq, cb) -> cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion);
     }
+
+    /**
+     * Filtro por Tipo de Institución (Universidad, IP, CFT, Municipalidad, etc.)
+     */
+    public static Specification<Beca> hasTipoInstitucion(Long idTipoInstitucion) {
+        if (idTipoInstitucion == null) return null;
+        return (root, cq, cb) -> cb.equal(
+            root.get("institucion").get("tipoInstitucion").get("idTipoInst"), idTipoInstitucion);
+    }
+
+    /**
+     * Recomendación: institución del perfil O gobierno (Mineduc, JUNAEB, Municipalidades).
+     */
+    public static Specification<Beca> hasInstitucionOrGobierno(Long idInstitucion) {
+        if (idInstitucion == null) return null;
+        return (root, cq, cb) -> cb.or(
+            cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion),
+            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 5L)
+        );
+    }
 }

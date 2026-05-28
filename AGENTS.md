@@ -303,4 +303,49 @@ Antes de dar por completada CUALQUIER fase, el agente debe:
 
 ---
 
+## 13. Pipeline de Extracción e Importación de Becas (V2.0)
+
+### 13.1 Reglas de Extracción y Enriquecimiento
+
+- **Doble Descripción**: Cada beca debe mapear dos columnas:
+  - `descripcion` (corta): Resumen directo de máximo 2 líneas (qué financia y a quién va dirigida).
+  - `descripcion_larga`: Texto exhaustivo con renovaciones, exclusiones, documentos requeridos típicos y proceso interno.
+- **Cero Vacíos**: Deducir requisitos de RSH, NEM o PAES usando conocimiento del sistema educativo chileno. Si la fecha de cierre es ambigua, usar por defecto `2026-12-31` para visibilidad continua.
+- **CSV sin comas en texto**: Los campos `descripcion` y `descripcion_larga` NO deben contener comas (`,`). Usar punto (`.`) o punto y coma (`;`) como separadores internos. Los campos que requieran comas deben ir entrecomillados (`"`).
+- **Política de URLs Profundas (Deep Linking)**: Queda estrictamente prohibido usar dominios raíz (ej. `www.universidad.cl/`). Toda beca debe apuntar a la subpágina pública específica donde se detallan sus requisitos (portal de Admisión, DAE, o Asuntos Estudiantiles). Si el sistema web dificulta encontrarla, usar `site:universidad.cl "becas"` en Google.
+- **Documentación Requerida Obligatoria**: Toda beca debe incluir en su `descripcion_larga` una sección `DOCUMENTOS REQUERIDOS:` con cada ítem precedido por `[OBLIGATORIO]` o `[OPCIONAL]`. El frontend parsea automáticamente estos marcadores y los muestra en una sección visual separada con indicadores de color (rojo = obligatorio, ámbar = opcional).
+
+### 13.2 Formato CSV
+
+```
+nombre,institucion,tipo_beca,monto,fecha_inicio,fecha_cierre,rsh_maximo,nem_minimo,regiones,descripcion,descripcion_larga,url
+```
+
+### 13.3 Automatización del Pipeline Local
+
+1. **Ruta de carga**: Guardar CSV en `ScrapperBecasFind/data_lake_becas/02_pendientes/`
+2. **Autenticación**: `POST /api/auth/login` con `admin@becasfind.cl` / `admin123` → extraer JWT del campo `data.token`
+3. **Importación**: `POST /api/becas/importar-csv` con header `Authorization: Bearer <JWT>` y `multipart/form-data` con campo `file`
+4. **Verificación**: Si `errores: 0`, mover CSV a `03_procesados/`
+5. **Usar `curl.exe`** (no PowerShell) para importar — evita problemas de encoding
+
+### 13.4 Comando de Importación (Windows)
+
+```powershell
+$token = (Invoke-RestMethod -Uri "http://localhost:8080/api/auth/login" -Method POST -ContentType "application/json" -Body '{"email":"admin@becasfind.cl","password":"admin123"}').data.token
+curl.exe -X POST "http://localhost:8080/api/becas/importar-csv" -H "Authorization: Bearer $token" -F "file=@ruta\archivo.csv"
+```
+
+### 13.5 Data Lake
+
+```
+ScrapperBecasFind/data_lake_becas/
+├── 01_plantillas/       ← Templates CSV
+├── 02_pendientes/       ← CSVs por importar
+├── 03_procesados/       ← CSVs importados exitosamente
+└── 04_errores/          ← CSVs con fallos
+```
+
+---
+
 **Fin del Contrato Arquitectónico. Toda sesión de IA debe comenzar leyendo este archivo.**

@@ -3,6 +3,7 @@ package com.becasfind.api.services.impl;
 import com.becasfind.api.models.dtos.CsvBecaRow;
 import com.becasfind.api.models.dtos.ImportResultDTO;
 import com.becasfind.api.models.entities.Beca;
+import com.becasfind.api.models.entities.DocumentoRequerido;
 import com.becasfind.api.models.entities.Institucion;
 import com.becasfind.api.models.entities.Region;
 import com.becasfind.api.models.entities.RequisitoPerfil;
@@ -10,6 +11,7 @@ import com.becasfind.api.models.entities.TipoBeca;
 import com.becasfind.api.models.entities.TipoInstitucion;
 import com.becasfind.api.models.entities.Usuario;
 import com.becasfind.api.repositories.BecaRepository;
+import com.becasfind.api.repositories.DocumentoRequeridoRepository;
 import com.becasfind.api.repositories.InstitucionRepository;
 import com.becasfind.api.repositories.RegionRepository;
 import com.becasfind.api.repositories.TipoBecaRepository;
@@ -49,19 +51,22 @@ public class BecaImportServiceImpl implements BecaImportService {
     private final TipoInstitucionRepository tipoInstitucionRepository;
     private final RegionRepository regionRepository;
     private final UsuarioRepository usuarioRepository;
+    private final DocumentoRequeridoRepository documentoRequeridoRepository;
 
     public BecaImportServiceImpl(BecaRepository becaRepository,
                                   InstitucionRepository institucionRepository,
                                   TipoBecaRepository tipoBecaRepository,
                                   TipoInstitucionRepository tipoInstitucionRepository,
                                   RegionRepository regionRepository,
-                                  UsuarioRepository usuarioRepository) {
+                                  UsuarioRepository usuarioRepository,
+                                  DocumentoRequeridoRepository documentoRequeridoRepository) {
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
         this.tipoInstitucionRepository = tipoInstitucionRepository;
         this.regionRepository = regionRepository;
         this.usuarioRepository = usuarioRepository;
+        this.documentoRequeridoRepository = documentoRequeridoRepository;
     }
 
     @Override
@@ -124,24 +129,23 @@ public class BecaImportServiceImpl implements BecaImportService {
     }
 
     private void processRow(CsvBecaRow row, ImportResultDTO result) {
-        TipoInstitucion tipoInst = tipoInstitucionRepository
-                .findByNombreIgnoreCase("Universidad")
-                .orElseGet(() -> {
-                    TipoInstitucion nuevo = new TipoInstitucion();
-                    nuevo.setNombre("Universidad");
-                    return tipoInstitucionRepository.save(nuevo);
-                });
-
         String nombreInst = row.getInstitucion().trim();
+        TipoInstitucion tipoInst = clasificarTipoInstitucion(nombreInst);
+
         Institucion institucion = institucionRepository
                 .findByNombreIgnoreCase(nombreInst)
                 .orElseGet(() -> {
                     Institucion nueva = new Institucion();
                     nueva.setNombre(nombreInst);
-                    nueva.setRut("0-0");
+                    nueva.setRut("IMP-" + java.util.UUID.randomUUID().toString().substring(0, 8));
                     nueva.setTipoInstitucion(tipoInst);
                     return institucionRepository.save(nueva);
                 });
+
+        if (!institucion.getTipoInstitucion().getIdTipoInst().equals(tipoInst.getIdTipoInst())) {
+            institucion.setTipoInstitucion(tipoInst);
+            institucionRepository.save(institucion);
+        }
 
         String nombreTipoBeca = row.getTipoBeca().trim();
         TipoBeca tipoBeca = tipoBecaRepository
@@ -189,11 +193,13 @@ public class BecaImportServiceImpl implements BecaImportService {
 
         if (becaExistente.isPresent()) {
             Beca beca = becaExistente.get();
+            beca.setNombre(row.getNombre().trim());
             beca.setMontoCobertura(row.getMonto());
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
             beca.setDescripcionCorta(row.getDescripcion());
+            beca.setDescripcionLarga(row.getDescripcionLarga());
             beca.setEstadoActiva(true);
             if (!regionesSet.isEmpty()) beca.setRegiones(regionesSet);
 
@@ -205,11 +211,13 @@ public class BecaImportServiceImpl implements BecaImportService {
 
             becaRepository.save(beca);
             becaRepository.flush();
+            importDocumentos(beca, row);
             result.setActualizadas(result.getActualizadas() + 1);
         } else {
             Beca beca = new Beca();
             beca.setNombre(row.getNombre().trim());
             beca.setDescripcionCorta(row.getDescripcion());
+            beca.setDescripcionLarga(row.getDescripcionLarga());
             beca.setMontoCobertura(row.getMonto());
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
@@ -228,7 +236,26 @@ public class BecaImportServiceImpl implements BecaImportService {
 
             becaRepository.save(beca);
             becaRepository.flush();
+            importDocumentos(beca, row);
             result.setCreadas(result.getCreadas() + 1);
+        }
+    }
+
+    private void importDocumentos(Beca beca, CsvBecaRow row) {
+        if (row.getDocumentosRequeridos() == null || row.getDocumentosRequeridos().isBlank()) return;
+        documentoRequeridoRepository.deleteByBecaIdBeca(beca.getIdBeca());
+        String[] items = row.getDocumentosRequeridos().split(";");
+        for (String item : items) {
+            item = item.trim();
+            if (item.isEmpty()) continue;
+            boolean obligatorio = item.toUpperCase().contains("[OBLIGATORIO]");
+            String nombre = item.replaceAll("(?i)\\[(OBLIGATORIO|OPCIONAL)\\]", "").trim();
+            if (nombre.isEmpty()) continue;
+            DocumentoRequerido doc = new DocumentoRequerido();
+            doc.setBeca(beca);
+            doc.setNombreDocumento(nombre);
+            doc.setEsObligatorio(obligatorio);
+            documentoRequeridoRepository.save(doc);
         }
     }
 
@@ -266,5 +293,26 @@ public class BecaImportServiceImpl implements BecaImportService {
             result.getMensajesError().add("Fila '" + rowName + "': " + msg);
             return null;
         }
+    }
+
+    private TipoInstitucion clasificarTipoInstitucion(String nombreInstitucion) {
+        String tipoStr = "Universidad";
+        String nombreUpper = nombreInstitucion.toUpperCase();
+
+        if (nombreUpper.contains("MUNICIPALIDAD") || nombreUpper.contains("MINEDUC") || nombreUpper.contains("JUNAEB") || nombreUpper.contains("MINISTERIO")) {
+            tipoStr = "Organismo Gubernamental";
+        } else if (nombreUpper.contains("DUOC") || nombreUpper.contains("AIEP") || nombreUpper.contains("IP ") || nombreUpper.contains("INSTITUTO PROFESIONAL") || nombreUpper.contains("SANTO TOM") || nombreUpper.contains("INACAP")) {
+            tipoStr = "Instituto Profesional";
+        } else if (nombreUpper.contains("CFT") || nombreUpper.contains("ENAC") || nombreUpper.contains("CENTRO DE FORMACI")) {
+            tipoStr = "Centro de Formación Técnica";
+        }
+
+        final String finalTipoStr = tipoStr;
+        return tipoInstitucionRepository.findByNombreIgnoreCase(tipoStr)
+                .orElseGet(() -> {
+                    TipoInstitucion nuevo = new TipoInstitucion();
+                    nuevo.setNombre(finalTipoStr);
+                    return tipoInstitucionRepository.save(nuevo);
+                });
     }
 }

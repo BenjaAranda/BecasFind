@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { becaService } from '../services/becaService';
 import { favoritoService } from '../services/favoritoService';
@@ -11,24 +11,28 @@ import { GraduationCap, Search, LogOut, Shield, User, Bookmark, Sparkles } from 
 export default function SearchPage() {
   const { user, isAdmin, logout } = useAuth();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const [rsh, setRsh] = useState('');
-  const [nem, setNem] = useState('');
-  const [regionId, setRegionId] = useState('');
-  const [query, setQuery] = useState('');
-  const [idTipoBeca, setIdTipoBeca] = useState('');
-  const [idInstitucion, setIdInstitucion] = useState('');
-  const [sort, setSort] = useState('fechaAsc');
+  const [rsh, setRsh] = useState(searchParams.get('rsh') || '');
+  const [nem, setNem] = useState(searchParams.get('nem') || '');
+  const [regionId, setRegionId] = useState(searchParams.get('region') || '');
+  const [query, setQuery] = useState(searchParams.get('q') || '');
+  const [idTipoBeca, setIdTipoBeca] = useState(searchParams.get('tipo') || '');
+  const [idInstitucion, setIdInstitucion] = useState(searchParams.get('inst') || '');
+  const [idTipoInstitucion, setIdTipoInstitucion] = useState(searchParams.get('cat') || '');
+  const [sort, setSort] = useState(searchParams.get('sort') || 'fechaAsc');
   const [becas, setBecas] = useState<BecaSummary[]>([]);
   const [loading, setLoading] = useState(false);
   const [totalElements, setTotalElements] = useState(0);
   const [page, setPage] = useState(0);
   const [totalPages, setTotalPages] = useState(0);
+  const [pageSize, setPageSize] = useState(12);
   const [tab, setTab] = useState<'buscar' | 'recomendar'>('buscar');
   const [favIds, setFavIds] = useState<Set<number>>(new Set());
 
-  const fetchBecas = useCallback(async (p: number) => {
+  const fetchBecas = useCallback(async (p: number, sz?: number) => {
     setLoading(true);
+    const s = sz || pageSize;
     try {
       const { data } = await becaService.search({
         rsh: rsh ? Number(rsh) : undefined,
@@ -37,9 +41,10 @@ export default function SearchPage() {
         query: query || undefined,
         idTipoBeca: idTipoBeca ? Number(idTipoBeca) : undefined,
         idInstitucion: idInstitucion ? Number(idInstitucion) : undefined,
+        idTipoInstitucion: idTipoInstitucion ? Number(idTipoInstitucion) : undefined,
         sort,
         page: p,
-        size: 12,
+        size: s,
       });
       setBecas(data.data.content);
       setTotalElements(data.data.totalElements);
@@ -50,7 +55,7 @@ export default function SearchPage() {
     } finally {
       setLoading(false);
     }
-  }, [rsh, nem, regionId, query, idTipoBeca, idInstitucion, sort]);
+  }, [rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort, pageSize]);
 
   useEffect(() => {
     fetchBecas(0);
@@ -58,6 +63,36 @@ export default function SearchPage() {
       .then(({ data }) => setFavIds(new Set(data.data.map(b => b.idBeca))))
       .catch(() => {});
   }, []);
+
+  const saveSearchParams = () => {
+    const params = new URLSearchParams();
+    if (rsh) params.set('rsh', rsh);
+    if (nem) params.set('nem', nem);
+    if (regionId) params.set('region', regionId);
+    if (query) params.set('q', query);
+    if (idTipoBeca) params.set('tipo', idTipoBeca);
+    if (idInstitucion) params.set('inst', idInstitucion);
+    if (idTipoInstitucion) params.set('cat', idTipoInstitucion);
+    if (sort !== 'fechaAsc') params.set('sort', sort);
+    setSearchParams(params, { replace: true });
+  };
+
+  const handleSearch = () => {
+    saveSearchParams();
+    fetchBecas(0);
+  };
+
+  const handlePageChange = (p: number) => {
+    if (tab === 'recomendar') {
+      setLoading(true);
+      becaService.recomendar(p, pageSize)
+        .then(({ data }) => { setBecas(data.data.content); setTotalElements(data.data.totalElements); setTotalPages(data.data.totalPages); setPage(data.data.number); })
+        .catch(() => setBecas([]))
+        .finally(() => setLoading(false));
+    } else {
+      fetchBecas(p);
+    }
+  };
 
   const handleToggleFavorito = async (idBeca: number) => {
     const wasFav = favIds.has(idBeca);
@@ -117,11 +152,17 @@ export default function SearchPage() {
             <>
               <SearchFilters
                 rsh={rsh} nem={nem} regionId={regionId}
-                query={query} idTipoBeca={idTipoBeca} idInstitucion={idInstitucion} sort={sort}
+                query={query} idTipoBeca={idTipoBeca} idInstitucion={idInstitucion} idTipoInstitucion={idTipoInstitucion} sort={sort}
                 onRshChange={setRsh} onNemChange={setNem} onRegionChange={setRegionId}
                 onQueryChange={setQuery} onTipoBecaChange={setIdTipoBeca}
-                onInstitucionChange={setIdInstitucion} onSortChange={setSort}
-                onSearch={() => fetchBecas(0)}
+                onInstitucionChange={setIdInstitucion} onTipoInstitucionChange={setIdTipoInstitucion} onSortChange={setSort}
+                onSearch={handleSearch}
+                onReset={() => {
+                  setRsh(''); setNem(''); setRegionId(''); setQuery('');
+                  setIdTipoBeca(''); setIdInstitucion(''); setIdTipoInstitucion('');
+                  setSort('fechaAsc');
+                  fetchBecas(0);
+                }}
               />
               <div className="mt-4 p-4 bg-blue-50 rounded-xl border border-blue-100">
                 <p className="text-xs text-blue-700 font-medium mb-1">¿Cómo funciona?</p>
@@ -165,7 +206,7 @@ export default function SearchPage() {
               onClick={() => {
                 setTab('recomendar');
                 setLoading(true);
-                becaService.recomendar(0, 12)
+                becaService.recomendar(0, pageSize)
                   .then(({ data }) => { setBecas(data.data.content); setTotalElements(data.data.totalElements); setTotalPages(data.data.totalPages); setPage(0); })
                   .catch(() => setBecas([]))
                   .finally(() => setLoading(false));
@@ -212,12 +253,37 @@ export default function SearchPage() {
                 ))}
               </div>
               {totalPages > 1 && (
-                <div className="flex items-center justify-center gap-2 mt-6">
-                  <button disabled={page === 0} onClick={() => fetchBecas(page - 1)}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-gray-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-100 cursor-pointer">Anterior</button>
-                  <span className="text-sm text-gray-500">Pág. {page + 1} de {totalPages}</span>
-                  <button disabled={page >= totalPages - 1} onClick={() => fetchBecas(page + 1)}
-                    className="px-3 py-1.5 text-sm rounded-lg border border-gray-300 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-100 cursor-pointer">Siguiente</button>
+                <div className="flex flex-col sm:flex-row items-center justify-between gap-3 mt-6">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-gray-500">Filas:</span>
+                    <select value={pageSize} onChange={e => { const sz = Number(e.target.value); setPageSize(sz); fetchBecas(0, sz); }}
+                      className="text-xs border rounded px-2 py-1 bg-white">
+                      <option value={12}>12</option>
+                      <option value={50}>50</option>
+                      <option value={100}>100</option>
+                    </select>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <button disabled={page === 0} onClick={() => handlePageChange(page - 1)}
+                      className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+                    {Array.from({ length: Math.min(totalPages, 8) }, (_, i) => {
+                      let p: number;
+                      if (totalPages <= 8) { p = i; }
+                      else if (page < 4) { p = i; }
+                      else if (page > totalPages - 5) { p = totalPages - 8 + i; }
+                      else { p = page - 3 + i; }
+                      return (
+                        <button key={p} disabled={p === page}
+                          onClick={() => handlePageChange(p)}
+                          className={`w-8 h-8 text-sm rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
+                          {p + 1}
+                        </button>
+                      );
+                    })}
+                    <button disabled={page >= totalPages - 1} onClick={() => handlePageChange(page + 1)}
+                      className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
+                  </div>
+                  <span className="text-xs text-gray-500">{totalElements} resultados</span>
                 </div>
               )}
             </>

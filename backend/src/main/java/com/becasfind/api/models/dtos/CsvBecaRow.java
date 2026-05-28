@@ -44,6 +44,12 @@ public class CsvBecaRow {
     @CsvBindByName(column = "descripcion")
     private String descripcion;
 
+    @CsvBindByName(column = "descripcion_larga")
+    private String descripcionLarga;
+
     @CsvBindByName(column = "url")
     private String url;
+
+    @CsvBindByName(column = "documentos_requeridos")
+    private String documentosRequeridos;
 }

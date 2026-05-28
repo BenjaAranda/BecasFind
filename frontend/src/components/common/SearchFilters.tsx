@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import type { Region, TipoBeca, Institucion } from '../../types';
+import type { Region, TipoBeca, Institucion, TipoInstitucion } from '../../types';
 import { catalogoService } from '../../services/becaService';
 import { adminService } from '../../services/adminService';
 import { Search, Filter } from 'lucide-react';
@@ -11,6 +11,7 @@ interface SearchFiltersProps {
   query: string;
   idTipoBeca: string;
   idInstitucion: string;
+  idTipoInstitucion: string;
   sort: string;
   onRshChange: (v: string) => void;
   onNemChange: (v: string) => void;
@@ -18,20 +19,23 @@ interface SearchFiltersProps {
   onQueryChange: (v: string) => void;
   onTipoBecaChange: (v: string) => void;
   onInstitucionChange: (v: string) => void;
+  onTipoInstitucionChange: (v: string) => void;
   onSortChange: (v: string) => void;
   onSearch: () => void;
   onUseProfile?: () => void;
+  onReset?: () => void;
 }
 
 export default function SearchFilters({
-  rsh, nem, regionId, query, idTipoBeca, idInstitucion, sort,
+  rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort,
   onRshChange, onNemChange, onRegionChange, onQueryChange,
-  onTipoBecaChange, onInstitucionChange, onSortChange,
-  onSearch, onUseProfile,
+  onTipoBecaChange, onInstitucionChange, onTipoInstitucionChange, onSortChange,
+  onSearch, onUseProfile, onReset,
 }: SearchFiltersProps) {
   const [regiones, setRegiones] = useState<Region[]>([]);
   const [tiposBeca, setTiposBeca] = useState<TipoBeca[]>([]);
   const [instituciones, setInstituciones] = useState<Institucion[]>([]);
+  const [tiposInstitucion, setTiposInstitucion] = useState<TipoInstitucion[]>([]);
   const [localQuery, setLocalQuery] = useState(query);
   const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -40,6 +44,7 @@ export default function SearchFilters({
       catalogoService.getRegiones().then(r => setRegiones(r.data.data)),
       adminService.getTiposBeca().then(r => setTiposBeca(r.data.data)),
       adminService.getInstituciones().then(r => setInstituciones(r.data.data)),
+      adminService.getTiposInstitucion().then(r => setTiposInstitucion(r.data.data)),
     ]).catch(() => {});
   }, []);
 
@@ -107,6 +112,14 @@ export default function SearchFilters({
           </select>
         </div>
         <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Categoría</label>
+          <select value={idTipoInstitucion} onChange={e => onTipoInstitucionChange(e.target.value)}
+            className="w-full px-3 py-2 border rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500 outline-none">
+            <option value="">Todas</option>
+            {tiposInstitucion.map(t => <option key={t.idTipoInst} value={t.idTipoInst}>{t.nombre}</option>)}
+          </select>
+        </div>
+        <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">Ordenar por</label>
           <select value={sort} onChange={e => onSortChange(e.target.value)}
             className="w-full px-3 py-2 border rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500 outline-none">
@@ -120,6 +133,13 @@ export default function SearchFilters({
         {onUseProfile && (
           <button type="button" onClick={onUseProfile} className="w-full text-sm text-blue-600 hover:text-blue-700 py-1 cursor-pointer">
             Usar mi perfil
+          </button>
+        )}
+
+        {onReset && (
+          <button type="button" onClick={onReset}
+            className="w-full text-sm text-gray-500 hover:text-red-500 py-1 cursor-pointer">
+            Reiniciar filtros
           </button>
         )}
 

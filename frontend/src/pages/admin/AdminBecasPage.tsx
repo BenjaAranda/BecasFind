@@ -1,8 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { adminService } from '../../services/adminService';
+import { becaService } from '../../services/becaService';
 import type { BecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
-import { Plus, Edit, Trash2, ExternalLink, Upload, X } from 'lucide-react';
+import { Plus, Edit, Trash2, ExternalLink, Upload, X, Search as SearchIcon } from 'lucide-react';
 
 export default function AdminBecasPage() {
   const [becas, setBecas] = useState<BecaSummary[]>([]);
@@ -17,20 +18,28 @@ export default function AdminBecasPage() {
   const [importFile, setImportFile] = useState<File | null>(null);
   const [importResult, setImportResult] = useState<ImportResult | null>(null);
   const [importLoading, setImportLoading] = useState(false);
+  const [searchText, setSearchText] = useState('');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const fetchBecas = useCallback(async (p: number) => {
     setLoading(true);
     try {
-      const { data } = await adminService.getBecas(p, 20);
+      const { data } = await becaService.search({
+        query: searchText || undefined,
+        page: p,
+        size: 50,
+      });
       setBecas(data.data.content);
       setTotalPages(data.data.totalPages);
       setPage(data.data.number);
     } catch { setBecas([]); }
     finally { setLoading(false); }
-  }, []);
+  }, [searchText]);
 
-  useEffect(() => { fetchBecas(0); }, [fetchBecas]);
+  useEffect(() => { const t = setTimeout(() => fetchBecas(0), 400); return () => clearTimeout(t); }, [searchText]);
+  useEffect(() => { fetchBecas(0); }, []);
+
+  const displayed = becas;
 
   const handleEdit = async (id: number) => {
     try {
@@ -84,6 +93,16 @@ export default function AdminBecasPage() {
           <p className="text-sm text-gray-500 mt-1">{becas.length} becas en total</p>
         </div>
         <div className="flex items-center gap-2">
+          <div className="relative">
+            <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <input
+              type="text"
+              placeholder="Buscar beca..."
+              value={searchText}
+              onChange={e => setSearchText(e.target.value)}
+              className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 outline-none w-48"
+            />
+          </div>
           <button
             onClick={() => { setShowImport(true); setImportResult(null); setImportFile(null); }}
             className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer"
@@ -120,7 +139,7 @@ export default function AdminBecasPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {becas.map(beca => (
+              {displayed.map(beca => (
                 <tr key={beca.idBeca} className="hover:bg-gray-50">
                   <td className="px-4 py-3">
                     <span className="font-medium text-gray-800">{beca.nombre}</span>
@@ -148,7 +167,7 @@ export default function AdminBecasPage() {
                   </td>
                 </tr>
               ))}
-              {becas.length === 0 && (
+              {displayed.length === 0 && (
                 <tr><td colSpan={5} className="px-4 py-8 text-center text-gray-400">No hay becas registradas</td></tr>
               )}
             </tbody>
