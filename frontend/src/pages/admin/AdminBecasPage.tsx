@@ -176,10 +176,25 @@ export default function AdminBecasPage() {
       )}
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-4">
-          <button disabled={page === 0} onClick={() => fetchBecas(page - 1)} className="px-3 py-1.5 text-sm border rounded-lg disabled:opacity-40 hover:bg-gray-100 cursor-pointer">Anterior</button>
-          <span className="text-sm text-gray-500">Pág. {page + 1} de {totalPages}</span>
-          <button disabled={page >= totalPages - 1} onClick={() => fetchBecas(page + 1)} className="px-3 py-1.5 text-sm border rounded-lg disabled:opacity-40 hover:bg-gray-100 cursor-pointer">Siguiente</button>
+        <div className="flex items-center justify-center gap-1 mt-4">
+          <button disabled={page === 0} onClick={() => fetchBecas(page - 1)}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+          {Array.from({ length: Math.min(totalPages, 6) }, (_, i) => {
+            let p: number;
+            if (totalPages <= 6) { p = i; }
+            else if (page < 3) { p = i; }
+            else if (page > totalPages - 4) { p = totalPages - 6 + i; }
+            else { p = page - 2 + i; }
+            return (
+              <button key={p} disabled={p === page}
+                onClick={() => fetchBecas(p)}
+                className={`w-7 h-7 text-xs rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
+                {p + 1}
+              </button>
+            );
+          })}
+          <button disabled={page >= totalPages - 1} onClick={() => fetchBecas(page + 1)}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
         </div>
       )}
 
