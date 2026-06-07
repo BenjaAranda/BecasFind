@@ -27,9 +27,11 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.InputStreamReader;
 
 import java.math.BigDecimal;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -74,17 +76,23 @@ public class BecaImportServiceImpl implements BecaImportService {
     public ImportResultDTO importarDesdeCsv(MultipartFile file) {
         ImportResultDTO result = new ImportResultDTO();
 
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(file.getInputStream(), StandardCharsets.UTF_8))) {
-            reader.mark(1);
-            if (reader.read() != '\uFEFF') {
-                reader.reset();
-            }
+        try {
+            byte[] rawBytes = file.getBytes();
+            Charset charset = detectCharset(rawBytes);
+            log.info("CSV import: charset detectado = {}", charset.name());
 
-            CsvToBean<CsvBecaRow> csvToBean = new CsvToBeanBuilder<CsvBecaRow>(reader)
-                    .withType(CsvBecaRow.class)
-                    .withIgnoreLeadingWhiteSpace(true)
-                    .withThrowExceptions(false)
-                    .build();
+            try (BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(new ByteArrayInputStream(rawBytes), charset))) {
+                reader.mark(1);
+                if (reader.read() != '\uFEFF') {
+                    reader.reset();
+                }
+
+                CsvToBean<CsvBecaRow> csvToBean = new CsvToBeanBuilder<CsvBecaRow>(reader)
+                        .withType(CsvBecaRow.class)
+                        .withIgnoreLeadingWhiteSpace(true)
+                        .withThrowExceptions(false)
+                        .build();
 
             List<CsvBecaRow> rows = csvToBean.parse();
 
@@ -106,6 +114,7 @@ public class BecaImportServiceImpl implements BecaImportService {
                     result.setErrores(result.getErrores() + 1);
                 }
             }
+            }
         } catch (Exception e) {
             log.error("Error al leer el archivo CSV", e);
             result.getMensajesError().add("Error al leer el archivo: " + e.getMessage());
@@ -115,6 +124,50 @@ public class BecaImportServiceImpl implements BecaImportService {
         log.info("Importacion completada: {} creadas, {} actualizadas, {} errores",
                 result.getCreadas(), result.getActualizadas(), result.getErrores());
         return result;
+    }
+
+    private Charset detectCharset(byte[] bytes) {
+        // Skip BOM if present
+        int offset = 0;
+        if (bytes.length >= 3
+                && (bytes[0] & 0xFF) == 0xEF
+                && (bytes[1] & 0xFF) == 0xBB
+                && (bytes[2] & 0xFF) == 0xBF) {
+            offset = 3;
+        }
+
+        // Try UTF-8 first: check if all bytes form valid UTF-8 sequences
+        if (isValidUtf8(bytes, offset)) {
+            return StandardCharsets.UTF_8;
+        }
+
+        log.warn("CSV no es UTF-8 valido, intentando Windows-1252");
+        return Charset.forName("Windows-1252");
+    }
+
+    private boolean isValidUtf8(byte[] bytes, int offset) {
+        int i = offset;
+        while (i < bytes.length) {
+            int b = bytes[i] & 0xFF;
+            int seqLen;
+            if (b < 0x80) {
+                seqLen = 1;
+            } else if ((b >> 5) == 0x06) {
+                seqLen = 2;
+            } else if ((b >> 4) == 0x0E) {
+                seqLen = 3;
+            } else if ((b >> 3) == 0x1E) {
+                seqLen = 4;
+            } else {
+                return false;
+            }
+            if (i + seqLen > bytes.length) return false;
+            for (int j = 1; j < seqLen; j++) {
+                if ((bytes[i + j] & 0xC0) != 0x80) return false;
+            }
+            i += seqLen;
+        }
+        return true;
     }
 
     private void validarCamposRequeridos(CsvBecaRow row) {

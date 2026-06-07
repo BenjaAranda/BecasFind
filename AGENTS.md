@@ -114,6 +114,9 @@ Estas reglas aplican a todas las fases de la V2.0 y deben ser respetadas sin exc
 | FK-CASCADE | 12 | Toda FK en tablas M:N debe incluir `ON DELETE CASCADE` (`becas_favoritas`, `becas_regiones`) |
 | UX-DEBOUNCE | 13 | Inputs de búsqueda en React deben implementar debounce de 300-500ms. Nunca disparar petición HTTP por cada keystroke |
 | BATCH-SIZE | 14 | `spring.jpa.properties.hibernate.jdbc.batch_size: 50` en `application.yml` para procesar importaciones CSV en lotes |
+| UTF8-ENCODING | TODAS | Todo archivo (CSV, SQL, HTML, YAML, Java) debe escribirse en **UTF-8 sin BOM**. Usar `StandardCharsets.UTF_8` en Java. Usar `[System.Text.UTF8Encoding]::new($true)` (con BOM) o `[System.Text.UTF8Encoding]::new($false)` (sin BOM) en PowerShell. Verificar con `HEX(nombre)` en MySQL que `á=C3A1`, `é=C3A9`, `í=C3AD`, `ó=C3B3`, `ú=C3BA`, `ñ=C3B1`, `Ñ=C391` |
+| SPANISH-ACCENTS | TODAS | Todo texto en español DEBE incluir tildes y caracteres especiales correctos: `educación` NO `educacion`, `matrícula` NO `matricula`, `Ñuble` NO `Nuble`, `Viña` NO `Vina`. Nunca escribir texto en español sin acentos por miedo al encoding |
+| POST-IMPORT-HEX | 14 | Después de cada importación CSV masiva, ejecutar `SELECT id_beca, HEX(nombre) FROM becas WHERE HEX(nombre) RLIKE 'C383C2' OR HEX(nombre) RLIKE 'C383E2'` para detectar doble-codificación UTF-8 (mojibake). Si hay resultados, reparar con `UPDATE becas SET nombre = REPLACE(nombre, UNHEX('C383C2A1'), UNHEX('C3A1'))` para cada vocal afectada |
 
 ### Stack V2.0 Adicional
 
@@ -138,6 +141,10 @@ Estas reglas aplican a todas las fases de la V2.0 y deben ser respetadas sin exc
 | Improvisar librerías no listadas en este documento | Usar solo lo definido en el Stack Tecnológico |
 | Enviar petición HTTP por cada keystroke en input de búsqueda | Implementar debounce (300-500ms) con `setTimeout`/`clearTimeout` |
 | Omitir `ON DELETE CASCADE` en FKs de tablas M:N | Incluir siempre `ON DELETE CASCADE` (`becas_favoritas`, `becas_regiones`) |
+| Escribir texto en español sin tildes (ej: `educacion`, `matricula`) | Usar siempre tildes correctas: `educación`, `matrícula` |
+| Escribir CSVs con codificación Windows-1252 o Latin-1 | Escribir CSVs siempre en UTF-8 sin BOM. Si se usa PowerShell, escribir bytes directamente con `[System.Text.UTF8Encoding]::new($false)` y `[System.IO.File]::WriteAllBytes()` |
+| Asumir que el texto con `Ã¡`, `Ã©`, `Ã³` es correcto | Son patrones de doble-codificación (mojibake). Reparar inmediatamente con `UNHEX()` en MySQL |
+| Escribir nombres de instituciones/regiones sin verificar encoding | Verificar con `SELECT HEX(nombre) FROM instituciones WHERE nombre LIKE '%Valpara%'` que `í` sea `C3AD` y no `C383C2AD` |
 
 ---
 
@@ -345,6 +352,110 @@ ScrapperBecasFind/data_lake_becas/
 ├── 03_procesados/       ← CSVs importados exitosamente
 └── 04_errores/          ← CSVs con fallos
 ```
+
+### 13.6 Protocolo Estricto de Encoding UTF-8 (OBLIGATORIO — NO NEGOCIABLE)
+
+> **Motivo**: Una importación con encoding incorrecto corrompe caracteres españoles
+> (tildes, ñ, Ñ) en toda la BD, requiriendo horas de reparación con `UNHEX()`.
+
+#### 13.6.1 Escritura de CSVs
+
+**En Windows (PowerShell) — usar WriteAllBytes con UTF-8 sin BOM:**
+
+```powershell
+$utf8NoBom = [System.Text.UTF8Encoding]::new($false)
+$bytes = $utf8NoBom.GetBytes($contenidoCsv)
+[System.IO.File]::WriteAllBytes("ruta\archivo.csv", $bytes)
+```
+
+**NUNCA usar:**
+- `Set-Content` o `Out-File` (escriben en UTF-16 o código de página del sistema)
+- PowerShell here-strings (`@"..."@`) con caracteres acentuados directamente en la terminal
+- `curl.exe` con `-F "file=@archivo.csv"` si el CSV tiene caracteres no-ASCII
+
+**En su lugar, usar `[System.Net.HttpWebRequest]` con bytes crudos:**
+
+```powershell
+$bytes = [System.IO.File]::ReadAllBytes("ruta\archivo.csv")
+$bodyBytes = [System.Text.Encoding]::UTF8.GetBytes("--$boundary`r`nContent-Disposition...") + $bytes
+$req.GetRequestStream().Write($bodyBytes, 0, $bodyBytes.Length)
+```
+
+#### 13.6.2 Verificación Post-Importación
+
+Después de CADA importación de becas, ejecutar en MySQL:
+
+```sql
+-- Detectar mojibake (texto con doble codificación UTF-8)
+SELECT id_beca, nombre, HEX(nombre)
+FROM becas
+WHERE HEX(nombre) RLIKE 'C383C2'       -- áéíóú minúsculas corruptas
+   OR HEX(nombre) RLIKE 'C383E2'       -- Ñ corrupta por vía Windows-1252
+   OR HEX(nombre) RLIKE 'C382C2';      -- ÁÉÍÓÚ mayúsculas corruptas
+
+-- Verificar institución recién creada con caracteres especiales
+SELECT id_institucion, nombre, HEX(nombre)
+FROM instituciones
+WHERE nombre LIKE '%Valpara%' OR nombre LIKE '%Vi%a%' OR nombre LIKE '%Íb%'
+ORDER BY id_institucion DESC LIMIT 5;
+```
+
+**Si hay resultados** → reparar inmediatamente (ver 13.6.3). Nunca dejar mojibake en BD.
+
+#### 13.6.3 Reparación de Mojibake
+
+Para cada par (corrupto → correcto), usar `REPLACE` con `UNHEX`:
+
+| Patrón corrupto | HEX corrupto | HEX correcto | Carácter |
+|---|---|---|---|
+| `Ã¡` | `C383C2A1` | `C3A1` | `á` |
+| `Ã©` | `C383C2A9` | `C3A9` | `é` |
+| `Ã­` | `C383C2AD` | `C3AD` | `í` |
+| `Ã³` | `C383C2B3` | `C3B3` | `ó` |
+| `Ãº` | `C383C2BA` | `C3BA` | `ú` |
+| `Ã±` | `C383C2B1` | `C3B1` | `ñ` |
+| `Ã'` (smart quote) | `C383E28098` | `C391` | `Ñ` |
+| `Ã` | `C383C281` | `C381` | `Á` |
+| `Ã` | `C383C289` | `C389` | `É` |
+| `Ã` | `C383C28D` | `C38D` | `Í` |
+| `Ã` | `C383C293` | `C393` | `Ó` |
+| `Ã` | `C383C29A` | `C39A` | `Ú` |
+
+```sql
+UPDATE becas SET nombre = REPLACE(nombre, UNHEX('C383C2A1'), UNHEX('C3A1'));
+-- repetir para cada patrón y para descripcion_corta, descripcion_larga
+```
+
+#### 13.6.4 Configuraciones de Encoding Obligatorias
+
+Estas configuraciones DEBEN estar presentes. Si se detecta que faltan, agregarlas inmediatamente:
+
+| Archivo | Configuración | Propósito |
+|---------|--------------|-----------|
+| `application.yml:1-6` | `server.servlet.encoding.charset: UTF-8` + `force: true` | Forzar UTF-8 en requests/responses HTTP |
+| `pom.xml:<properties>` | `<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>` | Compilación Maven en UTF-8 |
+| `index.html:2-4` | `<html lang="es">` + `<meta charset="UTF-8">` | Frontend en español con UTF-8 |
+| `application.yml:10` | JDBC URL con `characterEncoding=UTF-8` | Conexión MySQL en UTF-8 |
+| `BecaImportServiceImpl:81` | `detectCharset(bytes)` auto-detecta UTF-8 vs Windows-1252 | Fallback automático en importación |
+
+#### 13.6.5 Checklist Pre-Commit para Texto en Español
+
+Antes de dar por finalizada cualquier tarea que involucre texto en español, verificar:
+
+- [ ] `educación` no `educacion`
+- [ ] `matrícula` no `matricula`
+- [ ] `institución` no `institucion`
+- [ ] `Ñuble` no `Nuble`
+- [ ] `enseñanza` no `ensenanza`
+- [ ] `Viña del Mar` no `Vina del Mar`
+- [ ] `Valparaíso` no `Valparaiso`
+- [ ] `Biobío` no `Bio-Bio` ni `Biobio`
+- [ ] `Araucanía` no `Araucania`
+- [ ] `República` no `Republica`
+- [ ] `Católica` no `Catolica`
+- [ ] `Andrés` no `Andres`
+- [ ] Todas las terminaciones `-ción` con tilde (`evaluación`, `postulación`, `renovación`...)
+- [ ] `más` (adverbio de cantidad) con tilde, `mas` (conjunción = pero) sin tilde
 
 ---
 
