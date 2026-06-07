@@ -113,7 +113,8 @@ public final class BecaSpecifications {
         if (idInstitucion == null) return null;
         return (root, cq, cb) -> cb.or(
             cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion),
-            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 5L)
+            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 5L),
+            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 8L)
         );
     }
 }

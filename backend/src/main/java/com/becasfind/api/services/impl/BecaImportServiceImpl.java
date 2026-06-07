@@ -299,7 +299,9 @@ public class BecaImportServiceImpl implements BecaImportService {
         String tipoStr = "Universidad";
         String nombreUpper = nombreInstitucion.toUpperCase();
 
-        if (nombreUpper.contains("MUNICIPALIDAD") || nombreUpper.contains("MINEDUC") || nombreUpper.contains("JUNAEB") || nombreUpper.contains("MINISTERIO")) {
+        if (nombreUpper.contains("MUNICIPALIDAD")) {
+            tipoStr = "Municipal";
+        } else if (nombreUpper.contains("MINEDUC") || nombreUpper.contains("JUNAEB") || nombreUpper.contains("MINISTERIO")) {
             tipoStr = "Organismo Gubernamental";
         } else if (nombreUpper.contains("DUOC") || nombreUpper.contains("AIEP") || nombreUpper.contains("IP ") || nombreUpper.contains("INSTITUTO PROFESIONAL") || nombreUpper.contains("SANTO TOM") || nombreUpper.contains("INACAP")) {
             tipoStr = "Instituto Profesional";

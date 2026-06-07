@@ -58,7 +58,8 @@ INSERT IGNORE INTO tipos_institucion (id_tipo_inst, nombre) VALUES
 (4, 'Fundación'),
 (5, 'Organismo Gubernamental'),
 (6, 'Empresa Privada'),
-(7, 'ONG');
+(7, 'ONG'),
+(8, 'Municipal');
 
 -- =============================================
 -- 5. INSTITUCIONES

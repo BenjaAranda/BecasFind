@@ -216,6 +216,7 @@ INSERT INTO tipos_institucion (nombre) VALUES ('Fundación');
 INSERT INTO tipos_institucion (nombre) VALUES ('Organismo Gubernamental');
 INSERT INTO tipos_institucion (nombre) VALUES ('Empresa Privada');
 INSERT INTO tipos_institucion (nombre) VALUES ('ONG');
+INSERT INTO tipos_institucion (nombre) VALUES ('Municipal');
 
 -- =============================================
 -- Datos semilla: Tipos de Beca
