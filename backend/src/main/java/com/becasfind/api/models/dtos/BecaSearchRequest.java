@@ -25,6 +25,8 @@ public class BecaSearchRequest {
 
     private Long idInstitucion;
 
+    private Long idTipoInstitucion;
+
     private String sort;
 
     private Integer page = 0;

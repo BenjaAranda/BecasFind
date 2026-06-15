@@ -76,7 +76,7 @@ public class BecaServiceImpl implements BecaService {
     @Transactional(readOnly = true)
     public Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
                                      String query, Long idTipoBeca, Long idInstitucion,
-                                     String sort, Pageable pageable) {
+                                     Long idTipoInstitucion, String sort, Pageable pageable) {
         Specification<Beca> spec = Specification
                 .where(BecaSpecifications.isVigente())
                 .and(BecaSpecifications.hasRshMax(rsh))
@@ -84,7 +84,8 @@ public class BecaServiceImpl implements BecaService {
                 .and(BecaSpecifications.hasRegionOrNational(regionId))
                 .and(BecaSpecifications.hasTextQuery(query))
                 .and(BecaSpecifications.hasTipoBeca(idTipoBeca))
-                .and(BecaSpecifications.hasInstitucion(idInstitucion));
+                .and(BecaSpecifications.hasInstitucion(idInstitucion))
+                .and(BecaSpecifications.hasTipoInstitucion(idTipoInstitucion));
 
         Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(), parseSort(sort));
         return becaRepository.findAll(spec, sorted).map(this::toBecaDTO);
@@ -117,8 +118,18 @@ public class BecaServiceImpl implements BecaService {
         Integer rsh = perfil.getRshPorcentaje();
         Double nem = perfil.getNemPromedio() != null ? perfil.getNemPromedio().doubleValue() : null;
         Long regionId = perfil.getRegion() != null ? perfil.getRegion().getIdRegion() : null;
+        Long institucionId = perfil.getInstitucion() != null ? perfil.getInstitucion().getIdInstitucion() : null;
 
-        return buscarBecas(rsh, nem, regionId, null, null, null, null, pageable);
+        Specification<Beca> spec = Specification
+                .where(BecaSpecifications.isVigente())
+                .and(BecaSpecifications.hasRshMax(rsh))
+                .and(BecaSpecifications.hasNemMin(nem))
+                .and(BecaSpecifications.hasRegionOrNational(regionId))
+                .and(BecaSpecifications.hasInstitucionOrGobierno(institucionId));
+
+        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(),
+                Sort.by("fechaCierrePostulacion").ascending());
+        return becaRepository.findAll(spec, sorted).map(this::toBecaDTO);
     }
 
     @Override

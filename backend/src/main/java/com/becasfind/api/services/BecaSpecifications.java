@@ -6,7 +6,6 @@ import org.springframework.data.jpa.domain.Specification;
 import jakarta.persistence.criteria.JoinType;
 import jakarta.persistence.criteria.SetJoin;
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 public final class BecaSpecifications {
 
@@ -14,13 +13,12 @@ public final class BecaSpecifications {
     }
 
     /**
-     * BR-VIGENCIA: Solo becas activas con fecha de cierre no expirada.
+     * BR-VIGENCIA: Solo becas marcadas como activas.
+     * NOTA: Se removió el filtro fechaCierrePostulacion >= CURRENT_DATE
+     * para que los beneficios anuales expirados sigan siendo visibles.
      */
     public static Specification<Beca> isVigente() {
-        return (root, query, cb) -> cb.and(
-                cb.isTrue(root.get("estadoActiva")),
-                cb.greaterThanOrEqualTo(root.get("fechaCierrePostulacion"), LocalDate.now())
-        );
+        return (root, query, cb) -> cb.isTrue(root.get("estadoActiva"));
     }
 
     /**
@@ -97,5 +95,26 @@ public final class BecaSpecifications {
     public static Specification<Beca> hasInstitucion(Long idInstitucion) {
         if (idInstitucion == null) return null;
         return (root, cq, cb) -> cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion);
+    }
+
+    /**
+     * Filtro por Tipo de Institución (Universidad, IP, CFT, Municipalidad, etc.)
+     */
+    public static Specification<Beca> hasTipoInstitucion(Long idTipoInstitucion) {
+        if (idTipoInstitucion == null) return null;
+        return (root, cq, cb) -> cb.equal(
+            root.get("institucion").get("tipoInstitucion").get("idTipoInst"), idTipoInstitucion);
+    }
+
+    /**
+     * Recomendación: institución del perfil O gobierno (Mineduc, JUNAEB, Municipalidades).
+     */
+    public static Specification<Beca> hasInstitucionOrGobierno(Long idInstitucion) {
+        if (idInstitucion == null) return null;
+        return (root, cq, cb) -> cb.or(
+            cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion),
+            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 5L),
+            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 8L)
+        );
     }
 }

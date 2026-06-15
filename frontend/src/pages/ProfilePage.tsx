@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { perfilService } from '../services/perfilService';
 import { catalogoService } from '../services/becaService';
 import type { Region, Institucion } from '../types';
-import { GraduationCap, Save } from 'lucide-react';
+import { GraduationCap, Save, ArrowLeft } from 'lucide-react';
 
 export default function ProfilePage() {
   const { user } = useAuth();
@@ -89,6 +89,9 @@ export default function ProfilePage() {
       </header>
 
       <main className="max-w-2xl mx-auto px-4 py-6">
+        <button onClick={() => navigate('/explorar')} className="flex items-center gap-1 text-sm text-gray-500 hover:text-blue-600 mb-3 cursor-pointer">
+          <ArrowLeft className="w-4 h-4" /> Volver al Buscador
+        </button>
         <h1 className="text-2xl font-bold text-gray-800 mb-6">Mi Perfil Académico</h1>
 
         {success && <div className="mb-4 p-3 bg-green-50 border border-green-200 text-green-700 text-sm rounded-lg">{success}</div>}

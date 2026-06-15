@@ -14,6 +14,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,7 +27,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@Table(name = "becas")
+@Table(name = "becas", uniqueConstraints = {@UniqueConstraint(columnNames = {"nombre", "id_institucion"})})
 public class Beca {
 
     @Id

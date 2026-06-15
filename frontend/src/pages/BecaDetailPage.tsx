@@ -192,7 +192,7 @@ export default function BecaDetailPage() {
           </div>
         )}
 
-        {beca.documentosRequeridos.length > 0 && (
+        {beca.documentosRequeridos.length > 0 ? (
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
             <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
               <FileCheck className="w-5 h-5 text-green-500" />
@@ -201,16 +201,38 @@ export default function BecaDetailPage() {
             <ul className="space-y-2">
               {beca.documentosRequeridos.map((doc) => (
                 <li key={doc.idDocumento} className="flex items-center gap-2 text-sm text-gray-600">
-                  <span className="w-1.5 h-1.5 rounded-full bg-green-400 shrink-0" />
+                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${doc.esObligatorio ? 'bg-red-400' : 'bg-amber-400'}`} />
                   {doc.nombreDocumento}
-                  {doc.esObligatorio && (
-                    <span className="text-xs text-red-500 font-medium">(Obligatorio)</span>
-                  )}
+                  <span className={`text-xs font-medium ${doc.esObligatorio ? 'text-red-500' : 'text-amber-500'}`}>
+                    ({doc.esObligatorio ? 'Obligatorio' : 'Opcional'})
+                  </span>
                 </li>
               ))}
             </ul>
           </div>
-        )}
+        ) : beca.descripcionLarga && beca.descripcionLarga.includes('[OBLIGATORIO]') ? (
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+              <FileCheck className="w-5 h-5 text-green-500" />
+              Documentos Requeridos
+            </h2>
+            <ul className="space-y-2">
+              {beca.descripcionLarga.match(/\[(OBLIGATORIO|OPCIONAL)\]\s*([^;]+)/gi)?.map((item, i) => {
+                const obligatorio = item.toUpperCase().includes('OBLIGATORIO');
+                const texto = item.replace(/\[(OBLIGATORIO|OPCIONAL)\]\s*/i, '').trim();
+                return (
+                  <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
+                    <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${obligatorio ? 'bg-red-400' : 'bg-amber-400'}`} />
+                    {texto}
+                    <span className={`text-xs font-medium ${obligatorio ? 'text-red-500' : 'text-amber-500'}`}>
+                      ({obligatorio ? 'Obligatorio' : 'Opcional'})
+                    </span>
+                  </li>
+                );
+              }) || null}
+            </ul>
+          </div>
+        ) : null}
 
         {beca.urlOficial && (
           <div className="text-center">
