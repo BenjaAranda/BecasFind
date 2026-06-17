@@ -10,18 +10,14 @@ spring:
   application:
     name: becasfind-api
 
+    config:
+      import: optional:file:.env[.propierties]
+
   # MySQL Database Configuration (Local)
   datasource:
-    url: jdbc:mysql://localhost:3306/becasfind?serverTimezone=America/Santiago&allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci
-    username: root
-    password: becasfind.123
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    hikari:
-      maximum-pool-size: 10
-      minimum-idle: 5
-      idle-timeout: 300000
-      connection-timeout: 20000
-      max-lifetime: 1200000
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   # SQL Data Seeding
   sql:
@@ -36,7 +32,6 @@ spring:
     defer-datasource-initialization: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
         jdbc:
           batch_size: 50
@@ -52,8 +47,8 @@ spring:
 # JWT Configuration (Clave temporal para desarrollo local)
 app:
   jwt:
-    secret: 9a4f2c8d3b7a1e6f45c8a0b3f267d8b1d4e6f3c8a9d2b5f8e3a9c8b5f6v8a3d9
-    expiration-ms: 86400000
+    secret: ${JWT_SECRET}
+    expiration-ms: ${JWT_EXPIRATION_MS:86400000}
 
 # Logging
 logging:
