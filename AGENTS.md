@@ -40,7 +40,7 @@ BecasFind/
 │       ├── services/        # api.ts, becaService.ts, adminService.ts
 │       ├── routes/          # Configuración de rutas
 │       └── types/           # Interfaces TypeScript
-└── infra/                   # Scripts AWS, systemd, Nginx configs
+└── infra/                   # DDL scripts, systemd, Nginx configs
 ```
 
 ---
@@ -54,9 +54,10 @@ BecasFind/
 | Frontend | React + Vite | 19.2.5 |
 | CSS | Tailwind CSS + @tailwindcss/vite | 4.3.0 |
 | Librerías Front | React Router DOM v7, Axios, lucide-react, jwt-decode | — |
-| Base de Datos | MySQL (AWS RDS) | 8.0 |
-| Servidor | AWS EC2 Ubuntu | 22.04 LTS |
-| Proxy Web | Nginx | — |
+| Base de Datos | MySQL | 8.0 |
+| Servidor | Render (Cloud Platform) | — |
+| Proxy Web | Nginx / Render | — |
+| Despliegue | Render + Dockerfile | — |
 
 ---
 
