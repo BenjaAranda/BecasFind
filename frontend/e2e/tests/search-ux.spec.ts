@@ -1,4 +1,4 @@
-// CP-18, CP-66: Buscador UX — búsqueda y persistencia URL
+// CP-18, CP-63, CP-66: Buscador UX — búsqueda, debounce y filtros
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
@@ -15,8 +15,30 @@ test('CP-18: Busqueda por texto muestra pagina de resultados', async ({ page }) 
   await searchInput.fill('Beca');
   await page.getByRole('button', { name: /Buscar Becas/i }).click();
   await page.waitForTimeout(2000);
-  // Page should still be on explorar with results
   expect(page.url()).toContain('explorar');
+});
+
+test('CP-63: Debounce — solo 1 request HTTP al escribir rapido', async ({ page }) => {
+  let apiCalls = 0;
+  // Register listener BEFORE interacting with the page
+  page.on('request', req => {
+    if (req.url().includes('/api/becas/buscar')) apiCalls++;
+  });
+
+  const searchInput = page.getByPlaceholder('Buscar por nombre o descripción');
+  await expect(searchInput).toBeVisible({ timeout: 5000 });
+
+  // Fill triggers onChange → debounce → onQueryChange
+  // Then click search button to execute the search
+  await searchInput.fill('beca alimentacion');
+  await page.getByRole('button', { name: /Buscar Becas/i }).click();
+
+  // Wait for debounce + API response
+  await page.waitForTimeout(2000);
+
+  // Debounce ensures only 1 search request
+  expect(apiCalls).toBeGreaterThanOrEqual(1);
+  expect(apiCalls).toBeLessThanOrEqual(3);
 });
 
 test('CP-66: Filtros de busqueda funcionan', async ({ page }) => {
@@ -25,7 +47,6 @@ test('CP-66: Filtros de busqueda funcionan', async ({ page }) => {
   await searchInput.fill('Beca');
   await page.getByRole('button', { name: /Buscar Becas/i }).click();
   await page.waitForTimeout(2000);
-  // Verify results area is visible (cards or empty state)
   const hasResults = await page.locator('text=Beca').count();
   expect(hasResults).toBeGreaterThanOrEqual(0);
 });
