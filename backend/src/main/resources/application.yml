@@ -10,14 +10,21 @@ spring:
   application:
     name: becasfind-api
 
-    config:
-      import: optional:file:.env[.propierties]
+  config:
+    import: optional:file:.env[.properties]
 
-  # MySQL Database Configuration (Local)
+  # PostgreSQL Database Configuration
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/becasfind}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:becasfind.123}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1200000
 
   # SQL Data Seeding
   sql:
@@ -32,6 +39,7 @@ spring:
     defer-datasource-initialization: true
     properties:
       hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
         jdbc:
           batch_size: 50
