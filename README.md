@@ -508,13 +508,13 @@ El repositorio incluye documentación de pruebas en:
 | Nombre | Correo institucional | GitHub | Rol |
 |---|---|---|---|
 | Benjamín Aranda | be.arandaa@duocuc.cl | @BenjaAranda | Backend, frontend, base de datos, scraping e importación masiva |
-| José Naour | jo.naour@duocuc.cl | — | Infraestructura, CI/CD, Docker, despliegue |
+| José Naour | jo.naour@duocuc.cl | @jonaourdev | Infraestructura, CI/CD, Docker, despliegue |
 
 ---
 
 ## Licencia
 
-Este proyecto es de uso académico para la asignatura de Taller de Integración de Software. Todos los derechos reservados.
+Este proyecto es de uso académico para la asignatura TALLER APLICADO DE PROGRAMACION_001D. Todos los derechos reservados.
 
 ---
 
