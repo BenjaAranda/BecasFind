@@ -157,52 +157,79 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Maven 3.8 o superior.
 - Node.js 20 o superior.
 - npm.
-- MySQL 8.0 o superior.
+- PostgreSQL 15 o superior.
 - Git.
 
 ---
 
-## Configuración de base de datos
+## Instalación
 
-El proyecto utiliza MySQL como motor de base de datos.
+Clona el repositorio e instala las dependencias de cada módulo:
+
+```bash
+git clone https://github.com/BenjaAranda/BecasFind.git
+cd BecasFind
+```
+
+### Backend
+
+```bash
+cd backend
+mvn clean install
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+## Configuración
+
+### Variables de entorno
+
+Crea un archivo `.env` en la carpeta `backend/` con las siguientes variables:
+
+```bash
+DB_URL=jdbc:postgresql://localhost:5432/becasfind
+DB_USERNAME=postgres
+DB_PASSWORD=tu_password
+JWT_SECRET=tu_clave_segura
+JWT_EXPIRATION_MS=86400000
+```
+
+El frontend también requiere un `.env` en `frontend/`:
+
+```bash
+VITE_API_URL=http://localhost:8080
+```
+
+> **Importante**: nunca subas estos archivos al repositorio. Ya están incluidos en `.gitignore`.
+
+### Base de datos
+
+El proyecto utiliza PostgreSQL como motor de base de datos.
 
 ### 1. Crear la base de datos
 
-Puedes usar el script ubicado en:
+Ejecuta el script DDL ubicado en `infra/ddl.sql`. Este script crea la base de datos `becasfind` y todas las tablas necesarias.
 
-```text
-infra/ddl.sql
-```
-
-Este script crea la base de datos `becasfind` y las tablas necesarias para usuarios, roles, becas, regiones, comunas, instituciones, tipos de beca, perfiles, favoritos, requisitos y documentos requeridos.
-
-Desde MySQL puedes ejecutarlo con:
+Desde PostgreSQL:
 
 ```bash
-mysql -u root -p < infra/ddl.sql
+psql -U postgres -f infra/ddl.sql
 ```
 
-O bien, abrir el archivo desde una herramienta como MySQL Workbench, DBeaver o DataGrip y ejecutarlo manualmente.
+O bien, abre el archivo desde una herramienta como pgAdmin, DBeaver o DataGrip y ejecútalo manualmente.
 
-### 2. Revisar credenciales locales
+### 2. Verificar configuración
 
-El archivo de configuración del backend se encuentra en:
+El backend usa `application.yml` con variables de entorno para la conexión. Asegúrate de que tu `.env` en `backend/` tenga los valores correctos para tu entorno local.
 
-```text
-backend/src/main/resources/application.yml
-```
-
-Ajusta los datos de conexión según tu entorno local:
-
-```yaml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/becasfind?serverTimezone=America/Santiago&allowPublicKeyRetrieval=true&useSSL=false
-    username: TU_USUARIO
-    password: TU_PASSWORD
-```
-
-> Recomendación: para entornos reales o despliegues, no dejar credenciales ni secretos directamente en `application.yml`. Utiliza variables de entorno.
+> **Recomendación**: para entornos reales o despliegues, no dejes credenciales ni secretos directamente en `application.yml`. Usa siempre variables de entorno.
 
 ---
 
@@ -337,6 +364,31 @@ http://localhost:8080
 
 ---
 
+## Base de datos
+
+El modelo de datos está compuesto por las siguientes tablas principales:
+
+| Tabla | Descripción |
+|---|---|
+| `regiones` | Catálogo de regiones de Chile |
+| `comunas` | Comunas asociadas a cada región |
+| `roles` | Roles del sistema (ESTUDIANTE, ADMIN) |
+| `usuarios` | Usuarios registrados (soft delete vía campo `activo`) |
+| `tipos_institucion` | Tipos de institución (universidad, instituto, municipalidad, etc.) |
+| `instituciones` | Instituciones que ofrecen becas |
+| `tipos_beca` | Categorías de becas (académica, deportiva, socioeconómica, etc.) |
+| `becas` | Entidad central con nombre, monto, fechas, descripción, URL |
+| `becas_regiones` | Relación M:N entre becas y regiones |
+| `requisitos_perfil` | Requisitos de RSH, NEM y PAES por beca |
+| `documentos_requeridos` | Documentos necesarios para postular |
+| `password_reset_tokens` | Tokens para recuperación de contraseña |
+| `perfiles_estudiante` | Perfil del estudiante (RSH, NEM, región, carrera) |
+| `becas_favoritas` | Relación M:N usuario↔beca (favoritos) |
+
+El diagrama entidad-relación está disponible en `documentacion/MER.png`. El script DDL completo se encuentra en `infra/ddl.sql`.
+
+---
+
 ## Documentación disponible
 
 El repositorio incluye una carpeta `documentacion/` con material de apoyo del proyecto:
@@ -367,8 +419,8 @@ Antes de utilizar este proyecto en producción, se recomienda:
 Ejemplo recomendado para variables de entorno:
 
 ```bash
-DB_URL=jdbc:mysql://localhost:3306/becasfind
-DB_USERNAME=root
+DB_URL=jdbc:postgresql://localhost:5432/becasfind
+DB_USERNAME=postgres
 DB_PASSWORD=tu_password
 JWT_SECRET=tu_clave_segura
 JWT_EXPIRATION_MS=86400000
@@ -410,8 +462,60 @@ npm run preview
 
 ---
 
+## Tests / Pruebas
+
+El proyecto incluye suites de pruebas automatizadas tanto para backend como para frontend.
+
+### Ejecutar todas las pruebas
+
+Desde la raíz del repositorio:
+
+```bash
+.\run_all_tests.ps1
+```
+
+Este script ejecuta:
+
+1. **Backend**: 60 tests unitarios y de integración con JUnit 5 + H2 en memoria.
+2. **Frontend**: Tests E2E con Playwright (requiere el frontend corriendo en `http://localhost:5173`).
+
+### Solo backend
+
+```bash
+cd backend
+mvn test
+```
+
+Los reportes se generan en `backend/target/surefire-reports/`.
+
+### Solo frontend (E2E)
+
+```bash
+cd frontend
+npx playwright test
+```
+
+### Plan de pruebas
+
+El repositorio incluye documentación de pruebas en:
+- `3.1.2 Plan Pruebas Funcionales - Completo.docx`
+- `3.1.3 Planilla Casos de Prueba.xlsx`
+
+---
+
 ## Autores
 
-Proyecto desarrollado como parte de un proyecto de título orientado a la búsqueda y centralización de becas estudiantiles.
+| Nombre | Correo institucional | GitHub | Rol |
+|---|---|---|---|
+| Benjamín Aranda | be.arandaa@duocuc.cl | @BenjaAranda | Backend, frontend, base de datos, scraping e importación masiva |
+| José Naour | jo.naour@duocuc.cl | — | Infraestructura, CI/CD, Docker, despliegue |
+
+---
+
+## Licencia
+
+Este proyecto es de uso académico para la asignatura de Taller de Integración de Software. Todos los derechos reservados.
+
+---
 
 Repositorio: `BenjaAranda/BecasFind`
