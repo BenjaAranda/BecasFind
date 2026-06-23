@@ -36,6 +36,6 @@ test('CP-05: Login fallido con credenciales incorrectas', async ({ page }) => {
   await page.getByPlaceholder('admin@becasfind.cl').fill('fake@noexiste.cl');
   await page.locator('input[type="password"]').fill('wrongpassword');
   await page.getByRole('button', { name: /Ingresar/i }).click();
-  // Should show error message
-  await expect(page.locator('text=incorrecto').or(page.locator('text=error')).or(page.locator('text=Error'))).toBeVisible({ timeout: 8000 });
+  // Should show error message (backend returns "Correo electronico o contrasenia incorrectos")
+  await expect(page.locator('text=incorrectos')).toBeVisible({ timeout: 8000 });
 });

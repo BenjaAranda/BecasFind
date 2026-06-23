@@ -4,11 +4,9 @@ import { test, expect } from '@playwright/test';
 test('CP-61: Pagina de detalle muestra documentos', async ({ page }) => {
   // Go directly to detail page (public, no auth needed)
   await page.goto('/becas/1');
-  await page.waitForTimeout(2000);
   
-  // Should render the detail page with scholarship info
-  const body = page.locator('body');
-  await expect(body).not.toBeEmpty();
+  // Should render the detail page with scholarship info — check for heading or content
+  await expect(page.locator('h1, h2, h3').first()).toBeVisible({ timeout: 10000 });
   
   // Check for document section if visible
   const docSection = page.locator('text=Documentos').or(page.locator('text=OBLIGATORIO'));
@@ -19,10 +17,9 @@ test('CP-61: Pagina de detalle muestra documentos', async ({ page }) => {
 test('CP-62: Indicador visual de beca vencida', async ({ page }) => {
   // Go to beca #6 which has expired date (2024-03-01)
   await page.goto('/becas/6');
-  await page.waitForTimeout(2000);
   
-  const body = page.locator('body');
-  await expect(body).not.toBeEmpty();
+  // Should render the detail page with scholarship info — check for heading or content
+  await expect(page.locator('h1, h2, h3').first()).toBeVisible({ timeout: 10000 });
   
   // Check for expired badge/indicator
   const expiredBadge = page.locator('text=Expirada').or(page.locator('text=expirada')).or(page.locator('[class*="expire"]'));
