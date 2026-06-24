@@ -1,10 +1,11 @@
-# BecasFind · Test Suite Runner
+# BecasFind - Test Suite Runner
 # Ejecuta todos los tests automatizados y muestra resultados
 
 $ErrorActionPreference = "Continue"
+$OutputEncoding = [Console]::OutputEncoding = [Text.Encoding]::UTF8
 $base = Split-Path -Parent $MyInvocation.MyCommand.Path
 
-# Locate Maven — try IntelliJ bundled first, then PATH
+# Locate Maven
 $mvnCmd = $null
 $knownMvnPaths = @(
     "C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\plugins\maven\lib\maven3\bin\mvn.cmd",
@@ -17,52 +18,49 @@ if (-not $mvnCmd) {
     $mvnCmd = (Get-Command mvn -ErrorAction SilentlyContinue).Source
 }
 if (-not $mvnCmd) {
-    Write-Host "ERROR: No se encontró Maven. Instálalo o ajusta la variable `$mvnCmd en este script." -ForegroundColor Red
+    Write-Host "ERROR: No se encontro Maven. Instalalo o ajusta la variable mvnCmd en este script." -ForegroundColor Red
     exit 1
 }
 
 Write-Host "`n========================================" -ForegroundColor Cyan
-Write-Host "  BECASFIND · TEST SUITE AUTOMATIZADA" -ForegroundColor Cyan
+Write-Host "  BECASFIND | TEST SUITE AUTOMATIZADA" -ForegroundColor Cyan
 Write-Host "========================================`n" -ForegroundColor Cyan
 
-# ── Phase 1: Backend Tests (JUnit 5 + H2) ──
+# Phase 1: Backend Tests (JUnit 5 + H2)
 Write-Host "[1/2] Backend Tests (JUnit 5 + H2 en memoria)..." -ForegroundColor Yellow
 
-# Ensure target is clean
 $targetDir = "$base\backend\target"
 if (Test-Path $targetDir) { Remove-Item -Recurse -Force $targetDir -ErrorAction SilentlyContinue }
 
 Push-Location "$base\backend"
-$result = & $mvnCmd test 2>&1
+$mvnOutput = & $mvnCmd test 2>&1
 Pop-Location
 
-# Extract results
-$total = 0; $passed = 0; $failed = 0; $errors = 0
+$totalBack = 0; $passedBack = 0; $failedBack = 0; $errorsBack = 0
 if (Test-Path "$base\backend\target\surefire-reports") {
     Get-ChildItem "$base\backend\target\surefire-reports" -Filter "*.txt" | ForEach-Object {
         $c = Get-Content $_.FullName -Raw
         if ($c -match 'Tests run: (\d+), Failures: (\d+), Errors: (\d+)') {
-            $total += [int]$Matches[1]
-            $passed += [int]$Matches[1] - [int]$Matches[2] - [int]$Matches[3]
-            $failed += [int]$Matches[2]
-            $errors += [int]$Matches[3]
+            $totalBack += [int]$Matches[1]
+            $passedBack += [int]$Matches[1] - [int]$Matches[2] - [int]$Matches[3]
+            $failedBack += [int]$Matches[2]
+            $errorsBack += [int]$Matches[3]
         }
     }
 }
 
-if ($total -eq 0) {
+if ($totalBack -eq 0) {
     Write-Host "  Backend: No se encontraron resultados. Revisa la salida de Maven arriba." -ForegroundColor Yellow
-    Write-Host "  Resultado de Maven (últimas 20 líneas):" -ForegroundColor Yellow
-    $result | Select-Object -Last 20 | ForEach-Object { Write-Host "    $_" }
+    $mvnOutput | Select-Object -Last 20 | ForEach-Object { Write-Host "    $_" }
 } else {
-    Write-Host "  Backend: $total ejecutados | " -NoNewline
-    Write-Host "$passed PASADOS " -NoNewline -ForegroundColor Green
-    if ($failed -gt 0) { Write-Host "$failed fallidos " -NoNewline -ForegroundColor Red }
-    if ($errors -gt 0) { Write-Host "$errors errores " -NoNewline -ForegroundColor Red }
+    Write-Host "  Backend: $totalBack ejecutados | " -NoNewline
+    Write-Host "$passedBack PASADOS " -NoNewline -ForegroundColor Green
+    if ($failedBack -gt 0) { Write-Host "$failedBack fallidos " -NoNewline -ForegroundColor Red }
+    if ($errorsBack -gt 0) { Write-Host "$errorsBack errores " -NoNewline -ForegroundColor Red }
     Write-Host ""
 }
 
-# ── Phase 2: Frontend E2E Tests (Playwright) ──
+# Phase 2: Frontend E2E Tests (Playwright)
 Write-Host "`n[2/2] Frontend E2E Tests (Playwright)..." -ForegroundColor Yellow
 
 $frontendOk = $false
@@ -72,24 +70,70 @@ try {
 } catch { }
 
 if (-not $frontendOk) {
-    Write-Host "  Frontend no detectado en :5173 — iniciando..." -ForegroundColor Yellow
+    Write-Host "  Frontend no detectado en :5173, iniciando..." -ForegroundColor Yellow
     Start-Process -FilePath "npm" -ArgumentList "run dev" -WorkingDirectory "$base\frontend" -WindowStyle Minimized
-    Start-Sleep -Seconds 10
+    Start-Sleep -Seconds 12
 }
+
+$totalE2E = 0; $passedE2E = 0; $failedE2E = 0
 
 if (Test-Path "$base\frontend\playwright.config.ts") {
     Push-Location "$base\frontend"
-    npx playwright test 2>&1
+
+    # Clean old report and test-results
+    Remove-Item -Recurse -Force "playwright-report" -ErrorAction SilentlyContinue
+    Remove-Item -Recurse -Force "test-results" -ErrorAction SilentlyContinue
+
+    $pwOutput = npx playwright test 2>&1
+
+    # Show Playwright output (filter out npm noise)
+    $pwOutput | ForEach-Object {
+        $line = $_.ToString()
+        if ($line -match '^\s+(ok|✘)') {
+            if ($line -match '^\s+ok') {
+                Write-Host "    PASS  $($line -replace '^\s+ok\s+\d+\s+','')" -ForegroundColor Green
+            } else {
+                Write-Host "    FAIL  $($line -replace '^\s+✘\s+\d+\s+','')" -ForegroundColor Red
+            }
+        }
+    }
+
+    # Extract results from Playwright output (join to string for -match)
+    $pwText = $pwOutput -join "`n"
+    if ($pwText -match '(\d+) passed') { $passedE2E = [int]$Matches[1] }
+    if ($pwText -match '(\d+) failed') { $failedE2E = [int]$Matches[1] }
+    $totalE2E = $passedE2E + $failedE2E
+
     Pop-Location
+
+    if ($totalE2E -gt 0) {
+        Write-Host "  Frontend E2E: $totalE2E ejecutados | " -NoNewline
+        Write-Host "$passedE2E PASADOS " -NoNewline -ForegroundColor Green
+        if ($failedE2E -gt 0) { Write-Host "$failedE2E fallidos " -NoNewline -ForegroundColor Red }
+        Write-Host ""
+    } else {
+        Write-Host "  Frontend E2E: No se detectaron resultados." -ForegroundColor Yellow
+    }
 } else {
-    Write-Host "  Playwright no instalado — ejecuta: cd frontend && npm init playwright@latest" -ForegroundColor Yellow
+    Write-Host "  Playwright no instalado." -ForegroundColor Yellow
 }
 
-# ── Summary ──
+# Summary
+$grandTotal = $totalBack + $totalE2E
+$grandPassed = $passedBack + $passedE2E
+$grandFailed = $failedBack + $failedE2E
+
 Write-Host "`n========================================" -ForegroundColor Cyan
 Write-Host "  RESULTADO FINAL" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  Backend :  $passed / $total pasados"
-Write-Host "  Frontend:  Playwright E2E (ver arriba)"
+Write-Host "  Backend :  $passedBack / $totalBack pasados"
+Write-Host "  E2E     :  $passedE2E / $totalE2E pasados"
+Write-Host "  TOTAL   :  $grandPassed / $grandTotal pasados"
+if ($grandFailed -gt 0) {
+    Write-Host "  FALLOS  :  $grandFailed" -ForegroundColor Red
+}
 Write-Host "  Reportes:  backend/target/surefire-reports/"
+if (Test-Path "$base\frontend\playwright-report\index.html") {
+    Write-Host "             frontend/playwright-report/index.html"
+}
 Write-Host "========================================`n" -ForegroundColor Cyan
