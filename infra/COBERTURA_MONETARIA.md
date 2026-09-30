@@ -32,4 +32,14 @@ La migración es transaccional y repetible. Añade columnas con valor DESCONOCID
 
 `infra/verify-profile-postgres.ps1 -MavenPath <mvn.cmd> -TestClasses MonetaryCoverageTest` ejecuta primero la comprobación SQL de migración y después siete pruebas sobre el DDL real con Hibernate validate. La comprobación SQL usa un esquema temporal: tildes/texto originales, migración repetida antes/después de añadir metadatos y rechazo de datos incoherentes. Los casos Java verifican grupos, decimales, cero, empates, páginas, favoritos, compatibilidad de escrituras, límites HTTP y persistencia entre solicitudes.
 
-Pendiente fuera de estas fases: controles administrativos para editar metadatos (FASE 10), explicación visible del orden por grupos (FASE 9) y enriquecimiento del corpus mediante fuentes verificadas/importación estructurada (FASE 14). Los registros históricos sin metadatos no se convierten mágicamente en importes ordenables.
+P01/P02 implementados: administración edita/vacía cobertura sin perder precisión y el buscador explica grupos. P04 añade columnas CSV opcionales validadas y auditoría/cuarentena del corpus; los originales no se modifican ni se consideran confirmados. Véase documentacion/auditoria_corpus/README.md.
+
+## Migraciones posteriores (P03–P05)
+
+Aplicar 002, 003, 004 y 005 en ese orden antes del backend actualizado, con respaldo comprobado, escrituras detenidas y `ON_ERROR_STOP`. No se aplicaron a la base del usuario. La 003 asigna UUID estables; 004 permite cierres desconocidos y conserva fechas existentes; 005 añade versión y convierte tres generadores IDENTITY en secuencias ordinarias conservando IDs y avance. Hibernate prod sigue validando, sin modificar esquema.
+
+La administración devuelve `version` y el formulario la reenvía. Cada actualización del agregado incrementa versión, incluso si solo cambia requisitos/documentos. Un formulario obsoleto recibe 409 y conserva sus campos para revisarlos; volver a abrir la beca obtiene la versión vigente. Los UUID públicos no incluyen esta versión interna.
+
+Las importaciones se serializan mediante bloqueo transaccional de la fila ADMIN, que debe existir en el esquema instalado. Resuelven catálogos antes de encolar INSERT y precargan becas por nombres del archivo (máximo 5000 filas). Para Beca/RequisitoPerfil/DocumentoRequerido se usan secuencias con allocationSize=1. Un fallo revierte todo el archivo; los huecos de secuencia tras rollback son normales.
+
+`CsvBatchTest` observa addBatch/executeBatch JDBC: 51 becas produjeron lotes [50, 1] con PostgreSQL 17. Antes del cambio el mismo caso observaba cero lotes. No implica una cifra de throughput ni garantiza batches iguales cuando se mezclan escrituras de otras clases. `ScholarshipConcurrencyTest` cubre editores obsoletos, transacciones simultáneas, cambios exclusivos de documentos e importaciones/catálogos concurrentes. La comprobación SQL repite 004/005 y conserva una secuencia adelantada, fechas e IDs.
