@@ -1,7 +1,6 @@
 package com.becasfind.api.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
-import com.becasfind.api.models.dtos.ErrorResponse;
 import com.becasfind.api.models.dtos.ApiResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,7 +51,7 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<ErrorResponse> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
         Map<String, String> errors = new HashMap<>();
         for (FieldError fieldError : ex.getBindingResult().getFieldErrors()) {
             errors.put(fieldError.getField(), fieldError.getDefaultMessage());
@@ -60,7 +59,7 @@ public class GlobalExceptionHandler {
 
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(java.time.LocalDateTime.now())
                 .status(HttpStatus.BAD_REQUEST.value())
                 .error("Error de validación")
@@ -73,10 +72,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(EntityNotFoundException.class)
-    public ResponseEntity<ErrorResponse> handleEntityNotFound(EntityNotFoundException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleEntityNotFound(EntityNotFoundException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.NOT_FOUND.value(),
                 "Recurso no encontrado",
                 ex.getMessage(),
@@ -87,10 +86,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(AccessDeniedException.class)
-    public ResponseEntity<ErrorResponse> handleAccessDenied(AccessDeniedException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleAccessDenied(AccessDeniedException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.FORBIDDEN.value(),
                 "Acceso denegado",
                 "No tienes permisos para acceder a este recurso",
@@ -101,10 +100,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(BadCredentialsException.class)
-    public ResponseEntity<ErrorResponse> handleBadCredentials(BadCredentialsException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleBadCredentials(BadCredentialsException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
                 .error("Credenciales inválidas")
@@ -116,10 +115,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(InternalAuthenticationServiceException.class)
-    public ResponseEntity<ErrorResponse> handleInternalAuth(InternalAuthenticationServiceException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleInternalAuth(InternalAuthenticationServiceException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
                 .error("Credenciales inválidas")
@@ -131,10 +130,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(BusinessException.class)
-    public ResponseEntity<ErrorResponse> handleBusiness(BusinessException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleBusiness(BusinessException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 ex.getStatus().value(),
                 "Error de negocio",
                 ex.getMessage(),
@@ -145,10 +144,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<ErrorResponse> handleIllegalArgument(IllegalArgumentException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleIllegalArgument(IllegalArgumentException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.BAD_REQUEST.value(),
                 "Argumento inválido",
                 ex.getMessage(),
@@ -164,12 +163,19 @@ public class GlobalExceptionHandler {
                 "El archivo supera el límite de 10 MB permitido para la importación."));
     }
 
+    private ApiResponse<Void> detailedError(int status, String error, String message, String path) {
+        ApiResponse<Void> response = ApiResponse.error(status, message);
+        response.setError(error);
+        response.setPath(path);
+        return response;
+    }
+
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorResponse> handleGeneral(Exception ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleGeneral(Exception ex, WebRequest request) {
         log.error("Error inesperado: {}", ex.getMessage(), ex);
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),
                 "Error interno del servidor",
                 "Ha ocurrido un error inesperado. Por favor, intenta de nuevo más tarde.",

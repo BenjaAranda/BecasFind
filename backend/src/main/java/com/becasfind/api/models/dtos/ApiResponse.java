@@ -26,11 +26,20 @@ public class ApiResponse<T> {
     @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.ALWAYS)
     private T data;
 
+    @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
+    private String error;
+
+    @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
+    private String path;
+
+    @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
+    private java.util.Map<String, String> validationErrors;
+
     public static <T> ApiResponse<T> success(T data) {
         return ApiResponse.<T>builder()
                 .timestamp(LocalDateTime.now())
                 .status(200)
-                .message("Operacion exitosa")
+                .message("Operación exitosa")
                 .data(data)
                 .build();
     }

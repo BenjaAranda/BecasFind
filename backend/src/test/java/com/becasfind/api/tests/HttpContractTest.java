@@ -8,6 +8,22 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 class HttpContractTest extends BaseTest {
+    @Test void validationErrorsKeepFieldDetailsInTheCommonEnvelope() {
+        ResponseEntity<Map> response = post("/api/auth/login", null,
+                Map.of("email", "invalid", "password", ""), Map.class);
+        assertError(response, 400);
+        assertEquals("/api/auth/login", response.getBody().get("path"));
+        assertNotNull(response.getBody().get("error"));
+        assertTrue(((Map) response.getBody().get("validationErrors")).containsKey("email"));
+    }
+
+    @Test void authenticationNotFoundAndAuthorizationErrorsUseTheCommonEnvelope() {
+        assertError(post("/api/auth/login", null,
+                Map.of("email", "missing@example.com", "password", "password123"), Map.class), 401);
+        assertError(get("/api/usuarios/999999", adminToken(), Map.class), 404);
+        assertError(get("/api/usuarios", studentToken(), Map.class), 403);
+    }
+
     @Test void malformedJsonAndTypesReturn400AcrossControllers() {
         assertError(post("/api/auth/login", null, "{", Map.class), 400);
         assertError(put("/api/perfil", studentToken(), "{", Map.class), 400);

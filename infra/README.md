@@ -260,3 +260,9 @@ Interfaz administrativa permite editar nombre/correo de cuentas activas mediante
 Los JWT nuevos incluyen una marca HMAC vinculada a las credenciales almacenadas; la API rechaza sesiones anteriores al cambio de contraseña. La contraseña y su hash no se incluyen en el token. Al aplicar esta versión, tokens antiguos sin la marca requieren un nuevo login; no hay migración de base de datos.
 
 verify-profile-postgres.ps1 -MavenPath <ruta-mvn.cmd> -TestClasses AccountSecurityTest ejecuta esta suite en una base temporal con DDL real y validate. Verificación: 14 casos PostgreSQL aprobados, 140 casos H2 aprobados, package/compile aprobados y cinco recorridos Chromium reales aprobados. La recuperación usa un servicio de correo simulado en pruebas; no confirma entrega a una bandeja real. Sin despliegues ni cambios en la base local.
+
+### Contrato de errores del manejador global — 30 de septiembre de 2026
+
+GlobalExceptionHandler usa ApiResponse con data:null para todos sus errores y conserva error/path/validationErrors cuando corresponden. Se mantienen códigos HTTP y Allow; se elimina ErrorResponse sin usos restantes. Los filtros de seguridad todavía requieren unificar respuestas por separado.
+
+verify-profile-postgres.ps1 -MavenPath <ruta-mvn.cmd> -TestClasses HttpContractTest verifica ocho casos de contrato HTTP sobre PostgreSQL temporal/DDL real/validate. Resultado: ocho aprobados, 142 pruebas H2 aprobadas, cinco recorridos Chromium reales aprobados y Maven package/compile aprobados. Sin cambios de frontend, base local ni despliegues.
