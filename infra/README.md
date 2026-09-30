@@ -69,3 +69,17 @@ El envío es síncrono: conexión limitada a 5 segundos y solicitud a 10; el pro
 Vercel debe usar `frontend` como Root Directory. `frontend/vercel.json` configura el acceso directo a las rutas de la SPA siguiendo la [documentación de Vite en Vercel](https://vercel.com/docs/frameworks/frontend/vite). Esta fase prepara las rutas; no realiza un despliegue.
 
 Pruebas: `mvn test` verifica API, transacciones y un proveedor HTTP local de pruebas. Con el frontend iniciado en 5173, `npx playwright test e2e/tests/password-recovery.spec.ts` verifica siete recorridos de interfaz con respuestas API controladas. Esas pruebas no envían correos reales. Las pruebas generales existentes usan un mock explícito del servicio de correo.
+
+## Reglas del buscador — FASE 5
+
+El listado público y las recomendaciones incluyen únicamente becas activas con fecha de cierre igual o posterior al día actual en America/Santiago. La fecha de inicio no participa en este criterio, conforme a BR-VIGENCIA. No se modifica la fecha de ninguna beca para hacerla visible.
+
+Si se suministra RSH o NEM, se exigen valores registrados que satisfagan respectivamente RSH máximo >= RSH del estudiante y NEM mínimo <= NEM del estudiante. Un requisito nulo no certifica compatibilidad y se excluye para ese filtro. Si el filtro no se suministra, no restringe los resultados. Es una aplicación conservadora de las comparaciones del contrato; revisar y completar requisitos desconocidos sin inventarlos.
+
+La región coincide exactamente o la beca es nacional (sin regiones). La tarjeta recibe todos los nombres de región en un orden estable. La búsqueda textual distingue porcentajes, guiones bajos y signos de exclamación literales; no permite que actúen como comodines. Sigue usando LIKE parametrizado, sin dependencias de búsqueda nuevas.
+
+Las recomendaciones ejecutan la misma búsqueda con RSH, NEM y región del perfil. No excluyen instituciones por identificadores numéricos de tipo. No prueban por sí solas carrera, PAES, año académico ni requisitos externos; no presentarlas como garantía de elegibilidad.
+
+Se rechazan con 400 los RSH fuera de 0–100, NEM no finito o fuera de 1–7, identificadores no positivos, texto de más de 200 caracteres, órdenes desconocidos y páginas de más de 100 registros. El orden predeterminado es cierre ascendente con id interno como desempate estable de paginación.
+
+Pendientes antes de publicar: listado administrativo independiente del buscador vigente; fechas y filtros de interfaz; definición y almacenamiento de monto numérico/unidad. Los órdenes montoAsc/montoDesc todavía operan sobre texto heredado y no son una comparación monetaria correcta. No extraer cifras arbitrarias de coberturas porcentuales o de importes con periodos distintos.

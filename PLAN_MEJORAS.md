@@ -201,4 +201,16 @@ Referencias consultadas: [Vite en Vercel](https://vercel.com/docs/frameworks/fro
 - Configuración de rutas SPA preparada en frontend/vercel.json; ejemplos de variables sin secretos. GitHub: rama bugfix/security-and-recovery y commits separados por configuración, seguridad y documentación; esta fase se publica en la misma rama tras comprobarla.
 - Pendiente externo de esta fase: cuenta, remitente autorizado, clave privada y prueba de recepción real. No se han enviado correos reales ni publicado la web. Landing y registro completo no se declaran rediseñados por este avance.
 
-Siguiente fase propuesta: correcciones del buscador y recomendaciones. Mantener la activación de correo pendiente hasta disponer de cuenta/remitente; después continuar importación, diseño general y calidad, y publicar con sus criterios de cierre verificados. Ejecutar una fase a la vez tras instrucción explícita.
+## Avance de implementación — FASE 5, reglas del buscador
+
+- Restablecida BR-VIGENCIA: activa y cierre inclusivo según el día de Chile (America/Santiago), con prueba que distingue el cambio de día UTC. No se alteraron datos locales ni fechas de becas para hacerlas visibles.
+- Comparaciones RSH/NEM inclusivas conforme al contrato. Con un filtro presente, los requisitos nulos no se convierten en compatibilidad confirmada; sin ese filtro, no restringen resultados. Verificada combinación de límites y requisitos desconocidos.
+- Recomendaciones reutilizan buscarBecas con RSH, NEM y región del perfil. Eliminados identificadores de tipo de institución 5/8 como regla de elegibilidad.
+- Texto literal parametrizado con escape de comodines; coincidencia en nombre y descripción corta, mayúsculas/minúsculas y espacios de entrada. Regiones nacionales/exactas comprobadas y nombres de varias regiones ordenados consistentemente en el DTO.
+- Validación del servicio: RSH 0–100, NEM finito 1–7, identificadores positivos, texto <=200, página <=100 y orden reconocido. Orden de fechas con desempate por id interno para evitar páginas inestables.
+- Pruebas nuevas sobre entidades persistidas y HTTP real: cierre ayer/hoy/mañana, inactivas, límites, nulos, varias regiones, texto literal, recomendaciones entre instituciones, paginación estable, fecha chilena e inputs inválidos. Las pruebas se ejecutan sobre la base temporal de test y revierten sus fixtures.
+- Suite completa de backend: 99 pruebas aprobadas, cero fallos/errores; compilación y empaquetado aprobados. Diez casos nuevos respecto al cierre anterior. Los archivos modificados mantienen UTF-8 sin BOM.
+- Esta fase modifica servicios y reglas, sin rediseñar la interfaz ni añadir nuevos endpoints. El paquete C completo sigue abierto.
+- Pendientes: monto numérico/unidad (el orden heredado por texto sigue siendo incorrecto), fechas y filtros de interfaz, listado administrativo independiente para conservar acceso a becas vencidas/inactivas. No publicar antes de cerrar estos puntos.
+
+Siguiente fase propuesta: FASE 6, separar el listado administrativo del buscador público y completar validación de endpoints. Después continuar las fases de interfaz del buscador, datos y diseño. Mantener activación de correo pendiente hasta disponer de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.
