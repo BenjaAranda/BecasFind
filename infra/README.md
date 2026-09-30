@@ -111,3 +111,30 @@ El editor envía `regionesIds: []` y `documentosRequeridos: []` para vaciar asoc
 Los catálogos fallidos bloquean el guardado y ofrecen reintento. Los formularios validan campos y fechas antes de enviar, conservan datos tras un fallo y bloquean nuevos cambios/envíos mientras guardan. El listado cancela consultas antiguas, espera 400 ms al buscar y muestra totalElements. Errores de consulta, edición, eliminación y desactivación son visibles; las confirmaciones fallidas permanecen abiertas para reintentar.
 
 Verificación: `npx playwright test e2e/tests/admin-forms.spec.ts e2e/tests/admin-listing.spec.ts`, diez casos aprobados con respuestas API controladas. Compilaciones frontend/backend y revisión estática de archivos modificados aprobadas. La revisión global conserva tres errores fuera de administración (AuthContext y prueba de detalle). Las validaciones de interfaz no sustituyen controles del servidor; la política de borrado y las escrituras reales no cambiaron ni se ejecutaron sobre datos locales. Importación CSV y despliegue permanecen pendientes.
+
+## Importación CSV — FASE 14
+
+El archivo se acepta completo o se revierte completo. Un informe con errores contiene cero creadas y cero actualizadas; corregir el CSV y reenviarlo. No mover un archivo a procesados si errores es distinto de cero. El endpoint sigue entregando el informe en ApiResponse/HTTP 200; superar 10 MB devuelve ApiResponse/413. El límite del archivo es 5000 filas, 10 MB; el request multipart y max-swallow-size de Tomcat se limitan a 11 MB para permitir entregar el rechazo sin cerrar prematuramente la conexión.
+
+Encabezados estándar requeridos, en cualquier orden:
+`nombre,institucion,tipo_beca,monto,fecha_inicio,fecha_cierre,rsh_maximo,nem_minimo,regiones,descripcion,descripcion_larga,url`.
+Puede añadirse `documentos_requeridos`; otras columnas, encabezados duplicados o ausentes se rechazan. Si la columna de documentos está presente reemplaza la lista y vacía elimina documentos; si está ausente conserva los anteriores al actualizar. Cada documento proporcionado debe llevar [OBLIGATORIO] o [OPCIONAL], separado por punto y coma. Regiones vacías representan cobertura nacional; una abreviatura desconocida rechaza el archivo entero.
+
+Nombre/institución/tipo obligatorios, límites de longitud del esquema, RSH 0–100, NEM 1–7 con máximo un decimal, fechas estrictas y cierre no anterior al inicio. La URL debe estar presente y apuntar a una subpágina HTTP/HTTPS; no se realiza una petición a la fuente. Reimportar una beca existente respeta su desactivación y cambia su tipo/regiones/requisitos; los requisitos faltantes se crean. La institución existente conserva su clasificación. El creador de una beca nueva es el administrador autenticado.
+
+Entrada UTF-8 (BOM tolerado) con fallback Windows-1252 para archivos antiguos. Patrones conocidos de doble codificación y bytes nulos se rechazan; no se reparan textos silenciosamente. Los CSV nuevos deben seguir escribiéndose en UTF-8 sin BOM. Para verificar PostgreSQL después de importar:
+
+```sql
+SELECT id_beca, nombre, encode(convert_to(nombre, 'UTF8'), 'hex')
+FROM becas
+WHERE encode(convert_to(nombre || coalesce(descripcion_corta, '') || coalesce(descripcion_larga, ''), 'UTF8'), 'hex') ~ 'c383c2|c383e2|c382c2';
+SELECT id_institucion, nombre, encode(convert_to(nombre, 'UTF8'), 'hex')
+FROM instituciones
+WHERE encode(convert_to(nombre, 'UTF8'), 'hex') ~ 'c383c2|c383e2|c382c2';
+```
+
+Prueba reproducible: desde backend, `mvn -Dtest=CsvImportIntegrityTest test`. Las pruebas usan datos temporales, provocan errores de persistencia y comprueban rollback/reintento. Al ejecutarlas contra una base PostgreSQL desechable verifican HEX después de cada importación; nunca apuntarlas a una base con datos que conservar, pues el perfil test recrea el esquema.
+
+Batch size 50 y flush cada 50/final no garantizan INSERT en lotes con IDs IDENTITY y consultas intermedias. La optimización real y la revisión del corpus siguen abiertas. El cierre vacío conserva el valor contractual 2026-12-31; confirmar fechas oficiales antes de publicar. Esta fase no importa los CSV históricos sobre la base local ni activa un scraper o despliegue.
+
+Resultados finales: 114 pruebas del backend y empaquetado aprobados; las doce pruebas de integridad CSV también aprobadas sobre PostgreSQL 17 temporal. Cada importación de esa ejecución incluye consulta HEX contra becas/instituciones; los nombres con tildes/ñ coinciden con sus bytes UTF-8. El fallo de carga demasiado grande inicialmente cerraba la conexión; max-swallow-size acotado a 11 MB permite responder 413 en la prueba real. Las bases de prueba son desechables y se detuvieron; los datos de la aplicación no se modificaron.
