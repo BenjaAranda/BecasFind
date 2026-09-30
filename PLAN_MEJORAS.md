@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de configurar respuestas de autenticación y permisos en FASE 4. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de validar solicitudes públicas de autenticación en FASE 2. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -15,6 +15,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Alinear esquema, migrar la base local con respaldo y probar restauración preservando datos.
 - [x] Endurecer autorización JWT con actividad/rol actual, limitar intentos y restringir CORS.
 - [x] Invalidar JWT anteriores al recuperar la contraseña, verificando una marca HMAC de las credenciales actuales sin exponer la contraseña ni su hash.
+- [x] Validar límites públicos de registro/login/recuperación: nombre de hasta 255 caracteres, correo acotado, contraseña de hasta 72 bytes UTF-8 y formato UUID. Verificar rechazo antes de escrituras y conservación del enlace ante contraseña inválida.
 - [x] Unificar errores del manejador global en ApiResponse, incluyendo data:null y conservando campos de validación, códigos HTTP y cabecera Allow. Configurar también respuestas de autenticación/permisos de Spring Security: 401 para sesión ausente/inválida y 403 para falta de permisos.
 - [x] Corregir recuperación de contraseña: token de un solo uso, caducidad y consumo concurrente; integrar API Resend y pantallas públicas. La activación y entrega real quedan pendientes.
 - [x] Corregir reglas de vigencia, RSH/NEM, cobertura nacional/regional, recomendaciones y fechas de calendario.
@@ -48,9 +49,9 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Evidencia y límites actuales
 
-- Última suite completa backend: **146 pruebas H2 aprobadas**, empaquetado correcto en directorio temporal aislado. Última verificación PostgreSQL 17: **18 pruebas de seguridad aprobadas** con DDL real y validación de esquema. Las ocho pruebas de contrato HTTP, 11 de perfil/integridad/consulta administrativa y doce casos CSV PostgreSQL corresponden a verificaciones anteriores.
+- Última suite completa backend: **153 pruebas H2 aprobadas**, empaquetado correcto en directorio temporal aislado. Última verificación PostgreSQL 17: **7 pruebas de validación pública aprobadas** con DDL real y validación de esquema. Las 18 pruebas de seguridad, ocho de contrato HTTP, 11 de perfil/integridad/consulta administrativa y doce casos CSV PostgreSQL corresponden a verificaciones anteriores.
 - Última fase de navegador: **20 casos de administración/navegación aprobados con API controlada** en ejecución en serie. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite final; causa no confirmada. Antes se aprobaron 39 casos de perfil/favoritos/sesión/buscador, 32 de portada/sesión/navegación/recuperación y 54 de búsqueda. Estas cifras corresponden a suites de distintas etapas y no deben sumarse como casos únicos ni interpretarse como integración completa.
-- Último cierre: **6 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, package, `mvn compile`, lint y build aprobados. Se comprueba 401 real, eliminación del token y regreso al login. No hubo cambios de interfaz de producción.
+- Último cierre: **6 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, package y `mvn compile` aprobados. Se comprueba 401 real, eliminación del token y regreso al login. Frontend sin cambios; lint/build corresponden a la fase anterior.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
 ## Punto de partida y límites
@@ -490,3 +491,11 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Resultado: 146 pruebas H2 y 18 PostgreSQL (SecurityResponseTest + AccountSecurityTest) aprobadas; seis recorridos Chromium reales aprobados, incluyendo JSON 401 y cierre de sesión. Package/compile, lint/build aprobados. La primera comprobación del cuerpo en navegador falló porque la navegación inmediata descartó la respuesta; se verifica el JSON mediante API real y la redirección mediante navegador. No se simula el backend.
 - El JAR habitual estaba ocupado por un proceso ajeno al verificador. Se generó un POM temporal con directorio de salida aislado y se eliminó después; el proceso existente no se interrumpió. verify-profile-browser.ps1 acepta BackendJarPath opcional para probar ese empaquetado. Base local intacta y servicios de pruebas detenidos. Sin despliegues ni entrega de correo real.
 - Próxima tarea propuesta: revisar límites de solicitudes públicas de registro/recuperación en FASE 2. Siguen pendientes identificadores públicos, modelo monetario, datos históricos, correo real, accesibilidad/rendimiento e infraestructura. Rechazo CORS independiente del contrato de autenticación; una fase por instrucción explícita.
+
+## Avance FASE 2 — validación pública de autenticación (30 de septiembre de 2026)
+
+- RegisterRequest limita el nombre a 255 caracteres conforme al esquema. LoginRequest limita correo a 254 caracteres y contraseña a 72 caracteres; no impone un mínimo nuevo a contraseñas de login existentes. Registro/login/reset comprueban también el máximo BCrypt de 72 bytes UTF-8 mediante validación computada e ignorada como campo JSON; se conservan controles del servicio como defensa adicional.
+- ResetPasswordRequest exige token con formato UUID. Entradas malformadas devuelven 400 con error de campo; un UUID bien formado pero inexistente conserva 401. AuthTest ahora usa un UUID inexistente para comprobar ese segundo caso. Se corrigen tildes en mensajes de validación del login.
+- Siete pruebas HTTP nuevas comprueban rechazo sin crear usuarios, nombres españoles de 255 caracteres, contraseñas ASCII/ñ en el límite, campos sobredimensionados, formato de token, correos inválidos sin crear tokens/enviar correo y conservación de token/hash ante contraseña inválida seguida de recuperación correcta. El nombre de 256 caracteres devolvía 500 antes de la corrección; ahora devuelve 400 antes de escribir.
+- Resultado: 153 pruebas H2 aprobadas, siete pruebas PublicAuthValidationTest sobre PostgreSQL 17/DDL real/validate aprobadas y seis recorridos Chromium reales aprobados. Package/compile aprobados. Frontend sin cambios: lint/build no repetidos. Servicios temporales detenidos; base local intacta. Empaquetado aislado en TEMP y POM temporal eliminado, sin reiniciar el servicio local.
+- Sin nuevas dependencias, cambios de esquema ni envío de correo real; el proveedor está simulado en las pruebas de recuperación. Próxima tarea propuesta: alinear mensajes/límites de formularios públicos y reforzar sus pruebas de navegador en FASE 8. Persisten identificadores públicos, montos, auditoría de datos, correo real, accesibilidad/rendimiento e infraestructura. Una fase por instrucción explícita.

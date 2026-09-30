@@ -274,3 +274,9 @@ Sesiones ausentes/inválidas reciben 401 JSON con ApiResponse y WWW-Authenticate
 Verificación: 146 pruebas H2 y 18 casos PostgreSQL (seleccionar -TestClasses SecurityResponseTest,AccountSecurityTest) aprobados. Seis recorridos Chromium reales, lint/build y Maven package/compile aprobados. El nuevo caso comprueba firma inválida, JSON 401, redirección al login y eliminación del token. El correo sigue simulado en pruebas de recuperación.
 
 verify-profile-browser.ps1 -BackendJarPath <ruta-absoluta.jar> permite usar un empaquetado aislado cuando el JAR habitual está ocupado; omitirlo mantiene la ruta habitual. Esta fase se empaquetó en TEMP mediante un POM temporal, sin interrumpir el proceso que usaba el JAR local. No se publica ni se reinicia el servicio local automáticamente; sin cambios en la base local.
+
+### Validación pública de autenticación — 30 de septiembre de 2026
+
+Registro limita nombre/correo según almacenamiento; login y recuperación rechazan contraseñas que superen 72 bytes UTF-8. El token de recuperación malformado devuelve 400; un UUID inexistente mantiene 401. Una contraseña inválida no modifica el hash ni consume el token válido.
+
+Seleccionar -TestClasses PublicAuthValidationTest en el verificador PostgreSQL ejecuta siete casos con DDL real/validate. Resultado: siete aprobados, 153 pruebas H2 aprobadas y seis recorridos Chromium reales aprobados. Package/compile aprobados mediante empaquetado temporal aislado y BackendJarPath. Sin cambios de frontend, esquema, base local ni despliegues; entrega de correo simulada en pruebas.
