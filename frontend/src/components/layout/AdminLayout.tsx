@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/useAuth';
 import { GraduationCap, LayoutGrid, Users, LogOut, ArrowLeft } from 'lucide-react';
 
 export default function AdminLayout() {

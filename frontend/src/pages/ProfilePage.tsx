@@ -1,8 +1,9 @@
 import { useState, useEffect, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/useAuth';
 import { perfilService } from '../services/perfilService';
 import { catalogoService } from '../services/becaService';
+import { adminService } from '../services/adminService';
 import type { Region, Institucion } from '../types';
 import { GraduationCap, Save, ArrowLeft } from 'lucide-react';
 
@@ -27,7 +28,7 @@ export default function ProfilePage() {
   useEffect(() => {
     Promise.all([
       catalogoService.getRegiones().then(r => setRegiones(r.data.data)),
-      import('../services/adminService').then(m => m.adminService.getInstituciones()).then(r => setInstituciones(r.data.data)),
+      adminService.getInstituciones().then(r => setInstituciones(r.data.data)),
       perfilService.getPerfil().then(r => {
         if (r.data.data) {
           const p = r.data.data;

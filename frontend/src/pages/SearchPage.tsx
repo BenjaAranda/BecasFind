@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/useAuth';
 import { becaService } from '../services/becaService';
 import { favoritoService } from '../services/favoritoService';
 import type { BecaSummary } from '../types';
