@@ -235,3 +235,8 @@ verify-profile-browser.ps1 ejecuta cinco casos live. El caso CSV importa desde l
 El clúster temporal ahora usa --locale-provider=icu --icu-locale=es-CL: la búsqueda de un nombre con Ñ no coincidió bajo locale C y sí con ICU. La instalación PostgreSQL debe incluir ICU. Antes de publicar comprobar proveedor/locale y búsquedas españolas en la base destino; este verificador no migra la configuración regional de bases existentes.
 
 Cinco recorridos reales aprobados, lint/build y Maven compile aprobados. No se repitió suite completa backend. Los servicios temporales se detuvieron; base local intacta. Pendientes calidad de datos históricos, batch/concurrencia y operación real.
+
+
+### Consulta de usuarios administrativos — 30 de septiembre de 2026
+
+verify-profile-postgres.ps1 incluye ahora AdminUserProjectionTest: 11 pruebas PostgreSQL aprobadas y DDL validado. La proyección administrativa lee campos controlados de usuarios activos/inactivos; las consultas habituales conservan el filtro de actividad. Regresión H2: 136 pruebas aprobadas; package/compile aprobados. No se conecta aún al servicio (pendiente FASE 5), por lo que la interfaz sigue excluyendo usuarios inactivos. No hubo cambios de frontend ni despliegues.

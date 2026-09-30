@@ -31,7 +31,7 @@ try {
     $env:SPRING_DATASOURCE_DRIVER_CLASS_NAME = 'org.postgresql.Driver'
     $env:SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT = 'org.hibernate.dialect.PostgreSQLDialect'
     $env:SPRING_JPA_HIBERNATE_DDL_AUTO = 'validate'
-    foreach ($testClass in @('ProfilePersistenceTest', 'CoreServiceIntegrityTest')) {
+    foreach ($testClass in @('ProfilePersistenceTest', 'CoreServiceIntegrityTest', 'AdminUserProjectionTest')) {
         $databaseName = $testClass.ToLowerInvariant()
         & "$PostgresBin\createdb.exe" -h 127.0.0.1 -p $verificationPort -U profile_verify $databaseName
         if ($LASTEXITCODE -ne 0) { throw 'Temporary database creation failed.' }

@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar importación CSV real en FASE 14. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de preparar consulta administrativa de usuarios en FASE 3. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -46,7 +46,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Evidencia y límites actuales
 
-- Última suite completa backend registrada: **135 pruebas H2 aprobadas**, empaquetado y compilación correctos. Última verificación PostgreSQL 17: **10 pruebas de perfil/integridad aprobadas** con DDL real y validación de esquema. Los doce casos CSV PostgreSQL anteriores no se repitieron en esta última fase.
+- Última suite completa backend registrada: **136 pruebas H2 aprobadas**, empaquetado y compilación correctos. Última verificación PostgreSQL 17: **11 pruebas de perfil/integridad/consulta administrativa aprobadas** con DDL real y validación de esquema. Los doce casos CSV PostgreSQL anteriores no se repitieron en esta última fase.
 - Última fase de navegador: **20 casos de administración/navegación aprobados con API controlada** en ejecución en serie. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite final; causa no confirmada. Antes se aprobaron 39 casos de perfil/favoritos/sesión/buscador, 32 de portada/sesión/navegación/recuperación y 54 de búsqueda. Estas cifras corresponden a suites de distintas etapas y no deben sumarse como casos únicos ni interpretarse como integración completa.
 - Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
@@ -437,3 +437,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Las filas inválidas devuelven HTTP 200 con errores en ImportResultDTO. La prueba comprueba ese contrato y rollback, sin aceptar HTTP alternativos. La expectativa inicial de 400 se corrigió tras observar la respuesta real.
 - Resultado final: cinco recorridos Chromium reales aprobados (CSV nuevo y cuatro regresiones de administración/perfil/permisos). Lint/build frontend y Maven compile aprobados. No se repitieron completas las 135 pruebas H2 ni las 10 PostgreSQL anteriores.
 - Sigue pendiente auditar fuentes/CSV históricos, fechas/requisitos, medir batch INSERT y concurrencia de importaciones. Próxima tarea propuesta: corregir listado administrativo de usuarios inactivos por fases de repositorio/servicio correspondientes; conservar soft delete y autenticación actual. Correo, modelo monetario, accesibilidad global e infraestructura permanecen pendientes. Sin despliegues.
+
+
+## Avance FASE 3 — consulta administrativa de usuarios (30 de septiembre de 2026)
+
+- UsuarioRepository incorpora findAllForAdministration con una proyección nativa de seis campos controlados: identificador, correo, nombre, rol, actividad y fecha. Incluye cuentas desactivadas y ordena por identificador; no selecciona password_hash ni devuelve entidades.
+- Se conserva @Where(activo=true) y todas las consultas de identidad existentes. AdminUserProjectionTest comprueba cuentas activas/inactivas, campos/tipos, orden y exclusión de la cuenta inactiva en consultas habituales.
+- Resultado: 11 pruebas PostgreSQL temporal aprobadas con DDL real/validate, incluida la nueva consulta. Regresión completa H2: 136 aprobadas, cero fallos/errores. Maven package y compile aprobados.
+- Alcance cerrado: repositorio y pruebas de FASE 3. La consulta aún no está conectada al servicio; el listado visible sigue excluyendo cuentas inactivas. Próxima FASE 5: mapear esta proyección al UsuarioDTO existente y verificar endpoint/roles/recorrido real. No modificar autenticación ni la política de soft delete.
+- Frontend sin cambios; no se repitieron pruebas de navegador. Siguen pendientes edición de usuarios, errores uniformes, modelo monetario, calidad de datos, correo y despliegue. Mantener una fase por instrucción explícita.
