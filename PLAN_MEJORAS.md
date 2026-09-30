@@ -188,4 +188,17 @@ Referencias consultadas: [Vite en Vercel](https://vercel.com/docs/frameworks/fro
 - Suite completa: 78 pruebas backend aprobadas, cero fallos/errores; cinco casos nuevos cubren HTTP real, expiración, independencia de presupuestos, encabezados falsos, exclusión de búsqueda, desactivación explícita y concurrencia.
 - Decisión del usuario: integrar una API de correo y configurar la cuenta y el remitente después. La integración de envío y la pantalla de recuperación siguen pendientes; no se necesita incorporar una librería ajena al contrato para consumir una API HTTP.
 
-Siguiente fase propuesta: FASE 11, integración de entrega por API de correo y recuperación pública. La prueba de entrega real dependerá de la cuenta y el remitente autorizados. Después continuar búsqueda, importación, diseño y calidad; publicar solo con sus criterios de cierre verificados. Ejecutar una fase a la vez tras instrucción explícita.
+## Avance de implementación — FASE 11, recuperación pública
+
+- Integración Resend mediante HTTP nativo de Java 17, sin dependencias nuevas. Clave y remitente privados por variables externas; URL del frontend validada y envío deshabilitado por defecto hasta configurar la cuenta.
+- Correo UTF-8 con enlace de un solo uso, expiración de 15 minutos y clave de idempotencia. Fallos de entrega revierten la generación y conservan el token anterior; respuesta pública uniforme, sin secretos en logs.
+- Pantallas separadas de solicitud y nueva contraseña, diseño accesible adaptable a móvil, etiquetas asociadas y estados de envío, éxito, enlace inválido/vencido, límite y error de conexión. Eliminado el flujo que pedía tokens desde consola.
+- El token viaja en fragmento y se retira del historial tras leerlo. Los errores 401 en operaciones públicas de autenticación ya no fuerzan una redirección que ocultaba el mensaje de recuperación.
+- Contraseñas de registro/restablecimiento validadas antes de BCrypt, incluido límite real de 72 bytes UTF-8. Mensajes de estos DTOs corregidos en español y tamaños de correo/token acotados.
+- Backend: 89 pruebas aprobadas, cero fallos/errores; compilación y empaquetado aprobados. Incluye petición de enlace, reemplazo, fallo/rollback, correo inexistente, envío deshabilitado, UTF-8, proveedor HTTP local, acceso con nueva contraseña y rechazo de reutilización.
+- Frontend: compilación y revisión estática de los archivos modificados aprobadas; siete recorridos de recuperación aprobados en Chromium con respuestas API controladas. Revisión visual en 1280 px y 390 px, sin desbordamiento ni errores JavaScript. No equivalen a recepción real de correo ni cierran toda la calidad del frontend.
+- La revisión estática global conserva 10 errores y 3 advertencias existentes fuera de los archivos de recuperación; siguen pendientes en el paquete de calidad. No publicar con esa verificación pendiente.
+- Configuración de rutas SPA preparada en frontend/vercel.json; ejemplos de variables sin secretos. GitHub: rama bugfix/security-and-recovery y commits separados por configuración, seguridad y documentación; esta fase se publica en la misma rama tras comprobarla.
+- Pendiente externo de esta fase: cuenta, remitente autorizado, clave privada y prueba de recepción real. No se han enviado correos reales ni publicado la web. Landing y registro completo no se declaran rediseñados por este avance.
+
+Siguiente fase propuesta: correcciones del buscador y recomendaciones. Mantener la activación de correo pendiente hasta disponer de cuenta/remitente; después continuar importación, diseño general y calidad, y publicar con sus criterios de cierre verificados. Ejecutar una fase a la vez tras instrucción explícita.
