@@ -11,6 +11,7 @@ import java.util.Map;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
+@org.springframework.test.context.TestPropertySource(properties = "AUTH_RATE_LIMIT_ENABLED=false")
 public abstract class BaseTest {
 
     @LocalServerPort

@@ -12,7 +12,6 @@ import com.becasfind.api.repositories.RolRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.AuthService;
 import com.becasfind.api.utils.JwtUtil;
-import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -79,7 +78,7 @@ public class AuthServiceImpl implements AuthService {
     @Transactional
     public AuthResponse register(RegisterRequest request) {
         if (usuarioRepository.existsByEmail(request.getEmail())) {
-            throw new IllegalArgumentException("El email ya esta registrado: " + request.getEmail());
+            throw new IllegalArgumentException("El email ya está registrado");
         }
 
         Rol rolStudent = rolRepository.findByNombreRol("STUDENT")
@@ -113,8 +112,10 @@ public class AuthServiceImpl implements AuthService {
     @Override
     @Transactional
     public void forgotPassword(String email) {
-        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
-                .orElseThrow(() -> new EntityNotFoundException("No se encontro un usuario activo con el email: " + email));
+        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email).orElse(null);
+        if (usuario == null) {
+            return;
+        }
 
         passwordResetTokenRepository.deleteByUsuarioId(usuario.getIdUsuario());
 
@@ -124,26 +125,29 @@ public class AuthServiceImpl implements AuthService {
         resetToken.setFechaExpiracion(LocalDateTime.now().plusMinutes(15));
         passwordResetTokenRepository.save(resetToken);
 
-        log.info("Token de recuperacion generado para el usuario: {}. Token: {}", email, resetToken.getToken());
     }
 
     @Override
-    @Transactional
+    @Transactional(noRollbackFor = BadCredentialsException.class)
     public void resetPassword(String token, String newPassword) {
         PasswordResetToken resetToken = passwordResetTokenRepository.findByToken(token)
-                .orElseThrow(() -> new BadCredentialsException("Token de recuperacion invalido"));
+                .orElseThrow(() -> new BadCredentialsException("Token de recuperación inválido"));
 
-        if (resetToken.getFechaExpiracion().isBefore(LocalDateTime.now())) {
+        if (!resetToken.getFechaExpiracion().isAfter(LocalDateTime.now())) {
             passwordResetTokenRepository.delete(resetToken);
-            throw new BadCredentialsException("El token de recuperacion ha expirado");
+            throw new BadCredentialsException("El token de recuperación ha expirado");
         }
 
-        Usuario usuario = resetToken.getUsuario();
+        Usuario usuario = usuarioRepository.findById(resetToken.getUsuario().getIdUsuario()).orElse(null);
+        if (usuario == null || !Boolean.TRUE.equals(usuario.getActivo())) {
+            passwordResetTokenRepository.delete(resetToken);
+            throw new BadCredentialsException("Token de recuperación inválido");
+        }
         usuario.setPasswordHash(passwordEncoder.encode(newPassword));
         usuarioRepository.save(usuario);
 
         passwordResetTokenRepository.delete(resetToken);
 
-        log.info("Contrasenia restablecida exitosamente para el usuario: {}", usuario.getEmail());
+        log.info("Contraseña restablecida exitosamente");
     }
 }
