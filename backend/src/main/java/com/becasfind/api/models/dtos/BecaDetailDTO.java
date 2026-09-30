@@ -27,6 +27,8 @@ public class BecaDetailDTO {
 
     private String montoCobertura;
 
+    private CoberturaDTO cobertura;
+
     private LocalDate fechaInicioPostulacion;
 
     private LocalDate fechaCierrePostulacion;

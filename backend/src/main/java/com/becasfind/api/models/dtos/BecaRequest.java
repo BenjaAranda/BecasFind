@@ -49,6 +49,9 @@ public class BecaRequest {
     @Size(max = 255, message = "La cobertura no puede superar 255 caracteres")
     private String montoCobertura;
 
+    @Valid
+    private CoberturaDTO cobertura;
+
     private LocalDate fechaInicioPostulacion;
 
     @NotNull(message = "La fecha de cierre es obligatoria")

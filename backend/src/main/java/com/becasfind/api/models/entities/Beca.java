@@ -59,6 +59,31 @@ public class Beca {
     @Column(name = "monto_cobertura", length = 255)
     private String montoCobertura;
 
+    @Column(name = "cobertura_tipo", nullable = false, length = 20)
+    @org.hibernate.annotations.ColumnDefault("'DESCONOCIDA'")
+    private String coberturaTipo = "DESCONOCIDA";
+    @Column(name = "cobertura_importe", precision = 18, scale = 2)
+    private java.math.BigDecimal coberturaImporte;
+    @Column(name = "cobertura_moneda", length = 3)
+    private String coberturaMoneda;
+    @Column(name = "cobertura_periodicidad", length = 20)
+    private String coberturaPeriodicidad;
+    @Column(name = "cobertura_porcentaje", precision = 5, scale = 2)
+    private java.math.BigDecimal coberturaPorcentaje;
+
+    // Old clients and CSV keep metadata only while the original source text is unchanged.
+    public void setMontoCobertura(String texto) {
+        if (!java.util.Objects.equals(montoCobertura, texto)) {
+            coberturaTipo = "DESCONOCIDA";
+            coberturaImporte = null;
+            coberturaMoneda = null;
+            coberturaPeriodicidad = null;
+            coberturaPorcentaje = null;
+        }
+        montoCobertura = texto;
+    }
+
+
     @Column(name = "fecha_inicio_postulacion")
     private LocalDate fechaInicioPostulacion;
 

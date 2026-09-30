@@ -69,12 +69,21 @@ export interface DocumentoRequerido {
   esObligatorio: boolean;
 }
 
+export interface Cobertura {
+  tipo: 'MONETARIA' | 'PORCENTUAL' | 'NO_MONETARIA' | 'DESCONOCIDA';
+  importe?: string | null;
+  moneda?: string | null;
+  periodicidad?: 'UNICA' | 'MENSUAL' | 'SEMESTRAL' | 'ANUAL' | 'DESCONOCIDA' | null;
+  porcentaje?: string | null;
+}
+
 export interface BecaSummary {
   estadoActiva: boolean;
   idBeca: number;
   nombre: string;
   descripcionCorta: string;
   montoCobertura: string;
+  cobertura?: Cobertura;
   fechaCierrePostulacion: string;
   urlOficial: string;
   nombreInstitucion: string;
@@ -88,6 +97,7 @@ export interface BecaDetail {
   descripcionCorta: string;
   descripcionLarga: string;
   montoCobertura: string;
+  cobertura?: Cobertura;
   fechaInicioPostulacion: string;
   fechaCierrePostulacion: string;
   urlOficial: string;

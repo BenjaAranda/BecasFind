@@ -23,6 +23,8 @@ public class BecaDTO {
 
     private String montoCobertura;
 
+    private CoberturaDTO cobertura;
+
     private LocalDate fechaCierrePostulacion;
 
     private String urlOficial;
