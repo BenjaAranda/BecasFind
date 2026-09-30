@@ -2,8 +2,8 @@ import api from './api';
 import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
 
 export const adminService = {
-  getBecas(page: number = 0, size: number = 20, query?: string) {
-    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/administracion', { params: { page, size, query } });
+  getBecas(page: number = 0, size: number = 20, query?: string, signal?: AbortSignal) {
+    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/administracion', { params: { page, size, query }, signal });
   },
 
   getBeca(id: number) {
@@ -22,8 +22,8 @@ export const adminService = {
     return api.delete<ApiResponse<void>>(`/becas/${id}`);
   },
 
-  getUsuarios() {
-    return api.get<ApiResponse<UsuarioDTO[]>>('/usuarios');
+  getUsuarios(signal?: AbortSignal) {
+    return api.get<ApiResponse<UsuarioDTO[]>>('/usuarios', { signal });
   },
 
   createUsuario(data: Record<string, unknown>) {

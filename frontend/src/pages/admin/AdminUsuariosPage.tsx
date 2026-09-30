@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { adminService } from '../../services/adminService';
 import type { UsuarioDTO } from '../../types';
 import UsuarioForm from '../../components/admin/UsuarioForm';
@@ -10,27 +10,38 @@ export default function AdminUsuariosPage() {
   const [showForm, setShowForm] = useState(false);
   const [confirmDeactivateId, setConfirmDeactivateId] = useState<number | null>(null);
 
-  const fetchUsuarios = useCallback(async () => {
-    setLoading(true);
-    try {
-      const { data } = await adminService.getUsuarios();
-      setUsuarios(data.data);
-    } catch { setUsuarios([]); }
-    finally { setLoading(false); }
-  }, []);
+  const [error, setError] = useState('');
+  const [deactivateError, setDeactivateError] = useState('');
+  const [deactivating, setDeactivating] = useState(false);
+  const [refresh, setRefresh] = useState(0);
 
-  useEffect(() => { fetchUsuarios(); }, [fetchUsuarios]);
+  useEffect(() => {
+    let active = true;
+    const controller = new AbortController();
+    adminService.getUsuarios(controller.signal)
+      .then(({ data }) => { if (active) { setUsuarios(data.data); setError(''); } })
+      .catch(() => { if (active) { setUsuarios([]); setError('No se pudieron cargar los usuarios.'); } })
+      .finally(() => { if (active) setLoading(false); });
+    return () => { active = false; controller.abort(); };
+  }, [refresh]);
+
+  const reload = () => { setLoading(true); setRefresh(v => v + 1); };
 
   const handleDeactivate = async () => {
-    if (!confirmDeactivateId) return;
-    await adminService.deactivateUsuario(confirmDeactivateId);
-    setConfirmDeactivateId(null);
-    fetchUsuarios();
+    if (!confirmDeactivateId || deactivating) return;
+    setDeactivating(true);
+    setDeactivateError('');
+    try {
+      await adminService.deactivateUsuario(confirmDeactivateId);
+      setConfirmDeactivateId(null);
+      reload();
+    } catch { setDeactivateError('No se pudo desactivar el usuario. Puedes reintentar.'); }
+    finally { setDeactivating(false); }
   };
 
   const handleFormSave = () => {
     setShowForm(false);
-    fetchUsuarios();
+    reload();
   };
 
   const formatDate = (d?: string) => d ? new Date(d).toLocaleDateString('es-CL') : '-';
@@ -51,6 +62,7 @@ export default function AdminUsuariosPage() {
         </button>
       </div>
 
+      {error && <p role="alert" className="mb-4 p-3 bg-red-50 text-red-700 rounded-lg">{error} <button onClick={reload} className="underline">Reintentar</button></p>}
       {loading ? (
         <div className="space-y-3">
           {Array.from({ length: 3 }).map((_, i) => (
@@ -89,7 +101,7 @@ export default function AdminUsuariosPage() {
                   <td className="px-4 py-3">
                     {u.activo && (
                       <button
-                        onClick={() => setConfirmDeactivateId(u.idUsuario)}
+                        aria-label={`Desactivar ${u.nombreCompleto}`} onClick={() => { setDeactivateError(''); setConfirmDeactivateId(u.idUsuario); }}
                         className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer"
                         title="Desactivar usuario"
                       >
@@ -111,12 +123,13 @@ export default function AdminUsuariosPage() {
 
       {confirmDeactivateId && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
+          <div role="dialog" aria-modal="true" aria-label="Confirmar desactivación" className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
             <h3 className="text-lg font-semibold mb-2">Confirmar desactivación</h3>
             <p className="text-sm text-gray-600 mb-4">¿Estás seguro de desactivar este usuario? No podrá iniciar sesión.</p>
+            {deactivateError && <p role="alert" className="mb-3 text-red-700">{deactivateError}</p>}
             <div className="flex justify-end gap-3">
-              <button onClick={() => setConfirmDeactivateId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
-              <button onClick={handleDeactivate} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">Desactivar</button>
+              <button disabled={deactivating} onClick={() => setConfirmDeactivateId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
+              <button disabled={deactivating} onClick={handleDeactivate} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">Desactivar</button>
             </div>
           </div>
         </div>

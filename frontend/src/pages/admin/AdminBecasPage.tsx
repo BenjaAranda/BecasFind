@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { adminService } from '../../services/adminService';
 import type { BecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
@@ -19,21 +19,43 @@ export default function AdminBecasPage() {
   const [importResult, setImportResult] = useState<ImportResult | null>(null);
   const [importLoading, setImportLoading] = useState(false);
   const [searchText, setSearchText] = useState('');
+  const [error, setError] = useState('');
+  const [deleteError, setDeleteError] = useState('');
+  const [deleting, setDeleting] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [totalElements, setTotalElements] = useState(0);
+  const [refresh, setRefresh] = useState(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const fetchBecas = useCallback(async (p: number) => {
-    setLoading(true);
-    try {
-      const { data } = await adminService.getBecas(p, 50, searchText || undefined);
-      setBecas(data.data.content);
-      setTotalPages(data.data.totalPages);
-      setPage(data.data.number);
-    } catch { setBecas([]); }
-    finally { setLoading(false); }
-  }, [searchText]);
+  useEffect(() => {
+    let active = true;
+    const controller = new AbortController();
+    const timer = setTimeout(async () => {
+      setLoading(true);
+      setError('');
+      try {
+        const { data } = await adminService.getBecas(page, 50, searchText || undefined, controller.signal);
+        if (!active) return;
+        if (page > 0 && page >= data.data.totalPages) {
+          setPage(Math.max(0, data.data.totalPages - 1));
+          return;
+        }
+        setBecas(data.data.content);
+        setTotalPages(data.data.totalPages);
+        setTotalElements(data.data.totalElements);
+      } catch {
+        if (active) {
+          setBecas([]);
+          setTotalPages(0);
+          setTotalElements(0);
+          setError('No se pudieron cargar las becas. Reintenta la consulta.');
+        }
+      } finally { if (active) setLoading(false); }
+    }, searchText ? 400 : 0);
+    return () => { active = false; clearTimeout(timer); controller.abort(); };
+  }, [page, searchText, refresh]);
 
-  useEffect(() => { const t = setTimeout(() => fetchBecas(0), 400); return () => clearTimeout(t); }, [searchText]);
-  useEffect(() => { fetchBecas(0); }, []);
+  const reload = () => setRefresh(v => v + 1);
 
   const displayed = becas;
   const todayInChile = new Intl.DateTimeFormat('en-CA', {
@@ -41,6 +63,9 @@ export default function AdminBecasPage() {
   }).format(new Date());
 
   const handleEdit = async (id: number) => {
+    if (editing) return;
+    setEditing(true);
+    setError('');
     try {
       const { data } = await adminService.getBeca(id);
       const d = data.data;
@@ -65,40 +90,47 @@ export default function AdminBecasPage() {
       });
       setEditId(id);
       setShowForm(true);
-    } catch {}
+    } catch { setError('No se pudo cargar la beca para editar. Reintenta desde la fila.'); }
+    finally { setEditing(false); }
   };
 
   const handleDelete = async () => {
-    if (!confirmDeleteId) return;
-    await adminService.deleteBeca(confirmDeleteId);
-    setConfirmDeleteId(null);
-    fetchBecas(page);
+    if (!confirmDeleteId || deleting) return;
+    setDeleting(true);
+    setDeleteError('');
+    try {
+      await adminService.deleteBeca(confirmDeleteId);
+      setConfirmDeleteId(null);
+      reload();
+    } catch { setDeleteError('No se pudo eliminar la beca. Puedes reintentar.'); }
+    finally { setDeleting(false); }
   };
 
   const handleFormSave = () => {
     setShowForm(false);
     setEditId(null);
     setEditData(null);
-    fetchBecas(0);
+    setPage(0);
+    reload();
   };
 
   const formatDate = (d: string) => formatCalendarDate(d, true);
 
   return (
     <div className="p-6">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
           <h1 className="text-2xl font-bold text-gray-800">Gestión de Becas</h1>
-          <p className="text-sm text-gray-500 mt-1">{becas.length} becas en total</p>
+          <p className="text-sm text-gray-500 mt-1">{totalElements} becas en total</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <div className="relative">
             <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
             <input
               type="text"
               placeholder="Buscar beca..."
               value={searchText}
-              onChange={e => setSearchText(e.target.value)}
+              maxLength={200} aria-label="Buscar beca" onChange={e => { setSearchText(e.target.value); setPage(0); }}
               className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 outline-none w-48"
             />
           </div>
@@ -119,6 +151,7 @@ export default function AdminBecasPage() {
         </div>
       </div>
 
+      {error && <div role="alert" className="mb-4 p-3 bg-red-50 text-red-700 rounded-lg">{error} <button onClick={reload} className="underline">Reintentar consulta</button></div>}
       {loading ? (
         <div className="space-y-3">
           {Array.from({ length: 5 }).map((_, i) => (
@@ -156,10 +189,10 @@ export default function AdminBecasPage() {
                       <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer">
                         <ExternalLink className="w-4 h-4" />
                       </a>
-                      <button onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer">
+                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer">
                         <Edit className="w-4 h-4" />
                       </button>
-                      <button onClick={() => setConfirmDeleteId(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer">
+                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer">
                         <Trash2 className="w-4 h-4" />
                       </button>
                     </div>
@@ -176,7 +209,7 @@ export default function AdminBecasPage() {
 
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-1 mt-4">
-          <button disabled={page === 0} onClick={() => fetchBecas(page - 1)}
+          <button disabled={page === 0} onClick={() => setPage(page - 1)}
             className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
           {Array.from({ length: Math.min(totalPages, 6) }, (_, i) => {
             let p: number;
@@ -186,13 +219,13 @@ export default function AdminBecasPage() {
             else { p = page - 2 + i; }
             return (
               <button key={p} disabled={p === page}
-                onClick={() => fetchBecas(p)}
+                onClick={() => setPage(p)}
                 className={`w-7 h-7 text-xs rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
                 {p + 1}
               </button>
             );
           })}
-          <button disabled={page >= totalPages - 1} onClick={() => fetchBecas(page + 1)}
+          <button disabled={page >= totalPages - 1} onClick={() => setPage(page + 1)}
             className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
         </div>
       )}
@@ -201,12 +234,13 @@ export default function AdminBecasPage() {
 
       {confirmDeleteId && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
+          <div role="dialog" aria-modal="true" aria-label="Confirmar eliminación" className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
             <h3 className="text-lg font-semibold mb-2">Confirmar eliminación</h3>
             <p className="text-sm text-gray-600 mb-4">¿Estás seguro de eliminar esta beca? Esta acción no se puede deshacer.</p>
+            {deleteError && <p role="alert" className="mb-3 text-red-700">{deleteError}</p>}
             <div className="flex justify-end gap-3">
-              <button onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
-              <button onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">Eliminar</button>
+              <button disabled={deleting} onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
+              <button disabled={deleting} onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">{deleting ? 'Eliminando…' : 'Eliminar'}</button>
             </div>
           </div>
         </div>
@@ -243,7 +277,7 @@ export default function AdminBecasPage() {
                     ))}
                   </div>
                 )}
-                <button onClick={() => { setShowImport(false); fetchBecas(0); }}
+                <button onClick={() => { setShowImport(false); setPage(0); reload(); }}
                   className="w-full py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 cursor-pointer">
                   Cerrar
                 </button>
