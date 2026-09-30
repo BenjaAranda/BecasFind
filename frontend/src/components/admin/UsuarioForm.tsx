@@ -2,16 +2,18 @@ import AdminDialog from './AdminDialog';
 import { useState } from 'react';
 import { adminService } from '../../services/adminService';
 import { X } from 'lucide-react';
+import type { UsuarioDTO } from '../../types';
 
 interface UsuarioFormProps {
   onClose: () => void;
   onSave: () => void;
+  usuario?: UsuarioDTO | null;
 }
 
-export default function UsuarioForm({ onClose, onSave }: UsuarioFormProps) {
-  const [email, setEmail] = useState('');
+export default function UsuarioForm({ onClose, onSave, usuario }: UsuarioFormProps) {
+  const [email, setEmail] = useState(usuario?.email ?? '');
   const [password, setPassword] = useState('');
-  const [nombreCompleto, setNombreCompleto] = useState('');
+  const [nombreCompleto, setNombreCompleto] = useState(usuario?.nombreCompleto ?? '');
   const [idRol, setIdRol] = useState('2');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -20,13 +22,19 @@ export default function UsuarioForm({ onClose, onSave }: UsuarioFormProps) {
     e.preventDefault();
     if (loading) return;
     setError('');
-    if (!nombreCompleto.trim() || new TextEncoder().encode(password).length > 72) {
-      setError('Completa el nombre y usa una contraseña de hasta 72 bytes.');
+    if (!nombreCompleto.trim()) {
+      setError('Completa el nombre del usuario.');
+      return;
+    }
+    if (!usuario && new TextEncoder().encode(password).length > 72) {
+      setError('Usa una contraseña de hasta 72 bytes.');
       return;
     }
     setLoading(true);
     try {
-      await adminService.createUsuario({
+      if (usuario) {
+        await adminService.updateUsuario(usuario.idUsuario, { email: email.trim(), nombreCompleto: nombreCompleto.trim() });
+      } else await adminService.createUsuario({
         email: email.trim(),
         password,
         nombreCompleto: nombreCompleto.trim(),
@@ -35,16 +43,16 @@ export default function UsuarioForm({ onClose, onSave }: UsuarioFormProps) {
       onSave();
     } catch (err: unknown) {
       const axiosErr = err as { response?: { data?: { message?: string } } };
-      setError(axiosErr.response?.data?.message || 'Error al crear el usuario');
+      setError(axiosErr.response?.data?.message || 'No se pudo guardar el usuario');
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <AdminDialog title="Nuevo usuario" busy={loading} onClose={onClose}>
+    <AdminDialog title={usuario ? 'Editar usuario' : 'Nuevo usuario'} busy={loading} onClose={onClose}>
         <div className="flex items-center justify-between p-4 border-b">
-          <h2 className="text-lg font-semibold">Nuevo Usuario</h2>
+          <h2 className="text-lg font-semibold">{usuario ? 'Editar usuario' : 'Nuevo Usuario'}</h2>
           <button aria-label="Cerrar formulario" disabled={loading} onClick={onClose} className="p-1 hover:bg-gray-100 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"><X className="w-5 h-5" /></button>
         </div>
 
@@ -60,7 +68,7 @@ export default function UsuarioForm({ onClose, onSave }: UsuarioFormProps) {
             <label htmlFor="beca-field-22" className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
             <input id="beca-field-22" type="email" autoComplete="email" maxLength={254} required value={email} onChange={e => setEmail(e.target.value)} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />
           </div>
-          <div>
+          {!usuario && <><div>
             <label htmlFor="beca-field-23" className="block text-sm font-medium text-gray-700 mb-1">Contraseña *</label>
             <input id="beca-field-23" type="password" autoComplete="new-password" required minLength={8} maxLength={72} value={password} onChange={e => setPassword(e.target.value)} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />
           </div>
@@ -70,11 +78,11 @@ export default function UsuarioForm({ onClose, onSave }: UsuarioFormProps) {
               <option value="2">STUDENT</option>
               <option value="1">ADMIN</option>
             </select>
-          </div>
+          </div></>}
           <div className="flex justify-end gap-3 pt-2">
             <button type="button" disabled={loading} onClick={onClose} className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">Cancelar</button>
             <button type="submit" disabled={loading} className="px-4 py-2 text-sm bg-[#163b3b] text-white rounded-lg hover:bg-[#245454] disabled:opacity-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
-              {loading ? 'Creando...' : 'Crear Usuario'}
+              {loading ? (usuario ? 'Guardando...' : 'Creando...') : (usuario ? 'Guardar cambios' : 'Crear Usuario')}
             </button>
           </div>
           </fieldset>

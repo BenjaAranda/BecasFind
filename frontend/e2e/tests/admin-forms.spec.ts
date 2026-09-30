@@ -1,5 +1,33 @@
 import { test, expect, type Page } from '@playwright/test';
 
+test('edición de usuario conserva cambios tras error y envía solo nombre y correo', async ({ page }) => {
+  await setup(page);
+  let attempts = 0;
+  let payload: Record<string, unknown> | undefined;
+  await page.route('**/api/usuarios/2', async route => {
+    payload = route.request().postDataJSON();
+    attempts++;
+    await new Promise(resolve => setTimeout(resolve, 150));
+    await route.fulfill({ status: attempts === 1 ? 400 : 200, json: { message: 'Correo ya registrado', data: {} } });
+  });
+  await page.goto('/admin/usuarios');
+  await page.getByRole('button', { name: 'Editar Estudiante', exact: true }).click();
+  await expect(page.getByLabel('Nombre Completo *')).toHaveValue('Estudiante');
+  await expect(page.getByLabel('Contraseña *')).toHaveCount(0);
+  await expect(page.getByLabel('Rol *')).toHaveCount(0);
+  await page.getByLabel('Nombre Completo *').fill('Educación actualizada');
+  await page.getByLabel('Email *').fill('nuevo@example.com');
+  await page.getByRole('button', { name: 'Guardar cambios' }).click();
+  await expect(page.getByLabel('Email *')).toBeDisabled();
+  await expect(page.getByRole('alert')).toHaveText('Correo ya registrado');
+  await expect(page.getByLabel('Nombre Completo *')).toHaveValue('Educación actualizada');
+  await expect(page.getByLabel('Email *')).toHaveValue('nuevo@example.com');
+  await page.getByRole('button', { name: 'Guardar cambios' }).click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  expect(attempts).toBe(2);
+  expect(payload).toEqual({ email: 'nuevo@example.com', nombreCompleto: 'Educación actualizada' });
+});
+
 test('diálogo mantiene foco y Escape devuelve el foco al botón de origen', async ({ page }) => {
   await setup(page);
   await page.goto('/admin/usuarios');

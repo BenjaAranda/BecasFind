@@ -3,12 +3,13 @@ import { useState, useEffect } from 'react';
 import { adminService } from '../../services/adminService';
 import type { UsuarioDTO } from '../../types';
 import UsuarioForm from '../../components/admin/UsuarioForm';
-import { Plus, UserX } from 'lucide-react';
+import { Plus, UserX, Edit } from 'lucide-react';
 
 export default function AdminUsuariosPage() {
   const [usuarios, setUsuarios] = useState<UsuarioDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
+  const [editUsuario, setEditUsuario] = useState<UsuarioDTO | null>(null);
   const [confirmDeactivateId, setConfirmDeactivateId] = useState<number | null>(null);
 
   const [error, setError] = useState('');
@@ -55,7 +56,7 @@ export default function AdminUsuariosPage() {
           <p className="text-sm text-gray-500 mt-1">{usuarios.length} usuarios registrados</p>
         </div>
         <button
-          onClick={() => setShowForm(true)}
+          onClick={() => { setEditUsuario(null); setShowForm(true); }}
           className="flex items-center gap-2 px-4 py-2 bg-[#163b3b] text-white text-sm font-medium rounded-lg hover:bg-[#245454] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
         >
           <Plus className="w-4 h-4" />
@@ -101,6 +102,11 @@ export default function AdminUsuariosPage() {
                   </td>
                   <td className="px-4 py-3">
                     {u.activo && (
+                      <div className="flex gap-2">
+                      <button aria-label={`Editar ${u.nombreCompleto}`} onClick={() => { setEditUsuario(u); setShowForm(true); }}
+                        className="p-1.5 text-[#245454] hover:bg-[#e2eee8] rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2">
+                        <Edit className="w-4 h-4" />
+                      </button>
                       <button
                         aria-label={`Desactivar ${u.nombreCompleto}`} onClick={() => { setDeactivateError(''); setConfirmDeactivateId(u.idUsuario); }}
                         className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
@@ -108,6 +114,7 @@ export default function AdminUsuariosPage() {
                       >
                         <UserX className="w-4 h-4" />
                       </button>
+                      </div>
                     )}
                   </td>
                 </tr>
@@ -120,7 +127,7 @@ export default function AdminUsuariosPage() {
         </div>
       )}
 
-      {showForm && <UsuarioForm onClose={() => setShowForm(false)} onSave={handleFormSave} />}
+      {showForm && <UsuarioForm usuario={editUsuario} onClose={() => setShowForm(false)} onSave={handleFormSave} />}
 
       {confirmDeactivateId && (
         <AdminDialog title="Confirmar desactivación" busy={deactivating} onClose={() => setConfirmDeactivateId(null)}>

@@ -247,3 +247,10 @@ verify-profile-postgres.ps1 incluye ahora AdminUserProjectionTest: 11 pruebas Po
 La proyección administrativa ya está conectada a UsuarioServiceImpl.findAll y al endpoint existente mediante UsuarioDTO. Usuarios inactivos visibles con sus campos controlados; acceso ADMIN, filtros de identidad y soft delete conservados. Prueba HTTP descarta exposición de contraseñas. Cinco recorridos live PostgreSQL aprobados: cuenta visible como Inactivo, botón de desactivación ausente, token previo bloqueado y login denegado, junto a regresiones de becas/permisos/CSV/perfil.
 
 136 pruebas H2, package, compile, lint/build aprobados. No se repitió la suite PostgreSQL específica de 11 casos. Falta edición de usuarios en interfaz; sin despliegues ni modificaciones en la base local.
+
+
+### Edición de usuarios activos — 30 de septiembre de 2026
+
+Interfaz administrativa permite editar nombre/correo de cuentas activas mediante el PUT existente. Los campos de rol/contraseña no forman parte del payload de edición. Valores precargados, controles bloqueados durante guardado y conservación/reintento ante errores. Cuentas inactivas visibles sin botones de edición/desactivación.
+
+14 casos Chromium con API controlada y cinco recorridos live aprobados; el recorrido real edita nombre y comprueba recarga antes de desactivar. Lint/build y Maven compile aprobados. Backend sin cambios: no se repitieron completas las suites H2/PostgreSQL anteriores. Sin despliegue ni cambios en la base local.
