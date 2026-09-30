@@ -1,5 +1,7 @@
 # Base de datos y configuración
 
+El listado vigente de trabajo está en [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Las secciones de avances de este archivo conservan resultados y pendientes de su fecha; no forman un segundo to do. Para cobertura estructurada y migración 002, consultar [COBERTURA_MONETARIA.md](COBERTURA_MONETARIA.md).
+
 La base acordada es PostgreSQL 17. `ddl.sql` instala el esquema en una base vacía, con claves y catálogos iniciales. Ejecutarlo con `psql -v ON_ERROR_STOP=1 -f infra/ddl.sql` permite detener la instalación ante errores. El script no altera columnas de tablas existentes: `IF NOT EXISTS` no es una migración.
 
 ## Entornos
