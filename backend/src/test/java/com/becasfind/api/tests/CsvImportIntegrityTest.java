@@ -203,4 +203,38 @@ class CsvImportIntegrityTest extends BaseTest {
         assertEquals(413, response.getBody().get("status"));
         assertEquals(before, becas.count());
     }
+
+    @Test void structuredCoveragePreservesPrecisionAndCanBeClearedWithoutChangingText() {
+        String header = HEADER + ",cobertura_tipo,cobertura_importe,cobertura_moneda,cobertura_periodicidad,cobertura_porcentaje";
+        String original = row("CSV cobertura precisa");
+        assertEquals(0, upload(header + "\n" + original + ",MONETARIA,9999999999999999.99,CLP,ANUAL,").get("errores"));
+        assertEquals(new java.math.BigDecimal("9999999999999999.99"), jdbc.queryForObject("select cobertura_importe from becas where nombre = ?", java.math.BigDecimal.class, "CSV cobertura precisa"));
+        assertEquals(0, upload(HEADER + "\n" + original).get("errores"));
+        assertEquals("MONETARIA", jdbc.queryForObject("select cobertura_tipo from becas where nombre = ?", String.class, "CSV cobertura precisa"));
+        assertEquals(0, upload(header + "\n" + original + ",DESCONOCIDA,,,,").get("errores"));
+        assertNull(jdbc.queryForObject("select cobertura_importe from becas where nombre = ?", java.math.BigDecimal.class, "CSV cobertura precisa"));
+        assertEquals("100000", jdbc.queryForObject("select monto_cobertura from becas where nombre = ?", String.class, "CSV cobertura precisa"));
+    }
+
+    @Test void invalidStructuredCoverageRejectsAllRowsBeforePersistence() {
+        String header = HEADER + ",cobertura_tipo,cobertura_importe,cobertura_moneda,cobertura_periodicidad,cobertura_porcentaje";
+        long before = becas.count();
+        for (String invalid : new String[] {"MONETARIA,12.123,CLP,ANUAL,", "MONETARIA,10,,ANUAL,", "PORCENTUAL,10,CLP,,75", "DESCONOCIDA,,,,101", "MONETARIA,10,UF,ANUAL,"}) {
+            rejected(upload(header + "\n" + row("CSV cobertura válida") + ",MONETARIA,10,CLP,ANUAL,\n" + row("CSV cobertura inválida") + "," + invalid), before);
+        }
+        rejected(upload(HEADER + ",cobertura_importe\n" + row("CSV sin tipo") + ",10"), before);
+    }
+
+    @Test void missingDatesAndRequirementsStayUnknownAndCannotAppearCurrent() {
+        String name = "CSV sin datos confirmados";
+        String unknown = row(name).replace("2026-01-01,2026-12-31,60,5.0", ",,,");
+        assertEquals(0, upload(HEADER + "\n" + unknown).get("errores"));
+        Long id = jdbc.queryForObject("select id_beca from becas where nombre = ?", Long.class, name);
+        assertNull(jdbc.queryForObject("select fecha_cierre_postulacion from becas where id_beca = ?", java.sql.Date.class, id));
+        assertNull(jdbc.queryForObject("select fecha_inicio_postulacion from becas where id_beca = ?", java.sql.Date.class, id));
+        assertNull(jdbc.queryForObject("select rsh_maximo_porcentaje from requisitos_perfil where id_beca = ?", Integer.class, id));
+        var response = rest.getForEntity(url("/api/becas?size=100"), String.class);
+        assertEquals(200, response.getStatusCode().value());
+        assertFalse(response.getBody().contains(name));
+    }
 }

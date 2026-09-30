@@ -66,8 +66,8 @@ export default function BecaDetailPage() {
         <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
             <h1 className="font-serif text-3xl sm:text-5xl leading-tight break-words text-[#123f48]">{beca.nombre}</h1>
-            <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
-              {!beca.estadoActiva ? 'Inactiva' : isExpired ? 'Vencida' : 'Vigente'}
+            <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired || !beca.estadoActiva || !beca.fechaCierrePostulacion ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
+              {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : isExpired ? 'Vencida' : 'Vigente'}
             </span>
           </div>
 

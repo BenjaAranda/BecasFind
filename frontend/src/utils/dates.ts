@@ -1,5 +1,6 @@
 // Fechas de calendario: no convertir YYYY-MM-DD a medianoche del navegador.
-export function formatCalendarDate(value: string, short = false): string {
+export function formatCalendarDate(value: string | null, short = false): string {
+  if (!value) return 'Fecha por confirmar';
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return 'Fecha no disponible';
   const date = new Date(`${value}T12:00:00Z`);
   if (Number.isNaN(date.getTime())) return 'Fecha no disponible';
@@ -14,6 +15,6 @@ export function todayInChile(now = new Date()): string {
   }).format(now);
 }
 
-export function isClosingDateExpired(value: string): boolean {
-  return value < todayInChile();
+export function isClosingDateExpired(value: string | null): boolean {
+  return value !== null && value < todayInChile();
 }

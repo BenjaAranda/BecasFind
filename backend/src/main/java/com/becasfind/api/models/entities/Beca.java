@@ -91,7 +91,7 @@ public class Beca {
     @Column(name = "fecha_inicio_postulacion")
     private LocalDate fechaInicioPostulacion;
 
-    @Column(name = "fecha_cierre_postulacion", nullable = false)
+    @Column(name = "fecha_cierre_postulacion")
     private LocalDate fechaCierrePostulacion;
 
     @Column(name = "url_oficial", length = 500)

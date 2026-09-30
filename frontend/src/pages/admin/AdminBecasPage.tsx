@@ -116,7 +116,7 @@ export default function AdminBecasPage() {
     reload();
   };
 
-  const formatDate = (d: string) => formatCalendarDate(d, true);
+  const formatDate = (d: string | null) => formatCalendarDate(d, true);
 
   return (
     <div className="p-4 sm:p-6">
@@ -182,8 +182,8 @@ export default function AdminBecasPage() {
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{beca.nombreInstitucion}</td>
                   <td className="px-4 py-3 text-gray-600 hidden lg:table-cell">{formatDate(beca.fechaCierrePostulacion)}</td>
                   <td className="px-4 py-3">
-                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${beca.estadoActiva && beca.fechaCierrePostulacion >= todayInChile ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-                      {!beca.estadoActiva ? 'Inactiva' : beca.fechaCierrePostulacion >= todayInChile ? 'Vigente' : 'Vencida'}
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${beca.estadoActiva && beca.fechaCierrePostulacion !== null && beca.fechaCierrePostulacion >= todayInChile ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                      {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : beca.fechaCierrePostulacion >= todayInChile ? 'Vigente' : 'Vencida'}
                     </span>
                   </td>
                   <td className="px-4 py-3">

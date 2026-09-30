@@ -84,7 +84,7 @@ export interface BecaSummary {
   descripcionCorta: string;
   montoCobertura: string;
   cobertura?: Cobertura;
-  fechaCierrePostulacion: string;
+  fechaCierrePostulacion: string | null;
   urlOficial: string;
   nombreInstitucion: string;
   nombreTipoBeca: string;
@@ -99,7 +99,7 @@ export interface BecaDetail {
   montoCobertura: string;
   cobertura?: Cobertura;
   fechaInicioPostulacion: string;
-  fechaCierrePostulacion: string;
+  fechaCierrePostulacion: string | null;
   urlOficial: string;
   estadoActiva: boolean;
   institucion: Institucion | null;

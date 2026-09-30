@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS becas (
     cobertura_periodicidad VARCHAR(20),
     cobertura_porcentaje NUMERIC(5,2),
     fecha_inicio_postulacion DATE,
-    fecha_cierre_postulacion DATE NOT NULL,
+    fecha_cierre_postulacion DATE,
     url_oficial VARCHAR(500),
     estado_activa BOOLEAN NOT NULL DEFAULT TRUE,
     CONSTRAINT ck_beca_cobertura CHECK (

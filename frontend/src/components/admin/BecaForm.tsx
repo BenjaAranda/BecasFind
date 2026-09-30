@@ -82,7 +82,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
       setError('Completa el nombre de la beca y de cada documento.');
       return;
     }
-    if (fechaInicio && fechaInicio > fechaCierre) {
+    if (fechaInicio && fechaCierre && fechaInicio > fechaCierre) {
       setError('La fecha de cierre debe ser igual o posterior al inicio.');
       return;
     }
@@ -101,7 +101,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
       idTipoBeca: Number(idTipoBeca),
       idInstitucion: Number(idInstitucion),
       fechaInicioPostulacion: fechaInicio || null,
-      fechaCierrePostulacion: fechaCierre,
+      fechaCierrePostulacion: fechaCierre || null,
       urlOficial: urlOficial || null,
       estadoActiva,
       regionesIds,
@@ -169,9 +169,10 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
               <input id="beca-field-6" type="date" value={fechaInicio} onChange={e => setFechaInicio(e.target.value)} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />
             </div>
             <div>
-              <label htmlFor="beca-field-7" className="block text-sm font-medium text-gray-700 mb-1">Cierre Postulación *</label>
-              <input id="beca-field-7" type="date" required value={fechaCierre} onChange={e => setFechaCierre(e.target.value)} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />
+              <label htmlFor="beca-field-7" className="block text-sm font-medium text-gray-700 mb-1">Cierre Postulación</label>
+              <input id="beca-field-7" type="date" aria-describedby="closing-date-help" value={fechaCierre} onChange={e => setFechaCierre(e.target.value)} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />
             </div>
+            <p id="closing-date-help" className="sm:col-span-2 text-sm text-gray-600">Si el cierre no está confirmado, déjalo vacío. La beca no aparecerá en la búsqueda vigente.</p>
             <div className="sm:col-span-2">
               <label htmlFor="beca-field-8" className="block text-sm font-medium text-gray-700 mb-1">Descripción Corta</label>
               <textarea id="beca-field-8" value={descripcionCorta} onChange={e => setDescripcionCorta(e.target.value)} rows={2} className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none" />

@@ -1,6 +1,8 @@
 package com.becasfind.api.services.impl;
 
 import com.becasfind.api.models.dtos.CsvBecaRow;
+import com.becasfind.api.models.dtos.CoberturaDTO;
+import jakarta.validation.Validator;
 import com.becasfind.api.models.dtos.ImportResultDTO;
 import com.becasfind.api.models.entities.Beca;
 import com.becasfind.api.models.entities.DocumentoRequerido;
@@ -56,6 +58,8 @@ public class BecaImportServiceImpl implements BecaImportService {
     private static final Set<String> CSV_COLUMNS = Set.of("nombre", "institucion", "tipo_beca", "monto",
             "fecha_inicio", "fecha_cierre", "rsh_maximo", "nem_minimo", "regiones", "descripcion", "descripcion_larga", "url");
 
+    private static final Set<String> OPTIONAL_COLUMNS = Set.of("documentos_requeridos", "cobertura_tipo", "cobertura_importe", "cobertura_moneda", "cobertura_periodicidad", "cobertura_porcentaje");
+    private final Validator validator;
     private final BecaRepository becaRepository;
     private final InstitucionRepository institucionRepository;
     private final TipoBecaRepository tipoBecaRepository;
@@ -70,7 +74,8 @@ public class BecaImportServiceImpl implements BecaImportService {
                                   TipoInstitucionRepository tipoInstitucionRepository,
                                   RegionRepository regionRepository,
                                   UsuarioRepository usuarioRepository,
-                                  PlatformTransactionManager transactionManager) {
+                                  PlatformTransactionManager transactionManager, Validator validator) {
+        this.validator = validator;
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
@@ -86,6 +91,7 @@ public class BecaImportServiceImpl implements BecaImportService {
         ImportResultDTO result = new ImportResultDTO();
         List<CsvBecaRow> rows;
         boolean replaceDocuments;
+        boolean replaceCoverage;
         try {
             if (file.isEmpty() || file.getSize() > 10 * 1024 * 1024) {
                 throw new IllegalArgumentException("El CSV debe contener datos y no superar 10 MB.");
@@ -112,10 +118,12 @@ public class BecaImportServiceImpl implements BecaImportService {
             if (!headers.containsAll(CSV_COLUMNS)) {
                 throw new IllegalArgumentException("Faltan encabezados del formato CSV: nombre, institucion, tipo_beca, monto, fecha_inicio, fecha_cierre, rsh_maximo, nem_minimo, regiones, descripcion, descripcion_larga y url.");
             }
-            if (headers.stream().anyMatch(header -> !CSV_COLUMNS.contains(header) && !"documentos_requeridos".equals(header))) {
+            if (headers.stream().anyMatch(header -> !CSV_COLUMNS.contains(header) && !OPTIONAL_COLUMNS.contains(header))) {
                 throw new IllegalArgumentException("El CSV contiene columnas desconocidas. Revisa los encabezados.");
             }
             replaceDocuments = headers.contains("documentos_requeridos");
+            replaceCoverage = headers.stream().anyMatch(header -> header.startsWith("cobertura_"));
+            if (replaceCoverage && !headers.contains("cobertura_tipo")) throw new IllegalArgumentException("Los metadatos requieren cobertura_tipo.");
             try (StringReader reader = new StringReader(content)) {
                 CsvToBean<CsvBecaRow> parser = new CsvToBeanBuilder<CsvBecaRow>(reader)
                         .withType(CsvBecaRow.class).withIgnoreLeadingWhiteSpace(true)
@@ -131,6 +139,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             for (CsvBecaRow row : rows) {
                 try {
                     validarCamposRequeridos(row);
+                    if (replaceCoverage) coverage(row);
                     String key = row.getInstitucion().trim().toLowerCase(Locale.ROOT) + "\u0000" + row.getNombre().trim();
                     if (!keys.add(key)) throw new IllegalArgumentException("Beca e institución repetidas en el mismo archivo.");
                 } catch (IllegalArgumentException e) {
@@ -155,7 +164,7 @@ public class BecaImportServiceImpl implements BecaImportService {
                 Usuario admin = usuarioRepository.findByEmailAndActivoTrue(authentication.getName())
                         .orElseThrow(() -> new IllegalArgumentException("El administrador de la importación no está activo."));
                 for (int i = 0; i < rows.size(); i++) {
-                    processRow(rows.get(i), committed, replaceDocuments, admin);
+                    processRow(rows.get(i), committed, replaceDocuments, replaceCoverage, admin);
                     if ((i + 1) % 50 == 0) becaRepository.flush();
                 }
                 becaRepository.flush();
@@ -210,8 +219,7 @@ public class BecaImportServiceImpl implements BecaImportService {
         }
         LocalDate cierre = parseDate(row.getFechaCierre(), "fecha_cierre", row.getNombre());
         LocalDate inicio = parseDate(row.getFechaInicio(), "fecha_inicio", row.getNombre());
-        if (cierre == null) cierre = LocalDate.of(2026, 12, 31);
-        if (inicio != null && inicio.isAfter(cierre)) throw new IllegalArgumentException("fecha_inicio no puede ser posterior a fecha_cierre.");
+        if (inicio != null && cierre != null && inicio.isAfter(cierre)) throw new IllegalArgumentException("fecha_inicio no puede ser posterior a fecha_cierre.");
         if (row.getUrl() != null && !row.getUrl().isBlank()) {
             URI uri;
             try { uri = URI.create(row.getUrl().trim()); }
@@ -237,7 +245,7 @@ public class BecaImportServiceImpl implements BecaImportService {
         if (value != null && value.trim().length() > max) throw new IllegalArgumentException("El campo '" + field + "' supera " + max + " caracteres.");
     }
 
-    private void processRow(CsvBecaRow row, ImportResultDTO result, boolean replaceDocuments, Usuario admin) {
+    private void processRow(CsvBecaRow row, ImportResultDTO result, boolean replaceDocuments, boolean replaceCoverage, Usuario admin) {
         String nombreInst = row.getInstitucion().trim();
         Institucion institucion = institucionRepository
                 .findByNombreIgnoreCase(nombreInst)
@@ -272,15 +280,7 @@ public class BecaImportServiceImpl implements BecaImportService {
         }
 
         LocalDate fechaCierre = parseDate(row.getFechaCierre(), "fecha_cierre", row.getNombre());
-        if (fechaCierre == null) {
-            fechaCierre = LocalDate.of(2026, 12, 31);
-            log.warn("CSV con fecha de cierre ausente: se aplica el valor 2026-12-31 establecido en el contrato.");
-        }
-        LocalDate fechaInicio = row.getFechaInicio() != null && !row.getFechaInicio().isBlank()
-                ? parseDate(row.getFechaInicio(), "fecha_inicio", row.getNombre()) : null;
-        if (fechaInicio == null) {
-            fechaInicio = LocalDate.of(fechaCierre.getYear(), 1, 1);
-        }
+        LocalDate fechaInicio = parseDate(row.getFechaInicio(), "fecha_inicio", row.getNombre());
 
         Integer rsh = parseOptionalInt(row.getRshMaximo(), "rsh_maximo");
         BigDecimal nem = parseOptionalBigDecimal(row.getNemMinimo(), "nem_minimo");
@@ -292,6 +292,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             Beca beca = becaExistente.get();
             beca.setNombre(row.getNombre().trim());
             beca.setMontoCobertura(row.getMonto());
+            if (replaceCoverage) applyCoverage(beca, coverage(row));
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
@@ -318,6 +319,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setDescripcionCorta(row.getDescripcion());
             beca.setDescripcionLarga(row.getDescripcionLarga());
             beca.setMontoCobertura(row.getMonto());
+            if (replaceCoverage) applyCoverage(beca, coverage(row));
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
@@ -337,6 +339,30 @@ public class BecaImportServiceImpl implements BecaImportService {
             importDocumentos(beca, row, replaceDocuments);
             result.setCreadas(result.getCreadas() + 1);
         }
+    }
+
+    private String optionalText(String value) {
+        return value == null || value.isBlank() ? null : value.trim();
+    }
+
+    private CoberturaDTO coverage(CsvBecaRow row) {
+        CoberturaDTO dto = new CoberturaDTO();
+        String tipo = optionalText(row.getCoberturaTipo());
+        dto.setTipo(tipo == null ? "DESCONOCIDA" : tipo);
+        dto.setImporte(parseOptionalBigDecimal(row.getCoberturaImporte(), "cobertura_importe"));
+        dto.setMoneda(optionalText(row.getCoberturaMoneda()));
+        dto.setPeriodicidad(optionalText(row.getCoberturaPeriodicidad()));
+        dto.setPorcentaje(parseOptionalBigDecimal(row.getCoberturaPorcentaje(), "cobertura_porcentaje"));
+        if (!validator.validate(dto).isEmpty()) throw new IllegalArgumentException("Metadatos de cobertura inválidos: revisa tipo, precisión, moneda y campos incompatibles.");
+        return dto;
+    }
+
+    private void applyCoverage(Beca beca, CoberturaDTO dto) {
+        beca.setCoberturaTipo(dto.getTipo());
+        beca.setCoberturaImporte(dto.getImporte());
+        beca.setCoberturaMoneda(dto.getMoneda());
+        beca.setCoberturaPeriodicidad(dto.getPeriodicidad());
+        beca.setCoberturaPorcentaje(dto.getPorcentaje());
     }
 
     private void importDocumentos(Beca beca, CsvBecaRow row, boolean replaceDocuments) {

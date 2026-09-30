@@ -54,7 +54,6 @@ public class BecaRequest {
 
     private LocalDate fechaInicioPostulacion;
 
-    @NotNull(message = "La fecha de cierre es obligatoria")
     private LocalDate fechaCierrePostulacion;
 
     @Size(max = 500, message = "La URL no puede superar 500 caracteres")
