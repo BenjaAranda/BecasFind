@@ -13,6 +13,9 @@ import com.becasfind.api.repositories.RegionRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.PerfilService;
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.LockModeType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -20,6 +23,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class PerfilServiceImpl implements PerfilService {
+
+    @PersistenceContext
+    private EntityManager entityManager;
 
     private static final Logger log = LoggerFactory.getLogger(PerfilServiceImpl.class);
 
@@ -56,6 +62,11 @@ public class PerfilServiceImpl implements PerfilService {
 
         Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
                 .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado con email: " + email));
+
+        entityManager.refresh(usuario, LockModeType.PESSIMISTIC_WRITE);
+        if (!Boolean.TRUE.equals(usuario.getActivo())) {
+            throw new EntityNotFoundException("Usuario no encontrado");
+        }
 
         PerfilEstudiante perfil = perfilEstudianteRepository
                 .findByUsuarioIdUsuario(usuario.getIdUsuario())

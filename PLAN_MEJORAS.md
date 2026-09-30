@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de validar solicitudes en FASE 2. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de corregir integridad de servicios en FASE 5. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -27,15 +27,15 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Renovar portada y retirar cifras/promesas sin respaldo; explicar acceso con cuenta, límites de recomendaciones y consulta de fuente oficial. Comprobar acciones por sesión, teclado y adaptación 360–1440 px.
 - [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Verificar recorridos con API controlada; backend e integración real quedan pendientes.
 - [x] Validar solicitudes de perfil, becas, documentos y usuarios administrativos en el servidor: límites numéricos/texto/identificadores, fechas coherentes, URL HTTP/HTTPS y contraseña UTF-8. Verificar rechazo 400 sin modificar datos y conservación de vaciados/límites válidos.
-- [x] Bloquear escrituras simultáneas de favoritos por beca, revertir fallos y anunciarlos en resultados.
+- [x] Bloquear escrituras simultáneas de favoritos en interfaz y serializarlas por usuario en backend; rechazar becas inexistentes y proteger la creación inicial concurrente del perfil. Pruebas concurrentes H2 aprobadas; PostgreSQL pendiente.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
 
 ### Pendiente, en orden de trabajo
 
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
-2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Comprobar recorridos completos/recomendaciones/favoritos con PostgreSQL real y resolver concurrencia de favoritos. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
+2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Comprobar recorridos completos/recomendaciones/favoritos con PostgreSQL real y confirmar allí los bloqueos concurrentes ya probados en H2. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
-4. [ ] **Próxima: FASE 5 — servicios core.** DTOs de perfil/administración validados. Revisar referencias inexistentes, escrituras concurrentes, borrado/desactivación y errores de negocio. Después completar controladores en FASE 6 y diseño/accesibilidad de modales en FASE 10, por separado.
+4. [ ] **Próxima: FASE 6 — controladores.** Referencias regionales, favoritos y creación concurrente de perfil corregidas en servicios. Revisar contrato de respuestas/errores y rutas administrativas; después diseño/accesibilidad de modales en FASE 10, por separado. Concurrencia de administración/importaciones y verificación PostgreSQL siguen pendientes.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
 6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
@@ -373,3 +373,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Cinco pruebas nuevas de API realizan múltiples solicitudes inválidas y comprueban 400/errores por campo, conteos y snapshots sin cambios, perfil opcional con valores límite/vaciado y edición que elimina documentos/regiones. Comparación de colecciones normaliza solo orden, manteniendo todos los valores: asociaciones JPA no garantizan orden.
 - Verificación final: 119 pruebas backend aprobadas, empaquetado y mvn compile aprobados. H2 de pruebas aislada; no se modificó la base local ni se ejecutó PostgreSQL en esta fase. Frontend sin cambios; última revisión estática/build de interfaz sigue aprobada desde FASE 12.
 - Pendientes: consistencia del servicio, referencias/concurrencia y política de borrado, verificación integral PostgreSQL, modelo monetario, calidad de fuentes/datos, correo y despliegue. Próxima FASE 5, una fase por instrucción explícita.
+
+
+## Avance FASE 5 — integridad de servicios (30 de septiembre de 2026)
+
+- Las regiones inexistentes se rechazan sin crear una beca nacional ni modificar datos parcialmente. Editar una beca sin requisitos previos ahora crea su registro de requisitos.
+- Favoritos y guardado de perfil bloquean la fila del usuario dentro de la transacción: dos solicitudes simultáneas no crean registros duplicados. Guardar un favorito exige que la beca exista y la protege durante la operación.
+- Se conserva la política existente: eliminación de becas y desactivación de usuarios. Una prueba de eliminación comprueba la limpieza de favoritos, regiones, requisitos y documentos.
+- Verificación: 125 pruebas backend aprobadas; seis nuevas pruebas de integridad, incluyendo escrituras concurrentes. Empaquetado y mvn compile aprobados. Motor H2 aislado; PostgreSQL no ejecutado en esta fase.
+- Pendientes: repetir concurrencia/borrado con PostgreSQL real, revisar concurrencia administrativa/importaciones y contrato de respuestas. Próxima FASE 6; una fase por instrucción explícita. Correo, calidad de datos y despliegue siguen pendientes.

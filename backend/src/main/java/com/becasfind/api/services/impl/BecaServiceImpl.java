@@ -182,7 +182,7 @@ public class BecaServiceImpl implements BecaService {
         beca.setUsuarioCreador(usuarioCreador);
 
         if (request.getRegionesIds() != null && !request.getRegionesIds().isEmpty()) {
-            List<Region> regiones = regionRepository.findAllById(request.getRegionesIds());
+            List<Region> regiones = resolveRegiones(request.getRegionesIds());
             beca.setRegiones(new java.util.HashSet<>(regiones));
         }
 
@@ -235,10 +235,15 @@ public class BecaServiceImpl implements BecaService {
         beca.setTipoBeca(tipoBeca);
 
         if (request.getRegionesIds() != null) {
-            List<Region> regiones = regionRepository.findAllById(request.getRegionesIds());
+            List<Region> regiones = resolveRegiones(request.getRegionesIds());
             beca.setRegiones(new java.util.HashSet<>(regiones));
         }
 
+        if (beca.getRequisitoPerfil() == null) {
+            RequisitoPerfil requisito = new RequisitoPerfil();
+            requisito.setBeca(beca);
+            beca.setRequisitoPerfil(requisito);
+        }
         if (beca.getRequisitoPerfil() != null) {
             RequisitoPerfil requisito = beca.getRequisitoPerfil();
             requisito.setRshMaximoPorcentaje(request.getRshMaximoPorcentaje());
@@ -276,6 +281,14 @@ public class BecaServiceImpl implements BecaService {
                 .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada con ID: " + id));
         becaRepository.delete(beca);
         log.info("Beca eliminada: {} (ID: {})", beca.getNombre(), id);
+    }
+
+    private List<Region> resolveRegiones(List<Long> ids) {
+        List<Region> regiones = regionRepository.findAllById(ids);
+        if (regiones.size() != new java.util.HashSet<>(ids).size()) {
+            throw new EntityNotFoundException("Una o más regiones no existen");
+        }
+        return regiones;
     }
 
     private BecaDTO toBecaDTO(Beca beca) {

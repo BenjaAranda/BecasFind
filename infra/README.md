@@ -176,3 +176,10 @@ Carga de perfil/catálogos fallida bloquea guardado y ofrece reintento. Guardar 
 DTOs de perfil/becas/documentos/usuarios administrativos validan rangos, longitudes, identificadores, elementos anidados, fechas y URL HTTP/HTTPS sin credenciales. Contraseña administrativa limitada a 72 bytes UTF-8 además de 8–72 caracteres. Null opcional y listas vacías se conservan; no cambia esquema ni controladores.
 
 `mvn package` aprobó 119 pruebas (cinco nuevas con varios casos HTTP contra H2), además de compilación/empaquetado. `mvn compile` aprobado. Se comprueba rechazo 400 sin cambios y persistencia/vaciado válidos. PostgreSQL/local/frontend no fueron modificados ni probados nuevamente en esta fase. Validación de referencias, concurrencia, borrado e integración real siguen pendientes.
+
+
+### Verificación de servicios — 30 de septiembre de 2026
+
+FASE 5 rechaza referencias regionales inexistentes, crea requisitos al editar becas que carecen de ellos y serializa favoritos/guardado de perfil mediante bloqueos transaccionales por usuario. Guardar favoritos comprueba y bloquea la beca referenciada. La política de eliminación no cambia.
+
+CoreServiceIntegrityTest añade seis pruebas sobre referencias y rollback, beca inexistente, favoritos concurrentes, perfil inicial concurrente, requisitos y limpieza de asociaciones al eliminar. Suite completa: 125 pruebas, cero fallos/errores; Maven package y compile aprobados. Estas comprobaciones usan H2 aislado. Repetirlas en PostgreSQL 17 antes de publicar; esta fase no modifica la base local ni despliega servicios.
