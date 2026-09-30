@@ -41,8 +41,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.data.domain.Sort;
-
 @Service
 public class BecaServiceImpl implements BecaService {
 
@@ -77,6 +75,7 @@ public class BecaServiceImpl implements BecaService {
     public Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
                                      String query, Long idTipoBeca, Long idInstitucion,
                                      Long idTipoInstitucion, String sort, Pageable pageable) {
+        validateSearch(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, pageable);
         Specification<Beca> spec = Specification
                 .where(BecaSpecifications.isVigente())
                 .and(BecaSpecifications.hasRshMax(rsh))
@@ -92,19 +91,39 @@ public class BecaServiceImpl implements BecaService {
     }
 
     private Sort parseSort(String sort) {
-        if (sort == null || sort.isBlank()) return Sort.by("fechaCierrePostulacion").ascending();
-        return switch (sort) {
+        Sort primary = switch (sort == null || sort.isBlank() ? "fechaAsc" : sort) {
             case "fechaAsc"  -> Sort.by("fechaCierrePostulacion").ascending();
             case "fechaDesc" -> Sort.by("fechaCierrePostulacion").descending();
             case "montoAsc"  -> Sort.by("montoCobertura").ascending();
             case "montoDesc" -> Sort.by("montoCobertura").descending();
-            default          -> Sort.by("fechaCierrePostulacion").ascending();
+            default          -> throw new IllegalArgumentException("Orden de búsqueda no válido");
         };
+        return primary.and(Sort.by("idBeca").ascending());
+    }
+
+    private void validateSearch(Integer rsh, Double nem, Long regionId, String query,
+                                Long idTipoBeca, Long idInstitucion, Long idTipoInstitucion, Pageable pageable) {
+        validatePage(pageable);
+        if (rsh != null && (rsh < 0 || rsh > 100)) throw new IllegalArgumentException("El RSH debe estar entre 0 y 100");
+        if (nem != null && (!Double.isFinite(nem) || nem < 1 || nem > 7)) {
+            throw new IllegalArgumentException("El NEM debe estar entre 1,0 y 7,0");
+        }
+        if (query != null && query.length() > 200) throw new IllegalArgumentException("La búsqueda admite hasta 200 caracteres");
+        for (Long id : java.util.Arrays.asList(regionId, idTipoBeca, idInstitucion, idTipoInstitucion)) {
+            if (id != null && id <= 0) throw new IllegalArgumentException("Los identificadores de filtros deben ser positivos");
+        }
+    }
+
+    private void validatePage(Pageable pageable) {
+        if (pageable == null || pageable.isUnpaged() || pageable.getPageSize() > 100) {
+            throw new IllegalArgumentException("Solicita una página de entre 1 y 100 resultados");
+        }
     }
 
     @Override
     @Transactional(readOnly = true)
     public Page<BecaDTO> recomendarBecas(String email, Pageable pageable) {
+        validatePage(pageable);
         var perfilOpt = perfilEstudianteRepository
                 .findByUsuarioIdUsuario(usuarioRepository.findByEmailAndActivoTrue(email)
                         .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"))
@@ -118,18 +137,7 @@ public class BecaServiceImpl implements BecaService {
         Integer rsh = perfil.getRshPorcentaje();
         Double nem = perfil.getNemPromedio() != null ? perfil.getNemPromedio().doubleValue() : null;
         Long regionId = perfil.getRegion() != null ? perfil.getRegion().getIdRegion() : null;
-        Long institucionId = perfil.getInstitucion() != null ? perfil.getInstitucion().getIdInstitucion() : null;
-
-        Specification<Beca> spec = Specification
-                .where(BecaSpecifications.isVigente())
-                .and(BecaSpecifications.hasRshMax(rsh))
-                .and(BecaSpecifications.hasNemMin(nem))
-                .and(BecaSpecifications.hasRegionOrNational(regionId))
-                .and(BecaSpecifications.hasInstitucionOrGobierno(institucionId));
-
-        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(),
-                Sort.by("fechaCierrePostulacion").ascending());
-        return becaRepository.findAll(spec, sorted).map(this::toBecaDTO);
+        return buscarBecas(rsh, nem, regionId, null, null, null, null, "fechaAsc", pageable);
     }
 
     @Override
@@ -273,7 +281,7 @@ public class BecaServiceImpl implements BecaService {
                 .nombreInstitucion(beca.getInstitucion() != null ? beca.getInstitucion().getNombre() : null)
                 .nombreTipoBeca(beca.getTipoBeca() != null ? beca.getTipoBeca().getNombre() : null)
                 .nombreRegion(beca.getRegiones() != null && !beca.getRegiones().isEmpty()
-                        ? beca.getRegiones().iterator().next().getNombre()
+                        ? beca.getRegiones().stream().map(Region::getNombre).sorted().collect(Collectors.joining(", "))
                         : "Nacional")
                 .build();
     }

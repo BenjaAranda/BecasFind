@@ -6,6 +6,10 @@ import org.springframework.data.jpa.domain.Specification;
 import jakarta.persistence.criteria.JoinType;
 import jakarta.persistence.criteria.SetJoin;
 import java.math.BigDecimal;
+import java.time.Clock;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.util.Locale;
 
 public final class BecaSpecifications {
 
@@ -13,12 +17,16 @@ public final class BecaSpecifications {
     }
 
     /**
-     * BR-VIGENCIA: Solo becas marcadas como activas.
-     * NOTA: Se removió el filtro fechaCierrePostulacion >= CURRENT_DATE
-     * para que los beneficios anuales expirados sigan siendo visibles.
+     * BR-VIGENCIA: activa y cierre inclusivo según el día de negocio en Chile.
      */
     public static Specification<Beca> isVigente() {
-        return (root, query, cb) -> cb.isTrue(root.get("estadoActiva"));
+        return isVigente(Clock.system(ZoneId.of("America/Santiago")));
+    }
+
+    public static Specification<Beca> isVigente(Clock clock) {
+        LocalDate today = LocalDate.now(clock);
+        return (root, query, cb) -> cb.and(cb.isTrue(root.get("estadoActiva")),
+                cb.greaterThanOrEqualTo(root.get("fechaCierrePostulacion"), today));
     }
 
     /**
@@ -30,10 +38,7 @@ public final class BecaSpecifications {
 
         return (root, query, cb) -> {
             var requisitoJoin = root.join("requisitoPerfil", JoinType.LEFT);
-            return cb.or(
-                    cb.isNull(requisitoJoin.get("rshMaximoPorcentaje")),
-                    cb.greaterThanOrEqualTo(requisitoJoin.get("rshMaximoPorcentaje"), rsh)
-            );
+            return cb.greaterThanOrEqualTo(requisitoJoin.get("rshMaximoPorcentaje"), rsh);
         };
     }
 
@@ -46,10 +51,7 @@ public final class BecaSpecifications {
 
         return (root, query, cb) -> {
             var requisitoJoin = root.join("requisitoPerfil", JoinType.LEFT);
-            return cb.or(
-                    cb.isNull(requisitoJoin.get("nemMinimo")),
-                    cb.lessThanOrEqualTo(requisitoJoin.get("nemMinimo"), BigDecimal.valueOf(nem))
-            );
+            return cb.lessThanOrEqualTo(requisitoJoin.get("nemMinimo"), BigDecimal.valueOf(nem));
         };
     }
 
@@ -73,11 +75,13 @@ public final class BecaSpecifications {
      */
     public static Specification<Beca> hasTextQuery(String queryText) {
         if (queryText == null || queryText.isBlank()) return null;
-        String pattern = "%" + queryText.toLowerCase().trim() + "%";
+        String literal = queryText.strip().toLowerCase(Locale.ROOT)
+                .replace("!", "!!").replace("%", "!%").replace("_", "!_");
+        String pattern = "%" + literal + "%";
 
         return (root, cq, cb) -> cb.or(
-                cb.like(cb.lower(root.get("nombre")), pattern),
-                cb.like(cb.lower(root.get("descripcionCorta")), pattern)
+                cb.like(cb.lower(root.get("nombre")), pattern, '!'),
+                cb.like(cb.lower(root.get("descripcionCorta")), pattern, '!')
         );
     }
 
@@ -106,15 +110,4 @@ public final class BecaSpecifications {
             root.get("institucion").get("tipoInstitucion").get("idTipoInst"), idTipoInstitucion);
     }
 
-    /**
-     * Recomendación: institución del perfil O gobierno (Mineduc, JUNAEB, Municipalidades).
-     */
-    public static Specification<Beca> hasInstitucionOrGobierno(Long idInstitucion) {
-        if (idInstitucion == null) return null;
-        return (root, cq, cb) -> cb.or(
-            cb.equal(root.get("institucion").get("idInstitucion"), idInstitucion),
-            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 5L),
-            cb.equal(root.get("institucion").get("tipoInstitucion").get("idTipoInst"), 8L)
-        );
-    }
 }
