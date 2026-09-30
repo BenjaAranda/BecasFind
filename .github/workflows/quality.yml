@@ -1,0 +1,111 @@
+name: Quality
+on:
+  pull_request:
+  push:
+    branches: [main, develop, 'bugfix/**', 'feature/**', 'codex/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  backend:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - run: mvn -B -ntp -f backend/pom.xml verify
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: backend-reports
+          path: backend/target/surefire-reports
+  postgres:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: ci_test
+          # Disposable runner only. No credentials or production access.
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports: ['127.0.0.1:5432:5432']
+        options: --health-cmd "pg_isready -U ci_test" --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      PGHOST: 127.0.0.1
+      PGUSER: ci_test
+      PGPORT: '5432'
+      SPRING_DATASOURCE_USERNAME: ci_test
+      SPRING_DATASOURCE_PASSWORD: ''
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.PostgreSQLDialect
+      SPRING_JPA_HIBERNATE_DDL_AUTO: validate
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - name: Migration checks and actual PostgreSQL tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-results
+          createdb migration_check
+          psql -d migration_check -v ON_ERROR_STOP=1 -f infra/verify-coverage-migration.sql
+          for test in BecaCoreRulesTest PublicScholarshipIdTest ProfilePersistenceTest CsvImportIntegrityTest CsvBatchTest ScholarshipConcurrencyTest SecurityResponseTest ReadPerformanceIT; do
+            createdb class_test
+            psql -d class_test -v ON_ERROR_STOP=1 -f infra/ddl.sql
+            psql -d class_test -v ON_ERROR_STOP=1 -c 'TRUNCATE roles,tipos_institucion,tipos_beca,regiones RESTART IDENTITY CASCADE'
+            export SPRING_DATASOURCE_URL=jdbc:postgresql://127.0.0.1:5432/class_test
+            mvn -B -ntp -f backend/pom.xml -Dtest="$test" test | tee "ci-results/$test.log"
+            cp backend/target/surefire-reports/TEST-*.xml ci-results/
+            dropdb class_test
+          done
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: postgres-reports
+          path: ci-results
+  frontend:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm audit --audit-level=high
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium firefox
+      - run: node measure-performance.mjs
+      - run: npx playwright test --workers 1
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: browser-reports
+          path: |
+            frontend/playwright-report
+            frontend/test-results
+            frontend/performance-report

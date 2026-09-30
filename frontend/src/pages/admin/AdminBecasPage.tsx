@@ -124,11 +124,11 @@ export default function AdminBecasPage() {
       <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
           <h1 className="text-2xl font-bold text-[#163b3b]">Gestión de Becas</h1>
-          <p className="text-sm text-gray-500 mt-1">{totalElements} becas en total</p>
+          <p className="text-sm text-gray-600 mt-1">{totalElements} becas en total</p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <div className="relative">
-            <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-600" />
             <input
               type="text"
               placeholder="Buscar beca..."
@@ -178,7 +178,7 @@ export default function AdminBecasPage() {
                 <tr key={beca.idBeca} className="hover:bg-gray-50">
                   <td className="px-4 py-3">
                     <span className="font-medium text-[#163b3b]">{beca.nombre}</span>
-                    <span className="block text-xs text-gray-400">{beca.nombreTipoBeca}</span>
+                    <span className="block text-xs text-gray-600">{beca.nombreTipoBeca}</span>
                   </td>
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{beca.nombreInstitucion}</td>
                   <td className="px-4 py-3 text-gray-600 hidden lg:table-cell">{formatDate(beca.fechaCierrePostulacion)}</td>
@@ -189,13 +189,13 @@ export default function AdminBecasPage() {
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-1">
-                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
+                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <ExternalLink className="w-4 h-4" />
                       </a>
-                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
+                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-600 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <Edit className="w-4 h-4" />
                       </button>
-                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
+                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <Trash2 className="w-4 h-4" />
                       </button>
                     </div>
@@ -203,7 +203,7 @@ export default function AdminBecasPage() {
                 </tr>
               ))}
               {displayed.length === 0 && (
-                <tr><td colSpan={5} className="px-4 py-8 text-center text-gray-400">No hay becas registradas</td></tr>
+                <tr><td colSpan={5} className="px-4 py-8 text-center text-gray-600">No hay becas registradas</td></tr>
               )}
             </tbody>
           </table>
@@ -287,7 +287,7 @@ export default function AdminBecasPage() {
               </div>
             ) : (
               <>
-                <p className="text-sm text-gray-500 mb-4">
+                <p className="text-sm text-gray-600 mb-4">
                   Selecciona un archivo CSV con las becas a importar. El sistema detectará duplicados y los actualizará automáticamente.
                 </p>
                 <input aria-label="Archivo CSV de becas" disabled={importLoading} type="file" accept=".csv" ref={fileInputRef}

@@ -53,7 +53,7 @@ export default function AdminUsuariosPage() {
       <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
           <h1 className="text-2xl font-bold text-[#163b3b]">Gestión de Usuarios</h1>
-          <p className="text-sm text-gray-500 mt-1">{usuarios.length} usuarios registrados</p>
+          <p className="text-sm text-gray-600 mt-1">{usuarios.length} usuarios registrados</p>
         </div>
         <button
           onClick={() => { setEditUsuario(null); setShowForm(true); }}
@@ -109,7 +109,7 @@ export default function AdminUsuariosPage() {
                       </button>
                       <button
                         aria-label={`Desactivar ${u.nombreCompleto}`} onClick={() => { setDeactivateError(''); setConfirmDeactivateId(u.idUsuario); }}
-                        className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
+                        className="p-1.5 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
                         title="Desactivar usuario"
                       >
                         <UserX className="w-4 h-4" />
@@ -120,7 +120,7 @@ export default function AdminUsuariosPage() {
                 </tr>
               ))}
               {usuarios.length === 0 && (
-                <tr><td colSpan={6} className="px-4 py-8 text-center text-gray-400">No hay usuarios registrados</td></tr>
+                <tr><td colSpan={6} className="px-4 py-8 text-center text-gray-600">No hay usuarios registrados</td></tr>
               )}
             </tbody>
           </table>
