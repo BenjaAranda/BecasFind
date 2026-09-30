@@ -17,6 +17,8 @@ public class BecaDTO {
 
     private Long idBeca;
 
+    private Long version;
+
     @com.fasterxml.jackson.annotation.JsonIgnore
     private java.util.UUID publicId;
 

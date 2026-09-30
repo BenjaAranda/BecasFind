@@ -31,13 +31,20 @@ import java.util.Set;
 public class Beca {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "becas_id_beca_seq")
+    @jakarta.persistence.SequenceGenerator(name = "becas_id_beca_seq", sequenceName = "becas_id_beca_seq", allocationSize = 1)
+    @org.hibernate.annotations.ColumnDefault("NEXT VALUE FOR becas_id_beca_seq")
     @Column(name = "id_beca")
     private Long idBeca;
 
     @Column(name = "public_id", nullable = false, unique = true, updatable = false)
     @org.hibernate.annotations.ColumnDefault("RANDOM_UUID()")
     private java.util.UUID publicId = java.util.UUID.randomUUID();
+
+    @jakarta.persistence.Version
+    @Column(nullable = false)
+    @org.hibernate.annotations.ColumnDefault("0")
+    private Long version;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_institucion", nullable = false)

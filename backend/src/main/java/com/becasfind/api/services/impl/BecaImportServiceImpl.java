@@ -50,6 +50,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.Locale;
+import java.util.Map;
+import java.util.HashMap;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 @Service
 public class BecaImportServiceImpl implements BecaImportService {
@@ -60,6 +63,10 @@ public class BecaImportServiceImpl implements BecaImportService {
 
     private static final Set<String> OPTIONAL_COLUMNS = Set.of("documentos_requeridos", "cobertura_tipo", "cobertura_importe", "cobertura_moneda", "cobertura_periodicidad", "cobertura_porcentaje");
     private final Validator validator;
+    private final JdbcTemplate jdbc;
+    @jakarta.persistence.PersistenceContext
+    private jakarta.persistence.EntityManager entityManager;
+
     private final BecaRepository becaRepository;
     private final InstitucionRepository institucionRepository;
     private final TipoBecaRepository tipoBecaRepository;
@@ -74,8 +81,9 @@ public class BecaImportServiceImpl implements BecaImportService {
                                   TipoInstitucionRepository tipoInstitucionRepository,
                                   RegionRepository regionRepository,
                                   UsuarioRepository usuarioRepository,
-                                  PlatformTransactionManager transactionManager, Validator validator) {
+                                  PlatformTransactionManager transactionManager, Validator validator, JdbcTemplate jdbc) {
         this.validator = validator;
+        this.jdbc = jdbc;
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
@@ -158,13 +166,26 @@ public class BecaImportServiceImpl implements BecaImportService {
         try {
             // Counters are returned only after the complete transaction commits.
             return importTransaction.execute(status -> {
+                // A database lock serializes catalog resolution across application instances.
+                jdbc.queryForObject("select id_rol from roles where nombre_rol = 'ADMIN' for update", Long.class);
                 ImportResultDTO committed = new ImportResultDTO();
                 var authentication = SecurityContextHolder.getContext().getAuthentication();
                 if (authentication == null) throw new IllegalArgumentException("La importación requiere un administrador autenticado.");
                 Usuario admin = usuarioRepository.findByEmailAndActivoTrue(authentication.getName())
                         .orElseThrow(() -> new IllegalArgumentException("El administrador de la importación no está activo."));
+                Map<String, Institucion> institutions = new HashMap<>();
+                Map<String, TipoBeca> types = new HashMap<>();
+                // Complete catalog writes before queueing scholarship inserts.
+                for (CsvBecaRow row : rows) {
+                    resolveInstitution(row.getInstitucion().trim(), institutions);
+                    resolveType(row.getTipoBeca().trim(), types);
+                }
+                Map<String, Region> regions = new HashMap<>();
+                regionRepository.findAll().forEach(region -> regions.put(region.getAbreviatura().toLowerCase(Locale.ROOT), region));
+                Map<String, Beca> existing = new HashMap<>();
+                becaRepository.findByNombreIn(rows.stream().map(row -> row.getNombre().trim()).toList()).forEach(beca -> existing.put(beca.getInstitucion().getIdInstitucion() + "\u0000" + beca.getNombre(), beca));
                 for (int i = 0; i < rows.size(); i++) {
-                    processRow(rows.get(i), committed, replaceDocuments, replaceCoverage, admin);
+                    processRow(rows.get(i), committed, replaceDocuments, replaceCoverage, admin, institutions, types, regions, existing);
                     if ((i + 1) % 50 == 0) becaRepository.flush();
                 }
                 becaRepository.flush();
@@ -245,32 +266,15 @@ public class BecaImportServiceImpl implements BecaImportService {
         if (value != null && value.trim().length() > max) throw new IllegalArgumentException("El campo '" + field + "' supera " + max + " caracteres.");
     }
 
-    private void processRow(CsvBecaRow row, ImportResultDTO result, boolean replaceDocuments, boolean replaceCoverage, Usuario admin) {
-        String nombreInst = row.getInstitucion().trim();
-        Institucion institucion = institucionRepository
-                .findByNombreIgnoreCase(nombreInst)
-                .orElseGet(() -> {
-                    Institucion nueva = new Institucion();
-                    nueva.setNombre(nombreInst);
-                    nueva.setRut("IMP-" + java.util.UUID.randomUUID().toString().substring(0, 8));
-                    nueva.setTipoInstitucion(clasificarTipoInstitucion(nombreInst));
-                    return institucionRepository.save(nueva);
-                });
-
-        String nombreTipoBeca = row.getTipoBeca().trim();
-        TipoBeca tipoBeca = tipoBecaRepository
-                .findByNombreIgnoreCase(nombreTipoBeca)
-                .orElseGet(() -> {
-                    TipoBeca nuevo = new TipoBeca();
-                    nuevo.setNombre(nombreTipoBeca);
-                    return tipoBecaRepository.save(nuevo);
-                });
+    private void processRow(CsvBecaRow row, ImportResultDTO result, boolean replaceDocuments, boolean replaceCoverage, Usuario admin, Map<String, Institucion> institutions, Map<String, TipoBeca> types, Map<String, Region> regions, Map<String, Beca> existing) {
+        Institucion institucion = institutions.get(row.getInstitucion().trim().toLowerCase(Locale.ROOT));
+        TipoBeca tipoBeca = types.get(row.getTipoBeca().trim().toLowerCase(Locale.ROOT));
 
         Set<Region> regionesSet = new HashSet<>();
         if (row.getRegiones() != null && !row.getRegiones().isBlank()) {
             for (String abrev : row.getRegiones().split(",")) {
                 String abrevTrimmed = abrev.trim();
-                var regionOpt = regionRepository.findByAbreviaturaIgnoreCase(abrevTrimmed);
+                var regionOpt = java.util.Optional.ofNullable(regions.get(abrevTrimmed.toLowerCase(Locale.ROOT)));
                 if (regionOpt.isPresent()) {
                     regionesSet.add(regionOpt.get());
                 } else {
@@ -285,11 +289,11 @@ public class BecaImportServiceImpl implements BecaImportService {
         Integer rsh = parseOptionalInt(row.getRshMaximo(), "rsh_maximo");
         BigDecimal nem = parseOptionalBigDecimal(row.getNemMinimo(), "nem_minimo");
 
-        var becaExistente = becaRepository.findByNombreAndInstitucionIdInstitucion(
-                row.getNombre().trim(), institucion.getIdInstitucion());
+        var becaExistente = java.util.Optional.ofNullable(existing.get(institucion.getIdInstitucion() + "\u0000" + row.getNombre().trim()));
 
         if (becaExistente.isPresent()) {
             Beca beca = becaExistente.get();
+            entityManager.lock(beca, jakarta.persistence.LockModeType.PESSIMISTIC_FORCE_INCREMENT);
             beca.setNombre(row.getNombre().trim());
             beca.setMontoCobertura(row.getMonto());
             if (replaceCoverage) applyCoverage(beca, coverage(row));
@@ -339,6 +343,24 @@ public class BecaImportServiceImpl implements BecaImportService {
             importDocumentos(beca, row, replaceDocuments);
             result.setCreadas(result.getCreadas() + 1);
         }
+    }
+
+    private Institucion resolveInstitution(String name, Map<String, Institucion> cache) {
+        return cache.computeIfAbsent(name.toLowerCase(Locale.ROOT), ignored -> institucionRepository.findByNombreIgnoreCase(name).orElseGet(() -> {
+            Institucion institution = new Institucion();
+            institution.setNombre(name);
+            institution.setRut("IMP-" + java.util.UUID.randomUUID().toString().substring(0, 8));
+            institution.setTipoInstitucion(clasificarTipoInstitucion(name));
+            return institucionRepository.save(institution);
+        }));
+    }
+
+    private TipoBeca resolveType(String name, Map<String, TipoBeca> cache) {
+        return cache.computeIfAbsent(name.toLowerCase(Locale.ROOT), ignored -> tipoBecaRepository.findByNombreIgnoreCase(name).orElseGet(() -> {
+            TipoBeca type = new TipoBeca();
+            type.setNombre(name);
+            return tipoBecaRepository.save(type);
+        }));
     }
 
     private String optionalText(String value) {

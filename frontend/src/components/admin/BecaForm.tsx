@@ -102,6 +102,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
       idInstitucion: Number(idInstitucion),
       fechaInicioPostulacion: fechaInicio || null,
       fechaCierrePostulacion: fechaCierre || null,
+      version: d.version,
       urlOficial: urlOficial || null,
       estadoActiva,
       regionesIds,

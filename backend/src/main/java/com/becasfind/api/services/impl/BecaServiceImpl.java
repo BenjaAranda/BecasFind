@@ -47,6 +47,9 @@ public class BecaServiceImpl implements BecaService {
 
     private static final Logger log = LoggerFactory.getLogger(BecaServiceImpl.class);
 
+    @jakarta.persistence.PersistenceContext
+    private jakarta.persistence.EntityManager entityManager;
+
     private final BecaRepository becaRepository;
     private final InstitucionRepository institucionRepository;
     private final TipoBecaRepository tipoBecaRepository;
@@ -210,7 +213,7 @@ public class BecaServiceImpl implements BecaService {
         requisito.setEsParaCursoSuperior(request.getEsParaCursoSuperior() != null ? request.getEsParaCursoSuperior() : false);
         beca.setRequisitoPerfil(requisito);
 
-        beca = becaRepository.save(beca);
+        beca = becaRepository.saveAndFlush(beca);
 
         if (request.getDocumentosRequeridos() != null && !request.getDocumentosRequeridos().isEmpty()) {
             for (DocumentoRequeridoDTO docDto : request.getDocumentosRequeridos()) {
@@ -232,6 +235,13 @@ public class BecaServiceImpl implements BecaService {
         validateCoverage(request.getCobertura());
         Beca beca = becaRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada con ID: " + id));
+
+        if (request.getVersion() != null && !request.getVersion().equals(beca.getVersion())) {
+            throw new org.springframework.orm.ObjectOptimisticLockingFailureException(Beca.class, id);
+        }
+
+        // Child-only edits must also invalidate stale administrative forms.
+        entityManager.lock(beca, jakarta.persistence.LockModeType.PESSIMISTIC_FORCE_INCREMENT);
 
         Institucion institucion = institucionRepository.findById(request.getIdInstitucion())
                 .orElseThrow(() -> new EntityNotFoundException("Institucion no encontrada"));
@@ -274,7 +284,7 @@ public class BecaServiceImpl implements BecaService {
             }
         }
 
-        beca = becaRepository.save(beca);
+        beca = becaRepository.saveAndFlush(beca);
 
         if (request.getDocumentosRequeridos() != null) {
             documentoRequeridoRepository.deleteByBecaIdBeca(beca.getIdBeca());
@@ -336,6 +346,7 @@ public class BecaServiceImpl implements BecaService {
     private BecaDTO toBecaDTO(Beca beca) {
         return BecaDTO.builder()
                 .idBeca(beca.getIdBeca())
+                .version(beca.getVersion())
                 .publicId(beca.getPublicId())
                 .nombre(beca.getNombre())
                 .estadoActiva(beca.getEstadoActiva())
@@ -416,6 +427,7 @@ public class BecaServiceImpl implements BecaService {
 
         return BecaDetailDTO.builder()
                 .idBeca(beca.getIdBeca())
+                .version(beca.getVersion())
                 .publicId(beca.getPublicId())
                 .nombre(beca.getNombre())
                 .descripcionCorta(beca.getDescripcionCorta())

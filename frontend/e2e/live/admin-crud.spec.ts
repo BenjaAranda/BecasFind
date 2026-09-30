@@ -50,7 +50,7 @@ test('administrador crea edita y elimina beca con persistencia real', async ({ p
   await page.getByLabel('Nombre *', { exact: true }).fill('Beca de educación CRUD real');
   await page.getByLabel('Tipo Beca *').selectOption('1');
   await page.getByLabel('Institución *').selectOption('1');
-  await page.getByLabel('Cierre Postulación *').fill('2027-12-31');
+  await page.getByLabel('Cierre Postulación').fill('2027-12-31');
   await page.getByLabel('RSH Máximo (%)').fill('0');
   await page.getByLabel('NEM Mínimo').fill('5.5');
   await page.getByLabel('Monto Cobertura').fill('Importe según fuente de prueba');

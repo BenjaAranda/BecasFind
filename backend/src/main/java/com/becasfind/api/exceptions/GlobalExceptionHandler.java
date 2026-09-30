@@ -50,6 +50,11 @@ public class GlobalExceptionHandler {
                 "El tipo de contenido de la solicitud no es compatible"));
     }
 
+    @ExceptionHandler(org.springframework.orm.ObjectOptimisticLockingFailureException.class)
+    public ResponseEntity<ApiResponse<Void>> handleConcurrentModification() {
+        return ResponseEntity.status(409).body(ApiResponse.error(409, "La beca cambió mientras la editabas. Recarga sus datos antes de guardar de nuevo."));
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ApiResponse<Void>> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
         Map<String, String> errors = new HashMap<>();

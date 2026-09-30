@@ -80,6 +80,7 @@ export default function AdminBecasPage() {
         idInstitucion: d.institucion?.idInstitucion,
         fechaInicioPostulacion: d.fechaInicioPostulacion,
         fechaCierrePostulacion: d.fechaCierrePostulacion,
+        version: d.version,
         urlOficial: d.urlOficial,
         estadoActiva: d.estadoActiva,
         regionesIds: d.regiones?.map(r => r.idRegion),

@@ -365,3 +365,24 @@ test('búsqueda administrativa no duplica carga inicial ni muestra respuestas an
   await page.waitForTimeout(1200);
   await expect(page.getByText('vieja', { exact: true })).toHaveCount(0);
 });
+
+test('cierre desconocido y conflicto administrativo conservan la edición y su versión', async ({ page }) => {
+  await setup(page);
+  await page.route('**/api/becas/administracion/1', route => route.fulfill({ json: { data: { ...detail, version: 7, fechaCierrePostulacion: null } } }));
+  let payload: Record<string, unknown> | undefined;
+  await page.route('**/api/becas/1', async route => {
+    if (route.request().method() !== 'PUT') return route.fallback();
+    payload = route.request().postDataJSON();
+    await route.fulfill({ status: 409, json: { status: 409, message: 'La beca cambió mientras la editabas. Recarga sus datos antes de guardar de nuevo.', data: null } });
+  });
+  await edit(page);
+  await expect(page.getByLabel('Cierre Postulación')).toHaveValue('');
+  await expect(page.getByText('Si el cierre no está confirmado', { exact: false })).toBeVisible();
+  await page.getByLabel('NEM Mínimo').fill('5.0');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('Recarga sus datos');
+  await expect(page.getByRole('dialog')).toBeVisible();
+  expect(payload?.version).toBe(7);
+  expect(payload?.fechaCierrePostulacion).toBeNull();
+  await expect(page.getByLabel('NEM Mínimo')).toHaveValue('5.0');
+});

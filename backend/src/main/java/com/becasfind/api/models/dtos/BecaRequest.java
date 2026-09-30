@@ -30,6 +30,9 @@ import java.util.List;
 @AllArgsConstructor
 public class BecaRequest {
 
+    @jakarta.validation.constraints.PositiveOrZero
+    private Long version;
+
     @NotNull(message = "El ID de la institución es obligatorio")
     @Positive(message = "El identificador debe ser positivo")
     private Long idInstitucion;
