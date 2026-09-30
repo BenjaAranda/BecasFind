@@ -101,6 +101,14 @@ public class BecaServiceImpl implements BecaService {
         return primary.and(Sort.by("idBeca").ascending());
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public Page<BecaDTO> listarAdministracion(String query, Pageable pageable) {
+        validateSearch(null, null, null, query, null, null, null, pageable);
+        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(), parseSort("fechaAsc"));
+        return becaRepository.findAll(BecaSpecifications.hasTextQuery(query), sorted).map(this::toBecaDTO);
+    }
+
     private void validateSearch(Integer rsh, Double nem, Long regionId, String query,
                                 Long idTipoBeca, Long idInstitucion, Long idTipoInstitucion, Pageable pageable) {
         validatePage(pageable);
@@ -274,6 +282,7 @@ public class BecaServiceImpl implements BecaService {
         return BecaDTO.builder()
                 .idBeca(beca.getIdBeca())
                 .nombre(beca.getNombre())
+                .estadoActiva(beca.getEstadoActiva())
                 .descripcionCorta(beca.getDescripcionCorta())
                 .montoCobertura(beca.getMontoCobertura())
                 .fechaCierrePostulacion(beca.getFechaCierrePostulacion())

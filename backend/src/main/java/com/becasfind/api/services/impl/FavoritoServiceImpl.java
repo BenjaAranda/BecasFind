@@ -75,6 +75,7 @@ public class FavoritoServiceImpl implements FavoritoService {
                 .map(fav -> {
                     Beca b = fav.getBeca();
                     return BecaDTO.builder()
+                            .estadoActiva(b.getEstadoActiva())
                             .idBeca(b.getIdBeca())
                             .nombre(b.getNombre())
                             .descripcionCorta(b.getDescripcionCorta())

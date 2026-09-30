@@ -2,8 +2,8 @@ import api from './api';
 import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
 
 export const adminService = {
-  getBecas(page: number = 0, size: number = 20) {
-    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas', { params: { page, size } });
+  getBecas(page: number = 0, size: number = 20, query?: string) {
+    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/administracion', { params: { page, size, query } });
   },
 
   getBeca(id: number) {

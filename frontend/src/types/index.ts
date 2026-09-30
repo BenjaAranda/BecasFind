@@ -70,6 +70,7 @@ export interface DocumentoRequerido {
 }
 
 export interface BecaSummary {
+  estadoActiva: boolean;
   idBeca: number;
   nombre: string;
   descripcionCorta: string;

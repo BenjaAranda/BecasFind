@@ -32,4 +32,6 @@ public class BecaDTO {
     private String nombreTipoBeca;
 
     private String nombreRegion;
+
+    private Boolean estadoActiva;
 }

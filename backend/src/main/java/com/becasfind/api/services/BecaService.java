@@ -14,6 +14,8 @@ public interface BecaService {
 
     Page<BecaDTO> recomendarBecas(String email, Pageable pageable);
 
+    Page<BecaDTO> listarAdministracion(String query, Pageable pageable);
+
     BecaDetailDTO findById(Long id);
 
     BecaDTO create(Long userId, BecaRequest request);

@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { adminService } from '../../services/adminService';
-import { becaService } from '../../services/becaService';
 import type { BecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
 import { Plus, Edit, Trash2, ExternalLink, Upload, X, Search as SearchIcon } from 'lucide-react';
@@ -24,11 +23,7 @@ export default function AdminBecasPage() {
   const fetchBecas = useCallback(async (p: number) => {
     setLoading(true);
     try {
-      const { data } = await becaService.search({
-        query: searchText || undefined,
-        page: p,
-        size: 50,
-      });
+      const { data } = await adminService.getBecas(p, 50, searchText || undefined);
       setBecas(data.data.content);
       setTotalPages(data.data.totalPages);
       setPage(data.data.number);
@@ -40,6 +35,9 @@ export default function AdminBecasPage() {
   useEffect(() => { fetchBecas(0); }, []);
 
   const displayed = becas;
+  const todayInChile = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Santiago', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date());
 
   const handleEdit = async (id: number) => {
     try {
@@ -148,8 +146,8 @@ export default function AdminBecasPage() {
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{beca.nombreInstitucion}</td>
                   <td className="px-4 py-3 text-gray-600 hidden lg:table-cell">{formatDate(beca.fechaCierrePostulacion)}</td>
                   <td className="px-4 py-3">
-                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${new Date(beca.fechaCierrePostulacion) > new Date() ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-                      {new Date(beca.fechaCierrePostulacion) > new Date() ? 'Activa' : 'Expirada'}
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${beca.estadoActiva && beca.fechaCierrePostulacion >= todayInChile ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                      {!beca.estadoActiva ? 'Inactiva' : beca.fechaCierrePostulacion >= todayInChile ? 'Vigente' : 'Vencida'}
                     </span>
                   </td>
                   <td className="px-4 py-3">

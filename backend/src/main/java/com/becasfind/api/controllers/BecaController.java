@@ -18,6 +18,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -63,6 +64,23 @@ public class BecaController {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
         Page<BecaDTO> becas = becaService.recomendarBecas(principal.getName(), pageable);
         return ResponseEntity.ok(ApiResponse.success(becas, "Becas recomendadas para tu perfil"));
+    }
+
+    @GetMapping("/administracion")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<ApiResponse<Page<BecaDTO>>> listarAdministracion(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "20") int size,
+            @RequestParam(required = false) String query) {
+        var becas = becaService.listarAdministracion(query, PageRequest.of(page, size));
+        return ResponseEntity.ok(ApiResponse.success(becas, "Listado administrativo de becas"));
+    }
+
+    @ExceptionHandler({org.springframework.web.method.annotation.MethodArgumentTypeMismatchException.class,
+            org.springframework.http.converter.HttpMessageNotReadableException.class})
+    public ResponseEntity<ApiResponse<Void>> invalidRequest() {
+        return ResponseEntity.badRequest().body(ApiResponse.error(400,
+                "La solicitud contiene valores o un formato no válidos"));
     }
 
     @GetMapping("/{id}")
