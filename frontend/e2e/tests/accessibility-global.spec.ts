@@ -13,7 +13,7 @@ for (const width of [360,390,768,1440,720]) {
     await page.route('**/api/**', route => {
       const path = new URL(route.request().url()).pathname;
       let data: unknown = [];
-      if (path.endsWith('/buscar') || path.endsWith('/administracion')) data={content:[path.endsWith('/administracion') ? {...summary,idBeca:1,version:0}:summary],totalElements:1,totalPages:1,number:0};
+      if (path.endsWith('/buscar') || path.endsWith('/administracion')) data={content:[path.endsWith('/administracion') ? {...summary,idBeca:1,publicId:id,version:0}:summary],totalElements:1,totalPages:1,number:0};
       else if (path.endsWith('/becas/'+id)) data={...summary,institucion:{nombre:summary.nombreInstitucion},tipoBeca:{nombre:'Arancel'},regiones:[],documentosRequeridos:[],requisitoPerfil:null,urlOficial:'https://example.com/becas'};
       else if (path.endsWith('/favoritos')) data=[summary];
       else if (path.endsWith('/perfil')) data=null;
@@ -40,6 +40,7 @@ for (const width of [360,390,768,1440,720]) {
       });
       expect(problems, path).toEqual({overflow:false,unnamed:[],main:1});
       expect(await contrastFailures(page),path).toEqual([]);
+      if(path==='/admin/becas') await expect(page.getByRole('link',{name:'Ver detalle de Beca de educación'})).toHaveAttribute('href','/becas/'+id);
       await page.screenshot({path:test.info().outputPath(`route-${path.split('#')[0].replaceAll('/','_')}-${width}.png`),fullPage:true});
       await page.keyboard.press('Tab');
       expect(await page.evaluate(()=>document.activeElement!==document.body),path).toBe(true);

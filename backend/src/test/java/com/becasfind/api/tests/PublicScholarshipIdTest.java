@@ -31,6 +31,9 @@ class PublicScholarshipIdTest extends BaseTest {
         var admin = get("/api/becas/administracion/1", adminToken(), Map.class);
         assertEquals(200, admin.getStatusCode().value());
         assertEquals(1, ((Map<?, ?>) admin.getBody().get("data")).get("idBeca"));
+        var listing = get("/api/becas/administracion?query=Nuevo%20Milenio", adminToken(), Map.class);
+        var row = (Map<?, ?>)((List<?>)((Map<?, ?>)listing.getBody().get("data")).get("content")).get(0);
+        assertEquals(publicScholarshipId(1), row.get("publicId"));
         assertEquals(404, get("/api/becas/" + UUID.randomUUID(), null, Map.class).getStatusCode().value());
     }
 

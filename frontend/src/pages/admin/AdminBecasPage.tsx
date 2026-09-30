@@ -189,7 +189,7 @@ export default function AdminBecasPage() {
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-1">
-                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
+                      <a href={`/becas/${beca.publicId}`} aria-label={`Ver detalle de ${beca.nombre}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <ExternalLink className="w-4 h-4" />
                       </a>
                       <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-600 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">

@@ -161,5 +161,5 @@ export interface ImportResult {
   mensajesError: string[];
 }
 
-export interface AdminBecaSummary extends Omit<BecaSummary, "idBeca"> { idBeca: number; version?: number }
+export interface AdminBecaSummary extends Omit<BecaSummary, "idBeca"> { idBeca: number; publicId: string; version?: number }
 export interface AdminBecaDetail extends Omit<BecaDetail, "idBeca"> { idBeca: number; version?: number }
