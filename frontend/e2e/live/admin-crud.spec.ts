@@ -4,8 +4,11 @@ async function login(page: Page, email: string) {
   await page.goto('/login');
   await page.getByLabel('Correo electrónico').fill(email);
   await page.getByLabel('Contraseña', { exact: true }).fill('admin123');
+  const favorites = page.waitForResponse(response => response.url().endsWith('/api/favoritos') && response.status() === 200);
   await page.getByRole('button', { name: 'Ingresar', exact: true }).click();
   await expect(page).not.toHaveURL(/\/login$/);
+  await favorites;
+  await expect(page.getByRole('region', { name: 'Resultados de búsqueda' })).toHaveAttribute('aria-busy', 'false');
   const token = await page.evaluate(() => localStorage.getItem('token'));
   expect(token).toBeTruthy();
   return { Authorization: `Bearer ${token}` };

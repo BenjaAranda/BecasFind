@@ -288,3 +288,12 @@ Registro/login/reset alinean longitud y validación UTF-8; errores de campo del 
 34 casos Chromium con API controlada aprobados (public-auth-validation, password-recovery, navigation-auth-design y auth-session); nueve son nuevos. Capturas de recuperación a 390/1280 px inspeccionadas. Lint/build y Maven compile aprobados. El mock de catálogos se corrigió para devolver listas; la prueba de registro exige destino visible sin errores de página.
 
 verify-profile-browser.ps1 ejecuta ahora siete casos reales, incluido public-auth.spec.ts: registro/login y acceso con JWT real usando nombre español y contraseña de 72 bytes UTF-8. Siete aprobados con backend prod/PostgreSQL temporal. Se usó BackendJarPath del empaquetado aislado anterior. Backend sin cambios: no se repitieron suites completas H2/DTO PostgreSQL. No verifica bandeja de correo ni despliegue.
+
+
+### Pruebas de búsqueda — 30 de septiembre de 2026
+
+search-ux.spec.ts ahora es reproducible con API controlada y verifica CP-18/63/66 mediante resultados/payloads concretos, reinicio y reloj Playwright (cero solicitudes a 399 ms; una a 400 ms). Junto a search-state/search-design: 20 casos aprobados.
+
+verify-profile-browser.ps1 ejecuta ocho casos reales. search.spec.ts comprueba filtros combinados/orden, límites RSH/NEM y texto sin coincidencias con API y tarjetas reales. El helper de login espera las cargas iniciales antes de modificar tokens y public-auth reutiliza la respuesta del login UI, evitando un intento redundante; rate limit sigue activo y sin cambios.
+
+Ocho recorridos reales, lint/build y Maven compile aprobados. Código de producción sin cambios; no se repitieron suites backend completas. Empaquetado aislado anterior usado con BackendJarPath, servicios temporales detenidos y base local intacta. Fixtures de 2026 no representan fuentes oficiales ni deben usarse fuera de su período sin revisión. Sin despliegue/correo real.

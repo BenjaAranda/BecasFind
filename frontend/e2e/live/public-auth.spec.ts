@@ -24,13 +24,14 @@ test('registro y login reales conservan tildes y aceptan contraseña UTF-8 en el
   await page.goto('/login');
   await page.getByLabel('Correo electrónico').fill('public-browser@example.com');
   await page.getByLabel('Contraseña', { exact: true }).fill('ñ'.repeat(36));
+  const loginResponse = page.waitForResponse(response => response.url().endsWith('/api/auth/login'));
   await page.getByRole('button', { name: 'Ingresar', exact: true }).click();
+  const usersLogin = await loginResponse;
+  expect(usersLogin.status()).toBe(200);
+  expect((await usersLogin.json()).data.nombreCompleto).toBe('María de Ñuble');
   await expect(page).toHaveURL(/\/explorar$/);
   const token = await page.evaluate(() => localStorage.getItem('token'));
   expect(token).toBeTruthy();
   const profile = await page.request.get(`${api}/api/perfil`, { headers: { Authorization: `Bearer ${token}` } });
   expect(profile.status()).toBe(200);
-  const usersLogin = await page.request.post(`${api}/api/auth/login`, { data: { email: 'public-browser@example.com', password: 'ñ'.repeat(36) } });
-  expect(usersLogin.status()).toBe(200);
-  expect((await usersLogin.json()).data.nombreCompleto).toBe('María de Ñuble');
 });
