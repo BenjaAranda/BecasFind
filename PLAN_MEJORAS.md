@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, tras cerrar las pruebas antiguas de login en FASE 8. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, tras completar FASES 1/2/5 de cobertura estructurada. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -8,7 +8,7 @@ Objetivo: publicar una aplicación segura, comprensible y verificable, mantenien
 
 Esta lista es el estado actual. Las propuestas y secciones de avance posteriores conservan el historial; sus frases «Siguiente fase» corresponden al momento de cada avance. Una casilla completada cierra ese alcance concreto, no todas las tareas de una fase o paquete.
 
-**Próxima tarea:** FASE 1, preparar el esquema y la migración del modelo monetario acordado: conservar texto original y añadir importe, moneda y periodicidad cuando la fuente los indique. Después, FASE 2 (entidades/DTOs) y FASE 5 (servicios/ordenamiento), por separado. Porcentajes y beneficios sin importe deben diferenciarse sin convertirlos a pesos; precisión NEM sin cambios por ahora.
+**Próxima tarea:** FASE 10, controles administrativos para editar cobertura estructurada; después FASE 9, explicar el orden por moneda/periodicidad en el buscador. El corpus histórico conserva texto y metadatos desconocidos hasta verificar fuentes en FASE 14.
 
 ### Hecho y verificado
 
@@ -40,9 +40,13 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 - [x] Reescribir login-flow.spec.ts: campos vacíos/correo inválido sin solicitudes, payload exacto, identidad/destino visibles, sesión restaurada y rechazo recuperable. Verificar además token/identidad tras recarga con login y PostgreSQL reales.
 
+- [x] FASE 1: DDL/migración aditiva y repetible de cobertura; texto histórico intacto, restricciones PostgreSQL y prueba de migración sin inferencia.
+- [x] FASE 2: entidad/DTOs/tipos TypeScript con cobertura monetaria, porcentual, no monetaria o desconocida; límites y decimales JSON sin pérdida de precisión.
+- [x] FASE 5: persistencia/lectura en CRUD, detalle, búsqueda y favoritos; orden numérico por moneda/periodicidad, desconocidos al final y desempate estable. Compatibilidad de clientes antiguos y vaciado explícito verificados.
+
 ### Pendiente, en orden de trabajo
 
-1. [ ] **FASES 1/2/5, por separado — modelo y montos.** Modelo autorizado: texto original más importe, moneda y periodicidad conocidos. Diferenciar porcentajes y beneficios no monetarios; preparar migración sin inferir importes desconocidos. montoCobertura sigue siendo String y montoAsc/montoDesc ordenan texto. Revisar precisión NEM (DDL NUMERIC(3,1)) solo si se acuerda ampliarla; verificar migración, ordenamiento y casos límite.
+1. [ ] **FASES 10/9/14, por separado — interfaz y datos monetarios.** Esquema, DTOs y servicios cerrados. Añadir controles administrativos de tipo/importe/moneda/periodicidad/porcentaje y explicar el orden por grupos en el buscador. Enriquecer registros históricos solo desde fuentes verificadas; CSV conserva texto y aún no acepta metadatos estructurados. No inferir moneda por el símbolo $. Unidades indexadas como UF requieren definición específica.
 2. [ ] **Contrato e identificadores públicos.** Definir identificadores públicos coherentes para búsqueda, detalle y favoritos antes de cambiar DTOs/enlaces; el contrato prohíbe exponer IDs internos, utilizados actualmente. Respuestas de validación/autenticación y revocación de sesiones están cerradas en sus alcances. CORS conserva su tratamiento independiente.
 3. [ ] **FASE 14 — calidad histórica de datos.** Auditar CSV, tildes, enlaces profundos, requisitos/documentos y fechas contra fuentes oficiales. Acordar cómo representar datos desconocidos antes de modificar la inferencia y el cierre contractual por defecto 2026-12-31. Las importaciones con fixtures no validan el corpus histórico.
 4. [ ] **FASES 5/10/14, por separado — concurrencia y rendimiento de escrituras.** Medir importaciones/catálogos simultáneos, CRUD administrativo concurrente y batch INSERT efectivo. La atomicidad CSV y los bloqueos de perfil/favoritos ya verificados no cierran estos casos. Administración y su edición/diseño están completados en el alcance registrado.
@@ -54,15 +58,16 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Dependencias para cerrar pendientes
 
-- **Trabajo autónomo inmediato:** esquema monetario acordado, contraste de requisitos, auditoría de datos sin inventarlos y verificaciones de accesibilidad/rendimiento.
-- **Decisiones de producto/contrato:** detalles de comparación de importes con distintas monedas/periodicidades, precisión NEM si cambia, identificadores públicos y tratamiento de requisitos/fechas desconocidos. Preparar propuesta concreta antes de cambiar esquema o reglas contractuales.
+- **Trabajo autónomo inmediato:** controles monetarios administrativos y explicación del orden, contraste de requisitos, auditoría de datos sin inventarlos y verificaciones de accesibilidad/rendimiento.
+- **Decisiones de producto/contrato:** unidades indexadas y posibles conversiones futuras, precisión NEM si cambia, identificadores públicos y tratamiento de requisitos/fechas desconocidos. Preparar propuesta concreta antes de cambiar esquema o reglas contractuales.
 - **Configuración externa:** clave/remitente de correo y recursos de Oracle/Vercel. Confirmar el acceso y configuración efectiva antes de declarar correo o despliegue operativos.
 
 ### Evidencia y límites actuales
 
-- Última suite completa backend: **153 pruebas H2 aprobadas**, empaquetado correcto en directorio temporal aislado. Última verificación PostgreSQL 17: **7 pruebas de validación pública aprobadas** con DDL real y validación de esquema. Las 18 pruebas de seguridad, ocho de contrato HTTP, 11 de perfil/integridad/consulta administrativa y doce casos CSV PostgreSQL corresponden a verificaciones anteriores.
-- Última fase de navegador: **38 casos de autenticación aprobados con API controlada**, incluidos los cuatro casos antiguos de login reescritos. Los 20 casos de búsqueda de la fase anterior conservan su alcance; no sumar etapas como casos únicos.
-- Último cierre: **8 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, incluido login con token e identidad persistentes tras recarga. Lint/build frontend y Maven compile aprobados. Código de producción sin cambios en FASE 8; suites completas backend no repetidas. Evidencia temporal: becasfind-browser-pg-17566e6b713440f0a2362bd813129a0f.
+- Última suite completa backend: **160 pruebas H2 aprobadas**, package y compile aprobados. **19 pruebas PostgreSQL 17 aprobadas** (siete MonetaryCoverageTest y doce CsvImportIntegrityTest), DDL real/Hibernate validate y comprobación SQL de migración repetida con preservación de texto/tildes/metadatos y restricciones.
+- Última fase: **8 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, lint/build frontend aprobados. Se usó un empaquetado aislado actualizado; servicios temporales detenidos y base local intacta. Estas regresiones no equivalen a controles visuales monetarios nuevos, todavía pendientes.
+- Última suite controlada de autenticación: 38 casos aprobados en FASE 8; no repetidos ni sumados como casos nuevos. Evidencia monetaria PostgreSQL: becasfind-profile-pg-ab30422a0d5245adac772f9927c8cb88; navegador: becasfind-browser-pg-33f0213dc6af4baca9f1d08fa1efdd9a.
+- Guía de modelo, aplicación de migración y compatibilidad en infra/COBERTURA_MONETARIA.md. No se aplicó la migración a la base local ni se desplegó.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
 ## Punto de partida y límites

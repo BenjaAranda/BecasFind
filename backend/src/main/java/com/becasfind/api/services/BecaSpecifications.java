@@ -110,4 +110,19 @@ public final class BecaSpecifications {
             root.get("institucion").get("tipoInstitucion").get("idTipoInst"), idTipoInstitucion);
     }
 
+    /** Monetary values compare only inside currency/period groups; unknown amounts remain last. */
+    public static Specification<Beca> orderByCoverage(boolean descending) {
+        return (root, query, cb) -> {
+            if (query.getResultType() != Long.class && query.getResultType() != long.class) {
+                var amount = root.<BigDecimal>get("coberturaImporte");
+                var known = cb.and(cb.equal(root.get("coberturaTipo"), "MONETARIA"), cb.isNotNull(amount));
+                var unknownRank = cb.<Integer>selectCase().when(known, 0).otherwise(1);
+                var currency = cb.<String>selectCase().when(known, root.<String>get("coberturaMoneda")).otherwise("");
+                var period = cb.<String>selectCase().when(known, cb.coalesce(root.<String>get("coberturaPeriodicidad"), "DESCONOCIDA")).otherwise("");
+                query.orderBy(cb.asc(unknownRank), cb.asc(currency), cb.asc(period),
+                        descending ? cb.desc(amount) : cb.asc(amount), cb.asc(root.get("idBeca")));
+            }
+            return cb.conjunction();
+        };
+    }
 }

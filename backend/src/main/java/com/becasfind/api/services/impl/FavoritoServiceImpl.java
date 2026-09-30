@@ -91,12 +91,19 @@ public class FavoritoServiceImpl implements FavoritoService {
                 .stream()
                 .map(fav -> {
                     Beca b = fav.getBeca();
+                    var coverage = new com.becasfind.api.models.dtos.CoberturaDTO();
+                    coverage.setTipo(b.getCoberturaTipo());
+                    coverage.setImporte(b.getCoberturaImporte());
+                    coverage.setMoneda(b.getCoberturaMoneda());
+                    coverage.setPeriodicidad(b.getCoberturaPeriodicidad());
+                    coverage.setPorcentaje(b.getCoberturaPorcentaje());
                     return BecaDTO.builder()
                             .estadoActiva(b.getEstadoActiva())
                             .idBeca(b.getIdBeca())
                             .nombre(b.getNombre())
                             .descripcionCorta(b.getDescripcionCorta())
                             .montoCobertura(b.getMontoCobertura())
+                            .cobertura(coverage)
                             .fechaCierrePostulacion(b.getFechaCierrePostulacion())
                             .urlOficial(b.getUrlOficial())
                             .nombreInstitucion(b.getInstitucion() != null ? b.getInstitucion().getNombre() : null)

@@ -1,6 +1,7 @@
 package com.becasfind.api.services.impl;
 
 import com.becasfind.api.models.dtos.BecaDTO;
+import com.becasfind.api.models.dtos.CoberturaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
 import com.becasfind.api.models.dtos.DocumentoRequeridoDTO;
@@ -53,6 +54,7 @@ public class BecaServiceImpl implements BecaService {
     private final UsuarioRepository usuarioRepository;
     private final DocumentoRequeridoRepository documentoRequeridoRepository;
     private final PerfilEstudianteRepository perfilEstudianteRepository;
+    private final jakarta.validation.Validator validator;
 
     public BecaServiceImpl(BecaRepository becaRepository,
                            InstitucionRepository institucionRepository,
@@ -60,7 +62,8 @@ public class BecaServiceImpl implements BecaService {
                            RegionRepository regionRepository,
                            UsuarioRepository usuarioRepository,
                            DocumentoRequeridoRepository documentoRequeridoRepository,
-                           PerfilEstudianteRepository perfilEstudianteRepository) {
+                           PerfilEstudianteRepository perfilEstudianteRepository,
+                           jakarta.validation.Validator validator) {
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
@@ -68,6 +71,7 @@ public class BecaServiceImpl implements BecaService {
         this.usuarioRepository = usuarioRepository;
         this.documentoRequeridoRepository = documentoRequeridoRepository;
         this.perfilEstudianteRepository = perfilEstudianteRepository;
+        this.validator = validator;
     }
 
     @Override
@@ -86,7 +90,10 @@ public class BecaServiceImpl implements BecaService {
                 .and(BecaSpecifications.hasInstitucion(idInstitucion))
                 .and(BecaSpecifications.hasTipoInstitucion(idTipoInstitucion));
 
-        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(), parseSort(sort));
+        boolean monetary = "montoAsc".equals(sort) || "montoDesc".equals(sort);
+        Pageable sorted = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(),
+                monetary ? Sort.unsorted() : parseSort(sort));
+        if (monetary) spec = spec.and(BecaSpecifications.orderByCoverage("montoDesc".equals(sort)));
         return becaRepository.findAll(spec, sorted).map(this::toBecaDTO);
     }
 
@@ -94,8 +101,6 @@ public class BecaServiceImpl implements BecaService {
         Sort primary = switch (sort == null || sort.isBlank() ? "fechaAsc" : sort) {
             case "fechaAsc"  -> Sort.by("fechaCierrePostulacion").ascending();
             case "fechaDesc" -> Sort.by("fechaCierrePostulacion").descending();
-            case "montoAsc"  -> Sort.by("montoCobertura").ascending();
-            case "montoDesc" -> Sort.by("montoCobertura").descending();
             default          -> throw new IllegalArgumentException("Orden de búsqueda no válido");
         };
         return primary.and(Sort.by("idBeca").ascending());
@@ -159,6 +164,7 @@ public class BecaServiceImpl implements BecaService {
     @Override
     @Transactional
     public BecaDTO create(Long userId, BecaRequest request) {
+        validateCoverage(request.getCobertura());
         Usuario usuarioCreador = usuarioRepository.findById(userId)
                 .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado con ID: " + userId));
 
@@ -173,6 +179,7 @@ public class BecaServiceImpl implements BecaService {
         beca.setDescripcionCorta(request.getDescripcionCorta());
         beca.setDescripcionLarga(request.getDescripcionLarga());
         beca.setMontoCobertura(request.getMontoCobertura());
+        applyCoverage(beca, request.getCobertura());
         beca.setFechaInicioPostulacion(request.getFechaInicioPostulacion());
         beca.setFechaCierrePostulacion(request.getFechaCierrePostulacion());
         beca.setUrlOficial(request.getUrlOficial());
@@ -214,6 +221,7 @@ public class BecaServiceImpl implements BecaService {
     @Override
     @Transactional
     public BecaDTO update(Long id, BecaRequest request) {
+        validateCoverage(request.getCobertura());
         Beca beca = becaRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada con ID: " + id));
 
@@ -227,6 +235,7 @@ public class BecaServiceImpl implements BecaService {
         beca.setDescripcionCorta(request.getDescripcionCorta());
         beca.setDescripcionLarga(request.getDescripcionLarga());
         beca.setMontoCobertura(request.getMontoCobertura());
+        applyCoverage(beca, request.getCobertura());
         beca.setFechaInicioPostulacion(request.getFechaInicioPostulacion());
         beca.setFechaCierrePostulacion(request.getFechaCierrePostulacion());
         beca.setUrlOficial(request.getUrlOficial());
@@ -283,6 +292,31 @@ public class BecaServiceImpl implements BecaService {
         log.info("Beca eliminada: {} (ID: {})", beca.getNombre(), id);
     }
 
+    private void applyCoverage(Beca beca, CoberturaDTO coverage) {
+        if (coverage == null) return;
+        beca.setCoberturaTipo(coverage.getTipo());
+        beca.setCoberturaImporte(coverage.getImporte());
+        beca.setCoberturaMoneda(coverage.getMoneda());
+        beca.setCoberturaPeriodicidad(coverage.getPeriodicidad());
+        beca.setCoberturaPorcentaje(coverage.getPorcentaje());
+    }
+
+    private void validateCoverage(CoberturaDTO coverage) {
+        if (coverage != null && !validator.validate(coverage).isEmpty()) {
+            throw new IllegalArgumentException("La cobertura estructurada no es válida");
+        }
+    }
+
+    private CoberturaDTO toCoverage(Beca beca) {
+        CoberturaDTO coverage = new CoberturaDTO();
+        coverage.setTipo(beca.getCoberturaTipo());
+        coverage.setImporte(beca.getCoberturaImporte());
+        coverage.setMoneda(beca.getCoberturaMoneda());
+        coverage.setPeriodicidad(beca.getCoberturaPeriodicidad());
+        coverage.setPorcentaje(beca.getCoberturaPorcentaje());
+        return coverage;
+    }
+
     private List<Region> resolveRegiones(List<Long> ids) {
         List<Region> regiones = regionRepository.findAllById(ids);
         if (regiones.size() != new java.util.HashSet<>(ids).size()) {
@@ -298,6 +332,7 @@ public class BecaServiceImpl implements BecaService {
                 .estadoActiva(beca.getEstadoActiva())
                 .descripcionCorta(beca.getDescripcionCorta())
                 .montoCobertura(beca.getMontoCobertura())
+                .cobertura(toCoverage(beca))
                 .fechaCierrePostulacion(beca.getFechaCierrePostulacion())
                 .urlOficial(beca.getUrlOficial())
                 .nombreInstitucion(beca.getInstitucion() != null ? beca.getInstitucion().getNombre() : null)
@@ -376,6 +411,7 @@ public class BecaServiceImpl implements BecaService {
                 .descripcionCorta(beca.getDescripcionCorta())
                 .descripcionLarga(beca.getDescripcionLarga())
                 .montoCobertura(beca.getMontoCobertura())
+                .cobertura(toCoverage(beca))
                 .fechaInicioPostulacion(beca.getFechaInicioPostulacion())
                 .fechaCierrePostulacion(beca.getFechaCierrePostulacion())
                 .urlOficial(beca.getUrlOficial())

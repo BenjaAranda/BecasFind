@@ -305,3 +305,9 @@ login-flow.spec.ts verifica CP-01/04/05/67 con API controlada: validación nativ
 38 casos de autenticación controlada y ocho recorridos Chromium con backend prod/PostgreSQL reales aprobados. public-auth.spec.ts compara el token almacenado con la respuesta real y verifica identidad/sesión tras recarga y acceso protegido. No añade intentos de login ni altera límites. Lint/build y Maven compile aprobados; backend sin cambios y suites completas backend no repetidas. Servicios temporales detenidos. Sin despliegue ni correo real.
 
 Modelo monetario autorizado para las próximas FASES 1/2/5, por separado: texto original más importe, moneda y periodicidad conocidos; porcentajes/beneficios sin importe diferenciados sin conversiones inventadas. El esquema aún no se ha modificado.
+
+### Cobertura estructurada — 30 de septiembre de 2026
+
+FASES 1/2/5 completadas juntas por petición explícita. Modelo/migración/compatibilidad y procedimiento de despliegue en [COBERTURA_MONETARIA.md](COBERTURA_MONETARIA.md). montoCobertura sigue conservando el texto; la API añade cobertura validada y ordena importes numéricos dentro de grupos de moneda/periodicidad. Lo desconocido permanece al final; no hay inferencia ni conversión de importes históricos.
+
+160 pruebas H2, siete MonetaryCoverageTest y doce CsvImportIntegrityTest en PostgreSQL 17, comprobación SQL de migración repetida y ocho recorridos Chromium reales aprobados. Package/compile/lint/build aprobados. Los decimales JSON se devuelven como cadenas, incluido el límite 9999999999999999.99 verificado por HTTP y lectura posterior. Se utilizó un empaquetado nuevo en TEMP y se detuvieron servicios aislados; la base local no se modificó. Pendientes controles de edición/explicación visual y enriquecimiento histórico. No hay despliegue ni entrega real de correo.
