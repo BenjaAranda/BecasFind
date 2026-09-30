@@ -34,6 +34,9 @@ export default function SearchPage() {
   const [requestVersion, setRequestVersion] = useState(0);
   const urgent = useRef(true);
   const [favIds, setFavIds] = useState<Set<number>>(new Set());
+  const pendingFavoriteIds = useRef(new Set<number>());
+  const [pendingFavorites, setPendingFavorites] = useState<Set<number>>(new Set());
+  const [favoriteError, setFavoriteError] = useState('');
 
   useEffect(() => {
     const params = new URLSearchParams(paramsKey);
@@ -100,6 +103,10 @@ export default function SearchPage() {
   };
 
   const handleToggleFavorito = async (idBeca: number) => {
+    if (pendingFavoriteIds.current.has(idBeca)) return;
+    pendingFavoriteIds.current.add(idBeca);
+    setPendingFavorites(new Set(pendingFavoriteIds.current));
+    setFavoriteError('');
     const wasFav = favIds.has(idBeca);
     setFavIds(prev => {
       const n = new Set(prev);
@@ -110,19 +117,28 @@ export default function SearchPage() {
       if (wasFav) await favoritoService.eliminar(idBeca);
       else await favoritoService.guardar(idBeca);
     } catch {
+      setFavoriteError('No pudimos actualizar tus favoritos. Inténtalo nuevamente.');
       setFavIds(prev => {
         const n = new Set(prev);
         if (wasFav) n.add(idBeca); else n.delete(idBeca);
         return n;
       });
+    } finally {
+      pendingFavoriteIds.current.delete(idBeca);
+      setPendingFavorites(new Set(pendingFavoriteIds.current));
     }
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#f5f3ed]">
       <PublicNavbar />
 
-      <main className="max-w-7xl mx-auto px-4 py-6 flex flex-col lg:flex-row gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-8 border-b border-[#dce3df]">
+        <p className="text-xs uppercase tracking-[0.2em] text-[#46717a] mb-3">Oportunidades para estudiar</p>
+        <h1 className="font-serif text-4xl sm:text-5xl text-[#123f48] leading-tight">Tu próximo paso empieza aquí.</h1>
+        <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">Explora becas y beneficios. Compara sus requisitos y consulta la convocatoria oficial antes de postular.</p>
+      </div>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex flex-col lg:flex-row gap-8">
         <aside className="lg:w-72 shrink-0">
           {tab === 'buscar' ? (
             <>
@@ -135,9 +151,9 @@ export default function SearchPage() {
                 onSearch={handleSearch}
                 onReset={handleReset}
               />
-              <div className="mt-4 p-4 bg-blue-50 rounded-xl border border-blue-100">
-                <p className="text-xs text-blue-700 font-medium mb-1">¿Cómo funciona?</p>
-                <ul className="text-xs text-blue-600 space-y-1">
+              <div className="mt-4 p-4 bg-[#e7eeea] rounded-sm border border-[#c5d5d0]">
+                <p className="text-xs text-[#123f48] font-medium mb-1">¿Cómo funciona?</p>
+                <ul className="text-xs text-[#123f48] space-y-1">
                   <li>• RSH: ingresas tu %, ves becas que acepten ≥ ese valor</li>
                   <li>• NEM: ingresas tu promedio, ves becas con mínimo ≤ tu nota</li>
                   <li>• Región: filtra becas locales o de alcance nacional</li>
@@ -146,17 +162,17 @@ export default function SearchPage() {
               </div>
             </>
           ) : (
-            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
+            <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-5">
               <div className="flex items-center gap-2 mb-3">
                 <Sparkles className="w-5 h-5 text-amber-500" />
-                <h3 className="font-semibold text-gray-800">Recomendadas para ti</h3>
+                <h3 className="font-semibold text-[#123f48]">Recomendadas para ti</h3>
               </div>
-              <p className="text-sm text-gray-500 mb-4">
+              <p className="text-sm text-slate-600 mb-4">
                 Basadas en tu RSH, NEM y región guardados. Revisa los requisitos oficiales: una recomendación no garantiza que puedas postular.
               </p>
               <button
                 onClick={() => navigate('/perfil')}
-                className="w-full py-2 text-sm bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 cursor-pointer"
+                className="w-full py-2 text-sm bg-amber-50 text-amber-700 rounded-sm hover:bg-amber-100 cursor-pointer"
               >
                 Configurar mi perfil
               </button>
@@ -164,18 +180,18 @@ export default function SearchPage() {
           )}
         </aside>
 
-        <section className="flex-1 min-w-0">
-          <div className="flex items-center gap-1 mb-4 bg-white rounded-lg p-1 border border-gray-200">
+        <section aria-label="Resultados de búsqueda" aria-busy={loading} className="flex-1 min-w-0">
+          <div className="flex items-center gap-1 mb-6 bg-white rounded-sm p-1 border border-[#dce3df]">
             <button
-              onClick={() => updateParam('mode', '', true)}
-              className={`flex-1 py-2 px-3 text-sm rounded-md transition cursor-pointer ${tab === 'buscar' ? 'bg-blue-600 text-white font-medium' : 'text-gray-600 hover:bg-gray-100'}`}
+              aria-pressed={tab === 'buscar'} onClick={() => updateParam('mode', '', true)}
+              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'buscar' ? 'bg-[#123f48] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
             >
               <Search className="w-4 h-4 inline mr-1" />
               Buscador
             </button>
             <button
-              onClick={() => updateParam('mode', 'recomendar', true)}
-              className={`flex-1 py-2 px-3 text-sm rounded-md transition cursor-pointer ${tab === 'recomendar' ? 'bg-blue-600 text-white font-medium' : 'text-gray-600 hover:bg-gray-100'}`}
+              aria-pressed={tab === 'recomendar'} onClick={() => updateParam('mode', 'recomendar', true)}
+              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'recomendar' ? 'bg-[#123f48] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
             >
               <Sparkles className="w-4 h-4 inline mr-1" />
               Recomendadas
@@ -183,19 +199,24 @@ export default function SearchPage() {
           </div>
 
           <div className="mb-4 flex items-center gap-2">
-            <Search className="w-5 h-5 text-blue-600" />
-            <h2 className="text-lg font-semibold text-gray-800">
+            <Search className="w-5 h-5 text-[#123f48]" />
+            <h2 className="text-xl font-medium text-[#123f48]">
               {totalElements > 0 ? `${totalElements} beca${totalElements !== 1 ? 's' : ''} encontrada${totalElements !== 1 ? 's' : ''}` : 'Encuentra tu beca ideal'}
             </h2>
           </div>
 
-          {error && <div role="alert" className="mb-4 rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">
+          {tab === 'buscar' && (query || rsh || nem) && <div aria-label="Filtros activos" className="flex flex-wrap gap-2 mb-5">
+            {[['q', query, `Texto: ${query}`], ['rsh', rsh, `RSH: ${rsh}%`], ['nem', nem, `NEM: ${nem}`]].filter(([, value]) => value).map(([key, , label]) => <button key={key} onClick={() => updateParam(key, '', true)} aria-label={`Quitar filtro ${label}`} className="min-h-11 max-w-full break-words text-left px-3 py-2 bg-[#e7eeea] border border-[#c5d5d0] text-sm text-[#123f48] focus-visible:outline-2 focus-visible:outline-offset-2">{label} <span aria-hidden="true">×</span></button>)}
+          </div>}
+
+          {error && <div role="alert" className="mb-4 rounded-sm border border-red-200 bg-red-50 p-4 text-red-800">
             <p>{error}</p><button onClick={handleSearch} className="mt-2 underline cursor-pointer">Reintentar</button>
           </div>}
+          {favoriteError && <p role="alert" className="mb-4 border-l-2 border-red-700 bg-red-50 p-4 text-red-800">{favoriteError}</p>}
           {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <div role="status" aria-label="Cargando becas" className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
               {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="bg-white rounded-xl p-5 animate-pulse">
+                <div key={i} className="bg-white rounded-sm p-5 animate-pulse motion-reduce:animate-none">
                   <div className="h-5 bg-gray-200 rounded w-3/4 mb-3" />
                   <div className="h-4 bg-gray-100 rounded w-full mb-2" />
                   <div className="h-4 bg-gray-100 rounded w-2/3 mb-4" />
@@ -208,13 +229,14 @@ export default function SearchPage() {
             </div>
           ) : becas.length > 0 ? (
             <>
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
                 {becas.map((beca) => (
                   <BecaCard
                     key={beca.idBeca}
                     beca={beca}
                     onClick={(id) => navigate(`/becas/${id}`)}
                     isFavorito={favIds.has(beca.idBeca)}
+                    favoritoPending={pendingFavorites.has(beca.idBeca)}
                     onToggleFavorito={handleToggleFavorito}
                   />
                 ))}
@@ -222,7 +244,7 @@ export default function SearchPage() {
               {totalPages > 0 && (
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-3 mt-6">
                   <div className="flex items-center gap-2">
-                    <span className="text-xs text-gray-500">Filas:</span>
+                    <span className="text-xs text-slate-600">Filas:</span>
                     <select value={pageSize} onChange={e => updateParam('size', e.target.value, true)} aria-label="Resultados por página"
                       className="text-xs border rounded px-2 py-1 bg-white">
                       <option value={12}>12</option>
@@ -230,9 +252,9 @@ export default function SearchPage() {
                       <option value={100}>100</option>
                     </select>
                   </div>
-                  <div className="flex items-center gap-1">
+                  <div className="flex items-center gap-1 flex-wrap justify-center">
                     <button disabled={page === 0} aria-label="Página anterior" onClick={() => handlePageChange(page - 1)}
-                      className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#b9cac8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
                     {Array.from({ length: Math.min(totalPages, 8) }, (_, i) => {
                       let p: number;
                       if (totalPages <= 8) { p = i; }
@@ -242,23 +264,23 @@ export default function SearchPage() {
                       return (
                         <button key={p} disabled={p === page}
                           onClick={() => handlePageChange(p)} aria-current={p === page ? 'page' : undefined} aria-label={`Página ${p + 1}`}
-                          className={`w-8 h-8 text-sm rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
+                          className={`min-w-9 min-h-11 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded cursor-pointer ${p === page ? 'bg-[#123f48] text-white font-medium' : 'border border-[#b9cac8] hover:bg-gray-100'}`}>
                           {p + 1}
                         </button>
                       );
                     })}
                     <button disabled={page >= totalPages - 1} aria-label="Página siguiente" onClick={() => handlePageChange(page + 1)}
-                      className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
+                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#b9cac8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
                   </div>
-                  <span className="text-xs text-gray-500">{totalElements} resultados</span>
+                  <span className="text-xs text-slate-600">{totalElements} resultados</span>
                 </div>
               )}
             </>
           ) : (
             <div className="text-center py-12">
               <Search className="w-12 h-12 text-gray-300 mx-auto mb-3" />
-              <p className="text-gray-500 text-lg">{tab === 'recomendar' ? 'No encontramos coincidencias con tu perfil' : 'No se encontraron becas con esos filtros'}</p>
-              <p className="text-gray-400 text-sm mt-1">{tab === 'recomendar' ? 'Completa tu perfil o consulta las becas en el buscador' : 'Intenta ajustar los parámetros de búsqueda'}</p>
+              <p className="text-slate-600 text-lg">{tab === 'recomendar' ? 'No encontramos coincidencias con tu perfil' : 'No se encontraron becas con esos filtros'}</p>
+              <p className="text-slate-500 text-sm mt-1">{tab === 'recomendar' ? 'Completa tu perfil o consulta las becas en el buscador' : 'Intenta ajustar los parámetros de búsqueda'}</p>
             </div>
           )}
         </section>

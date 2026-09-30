@@ -1,5 +1,5 @@
 import { type BecaSummary } from '../../types';
-import { Calendar, Building2, Tag, MapPin, Bookmark, Clock } from 'lucide-react';
+import { Calendar, Building2, Tag, MapPin, Bookmark, Clock, ArrowUpRight } from 'lucide-react';
 import { formatCalendarDate, isClosingDateExpired } from '../../utils/dates';
 
 interface BecaCardProps {
@@ -7,34 +7,37 @@ interface BecaCardProps {
   onClick: (id: number) => void;
   isFavorito?: boolean;
   onToggleFavorito?: (id: number) => void;
+  favoritoPending?: boolean;
 }
 
-export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }: BecaCardProps) {
+export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito, favoritoPending }: BecaCardProps) {
   const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
     <div
       onClick={() => onClick(beca.idBeca)}
-      className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 hover:shadow-md hover:border-blue-200 transition cursor-pointer h-full flex flex-col"
+      className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6 hover:border-[#46717a] transition cursor-pointer h-full flex flex-col"
     >
       <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-medium px-2 py-1 bg-blue-50 text-blue-700 rounded-full shrink-0">
+        <span className="text-xs font-medium px-2 py-1 bg-[#e7eeea] text-[#123f48] rounded-full break-words min-w-0">
           {beca.nombreTipoBeca}
         </span>
         {onToggleFavorito && (
           <button
+            disabled={favoritoPending}
             onClick={(e) => { e.stopPropagation(); e.preventDefault(); onToggleFavorito(beca.idBeca); }}
-            className={`p-1 rounded-full transition cursor-pointer shrink-0 ${isFavorito ? 'text-blue-600 bg-blue-50 hover:bg-blue-100' : 'text-gray-300 hover:text-blue-400 hover:bg-gray-100'}`}
+            className={`min-h-11 min-w-11 flex items-center justify-center rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 transition cursor-pointer shrink-0 ${isFavorito ? 'text-[#123f48] bg-[#e7eeea] hover:bg-blue-100' : 'text-[#46717a] hover:text-[#123f48] hover:bg-[#e7eeea]'}`}
             aria-label={isFavorito ? 'Quitar de favoritos' : 'Guardar en favoritos'}
             aria-pressed={!!isFavorito}
+            aria-busy={favoritoPending}
           >
             <Bookmark className={`w-4 h-4 ${isFavorito ? 'fill-current' : ''}`} />
           </button>
         )}
       </div>
 
-      <h3 className="font-semibold text-gray-800 leading-snug line-clamp-3 mb-2">
-        <button onClick={event => { event.stopPropagation(); onClick(beca.idBeca); }} className="text-left cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2">{beca.nombre}</button>
+      <h3 className="font-serif text-2xl text-[#123f48] leading-tight mb-3 break-words">
+        <button onClick={event => { event.stopPropagation(); onClick(beca.idBeca); }} className="text-left cursor-pointer hover:underline decoration-1 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2">{beca.nombre}</button>
       </h3>
 
       {isExpired && (
@@ -47,32 +50,33 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
       )}
 
       {beca.descripcionCorta && (
-        <p className="text-sm text-gray-500 mb-4 line-clamp-3">{beca.descripcionCorta}</p>
+        <p className="text-sm leading-relaxed text-slate-600 mb-5 line-clamp-3">{beca.descripcionCorta}</p>
       )}
 
-      <div className="space-y-2.5 text-sm text-gray-600 mt-auto">
+      <div className="space-y-3 text-sm text-slate-600 mt-auto pt-5 border-t border-[#dce3df]">
         <div className="flex items-center gap-2">
-          <Building2 className="w-4 h-4 text-gray-400 shrink-0" />
+          <Building2 className="w-4 h-4 text-slate-500 shrink-0" />
           <span className="truncate">{beca.nombreInstitucion}</span>
         </div>
 
         {beca.montoCobertura && (
           <div className="flex items-start gap-2">
-            <Tag className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" />
-            <span className="line-clamp-2">{beca.montoCobertura}</span>
+            <Tag className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
+            <span className="font-semibold text-[#123f48] break-words">{beca.montoCobertura}</span>
           </div>
         )}
 
         <div className="flex items-center gap-2">
-          <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
+          <MapPin className="w-4 h-4 text-slate-500 shrink-0" />
           <span className="truncate">{beca.nombreRegion}</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <Calendar className="w-4 h-4 text-gray-400 shrink-0" />
+          <Calendar className="w-4 h-4 text-slate-500 shrink-0" />
           <span className="truncate">Cierre: {formatCalendarDate(beca.fechaCierrePostulacion)}</span>
         </div>
       </div>
+      <span aria-hidden="true" className="mt-5 flex justify-between items-center text-sm font-medium text-[#123f48]">Conocer esta beca <ArrowUpRight size={18} /></span>
     </div>
   );
 }

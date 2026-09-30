@@ -152,3 +152,9 @@ No representa aún la batería global de navegador con backend/correo reales. La
 ### Verificación de interfaz — FASE 8 (30 de septiembre de 2026)
 
 Acceso/registro y navegación pública/administrativa renovados sin dependencias nuevas. Menús móviles comprobados, controles de contraseña accesibles y retorno administrativo a `/explorar` corregido. Pasaron 47 pruebas Chromium con API controlada, revisión estática global, build frontend y `mvn compile`. Capturas de escritorio/móvil revisadas; esto no confirma correo real ni despliegue. Continúan pendientes la validación integrada con servicios reales y la configuración de producción acordada.
+
+### Exploración y detalle — FASE 9
+
+Buscador, filtros y tarjetas renovados; filtros plegables en móvil y eliminación individual de texto/RSH/NEM. Detalle comparte navegación y ofrece error/reintento, con cancelación de peticiones y vuelta segura al buscador desde un enlace directo. Favoritos fallidos informan y revierten su estado; bloquean escrituras simultáneas por beca. Parser de documentos acepta ítems solo opcionales y separa líneas/marcadores.
+
+Se aprobaron 54 casos Chromium distintos con API controlada durante esta fase; los 19 de buscador/detalle se ejecutaron después del cambio final en favoritos. Desde frontend: `npx playwright test search-design search-state beca-detail --workers=1`. Build, revisión estática y `mvn compile` aprobados; capturas a 390 y 1280 px revisadas. Sin backend ni datos modificados. Correo, integración real y despliegue continúan pendientes.

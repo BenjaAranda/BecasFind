@@ -283,3 +283,16 @@ Siguiente fase propuesta: FASE 8, mejorar navegación y vistas de autenticación
 - Actualizados selectores de pruebas antiguas de acceso/buscador para usar la etiqueta del correo. Estas suites dependientes de backend real siguen pendientes de revisión integrada y no se incluyen en los 47 casos aprobados.
 
 Siguiente fase propuesta: FASE 9, renovar buscador, tarjetas, filtros y detalle. Después cerrar diseño de portada, perfil/modelo monetario, validación CRUD y calidad de datos; correo real y despliegue siguen pendientes. Una fase por instrucción explícita.
+
+## Avance de implementación — FASE 9, exploración y detalle
+
+- Buscador con título editorial y jerarquía clara, fondo cálido/verde petróleo compartido con acceso, tarjetas más amplias con beneficio y cierre destacados. Controles y paginación con foco visible y mayores áreas táctiles. Esqueleto de carga anunciado y compatible con movimiento reducido.
+- Filtros plegables en móvil, visibles en escritorio; conservan valores al cerrar. Chips permiten quitar texto, RSH o NEM individualmente. Se conservan URL, debounce de 400 ms, paginación y descarte de respuestas antiguas.
+- Detalle comparte navegación pública, mejora lectura de requisitos/documentos/fechas y mantiene enlace oficial. Un error ya no redirige silenciosamente: ofrece reintento y vuelta al buscador. Peticiones canceladas al salir y respuestas descartadas; enlace directo vuelve a /explorar. Eliminada captura global de Escape/botones de ratón que interfería con menú y navegación del navegador.
+- Parser de documentos contempla descripciones con solo marcadores opcionales y separa ítems por líneas, marcadores o punto y coma. Sigue dando prioridad a documentos estructurados. No se modifican requisitos ni fuentes existentes.
+- Favoritos en resultados bloquean escrituras simultáneas de la misma beca; un fallo revierte el cambio optimista y anuncia el error. El botón sigue siendo independiente de abrir la tarjeta, con estado accesible.
+- Verificación: 54 casos distintos Chromium aprobados con API controlada durante la fase (primera ejecución de 53; después, 19 de buscador/detalle repetidos con el último cambio, incluido un caso nuevo de favorito fallido). Capturas de buscador/detalle a 390 y 1280 px revisadas; sin desbordamiento en recorridos comprobados. Revisión estática global y build frontend aprobados; mvn compile aprobado, sin cambios backend. Última suite completa backend: 114 pruebas.
+- Sin dependencias nuevas. No equivale a integración con servicios reales. Mantener pendientes la auditoría de datos/fuentes, orden monetario/modelo, perfil, validación CRUD del servidor, optimización CSV, correo real y despliegue.
+- Una ejecución intermedia agotó el tiempo al desplazar la página para cerrar filtros móviles. No se reprodujo en el caso aislado ni en la repetición completa final de los 19 casos (28 segundos); causa no confirmada. No se relajaron aserciones ni se forzaron clics para aprobar.
+
+Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/promesas con el comportamiento real. Mantener una fase por instrucción explícita.

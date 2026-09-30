@@ -19,8 +19,8 @@ export const becaService = {
     });
   },
 
-  findById(id: number) {
-    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`);
+  findById(id: number, signal?: AbortSignal) {
+    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`, { signal });
   },
 };
 
