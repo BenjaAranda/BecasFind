@@ -138,3 +138,13 @@ Prueba reproducible: desde backend, `mvn -Dtest=CsvImportIntegrityTest test`. La
 Batch size 50 y flush cada 50/final no garantizan INSERT en lotes con IDs IDENTITY y consultas intermedias. La optimización real y la revisión del corpus siguen abiertas. El cierre vacío conserva el valor contractual 2026-12-31; confirmar fechas oficiales antes de publicar. Esta fase no importa los CSV históricos sobre la base local ni activa un scraper o despliegue.
 
 Resultados finales: 114 pruebas del backend y empaquetado aprobados; las doce pruebas de integridad CSV también aprobadas sobre PostgreSQL 17 temporal. Cada importación de esa ejecución incluye consulta HEX contra becas/instituciones; los nombres con tildes/ñ coinciden con sus bytes UTF-8. El fallo de carga demasiado grande inicialmente cerraba la conexión; max-swallow-size acotado a 11 MB permite responder 413 en la prueba real. Las bases de prueba son desechables y se detuvieron; los datos de la aplicación no se modificaron.
+
+## Sesión frontend y calidad estática — FASE 7
+
+AuthProvider restaura la sesión al inicializar el estado. useAuth/contexto están en src/context/useAuth.ts; el provider permanece en AuthContext.tsx. Los consumidores utilizan el hook separado. Token, identidad y vencimiento se mantienen juntos; no se restaura identidad desde el caché user. Tokens vencidos, mal formados o sin los campos esperados se descartan antes de abrir rutas protegidas.
+
+Una sesión abierta caduca según exp, sin esperar una petición fallida. El temporizador se cancela/rearma al cambiar sesión; storage propaga login/logout entre pestañas. La decodificación JWT no verifica la firma en frontend: el backend mantiene la autorización real por firma y estado/rol actuales.
+
+Comprobaciones: npm run lint sin errores/advertencias, npm run build y mvn compile aprobados. Desde frontend: `npx playwright test e2e/tests/auth-session.spec.ts e2e/tests/beca-detail.spec.ts` valida catorce casos con respuestas controladas, incluidos token de Axios, restauración, expiración, pestañas, login, registro, perfil protegido y contenido de detalle. Otras 27 regresiones de buscador, administración y recuperación también pasaron durante la fase. Dos selectores incorrectos de los tests nuevos se corrigieron durante la verificación; el cierre de esos catorce casos pasó completo.
+
+No representa aún la batería global de navegador con backend/correo reales. Las pruebas antiguas de login/search-ux necesitan revisar su dependencia de datos y sus aserciones; diseño y despliegue siguen pendientes. La última suite backend completa permanece en 114 casos aprobados.
