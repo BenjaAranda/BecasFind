@@ -1,8 +1,52 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Fecha: 29 de septiembre de 2026. Estado: FASE 1 cerrada, incluida migración local y respaldo restaurado; FASE 4 de autenticación implementada con pruebas. Resto pendiente. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de la FASE 9. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
+
+## To do vigente
+
+Esta lista es el estado actual. Las propuestas y secciones de avance posteriores conservan el historial; sus frases «Siguiente fase» corresponden al momento de cada avance. Una casilla completada cierra ese alcance concreto, no todas las tareas de una fase o paquete.
+
+### Hecho y verificado
+
+- [x] Conservar PostgreSQL 17 y actualizar el contrato para Vercel + Oracle.
+- [x] Separar desarrollo/producción, exigir secretos externos y validar el esquema en producción sin datos de demostración.
+- [x] Alinear esquema, migrar la base local con respaldo y probar restauración preservando datos.
+- [x] Endurecer autorización JWT con actividad/rol actual, limitar intentos y restringir CORS.
+- [x] Corregir recuperación de contraseña: token de un solo uso, caducidad y consumo concurrente; integrar API Resend y pantallas públicas. La activación y entrega real quedan pendientes.
+- [x] Corregir reglas de vigencia, RSH/NEM, cobertura nacional/regional, recomendaciones y fechas de calendario.
+- [x] Separar listado administrativo para incluir becas vencidas/inactivas y estandarizar errores de parámetros.
+- [x] Corregir estado URL, debounce, paginación recomendada, respuestas antiguas y reintentos del buscador.
+- [x] Corregir formularios/listados administrativos: vaciado de asociaciones, validación de interfaz, conservación de datos y errores recuperables.
+- [x] Hacer atómica la importación CSV, validar archivos/valores/encoding, corregir upsert y comprobar rollback/UTF-8 en PostgreSQL temporal.
+- [x] Restaurar sesión antes del render, manejar vencimiento y sincronizar cierre entre pestañas; eliminar caché de identidad redundante.
+- [x] Cerrar revisión estática global sin desactivar reglas: cero errores y cero advertencias.
+- [x] Renovar acceso, registro y navegación pública/administrativa con controles accesibles y adaptación móvil.
+- [x] Renovar buscador, filtros plegables, tarjetas y detalle; mostrar errores/reintento y corregir navegación directa y documentos opcionales.
+- [x] Bloquear escrituras simultáneas de favoritos por beca, revertir fallos y anunciarlos en resultados.
+- [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
+
+### Pendiente, en orden de trabajo
+
+1. [ ] **Próxima: FASE 11 — portada.** Renovar diseño y textos; retirar cifras/promesas sin respaldo y comprobar enlaces/recorridos móviles.
+2. [ ] **FASE 12 — perfil y favoritos.** Completar revisión funcional, validación de datos y diseño; comprobar guardar/cargar perfil, recomendaciones y pantalla de favoritos con fallos y navegación reales.
+3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
+4. [ ] **FASES 2/5/6/10, por separado — administración.** Endurecer validaciones del servidor y políticas de borrado/desactivación; cerrar diseño interno y accesibilidad de modales.
+5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
+6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
+7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
+8. [ ] **Verificación integral.** Corregir suites antiguas débiles de login/buscador; contrastar documentos de requisitos/pruebas y recorrer roles, CRUD, CSV, perfil, favoritos y recuperación con backend/PostgreSQL reales.
+9. [ ] **Accesibilidad y rendimiento global.** Revisar teclado, zoom, 360/390/768/1440 px y un segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Los objetivos del plan aún no son resultados.
+10. [ ] **Infraestructura Vercel + Oracle.** Confirmar cuenta/capacidad/gratuidad vigente, probar contenedor/persistencia/reinicio, configurar HTTPS/Nginx, BD privada, secretos, CORS y entorno de pruebas aislado; integrar controles de calidad antes de publicar.
+11. [ ] **Operación y publicación.** Probar copias/restauración y rollback en el entorno de destino, documentar mantenimiento, verificar vista previa y completar flujos públicos antes de publicar.
+
+### Evidencia y límites actuales
+
+- Última suite completa backend registrada: **114 pruebas aprobadas**; doce casos CSV también verificados en PostgreSQL 17 temporal. Backend sin cambios en las últimas fases de diseño.
+- Última fase de navegador: **54 casos distintos aprobados con API controlada**; los 19 de buscador/detalle pasaron en la ejecución final tras el cambio de favoritos. Esto no equivale a integración completa ni correo real.
+- Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
+- Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
 ## Punto de partida y límites
 
@@ -19,7 +63,7 @@ Objetivo: publicar una aplicación segura, comprensible y verificable, mantenien
 1. **Base de datos:** decisión resuelta por el usuario: conservar PostgreSQL y actualizar el contrato. Se utiliza PostgreSQL 17 y se retira el conector MySQL; no mantener ambos motores como una compatibilidad aparente sin pruebas.
 2. **Contrato:** documentar Vercel + Oracle y resolver las diferencias de estructura, versiones, borrado y respuestas públicas. El contrato prohíbe IDs internos, pero búsqueda, detalle y favoritos los utilizan: definir un identificador público coherente antes de cambiar enlaces o DTOs.
 3. **Datos de becas:** proponer cambiar la regla de inferir requisitos y fechas desconocidos. Una fecha artificial no debe presentarse como un plazo oficial, ni una recomendación como garantía de elegibilidad. Este cambio requiere autorización porque modifica AGENTS.md.
-4. **Recuperación de contraseña:** elegir un servicio de correo compatible con el presupuesto y autorizar su integración. Hasta contar con envío real, no publicar una recuperación que prometa un correo que no se envía.
+4. **Recuperación de contraseña:** integración de API autorizada e implementada con Resend. Pendientes cuenta/clave privada, remitente y prueba de entrega real; no declarar activo el correo antes de comprobarlo.
 
 ## Orden de ejecución
 
