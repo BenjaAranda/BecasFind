@@ -193,3 +193,16 @@ FASE 6 corrige errores 400/405/415, conserva Allow en 405 y alinea respuestas de
 ### Verificación administrativa — 30 de septiembre de 2026
 
 FASE 10 introduce diálogo nativo para formularios, confirmaciones e importación CSV; foco contenido/restaurado, Escape condicionado al estado de escritura y fondo inerte. Diseño y adaptación de administración actualizados sin dependencias nuevas. Veinte casos Chromium aprobados con API controlada; cuatro nuevos casos de accesibilidad/adaptación. Lint/build y Maven compile aprobados. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite completa en serie; causa no confirmada. Capturas a 390/1280 px inspeccionadas. La integración con backend/PostgreSQL, segundo navegador y auditoría global de accesibilidad siguen pendientes. Sin despliegues.
+
+
+### Perfil y favoritos sobre PostgreSQL 17 — 30 de septiembre de 2026
+
+Ejecutar desde la raíz en PowerShell, con Java 17 en JAVA_HOME y Maven disponible:
+
+```powershell
+./infra/verify-profile-postgres.ps1 -MavenPath 'ruta/absoluta/mvn.cmd'
+```
+
+PostgresBin permite indicar otra instalación de PostgreSQL 17. El verificador crea un clúster aislado en TEMP, limitado a loopback, con autenticación trust solo para ese entorno efímero. Cada clase recibe una base nueva instalada con ddl.sql; sus catálogos se sustituyen por fixtures de pruebas y Hibernate valida el esquema. Nunca apuntarlo a la base de la aplicación: no acepta una URL externa. El servidor se detiene y las variables se restauran en finally; los logs quedan en TEMP para diagnóstico.
+
+Resultado: 10 pruebas PostgreSQL aprobadas (cuatro de persistencia HTTP y seis de integridad/concurrencia). Suite completa adicional H2: 135 pruebas aprobadas; package y compile aprobados. La primera ejecución falló por duplicación de semillas DDL/test y se corrigió el montaje aislado. Pendiente: navegador real conectado al backend/PostgreSQL sin mocks. Sin cambios de producción ni despliegues.

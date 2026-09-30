@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de mejorar administración en FASE 10. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar perfil/favoritos en PostgreSQL en FASE 12. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -33,7 +33,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 ### Pendiente, en orden de trabajo
 
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
-2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Comprobar recorridos completos/recomendaciones/favoritos con PostgreSQL real y confirmar allí los bloqueos concurrentes ya probados en H2. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
+2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Persistencia HTTP, recomendaciones, aislamiento de favoritos y bloqueos concurrentes verificados con PostgreSQL 17 temporal y DDL real. Queda el recorrido completo de navegador conectado a ese backend, sin API simulada. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
 4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. Quedan pendientes verificación integral PostgreSQL, pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
@@ -400,3 +400,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Verificación final: 20 casos Chromium aprobados con API controlada, incluyendo cuatro casos nuevos de foco, Escape durante guardado y adaptación a 390/1280 px. Capturas de formulario inspeccionadas en ambos tamaños; lint sin errores/advertencias, build y Maven compile aprobados. Una prueba de búsqueda falló en la ejecución paralela inicial y pasó aislada y en la ejecución completa en serie; causa no confirmada.
 - Backend sin cambios. Las 131 pruebas backend corresponden a la etapa anterior; no se repitió esa suite ni PostgreSQL en esta fase. No hubo despliegue ni envío de correo real.
 - Próxima tarea propuesta: cerrar integración de perfil/favoritos con PostgreSQL en FASE 12. Una fase por instrucción explícita. Persisten tareas de modelo monetario, datos/fuentes, accesibilidad global, correo e infraestructura.
+
+
+## Avance FASE 12 — persistencia PostgreSQL (30 de septiembre de 2026)
+
+- ProfilePersistenceTest añade cuatro pruebas HTTP: perfil con cero/decimales/tildes y vaciado explícito, rollback por región inválida, favoritos idempotentes/aislados por cuenta y recomendaciones equivalentes a la búsqueda con el perfil persistido.
+- infra/verify-profile-postgres.ps1 inicia PostgreSQL 17 exclusivamente en loopback y puerto temporal. Instala infra/ddl.sql en una base nueva por clase, sustituye sus catálogos semilla por fixtures y usa ddl-auto:validate. Ejecuta ProfilePersistenceTest y CoreServiceIntegrityTest, restaura variables de entorno y detiene el servidor incluso si hay fallos. Conserva logs en TEMP; no modifica la base local.
+- Resultado PostgreSQL: 10 pruebas aprobadas, incluyendo creación inicial de perfil/favoritos concurrente y limpieza de dependencias tras eliminación. La primera ejecución del verificador falló por catálogos semilla duplicados; se corrigió únicamente el montaje de fixtures y la ejecución final pasó.
+- Regresión completa: 135 pruebas backend H2 aprobadas, cero fallos/errores; Maven package y compile aprobados. No se cambió código de producción ni el frontend.
+- Pendiente de cierre integral: navegador conectado a backend/PostgreSQL real, sin interceptar API. Las verificaciones anteriores de interfaz usaron API controlada; no declarar aún ese recorrido end-to-end aprobado. Próximo paso: continuar FASE 12 con ese recorrido. Correo, datos, modelo monetario y despliegue siguen pendientes.
