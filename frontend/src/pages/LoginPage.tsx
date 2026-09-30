@@ -4,6 +4,7 @@ import { useAuth } from '../context/useAuth';
 import { ArrowRight, LoaderCircle } from 'lucide-react';
 import AuthLayout from '../components/layout/AuthLayout';
 import PasswordField from '../components/common/PasswordField';
+import { authFormError } from '../utils/authFormError';
 
 export default function LoginPage() {
   const { login } = useAuth();
@@ -18,18 +19,17 @@ export default function LoginPage() {
     e.preventDefault();
     if (loading) return;
     setError('');
+    if (new TextEncoder().encode(password).length > 72) {
+      setError('La contraseña supera la longitud permitida. Usa menos caracteres.');
+      return;
+    }
     setLoading(true);
 
     try {
       await login(email.trim(), password);
       navigate('/explorar');
     } catch (err: unknown) {
-      if (err && typeof err === 'object' && 'response' in err) {
-        const axiosErr = err as { response?: { data?: { message?: string } } };
-        setError(axiosErr.response?.data?.message || 'Credenciales inválidas');
-      } else {
-        setError('Error de conexión. Intenta nuevamente.');
-      }
+      setError(authFormError(err, 'Error de conexión. Intenta nuevamente.'));
     } finally {
       setLoading(false);
     }

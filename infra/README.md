@@ -280,3 +280,11 @@ verify-profile-browser.ps1 -BackendJarPath <ruta-absoluta.jar> permite usar un e
 Registro limita nombre/correo según almacenamiento; login y recuperación rechazan contraseñas que superen 72 bytes UTF-8. El token de recuperación malformado devuelve 400; un UUID inexistente mantiene 401. Una contraseña inválida no modifica el hash ni consume el token válido.
 
 Seleccionar -TestClasses PublicAuthValidationTest en el verificador PostgreSQL ejecuta siete casos con DDL real/validate. Resultado: siete aprobados, 153 pruebas H2 aprobadas y seis recorridos Chromium reales aprobados. Package/compile aprobados mediante empaquetado temporal aislado y BackendJarPath. Sin cambios de frontend, esquema, base local ni despliegues; entrega de correo simulada en pruebas.
+
+### Formularios públicos — 30 de septiembre de 2026
+
+Registro/login/reset alinean longitud y validación UTF-8; errores de campo del servidor visibles y valores conservados para reintentar. Reset usa controles compartidos con visibilidad de contraseña, ayuda asociada y foco por teclado.
+
+34 casos Chromium con API controlada aprobados (public-auth-validation, password-recovery, navigation-auth-design y auth-session); nueve son nuevos. Capturas de recuperación a 390/1280 px inspeccionadas. Lint/build y Maven compile aprobados. El mock de catálogos se corrigió para devolver listas; la prueba de registro exige destino visible sin errores de página.
+
+verify-profile-browser.ps1 ejecuta ahora siete casos reales, incluido public-auth.spec.ts: registro/login y acceso con JWT real usando nombre español y contraseña de 72 bytes UTF-8. Siete aprobados con backend prod/PostgreSQL temporal. Se usó BackendJarPath del empaquetado aislado anterior. Backend sin cambios: no se repitieron suites completas H2/DTO PostgreSQL. No verifica bandeja de correo ni despliegue.

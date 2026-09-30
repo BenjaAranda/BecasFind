@@ -4,6 +4,7 @@ import { useAuth } from '../context/useAuth';
 import { ArrowRight, LoaderCircle } from 'lucide-react';
 import AuthLayout from '../components/layout/AuthLayout';
 import PasswordField from '../components/common/PasswordField';
+import { authFormError } from '../utils/authFormError';
 
 export default function RegisterPage() {
   const { register } = useAuth();
@@ -35,8 +36,12 @@ export default function RegisterPage() {
       setError('Escribe tu nombre completo.');
       return;
     }
+    if (nombreCompleto.trim().length > 255) {
+      setError('El nombre completo no puede superar 255 caracteres.');
+      return;
+    }
     if (new TextEncoder().encode(password).length > 72) {
-      setError('La contraseña es demasiado larga. Usa menos caracteres.');
+      setError('La contraseña supera la longitud permitida. Usa menos caracteres.');
       return;
     }
     setLoading(true);
@@ -44,8 +49,7 @@ export default function RegisterPage() {
       await register(nombreCompleto.trim(), email.trim(), password);
       navigate('/explorar');
     } catch (err: unknown) {
-      const axiosErr = err as { response?: { data?: { message?: string } } };
-      setError(axiosErr.response?.data?.message || 'Error al registrar. Intenta nuevamente.');
+      setError(authFormError(err, 'No pudimos registrar tu cuenta. Revisa tu conexión e intenta nuevamente.'));
     } finally {
       setLoading(false);
     }
@@ -58,7 +62,7 @@ export default function RegisterPage() {
       <form onSubmit={handleSubmit} aria-busy={loading} className="space-y-5">
         <div>
           <label htmlFor="nombre" className="block text-sm font-medium mb-2">Nombre Completo</label>
-          <input id="nombre" type="text" required autoComplete="name" disabled={loading} value={nombreCompleto}
+          <input id="nombre" type="text" required maxLength={255} autoComplete="name" disabled={loading} value={nombreCompleto}
             onChange={event => setNombreCompleto(event.target.value)} placeholder="María González"
             className="w-full min-h-12 px-3 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
         </div>
@@ -69,7 +73,7 @@ export default function RegisterPage() {
             className="w-full min-h-12 px-3 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
         </div>
         <PasswordField id="password" label="Contraseña" value={password} onChange={setPassword} disabled={loading} newPassword
-          placeholder="Mínimo 8 caracteres" help="Usa al menos 8 caracteres. Puedes combinar palabras, números y símbolos." />
+          placeholder="Mínimo 8 caracteres" help="Usa entre 8 y 72 caracteres. Con tildes o símbolos, el máximo puede ser menor." />
         <PasswordField id="confirmPassword" label="Confirmar Contraseña" value={confirmPassword} onChange={setConfirmPassword}
           disabled={loading} newPassword placeholder="Repite la contraseña" visibilityLabel="confirmación de contraseña" />
         <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#123f48] hover:bg-[#1a525c] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#123f48]">

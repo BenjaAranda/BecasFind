@@ -12,7 +12,7 @@ export default function PasswordField({ id, label, value, onChange, disabled, ne
       <div className="relative">
         <input id={id} required disabled={disabled} type={visible ? 'text' : 'password'} value={value}
           onChange={event => onChange(event.target.value)} autoComplete={newPassword ? 'new-password' : 'current-password'}
-          minLength={newPassword ? 8 : undefined} maxLength={newPassword ? 72 : undefined}
+          minLength={newPassword ? 8 : undefined} maxLength={72}
           aria-describedby={help ? `${id}-help` : undefined} placeholder={placeholder}
           className="w-full min-h-12 px-3 pr-14 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
         <button type="button" disabled={disabled} aria-label={`${visible ? 'Ocultar' : 'Mostrar'} ${visibilityLabel}`} aria-pressed={visible}

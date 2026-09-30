@@ -3,6 +3,7 @@ import { isAxiosError } from 'axios';
 import { Mail, CheckCircle2 } from 'lucide-react';
 import api from '../services/api';
 import RecoveryLayout from '../components/common/RecoveryLayout';
+import { authFormError } from '../utils/authFormError';
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState('');
@@ -22,7 +23,7 @@ export default function ForgotPasswordPage() {
       const status = isAxiosError(err) ? err.response?.status : undefined;
       setError(status === 429 ? 'Has realizado demasiados intentos. Espera unos minutos antes de volver a solicitar el enlace.'
         : status === 503 ? 'La recuperación por correo aún no está disponible. Inténtalo más tarde.'
-        : 'No pudimos procesar tu solicitud. Revisa tu conexión e inténtalo de nuevo.');
+        : authFormError(err, 'No pudimos procesar tu solicitud. Revisa tu conexión e inténtalo de nuevo.'));
     } finally {
       setLoading(false);
     }

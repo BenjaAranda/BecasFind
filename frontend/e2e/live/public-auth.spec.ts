@@ -1,0 +1,36 @@
+import { test, expect } from '@playwright/test';
+
+test('registro y login reales conservan tildes y aceptan contraseña UTF-8 en el límite', async ({ page }) => {
+  const api = process.env.LIVE_API_URL;
+  if (!api) throw new Error('Use infra/verify-profile-browser.ps1');
+  let writes = 0;
+  page.on('request', request => { if (request.url().endsWith('/api/auth/register')) writes++; });
+  await page.goto('/register');
+  await page.getByLabel('Nombre Completo').fill('María de Ñuble');
+  await page.getByLabel('Correo electrónico').fill('public-browser@example.com');
+  await page.getByLabel('Contraseña', { exact: true }).fill('ñ'.repeat(37));
+  await page.getByLabel('Confirmar Contraseña', { exact: true }).fill('ñ'.repeat(37));
+  await page.getByRole('button', { name: 'Crear Cuenta', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('longitud permitida');
+  expect(writes).toBe(0);
+  await page.getByLabel('Contraseña', { exact: true }).fill('ñ'.repeat(36));
+  await page.getByLabel('Confirmar Contraseña', { exact: true }).fill('ñ'.repeat(36));
+  const registration = page.waitForResponse(response => response.url().endsWith('/api/auth/register'));
+  await page.getByRole('button', { name: 'Crear Cuenta', exact: true }).click();
+  expect((await registration).status()).toBe(201);
+  await expect(page).toHaveURL(/\/explorar$/);
+  expect(writes).toBe(1);
+  await page.evaluate(() => localStorage.removeItem('token'));
+  await page.goto('/login');
+  await page.getByLabel('Correo electrónico').fill('public-browser@example.com');
+  await page.getByLabel('Contraseña', { exact: true }).fill('ñ'.repeat(36));
+  await page.getByRole('button', { name: 'Ingresar', exact: true }).click();
+  await expect(page).toHaveURL(/\/explorar$/);
+  const token = await page.evaluate(() => localStorage.getItem('token'));
+  expect(token).toBeTruthy();
+  const profile = await page.request.get(`${api}/api/perfil`, { headers: { Authorization: `Bearer ${token}` } });
+  expect(profile.status()).toBe(200);
+  const usersLogin = await page.request.post(`${api}/api/auth/login`, { data: { email: 'public-browser@example.com', password: 'ñ'.repeat(36) } });
+  expect(usersLogin.status()).toBe(200);
+  expect((await usersLogin.json()).data.nombreCompleto).toBe('María de Ñuble');
+});
