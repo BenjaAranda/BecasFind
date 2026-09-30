@@ -25,9 +25,9 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Renovar acceso, registro y navegación pública/administrativa con controles accesibles y adaptación móvil.
 - [x] Renovar buscador, filtros plegables, tarjetas y detalle; mostrar errores/reintento y corregir navegación directa y documentos opcionales.
 - [x] Renovar portada y retirar cifras/promesas sin respaldo; explicar acceso con cuenta, límites de recomendaciones y consulta de fuente oficial. Comprobar acciones por sesión, teclado y adaptación 360–1440 px.
-- [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Verificar recorridos con API controlada; backend e integración real quedan pendientes.
+- [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Interfaz verificada con API controlada y persistencia HTTP con PostgreSQL; recorrido navegador-backend real pendiente.
 - [x] Validar solicitudes de perfil, becas, documentos y usuarios administrativos en el servidor: límites numéricos/texto/identificadores, fechas coherentes, URL HTTP/HTTPS y contraseña UTF-8. Verificar rechazo 400 sin modificar datos y conservación de vaciados/límites válidos.
-- [x] Bloquear escrituras simultáneas de favoritos en interfaz y serializarlas por usuario en backend; rechazar becas inexistentes y proteger la creación inicial concurrente del perfil. Pruebas concurrentes H2 aprobadas; PostgreSQL pendiente.
+- [x] Bloquear escrituras simultáneas de favoritos en interfaz y serializarlas por usuario en backend; rechazar becas inexistentes y proteger la creación inicial concurrente del perfil. Pruebas concurrentes H2 y PostgreSQL 17 aprobadas.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
 
 ### Pendiente, en orden de trabajo
@@ -46,8 +46,8 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Evidencia y límites actuales
 
-- Última suite completa backend registrada: **119 pruebas aprobadas** y empaquetado correcto; cinco pruebas nuevas ejercitan múltiples solicitudes por HTTP sobre H2 de pruebas. Los doce casos CSV verificados anteriormente en PostgreSQL 17 temporal no se repitieron en esta fase de DTOs.
-- Última fase de navegador: **39 casos aprobados con API controlada** (diez nuevos de perfil/favoritos y 29 regresiones de sesión/buscador). Antes se aprobaron 32 casos de portada/sesión/navegación/recuperación y 54 casos en la fase de búsqueda. Esto no equivale a integración completa ni correo real.
+- Última suite completa backend registrada: **135 pruebas H2 aprobadas**, empaquetado y compilación correctos. Última verificación PostgreSQL 17: **10 pruebas de perfil/integridad aprobadas** con DDL real y validación de esquema. Los doce casos CSV PostgreSQL anteriores no se repitieron en esta última fase.
+- Última fase de navegador: **20 casos de administración/navegación aprobados con API controlada** en ejecución en serie. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite final; causa no confirmada. Antes se aprobaron 39 casos de perfil/favoritos/sesión/buscador, 32 de portada/sesión/navegación/recuperación y 54 de búsqueda. Estas cifras corresponden a suites de distintas etapas y no deben sumarse como casos únicos ni interpretarse como integración completa.
 - Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
