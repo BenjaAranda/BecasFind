@@ -1,3 +1,4 @@
+import AdminDialog from '../../components/admin/AdminDialog';
 import { useState, useEffect, useRef } from 'react';
 import { adminService } from '../../services/adminService';
 import type { BecaSummary, ImportResult } from '../../types';
@@ -117,10 +118,10 @@ export default function AdminBecasPage() {
   const formatDate = (d: string) => formatCalendarDate(d, true);
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-2xl font-bold text-gray-800">Gestión de Becas</h1>
+          <h1 className="text-2xl font-bold text-[#163b3b]">Gestión de Becas</h1>
           <p className="text-sm text-gray-500 mt-1">{totalElements} becas en total</p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
@@ -131,19 +132,19 @@ export default function AdminBecasPage() {
               placeholder="Buscar beca..."
               value={searchText}
               maxLength={200} aria-label="Buscar beca" onChange={e => { setSearchText(e.target.value); setPage(0); }}
-              className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 outline-none w-48"
+              className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-[#326d68] outline-none w-48"
             />
           </div>
           <button
             onClick={() => { setShowImport(true); setImportResult(null); setImportFile(null); }}
-            className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
           >
             <Upload className="w-4 h-4" />
             Importar CSV
           </button>
           <button
             onClick={() => { setEditId(null); setEditData(null); setShowForm(true); }}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 bg-[#163b3b] text-white text-sm font-medium rounded-lg hover:bg-[#245454] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
           >
             <Plus className="w-4 h-4" />
             Nueva Beca
@@ -159,8 +160,8 @@ export default function AdminBecasPage() {
           ))}
         </div>
       ) : (
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-          <table className="w-full text-sm">
+        <div className="bg-[#fffdf7] rounded-xl shadow-sm border border-gray-100 overflow-x-auto">
+          <table className="w-full min-w-[560px] text-sm">
             <thead>
               <tr className="bg-gray-50 text-left">
                 <th className="px-4 py-3 font-medium text-gray-600">Nombre</th>
@@ -174,7 +175,7 @@ export default function AdminBecasPage() {
               {displayed.map(beca => (
                 <tr key={beca.idBeca} className="hover:bg-gray-50">
                   <td className="px-4 py-3">
-                    <span className="font-medium text-gray-800">{beca.nombre}</span>
+                    <span className="font-medium text-[#163b3b]">{beca.nombre}</span>
                     <span className="block text-xs text-gray-400">{beca.nombreTipoBeca}</span>
                   </td>
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{beca.nombreInstitucion}</td>
@@ -186,13 +187,13 @@ export default function AdminBecasPage() {
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-1">
-                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer">
+                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <ExternalLink className="w-4 h-4" />
                       </a>
-                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer">
+                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <Edit className="w-4 h-4" />
                       </button>
-                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer">
+                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                         <Trash2 className="w-4 h-4" />
                       </button>
                     </div>
@@ -210,7 +211,7 @@ export default function AdminBecasPage() {
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-1 mt-4">
           <button disabled={page === 0} onClick={() => setPage(page - 1)}
-            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">«</button>
           {Array.from({ length: Math.min(totalPages, 6) }, (_, i) => {
             let p: number;
             if (totalPages <= 6) { p = i; }
@@ -220,38 +221,38 @@ export default function AdminBecasPage() {
             return (
               <button key={p} disabled={p === page}
                 onClick={() => setPage(p)}
-                className={`w-7 h-7 text-xs rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
+                className={`w-7 h-7 text-xs rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68] ${p === page ? 'bg-[#163b3b] text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
                 {p + 1}
               </button>
             );
           })}
           <button disabled={page >= totalPages - 1} onClick={() => setPage(page + 1)}
-            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">»</button>
         </div>
       )}
 
       {showForm && <BecaForm onClose={() => setShowForm(false)} onSave={handleFormSave} editId={editId} initialData={editData} />}
 
       {confirmDeleteId && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div role="dialog" aria-modal="true" aria-label="Confirmar eliminación" className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
+        <AdminDialog title="Confirmar eliminación" busy={deleting} onClose={() => setConfirmDeleteId(null)}>
+          <div className="p-6">
             <h3 className="text-lg font-semibold mb-2">Confirmar eliminación</h3>
             <p className="text-sm text-gray-600 mb-4">¿Estás seguro de eliminar esta beca? Esta acción no se puede deshacer.</p>
             {deleteError && <p role="alert" className="mb-3 text-red-700">{deleteError}</p>}
             <div className="flex justify-end gap-3">
-              <button disabled={deleting} onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
-              <button disabled={deleting} onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">{deleting ? 'Eliminando…' : 'Eliminar'}</button>
+              <button disabled={deleting} onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">Cancelar</button>
+              <button disabled={deleting} onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">{deleting ? 'Eliminando…' : 'Eliminar'}</button>
             </div>
           </div>
-        </div>
+        </AdminDialog>
       )}
 
       {showImport && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-xl w-full max-w-md mx-4 p-6">
+        <AdminDialog title="Importar becas desde CSV" busy={importLoading} onClose={() => setShowImport(false)}>
+          <div className="p-6">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold">Importar Becas desde CSV</h3>
-              <button onClick={() => setShowImport(false)} className="p-1 hover:bg-gray-100 rounded cursor-pointer"><X className="w-5 h-5" /></button>
+              <button disabled={importLoading} aria-label="Cerrar importación" onClick={() => setShowImport(false)} className="p-1 hover:bg-gray-100 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"><X className="w-5 h-5" /></button>
             </div>
 
             {importResult ? (
@@ -262,7 +263,7 @@ export default function AdminBecasPage() {
                     <p className="text-xs text-green-600">Creadas</p>
                   </div>
                   <div className="p-3 bg-blue-50 rounded-lg text-center">
-                    <p className="text-2xl font-bold text-blue-700">{importResult.actualizadas}</p>
+                    <p className="text-2xl font-bold text-[#245454]">{importResult.actualizadas}</p>
                     <p className="text-xs text-blue-600">Actualizadas</p>
                   </div>
                   <div className="p-3 bg-red-50 rounded-lg text-center">
@@ -278,7 +279,7 @@ export default function AdminBecasPage() {
                   </div>
                 )}
                 <button onClick={() => { setShowImport(false); setPage(0); reload(); }}
-                  className="w-full py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 cursor-pointer">
+                  className="w-full py-2 bg-[#163b3b] text-white text-sm rounded-lg hover:bg-[#245454] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                   Cerrar
                 </button>
               </div>
@@ -287,12 +288,12 @@ export default function AdminBecasPage() {
                 <p className="text-sm text-gray-500 mb-4">
                   Selecciona un archivo CSV con las becas a importar. El sistema detectará duplicados y los actualizará automáticamente.
                 </p>
-                <input type="file" accept=".csv" ref={fileInputRef}
+                <input aria-label="Archivo CSV de becas" disabled={importLoading} type="file" accept=".csv" ref={fileInputRef}
                   onChange={e => setImportFile(e.target.files?.[0] || null)}
-                  className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-50 file:text-blue-700 file:cursor-pointer hover:file:bg-blue-100" />
+                  className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-50 file:text-[#245454] file:cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68] hover:file:bg-[#e2eee8]" />
                 <div className="flex justify-end gap-3 mt-4">
-                  <button onClick={() => setShowImport(false)}
-                    className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer">Cancelar</button>
+                  <button disabled={importLoading} onClick={() => setShowImport(false)}
+                    className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">Cancelar</button>
                   <button
                     disabled={!importFile || importLoading}
                     onClick={async () => {
@@ -311,14 +312,14 @@ export default function AdminBecasPage() {
                       }
                       finally { setImportLoading(false); }
                     }}
-                    className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 cursor-pointer">
+                    className="px-4 py-2 text-sm bg-[#163b3b] text-white rounded-lg hover:bg-[#245454] disabled:opacity-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">
                     {importLoading ? 'Importando...' : 'Importar'}
                   </button>
                 </div>
               </>
             )}
           </div>
-        </div>
+        </AdminDialog>
       )}
     </div>
   );

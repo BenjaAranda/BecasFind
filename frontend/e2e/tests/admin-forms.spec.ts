@@ -1,5 +1,67 @@
 import { test, expect, type Page } from '@playwright/test';
 
+test('diálogo mantiene foco y Escape devuelve el foco al botón de origen', async ({ page }) => {
+  await setup(page);
+  await page.goto('/admin/usuarios');
+  const trigger = page.getByRole('button', { name: 'Nuevo Usuario', exact: true });
+  await trigger.click();
+  const dialog = page.getByRole('dialog', { name: 'Nuevo usuario' });
+  await expect(dialog).toBeVisible();
+  for (let i = 0; i < 12; i++) {
+    await page.keyboard.press(i % 2 ? 'Shift+Tab' : 'Tab');
+    expect(await dialog.evaluate(element => element.contains(document.activeElement))).toBe(true);
+  }
+  await page.keyboard.press('Escape');
+  await expect(dialog).toHaveCount(0);
+  await expect(trigger).toBeFocused();
+});
+
+test('Escape no interrumpe una creación pendiente y permite cerrar tras un error', async ({ page }) => {
+  await setup(page);
+  let release: (() => void) | undefined;
+  const pending = new Promise<void>(resolve => { release = resolve; });
+  await page.route('**/api/usuarios', async route => {
+    if (route.request().method() !== 'POST') { await route.fallback(); return; }
+    await pending;
+    await route.fulfill({ status: 500, json: { message: 'No se pudo crear' } });
+  });
+  await page.goto('/admin/usuarios');
+  await page.getByRole('button', { name: 'Nuevo Usuario', exact: true }).click();
+  await page.getByLabel('Nombre Completo *').fill('Nombre de prueba');
+  await page.getByLabel('Email *').fill('test@example.com');
+  await page.getByLabel('Contraseña *').fill('password123');
+  await page.getByRole('button', { name: 'Crear Usuario', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Creando...' })).toBeDisabled();
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('dialog')).toBeVisible();
+  release?.();
+  await expect(page.getByRole('alert')).toHaveText('No se pudo crear');
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+});
+
+for (const width of [390, 1280]) {
+  test(`administración y formulario no desbordan a ${width}px`, async ({ page }) => {
+    await setup(page);
+    await page.setViewportSize({ width, height: 850 });
+    await page.goto('/admin/usuarios');
+    await expect(page.getByText('Estudiante', { exact: true })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.getByRole('button', { name: 'Nuevo Usuario', exact: true }).click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog).toBeVisible();
+    expect(await dialog.evaluate(element => element.scrollWidth <= element.clientWidth)).toBe(true);
+    await page.screenshot({ path: `test-results/admin-dialog-${width}.png` });
+    await page.keyboard.press('Escape');
+    await page.goto('/admin/becas');
+    await page.getByRole('button', { name: 'Importar CSV' }).click();
+    await expect(page.getByRole('dialog', { name: 'Importar becas desde CSV' })).toBeVisible();
+    await expect(page.getByLabel('Archivo CSV de becas')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(page.getByRole('dialog')).toHaveCount(0);
+  });
+}
+
 const summary = { idBeca: 1, nombre: 'Beca de prueba', estadoActiva: true,
   fechaCierrePostulacion: '2026-12-31', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel' };
 const detail = { ...summary, tipoBeca: { idTipoBeca: 1 }, institucion: { idInstitucion: 1 },

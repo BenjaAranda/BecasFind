@@ -188,3 +188,8 @@ CoreServiceIntegrityTest añade seis pruebas sobre referencias y rollback, beca 
 ### Verificación HTTP — 30 de septiembre de 2026
 
 FASE 6 corrige errores 400/405/415, conserva Allow en 405 y alinea respuestas de creación HTTP/cuerpo en 201. ApiResponse conserva data:null. HttpContractTest cubre JSON/tipos inválidos en varios controladores, archivo ausente, métodos/contenido incompatibles, registro y creación administrativa con autorización por rol. Suite completa: 131 pruebas aprobadas; Maven package y compile aprobados con H2 aislado. ErrorResponse conserva sus campos actuales; unificación completa y verificación PostgreSQL siguen pendientes. Sin cambios de infraestructura ni despliegues.
+
+
+### Verificación administrativa — 30 de septiembre de 2026
+
+FASE 10 introduce diálogo nativo para formularios, confirmaciones e importación CSV; foco contenido/restaurado, Escape condicionado al estado de escritura y fondo inerte. Diseño y adaptación de administración actualizados sin dependencias nuevas. Veinte casos Chromium aprobados con API controlada; cuatro nuevos casos de accesibilidad/adaptación. Lint/build y Maven compile aprobados. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite completa en serie; causa no confirmada. Capturas a 390/1280 px inspeccionadas. La integración con backend/PostgreSQL, segundo navegador y auditoría global de accesibilidad siguen pendientes. Sin despliegues.

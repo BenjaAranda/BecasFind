@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de corregir respuestas HTTP en FASE 6. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de mejorar administración en FASE 10. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -35,7 +35,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
 2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Comprobar recorridos completos/recomendaciones/favoritos con PostgreSQL real y confirmar allí los bloqueos concurrentes ya probados en H2. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
-4. [ ] **Próxima: FASE 10 — administración.** Corregir diseño/accesibilidad de formularios y modales. Integridad básica de servicios y respuestas HTTP corregidas; quedan pendientes unificación completa de ErrorResponse/ApiResponse, identificadores públicos, concurrencia administrativa/importaciones y verificación PostgreSQL.
+4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. Quedan pendientes verificación integral PostgreSQL, pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
 6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
@@ -391,3 +391,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Se conservan validationErrors y los demás campos de ErrorResponse para la interfaz. Su unificación completa con ApiResponse sigue pendiente y requiere una revisión conjunta de consumidores y filtros de seguridad.
 - Verificación: 131 pruebas backend aprobadas, incluyendo seis nuevas pruebas HTTP con múltiples endpoints y rechazo de escrituras administrativas para estudiantes. Maven package y compile aprobados; H2 aislado. Frontend sin cambios; no se ejecutó PostgreSQL ni se desplegó.
 - Próxima FASE 10: diseño y accesibilidad de administración. Una fase por instrucción explícita. Continúan pendientes pruebas reales, datos, correo y publicación.
+
+
+## Avance FASE 10 — administración accesible (30 de septiembre de 2026)
+
+- Formularios de becas/usuarios, confirmaciones de eliminación/desactivación e importación CSV usan un diálogo nativo compartido. El contenido del fondo queda inerte; Escape cierra cuando no hay una escritura pendiente y el foco vuelve al origen si sigue disponible. Se bloquea el desplazamiento del fondo y el formulario largo se desplaza dentro del diálogo.
+- Se aplica el diseño crema/petróleo a formularios, tablas y acciones, con foco visible. Cabeceras se acomodan a móvil y la tabla de usuarios se desplaza dentro de su contenedor. Usuario incluye autocompletado y límites de nombre/correo; el selector CSV está etiquetado y bloqueado durante el envío.
+- Verificación final: 20 casos Chromium aprobados con API controlada, incluyendo cuatro casos nuevos de foco, Escape durante guardado y adaptación a 390/1280 px. Capturas de formulario inspeccionadas en ambos tamaños; lint sin errores/advertencias, build y Maven compile aprobados. Una prueba de búsqueda falló en la ejecución paralela inicial y pasó aislada y en la ejecución completa en serie; causa no confirmada.
+- Backend sin cambios. Las 131 pruebas backend corresponden a la etapa anterior; no se repitió esa suite ni PostgreSQL en esta fase. No hubo despliegue ni envío de correo real.
+- Próxima tarea propuesta: cerrar integración de perfil/favoritos con PostgreSQL en FASE 12. Una fase por instrucción explícita. Persisten tareas de modelo monetario, datos/fuentes, accesibilidad global, correo e infraestructura.
