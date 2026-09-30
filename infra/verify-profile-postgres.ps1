@@ -27,6 +27,10 @@ try {
     $startProcess.WaitForExit()
     if ($startProcess.ExitCode -ne 0) { throw 'Temporary PostgreSQL start failed.' }
     $started = $true
+    & "$PostgresBin\createdb.exe" -h 127.0.0.1 -p $verificationPort -U profile_verify coverage_migration
+    if ($LASTEXITCODE -ne 0) { throw 'Temporary migration database creation failed.' }
+    & "$PostgresBin\psql.exe" -h 127.0.0.1 -p $verificationPort -U profile_verify -d coverage_migration -v ON_ERROR_STOP=1 -f (Join-Path $PSScriptRoot 'verify-coverage-migration.sql') *> (Join-Path $verificationRoot 'coverage-migration.log')
+    if ($LASTEXITCODE -ne 0) { throw "Coverage migration verification failed. Evidence: $verificationRoot" }
     $env:SPRING_DATASOURCE_USERNAME = 'profile_verify'
     $env:SPRING_DATASOURCE_PASSWORD = ''
     $env:SPRING_DATASOURCE_DRIVER_CLASS_NAME = 'org.postgresql.Driver'

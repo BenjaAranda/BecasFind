@@ -102,10 +102,27 @@ CREATE TABLE IF NOT EXISTS becas (
     descripcion_corta TEXT,
     descripcion_larga TEXT,
     monto_cobertura VARCHAR(255),
+    cobertura_tipo VARCHAR(20) NOT NULL DEFAULT 'DESCONOCIDA',
+    cobertura_importe NUMERIC(18,2),
+    cobertura_moneda VARCHAR(3),
+    cobertura_periodicidad VARCHAR(20),
+    cobertura_porcentaje NUMERIC(5,2),
     fecha_inicio_postulacion DATE,
     fecha_cierre_postulacion DATE NOT NULL,
     url_oficial VARCHAR(500),
     estado_activa BOOLEAN NOT NULL DEFAULT TRUE,
+    CONSTRAINT ck_beca_cobertura CHECK (
+    cobertura_tipo IN ('MONETARIA','PORCENTUAL','NO_MONETARIA','DESCONOCIDA')
+    AND (cobertura_importe IS NULL OR cobertura_importe >= 0)
+    AND (cobertura_porcentaje IS NULL OR cobertura_porcentaje BETWEEN 0 AND 100)
+    AND (cobertura_moneda IS NULL OR cobertura_moneda ~ '^[A-Z]{3}$')
+    AND (cobertura_periodicidad IS NULL OR cobertura_periodicidad IN ('UNICA','MENSUAL','SEMESTRAL','ANUAL','DESCONOCIDA'))
+    AND (
+        (cobertura_tipo = 'MONETARIA' AND cobertura_porcentaje IS NULL AND (cobertura_importe IS NULL OR cobertura_moneda IS NOT NULL))
+        OR (cobertura_tipo = 'PORCENTUAL' AND cobertura_importe IS NULL AND cobertura_moneda IS NULL AND cobertura_periodicidad IS NULL)
+        OR (cobertura_tipo IN ('NO_MONETARIA','DESCONOCIDA') AND cobertura_importe IS NULL AND cobertura_moneda IS NULL AND cobertura_periodicidad IS NULL AND cobertura_porcentaje IS NULL)
+    )
+),
     CONSTRAINT uk_beca_nombre_institucion UNIQUE (nombre, id_institucion),
     CONSTRAINT fk_beca_institucion
         FOREIGN KEY (id_institucion) REFERENCES instituciones(id_institucion),

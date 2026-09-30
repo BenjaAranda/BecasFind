@@ -254,6 +254,8 @@ El backend traduce a Sort.by() y lo incluye en PageRequest
 Default: fechaCierrePostulacion ASC (más próximas a vencer primero)
 ```
 
+Actualización autorizada el 30 de septiembre de 2026 para completar FASES 1/2/5 en esta petición: conservar `montoCobertura` como texto original y añadir `cobertura` estructurada. Tipos: MONETARIA, PORCENTUAL, NO_MONETARIA, DESCONOCIDA. Importe NUMERIC(18,2), moneda ISO 4217 y periodicidad UNICA/MENSUAL/SEMESTRAL/ANUAL/DESCONOCIDA cuando sean conocidos; porcentaje NUMERIC(5,2) entre 0 y 100. No inferir importes ni convertir porcentajes a dinero. Los órdenes monetarios agrupan primero por moneda y periodicidad; comparan importe numérico dentro del grupo, dejan importes desconocidos al final y desempatan por ID. No implican equivalencia entre grupos. Respuestas JSON representan decimales como cadenas para conservar precisión. La precisión NEM no cambia. Esta autorización de varias fases se limita a esta petición; el protocolo general sigue vigente.
+
 ### BR-RECOMENDACION (Auto-Match por Perfil)
 ```
 GET /api/becas/recomendadas → carga PerfilEstudiante del usuario autenticado
