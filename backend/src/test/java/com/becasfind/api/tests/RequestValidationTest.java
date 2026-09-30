@@ -51,7 +51,7 @@ class RequestValidationTest extends BaseTest {
     void invalidScholarshipsAndNestedDocumentsRejectBeforeCreatingOrUpdating() {
         String token = adminToken();
         long count = becas.count();
-        var original = scholarshipSnapshot(get("/api/becas/1", token, Map.class).getBody().get("data"));
+        var original = scholarshipSnapshot(get("/api/becas/" + publicScholarshipId(1), token, Map.class).getBody().get("data"));
         var valid = Map.<String, Object>of("nombre", "Validación de beca", "idInstitucion", 1,
                 "idTipoBeca", 1, "fechaCierrePostulacion", "2030-12-31");
         for (var entry : List.of(Map.entry("nombre", "á".repeat(256)), Map.entry("idInstitucion", 0),
@@ -68,7 +68,7 @@ class RequestValidationTest extends BaseTest {
             rejected(post("/api/becas", token, body, Map.class), entry.getKey());
             rejected(put("/api/becas/1", token, body, Map.class), entry.getKey());
             assertEquals(count, becas.count());
-            assertEquals(original, scholarshipSnapshot(get("/api/becas/1", token, Map.class).getBody().get("data")));
+            assertEquals(original, scholarshipSnapshot(get("/api/becas/" + publicScholarshipId(1), token, Map.class).getBody().get("data")));
         }
         String nullState = "{\"nombre\":\"Estado nulo\",\"idInstitucion\":1,\"idTipoBeca\":1,"
                 + "\"fechaCierrePostulacion\":\"2030-12-31\",\"estadoActiva\":null}";
@@ -127,7 +127,7 @@ class RequestValidationTest extends BaseTest {
         body.put("regionesIds", List.of());
         body.put("documentosRequeridos", List.of());
         assertEquals(200, put("/api/becas/" + id, token, body, Map.class).getStatusCode().value());
-        var detail = (Map<?, ?>) get("/api/becas/" + id, token, Map.class).getBody().get("data");
+        var detail = (Map<?, ?>) get("/api/becas/" + publicScholarshipId(id), token, Map.class).getBody().get("data");
         assertTrue(((List<?>) detail.get("regiones")).isEmpty());
         assertTrue(((List<?>) detail.get("documentosRequeridos")).isEmpty());
     }

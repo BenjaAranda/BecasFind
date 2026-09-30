@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 
-const scholarship = (name = 'Beca de prueba', close = '2030-01-01') => ({ idBeca: 1, nombre: name,
+const scholarship = (name = 'Beca de prueba', close = '2030-01-01') => ({ idBeca: "00000000-0000-4000-8000-000000000001", nombre: name,
   estadoActiva: true, descripcionCorta: 'Una oportunidad para estudiar', montoCobertura: '$100.000',
   fechaCierrePostulacion: close, nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel', nombreRegion: 'Nacional', urlOficial: 'https://example.com/becas' });
 const response = (name?: string, close?: string, page = 0, size = 12) => ({ status: 200, data: {
@@ -91,12 +91,12 @@ test('volver del detalle restaura texto y página desde la URL', async ({ page }
     pages.push(body.page);
     return route.fulfill({ json: response('Beca de prueba', undefined, body.page, body.size) });
   });
-  await page.route('**/api/becas/1', route => route.fulfill({ json: { data: {
+  await page.route('**/api/becas/00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: {
     ...scholarship(), fechaInicioPostulacion: '2029-01-01', descripcionLarga: '', regiones: [], documentosRequeridos: [],
   } } }));
   await page.goto('/explorar?q=guardado&page=2');
   await page.getByRole('button', { name: 'Beca de prueba', exact: true }).click();
-  await expect(page).toHaveURL(/\/becas\/1$/);
+  await expect(page).toHaveURL(/\/becas\/00000000-0000-4000-8000-000000000001$/);
   await page.getByRole('button', { name: 'Volver', exact: true }).click();
   await expect(page.getByLabel('Buscar', { exact: true })).toHaveValue('guardado');
   await expect.poll(() => pages.at(-1)).toBe(2);

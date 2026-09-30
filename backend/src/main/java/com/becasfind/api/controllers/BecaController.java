@@ -1,6 +1,8 @@
 package com.becasfind.api.controllers;
 
 import com.becasfind.api.models.dtos.ApiResponse;
+import com.becasfind.api.models.dtos.PublicBecaDTO;
+import com.becasfind.api.models.dtos.PublicBecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
@@ -47,23 +49,23 @@ public class BecaController {
     }
 
     @GetMapping
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> findAll(
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> findAll(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
         Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, null, null, null, null, null, pageable);
-        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recuperadas exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Becas recuperadas exitosamente"));
     }
 
     @GetMapping("/recomendadas")
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> recomendar(
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> recomendar(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size,
             Principal principal) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
         Page<BecaDTO> becas = becaService.recomendarBecas(principal.getName(), pageable);
-        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recomendadas para tu perfil"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Becas recomendadas para tu perfil"));
     }
 
     @GetMapping("/administracion")
@@ -84,13 +86,18 @@ public class BecaController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ApiResponse<BecaDetailDTO>> findById(@PathVariable Long id) {
-        BecaDetailDTO beca = becaService.findById(id);
-        return ResponseEntity.ok(ApiResponse.success(beca, "Beca encontrada exitosamente"));
+    public ResponseEntity<ApiResponse<PublicBecaDetailDTO>> findById(@PathVariable java.util.UUID id) {
+        return ResponseEntity.ok(ApiResponse.success(PublicBecaDetailDTO.from(becaService.findByPublicId(id)), "Beca encontrada exitosamente"));
+    }
+
+    @GetMapping("/administracion/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<ApiResponse<BecaDetailDTO>> findAdminById(@PathVariable Long id) {
+        return ResponseEntity.ok(ApiResponse.success(becaService.findById(id), "Beca encontrada exitosamente"));
     }
 
     @PostMapping("/buscar")
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> buscar(@Valid @RequestBody BecaSearchRequest request) {
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> buscar(@Valid @RequestBody BecaSearchRequest request) {
         PageRequest pageable = PageRequest.of(
                 request.getPage() != null ? request.getPage() : 0,
                 request.getSize() != null ? request.getSize() : 10
@@ -106,7 +113,7 @@ public class BecaController {
                 request.getSort(),
                 pageable
         );
-        return ResponseEntity.ok(ApiResponse.success(becas, "Busqueda completada exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Busqueda completada exitosamente"));
     }
 
     @PostMapping

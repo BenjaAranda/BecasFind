@@ -12,6 +12,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BecaRepository extends JpaRepository<Beca, Long>, JpaSpecificationExecutor<Beca> {
 
+    java.util.Optional<Beca> findByPublicId(java.util.UUID publicId);
+
     @Query("SELECT DISTINCT b FROM Beca b " +
             "LEFT JOIN FETCH b.institucion i " +
             "LEFT JOIN FETCH b.tipoBeca tb " +

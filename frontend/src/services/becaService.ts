@@ -19,7 +19,7 @@ export const becaService = {
     });
   },
 
-  findById(id: number, signal?: AbortSignal) {
+  findById(id: string, signal?: AbortSignal) {
     return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`, { signal });
   },
 };

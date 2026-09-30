@@ -1,21 +1,21 @@
 import api from './api';
-import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
+import type { ApiResponse, AdminBecaSummary, AdminBecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
 
 export const adminService = {
   getBecas(page: number = 0, size: number = 20, query?: string, signal?: AbortSignal) {
-    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/administracion', { params: { page, size, query }, signal });
+    return api.get<ApiResponse<PageResponse<AdminBecaSummary>>>('/becas/administracion', { params: { page, size, query }, signal });
   },
 
   getBeca(id: number) {
-    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`);
+    return api.get<ApiResponse<AdminBecaDetail>>(`/becas/administracion/${id}`);
   },
 
   createBeca(data: Record<string, unknown>) {
-    return api.post<ApiResponse<BecaSummary>>('/becas', data);
+    return api.post<ApiResponse<AdminBecaSummary>>('/becas', data);
   },
 
   updateBeca(id: number, data: Record<string, unknown>) {
-    return api.put<ApiResponse<BecaSummary>>(`/becas/${id}`, data);
+    return api.put<ApiResponse<AdminBecaSummary>>(`/becas/${id}`, data);
   },
 
   deleteBeca(id: number) {

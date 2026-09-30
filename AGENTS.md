@@ -6,6 +6,12 @@
 
 ---
 
+## Decisiones autorizadas el 30 de septiembre de 2026
+
+- P01–P05 pueden ejecutarse secuencialmente en esta entrega por petición explícita del usuario.
+- Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
+- La política «Cero Vacíos» queda reemplazada: no inferir requisitos, documentos ni fechas. Conservar desconocidos; excluir de la búsqueda vigente las becas sin cierre confirmado. No convertir fechas históricas en confirmadas por su apariencia.
+
 ## 1. Estructura del Monorepo
 
 ```
@@ -322,7 +328,7 @@ Antes de dar por completada CUALQUIER fase, el agente debe:
 - **Doble Descripción**: Cada beca debe mapear dos columnas:
   - `descripcion` (corta): Resumen directo de máximo 2 líneas (qué financia y a quién va dirigida).
   - `descripcion_larga`: Texto exhaustivo con renovaciones, exclusiones, documentos requeridos típicos y proceso interno.
-- **Cero Vacíos**: Deducir requisitos de RSH, NEM o PAES usando conocimiento del sistema educativo chileno. Si la fecha de cierre es ambigua, usar por defecto `2026-12-31` para visibilidad continua.
+- **Cero Vacíos**: Conservar RSH, NEM, PAES, documentos y fechas desconocidos cuando no exista evidencia oficial. No usar fechas de cierre por defecto; una beca sin cierre confirmado queda fuera de los resultados vigentes.
 - **CSV sin comas en texto**: Los campos `descripcion` y `descripcion_larga` NO deben contener comas (`,`). Usar punto (`.`) o punto y coma (`;`) como separadores internos. Los campos que requieran comas deben ir entrecomillados (`"`).
 - **Política de URLs Profundas (Deep Linking)**: Queda estrictamente prohibido usar dominios raíz (ej. `www.universidad.cl/`). Toda beca debe apuntar a la subpágina pública específica donde se detallan sus requisitos (portal de Admisión, DAE, o Asuntos Estudiantiles). Si el sistema web dificulta encontrarla, usar `site:universidad.cl "becas"` en Google.
 - **Documentación Requerida Obligatoria**: Toda beca debe incluir en su `descripcion_larga` una sección `DOCUMENTOS REQUERIDOS:` con cada ítem precedido por `[OBLIGATORIO]` o `[OPCIONAL]`. El frontend parsea automáticamente estos marcadores y los muestra en una sección visual separada con indicadores de color (rojo = obligatorio, ámbar = opcional).

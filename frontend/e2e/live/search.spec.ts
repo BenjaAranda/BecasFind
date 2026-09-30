@@ -17,7 +17,7 @@ test('búsqueda real combina RSH NEM región tipo y orden y muestra ausencia de 
     regionId: 2, idTipoBeca: 1, sort: 'fechaDesc', page: 0, size: 12 });
   const result = (await response.json()).data;
   expect(result.totalElements).toBe(2);
-  expect(result.content.map((beca: { idBeca: number }) => beca.idBeca)).toEqual([1, 3]);
+  expect(result.content.map((beca: { nombre: string }) => beca.nombre)).toEqual(["Beca Nuevo Milenio", "Beca PUCV Arancel"]);
   await expect(page.getByRole('heading', { name: '2 becas encontradas', exact: true })).toBeVisible();
   const titles = page.getByRole('button', { name: /^Beca (Nuevo Milenio|PUCV Arancel)$/ });
   await expect(titles).toHaveText(['Beca Nuevo Milenio', 'Beca PUCV Arancel']);
@@ -34,7 +34,7 @@ test('búsqueda real combina RSH NEM región tipo y orden y muestra ausencia de 
   await page.getByLabel('RSH (%)').fill('60');
   await page.getByLabel('Tu promedio NEM').fill('5.4');
   await page.getByRole('button', { name: 'Buscar Becas', exact: true }).click();
-  expect((await (await nemFiltered).json()).data.content.map((beca: { idBeca: number }) => beca.idBeca)).toEqual([1]);
+  expect((await (await nemFiltered).json()).data.content.map((beca: { nombre: string }) => beca.nombre)).toEqual(["Beca Nuevo Milenio"]);
   await expect(page.getByRole('heading', { name: '1 beca encontrada', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Beca Nuevo Milenio', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Beca PUCV Arancel', exact: true })).toHaveCount(0);

@@ -2,6 +2,8 @@ package com.becasfind.api.controllers;
 
 import com.becasfind.api.models.dtos.ApiResponse;
 import com.becasfind.api.models.dtos.BecaDTO;
+import com.becasfind.api.models.dtos.PublicBecaDTO;
+import com.becasfind.api.services.BecaService;
 import com.becasfind.api.services.FavoritoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -20,36 +22,38 @@ import java.util.List;
 public class FavoritoController {
 
     private final FavoritoService favoritoService;
+    private final BecaService becaService;
 
-    public FavoritoController(FavoritoService favoritoService) {
+    public FavoritoController(FavoritoService favoritoService, BecaService becaService) {
         this.favoritoService = favoritoService;
+        this.becaService = becaService;
     }
 
     @GetMapping
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<List<BecaDTO>>> listar(Principal principal) {
+    public ResponseEntity<ApiResponse<List<PublicBecaDTO>>> listar(Principal principal) {
         List<BecaDTO> favoritos = favoritoService.listar(principal.getName());
-        return ResponseEntity.ok(ApiResponse.success(favoritos, "Favoritos recuperados exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(favoritos.stream().map(PublicBecaDTO::from).toList(), "Favoritos recuperados exitosamente"));
     }
 
     @PostMapping("/{idBeca}")
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<Void>> guardar(@PathVariable Long idBeca, Principal principal) {
-        favoritoService.guardar(principal.getName(), idBeca);
+    public ResponseEntity<ApiResponse<Void>> guardar(@PathVariable java.util.UUID idBeca, Principal principal) {
+        favoritoService.guardar(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
         return ResponseEntity.ok(ApiResponse.success(null, "Beca guardada en favoritos"));
     }
 
     @DeleteMapping("/{idBeca}")
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<Void>> eliminar(@PathVariable Long idBeca, Principal principal) {
-        favoritoService.eliminar(principal.getName(), idBeca);
+    public ResponseEntity<ApiResponse<Void>> eliminar(@PathVariable java.util.UUID idBeca, Principal principal) {
+        favoritoService.eliminar(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
         return ResponseEntity.ok(ApiResponse.success(null, "Beca eliminada de favoritos"));
     }
 
     @GetMapping("/{idBeca}/check")
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<java.util.Map<String, Boolean>>> check(@PathVariable Long idBeca, Principal principal) {
-        boolean esFavorito = favoritoService.isFavorito(principal.getName(), idBeca);
+    public ResponseEntity<ApiResponse<java.util.Map<String, Boolean>>> check(@PathVariable java.util.UUID idBeca, Principal principal) {
+        boolean esFavorito = favoritoService.isFavorito(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
         return ResponseEntity.ok(ApiResponse.success(
                 java.util.Map.of("favorito", esFavorito),
                 "Estado de favorito consultado"

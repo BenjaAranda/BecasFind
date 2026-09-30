@@ -79,7 +79,7 @@ export interface Cobertura {
 
 export interface BecaSummary {
   estadoActiva: boolean;
-  idBeca: number;
+  idBeca: string;
   nombre: string;
   descripcionCorta: string;
   montoCobertura: string;
@@ -92,7 +92,7 @@ export interface BecaSummary {
 }
 
 export interface BecaDetail {
-  idBeca: number;
+  idBeca: string;
   nombre: string;
   descripcionCorta: string;
   descripcionLarga: string;
@@ -160,3 +160,6 @@ export interface ImportResult {
   errores: number;
   mensajesError: string[];
 }
+
+export interface AdminBecaSummary extends Omit<BecaSummary, "idBeca"> { idBeca: number }
+export interface AdminBecaDetail extends Omit<BecaDetail, "idBeca"> { idBeca: number }

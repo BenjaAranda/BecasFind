@@ -33,9 +33,9 @@ export default function SearchPage() {
   const [error, setError] = useState('');
   const [requestVersion, setRequestVersion] = useState(0);
   const urgent = useRef(true);
-  const [favIds, setFavIds] = useState<Set<number>>(new Set());
-  const pendingFavoriteIds = useRef(new Set<number>());
-  const [pendingFavorites, setPendingFavorites] = useState<Set<number>>(new Set());
+  const [favIds, setFavIds] = useState<Set<string>>(new Set());
+  const pendingFavoriteIds = useRef(new Set<string>());
+  const [pendingFavorites, setPendingFavorites] = useState<Set<string>>(new Set());
   const [favoriteError, setFavoriteError] = useState('');
 
   useEffect(() => {
@@ -102,7 +102,7 @@ export default function SearchPage() {
     setRequestVersion(value => value + 1);
   };
 
-  const handleToggleFavorito = async (idBeca: number) => {
+  const handleToggleFavorito = async (idBeca: string) => {
     if (pendingFavoriteIds.current.has(idBeca)) return;
     pendingFavoriteIds.current.add(idBeca);
     setPendingFavorites(new Set(pendingFavoriteIds.current));

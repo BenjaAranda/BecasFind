@@ -47,20 +47,20 @@ class ProfilePersistenceTest extends BaseTest {
     @Test void favoritesAreIdempotentPersistentAndIsolatedByAccount() {
         String student = studentToken();
         String admin = adminToken();
-        delete("/api/favoritos/1", student);
-        delete("/api/favoritos/1", admin);
+        delete("/api/favoritos/" + publicScholarshipId(1), student);
+        delete("/api/favoritos/" + publicScholarshipId(1), admin);
         for (int i = 0; i < 2; i++) {
-            assertEquals(200, post("/api/favoritos/1", student, null, Map.class).getStatusCode().value());
+            assertEquals(200, post("/api/favoritos/" + publicScholarshipId(1), student, null, Map.class).getStatusCode().value());
         }
-        var check = get("/api/favoritos/1/check", student, Map.class);
+        var check = get("/api/favoritos/" + publicScholarshipId(1) + "/check", student, Map.class);
         assertEquals(true, ((Map<?, ?>) check.getBody().get("data")).get("favorito"));
         List<?> favorites = (List<?>) get("/api/favoritos", student, Map.class).getBody().get("data");
-        assertEquals(1, favorites.stream().filter(item -> Integer.valueOf(1).equals(((Map<?, ?>) item).get("idBeca"))).count());
-        check = get("/api/favoritos/1/check", admin, Map.class);
+        assertEquals(1, favorites.stream().filter(item -> publicScholarshipId(1).equals(((Map<?, ?>) item).get("idBeca"))).count());
+        check = get("/api/favoritos/" + publicScholarshipId(1) + "/check", admin, Map.class);
         assertEquals(false, ((Map<?, ?>) check.getBody().get("data")).get("favorito"));
-        assertEquals(200, delete("/api/favoritos/1", student).getStatusCode().value());
-        assertEquals(200, delete("/api/favoritos/1", student).getStatusCode().value());
-        check = get("/api/favoritos/1/check", student, Map.class);
+        assertEquals(200, delete("/api/favoritos/" + publicScholarshipId(1), student).getStatusCode().value());
+        assertEquals(200, delete("/api/favoritos/" + publicScholarshipId(1), student).getStatusCode().value());
+        check = get("/api/favoritos/" + publicScholarshipId(1) + "/check", student, Map.class);
         assertEquals(false, ((Map<?, ?>) check.getBody().get("data")).get("favorito"));
     }
 

@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 
 const profile = { rshPorcentaje: 0, nemPromedio: 5.5, region: { idRegion: 1 }, institucion: { idInstitucion: 1 }, carreraInteres: 'Educación', esPrimerAnio: true, esCursoSuperior: false };
-const beca = { idBeca: 1, nombre: 'Beca de educación', estadoActiva: true, descripcionCorta: 'Apoyo para estudiar', montoCobertura: '$100.000', fechaCierrePostulacion: '2030-12-31', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel', nombreRegion: 'Nacional' };
+const beca = { idBeca: "00000000-0000-4000-8000-000000000001", nombre: 'Beca de educación', estadoActiva: true, descripcionCorta: 'Apoyo para estudiar', montoCobertura: '$100.000', fechaCierrePostulacion: '2030-12-31', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel', nombreRegion: 'Nacional' };
 async function prepare(page: Page) {
   const token = `e30.${Buffer.from(JSON.stringify({ sub: 'student@example.com', role: 'STUDENT', nombre: 'Estudiante', exp: 4_000_000_000 })).toString('base64url')}.test`;
   await page.addInitScript(token => localStorage.setItem('token', token), token);
@@ -115,7 +115,7 @@ test('fallo al cargar favoritos no se presenta como lista vacía', async ({ page
 test('quitar favorito fallido conserva tarjeta y reintento exitoso muestra estado vacío', async ({ page }) => {
   await prepare(page);
   let calls = 0;
-  await page.route('**/api/favoritos/1', route => ++calls === 1 ? route.fulfill({ status: 500, json: {} }) : route.fulfill({ json: { data: null } }));
+  await page.route('**/api/favoritos/00000000-0000-4000-8000-000000000001', route => ++calls === 1 ? route.fulfill({ status: 500, json: {} }) : route.fulfill({ json: { data: null } }));
   await page.goto('/favoritos');
   await page.getByRole('button', { name: 'Quitar de favoritos' }).click();
   await expect(page.getByRole('alert')).toContainText('Sigue guardada');

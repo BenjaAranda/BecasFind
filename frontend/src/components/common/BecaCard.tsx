@@ -4,9 +4,9 @@ import { formatCalendarDate, isClosingDateExpired } from '../../utils/dates';
 
 interface BecaCardProps {
   beca: BecaSummary;
-  onClick: (id: number) => void;
+  onClick: (id: string) => void;
   isFavorito?: boolean;
-  onToggleFavorito?: (id: number) => void;
+  onToggleFavorito?: (id: string) => void;
   favoritoPending?: boolean;
 }
 

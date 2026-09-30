@@ -19,6 +19,9 @@ public class BecaDetailDTO {
 
     private Long idBeca;
 
+    @com.fasterxml.jackson.annotation.JsonIgnore
+    private java.util.UUID publicId;
+
     private String nombre;
 
     private String descripcionCorta;

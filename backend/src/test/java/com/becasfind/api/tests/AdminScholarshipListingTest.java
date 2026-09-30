@@ -33,7 +33,7 @@ class AdminScholarshipListingTest extends BaseTest {
             var publicResult = get("/api/becas?size=100", null, Map.class);
             var publicData = (Map<?, ?>) publicResult.getBody().get("data");
             var publicRows = (List<Map<String, Object>>) publicData.get("content");
-            assertFalse(publicRows.stream().anyMatch(row -> ((Number) row.get("idBeca")).longValue() == 1));
+            assertFalse(publicRows.stream().anyMatch(row -> publicScholarshipId(1).equals(row.get("idBeca"))));
         } finally {
             jdbc.update("UPDATE becas SET estado_activa = ?, fecha_cierre_postulacion = ? WHERE id_beca = 1",
                     previous.get("estado_activa"), previous.get("fecha_cierre_postulacion"));

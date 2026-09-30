@@ -8,7 +8,7 @@ test('panel consulta el endpoint administrativo y muestra becas inactivas', asyn
     const url = new URL(route.request().url());
     queries.push(url.searchParams.get('query') || '');
     await route.fulfill({ json: { status: 200, data: {
-      content: [{ idBeca: 1, nombre: 'Beca inactiva de prueba', estadoActiva: false,
+      content: [{ idBeca: "00000000-0000-4000-8000-000000000001", nombre: 'Beca inactiva de prueba', estadoActiva: false,
         fechaCierrePostulacion: '2020-01-01', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel' }],
       number: 0, totalPages: 1, totalElements: 1,
     } } });

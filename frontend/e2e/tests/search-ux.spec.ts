@@ -1,9 +1,9 @@
 import { test, expect, type Page } from '@playwright/test';
 
 const scholarships = [
-  { idBeca: 1, nombre: 'Beca de alimentación Ñuble', descripcionCorta: 'Apoyo para alimentación.', estadoActiva: true,
+  { idBeca: "00000000-0000-4000-8000-000000000001", nombre: 'Beca de alimentación Ñuble', descripcionCorta: 'Apoyo para alimentación.', estadoActiva: true,
     montoCobertura: '$100.000', fechaCierrePostulacion: '2030-12-31', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Alimentación', nombreRegion: 'Ñuble' },
-  { idBeca: 2, nombre: 'Beca de matrícula nacional', descripcionCorta: 'Apoyo para matrícula.', estadoActiva: true,
+  { idBeca: "00000000-0000-4000-8000-000000000002", nombre: 'Beca de matrícula nacional', descripcionCorta: 'Apoyo para matrícula.', estadoActiva: true,
     montoCobertura: '$200.000', fechaCierrePostulacion: '2030-11-30', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel', nombreRegion: 'Nacional' },
 ];
 

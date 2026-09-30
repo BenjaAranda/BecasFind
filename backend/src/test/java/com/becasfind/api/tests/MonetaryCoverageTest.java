@@ -129,7 +129,7 @@ class MonetaryCoverageTest extends BaseTest {
         long id = ((Number) data.get("idBeca")).longValue();
         try {
             assertEquals("9999999999999999.99", ((Map<?, ?>) data.get("cobertura")).get("importe"));
-            var detail = (Map<?, ?>) get("/api/becas/" + id, null, Map.class).getBody().get("data");
+            var detail = (Map<?, ?>) get("/api/becas/" + publicScholarshipId(id), null, Map.class).getBody().get("data");
             assertEquals("9999999999999999.99", ((Map<?, ?>) detail.get("cobertura")).get("importe"));
         } finally { delete("/api/becas/" + id, token); }
     }

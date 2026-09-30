@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const beca = { idBeca: 1, nombre: 'Beca de educación', estadoActiva: true,
+const beca = { idBeca: "00000000-0000-4000-8000-000000000001", nombre: 'Beca de educación', estadoActiva: true,
   fechaInicioPostulacion: '2026-01-01', fechaCierrePostulacion: '2026-12-31',
   descripcionCorta: 'Apoyo para estudiar', descripcionLarga: '', montoCobertura: '$100.000',
   urlOficial: 'https://example.com/becas', regiones: [], requisitoPerfil: null,
@@ -11,8 +11,8 @@ const beca = { idBeca: 1, nombre: 'Beca de educación', estadoActiva: true,
   ] };
 
 test('CP-61: detalle muestra documentos obligatorios y opcionales', async ({ page }) => {
-  await page.route('**/api/becas/1', route => route.fulfill({ json: { data: beca } }));
-  await page.goto('/becas/1');
+  await page.route('**/api/becas/00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: beca } }));
+  await page.goto('/becas/00000000-0000-4000-8000-000000000001');
   await expect(page.getByRole('heading', { name: beca.nombre, exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Documentos Requeridos' })).toBeVisible();
   const required = page.getByRole('listitem').filter({ hasText: 'Certificado de matrícula' });
@@ -22,10 +22,10 @@ test('CP-61: detalle muestra documentos obligatorios y opcionales', async ({ pag
 });
 
 test('CP-62: detalle identifica una beca vencida', async ({ page }) => {
-  await page.route('**/api/becas/6', route => route.fulfill({ json: { data: {
-    ...beca, idBeca: 6, fechaCierrePostulacion: '2024-03-01',
+  await page.route('**/api/becas/00000000-0000-4000-8000-000000000006', route => route.fulfill({ json: { data: {
+    ...beca, idBeca: "00000000-0000-4000-8000-000000000006", fechaCierrePostulacion: '2024-03-01',
   } } }));
-  await page.goto('/becas/6');
+  await page.goto('/becas/00000000-0000-4000-8000-000000000006');
   await expect(page.getByRole('heading', { name: beca.nombre, exact: true })).toBeVisible();
   await expect(page.getByText('Vencida', { exact: true })).toBeVisible();
   await expect(page.getByText('Vigente', { exact: true })).toHaveCount(0);

@@ -162,6 +162,14 @@ public class BecaServiceImpl implements BecaService {
     }
 
     @Override
+    @Transactional(readOnly = true)
+    public BecaDetailDTO findByPublicId(java.util.UUID id) {
+        Beca beca = becaRepository.findByPublicId(id)
+                .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada"));
+        return toBecaDetailDTO(beca);
+    }
+
+    @Override
     @Transactional
     public BecaDTO create(Long userId, BecaRequest request) {
         validateCoverage(request.getCobertura());
@@ -328,6 +336,7 @@ public class BecaServiceImpl implements BecaService {
     private BecaDTO toBecaDTO(Beca beca) {
         return BecaDTO.builder()
                 .idBeca(beca.getIdBeca())
+                .publicId(beca.getPublicId())
                 .nombre(beca.getNombre())
                 .estadoActiva(beca.getEstadoActiva())
                 .descripcionCorta(beca.getDescripcionCorta())
@@ -407,6 +416,7 @@ public class BecaServiceImpl implements BecaService {
 
         return BecaDetailDTO.builder()
                 .idBeca(beca.getIdBeca())
+                .publicId(beca.getPublicId())
                 .nombre(beca.getNombre())
                 .descripcionCorta(beca.getDescripcionCorta())
                 .descripcionLarga(beca.getDescripcionLarga())

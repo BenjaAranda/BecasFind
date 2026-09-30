@@ -22,7 +22,7 @@ class StudentFeaturesTest extends BaseTest {
     void addFavorito() {
         var token = studentToken();
         assertNotNull(token, "Student login failed");
-        var res = post("/api/favoritos/1", token, null, Map.class);
+        var res = post("/api/favoritos/" + publicScholarshipId(1), token, null, Map.class);
         assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 201);
     }
 
@@ -30,16 +30,16 @@ class StudentFeaturesTest extends BaseTest {
     void removeFavorito() {
         var token = studentToken();
         assertNotNull(token);
-        post("/api/favoritos/1", token, null, Map.class);
-        var res = delete("/api/favoritos/1", token);
+        post("/api/favoritos/" + publicScholarshipId(1), token, null, Map.class);
+        var res = delete("/api/favoritos/" + publicScholarshipId(1), token);
         assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 204);
     }
 
     @Test @DisplayName("CP-34: Verificar estado de favorito")
     void checkFavorito() {
         var token = studentToken(); assertNotNull(token);
-        post("/api/favoritos/2", token, null, Map.class);
-        var res = get("/api/favoritos/2/check", token, Map.class);
+        post("/api/favoritos/" + publicScholarshipId(2), token, null, Map.class);
+        var res = get("/api/favoritos/" + publicScholarshipId(2) + "/check", token, Map.class);
         assertEquals(200, res.getStatusCodeValue());
         var data = (Map)res.getBody().get("data");
         assertNotNull(data);
@@ -48,7 +48,7 @@ class StudentFeaturesTest extends BaseTest {
     @Test @DisplayName("CP-35: Listar favoritos")
     void listFavoritos() {
         var token = studentToken(); assertNotNull(token);
-        post("/api/favoritos/1", token, null, Map.class);
+        post("/api/favoritos/" + publicScholarshipId(1), token, null, Map.class);
         var res = get("/api/favoritos", token, Map.class);
         assertEquals(200, res.getStatusCodeValue());
     }

@@ -104,7 +104,7 @@ async function setup(page: Page) {
     const path = new URL(route.request().url()).pathname;
     let data: unknown = [];
     if (path.endsWith('/administracion')) data = { content: [summary], totalPages: 1, totalElements: 101, number: 0 };
-    if (path.endsWith('/becas/1')) data = detail;
+    if (path.endsWith('/becas/administracion/1')) data = detail;
     if (path.endsWith('/regiones')) data = [{ idRegion: 1, nombre: 'Ñuble' }];
     if (path.endsWith('/tipos-beca')) data = [{ idTipoBeca: 1, nombre: 'Arancel' }];
     if (path.endsWith('/instituciones')) data = [{ idInstitucion: 1, nombre: 'Institución de prueba' }];

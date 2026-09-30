@@ -28,7 +28,7 @@ class SecurityAccessTest extends BaseTest {
         assertTrue(get("/api/regiones", null, Map.class).getStatusCodeValue() == 200);
         assertTrue(get("/api/tipos-beca", null, Map.class).getStatusCodeValue() == 200);
         assertTrue(get("/api/instituciones", null, Map.class).getStatusCodeValue() == 200);
-        assertTrue(get("/api/becas/1", null, Map.class).getStatusCodeValue() == 200);
+        assertTrue(get("/api/becas/" + publicScholarshipId(1), null, Map.class).getStatusCodeValue() == 200);
     }
 
     @Test @DisplayName("CP-64: Cerrar sesion y verificar bloqueo")

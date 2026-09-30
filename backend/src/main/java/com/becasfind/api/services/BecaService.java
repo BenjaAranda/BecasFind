@@ -18,6 +18,8 @@ public interface BecaService {
 
     BecaDetailDTO findById(Long id);
 
+    BecaDetailDTO findByPublicId(java.util.UUID id);
+
     BecaDTO create(Long userId, BecaRequest request);
 
     BecaDTO update(Long id, BecaRequest request);

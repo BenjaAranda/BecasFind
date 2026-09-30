@@ -12,19 +12,19 @@ class BecaDetailAdminTest extends BaseTest {
 
     @Test @DisplayName("CP-28: Ver detalle beca ID valido")
     void detailValidId() {
-        var res = get("/api/becas/1", null, Map.class);
+        var res = get("/api/becas/" + publicScholarshipId(1), null, Map.class);
         assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-29: Ver detalle beca ID inexistente")
     void detailInvalidId() {
-        var res = get("/api/becas/99999", null, Map.class);
+        var res = get("/api/becas/" + publicScholarshipId(99999), null, Map.class);
         assertNotEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-61: Documentos requeridos en detalle")
     void detailDocuments() {
-        var res = get("/api/becas/1", null, Map.class);
+        var res = get("/api/becas/" + publicScholarshipId(1), null, Map.class);
         var data = (Map)res.getBody().get("data");
         var docs = (List)data.get("documentosRequeridos");
         assertNotNull(docs);
@@ -32,7 +32,7 @@ class BecaDetailAdminTest extends BaseTest {
 
     @Test @DisplayName("CP-62: Indicador beca vencida")
     void detailExpiredBadge() {
-        var res = get("/api/becas/6", null, Map.class);
+        var res = get("/api/becas/" + publicScholarshipId(6), null, Map.class);
         assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 404);
     }
 

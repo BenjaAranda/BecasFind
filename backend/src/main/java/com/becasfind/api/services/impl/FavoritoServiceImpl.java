@@ -100,6 +100,7 @@ public class FavoritoServiceImpl implements FavoritoService {
                     return BecaDTO.builder()
                             .estadoActiva(b.getEstadoActiva())
                             .idBeca(b.getIdBeca())
+                            .publicId(b.getPublicId())
                             .nombre(b.getNombre())
                             .descripcionCorta(b.getDescripcionCorta())
                             .montoCobertura(b.getMontoCobertura())

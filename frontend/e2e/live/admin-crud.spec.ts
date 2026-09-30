@@ -86,13 +86,13 @@ test('administrador crea edita y elimina beca con persistencia real', async ({ p
   await page.getByRole('button', { name: 'Quitar datos confirmados' }).click();
   await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);
-  const cleared = await page.request.get(`${api}/api/becas/${id}`, { headers });
+  const cleared = await page.request.get(`${api}/api/becas/administracion/${id}`, { headers });
   expect((await cleared.json()).data.cobertura.tipo).toBe('DESCONOCIDA');
   await page.getByRole('button', { name: 'Eliminar Beca de educación CRUD actualizada' }).click();
   await page.getByRole('dialog').getByRole('button', { name: 'Eliminar', exact: true }).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);
   await expect(page.getByText('Beca de educación CRUD actualizada', { exact: true })).toHaveCount(0);
-  expect((await page.request.get(`${api}/api/becas/${id}`, { headers })).status()).toBe(404);
+  expect((await page.request.get(`${api}/api/becas/administracion/${id}`, { headers })).status()).toBe(404);
 });
 
 test('crear y desactivar usuario bloquea su sesión existente y nuevos accesos', async ({ page }) => {

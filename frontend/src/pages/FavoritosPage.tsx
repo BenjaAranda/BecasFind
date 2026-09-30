@@ -14,8 +14,8 @@ export default function FavoritosPage() {
   const [writeError, setWriteError] = useState('');
   const [status, setStatus] = useState('');
   const [retry, setRetry] = useState(0);
-  const inFlight = useRef(new Set<number>());
-  const [pending, setPending] = useState<Set<number>>(new Set());
+  const inFlight = useRef(new Set<string>());
+  const [pending, setPending] = useState<Set<string>>(new Set());
   useEffect(() => {
     let active = true;
     const controller = new AbortController();
@@ -25,7 +25,7 @@ export default function FavoritosPage() {
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; controller.abort(); };
   }, [retry]);
-  const remove = async (id: number) => {
+  const remove = async (id: string) => {
     if (inFlight.current.has(id)) return;
     inFlight.current.add(id); setPending(new Set(inFlight.current)); setWriteError(''); setStatus('');
     try {

@@ -34,5 +34,12 @@ DO $$ BEGIN
         RAISE EXCEPTION 'Importe sin moneda aceptado';
     EXCEPTION WHEN check_violation THEN NULL; END;
 END $$;
+\ir migrations/003_public_scholarship_ids.sql
+CREATE TABLE public_ids_before AS SELECT id_beca, public_id FROM becas;
+\ir migrations/003_public_scholarship_ids.sql
+DO $$ BEGIN
+    IF EXISTS (SELECT 1 FROM becas b JOIN public_ids_before p USING(id_beca) WHERE b.public_id <> p.public_id)
+       OR (SELECT count(DISTINCT public_id) FROM becas) <> 4 THEN RAISE EXCEPTION 'UUID públicos no estables o repetidos'; END IF;
+END $$;
 RESET search_path;
 DROP SCHEMA coverage_migration_verify CASCADE;

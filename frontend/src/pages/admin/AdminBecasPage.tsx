@@ -1,13 +1,13 @@
 import AdminDialog from '../../components/admin/AdminDialog';
 import { useState, useEffect, useRef } from 'react';
 import { adminService } from '../../services/adminService';
-import type { BecaSummary, ImportResult } from '../../types';
+import type { AdminBecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
 import { Plus, Edit, Trash2, ExternalLink, Upload, X, Search as SearchIcon } from 'lucide-react';
 import { formatCalendarDate } from '../../utils/dates';
 
 export default function AdminBecasPage() {
-  const [becas, setBecas] = useState<BecaSummary[]>([]);
+  const [becas, setBecas] = useState<AdminBecaSummary[]>([]);
   const [totalPages, setTotalPages] = useState(0);
   const [page, setPage] = useState(0);
   const [loading, setLoading] = useState(true);

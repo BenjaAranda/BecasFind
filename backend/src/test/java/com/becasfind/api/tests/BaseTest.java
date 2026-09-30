@@ -13,6 +13,13 @@ import java.util.Map;
 @ActiveProfiles("test")
 @org.springframework.test.context.TestPropertySource(properties = "AUTH_RATE_LIMIT_ENABLED=false")
 public abstract class BaseTest {
+    @Autowired
+    private org.springframework.jdbc.core.JdbcTemplate fixtureJdbc;
+
+    protected String publicScholarshipId(long internalId) {
+        var ids = fixtureJdbc.queryForList("select public_id from becas where id_beca=?", internalId);
+        return ids.isEmpty() ? new java.util.UUID(0, internalId).toString() : ids.get(0).get("public_id").toString();
+    }
     @org.springframework.test.context.bean.override.mockito.MockitoBean
     protected com.becasfind.api.services.ResetEmailService resetEmailService;
 

@@ -26,9 +26,8 @@ export default function BecaDetailPage() {
   useEffect(() => {
     let active = true;
     const controller = new AbortController();
-    const numericId = Number(id);
-    const request = Number.isSafeInteger(numericId) && numericId > 0
-      ? becaService.findById(numericId, controller.signal)
+    const request = id && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)
+      ? becaService.findById(id, controller.signal)
       : Promise.reject(new Error('Identificador inválido'));
     request.then(({ data }) => { if (active) { setBeca(data.data); setError(''); } })
       .catch(() => { if (active) { setBeca(null); setError('No pudimos abrir esta beca. El enlace puede no estar disponible o hubo un problema de conexión.'); } })

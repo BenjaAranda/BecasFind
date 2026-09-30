@@ -35,6 +35,10 @@ public class Beca {
     @Column(name = "id_beca")
     private Long idBeca;
 
+    @Column(name = "public_id", nullable = false, unique = true, updatable = false)
+    @org.hibernate.annotations.ColumnDefault("RANDOM_UUID()")
+    private java.util.UUID publicId = java.util.UUID.randomUUID();
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_institucion", nullable = false)
     private Institucion institucion;

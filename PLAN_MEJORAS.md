@@ -6,7 +6,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Siguiente tarea
 
-**P01 — FASE 10: edición administrativa de cobertura estructurada.** El modelo/backend está implementado, pero BecaForm solo permite editar el texto original. Después sigue P02, en FASE 9. Ejecutar una fase por petición, salvo autorización explícita como la dada para completar juntas FASES 1/2/5.
+**P04 — FASE 14: corpus e importación estructurada**, seguido de P05. El usuario autorizó completar P01–P05 en esta entrega.
 
 ## Hecho: no volver a abrir sin un hallazgo nuevo
 
@@ -25,13 +25,13 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Pendientes únicos y criterios de cierre
 
-Todas las filas están abiertas. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
+P01, P02 y P03 están completadas y verificadas. P04–P14 siguen abiertas. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
 
 | ID | Trabajo pendiente | Cierre verificable y dependencias |
 |---|---|---|
-| P01 | FASE 10 — editar cobertura en administración | Controles de tipo/importe/moneda/periodicidad/porcentaje, validación coherente, vaciado explícito, errores recuperables y persistencia tras recarga con PostgreSQL real. Preservar texto original y precisión decimal. |
-| P02 | FASE 9 — explicar orden monetario | Buscador explica grupos de moneda/periodicidad y desconocidos al final; etiquetas no prometen una comparación global ni conversiones. Verificar dirección/empates/páginas y móvil/teclado. Backend terminado; no rehacer P01. |
-| P03 | Resolver contrato de identificadores públicos | Acordar identificadores para búsqueda/detalle/favoritos y adaptar DTOs/enlaces en sus fases. El contrato prohíbe IDs internos en respuestas públicas, pero BecaDTO sigue usando idBeca. No confundir IDs administrativos con públicos. |
+| P01 | COMPLETADO — FASE 10 — editar cobertura en administración | Controles de tipo/importe/moneda/periodicidad/porcentaje, validación coherente, vaciado explícito, errores recuperables y persistencia tras recarga con PostgreSQL real. Preservar texto original y precisión decimal. |
+| P02 | COMPLETADO — FASE 9 — explicar orden monetario | Buscador explica grupos de moneda/periodicidad y desconocidos al final; etiquetas no prometen una comparación global ni conversiones. Verificar dirección/empates/páginas y móvil/teclado. Backend terminado; no rehacer P01. |
+| P03 | COMPLETADO — Resolver contrato de identificadores públicos | Acordar identificadores para búsqueda/detalle/favoritos y adaptar DTOs/enlaces en sus fases. El contrato prohíbe IDs internos en respuestas públicas, pero BecaDTO sigue usando idBeca. No confundir IDs administrativos con públicos. |
 | P04 | FASE 14 — corpus y metadatos de importación | Auditar fuentes oficiales, tildes, enlaces profundos, requisitos/documentos/fechas y duplicados de registros reales. Acordar representación de desconocidos antes de cambiar inferencia/fecha por defecto contractual. Enriquecer cobertura solo con evidencia e incorporar metadatos CSV validados sin romper formato antiguo. Toda calidad/enriquecimiento histórico vive aquí, no en P01/P02. |
 | P05 | Concurrencia administrativa/importación y batch real | Probar CRUD y catálogos/importaciones simultáneos, conflictos/rollback y batch INSERT efectivo con PostgreSQL. Medir resultados y corregir fallos por fase. Perfil/favoritos y atomicidad CSV ya cerrados; no repetirlos como pendientes generales. |
 | P06 | Trazabilidad de requisitos y cobertura funcional restante | Leer Office de requisitos/planilla/casos, mapear requisito a prueba y registrar brechas. Ampliar detalle/fuente y límites faltantes. Los ocho recorridos reales existentes son regresiones aprobadas, no trabajo nuevo. Recuperación con bandeja real pertenece a P09; nuevas funciones exigen alcance concreto. |
@@ -70,3 +70,7 @@ Resultados del cierre de FASES 1/2/5 del 30 de septiembre, no pruebas repetidas 
 - Batch/concurrencia se delimitan en P05; carga/búsqueda/frontend en P08, sin dos tareas para la misma medición.
 - CI, aplicación de esquema, vista previa, operación y publicación se separan en P10–P14 con criterios distintos; no repetir «desplegar» en todas las filas.
 - Historial y propuestas A–G se archivaron íntegros para evitar reabrir login, búsqueda, errores, usuarios y modelo monetario ya cerrados.
+
+### Verificación de P01–P03
+
+163 pruebas backend H2, tres pruebas de UUID con PostgreSQL/DDL real, 98 casos Chromium controlados y ocho recorridos con PostgreSQL/backend prod aprobados. Migración 003 repetida y estabilidad/unicidad de UUID comprobadas. P01 permite crear, editar, vaciar y recargar cobertura exacta. P02 explica grupos y se verificó con teclado a 390/1280 px. P03 usa UUID públicos y mantiene números en administración; favoritos y permisos están cubiertos. Migraciones 002/003 pendientes de aplicar en las bases del usuario (P11).
