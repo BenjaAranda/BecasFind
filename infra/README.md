@@ -158,3 +158,9 @@ Acceso/registro y navegación pública/administrativa renovados sin dependencias
 Buscador, filtros y tarjetas renovados; filtros plegables en móvil y eliminación individual de texto/RSH/NEM. Detalle comparte navegación y ofrece error/reintento, con cancelación de peticiones y vuelta segura al buscador desde un enlace directo. Favoritos fallidos informan y revierten su estado; bloquean escrituras simultáneas por beca. Parser de documentos acepta ítems solo opcionales y separa líneas/marcadores.
 
 Se aprobaron 54 casos Chromium distintos con API controlada durante esta fase; los 19 de buscador/detalle se ejecutaron después del cambio final en favoritos. Desde frontend: `npx playwright test search-design search-state beca-detail --workers=1`. Build, revisión estática y `mvn compile` aprobados; capturas a 390 y 1280 px revisadas. Sin backend ni datos modificados. Correo, integración real y despliegue continúan pendientes.
+
+### Portada — FASE 11
+
+Portada renovada con acciones distintas según sesión. El buscador sigue protegido; se informa que necesita cuenta. Retiradas cifras/promesas sin respaldo y explicados criterios reales y límites de recomendaciones. Enlace para saltar al contenido comprobado con teclado; cuatro anchos 360/390/768/1440 px sin desbordamiento y capturas revisadas.
+
+`npx playwright test landing-design navigation-auth-design auth-session password-recovery --workers=1` aprobó 32 casos con respuestas controladas. Lint global, build y mvn compile aprobados. Sin nuevas dependencias, datos ni backend modificados; correo real y despliegue siguen pendientes.

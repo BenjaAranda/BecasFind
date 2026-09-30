@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de la FASE 9. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de la renovación de portada en FASE 11. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -24,13 +24,14 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Cerrar revisión estática global sin desactivar reglas: cero errores y cero advertencias.
 - [x] Renovar acceso, registro y navegación pública/administrativa con controles accesibles y adaptación móvil.
 - [x] Renovar buscador, filtros plegables, tarjetas y detalle; mostrar errores/reintento y corregir navegación directa y documentos opcionales.
+- [x] Renovar portada y retirar cifras/promesas sin respaldo; explicar acceso con cuenta, límites de recomendaciones y consulta de fuente oficial. Comprobar acciones por sesión, teclado y adaptación 360–1440 px.
 - [x] Bloquear escrituras simultáneas de favoritos por beca, revertir fallos y anunciarlos en resultados.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
 
 ### Pendiente, en orden de trabajo
 
-1. [ ] **Próxima: FASE 11 — portada.** Renovar diseño y textos; retirar cifras/promesas sin respaldo y comprobar enlaces/recorridos móviles.
-2. [ ] **FASE 12 — perfil y favoritos.** Completar revisión funcional, validación de datos y diseño; comprobar guardar/cargar perfil, recomendaciones y pantalla de favoritos con fallos y navegación reales.
+1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
+2. [ ] **Próxima: FASE 12 — perfil y favoritos.** Completar revisión funcional, validación de datos y diseño; comprobar guardar/cargar perfil, recomendaciones y pantalla de favoritos con fallos y navegación reales.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
 4. [ ] **FASES 2/5/6/10, por separado — administración.** Endurecer validaciones del servidor y políticas de borrado/desactivación; cerrar diseño interno y accesibilidad de modales.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
@@ -44,7 +45,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 ### Evidencia y límites actuales
 
 - Última suite completa backend registrada: **114 pruebas aprobadas**; doce casos CSV también verificados en PostgreSQL 17 temporal. Backend sin cambios en las últimas fases de diseño.
-- Última fase de navegador: **54 casos distintos aprobados con API controlada**; los 19 de buscador/detalle pasaron en la ejecución final tras el cambio de favoritos. Esto no equivale a integración completa ni correo real.
+- Última fase de navegador: **32 casos aprobados con API controlada** (siete nuevos de portada y 25 regresiones de sesión, navegación y recuperación). La fase anterior aprobó 54 casos distintos, incluidos los 19 de buscador/detalle en su cierre. Esto no equivale a integración completa ni correo real.
 - Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
@@ -340,3 +341,12 @@ Siguiente fase propuesta: FASE 9, renovar buscador, tarjetas, filtros y detalle.
 - Una ejecución intermedia agotó el tiempo al desplazar la página para cerrar filtros móviles. No se reprodujo en el caso aislado ni en la repetición completa final de los 19 casos (28 segundos); causa no confirmada. No se relajaron aserciones ni se forzaron clics para aprobar.
 
 Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/promesas con el comportamiento real. Mantener una fase por instrucción explícita.
+
+## Avance de implementación — FASE 11, portada
+
+- Portada editorial coherente con acceso/buscador: crema, verde petróleo y dorado, jerarquía tipográfica y explicación en tres pasos. Sin dependencias, imágenes ni fuentes externas nuevas.
+- Eliminadas afirmaciones de ser el primer motor, tener cientos de becas, cobertura comprobada de las 16 regiones y garantizar beneficios; no se anuncia un filtro de monto inexistente. Explica criterios reales de búsqueda/recomendación y consulta de convocatoria oficial.
+- Respeta acceso actual: buscador requiere sesión. Visitantes reciben acciones hacia registro/login; usuarios autenticados hacia búsqueda/perfil. No se modifican rutas protegidas ni se promete exploración anónima.
+- Enlace para saltar al contenido verificado con teclado, encabezados semánticos, iconos decorativos ocultos y controles con foco visible. Layout comprobado a 360/390/768/1440 px; capturas de escritorio/móvil revisadas sin desbordamiento.
+- Verificación: 32 pruebas Chromium aprobadas con API controlada (siete nuevas de portada, doce de sesión, seis de navegación/acceso y siete de recuperación). Lint global cero errores/advertencias, build frontend y mvn compile aprobados. Backend sin cambios; última suite completa permanece en 114 casos.
+- No activa envío real ni publica el sitio. To do actualizado; próxima FASE 12: perfil y favoritos, una fase por instrucción explícita.

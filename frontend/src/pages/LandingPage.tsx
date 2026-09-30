@@ -1,65 +1,72 @@
 import { Link } from 'react-router-dom';
 import PublicNavbar from '../components/layout/PublicNavbar';
-import { Search, UserCheck, MapPin } from 'lucide-react';
+import { useAuth } from '../context/useAuth';
+import { ArrowRight, Bookmark, Search, SlidersHorizontal, ArrowUpRight } from 'lucide-react';
+
+const steps = [
+  { number: '01', icon: Search, title: 'Explora tus opciones', text: 'Busca por nombre, institución, tipo de beca o región. Compara la cobertura y las fechas de postulación.' },
+  { number: '02', icon: SlidersHorizontal, title: 'Encuentra coincidencias', text: 'Completa tu RSH, promedio NEM y región para consultar recomendaciones basadas en esos datos.' },
+  { number: '03', icon: Bookmark, title: 'Guarda tu próximo paso', text: 'Organiza tus favoritas y consulta los requisitos, documentos y convocatoria oficial de cada beca.' },
+];
+const focus = 'focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#123f48]';
 
 export default function LandingPage() {
+  const { isAuthenticated } = useAuth();
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#f5f3ed] text-[#123f48]">
+      <a href="#landing-main" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white focus:p-3">Saltar al contenido</a>
       <PublicNavbar />
+      <main id="landing-main" tabIndex={-1}>
+        <section aria-labelledby="landing-title" className="max-w-7xl mx-auto px-5 sm:px-8 py-12 lg:py-20 grid lg:grid-cols-[1.2fr_1fr] gap-12 lg:gap-16 items-center">
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#46717a] mb-6">Becas y beneficios · Chile</p>
+            <h1 id="landing-title" className="font-serif text-5xl sm:text-6xl lg:text-7xl leading-[1.04] tracking-tight">Más caminos<br />para seguir<br /><span className="italic">estudiando.</span></h1>
+            <p className="max-w-lg mt-7 text-base sm:text-lg leading-relaxed text-slate-600">Un lugar para explorar oportunidades educativas, comparar requisitos y organizar las becas que te interesan.</p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <Link to={isAuthenticated ? '/explorar' : '/register'} className={`min-h-12 inline-flex items-center justify-between gap-6 bg-[#123f48] hover:bg-[#1a525c] text-white px-5 py-3 rounded-sm transition-colors ${focus}`}>
+                {isAuthenticated ? 'Explorar becas' : 'Crear mi cuenta'} <ArrowRight size={18} aria-hidden="true" />
+              </Link>
+              <Link to={isAuthenticated ? '/perfil' : '/login'} className={`min-h-12 inline-flex items-center justify-center px-3 underline underline-offset-4 rounded-sm ${focus}`}>
+                {isAuthenticated ? 'Completar mi perfil' : 'Ya tengo cuenta'}
+              </Link>
+            </div>
+            <p className="mt-4 text-sm text-slate-600">{isAuthenticated ? 'Tus favoritas y tu perfil acompañan tu búsqueda.' : 'Crea una cuenta o inicia sesión para usar el buscador y guardar favoritas.'}</p>
+          </div>
+          <div className="relative overflow-hidden bg-[#123f48] text-[#f5f3ed] p-7 sm:p-10 min-h-96 flex flex-col justify-between">
+            <div aria-hidden="true" className="absolute w-72 h-72 border border-white/15 rounded-full -right-28 -top-24" />
+            <p className="relative text-xs uppercase tracking-[0.2em] text-[#e5c58d]">Una decisión a la vez</p>
+            <div className="relative py-10">
+              <p className="font-serif text-4xl sm:text-5xl leading-tight">Explora.<br />Compara.<br /><span className="italic text-[#e5c58d]">Prepárate.</span></p>
+            </div>
+            <div className="relative border-t border-white/25 pt-5 flex gap-4 items-start">
+              <ArrowUpRight className="shrink-0 text-[#e5c58d]" size={25} aria-hidden="true" />
+              <p className="text-sm leading-relaxed">La recomendación es un punto de partida. La institución define los requisitos y decide la adjudicación.</p>
+            </div>
+          </div>
+        </section>
 
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white">
-        <div className="max-w-4xl mx-auto px-4 py-20 md:py-28 text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            Encuentra la beca<br />que se ajusta a tu perfil
-          </h1>
-          <p className="mt-4 text-lg text-blue-200 max-w-xl mx-auto">
-            El primer motor de búsqueda inteligente que cruza tu Registro Social de Hogares,
-            NEM y región con cientos de becas disponibles en Chile.
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link to="/register" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-xl hover:bg-blue-50 transition shadow-lg">
-              Comenzar ahora
-            </Link>
-            <Link to="/explorar" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-500/30 text-white font-medium px-6 py-3 rounded-xl hover:bg-blue-500/50 transition">
-              <Search className="w-4 h-4" />
-              Explorar becas
-            </Link>
+        <section aria-labelledby="steps-title" className="border-y border-[#dce3df] bg-white/60">
+          <div className="max-w-7xl mx-auto px-5 sm:px-8 py-12 sm:py-16">
+            <p className="text-xs uppercase tracking-[0.2em] text-[#46717a] mb-3">Cómo funciona</p>
+            <h2 id="steps-title" className="font-serif text-3xl sm:text-4xl mb-10">De la búsqueda a tu siguiente paso.</h2>
+            <ol className="grid md:grid-cols-3 gap-8 lg:gap-12">
+              {steps.map(({ number, icon: Icon, title, text }) => <li key={number} className="border-t border-[#c5d5d0] pt-5">
+                <div className="flex items-center justify-between mb-7"><span className="font-serif text-3xl text-[#46717a]">{number}</span><Icon size={22} aria-hidden="true" /></div>
+                <h3 className="font-serif text-2xl mb-3">{title}</h3>
+                <p className="text-sm leading-relaxed text-slate-600">{text}</p>
+              </li>)}
+            </ol>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="text-center">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 rounded-xl mb-4">
-            <UserCheck className="w-6 h-6 text-blue-600" />
-          </div>
-          <h3 className="font-semibold text-gray-900 mb-2">Perfil Personalizado</h3>
-          <p className="text-sm text-gray-500">
-            Registra tu RSH, NEM y región. El sistema filtra automáticamente las becas que realmente puedes obtener.
-          </p>
-        </div>
-        <div className="text-center">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-green-100 rounded-xl mb-4">
-            <Search className="w-6 h-6 text-green-600" />
-          </div>
-          <h3 className="font-semibold text-gray-900 mb-2">Búsqueda Inteligente</h3>
-          <p className="text-sm text-gray-500">
-            Filtra por monto, fecha de cierre, institución y tipo de beca. Solo ves lo que aplica para ti.
-          </p>
-        </div>
-        <div className="text-center">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-amber-100 rounded-xl mb-4">
-            <MapPin className="w-6 h-6 text-amber-600" />
-          </div>
-          <h3 className="font-semibold text-gray-900 mb-2">Cobertura Nacional</h3>
-          <p className="text-sm text-gray-500">
-            Becas de las 16 regiones de Chile. Universidades, institutos, fundaciones y organismos públicos.
-          </p>
-        </div>
-      </section>
-
-      <footer className="border-t border-gray-100 py-8 text-center text-sm text-gray-400">
-        BecasFind — Motor de búsqueda de becas estudiantiles · Chile {new Date().getFullYear()}
+        <section aria-labelledby="prepare-title" className="max-w-7xl mx-auto px-5 sm:px-8 py-12 sm:py-16 grid md:grid-cols-2 gap-8 items-start">
+          <div><p className="text-xs uppercase tracking-[0.2em] text-[#46717a] mb-3">Antes de postular</p><h2 id="prepare-title" className="font-serif text-3xl sm:text-4xl">Consulta siempre<br />la fuente oficial.</h2></div>
+          <div className="text-slate-600 leading-relaxed space-y-4"><p>Revisa las fechas, los documentos y las condiciones en el sitio de la institución. Los requisitos pueden cambiar y una coincidencia con tu perfil no garantiza que puedas postular ni recibir el beneficio.</p><p>BecasFind te ayuda a explorar y organizar información. La postulación se realiza según las instrucciones de cada convocatoria.</p></div>
+        </section>
+      </main>
+      <footer className="border-t border-[#dce3df] max-w-7xl mx-auto px-5 sm:px-8 py-7 flex flex-col sm:flex-row justify-between gap-4 text-sm text-slate-600">
+        <p>BecasFind · Oportunidades educativas en Chile</p>
+        <Link to={isAuthenticated ? '/explorar' : '/login'} className={`text-[#123f48] underline underline-offset-4 rounded-sm ${focus}`}>{isAuthenticated ? 'Ir al buscador' : 'Iniciar sesión'}</Link>
       </footer>
     </div>
   );
