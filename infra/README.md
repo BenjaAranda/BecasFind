@@ -170,3 +170,9 @@ Portada renovada con acciones distintas según sesión. El buscador sigue proteg
 Carga de perfil/catálogos fallida bloquea guardado y ofrece reintento. Guardar preserva RSH cero, valida campos según esquema actual, envía null para asociaciones vaciadas y conserva cambios si falla. Favoritos separa error/carga/vacío, cancela cargas al salir y gestiona fallos/envíos pendientes al quitar; muestra becas inactivas guardadas.
 
 `npx playwright test profile-favorites auth-session search-design search-state --workers=1` aprobó 39 casos con API controlada. Lint, build y mvn compile aprobados; capturas 390/1280 px revisadas. No se cambiaron DTOs, servicios backend ni datos locales: validación servidor, concurrencia e integración real continúan pendientes.
+
+### Validación de solicitudes — FASE 2
+
+DTOs de perfil/becas/documentos/usuarios administrativos validan rangos, longitudes, identificadores, elementos anidados, fechas y URL HTTP/HTTPS sin credenciales. Contraseña administrativa limitada a 72 bytes UTF-8 además de 8–72 caracteres. Null opcional y listas vacías se conservan; no cambia esquema ni controladores.
+
+`mvn package` aprobó 119 pruebas (cinco nuevas con varios casos HTTP contra H2), además de compilación/empaquetado. `mvn compile` aprobado. Se comprueba rechazo 400 sin cambios y persistencia/vaciado válidos. PostgreSQL/local/frontend no fueron modificados ni probados nuevamente en esta fase. Validación de referencias, concurrencia, borrado e integración real siguen pendientes.
