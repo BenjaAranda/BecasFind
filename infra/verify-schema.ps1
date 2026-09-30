@@ -2,11 +2,12 @@ param(
     [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin',
     [string]$Java = 'C:\Program Files\Java\jdk-17\bin\java.exe',
     [string]$BackupToRestore,
+    [string]$BackendJarPath,
     [string]$ConcurrencyTestMaven
 )
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path $PSScriptRoot -Parent
-$jar = Join-Path $repoRoot 'backend\target\becasfind-api-1.0.0-SNAPSHOT.jar'
+$jar = if ($BackendJarPath) { (Resolve-Path -LiteralPath $BackendJarPath).Path } else { Join-Path $repoRoot 'backend\target\becasfind-api-1.0.0-SNAPSHOT.jar' }
 if (-not (Test-Path $jar)) { throw 'Empaquetar el backend antes de verificar el esquema.' }
 $work = Join-Path ([IO.Path]::GetTempPath()) ('becasfind-schema-' + [guid]::NewGuid().ToString('N'))
 [IO.Directory]::CreateDirectory($work) | Out-Null
@@ -49,8 +50,10 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Falló la restauración. Revisar $work" }
         $psqlArgs = @('-h','127.0.0.1','-p',"$port",'-U','schema_check','-d','existing_copy','-v','ON_ERROR_STOP=1')
         for ($repeat = 0; $repeat -lt 2; $repeat++) {
-            & "$PostgresBin\psql.exe" @psqlArgs -f (Join-Path $repoRoot 'infra\migrations\001_align_schema.sql') *> (Join-Path $work 'migration.log')
-            if ($LASTEXITCODE -ne 0) { throw "Falló la migración de la copia. Revisar $work" }
+            foreach ($migration in Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'migrations') -Filter '*.sql' | Sort-Object Name) {
+                & "$PostgresBin\psql.exe" @psqlArgs -f $migration.FullName *> (Join-Path $work ($migration.BaseName + "-$repeat.log"))
+                if ($LASTEXITCODE -ne 0) { throw "Ensayo de migración fallido: $($migration.Name). Revisar $work" }
+            }
         }
         $validationDb = 'existing_copy'
     }

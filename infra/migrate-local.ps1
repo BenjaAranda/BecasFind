@@ -1,4 +1,4 @@
-param([switch]$Apply, [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin')
+param([switch]$Apply, [string]$BackendJarPath, [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin')
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path $PSScriptRoot -Parent
 $localVars = @{}
@@ -20,22 +20,30 @@ try {
     $env:PGPASSWORD = $localVars.DB_PASSWORD
     $env:PGCLIENTENCODING = 'UTF8'
     $conn = @('-h',$dbHost,'-p',$dbPort,'-U',$localVars.DB_USERNAME,'-d',$dbName)
+    $active = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT count(*) FROM pg_stat_activity WHERE datname=current_database() AND pid<>pg_backend_pid();"
+    if ($LASTEXITCODE -ne 0 -or "$active".Trim() -ne '0') { throw 'Cierra las conexiones a la base local antes de respaldar y migrar.' }
     $before = @{}
+    $projections = @{}
     foreach ($table in $tables) {
-        $before[$table] = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT md5(COALESCE(string_agg(row_to_json(t)::text, '' ORDER BY row_to_json(t)::text), '')) FROM $table t;"
+        $columns = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT string_agg(quote_ident(column_name), ',' ORDER BY ordinal_position) FROM information_schema.columns WHERE table_schema='public' AND table_name='$table';"
+        if ($LASTEXITCODE -ne 0 -or !$columns) { throw "No se pudo leer esquema de $table" }
+        $projections[$table] = "SELECT $columns FROM $table"
+        $before[$table] = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT md5(COALESCE(string_agg(row_to_json(t)::text, '' ORDER BY row_to_json(t)::text), '')) FROM ($($projections[$table])) t;"
         if ($LASTEXITCODE -ne 0) { throw "No se pudo verificar $table" }
     }
     & "$PostgresBin\pg_dump.exe" @conn --format=custom --file=$backupFile
     if ($LASTEXITCODE -ne 0) { throw 'No se pudo respaldar la base.' }
-    & (Join-Path $PSScriptRoot 'verify-schema.ps1') -PostgresBin $PostgresBin -BackupToRestore $backupFile
+    & (Join-Path $PSScriptRoot 'verify-schema.ps1') -PostgresBin $PostgresBin -BackupToRestore $backupFile -BackendJarPath $BackendJarPath
     if ($Apply) {
-        & "$PostgresBin\psql.exe" @conn -v ON_ERROR_STOP=1 -f (Join-Path $PSScriptRoot 'migrations\001_align_schema.sql') *> (Join-Path $backupDir 'apply.log')
-        if ($LASTEXITCODE -ne 0) { throw "Migración revertida. Revisar $backupDir" }
+        foreach ($migration in Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'migrations') -Filter '*.sql' | Sort-Object Name) {
+            & "$PostgresBin\psql.exe" @conn -v ON_ERROR_STOP=1 -f $migration.FullName *> (Join-Path $backupDir ($migration.BaseName + '.log'))
+            if ($LASTEXITCODE -ne 0) { throw "Migración fallida. Revisar $backupDir; no arrancar aplicación." }
+        }
         foreach ($table in $tables) {
-            $after = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT md5(COALESCE(string_agg(row_to_json(t)::text, '' ORDER BY row_to_json(t)::text), '')) FROM $table t;"
+            $after = & "$PostgresBin\psql.exe" @conn -At -v ON_ERROR_STOP=1 -c "SELECT md5(COALESCE(string_agg(row_to_json(t)::text, '' ORDER BY row_to_json(t)::text), '')) FROM ($($projections[$table])) t;"
             if ($LASTEXITCODE -ne 0 -or $after -ne $before[$table]) { throw "Los datos de $table cambiaron durante la verificación; revisar antes de continuar." }
         }
-        Write-Output 'Migración local aplicada; las filas de las 14 tablas permanecen idénticas.'
+        Write-Output 'Migración local aplicada; los campos originales de las 14 tablas permanecen idénticos; migraciones 001–005 aplicadas.'
     } else { Write-Output 'Respaldo y ensayo completos; la base original no se modificó.' }
     Write-Output "Respaldo previo conservado: $backupFile"
 } finally {

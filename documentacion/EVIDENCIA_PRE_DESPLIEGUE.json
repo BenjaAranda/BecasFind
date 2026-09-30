@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-30",
+  "scope": "local predeployment verification; synthetic data; no production deployment",
+  "frontend": {
+    "timestamp": "2026-09-30T22:18:54.045Z",
+    "jsGzip": 119048,
+    "cssGzip": 7478,
+    "assets": [
+      {
+        "name": "index-7nGsFCfG.js",
+        "gzip": 119048
+      },
+      {
+        "name": "index-BET0Scrr.css",
+        "gzip": 7478
+      }
+    ],
+    "measurements": [
+      {
+        "mode": "desktop-local",
+        "run": 0,
+        "lcp": 152,
+        "cls": 0,
+        "fcp": 152
+      },
+      {
+        "mode": "desktop-local",
+        "run": 1,
+        "lcp": 108,
+        "cls": 0,
+        "fcp": 108
+      },
+      {
+        "mode": "desktop-local",
+        "run": 2,
+        "lcp": 112,
+        "cls": 0,
+        "fcp": 112
+      },
+      {
+        "mode": "desktop-local",
+        "run": 3,
+        "lcp": 120,
+        "cls": 0,
+        "fcp": 120
+      },
+      {
+        "mode": "desktop-local",
+        "run": 4,
+        "lcp": 120,
+        "cls": 0,
+        "fcp": 120
+      },
+      {
+        "mode": "mobile-throttled",
+        "run": 0,
+        "lcp": 1304,
+        "cls": 0,
+        "fcp": 1304
+      },
+      {
+        "mode": "mobile-throttled",
+        "run": 1,
+        "lcp": 1408,
+        "cls": 0,
+        "fcp": 1408
+      },
+      {
+        "mode": "mobile-throttled",
+        "run": 2,
+        "lcp": 1312,
+        "cls": 0,
+        "fcp": 1312
+      },
+      {
+        "mode": "mobile-throttled",
+        "run": 3,
+        "lcp": 1216,
+        "cls": 0,
+        "fcp": 1216
+      },
+      {
+        "mode": "mobile-throttled",
+        "run": 4,
+        "lcp": 1480,
+        "cls": 0,
+        "fcp": 1480
+      }
+    ],
+    "results": [
+      {
+        "mode": "desktop-local",
+        "lcpMedian": 120,
+        "clsMax": 0
+      },
+      {
+        "mode": "mobile-throttled",
+        "lcpMedian": 1312,
+        "clsMax": 0
+      }
+    ],
+    "limits": {
+      "lcpMedian": 2500,
+      "clsMax": 0.1,
+      "jsGzip": 153600,
+      "cssGzip": 30720
+    },
+    "scope": "Built landing page; local preview; mobile CPU x4, latency 80ms, download 200000 B/s. Synthetic, not production/RUM."
+  },
+  "postgresRead": {
+    "rows": 5000,
+    "readers": 4,
+    "warmup": 10,
+    "samples": 80,
+    "p50Ms": 81.02,
+    "p95Ms": 124.68,
+    "maxMs": 183.37,
+    "budgetP95Ms": 1000,
+    "scope": "local PostgreSQL HTTP search; fixtures; not production"
+  },
+  "backend": {
+    "tests": 171,
+    "failures": 0,
+    "errors": 0,
+    "packaged": true
+  },
+  "browsers": {
+    "controlled": 210,
+    "engines": [
+      "Chromium",
+      "Firefox"
+    ],
+    "matrixRetest": 12,
+    "livePostgresChromium": 8
+  },
+  "localDatabase": {
+    "version": "17.10",
+    "migrations": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005"
+    ],
+    "backupRestored": true,
+    "originalTablesPreserved": 14,
+    "hibernateProdValidate": true,
+    "usersPreservedOnStartup": true
+  },
+  "mailRealDelivery": false
+}
