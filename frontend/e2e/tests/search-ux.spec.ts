@@ -7,6 +7,28 @@ const scholarships = [
     montoCobertura: '$200.000', fechaCierrePostulacion: '2030-11-30', nombreInstitucion: 'Institución de prueba', nombreTipoBeca: 'Arancel', nombreRegion: 'Nacional' },
 ];
 
+for (const width of [390, 1280]) {
+  test(`orden monetario a ${width}px explica grupos y cambia con teclado`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    const bodies = await prepare(page);
+    if (width === 390) await page.getByRole('button', { name: 'Mostrar filtros' }).click();
+    const select = page.getByLabel('Ordenar por', { exact: true });
+    await select.focus();
+    await select.press('End');
+    await expect(select).toHaveValue('montoDesc');
+    await expect(page.getByRole('note')).toContainText('por moneda y periodicidad');
+    await expect(page.getByRole('note')).toContainText('sin importe confirmado aparecen al final');
+    await expect(select).toHaveAttribute('aria-describedby', 'coverage-order-note');
+    await expect.poll(() => bodies.at(-1)?.sort).toBe('montoDesc');
+    await select.press('ArrowUp');
+    await expect(select).toHaveValue('montoAsc');
+    await expect.poll(() => bodies.at(-1)?.sort).toBe('montoAsc');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await select.selectOption('fechaAsc');
+    await expect(page.getByRole('note')).toHaveCount(0);
+  });
+}
+
 async function prepare(page: Page) {
   const token = `e30.${Buffer.from(JSON.stringify({ sub: 'student@example.com', role: 'STUDENT', nombre: 'Estudiante', exp: 4_000_000_000 })).toString('base64url')}.test`;
   await page.addInitScript(token => localStorage.setItem('token', token), token);

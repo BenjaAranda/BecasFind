@@ -181,6 +181,9 @@ export default function SearchPage() {
         </aside>
 
         <section aria-label="Resultados de búsqueda" aria-busy={loading} className="flex-1 min-w-0">
+          {tab === 'buscar' && sort.startsWith('monto') && <p id="coverage-order-note" role="note" className="mb-4 border-l-2 border-[#123f48] bg-[#eaf0eb] p-3 text-sm text-[#123f48]">
+            Agrupamos por moneda y periodicidad y ordenamos el importe dentro de cada grupo. No convertimos monedas ni anualizamos pagos. Los beneficios sin importe confirmado aparecen al final; los empates conservan un orden estable.
+          </p>}
           <div className="flex items-center gap-1 mb-6 bg-white rounded-sm p-1 border border-[#dce3df]">
             <button
               aria-pressed={tab === 'buscar'} onClick={() => updateParam('mode', '', true)}
