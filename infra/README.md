@@ -297,3 +297,11 @@ search-ux.spec.ts ahora es reproducible con API controlada y verifica CP-18/63/6
 verify-profile-browser.ps1 ejecuta ocho casos reales. search.spec.ts comprueba filtros combinados/orden, límites RSH/NEM y texto sin coincidencias con API y tarjetas reales. El helper de login espera las cargas iniciales antes de modificar tokens y public-auth reutiliza la respuesta del login UI, evitando un intento redundante; rate limit sigue activo y sin cambios.
 
 Ocho recorridos reales, lint/build y Maven compile aprobados. Código de producción sin cambios; no se repitieron suites backend completas. Empaquetado aislado anterior usado con BackendJarPath, servicios temporales detenidos y base local intacta. Fixtures de 2026 no representan fuentes oficiales ni deben usarse fuera de su período sin revisión. Sin despliegue/correo real.
+
+### Pruebas de login — 30 de septiembre de 2026
+
+login-flow.spec.ts verifica CP-01/04/05/67 con API controlada: validación nativa sin solicitudes, payload exacto, token/identidad, contenido de destino, persistencia tras recarga y rechazo con campos conservados. No depende de credenciales locales; el JWT controlado solo prueba la interfaz.
+
+38 casos de autenticación controlada y ocho recorridos Chromium con backend prod/PostgreSQL reales aprobados. public-auth.spec.ts compara el token almacenado con la respuesta real y verifica identidad/sesión tras recarga y acceso protegido. No añade intentos de login ni altera límites. Lint/build y Maven compile aprobados; backend sin cambios y suites completas backend no repetidas. Servicios temporales detenidos. Sin despliegue ni correo real.
+
+Modelo monetario autorizado para las próximas FASES 1/2/5, por separado: texto original más importe, moneda y periodicidad conocidos; porcentajes/beneficios sin importe diferenciados sin conversiones inventadas. El esquema aún no se ha modificado.

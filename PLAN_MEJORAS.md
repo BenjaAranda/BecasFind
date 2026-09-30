@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, tras reforzar las pruebas del buscador en FASE 9. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, tras cerrar las pruebas antiguas de login en FASE 8. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -8,7 +8,7 @@ Objetivo: publicar una aplicación segura, comprensible y verificable, mantenien
 
 Esta lista es el estado actual. Las propuestas y secciones de avance posteriores conservan el historial; sus frases «Siguiente fase» corresponden al momento de cada avance. Una casilla completada cierra ese alcance concreto, no todas las tareas de una fase o paquete.
 
-**Próxima tarea:** FASE 8, reforzar las pruebas antiguas de login. El cierre de FASE 9 verifica las pruebas del buscador; los resultados de otras fases conservan su fecha y alcance.
+**Próxima tarea:** FASE 1, preparar el esquema y la migración del modelo monetario acordado: conservar texto original y añadir importe, moneda y periodicidad cuando la fuente los indique. Después, FASE 2 (entidades/DTOs) y FASE 5 (servicios/ordenamiento), por separado. Porcentajes y beneficios sin importe deben diferenciarse sin convertirlos a pesos; precisión NEM sin cambios por ahora.
 
 ### Hecho y verificado
 
@@ -38,30 +38,31 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Bloquear escrituras simultáneas de favoritos en interfaz y serializarlas por usuario en backend; rechazar becas inexistentes y proteger la creación inicial concurrente del perfil. Pruebas concurrentes H2 y PostgreSQL 17 aprobadas.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
 
+- [x] Reescribir login-flow.spec.ts: campos vacíos/correo inválido sin solicitudes, payload exacto, identidad/destino visibles, sesión restaurada y rechazo recuperable. Verificar además token/identidad tras recarga con login y PostgreSQL reales.
+
 ### Pendiente, en orden de trabajo
 
-1. [ ] **FASE 8 — pruebas antiguas de login.** Revisar login-flow.spec.ts: campos vacíos solo comprueban que el botón sigue visible y otros casos dependen de credenciales/datos locales. Exigir validación, ausencia de escrituras, identidad/sesión y contenido de destino; mantener separados casos con API controlada y backend real.
-2. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar moneda, unidades y beneficios porcentuales/no monetarios antes de migrar. montoCobertura sigue siendo String y montoAsc/montoDesc ordenan texto. Revisar precisión NEM (DDL NUMERIC(3,1)) solo si se acuerda ampliarla; verificar migración, ordenamiento y casos límite.
-3. [ ] **Contrato e identificadores públicos.** Definir identificadores públicos coherentes para búsqueda, detalle y favoritos antes de cambiar DTOs/enlaces; el contrato prohíbe exponer IDs internos, utilizados actualmente. Respuestas de validación/autenticación y revocación de sesiones están cerradas en sus alcances. CORS conserva su tratamiento independiente.
-4. [ ] **FASE 14 — calidad histórica de datos.** Auditar CSV, tildes, enlaces profundos, requisitos/documentos y fechas contra fuentes oficiales. Acordar cómo representar datos desconocidos antes de modificar la inferencia y el cierre contractual por defecto 2026-12-31. Las importaciones con fixtures no validan el corpus histórico.
-5. [ ] **FASES 5/10/14, por separado — concurrencia y rendimiento de escrituras.** Medir importaciones/catálogos simultáneos, CRUD administrativo concurrente y batch INSERT efectivo. La atomicidad CSV y los bloqueos de perfil/favoritos ya verificados no cierran estos casos. Administración y su edición/diseño están completados en el alcance registrado.
-6. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega a una bandeja real, enlace, caducidad, consumo único y acceso con la contraseña nueva. La integración y los formularios existen; las pruebas con proveedor simulado no verifican recepción.
-7. [ ] **Cobertura integral y requisitos.** Leer y contrastar documentos Office de requisitos/pruebas; completar búsqueda/detalle y recuperación end-to-end con evidencia verificable. Registro/login, CRUD, roles, CSV, perfil y favoritos ya tienen recorridos Chromium con backend/PostgreSQL reales; ampliar casos límite sin repetirlos como trabajo no iniciado. Institución/carrera/año son referencias guardadas, no criterios actuales de recomendación.
-8. [ ] **Accesibilidad y rendimiento global.** Revisar zoom, teclado en todos los flujos, 360/390/768/1440 px y segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Las capturas y recorridos parciales no equivalen a auditoría global.
-9. [ ] **Infraestructura y CI para Vercel + Oracle.** Dockerfile backend y frontend/vercel.json ya existen; falta validarlos en el destino, confirmar cuenta/capacidad/gratuidad vigente y probar contenedor/arquitectura, persistencia/reinicio, HTTPS/Nginx, BD privada, secretos, CORS y búsquedas con locale español. Crear pipeline de calidad reproducible: no hay workflows GitHub versionados. Preparar vista previa aislada antes de publicar.
-10. [ ] **Operación y publicación.** Probar copias/restauración y rollback en el destino, documentar mantenimiento y verificar flujos públicos en la vista previa. Después publicar y comprobar URL pública, rutas directas y conexión frontend/backend. No hay publicación realizada ni garantía de disponibilidad gratuita continua.
+1. [ ] **FASES 1/2/5, por separado — modelo y montos.** Modelo autorizado: texto original más importe, moneda y periodicidad conocidos. Diferenciar porcentajes y beneficios no monetarios; preparar migración sin inferir importes desconocidos. montoCobertura sigue siendo String y montoAsc/montoDesc ordenan texto. Revisar precisión NEM (DDL NUMERIC(3,1)) solo si se acuerda ampliarla; verificar migración, ordenamiento y casos límite.
+2. [ ] **Contrato e identificadores públicos.** Definir identificadores públicos coherentes para búsqueda, detalle y favoritos antes de cambiar DTOs/enlaces; el contrato prohíbe exponer IDs internos, utilizados actualmente. Respuestas de validación/autenticación y revocación de sesiones están cerradas en sus alcances. CORS conserva su tratamiento independiente.
+3. [ ] **FASE 14 — calidad histórica de datos.** Auditar CSV, tildes, enlaces profundos, requisitos/documentos y fechas contra fuentes oficiales. Acordar cómo representar datos desconocidos antes de modificar la inferencia y el cierre contractual por defecto 2026-12-31. Las importaciones con fixtures no validan el corpus histórico.
+4. [ ] **FASES 5/10/14, por separado — concurrencia y rendimiento de escrituras.** Medir importaciones/catálogos simultáneos, CRUD administrativo concurrente y batch INSERT efectivo. La atomicidad CSV y los bloqueos de perfil/favoritos ya verificados no cierran estos casos. Administración y su edición/diseño están completados en el alcance registrado.
+5. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega a una bandeja real, enlace, caducidad, consumo único y acceso con la contraseña nueva. La integración y los formularios existen; las pruebas con proveedor simulado no verifican recepción.
+6. [ ] **Cobertura integral y requisitos.** Leer y contrastar documentos Office de requisitos/pruebas; completar búsqueda/detalle y recuperación end-to-end con evidencia verificable. Registro/login, CRUD, roles, CSV, perfil y favoritos ya tienen recorridos Chromium con backend/PostgreSQL reales; ampliar casos límite sin repetirlos como trabajo no iniciado. Institución/carrera/año son referencias guardadas, no criterios actuales de recomendación.
+7. [ ] **Accesibilidad y rendimiento global.** Revisar zoom, teclado en todos los flujos, 360/390/768/1440 px y segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Las capturas y recorridos parciales no equivalen a auditoría global.
+8. [ ] **Infraestructura y CI para Vercel + Oracle.** Dockerfile backend y frontend/vercel.json ya existen; falta validarlos en el destino, confirmar cuenta/capacidad/gratuidad vigente y probar contenedor/arquitectura, persistencia/reinicio, HTTPS/Nginx, BD privada, secretos, CORS y búsquedas con locale español. Crear pipeline de calidad reproducible: no hay workflows GitHub versionados. Preparar vista previa aislada antes de publicar.
+9. [ ] **Operación y publicación.** Probar copias/restauración y rollback en el destino, documentar mantenimiento y verificar flujos públicos en la vista previa. Después publicar y comprobar URL pública, rutas directas y conexión frontend/backend. No hay publicación realizada ni garantía de disponibilidad gratuita continua.
 
 ### Dependencias para cerrar pendientes
 
-- **Trabajo autónomo inmediato:** pruebas antiguas, contraste de requisitos, auditoría de datos sin inventarlos y verificaciones de accesibilidad/rendimiento.
-- **Decisiones de producto/contrato:** unidades monetarias, precisión NEM si cambia, identificadores públicos y tratamiento de requisitos/fechas desconocidos. Preparar propuesta concreta antes de cambiar esquema o reglas contractuales.
+- **Trabajo autónomo inmediato:** esquema monetario acordado, contraste de requisitos, auditoría de datos sin inventarlos y verificaciones de accesibilidad/rendimiento.
+- **Decisiones de producto/contrato:** detalles de comparación de importes con distintas monedas/periodicidades, precisión NEM si cambia, identificadores públicos y tratamiento de requisitos/fechas desconocidos. Preparar propuesta concreta antes de cambiar esquema o reglas contractuales.
 - **Configuración externa:** clave/remitente de correo y recursos de Oracle/Vercel. Confirmar el acceso y configuración efectiva antes de declarar correo o despliegue operativos.
 
 ### Evidencia y límites actuales
 
 - Última suite completa backend: **153 pruebas H2 aprobadas**, empaquetado correcto en directorio temporal aislado. Última verificación PostgreSQL 17: **7 pruebas de validación pública aprobadas** con DDL real y validación de esquema. Las 18 pruebas de seguridad, ocho de contrato HTTP, 11 de perfil/integridad/consulta administrativa y doce casos CSV PostgreSQL corresponden a verificaciones anteriores.
-- Última fase de navegador: **20 casos de búsqueda/estado/diseño aprobados con API controlada** en serie, incluidos tres casos antiguos reescritos. Las 34 pruebas de autenticación y demás suites anteriores corresponden a sus respectivos cierres; no sumar etapas como casos únicos ni interpretarlas como integración completa.
-- Último cierre: **8 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, incluido búsqueda/filtros/orden y límites RSH/NEM. Lint/build frontend y Maven compile aprobados. Código de producción sin cambios en FASE 9; suites completas backend no repetidas.
+- Última fase de navegador: **38 casos de autenticación aprobados con API controlada**, incluidos los cuatro casos antiguos de login reescritos. Los 20 casos de búsqueda de la fase anterior conservan su alcance; no sumar etapas como casos únicos.
+- Último cierre: **8 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, incluido login con token e identidad persistentes tras recarga. Lint/build frontend y Maven compile aprobados. Código de producción sin cambios en FASE 8; suites completas backend no repetidas. Evidencia temporal: becasfind-browser-pg-17566e6b713440f0a2362bd813129a0f.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
 ## Punto de partida y límites
