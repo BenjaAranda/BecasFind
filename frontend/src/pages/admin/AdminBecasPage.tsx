@@ -3,6 +3,7 @@ import { adminService } from '../../services/adminService';
 import type { BecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
 import { Plus, Edit, Trash2, ExternalLink, Upload, X, Search as SearchIcon } from 'lucide-react';
+import { formatCalendarDate } from '../../utils/dates';
 
 export default function AdminBecasPage() {
   const [becas, setBecas] = useState<BecaSummary[]>([]);
@@ -81,7 +82,7 @@ export default function AdminBecasPage() {
     fetchBecas(0);
   };
 
-  const formatDate = (d: string) => new Date(d).toLocaleDateString('es-CL');
+  const formatDate = (d: string) => formatCalendarDate(d, true);
 
   return (
     <div className="p-6">

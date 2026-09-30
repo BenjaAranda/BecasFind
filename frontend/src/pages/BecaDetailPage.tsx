@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { becaService } from '../services/becaService';
 import type { BecaDetail } from '../types';
+import { formatCalendarDate, isClosingDateExpired } from '../utils/dates';
 import {
   ArrowLeft,
   Calendar,
@@ -53,12 +54,7 @@ export default function BecaDetailPage() {
     };
   }, [goBack]);
 
-  const formatDate = (dateStr: string) =>
-    new Date(dateStr).toLocaleDateString('es-CL', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    });
+  const formatDate = formatCalendarDate;
 
   if (loading) {
     return (
@@ -70,7 +66,7 @@ export default function BecaDetailPage() {
 
   if (!beca) return null;
 
-  const isExpired = new Date(beca.fechaCierrePostulacion) < new Date();
+  const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -95,7 +91,7 @@ export default function BecaDetailPage() {
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
             <h1 className="text-2xl font-bold text-gray-800">{beca.nombre}</h1>
             <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
-              {isExpired ? 'Expirada' : 'Activa'}
+              {!beca.estadoActiva ? 'Inactiva' : isExpired ? 'Vencida' : 'Vigente'}
             </span>
           </div>
 

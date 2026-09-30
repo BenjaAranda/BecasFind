@@ -1,5 +1,6 @@
 import { type BecaSummary } from '../../types';
 import { Calendar, Building2, Tag, MapPin, Bookmark, Clock } from 'lucide-react';
+import { formatCalendarDate, isClosingDateExpired } from '../../utils/dates';
 
 interface BecaCardProps {
   beca: BecaSummary;
@@ -9,14 +10,7 @@ interface BecaCardProps {
 }
 
 export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }: BecaCardProps) {
-  const formatDate = (dateStr: string) =>
-    new Date(dateStr).toLocaleDateString('es-CL', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    });
-
-  const isExpired = new Date(beca.fechaCierrePostulacion) < new Date();
+  const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
     <div
@@ -31,7 +25,8 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
           <button
             onClick={(e) => { e.stopPropagation(); e.preventDefault(); onToggleFavorito(beca.idBeca); }}
             className={`p-1 rounded-full transition cursor-pointer shrink-0 ${isFavorito ? 'text-blue-600 bg-blue-50 hover:bg-blue-100' : 'text-gray-300 hover:text-blue-400 hover:bg-gray-100'}`}
-            title={isFavorito ? 'Quitar de favoritos' : 'Guardar en favoritos'}
+            aria-label={isFavorito ? 'Quitar de favoritos' : 'Guardar en favoritos'}
+            aria-pressed={!!isFavorito}
           >
             <Bookmark className={`w-4 h-4 ${isFavorito ? 'fill-current' : ''}`} />
           </button>
@@ -39,7 +34,7 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
       </div>
 
       <h3 className="font-semibold text-gray-800 leading-snug line-clamp-3 mb-2">
-        {beca.nombre}
+        <button onClick={event => { event.stopPropagation(); onClick(beca.idBeca); }} className="text-left cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2">{beca.nombre}</button>
       </h3>
 
       {isExpired && (
@@ -75,7 +70,7 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito }
 
         <div className="flex items-center gap-2">
           <Calendar className="w-4 h-4 text-gray-400 shrink-0" />
-          <span className="truncate">Cierre: {formatDate(beca.fechaCierrePostulacion)}</span>
+          <span className="truncate">Cierre: {formatCalendarDate(beca.fechaCierrePostulacion)}</span>
         </div>
       </div>
     </div>
