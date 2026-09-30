@@ -223,4 +223,16 @@ Referencias consultadas: [Vite en Vercel](https://vercel.com/docs/frameworks/fro
 - Cierre de suite backend: 102 pruebas aprobadas, cero fallos/errores; compilación y empaquetado aprobados. Frontend compila; ocho pruebas Chromium aprobadas (una administrativa y siete de recuperación). Siguen vigentes los errores previos de revisión estática fuera del ajuste de conexión.
 - El listado administrativo queda separado y conectado. Pendientes del paquete C: montos numéricos/unidades, fechas visuales y filtros de la interfaz. No se han cambiado datos locales ni realizado un despliegue.
 
-Siguiente fase propuesta: FASE 13, correcciones de filtros, búsqueda y navegación de la interfaz. Mantener la normalización de montos como cambio de modelo y la activación de correo pendiente hasta disponer de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.
+## Avance de implementación — FASE 13, interfaz del buscador
+
+- URL como fuente de filtros, pestaña, página y tamaño; vuelta desde detalle conserva el contexto. Reinicio limpia URL, controles y petición sin reutilizar valores previos.
+- Debounce real de 400 ms para filtros y texto; botón/Enter ejecutan los valores actuales sin esperar, cancelando la búsqueda pendiente. AbortController y comprobación de solicitud activa impiden que una respuesta vieja sustituya resultados recientes.
+- Recomendaciones mantiene endpoint/pestaña al paginar y cambiar tamaño; cada cambio de filtro/tamaño vuelve a página cero. Selector de tamaño disponible también con una sola página.
+- Fechas de calendario sin conversión errónea a medianoche UTC; cierre inclusivo por día de Chile. Función compartida en tarjetas, detalle y listado administrativo.
+- Etiquetas de formularios asociadas, NEM explicado como promedio del estudiante, tarjeta accesible por teclado y favoritos con nombre/estado. Cabecera adaptable a móvil; recomendaciones no se presentan como garantía de elegibilidad.
+- Errores de carga muestran aviso y Reintentar, sin conservar totales viejos; fallo de catálogos se informa. Revisión estática del buscador, filtros, tarjetas, detalle, servicio, utilidad de fechas y pruebas nuevas aprobada.
+- Compilación frontend y backend aprobadas. Diez casos nuevos Chromium aprobados con respuestas API controladas; ocho recorridos anteriores de recuperación/administración también comprobados durante esta fase. Revisadas capturas en escritorio 1280 px y móvil 390 px, sin desbordamiento ni errores JavaScript. No equivale todavía a la prueba global con servicios reales.
+- La revisión estática global bajó de diez errores/tres advertencias a siete errores/dos advertencias; siguen pendientes fuera del buscador corregido. La última suite backend completa permanece en 102 casos aprobados; esta fase no cambia backend.
+- Persisten orden monetario por texto y definición de unidad, formularios CRUD, importación, calidad de datos, rediseño general y despliegue. No declarar cerrado el proyecto ni el paquete C completo.
+
+Siguiente fase propuesta: FASE 10, corregir formularios y comportamiento del panel administrativo; después FASE 14 para importación. Mantener montos como cambio de modelo pendiente y activación de correo pendiente de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.

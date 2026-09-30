@@ -91,3 +91,15 @@ Pendientes antes de publicar: fechas y filtros de interfaz; definición y almace
 La búsqueda administrativa admite texto literal de hasta 200 caracteres, páginas de 1–100 registros y orden de cierre con desempate estable. Valores de paginación inválidos, tipos incorrectos y JSON mal formado en BecaController reciben 400. Visitantes y estudiantes no acceden al listado completo.
 
 El panel distingue Inactiva, Vigente y Vencida; la vigencia del estado es inclusiva para el día de Chile. Se adaptó la conexión existente sin rediseñar el CRUD. Siguen pendientes las fechas de presentación, los errores anteriores de calidad y el resto de los filtros de interfaz. La comprobación de interfaz usa respuestas controladas; los permisos y resultados se prueban por HTTP real contra la base de test.
+
+## Interfaz de búsqueda — FASE 13
+
+La URL mantiene filtros, texto, pestaña (`mode=recomendar`), página y tamaño. Volver desde el detalle restaura esos valores; reiniciar elimina los parámetros. Los cambios de filtros esperan 400 ms antes de pedir resultados, mientras el botón Buscar Becas ejecuta inmediatamente el texto actual y cancela la petición pendiente. Las solicitudes anteriores se cancelan y sus respuestas no actualizan una búsqueda posterior.
+
+Recomendaciones utiliza su propio endpoint también al cambiar página/tamaño. Cambiar un filtro, pestaña o tamaño vuelve a la primera página. El selector de tamaño sigue disponible con una sola página. Errores de carga muestran un aviso con Reintentar y limpian los totales anteriores; los catálogos fallidos muestran un aviso, en lugar de aparentar que no existen opciones.
+
+`src/utils/dates.ts` muestra fechas YYYY-MM-DD sin desplazarlas por la zona del navegador. Tarjetas, detalle y listado administrativo usan esta función. El cierre de hoy sigue vigente hasta terminar el día de Chile. El detalle distingue activación y vencimiento; los títulos de tarjetas se abren con teclado y los favoritos tienen nombre accesible y estado presionado.
+
+Verificación reproducible, con el frontend iniciado: `npx playwright test e2e/tests/search-state.spec.ts`. Diez casos cubren debounce con una sola petición, búsqueda inmediata, reinicio, recomendaciones, regreso desde detalle, respuesta lenta, errores/reintento, fecha chilena, móvil y selector de tamaño. Usan respuestas API controladas; no sustituyen la prueba completa con datos reales antes de desplegar.
+
+Pendientes: orden monetario/unidades, datos/importación, diseño general y calidad global. El orden por monto sigue siendo heredado por texto; esta fase no cambia el modelo. La revisión estática global aún contiene siete errores y dos advertencias existentes fuera del buscador corregido.
