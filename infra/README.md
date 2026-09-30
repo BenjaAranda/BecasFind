@@ -82,4 +82,12 @@ Las recomendaciones ejecutan la misma búsqueda con RSH, NEM y región del perfi
 
 Se rechazan con 400 los RSH fuera de 0–100, NEM no finito o fuera de 1–7, identificadores no positivos, texto de más de 200 caracteres, órdenes desconocidos y páginas de más de 100 registros. El orden predeterminado es cierre ascendente con id interno como desempate estable de paginación.
 
-Pendientes antes de publicar: listado administrativo independiente del buscador vigente; fechas y filtros de interfaz; definición y almacenamiento de monto numérico/unidad. Los órdenes montoAsc/montoDesc todavía operan sobre texto heredado y no son una comparación monetaria correcta. No extraer cifras arbitrarias de coberturas porcentuales o de importes con periodos distintos.
+Pendientes antes de publicar: fechas y filtros de interfaz; definición y almacenamiento de monto numérico/unidad. Los órdenes montoAsc/montoDesc todavía operan sobre texto heredado y no son una comparación monetaria correcta. No extraer cifras arbitrarias de coberturas porcentuales o de importes con periodos distintos. El listado administrativo queda separado en el avance siguiente.
+
+## Listado administrativo — FASE 6
+
+`GET /api/becas/administracion?page=0&size=20&query=texto` requiere rol ADMIN. Devuelve ApiResponse con Page<BecaDTO>, incluyendo estadoActiva. El panel utiliza este endpoint para listar y buscar becas activas, inactivas y vencidas. La consulta pública mantiene BR-VIGENCIA; no se ha agregado una opción pública para omitirla.
+
+La búsqueda administrativa admite texto literal de hasta 200 caracteres, páginas de 1–100 registros y orden de cierre con desempate estable. Valores de paginación inválidos, tipos incorrectos y JSON mal formado en BecaController reciben 400. Visitantes y estudiantes no acceden al listado completo.
+
+El panel distingue Inactiva, Vigente y Vencida; la vigencia del estado es inclusiva para el día de Chile. Se adaptó la conexión existente sin rediseñar el CRUD. Siguen pendientes las fechas de presentación, los errores anteriores de calidad y el resto de los filtros de interfaz. La comprobación de interfaz usa respuestas controladas; los permisos y resultados se prueban por HTTP real contra la base de test.

@@ -213,4 +213,14 @@ Referencias consultadas: [Vite en Vercel](https://vercel.com/docs/frameworks/fro
 - Esta fase modifica servicios y reglas, sin rediseñar la interfaz ni añadir nuevos endpoints. El paquete C completo sigue abierto.
 - Pendientes: monto numérico/unidad (el orden heredado por texto sigue siendo incorrecto), fechas y filtros de interfaz, listado administrativo independiente para conservar acceso a becas vencidas/inactivas. No publicar antes de cerrar estos puntos.
 
-Siguiente fase propuesta: FASE 6, separar el listado administrativo del buscador público y completar validación de endpoints. Después continuar las fases de interfaz del buscador, datos y diseño. Mantener activación de correo pendiente hasta disponer de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.
+## Avance de implementación — FASE 6, listado administrativo
+
+- Endpoint GET /api/becas/administracion protegido por rol ADMIN, con paginación y texto opcional. Incluye becas activas, inactivas y vencidas sin modificar el criterio del buscador público.
+- Servicio administrativo reutiliza validación, texto literal y orden estable existentes; respuesta DTO/ApiResponse y límite de 100 registros.
+- estadoActiva incluido consistentemente en el resumen de becas y favoritos. El panel consulta el endpoint administrativo y distingue Inactiva, Vigente y Vencida con día inclusivo de Chile. Es una adaptación del consumidor existente, sin rediseñar el CRUD.
+- Parámetros con tipos incorrectos y cuerpos JSON mal formados de BecaController se traducen a ApiResponse 400 con mensaje genérico.
+- Tres pruebas nuevas de API: permisos ADMIN/estudiante/visitante, consulta de beca vencida e inactiva excluida del listado público, paginación sin repetidos e inputs inválidos. Verificación de navegador: el panel usa el endpoint correcto, muestra estado inactivo y envía el texto buscado; respuestas API controladas.
+- Cierre de suite backend: 102 pruebas aprobadas, cero fallos/errores; compilación y empaquetado aprobados. Frontend compila; ocho pruebas Chromium aprobadas (una administrativa y siete de recuperación). Siguen vigentes los errores previos de revisión estática fuera del ajuste de conexión.
+- El listado administrativo queda separado y conectado. Pendientes del paquete C: montos numéricos/unidades, fechas visuales y filtros de la interfaz. No se han cambiado datos locales ni realizado un despliegue.
+
+Siguiente fase propuesta: FASE 13, correcciones de filtros, búsqueda y navegación de la interfaz. Mantener la normalización de montos como cambio de modelo y la activación de correo pendiente hasta disponer de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.
