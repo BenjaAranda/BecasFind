@@ -23,13 +23,14 @@ $keys = @('DB_URL','DB_USERNAME','DB_PASSWORD','JWT_SECRET','SPRING_PROFILES_ACT
     'CORS_ALLOWED_ORIGINS','VITE_API_URL','LIVE_API_URL','LIVE_FRONTEND_URL',
     'SPRING_DATASOURCE_URL','SPRING_DATASOURCE_USERNAME','SPRING_DATASOURCE_PASSWORD',
     'SPRING_DATASOURCE_DRIVER_CLASS_NAME','SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT',
-    'SPRING_JPA_HIBERNATE_DDL_AUTO','SPRING_SQL_INIT_MODE','SERVER_ADDRESS')
+    'SPRING_JPA_HIBERNATE_DDL_AUTO','SPRING_SQL_INIT_MODE','SERVER_ADDRESS',
+    'LIVE_POSTGRES_PORT','LIVE_POSTGRES_BIN')
 foreach ($key in $keys) { $saved[$key] = [Environment]::GetEnvironmentVariable($key, 'Process') }
 $started = $false
 $backend = $null
 $frontend = $null
 try {
-    & "$PostgresBin\initdb.exe" -D $data -U browser_verify --encoding=UTF8 --locale=C --auth=trust *> (Join-Path $work 'init.log')
+    & "$PostgresBin\initdb.exe" -D $data -U browser_verify --encoding=UTF8 --locale=C --locale-provider=icu --icu-locale=es-CL --auth=trust *> (Join-Path $work 'init.log')
     if ($LASTEXITCODE -ne 0) { throw 'initdb failed' }
     $launch = Start-Process "$PostgresBin\pg_ctl.exe" -ArgumentList @('-D', ('"' + $data + '"'), '-l', ('"' + (Join-Path $work 'postgres.log') + '"'), '-o', ('"-h 127.0.0.1 -p ' + $pgPort + '"'), '-w', 'start') -WindowStyle Hidden -PassThru -RedirectStandardOutput (Join-Path $work 'start.log')
     $launch.WaitForExit()
@@ -63,6 +64,8 @@ try {
     $env:VITE_API_URL = "http://127.0.0.1:$apiPort"
     $env:LIVE_API_URL = $env:VITE_API_URL
     $env:LIVE_FRONTEND_URL = "http://127.0.0.1:$webPort"
+    $env:LIVE_POSTGRES_PORT = "$pgPort"
+    $env:LIVE_POSTGRES_BIN = $PostgresBin
     $java = if ($env:JAVA_HOME) { Join-Path $env:JAVA_HOME 'bin/java.exe' } else { (Get-Command java).Source }
     $jar = Join-Path $root 'backend/target/becasfind-api-1.0.0-SNAPSHOT.jar'
     $backend = Start-Process $java -ArgumentList @('-jar', ('"' + $jar + '"')) -WindowStyle Hidden -PassThru -RedirectStandardOutput (Join-Path $work 'backend.log') -RedirectStandardError (Join-Path $work 'backend-error.log')

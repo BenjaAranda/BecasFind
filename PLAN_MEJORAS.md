@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar administración real en FASE 10. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar importación CSV real en FASE 14. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -37,7 +37,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
 4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. CRUD de becas, creación/desactivación de usuarios y rechazo de permisos estudiante verificados con navegador/backend/PostgreSQL reales. Quedan pendientes mostrar usuarios inactivos (el filtro actual los oculta), edición de usuarios en interfaz, pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
-6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
+6. [ ] **FASE 14 — datos e importación masiva.** Importación desde navegador real comprobada: creación, upsert sin duplicados, rechazo con cero escrituras y bytes UTF-8. Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
 8. [ ] **Verificación integral.** Corregir suites antiguas débiles de login/buscador; contrastar documentos de requisitos/pruebas y recorrer roles, CRUD, CSV, perfil, favoritos y recuperación con backend/PostgreSQL reales.
 9. [ ] **Accesibilidad y rendimiento global.** Revisar teclado, zoom, 360/390/768/1440 px y un segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Los objetivos del plan aún no son resultados.
@@ -427,3 +427,13 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - La primera ejecución esperaba ver al usuario inactivo y falló, identificando el filtro real; otra ejecución esperaba 401 para el token desactivado pero el filtro de seguridad devuelve 403, coherente con las pruebas backend existentes. Los nuevos accesos por login reciben 401. Las pruebas finales verifican este comportamiento exacto sin aceptar estados alternativos.
 - Resultado final: cuatro recorridos Chromium reales aprobados (tres nuevos y regresión de perfil/favoritos), backend prod, DDL real y PostgreSQL temporal; comprobación SQL de desactivación aprobada. Lint/build frontend y Maven compile aprobados. Suite completa backend no repetida; última evidencia sigue en 135 H2 y 10 PostgreSQL.
 - Sin cambios de código de producción, base local ni despliegues. Próxima FASE 14: importación CSV desde navegador con backend real. Siguen pendientes las mejoras de listado/edición de usuarios, correo, modelo monetario, datos y verificación global.
+
+
+## Avance FASE 14 — CSV desde navegador real (30 de septiembre de 2026)
+
+- Un caso nuevo ejecuta tres importaciones reales con archivos UTF-8 sin BOM: crea una beca con tildes/Ñ; actualiza su monto sin duplicarla; envía una fila válida seguida de otra con región inexistente y confirma cero escrituras/ninguna fila parcial.
+- Tras cada importación se ejecutan consultas PostgreSQL encode(convert_to(nombre,'UTF8'),'hex') sobre becas/instituciones para detectar mojibake y verificar los bytes exactos del nombre importado. Se comprueban contadores de creación/actualización/error, resultados de API y visibilidad en administración.
+- Hallazgo del entorno: la búsqueda completa con Ñ falló en el clúster con locale C y pasó al configurar ICU es-CL. El verificador temporal ahora usa esa configuración. Verificar locale/proveedor y búsqueda con tildes/Ñ en el destino antes de publicar; no se cambió la base local ni código de búsqueda.
+- Las filas inválidas devuelven HTTP 200 con errores en ImportResultDTO. La prueba comprueba ese contrato y rollback, sin aceptar HTTP alternativos. La expectativa inicial de 400 se corrigió tras observar la respuesta real.
+- Resultado final: cinco recorridos Chromium reales aprobados (CSV nuevo y cuatro regresiones de administración/perfil/permisos). Lint/build frontend y Maven compile aprobados. No se repitieron completas las 135 pruebas H2 ni las 10 PostgreSQL anteriores.
+- Sigue pendiente auditar fuentes/CSV históricos, fechas/requisitos, medir batch INSERT y concurrencia de importaciones. Próxima tarea propuesta: corregir listado administrativo de usuarios inactivos por fases de repositorio/servicio correspondientes; conservar soft delete y autenticación actual. Correo, modelo monetario, accesibilidad global e infraestructura permanecen pendientes. Sin despliegues.

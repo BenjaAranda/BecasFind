@@ -226,3 +226,12 @@ Un recorrido real aprobado: login, perfil cero/decimal/tildes, recarga/vaciado, 
 verify-profile-browser.ps1 ejecuta ahora cuatro casos live: CRUD de becas, creación/desactivación de usuarios, restricciones de estudiante y perfil/favoritos. Verificación final aprobada con PostgreSQL temporal/backend prod y comprobación SQL adicional de soft delete: la cuenta sigue almacenada con activo=false. Lint/build y Maven compile aprobados; backend de producción sin cambios.
 
 Limitación descubierta: el filtro @Where de Usuario oculta las cuentas inactivas también en administración. Sigue pendiente corregir su visualización mediante una consulta administrativa controlada y añadir edición de usuarios en interfaz. El token de la cuenta desactivada devuelve 403; login nuevo devuelve 401. La suite no simula respuestas y comprueba esos estados exactos. Sin despliegues.
+
+
+### CSV real y configuración regional — 30 de septiembre de 2026
+
+verify-profile-browser.ps1 ejecuta cinco casos live. El caso CSV importa desde la interfaz, crea/actualiza sin duplicar y comprueba rechazo sin escrituras parciales; errores de fila se expresan como HTTP 200 con ImportResultDTO.errores. Después de cada importación consulta los bytes PostgreSQL de nombres y ausencia de patrones de mojibake. Son fixtures sintéticas, no becas oficiales ni auditoría del corpus histórico.
+
+El clúster temporal ahora usa --locale-provider=icu --icu-locale=es-CL: la búsqueda de un nombre con Ñ no coincidió bajo locale C y sí con ICU. La instalación PostgreSQL debe incluir ICU. Antes de publicar comprobar proveedor/locale y búsquedas españolas en la base destino; este verificador no migra la configuración regional de bases existentes.
+
+Cinco recorridos reales aprobados, lint/build y Maven compile aprobados. No se repitió suite completa backend. Los servicios temporales se detuvieron; base local intacta. Pendientes calidad de datos históricos, batch/concurrencia y operación real.
