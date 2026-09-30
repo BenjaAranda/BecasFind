@@ -13,6 +13,8 @@ import java.util.Map;
 @ActiveProfiles("test")
 @org.springframework.test.context.TestPropertySource(properties = "AUTH_RATE_LIMIT_ENABLED=false")
 public abstract class BaseTest {
+    @org.springframework.test.context.bean.override.mockito.MockitoBean
+    protected com.becasfind.api.services.ResetEmailService resetEmailService;
 
     @LocalServerPort
     protected int port;

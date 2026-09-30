@@ -7,6 +7,7 @@ import com.becasfind.api.models.dtos.LoginRequest;
 import com.becasfind.api.models.dtos.RegisterRequest;
 import com.becasfind.api.models.dtos.ResetPasswordRequest;
 import com.becasfind.api.services.AuthService;
+import com.becasfind.api.exceptions.EmailDeliveryException;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AuthController.class);
 
     private final AuthService authService;
 
@@ -40,14 +42,19 @@ public class AuthController {
 
     @PostMapping("/forgot-password")
     public ResponseEntity<ApiResponse<Void>> forgotPassword(@Valid @RequestBody ForgotPasswordRequest request) {
-        authService.forgotPassword(request.getEmail());
+        try {
+            authService.forgotPassword(request.getEmail());
+        } catch (EmailDeliveryException exception) {
+            // La transacción ya se revirtió: conservar el enlace anterior sin revelar si existe la cuenta.
+            log.warn("Fallo de entrega de recuperación; revisar configuración y disponibilidad del proveedor");
+        }
         return ResponseEntity.ok(ApiResponse.success(null,
-                "Si el email esta registrado, recibiras un enlace de recuperacion"));
+                "Si el correo está registrado, recibirás un enlace de recuperación"));
     }
 
     @PostMapping("/reset-password")
     public ResponseEntity<ApiResponse<Void>> resetPassword(@Valid @RequestBody ResetPasswordRequest request) {
         authService.resetPassword(request.getToken(), request.getNewPassword());
-        return ResponseEntity.ok(ApiResponse.success(null, "Contrasenia restablecida exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(null, "Contraseña restablecida exitosamente"));
     }
 }
