@@ -8,6 +8,7 @@
 
 ## Decisiones autorizadas el 30 de septiembre de 2026
 
+- P06–P11 pueden ejecutarse secuencialmente por la petición «termina todas las tareas hasta antes del inicio del despliegue». P12–P14 no están autorizadas en esta entrega.
 - P01–P05 pueden ejecutarse secuencialmente en esta entrega por petición explícita del usuario.
 - Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
 - La política «Cero Vacíos» queda reemplazada: no inferir requisitos, documentos ni fechas. Conservar desconocidos; excluir de la búsqueda vigente las becas sin cierre confirmado. No convertir fechas históricas en confirmadas por su apariencia.

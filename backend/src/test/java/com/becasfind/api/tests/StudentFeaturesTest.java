@@ -23,7 +23,7 @@ class StudentFeaturesTest extends BaseTest {
         var token = studentToken();
         assertNotNull(token, "Student login failed");
         var res = post("/api/favoritos/" + publicScholarshipId(1), token, null, Map.class);
-        assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 201);
+        assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-33: Eliminar beca de favoritos")
@@ -32,7 +32,7 @@ class StudentFeaturesTest extends BaseTest {
         assertNotNull(token);
         post("/api/favoritos/" + publicScholarshipId(1), token, null, Map.class);
         var res = delete("/api/favoritos/" + publicScholarshipId(1), token);
-        assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 204);
+        assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-34: Verificar estado de favorito")
@@ -42,7 +42,7 @@ class StudentFeaturesTest extends BaseTest {
         var res = get("/api/favoritos/" + publicScholarshipId(2) + "/check", token, Map.class);
         assertEquals(200, res.getStatusCodeValue());
         var data = (Map)res.getBody().get("data");
-        assertNotNull(data);
+        assertEquals(true, data.get("favorito"));
     }
 
     @Test @DisplayName("CP-35: Listar favoritos")
@@ -81,7 +81,7 @@ class StudentFeaturesTest extends BaseTest {
         var freshToken = login("estudiante@duoc.cl", "admin123");
         assertNotNull(freshToken, "Student login must work");
         var res = get("/api/perfil", freshToken, Map.class);
-        assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 404);
+        assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-30: Recomendaciones con perfil")
@@ -96,7 +96,7 @@ class StudentFeaturesTest extends BaseTest {
     void recomendacionesWithoutProfile() {
         var token = studentToken(); assertNotNull(token);
         var res = get("/api/becas/recomendadas", token, Map.class);
-        assertTrue(res.getStatusCodeValue() == 200);
+        assertEquals(200, res.getStatusCodeValue());
     }
 
     @Test @DisplayName("CP-40: Catalogo regiones")
@@ -109,7 +109,7 @@ class StudentFeaturesTest extends BaseTest {
     void catalogoTiposBeca() { var d = (List)get("/api/tipos-beca",null,Map.class).getBody().get("data"); assertTrue(d.size()>=8); }
 
     @Test @DisplayName("CP-43: Catalogo tipos institucion")
-    void catalogoTiposInstitucion() { var res = get("/api/tipos-institucion", adminToken(), Map.class); assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 403); }
+    void catalogoTiposInstitucion() { var res = get("/api/tipos-institucion", null, Map.class); assertEquals(200, res.getStatusCodeValue()); assertFalse(((List)res.getBody().get("data")).isEmpty()); }
 
     @Test @DisplayName("CP-44: Catalogo instituciones")
     void catalogoInstituciones() { var d = (List)get("/api/instituciones",null,Map.class).getBody().get("data"); assertTrue(d.size()>=3); }

@@ -71,6 +71,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "/api/regiones/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/comunas/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/tipos-beca/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/tipos-institucion/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/instituciones/**").permitAll()
                         .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
                         .anyRequest().authenticated()
