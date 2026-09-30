@@ -1,12 +1,14 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de alinear formularios públicos de autenticación en FASE 8. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado revisado: 30 de septiembre de 2026, tras contrastar el to do con el código y el cierre de FASE 8. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
 ## To do vigente
 
 Esta lista es el estado actual. Las propuestas y secciones de avance posteriores conservan el historial; sus frases «Siguiente fase» corresponden al momento de cada avance. Una casilla completada cierra ese alcance concreto, no todas las tareas de una fase o paquete.
+
+**Próxima tarea:** FASE 9, corregir las pruebas antiguas del buscador. La revisión de este listado es documental: no ejecuta otra fase ni repite pruebas. Los resultados citados corresponden a los cierres anteriores.
 
 ### Hecho y verificado
 
@@ -23,6 +25,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Separar listado administrativo para incluir becas vencidas/inactivas y estandarizar errores de parámetros.
 - [x] Corregir estado URL, debounce, paginación recomendada, respuestas antiguas y reintentos del buscador.
 - [x] Corregir formularios/listados administrativos: vaciado de asociaciones, validación de interfaz, conservación de datos y errores recuperables.
+- [x] Mostrar usuarios inactivos en administración sin permitirles acceso; editar nombre/correo de usuarios activos y verificar persistencia con backend/PostgreSQL reales.
 - [x] Hacer atómica la importación CSV, validar archivos/valores/encoding, corregir upsert y comprobar rollback/UTF-8 en PostgreSQL temporal.
 - [x] Restaurar sesión antes del render, manejar vencimiento y sincronizar cierre entre pestañas; eliminar caché de identidad redundante.
 - [x] Cerrar revisión estática global sin desactivar reglas: cero errores y cero advertencias.
@@ -36,17 +39,23 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Pendiente, en orden de trabajo
 
-1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
-2. [x] **Perfil y favoritos — persistencia e integración verificadas.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Persistencia HTTP, recomendaciones, aislamiento de favoritos y bloqueos concurrentes verificados con PostgreSQL 17 temporal y DDL real. Recorrido Chromium conectado a backend prod/PostgreSQL temporal aprobado: login, guardar/recargar/vaciar perfil, recomendaciones y guardar/recargar/eliminar favoritos, sin API simulada. No cubre todos los casos de abuso ni segundo navegador. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
-3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
-4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. CRUD de becas, creación/desactivación de usuarios y rechazo de permisos estudiante verificados con navegador/backend/PostgreSQL reales. El listado ahora incluye usuarios inactivos y mantiene sus accesos bloqueados. Edición de nombre/correo de usuarios activos añadida y verificada. Quedan pendientes pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
-5. [ ] **Contrato y seguridad restante.** Invalidación tras recuperación, contrato de errores del manejador global y respuestas de autenticación/permisos corregidos y verificados. Resolver identificadores públicos frente a IDs internos y cerrar hallazgos restantes por módulo. El rechazo CORS permanece independiente; no afirmar que toda respuesta HTTP use el mismo formato.
-6. [ ] **FASE 14 — datos e importación masiva.** Importación desde navegador real comprobada: creación, upsert sin duplicados, rechazo con cero escrituras y bytes UTF-8. Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
-7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
-8. [ ] **Verificación integral.** Corregir suites antiguas débiles de login/buscador; contrastar documentos de requisitos/pruebas y recorrer roles, CRUD, CSV, perfil, favoritos y recuperación con backend/PostgreSQL reales.
-9. [ ] **Accesibilidad y rendimiento global.** Revisar teclado, zoom, 360/390/768/1440 px y un segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Los objetivos del plan aún no son resultados.
-10. [ ] **Infraestructura Vercel + Oracle.** Confirmar cuenta/capacidad/gratuidad vigente, probar contenedor/persistencia/reinicio, configurar HTTPS/Nginx, BD privada, secretos, CORS y entorno de pruebas aislado; integrar controles de calidad antes de publicar.
-11. [ ] **Operación y publicación.** Probar copias/restauración y rollback en el entorno de destino, documentar mantenimiento, verificar vista previa y completar flujos públicos antes de publicar.
+1. [ ] **FASE 9 — pruebas antiguas del buscador.** Reescribir search-ux.spec.ts: usa un botón anterior, esperas fijas, acepta hasta tres peticiones para un supuesto debounce único y una cantidad de resultados mayor o igual que cero. Exigir resultados, parámetros, filtros y número de solicitudes concretos con fixtures reproducibles; conservar las suites modernas ya verificadas.
+2. [ ] **FASE 8 — pruebas antiguas de login.** Revisar login-flow.spec.ts: campos vacíos solo comprueban que el botón sigue visible y otros casos dependen de credenciales/datos locales. Exigir validación, ausencia de escrituras, identidad/sesión y contenido de destino; mantener separados casos con API controlada y backend real.
+3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar moneda, unidades y beneficios porcentuales/no monetarios antes de migrar. montoCobertura sigue siendo String y montoAsc/montoDesc ordenan texto. Revisar precisión NEM (DDL NUMERIC(3,1)) solo si se acuerda ampliarla; verificar migración, ordenamiento y casos límite.
+4. [ ] **Contrato e identificadores públicos.** Definir identificadores públicos coherentes para búsqueda, detalle y favoritos antes de cambiar DTOs/enlaces; el contrato prohíbe exponer IDs internos, utilizados actualmente. Respuestas de validación/autenticación y revocación de sesiones están cerradas en sus alcances. CORS conserva su tratamiento independiente.
+5. [ ] **FASE 14 — calidad histórica de datos.** Auditar CSV, tildes, enlaces profundos, requisitos/documentos y fechas contra fuentes oficiales. Acordar cómo representar datos desconocidos antes de modificar la inferencia y el cierre contractual por defecto 2026-12-31. Las importaciones con fixtures no validan el corpus histórico.
+6. [ ] **FASES 5/10/14, por separado — concurrencia y rendimiento de escrituras.** Medir importaciones/catálogos simultáneos, CRUD administrativo concurrente y batch INSERT efectivo. La atomicidad CSV y los bloqueos de perfil/favoritos ya verificados no cierran estos casos. Administración y su edición/diseño están completados en el alcance registrado.
+7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega a una bandeja real, enlace, caducidad, consumo único y acceso con la contraseña nueva. La integración y los formularios existen; las pruebas con proveedor simulado no verifican recepción.
+8. [ ] **Cobertura integral y requisitos.** Leer y contrastar documentos Office de requisitos/pruebas; completar búsqueda/detalle y recuperación end-to-end con evidencia verificable. Registro/login, CRUD, roles, CSV, perfil y favoritos ya tienen recorridos Chromium con backend/PostgreSQL reales; ampliar casos límite sin repetirlos como trabajo no iniciado. Institución/carrera/año son referencias guardadas, no criterios actuales de recomendación.
+9. [ ] **Accesibilidad y rendimiento global.** Revisar zoom, teclado en todos los flujos, 360/390/768/1440 px y segundo navegador; medir carga y búsqueda bajo condiciones documentadas. Las capturas y recorridos parciales no equivalen a auditoría global.
+10. [ ] **Infraestructura y CI para Vercel + Oracle.** Dockerfile backend y frontend/vercel.json ya existen; falta validarlos en el destino, confirmar cuenta/capacidad/gratuidad vigente y probar contenedor/arquitectura, persistencia/reinicio, HTTPS/Nginx, BD privada, secretos, CORS y búsquedas con locale español. Crear pipeline de calidad reproducible: no hay workflows GitHub versionados. Preparar vista previa aislada antes de publicar.
+11. [ ] **Operación y publicación.** Probar copias/restauración y rollback en el destino, documentar mantenimiento y verificar flujos públicos en la vista previa. Después publicar y comprobar URL pública, rutas directas y conexión frontend/backend. No hay publicación realizada ni garantía de disponibilidad gratuita continua.
+
+### Dependencias para cerrar pendientes
+
+- **Trabajo autónomo inmediato:** pruebas antiguas, contraste de requisitos, auditoría de datos sin inventarlos y verificaciones de accesibilidad/rendimiento.
+- **Decisiones de producto/contrato:** unidades monetarias, precisión NEM si cambia, identificadores públicos y tratamiento de requisitos/fechas desconocidos. Preparar propuesta concreta antes de cambiar esquema o reglas contractuales.
+- **Configuración externa:** clave/remitente de correo y recursos de Oracle/Vercel. Confirmar el acceso y configuración efectiva antes de declarar correo o despliegue operativos.
 
 ### Evidencia y límites actuales
 
@@ -73,6 +82,8 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 4. **Recuperación de contraseña:** integración de API autorizada e implementada con Resend. Pendientes cuenta/clave privada, remitente y prueba de entrega real; no declarar activo el correo antes de comprobarlo.
 
 ## Orden de ejecución
+
+Esta tabla conserva la planificación original de paquetes; el orden vigente es el to do superior. Los paquetes no son tareas completamente pendientes y no deben reiniciarse desde cero.
 
 | Paquete | Prioridad | Trabajo | Fases del contrato, ejecutadas por separado | Criterio de cierre |
 |---|---|---|---|---|
