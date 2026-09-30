@@ -2,6 +2,7 @@ package com.becasfind.api.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
 import com.becasfind.api.models.dtos.ErrorResponse;
+import com.becasfind.api.models.dtos.ApiResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.ServletWebRequest;
 import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.multipart.MaxUploadSizeExceededException;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -130,6 +132,12 @@ public class GlobalExceptionHandler {
         );
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
+    }
+
+    @ExceptionHandler(MaxUploadSizeExceededException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUploadLimit() {
+        return ResponseEntity.status(413).body(ApiResponse.error(413,
+                "El archivo supera el límite de 10 MB permitido para la importación."));
     }
 
     @ExceptionHandler(Exception.class)

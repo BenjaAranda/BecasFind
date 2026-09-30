@@ -19,7 +19,7 @@ class ImportAndUserAdminTest extends BaseTest {
     @Test @DisplayName("CP-49: Importar CSV valido")
     void importValidCsv() {
         String csv = "nombre,institucion,tipo_beca,monto,fecha_inicio,fecha_cierre,rsh_maximo,nem_minimo,regiones,descripcion,descripcion_larga,url\n"
-                + "Beca Test Import,DUOC UC,Beca de Arancel,100000,2026-01-01,2026-12-31,60,5.0,RM,Desc corta,Desc larga,https://test.cl";
+                + "Beca Test Import,DUOC UC,Beca de Arancel,100000,2026-01-01,2026-12-31,60,5.0,RM,Desc corta,Desc larga,https://test.cl/becas";
         LinkedMultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
         body.add("file", new ByteArrayResource(csv.getBytes()) {
             @Override public String getFilename() { return "test.csv"; }

@@ -137,7 +137,8 @@ public class BecaController {
     public ResponseEntity<ApiResponse<ImportResultDTO>> importarCsv(@RequestParam("file") MultipartFile file) {
         ImportResultDTO result = becaImportService.importarDesdeCsv(file);
         return ResponseEntity.ok(ApiResponse.success(result,
-                "Importacion completada: " + result.getCreadas() + " creadas, " +
-                result.getActualizadas() + " actualizadas, " + result.getErrores() + " errores"));
+                result.getErrores() > 0 ? "Importación rechazada: no se guardó ninguna fila." :
+                "Importación completada: " + result.getCreadas() + " creadas, " +
+                result.getActualizadas() + " actualizadas, 0 errores"));
     }
 }
