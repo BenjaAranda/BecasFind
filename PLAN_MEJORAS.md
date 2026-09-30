@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de la renovación de portada en FASE 11. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de la interfaz de perfil/favoritos en FASE 12. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -25,15 +25,16 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Renovar acceso, registro y navegación pública/administrativa con controles accesibles y adaptación móvil.
 - [x] Renovar buscador, filtros plegables, tarjetas y detalle; mostrar errores/reintento y corregir navegación directa y documentos opcionales.
 - [x] Renovar portada y retirar cifras/promesas sin respaldo; explicar acceso con cuenta, límites de recomendaciones y consulta de fuente oficial. Comprobar acciones por sesión, teclado y adaptación 360–1440 px.
+- [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Verificar recorridos con API controlada; backend e integración real quedan pendientes.
 - [x] Bloquear escrituras simultáneas de favoritos por beca, revertir fallos y anunciarlos en resultados.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
 
 ### Pendiente, en orden de trabajo
 
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
-2. [ ] **Próxima: FASE 12 — perfil y favoritos.** Completar revisión funcional, validación de datos y diseño; comprobar guardar/cargar perfil, recomendaciones y pantalla de favoritos con fallos y navegación reales.
+2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y pruebas controladas completadas. Endurecer validación de perfil en servidor y comprobar persistencia/recomendaciones/favoritos con backend real. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
-4. [ ] **FASES 2/5/6/10, por separado — administración.** Endurecer validaciones del servidor y políticas de borrado/desactivación; cerrar diseño interno y accesibilidad de modales.
+4. [ ] **Próxima: FASE 2 — validación de solicitudes.** Endurecer DTOs de perfil y administración y sus pruebas. Después completar validaciones de servicios/controladores y políticas de borrado/desactivación en FASES 5/6, por separado; cerrar diseño interno y accesibilidad de modales en FASE 10.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
 6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
@@ -45,7 +46,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 ### Evidencia y límites actuales
 
 - Última suite completa backend registrada: **114 pruebas aprobadas**; doce casos CSV también verificados en PostgreSQL 17 temporal. Backend sin cambios en las últimas fases de diseño.
-- Última fase de navegador: **32 casos aprobados con API controlada** (siete nuevos de portada y 25 regresiones de sesión, navegación y recuperación). La fase anterior aprobó 54 casos distintos, incluidos los 19 de buscador/detalle en su cierre. Esto no equivale a integración completa ni correo real.
+- Última fase de navegador: **39 casos aprobados con API controlada** (diez nuevos de perfil/favoritos y 29 regresiones de sesión/buscador). Antes se aprobaron 32 casos de portada/sesión/navegación/recuperación y 54 casos en la fase de búsqueda. Esto no equivale a integración completa ni correo real.
 - Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
@@ -350,3 +351,13 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Enlace para saltar al contenido verificado con teclado, encabezados semánticos, iconos decorativos ocultos y controles con foco visible. Layout comprobado a 360/390/768/1440 px; capturas de escritorio/móvil revisadas sin desbordamiento.
 - Verificación: 32 pruebas Chromium aprobadas con API controlada (siete nuevas de portada, doce de sesión, seis de navegación/acceso y siete de recuperación). Lint global cero errores/advertencias, build frontend y mvn compile aprobados. Backend sin cambios; última suite completa permanece en 114 casos.
 - No activa envío real ni publica el sitio. To do actualizado; próxima FASE 12: perfil y favoritos, una fase por instrucción explícita.
+
+## Avance de implementación — FASE 12, interfaz de perfil y favoritos
+
+- Ambas pantallas comparten navegación y diseño editorial. Etiquetas asociadas, campos opcionales explicados, estados de carga/error/éxito anunciados y foco visible. Capturas de escritorio/móvil revisadas a 390/1280 px sin desbordamiento.
+- Perfil carga datos y catálogos juntos; cualquier fallo bloquea edición/guardado y ofrece reintento, evitando sobrescribir datos con un formulario vacío. Un perfil inexistente es la respuesta null, no cualquier error. Respuestas descartadas al desmontar.
+- Se conserva RSH cero y NEM decimal. Interfaz valida RSH entero 0–100, NEM 1–7 con un decimal según esquema actual y carrera hasta 255 caracteres. Guardado envía null al vaciar región/institución/carrera, recorta espacios, bloquea controles/envíos concurrentes y conserva cambios ante fallo. Estas reglas aún necesitan validación del servidor; no cambian DTOs ni esquema en esta fase.
+- Explicación precisa: recomendaciones evalúan RSH/NEM/región; institución/carrera/año se guardan como referencia. Enlace lleva al modo recomendado usando perfil guardado, sin prometer elegibilidad.
+- Favoritos distingue error de lista vacía, permite reintentar carga y cancela peticiones al salir. Quitar usa botón compartido con estado/área táctil, bloquea envíos por beca, conserva tarjeta si falla y anuncia éxito. Becas inactivas permanecen guardadas con aviso visible, igual que becas vencidas.
+- Verificación final: 39 pruebas Chromium aprobadas con API controlada (diez nuevas y 29 regresiones). Dos fixtures iniciales se corrigieron para mantener fallos hasta reintento, compatibles con doble montaje de StrictMode en desarrollo; no se relajaron aserciones. Lint global cero errores/advertencias, build frontend y mvn compile aprobados. Última suite backend completa: 114 casos; sin cambios backend.
+- Pendientes específicos: validación de perfil en DTO/servidor, concurrencia de favoritos en backend y verificación integral con PostgreSQL real. Próxima FASE 2: endurecer solicitudes de perfil/administración; una fase por instrucción explícita.

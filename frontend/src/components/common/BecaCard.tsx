@@ -40,11 +40,11 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito, 
         <button onClick={event => { event.stopPropagation(); onClick(beca.idBeca); }} className="text-left cursor-pointer hover:underline decoration-1 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2">{beca.nombre}</button>
       </h3>
 
-      {isExpired && (
+      {(isExpired || beca.estadoActiva === false) && (
         <div className="flex items-center gap-1.5 mb-3">
           <Clock className="w-3.5 h-3.5 text-amber-500 shrink-0" />
           <span className="text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
-            Postulación cerrada
+            {beca.estadoActiva === false ? 'Beca inactiva' : 'Postulación cerrada'}
           </span>
         </div>
       )}

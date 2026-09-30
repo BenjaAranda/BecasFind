@@ -2,8 +2,8 @@ import api from './api';
 import type { ApiResponse, BecaSummary } from '../types';
 
 export const favoritoService = {
-  listar() {
-    return api.get<ApiResponse<BecaSummary[]>>('/favoritos');
+  listar(signal?: AbortSignal) {
+    return api.get<ApiResponse<BecaSummary[]>>('/favoritos', { signal });
   },
 
   guardar(idBeca: number) {

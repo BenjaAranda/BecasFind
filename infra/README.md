@@ -164,3 +164,9 @@ Se aprobaron 54 casos Chromium distintos con API controlada durante esta fase; l
 Portada renovada con acciones distintas según sesión. El buscador sigue protegido; se informa que necesita cuenta. Retiradas cifras/promesas sin respaldo y explicados criterios reales y límites de recomendaciones. Enlace para saltar al contenido comprobado con teclado; cuatro anchos 360/390/768/1440 px sin desbordamiento y capturas revisadas.
 
 `npx playwright test landing-design navigation-auth-design auth-session password-recovery --workers=1` aprobó 32 casos con respuestas controladas. Lint global, build y mvn compile aprobados. Sin nuevas dependencias, datos ni backend modificados; correo real y despliegue siguen pendientes.
+
+### Perfil y favoritos — FASE 12, interfaz
+
+Carga de perfil/catálogos fallida bloquea guardado y ofrece reintento. Guardar preserva RSH cero, valida campos según esquema actual, envía null para asociaciones vaciadas y conserva cambios si falla. Favoritos separa error/carga/vacío, cancela cargas al salir y gestiona fallos/envíos pendientes al quitar; muestra becas inactivas guardadas.
+
+`npx playwright test profile-favorites auth-session search-design search-state --workers=1` aprobó 39 casos con API controlada. Lint, build y mvn compile aprobados; capturas 390/1280 px revisadas. No se cambiaron DTOs, servicios backend ni datos locales: validación servidor, concurrencia e integración real continúan pendientes.
