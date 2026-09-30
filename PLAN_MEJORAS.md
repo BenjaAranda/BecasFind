@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de corregir integridad de servicios en FASE 5. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de corregir respuestas HTTP en FASE 6. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -35,7 +35,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
 2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Comprobar recorridos completos/recomendaciones/favoritos con PostgreSQL real y confirmar allí los bloqueos concurrentes ya probados en H2. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
-4. [ ] **Próxima: FASE 6 — controladores.** Referencias regionales, favoritos y creación concurrente de perfil corregidas en servicios. Revisar contrato de respuestas/errores y rutas administrativas; después diseño/accesibilidad de modales en FASE 10, por separado. Concurrencia de administración/importaciones y verificación PostgreSQL siguen pendientes.
+4. [ ] **Próxima: FASE 10 — administración.** Corregir diseño/accesibilidad de formularios y modales. Integridad básica de servicios y respuestas HTTP corregidas; quedan pendientes unificación completa de ErrorResponse/ApiResponse, identificadores públicos, concurrencia administrativa/importaciones y verificación PostgreSQL.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
 6. [ ] **FASE 14 — datos e importación masiva.** Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
@@ -382,3 +382,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Se conserva la política existente: eliminación de becas y desactivación de usuarios. Una prueba de eliminación comprueba la limpieza de favoritos, regiones, requisitos y documentos.
 - Verificación: 125 pruebas backend aprobadas; seis nuevas pruebas de integridad, incluyendo escrituras concurrentes. Empaquetado y mvn compile aprobados. Motor H2 aislado; PostgreSQL no ejecutado en esta fase.
 - Pendientes: repetir concurrencia/borrado con PostgreSQL real, revisar concurrencia administrativa/importaciones y contrato de respuestas. Próxima FASE 6; una fase por instrucción explícita. Correo, calidad de datos y despliegue siguen pendientes.
+
+
+## Avance FASE 6 — respuestas HTTP (30 de septiembre de 2026)
+
+- JSON malformado, tipos de parámetros inválidos y archivos/parámetros ausentes devuelven 400 en la capa HTTP. Métodos no admitidos devuelven 405 con Allow; contenido incompatible devuelve 415. No se exponen detalles del parser.
+- Registro público y creación administrativa de usuarios/becas devuelven 201 tanto en HTTP como en el cuerpo. ApiResponse incluye data incluso si es null. Se corrigen tildes en mensajes del manejador global.
+- Se conservan validationErrors y los demás campos de ErrorResponse para la interfaz. Su unificación completa con ApiResponse sigue pendiente y requiere una revisión conjunta de consumidores y filtros de seguridad.
+- Verificación: 131 pruebas backend aprobadas, incluyendo seis nuevas pruebas HTTP con múltiples endpoints y rechazo de escrituras administrativas para estudiantes. Maven package y compile aprobados; H2 aislado. Frontend sin cambios; no se ejecutó PostgreSQL ni se desplegó.
+- Próxima FASE 10: diseño y accesibilidad de administración. Una fase por instrucción explícita. Continúan pendientes pruebas reales, datos, correo y publicación.

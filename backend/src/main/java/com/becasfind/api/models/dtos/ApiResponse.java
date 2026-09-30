@@ -23,6 +23,7 @@ public class ApiResponse<T> {
 
     private String message;
 
+    @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.ALWAYS)
     private T data;
 
     public static <T> ApiResponse<T> success(T data) {
@@ -50,5 +51,11 @@ public class ApiResponse<T> {
                 .message(message)
                 .data(null)
                 .build();
+    }
+
+    public static <T> ApiResponse<T> created(T data, String message) {
+        ApiResponse<T> response = success(data, message);
+        response.setStatus(201);
+        return response;
     }
 }

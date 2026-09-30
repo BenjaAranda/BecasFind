@@ -37,7 +37,7 @@ public class AuthController {
     public ResponseEntity<ApiResponse<AuthResponse>> register(@Valid @RequestBody RegisterRequest request) {
         AuthResponse authResponse = authService.register(request);
         return ResponseEntity.status(HttpStatus.CREATED)
-                .body(ApiResponse.success(authResponse, "Registro exitoso"));
+                .body(ApiResponse.created(authResponse, "Registro exitoso"));
     }
 
     @PostMapping("/forgot-password")

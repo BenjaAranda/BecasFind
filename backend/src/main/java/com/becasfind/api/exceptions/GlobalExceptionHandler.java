@@ -27,6 +27,30 @@ public class GlobalExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
+    @ExceptionHandler({org.springframework.http.converter.HttpMessageNotReadableException.class,
+            org.springframework.web.method.annotation.MethodArgumentTypeMismatchException.class,
+            org.springframework.web.bind.MissingServletRequestParameterException.class,
+            org.springframework.web.multipart.support.MissingServletRequestPartException.class})
+    public ResponseEntity<ApiResponse<Void>> handleMalformedRequest() {
+        return ResponseEntity.badRequest().body(ApiResponse.error(400,
+                "La solicitud contiene valores o un formato no válidos"));
+    }
+
+    @ExceptionHandler(org.springframework.web.HttpRequestMethodNotSupportedException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUnsupportedMethod(
+            org.springframework.web.HttpRequestMethodNotSupportedException ex) {
+        org.springframework.http.HttpHeaders headers = new org.springframework.http.HttpHeaders();
+        if (ex.getSupportedHttpMethods() != null) headers.setAllow(ex.getSupportedHttpMethods());
+        return new ResponseEntity<>(ApiResponse.error(405, "Método HTTP no permitido"), headers,
+                HttpStatus.METHOD_NOT_ALLOWED);
+    }
+
+    @ExceptionHandler(org.springframework.web.HttpMediaTypeNotSupportedException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUnsupportedMedia() {
+        return ResponseEntity.status(415).body(ApiResponse.error(415,
+                "El tipo de contenido de la solicitud no es compatible"));
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
         Map<String, String> errors = new HashMap<>();
@@ -39,8 +63,8 @@ public class GlobalExceptionHandler {
         ErrorResponse error = ErrorResponse.builder()
                 .timestamp(java.time.LocalDateTime.now())
                 .status(HttpStatus.BAD_REQUEST.value())
-                .error("Error de validacion")
-                .message("Uno o mas campos no cumplen con las reglas de validacion")
+                .error("Error de validación")
+                .message("Uno o más campos no cumplen con las reglas de validación")
                 .path(path)
                 .validationErrors(errors)
                 .build();
@@ -83,8 +107,8 @@ public class GlobalExceptionHandler {
         ErrorResponse error = ErrorResponse.builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
-                .error("Credenciales invalidas")
-                .message("Correo electronico o contrasenia incorrectos")
+                .error("Credenciales inválidas")
+                .message("Correo electrónico o contraseña incorrectos")
                 .path(path)
                 .build();
 
@@ -98,8 +122,8 @@ public class GlobalExceptionHandler {
         ErrorResponse error = ErrorResponse.builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
-                .error("Credenciales invalidas")
-                .message("Correo electronico o contrasenia incorrectos")
+                .error("Credenciales inválidas")
+                .message("Correo electrónico o contraseña incorrectos")
                 .path(path)
                 .build();
 
@@ -126,7 +150,7 @@ public class GlobalExceptionHandler {
 
         ErrorResponse error = ErrorResponse.of(
                 HttpStatus.BAD_REQUEST.value(),
-                "Argumento invalido",
+                "Argumento inválido",
                 ex.getMessage(),
                 path
         );
@@ -148,7 +172,7 @@ public class GlobalExceptionHandler {
         ErrorResponse error = ErrorResponse.of(
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),
                 "Error interno del servidor",
-                "Ha ocurrido un error inesperado. Por favor, intenta de nuevo mas tarde.",
+                "Ha ocurrido un error inesperado. Por favor, intenta de nuevo más tarde.",
                 path
         );
 

@@ -183,3 +183,8 @@ DTOs de perfil/becas/documentos/usuarios administrativos validan rangos, longitu
 FASE 5 rechaza referencias regionales inexistentes, crea requisitos al editar becas que carecen de ellos y serializa favoritos/guardado de perfil mediante bloqueos transaccionales por usuario. Guardar favoritos comprueba y bloquea la beca referenciada. La política de eliminación no cambia.
 
 CoreServiceIntegrityTest añade seis pruebas sobre referencias y rollback, beca inexistente, favoritos concurrentes, perfil inicial concurrente, requisitos y limpieza de asociaciones al eliminar. Suite completa: 125 pruebas, cero fallos/errores; Maven package y compile aprobados. Estas comprobaciones usan H2 aislado. Repetirlas en PostgreSQL 17 antes de publicar; esta fase no modifica la base local ni despliega servicios.
+
+
+### Verificación HTTP — 30 de septiembre de 2026
+
+FASE 6 corrige errores 400/405/415, conserva Allow en 405 y alinea respuestas de creación HTTP/cuerpo en 201. ApiResponse conserva data:null. HttpContractTest cubre JSON/tipos inválidos en varios controladores, archivo ausente, métodos/contenido incompatibles, registro y creación administrativa con autorización por rol. Suite completa: 131 pruebas aprobadas; Maven package y compile aprobados con H2 aislado. ErrorResponse conserva sus campos actuales; unificación completa y verificación PostgreSQL siguen pendientes. Sin cambios de infraestructura ni despliegues.

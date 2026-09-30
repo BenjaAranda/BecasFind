@@ -115,7 +115,7 @@ public class BecaController {
         var userDetails = customUserDetailsService.loadUserByEmail(principal.getName());
         BecaDTO beca = becaService.create(userDetails.getIdUsuario(), request);
         return ResponseEntity.status(HttpStatus.CREATED)
-                .body(ApiResponse.success(beca, "Beca creada exitosamente"));
+                .body(ApiResponse.created(beca, "Beca creada exitosamente"));
     }
 
     @PutMapping("/{id}")
