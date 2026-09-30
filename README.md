@@ -79,7 +79,7 @@ El sistema está dividido en dos aplicaciones principales:
 - Spring Validation
 - JWT con `io.jsonwebtoken`
 - Maven
-- MySQL
+- PostgreSQL 17
 - Lombok
 - Springdoc OpenAPI / Swagger UI
 - OpenCSV
@@ -99,7 +99,7 @@ El sistema está dividido en dos aplicaciones principales:
 
 ### Base de datos e infraestructura
 
-- MySQL 8.0
+- PostgreSQL 17
 - Script DDL en `infra/ddl.sql`
 - Datos iniciales en `backend/src/main/resources/data.sql`
 
@@ -157,7 +157,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Maven 3.8 o superior.
 - Node.js 20 o superior.
 - npm.
-- PostgreSQL 15 o superior.
+- PostgreSQL 17.
 - Git.
 
 ---
@@ -250,7 +250,7 @@ mvn clean install
 Ejecuta la API:
 
 ```bash
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 Por defecto, el backend se levanta en:
@@ -447,7 +447,7 @@ JWT_EXPIRATION_MS=86400000
 ```bash
 cd backend
 mvn clean install
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 ### Frontend

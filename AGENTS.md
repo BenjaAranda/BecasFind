@@ -54,10 +54,12 @@ BecasFind/
 | Frontend | React + Vite | 19.2.5 |
 | CSS | Tailwind CSS + @tailwindcss/vite | 4.3.0 |
 | Librerías Front | React Router DOM v7, Axios, lucide-react, jwt-decode | — |
-| Base de Datos | MySQL | 8.0 |
-| Servidor | Render (Cloud Platform) | — |
-| Proxy Web | Nginx / Render | — |
-| Despliegue | Render + Dockerfile | — |
+| Base de Datos | PostgreSQL | 17 |
+| Servidor | Oracle Cloud Always Free (opción acordada) | — |
+| Proxy Web | Nginx | — |
+| Despliegue | Vercel (frontend) + Oracle y Dockerfile (backend) | — |
+
+Actualización autorizada el 29 de septiembre de 2026: conservar PostgreSQL y preparar Vercel + Oracle. Desarrollo local: activar explícitamente el perfil `dev`. Producción: perfil `prod`, secretos externos, esquema instalado previamente, `ddl-auto: validate` y sin carga automática de datos. Las verificaciones de encoding deben usar `encode(convert_to(nombre, 'UTF8'), 'hex')` en PostgreSQL; los ejemplos históricos MySQL con `HEX`, `UNHEX` y `RLIKE` no deben ejecutarse en este motor.
 
 ---
 
