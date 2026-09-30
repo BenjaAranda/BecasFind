@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar perfil/favoritos en PostgreSQL en FASE 12. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de verificar el recorrido real de perfil/favoritos en FASE 12. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -25,7 +25,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Renovar acceso, registro y navegación pública/administrativa con controles accesibles y adaptación móvil.
 - [x] Renovar buscador, filtros plegables, tarjetas y detalle; mostrar errores/reintento y corregir navegación directa y documentos opcionales.
 - [x] Renovar portada y retirar cifras/promesas sin respaldo; explicar acceso con cuenta, límites de recomendaciones y consulta de fuente oficial. Comprobar acciones por sesión, teclado y adaptación 360–1440 px.
-- [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Interfaz verificada con API controlada y persistencia HTTP con PostgreSQL; recorrido navegador-backend real pendiente.
+- [x] Renovar interfaz de perfil/favoritos: carga fiable con reintento, bloqueo durante guardado, conservación de valores/cambios, vaciado explícito de asociaciones, errores de favoritos diferenciados y estados inactivos. Interfaz verificada con API controlada y persistencia HTTP con PostgreSQL; recorrido Chromium-backend-PostgreSQL real aprobado en entorno aislado.
 - [x] Validar solicitudes de perfil, becas, documentos y usuarios administrativos en el servidor: límites numéricos/texto/identificadores, fechas coherentes, URL HTTP/HTTPS y contraseña UTF-8. Verificar rechazo 400 sin modificar datos y conservación de vaciados/límites válidos.
 - [x] Bloquear escrituras simultáneas de favoritos en interfaz y serializarlas por usuario en backend; rechazar becas inexistentes y proteger la creación inicial concurrente del perfil. Pruebas concurrentes H2 y PostgreSQL 17 aprobadas.
 - [x] Registrar comprobaciones y subir avances con Conventional Commits al PR #10 en borrador, sin modificar main.
@@ -33,7 +33,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 ### Pendiente, en orden de trabajo
 
 1. [x] **FASE 11 — portada.** Diseño/textos y enlaces renovados y verificados; correo real sigue pendiente como tarea independiente.
-2. [ ] **Perfil y favoritos — cierre restante.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Persistencia HTTP, recomendaciones, aislamiento de favoritos y bloqueos concurrentes verificados con PostgreSQL 17 temporal y DDL real. Queda el recorrido completo de navegador conectado a ese backend, sin API simulada. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
+2. [x] **Perfil y favoritos — persistencia e integración verificadas.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Persistencia HTTP, recomendaciones, aislamiento de favoritos y bloqueos concurrentes verificados con PostgreSQL 17 temporal y DDL real. Recorrido Chromium conectado a backend prod/PostgreSQL temporal aprobado: login, guardar/recargar/vaciar perfil, recomendaciones y guardar/recargar/eliminar favoritos, sin API simulada. No cubre todos los casos de abuso ni segundo navegador. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
 4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. Quedan pendientes verificación integral PostgreSQL, pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
 5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
@@ -409,3 +409,11 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Resultado PostgreSQL: 10 pruebas aprobadas, incluyendo creación inicial de perfil/favoritos concurrente y limpieza de dependencias tras eliminación. La primera ejecución del verificador falló por catálogos semilla duplicados; se corrigió únicamente el montaje de fixtures y la ejecución final pasó.
 - Regresión completa: 135 pruebas backend H2 aprobadas, cero fallos/errores; Maven package y compile aprobados. No se cambió código de producción ni el frontend.
 - Pendiente de cierre integral: navegador conectado a backend/PostgreSQL real, sin interceptar API. Las verificaciones anteriores de interfaz usaron API controlada; no declarar aún ese recorrido end-to-end aprobado. Próximo paso: continuar FASE 12 con ese recorrido. Correo, datos, modelo monetario y despliegue siguen pendientes.
+
+
+## Avance FASE 12 — navegador conectado al backend real (30 de septiembre de 2026)
+
+- Se añade una suite live separada de las pruebas con mocks. Un caso recorre múltiples acciones: login con JWT real; guardar perfil con cero, decimal y tildes; recargar; vaciar región/institución/carrera; abrir recomendaciones; guardar favorito; recargar favoritos; comprobar persistencia por API; eliminar y comprobar ausencia tras recarga/API.
+- infra/verify-profile-browser.ps1 instala DDL y fixtures en PostgreSQL temporal, arranca el JAR con perfil prod, ddl-auto:validate y sin inicialización automática. Vite apunta a esa API y CORS solo permite el origen temporal. Las URLs de datasource y variables de esquema se fijan explícitamente para evitar heredar la base local. Servicios limitados a loopback; procesos detenidos y variables restauradas al terminar.
+- Resultado final: un recorrido Chromium real aprobado con múltiples comprobaciones UI/API; ejecución inicial y repetición tras endurecer el aislamiento aprobadas. Lint/build frontend y Maven compile aprobados. Las 135 pruebas backend H2 y 10 PostgreSQL siguen siendo evidencia de la etapa anterior; no se repitieron completas aquí.
+- No se modificó código de producción ni la base local. Sigue pendiente ampliar recorridos reales de administración/roles/importación, recuperación con correo real y verificación global de accesibilidad/rendimiento. Próxima FASE 10: CRUD administrativo real; mantener una fase por instrucción explícita. Sin despliegues.

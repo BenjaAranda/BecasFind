@@ -206,3 +206,16 @@ Ejecutar desde la raíz en PowerShell, con Java 17 en JAVA_HOME y Maven disponib
 PostgresBin permite indicar otra instalación de PostgreSQL 17. El verificador crea un clúster aislado en TEMP, limitado a loopback, con autenticación trust solo para ese entorno efímero. Cada clase recibe una base nueva instalada con ddl.sql; sus catálogos se sustituyen por fixtures de pruebas y Hibernate valida el esquema. Nunca apuntarlo a la base de la aplicación: no acepta una URL externa. El servidor se detiene y las variables se restauran en finally; los logs quedan en TEMP para diagnóstico.
 
 Resultado: 10 pruebas PostgreSQL aprobadas (cuatro de persistencia HTTP y seis de integridad/concurrencia). Suite completa adicional H2: 135 pruebas aprobadas; package y compile aprobados. La primera ejecución falló por duplicación de semillas DDL/test y se corrigió el montaje aislado. Pendiente: navegador real conectado al backend/PostgreSQL sin mocks. Sin cambios de producción ni despliegues.
+
+
+### Recorrido real de navegador — 30 de septiembre de 2026
+
+Requisitos: Java 17, PostgreSQL 17, Node, dependencias frontend y Chromium Playwright instalados. Empaquetar primero la versión actual del backend con Maven package. Desde la raíz:
+
+```powershell
+./infra/verify-profile-browser.ps1
+```
+
+El parámetro PostgresBin permite otra instalación local. Se usa el JAR backend/target/becasfind-api-1.0.0-SNAPSHOT.jar; regenerarlo tras cambios. El script crea PostgreSQL temporal con DDL/fixtures, fija datasource/schema y perfil prod, inicia API/Vite en loopback con puertos temporales y ejecuta playwright.live.config.ts. La suite e2e/live está separada de e2e/tests y no intercepta respuestas ni inventa JWT. Fixtures fechadas en 2026 deben actualizarse antes de ejecutar en otro período.
+
+Un recorrido real aprobado: login, perfil cero/decimal/tildes, recarga/vaciado, recomendaciones y favoritos persistidos/eliminados. Se comprueban resultados en interfaz y API real. Lint/build y Maven compile aprobados; suite completa backend no repetida en esta etapa. Al terminar se detienen los procesos y se restauran variables; logs quedan en TEMP. Base local intacta. No equivale a cobertura integral de administración, correo, despliegue o segundo navegador.
