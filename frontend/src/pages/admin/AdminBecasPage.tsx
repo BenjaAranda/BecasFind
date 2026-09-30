@@ -75,6 +75,7 @@ export default function AdminBecasPage() {
         descripcionCorta: d.descripcionCorta,
         descripcionLarga: d.descripcionLarga,
         montoCobertura: d.montoCobertura,
+        cobertura: d.cobertura,
         idTipoBeca: d.tipoBeca?.idTipoBeca,
         idInstitucion: d.institucion?.idInstitucion,
         fechaInicioPostulacion: d.fechaInicioPostulacion,

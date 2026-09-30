@@ -119,6 +119,71 @@ async function edit(page: Page) {
   await expect(page.getByRole('button', { name: 'Actualizar', exact: true })).toBeEnabled();
 }
 
+test('cobertura monetaria mantiene precisión, bloqueo y cambios tras error de campo', async ({ page }) => {
+  await setup(page);
+  const payloads: Record<string, unknown>[] = [];
+  await page.route('**/api/becas/1', async route => {
+    if (route.request().method() !== 'PUT') return route.fallback();
+    payloads.push(route.request().postDataJSON());
+    await route.fulfill({ status: payloads.length === 1 ? 400 : 200, json: payloads.length === 1
+      ? { message: 'Datos inválidos', validationErrors: { 'cobertura.moneda': 'Moneda no válida' } }
+      : { data: summary } });
+  });
+  await edit(page);
+  await page.getByLabel('Tipo de cobertura', { exact: true }).selectOption('MONETARIA');
+  await page.getByLabel('Importe confirmado', { exact: true }).fill('9999999999999999.99');
+  await page.getByLabel('Moneda', { exact: true }).selectOption('CLP');
+  await page.getByLabel('Periodicidad', { exact: true }).selectOption('ANUAL');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('Moneda no válida');
+  await expect(page.getByLabel('Importe confirmado', { exact: true })).toHaveValue('9999999999999999.99');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  expect(payloads).toHaveLength(2);
+  expect(payloads[1].cobertura).toEqual({ tipo: 'MONETARIA', importe: '9999999999999999.99', moneda: 'CLP', periodicidad: 'ANUAL' });
+});
+
+test('importe inválido o sin moneda y porcentaje fuera de rango no escriben', async ({ page }) => {
+  await setup(page);
+  let writes = 0;
+  page.on('request', r => { if (r.method() === 'PUT') writes++; });
+  await edit(page);
+  await page.getByLabel('Tipo de cobertura', { exact: true }).selectOption('MONETARIA');
+  await page.getByLabel('Importe confirmado', { exact: true }).fill('1.001');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('dos decimales');
+  await page.getByLabel('Importe confirmado', { exact: true }).fill('0');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('Selecciona la moneda');
+  await page.getByLabel('Tipo de cobertura', { exact: true }).selectOption('PORCENTUAL');
+  await page.getByLabel('Porcentaje confirmado (%)').fill('101');
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('entre 0 y 100');
+  expect(writes).toBe(0);
+});
+
+test('cambiar de tipo descarta campos incompatibles y permite vaciado explícito', async ({ page }) => {
+  await setup(page);
+  let payload: Record<string, unknown> | undefined;
+  await page.route('**/api/becas/1', async route => {
+    if (route.request().method() !== 'PUT') return route.fallback();
+    payload = route.request().postDataJSON();
+    return route.fulfill({ json: { data: summary } });
+  });
+  await edit(page);
+  await page.getByLabel('Tipo de cobertura', { exact: true }).selectOption('MONETARIA');
+  await page.getByLabel('Importe confirmado', { exact: true }).fill('0');
+  await page.getByLabel('Moneda', { exact: true }).selectOption('CLP');
+  await page.getByLabel('Tipo de cobertura', { exact: true }).selectOption('PORCENTUAL');
+  await expect(page.getByLabel('Importe confirmado', { exact: true })).toHaveCount(0);
+  await page.getByLabel('Porcentaje confirmado (%)').fill('75.50');
+  await page.getByRole('button', { name: 'Quitar datos confirmados' }).click();
+  await expect(page.getByLabel('Porcentaje confirmado (%)')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Actualizar', exact: true }).click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  expect(payload?.cobertura).toEqual({ tipo: 'DESCONOCIDA' });
+});
+
 test('editar permite vaciar regiones y documentos sin perder RSH cero', async ({ page }) => {
   await setup(page);
   let payload: Record<string, unknown> | undefined;

@@ -1,6 +1,9 @@
 import AdminDialog from './AdminDialog';
 import { useState, useEffect } from 'react';
-import type { TipoBeca, Institucion, Region } from '../../types';
+import type { TipoBeca, Institucion, Region, Cobertura } from '../../types';
+import CoberturaFields from './CoberturaFields';
+import { coverageError } from './coverageValidation';
+import { authFormError } from '../../utils/authFormError';
 import { adminService } from '../../services/adminService';
 import { X, Plus, Trash2 } from 'lucide-react';
 
@@ -26,6 +29,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
   const [descripcionCorta, setDescripcionCorta] = useState(() => String(d.descripcionCorta ?? ''));
   const [descripcionLarga, setDescripcionLarga] = useState(() => String(d.descripcionLarga ?? ''));
   const [montoCobertura, setMontoCobertura] = useState(() => String(d.montoCobertura ?? ''));
+  const [cobertura, setCobertura] = useState<Cobertura>(() => (d.cobertura as Cobertura | undefined) ?? { tipo: 'DESCONOCIDA' });
   const [idTipoBeca, setIdTipoBeca] = useState(() => String(d.idTipoBeca ?? ''));
   const [idInstitucion, setIdInstitucion] = useState(() => String(d.idInstitucion ?? ''));
   const [fechaInicio, setFechaInicio] = useState(() => String(d.fechaInicioPostulacion ?? ''));
@@ -72,6 +76,8 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
     e.preventDefault();
     if (loading || catalogLoading || !tiposBeca.length || !instituciones.length) return;
     setError('');
+    const invalidCoverage = coverageError(cobertura);
+    if (invalidCoverage) { setError(invalidCoverage); return; }
     if (!nombre.trim() || documentos.some(doc => !doc.nombreDocumento.trim())) {
       setError('Completa el nombre de la beca y de cada documento.');
       return;
@@ -91,6 +97,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
       descripcionCorta: descripcionCorta || null,
       descripcionLarga: descripcionLarga || null,
       montoCobertura: montoCobertura || null,
+      cobertura,
       idTipoBeca: Number(idTipoBeca),
       idInstitucion: Number(idInstitucion),
       fechaInicioPostulacion: fechaInicio || null,
@@ -111,8 +118,7 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
       else await adminService.createBeca(payload);
       onSave();
     } catch (err: unknown) {
-      const axiosErr = err as { response?: { data?: { message?: string } } };
-      setError(axiosErr.response?.data?.message || 'Error al guardar la beca');
+      setError(authFormError(err, 'Error al guardar la beca. Conservamos tus cambios para reintentar.'));
     } finally {
       setLoading(false);
     }
@@ -181,6 +187,8 @@ export default function BecaForm({ onClose, onSave, editId, initialData }: BecaF
               </label>
             </div>
           </div>
+
+          <CoberturaFields value={cobertura} onChange={setCobertura} />
 
           <div className="border-t pt-4">
             <h3 className="text-sm font-semibold text-[#163b3b] mb-2">Requisitos del Perfil</h3>
