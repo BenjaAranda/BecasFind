@@ -240,3 +240,10 @@ Cinco recorridos reales aprobados, lint/build y Maven compile aprobados. No se r
 ### Consulta de usuarios administrativos — 30 de septiembre de 2026
 
 verify-profile-postgres.ps1 incluye ahora AdminUserProjectionTest: 11 pruebas PostgreSQL aprobadas y DDL validado. La proyección administrativa lee campos controlados de usuarios activos/inactivos; las consultas habituales conservan el filtro de actividad. Regresión H2: 136 pruebas aprobadas; package/compile aprobados. No se conecta aún al servicio (pendiente FASE 5), por lo que la interfaz sigue excluyendo usuarios inactivos. No hubo cambios de frontend ni despliegues.
+
+
+### Servicio de listado administrativo — 30 de septiembre de 2026
+
+La proyección administrativa ya está conectada a UsuarioServiceImpl.findAll y al endpoint existente mediante UsuarioDTO. Usuarios inactivos visibles con sus campos controlados; acceso ADMIN, filtros de identidad y soft delete conservados. Prueba HTTP descarta exposición de contraseñas. Cinco recorridos live PostgreSQL aprobados: cuenta visible como Inactivo, botón de desactivación ausente, token previo bloqueado y login denegado, junto a regresiones de becas/permisos/CSV/perfil.
+
+136 pruebas H2, package, compile, lint/build aprobados. No se repitió la suite PostgreSQL específica de 11 casos. Falta edición de usuarios en interfaz; sin despliegues ni modificaciones en la base local.

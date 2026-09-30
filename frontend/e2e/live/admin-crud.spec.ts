@@ -67,11 +67,12 @@ test('crear y desactivar usuario bloquea su sesión existente y nuevos accesos',
   await expect(page.getByRole('dialog')).toHaveCount(0);
   await page.reload();
   await expect(page.getByRole('button', { name: 'Nuevo Usuario', exact: true })).toBeVisible();
-  await expect(page.getByRole('row').filter({ hasText: 'Usuario de verificación real' })).toHaveCount(0);
+  const row = page.getByRole('row').filter({ hasText: 'Usuario de verificación real' });
+  await expect(row.getByText('Inactivo', { exact: true })).toBeVisible();
+  await expect(row.getByRole('button', { name: /Desactivar/ })).toHaveCount(0);
   const users = await page.request.get(`${api}/api/usuarios`, { headers });
   expect(users.status()).toBe(200);
-  // The existing entity filter excludes inactive users from administration.
-  expect((await users.json()).data.find((user: { email: string }) => user.email === 'crud-real@example.com')).toBeUndefined();
+  expect((await users.json()).data.find((user: { email: string }) => user.email === 'crud-real@example.com').activo).toBe(false);
   expect((await page.request.get(`${api}/api/perfil`, { headers: userHeaders })).status()).toBe(403);
   expect((await page.request.post(`${api}/api/auth/login`, { data: { email: 'crud-real@example.com', password: 'password123' } })).status()).toBe(401);
 });

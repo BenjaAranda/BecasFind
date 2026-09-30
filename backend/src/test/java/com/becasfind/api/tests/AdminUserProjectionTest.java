@@ -31,6 +31,16 @@ class AdminUserProjectionTest extends BaseTest {
         assertTrue(users.findByEmail("estudiante@duoc.cl").isEmpty());
         assertTrue(users.findById(2L).isEmpty());
         assertEquals(1, jdbc.queryForObject("select count(*) from usuarios where id_usuario=2 and activo=false", Integer.class));
+        var adminList = get("/api/usuarios", adminToken(), java.util.Map.class);
+        assertEquals(200, adminList.getStatusCode().value());
+        var returned = (java.util.List<?>) adminList.getBody().get("data");
+        var dto = returned.stream().map(row -> (java.util.Map<?, ?>) row)
+                .filter(row -> Integer.valueOf(2).equals(row.get("idUsuario"))).findFirst().orElseThrow();
+        assertEquals(false, dto.get("activo"));
+        assertEquals("STUDENT", dto.get("rol"));
+        assertFalse(dto.containsKey("passwordHash"));
+        assertFalse(dto.containsKey("password"));
+        assertNotNull(dto.get("creadoEn"));
         assertEquals(Set.of("getIdUsuario", "getEmail", "getNombreCompleto", "getRol", "getActivo", "getCreadoEn"),
                 Arrays.stream(UsuarioRepository.AdministrativeUser.class.getDeclaredMethods())
                         .map(java.lang.reflect.Method::getName).collect(Collectors.toSet()));
