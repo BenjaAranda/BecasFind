@@ -219,3 +219,10 @@ Requisitos: Java 17, PostgreSQL 17, Node, dependencias frontend y Chromium Playw
 El parámetro PostgresBin permite otra instalación local. Se usa el JAR backend/target/becasfind-api-1.0.0-SNAPSHOT.jar; regenerarlo tras cambios. El script crea PostgreSQL temporal con DDL/fixtures, fija datasource/schema y perfil prod, inicia API/Vite en loopback con puertos temporales y ejecuta playwright.live.config.ts. La suite e2e/live está separada de e2e/tests y no intercepta respuestas ni inventa JWT. Fixtures fechadas en 2026 deben actualizarse antes de ejecutar en otro período.
 
 Un recorrido real aprobado: login, perfil cero/decimal/tildes, recarga/vaciado, recomendaciones y favoritos persistidos/eliminados. Se comprueban resultados en interfaz y API real. Lint/build y Maven compile aprobados; suite completa backend no repetida en esta etapa. Al terminar se detienen los procesos y se restauran variables; logs quedan en TEMP. Base local intacta. No equivale a cobertura integral de administración, correo, despliegue o segundo navegador.
+
+
+### Ampliación administrativa del recorrido real — 30 de septiembre de 2026
+
+verify-profile-browser.ps1 ejecuta ahora cuatro casos live: CRUD de becas, creación/desactivación de usuarios, restricciones de estudiante y perfil/favoritos. Verificación final aprobada con PostgreSQL temporal/backend prod y comprobación SQL adicional de soft delete: la cuenta sigue almacenada con activo=false. Lint/build y Maven compile aprobados; backend de producción sin cambios.
+
+Limitación descubierta: el filtro @Where de Usuario oculta las cuentas inactivas también en administración. Sigue pendiente corregir su visualización mediante una consulta administrativa controlada y añadir edición de usuarios en interfaz. El token de la cuenta desactivada devuelve 403; login nuevo devuelve 401. La suite no simula respuestas y comprueba esos estados exactos. Sin despliegues.

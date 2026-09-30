@@ -77,6 +77,8 @@ try {
         Get-Content (Join-Path $work 'browser.log') -Tail 20
         if ($result -ne 0) { throw "Browser verification failed. Logs: $work" }
     } finally { Pop-Location }
+    $inactive = & "$PostgresBin\psql.exe" -h 127.0.0.1 -p $pgPort -U browser_verify -d browser_profile -v ON_ERROR_STOP=1 -t -A -c "SELECT CASE WHEN count(*)=1 AND bool_and(NOT activo) THEN 1 ELSE 0 END FROM usuarios WHERE email='crud-real@example.com'"
+    if ($LASTEXITCODE -ne 0 -or "$inactive".Trim() -ne '1') { throw 'Deactivated account was not preserved in PostgreSQL.' }
     Write-Output "Live browser verification passed. Evidence: $work"
 } finally {
     foreach ($process in @($frontend, $backend)) { if ($process -and !$process.HasExited) { Stop-Process -Id $process.Id } }
