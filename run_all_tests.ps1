@@ -9,6 +9,9 @@ if (!$MavenPath) {
 if (!$MavenPath -or !(Test-Path -LiteralPath $MavenPath)) {
     throw 'Indicar -MavenPath con la ruta al ejecutable mvn.cmd o instalar Maven en PATH.'
 }
+$savedApiOrigin = $env:VITE_API_URL
+# Controlled browser suite mocks this isolated origin; no external API calls.
+$env:VITE_API_URL = 'http://127.0.0.1:5198'
 Push-Location $repoRoot
 try {
     & $MavenPath -B -ntp -f backend/pom.xml test
@@ -26,4 +29,4 @@ try {
     & node frontend/node_modules/@playwright/test/cli.js test -c frontend/playwright.config.ts --workers 1
     if ($LASTEXITCODE -ne 0) { throw 'Fallaron las pruebas de navegador.' }
     Write-Output 'Pruebas backend, lint, audit, build y Chromium/Firefox aprobados. PostgreSQL real y rendimiento se ejecutan con los comandos de documentacion/CALIDAD_PRE_DESPLIEGUE.md.'
-} finally { Pop-Location }
+} finally { Pop-Location; $env:VITE_API_URL = $savedApiOrigin }

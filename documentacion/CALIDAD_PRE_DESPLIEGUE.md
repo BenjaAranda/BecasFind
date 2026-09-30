@@ -42,7 +42,7 @@ Los JSON de medidas se generan en frontend/performance-report y backend/target; 
 
 ## Correo real (P09)
 
-Pendiente de configuración externa: no hay clave ni remitente Resend configurados. La integración, validación de URL/remitente, errores del proveedor, caducidad de quince minutos, consumo único e invalidación de sesiones tienen pruebas locales. Esto no demuestra entrega a una bandeja.
+Pendiente de configuración externa: el usuario confirmó que no tiene cuenta Resend, clave ni remitente. La integración, validación de URL/remitente, errores del proveedor, caducidad de quince minutos, consumo único e invalidación de sesiones tienen pruebas locales. Esto no demuestra entrega a una bandeja.
 
 En backend/.env (ignorado por Git), completar RESEND_API_KEY y RESET_EMAIL_FROM; indicar FRONTEND_URL del entorno de prueba y habilitar RESET_EMAIL_ENABLED. HTTP solo se permite en dev y localhost; prod exige HTTPS. No publicar claves ni tokens en informes. Con una dirección autorizada del usuario: crear una cuenta de prueba aislada, solicitar recuperación, comprobar recepción y enlace, cambiar la contraseña, verificar login nuevo y rechazo del antiguo y del enlace reutilizado. Repetir con un token caducado. Conservar evidencia sin credenciales ni URL del token. No enviar correos a terceros.
 
@@ -63,3 +63,5 @@ El audit inicial encontró once vulnerabilidades en frontend. Se actualizaron de
 ## Verificación registrada
 
 171 pruebas backend H2 aprobadas y JAR actualizado empaquetado en una ruta temporal aislada (el JAR anterior en target estaba bloqueado por Windows). Suite de navegador: 210 casos aprobados; matriz de 12 casos repetida tras corregir el UUID administrativo. Build, lint y audit aprobados. Ocho recorridos adicionales con backend prod y PostgreSQL reales aprobados. Respaldo original restaurado y las cinco migraciones repetidas dos veces sobre su copia; arranque actual contra PostgreSQL local 17.10 aprobado con usuarios conservados. [Mediciones y resultados](EVIDENCIA_PRE_DESPLIEGUE.json). El resultado de GitHub se registra en el plan vigente al cerrar la entrega.
+
+El primer pipeline detectó que un build sin VITE_API_URL generaba rutas undefined/api. CI y el runner local ahora declaran un origen aislado para mocks, y Vite rechaza builds sin un origen HTTP(S) canónico (sin ruta, credenciales, query ni fragmento). No se relajaron las pruebas de login ni se agregaron reintentos.
