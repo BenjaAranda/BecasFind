@@ -11,6 +11,33 @@ async function login(page: Page, email: string) {
   return { Authorization: `Bearer ${token}` };
 }
 
+test('sesión con firma inválida recibe 401 y la interfaz vuelve al login', async ({ page }) => {
+  await login(page, 'estudiante@duoc.cl');
+  const invalidToken = await page.evaluate(() => {
+    const token = localStorage.getItem('token');
+    if (!token) throw new Error('No existe sesión');
+    const parts = token.split('.');
+    parts[2] = (parts[2][0] === 'A' ? 'B' : 'A') + parts[2].slice(1);
+    const invalid = parts.join('.');
+    localStorage.setItem('token', invalid);
+    return invalid;
+  });
+  const api = process.env.LIVE_API_URL;
+  if (!api) throw new Error('Use infra/verify-profile-browser.ps1');
+  const apiDenied = await page.request.get(`${api}/api/perfil`, {
+    headers: { Authorization: `Bearer ${invalidToken}` },
+  });
+  expect(apiDenied.status()).toBe(401);
+  expect(await apiDenied.json()).toMatchObject({ status: 401, data: null });
+  const denied = page.waitForResponse(response =>
+    response.url().endsWith('/api/perfil') && response.status() === 401);
+  await page.goto('/perfil');
+  await denied;
+  await expect(page).toHaveURL(/\/login$/);
+  await expect(page.getByRole('button', { name: 'Ingresar', exact: true })).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem('token'))).toBeNull();
+});
+
 test('administrador crea edita y elimina beca con persistencia real', async ({ page }) => {
   const api = process.env.LIVE_API_URL;
   if (!api) throw new Error('Use infra/verify-profile-browser.ps1');
@@ -82,7 +109,7 @@ test('crear y desactivar usuario bloquea su sesión existente y nuevos accesos',
   const users = await page.request.get(`${api}/api/usuarios`, { headers });
   expect(users.status()).toBe(200);
   expect((await users.json()).data.find((user: { email: string }) => user.email === 'crud-real@example.com').activo).toBe(false);
-  expect((await page.request.get(`${api}/api/perfil`, { headers: userHeaders })).status()).toBe(403);
+  expect((await page.request.get(`${api}/api/perfil`, { headers: userHeaders })).status()).toBe(401);
   expect((await page.request.post(`${api}/api/auth/login`, { data: { email: 'crud-real@example.com', password: 'password123' } })).status()).toBe(401);
 });
 

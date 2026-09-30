@@ -266,3 +266,11 @@ verify-profile-postgres.ps1 -MavenPath <ruta-mvn.cmd> -TestClasses AccountSecuri
 GlobalExceptionHandler usa ApiResponse con data:null para todos sus errores y conserva error/path/validationErrors cuando corresponden. Se mantienen códigos HTTP y Allow; se elimina ErrorResponse sin usos restantes. Los filtros de seguridad todavía requieren unificar respuestas por separado.
 
 verify-profile-postgres.ps1 -MavenPath <ruta-mvn.cmd> -TestClasses HttpContractTest verifica ocho casos de contrato HTTP sobre PostgreSQL temporal/DDL real/validate. Resultado: ocho aprobados, 142 pruebas H2 aprobadas, cinco recorridos Chromium reales aprobados y Maven package/compile aprobados. Sin cambios de frontend, base local ni despliegues.
+
+### Respuestas de autenticación y permisos — 30 de septiembre de 2026
+
+Sesiones ausentes/inválidas reciben 401 JSON con ApiResponse y WWW-Authenticate: Bearer. Un usuario autenticado sin permisos recibe 403; no debe perder su sesión por ese rechazo. Tokens de cuentas desactivadas o anteriores al cambio de contraseña pasan de 403 a 401. El listado administrativo exige autenticación explícita antes de las reglas públicas.
+
+Verificación: 146 pruebas H2 y 18 casos PostgreSQL (seleccionar -TestClasses SecurityResponseTest,AccountSecurityTest) aprobados. Seis recorridos Chromium reales, lint/build y Maven package/compile aprobados. El nuevo caso comprueba firma inválida, JSON 401, redirección al login y eliminación del token. El correo sigue simulado en pruebas de recuperación.
+
+verify-profile-browser.ps1 -BackendJarPath <ruta-absoluta.jar> permite usar un empaquetado aislado cuando el JAR habitual está ocupado; omitirlo mantiene la ruta habitual. Esta fase se empaquetó en TEMP mediante un POM temporal, sin interrumpir el proceso que usaba el JAR local. No se publica ni se reinicia el servicio local automáticamente; sin cambios en la base local.

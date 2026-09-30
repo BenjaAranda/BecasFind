@@ -13,8 +13,23 @@ import static org.junit.jupiter.api.Assertions.*;
 class ImportAndUserAdminTest extends BaseTest {
 
     private String admin;
+    @org.springframework.beans.factory.annotation.Autowired
+    private org.springframework.jdbc.core.JdbcTemplate jdbc;
+    private Map<String, Object> originalAdmin;
+    private boolean originalStudentActive;
 
-    @BeforeEach void setup() { admin = adminToken(); }
+    @BeforeEach void setup() {
+        originalAdmin = jdbc.queryForMap("SELECT email, nombre_completo FROM usuarios WHERE id_usuario = 1");
+        originalStudentActive = jdbc.queryForObject("SELECT activo FROM usuarios WHERE id_usuario = 2", Boolean.class);
+        admin = adminToken();
+        assertNotNull(admin);
+    }
+
+    @AfterEach void restoreAccounts() {
+        jdbc.update("UPDATE usuarios SET email = ?, nombre_completo = ? WHERE id_usuario = 1",
+                originalAdmin.get("email"), originalAdmin.get("nombre_completo"));
+        jdbc.update("UPDATE usuarios SET activo = ? WHERE id_usuario = 2", originalStudentActive);
+    }
 
     @Test @DisplayName("CP-49: Importar CSV valido")
     void importValidCsv() {
@@ -59,8 +74,8 @@ class ImportAndUserAdminTest extends BaseTest {
         h.setContentType(MediaType.MULTIPART_FORM_DATA);
         h.setBearerAuth(adminToken());
         var res = rest.postForEntity(url("/api/becas/importar-csv"), new HttpEntity<>(body, h), Map.class);
-        assertTrue(res.getStatusCodeValue() == 200 || res.getStatusCodeValue() == 403,
-            "Import CSV should succeed or return auth error: " + res.getStatusCodeValue());
+        assertEquals(200, res.getStatusCode().value());
+        assertTrue(((Number) ((Map) res.getBody().get("data")).get("errores")).intValue() > 0);
     }
 
     @Test @DisplayName("CP-52: Listar usuarios (admin)")

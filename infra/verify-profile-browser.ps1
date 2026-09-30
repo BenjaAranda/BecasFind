@@ -1,4 +1,7 @@
-param([string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin')
+param(
+    [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin',
+    [string]$BackendJarPath
+)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $work = Join-Path ([IO.Path]::GetTempPath()) ('becasfind-browser-pg-' + [guid]::NewGuid().ToString('N'))
@@ -67,7 +70,9 @@ try {
     $env:LIVE_POSTGRES_PORT = "$pgPort"
     $env:LIVE_POSTGRES_BIN = $PostgresBin
     $java = if ($env:JAVA_HOME) { Join-Path $env:JAVA_HOME 'bin/java.exe' } else { (Get-Command java).Source }
-    $jar = Join-Path $root 'backend/target/becasfind-api-1.0.0-SNAPSHOT.jar'
+    $jar = if ($BackendJarPath) { (Resolve-Path -LiteralPath $BackendJarPath).Path } else {
+        Join-Path $root 'backend/target/becasfind-api-1.0.0-SNAPSHOT.jar'
+    }
     $backend = Start-Process $java -ArgumentList @('-jar', ('"' + $jar + '"')) -WindowStyle Hidden -PassThru -RedirectStandardOutput (Join-Path $work 'backend.log') -RedirectStandardError (Join-Path $work 'backend-error.log')
     Wait-Http "$env:LIVE_API_URL/api/regiones"
     $node = (Get-Command node).Source

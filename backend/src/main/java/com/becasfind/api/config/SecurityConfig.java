@@ -32,10 +32,12 @@ public class SecurityConfig {
     private final JwtAuthFilter jwtAuthFilter;
     private final List<String> allowedOrigins;
     private final AuthRateLimitFilter authRateLimitFilter;
+    private final ObjectMapper mapper;
 
     public SecurityConfig(JwtAuthFilter jwtAuthFilter, Environment environment, ObjectMapper mapper,
                           @Value("${CORS_ALLOWED_ORIGINS:}") String origins) {
         this.jwtAuthFilter = jwtAuthFilter;
+        this.mapper = mapper;
         this.authRateLimitFilter = new AuthRateLimitFilter(mapper,
                 environment.getProperty("AUTH_RATE_LIMIT_ENABLED", Boolean.class, true), System::currentTimeMillis);
         this.allowedOrigins = new java.util.ArrayList<>(Arrays.stream(origins.split(","))
@@ -54,8 +56,16 @@ public class SecurityConfig {
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .exceptionHandling(errors -> errors
+                        .authenticationEntryPoint((request, response, exception) -> {
+                            response.setHeader("WWW-Authenticate", "Bearer");
+                            writeSecurityError(response, 401, "Inicia sesión nuevamente para acceder a este recurso");
+                        })
+                        .accessDeniedHandler((request, response, exception) ->
+                                writeSecurityError(response, 403, "No tienes permisos para acceder a este recurso")))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/becas/administracion").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/recomendadas").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/regiones/**").permitAll()
@@ -69,6 +79,14 @@ public class SecurityConfig {
                 .addFilterBefore(authRateLimitFilter, JwtAuthFilter.class);
 
         return http.build();
+    }
+
+    private void writeSecurityError(jakarta.servlet.http.HttpServletResponse response,
+                                    int status, String message) throws java.io.IOException {
+        response.setStatus(status);
+        response.setCharacterEncoding(java.nio.charset.StandardCharsets.UTF_8.name());
+        response.setContentType(org.springframework.http.MediaType.APPLICATION_JSON_VALUE);
+        mapper.writeValue(response.getWriter(), com.becasfind.api.models.dtos.ApiResponse.error(status, message));
     }
 
     @Bean

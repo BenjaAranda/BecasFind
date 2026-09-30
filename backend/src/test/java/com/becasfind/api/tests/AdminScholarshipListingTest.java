@@ -14,7 +14,7 @@ class AdminScholarshipListingTest extends BaseTest {
 
     @Test
     void onlyAdminCanAccessTheCompleteListing() {
-        assertEquals(403, get("/api/becas/administracion", null, Map.class).getStatusCode().value());
+        assertEquals(401, get("/api/becas/administracion", null, Map.class).getStatusCode().value());
         assertEquals(403, get("/api/becas/administracion", studentToken(), Map.class).getStatusCode().value());
         assertEquals(200, get("/api/becas/administracion", adminToken(), Map.class).getStatusCode().value());
     }

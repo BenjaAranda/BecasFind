@@ -59,7 +59,7 @@ class AccountSecurityTest extends BaseTest {
         String token = adminToken();
         assertNotNull(token);
         jdbc.update("UPDATE usuarios SET activo = false WHERE email = ?", "admin@becasfind.cl");
-        assertEquals(403, get("/api/usuarios", token, Map.class).getStatusCode().value());
+        assertEquals(401, get("/api/usuarios", token, Map.class).getStatusCode().value());
     }
 
     @Test
@@ -74,7 +74,7 @@ class AccountSecurityTest extends BaseTest {
     @Test
     void tokenForMissingAccountIsRejected() {
         String token = jwt.generateToken("missing@test.cl", "ADMIN", "Missing", originalHash);
-        assertEquals(403, get("/api/usuarios", token, Map.class).getStatusCode().value());
+        assertEquals(401, get("/api/usuarios", token, Map.class).getStatusCode().value());
     }
 
     @Test
@@ -86,7 +86,7 @@ class AccountSecurityTest extends BaseTest {
 
     @Test
     void anonymousRecommendationsAreRejectedBeforeController() {
-        assertEquals(403, get("/api/becas/recomendadas", null, Map.class).getStatusCode().value());
+        assertEquals(401, get("/api/becas/recomendadas", null, Map.class).getStatusCode().value());
     }
 
     @Test
@@ -156,7 +156,7 @@ class AccountSecurityTest extends BaseTest {
         assertEquals(200, get("/api/usuarios", oldToken, Map.class).getStatusCode().value());
         PasswordResetToken reset = createReset(LocalDateTime.now().plusMinutes(15));
         auth.resetPassword(reset.getToken(), "new-session-password123");
-        assertEquals(403, get("/api/usuarios", oldToken, Map.class).getStatusCode().value());
+        assertEquals(401, get("/api/usuarios", oldToken, Map.class).getStatusCode().value());
         String freshToken = login("admin@becasfind.cl", "new-session-password123");
         assertNotNull(freshToken);
         assertEquals(200, get("/api/usuarios", freshToken, Map.class).getStatusCode().value());
