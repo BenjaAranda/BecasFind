@@ -236,3 +236,16 @@ Referencias consultadas: [Vite en Vercel](https://vercel.com/docs/frameworks/fro
 - Persisten orden monetario por texto y definición de unidad, formularios CRUD, importación, calidad de datos, rediseño general y despliegue. No declarar cerrado el proyecto ni el paquete C completo.
 
 Siguiente fase propuesta: FASE 10, corregir formularios y comportamiento del panel administrativo; después FASE 14 para importación. Mantener montos como cambio de modelo pendiente y activación de correo pendiente de cuenta/remitente. Ejecutar una fase a la vez tras instrucción explícita.
+
+## Avance de implementación — FASE 10, formularios administrativos
+
+- Edición de becas envía listas vacías explícitas al quitar todas las regiones/documentos; `null` conservaba los valores anteriores. Se preservan requisitos con valor cero y decimales al cargar la edición. Los documentos enviados incluyen únicamente nombre y obligatoriedad.
+- Carga de catálogos con error visible y reintento sin borrar campos; guardado bloqueado hasta disponer de opciones. Estado inicial derivado de los datos al abrir el formulario, sin efecto que reescriba la edición.
+- Validación de fechas, nombre/documentos no vacíos, URL HTTP/HTTPS, RSH 0–100, NEM 1–7 y PAES 0–1000 en la interfaz. Contraseña administrativa de 8–72 caracteres y máximo 72 bytes UTF-8. Estas comprobaciones de interfaz no sustituyen la validación de DTO/servicios pendiente de endurecer para CRUD.
+- Formularios conservan datos ante error, bloquean controles/cierre durante envío y permiten reintentar. Etiquetas asociadas, nombres en acciones y layout de becas adaptable a móvil.
+- Listado administrativo con un solo efecto de consulta, debounce de 400 ms, cancelación y descarte de respuestas antiguas. Total usa totalElements del servidor; eliminación ajusta la página si desaparece la última. Carga/edición/eliminación/desactivación muestran fallos y permiten reintentar.
+- Compilaciones frontend/backend aprobadas y revisión estática de archivos administrativos y pruebas nuevas sin errores. Diez pruebas Chromium aprobadas (nueve nuevas y una existente), con respuestas API controladas, incluida creación/edición, vaciado, validaciones, recuperación de catálogos, fallos de escritura, usuarios y búsquedas concurrentes. Captura móvil de 390 px revisada sin desbordamiento del formulario. No se modificaron datos locales ni se probaron escrituras reales en producción.
+- Revisión estática global: tres errores y cero advertencias, restantes en AuthContext y una prueba antigua de detalle. La última suite completa de backend permanece en 102 pruebas; esta fase solo modifica frontend.
+- No cambia la política de borrado del backend ni cierra toda la accesibilidad de modales. Siguen pendientes importación/calidad de datos, montos/unidades, diseño general, calidad global, correo real y despliegue.
+
+Siguiente fase propuesta: FASE 14, corregir importación CSV y sus fallos de validación/transacción. Mantener una fase por instrucción del usuario.

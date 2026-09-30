@@ -103,3 +103,11 @@ Recomendaciones utiliza su propio endpoint también al cambiar página/tamaño. 
 Verificación reproducible, con el frontend iniciado: `npx playwright test e2e/tests/search-state.spec.ts`. Diez casos cubren debounce con una sola petición, búsqueda inmediata, reinicio, recomendaciones, regreso desde detalle, respuesta lenta, errores/reintento, fecha chilena, móvil y selector de tamaño. Usan respuestas API controladas; no sustituyen la prueba completa con datos reales antes de desplegar.
 
 Pendientes: orden monetario/unidades, datos/importación, diseño general y calidad global. El orden por monto sigue siendo heredado por texto; esta fase no cambia el modelo. La revisión estática global aún contiene siete errores y dos advertencias existentes fuera del buscador corregido.
+
+## Formularios administrativos — FASE 10
+
+El editor envía `regionesIds: []` y `documentosRequeridos: []` para vaciar asociaciones; enviar `null` mantiene los valores anteriores en el servicio existente. Sin regiones seleccionadas, la beca tiene cobertura nacional. Los requisitos con valor cero se conservan al abrir la edición.
+
+Los catálogos fallidos bloquean el guardado y ofrecen reintento. Los formularios validan campos y fechas antes de enviar, conservan datos tras un fallo y bloquean nuevos cambios/envíos mientras guardan. El listado cancela consultas antiguas, espera 400 ms al buscar y muestra totalElements. Errores de consulta, edición, eliminación y desactivación son visibles; las confirmaciones fallidas permanecen abiertas para reintentar.
+
+Verificación: `npx playwright test e2e/tests/admin-forms.spec.ts e2e/tests/admin-listing.spec.ts`, diez casos aprobados con respuestas API controladas. Compilaciones frontend/backend y revisión estática de archivos modificados aprobadas. La revisión global conserva tres errores fuera de administración (AuthContext y prueba de detalle). Las validaciones de interfaz no sustituyen controles del servidor; la política de borrado y las escrituras reales no cambiaron ni se ejecutaron sobre datos locales. Importación CSV y despliegue permanecen pendientes.
