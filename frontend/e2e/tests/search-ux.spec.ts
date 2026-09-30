@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/login');
-  await page.getByPlaceholder('admin@becasfind.cl').fill('admin@becasfind.cl');
+  await page.getByLabel('Correo electrónico').fill('admin@becasfind.cl');
   await page.locator('input[type="password"]').fill('admin123');
   await page.getByRole('button', { name: /Ingresar/i }).click();
   await expect(page).toHaveURL(/explorar/, { timeout: 10000 });

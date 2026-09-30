@@ -273,3 +273,13 @@ Siguiente fase propuesta: FASE 7, corregir los problemas restantes de AuthContex
 - Pendientes: pruebas antiguas de login/buscador con dependencia de backend real y aserciones débiles; validación integrada completa con servicios reales, diseño/accesibilidad general, perfil/modelo monetario, calidad del corpus/importación masiva, correo real y despliegue. Cero errores estáticos no significa que todo el proyecto esté terminado.
 
 Siguiente fase propuesta: FASE 8, mejorar navegación y vistas de autenticación con diseño coherente y accesibilidad. Mantener una fase por instrucción del usuario.
+
+## Avance de implementación — FASE 8, navegación y acceso
+
+- Acceso y registro comparten un layout editorial en crema, verde petróleo y dorado, coherente con recuperación. Formularios con etiquetas asociadas, autocompletado, foco visible, errores anunciados y controles bloqueados durante envío. Mostrar/ocultar cada contraseña conserva su valor; registro valida coincidencia y límite UTF-8 antes de enviar.
+- Navegación pública compartida por inicio y buscador. Menús móviles público/administrativo con estado accesible, cierre al navegar y Escape con retorno de foco. Administración incluye enlace para saltar al contenido y retorno correcto a /explorar; tablas pueden desplazarse dentro del contenido.
+- Sin nuevas dependencias. La portada, tarjetas/filtros y formularios internos administrativos mantienen su diseño actual: su renovación corresponde a otras fases.
+- Verificación: 47 pruebas Chromium aprobadas con API controlada (seis nuevas y 41 regresiones de sesión, detalle, administración, recuperación y búsqueda). Capturas de acceso/registro a 390 y 1280 px y administración móvil revisadas; sin desbordamiento en los recorridos comprobados. Revisión estática global, build frontend y mvn compile aprobados. Backend sin cambios; última suite completa: 114 pruebas.
+- Actualizados selectores de pruebas antiguas de acceso/buscador para usar la etiqueta del correo. Estas suites dependientes de backend real siguen pendientes de revisión integrada y no se incluyen en los 47 casos aprobados.
+
+Siguiente fase propuesta: FASE 9, renovar buscador, tarjetas, filtros y detalle. Después cerrar diseño de portada, perfil/modelo monetario, validación CRUD y calidad de datos; correo real y despliegue siguen pendientes. Una fase por instrucción explícita.

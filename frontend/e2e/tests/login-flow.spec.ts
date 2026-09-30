@@ -11,7 +11,7 @@ test('CP-04: Login fallido con campos vacios', async ({ page }) => {
 
 test('CP-01: Login exitoso con credenciales validas', async ({ page }) => {
   await page.goto('/login');
-  await page.getByPlaceholder('admin@becasfind.cl').fill('admin@becasfind.cl');
+  await page.getByLabel('Correo electrónico').fill('admin@becasfind.cl');
   await page.locator('input[type="password"]').fill('admin123');
   await page.getByRole('button', { name: /Ingresar/i }).click();
   // Should redirect to explorar
@@ -21,7 +21,7 @@ test('CP-01: Login exitoso con credenciales validas', async ({ page }) => {
 test('CP-67: Login redirige si ya autenticado', async ({ page }) => {
   // Login first
   await page.goto('/login');
-  await page.getByPlaceholder('admin@becasfind.cl').fill('admin@becasfind.cl');
+  await page.getByLabel('Correo electrónico').fill('admin@becasfind.cl');
   await page.locator('input[type="password"]').fill('admin123');
   await page.getByRole('button', { name: /Ingresar/i }).click();
   await expect(page).toHaveURL(/explorar/, { timeout: 10000 });
@@ -33,7 +33,7 @@ test('CP-67: Login redirige si ya autenticado', async ({ page }) => {
 
 test('CP-05: Login fallido con credenciales incorrectas', async ({ page }) => {
   await page.goto('/login');
-  await page.getByPlaceholder('admin@becasfind.cl').fill('fake@noexiste.cl');
+  await page.getByLabel('Correo electrónico').fill('fake@noexiste.cl');
   await page.locator('input[type="password"]').fill('wrongpassword');
   await page.getByRole('button', { name: /Ingresar/i }).click();
   // Should show error message (backend returns "Correo electronico o contrasenia incorrectos")

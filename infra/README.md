@@ -148,3 +148,7 @@ Una sesión abierta caduca según exp, sin esperar una petición fallida. El tem
 Comprobaciones: npm run lint sin errores/advertencias, npm run build y mvn compile aprobados. Desde frontend: `npx playwright test e2e/tests/auth-session.spec.ts e2e/tests/beca-detail.spec.ts` valida catorce casos con respuestas controladas, incluidos token de Axios, restauración, expiración, pestañas, login, registro, perfil protegido y contenido de detalle. Otras 27 regresiones de buscador, administración y recuperación también pasaron durante la fase. Dos selectores incorrectos de los tests nuevos se corrigieron durante la verificación; el cierre de esos catorce casos pasó completo.
 
 No representa aún la batería global de navegador con backend/correo reales. Las pruebas antiguas de login/search-ux necesitan revisar su dependencia de datos y sus aserciones; diseño y despliegue siguen pendientes. La última suite backend completa permanece en 114 casos aprobados.
+
+### Verificación de interfaz — FASE 8 (30 de septiembre de 2026)
+
+Acceso/registro y navegación pública/administrativa renovados sin dependencias nuevas. Menús móviles comprobados, controles de contraseña accesibles y retorno administrativo a `/explorar` corregido. Pasaron 47 pruebas Chromium con API controlada, revisión estática global, build frontend y `mvn compile`. Capturas de escritorio/móvil revisadas; esto no confirma correo real ni despliegue. Continúan pendientes la validación integrada con servicios reales y la configuración de producción acordada.
