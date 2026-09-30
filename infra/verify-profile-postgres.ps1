@@ -1,6 +1,7 @@
 param(
     [Parameter(Mandatory = $true)][string]$MavenPath,
-    [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin'
+    [string]$PostgresBin = 'C:\Program Files\PostgreSQL\17\bin',
+    [string[]]$TestClasses = @('ProfilePersistenceTest', 'CoreServiceIntegrityTest', 'AdminUserProjectionTest')
 )
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path $PSScriptRoot -Parent
@@ -31,7 +32,8 @@ try {
     $env:SPRING_DATASOURCE_DRIVER_CLASS_NAME = 'org.postgresql.Driver'
     $env:SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT = 'org.hibernate.dialect.PostgreSQLDialect'
     $env:SPRING_JPA_HIBERNATE_DDL_AUTO = 'validate'
-    foreach ($testClass in @('ProfilePersistenceTest', 'CoreServiceIntegrityTest', 'AdminUserProjectionTest')) {
+    foreach ($testClass in $TestClasses) {
+        if ($testClass -notmatch '^[A-Za-z][A-Za-z0-9]*Test$') { throw 'Invalid test class name.' }
         $databaseName = $testClass.ToLowerInvariant()
         & "$PostgresBin\createdb.exe" -h 127.0.0.1 -p $verificationPort -U profile_verify $databaseName
         if ($LASTEXITCODE -ne 0) { throw 'Temporary database creation failed.' }

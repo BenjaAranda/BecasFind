@@ -73,13 +73,14 @@ class AccountSecurityTest extends BaseTest {
 
     @Test
     void tokenForMissingAccountIsRejected() {
-        String token = jwt.generateToken("missing@test.cl", "ADMIN", "Missing");
+        String token = jwt.generateToken("missing@test.cl", "ADMIN", "Missing", originalHash);
         assertEquals(403, get("/api/usuarios", token, Map.class).getStatusCode().value());
     }
 
     @Test
     void signedRoleCannotGrantMoreThanDatabaseRole() {
-        String token = jwt.generateToken("estudiante@duoc.cl", "ADMIN", "Student");
+        String hash = jdbc.queryForObject("SELECT password_hash FROM usuarios WHERE email = ?", String.class, "estudiante@duoc.cl");
+        String token = jwt.generateToken("estudiante@duoc.cl", "ADMIN", "Student", hash);
         assertEquals(403, get("/api/usuarios", token, Map.class).getStatusCode().value());
     }
 
@@ -147,6 +148,18 @@ class AccountSecurityTest extends BaseTest {
         assertNotNull(login("admin@becasfind.cl", "new-password123"));
         assertTrue(resets.findByToken(reset.getToken()).isEmpty());
         assertThrows(BadCredentialsException.class, () -> auth.resetPassword(reset.getToken(), "another-password123"));
+    }
+
+    @Test
+    void successfulRecoveryInvalidatesPreviouslyIssuedSessions() {
+        String oldToken = adminToken();
+        assertEquals(200, get("/api/usuarios", oldToken, Map.class).getStatusCode().value());
+        PasswordResetToken reset = createReset(LocalDateTime.now().plusMinutes(15));
+        auth.resetPassword(reset.getToken(), "new-session-password123");
+        assertEquals(403, get("/api/usuarios", oldToken, Map.class).getStatusCode().value());
+        String freshToken = login("admin@becasfind.cl", "new-session-password123");
+        assertNotNull(freshToken);
+        assertEquals(200, get("/api/usuarios", freshToken, Map.class).getStatusCode().value());
     }
 
     @Test

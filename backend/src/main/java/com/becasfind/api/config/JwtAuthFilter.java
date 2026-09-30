@@ -39,7 +39,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             try {
                 UserDetails user = userDetailsService.loadUserByUsername(email);
                 if (user.isEnabled() && user.isAccountNonLocked() && user.isAccountNonExpired()
-                        && user.isCredentialsNonExpired()) {
+                        && user.isCredentialsNonExpired() && jwtUtil.matchesCredentials(token, user.getPassword())) {
                     UsernamePasswordAuthenticationToken authentication =
                             new UsernamePasswordAuthenticationToken(email, null, user.getAuthorities());
                     authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));

@@ -254,3 +254,9 @@ La proyección administrativa ya está conectada a UsuarioServiceImpl.findAll y 
 Interfaz administrativa permite editar nombre/correo de cuentas activas mediante el PUT existente. Los campos de rol/contraseña no forman parte del payload de edición. Valores precargados, controles bloqueados durante guardado y conservación/reintento ante errores. Cuentas inactivas visibles sin botones de edición/desactivación.
 
 14 casos Chromium con API controlada y cinco recorridos live aprobados; el recorrido real edita nombre y comprueba recarga antes de desactivar. Lint/build y Maven compile aprobados. Backend sin cambios: no se repitieron completas las suites H2/PostgreSQL anteriores. Sin despliegue ni cambios en la base local.
+
+### Invalidación de sesiones tras recuperación — 30 de septiembre de 2026
+
+Los JWT nuevos incluyen una marca HMAC vinculada a las credenciales almacenadas; la API rechaza sesiones anteriores al cambio de contraseña. La contraseña y su hash no se incluyen en el token. Al aplicar esta versión, tokens antiguos sin la marca requieren un nuevo login; no hay migración de base de datos.
+
+verify-profile-postgres.ps1 -MavenPath <ruta-mvn.cmd> -TestClasses AccountSecurityTest ejecuta esta suite en una base temporal con DDL real y validate. Verificación: 14 casos PostgreSQL aprobados, 140 casos H2 aprobados, package/compile aprobados y cinco recorridos Chromium reales aprobados. La recuperación usa un servicio de correo simulado en pruebas; no confirma entrega a una bandeja real. Sin despliegues ni cambios en la base local.

@@ -1,6 +1,6 @@
 # Plan de corrección, diseño y publicación de BecasFind
 
-Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de añadir edición de usuarios activos en FASE 10. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
+Creado: 29 de septiembre de 2026. Estado actualizado: 30 de septiembre de 2026, después de invalidar sesiones tras recuperar la contraseña en FASE 4. Correcciones y verificaciones detalladas abajo; el proyecto aún no está listo para publicación. Sin despliegues.
 
 Objetivo: publicar una aplicación segura, comprensible y verificable, manteniendo Vercel para el frontend y Oracle Always Free como opción para el backend y la base de datos.
 
@@ -14,6 +14,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 - [x] Separar desarrollo/producción, exigir secretos externos y validar el esquema en producción sin datos de demostración.
 - [x] Alinear esquema, migrar la base local con respaldo y probar restauración preservando datos.
 - [x] Endurecer autorización JWT con actividad/rol actual, limitar intentos y restringir CORS.
+- [x] Invalidar JWT anteriores al recuperar la contraseña, verificando una marca HMAC de las credenciales actuales sin exponer la contraseña ni su hash.
 - [x] Corregir recuperación de contraseña: token de un solo uso, caducidad y consumo concurrente; integrar API Resend y pantallas públicas. La activación y entrega real quedan pendientes.
 - [x] Corregir reglas de vigencia, RSH/NEM, cobertura nacional/regional, recomendaciones y fechas de calendario.
 - [x] Separar listado administrativo para incluir becas vencidas/inactivas y estandarizar errores de parámetros.
@@ -36,7 +37,7 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 2. [x] **Perfil y favoritos — persistencia e integración verificadas.** Interfaz y validación DTO completadas; persistencia de perfil validada por HTTP con H2 de pruebas. Persistencia HTTP, recomendaciones, aislamiento de favoritos y bloqueos concurrentes verificados con PostgreSQL 17 temporal y DDL real. Recorrido Chromium conectado a backend prod/PostgreSQL temporal aprobado: login, guardar/recargar/vaciar perfil, recomendaciones y guardar/recargar/eliminar favoritos, sin API simulada. No cubre todos los casos de abuso ni segundo navegador. Institución, carrera y año se guardan como referencia y no participan en recomendaciones actuales; no ampliar criterios sin acordarlo.
 3. [ ] **FASES 1/2/5, por separado — modelo y montos.** Acordar unidades/cobertura monetaria, ampliar precisión NEM si procede y sustituir ordenamiento textual por reglas numéricas verificadas.
 4. [ ] **FASE 10 — administración, alcance de diseño completado.** Formularios, confirmaciones e importación usan diálogos nativos con foco y Escape; diseño/adaptación móvil verificados con API controlada. CRUD de becas, creación/desactivación de usuarios y rechazo de permisos estudiante verificados con navegador/backend/PostgreSQL reales. El listado ahora incluye usuarios inactivos y mantiene sus accesos bloqueados. Edición de nombre/correo de usuarios activos añadida y verificada. Quedan pendientes pruebas globales de accesibilidad, unificación de errores y concurrencia administrativa/importaciones.
-5. [ ] **Contrato y seguridad restante.** Resolver identificadores públicos frente a IDs internos, revisar invalidación de sesiones tras cambiar contraseña y cerrar hallazgos restantes por módulo.
+5. [ ] **Contrato y seguridad restante.** Invalidación de sesiones tras recuperar contraseña corregida y verificada. Resolver identificadores públicos frente a IDs internos, uniformar respuestas de errores/sesión inválida y cerrar hallazgos restantes por módulo.
 6. [ ] **FASE 14 — datos e importación masiva.** Importación desde navegador real comprobada: creación, upsert sin duplicados, rechazo con cero escrituras y bytes UTF-8. Auditar CSV históricos, tildes, fuentes profundas, requisitos/documentos y fechas. Acordar tratamiento de datos desconocidos antes de cambiar la regla contractual de cierre por defecto. Medir batch INSERT real y concurrencia de importaciones/catálogos.
 7. [ ] **Correo real.** Configurar clave privada de Resend y remitente autorizado; comprobar entrega, enlace, caducidad y acceso con la contraseña nueva en una bandeja real.
 8. [ ] **Verificación integral.** Corregir suites antiguas débiles de login/buscador; contrastar documentos de requisitos/pruebas y recorrer roles, CRUD, CSV, perfil, favoritos y recuperación con backend/PostgreSQL reales.
@@ -46,9 +47,9 @@ Esta lista es el estado actual. Las propuestas y secciones de avance posteriores
 
 ### Evidencia y límites actuales
 
-- Última suite completa backend registrada: **136 pruebas H2 aprobadas**, empaquetado y compilación correctos. Última verificación PostgreSQL 17: **11 pruebas de perfil/integridad/consulta administrativa aprobadas** con DDL real y validación de esquema. Los doce casos CSV PostgreSQL anteriores no se repitieron en esta última fase.
+- Última suite completa backend: **140 pruebas H2 aprobadas**, empaquetado y compilación correctos. Última verificación PostgreSQL 17: **14 pruebas de seguridad de cuentas aprobadas** con DDL real y validación de esquema. Las 11 pruebas de perfil/integridad/consulta administrativa y los doce casos CSV PostgreSQL corresponden a verificaciones anteriores.
 - Última fase de navegador: **20 casos de administración/navegación aprobados con API controlada** en ejecución en serie. Un fallo inicial de búsqueda en paralelo no se reprodujo aislado ni en la suite final; causa no confirmada. Antes se aprobaron 39 casos de perfil/favoritos/sesión/buscador, 32 de portada/sesión/navegación/recuperación y 54 de búsqueda. Estas cifras corresponden a suites de distintas etapas y no deben sumarse como casos únicos ni interpretarse como integración completa.
-- Último cierre: build frontend, revisión estática global y `mvn compile` aprobados; capturas de móvil/escritorio revisadas. No se repitieron compilaciones ni pruebas para esta actualización exclusivamente documental.
+- Último cierre: **5 recorridos Chromium con backend prod/PostgreSQL reales aprobados**, package y `mvn compile` aprobados. Frontend sin cambios en FASE 4; lint/build y capturas corresponden a la fase anterior.
 - Avance en [PR #10](https://github.com/BenjaAranda/BecasFind/pull/10), todavía en borrador. No hay despliegue público ni garantía de disponibilidad continua de la opción gratuita.
 
 ## Punto de partida y límites
@@ -463,3 +464,12 @@ Siguiente fase propuesta: FASE 11, renovar la portada y revisar sus textos/prome
 - Verificación: 14 casos de formularios con API controlada aprobados, incluida edición con error/reintento, cambios conservados y payload exacto. Cinco recorridos Chromium reales aprobados: se amplía creación/desactivación con edición de nombre y recarga persistente antes del bloqueo de acceso. Lint/build y Maven compile aprobados.
 - Backend sin cambios; última suite completa sigue en 136 H2 y suite específica PostgreSQL en 11 casos, no repetidas aquí. Recorrido real usa backend prod/PostgreSQL temporal; base local intacta y procesos detenidos.
 - Siguiente tarea propuesta: FASE 4, revisar invalidación de sesiones tras cambiar contraseña. Permanecen modelo monetario, contrato/errores, calidad histórica de datos, correo real, accesibilidad/rendimiento global e infraestructura. Sin despliegues; una fase por instrucción explícita.
+
+
+## Avance FASE 4 — invalidación de sesiones tras recuperación (30 de septiembre de 2026)
+
+- Se reprodujo el fallo: un JWT anterior a recuperar la contraseña seguía obteniendo HTTP 200. Ahora login/registro incluyen una marca HMAC de las credenciales y cada solicitud protegida la compara con las credenciales actuales. Después de recuperar la contraseña el token anterior recibe 403 y un login nuevo permite acceso.
+- El JWT no contiene la contraseña ni su hash. Tokens de versiones anteriores sin la marca deben iniciar sesión nuevamente al aplicar esta versión. No se requiere migración del esquema ni nuevas dependencias.
+- Resultado: 140 pruebas H2, 14 pruebas AccountSecurityTest en PostgreSQL 17 con DDL real/validate y cinco recorridos Chromium con backend prod/PostgreSQL aprobados. Package y Maven compile aprobados; servicios temporales detenidos y base local intacta. Las pruebas de recuperación usan envío de correo simulado: la entrega real permanece pendiente.
+- El verificador PostgreSQL acepta -TestClasses AccountSecurityTest; conserva por defecto las clases de perfil/integridad/proyección administrativa. No hubo cambios de frontend ni despliegues.
+- Próxima tarea propuesta: uniformar contratos de errores y respuestas de sesión inválida en FASE 6. Siguen pendientes modelo monetario, datos históricos, correo real, accesibilidad/rendimiento global e infraestructura. Una fase por instrucción explícita.
