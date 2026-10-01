@@ -123,3 +123,18 @@ Tercer lote editorial: [Universidad de Talca](documentacion/auditoria_corpus/REV
 El titular autorizó usar Gmail para la recuperación. Autenticación SMTP e IMAP con contraseña de aplicación verificada; dos mensajes recibidos sin marcar como leídos. Prueba sobre PostgreSQL temporal: rechazo de enlace vencido con fecha forzada al pasado, cambio de contraseña, login nuevo, rechazo de reutilización y de sesión previa. No cambió la contraseña de una cuenta real. Runner reproducible: infra/verify-gmail-delivery.py; solo ejecutar con autorización para enviar dos mensajes al titular. SMTP exige TLS/certificado y los logs/resultados públicos no incluyen claves, dirección, contraseñas ni tokens. backend/.env está ignorado por Git y restringido mediante ACL al usuario/SYSTEM.
 
 P09 deja de ser pendiente externo. El envío local permanece deshabilitado; activación en destino HTTPS pertenece a P12. Como las credenciales se compartieron en el chat, renovarlas antes de habilitar correo público, guardando solo la nueva contraseña de aplicación en el backend; la contraseña normal de Google no fue utilizada ni almacenada. Las notas anteriores sobre cuenta/recepción pendientes son históricas y quedan sustituidas por este cierre.
+
+## Histórico procesado — estado vigente del 1 de octubre de 2026
+
+- [x] Revisar los 93 CSV de `03_procesados`: 641 registros lógicos, 17 con estructura mal formada. Este subconjunto no sustituye el conteo previo de 94 archivos/645 filas que incluía pendientes.
+- [x] Conservar originales y hashes; preparar 562 candidatos con trazabilidad de todas las variantes y 59 grupos candidatos a duplicados.
+- [x] Incorporar localmente 549 candidatos inactivos y conservar 13 existentes sin sobrescribirlos. Total 567 becas; las 18 previas permanecen idénticas. Respaldo restaurado antes de cargar, UTF-8 comprobado, carga repetida sin cambios y búsqueda/catálogo públicos preservados.
+- [x] Proteger importaciones con `solo_crear`, ocultar candidatos y catálogos provisionales al público y permitir eliminar favoritos de becas posteriormente desactivadas. 184 pruebas backend, 22 PostgreSQL y diez recorridos reales aprobados, además de compile/package/lint/build y cuatro pruebas del helper.
+- [x] Añadir revisión parcial de ocho beneficios UAndes (11 referencias históricas); conservar cinco candidatos MINEDUC con campos y referencias oficiales parciales sin activarlos.
+- [x] Contrastar siete registros UChile y aplicar siete correcciones parciales con respaldo/restauración; los otros 560 registros permanecen idénticos. BUCH: corregir RSH/NEM/cobertura y registrar cierre al mediodía; BAB: corregir cobertura/NEM y dejar fechas contradictorias desconocidas. Ninguna activación.
+- [x] Verificar 220 casos Chromium/Firefox sobre el build actualizado; conservar diseño institucional azul/blanco.
+- [ ] Completar confirmación editorial de las demás instituciones y resolver bases/calendarios/documentos contradictorios de los lotes ya revisados.
+- [ ] Resolver individualmente las 17 estructuras mal formadas y los 59 grupos de variantes antes de fusionar o corregir datos.
+- [ ] Aplicar correcciones por beneficio con evidencia y publicar únicamente convocatorias confirmadas. Incorporación administrativa no equivale a publicación ni certificación completa.
+
+Evidencia y procedimiento: [histórico procesado](documentacion/auditoria_corpus/procesados/README.md). Los tres hallazgos requeridos de la primera revisión independiente se corrigieron; la segunda revisión no pudo ejecutarse por límite de uso. P12–P14 siguen fuera del alcance autorizado y sin iniciar.

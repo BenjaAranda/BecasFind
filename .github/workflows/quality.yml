@@ -23,6 +23,8 @@ jobs:
           java-version: '17'
           cache: maven
       - run: mvn -B -ntp -f backend/pom.xml verify
+      - name: Historical corpus preparation safeguards
+        run: python3 infra/test-prepare-processed-corpus.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:

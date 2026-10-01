@@ -3,11 +3,7 @@ import { test, expect } from '@playwright/test';
 test('búsqueda real combina RSH NEM región tipo y orden y muestra ausencia de resultados', async ({ page }) => {
   const api = process.env.LIVE_API_URL;
   if (!api) throw new Error('Use infra/verify-profile-browser.ps1');
-  await page.goto('/login');
-  await page.getByLabel('Correo electrónico').fill('estudiante@duoc.cl');
-  await page.getByLabel('Contraseña', { exact: true }).fill('admin123');
-  await page.getByRole('button', { name: 'Ingresar', exact: true }).click();
-  await expect(page).toHaveURL(/\/explorar$/);
+  await page.goto('/explorar');
   const search = page.waitForResponse(response => response.url() === `${api}/api/becas/buscar`
     && response.request().postDataJSON()?.query === 'arancel');
   await page.goto('/explorar?q=arancel&rsh=60&nem=5.5&region=2&tipo=1&sort=fechaDesc');

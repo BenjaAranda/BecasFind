@@ -1,5 +1,7 @@
 # Auditoría del corpus — 30 de septiembre de 2026
 
+Actualización del 1 de octubre: el subconjunto `03_procesados` (93 archivos/641 registros) se incorporó como archivo administrativo inactivo con originales conservados. [Estado, referencias y pendientes](procesados/README.md). Los conteos siguientes describen la auditoría previa de 94 archivos/645 filas y no deben sumarse a los del subconjunto. La confirmación editorial completa continúa pendiente.
+
 Se revisaron 94 CSV y 645 filas del data lake del repositorio, sin modificar originales ni importar a la base del usuario. Hay 577 claves normalizadas y 48 grupos de posibles duplicados. La normalización es una señal para revisión, no una autorización para fusionar becas.
 
 Se comprobaron 387 URLs: 294 respondieron HTTP 200 y las restantes tuvieron errores de red, dirección o servidor. HTTP 200 no confirma que una página sea oficial ni valida fechas, requisitos, cobertura o documentos. Hay 262 cierres 2026-12-31 que requieren evidencia individual; no se declara que todos sean ficticios.

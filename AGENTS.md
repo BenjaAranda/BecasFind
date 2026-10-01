@@ -17,6 +17,8 @@
 - Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
 - La política «Cero Vacíos» queda reemplazada: no inferir requisitos, documentos ni fechas. Conservar desconocidos; excluir de la búsqueda vigente las becas sin cierre confirmado. No convertir fechas históricas en confirmadas por su apariencia.
 
+Actualización del 1 de octubre de 2026 por la petición de incorporar `03_procesados`: conservar originales y añadir candidatos como archivo administrativo inactivo. CSV admite `estado_activa=false` y `solo_crear=true`; este último omite existentes sin sobrescribirlos. Una URL desconocida puede quedar vacía únicamente en un registro explícitamente inactivo; cualquier URL presente debe cumplir la política de enlace específico. La incorporación histórica no certifica datos ni autoriza publicarlos sin revisión oficial.
+
 ## 1. Estructura del Monorepo
 
 ```

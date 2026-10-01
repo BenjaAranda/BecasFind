@@ -1,0 +1,2 @@
+# Preserve the exact UTF-8 CSV payloads recorded by the local import evidence.
+documentacion/auditoria_corpus/procesados/*.csv -text
