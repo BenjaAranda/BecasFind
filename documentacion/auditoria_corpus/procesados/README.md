@@ -7,7 +7,7 @@ La base local recibió 549 candidatos inactivos y omitió 13 ya existentes, sin 
 ## Archivos y significado
 
 - [originales.jsonl](originales.jsonl): todos los campos históricos, archivo, registro, hash y candidato. Las columnas adicionales y ausentes se registran sin adivinar su desplazamiento; hay 17 registros con advertencias de estructura.
-- [indice.csv](indice.csv): 562 identidades candidatas, variantes históricas y referencias. No representa un catálogo certificado.
+- [indice.csv](indice.csv): 562 identidades candidatas, variantes históricas y referencias del lote inicial. El seguimiento posterior UChile está en su informe y archivo de correcciones; este índice no representa el estado vivo de la base ni un catálogo certificado.
 - [consolidacion.json](consolidacion.json): conteos y hashes de los 93 originales.
 - [archivo_administrativo.csv](archivo_administrativo.csv): carga segura con `estado_activa=false` y `solo_crear=true`. Conserva desconocidos y referencias al histórico. Los valores sin evidencia no se incorporan como requisitos válidos.
 - [campos_confirmados.json](campos_confirmados.json): evidencia parcial de cinco candidatos MINEDUC, con fuentes, fecha de revisión y límites. Aplicar esos campos mantiene las becas inactivas. Si la beca ya existe, `solo_crear` conserva su versión y la evidencia queda disponible para una corrección editorial posterior.

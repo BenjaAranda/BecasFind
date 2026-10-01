@@ -1,12 +1,12 @@
 # Plan vigente de BecasFind
 
-Actualizado el 30 de septiembre de 2026 tras revisar duplicados y contrastar el listado con el código. Este es el único listado de trabajo pendiente. El [historial](documentacion/PLAN_MEJORAS_HISTORICO.md) conserva propuestas, resultados y próximos pasos de etapas anteriores; no constituye un segundo to do.
+Actualizado el 1 de octubre de 2026 tras incorporar el histórico procesado y contrastar el listado con el código y sus evidencias. Este es el único listado de trabajo pendiente. El [historial](documentacion/PLAN_MEJORAS_HISTORICO.md) conserva propuestas, resultados y próximos pasos de etapas anteriores; no constituye un segundo to do.
 
 Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always Free. La aplicación todavía no está publicada. Recursos, acceso y condiciones del destino se verificarán antes de desplegar; no hay garantía de disponibilidad gratuita continua.
 
 ## Siguiente tarea
 
-**P09 completado — correo Gmail real verificado.** Dos mensajes recibidos en la bandeja autorizada; contraseña nueva/login, enlace reutilizado, vencimiento forzado en base temporal y sesión anterior comprobados. Credencial únicamente en backend/.env privado. El envío de la instalación local sigue deshabilitado; producción requiere HTTPS y configuración del destino. Siguiente trabajo: continuar la revisión editorial del corpus. P12–P14 siguen fuera del alcance de esta etapa. Evidencia: [calidad previa](documentacion/CALIDAD_PRE_DESPLIEGUE.md).
+**Continuar confirmación editorial del corpus incorporado.** Los 93 CSV/641 registros se conservaron y consolidaron en 562 candidatos: 549 creados inactivos y 13 existentes conservados; base local de 567 becas. Siete UChile recibieron correcciones parciales sin activarse. Falta confirmar las demás fuentes y resolver 17 estructuras mal formadas/59 grupos de variantes. Evidencia: [histórico procesado](documentacion/auditoria_corpus/procesados/README.md). P09 ya está completado y no se reabre; P12–P14 siguen fuera del alcance.
 
 ## Hecho: no volver a abrir sin un hallazgo nuevo
 
@@ -32,7 +32,7 @@ P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el trat
 | P01 | COMPLETADO — FASE 10 — editar cobertura en administración | Controles de tipo/importe/moneda/periodicidad/porcentaje, validación coherente, vaciado explícito, errores recuperables y persistencia tras recarga con PostgreSQL real. Preservar texto original y precisión decimal. |
 | P02 | COMPLETADO — FASE 9 — explicar orden monetario | Buscador explica grupos de moneda/periodicidad y desconocidos al final; etiquetas no prometen una comparación global ni conversiones. Verificar dirección/empates/páginas y móvil/teclado. Backend terminado; no rehacer P01. |
 | P03 | COMPLETADO — Resolver contrato de identificadores públicos | Acordar identificadores para búsqueda/detalle/favoritos y adaptar DTOs/enlaces en sus fases. Contrato acordado: idBeca es UUID en DTOs públicos; números solo en administración/catálogos. No confundirlos. |
-| P04 | COMPLETADO — FASE 14 — corpus y metadatos de importación | Auditar fuentes oficiales, tildes, enlaces profundos, requisitos/documentos/fechas y duplicados de registros reales. Política aprobada: conservar desconocidos sin inventar fechas ni requisitos. Enriquecer cobertura solo con evidencia e incorporar metadatos CSV validados sin romper formato antiguo. Toda calidad/enriquecimiento histórico vive aquí, no en P01/P02. |
+| P04 | IMPLEMENTACIÓN CERRADA; CONFIRMACIÓN EDITORIAL EN CURSO — corpus e importación | Histórico procesado incorporado de forma inactiva con originales y existentes preservados; fuentes revisadas parcialmente. Pendiente confirmar individualmente los beneficios a publicar y resolver estructuras/variantes. Conservar desconocidos, enlaces específicos y cobertura con evidencia; no inventar fechas/requisitos. Toda calidad/enriquecimiento histórico vive aquí, no en P01/P02. |
 | P05 | COMPLETADO — Concurrencia administrativa/importación y batch real | Probar CRUD y catálogos/importaciones simultáneos, conflictos/rollback y batch INSERT efectivo con PostgreSQL. Medir resultados y corregir fallos por fase. Perfil/favoritos y atomicidad CSV ya cerrados; no repetirlos como pendientes generales. |
 | P06 | COMPLETADO — Trazabilidad de requisitos y cobertura funcional restante | Leer Office de requisitos/planilla/casos, mapear requisito a prueba y registrar brechas. Ampliar detalle/fuente y límites faltantes. Los ocho recorridos reales existentes son regresiones aprobadas, no trabajo nuevo. Recuperación con bandeja real pertenece a P09; nuevas funciones exigen alcance concreto. |
 | P07 | COMPLETADO — Accesibilidad y compatibilidad global | Revisar teclado/foco/contraste/zoom 200 %, 360/390/768/1440 px y un segundo navegador en todos los flujos. Registrar defectos y evidencia de cierre; capturas parciales no cierran esta fila. |
@@ -138,3 +138,5 @@ P09 deja de ser pendiente externo. El envío local permanece deshabilitado; acti
 - [ ] Aplicar correcciones por beneficio con evidencia y publicar únicamente convocatorias confirmadas. Incorporación administrativa no equivale a publicación ni certificación completa.
 
 Evidencia y procedimiento: [histórico procesado](documentacion/auditoria_corpus/procesados/README.md). Los tres hallazgos requeridos de la primera revisión independiente se corrigieron; la segunda revisión no pudo ejecutarse por límite de uso. P12–P14 siguen fuera del alcance autorizado y sin iniciar.
+
+[Quality 36925713036](https://github.com/BenjaAranda/BecasFind/actions/runs/36925713036) aprobó backend, PostgreSQL y frontend para `4aee0e0`. El cierre posterior actualiza únicamente estados/documentación, sin cambios de aplicación.
