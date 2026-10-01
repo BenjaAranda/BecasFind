@@ -43,4 +43,4 @@ El helper usa biblioteca estándar, no descarga fuentes ni importa por sí mismo
 Validación de esta entrega: 184 pruebas backend, 22 pruebas con PostgreSQL/DDL real, 220 casos Chromium/Firefox y diez recorridos de navegador con backend/PostgreSQL reales. Cuatro pruebas del helper, compile, package, lint y build aprobados. La segunda revisión independiente quedó sin ejecutar por límite de uso; los tres hallazgos requeridos de la primera se corrigieron y se cubrieron con pruebas. No hubo correo, despliegue ni fusión de main.
 
 
-Lote regional: [49 candidatos de diez universidades](../REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente; correcciones de campos y cierre editorial pendientes. En este lote no se modifica la base local ni se activan becas.
+Lote regional: [49 candidatos de diez universidades](../REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente. Correcciones posteriores aplicadas a cinco registros inactivos; otros 568 iguales. Cierres y certificación completa pendientes. Evidencia: [resultado local](CORRECCION_REGIONALES_49_LOCAL.json).

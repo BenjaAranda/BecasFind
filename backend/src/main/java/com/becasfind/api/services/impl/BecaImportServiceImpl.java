@@ -251,7 +251,8 @@ public class BecaImportServiceImpl implements BecaImportService {
             catch (IllegalArgumentException e) { throw new IllegalArgumentException("URL oficial inválida."); }
             if (!("https".equalsIgnoreCase(uri.getScheme()) || "http".equalsIgnoreCase(uri.getScheme()))
                     || uri.getHost() == null || uri.getUserInfo() != null
-                    || uri.getPath() == null || uri.getPath().isBlank() || "/".equals(uri.getPath())) {
+                    || ((uri.getPath() == null || uri.getPath().isBlank() || "/".equals(uri.getPath()))
+                        && !hasPageIdentifier(uri))) {
                 throw new IllegalArgumentException("La URL debe ser HTTP/HTTPS y apuntar a la subpágina específica de la beca.");
             }
         }
@@ -264,6 +265,19 @@ public class BecaImportServiceImpl implements BecaImportService {
                 validateLength(name, 255, "documentos_requeridos");
             }
         }
+    }
+
+    private boolean hasPageIdentifier(URI uri) {
+        String query = uri.getRawQuery();
+        if (query == null) return false;
+        boolean found = false;
+        for (String parameter : query.split("&")) {
+            if (parameter.equals("page_id") || parameter.startsWith("page_id=")) {
+                if (found || !parameter.matches("page_id=[1-9][0-9]*")) return false;
+                found = true;
+            }
+        }
+        return found;
     }
 
     private void validateLength(String value, int max, String field) {

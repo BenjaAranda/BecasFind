@@ -146,4 +146,4 @@ Evidencia y procedimiento: [histórico procesado](documentacion/auditoria_corpus
 [Quality 36925713036](https://github.com/BenjaAranda/BecasFind/actions/runs/36925713036) aprobó backend, PostgreSQL y frontend para `4aee0e0`. El cierre posterior actualiza únicamente estados/documentación, sin cambios de aplicación.
 
 
-Lote regional: [49 candidatos de diez universidades](documentacion/auditoria_corpus/REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente; correcciones de campos y cierre editorial pendientes. En este lote no se modifica la base local ni se activan becas.
+Lote regional: [49 candidatos de diez universidades](documentacion/auditoria_corpus/REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente. Correcciones posteriores aplicadas a cinco registros inactivos; otros 568 iguales. Cierres y certificación completa pendientes. Evidencia: [resultado local](documentacion/auditoria_corpus/procesados/CORRECCION_REGIONALES_49_LOCAL.json).

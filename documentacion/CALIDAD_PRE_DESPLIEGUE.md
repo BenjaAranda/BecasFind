@@ -90,4 +90,12 @@ Gmail SMTP es el proveedor predeterminado y permanece deshabilitado hasta guarda
 La entrega en una bandeja Gmail no está verificada: faltan la cuenta dedicada/contraseña de aplicación y dirección autorizada del usuario. No se enviaron mensajes externos ni se cambió la contraseña de una cuenta real. Pasos: [GMAIL.md](GMAIL.md). No hay despliegue ni merge de main. Las cifras históricas que siguen corresponden a sus entregas originales.
 # Recuperación estructural del 1 de octubre de 2026
 
+
 Ocho pruebas de helpers Python aprobadas (cuatro de preparación y cuatro de recuperación); `mvn compile` aprobado. Los 93 SHA-256 originales permanecen idénticos. Lectura estricta de todos los CSV reconstruidos: 647 registros sin anomalías de columnas/comillas. Diecisiete registros lógicos afectados se sustituyen por 23 filas reconstruidas; seis identidades nuevas quedan archivadas inactivas. Base local: 573 becas; las 567 anteriores idénticas. Respaldo restaurado antes de importar, repetición sin cambios y búsqueda/catálogo públicos conservados. Evidencia: [recuperación](auditoria_corpus/procesados/reparaciones/README.md). Las matrices completas de aplicación de la entrega anterior no se ejecutaron de nuevo: esta entrega no modifica código de backend/frontend.
+
+
+## Correcciones regionales y URLs de fichas por identificador
+
+Se admite un único `page_id` positivo en una URL HTTP/HTTPS con host y sin credenciales. Se rechazan raíces sin identificador; seguimiento sin página; identificadores vacíos; cero; negativos; texto; duplicados y fragmentos. Regresión mediante importación real: suite backend completa 185 pruebas sin fallos; paquete aprobado; clase de integridad CSV repetida en base PostgreSQL 17 temporal con DDL real y Hibernate validate: 19 pruebas sin fallos. Diez pruebas de helpers aprobadas.
+
+Cinco correcciones importadas en PostgreSQL local con perfil prod; correo deshabilitado. Respaldo restaurado antes de importar; otros 568 registros de becas idénticos; cinco inactivas y sin fechas ni umbrales inferidos. Búsqueda/catálogo públicos conservados; conversión UTF-8/hex sin mojibake detectado en nombres y descripciones. Los 93 CSV originales conservan sus hashes y el CSV importado coincide con la evidencia. [Resultado](auditoria_corpus/procesados/CORRECCION_REGIONALES_49_LOCAL.json). No se repite la matriz frontend porque no hay cambios de interfaz. Las 152 revisiones parciales y 416 sin revisión individual siguen pendientes de cierre completo.

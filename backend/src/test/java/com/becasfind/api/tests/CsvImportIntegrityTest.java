@@ -69,6 +69,20 @@ class CsvImportIntegrityTest extends BaseTest {
         rejected(upload(HEADER + "\n\"comilla sin cierre"), before);
     }
 
+    @Test void queryIdentifiedPagesAreAcceptedButRootTrackingUrlsAreRejected() {
+        long before = becas.count();
+        for (String url : new String[] {"https://example.com/", "https://example.com/?utm_source=becas",
+                "https://example.com/?page_id=", "https://example.com/?page_id=0",
+                "https://example.com/?page_id=-1", "https://example.com/?page_id=abc",
+                "https://example.com/?page_id=3911&page_id=0", "https://example.com/?page_id",
+                "https://example.com/#page_id=3911", "https://user@example.com/?page_id=3911"}) {
+            rejected(upload(HEADER + "\n" + row("CSV raíz rechazada").replace("https://example.com/becas", url)), before);
+        }
+        String source = "https://admision.umag.cl/?page_id=3911";
+        assertEquals(0, upload(HEADER + "\n" + row("CSV ficha por identificador").replace("https://example.com/becas", source)).get("errores"));
+        assertEquals(source, jdbc.queryForObject("select url_oficial from becas where nombre = ?", String.class, "CSV ficha por identificador"));
+    }
+
     @Test void historicalArchiveAcceptsUnknownSourceOnlyWhenExplicitlyInactive() {
         String archive = "Archivo histórico sin fuente,DUOC UC,Beca por verificar,,,,,,,Registro histórico,Datos pendientes de confirmación,";
         long before = becas.count();

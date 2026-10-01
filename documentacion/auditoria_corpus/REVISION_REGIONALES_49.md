@@ -17,7 +17,15 @@ Revisión del 1 de octubre de 2026. Alcance: identificar fuentes específicas y 
 
 ## Pendiente de este lote
 
-Aplicar únicamente correcciones de campos con identidad inequívoca; completar documentos y cierres con bases oficiales; resolver nombres genéricos y variantes. Este informe registra contraste inicial, incluso cuando el resultado es identidad no resuelta o fuente inaccesible. No indica que las 49 becas estén listas para publicación.
+Completar documentos y cierres con bases oficiales; resolver nombres genéricos y variantes. Este informe registra contraste inicial, incluso cuando el resultado es identidad no resuelta o fuente inaccesible. No indica que las 49 becas estén listas para publicación.
+
+### Corrección posterior de cinco registros
+
+Se aplicaron campos concretos de las dos becas de Honor UV; Pueblos Originarios y Deportistas UMAG; Transporte Excepcional ULagos. [Campos y fuentes](procesados/correcciones_regionales_49.json), [CSV importado](procesados/correcciones_regionales_49.csv) y [resultado local](procesados/CORRECCION_REGIONALES_49_LOCAL.json). Las cinco siguen inactivas; cierre y condiciones completas siguen pendientes. La declaración de alcance inicial describe el primer contraste documental; esta corrección posterior sí modifica esos cinco registros.
+
+La base conserva 573 becas; otras 568 idénticas. Respaldo restaurado antes de importar; búsqueda y catálogo públicos iguales antes/después. Sin mojibake detectado en nombres y descripciones mediante conversión UTF-8/hex de PostgreSQL. Porcentajes exactos de UV: 100.00; UMAG conserva cobertura variable como texto y ULagos conserva importe desconocido. No se infieren RSH; NEM ni fechas.
+
+La primera importación se rechazó completa por dos URLs oficiales de UMAG cuyo identificador está en `?page_id=…`. Se corrigió el validador para admitir un único identificador positivo; dominios raíz e identificadores inválidos o repetidos siguen rechazados. La segunda importación creó cero y actualizó cinco sin errores.
 
 ## Registro individual
 
