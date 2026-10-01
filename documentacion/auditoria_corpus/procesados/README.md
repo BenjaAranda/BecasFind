@@ -17,7 +17,7 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
-El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 152 revisadas parcialmente y 416 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
+El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 197 revisadas parcialmente y 371 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
 
 El lote ampliado aplicó doce correcciones parciales, manteniendo inactividad y preservando los restantes 561 registros. [Campos contrastados](correcciones_universidades_45.json), [candidatos revisados](lote_universidades_45.json) y [resultado/restauración local](CORRECCION_UNIVERSIDADES_45_LOCAL.json). La periodicidad de coberturas porcentuales permanece en el texto: el contrato estructurado solo acepta periodicidad para cobertura monetaria. Intervalos y topes no se convierten en porcentajes fijos. No repetir una corrección sobre registros posteriormente curados sin comparar sus cambios/versiones.
 
@@ -50,3 +50,6 @@ USM: seis modalidades del lote regional recibieron correcciones de cobertura y f
 
 
 UMAG Mayor Puntaje: una corrección adicional de cobertura y fuente; 572 becas preservadas. [Resultado](CORRECCION_UMAG_PAES_LOCAL.json). El nombre genérico Excelencia sigue sin identidad institucional confirmada; una ficha estatal histórica no certifica una beca interna. Total de correcciones parciales en el lote regional: 12 de 49; todas sin activación.
+
+
+Nuevo [lote de 45 candidatas de ocho universidades](../REVISION_OTRAS_UNIVERSIDADES_45.md): UAI 8; UNAP 6; UCSC 5; UCN 4; UCT 6; UCentral 4; UDLA 7; UTA 5. Ocho correcciones parciales inactivas; otras 565 becas locales idénticas. Conteo editorial vigente: 197 parciales y 371 sin revisión individual; 568 pendientes de confirmación completa.

@@ -6,7 +6,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Siguiente tarea
 
-**Conteo editorial vigente:** 568 becas únicas del corpus; 152 con revisión parcial y 416 sin revisión individual. Ninguna certificada íntegramente: 568 pendientes de cierre, aunque todas están incorporadas administrativamente. [Desglose de los 93 archivos](documentacion/auditoria_corpus/procesados/avance/README.md), [cada uno de los 647 registros](documentacion/auditoria_corpus/procesados/avance/por_registro.csv) y [por institución](documentacion/auditoria_corpus/procesados/avance/por_institucion.csv). El [lote ampliado](documentacion/auditoria_corpus/REVISION_UNIVERSIDADES_45.md) revisó 45 becas de siete universidades y corrigió parcialmente 12 registros inactivos; otros 561 idénticos. Base local: 573, sin activaciones.
+**Conteo editorial vigente:** 568 becas únicas del corpus; 197 con revisión parcial y 371 sin revisión individual. Ninguna certificada íntegramente: 568 pendientes de cierre, aunque todas están incorporadas administrativamente. [Desglose de los 93 archivos](documentacion/auditoria_corpus/procesados/avance/README.md), [cada uno de los 647 registros](documentacion/auditoria_corpus/procesados/avance/por_registro.csv) y [por institución](documentacion/auditoria_corpus/procesados/avance/por_institucion.csv). El [lote ampliado](documentacion/auditoria_corpus/REVISION_UNIVERSIDADES_45.md) revisó 45 becas de siete universidades y corrigió parcialmente 12 registros inactivos; otros 561 idénticos. Base local: 573, sin activaciones.
 
 **Continuar confirmación editorial del corpus incorporado.** Los 93 originales se conservan. Tras reparar 17 anomalías estructurales y recuperar seis identidades absorbidas por descripciones, hay 647 registros reconstruidos y 568 candidatos; base local de 573 becas. Las seis nuevas quedaron inactivas y los 567 registros anteriores idénticos. Siete UChile tienen correcciones parciales; ENAC/IPCHILE cuentan con revisión oficial parcial. Falta confirmar las demás fuentes y resolver 59 grupos de variantes. Evidencia: [recuperación](documentacion/auditoria_corpus/procesados/reparaciones/README.md). P09 ya está completado y no se reabre; P12–P14 siguen fuera del alcance.
 
@@ -153,3 +153,6 @@ USM: seis modalidades del lote regional recibieron correcciones de cobertura y f
 
 
 UMAG Mayor Puntaje: una corrección adicional de cobertura y fuente; 572 becas preservadas. [Resultado](documentacion/auditoria_corpus/procesados/CORRECCION_UMAG_PAES_LOCAL.json). El nombre genérico Excelencia sigue sin identidad institucional confirmada; una ficha estatal histórica no certifica una beca interna. Total de correcciones parciales en el lote regional: 12 de 49; todas sin activación.
+
+
+Nuevo [lote de 45 candidatas de ocho universidades](documentacion/auditoria_corpus/REVISION_OTRAS_UNIVERSIDADES_45.md): UAI 8; UNAP 6; UCSC 5; UCN 4; UCT 6; UCentral 4; UDLA 7; UTA 5. Ocho correcciones parciales inactivas; otras 565 becas locales idénticas. Conteo editorial vigente: 197 parciales y 371 sin revisión individual; 568 pendientes de confirmación completa.
