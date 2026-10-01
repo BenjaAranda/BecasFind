@@ -35,4 +35,10 @@ Si Google revoca la clave (por ejemplo, al cambiar la contraseña de la cuenta),
 
 ## Estado verificable
 
-Integración implementada; pruebas locales cubren mensaje UTF-8, origen confiable, errores sanitizados, selección del proveedor y rechazo de un servidor SMTP sin STARTTLS antes de enviar credenciales o contenido. Estas pruebas no certifican entrega por Gmail. **P09 sigue pendiente de la cuenta/clave del usuario y de recepción real.** La navegación pública sin cuenta no depende del correo.
+Integración implementada; pruebas locales cubren mensaje UTF-8, origen confiable, errores sanitizados, selección del proveedor y rechazo de un servidor SMTP sin STARTTLS antes de enviar credenciales o contenido.
+
+**P09 completado:** con autorización del titular se verificaron SMTP/IMAP TLS, dos mensajes recibidos en INBOX y la recuperación de una cuenta temporal: contraseña nueva/login, enlace reutilizado rechazado, enlace vencido rechazado con fecha forzada en base temporal y sesión previa invalidada. No se cambió la contraseña de una cuenta real ni se marcaron los correos como leídos. No se esperaron 15 minutos: la caducidad se probó adelantando el estado de vencimiento exclusivamente en la base temporal.
+
+Runner: `python infra/verify-gmail-delivery.py --jar <ruta-al-jar-actualizado>`. Requiere Java 17/PostgreSQL 17 y credenciales privadas en backend/.env. Envía dos mensajes al titular; no ejecutarlo sin esa autorización. Crea y detiene base/backend temporales; no se conecta a la base local. Resultados sin dirección, clave ni token. No almacenar la contraseña normal de Google.
+
+El envío local sigue deshabilitado. La activación del correo público requiere origen HTTPS y comprobación del destino en P12. Renovar las credenciales compartidas en el chat antes de activarlo; guardar únicamente la nueva contraseña de aplicación en backend/.env, que está fuera de Git. La navegación pública sin cuenta no depende del correo.

@@ -1,5 +1,7 @@
 # Calidad antes del despliegue
 
+Actualización P09: Gmail real verificado con autorización del titular. SMTP/IMAP TLS; dos mensajes recibidos en INBOX sin marcarlos como leídos. PostgreSQL temporal: cambio de contraseña/login, rechazo de reutilización, enlace vencido con fecha forzada al pasado y sesión anterior invalidada. Cuenta real intacta; base/backend temporales detenidos. No se esperaron 15 minutos. Runner infra/verify-gmail-delivery.py y resultados sin datos sensibles; no enviar correos al ejecutar CI. La instalación local conserva RESET_EMAIL_ENABLED=false; el origen público HTTPS/activación pertenecen a P12. Las referencias posteriores a P09 pendiente son evidencia histórica.
+
 Fecha: 30 de septiembre de 2026. Alcance autorizado: P06–P11; P12–P14 no se han iniciado.
 
 ## Trazabilidad (P06)
