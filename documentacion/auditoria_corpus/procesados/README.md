@@ -17,7 +17,7 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
-El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 233 revisadas parcialmente y 335 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
+El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 266 revisadas parcialmente y 302 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
 
 El lote ampliado aplicó doce correcciones parciales, manteniendo inactividad y preservando los restantes 561 registros. [Campos contrastados](correcciones_universidades_45.json), [candidatos revisados](lote_universidades_45.json) y [resultado/restauración local](CORRECCION_UNIVERSIDADES_45_LOCAL.json). La periodicidad de coberturas porcentuales permanece en el texto: el contrato estructurado solo acepta periodicidad para cobertura monetaria. Intervalos y topes no se convierten en porcentajes fijos. No repetir una corrección sobre registros posteriormente curados sin comparar sus cambios/versiones.
 
@@ -56,3 +56,6 @@ Nuevo [lote de 45 candidatas de ocho universidades](../REVISION_OTRAS_UNIVERSIDA
 
 
 Lote de 36 candidatas: JUNAEB 4; UC 3; Santo Tomás 6; UAH 5; UBO 5; UCSH 5; USACH 3; UVM 5. Se aplicaron seis correcciones parciales a registros inactivos y se preservaron las otras 567 becas locales. Dos coincidencias existentes quedaron sin modificar. Avance: 233 revisiones parciales y 335 candidatas sin revisión individual; 568 pendientes de confirmación completa. Evidencia: documentacion/auditoria_corpus/procesados/CORRECCION_INSTITUCIONES_36_LOCAL.json.
+
+
+Lote municipal de 33 candidatas: 15 municipios contrastados con fuentes oficiales y alegaciones originales. Se corrigieron seis registros inactivos de El Quisco; Cerro Navia y Arauco. Otras 567 becas locales idénticas. Dos coberturas mensuales precisas; calendarios 2026 para El Quisco y Cerro Navia; RSH 60% y 70% respectivamente en Cerro Navia y Arauco. Los documentos cargados son parciales y están identificados como tales. No se infiere NEM. Avance vigente: 266 revisiones parciales y 302 sin revisión individual; 568 pendientes de confirmación completa. Informe: REVISION_MUNICIPALES_33.md. Evidencia: CORRECCION_MUNICIPALES_33_LOCAL.json.

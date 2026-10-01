@@ -114,3 +114,8 @@ Se documentan 45 identidades nuevas; total 197 parciales y 371 sin revisión ind
 Lote de 36 candidatas: JUNAEB 4; UC 3; Santo Tomás 6; UAH 5; UBO 5; UCSH 5; USACH 3; UVM 5. Se aplicaron seis correcciones parciales a registros inactivos y se preservaron las otras 567 becas locales. Dos coincidencias existentes quedaron sin modificar. Avance: 233 revisiones parciales y 335 candidatas sin revisión individual; 568 pendientes de confirmación completa. Evidencia: documentacion/auditoria_corpus/procesados/CORRECCION_INSTITUCIONES_36_LOCAL.json.
 
 Validación de este lote: diez pruebas Python aprobadas y Maven compile correcto con Java 17. Sin cambios al código de la aplicación; no se repitieron las suites completas. Los 93 CSV originales conservan su SHA-256; el CSV importado coincide con el hash de la evidencia.
+
+
+Lote municipal de 33 candidatas: 15 municipios contrastados con fuentes oficiales y alegaciones originales. Se corrigieron seis registros inactivos de El Quisco; Cerro Navia y Arauco. Otras 567 becas locales idénticas. Dos coberturas mensuales precisas; calendarios 2026 para El Quisco y Cerro Navia; RSH 60% y 70% respectivamente en Cerro Navia y Arauco. Los documentos cargados son parciales y están identificados como tales. No se infiere NEM. Avance vigente: 266 revisiones parciales y 302 sin revisión individual; 568 pendientes de confirmación completa. Informe: REVISION_MUNICIPALES_33.md. Evidencia: CORRECCION_MUNICIPALES_33_LOCAL.json.
+
+Diez pruebas Python aprobadas y Maven compile correcto con Java 17. Los 93 CSV originales conservan sus hashes; el CSV importado coincide con la evidencia. Sin cambios al código de aplicación; suites completas previas conservan su alcance. Sin despliegue ni correo.
