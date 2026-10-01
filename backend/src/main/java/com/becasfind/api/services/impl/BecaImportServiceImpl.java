@@ -61,7 +61,7 @@ public class BecaImportServiceImpl implements BecaImportService {
     private static final Set<String> CSV_COLUMNS = Set.of("nombre", "institucion", "tipo_beca", "monto",
             "fecha_inicio", "fecha_cierre", "rsh_maximo", "nem_minimo", "regiones", "descripcion", "descripcion_larga", "url");
 
-    private static final Set<String> OPTIONAL_COLUMNS = Set.of("documentos_requeridos", "cobertura_tipo", "cobertura_importe", "cobertura_moneda", "cobertura_periodicidad", "cobertura_porcentaje");
+    private static final Set<String> OPTIONAL_COLUMNS = Set.of("documentos_requeridos", "cobertura_tipo", "cobertura_importe", "cobertura_moneda", "cobertura_periodicidad", "cobertura_porcentaje", "estado_activa", "solo_crear");
     private final Validator validator;
     private final JdbcTemplate jdbc;
     @jakarta.persistence.PersistenceContext
@@ -230,7 +230,11 @@ public class BecaImportServiceImpl implements BecaImportService {
         validateLength(row.getTipoBeca(), 100, "tipo_beca");
         validateLength(row.getMonto(), 255, "monto");
         validateLength(row.getUrl(), 500, "url");
-        if (row.getUrl() == null || row.getUrl().isBlank()) throw new IllegalArgumentException("La URL oficial específica es obligatoria.");
+        if ((row.getUrl() == null || row.getUrl().isBlank()) && activeState(row.getEstadoActiva())) {
+            throw new IllegalArgumentException("La URL oficial específica es obligatoria para una beca activa.");
+        }
+        activeState(row.getEstadoActiva());
+        createOnly(row.getSoloCrear());
         Integer rsh = parseOptionalInt(row.getRshMaximo(), "rsh_maximo");
         if (rsh != null && (rsh < 0 || rsh > 100)) throw new IllegalArgumentException("rsh_maximo debe estar entre 0 y 100.");
         BigDecimal nem = parseOptionalBigDecimal(row.getNemMinimo(), "nem_minimo");
@@ -292,9 +296,16 @@ public class BecaImportServiceImpl implements BecaImportService {
         var becaExistente = java.util.Optional.ofNullable(existing.get(institucion.getIdInstitucion() + "\u0000" + row.getNombre().trim()));
 
         if (becaExistente.isPresent()) {
+            if (createOnly(row.getSoloCrear())) {
+                result.setOmitidas(result.getOmitidas() + 1);
+                return;
+            }
             Beca beca = becaExistente.get();
             entityManager.lock(beca, jakarta.persistence.LockModeType.PESSIMISTIC_FORCE_INCREMENT);
             beca.setNombre(row.getNombre().trim());
+            if (row.getEstadoActiva() != null && !row.getEstadoActiva().isBlank()) {
+                beca.setEstadoActiva(activeState(row.getEstadoActiva()));
+            }
             beca.setMontoCobertura(row.getMonto());
             if (replaceCoverage) applyCoverage(beca, coverage(row));
             beca.setFechaInicioPostulacion(fechaInicio);
@@ -327,7 +338,7 @@ public class BecaImportServiceImpl implements BecaImportService {
             beca.setFechaInicioPostulacion(fechaInicio);
             beca.setFechaCierrePostulacion(fechaCierre);
             beca.setUrlOficial(row.getUrl());
-            beca.setEstadoActiva(true);
+            beca.setEstadoActiva(activeState(row.getEstadoActiva()));
             beca.setInstitucion(institucion);
             beca.setTipoBeca(tipoBeca);
             beca.setUsuarioCreador(admin);
@@ -353,6 +364,18 @@ public class BecaImportServiceImpl implements BecaImportService {
             institution.setTipoInstitucion(clasificarTipoInstitucion(name));
             return institucionRepository.save(institution);
         }));
+    }
+
+    private boolean activeState(String value) {
+        if (value == null || value.isBlank() || "true".equalsIgnoreCase(value.trim())) return true;
+        if ("false".equalsIgnoreCase(value.trim())) return false;
+        throw new IllegalArgumentException("estado_activa debe ser true o false.");
+    }
+
+    private boolean createOnly(String value) {
+        if (value == null || value.isBlank() || "false".equalsIgnoreCase(value.trim())) return false;
+        if ("true".equalsIgnoreCase(value.trim())) return true;
+        throw new IllegalArgumentException("solo_crear debe ser true o false.");
     }
 
     private TipoBeca resolveType(String name, Map<String, TipoBeca> cache) {

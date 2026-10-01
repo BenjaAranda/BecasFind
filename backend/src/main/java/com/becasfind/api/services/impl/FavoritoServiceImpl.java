@@ -71,6 +71,23 @@ public class FavoritoServiceImpl implements FavoritoService {
         becaFavoritaRepository.deleteByUsuarioIdUsuarioAndBecaIdBeca(usuario.getIdUsuario(), idBeca);
     }
 
+    @Override
+    @Transactional
+    public void eliminar(String email, java.util.UUID publicId) {
+        eliminar(email, resolvePublicId(publicId));
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public boolean isFavorito(String email, java.util.UUID publicId) {
+        return isFavorito(email, resolvePublicId(publicId));
+    }
+
+    private Long resolvePublicId(java.util.UUID publicId) {
+        return becaRepository.findByPublicId(publicId)
+                .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada")).getIdBeca();
+    }
+
     private Usuario lockUsuario(String email) {
         Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
                 .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));

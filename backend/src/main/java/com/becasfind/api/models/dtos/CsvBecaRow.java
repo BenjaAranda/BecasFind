@@ -66,4 +66,10 @@ public class CsvBecaRow {
 
     @CsvBindByName(column = "cobertura_porcentaje")
     private String coberturaPorcentaje;
+
+    @CsvBindByName(column = "estado_activa")
+    private String estadoActiva;
+
+    @CsvBindByName(column = "solo_crear")
+    private String soloCrear;
 }

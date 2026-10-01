@@ -168,6 +168,8 @@ public class BecaServiceImpl implements BecaService {
     @Transactional(readOnly = true)
     public BecaDetailDTO findByPublicId(java.util.UUID id) {
         Beca beca = becaRepository.findByPublicId(id)
+                .filter(item -> Boolean.TRUE.equals(item.getEstadoActiva())
+                        && item.getFechaCierrePostulacion() != null)
                 .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada"));
         return toBecaDetailDTO(beca);
     }

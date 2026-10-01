@@ -46,14 +46,14 @@ public class FavoritoController {
     @DeleteMapping("/{idBeca}")
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<ApiResponse<Void>> eliminar(@PathVariable java.util.UUID idBeca, Principal principal) {
-        favoritoService.eliminar(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
+        favoritoService.eliminar(principal.getName(), idBeca);
         return ResponseEntity.ok(ApiResponse.success(null, "Beca eliminada de favoritos"));
     }
 
     @GetMapping("/{idBeca}/check")
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<ApiResponse<java.util.Map<String, Boolean>>> check(@PathVariable java.util.UUID idBeca, Principal principal) {
-        boolean esFavorito = favoritoService.isFavorito(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
+        boolean esFavorito = favoritoService.isFavorito(principal.getName(), idBeca);
         return ResponseEntity.ok(ApiResponse.success(
                 java.util.Map.of("favorito", esFavorito),
                 "Estado de favorito consultado"

@@ -9,6 +9,24 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 class PublicScholarshipIdTest extends BaseTest {
+    @org.springframework.beans.factory.annotation.Autowired
+    private org.springframework.jdbc.core.JdbcTemplate jdbc;
+
+    @Test void anInactiveFavoriteCanStillBeRemovedByItsOwner() {
+        String id = publicScholarshipId(1);
+        String student = studentToken();
+        try {
+            assertEquals(200, post("/api/favoritos/" + id, student, null, Map.class).getStatusCode().value());
+            jdbc.update("update becas set estado_activa = false where id_beca = 1");
+            assertEquals(404, get("/api/becas/" + id, null, Map.class).getStatusCode().value());
+            assertEquals(200, get("/api/favoritos/" + id + "/check", student, Map.class).getStatusCode().value());
+            assertEquals(200, delete("/api/favoritos/" + id, student).getStatusCode().value());
+            assertEquals(0, jdbc.queryForObject("select count(*) from becas_favoritas where id_beca = 1", Integer.class));
+        } finally {
+            jdbc.update("update becas set estado_activa = true where id_beca = 1");
+            delete("/api/favoritos/" + id, student);
+        }
+    }
     @Test void publicSearchAndDetailExposeStableUuidWithoutPrivateChildIds() {
         String id = publicScholarshipId(1);
         UUID.fromString(id);

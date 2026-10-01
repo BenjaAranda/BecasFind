@@ -9,4 +9,9 @@ import java.util.Optional;
 @Repository
 public interface InstitucionRepository extends JpaRepository<Institucion, Long> {
     Optional<Institucion> findByNombreIgnoreCase(String nombre);
+
+    @org.springframework.data.jpa.repository.Query("select i from Institucion i where i.rut not like 'IMP-%' "
+            + "or exists (select b.idBeca from Beca b where b.institucion = i and b.estadoActiva = true "
+            + "and b.fechaCierrePostulacion is not null)")
+    java.util.List<Institucion> findPublicCatalog();
 }

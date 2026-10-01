@@ -157,6 +157,7 @@ export interface PerfilEstudiante {
 export interface ImportResult {
   creadas: number;
   actualizadas: number;
+  omitidas?: number;
   errores: number;
   mensajesError: string[];
 }

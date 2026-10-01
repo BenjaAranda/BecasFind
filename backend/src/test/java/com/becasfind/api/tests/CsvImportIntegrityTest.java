@@ -69,6 +69,47 @@ class CsvImportIntegrityTest extends BaseTest {
         rejected(upload(HEADER + "\n\"comilla sin cierre"), before);
     }
 
+    @Test void historicalArchiveAcceptsUnknownSourceOnlyWhenExplicitlyInactive() {
+        String archive = "Archivo histórico sin fuente,DUOC UC,Beca por verificar,,,,,,,Registro histórico,Datos pendientes de confirmación,";
+        long before = becas.count();
+        rejected(upload(HEADER + ",estado_activa\n" + archive + ",true"), before);
+        rejected(upload(HEADER + ",estado_activa\n" + archive + ",no"), before);
+        rejected(upload(HEADER + "\n" + archive), before);
+        var result = upload(HEADER + ",estado_activa\n" + archive + ",false");
+        assertEquals(0, result.get("errores"));
+        assertEquals(1, result.get("creadas"));
+        Long id = jdbc.queryForObject("select id_beca from becas where nombre = ?", Long.class, "Archivo histórico sin fuente");
+        assertFalse(jdbc.queryForObject("select estado_activa from becas where id_beca = ?", Boolean.class, id));
+        assertNull(jdbc.queryForObject("select fecha_cierre_postulacion from becas where id_beca = ?", java.sql.Date.class, id));
+        assertEquals(404, get("/api/becas/" + publicScholarshipId(id), null, Map.class).getStatusCode().value());
+        assertEquals(200, get("/api/becas/administracion/" + id, adminToken(), Map.class).getStatusCode().value());
+    }
+
+    @Test void createOnlyArchivePreservesExistingCuratedDataAndIsIdempotent() {
+        String name = "CSV existente protegida";
+        assertEquals(0, upload(HEADER + "\n" + row(name)).get("errores"));
+        var before = jdbc.queryForMap("select * from becas where nombre = ?", name);
+        String archive = name + ",DUOC UC,Beca por verificar,,,,,,,Registro histórico,Datos pendientes,";
+        var result = upload(HEADER + ",estado_activa,solo_crear\n" + archive + ",false,true");
+        assertEquals(0, result.get("errores"));
+        assertEquals(0, result.get("actualizadas"));
+        assertEquals(1, result.get("omitidas"));
+        assertEquals(before, jdbc.queryForMap("select * from becas where nombre = ?", name));
+        assertEquals(1, upload(HEADER + ",estado_activa,solo_crear\n" + archive + ",false,true").get("omitidas"));
+    }
+
+    @Test void historicalInstitutionsAndTechnicalIdentifiersRemainAdministrative() {
+        String institution = "Institución histórica sin confirmar";
+        String archive = "Candidata histórica," + institution + ",Beca por verificar,,,,,,,Pendiente,Sin confirmar,";
+        assertEquals(0, upload(HEADER + ",estado_activa,solo_crear\n" + archive + ",false,true").get("errores"));
+        assertFalse(get("/api/instituciones", null, String.class).getBody().contains(institution));
+        assertFalse(get("/api/instituciones", studentToken(), String.class).getBody().contains(institution));
+        assertTrue(get("/api/instituciones", adminToken(), String.class).getBody().contains(institution));
+        assertFalse(get("/api/tipos-beca", null, String.class).getBody().contains("Beca por verificar"));
+        assertTrue(get("/api/tipos-beca", adminToken(), String.class).getBody().contains("Beca por verificar"));
+        assertFalse(get("/api/instituciones", null, String.class).getBody().contains("IMP-"));
+    }
+
     @Test void malformedValuesAndDatesRejectTheEntireFile() {
         long before = becas.count();
         for (String invalid : new String[] {

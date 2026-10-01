@@ -189,9 +189,9 @@ export default function AdminBecasPage() {
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-1">
-                      <a href={`/becas/${beca.publicId}`} aria-label={`Ver detalle de ${beca.nombre}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
+                      {beca.estadoActiva && beca.fechaCierrePostulacion && <a href={`/becas/${beca.publicId}`} aria-label={`Ver detalle de ${beca.nombre}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                         <ExternalLink className="w-4 h-4" />
-                      </a>
+                      </a>}
                       <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-600 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                         <Edit className="w-4 h-4" />
                       </button>
@@ -259,7 +259,7 @@ export default function AdminBecasPage() {
 
             {importResult ? (
               <div className="space-y-3">
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   <div className="p-3 bg-green-50 rounded-lg text-center">
                     <p className="text-2xl font-bold text-green-700">{importResult.creadas}</p>
                     <p className="text-xs text-green-600">Creadas</p>
@@ -267,6 +267,10 @@ export default function AdminBecasPage() {
                   <div className="p-3 bg-blue-50 rounded-lg text-center">
                     <p className="text-2xl font-bold text-[#0b3c75]">{importResult.actualizadas}</p>
                     <p className="text-xs text-blue-600">Actualizadas</p>
+                  </div>
+                  <div className="p-3 bg-slate-50 rounded-lg text-center">
+                    <p className="text-2xl font-bold text-[#0b3c75]">{importResult.omitidas ?? 0}</p>
+                    <p className="text-xs text-slate-600">Existentes conservadas</p>
                   </div>
                   <div className="p-3 bg-red-50 rounded-lg text-center">
                     <p className="text-2xl font-bold text-red-700">{importResult.errores}</p>
