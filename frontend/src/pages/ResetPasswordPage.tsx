@@ -59,12 +59,12 @@ export default function ResetPasswordPage() {
       {done ? (
         <div role="status" className="text-green-900">
           <CheckCircle2 aria-hidden="true" className="mb-4" />
-          <Link to="/login" className="inline-block bg-[#123f48] text-white rounded-md px-5 py-3 font-semibold">Iniciar sesión</Link>
+          <Link to="/login" className="inline-block bg-[#0b3c75] text-white rounded-md px-5 py-3 font-semibold">Iniciar sesión</Link>
         </div>
       ) : !token || invalid ? (
         <div>
           <p role="alert" className="bg-amber-50 border border-amber-200 text-amber-900 p-4 mb-5">{error || 'El enlace está incompleto o no es válido. Solicita uno nuevo para recuperar tu acceso.'}</p>
-          <Link to="/forgot-password" className="font-semibold text-[#123f48] underline underline-offset-4">Solicitar un nuevo enlace</Link>
+          <Link to="/forgot-password" className="font-semibold text-[#0b3c75] underline underline-offset-4">Solicitar un nuevo enlace</Link>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-5" aria-busy={loading}>
@@ -73,7 +73,7 @@ export default function ResetPasswordPage() {
             disabled={loading} newPassword help="Usa entre 8 y 72 caracteres. Con tildes o símbolos, el máximo puede ser menor." />
           <PasswordField id="confirm-password" label="Confirmar contraseña" value={confirmation} onChange={setConfirmation}
             disabled={loading} newPassword visibilityLabel="confirmación de contraseña" />
-          <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 bg-[#123f48] text-white rounded-md py-3 font-semibold hover:bg-[#205865] disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-4 cursor-pointer disabled:cursor-wait">
+          <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 bg-[#0b3c75] text-white rounded-md py-3 font-semibold hover:bg-[#082e5b] disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-4 cursor-pointer disabled:cursor-wait">
             <KeyRound size={18} aria-hidden="true" />{loading ? 'Guardando contraseña…' : 'Guardar nueva contraseña'}
           </button>
         </form>

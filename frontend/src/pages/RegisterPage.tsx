@@ -57,26 +57,26 @@ export default function RegisterPage() {
 
   return (
     <AuthLayout title="Crear Cuenta" description="Organiza tus becas favoritas y encuentra opciones según tu perfil."
-      footer={<p>¿Ya tienes cuenta? <Link to="/login" className="font-semibold text-[#123f48] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">Ingresa aquí</Link></p>}>
+      footer={<p>¿Ya tienes cuenta? <Link to="/login" className="font-semibold text-[#0b3c75] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">Ingresa aquí</Link></p>}>
       {error && <p role="alert" className="mb-5 border-l-2 border-red-700 bg-red-50 p-3 text-sm text-red-800">{error}</p>}
       <form onSubmit={handleSubmit} aria-busy={loading} className="space-y-5">
         <div>
           <label htmlFor="nombre" className="block text-sm font-medium mb-2">Nombre Completo</label>
           <input id="nombre" type="text" required maxLength={255} autoComplete="name" disabled={loading} value={nombreCompleto}
             onChange={event => setNombreCompleto(event.target.value)} placeholder="María González"
-            className="w-full min-h-12 px-3 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
+            className="w-full min-h-12 px-3 py-3 border border-[#94a3b8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75] disabled:bg-slate-50" />
         </div>
         <div>
           <label htmlFor="email" className="block text-sm font-medium mb-2">Correo electrónico</label>
           <input id="email" type="email" required maxLength={254} autoComplete="email" disabled={loading} value={email}
             onChange={event => setEmail(event.target.value)} placeholder="maria@email.com"
-            className="w-full min-h-12 px-3 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
+            className="w-full min-h-12 px-3 py-3 border border-[#94a3b8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75] disabled:bg-slate-50" />
         </div>
         <PasswordField id="password" label="Contraseña" value={password} onChange={setPassword} disabled={loading} newPassword
           placeholder="Mínimo 8 caracteres" help="Usa entre 8 y 72 caracteres. Con tildes o símbolos, el máximo puede ser menor." />
         <PasswordField id="confirmPassword" label="Confirmar Contraseña" value={confirmPassword} onChange={setConfirmPassword}
           disabled={loading} newPassword placeholder="Repite la contraseña" visibilityLabel="confirmación de contraseña" />
-        <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#123f48] hover:bg-[#1a525c] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#123f48]">
+        <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#0b3c75] hover:bg-[#082e5b] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0b3c75]">
           {loading ? 'Creando cuenta...' : 'Crear Cuenta'}
           {loading ? <LoaderCircle size={18} className="animate-spin motion-reduce:animate-none" aria-hidden="true" /> : <ArrowRight size={18} aria-hidden="true" />}
         </button>

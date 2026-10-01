@@ -37,18 +37,18 @@ export default function LoginPage() {
 
   return (
     <AuthLayout title="Iniciar Sesión" description="Vuelve a tus favoritas y continúa buscando oportunidades para estudiar."
-      footer={<p>¿Todavía no tienes cuenta? <Link to="/register" className="font-semibold text-[#123f48] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">Regístrate</Link></p>}>
+      footer={<p>¿Todavía no tienes cuenta? <Link to="/register" className="font-semibold text-[#0b3c75] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">Regístrate</Link></p>}>
       {error && <p role="alert" className="mb-5 border-l-2 border-red-700 bg-red-50 p-3 text-sm text-red-800">{error}</p>}
       <form onSubmit={handleSubmit} aria-busy={loading} className="space-y-5">
         <div>
           <label htmlFor="email" className="block text-sm font-medium mb-2">Correo electrónico</label>
           <input id="email" type="email" required maxLength={254} autoComplete="email" disabled={loading}
             value={email} onChange={event => setEmail(event.target.value)} placeholder="maria@email.com"
-            className="w-full min-h-12 px-3 py-3 border border-[#b9cac8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48] disabled:bg-slate-50" />
+            className="w-full min-h-12 px-3 py-3 border border-[#94a3b8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75] disabled:bg-slate-50" />
         </div>
         <PasswordField id="password" label="Contraseña" value={password} onChange={setPassword} disabled={loading} placeholder="Tu contraseña" />
-        <div className="text-right"><Link to="/forgot-password" className="text-sm text-[#123f48] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">¿Olvidaste tu contraseña?</Link></div>
-        <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#123f48] hover:bg-[#1a525c] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#123f48]">
+        <div className="text-right"><Link to="/forgot-password" className="text-sm text-[#0b3c75] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">¿Olvidaste tu contraseña?</Link></div>
+        <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#0b3c75] hover:bg-[#082e5b] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0b3c75]">
           {loading ? 'Ingresando...' : 'Ingresar'}
           {loading ? <LoaderCircle size={18} className="animate-spin motion-reduce:animate-none" aria-hidden="true" /> : <ArrowRight size={18} aria-hidden="true" />}
         </button>

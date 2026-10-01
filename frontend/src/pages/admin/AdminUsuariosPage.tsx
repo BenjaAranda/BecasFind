@@ -52,12 +52,12 @@ export default function AdminUsuariosPage() {
     <div className="p-4 sm:p-6">
       <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-2xl font-bold text-[#163b3b]">Gestión de Usuarios</h1>
+          <h1 className="text-2xl font-bold text-[#16324f]">Gestión de Usuarios</h1>
           <p className="text-sm text-gray-600 mt-1">{usuarios.length} usuarios registrados</p>
         </div>
         <button
           onClick={() => { setEditUsuario(null); setShowForm(true); }}
-          className="flex items-center gap-2 px-4 py-2 bg-[#163b3b] text-white text-sm font-medium rounded-lg hover:bg-[#245454] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
+          className="flex items-center gap-2 px-4 py-2 bg-[#16324f] text-white text-sm font-medium rounded-lg hover:bg-[#0b3c75] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]"
         >
           <Plus className="w-4 h-4" />
           Nuevo Usuario
@@ -72,7 +72,7 @@ export default function AdminUsuariosPage() {
           ))}
         </div>
       ) : (
-        <div className="bg-[#fffdf7] rounded-xl shadow-sm border border-gray-100 overflow-x-auto">
+        <div className="bg-[#ffffff] rounded-xl shadow-sm border border-gray-100 overflow-x-auto">
           <table className="w-full min-w-[560px] text-sm">
             <thead>
               <tr className="bg-gray-50 text-left">
@@ -87,10 +87,10 @@ export default function AdminUsuariosPage() {
             <tbody className="divide-y divide-gray-100">
               {usuarios.map(u => (
                 <tr key={u.idUsuario} className="hover:bg-gray-50">
-                  <td className="px-4 py-3 font-medium text-[#163b3b]">{u.nombreCompleto}</td>
+                  <td className="px-4 py-3 font-medium text-[#16324f]">{u.nombreCompleto}</td>
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{u.email}</td>
                   <td className="px-4 py-3">
-                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${u.rol === 'ADMIN' ? 'bg-[#efe8d5] text-[#685521]' : 'bg-[#e2eee8] text-[#245454]'}`}>
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${u.rol === 'ADMIN' ? 'bg-[#efe8d5] text-[#685521]' : 'bg-[#eff6ff] text-[#0b3c75]'}`}>
                       {u.rol}
                     </span>
                   </td>
@@ -104,12 +104,12 @@ export default function AdminUsuariosPage() {
                     {u.activo && (
                       <div className="flex gap-2">
                       <button aria-label={`Editar ${u.nombreCompleto}`} onClick={() => { setEditUsuario(u); setShowForm(true); }}
-                        className="p-1.5 text-[#245454] hover:bg-[#e2eee8] rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2">
+                        className="p-1.5 text-[#0b3c75] hover:bg-[#eff6ff] rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2">
                         <Edit className="w-4 h-4" />
                       </button>
                       <button
                         aria-label={`Desactivar ${u.nombreCompleto}`} onClick={() => { setDeactivateError(''); setConfirmDeactivateId(u.idUsuario); }}
-                        className="p-1.5 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]"
+                        className="p-1.5 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]"
                         title="Desactivar usuario"
                       >
                         <UserX className="w-4 h-4" />
@@ -136,8 +136,8 @@ export default function AdminUsuariosPage() {
             <p className="text-sm text-gray-600 mb-4">¿Estás seguro de desactivar este usuario? No podrá iniciar sesión.</p>
             {deactivateError && <p role="alert" className="mb-3 text-red-700">{deactivateError}</p>}
             <div className="flex justify-end gap-3">
-              <button disabled={deactivating} onClick={() => setConfirmDeactivateId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">Cancelar</button>
-              <button disabled={deactivating} onClick={handleDeactivate} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#326d68]">Desactivar</button>
+              <button disabled={deactivating} onClick={() => setConfirmDeactivateId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">Cancelar</button>
+              <button disabled={deactivating} onClick={handleDeactivate} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">Desactivar</button>
             </div>
           </div>
         </AdminDialog>

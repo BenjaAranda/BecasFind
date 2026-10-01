@@ -27,7 +27,7 @@ export default function AdminDialog({ title, busy = false, wide = false, onClose
   return (
     <dialog ref={dialog} aria-label={title} aria-busy={busy}
       onCancel={event => { event.preventDefault(); if (!busy) onClose(); }}
-      className={`m-auto max-h-[calc(100dvh-2rem)] w-[calc(100%-2rem)] overflow-y-auto rounded-2xl border border-[#d8ddd4] bg-[#fffdf7] p-0 text-[#163b3b] shadow-2xl backdrop:bg-[#163b3b]/60 ${wide ? 'max-w-2xl' : 'max-w-md'}`}>
+      className={`m-auto max-h-[calc(100dvh-2rem)] w-[calc(100%-2rem)] overflow-y-auto rounded-2xl border border-[#cbd5e1] bg-[#ffffff] p-0 text-[#16324f] shadow-2xl backdrop:bg-[#16324f]/60 ${wide ? 'max-w-2xl' : 'max-w-md'}`}>
       {children}
     </dialog>
   );

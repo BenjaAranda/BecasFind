@@ -47,25 +47,25 @@ export default function BecaDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-[#f5f3ed] flex items-center justify-center">
-        <p role="status" className="text-[#123f48]">Cargando la beca…</p>
+      <div className="min-h-screen bg-[#f8fafc] flex items-center justify-center">
+        <p role="status" className="text-[#0b3c75]">Cargando la beca…</p>
       </div>
     );
   }
 
-  if (!beca) return <div className="min-h-screen bg-[#f5f3ed]"><PublicNavbar /><main className="max-w-2xl mx-auto px-6 py-16"><h1 className="font-serif text-4xl text-[#123f48] mb-6">No pudimos abrir esta beca</h1><p role="alert" className="text-slate-600 mb-6">{error}</p><div className="flex flex-wrap gap-4"><button onClick={() => { setLoading(true); setRetry(value => value + 1); }} className="min-h-12 px-5 bg-[#123f48] text-white focus-visible:outline-2 focus-visible:outline-offset-4">Reintentar</button><button onClick={() => navigate('/explorar')} className="min-h-12 px-5 text-[#123f48] underline focus-visible:outline-2 focus-visible:outline-offset-4">Volver al buscador</button></div></main></div>;
+  if (!beca) return <div className="min-h-screen bg-[#f8fafc]"><PublicNavbar /><main className="max-w-2xl mx-auto px-6 py-16"><h1 className="font-sans font-semibold text-4xl text-[#0b3c75] mb-6">No pudimos abrir esta beca</h1><p role="alert" className="text-slate-600 mb-6">{error}</p><div className="flex flex-wrap gap-4"><button onClick={() => { setLoading(true); setRetry(value => value + 1); }} className="min-h-12 px-5 bg-[#0b3c75] text-white focus-visible:outline-2 focus-visible:outline-offset-4">Reintentar</button><button onClick={() => navigate('/explorar')} className="min-h-12 px-5 text-[#0b3c75] underline focus-visible:outline-2 focus-visible:outline-offset-4">Volver al buscador</button></div></main></div>;
 
   const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
-    <div className="min-h-screen bg-[#f5f3ed]">
+    <div className="min-h-screen bg-[#f8fafc]">
       <PublicNavbar />
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
-        <button onClick={goBack} className="inline-flex items-center gap-2 min-h-11 text-sm text-[#123f48] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2"><ArrowLeft size={16} aria-hidden="true" />Volver</button>
-        <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
+        <button onClick={goBack} className="inline-flex items-center gap-2 min-h-11 text-sm text-[#0b3c75] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2"><ArrowLeft size={16} aria-hidden="true" />Volver</button>
+        <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
-            <h1 className="font-serif text-3xl sm:text-5xl leading-tight break-words text-[#123f48]">{beca.nombre}</h1>
+            <h1 className="font-sans font-semibold text-3xl sm:text-5xl leading-tight break-words text-[#0b3c75]">{beca.nombre}</h1>
             <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired || !beca.estadoActiva || !beca.fechaCierrePostulacion ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
               {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : isExpired ? 'Vencida' : 'Vigente'}
             </span>
@@ -99,13 +99,13 @@ export default function BecaDetailPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 bg-[#f5f3ed] rounded-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 bg-[#f8fafc] rounded-sm">
             {beca.fechaInicioPostulacion && (
               <div className="flex items-center gap-2 text-sm">
                 <Calendar className="w-4 h-4 text-blue-500 shrink-0" />
                 <div>
                   <span className="text-slate-600">Inicio postulación:</span>
-                  <p className="font-medium text-[#123f48]">{formatDate(beca.fechaInicioPostulacion)}</p>
+                  <p className="font-medium text-[#0b3c75]">{formatDate(beca.fechaInicioPostulacion)}</p>
                 </div>
               </div>
             )}
@@ -113,22 +113,22 @@ export default function BecaDetailPage() {
               <Clock className={`w-4 h-4 shrink-0 ${isExpired ? 'text-red-700' : 'text-orange-500'}`} />
               <div>
                 <span className="text-slate-600">Cierre postulación:</span>
-                <p className="font-medium text-[#123f48]">{formatDate(beca.fechaCierrePostulacion)}</p>
+                <p className="font-medium text-[#0b3c75]">{formatDate(beca.fechaCierrePostulacion)}</p>
               </div>
             </div>
           </div>
         </div>
 
         {beca.descripcionLarga && (
-          <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
-            <h2 className="font-serif text-2xl text-[#123f48] mb-3">Descripción Completa</h2>
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-3">Descripción Completa</h2>
             <p className="text-slate-600 leading-relaxed whitespace-pre-line break-words">{beca.descripcionLarga}</p>
           </div>
         )}
 
         {beca.requisitoPerfil && (
-          <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
-            <h2 className="font-serif text-2xl text-[#123f48] mb-4 flex items-center gap-2">
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
               <AlertCircle className="w-5 h-5 text-amber-700" />
               Requisitos del Perfil
             </h2>
@@ -140,18 +140,18 @@ export default function BecaDetailPage() {
                 </div>
               )}
               {beca.requisitoPerfil.nemMinimo != null && (
-                <div className="p-3 bg-[#e7eeea] rounded-sm">
-                  <p className="text-xs text-[#123f48] font-medium">NEM Mínimo</p>
-                  <p className="text-lg font-bold text-[#123f48]">{beca.requisitoPerfil.nemMinimo}</p>
+                <div className="p-3 bg-[#eff6ff] rounded-sm">
+                  <p className="text-xs text-[#0b3c75] font-medium">NEM Mínimo</p>
+                  <p className="text-lg font-bold text-[#0b3c75]">{beca.requisitoPerfil.nemMinimo}</p>
                 </div>
               )}
               {beca.requisitoPerfil.paesMinimo != null && (
-                <div className="p-3 bg-[#e7eeea] rounded-sm">
-                  <p className="text-xs text-[#46717a] font-medium">PAES Mínimo</p>
-                  <p className="text-lg font-bold text-[#123f48]">{beca.requisitoPerfil.paesMinimo}</p>
+                <div className="p-3 bg-[#eff6ff] rounded-sm">
+                  <p className="text-xs text-[#375b80] font-medium">PAES Mínimo</p>
+                  <p className="text-lg font-bold text-[#0b3c75]">{beca.requisitoPerfil.paesMinimo}</p>
                 </div>
               )}
-              <div className="p-3 bg-[#f5f3ed] rounded-sm">
+              <div className="p-3 bg-[#f8fafc] rounded-sm">
                 <p className="text-xs text-slate-600 font-medium">Nivel</p>
                 <p className="text-sm font-medium text-gray-700">
                   {beca.requisitoPerfil.esParaPrimerAnio && 'Primer Año'}
@@ -165,8 +165,8 @@ export default function BecaDetailPage() {
         )}
 
         {beca.documentosRequeridos.length > 0 ? (
-          <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
-            <h2 className="font-serif text-2xl text-[#123f48] mb-4 flex items-center gap-2">
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
               <FileCheck className="w-5 h-5 text-green-500" />
               Documentos Requeridos
             </h2>
@@ -183,8 +183,8 @@ export default function BecaDetailPage() {
             </ul>
           </div>
         ) : beca.descripcionLarga && /\[(OBLIGATORIO|OPCIONAL)\]/i.test(beca.descripcionLarga) ? (
-          <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-6">
-            <h2 className="font-serif text-2xl text-[#123f48] mb-4 flex items-center gap-2">
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
               <FileCheck className="w-5 h-5 text-green-500" />
               Documentos Requeridos
             </h2>
@@ -212,7 +212,7 @@ export default function BecaDetailPage() {
               href={beca.urlOficial}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 min-h-12 px-6 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 bg-[#123f48] hover:bg-[#1a525c] text-white font-medium rounded-sm transition"
+              className="inline-flex items-center gap-2 min-h-12 px-6 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 bg-[#0b3c75] hover:bg-[#082e5b] text-white font-medium rounded-sm transition"
             >
               <Globe className="w-4 h-4" />
               Ver convocatoria oficial

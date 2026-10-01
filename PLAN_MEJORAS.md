@@ -101,3 +101,7 @@ El runner local reproducible también pasó: Maven/H2, npm ci, lint, audit, buil
 ## Acceso público autorizado
 
 El buscador, filtros y detalle son gratuitos y no requieren cuenta. Perfil, favoritos, recomendaciones guardadas y administración requieren sesión. El visitante no solicita APIs privadas ni se redirige automáticamente al login. No se contrató ningún plan ni dominio. P09 conserva la configuración/entrega real pendiente y debe resolverse dentro del presupuesto cero; la navegación pública no depende de Resend.
+
+## Corrección de identidad visual
+
+Azul institucional y blanco restaurados en portada, navegación, buscador/detalle, autenticación, perfil/favoritos y administración. Tipografía sans-serif, encabezados sobrios y controles accesibles; se conservan las mejoras funcionales y el acceso público. Compilación/lint frontend, compile backend y 220 pruebas Chromium/Firefox aprobados; revisión independiente y verificación de UTF-8 completadas. Esta corrección no representa una nueva publicación.

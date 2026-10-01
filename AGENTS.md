@@ -8,6 +8,8 @@
 
 ## Decisiones autorizadas el 30 de septiembre de 2026
 
+- Restaurar azul y blanco con estética institucional, tipografía sans-serif y controles sobrios. Mantener accesibilidad y navegación pública. Integrar Gmail SMTP gratuito para recuperación mediante spring-boot-starter-mail (versión administrada por Spring Boot); secretos externos. Ejecutar estas correcciones secuencialmente; no iniciar despliegue.
+
 - Acceso gratuito y sin sesión al buscador/detalle. Sesión solo para perfil/favoritos/recomendaciones guardadas y administración. No contratar planes ni comprar dominios sin autorización.
 
 - P06–P11 pueden ejecutarse secuencialmente por la petición «termina todas las tareas hasta antes del inicio del despliegue». P12–P14 no están autorizadas en esta entrega.

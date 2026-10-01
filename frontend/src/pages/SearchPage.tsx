@@ -134,15 +134,15 @@ export default function SearchPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f5f3ed]">
+    <div className="min-h-screen bg-[#f8fafc]">
       <PublicNavbar />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-8 border-b border-[#dce3df]">
-        <p className="text-xs uppercase tracking-[0.2em] text-[#46717a] mb-3">Oportunidades para estudiar</p>
-        <h1 className="font-serif text-4xl sm:text-5xl text-[#123f48] leading-tight">Tu próximo paso empieza aquí.</h1>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-8 border-b border-[#dbe3ed]">
+        <p className="text-xs uppercase tracking-[0.2em] text-[#375b80] mb-3">Oportunidades para estudiar</p>
+        <h1 className="font-sans font-semibold text-4xl sm:text-5xl text-[#0b3c75] leading-tight">Tu próximo paso empieza aquí.</h1>
         <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">Explora becas y beneficios. Compara sus requisitos y consulta la convocatoria oficial antes de postular.</p>
       </div>
-      {!isAuthenticated && <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 text-sm text-[#123f48]">
+      {!isAuthenticated && <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 text-sm text-[#0b3c75]">
         <p>Explora gratis y sin cuenta. Inicia sesión como estudiante para guardar tu perfil y favoritos, o como administrador para gestionar BecasFind.</p>
         <Link to="/login" className="inline-block mt-2 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2">Iniciar sesión para guardar mis datos o administrar</Link>
       </div>}
@@ -159,9 +159,9 @@ export default function SearchPage() {
                 onSearch={handleSearch}
                 onReset={handleReset}
               />
-              <div className="mt-4 p-4 bg-[#e7eeea] rounded-sm border border-[#c5d5d0]">
-                <p className="text-xs text-[#123f48] font-medium mb-1">¿Cómo funciona?</p>
-                <ul className="text-xs text-[#123f48] space-y-1">
+              <div className="mt-4 p-4 bg-[#eff6ff] rounded-sm border border-[#cbd5e1]">
+                <p className="text-xs text-[#0b3c75] font-medium mb-1">¿Cómo funciona?</p>
+                <ul className="text-xs text-[#0b3c75] space-y-1">
                   <li>• RSH: ingresas tu %, ves becas que acepten ≥ ese valor</li>
                   <li>• NEM: ingresas tu promedio, ves becas con mínimo ≤ tu nota</li>
                   <li>• Región: filtra becas locales o de alcance nacional</li>
@@ -170,10 +170,10 @@ export default function SearchPage() {
               </div>
             </>
           ) : (
-            <div className="bg-white rounded-sm shadow-none border border-[#dce3df] p-5">
+            <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-5">
               <div className="flex items-center gap-2 mb-3">
                 <Sparkles className="w-5 h-5 text-amber-500" />
-                <h3 className="font-semibold text-[#123f48]">Recomendadas para ti</h3>
+                <h3 className="font-semibold text-[#0b3c75]">Recomendadas para ti</h3>
               </div>
               <p className="text-sm text-slate-600 mb-4">
                 Basadas en tu RSH, NEM y región guardados. Revisa los requisitos oficiales: una recomendación no garantiza que puedas postular.
@@ -189,20 +189,20 @@ export default function SearchPage() {
         </aside>
 
         <section aria-label="Resultados de búsqueda" aria-busy={loading} className="flex-1 min-w-0">
-          {tab === 'buscar' && sort.startsWith('monto') && <p id="coverage-order-note" role="note" className="mb-4 border-l-2 border-[#123f48] bg-[#eaf0eb] p-3 text-sm text-[#123f48]">
+          {tab === 'buscar' && sort.startsWith('monto') && <p id="coverage-order-note" role="note" className="mb-4 border-l-2 border-[#0b3c75] bg-[#eff6ff] p-3 text-sm text-[#0b3c75]">
             Agrupamos por moneda y periodicidad y ordenamos el importe dentro de cada grupo. No convertimos monedas ni anualizamos pagos. Los beneficios sin importe confirmado aparecen al final; los empates conservan un orden estable.
           </p>}
-          <div className="flex items-center gap-1 mb-6 bg-white rounded-sm p-1 border border-[#dce3df]">
+          <div className="flex items-center gap-1 mb-6 bg-white rounded-sm p-1 border border-[#dbe3ed]">
             <button
               aria-pressed={tab === 'buscar'} onClick={() => updateParam('mode', '', true)}
-              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'buscar' ? 'bg-[#123f48] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
+              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'buscar' ? 'bg-[#0b3c75] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
             >
               <Search className="w-4 h-4 inline mr-1" />
               Buscador
             </button>
             <button
               aria-pressed={tab === 'recomendar'} onClick={() => isAuthenticated ? updateParam('mode', 'recomendar', true) : navigate('/login')}
-              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'recomendar' ? 'bg-[#123f48] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
+              className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'recomendar' ? 'bg-[#0b3c75] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
             >
               <Sparkles className="w-4 h-4 inline mr-1" />
               Recomendadas
@@ -210,14 +210,14 @@ export default function SearchPage() {
           </div>
 
           <div className="mb-4 flex items-center gap-2">
-            <Search className="w-5 h-5 text-[#123f48]" />
-            <h2 className="text-xl font-medium text-[#123f48]">
+            <Search className="w-5 h-5 text-[#0b3c75]" />
+            <h2 className="text-xl font-medium text-[#0b3c75]">
               {totalElements > 0 ? `${totalElements} beca${totalElements !== 1 ? 's' : ''} encontrada${totalElements !== 1 ? 's' : ''}` : 'Encuentra tu beca ideal'}
             </h2>
           </div>
 
           {tab === 'buscar' && (query || rsh || nem) && <div aria-label="Filtros activos" className="flex flex-wrap gap-2 mb-5">
-            {[['q', query, `Texto: ${query}`], ['rsh', rsh, `RSH: ${rsh}%`], ['nem', nem, `NEM: ${nem}`]].filter(([, value]) => value).map(([key, , label]) => <button key={key} onClick={() => updateParam(key, '', true)} aria-label={`Quitar filtro ${label}`} className="min-h-11 max-w-full break-words text-left px-3 py-2 bg-[#e7eeea] border border-[#c5d5d0] text-sm text-[#123f48] focus-visible:outline-2 focus-visible:outline-offset-2">{label} <span aria-hidden="true">×</span></button>)}
+            {[['q', query, `Texto: ${query}`], ['rsh', rsh, `RSH: ${rsh}%`], ['nem', nem, `NEM: ${nem}`]].filter(([, value]) => value).map(([key, , label]) => <button key={key} onClick={() => updateParam(key, '', true)} aria-label={`Quitar filtro ${label}`} className="min-h-11 max-w-full break-words text-left px-3 py-2 bg-[#eff6ff] border border-[#cbd5e1] text-sm text-[#0b3c75] focus-visible:outline-2 focus-visible:outline-offset-2">{label} <span aria-hidden="true">×</span></button>)}
           </div>}
 
           {error && <div role="alert" className="mb-4 rounded-sm border border-red-200 bg-red-50 p-4 text-red-800">
@@ -265,7 +265,7 @@ export default function SearchPage() {
                   </div>
                   <div className="flex items-center gap-1 flex-wrap justify-center">
                     <button disabled={page === 0} aria-label="Página anterior" onClick={() => handlePageChange(page - 1)}
-                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#b9cac8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#94a3b8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
                     {Array.from({ length: Math.min(totalPages, 8) }, (_, i) => {
                       let p: number;
                       if (totalPages <= 8) { p = i; }
@@ -275,13 +275,13 @@ export default function SearchPage() {
                       return (
                         <button key={p} disabled={p === page}
                           onClick={() => handlePageChange(p)} aria-current={p === page ? 'page' : undefined} aria-label={`Página ${p + 1}`}
-                          className={`min-w-9 min-h-11 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded cursor-pointer ${p === page ? 'bg-[#123f48] text-white font-medium' : 'border border-[#b9cac8] hover:bg-gray-100'}`}>
+                          className={`min-w-9 min-h-11 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded cursor-pointer ${p === page ? 'bg-[#0b3c75] text-white font-medium' : 'border border-[#94a3b8] hover:bg-gray-100'}`}>
                           {p + 1}
                         </button>
                       );
                     })}
                     <button disabled={page >= totalPages - 1} aria-label="Página siguiente" onClick={() => handlePageChange(page + 1)}
-                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#b9cac8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
+                      className="min-w-9 min-h-11 px-2 py-1 text-sm focus-visible:outline-2 focus-visible:outline-offset-2 rounded border border-[#94a3b8] disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
                   </div>
                   <span className="text-xs text-slate-600">{totalElements} resultados</span>
                 </div>

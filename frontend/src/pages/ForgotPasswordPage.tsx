@@ -32,7 +32,7 @@ export default function ForgotPasswordPage() {
   return (
     <RecoveryLayout title="Recupera tu acceso" description="Escribe el correo que usaste al registrarte. Te enviaremos un enlace para elegir una nueva contraseña.">
       {sent ? (
-        <div role="status" className="bg-[#edf5ef] border border-green-200 p-5 text-green-900">
+        <div role="status" className="bg-[#eff6ff] border border-green-200 p-5 text-green-900">
           <CheckCircle2 className="mb-3" aria-hidden="true" />
           <p className="font-semibold mb-2">Revisa tu correo</p>
           <p className="text-sm leading-relaxed">Si el correo está registrado, recibirás un enlace que vence en 15 minutos. Revisa también la carpeta de spam.</p>
@@ -45,9 +45,9 @@ export default function ForgotPasswordPage() {
             <label htmlFor="recovery-email" className="block text-sm font-semibold mb-2">Correo electrónico</label>
             <input id="recovery-email" type="email" autoComplete="email" maxLength={254} required value={email}
               onChange={event => setEmail(event.target.value)} disabled={loading}
-              className="w-full border border-slate-300 rounded-md px-4 py-3 focus:outline-2 focus:outline-[#123f48] focus:outline-offset-2" placeholder="tu@correo.cl" />
+              className="w-full border border-slate-300 rounded-md px-4 py-3 focus:outline-2 focus:outline-[#0b3c75] focus:outline-offset-2" placeholder="tu@correo.cl" />
           </div>
-          <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 bg-[#123f48] text-white rounded-md py-3 font-semibold hover:bg-[#205865] disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-4 cursor-pointer disabled:cursor-wait">
+          <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 bg-[#0b3c75] text-white rounded-md py-3 font-semibold hover:bg-[#082e5b] disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-4 cursor-pointer disabled:cursor-wait">
             <Mail size={18} aria-hidden="true" />{loading ? 'Enviando solicitud…' : 'Enviar enlace de recuperación'}
           </button>
         </form>

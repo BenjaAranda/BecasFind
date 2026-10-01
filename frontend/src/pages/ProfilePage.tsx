@@ -8,8 +8,8 @@ import PublicNavbar from '../components/layout/PublicNavbar';
 import { Save, ArrowRight } from 'lucide-react';
 
 const initial = { rsh: '', nem: '', region: '', institution: '', career: '', firstYear: false, upperYear: false };
-const inputClass = 'w-full min-h-12 px-3 py-2 border border-[#b9cac8] rounded-sm bg-white text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#123f48]';
-const actionClass = 'min-h-12 px-5 py-3 bg-[#123f48] text-white rounded-sm hover:bg-[#1a525c] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#123f48] disabled:opacity-50';
+const inputClass = 'w-full min-h-12 px-3 py-2 border border-[#94a3b8] rounded-sm bg-white text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75]';
+const actionClass = 'min-h-12 px-5 py-3 bg-[#0b3c75] text-white rounded-sm hover:bg-[#082e5b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0b3c75] disabled:opacity-50';
 
 export default function ProfilePage() {
   const [form, setForm] = useState(initial);
@@ -66,28 +66,28 @@ export default function ProfilePage() {
     } finally { pending.current = false; setSaving(false); }
   };
 
-  return <div className="min-h-screen bg-[#f5f3ed] text-[#123f48]">
+  return <div className="min-h-screen bg-[#f8fafc] text-[#0b3c75]">
     <PublicNavbar />
     <main className="max-w-3xl mx-auto px-5 sm:px-8 py-10">
       <Link to="/explorar" className="inline-flex min-h-11 items-center text-sm underline underline-offset-4 focus-visible:outline-2">Volver al Buscador</Link>
-      <p className="mt-6 mb-3 text-xs uppercase tracking-[0.2em] text-[#46717a]">Tu punto de partida</p>
-      <h1 className="font-serif text-4xl sm:text-5xl mb-4">Mi Perfil Académico</h1>
+      <p className="mt-6 mb-3 text-xs uppercase tracking-[0.2em] text-[#375b80]">Tu punto de partida</p>
+      <h1 className="font-sans font-semibold text-4xl sm:text-5xl mb-4">Mi Perfil Académico</h1>
       <p className="text-slate-600 leading-relaxed mb-8">Las recomendaciones usan tu RSH, promedio NEM y región. Los campos son opcionales; dejar uno vacío omite ese criterio.</p>
       {loading ? <p role="status">Cargando tu perfil…</p> : loadError ? <div role="alert" className="border-l-2 border-red-700 bg-red-50 p-5 text-red-800"><p>{loadError}</p><button onClick={() => { setLoading(true); setRetry(value => value + 1); }} className="mt-3 min-h-11 underline focus-visible:outline-2">Reintentar</button></div> : <>
-        {success && <p role="status" className="mb-5 p-4 bg-[#e7eeea] border border-[#c5d5d0]">{success}</p>}
+        {success && <p role="status" className="mb-5 p-4 bg-[#eff6ff] border border-[#cbd5e1]">{success}</p>}
         {error && <p role="alert" className="mb-5 border-l-2 border-red-700 bg-red-50 p-4 text-red-800">{error}</p>}
-        <form onSubmit={handleSubmit} aria-busy={saving} className="bg-white border border-[#dce3df] p-5 sm:p-8">
+        <form onSubmit={handleSubmit} aria-busy={saving} className="bg-white border border-[#dbe3ed] p-5 sm:p-8">
           <fieldset disabled={saving} className="space-y-6 disabled:opacity-70">
-            <legend className="font-serif text-2xl mb-5">Datos para recomendar</legend>
+            <legend className="font-sans font-semibold text-2xl mb-5">Datos para recomendar</legend>
             <div className="grid sm:grid-cols-2 gap-5">
               <div><label htmlFor="profile-rsh" className="block text-sm mb-2">RSH (%)</label><input id="profile-rsh" type="number" min="0" max="100" step="1" value={form.rsh} onChange={e => change('rsh', e.target.value)} className={inputClass} placeholder="Ej: 60" aria-describedby="rsh-help" /><p id="rsh-help" className="text-xs text-slate-600 mt-2">Porcentaje de tu Registro Social de Hogares.</p></div>
               <div><label htmlFor="profile-nem" className="block text-sm mb-2">NEM Promedio</label><input id="profile-nem" type="number" min="1" max="7" step="0.1" value={form.nem} onChange={e => change('nem', e.target.value)} className={inputClass} placeholder="Ej: 5.5" aria-describedby="nem-help" /><p id="nem-help" className="text-xs text-slate-600 mt-2">Promedio de enseñanza media. Actualmente se admite un decimal.</p></div>
               <div className="sm:col-span-2"><label htmlFor="profile-region" className="block text-sm mb-2">Región</label><select id="profile-region" value={form.region} onChange={e => change('region', e.target.value)} className={inputClass}><option value="">Sin especificar</option>{regions.map(r => <option key={r.idRegion} value={r.idRegion}>{r.nombre}</option>)}</select></div>
             </div>
-            <div className="border-t border-[#dce3df] pt-6"><h2 className="font-serif text-2xl mb-3">Tu información académica</h2><p className="text-sm text-slate-600 mb-5">Puedes guardar estos datos como referencia. La recomendación actual no evalúa institución, carrera ni año de estudio.</p>
+            <div className="border-t border-[#dbe3ed] pt-6"><h2 className="font-sans font-semibold text-2xl mb-3">Tu información académica</h2><p className="text-sm text-slate-600 mb-5">Puedes guardar estos datos como referencia. La recomendación actual no evalúa institución, carrera ni año de estudio.</p>
               <div className="space-y-5"><div><label htmlFor="profile-institution" className="block text-sm mb-2">Institución</label><select id="profile-institution" value={form.institution} onChange={e => change('institution', e.target.value)} className={inputClass}><option value="">Sin especificar</option>{institutions.map(i => <option key={i.idInstitucion} value={i.idInstitucion}>{i.nombre}</option>)}</select></div>
               <div><label htmlFor="profile-career" className="block text-sm mb-2">Carrera de Interés</label><input id="profile-career" maxLength={255} value={form.career} onChange={e => change('career', e.target.value)} className={inputClass} placeholder="Ej: Ingeniería en Informática" /></div>
-              <div className="flex flex-col sm:flex-row flex-wrap gap-3"><label className="flex min-h-11 items-center gap-3 text-sm"><input type="checkbox" checked={form.firstYear} onChange={e => change('firstYear', e.target.checked)} className="w-5 h-5 accent-[#123f48]" />Estudiante de primer año</label><label className="flex min-h-11 items-center gap-3 text-sm"><input type="checkbox" checked={form.upperYear} onChange={e => change('upperYear', e.target.checked)} className="w-5 h-5 accent-[#123f48]" />Estudiante de curso superior</label></div></div>
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3"><label className="flex min-h-11 items-center gap-3 text-sm"><input type="checkbox" checked={form.firstYear} onChange={e => change('firstYear', e.target.checked)} className="w-5 h-5 accent-[#0b3c75]" />Estudiante de primer año</label><label className="flex min-h-11 items-center gap-3 text-sm"><input type="checkbox" checked={form.upperYear} onChange={e => change('upperYear', e.target.checked)} className="w-5 h-5 accent-[#0b3c75]" />Estudiante de curso superior</label></div></div>
             </div>
             <button type="submit" className={`${actionClass} inline-flex items-center gap-3`}><Save size={18} aria-hidden="true" />{saving ? 'Guardando...' : 'Guardar Perfil'}</button>
           </fieldset>
