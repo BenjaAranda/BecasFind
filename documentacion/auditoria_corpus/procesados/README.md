@@ -17,7 +17,7 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
-El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 197 revisadas parcialmente y 371 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
+El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 233 revisadas parcialmente y 335 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
 
 El lote ampliado aplicó doce correcciones parciales, manteniendo inactividad y preservando los restantes 561 registros. [Campos contrastados](correcciones_universidades_45.json), [candidatos revisados](lote_universidades_45.json) y [resultado/restauración local](CORRECCION_UNIVERSIDADES_45_LOCAL.json). La periodicidad de coberturas porcentuales permanece en el texto: el contrato estructurado solo acepta periodicidad para cobertura monetaria. Intervalos y topes no se convierten en porcentajes fijos. No repetir una corrección sobre registros posteriormente curados sin comparar sus cambios/versiones.
 
@@ -53,3 +53,6 @@ UMAG Mayor Puntaje: una corrección adicional de cobertura y fuente; 572 becas p
 
 
 Nuevo [lote de 45 candidatas de ocho universidades](../REVISION_OTRAS_UNIVERSIDADES_45.md): UAI 8; UNAP 6; UCSC 5; UCN 4; UCT 6; UCentral 4; UDLA 7; UTA 5. Ocho correcciones parciales inactivas; otras 565 becas locales idénticas. Conteo editorial vigente: 197 parciales y 371 sin revisión individual; 568 pendientes de confirmación completa.
+
+
+Lote de 36 candidatas: JUNAEB 4; UC 3; Santo Tomás 6; UAH 5; UBO 5; UCSH 5; USACH 3; UVM 5. Se aplicaron seis correcciones parciales a registros inactivos y se preservaron las otras 567 becas locales. Dos coincidencias existentes quedaron sin modificar. Avance: 233 revisiones parciales y 335 candidatas sin revisión individual; 568 pendientes de confirmación completa. Evidencia: documentacion/auditoria_corpus/procesados/CORRECCION_INSTITUCIONES_36_LOCAL.json.

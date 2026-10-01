@@ -1,0 +1,202 @@
+[
+  {
+    "candidato": "4090e29dc88efaefd5b86fbdd96983042c7bdefd71913a80822f40a81a9f2cd8",
+    "nombre": "Beca de Mantención Educación Superior",
+    "institucion": "JUNAEB",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/10453/1/pdf"
+    ],
+    "campos": {
+      "monto": "Aporte referencial de 207950 CLP en hasta 10 cuotas al año; solo renovación",
+      "url": "https://www.chileatiende.gob.cl/fichas/10453/1/pdf",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Solo renovación; importe referencial; cierre no confirmado. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "8decb7d44a5ab885e94c7a52a343e45c63bff37b304433e924821ab3cf750652",
+    "nombre": "Beca Indigena",
+    "institucion": "JUNAEB",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/2089"
+    ],
+    "campos": {
+      "monto": "654600 CLP para educación superior en hasta 10 cuotas",
+      "url": "https://www.chileatiende.gob.cl/fichas/2089",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "654600.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Ascendencia acreditada CONADI; postulación y renovación tienen umbrales diferentes. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759",
+    "nombre": "Beca Presidente de la Republica",
+    "institucion": "JUNAEB",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/2086/1/pdf"
+    ],
+    "campos": {
+      "monto": "12.4 UTM para educación superior en hasta 10 cuotas al año",
+      "url": "https://www.chileatiende.gob.cl/fichas/2086/1/pdf",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Solo renovación en educación superior; no se convierten UTM a pesos. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0",
+    "nombre": "Beca Hijos de Funcionarios",
+    "institucion": "Pontificia Universidad Católica de Chile",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/becas-de-arancel/beca-funcionario/"
+    ],
+    "campos": {
+      "monto": "Beneficio de arancel para hijos de funcionarios; porcentaje según condiciones laborales",
+      "url": "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/becas-de-arancel/beca-funcionario/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Beneficio económico distinto de admisión especial. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5",
+    "nombre": "Beca Deportiva Santo Tomas",
+    "institucion": "Santo Tomás",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-deportista-destacado/"
+    ],
+    "campos": {
+      "monto": "50 a 100 % del saldo pendiente tras aplicar becas de arancel externas",
+      "url": "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-deportista-destacado/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Evaluación deportiva y cupos por sede; FUAS 2026. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
+    "nombre": "Beca Deportiva UBO",
+    "institucion": "Universidad Bernardo O'Higgins",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://dae.ubo.cl/becas/becas-ubo/"
+    ],
+    "campos": {
+      "monto": "Beca anual para deportistas destacados; cobertura económica según evaluación",
+      "url": "https://dae.ubo.cl/becas/becas-ubo/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Representación institucional y evaluación deportiva. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade",
+    "nombre": "Beca Deportiva USACH",
+    "institucion": "Universidad de Santiago de Chile",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.admision.usach.cl/beneficios-estudiantiles"
+    ],
+    "campos": {
+      "monto": "Cobertura total o parcial del arancel real por mérito deportivo",
+      "url": "https://www.admision.usach.cl/beneficios-estudiantiles",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Independiente del cupo de ingreso Deportista Destacado. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  },
+  {
+    "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
+    "nombre": "Beca Deportiva UVM",
+    "institucion": "Universidad Viña del Mar",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.uvm.cl/deporte/"
+    ],
+    "campos": {
+      "monto": "Beneficio deportivo evaluado; cobertura económica no especificada",
+      "url": "https://www.uvm.cl/deporte/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Nuevos y antiguos con condiciones diferentes; currículo acreditado para nuevos. DOCUMENTOS REQUERIDOS: Lista completa pendiente."
+  }
+]

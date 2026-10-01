@@ -109,3 +109,8 @@ Seis modalidades USM y una UMAG recibieron correcciones parciales inactivas en d
 ## Ocho universidades: 45 revisiones parciales
 
 Se documentan 45 identidades nuevas; total 197 parciales y 371 sin revisión individual. Ocho recibieron correcciones de campos con fuentes oficiales; cero creaciones y errores; otras 565 becas idénticas. Base local 573. Respaldo restaurado antes de importar; respuestas públicas preservadas; porcentajes fijos precisos; fechas y umbrales desconocidos; sin activaciones. SHA del CSV aplicado y 93 originales verificados; UTF-8 sin BOM y sin mojibake detectado mediante PostgreSQL hex en nombres/descripciones. Diez pruebas de helpers y compile se ejecutan para esta entrega. No cambia código de aplicación; las matrices backend/frontend anteriores mantienen su alcance histórico. [Informe](auditoria_corpus/REVISION_OTRAS_UNIVERSIDADES_45.md) y [resultado](auditoria_corpus/procesados/CORRECCION_OTRAS_UNIVERSIDADES_45_LOCAL.json).
+
+
+Lote de 36 candidatas: JUNAEB 4; UC 3; Santo Tomás 6; UAH 5; UBO 5; UCSH 5; USACH 3; UVM 5. Se aplicaron seis correcciones parciales a registros inactivos y se preservaron las otras 567 becas locales. Dos coincidencias existentes quedaron sin modificar. Avance: 233 revisiones parciales y 335 candidatas sin revisión individual; 568 pendientes de confirmación completa. Evidencia: documentacion/auditoria_corpus/procesados/CORRECCION_INSTITUCIONES_36_LOCAL.json.
+
+Validación de este lote: diez pruebas Python aprobadas y Maven compile correcto con Java 17. Sin cambios al código de la aplicación; no se repitieron las suites completas. Los 93 CSV originales conservan su SHA-256; el CSV importado coincide con el hash de la evidencia.
