@@ -17,7 +17,7 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
-El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 103 revisadas parcialmente y 465 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 universidades](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
+El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 152 revisadas parcialmente y 416 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) y el [lote de 45 becas](../REVISION_UNIVERSIDADES_45.md). CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
 
 El lote ampliado aplicó doce correcciones parciales, manteniendo inactividad y preservando los restantes 561 registros. [Campos contrastados](correcciones_universidades_45.json), [candidatos revisados](lote_universidades_45.json) y [resultado/restauración local](CORRECCION_UNIVERSIDADES_45_LOCAL.json). La periodicidad de coberturas porcentuales permanece en el texto: el contrato estructurado solo acepta periodicidad para cobertura monetaria. Intervalos y topes no se convierten en porcentajes fijos. No repetir una corrección sobre registros posteriormente curados sin comparar sus cambios/versiones.
 
@@ -41,3 +41,6 @@ python infra/test-prepare-processed-corpus.py
 El helper usa biblioteca estándar, no descarga fuentes ni importa por sí mismo. Importar únicamente el archivo administrativo mediante el endpoint autenticado, después de respaldar y comprobar restauración. Las columnas opcionales aceptan `true`/`false`: `solo_crear=true` omite becas existentes; `estado_activa=false` permite conservar URL desconocida. Cualquier URL no vacía debe seguir siendo específica y válida. La ausencia de columnas mantiene la compatibilidad del importador anterior.
 
 Validación de esta entrega: 184 pruebas backend, 22 pruebas con PostgreSQL/DDL real, 220 casos Chromium/Firefox y diez recorridos de navegador con backend/PostgreSQL reales. Cuatro pruebas del helper, compile, package, lint y build aprobados. La segunda revisión independiente quedó sin ejecutar por límite de uso; los tres hallazgos requeridos de la primera se corrigieron y se cubrieron con pruebas. No hubo correo, despliegue ni fusión de main.
+
+
+Lote regional: [49 candidatos de diez universidades](../REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente; correcciones de campos y cierre editorial pendientes. En este lote no se modifica la base local ni se activan becas.

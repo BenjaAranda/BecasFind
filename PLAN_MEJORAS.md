@@ -6,7 +6,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Siguiente tarea
 
-**Conteo editorial vigente:** 568 becas únicas del corpus; 103 con revisión parcial y 465 sin revisión individual. Ninguna certificada íntegramente: 568 pendientes de cierre, aunque todas están incorporadas administrativamente. [Desglose de los 93 archivos](documentacion/auditoria_corpus/procesados/avance/README.md), [cada uno de los 647 registros](documentacion/auditoria_corpus/procesados/avance/por_registro.csv) y [por institución](documentacion/auditoria_corpus/procesados/avance/por_institucion.csv). El [lote ampliado](documentacion/auditoria_corpus/REVISION_UNIVERSIDADES_45.md) revisó 45 becas de siete universidades y corrigió parcialmente 12 registros inactivos; otros 561 idénticos. Base local: 573, sin activaciones.
+**Conteo editorial vigente:** 568 becas únicas del corpus; 152 con revisión parcial y 416 sin revisión individual. Ninguna certificada íntegramente: 568 pendientes de cierre, aunque todas están incorporadas administrativamente. [Desglose de los 93 archivos](documentacion/auditoria_corpus/procesados/avance/README.md), [cada uno de los 647 registros](documentacion/auditoria_corpus/procesados/avance/por_registro.csv) y [por institución](documentacion/auditoria_corpus/procesados/avance/por_institucion.csv). El [lote ampliado](documentacion/auditoria_corpus/REVISION_UNIVERSIDADES_45.md) revisó 45 becas de siete universidades y corrigió parcialmente 12 registros inactivos; otros 561 idénticos. Base local: 573, sin activaciones.
 
 **Continuar confirmación editorial del corpus incorporado.** Los 93 originales se conservan. Tras reparar 17 anomalías estructurales y recuperar seis identidades absorbidas por descripciones, hay 647 registros reconstruidos y 568 candidatos; base local de 573 becas. Las seis nuevas quedaron inactivas y los 567 registros anteriores idénticos. Siete UChile tienen correcciones parciales; ENAC/IPCHILE cuentan con revisión oficial parcial. Falta confirmar las demás fuentes y resolver 59 grupos de variantes. Evidencia: [recuperación](documentacion/auditoria_corpus/procesados/reparaciones/README.md). P09 ya está completado y no se reabre; P12–P14 siguen fuera del alcance.
 
@@ -144,3 +144,6 @@ P09 deja de ser pendiente externo. El envío local permanece deshabilitado; acti
 Evidencia y procedimiento: [histórico procesado](documentacion/auditoria_corpus/procesados/README.md). Los tres hallazgos requeridos de la primera revisión independiente se corrigieron; la segunda revisión no pudo ejecutarse por límite de uso. P12–P14 siguen fuera del alcance autorizado y sin iniciar.
 
 [Quality 36925713036](https://github.com/BenjaAranda/BecasFind/actions/runs/36925713036) aprobó backend, PostgreSQL y frontend para `4aee0e0`. El cierre posterior actualiza únicamente estados/documentación, sin cambios de aplicación.
+
+
+Lote regional: [49 candidatos de diez universidades](documentacion/auditoria_corpus/REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente; correcciones de campos y cierre editorial pendientes. En este lote no se modifica la base local ni se activan becas.
