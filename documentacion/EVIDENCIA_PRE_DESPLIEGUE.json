@@ -147,5 +147,24 @@
     "hibernateProdValidate": true,
     "usersPreservedOnStartup": true
   },
-  "mailRealDelivery": false
+  "mailRealDelivery": false,
+  "ci": {
+    "url": "https://github.com/BenjaAranda/BecasFind/actions/runs/36786469707",
+    "codeCommit": "19c751228bf5de5ab1600f296fa3475a2d6692e1",
+    "jobs": {
+      "backend": "success",
+      "postgres": "success",
+      "frontend": "success"
+    },
+    "h2Tests": 171,
+    "postgresTests": 40,
+    "browserTests": 210,
+    "jsGzip": 119068,
+    "cssGzip": 7478,
+    "lcpMedianDesktopMs": 80,
+    "lcpMedianMobileThrottledMs": 1016,
+    "clsMax": 0,
+    "searchP95Ms": 227.96,
+    "auditVulnerabilities": 0
+  }
 }

@@ -6,7 +6,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Siguiente tarea
 
-**P09 — prueba de correo real**, pendiente de cuenta/clave y remitente autorizado Resend y dirección del usuario. P06, P07, P08 y P11 local están verificados; P10 espera el resultado del pipeline GitHub de esta entrega. P12–P14 no se iniciarán: el usuario pidió terminar antes del despliegue. Evidencia: [calidad previa](documentacion/CALIDAD_PRE_DESPLIEGUE.md).
+**P09 — prueba de correo real** ([pasos de Resend](documentacion/RESEND.md)), pendiente de cuenta/clave y remitente autorizado Resend y dirección del usuario. P06, P07, P08 y P11 local están verificados; P10 verificado en GitHub con los tres jobs aprobados. P12–P14 no se iniciarán: el usuario pidió terminar antes del despliegue. Evidencia: [calidad previa](documentacion/CALIDAD_PRE_DESPLIEGUE.md).
 
 ## Hecho: no volver a abrir sin un hallazgo nuevo
 
@@ -25,7 +25,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Pendientes únicos y criterios de cierre
 
-P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el tratamiento seguro de desconocidos, no certifica que todo el histórico esté confirmado. P06/P07/P08 y P11 local completadas. P09 requiere configuración externa; P10 pendiente del resultado GitHub; P12–P14 fuera de esta entrega. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
+P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el tratamiento seguro de desconocidos, no certifica que todo el histórico esté confirmado. P06/P07/P08 y P11 local completadas. P09 requiere configuración externa; P10 completado y verificado en GitHub; P12–P14 fuera de esta entrega. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
 
 | ID | Trabajo pendiente | Cierre verificable y dependencias |
 |---|---|---|
@@ -38,7 +38,7 @@ P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el trat
 | P07 | COMPLETADO — Accesibilidad y compatibilidad global | Revisar teclado/foco/contraste/zoom 200 %, 360/390/768/1440 px y un segundo navegador en todos los flujos. Registrar defectos y evidencia de cierre; capturas parciales no cierran esta fila. |
 | P08 | COMPLETADO — Rendimiento de lectura y frontend | Medir peso/carga y búsqueda bajo volumen/carga documentados; fijar objetivos y corregir cuellos reales. LCP/CLS y p95 medidos con alcance y presupuestos documentados en la evidencia previa; resultados locales/sintéticos, no promesas de producción. Escrituras/batch se registran en P05. |
 | P09 | Correo real | Configurar clave Resend y remitente autorizado; verificar bandeja, enlace, caducidad, consumo único y login con contraseña nueva. Depende de configuración externa. La integración y el proveedor simulado ya existen. |
-| P10 | Pipeline de calidad en GitHub | Versionar workflows reproducibles para compilaciones/lint/pruebas apropiadas, secretos fuera del repo y fallo visible ante regresión. Workflow Quality versionado: backend, PostgreSQL y frontend, sin despliegue. Resultado GitHub de esta entrega por confirmar. |
+| P10 | COMPLETADO — pipeline de calidad en GitHub | Versionar workflows reproducibles para compilaciones/lint/pruebas apropiadas, secretos fuera del repo y fallo visible ante regresión. Workflow Quality versionado: backend, PostgreSQL y frontend, sin despliegue. Backend, PostgreSQL y frontend aprobados en la ejecución 36786469707, código 19c7512. |
 | P11 | COMPLETADO LOCAL — aplicar migraciones 002–005 | Identificar base/versión efectiva, respaldar y ensayar restauración; aplicar 002–005 antes del backend actualizado y comprobar datos/Hibernate validate. Local: PostgreSQL 17, respaldo restaurado, 001–005 aplicadas, campos originales de 14 tablas conservados y backend actualizado con validate. No existe destino validado; su instalación/migración es dependencia de P12. Guía: infra/COBERTURA_MONETARIA.md. |
 | P12 | Preparar vista previa Vercel + Oracle | Confirmar cuenta/capacidad/condiciones vigentes, validar Docker en arquitectura real y configurar prod, reinicio, persistencia, Nginx/HTTPS, BD privada, secretos, CORS y locale español. Vercel: raíz frontend, dist, API pública y rutas SPA. Depende de recursos externos y P11 (002–005) antes del nuevo backend; datos de prueba aislados. Dockerfile/vercel.json existentes no equivalen a despliegue validado. |
 | P13 | Operación en el destino | Probar copias/restauración, reinicio sin pérdida, rollback de aplicación y conservación de esquema/datos; documentar mantenimiento y diagnóstico. Depende de P12. Los ensayos PostgreSQL locales previos no verifican Oracle. |
@@ -90,8 +90,10 @@ Verificación final: 171 pruebas H2 aprobadas; PostgreSQL con CsvImportIntegrity
 - P07: 210 casos Chromium/Firefox aprobados sobre build; 12 comprobaciones de matriz/contraste repetidas tras corregir el enlace público administrativo. 11 rutas a 360/390/768/1440 px y reflujo simulado 200 %. Texto administrativo oscurecido; UUID en enlaces. Limitaciones de auditoría en CALIDAD_PRE_DESPLIEGUE.md.
 - P08: presupuestos de frontend aprobados (JS gzip ~120 kB, CSS ~7,6 kB; LCP local escritorio 120 ms/móvil limitado 1.312 ms; CLS 0). PostgreSQL 5.000 becas/4 lectores/80 muestras: p95 124,68 ms. Laboratorio local; no rendimiento de producción.
 - P09: el usuario confirmó que no tiene cuenta ni configuración Resend. Integración y proveedor simulado listos; no se ha enviado ni recibido correo real. Crear/verificar la cuenta y obtener clave/remitente/dirección es requisito externo.
-- P10: workflow Quality versionado y ejecutándose en GitHub; requiere confirmar los tres jobs antes de cerrar la fila.
+- P10: workflow Quality verificado en GitHub: [ejecución 36786469707](https://github.com/BenjaAranda/BecasFind/actions/runs/36786469707), código 19c7512. Backend, PostgreSQL y frontend aprobados: 171 H2, 40 PostgreSQL y 210 Chromium/Firefox; audit cero vulnerabilidades. Origen API explícito en CI y build rechaza configuración ausente/inválida.
 - P11: respaldo custom restaurado; 001–005 aplicadas localmente y campos originales de 14 tablas idénticos. Backend actualizado validado sin seeder. Respaldo privado fuera de Git. No se ha tocado Oracle.
 - Dependencias frontend actualizadas dentro del stack; React/ReactDOM 19.2.5 y Tailwind 4.3.0 conservados. npm audit: cero vulnerabilidades. 171 pruebas H2 y empaquetado aislado aprobados.
 
-**Pendientes antes de iniciar despliegue:** P09 (externo) y confirmación final de P10. P12/P13/P14 se mantienen sin iniciar; corpus histórico sin confirmar permanece en cuarentena según P04. No se ha fusionado main ni publicado una página.
+**Único pendiente antes de iniciar despliegue:** P09 (cuenta y entrega real de correo). P12/P13/P14 se mantienen sin iniciar; corpus histórico sin confirmar permanece en cuarentena según P04. No se ha fusionado main ni publicado una página.
+
+El runner local reproducible también pasó: Maven/H2, npm ci, lint, audit, build y 210 casos de navegador. Revisión independiente sin hallazgos requeridos pendientes. La actualización documental final registra la ejecución CI del código 19c7512; no agrega cambios de aplicación.
