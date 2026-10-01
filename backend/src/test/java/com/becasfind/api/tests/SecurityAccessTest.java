@@ -31,6 +31,18 @@ class SecurityAccessTest extends BaseTest {
         assertTrue(get("/api/becas/" + publicScholarshipId(1), null, Map.class).getStatusCodeValue() == 200);
     }
 
+    @Test void anonymousSearchUsesPublicIdsAndPrivateDataRemainsProtected() {
+        var response = post("/api/becas/buscar", null, Map.of("query", "Nuevo Milenio"), Map.class);
+        assertEquals(200, response.getStatusCode().value());
+        var rows = (java.util.List<?>) ((Map<?, ?>)response.getBody().get("data")).get("content");
+        assertEquals(1, rows.size());
+        assertEquals(publicScholarshipId(1), ((Map<?, ?>)rows.get(0)).get("idBeca"));
+        for (String path : java.util.List.of("/api/perfil", "/api/favoritos", "/api/becas/recomendadas", "/api/becas/administracion"))
+            assertEquals(401, get(path, null, Map.class).getStatusCode().value());
+        assertEquals(401, post("/api/becas", null, Map.of("nombre", "Sin permiso"), Map.class).getStatusCode().value());
+        assertEquals(401, delete("/api/becas/1", null).getStatusCode().value());
+    }
+
     @Test @DisplayName("CP-64: Cerrar sesion y verificar bloqueo")
     void logoutWorks() {
         var token = adminToken(); assertNotNull(token);

@@ -5,11 +5,11 @@ import { tmpdir } from 'node:os';
 test('portada anónima explica acceso y ofrece registro y login', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('estudiando');
-  await expect(page.getByText('Crea una cuenta o inicia sesión para usar el buscador y guardar favoritas.')).toBeVisible();
+  await expect(page.getByText('Explora gratis y sin cuenta. Inicia sesión solo para guardar tu perfil y favoritas o acceder como administrador.')).toBeVisible();
   await expect(page.locator('main')).not.toContainText('cientos de becas');
   await expect(page.locator('main')).not.toContainText('realmente puedes obtener');
-  await page.getByRole('link', { name: 'Crear mi cuenta' }).click();
-  await expect(page).toHaveURL(/\/register$/);
+  await page.getByRole('link', { name: 'Explorar becas', exact: true }).last().click();
+  await expect(page).toHaveURL(/\/explorar$/);
   await page.goto('/');
   await page.getByRole('link', { name: 'Ya tengo cuenta' }).click();
   await expect(page).toHaveURL(/\/login$/);
@@ -42,7 +42,7 @@ for (const width of [360, 390, 768, 1440]) {
   test(`portada a ${width}px conserva acciones y no desborda`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/');
-    await expect(page.getByRole('link', { name: 'Crear mi cuenta' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Explorar becas', exact: true }).last()).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.screenshot({ path: join(tmpdir(), `becasfind-landing-${width}.png`), fullPage: true });
   });

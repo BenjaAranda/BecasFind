@@ -97,3 +97,7 @@ Verificación final: 171 pruebas H2 aprobadas; PostgreSQL con CsvImportIntegrity
 **Único pendiente antes de iniciar despliegue:** P09 (cuenta y entrega real de correo). P12/P13/P14 se mantienen sin iniciar; corpus histórico sin confirmar permanece en cuarentena según P04. No se ha fusionado main ni publicado una página.
 
 El runner local reproducible también pasó: Maven/H2, npm ci, lint, audit, build y 210 casos de navegador. Revisión independiente sin hallazgos requeridos pendientes. La actualización documental final registra la ejecución CI del código 19c7512; no agrega cambios de aplicación.
+
+## Acceso público autorizado
+
+El buscador, filtros y detalle son gratuitos y no requieren cuenta. Perfil, favoritos, recomendaciones guardadas y administración requieren sesión. El visitante no solicita APIs privadas ni se redirige automáticamente al login. No se contrató ningún plan ni dominio. P09 conserva la configuración/entrega real pendiente y debe resolverse dentro del presupuesto cero; la navegación pública no depende de Resend.

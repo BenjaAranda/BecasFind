@@ -24,7 +24,7 @@ for (const width of [360,390,768,1440,720]) {
     });
     for (const path of routes) {
       await page.goto('/');
-      const publicRoute = ['/', '/login', '/register', '/forgot-password'].includes(path) || path.startsWith('/reset-password') || path.startsWith('/becas/');
+      const publicRoute = ['/', '/login', '/register', '/forgot-password', '/explorar'].includes(path) || path.startsWith('/reset-password') || path.startsWith('/becas/');
       await page.evaluate(value => value ? localStorage.setItem('token',value) : localStorage.removeItem('token'), publicRoute ? '' : token);
       await page.goto(path);
       await expect(page.locator('main')).toBeVisible();

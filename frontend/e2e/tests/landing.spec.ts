@@ -9,7 +9,7 @@ test('CP-60: Landing Page muestra hero, features y footer', async ({ page }) => 
   
   // Feature cards
   await expect(page.getByRole('heading', { name: 'Explora tus opciones', exact: true })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Crear mi cuenta', exact: true })).toHaveAttribute('href', '/register');
+  await expect(page.getByRole('link', { name: 'Explorar becas', exact: true }).last()).toHaveAttribute('href', '/explorar');
   
   // Navbar with public links
   await expect(page.locator('text=Ingresar').first()).toBeVisible();

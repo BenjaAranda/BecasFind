@@ -26,14 +26,7 @@ function App() {
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/becas/:id" element={<BecaDetailPage />} />
-          <Route
-            path="/explorar"
-            element={
-              <ProtectedRoute>
-                <SearchPage />
-              </ProtectedRoute>
-            }
-          />
+          <Route path="/explorar" element={<SearchPage />} />
           <Route
             path="/perfil"
             element={

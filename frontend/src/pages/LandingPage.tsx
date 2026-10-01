@@ -23,14 +23,14 @@ export default function LandingPage() {
             <h1 id="landing-title" className="font-serif text-5xl sm:text-6xl lg:text-7xl leading-[1.04] tracking-tight">Más caminos<br />para seguir<br /><span className="italic">estudiando.</span></h1>
             <p className="max-w-lg mt-7 text-base sm:text-lg leading-relaxed text-slate-600">Un lugar para explorar oportunidades educativas, comparar requisitos y organizar las becas que te interesan.</p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Link to={isAuthenticated ? '/explorar' : '/register'} className={`min-h-12 inline-flex items-center justify-between gap-6 bg-[#123f48] hover:bg-[#1a525c] text-white px-5 py-3 rounded-sm transition-colors ${focus}`}>
-                {isAuthenticated ? 'Explorar becas' : 'Crear mi cuenta'} <ArrowRight size={18} aria-hidden="true" />
+              <Link to="/explorar" className={`min-h-12 inline-flex items-center justify-between gap-6 bg-[#123f48] hover:bg-[#1a525c] text-white px-5 py-3 rounded-sm transition-colors ${focus}`}>
+                Explorar becas <ArrowRight size={18} aria-hidden="true" />
               </Link>
               <Link to={isAuthenticated ? '/perfil' : '/login'} className={`min-h-12 inline-flex items-center justify-center px-3 underline underline-offset-4 rounded-sm ${focus}`}>
                 {isAuthenticated ? 'Completar mi perfil' : 'Ya tengo cuenta'}
               </Link>
             </div>
-            <p className="mt-4 text-sm text-slate-600">{isAuthenticated ? 'Tus favoritas y tu perfil acompañan tu búsqueda.' : 'Crea una cuenta o inicia sesión para usar el buscador y guardar favoritas.'}</p>
+            <p className="mt-4 text-sm text-slate-600">{isAuthenticated ? 'Tus favoritas y tu perfil acompañan tu búsqueda.' : 'Explora gratis y sin cuenta. Inicia sesión solo para guardar tu perfil y favoritas o acceder como administrador.'}</p>
           </div>
           <div className="relative overflow-hidden bg-[#123f48] text-[#f5f3ed] p-7 sm:p-10 min-h-96 flex flex-col justify-between">
             <div aria-hidden="true" className="absolute w-72 h-72 border border-white/15 rounded-full -right-28 -top-24" />
@@ -66,7 +66,7 @@ export default function LandingPage() {
       </main>
       <footer className="border-t border-[#dce3df] max-w-7xl mx-auto px-5 sm:px-8 py-7 flex flex-col sm:flex-row justify-between gap-4 text-sm text-slate-600">
         <p>BecasFind · Oportunidades educativas en Chile</p>
-        <Link to={isAuthenticated ? '/explorar' : '/login'} className={`text-[#123f48] underline underline-offset-4 rounded-sm ${focus}`}>{isAuthenticated ? 'Ir al buscador' : 'Iniciar sesión'}</Link>
+        <Link to="/explorar" className={`text-[#123f48] underline underline-offset-4 rounded-sm ${focus}`}>Ir al buscador</Link>
       </footer>
     </div>
   );

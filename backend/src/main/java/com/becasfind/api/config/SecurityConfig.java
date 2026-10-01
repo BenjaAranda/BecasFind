@@ -65,6 +65,7 @@ public class SecurityConfig {
                                 writeSecurityError(response, 403, "No tienes permisos para acceder a este recurso")))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/becas/buscar").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/becas/administracion/**").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/recomendadas").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/**").permitAll()

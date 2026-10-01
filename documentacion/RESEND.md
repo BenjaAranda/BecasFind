@@ -2,6 +2,8 @@
 
 Resend entrega los correos transaccionales que permiten recuperar una contraseña de BecasFind. El backend ya construye el enlace de un uso, lo envía mediante su API y valida errores; el frontend permite solicitarlo y cambiar la contraseña. No se usa para almacenar las becas ni para alojar la web.
 
+Resend ofrece un plan Free; la aplicación debe permanecer en ese plan, sin activar sobrecostes ni contratar servicios. La navegación pública no depende del correo. Referencia: [plan gratuito](https://resend.com/pricing). No se autoriza comprar un dominio: el envío general debe resolverse dentro del presupuesto cero antes de habilitarlo.
+
 ## Primera prueba sin comprar un dominio
 
 1. Crear la cuenta en https://resend.com/signup con el correo propio y completar su verificación. El usuario debe introducir contraseña, OAuth/MFA y los códigos de verificación.

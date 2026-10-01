@@ -69,3 +69,7 @@ El audit inicial encontró once vulnerabilidades en frontend. Se actualizaron de
 El primer pipeline detectó que un build sin VITE_API_URL generaba rutas undefined/api. CI y el runner local ahora declaran un origen aislado para mocks, y Vite rechaza builds sin un origen HTTP(S) canónico (sin ruta, credenciales, query ni fragmento). No se relajaron las pruebas de login ni se agregaron reintentos.
 
 CI remoto aprobado: [Quality 36786469707](https://github.com/BenjaAranda/BecasFind/actions/runs/36786469707), código 19c7512. Tres jobs en verde; 171 H2, 40 PostgreSQL y 210 casos de navegador. Medidas de CI: JS gzip 119.068 bytes, CSS 7.478 bytes, LCP escritorio 80 ms/móvil limitado 1.016 ms, CLS 0; búsqueda p95 227,96 ms. Datos sintéticos en runner Ubuntu, no producción. Runner local y revisión independiente aprobados.
+
+## Acceso público sin cuenta
+
+Autorizado por el usuario: coste cero y búsqueda/detalle públicos. Solo POST /api/becas/buscar se añadió a la lista pública; las rutas privadas y las escrituras administrativas siguen protegidas. El frontend no carga favoritos ni recomendaciones guardadas para visitantes. Portada permite explorar directamente; los datos guardados y administración requieren sesión. Build/lint aprobados; 220 casos Chromium/Firefox y nueve recorridos PostgreSQL/backend prod aprobados, incluido visitante real. Diez pruebas backend de seguridad aprobadas y empaquetado aislado. Revisión independiente sin hallazgos requeridos. Ningún servicio contratado ni dominio comprado.

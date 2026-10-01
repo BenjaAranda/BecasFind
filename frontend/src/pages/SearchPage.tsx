@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { becaService } from '../services/becaService';
+import { useAuth } from '../context/useAuth';
 import { favoritoService } from '../services/favoritoService';
 import type { BecaSummary } from '../types';
 import SearchFilters from '../components/common/SearchFilters';
@@ -10,6 +11,7 @@ import PublicNavbar from '../components/layout/PublicNavbar';
 
 export default function SearchPage() {
   const navigate = useNavigate();
+  const { isAuthenticated } = useAuth();
   const [searchParams, setSearchParams] = useSearchParams();
 
   // La URL conserva filtros, pestaña y página al volver desde un detalle.
@@ -25,7 +27,7 @@ export default function SearchPage() {
   const page = Math.max(0, Number.parseInt(searchParams.get('page') || '0') || 0);
   const requestedSize = Number(searchParams.get('size') || 12);
   const pageSize = [12, 50, 100].includes(requestedSize) ? requestedSize : 12;
-  const tab = searchParams.get('mode') === 'recomendar' ? 'recomendar' : 'buscar';
+  const tab = isAuthenticated && searchParams.get('mode') === 'recomendar' ? 'recomendar' : 'buscar';
   const [becas, setBecas] = useState<BecaSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [totalElements, setTotalElements] = useState(0);
@@ -55,7 +57,7 @@ export default function SearchPage() {
         if (['rsh', 'nem', 'region', 'tipo', 'inst', 'cat'].some(key => params.has(key) && !Number.isFinite(number(key)))) {
           throw new Error('Filtro numérico no válido');
         }
-        const response = params.get('mode') === 'recomendar'
+        const response = isAuthenticated && params.get('mode') === 'recomendar'
           ? await becaService.recomendar(p, size, controller.signal)
           : await becaService.search({ rsh: number('rsh'), nem: number('nem'), regionId: number('region'),
             query: params.get('q') || undefined, idTipoBeca: number('tipo'), idInstitucion: number('inst'),
@@ -75,15 +77,16 @@ export default function SearchPage() {
       }
     }, delay);
     return () => { active = false; clearTimeout(timer); controller.abort(); };
-  }, [paramsKey, requestVersion]);
+  }, [paramsKey, requestVersion, isAuthenticated]);
 
   useEffect(() => {
+    if (!isAuthenticated) return;
     let active = true;
     favoritoService.listar().then(({ data }) => {
       if (active) setFavIds(new Set(data.data.map(b => b.idBeca)));
     }).catch(() => { /* La búsqueda sigue disponible si no se cargan favoritos. */ });
     return () => { active = false; };
-  }, []);
+  }, [isAuthenticated]);
 
   const updateParam = (key: string, value: string, immediate = false) => {
     urgent.current = immediate;
@@ -103,6 +106,7 @@ export default function SearchPage() {
   };
 
   const handleToggleFavorito = async (idBeca: string) => {
+    if (!isAuthenticated) { navigate('/login'); return; }
     if (pendingFavoriteIds.current.has(idBeca)) return;
     pendingFavoriteIds.current.add(idBeca);
     setPendingFavorites(new Set(pendingFavoriteIds.current));
@@ -138,6 +142,10 @@ export default function SearchPage() {
         <h1 className="font-serif text-4xl sm:text-5xl text-[#123f48] leading-tight">Tu próximo paso empieza aquí.</h1>
         <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">Explora becas y beneficios. Compara sus requisitos y consulta la convocatoria oficial antes de postular.</p>
       </div>
+      {!isAuthenticated && <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 text-sm text-[#123f48]">
+        <p>Explora gratis y sin cuenta. Inicia sesión como estudiante para guardar tu perfil y favoritos, o como administrador para gestionar BecasFind.</p>
+        <Link to="/login" className="inline-block mt-2 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2">Iniciar sesión para guardar mis datos o administrar</Link>
+      </div>}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex flex-col lg:flex-row gap-8">
         <aside className="lg:w-72 shrink-0">
           {tab === 'buscar' ? (
@@ -193,7 +201,7 @@ export default function SearchPage() {
               Buscador
             </button>
             <button
-              aria-pressed={tab === 'recomendar'} onClick={() => updateParam('mode', 'recomendar', true)}
+              aria-pressed={tab === 'recomendar'} onClick={() => isAuthenticated ? updateParam('mode', 'recomendar', true) : navigate('/login')}
               className={`flex-1 min-h-12 py-2 px-3 focus-visible:outline-2 focus-visible:outline-offset-2 text-sm rounded-md transition cursor-pointer ${tab === 'recomendar' ? 'bg-[#123f48] text-white font-medium' : 'text-slate-600 hover:bg-gray-100'}`}
             >
               <Sparkles className="w-4 h-4 inline mr-1" />
@@ -240,7 +248,7 @@ export default function SearchPage() {
                     onClick={(id) => navigate(`/becas/${id}`)}
                     isFavorito={favIds.has(beca.idBeca)}
                     favoritoPending={pendingFavorites.has(beca.idBeca)}
-                    onToggleFavorito={handleToggleFavorito}
+                    onToggleFavorito={isAuthenticated ? handleToggleFavorito : undefined}
                   />
                 ))}
               </div>

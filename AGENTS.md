@@ -8,6 +8,8 @@
 
 ## Decisiones autorizadas el 30 de septiembre de 2026
 
+- Acceso gratuito y sin sesión al buscador/detalle. Sesión solo para perfil/favoritos/recomendaciones guardadas y administración. No contratar planes ni comprar dominios sin autorización.
+
 - P06–P11 pueden ejecutarse secuencialmente por la petición «termina todas las tareas hasta antes del inicio del despliegue». P12–P14 no están autorizadas en esta entrega.
 - P01–P05 pueden ejecutarse secuencialmente en esta entrega por petición explícita del usuario.
 - Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
