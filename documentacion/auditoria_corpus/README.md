@@ -18,6 +18,8 @@ La verificación editorial por fuente y el enriquecimiento histórico continúan
 
 Avance editorial: [revisión de nueve registros Duoc UC/AIEP](REVISION_DUOC_AIEP.md). Se encontraron coberturas/requisitos históricos no respaldados y cierres sin confirmar. No se liberaron filas ni se alteró la base local. La revisión completa del corpus sigue pendiente.
 
+Segundo lote: [cinco registros MINEDUC](REVISION_MINEDUC.md), con calendario FUAS para ingreso 2027 y condiciones/coberturas contrastadas. Las dos modalidades Nuevo Milenio amplían la evidencia parcial existente. Se registran fechas oficiales contradictorias y documentos pendientes; no se libera ninguna fila ni se modifica el CSV previo de cobertura.
+
 El formato antiguo sigue válido. Columnas opcionales: `cobertura_tipo,cobertura_importe,cobertura_moneda,cobertura_periodicidad,cobertura_porcentaje`. Si se añade cualquier columna de cobertura, incluir `cobertura_tipo`; tipo vacío equivale a DESCONOCIDA y solo admite otros campos vacíos. MONETARIA requiere moneda ISO válida cuando hay importe; PORCENTUAL admite 0–100. Precisión de dos decimales, sin separadores de miles. No convertir UF/UTM/divisas.
 
 Omitir las columnas conserva metadatos cuando el texto original no cambia. DESCONOCIDA los elimina expresamente. La validación de todas las filas precede a las escrituras; cualquier error revierte el archivo completo. Fechas vacías permanecen nulas y no se consideran vigentes. La migración 004 permite cierres desconocidos sin alterar fechas históricas existentes.

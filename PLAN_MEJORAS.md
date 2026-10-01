@@ -12,7 +12,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 - [x] PostgreSQL acordado y contrato actualizado; perfiles dev/prod, secretos externos, UTF-8, esquema validado en producción y seeder restringido. Migraciones 001–005 aplicadas a la base local con respaldo/restauración y validación; el destino pertenece a P12.
 - [x] Autorización con cuenta/rol actuales, límites de intentos y CORS restringido. Recuperar contraseña invalida sesiones previas mediante marca HMAC; JWT sin hash ni contraseña.
-- [x] Recuperación con token de un uso, caducidad, bloqueo concurrente, API Resend y pantallas públicas. La entrega a una bandeja real corresponde exclusivamente a P09.
+- [x] Recuperación con token de un uso, caducidad, bloqueo concurrente, Gmail SMTP gratuito y pantallas públicas. Entrega real verificada en P09; Resend es alternativa opcional.
 - [x] Errores de controladores y autenticación/permisos estandarizados: ApiResponse, data:null, validaciones, códigos HTTP y cabeceras correspondientes.
 - [x] Validación backend de registro/login/reset, perfil y CRUD: límites de almacenamiento, 72 bytes UTF-8 en contraseñas, referencias, fechas y documentos. Formularios preservan datos y permiten reintentar.
 - [x] Reglas de búsqueda de vigencia/RSH/NEM/región/nacional, fechas de Chile, recomendaciones, orden estable, URL/debounce/paginación, respuestas antiguas y reintentos. Login/search antiguos reescritos con aserciones concretas.
@@ -25,7 +25,7 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Pendientes únicos y criterios de cierre
 
-P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el tratamiento seguro de desconocidos, no certifica que todo el histórico esté confirmado. P06/P07/P08 y P11 local completadas. P09 requiere configuración externa; P10 completado y verificado en GitHub; P12–P14 fuera de esta entrega. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
+P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el tratamiento seguro de desconocidos, no certifica que todo el histórico esté confirmado. P06–P10 y P11 local completadas; P12–P14 fuera de esta entrega. El pendiente previo al despliegue es completar la revisión editorial del catálogo que se quiera publicar. Los IDs permanecen estables aunque cambie el orden; cada entrega tiene una sola fila responsable. Una dependencia no significa que la tarea ya esté hecha.
 
 | ID | Trabajo pendiente | Cierre verificable y dependencias |
 |---|---|---|
@@ -46,9 +46,9 @@ P01–P05 están implementadas y verificadas. P04 cierra la auditoría y el trat
 
 ## Dependencias y decisiones
 
-- **Alcance de esta entrega:** P06–P11 autorizado conjuntamente. No iniciar P12–P14. P09 necesita configuración del usuario; se dejó una pregunta pendiente sin solicitar credenciales en el chat.
+- **Alcance de esta entrega:** P06–P11 autorizado conjuntamente y completado. Continuar revisión editorial; no iniciar P12–P14.
 - **Decisiones resueltas:** UUID públicos (P03), desconocidos sin inferencia (P04) y cobertura estructurada. No pedir nuevamente estas aprobaciones.
-- **Configuración externa:** P09 y recursos de P12; después P13/P14. P11 requiere la identificación de la base efectiva y un respaldo válido antes de aplicar.
+- **Configuración externa pendiente:** recursos y activación del correo en HTTPS en P12; después P13/P14. P11 local ya cuenta con respaldo/restauración y migraciones verificados.
 - **Fuera del alcance aprobado:** ampliar precisión NEM, convertir divisas/anualizar beneficios o añadir unidades indexadas como UF. No convertir ideas opcionales en bloqueantes ni en tareas obligatorias. NEM conserva un decimal; cobertura desconocida conserva texto.
 - Institución/carrera/año se guardan como referencias del perfil, pero no son criterios actuales de recomendación. Añadirlos sería una función nueva, no corregir una implementación pendiente.
 
@@ -94,13 +94,13 @@ Verificación final: 171 pruebas H2 aprobadas; PostgreSQL con CsvImportIntegrity
 - P11: respaldo custom restaurado; 001–005 aplicadas localmente y campos originales de 14 tablas idénticos. Backend actualizado validado sin seeder. Respaldo privado fuera de Git. No se ha tocado Oracle.
 - Dependencias frontend actualizadas dentro del stack; React/ReactDOM 19.2.5 y Tailwind 4.3.0 conservados. npm audit: cero vulnerabilidades. 171 pruebas H2 y empaquetado aislado aprobados.
 
-**Único pendiente antes de iniciar despliegue:** P09 (cuenta y entrega real de correo). P12/P13/P14 se mantienen sin iniciar; corpus histórico sin confirmar permanece en cuarentena según P04. No se ha fusionado main ni publicado una página.
+**Estado histórico anterior al cierre de P09:** faltaba cuenta y entrega real de correo, ahora completadas. El corpus histórico sin confirmar permanece en cuarentena según P04. P12/P13/P14 siguen sin iniciar; no se ha fusionado main ni publicado una página.
 
 El runner local reproducible también pasó: Maven/H2, npm ci, lint, audit, build y 210 casos de navegador. Revisión independiente sin hallazgos requeridos pendientes. La actualización documental final registra la ejecución CI del código 19c7512; no agrega cambios de aplicación.
 
 ## Acceso público autorizado
 
-El buscador, filtros y detalle son gratuitos y no requieren cuenta. Perfil, favoritos, recomendaciones guardadas y administración requieren sesión. El visitante no solicita APIs privadas ni se redirige automáticamente al login. No se contrató ningún plan ni dominio. P09 conserva la configuración/entrega real pendiente y debe resolverse dentro del presupuesto cero; la navegación pública no depende de Resend.
+El buscador, filtros y detalle son gratuitos y no requieren cuenta. Perfil, favoritos, recomendaciones guardadas y administración requieren sesión. El visitante no solicita APIs privadas ni se redirige automáticamente al login. No se contrató ningún plan ni dominio. P09 quedó resuelto mediante Gmail dentro del presupuesto cero; la navegación pública no depende de Resend.
 
 ## Corrección de identidad visual
 
@@ -110,9 +110,11 @@ Azul institucional y blanco restaurados en portada, navegación, buscador/detall
 
 Gmail SMTP gratuito y cuenta dedicada autorizados. Proveedor predeterminado Gmail; deshabilitado hasta completar la configuración externa. Resend queda como alternativa explícita, no como dependencia obligatoria. STARTTLS obligatorio, certificado verificado, timeouts de cinco segundos, remitente igual a la cuenta autenticada, enlace confiable y errores sanitizados. Siete pruebas nuevas Gmail, cinco Resend y seis de recuperación transaccional aprobadas, incluida negativa real contra SMTP local sin TLS; revisión independiente sin hallazgos requeridos. No se creó ninguna cuenta ni se envió correo externo. Lo histórico sobre Resend conserva su contexto y queda sustituido por esta decisión vigente.
 
-Pendientes reales antes de publicación: recepción por Gmail (P09), comprobación editorial por fuente para liberar corpus histórico en cuarentena y recursos/operación/publicación P12–P14. La corrección visual está cerrada; no reabrirla como tarea general salvo defectos nuevos. El despliegue sigue fuera del alcance de esta etapa.
+Pendientes reales antes de publicación: comprobación editorial por fuente para liberar corpus histórico en cuarentena y recursos/operación/publicación P12–P14. Gmail real (P09) y la corrección visual están cerrados; no reabrirlos como tareas generales salvo defectos nuevos. El despliegue sigue fuera del alcance de esta etapa.
 
 Avance editorial: nueve registros Duoc UC/AIEP contrastados con páginas oficiales; discrepancias de cobertura/requisitos y cierres sin confirmar documentadas en [revisión de fuentes](documentacion/auditoria_corpus/REVISION_DUOC_AIEP.md). No se liberaron filas ni se modificó la base local. Continúa pendiente la revisión completa; los registros visibles en desarrollo no equivalen a un catálogo certificado.
+
+Segundo lote editorial: cinco registros MINEDUC contrastados en [revisión MINEDUC](documentacion/auditoria_corpus/REVISION_MINEDUC.md). Calendario FUAS para ingreso 2027 confirmado, coberturas diferenciadas y fechas institucionales contradictorias documentadas. Las dos modalidades Nuevo Milenio amplían una revisión parcial previa, sin contar copias como registros adicionales. Ninguna fila liberada; completar bases/documentos y revisar las demás instituciones sigue pendiente.
 
 ## Cierre vigente de P09
 
