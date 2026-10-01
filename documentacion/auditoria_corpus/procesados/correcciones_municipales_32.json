@@ -1,0 +1,170 @@
+[
+  {
+    "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
+    "campos": {
+      "fecha_inicio": "2026-03-09",
+      "fecha_cierre": "2026-03-31",
+      "rsh_maximo": "90",
+      "url": "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula del postulante y grupo familiar por ambos lados; [OBLIGATORIO] Cartola RSH comunal vigente; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Bases Maipú te reconoce 2026. Promedios específicos por ingreso o continuidad; no NEM global. Importe desconocido. Antecedentes de renta; salud; cuidado y jefatura de hogar según corresponda. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula del postulante y grupo familiar por ambos lados; [OBLIGATORIO] Cartola RSH comunal vigente; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas según modalidad. Lista parcial; completar según modalidad.",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ]
+  },
+  {
+    "candidato": "cba9604bbe173774416f073734453a6047425a6a0da36aa75fcca3c921601e64",
+    "campos": {
+      "url": "https://loprado.cl/beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de la comuna; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas del último semestre o cuarto medio según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Formulario oficial 2026 cerrado; sin fecha exacta de cierre ni importe confirmado. Certificado de nacimiento de hijos y antecedentes médicos según corresponda. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de la comuna; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas del último semestre o cuarto medio según modalidad. Lista parcial; comprobar bases y requisitos completos.",
+    "fuentes": [
+      "https://loprado.cl/beca-municipal-de-educacion-superior-2026/"
+    ]
+  },
+  {
+    "candidato": "6f31a1a550c43152541abba7392ff8334ed5840449d1d71c826d354a19cfa66b",
+    "campos": {
+      "monto": "50000 CLP mensuales de marzo a diciembre",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "50000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "MENSUAL",
+      "fecha_cierre": "2026-03-13",
+      "url": "https://www.islademaipo.cl/wp-content/uploads/2026/02/Bases-Beca-Municipal-Nadia-Cubillos-Pacheco-2026.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Tarjeta CuentaRUT por ambos lados; [OBLIGATORIO] Certificado de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de matrícula o alumno regular vigente"
+    },
+    "limite": "Beca Nadia Cubillos Pacheco 2026. Retiro obligatorio de bases del 20 al 27 de febrero; recepción del 2 al 13 de marzo. No se resume el inicio global en una sola fecha. Reglas académicas y cupos de excelencia diferenciados; RSH y NEM globales desconocidos. Rendimientos y renta dependen del caso; beneficios adicionales requieren revisión. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Tarjeta CuentaRUT por ambos lados; [OBLIGATORIO] Certificado de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de matrícula o alumno regular vigente. Lista parcial; consultar bases completas antes de postular.",
+    "fuentes": [
+      "https://www.islademaipo.cl/wp-content/uploads/2026/02/Bases-Beca-Municipal-Nadia-Cubillos-Pacheco-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "6501ada7381928e9f2396ea5baa4bf078442e8981fc895734499d9139808421d",
+    "campos": {
+      "url": "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Certificado de alumno regular o matrícula con arancel anual; [OBLIGATORIO] Concentración de notas según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Beneficio de educación superior cerrado. RSH comunal y tarjeta de vecino con residencia permanente. Extranjeros presentan antecedente de residencia según corresponda. Notas difieren por modalidad; no inferir NEM. Importe y calendario con año explícito pendientes. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Certificado de alumno regular o matrícula con arancel anual; [OBLIGATORIO] Concentración de notas según modalidad. Lista parcial; verificar requisitos completos.",
+    "fuentes": [
+      "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/"
+    ]
+  },
+  {
+    "candidato": "8ab65568719a9608e437f36515de680a313dfdbd0d28d4b51f471736a02658f8",
+    "campos": {
+      "url": "https://loprado.cl/beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de la comuna; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas del último semestre o cuarto medio según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Formulario oficial 2026 cerrado; sin fecha exacta de cierre ni importe confirmado. Certificado de nacimiento de hijos y antecedentes médicos según corresponda. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de la comuna; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas del último semestre o cuarto medio según modalidad. Lista parcial; comprobar bases y requisitos completos.",
+    "fuentes": [
+      "https://loprado.cl/beca-municipal-de-educacion-superior-2026/"
+    ]
+  },
+  {
+    "candidato": "380be2915801e1b17c2fa14c28a351bab0e6576b0aad988c9f7e6879c28a62b6",
+    "campos": {
+      "monto": "50000 CLP mensuales de marzo a diciembre",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "50000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "MENSUAL",
+      "fecha_cierre": "2026-03-13",
+      "url": "https://www.islademaipo.cl/wp-content/uploads/2026/02/Bases-Beca-Municipal-Nadia-Cubillos-Pacheco-2026.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Tarjeta CuentaRUT por ambos lados; [OBLIGATORIO] Certificado de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de matrícula o alumno regular vigente"
+    },
+    "limite": "Beca Nadia Cubillos Pacheco 2026. Retiro obligatorio de bases del 20 al 27 de febrero; recepción del 2 al 13 de marzo. No se resume el inicio global en una sola fecha. Reglas académicas y cupos de excelencia diferenciados; RSH y NEM globales desconocidos. Rendimientos y renta dependen del caso; beneficios adicionales requieren revisión. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Tarjeta CuentaRUT por ambos lados; [OBLIGATORIO] Certificado de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de matrícula o alumno regular vigente. Lista parcial; consultar bases completas antes de postular.",
+    "fuentes": [
+      "https://www.islademaipo.cl/wp-content/uploads/2026/02/Bases-Beca-Municipal-Nadia-Cubillos-Pacheco-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "f3edd63a787ad1c010f0726016c24c9621cfe85f4cb657f26e8287131205f987",
+    "campos": {
+      "fecha_inicio": "2026-03-09",
+      "fecha_cierre": "2026-03-31",
+      "rsh_maximo": "90",
+      "url": "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula del postulante y grupo familiar por ambos lados; [OBLIGATORIO] Cartola RSH comunal vigente; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Bases Maipú te reconoce 2026. Promedios específicos por ingreso o continuidad; no NEM global. Importe desconocido. Antecedentes de renta; salud; cuidado y jefatura de hogar según corresponda. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula del postulante y grupo familiar por ambos lados; [OBLIGATORIO] Cartola RSH comunal vigente; [OBLIGATORIO] Certificado de alumno regular 2026; [OBLIGATORIO] Certificado de notas según modalidad. Lista parcial; completar según modalidad.",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ]
+  },
+  {
+    "candidato": "87d6aa970a561466fd44f04f7b7865cc9bd5fce4e881c859b56585a1dc72e6cc",
+    "campos": {
+      "url": "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Certificado de alumno regular o matrícula con arancel anual; [OBLIGATORIO] Concentración de notas según modalidad",
+      "monto": "Aporte de educación superior; importe no confirmado en la fuente 2026",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": ""
+    },
+    "limite": "Beneficio de educación superior cerrado. RSH comunal y tarjeta de vecino con residencia permanente. Extranjeros presentan antecedente de residencia según corresponda. Notas difieren por modalidad; no inferir NEM. Importe y calendario con año explícito pendientes. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Certificado de alumno regular o matrícula con arancel anual; [OBLIGATORIO] Concentración de notas según modalidad. Lista parcial; verificar requisitos completos.",
+    "fuentes": [
+      "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/"
+    ]
+  }
+]
