@@ -21,7 +21,9 @@ Las revisiones documentadas de [Duoc UC/AIEP](../REVISION_DUOC_AIEP.md), [MINEDU
 
 [Universidad de Chile](../REVISION_UCHILE.md) añade siete registros contrastados. [correcciones_uchile.json](correcciones_uchile.json) y su CSV aplicaron siete correcciones parciales al archivo local, manteniéndolo inactivo; los restantes 560 registros permanecieron idénticos. Resultado, hash y restauración previa en [CORRECCION_UCHILE_LOCAL.json](CORRECCION_UCHILE_LOCAL.json). Este CSV permite actualizar únicamente esos siete candidatos ya archivados; no repetirlo sobre registros posteriormente curados sin comparar primero la versión y sus cambios.
 
-Falta contrastar las demás identidades con fuentes oficiales específicas; resolver las 17 estructuras mal formadas y los 59 grupos de variantes; comprobar convocatoria, cierre, requisitos y documentos; y aplicar cada corrección de forma trazable. Una fuente ausente o inaccesible deja el dato pendiente, no prueba que el beneficio no exista. Los datos ya visibles en desarrollo tampoco equivalen a un catálogo editorial certificado.
+La [recuperación posterior](reparaciones/README.md) resolvió las 17 estructuras mal formadas: 23 filas reconstruidas recuperaron seis identidades de ENAC/IPCHILE. Inventario reconstruido: 647 registros/568 candidatos; base local: 573 becas. Las seis nuevas se crearon inactivas sin alterar las 567 anteriores. El índice inicial permanece como fotografía de la primera importación; la recuperación es su suplemento trazable.
+
+Falta contrastar las demás identidades con fuentes oficiales específicas y resolver los 59 grupos de variantes; comprobar convocatoria, cierre, requisitos y documentos; y aplicar cada corrección de forma trazable. Una fuente ausente o inaccesible deja el dato pendiente, no prueba que el beneficio no exista. Los datos ya visibles en desarrollo tampoco equivalen a un catálogo editorial certificado.
 
 Preparación reproducible desde la raíz:
 
