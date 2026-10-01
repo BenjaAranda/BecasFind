@@ -6,6 +6,8 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Siguiente tarea
 
+**Conteo editorial vigente:** 568 becas únicas del corpus; 58 con revisión parcial y 510 sin revisión individual. Ninguna certificada íntegramente: 568 pendientes de cierre, aunque todas están incorporadas administrativamente. [Desglose de los 93 archivos](documentacion/auditoria_corpus/procesados/avance/README.md), [cada uno de los 647 registros](documentacion/auditoria_corpus/procesados/avance/por_registro.csv) y [por institución](documentacion/auditoria_corpus/procesados/avance/por_institucion.csv). INACAP añade seis revisiones parciales; no se modificó la base en este lote.
+
 **Continuar confirmación editorial del corpus incorporado.** Los 93 originales se conservan. Tras reparar 17 anomalías estructurales y recuperar seis identidades absorbidas por descripciones, hay 647 registros reconstruidos y 568 candidatos; base local de 573 becas. Las seis nuevas quedaron inactivas y los 567 registros anteriores idénticos. Siete UChile tienen correcciones parciales; ENAC/IPCHILE cuentan con revisión oficial parcial. Falta confirmar las demás fuentes y resolver 59 grupos de variantes. Evidencia: [recuperación](documentacion/auditoria_corpus/procesados/reparaciones/README.md). P09 ya está completado y no se reabre; P12–P14 siguen fuera del alcance.
 
 ## Hecho: no volver a abrir sin un hallazgo nuevo

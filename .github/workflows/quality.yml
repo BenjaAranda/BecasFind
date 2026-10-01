@@ -27,6 +27,8 @@ jobs:
         run: python3 infra/test-prepare-processed-corpus.py
       - name: Reviewed malformed corpus recovery safeguards
         run: python3 infra/test-recover-malformed-corpus.py
+      - name: Editorial progress counting safeguards
+        run: python3 infra/test-report-corpus-progress.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:

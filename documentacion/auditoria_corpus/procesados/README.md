@@ -17,6 +17,8 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
+El [avance editorial vigente](avance/README.md) reconstruye los 647 registros de los 93 archivos y cuenta 568 becas únicas: 58 revisadas parcialmente y 510 sin revisión individual; todas pendientes de confirmación completa. Incluye [INACAP](../REVISION_INACAP.md) con seis registros contrastados parcialmente. CSV por archivo, institución y registro permiten consultar pendientes sin sumar duplicados. La relación [revisiones_parciales.csv](revisiones_parciales.csv) identifica exactamente qué candidato tiene informe; acceder a una URL no lo marca revisado automáticamente.
+
 [Santiago/La Serena](../REVISION_SANTIAGO_LASERENA.md): cuatro grupos contrastados parcialmente. La cobertura 2026 de un candidato de Santiago se corrigió a un aporte único de $450.000 CLP, manteniéndolo inactivo y sin alterar los otros 572 registros. Campos/fuentes en [correccion_santiago.json](correccion_santiago.json); aplicación y respaldo restaurado en [CORRECCION_SANTIAGO_LOCAL.json](CORRECCION_SANTIAGO_LOCAL.json). No repetir el CSV de corrección sobre datos posteriormente curados sin comparar versiones. Los 59 grupos requieren todavía cierre editorial completo.
 
 Las revisiones documentadas de [Duoc UC/AIEP](../REVISION_DUOC_AIEP.md), [MINEDUC](../REVISION_MINEDUC.md), [Universidad de Talca](../REVISION_UTALCA.md) y [Universidad de los Andes](../REVISION_UANDES.md) son parciales. Registran referencias específicas, coberturas diferenciadas y contradicciones de calendarios. Ninguna constituye confirmación completa para publicar todos los candidatos.
