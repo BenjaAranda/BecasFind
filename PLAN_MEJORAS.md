@@ -116,6 +116,8 @@ Avance editorial: nueve registros Duoc UC/AIEP contrastados con páginas oficial
 
 Segundo lote editorial: cinco registros MINEDUC contrastados en [revisión MINEDUC](documentacion/auditoria_corpus/REVISION_MINEDUC.md). Calendario FUAS para ingreso 2027 confirmado, coberturas diferenciadas y fechas institucionales contradictorias documentadas. Las dos modalidades Nuevo Milenio amplían una revisión parcial previa, sin contar copias como registros adicionales. Ninguna fila liberada; completar bases/documentos y revisar las demás instituciones sigue pendiente.
 
+Tercer lote editorial: [Universidad de Talca](documentacion/auditoria_corpus/REVISION_UTALCA.md), diez filas correspondientes a siete beneficios; tres pares candidatos a duplicado documentados con archivo/registro. Coberturas alternativas y unidades indexadas conservadas como texto; fechas/documentos sin confirmar. Pendiente por lote: obtener bases/calendario, comparar originales y preparar correcciones trazables. Ninguna fila liberada ni fusionada; continuar las demás instituciones.
+
 ## Cierre vigente de P09
 
 El titular autorizó usar Gmail para la recuperación. Autenticación SMTP e IMAP con contraseña de aplicación verificada; dos mensajes recibidos sin marcar como leídos. Prueba sobre PostgreSQL temporal: rechazo de enlace vencido con fecha forzada al pasado, cambio de contraseña, login nuevo, rechazo de reutilización y de sesión previa. No cambió la contraseña de una cuenta real. Runner reproducible: infra/verify-gmail-delivery.py; solo ejecutar con autorización para enviar dos mensajes al titular. SMTP exige TLS/certificado y los logs/resultados públicos no incluyen claves, dirección, contraseñas ni tokens. backend/.env está ignorado por Git y restringido mediante ACL al usuario/SYSTEM.
