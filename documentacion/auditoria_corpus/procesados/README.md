@@ -17,6 +17,8 @@ Se repararon de manera reversible identidades con doble codificación y algunas 
 
 ## Revisión oficial y pendientes
 
+[Santiago/La Serena](../REVISION_SANTIAGO_LASERENA.md): cuatro grupos contrastados parcialmente. La cobertura 2026 de un candidato de Santiago se corrigió a un aporte único de $450.000 CLP, manteniéndolo inactivo y sin alterar los otros 572 registros. Campos/fuentes en [correccion_santiago.json](correccion_santiago.json); aplicación y respaldo restaurado en [CORRECCION_SANTIAGO_LOCAL.json](CORRECCION_SANTIAGO_LOCAL.json). No repetir el CSV de corrección sobre datos posteriormente curados sin comparar versiones. Los 59 grupos requieren todavía cierre editorial completo.
+
 Las revisiones documentadas de [Duoc UC/AIEP](../REVISION_DUOC_AIEP.md), [MINEDUC](../REVISION_MINEDUC.md), [Universidad de Talca](../REVISION_UTALCA.md) y [Universidad de los Andes](../REVISION_UANDES.md) son parciales. Registran referencias específicas, coberturas diferenciadas y contradicciones de calendarios. Ninguna constituye confirmación completa para publicar todos los candidatos.
 
 [Universidad de Chile](../REVISION_UCHILE.md) añade siete registros contrastados. [correcciones_uchile.json](correcciones_uchile.json) y su CSV aplicaron siete correcciones parciales al archivo local, manteniéndolo inactivo; los restantes 560 registros permanecieron idénticos. Resultado, hash y restauración previa en [CORRECCION_UCHILE_LOCAL.json](CORRECCION_UCHILE_LOCAL.json). Este CSV permite actualizar únicamente esos siete candidatos ya archivados; no repetirlo sobre registros posteriormente curados sin comparar primero la versión y sus cambios.

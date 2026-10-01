@@ -10,6 +10,8 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 ## Hecho: no volver a abrir sin un hallazgo nuevo
 
+- [x] Santiago/La Serena: cuatro grupos de variantes (13 referencias) contrastados parcialmente. Un registro de Santiago corregido con aporte único de $450.000 CLP para 2026, sin activarlo; otros 572 preservados. Los 59 grupos siguen pendientes de cierre editorial completo, incluidos estos cuatro. [Evidencia](documentacion/auditoria_corpus/REVISION_SANTIAGO_LASERENA.md).
+
 - [x] PostgreSQL acordado y contrato actualizado; perfiles dev/prod, secretos externos, UTF-8, esquema validado en producción y seeder restringido. Migraciones 001–005 aplicadas a la base local con respaldo/restauración y validación; el destino pertenece a P12.
 - [x] Autorización con cuenta/rol actuales, límites de intentos y CORS restringido. Recuperar contraseña invalida sesiones previas mediante marca HMAC; JWT sin hash ni contraseña.
 - [x] Recuperación con token de un uso, caducidad, bloqueo concurrente, Gmail SMTP gratuito y pantallas públicas. Entrega real verificada en P09; Resend es alternativa opcional.
