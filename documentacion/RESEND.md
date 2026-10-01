@@ -1,5 +1,7 @@
 # Resend: configuración pendiente del usuario
 
+La opción vigente acordada es [Gmail gratuito con una cuenta dedicada](GMAIL.md). Esta guía conserva Resend como alternativa explícita; no es un requisito para navegar ni para desplegar la opción Gmail. Para usar Resend hay que configurar `RESET_EMAIL_PROVIDER=resend` además de sus variables.
+
 Resend entrega los correos transaccionales que permiten recuperar una contraseña de BecasFind. El backend ya construye el enlace de un uso, lo envía mediante su API y valida errores; el frontend permite solicitarlo y cambiar la contraseña. No se usa para almacenar las becas ni para alojar la web.
 
 Resend ofrece un plan Free; la aplicación debe permanecer en ese plan, sin activar sobrecostes ni contratar servicios. La navegación pública no depende del correo. Referencia: [plan gratuito](https://resend.com/pricing). No se autoriza comprar un dominio: el envío general debe resolverse dentro del presupuesto cero antes de habilitarlo.

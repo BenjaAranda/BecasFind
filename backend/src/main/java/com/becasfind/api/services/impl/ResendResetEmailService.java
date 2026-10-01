@@ -3,10 +3,11 @@ package com.becasfind.api.services.impl;
 import com.becasfind.api.exceptions.BusinessException;
 import com.becasfind.api.exceptions.EmailDeliveryException;
 import com.becasfind.api.services.ResetEmailService;
+import com.becasfind.api.utils.PasswordResetEmail;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
-import org.springframework.core.env.Profiles;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +23,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @Service
+@ConditionalOnProperty(name = "RESET_EMAIL_PROVIDER", havingValue = "resend")
 public class ResendResetEmailService implements ResetEmailService {
     private final ObjectMapper mapper;
     private final HttpClient client;
@@ -36,7 +38,7 @@ public class ResendResetEmailService implements ResetEmailService {
         this(mapper, HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(5)).build(),
                 environment.getProperty("RESET_EMAIL_ENABLED", Boolean.class, false),
                 environment.getProperty("RESEND_API_KEY", ""), environment.getProperty("RESET_EMAIL_FROM", ""),
-                frontendUrl(environment), URI.create("https://api.resend.com/emails"));
+                PasswordResetEmail.frontendUrl(environment), URI.create("https://api.resend.com/emails"));
     }
 
     // Endpoint sustituible únicamente desde pruebas locales, nunca mediante variables externas.
@@ -55,20 +57,6 @@ public class ResendResetEmailService implements ResetEmailService {
         }
     }
 
-    private static URI frontendUrl(Environment environment) {
-        if (!environment.getProperty("RESET_EMAIL_ENABLED", Boolean.class, false)) return URI.create("https://localhost");
-        URI uri = URI.create(environment.getProperty("FRONTEND_URL", ""));
-        boolean localDev = environment.acceptsProfiles(Profiles.of("dev & !prod"))
-                && "http".equals(uri.getScheme())
-                && List.of("localhost", "127.0.0.1").contains(uri.getHost());
-        if (!("https".equals(uri.getScheme()) || localDev) || uri.getHost() == null
-                || uri.getUserInfo() != null || uri.getQuery() != null || uri.getFragment() != null
-                || !(uri.getPath().isEmpty() || "/".equals(uri.getPath()))) {
-            throw new IllegalArgumentException("FRONTEND_URL debe ser un origen HTTPS; HTTP local solo está permitido en dev");
-        }
-        return uri;
-    }
-
     @Override
     public void requireConfigured() {
         if (!enabled) throw new BusinessException(
@@ -79,13 +67,10 @@ public class ResendResetEmailService implements ResetEmailService {
     public void sendPasswordReset(String email, String token) {
         requireConfigured();
         String safeToken = UUID.fromString(token).toString();
-        String link = frontend.resolve("/reset-password").toString() + "#token=" + safeToken;
-        String text = "Recupera tu acceso a BecasFind\n\nAbre este enlace para crear una nueva contraseña:\n"
-                + link + "\n\nEl enlace vence en 15 minutos y solo puede usarse una vez. "
-                + "Si no solicitaste este cambio, ignora este correo. Tu contraseña seguirá siendo la misma.";
+        String text = PasswordResetEmail.text(frontend, safeToken);
         try {
             String body = mapper.writeValueAsString(Map.of("from", from, "to", List.of(email),
-                    "subject", "Recupera tu contraseña de BecasFind", "text", text));
+                    "subject", PasswordResetEmail.SUBJECT, "text", text));
             HttpRequest request = HttpRequest.newBuilder(endpoint).timeout(Duration.ofSeconds(10))
                     .header("Authorization", "Bearer " + apiKey)
                     .header("Content-Type", "application/json; charset=UTF-8")

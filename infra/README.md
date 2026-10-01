@@ -51,13 +51,16 @@ Para repetir la comprobación PostgreSQL de concurrencia, usar `infra/verify-sch
 
 ## Recuperación por correo — configuración pendiente
 
-Se integra [Resend por su API HTTP](https://resend.com/docs/api-reference/emails/send-email) usando HttpClient de Java 17 y Jackson existentes, sin SDK ni dependencias nuevas. Variables exclusivas del backend:
+La opción acordada es Gmail SMTP gratuito mediante Spring Boot Mail. Pasos del usuario y límites: [GMAIL.md](../documentacion/GMAIL.md). Resend se conserva como alternativa explícita mediante HttpClient/Jackson existentes. Variables exclusivas del backend:
 
 | Variable | Configuración |
 |---|---|
 | RESET_EMAIL_ENABLED | false por defecto; true habilita el envío |
+| RESET_EMAIL_PROVIDER | gmail por defecto; resend selecciona la alternativa |
+| GMAIL_USERNAME | Cuenta Gmail dedicada; será también el remitente |
+| GMAIL_APP_PASSWORD | Contraseña de aplicación de 16 caracteres; nunca la contraseña normal ni una variable VITE_* |
 | RESEND_API_KEY | Clave privada con permiso para enviar; nunca usar una variable VITE_* |
-| RESET_EMAIL_FROM | Remitente autorizado en la cuenta del proveedor |
+| RESET_EMAIL_FROM | Solo Resend: remitente autorizado en la cuenta del proveedor |
 | FRONTEND_URL | Origen del frontend, sin rutas, query ni fragmentos; HTTPS obligatorio fuera de dev |
 
 En dev se acepta HTTP en localhost/127.0.0.1; producción exige HTTPS. Al habilitar el envío con configuración incompleta, el arranque falla sin imprimir secretos. Si permanece deshabilitado, la solicitud devuelve 503 tanto para cuentas existentes como inexistentes, sin generar enlaces inútiles. Las plantillas `.env.example` no contienen credenciales.
