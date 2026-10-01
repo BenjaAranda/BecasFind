@@ -147,3 +147,9 @@ Evidencia y procedimiento: [histórico procesado](documentacion/auditoria_corpus
 
 
 Lote regional: [49 candidatos de diez universidades](documentacion/auditoria_corpus/REVISION_REGIONALES_49.md). Contraste inicial registrado individualmente. Correcciones posteriores aplicadas a cinco registros inactivos; otros 568 iguales. Cierres y certificación completa pendientes. Evidencia: [resultado local](documentacion/auditoria_corpus/procesados/CORRECCION_REGIONALES_49_LOCAL.json).
+
+
+USM: seis modalidades del lote regional recibieron correcciones de cobertura y fuente. Siguen inactivas y parcialmente revisadas; las otras 567 becas locales permanecen idénticas. [Evidencia de importación](documentacion/auditoria_corpus/procesados/CORRECCION_USM_6_LOCAL.json). El conteo de revisión individual no aumenta: estos seis candidatos ya forman parte de los 152 parciales.
+
+
+UMAG Mayor Puntaje: una corrección adicional de cobertura y fuente; 572 becas preservadas. [Resultado](documentacion/auditoria_corpus/procesados/CORRECCION_UMAG_PAES_LOCAL.json). El nombre genérico Excelencia sigue sin identidad institucional confirmada; una ficha estatal histórica no certifica una beca interna. Total de correcciones parciales en el lote regional: 12 de 49; todas sin activación.

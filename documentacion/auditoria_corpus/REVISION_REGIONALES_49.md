@@ -29,6 +29,18 @@ La primera importación se rechazó completa por dos URLs oficiales de UMAG cuyo
 
 ## Registro individual
 
+### Corrección posterior de las seis modalidades USM
+
+Se contrastó la [ficha oficial de admisión 2026](https://website.usm.cl/admision/becas/) mediante el contenido recuperado por el buscador. Las recargas directas de ambos hosts tuvieron timeout; no se afirma que estuvieran disponibles durante esta verificación. [Campos y fuentes](procesados/correcciones_usm_6.json), [CSV aplicado](procesados/correcciones_usm_6.csv), [resultado local](procesados/CORRECCION_USM_6_LOCAL.json).
+
+Se corrigieron seis registros inactivos. Los otros 567 permanecieron idénticos; respaldo restaurado y respuestas públicas conservadas. Ninguna fecha ni umbral socioeconómico fue inferido. Máximos y alternativas conservan cobertura estructurada desconocida; solo porcentajes fijos se representan como 100.00. Los requisitos de renovación no se convierten en NEM. Documentos y cierre completos siguen pendientes. Las filas históricas que siguen describen el contraste inicial; esta corrección amplía las seis filas USM sin certificarlas completamente.
+
+### Mayor Puntaje y Excelencia UMAG
+
+La [ficha Mayor Puntaje](https://admision.umag.cl/?page_id=4099) permite delimitar duración y criterios PAES; no declara porcentaje fijo. Se corrigió ese candidato inactivo sin tocar las otras 572 becas. [Campos](procesados/correccion_umag_paes.json) y [resultado local](procesados/CORRECCION_UMAG_PAES_LOCAL.json). Cierre y documentos siguen pendientes.
+
+La búsqueda de «Excelencia Académica UMAG» devuelve una [página de beneficios estatales](https://admision.umag.cl/?page_id=653) con referencias históricas a PDT y cohortes antiguas. No prueba una beca institucional independiente vigente. Se mantiene el candidato histórico sin fusionarlo con la beca ministerial ni trasladar importes o umbrales antiguos. Su identidad institucional sigue pendiente.
+
 | Candidato | Nombre histórico | Contraste y pendiente |
 |---|---|---|
 | `8b7291409cb313971ff5ef8b6505394ba190caf70d9f4704d86333736393c735` | Beca de Excelencia Académica PUCV | Confirmar si corresponde a mantención por excelencia; no asumir rebaja de arancel. |
