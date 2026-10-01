@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 1 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 330 tienen revisión parcial documentada y 238 no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan 568 por cerrar, incluidas las revisadas parcialmente.
+Inventario reconstruido al 1 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 362 tienen revisión parcial documentada y 206 no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan 568 por cerrar, incluidas las revisadas parcialmente.
 
 La incorporación administrativa está terminada. «Pendiente» aquí significa confirmar identidad, convocatoria, requisitos, documentos y cobertura antes de publicar; no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -59,12 +59,12 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uv.csv | 4 | 4 | 4 | 0 | 4 |
 | becas_uvm.csv | 4 | 4 | 4 | 0 | 4 |
 | bloque10_muni.csv | 10 | 10 | 10 | 0 | 10 |
-| bloque11_muni.csv | 10 | 10 | 6 | 4 | 10 |
-| bloque12_muni.csv | 10 | 10 | 5 | 5 | 10 |
-| bloque13_muni.csv | 10 | 10 | 3 | 7 | 10 |
-| bloque14_muni.csv | 10 | 10 | 2 | 8 | 10 |
-| bloque15_muni.csv | 10 | 10 | 3 | 7 | 10 |
-| bloque16_muni.csv | 10 | 10 | 0 | 10 | 10 |
+| bloque11_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque12_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque13_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque14_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque15_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque16_muni.csv | 10 | 10 | 1 | 9 | 10 |
 | bloque17_muni.csv | 10 | 10 | 3 | 7 | 10 |
 | bloque18_muni.csv | 10 | 10 | 3 | 7 | 10 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 10 |
@@ -83,9 +83,9 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque32_muni.csv | 10 | 10 | 0 | 10 | 10 |
 | bloque33_muni.csv | 10 | 10 | 0 | 10 | 10 |
 | bloque34_muni.csv | 10 | 10 | 6 | 4 | 10 |
-| bloque35_muni.csv | 10 | 10 | 3 | 7 | 10 |
-| bloque36_muni.csv | 10 | 10 | 5 | 5 | 10 |
-| bloque37_muni.csv | 10 | 10 | 8 | 2 | 10 |
+| bloque35_muni.csv | 10 | 10 | 4 | 6 | 10 |
+| bloque36_muni.csv | 10 | 10 | 8 | 2 | 10 |
+| bloque37_muni.csv | 10 | 10 | 9 | 1 | 10 |
 | bloque38_muni.csv | 9 | 9 | 0 | 9 | 9 |
 | bloque5_docs.csv | 15 | 15 | 15 | 0 | 15 |
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 3 |
