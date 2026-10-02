@@ -1,0 +1,3352 @@
+[
+  {
+    "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Cubre el 100% del arancel del primer ano para el mejor puntaje PAES de cada carrera con NEM 6.4 y PAES 900 puntos.",
+          "descripcion_larga": "Distincion Excelencia Academica de la UCN que premia al estudiante con el mejor Puntaje Promedio PAES (Competencia Lectora y Matematica M1) de cada carrera. Requiere PAES promedio 900 puntos y NEM 6.4. Otorga automaticamente al cumplir requisitos. Cubre Arancel de Carrera del primer ano. Estudiantes con Gratuidad o becas estatales reciben solo reconocimiento publico sin duplicar beneficio. Debe haber egresado de ensenanza media en la promocion 2026.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad CatÃ³lica del Norte",
+          "monto": "100% arancel primer ano",
+          "nem_minimo": "6.4",
+          "nombre": "Distincion Excelencia Academica UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Cubre 100% del arancel del primer ano para el mejor puntaje PAES de cada carrera.",
+          "descripcion_larga": "Distincion Excelencia Academica UCN. Cubre arancel completo del primer ano para el mejor PAES. NEM 6.4 y PAES 900 puntos.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE; [OBLIGATORIO] Certificado de Concentracion de Notas (NEM) Mineduc",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Católica del Norte",
+          "monto": "100% arancel primer ano",
+          "nem_minimo": "6.4",
+          "nombre": "Distincion Excelencia Academica UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion"
+    ]
+  },
+  {
+    "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uft.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento del 25% del arancel para deportistas que representen a la UFT.",
+          "descripcion_larga": "Beca Deportiva UFT con 25% de descuento para estudiantes de selecciones deportivas oficiales. Documentos: certificacion deportiva. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Finis Terrae",
+          "monto": "25% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UFT",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.finis.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Beca para deportistas UFT.",
+          "descripcion_larga": "Beca Deportiva UFT.",
+          "documentos_requeridos": "[OBLIGATORIO] Documentacion oficial y vigente del IND o Federacion que acredite calidad de seleccionado nacional o regional; [OBLIGATORIO] Evaluacion tecnica aprobada por DAE UFT",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Finis Terrae",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UFT",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.uft.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque35_muni.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Beca DIDECO San Antonio. 2 anos residencia. Sin rendiciones pendientes.",
+          "descripcion_larga": "Monto segun presupuesto anual DIDECO priorizando mayor vulnerabilidad. Bases primera semana marzo. Domicilio minimo 2 anos. Promedio 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado historico de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular vigente",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de San Antonio",
+          "monto": "Monto de libre disposicion segun presupuesto DIDECO",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior San Antonio",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.sanantonio.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca DIDECO San Antonio de $120.000 anuales.",
+          "descripcion_larga": "Aporte fijo anual de $120.000 establecido por decreto de DIDECO. Postulacion entre quincena de marzo y primera quincena de abril. Requisitos: RSH hasta el 60%. NEM minimo 5.0. Residencia en San Antonio.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH con domicilio en la comuna; [OBLIGATORIO] Concentracion de notas; [OBLIGATORIO] Certificado de alumno regular",
+          "fecha_cierre": "2026-04-15",
+          "fecha_inicio": "2026-03-15",
+          "institucion": "Municipalidad de San Antonio",
+          "monto": "$120.000 anuales fijo por decreto DIDECO",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior San Antonio",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.sanantonio.cl/index.php/dideco"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uv.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Exencion del 100% del arancel anual del primer ano para el estudiante con el primer lugar de matricula segun puntaje ponderado de seleccion.",
+          "descripcion_larga": "Beca de Honor de la UV que exime del pago total del arancel del primer ano al estudiante que figure matriculado en el primer lugar de la carrera segun puntaje ponderado de seleccion. Requiere puntaje ponderado de seleccion igual o superior a 750 puntos en nueva escala PAES. Debe haber egresado de EM el ano inmediatamente anterior. Otorgada automaticamente.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de ValparaÃ­so",
+          "monto": "100% arancel primer ano",
+          "nem_minimo": "",
+          "nombre": "Beca de Honor Primer Lugar de Matricula",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uv.cl/becas-y-beneficios"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Exencion 100% arancel primer ano para primer lugar de matricula.",
+          "descripcion_larga": "Beca Honor UV.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Valparaíso",
+          "monto": "100% arancel primer ano",
+          "nem_minimo": "",
+          "nombre": "Beca de Honor Primer Lugar de Matricula",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uv.cl/becas-y-beneficios"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion"
+    ]
+  },
+  {
+    "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Beneficio que garantiza el pago del arancel de carrera en caso de fallecimiento del sostenedor economico. Cubre hasta egreso mas ano de gracia.",
+          "descripcion_larga": "Plan de Escolaridad Segura de la UCN que garantiza el pago del Arancel de Carrera desde el ano del fallecimiento del sostenedor economico hasta la duracion oficial de la carrera y considera un ano de gracia adicional. El estudiante debe incorporarse durante el Proceso de Matricula. Aplica para estudiantes de todas las carreras UCN en Antofagasta y Coquimbo. Documentos requeridos al momento del siniestro: certificado de defuncion. contrato de prestacion de servicios educacionales.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad CatÃ³lica del Norte",
+          "monto": "100% arancel desde el fallecimiento hasta duracion oficial de carrera mas un ano de gracia",
+          "nem_minimo": "",
+          "nombre": "Plan de Escolaridad Segura UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Cubre arancel desde fallecimiento hasta duracion carrera mas un ano de gracia.",
+          "descripcion_larga": "Plan de Escolaridad Segura UCN.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de defuncion del sostenedor; [OBLIGATORIO] Contrato de prestacion de servicios educacionales firmado",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Católica del Norte",
+          "monto": "100% arancel post fallecimiento sostenedor",
+          "nem_minimo": "",
+          "nombre": "Plan de Escolaridad Segura UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Aporte economico para gastos de transporte y combustible de estudiantes residentes en Algarrobo que estudian fuera de la comuna.",
+          "descripcion_larga": "Aporte de Movilidad y Combustible de la Municipalidad de Algarrobo 2026. Beneficio destinado a cubrir parcialmente los gastos de transporte de estudiantes que residen en la comuna y deben trasladarse a otras ciudades. Monto variable entre .000 y .000.",
+          "documentos_requeridos": "[OBLIGATORIO] Registro Social de Hogares de Algarrobo; [OBLIGATORIO] Certificado de matricula o alumno regular; [OBLIGATORIO] Certificado de residencia en Algarrobo; [OBLIGATORIO] Comprobante de gastos de transporte; [OBLIGATORIO] Formulario de postulacion",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Entre .000 y .000 anuales para transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte de Movilidad y Combustible Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Aporte economico para gastos de transporte y combustible de estudiantes residentes en Algarrobo que estudian fuera de la comuna.",
+          "descripcion_larga": "Aporte de Movilidad y Combustible de la Municipalidad de Algarrobo 2026. Beneficio destinado a cubrir parcialmente los gastos de transporte de estudiantes que residen en la comuna y deben trasladarse a otras ciudades. Monto variable entre $30.000 y $80.000.",
+          "documentos_requeridos": "[OBLIGATORIO] Registro Social de Hogares de Algarrobo; [OBLIGATORIO] Certificado de matricula o alumno regular; [OBLIGATORIO] Certificado de residencia en Algarrobo; [OBLIGATORIO] Comprobante de gastos de transporte; [OBLIGATORIO] Formulario de postulacion",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Entre $30.000 y $80.000 anuales para transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte de Movilidad y Combustible Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munialgarrobo.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Aporte economico para gastos de transporte y combustible de estudiantes de educacion superior residentes en Algarrobo que deben desplazarse fuera de la comuna.",
+          "descripcion_larga": "El Aporte de Movilidad y Combustible de la Municipalidad de Algarrobo es un beneficio destinado a cubrir parcialmente los gastos de transporte y desplazamiento de estudiantes de educacion superior que residen en la comuna y deben trasladarse a otras ciudades para cursar sus estudios. Se otorga un monto variable segun evaluacion socioeconomica y disponibilidad presupuestaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Registro Social de Hogares de la comuna de Algarrobo; [OBLIGATORIO] Certificado de matricula o alumno regular; [OBLIGATORIO] Certificado de residencia en Algarrobo; [OBLIGATORIO] Comprobante de gastos de transporte o movilidad; [OBLIGATORIO] Formulario de postulacion del Departamento Social",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Aporte economico para transporte",
+          "nem_minimo": "",
+          "nombre": "Aporte de Movilidad y Combustible Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "monto",
+      "nem_minimo"
+    ]
+  },
+  {
+    "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Beca DIDECO San Ramon de aporte anual.",
+          "descripcion_larga": "Aporte monetario anual segun decreto presupuestario DIDECO. RSH hasta 60%. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH en la comuna; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas del ano anterior",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de San Ramon",
+          "monto": "Aporte monetario anual",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior San Ramon",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://sanramon.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca DIDECO San Ramon de $100.000. RSH 70%.",
+          "descripcion_larga": "Monto de $100.000 anuales. RSH 70%. Evaluacion socioeconomica deficitaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas original",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de San Ramon",
+          "monto": "$100.000 anuales",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior San Ramon",
+          "regiones": "RM",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidadsanramon.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "rsh_maximo",
+      "url"
+    ]
+  },
+  {
+    "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca de apoyo de .000 mensuales para estudiantes de educacion superior residentes en El Quisco entre 17 y 29 anos.",
+          "descripcion_larga": "Aporte municipal de la DIDECO de El Quisco. Otorga .000 mensuales durante 10 meses (.000 total anual). Requisitos: edad entre 17 y 29 anos. residencia en la comuna de El Quisco y RSH dentro del 60% mas vulnerable. Cupos limitados sujetos a disponibilidad presupuestaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad; [OBLIGATORIO] Acreditacion de edad entre 17 y 29 anos",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de El Quisco",
+          "monto": ".000 mensuales por 10 meses (.000 total anual)",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior El Quisco",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.elquisco.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca de apoyo de $50.000 mensuales para estudiantes de educacion superior residentes en El Quisco entre 17 y 29 anos.",
+          "descripcion_larga": "Aporte municipal de la DIDECO de El Quisco. Otorga $50.000 mensuales durante 10 meses ($500.000 total anual). Requisitos: edad entre 17 y 29 anos. residencia en la comuna de El Quisco y RSH dentro del 60% mas vulnerable. Cupos limitados sujetos a disponibilidad presupuestaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad; [OBLIGATORIO] Acreditacion de edad entre 17 y 29 anos",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de El Quisco",
+          "monto": "$50.000 mensuales por 10 meses ($500.000 total anual)",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior El Quisco",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.elquisco.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque35_muni.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Beca DIDECO El Quisco de $200.000. NEM 5.0.",
+          "descripcion_larga": "Asignacion de $200.000 de libre disposicion. NEM minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Notas; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Cartola RSH",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de El Quisco",
+          "monto": "$200.000 anuales",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior El Quisco",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.elquisco.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_final.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Beca de apoyo para estudiantes de educacion superior con residencia en El Quisco.",
+          "descripcion_larga": "Aporte municipal de la DIDECO de El Quisco para estudiantes de nivel superior. tecnicos o universitarios. que requieran apoyo economico para la continuidad de sus estudios.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular de la institucion de Educacion Superior del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad por ambos lados",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de El Quisco",
+          "monto": "Aporte economico anual",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior El Quisco",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.elquisco.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Servicio de almuerzo y cena para estudiantes nuevos UCN en calidad de beca o prestamo a largo plazo segun cupos disponibles.",
+          "descripcion_larga": "La UCN ofrece servicio de almuerzo y cena a estudiantes nuevos que lo requieran. Otorgado en calidad de beca (sin costo) o prestamo a largo plazo segun evaluacion socioeconomica y cupos disponibles. Postulacion al momento de la matricula. Prioridad a estudiantes de situacion socioeconomica vulnerable. Documentos: certificado RSH. cartola de alumno regular. formulario de postulacion de beneficios UCN.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad CatÃ³lica del Norte",
+          "monto": "Servicio de almuerzo y cena como beca o prestamo",
+          "nem_minimo": "",
+          "nombre": "Alimentacion UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Almuerzo y cena para estudiantes nuevos UCN.",
+          "descripcion_larga": "Beca de Alimentacion UCN.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha de evaluacion socioeconomica DGE (Direccion General Estudiantil); [OBLIGATORIO] Cartola del Registro Social de Hogares; [OBLIGATORIO] Acreditacion de ingresos (liquidaciones. honorarios o cotizaciones)",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Católica del Norte",
+          "monto": "Almuerzo y cena en casino",
+          "nem_minimo": "",
+          "nombre": "Alimentacion UCN",
+          "regiones": "II,IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/beca_uai_fix.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 20% del arancel para estudiantes de regiones distintas a la RM.",
+          "descripcion_larga": "Beca Fomento Regional UAI con 20% de descuento del arancel para estudiantes con residencia familiar acreditada en regiones distintas a la Región Metropolitana. Incentiva la diversidad geográfica.",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Adolfo Ibáñez",
+          "monto": "20% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Fomento Regional UAI",
+          "regiones": "I, II, III, IV, VI, VII, VIII, IX, X, XI, XII, XIV, XV, XVI",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://www.uai.cl/admision/becas-y-aranceles/becas"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uai.csv",
+        "referencia": "línea física 5 reconstruida",
+        "campos": {
+          "nombre": "Beca Fomento Regional UAI",
+          "institucion": "Universidad Adolfo IbÃ¡Ã±ez",
+          "tipo_beca": "Beca de Arancel",
+          "monto": "20% descuento arancel",
+          "fecha_inicio": "2026-01-01",
+          "fecha_cierre": "2026-12-31",
+          "rsh_maximo": "",
+          "nem_minimo": "",
+          "regiones": "V,I,II,III,IV,VIII,IX,X,XIV,XI,XII",
+          "descripcion": "Descuento del 20% del arancel para estudiantes provenientes de regiones distintas a la Metropolitana.",
+          "descripcion_larga": "Beca Fomento Regional UAI con 20% de descuento del arancel para estudiantes con residencia familiar acreditada en regiones distintas a la Region Metropolitana. Incentiva la diversidad geografica en el campus. Documentos: certificado de residencia en region. matricula UAI. Renovable manteniendo calidad de alumno regular.",
+          "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "regiones"
+    ]
+  },
+  {
+    "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Beca DIDECO La Pintana de subsidio de mantencion. RSH hasta 70%.",
+          "descripcion_larga": "Subsidio municipal de mantencion de libre disposicion. RSH flexible hasta 70% segun casos evaluados. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH en La Pintana; [OBLIGATORIO] Concentracion de notas; [OBLIGATORIO] Certificado de Alumno Regular",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de La Pintana",
+          "monto": "Subsidio municipal de mantencion de libre disposicion",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior La Pintana",
+          "regiones": "RM",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://pintana.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Beca DIDECO La Pintana de $150.000. NEM 5.5 EM. Evaluacion abril.",
+          "descripcion_larga": "Aporte de $150.000 en cuota a mediados del primer semestre. RSH 60%. NEM 5.5 EM y 5.0 ES. Evaluacion social en abril.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha Social DIDECO; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas original",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de La Pintana",
+          "monto": "$150.000 en 1 cuota",
+          "nem_minimo": "5.5",
+          "nombre": "Beca Municipal Educacion Superior La Pintana",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.pintana.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "nem_minimo",
+      "rsh_maximo",
+      "url"
+    ]
+  },
+  {
+    "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uah.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 50% del arancel por toda la carrera para estudiantes con NEM 5.8 y puntaje PAES destacado.",
+          "descripcion_larga": "Beca de Excelencia Academica de la UAH que premia el rendimiento excepcional en ensenanza media. Otorga 50% de descuento del arancel por la duracion nominal de la carrera. Requiere NEM 5.8 minimo y PAES en percentil superior. Asignacion automatica al ser seleccionado via Admision Centralizada. Renovable con promedio 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Alberto Hurtado",
+          "monto": "50% arancel duracion carrera",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UAH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Beca Academica UAH por PAES.",
+          "descripcion_larga": "Beca Excelencia UAH.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Alberto Hurtado",
+          "monto": "30% arancel o matricula",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UAH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubo.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento del 20% del arancel para deportistas que representen a la UBO.",
+          "descripcion_larga": "Beca Deportiva UBO con 20% de descuento para estudiantes de selecciones deportivas oficiales. Documentos: certificacion deportiva. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Bernardo O'Higgins",
+          "monto": "20% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UBO",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ubo.cl/financiamiento/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Beca para deportistas UBO.",
+          "descripcion_larga": "Beca Deportiva UBO.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de nivel competitivo (IND o Federacion); [OBLIGATORIO] Evaluacion tecnica presencial por Direccion de Asuntos Estudiantiles UBO",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Bernardo O'Higgins",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UBO",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ubo.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_upla.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Descuento del 20% del arancel para deportistas de selecciones UPLA.",
+          "descripcion_larga": "Beca Deportiva UPLA con 20% de descuento para estudiantes de selecciones deportivas. Documentos: certificacion Direccion de Deportes. curriculum. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Playa Ancha",
+          "monto": "20% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UPLA",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://www.upla.cl/admision/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 12",
+        "campos": {
+          "descripcion": "Beca para deportistas UPLA.",
+          "descripcion_larga": "Beca Deportiva UPLA.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado vigente de la federacion deportiva o IND; [OBLIGATORIO] Evaluacion tecnica aprobada por Club de Deportes y Recreacion UPLA",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Playa Ancha",
+          "monto": "25-40% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UPLA",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.upla.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 13",
+        "campos": {
+          "descripcion": "Apoyo economico de la DIDECO para estudiantes residentes en Quilpue con acreditacion de estudios superiores.",
+          "descripcion_larga": "Beca municipal orientada a estudiantes de la comuna de Quilpue matriculados en instituciones de educacion superior reconocidas por el Estado. Monto anual variable entre .000 y .000 determinado por evaluacion socioeconomica.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Quilpue",
+          "monto": "Entre .000 y .000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Quilpue",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.quilpue.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 13",
+        "campos": {
+          "descripcion": "Apoyo economico de la DIDECO para estudiantes residentes en Quilpue con acreditacion de estudios superiores.",
+          "descripcion_larga": "Beca municipal orientada a estudiantes de la comuna de Quilpue matriculados en instituciones de educacion superior reconocidas por el Estado. Monto anual variable entre $80.000 y $250.000.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Quilpue",
+          "monto": "Entre $80.000 y $250.000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Quilpue",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.quilpue.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque17_muni.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Beca DIDECO Quilpue (Provincia de Marga Marga) de subsidio.",
+          "descripcion_larga": "Subsidio de asignacion presupuestaria por departamento social de la provincia de Marga Marga. RSH ajustado segun ordenanza del ano. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Quilpue",
+          "monto": "Subsidio de asignacion presupuestaria por departamento social",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Quilpue",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.quilpue.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Apoyo economico de la DIDECO para estudiantes residentes en Quilpue.",
+          "descripcion_larga": "Beca municipal orientada a estudiantes de la comuna de Quilpue matriculados en instituciones de educacion superior reconocidas por el Estado.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Quilpue",
+          "monto": "Aporte economico variable",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Quilpue",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.quilpue.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uvm.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 50% de la matricula del primer ano para estudiantes con NEM 5.5.",
+          "descripcion_larga": "Beca Matricula UVM con 50% de descuento en la matricula del primer ano para estudiantes de primer ingreso. NEM minimo 5.5. Beneficio automatico al matricularse. No renovable por tratarse de beneficio de matricula.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad ViÃ±a del Mar",
+          "monto": "50% descuento matricula primer ano",
+          "nem_minimo": "5.5",
+          "nombre": "Beca Matricula UVM",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://www.uvm.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_docs.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "50-100% matricula por PAES UVM.",
+          "descripcion_larga": "Beca Matricula UVM.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial PAES DEMRE; [OBLIGATORIO] Concentracion de Notas NEM Mineduc",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Vina del Mar",
+          "monto": "50-100% matricula",
+          "nem_minimo": "5.5",
+          "nombre": "Beca Matricula UVM",
+          "regiones": "V,RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uvm.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto",
+      "regiones",
+      "tipo_beca",
+      "url"
+    ]
+  },
+  {
+    "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 11",
+        "campos": {
+          "descripcion": "Apoyo economico para estudiantes puentealtinos en la educacion superior con acreditacion de vulnerabilidad.",
+          "descripcion_larga": "Aporte entregado por la Municipalidad de Puente Alto a traves de su DIDECO para mitigar los gastos academicos de los estudiantes vulnerables de la comuna. Monto anual variable entre .000 y .000 determinado por evaluacion socioeconomica.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Puente Alto",
+          "monto": "Entre .000 y .000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Puente Alto",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mpuentealto.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 11",
+        "campos": {
+          "descripcion": "Apoyo economico para estudiantes puentealtinos en la educacion superior con acreditacion de vulnerabilidad.",
+          "descripcion_larga": "Aporte entregado por la Municipalidad de Puente Alto a traves de su DIDECO para mitigar los gastos academicos de los estudiantes vulnerables de la comuna. Monto anual variable entre $100.000 y $400.000.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Puente Alto",
+          "monto": "Entre $100.000 y $400.000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Puente Alto",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mpuentealto.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Apoyo economico para estudiantes puentealtinos en la educacion superior.",
+          "descripcion_larga": "Aporte entregado por la Municipalidad de Puente Alto a traves de su DIDECO para mitigar los gastos academicos de los estudiantes vulnerables de la comuna.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Puente Alto",
+          "monto": "Aporte economico variable",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Puente Alto",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mpuentealto.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento del 20% del arancel para deportistas de selecciones UCentral.",
+          "descripcion_larga": "Beca Deportiva UCentral con 20% de descuento para estudiantes de selecciones deportivas. Documentos: certificacion deportiva. curriculum. cartola de alumno regular. Renovable con participacion activa.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Central de Chile",
+          "monto": "20% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UCentral",
+          "regiones": "",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://www.ucentral.cl/admision/becas-y-beneficios"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+        "referencia": "registro original 14",
+        "campos": {
+          "descripcion": "Beca para deportistas UCentral.",
+          "descripcion_larga": "Beca Deportiva UCentral.",
+          "documentos_requeridos": "[OBLIGATORIO] Curriculum deportivo; [OBLIGATORIO] Certificado IND o Federacion; [OBLIGATORIO] Evaluacion fisica aprobada por DAVE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Central de Chile",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UCentral",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ucentral.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "regiones",
+      "url"
+    ]
+  },
+  {
+    "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Descuento del 10% para familiares de estudiantes o titulados UCSH.",
+          "descripcion_larga": "Beca Familiar UCSH con 10% de descuento para hijos. hermanos y conyuges de alumnos o titulados. Documentos: certificado de alumno regular. parentesco.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Catolica Silva Henriquez",
+          "monto": "10% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Familiar UCSH",
+          "regiones": "",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.ucsh.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+        "referencia": "registro original 12",
+        "campos": {
+          "descripcion": "15% arancel para hermanos UCSH.",
+          "descripcion_larga": "Beca Familiar UCSH.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Nacimiento con asignacion familiar de ambos postulantes; [OBLIGATORIO] Fotocopia de Cedula de Identidad de ambos hermanos",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Catolica Silva Henriquez",
+          "monto": "15% arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca Familiar UCSH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.ucsh.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "regiones"
+    ]
+  },
+  {
+    "candidato": "61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_udd.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento de hasta el 50% del arancel para estudiantes con situacion socioeconomica vulnerable.",
+          "descripcion_larga": "Beca Socioeconomica UDD con descuento variable hasta 50% del arancel segun evaluacion de la Direccion de Asuntos Estudiantiles. Requiere pertenecer al 60% mas vulnerable. Documentos: certificado RSH. declaracion de ingresos. matricula UDD. Renovable con reevaluacion anual.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad del Desarrollo",
+          "monto": "Hasta 50% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Socioeconomica UDD",
+          "regiones": "RM,VIII",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://www.udd.cl/admision/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Hasta 50% arancel segun situacion socioeconomica.",
+          "descripcion_larga": "Beca Socioeconomica UDD.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha socioeconomica DAE completada; [OBLIGATORIO] Cartola del Registro Social de Hogares; [OBLIGATORIO] 6 ultimas liquidaciones de sueldo de sostenedores; [OBLIGATORIO] Certificado de las ultimas 12 cotizaciones de AFP",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad del Desarrollo",
+          "monto": "Hasta 50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Socioeconomica UDD",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.udd.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "regiones",
+      "url"
+    ]
+  },
+  {
+    "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior con excelencia academica y vulnerabilidad economica residentes en Santiago.",
+          "descripcion_larga": "Beca de Estudios Superiores de la I. Municipalidad de Santiago (IMS) gestionada por DIDECO. Monto anual entre .000 y .000 asignado segun evaluacion socioeconomica y rendimiento academico. Dirigida a estudiantes de universidades. IP y CFT con residencia en la comuna.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia en Santiago; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas del ultimo semestre; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-06-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Entre .000 y .000 anuales segun evaluacion",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte Economico para Educacion Superior",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.munistgo.cl/fondos-y-becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior con excelencia academica y vulnerabilidad economica residentes en Santiago.",
+          "descripcion_larga": "Beca de Estudios Superiores de la I. Municipalidad de Santiago (IMS) gestionada por DIDECO. Monto anual entre $100.000 y $250.000 asignado segun evaluacion socioeconomica y rendimiento academico. Dirigida a estudiantes de universidades IP y CFT con residencia en la comuna.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia en Santiago; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas del ultimo semestre; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-06-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Entre $100.000 y $250.000 anuales segun evaluacion",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte Economico para Educacion Superior",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.munistgo.cl/fondos-y-becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munistgo.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en la comuna de Santiago.",
+          "descripcion_larga": "Aporte Economico para Educacion Superior de la Municipalidad de Santiago gestionado por la Direccion de Desarrollo Comunitario. Otorga entre $100.000 y $250.000 anuales segun evaluacion socioeconomica. Requiere residencia en la comuna de Santiago. RSH dentro del 60% mas vulnerable y matricula en institucion reconocida por Mineduc. Postulacion anual en fechas publicadas en munistgo.cl.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Aporte economico anual entre $100.000 y $250.000",
+          "nem_minimo": "",
+          "nombre": "Aporte Economico para Educacion Superior",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://www.munistgo.cl/becas-y-fondos/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "monto",
+      "nem_minimo",
+      "tipo_beca",
+      "url"
+    ]
+  },
+  {
+    "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_upla.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Servicio de almuerzo en casinos UPLA para estudiantes con situacion socioeconomica vulnerable.",
+          "descripcion_larga": "Beca de Alimentacion UPLA con almuerzo en casinos de los campus Valparaiso y San Felipe. Requiere acreditacion socioeconomica vigente. Postulacion via DAE. Compatible con BAES de JUNAEB.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Playa Ancha",
+          "monto": "Almuerzo en casino universitario",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UPLA",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://www.upla.cl/admision/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 11",
+        "campos": {
+          "descripcion": "Almuerzo y cena para estudiantes UPLA.",
+          "descripcion_larga": "Beca Alimentacion UPLA.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha socioeconomica Direccion General de Desarrollo Estudiantil (DGDE); [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Acreditacion de ingresos familiares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Playa Ancha",
+          "monto": "Almuerzo y cena en casino",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UPLA",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.upla.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Cubre la diferencia entre el beneficio estatal y el arancel real UCentral.",
+          "descripcion_larga": "Beca Copago UCentral que complementa beneficios estatales cubriendo la brecha entre el arancel de referencia y el real. Requiere 60% mas vulnerable. Documentos: certificado de beneficio estatal. matricula. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Central de Chile",
+          "monto": "Complemento brecha arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Copago UCentral",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://www.ucentral.cl/admision/becas-y-beneficios"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+        "referencia": "registro original 13",
+        "campos": {
+          "descripcion": "Complemento a beneficios Mineduc UCentral.",
+          "descripcion_larga": "Beca Copago UCentral.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario DAVE (Direccion de Apoyo y Vida Estudiantil); [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de asignacion de beneficio Mineduc",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Central de Chile",
+          "monto": "Complemento brecha arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Copago UCentral",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.ucentral.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "url"
+    ]
+  },
+  {
+    "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Liberacion total del arancel y matricula por toda la carrera para el mayor puntaje de postulacion via Deportista Elite.",
+          "descripcion_larga": "Beca para el postulante con mayor puntaje en Admision Especial Centralizada Deportista Elite de la UTFSM. Cubre 100% del arancel y matricula por la duracion nominal de la carrera. Requiere ser egresado EM del ano en curso o anterior. Renovable con rendimiento academico de excelencia.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Tecnica Federico Santa Maria",
+          "monto": "100% arancel y matricula duracion nominal",
+          "nem_minimo": "",
+          "nombre": "Beca Deportista Elite USM",
+          "regiones": "V,RM,VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://usm.cl/admision/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 12",
+        "campos": {
+          "descripcion": "100% arancel y matricula para Deportista Elite.",
+          "descripcion_larga": "Beca Deportista Elite UTFSM.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de nivel competitivo (IND o federacion); [OBLIGATORIO] Ficha medica que acredite salud compatible; [OBLIGATORIO] Evaluacion tecnica del DEFIDER",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Tecnica Federico Santa Maria",
+          "monto": "100% arancel y matricula",
+          "nem_minimo": "",
+          "nombre": "Beca Deportista Elite USM",
+          "regiones": "V,RM,VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://usm.cl/admision/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "70cc47ac438139cde0dc4476cdde18108e009db8b9036d6db48c57d0f58a58e4",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 8",
+        "campos": {
+          "descripcion": "Cupo en hogares estudiantiles UACh.",
+          "descripcion_larga": "Hogar Estudiantil UACh.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha de postulacion DAE UACh; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Acreditacion de ingresos del grupo familiar; [OBLIGATORIO] Certificado de Residencia emitido por junta de vecinos o notaria",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Austral de Chile",
+          "monto": "Alojamiento a bajo costo",
+          "nem_minimo": "",
+          "nombre": "Hogar Estudiantil UACh",
+          "regiones": "XIV,X",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://uach.cl/alumnos/utiles/bienestar-integral"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uach.csv",
+        "referencia": "línea física 3 reconstruida",
+        "campos": {
+          "nombre": "Hogar Estudiantil UACh",
+          "institucion": "Universidad Austral de Chile",
+          "tipo_beca": "Beca de Mantencion",
+          "monto": "Alojamiento a bajo costo en residencias universitarias",
+          "fecha_inicio": "2026-01-01",
+          "fecha_cierre": "2026-12-31",
+          "rsh_maximo": "60",
+          "nem_minimo": "",
+          "regiones": "XIV,X",
+          "descripcion": "Cupo en hogares estudiantiles UACh para estudiantes de otras localidades. Espacio seguro con reglamento de convivencia.",
+          "descripcion_larga": "Los Hogares Estudiantiles UACh ofrecen alojamiento a bajo costo para estudiantes de otras localidades de la region o del pais. Gestionados por la DAE con reglamento de convivencia y criterios de seleccion. Postulacion via InfoAlumnos. Requiere acreditacion socioeconomica.",
+          "url": "https://uach.cl/alumnos/utiles/bienestar-integral",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Beca DIDECO Padre Hurtado de subsidio de mantencion.",
+          "descripcion_larga": "Subsidio municipal de mantencion de libre disposicion. RSH hasta 60%. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH en Padre Hurtado; [OBLIGATORIO] Concentracion de notas; [OBLIGATORIO] Certificado de Alumno Regular",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Padre Hurtado",
+          "monto": "Subsidio municipal de mantencion de libre disposicion",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Padre Hurtado",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://mph.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Beca DIDECO Padre Hurtado de $200.000. RSH 60%. Sin deudas municipales.",
+          "descripcion_larga": "Monto de $200.000 via transferencia. RSH 60%. Promedio 5.0. Sin deudas ni rendiciones pendientes.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Notas; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Acreditacion de ingresos familiares",
+          "fecha_cierre": "2026-04-15",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Padre Hurtado",
+          "monto": "$200.000 por transferencia",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Padre Hurtado",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mph.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uandes.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Beca academica automatica con 15% a 100% de cobertura en matricula y arancel segun puntaje ponderado PAES. Completable con becas estatales.",
+          "descripcion_larga": "Beca por puntaje PAES de la UANDES con cobertura entre 15% y 100% en matricula y arancel anual. Asignacion automatica si quedas convocado y cumples con el puntaje ponderado requerido. Puede llegar a 100% si se complementa con becas estatales Juan Gomez Millas. Bicentenario o de Excelencia Academica. Disponible para colegios publicos. subvencionados y particulares.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "15% a 100% matricula y arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca UANDES por puntaje PAES",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 13",
+        "campos": {
+          "descripcion": "Beca PAES UANDES con cobertura 15-100%.",
+          "descripcion_larga": "Beca PAES UANDES.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "15-100% matricula y arancel",
+          "nem_minimo": "",
+          "nombre": "Beca UANDES por puntaje PAES",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uandes.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Beca socioeconomica con cobertura entre 15% y 70% segun evaluacion anual de la situacion economica del estudiante.",
+          "descripcion_larga": "Beca socioeconomica UANDES con cobertura variable entre 15% y 70% del arancel y matricula anual segun evaluacion socioeconomica de la Direccion de Asuntos Estudiantiles. Requiere acreditacion socioeconomica vigente. Evaluacion renovada anualmente. Compatible con becas estatales complementarias.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "15% a 70% arancel y matricula anual",
+          "nem_minimo": "",
+          "nombre": "Beca UANDES Economica",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 14",
+        "campos": {
+          "descripcion": "Beca socioeconomica UANDES 15-70%.",
+          "descripcion_larga": "Beca Economica UANDES.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario de postulacion de Asuntos Estudiantiles; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] 6 ultimas liquidaciones de sueldo de los sostenedores; [OBLIGATORIO] Certificado de 12 ultimas cotizaciones AFP; [OBLIGATORIO] Declaracion de gastos del grupo familiar",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "15-70% arancel y matricula",
+          "nem_minimo": "",
+          "nombre": "Beca UANDES Economica",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Subsidio mensual de transporte para estudiantes de educacion superior residentes en Valparaiso.",
+          "descripcion_larga": "Subsidio de transporte de la Municipalidad de Valparaiso para estudiantes que deban desplazarse fuera de la comuna. Requiere RSH dentro del 70% mas vulnerable y acreditacion de residencia.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Valparaiso",
+          "monto": "Subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Transporte Valparaiso",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Subsidio mensual de transporte para estudiantes de educacion superior residentes en Valparaiso.",
+          "descripcion_larga": "Subsidio de transporte de la Municipalidad de Valparaiso para estudiantes que deban desplazarse fuera de la comuna. Requiere RSH dentro del 70% mas vulnerable y acreditacion de residencia.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Valparaiso",
+          "monto": "Subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Transporte Valparaiso",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivalpo.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio mensual de transporte para estudiantes de educacion superior residentes en Valparaiso.",
+          "descripcion_larga": "Subsidio de transporte de la Municipalidad de Valparaiso para estudiantes que deban desplazarse fuera de la comuna para cursar estudios superiores. Requiere RSH dentro del 70% mas vulnerable y acreditacion de residencia en Valparaiso. Documentos: certificado RSH. certificado de residencia. matricula vigente.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de ValparaÃ­so",
+          "monto": "Subsidio mensual de transporte",
+          "nem_minimo": "",
+          "nombre": "Beca de Transporte Valparaiso",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "institucion",
+      "nem_minimo"
+    ]
+  },
+  {
+    "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 8",
+        "campos": {
+          "descripcion": "Subsidio mensual de pasajes para estudiantes universitarios residentes en La Serena que estudian en otra comuna.",
+          "descripcion_larga": "Subsidio de Pasajes de la Municipalidad de La Serena para estudiantes que deban trasladarse a otras comunas para cursar estudios superiores. Requiere RSH dentro del 60% mas vulnerable y acreditacion de residencia en La Serena. Postulacion y renovacion semestral.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Subsidio mensual para transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Subsidio de Pasajes La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.laserena.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 8",
+        "campos": {
+          "descripcion": "Subsidio mensual de pasajes para estudiantes universitarios residentes en La Serena que estudian en otra comuna.",
+          "descripcion_larga": "Subsidio de Pasajes de la Municipalidad de La Serena para estudiantes que deban trasladarse a otras comunas para cursar estudios superiores. Requiere RSH dentro del 60% mas vulnerable y acreditacion de residencia en La Serena. Postulacion y renovacion semestral.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Subsidio mensual para transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Subsidio de Pasajes La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.laserena.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munilaserena.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio mensual de pasajes para estudiantes universitarios residentes en La Serena.",
+          "descripcion_larga": "Subsidio de Pasajes de la Municipalidad de La Serena para estudiantes que deban trasladarse a otras comunas para cursar estudios superiores (ej. a Coquimbo). Requiere RSH dentro del 60% mas vulnerable y acreditacion de residencia en La Serena. Postulacion y renovacion semestral.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Subsidio mensual para transporte",
+          "nem_minimo": "",
+          "nombre": "Subsidio de Pasajes La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.laserena.cl/dideco/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "nem_minimo",
+      "url"
+    ]
+  },
+  {
+    "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Exencion de arancel y matricula por toda la carrera para puntajes maximos PAES (1.000 puntos). Porcentaje segun puntaje ponderado USM.",
+          "descripcion_larga": "Premio Puntaje Maximo PAES de la UTFSM. Otorga exencion total o parcial de arancel y matricula por la duracion nominal de la carrera. 100% si puntaje ponderado USM 950 o mas. 75% si entre 925-949. 50% si entre 900-924. 50% adicional para alumnos de colegios municipales con 850-899. Requiere PAES maximo (1.000 pts) y ser egresado EM 2025. Renovable con promedio anual 67 primer ano. 70 segundo ano en adelante.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Tecnica Federico Santa Maria",
+          "monto": "100% a 50% arancel y matricula por duracion nominal",
+          "nem_minimo": "",
+          "nombre": "Premio Puntaje Maximo PAES",
+          "regiones": "V,RM,VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://usm.cl/admision/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 11",
+        "campos": {
+          "descripcion": "Exencion de arancel y matricula para puntajes maximos PAES.",
+          "descripcion_larga": "Premio Puntaje Maximo UTFSM.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE; [OBLIGATORIO] Certificado Concentracion de Notas (NEM) Mineduc",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Tecnica Federico Santa Maria",
+          "monto": "50-100% arancel y matricula",
+          "nem_minimo": "",
+          "nombre": "Premio Puntaje Maximo PAES",
+          "regiones": "V,RM,VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://usm.cl/admision/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Exencion total del arancel anual para estudiantes de carreras de Pedagogia que pertenezcan al 30% superior del ranking de egreso.",
+          "descripcion_larga": "Beca que exime del pago total del arancel anual para estudiantes de Pedagogia. Requiere pertenecer al 30% superior del ranking de egreso del establecimiento educacional de origen. No compatible con otros beneficios que cubran el arancel completo. Renovable con rendimiento academico.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "Exencion del pago de arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca de Arancel para Pedagogias",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Exencion total del arancel para estudiantes de Pedagogia.",
+          "descripcion_larga": "Beca Arancel Pedagogias UTalca.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "Exencion arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca de Arancel para Pedagogias",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ufro.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento del 25% del arancel para estudiantes que representen a la UFRO en competencias deportivas.",
+          "descripcion_larga": "Beca Deportiva UFRO con 25% de descuento del arancel semestral para estudiantes de selecciones deportivas oficiales. Documentos: certificacion Direccion de Deportes UFRO. curriculum deportivo. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de La Frontera",
+          "monto": "25% descuento arancel para deportistas destacados",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UFRO",
+          "regiones": "IX",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ufro.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca para deportistas UFRO.",
+          "descripcion_larga": "Beca Deportiva UFRO.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de seleccionado regional o nacional emitido por IND o Federacion; [OBLIGATORIO] Constancia de evaluacion aprobada por Coordinacion de Deportes UFRO",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de La Frontera",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UFRO",
+          "regiones": "IX",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ufro.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uv.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Beca para deportistas destacados que representen a la UV en competencias. Gestionada por el Area de Deportes y Recreacion de la DAE.",
+          "descripcion_larga": "Beca Deportiva de la Universidad de Valparaiso para estudiantes que integren selecciones deportivas oficiales y representen a la UV en competencias regionales y nacionales. Gestionada por el Area de Deportes y Recreacion de la Direccion de Asuntos Estudiantiles (DAE). Documentos: certificacion deportiva. curriculum. cartola de alumno regular. Renovacion condicionada a participacion activa.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de ValparaÃ­so",
+          "monto": "Descuento arancel segun evaluacion",
+          "nem_minimo": "",
+          "nombre": "Beca de Excelencia Deportiva UV",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://dae.uv.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 10",
+        "campos": {
+          "descripcion": "Descuento arancel para deportistas UV.",
+          "descripcion_larga": "Beca Deportiva UV.",
+          "documentos_requeridos": "[OBLIGATORIO] Curriculum deportivo documentado; [OBLIGATORIO] Certificado emitido por asociacion deportiva o IND; [OBLIGATORIO] Constancia de prueba tecnica aprobada por Area de Deportes UV",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Valparaíso",
+          "monto": "Descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca de Excelencia Deportiva UV",
+          "regiones": "V",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://dae.uv.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en la comuna de La Serena.",
+          "descripcion_larga": "Beneficio otorgado por la DIDECO de La Serena destinado a apoyar los gastos de mantencion y traslado de estudiantes de educacion superior. Monto variable entre .000 y .000 asignado segun evaluacion socioeconomica individual y disponibilidad presupuestaria anual.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Entre .000 y .000 anuales segun evaluacion",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laserena.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en la comuna de La Serena.",
+          "descripcion_larga": "Beneficio otorgado por la DIDECO de La Serena destinado a apoyar los gastos de mantencion y traslado de estudiantes de educacion superior. Monto variable entre $80.000 y $200.000 asignado segun evaluacion socioeconomica individual y disponibilidad presupuestaria anual.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Entre $80.000 y $200.000 anuales segun evaluacion",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laserena.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munilaserena.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en La Serena.",
+          "descripcion_larga": "Beca Municipal de Educacion Superior de La Serena gestionada por DIDECO. Otorga un aporte economico anual para estudiantes que acrediten residencia en la comuna de La Serena. Requiere RSH dentro del 60% mas vulnerable. Postulacion anual en fechas informadas por el municipio. Documentos: certificado RSH. certificado de residencia. matricula en ES.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Aporte economico anual segun disponibilidad",
+          "nem_minimo": "",
+          "nombre": "Beca Municipal de Educacion Superior La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://www.laserena.cl/dideco/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_final.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico para estudiantes de educacion superior residentes en la comuna de La Serena.",
+          "descripcion_larga": "Beneficio otorgado por la DIDECO de La Serena destinado a apoyar los gastos de mantencion y traslado de estudiantes de educacion superior que acrediten vulnerabilidad socioeconomica y residencia en la comuna.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular de la institucion de Educacion Superior del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad por ambos lados",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Serena",
+          "monto": "Aporte economico anual",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior La Serena",
+          "regiones": "IV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laserena.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "monto",
+      "nem_minimo",
+      "tipo_beca",
+      "url"
+    ]
+  },
+  {
+    "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uach.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Beca para deportistas destacados UACh. Postulacion entre segunda quincena de marzo y primera de abril.",
+          "descripcion_larga": "Beca Deportiva de la Universidad Austral de Chile para estudiantes que acrediten ser deportistas destacados. Nuevos presentan curriculum deportivo y certificados. Renovantes completan formulario y evaluacion tecnica del entrenador. Gestionado por el Centro de Deportes y Recreacion CEDERE.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-04-15",
+          "fecha_inicio": "2026-03-15",
+          "institucion": "Universidad Austral de Chile",
+          "monto": "Descuento arancel segun evaluacion deportiva",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UACh",
+          "regiones": "XIV,X",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://www.uach.cl/cedere/beneficios-estudiantiles"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Beca para deportistas destacados UACh.",
+          "descripcion_larga": "Beca Deportiva UACh.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de seleccionado regional o nacional emitido por IND o Federacion; [OBLIGATORIO] Evaluacion practica del Centro de Deportes y Recreacion UACh",
+          "fecha_cierre": "2026-04-15",
+          "fecha_inicio": "2026-03-15",
+          "institucion": "Universidad Austral de Chile",
+          "monto": "Descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UACh",
+          "regiones": "XIV,X",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://www.uach.cl/cedere/beneficios-estudiantiles"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "9b0b5f5bfbee7c03322f9b3723552f6e9cda60334929bcccc6e5bceb05a77bb9",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uandes.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Descuento del 50% del arancel anual para hijos de funcionarios UANDES mas bonificacion del 5% en puntaje ponderado de ingreso.",
+          "descripcion_larga": "Beca Hijo Funcionario UANDES con 50% de descuento en el arancel anual para hijos de funcionarios academicos o administrativos de la Universidad de los Andes. Ademas otorga bonificacion del 5% en el puntaje ponderado para ingreso. Documentos: certificado laboral del funcionario. certificado de nacimiento.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "50% descuento arancel anual mas 5% bonificacion puntaje ponderado",
+          "nem_minimo": "",
+          "nombre": "Beca Hijo Funcionario UANDES",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 15",
+        "campos": {
+          "descripcion": "50% arancel para hijos de funcionarios UANDES.",
+          "descripcion_larga": "Beca Hijo Funcionario UANDES.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificados de Nacimiento con asignacion familiar; [OBLIGATORIO] Fotocopia Cedula de Identidad de los hermanos matriculados en la institucion",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de los Andes",
+          "monto": "50% arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca Hijo Funcionario UANDES",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.uandes.cl/becas"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uft.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 30% al 50% del arancel para estudiantes con NEM 5.8 y puntaje PAES destacado.",
+          "descripcion_larga": "Beca Excelencia Academica de la UFT con descuento escalonado segun puntaje PAES y NEM. Hasta 50% para mejores puntajes. Asignacion automatica al ser seleccionado via Admision Centralizada. Renovable con promedio 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Finis Terrae",
+          "monto": "30% a 50% descuento arancel",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UFT",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.finis.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Beca por PAES UFT 30-100% arancel.",
+          "descripcion_larga": "Beca Excelencia UFT.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Finis Terrae",
+          "monto": "30-100% arancel",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UFT",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.uft.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Valparaiso con RSH vigente.",
+          "descripcion_larga": "Beca Municipal de Valparaiso gestionada por DIDECO. Otorga un aporte economico anual variable entre .000 y .000 para estudiantes de educacion superior que acrediten residencia en Valparaiso. Requiere RSH dentro del 70% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Valparaiso",
+          "monto": "Entre .000 y .000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipalidad de Valparaiso DIDECO",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Valparaiso con RSH vigente.",
+          "descripcion_larga": "Beca Municipal de Valparaiso gestionada por DIDECO. Otorga un aporte economico anual variable entre $100.000 y $300.000 para estudiantes de educacion superior que acrediten residencia en Valparaiso. Requiere RSH dentro del 70% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Valparaiso",
+          "monto": "Entre $100.000 y $300.000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipalidad de Valparaiso DIDECO",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivalpo.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Valparaiso con Registro Social de Hogares vigente.",
+          "descripcion_larga": "Beca Municipal de Valparaiso gestionada por la Direccion de Desarrollo Comunitario (DIDECO). Otorga un aporte economico anual para estudiantes de educacion superior que acrediten residencia en la comuna de Valparaiso. Requiere RSH dentro del 70% mas vulnerable. Documentos: certificado RSH. certificado de residencia. matricula en institucion reconocida por Mineduc. Postulacion anual en fechas informadas por DIDECO.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de ValparaÃ­so",
+          "monto": "Aporte economico anual segun disponibilidad presupuestaria",
+          "nem_minimo": "",
+          "nombre": "Beca Municipalidad de Valparaiso DIDECO",
+          "regiones": "V",
+          "rsh_maximo": "70",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://www.municipalidaddevalparaiso.cl/dideco/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "institucion",
+      "monto",
+      "nem_minimo",
+      "tipo_beca"
+    ]
+  },
+  {
+    "candidato": "ab1e3af5c29616a196bc339cfc55dcd9fbd91fb12d89e019aceb9ff69dcae039",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque22_muni.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca DIDECO Vitacura de $820.000 aprox. Proceso dic-ene. Excelencia academica.",
+          "descripcion_larga": "Alto estandar: presupuesto anual de $193.100.000 entre ~235 beneficiarios ($820.000 aprox por alumno). Proceso diciembre-enero. Tarjeta Mi Vita. Excelencia academica comprobada e informe social.",
+          "documentos_requeridos": "[OBLIGATORIO] Tarjeta Mi Vita o certificado notarial de residencia; [OBLIGATORIO] Certificados de notas con excelencia academica; [OBLIGATORIO] Acreditacion formal de ingresos familiares",
+          "fecha_cierre": "2026-01-31",
+          "fecha_inicio": "2025-12-01",
+          "institucion": "Municipalidad de Vitacura",
+          "monto": "$820.000 aprox anual por alumno (piso $193.100.000 entre 235 benef.)",
+          "nem_minimo": "5.5",
+          "nombre": "Beca Municipal de Vitacura",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://vitacura.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_auditadas.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Beca DIDECO Vitacura por Excelencia Académica.",
+          "descripcion_larga": "Beca de apoyo económico fijada en $193.100 anuales para estudiantes residentes con excelencia académica e informe de vulnerabilidad.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado Residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Alumno Regular; [OBLIGATORIO] Concentración de Notas",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Vitacura",
+          "monto": "$193.100 anual",
+          "nem_minimo": "6.0",
+          "nombre": "Beca Municipal de Vitacura",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantención Municipal",
+          "url": "https://vitacura.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto",
+      "nem_minimo",
+      "tipo_beca"
+    ]
+  },
+  {
+    "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Cubre el 75% del arancel anual para hijos de funcionarios de planta o contrata de la UTalca.",
+          "descripcion_larga": "Beca Abate Molina que otorga 75% de descuento del arancel anual a hijos de funcionarios academicos o administrativos de planta o contrata de la UTalca. Debe mantener calidad de alumno regular. rendimiento academico FSCU y estar al dia con obligaciones financieras. El funcionario debe conservar su calidad al momento de postulacion.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "75% arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca Abate Molina",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "75% del arancel para hijos de funcionarios UTalca.",
+          "descripcion_larga": "Beca Abate Molina UTalca.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "75% arancel anual",
+          "nem_minimo": "",
+          "nombre": "Beca Abate Molina",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Arancel",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos"
+    ]
+  },
+  {
+    "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 16",
+        "campos": {
+          "descripcion": "Subsidio de transporte para estudiantes de educacion superior residentes en Vina del Mar.",
+          "descripcion_larga": "Beneficio de Pasajes de la Municipalidad de Vina del Mar para estudiantes que cursan estudios superiores fuera de la comuna. Requiere RSH dentro del 60% mas vulnerable. El monto mensual varia segun distancia y disponibilidad presupuestaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Vina del Mar",
+          "monto": "Subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Pasajes Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 16",
+        "campos": {
+          "descripcion": "Subsidio de transporte para estudiantes de educacion superior residentes en Vina del Mar.",
+          "descripcion_larga": "Beneficio de Pasajes de la Municipalidad de Vina del Mar para estudiantes que cursan estudios superiores fuera de la comuna. Requiere RSH dentro del 60% mas vulnerable. El monto mensual varia segun distancia y disponibilidad presupuestaria.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Vina del Mar",
+          "monto": "Subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Pasajes Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivina.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio de transporte para estudiantes de educacion superior residentes en Vina del Mar.",
+          "descripcion_larga": "Beneficio de Pasajes de la Municipalidad de Vina del Mar para estudiantes que cursan estudios superiores fuera de la comuna. Requiere RSH dentro del 60% mas vulnerable. Documentos: certificado RSH. certificado de residencia. matricula vigente. Renovable semestralmente.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de ViÃ±a del Mar",
+          "monto": "Subsidio de transporte",
+          "nem_minimo": "",
+          "nombre": "Beca de Pasajes Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "institucion",
+      "monto",
+      "nem_minimo"
+    ]
+  },
+  {
+    "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 12",
+        "campos": {
+          "descripcion": "Beneficio DIDECO para estudiantes de educacion superior residentes en La Florida con acreditacion socioeconomica.",
+          "descripcion_larga": "Asignacion de recursos municipales para estudiantes floridanos que se encuentren cursando carreras tecnicas o profesionales en instituciones reconocidas por el Estado. Monto anual variable entre .000 y .000.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Florida",
+          "monto": "Entre .000 y .000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior La Florida",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laflorida.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 12",
+        "campos": {
+          "descripcion": "Beneficio DIDECO para estudiantes de educacion superior residentes en La Florida con acreditacion socioeconomica.",
+          "descripcion_larga": "Asignacion de recursos municipales para estudiantes floridanos que se encuentren cursando carreras tecnicas o profesionales en instituciones reconocidas por el Estado. Monto anual variable entre $100.000 y $350.000.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Florida",
+          "monto": "Entre $100.000 y $350.000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior La Florida",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laflorida.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Beneficio DIDECO para estudiantes de educacion superior residentes en La Florida.",
+          "descripcion_larga": "Asignacion de recursos municipales para estudiantes floridanos que se encuentren cursando carreras tecnicas o profesionales.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de La Florida",
+          "monto": "Aporte economico variable",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior La Florida",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.laflorida.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uta.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Servicio de almuerzo en casinos UTA para estudiantes con situacion socioeconomica vulnerable.",
+          "descripcion_larga": "Beca de Alimentacion UTA con almuerzo en casinos de campus Arica e Iquique. Requiere acreditacion socioeconomica vigente. Cupos limitados. Postulacion al momento de la matricula. Compatible con BAES.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de TarapacÃ¡",
+          "monto": "Almuerzo en casino universitario",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UTA",
+          "regiones": "XV,I",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://webdae.uta.cl/index.php/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Almuerzo y cena para estudiantes UTA.",
+          "descripcion_larga": "Beca Alimentacion UTA.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha DAE UTA; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Acreditacion formal de ingresos; [OBLIGATORIO] Certificado de residencia de comuna de origen",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Tarapaca",
+          "monto": "Almuerzo y cena",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UTA",
+          "regiones": "I,XV",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.uta.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto",
+      "regiones",
+      "url"
+    ]
+  },
+  {
+    "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 14",
+        "campos": {
+          "descripcion": "Beneficio municipal para estudiantes de educacion superior de Villa Alemana con acreditacion socioeconomica.",
+          "descripcion_larga": "Aporte de la Municipalidad de Villa Alemana para contribuir a los gastos de mantencion de estudiantes de nivel superior de la comuna. Monto anual variable entre .000 y .000 segun evaluacion socioeconomica.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Villa Alemana",
+          "monto": "Entre .000 y .000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Villa Alemana",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.villalemana.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 14",
+        "campos": {
+          "descripcion": "Beneficio municipal para estudiantes de educacion superior de Villa Alemana con acreditacion socioeconomica.",
+          "descripcion_larga": "Aporte de la Municipalidad de Villa Alemana para contribuir a los gastos de mantencion de estudiantes de nivel superior de la comuna. Monto anual variable entre $70.000 y $200.000.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Villa Alemana",
+          "monto": "Entre $70.000 y $200.000 anuales segun evaluacion socioeconomica",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Villa Alemana",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.villalemana.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque17_muni.csv",
+        "referencia": "registro original 8",
+        "campos": {
+          "descripcion": "Beca DIDECO Villa Alemana. Tambien subvenciona Beca Talento Deportivo.",
+          "descripcion_larga": "Aporte monetario anual transferido bajo decreto a estudiantes de buen rendimiento. La comuna tambien maneja subvenciones paralelas como la Beca Talento Deportivo. RSH deficitario.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Villa Alemana",
+          "monto": "Aporte monetario anual bajo decreto. Becas paralelas disponibles.",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Villa Alemana",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.villalemana.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Beneficio municipal para estudiantes de educacion superior de Villa Alemana.",
+          "descripcion_larga": "Aporte de la Municipalidad de Villa Alemana para contribuir a los gastos de mantencion de estudiantes de nivel superior de la comuna.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Villa Alemana",
+          "monto": "Aporte economico variable",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Villa Alemana",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.villalemana.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 10",
+        "campos": {
+          "descripcion": "Aporte DIDECO de hasta .000 para estudiantes de educacion superior residentes en Maipu con excelencia academica.",
+          "descripcion_larga": "Beneficio municipal de Maipu para estudiantes residentes en la comuna que cursen estudios superiores. Otorga hasta .000 anuales distribuidos en cuotas. Evalua rendimiento academico. situacion socioeconomica y Registro Social de Hogares dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Maipu",
+          "monto": "Hasta .000 anuales segun rendimiento y vulnerabilidad",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Maipu",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidadmaipu.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 10",
+        "campos": {
+          "descripcion": "Aporte DIDECO de hasta $600.000 para estudiantes de educacion superior residentes en Maipu con excelencia academica.",
+          "descripcion_larga": "Beneficio municipal de Maipu para estudiantes residentes en la comuna que cursen estudios superiores. Otorga hasta $600.000 anuales distribuidos en cuotas. Evalua rendimiento academico situacion socioeconomica y RSH dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Maipu",
+          "monto": "Hasta $600.000 anuales segun rendimiento y vulnerabilidad",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Maipu",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidadmaipu.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte DIDECO para estudiantes de educacion superior residentes en Maipu.",
+          "descripcion_larga": "Beneficio municipal destinado a estudiantes residentes en la comuna de Maipu que cursen estudios superiores y requieran apoyo economico para transporte o materiales.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos de la comuna; [OBLIGATORIO] Cartola del Registro Social de Hogares (RSH) actualizada exigiendo tramo de vulnerabilidad comunal; [OBLIGATORIO] Certificado de Alumno Regular del ano en curso; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Maipu",
+          "monto": "Aporte economico variable",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Maipu",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.municipalidadmaipu.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubb.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Alojamiento en hogares estudiantiles UBB para estudiantes de comunas alejadas.",
+          "descripcion_larga": "Beca de Residencia UBB con cupo en hogares estudiantiles de los campus Concepcion y Chillan. Requiere acreditacion socioeconomica y 60% mas vulnerable. Prioridad a estudiantes de primer ano y zonas rurales.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad del BÃ­o-BÃ­o",
+          "monto": "Cupo en hogar estudiantil",
+          "nem_minimo": "",
+          "nombre": "Beca de Residencia UBB",
+          "regiones": "VIII,XVI",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://ubiobio.cl/admision/Becas_y_Beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Alojamiento y alimentacion para estudiantes UBB.",
+          "descripcion_larga": "Beca Residencia UBB.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario de postulacion Departamento de Bienestar Estudiantil; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Residencia para cupo de alojamiento; [OBLIGATORIO] Documentacion de ingresos del grupo familiar",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad del Bio-Bio",
+          "monto": "Alojamiento y alimentacion",
+          "nem_minimo": "",
+          "nombre": "Beca de Residencia UBB",
+          "regiones": "VIII,XVI",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://admision.ubiobio.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "c813d491edc595bdd474efd08d3229ec4cbe4ed24b63c059a979a5164dd422b5",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+        "referencia": "registro original 6",
+        "campos": {
+          "descripcion": "Beca DIDECO Concon de libre disposicion.",
+          "descripcion_larga": "Monto de libre disposicion segun presupuesto municipal anual. RSH hasta 60%. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de residencia; [OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-02-01",
+          "institucion": "Municipalidad de Concon",
+          "monto": "Monto de libre disposicion segun presupuesto anual",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Concon",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://concon.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque35_muni.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Beca DIDECO Concon de $250.000. RSH 60%. Voluntariado posible.",
+          "descripcion_larga": "Aporte de $250.000 en cuota unica tras aprobacion del Concejo. RSH 60%. Posible exigencia de voluntariado por Oficina de la Juventud.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Certificado de Notas; [OBLIGATORIO] RSH domiciliado en Concon",
+          "fecha_cierre": "2026-04-15",
+          "fecha_inicio": "2026-03-15",
+          "institucion": "Municipalidad de Concon",
+          "monto": "$250.000 en cuota unica por Concejo Municipal",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Concon",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://concon.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "fecha_inicio",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 15",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Vina del Mar con RSH.",
+          "descripcion_larga": "Beca Municipal de Educacion Superior de Vina del Mar gestionada por la Direccion de Desarrollo Social. Otorga un aporte economico anual variable entre .000 y .000 para estudiantes que acrediten residencia en Vina del Mar y RSH dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Vina del Mar",
+          "monto": "Entre .000 y .000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 15",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Vina del Mar con RSH.",
+          "descripcion_larga": "Beca Municipal de Educacion Superior de Vina del Mar gestionada por la Direccion de Desarrollo Social. Otorga un aporte economico anual variable entre $100.000 y $300.000 para estudiantes que acrediten residencia en Vina del Mar y RSH dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia emitido por Junta de Vecinos; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Vina del Mar",
+          "monto": "Entre $100.000 y $300.000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal de Educacion Superior Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivina.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico anual para estudiantes de educacion superior residentes en Vina del Mar.",
+          "descripcion_larga": "Beca Municipal de Educacion Superior de Vina del Mar gestionada por la Direccion de Desarrollo Social. Otorga un aporte economico anual para estudiantes que acrediten residencia en Vina del Mar. Requiere RSH dentro del 60% mas vulnerable. Postulacion anual en fechas informadas por el municipio. Documentos: certificado RSH. certificado de residencia. matricula en ES.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de ViÃ±a del Mar",
+          "monto": "Aporte economico anual segun disponibilidad",
+          "nem_minimo": "",
+          "nombre": "Beca Municipal de Educacion Superior Vina del Mar",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "institucion",
+      "monto",
+      "nem_minimo",
+      "tipo_beca"
+    ]
+  },
+  {
+    "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubo.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 30% al 50% del arancel para estudiantes con NEM 5.5 y puntaje PAES destacado.",
+          "descripcion_larga": "Beca Excelencia Academica UBO con descuento escalonado segun puntaje PAES y NEM. Hasta 50% para mejores puntajes. Asignacion automatica al ser seleccionado via Admision Centralizada. Renovable con promedio 5.0. Documentos: resultados PAES. concentracion EM. matricula UBO.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Bernardo O'Higgins",
+          "monto": "30% a 50% descuento arancel",
+          "nem_minimo": "5.5",
+          "nombre": "Beca Excelencia Academica UBO",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ubo.cl/financiamiento/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Cubre 30-100% arancel por puntaje PAES.",
+          "descripcion_larga": "Beca Excelencia UBO.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de resultados PAES emitido por DEMRE",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Bernardo O'Higgins",
+          "monto": "30-100% arancel",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UBO",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ubo.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "nem_minimo",
+      "url"
+    ]
+  },
+  {
+    "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uvm.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Descuento del 20% del arancel para deportistas de selecciones UVM.",
+          "descripcion_larga": "Beca Deportiva UVM con 20% de descuento para estudiantes de selecciones deportivas. Documentos: certificacion deportiva. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad ViÃ±a del Mar",
+          "monto": "20% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UVM",
+          "regiones": "",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://www.uvm.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_docs.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Beca para deportistas UVM.",
+          "descripcion_larga": "Beca Deportiva UVM.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de vigencia IND/Federacion; [OBLIGATORIO] Evaluacion aprobada por DAE UVM",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Vina del Mar",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UVM",
+          "regiones": "V,RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.uvm.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto",
+      "regiones",
+      "url"
+    ]
+  },
+  {
+    "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Aporte economico municipal para estudiantes de educacion superior residentes en Algarrobo con acreditacion socioeconomica.",
+          "descripcion_larga": "Aporte Economico Municipal de Algarrobo 2026. Beneficio anual otorgado por la Ilustre Municipalidad de Algarrobo a traves de su Departamento Social. Monto variable entre .000 y .000 asignado segun evaluacion social individual y disponibilidad presupuestaria. Postulacion presencial en marzo y abril en Av. Penablanca 250.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular 2026; [OBLIGATORIO] Pagares que acrediten arancel; [OBLIGATORIO] Comprobante de arriendo o dividendo; [OBLIGATORIO] Liquidaciones de sueldo del grupo familiar; [OBLIGATORIO] Certificado de notas ultimo semestre; [OBLIGATORIO] Certificado de notas 4to ano medio; [OBLIGATORIO] Registro Social de Hogares de Algarrobo; [OBLIGATORIO] Formulario de postulacion del Departamento Social",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Entre .000 y .000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte Economico Municipal Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 5",
+        "campos": {
+          "descripcion": "Aporte economico municipal para estudiantes de educacion superior residentes en Algarrobo con acreditacion socioeconomica.",
+          "descripcion_larga": "Aporte Economico Municipal de Algarrobo 2026. Beneficio anual otorgado por la Ilustre Municipalidad de Algarrobo a traves de su Departamento Social. Monto variable entre $50.000 y $150.000 asignado segun evaluacion social individual y disponibilidad presupuestaria. Postulacion presencial en marzo y abril en Av. Penablanca 250.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular 2026; [OBLIGATORIO] Pagares que acrediten arancel; [OBLIGATORIO] Comprobante de arriendo o dividendo; [OBLIGATORIO] Liquidaciones de sueldo del grupo familiar; [OBLIGATORIO] Certificado de notas ultimo semestre; [OBLIGATORIO] Certificado de notas 4to ano medio; [OBLIGATORIO] Registro Social de Hogares de Algarrobo; [OBLIGATORIO] Formulario de postulacion del Departamento Social",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Entre $50.000 y $150.000 anuales segun evaluacion social",
+          "nem_minimo": "5.0",
+          "nombre": "Aporte Economico Municipal Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munialgarrobo.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Aporte economico municipal para estudiantes de educacion superior residentes en Algarrobo que acrediten situacion socioeconomica vulnerable. Postulacion presencial en marzo y abril de 2026.",
+          "descripcion_larga": "El Aporte Economico Municipal de Algarrobo es un beneficio anual otorgado por la Ilustre Municipalidad de Algarrobo a traves de su Departamento Social. Esta dirigido a estudiantes de educacion superior que acrediten residencia en la comuna y pertenezcan al 60% mas vulnerable segun el Registro Social de Hogares. El monto se asigna segun evaluacion social individual y disponibilidad presupuestaria. El proceso de postulacion se realiza de forma presencial durante marzo y abril de 2026 en Av. Penablanca 250 (Edificio Municipal).",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular del ano en curso; [OBLIGATORIO] Pagares o contratos que acrediten arancel mensual o anual; [OBLIGATORIO] Comprobante de arriendo o dividendo; [OBLIGATORIO] Liquidaciones de sueldo de integrantes del grupo familiar; [OBLIGATORIO] Certificado de notas ultimo semestre cursado; [OBLIGATORIO] Certificado de notas 4to ano medio; [OPCIONAL] Certificado de participante del subsistema Seguridades y Oportunidades; [OBLIGATORIO] Registro Social de Hogares de Algarrobo; [OBLIGATORIO] Formulario de postulacion del Departamento Social",
+          "fecha_cierre": "2026-04-30",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Algarrobo",
+          "monto": "Aporte economico segun evaluacion social",
+          "nem_minimo": "",
+          "nombre": "Aporte Economico Municipal Algarrobo",
+          "regiones": "V",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion",
+          "url": "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "nem_minimo",
+      "tipo_beca"
+    ]
+  },
+  {
+    "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uah.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Descuento del 25% del arancel para deportistas destacados que representen a la UAH.",
+          "descripcion_larga": "Beca Deportiva UAH con 25% de descuento del arancel semestral para estudiantes de selecciones deportivas oficiales. Documentos: certificacion deportiva. curriculum. cartola de alumno regular. Renovable con participacion activa y rendimiento.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Alberto Hurtado",
+          "monto": "25% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UAH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+        "referencia": "registro original 9",
+        "campos": {
+          "descripcion": "Beca para deportistas UAH.",
+          "descripcion_larga": "Beca Deportiva UAH.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial del IND o Federacion deportiva respectiva; [OBLIGATORIO] Evaluacion tecnica aprobada por el Centro Deportivo UAH",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Alberto Hurtado",
+          "monto": "25-50% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UAH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto",
+      "url"
+    ]
+  },
+  {
+    "candidato": "e32478188248c1e8d179052cb8d9f6ff40b424a6bd0eff7637228ce064656933",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ufro.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Servicio de almuerzo y cena en casinos UFRO para estudiantes con situacion socioeconomica vulnerable.",
+          "descripcion_larga": "Beca de Alimentacion UFRO con servicio de almuerzo y cena en casinos del campus Andres Bello. Requiere acreditacion socioeconomica vigente. Postulacion al momento de la matricula. Cupos limitados. Prioridad a estudiantes de primer ano y del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de La Frontera",
+          "monto": "Almuerzo y cena en casino universitario",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UFRO",
+          "regiones": "IX",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.ufro.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+        "referencia": "registro original 8",
+        "campos": {
+          "descripcion": "Almuerzo y cena para estudiantes UFRO.",
+          "descripcion_larga": "Beca Alimentacion UFRO.",
+          "documentos_requeridos": "[OBLIGATORIO] Ficha de evaluacion socioeconomica de la Direccion de Desarrollo Estudiantil (DDE); [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Documentacion formal de ingresos; [OBLIGATORIO] Certificado de Residencia (para cupo de alojamiento)",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de La Frontera",
+          "monto": "Almuerzo y cena en casino",
+          "nem_minimo": "",
+          "nombre": "Beca de Alimentacion UFRO",
+          "regiones": "IX",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Alimentacion",
+          "url": "https://admision.ufro.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Descuento del 25% para deportistas selecciones UCSH.",
+          "descripcion_larga": "Beca Deportiva UCSH con 25% de descuento para estudiantes de selecciones deportivas oficiales. Documentos: certificacion deportiva. cartola de alumno regular.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Catolica Silva Henriquez",
+          "monto": "25% descuento arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UCSH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ucsh.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+        "referencia": "registro original 11",
+        "campos": {
+          "descripcion": "Beca para deportistas UCSH.",
+          "descripcion_larga": "Beca Deportiva UCSH.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de vigencia emitido por IND o Federacion deportiva; [OBLIGATORIO] Curriculum deportivo visado por la DAE UCSH",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Catolica Silva Henriquez",
+          "monto": "10-40% arancel",
+          "nem_minimo": "",
+          "nombre": "Beca Deportiva UCSH",
+          "regiones": "RM",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.ucsh.cl/becas-y-beneficios/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Cubre el arancel o entrega monto en dinero para deportistas que ingresan por Admision Especial Talento Deportivo.",
+          "descripcion_larga": "Beca deportiva UTalca para estudiantes que ingresan por Admision Especial Talento Deportivo. Requiere acreditar curriculum deportivo relevante a nivel regional o superior y seguir representando a la universidad. Debe egresar de EM al menos 2 anos antes. Renovable con rendimiento y participacion deportiva activa.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "Cobertura de arancel o monto en dinero",
+          "nem_minimo": "",
+          "nombre": "Beca de Excelencia Deportiva",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+        "referencia": "registro original 4",
+        "campos": {
+          "descripcion": "Cubre arancel o entrega monto para deportistas Talento Deportivo UTalca.",
+          "descripcion_larga": "Beca Excelencia Deportiva UTalca.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial de la federacion deportiva respectiva; [OBLIGATORIO] Curriculum deportivo visado; [OBLIGATORIO] Evaluacion tecnica del Programa de Deportes",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad de Talca",
+          "monto": "Arancel o monto en dinero",
+          "nem_minimo": "",
+          "nombre": "Beca de Excelencia Deportiva",
+          "regiones": "VII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca Deportiva",
+          "url": "https://admision.utalca.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+        "referencia": "registro original 3",
+        "campos": {
+          "descripcion": "Beca DIDECO Cerrillos de aporte anual.",
+          "descripcion_larga": "Aporte anual para estudiantes en instituciones reconocidas por el Estado. RSH hasta 60%. Promedio minimo 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Cerrillos",
+          "monto": "Aporte anual por criterios sociales",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Cerrillos",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mcerrillos.cl/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+        "referencia": "registro original 7",
+        "campos": {
+          "descripcion": "Beca DIDECO Cerrillos de $150.000 via Cuenta RUT. IP. CFT o Ues.",
+          "descripcion_larga": "Aporte de $150.000 via Cuenta RUT. IP. CFT o universidades. Promedio 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Cartola RSH; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Concentracion de notas",
+          "fecha_cierre": "2026-03-31",
+          "fecha_inicio": "2026-03-01",
+          "institucion": "Municipalidad de Cerrillos",
+          "monto": "$150.000 deposito Cuenta RUT",
+          "nem_minimo": "5.0",
+          "nombre": "Beca Municipal Educacion Superior Cerrillos",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Mantencion Municipal",
+          "url": "https://www.mcerrillos.cl/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "monto"
+    ]
+  },
+  {
+    "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio de transporte o tarjeta bip para estudiantes de educacion superior residentes en Santiago.",
+          "descripcion_larga": "Beca de Transporte de la I. Municipalidad de Santiago. Otorga tarjeta bip con carga mensual o subsidio en dinero para transporte publico. Requiere residencia en Santiago. RSH dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia en Santiago; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-06-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Tarjeta bip o subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Transporte Escolar Superior Santiago",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munistgo.cl/fondos-y-becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio de transporte o tarjeta bip para estudiantes de educacion superior residentes en Santiago.",
+          "descripcion_larga": "Beca de Transporte de la I. Municipalidad de Santiago. Otorga tarjeta bip con carga mensual o subsidio en dinero para transporte publico. Requiere residencia en Santiago y RSH dentro del 60% mas vulnerable.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de Residencia en Santiago; [OBLIGATORIO] Cartola RSH actualizada; [OBLIGATORIO] Certificado de Alumno Regular; [OBLIGATORIO] Fotocopia de Cedula de Identidad",
+          "fecha_cierre": "2026-06-30",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Tarjeta bip o subsidio mensual de transporte",
+          "nem_minimo": "5.0",
+          "nombre": "Beca de Transporte Escolar Superior Santiago",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munistgo.cl/fondos-y-becas/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munistgo.csv",
+        "referencia": "registro original 2",
+        "campos": {
+          "descripcion": "Subsidio de transporte o tarjeta para estudiantes de educacion superior residentes en Santiago.",
+          "descripcion_larga": "Beca de Transporte de la Municipalidad de Santiago para estudiantes de educacion superior. Otorga tarjeta de transporte o subsidio mensual para desplazamiento a instituciones educativas. Requiere residencia en Santiago y RSH dentro del 60% mas vulnerable. Documentos: certificado RSH. certificado de residencia. matricula vigente.",
+          "documentos_requeridos": "[OBLIGATORIO] Formulario FUAS completado; [OBLIGATORIO] Registro Social de Hogares; [OBLIGATORIO] Matricula en educacion superior; [OBLIGATORIO] Resultados PAES",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Municipalidad de Santiago",
+          "monto": "Tarjeta de transporte o subsidio mensual",
+          "nem_minimo": "",
+          "nombre": "Beca de Transporte Escolar Superior Santiago",
+          "regiones": "RM",
+          "rsh_maximo": "60",
+          "tipo_beca": "Beca de Movilidad",
+          "url": "https://www.munistgo.cl/becas-y-fondos/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "fecha_cierre",
+      "monto",
+      "nem_minimo",
+      "url"
+    ]
+  },
+  {
+    "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+    "referencias": [
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsc.csv",
+        "referencia": "registro original 1",
+        "campos": {
+          "descripcion": "Descuento del 30% al 50% del arancel para estudiantes con NEM 5.8 y PAES destacado.",
+          "descripcion_larga": "Beca Excelencia Academica UCSC con descuento escalonado segun puntaje PAES y NEM 5.8 minimo. Asignacion automatica al ser seleccionado via Admision Centralizada. Renovable con promedio 5.0.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad CatÃ³lica de la SantÃ­sima ConcepciÃ³n",
+          "monto": "30% a 50% descuento arancel",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UCSC",
+          "regiones": "VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ucsc.cl/becas-y-beneficios/"
+        }
+      },
+      {
+        "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+        "referencia": "registro original 15",
+        "campos": {
+          "descripcion": "Beca PAES UCSC 15-100%.",
+          "descripcion_larga": "Beca Excelencia UCSC.",
+          "documentos_requeridos": "[OBLIGATORIO] Certificado oficial PAES emitido por DEMRE; [OBLIGATORIO] Certificado NEM",
+          "fecha_cierre": "2026-12-31",
+          "fecha_inicio": "2026-01-01",
+          "institucion": "Universidad Catolica de la Santisima Concepcion",
+          "monto": "15-100% arancel",
+          "nem_minimo": "5.8",
+          "nombre": "Beca Excelencia Academica UCSC",
+          "regiones": "VIII",
+          "rsh_maximo": "",
+          "tipo_beca": "Beca de Excelencia Academica",
+          "url": "https://admision.ucsc.cl/becas/"
+        }
+      }
+    ],
+    "campos_distintos": [
+      "descripcion",
+      "descripcion_larga",
+      "documentos_requeridos",
+      "institucion",
+      "monto",
+      "url"
+    ]
+  }
+]
