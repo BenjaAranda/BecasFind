@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 1 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 426 tienen revisión parcial documentada y 142 no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan 568 por cerrar, incluidas las revisadas parcialmente.
+Inventario reconstruido al 1 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 458 tienen revisión parcial documentada y 110 no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan 568 por cerrar, incluidas las revisadas parcialmente.
 
 La incorporación administrativa está terminada. «Pendiente» aquí significa confirmar identidad, convocatoria, requisitos, documentos y cobertura antes de publicar; no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -71,11 +71,11 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque20_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque21_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque22_muni.csv | 10 | 10 | 10 | 0 | 10 |
-| bloque23_muni.csv | 10 | 10 | 6 | 4 | 10 |
-| bloque24_muni.csv | 10 | 10 | 1 | 9 | 10 |
-| bloque25_muni.csv | 10 | 10 | 4 | 6 | 10 |
-| bloque26_muni.csv | 10 | 10 | 1 | 9 | 10 |
-| bloque27_muni.csv | 10 | 10 | 0 | 10 | 10 |
+| bloque23_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque24_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque25_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque26_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque27_muni.csv | 10 | 10 | 4 | 6 | 10 |
 | bloque28_muni.csv | 10 | 10 | 2 | 8 | 10 |
 | bloque29_muni.csv | 10 | 10 | 0 | 10 | 10 |
 | bloque30_muni.csv | 10 | 10 | 0 | 10 | 10 |
