@@ -1,5 +1,6 @@
 import csv
 import importlib.util
+import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -30,6 +31,14 @@ class EvidenceTest(unittest.TestCase):
             self.assertTrue(cases[0]['grupo_variantes'])
             self.assertIn('Calendario pendiente.',cases[0]['revisiones'][0]['extractos'][0])
             self.assertEqual(['https://example.org/beca'],reports['report.md']['urls'])
+            (folder/'variantes/conciliaciones.json').write_text(json.dumps([dict(candidato='abc',informe='decision.md')]),encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'Conciliación'):
+                module.inventory(folder)
+            (folder/'variantes/grupos.csv').write_text('candidato,campos_distintos,estado\nabc,monto,CONCILIADO\n',encoding='utf-8')
+            (folder/'variantes/decision.md').write_text('Decisión documentada.',encoding='utf-8')
+            cases, _ = module.inventory(folder)
+            self.assertEqual('variantes/decision.md',cases[0]['informe_conciliacion'])
+            self.assertEqual('PENDIENTE_CONFIRMACION_COMPLETA',cases[0]['estado'])
 
     def test_unsupported_source_url_never_requested(self):
         sources = module.check_sources(['file:///private/file'],1)

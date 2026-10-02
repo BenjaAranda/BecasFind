@@ -51,10 +51,16 @@ def inventory(folder):
     if any(not case['revisiones'] for case in cases.values()):
         raise ValueError('Candidata sin evidencia de revisión')
     variants = {row['candidato']:row for row in read_csv(folder/'variantes/grupos.csv')}
+    path = folder/'variantes/conciliaciones.json'
+    reconciliations = {entry['candidato']:entry for entry in json.loads(path.read_text(encoding='utf-8'))} if path.exists() else {}
+    for candidate, entry in reconciliations.items():
+        if candidate not in variants or variants[candidate].get('estado') != 'CONCILIADO' or not (folder/'variantes'/entry['informe']).is_file():
+            raise ValueError('Conciliación sin grupo cerrado o informe')
     for key, case in cases.items():
         case.update(estado='CONFIRMADA_COMPLETA' if case['estado']=='CONFIRMADA_COMPLETA' else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
                     estado_variantes=variants.get(key, {}).get('estado', 'SIN_GRUPO_REPETIDO'),
                     campos_historicos_distintos=variants.get(key, {}).get('campos_distintos', ''),
+                    informe_conciliacion='variantes/'+reconciliations[key]['informe'] if key in reconciliations else '',
                     accion='Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar.')
     path = folder/'confirmaciones_completas.json'
     for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
@@ -99,7 +105,7 @@ def main():
     output.mkdir(exist_ok=True)
     for filename, value in [('casos.json',cases),('informes.json',reports)]:
         (output/filename).write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
-    fields = ['candidato','nombre','institucion','estado','grupo_variantes','estado_variantes','campos_historicos_distintos','informes']
+    fields = ['candidato','nombre','institucion','estado','grupo_variantes','estado_variantes','campos_historicos_distintos','informe_conciliacion','informes']
     with (output/'casos.csv').open('w',encoding='utf-8',newline='') as stream:
         writer = csv.DictWriter(stream,fieldnames=fields,lineterminator='\n')
         writer.writeheader()

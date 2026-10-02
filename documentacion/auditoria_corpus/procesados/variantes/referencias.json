@@ -47,7 +47,21 @@
       "documentos_requeridos",
       "institucion"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+      "informe": "CONCILIACION_UCN_3.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "campos": {
+        "descripcion": "Distinción: asignación automática condicionada; ver informe.",
+        "descripcion_larga": "Distinción: asignación automática condicionada; ver informe.",
+        "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+        "institucion": "Normalizar Universidad Católica del Norte; conservar originales."
+      }
+    }
   },
   {
     "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
@@ -98,7 +112,23 @@
       "monto",
       "url"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Misma Deportiva UFT; condiciones oficiales y límites en informe.",
+      "informe": "CONCILIACION_UFT_DEPORTIVA.md",
+      "fuentes": [
+        "https://admision.finis.cl/becas-y-beneficios/",
+        "https://finis.cl/wp-content/uploads/2026/01/RBB-2025-pre-y-posgrado-FINAL.pdf"
+      ],
+      "campos": {
+        "descripcion": "Aplicar alcance deportivo oficial documentado en el informe.",
+        "descripcion_larga": "Retirar requisitos históricos no corroborados; preservar límites del informe.",
+        "documentos_requeridos": "Desconocidos; no certificar ninguna lista histórica.",
+        "monto": "Variable; porcentaje universal desconocido.",
+        "url": "Usar la página específica admision.finis.cl/becas-y-beneficios/."
+      }
+    }
   },
   {
     "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
@@ -201,7 +231,21 @@
       "documentos_requeridos",
       "institucion"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
+      "informe": "CONCILIACION_UV_2.md",
+      "fuentes": [
+        "https://admision.uv.cl/becas-y-beneficios"
+      ],
+      "campos": {
+        "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+        "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+        "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
+        "institucion": "Normalizar Universidad de Valparaíso; preservar originales."
+      }
+    }
   },
   {
     "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
@@ -252,7 +296,22 @@
       "institucion",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+      "informe": "CONCILIACION_UCN_3.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "campos": {
+        "descripcion": "Escolaridad Segura: alcance temporal del arancel; ver informe.",
+        "descripcion_larga": "Escolaridad Segura: alcance temporal del arancel; ver informe.",
+        "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+        "institucion": "Normalizar Universidad Católica del Norte; conservar originales.",
+        "monto": "Escolaridad Segura: alcance temporal del arancel; ver informe."
+      }
+    }
   },
   {
     "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
@@ -516,7 +575,22 @@
       "institucion",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+      "informe": "CONCILIACION_UCN_3.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "campos": {
+        "descripcion": "Alimentación: conservar alternativa beca o préstamo; ver informe.",
+        "descripcion_larga": "Alimentación: conservar alternativa beca o préstamo; ver informe.",
+        "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+        "institucion": "Normalizar Universidad Católica del Norte; conservar originales.",
+        "monto": "Alimentación: conservar alternativa beca o préstamo; ver informe."
+      }
+    }
   },
   {
     "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
@@ -1580,7 +1654,22 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe.",
+      "informe": "CONCILIACION_UANDES_2_Y_PAES_PENDIENTE.md",
+      "fuentes": [
+        "https://admision.uandes.cl/becas/beca-uandes-economica",
+        "https://admision.uandes.cl/docs/default-source/documentos-becas/beca-uandes-economica-documentos/Documentos-Beca-Economica-Uandes_2026.pdf"
+      ],
+      "campos": {
+        "descripcion": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe.",
+        "descripcion_larga": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe. Conservar límites documentados en el informe.",
+        "documentos_requeridos": "Sustituir listas históricas por anexo 2027 condicionado a situación personal; ver informe.",
+        "monto": "Intervalo 15 a 70%; porcentaje universal desconocido."
+      }
+    }
   },
   {
     "candidato": "80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068",
@@ -1835,7 +1924,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+      "informe": "CONCILIACION_UTALCA_3.md",
+      "fuentes": [
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "campos": {
+        "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
+        "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
+      }
+    }
   },
   {
     "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
@@ -1936,7 +2039,22 @@
       "institucion",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
+      "informe": "CONCILIACION_UV_2.md",
+      "fuentes": [
+        "https://contraloriainterna.uv.cl/attachments/CONTENIDO/CONTROL%20DE%20JURIDICIDAD/NORMATIVA%20UNIVERSITARIA/DEXE_N_4218_2016.pdf"
+      ],
+      "campos": {
+        "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+        "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+        "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
+        "institucion": "Normalizar Universidad de Valparaíso; preservar originales.",
+        "monto": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración."
+      }
+    }
   },
   {
     "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
@@ -2128,7 +2246,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "9b0b5f5bfbee7c03322f9b3723552f6e9cda60334929bcccc6e5bceb05a77bb9",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión.",
+      "informe": "CONCILIACION_UANDES_2_Y_PAES_PENDIENTE.md",
+      "fuentes": [
+        "https://admision.uandes.cl/becas/beca-hijo-funcionario"
+      ],
+      "campos": {
+        "descripcion": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión.",
+        "descripcion_larga": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión. Conservar límites documentados en el informe.",
+        "documentos_requeridos": "Desconocidos. Ninguna lista histórica corroborada; descartar lista relativa a hermanos.",
+        "monto": "50% condicionado; el 5% corresponde a admisión y no se suma al descuento."
+      }
+    }
   },
   {
     "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
@@ -2355,7 +2487,20 @@
       "descripcion_larga",
       "documentos_requeridos"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+      "informe": "CONCILIACION_UTALCA_3.md",
+      "fuentes": [
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "campos": {
+        "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante."
+      }
+    }
   },
   {
     "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
@@ -3261,7 +3406,22 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
+      "revisado": "2026-10-02",
+      "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+      "informe": "CONCILIACION_UTALCA_3.md",
+      "fuentes": [
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf",
+        "https://www.utalca.cl/noticias/utalca-apoya-los-deportistas-traves-de-nueva-beca-de-excelencia/"
+      ],
+      "campos": {
+        "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+        "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
+        "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
+      }
+    }
   },
   {
     "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
