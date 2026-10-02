@@ -47,6 +47,44 @@ class ProgressTest(unittest.TestCase):
             with self.assertRaises(ValueError): module.report(folder)
             self.assertFalse((folder/'avance').exists())
 
+    def confirmation(self, folder):
+        (folder/'complete.md').write_text('Alcance histórico confirmado', encoding='utf-8')
+        entry = dict(candidato='a', alcance='Convocatoria histórica cerrada', informe='complete.md', fuentes=['https://example.org/beca'],
+                     verificaciones={key:True for key in ['identidad','convocatoria','cobertura','requisitos','documentos','discrepancias']})
+        (folder/'confirmaciones_completas.json').write_text(json.dumps([entry]), encoding='utf-8')
+        return entry
+
+    def test_complete_confirmation_counts_one_identity_across_two_files(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            self.confirmation(folder)
+            totals = module.report(folder)
+            self.assertEqual(1, totals['confirmadas_completas'])
+            self.assertEqual(0, totals['revision_parcial'])
+            self.assertEqual(2, totals['pendientes_confirmacion'])
+            rows = module.read_csv(folder/'avance/por_registro.csv')
+            self.assertEqual(2, sum(row['estado']=='CONFIRMADA_COMPLETA' for row in rows))
+            self.assertTrue(all(row['pendiente_confirmacion']=='false' for row in rows if row['candidato']=='a'))
+
+    def test_incomplete_confirmation_cannot_reduce_pending_count(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            entry = self.confirmation(folder)
+            entry['verificaciones']['documentos'] = False
+            (folder/'confirmaciones_completas.json').write_text(json.dumps([entry]), encoding='utf-8')
+            with self.assertRaises(ValueError): module.report(folder)
+            self.assertFalse((folder/'avance').exists())
+
+    def test_confirmation_without_report_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            self.confirmation(folder)
+            (folder/'complete.md').unlink()
+            with self.assertRaises(ValueError): module.report(folder)
+
 
 if __name__ == '__main__':
     unittest.main()

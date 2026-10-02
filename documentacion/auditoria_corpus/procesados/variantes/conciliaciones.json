@@ -1,0 +1,28 @@
+[
+  {
+    "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo Premio Puntaje Máximo PAES; distinto de Premio Excelencia Primer Año",
+    "informe": "CONCILIACION_USM_2.md",
+    "fuentes": ["https://website.usm.cl/admision/becas/"],
+    "campos": {
+      "descripcion": "Usar alcance oficial: exención condicionada de arancel y matrícula por duración nominal; no 100% universal.",
+      "descripcion_larga": "Usar la tabla y requisitos de la ficha oficial 2026. El promedio universitario de renovación no es NEM. No asignar vigencia futura.",
+      "monto": "50, 75 o 100% según puntaje ponderado; importe y porcentaje universales desconocidos. Ambas expresiones históricas describen el intervalo, sin probar asignación.",
+      "documentos_requeridos": "Desconocidos. Ninguna lista histórica queda corroborada por la ficha leída; no elegir una por ser más extensa."
+    }
+  },
+  {
+    "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Misma beca Deportista Élite; distinta de Deportista en Formación Élite y Deportista Destacado",
+    "informe": "CONCILIACION_USM_2.md",
+    "fuentes": ["https://website.usm.cl/admision/becas/"],
+    "campos": {
+      "descripcion": "Usar beneficio oficial para el mayor puntaje de postulación por la vía Deportista Élite.",
+      "descripcion_larga": "Arancel y matrícula por duración nominal; egreso del año en curso o anterior y mayor puntaje de la vía. Renovación por excelencia del CSV no corroborada.",
+      "monto": "100% de arancel y matrícula por duración nominal; la expresión abreviada no representa otro beneficio.",
+      "documentos_requeridos": "Desconocidos. No certificar certificado médico ni evaluación DEFIDER ni RSH ni alumno regular por su inclusión en los CSV sin evidencia documental oficial."
+    }
+  }
+]

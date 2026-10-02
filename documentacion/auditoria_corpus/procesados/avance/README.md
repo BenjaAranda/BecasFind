@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 1 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 568 tienen revisión parcial documentada y 0 no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan 568 por cerrar, incluidas las revisadas parcialmente.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 566 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación editorial documentada para el alcance explícito de su informe: faltan 566 por cerrar. Una confirmación de convocatoria cerrada no autoriza publicarla como vigente.
 
 La incorporación administrativa está terminada. «Pendiente» aquí significa confirmar identidad, convocatoria, requisitos, documentos y cobertura antes de publicar; no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -34,7 +34,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_ubb.csv | 4 | 4 | 4 | 0 | 4 |
 | becas_ubo.csv | 4 | 4 | 4 | 0 | 4 |
 | becas_ucentral.csv | 4 | 4 | 4 | 0 | 4 |
-| becas_uchile.csv | 7 | 7 | 7 | 0 | 7 |
+| becas_uchile.csv | 7 | 7 | 6 | 0 | 6 |
 | becas_ucn.csv | 4 | 4 | 4 | 0 | 4 |
 | becas_ucsc.csv | 4 | 4 | 4 | 0 | 4 |
 | becas_ucsh.csv | 4 | 4 | 4 | 0 | 4 |
@@ -72,7 +72,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque21_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque22_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque23_muni.csv | 10 | 10 | 10 | 0 | 10 |
-| bloque24_muni.csv | 10 | 10 | 10 | 0 | 10 |
+| bloque24_muni.csv | 10 | 10 | 9 | 0 | 9 |
 | bloque25_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque26_muni.csv | 10 | 10 | 10 | 0 | 10 |
 | bloque27_muni.csv | 10 | 10 | 10 | 0 | 10 |

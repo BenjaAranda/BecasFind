@@ -18,6 +18,15 @@ def report(folder):
     with (folder/'indice.csv').open(encoding='utf-8', newline='') as stream:
         identities = {row['candidato']: row for row in csv.DictReader(stream)}
     identities.update({row['candidato']: row for row in repairs})
+    reconciled = {}
+    path = folder/'variantes/conciliaciones.json'
+    for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
+        candidate = entry['candidato']
+        if candidate not in groups or len(groups[candidate])<2 or candidate in reconciled:
+            raise ValueError('Conciliación desconocida, duplicada o sin referencias repetidas')
+        if not entry.get('fuentes') or not entry.get('decision_identidad') or not (folder/'variantes'/entry['informe']).is_file():
+            raise ValueError('Conciliación sin fuentes, identidad o informe')
+        reconciled[candidate] = entry
     output = folder/'variantes'
     output.mkdir(exist_ok=True)
     summary, details = [], []
@@ -26,9 +35,11 @@ def report(folder):
             continue
         fields = sorted(set().union(*(entry['campos'].keys() for entry in entries)))
         different = [field for field in fields if len({entry['campos'].get(field, '') for entry in entries}) > 1]
+        if candidate in reconciled and set(reconciled[candidate]['campos']) != set(different):
+            raise ValueError('Conciliación sin decisión para cada campo distinto')
         summary.append(dict(candidato=candidate, nombre=identities[candidate]['nombre'], institucion=identities[candidate]['institucion'],
-                            referencias=len(entries), campos_distintos='; '.join(different), estado='PENDIENTE_CONCILIACION'))
-        details.append(dict(candidato=candidate, referencias=entries, campos_distintos=different))
+                            referencias=len(entries), campos_distintos='; '.join(different), estado='CONCILIADO' if candidate in reconciled else 'PENDIENTE_CONCILIACION'))
+        details.append(dict(candidato=candidate, referencias=entries, campos_distintos=different, conciliacion=reconciled.get(candidate)))
     with (output/'grupos.csv').open('w', encoding='utf-8', newline='') as stream:
         fields = ['candidato', 'nombre', 'institucion', 'referencias', 'campos_distintos', 'estado']
         writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
@@ -37,7 +48,8 @@ def report(folder):
     (output/'referencias.json').write_text(json.dumps(details, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     totals = dict(grupos=len(summary), referencias=sum(row['referencias'] for row in summary),
                   referencias_adicionales=sum(row['referencias']-1 for row in summary),
-                  grupos_con_campos_distintos=sum(bool(row['campos_distintos']) for row in summary))
+                  grupos_con_campos_distintos=sum(bool(row['campos_distintos']) for row in summary),
+                  grupos_conciliados=len(reconciled), grupos_pendientes=len(summary)-len(reconciled))
     (output/'resumen.json').write_text(json.dumps(totals, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     return totals
 

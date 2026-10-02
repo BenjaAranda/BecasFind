@@ -34,12 +34,28 @@ def report(folder):
         if not (folder/entry['informe']).resolve().is_file():
             raise ValueError('Informe de revisión ausente')
         reviews[entry['candidato']].add(entry['informe'])
+    completed = {}
+    path = folder/'confirmaciones_completas.json'
+    for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
+        candidate = entry['candidato']
+        checks = entry.get('verificaciones', {})
+        if candidate not in reviews or candidate in completed:
+            raise ValueError('Confirmación desconocida, duplicada o sin revisión previa')
+        if set(checks) != {'identidad', 'convocatoria', 'cobertura', 'requisitos', 'documentos', 'discrepancias'} or any(value is not True for value in checks.values()):
+            raise ValueError('Confirmación con verificaciones incompletas')
+        if not entry.get('alcance') or not entry.get('fuentes') or not (folder/entry['informe']).is_file():
+            raise ValueError('Confirmación sin alcance o evidencia')
+        completed[candidate] = entry
     files, institutions = defaultdict(list), defaultdict(set)
     for row in rows:
         identity = identities[row['candidato']]
         row.update(identity)
-        row.update(estado='REVISION_PARCIAL' if row['candidato'] in reviews else 'SIN_REVISION_INDIVIDUAL',
-                   pendiente_confirmacion='true', informes='; '.join(sorted(reviews.get(row['candidato'], set()))))
+        candidate = row['candidato']
+        reports = set(reviews.get(candidate, set()))
+        if candidate in completed:
+            reports.add(completed[candidate]['informe'])
+        row.update(estado='CONFIRMADA_COMPLETA' if candidate in completed else 'REVISION_PARCIAL' if candidate in reviews else 'SIN_REVISION_INDIVIDUAL',
+                   pendiente_confirmacion='false' if candidate in completed else 'true', informes='; '.join(sorted(reports)))
         files[row['archivo']].append(row)
         institutions[row['institucion']].add(row['candidato'])
     if set(identities) != {r['candidato'] for r in rows}:
@@ -51,23 +67,23 @@ def report(folder):
     summary = []
     for filename, entries in sorted(files.items()):
         candidates = {r['candidato'] for r in entries}
-        partial = len(candidates & reviews.keys())
+        partial = len((candidates & reviews.keys())-completed.keys())
         summary.append(dict(archivo=Path(filename).name, registros=len(entries), becas_unicas=len(candidates),
-                            revision_parcial=partial, sin_revision_individual=len(candidates)-partial,
-                            confirmadas_completas=0, pendientes_confirmacion=len(candidates)))
+                            revision_parcial=partial, sin_revision_individual=len(candidates-reviews.keys()),
+                            confirmadas_completas=len(candidates & completed.keys()), pendientes_confirmacion=len(candidates-completed.keys())))
     totals = dict(archivos=len(files), registros=len(rows), becas_unicas=len(identities),
-                  revision_parcial=len(reviews), sin_revision_individual=len(identities)-len(reviews),
-                  confirmadas_completas=0, pendientes_confirmacion=len(identities))
+                  revision_parcial=len(reviews.keys()-completed.keys()), sin_revision_individual=len(identities)-len(reviews),
+                  confirmadas_completas=len(completed), pendientes_confirmacion=len(identities)-len(completed))
     write_csv(output/'por_archivo.csv', list(summary[0]), summary)
-    by_institution = [dict(institucion=name, becas_unicas=len(candidates), revision_parcial=len(candidates & reviews.keys()),
-                          sin_revision_individual=len(candidates-reviews.keys()), pendientes_confirmacion=len(candidates))
+    by_institution = [dict(institucion=name, becas_unicas=len(candidates), revision_parcial=len((candidates & reviews.keys())-completed.keys()),
+                          sin_revision_individual=len(candidates-reviews.keys()), confirmadas_completas=len(candidates & completed.keys()), pendientes_confirmacion=len(candidates-completed.keys()))
                       for name,candidates in sorted(institutions.items())]
     write_csv(output/'por_institucion.csv', list(by_institution[0]), by_institution)
     (output/'resumen.json').write_text(json.dumps(totals, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
     text = f'''# Avance editorial por archivo
 
-Inventario reconstruido al 1 de octubre de 2026: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. Ninguna tiene confirmación editorial completa: faltan {totals['pendientes_confirmacion']} por cerrar, incluidas las revisadas parcialmente.
+Inventario reconstruido al 2 de octubre de 2026: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. {totals['confirmadas_completas']} tienen confirmación editorial documentada para el alcance explícito de su informe: faltan {totals['pendientes_confirmacion']} por cerrar. Una confirmación de convocatoria cerrada no autoriza publicarla como vigente.
 
 La incorporación administrativa está terminada. «Pendiente» aquí significa confirmar identidad, convocatoria, requisitos, documentos y cobertura antes de publicar; no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 

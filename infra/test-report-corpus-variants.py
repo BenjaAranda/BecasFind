@@ -23,12 +23,19 @@ class VariantsTest(unittest.TestCase):
             for path, data in [('originales.jsonl', originals), ('reparaciones/reparados.jsonl', repairs)]:
                 (folder/path).write_text('\n'.join(json.dumps(row) for row in data), encoding='utf-8')
             (folder/'indice.csv').write_text('candidato,nombre,institucion\na,Beca A,Institución\nb,Beca B,Institución\n', encoding='utf-8')
-            self.assertEqual(dict(grupos=1, referencias=2, referencias_adicionales=1, grupos_con_campos_distintos=1), module.report(folder))
+            self.assertEqual(dict(grupos=1, referencias=2, referencias_adicionales=1, grupos_con_campos_distintos=1, grupos_conciliados=0, grupos_pendientes=1), module.report(folder))
             groups = json.loads((folder/'variantes/referencias.json').read_text(encoding='utf-8'))
             self.assertEqual(['monto'], groups[0]['campos_distintos'])
             self.assertEqual(['100', '200'], [row['campos']['monto'] for row in groups[0]['referencias']])
             with (folder/'variantes/grupos.csv').open(encoding='utf-8', newline='') as stream:
                 self.assertEqual('PENDIENTE_CONCILIACION', next(csv.DictReader(stream))['estado'])
+            (folder/'variantes/review.md').write_text('Identidad confirmada; monto histórico desconocido',encoding='utf-8')
+            entry = dict(candidato='a', fuentes=['https://example.org/beca'], decision_identidad='Mismo beneficio', informe='review.md', campos={})
+            (folder/'variantes/conciliaciones.json').write_text(json.dumps([entry]),encoding='utf-8')
+            with self.assertRaises(ValueError): module.report(folder)
+            entry['campos'] = {'monto':'DESCONOCIDO; no usar importes históricos como prueba'}
+            (folder/'variantes/conciliaciones.json').write_text(json.dumps([entry]),encoding='utf-8')
+            self.assertEqual(1,module.report(folder)['grupos_conciliados'])
 
 
 if __name__ == '__main__':

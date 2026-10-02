@@ -10,6 +10,6 @@ Los 59 grupos tienen al menos un campo distinto. Una diferencia puede ser de esc
 - `referencias.json`: valores de cada referencia y su archivo y registro de origen. Las filas malformadas sustituidas por reconstrucciones no se cuentan dos veces.
 - `resumen.json`: conteos reproducibles.
 
-Todos permanecen pendientes de conciliación. Para cerrar un grupo hay que identificar el beneficio oficial y su convocatoria; distinguir modalidades y años; contrastar los campos contradictorios; documentar qué referencias se conservan y cuáles describen otro beneficio. Los originales se mantienen intactos. Una conciliación no activa automáticamente la beca ni equivale por sí sola a confirmar todos sus requisitos.
+Dos grupos USM están conciliados: Puntaje Máximo PAES y Deportista Élite. Quedan 57 pendientes. `conciliaciones.json` y `CONCILIACION_USM_2.md` explican las decisiones de identidad y de cada campo discrepante; los documentos no corroborados quedan desconocidos. Para cerrar un grupo hay que identificar el beneficio oficial; distinguir modalidades y años; contrastar los campos contradictorios y documentar la decisión. Los originales se mantienen intactos. Una conciliación no activa automáticamente la beca ni equivale por sí sola a confirmar todos sus requisitos.
 
 Reproducir desde la raíz: `python infra/report-corpus-variants.py`.
