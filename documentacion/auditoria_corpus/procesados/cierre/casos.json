@@ -879,7 +879,7 @@
     "candidato": "9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56",
     "nombre": "Beca Padre o Madre Sostenedor",
     "institucion": "DUOC UC",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_duocuc.csv",
@@ -907,19 +907,47 @@
         "extractos": [
           "| `9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56` | Beca Padre o Madre Sostenedor | DUOC | Página sin fecha fija; documentos alternativos por evento. Reutilizar lectura completa del reglamento. | Vigencia de cláusulas históricas y alcance de excepciones. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56` | DUOC | Arancel semestral restante; sin matrícula ni deuda previa. | Regular; padre/madre sostenedor declarado fallecido o inválido durante estudios. | Reglas públicas; excepciones del reglamento histórico no certificadas como vigentes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Padre o Madre Sostenedor; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://www.duoc.cl/admision/financiamiento/becas-duocuc/"
+      ],
+      "beneficio": "Arancel semestral restante; sin matrícula ni deuda previa.",
+      "requisitos_principales": "Regular; padre/madre sostenedor declarado fallecido o inválido durante estudios.",
+      "limites": "Reglas públicas; excepciones del reglamento histórico no certificadas como vigentes. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350",
     "nombre": "Beca Hermano",
     "institucion": "DUOC UC",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_duocuc.csv",
@@ -947,13 +975,41 @@
         "extractos": [
           "| `e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350` | Beca Hermano | DUOC | Nacimiento propio y de hermanos en ficha; no exigir por el CSV cédulas y alumno regular documental. | Convocatoria semestral vigente; confirmar modificaciones del reglamento. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350` | DUOC | 20% segundo hermano; 50% tercero o posteriores; sin matrícula. | Hermano regular de semestre previo; matrícula y duración formal. | Renovación semestral solicitada; partida propia y de hermanos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Hermano; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://www.duoc.cl/admision/financiamiento/becas-duocuc/"
+      ],
+      "beneficio": "20% segundo hermano; 50% tercero o posteriores; sin matrícula.",
+      "requisitos_principales": "Hermano regular de semestre previo; matrícula y duración formal.",
+      "limites": "Renovación semestral solicitada; partida propia y de hermanos. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848",
@@ -986,6 +1042,13 @@
         "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
         "extractos": [
           "| `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848` | Beca Deportiva Duoc UC | DUOC | Mantener discrepancia federaciones y requisitos deportivos del informe previo; meses sin año. | Aclaración de modalidades y convocatoria fechada. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848`: Duoc Deportiva: alcance federaciones y requisitos difieren del reglamento.\n- `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`: Duoc Liceo Andes: compatibilidad del reglamento y página contradictoria.\n- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
       }
     ],
@@ -1026,6 +1089,13 @@
         "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
         "extractos": [
           "| `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b` | Beca Liceo Politécnico Andes | DUOC | No extender el beneficio a cualquier liceo técnico; incompatibilidad página/reglamento pendiente. | Aclarar compatibilidad y documentación del liceo específico. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`: Duoc Liceo Andes: compatibilidad del reglamento y página contradictoria.\n- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
       }
     ],
@@ -3185,7 +3255,7 @@
     "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
     "nombre": "Distincion Excelencia Académica UCN",
     "institucion": "Universidad Católica del Norte",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
@@ -3210,19 +3280,47 @@
         "extractos": [
           "| `01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582` | Distincion Excelencia Académica UCN | UCN | Ficha identifica promoción diciembre 2026; no cerrar con 31/12/2026 histórico. Grupo ya conciliado. | Calendario de matrícula y documentación; alcance de adjudicación. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582` | UCN | Arancel de primer año; reconocimiento si ya cubierto. | Mayor promedio CL/M1 por carrera; mínimo 900; NEM 6,4; promoción diciembre 2026. | Asignación automática condicionada. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion",
     "informe_conciliacion": "variantes/CONCILIACION_UCN_3.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Distincion Excelencia Académica UCN; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "beneficio": "Arancel de primer año; reconocimiento si ya cubierto.",
+      "requisitos_principales": "Mayor promedio CL/M1 por carrera; mínimo 900; NEM 6,4; promoción diciembre 2026.",
+      "limites": "Asignación automática condicionada. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc",
     "nombre": "Alojamiento UCN",
     "institucion": "Universidad Católica del Norte",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
@@ -3243,19 +3341,47 @@
         "extractos": [
           "| `5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc` | Alojamiento UCN | UCN | Evaluación académica, socioeconómica y psicológica; RSH 60 histórico sin respaldo en ficha. | Criterios detallados, cupos, documentos y calendario de residencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc` | UCN | Residencia en Antofagasta o Coquimbo. | Estudiante UCN; evaluación académica, socioeconómica y psicológica. | Cupos limitados; postulación en matrícula; sin RSH numérico confirmado. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Alojamiento UCN; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "beneficio": "Residencia en Antofagasta o Coquimbo.",
+      "requisitos_principales": "Estudiante UCN; evaluación académica, socioeconómica y psicológica.",
+      "limites": "Cupos limitados; postulación en matrícula; sin RSH numérico confirmado. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
     "nombre": "Alimentación UCN",
     "institucion": "Universidad Católica del Norte",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
@@ -3280,19 +3406,47 @@
         "extractos": [
           "| `2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69` | Alimentación UCN | UCN | Conservar alternativa beca o préstamo; no tratar siempre como subsidio. Grupo ya conciliado. | Modalidad asignada, contrato si préstamo, documentos y calendario. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69` | UCN | Almuerzo y cena como beca o préstamo. | Estudiante nuevo que lo requiera; postular en matrícula. | Cupos limitados; modalidad y condiciones de préstamo desconocidas. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto",
     "informe_conciliacion": "variantes/CONCILIACION_UCN_3.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Alimentación UCN; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "beneficio": "Almuerzo y cena como beca o préstamo.",
+      "requisitos_principales": "Estudiante nuevo que lo requiera; postular en matrícula.",
+      "limites": "Cupos limitados; modalidad y condiciones de préstamo desconocidas. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
     "nombre": "Plan de Escolaridad Segura UCN",
     "institucion": "Universidad Católica del Norte",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
@@ -3317,13 +3471,41 @@
         "extractos": [
           "| `160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66` | Plan de Escolaridad Segura UCN | UCN | Ingreso al plan en matrícula; no imponer lista documental del CSV. Grupo ya conciliado. | Condiciones del plan, trámite del siniestro y documentos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66` | UCN | Arancel desde fallecimiento hasta duración oficial más año de gracia. | Incorporación al plan en matrícula; fallecimiento del sostenedor. | Trámite del siniestro no confirmado. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto",
     "informe_conciliacion": "variantes/CONCILIACION_UCN_3.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Plan de Escolaridad Segura UCN; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+      ],
+      "beneficio": "Arancel desde fallecimiento hasta duración oficial más año de gracia.",
+      "requisitos_principales": "Incorporación al plan en matrícula; fallecimiento del sostenedor.",
+      "limites": "Trámite del siniestro no confirmado. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
@@ -4344,6 +4526,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -4370,6 +4559,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4382,7 +4578,7 @@
     "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
     "nombre": "Beca Deportiva UFT",
     "institucion": "Universidad Finis Terrae",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uft.csv",
@@ -4400,19 +4596,47 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d` | UFT | Rebaja de arancel; hasta dos becas completas divisibles; sin matrícula. | Mérito deportivo profesional/amateur; FUAS; contacto con Director de Deportes. | Asignación por comité; porcentaje individual desconocido; año mezclado en ficha. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
     "informe_conciliacion": "variantes/CONCILIACION_UFT_DEPORTIVA.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Deportiva UFT; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.finis.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "Rebaja de arancel; hasta dos becas completas divisibles; sin matrícula.",
+      "requisitos_principales": "Mérito deportivo profesional/amateur; FUAS; contacto con Director de Deportes.",
+      "limites": "Asignación por comité; porcentaje individual desconocido; año mezclado en ficha. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "b90cca7033047ac2c4805a0d5a1dbf92b8b413311a14c8c583b39a6367773980",
     "nombre": "Beca Alumni UFT",
     "institucion": "Universidad Finis Terrae",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uft.csv",
@@ -4426,13 +4650,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `b90cca7033047ac2c4805a0d5a1dbf92b8b413311a14c8c583b39a6367773980` | UFT | 10% del arancel anual. | Alumni de pregrado UFT que cursa segunda carrera. | Renovación/reglas generales; no equiparar con hijo de alumni. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b90cca7033047ac2c4805a0d5a1dbf92b8b413311a14c8c583b39a6367773980",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Alumni UFT; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.finis.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "10% del arancel anual.",
+      "requisitos_principales": "Alumni de pregrado UFT que cursa segunda carrera.",
+      "limites": "Renovación/reglas generales; no equiparar con hijo de alumni. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423",
@@ -5568,7 +5820,7 @@
     "candidato": "0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb",
     "nombre": "Beca Universidad de Talca",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5589,19 +5841,48 @@
         "extractos": [
           "| `0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb` | Beca Universidad de Talca | UTALCA | Art. 12: distinguir ranking de ingreso y renovación; no convertir posición relativa a puntaje fijo. | Calendario y documentación del proceso de asignación. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb` | UTALCA | Arancel/saldo o 22 UTM según otra cobertura. | Egreso previo; NEM 6,3; criterios de ranking y puntaje relativo. | Reglas art. 12 RU46/2026; no convertir UTM ni ranking a monto/puntaje fijo. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Universidad de Talca; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "Arancel/saldo o 22 UTM según otra cobertura.",
+      "requisitos_principales": "Egreso previo; NEM 6,3; criterios de ranking y puntaje relativo.",
+      "limites": "Reglas art. 12 RU46/2026; no convertir UTM ni ranking a monto/puntaje fijo. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd",
     "nombre": "Beca al mas alto puntaje PAES",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5622,19 +5903,48 @@
         "extractos": [
           "| `86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd` | Beca al mas alto puntaje PAES | UTALCA | Art. 13: primera rendición previa al ingreso; no sustituir por año de egreso. Revisada renovación y pasantía. | Resolución anual de pasantía; calendario y documentos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd` | UTALCA | Arancel/saldo o 22 UTM; pasantía condicionada. | Primera PAES año previo; mayor promedio CL/M1 entre matriculados. | Art. 13; pasantía sujeta a resolución propia. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca al mas alto puntaje PAES; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "Arancel/saldo o 22 UTM; pasantía condicionada.",
+      "requisitos_principales": "Primera PAES año previo; mayor promedio CL/M1 entre matriculados.",
+      "limites": "Art. 13; pasantía sujeta a resolución propia. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b",
     "nombre": "Beca Mejores Puntajes Regionales PAES",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5655,13 +5965,42 @@
         "extractos": [
           "| `d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b` | Beca Mejores Puntajes Regionales PAES | UTALCA | Art. 14: aplicar mejor promedio regional; no cinco mejores de cuatro regiones. Región del colegio de egreso. | Calendario y documentación del proceso de asignación. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b` | UTALCA | Arancel/saldo o 22 UTM según otra cobertura. | Primera PAES año previo; mejor promedio CL/M1 regional. | Art. 14; región del colegio; no cinco mejores de cuatro regiones. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Mejores Puntajes Regionales PAES; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "Arancel/saldo o 22 UTM según otra cobertura.",
+      "requisitos_principales": "Primera PAES año previo; mejor promedio CL/M1 regional.",
+      "limites": "Art. 14; región del colegio; no cinco mejores de cuatro regiones. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
@@ -5692,6 +6031,13 @@
         "extractos": [
           "| `ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb` | Beca de Excelencia Deportiva | UTALCA | Art. 15: conservar contradicción de antigüedad respecto de noticia 2023; grupo ya conciliado. | Aclaración oficial de antigüedad; convocatoria y documentos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb`: UTalca Deportiva: aclarar antigüedad de egreso contradictoria con noticia oficial anterior.\n- `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848`: Duoc Deportiva: alcance federaciones y requisitos difieren del reglamento.\n- `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`: Duoc Liceo Andes: compatibilidad del reglamento y página contradictoria.\n- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -5704,7 +6050,7 @@
     "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
     "nombre": "Beca Abate Molina",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5729,19 +6075,48 @@
         "extractos": [
           "| `b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8` | Beca Abate Molina | UTALCA | Art. 11: mantener alcance y excepciones del informe conciliado; no exigir certificado PAES histórico. | Calendario y documentos entregables; no confundir informes internos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8` | UTALCA | 75% del arancel anual. | Regular; hijo/cuidado judicial de funcionario; obligaciones financieras y académicas. | Art. 11; excepciones y renovación conservadas en informe anterior. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos",
     "informe_conciliacion": "variantes/CONCILIACION_UTALCA_3.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Abate Molina; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "75% del arancel anual.",
+      "requisitos_principales": "Regular; hijo/cuidado judicial de funcionario; obligaciones financieras y académicas.",
+      "limites": "Art. 11; excepciones y renovación conservadas en informe anterior. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf",
     "nombre": "Beca de Apoyo para Mujeres Ingenieras",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5762,19 +6137,48 @@
         "extractos": [
           "| `dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf` | Beca de Apoyo para Mujeres Ingenieras | UTALCA | Art. 5: separar ingreso, renovación y cambio a otra ingeniería con M2; conservar importe desconocido. | Resolución anual de monto/cupos; calendario y documentos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf` | UTALCA | Apoyo monetario mensual; importe desconocido. | Ingeniería con M2; ranking superior 30%; acreditación socioeconómica; sin otra mantención. | Art. 5; monto/cupos por resolución; no convertir ranking en NEM. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca de Apoyo para Mujeres Ingenieras; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "Apoyo monetario mensual; importe desconocido.",
+      "requisitos_principales": "Ingeniería con M2; ranking superior 30%; acreditación socioeconómica; sin otra mantención.",
+      "limites": "Art. 5; monto/cupos por resolución; no convertir ranking en NEM. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
     "nombre": "Beca de Arancel para Pedagogías",
     "institucion": "Universidad de Talca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
@@ -5799,19 +6203,48 @@
         "extractos": [
           "| `88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea` | Beca de Arancel para Pedagogías | UTALCA | Art. 7: mantener separación de arancel y apoyo mensual; grupo ya conciliado. | Calendario y documentos entregables del proceso. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea` | UTALCA | Exención de arancel no cubierto por otro beneficio. | Pedagogía; regular; ranking superior 30%; sin cobertura completa ajena. | Art. 7; distinto del apoyo mensual para pedagogías. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "variantes/CONCILIACION_UTALCA_3.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca de Arancel para Pedagogías; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.utalca.cl/becas/",
+        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+      ],
+      "beneficio": "Exención de arancel no cubierto por otro beneficio.",
+      "requisitos_principales": "Pedagogía; regular; ranking superior 30%; sin cobertura completa ajena.",
+      "limites": "Art. 7; distinto del apoyo mensual para pedagogías. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
     "nombre": "Premio Puntaje Maximo PAES",
     "institucion": "Universidad Técnica Federico Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
@@ -5829,19 +6262,47 @@
         "extractos": [
           "| `85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613` | Premio Puntaje Maximo PAES | Coberturas condicionadas por puntaje; no asignar 100 por ciento universal. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613` | USM | Arancel y matrícula: 50/75/100% según tabla; duración nominal. | Máximo PAES; egreso 2025; selección centralizada 2026. | Tabla ponderada condicionada; renovación exigida. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "variantes/CONCILIACION_USM_2.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Premio Puntaje Maximo PAES; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://website.usm.cl/admision/becas/"
+      ],
+      "beneficio": "Arancel y matrícula: 50/75/100% según tabla; duración nominal.",
+      "requisitos_principales": "Máximo PAES; egreso 2025; selección centralizada 2026.",
+      "limites": "Tabla ponderada condicionada; renovación exigida. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9",
     "nombre": "Premio a la Excelencia Primer Ano",
     "institucion": "Universidad Técnica Federico Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
@@ -5855,19 +6316,47 @@
         "extractos": [
           "| `a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9` | Premio a la Excelencia Primer Ano | Completar condiciones y cobertura de Premio Primer Año. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9` | USM | Arancel primer año: 50/75/100% según tabla; sin matrícula. | Egreso 2024/2025; selección 2026; no regular USM 2025. | Distinguir Premio Puntaje Máximo. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Premio a la Excelencia Primer Ano; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://website.usm.cl/admision/becas/"
+      ],
+      "beneficio": "Arancel primer año: 50/75/100% según tabla; sin matrícula.",
+      "requisitos_principales": "Egreso 2024/2025; selección 2026; no regular USM 2025.",
+      "limites": "Distinguir Premio Puntaje Máximo. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74",
     "nombre": "Beca Propedéutico Ex Umbra in Solem",
     "institucion": "Universidad Técnica Federico Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
@@ -5881,19 +6370,47 @@
         "extractos": [
           "| `b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74` | Beca Propedéutico Ex Umbra in Solem | Completar bases Propedéutico; no heredar condiciones de premio PAES. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74` | USM | Matrícula y arancel de dos primeros años. | Ingreso especial Propedéutico; primera preferencia USM. | Sin extensión. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Propedéutico Ex Umbra in Solem; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://website.usm.cl/admision/becas/"
+      ],
+      "beneficio": "Matrícula y arancel de dos primeros años.",
+      "requisitos_principales": "Ingreso especial Propedéutico; primera preferencia USM.",
+      "limites": "Sin extensión. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149",
     "nombre": "Beca Deportista Destacado USM",
     "institucion": "Universidad Técnica Federico Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
@@ -5907,13 +6424,41 @@
         "extractos": [
           "| `09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149` | Beca Deportista Destacado USM | Mantener modalidad Deportista Destacado separada; bases pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149` | USM | Arancel completo primer año. | Mayor ponderado de vía Deportista Destacado; egreso actual/anterior. | Sin extensión; no confundir con Élite. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Deportista Destacado USM; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://website.usm.cl/admision/becas/"
+      ],
+      "beneficio": "Arancel completo primer año.",
+      "requisitos_principales": "Mayor ponderado de vía Deportista Destacado; egreso actual/anterior.",
+      "limites": "Sin extensión; no confundir con Élite. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705",
@@ -5933,6 +6478,13 @@
         "extractos": [
           "| `342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705` | Beca Deportista en Formación Elite | Mantener modalidad Formación Elite separada; bases pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705`: USM Formación Élite: título primer año frente a duración nominal; cobertura contradictoria.\n- `ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb`: UTalca Deportiva: aclarar antigüedad de egreso contradictoria con noticia oficial anterior.\n- `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848`: Duoc Deportiva: alcance federaciones y requisitos difieren del reglamento.\n- `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`: Duoc Liceo Andes: compatibilidad del reglamento y página contradictoria.\n- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5945,7 +6497,7 @@
     "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
     "nombre": "Beca Deportista Elite USM",
     "institucion": "Universidad Técnica Federico Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
@@ -5963,13 +6515,41 @@
         "extractos": [
           "| `70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746` | Beca Deportista Elite USM | Mantener modalidad Elite separada; bases pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746` | USM | Arancel y matrícula completos por duración nominal. | Mayor ponderado de vía Deportista Élite; egreso actual/anterior. | No extender a Formación Élite. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "variantes/CONCILIACION_USM_2.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca Deportista Elite USM; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://website.usm.cl/admision/becas/"
+      ],
+      "beneficio": "Arancel y matrícula completos por duración nominal.",
+      "requisitos_principales": "Mayor ponderado de vía Deportista Élite; egreso actual/anterior.",
+      "limites": "No extender a Formación Élite. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9",
@@ -5989,6 +6569,13 @@
         "extractos": [
           "| `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9` | Beca de Apoyo Socioeconomico UV | La ficha de Honor no confirma este apoyo genérico. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6001,7 +6588,7 @@
     "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
     "nombre": "Beca de Honor Primer Lugar de Matrícula",
     "institucion": "Universidad de Valparaíso",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uv.csv",
@@ -6019,19 +6606,47 @@
         "extractos": [
           "| `158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a` | Beca de Honor Primer Lugar de Matrícula | 100 por ciento del arancel del primer año; cierre interno no confirmado. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a` | UV | Arancel completo de primer año. | Primero matriculado por ponderación; egreso previo; PAES ponderada 750. | No heredar fechas FUAS estatal. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion",
     "informe_conciliacion": "variantes/CONCILIACION_UV_2.md",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca de Honor Primer Lugar de Matrícula; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.uv.cl/becas-y-beneficios"
+      ],
+      "beneficio": "Arancel completo de primer año.",
+      "requisitos_principales": "Primero matriculado por ponderación; egreso previo; PAES ponderada 750.",
+      "limites": "No heredar fechas FUAS estatal. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020",
     "nombre": "Beca de Honor Distincion Trayectorias Educativas",
     "institucion": "Universidad de Valparaíso",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uv.csv",
@@ -6045,13 +6660,41 @@
         "extractos": [
           "| `12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020` | Beca de Honor Distincion Trayectorias Educativas | 100 por ciento del arancel del primer año; distinción ministerial; cierre pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "| `12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020` | UV | Arancel completo de primer año. | Distinción MINEDUC a trayectoria; egreso del año previo. | Distinto de primer lugar; no heredar fechas FUAS. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020",
+      "revisado": "2026-10-02",
+      "alcance": "Reglas públicas esenciales de Beca de Honor Distincion Trayectorias Educativas; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+      "fuentes": [
+        "https://admision.uv.cl/becas-y-beneficios"
+      ],
+      "beneficio": "Arancel completo de primer año.",
+      "requisitos_principales": "Distinción MINEDUC a trayectoria; egreso del año previo.",
+      "limites": "Distinto de primer lugar; no heredar fechas FUAS. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
@@ -6074,6 +6717,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870` | Beca de Excelencia Deportiva UV | Obtener ficha deportiva propia; no heredar requisitos de Honor. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
       }
     ],
@@ -14130,6 +14780,13 @@
         "informe_sha256": "77e41e92a7b1f7911e49b6179e0a847162c0cbcc3f9a7091761ae7eec0fc05f8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+        "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
+        "extractos": [
+          "- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
       }
     ],

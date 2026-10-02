@@ -1,0 +1,449 @@
+[
+  {
+    "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Premio Puntaje Maximo PAES; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "beneficio": "Arancel y matrícula: 50/75/100% según tabla; duración nominal.",
+    "requisitos_principales": "Máximo PAES; egreso 2025; selección centralizada 2026.",
+    "limites": "Tabla ponderada condicionada; renovación exigida. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Premio a la Excelencia Primer Ano; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "beneficio": "Arancel primer año: 50/75/100% según tabla; sin matrícula.",
+    "requisitos_principales": "Egreso 2024/2025; selección 2026; no regular USM 2025.",
+    "limites": "Distinguir Premio Puntaje Máximo. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Propedéutico Ex Umbra in Solem; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "beneficio": "Matrícula y arancel de dos primeros años.",
+    "requisitos_principales": "Ingreso especial Propedéutico; primera preferencia USM.",
+    "limites": "Sin extensión. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Deportista Destacado USM; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "beneficio": "Arancel completo primer año.",
+    "requisitos_principales": "Mayor ponderado de vía Deportista Destacado; egreso actual/anterior.",
+    "limites": "Sin extensión; no confundir con Élite. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Deportista Elite USM; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "beneficio": "Arancel y matrícula completos por duración nominal.",
+    "requisitos_principales": "Mayor ponderado de vía Deportista Élite; egreso actual/anterior.",
+    "limites": "No extender a Formación Élite. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Distincion Excelencia Académica UCN; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "beneficio": "Arancel de primer año; reconocimiento si ya cubierto.",
+    "requisitos_principales": "Mayor promedio CL/M1 por carrera; mínimo 900; NEM 6,4; promoción diciembre 2026.",
+    "limites": "Asignación automática condicionada. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Alojamiento UCN; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "beneficio": "Residencia en Antofagasta o Coquimbo.",
+    "requisitos_principales": "Estudiante UCN; evaluación académica, socioeconómica y psicológica.",
+    "limites": "Cupos limitados; postulación en matrícula; sin RSH numérico confirmado. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Alimentación UCN; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "beneficio": "Almuerzo y cena como beca o préstamo.",
+    "requisitos_principales": "Estudiante nuevo que lo requiera; postular en matrícula.",
+    "limites": "Cupos limitados; modalidad y condiciones de préstamo desconocidas. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Plan de Escolaridad Segura UCN; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "beneficio": "Arancel desde fallecimiento hasta duración oficial más año de gracia.",
+    "requisitos_principales": "Incorporación al plan en matrícula; fallecimiento del sostenedor.",
+    "limites": "Trámite del siniestro no confirmado. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Universidad de Talca; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "Arancel/saldo o 22 UTM según otra cobertura.",
+    "requisitos_principales": "Egreso previo; NEM 6,3; criterios de ranking y puntaje relativo.",
+    "limites": "Reglas art. 12 RU46/2026; no convertir UTM ni ranking a monto/puntaje fijo. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca al mas alto puntaje PAES; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "Arancel/saldo o 22 UTM; pasantía condicionada.",
+    "requisitos_principales": "Primera PAES año previo; mayor promedio CL/M1 entre matriculados.",
+    "limites": "Art. 13; pasantía sujeta a resolución propia. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Mejores Puntajes Regionales PAES; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "Arancel/saldo o 22 UTM según otra cobertura.",
+    "requisitos_principales": "Primera PAES año previo; mejor promedio CL/M1 regional.",
+    "limites": "Art. 14; región del colegio; no cinco mejores de cuatro regiones. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Abate Molina; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "75% del arancel anual.",
+    "requisitos_principales": "Regular; hijo/cuidado judicial de funcionario; obligaciones financieras y académicas.",
+    "limites": "Art. 11; excepciones y renovación conservadas en informe anterior. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca de Apoyo para Mujeres Ingenieras; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "Apoyo monetario mensual; importe desconocido.",
+    "requisitos_principales": "Ingeniería con M2; ranking superior 30%; acreditación socioeconómica; sin otra mantención.",
+    "limites": "Art. 5; monto/cupos por resolución; no convertir ranking en NEM. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca de Arancel para Pedagogías; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "beneficio": "Exención de arancel no cubierto por otro beneficio.",
+    "requisitos_principales": "Pedagogía; regular; ranking superior 30%; sin cobertura completa ajena.",
+    "limites": "Art. 7; distinto del apoyo mensual para pedagogías. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Padre o Madre Sostenedor; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://www.duoc.cl/admision/financiamiento/becas-duocuc/"
+    ],
+    "beneficio": "Arancel semestral restante; sin matrícula ni deuda previa.",
+    "requisitos_principales": "Regular; padre/madre sostenedor declarado fallecido o inválido durante estudios.",
+    "limites": "Reglas públicas; excepciones del reglamento histórico no certificadas como vigentes. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Hermano; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://www.duoc.cl/admision/financiamiento/becas-duocuc/"
+    ],
+    "beneficio": "20% segundo hermano; 50% tercero o posteriores; sin matrícula.",
+    "requisitos_principales": "Hermano regular de semestre previo; matrícula y duración formal.",
+    "limites": "Renovación semestral solicitada; partida propia y de hermanos. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca de Honor Primer Lugar de Matrícula; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "beneficio": "Arancel completo de primer año.",
+    "requisitos_principales": "Primero matriculado por ponderación; egreso previo; PAES ponderada 750.",
+    "limites": "No heredar fechas FUAS estatal. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca de Honor Distincion Trayectorias Educativas; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "beneficio": "Arancel completo de primer año.",
+    "requisitos_principales": "Distinción MINEDUC a trayectoria; egreso del año previo.",
+    "limites": "Distinto de primer lugar; no heredar fechas FUAS. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UFT; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.finis.cl/becas-y-beneficios/"
+    ],
+    "beneficio": "Rebaja de arancel; hasta dos becas completas divisibles; sin matrícula.",
+    "requisitos_principales": "Mérito deportivo profesional/amateur; FUAS; contacto con Director de Deportes.",
+    "limites": "Asignación por comité; porcentaje individual desconocido; año mezclado en ficha. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "b90cca7033047ac2c4805a0d5a1dbf92b8b413311a14c8c583b39a6367773980",
+    "revisado": "2026-10-02",
+    "alcance": "Reglas públicas esenciales de Beca Alumni UFT; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
+    "fuentes": [
+      "https://admision.finis.cl/becas-y-beneficios/"
+    ],
+    "beneficio": "10% del arancel anual.",
+    "requisitos_principales": "Alumni de pregrado UFT que cursa segunda carrera.",
+    "limites": "Renovación/reglas generales; no equiparar con hijo de alumni. Fecha de inicio/cierre y documentos no corroborados: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  }
+]
