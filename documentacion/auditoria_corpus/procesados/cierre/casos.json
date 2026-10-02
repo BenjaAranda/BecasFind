@@ -900,6 +900,13 @@
         "extractos": [
           "Candidato `9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56`. La norma añade exclusión por enfermedad preexistente si el suceso ocurre durante los primeros seis meses desde incorporación contractual. Permite cambio de carrera con tiempo restante más dos semestres. La página pública no detalla esas cláusulas. Contrastar su aplicación actual antes de certificar. Defunción o resolución COMPIN son documentos alternativos según causal; no exigir ambos indiscriminadamente."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `9186989cdc0eeb796b1e07fcc7974635dc99b73711268875e6441848a017be56` | Beca Padre o Madre Sostenedor | DUOC | Página sin fecha fija; documentos alternativos por evento. Reutilizar lectura completa del reglamento. | Vigencia de cláusulas históricas y alcance de excepciones. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -932,6 +939,13 @@
         "informe_sha256": "a49b03752f58e3a9e8b56449287f8d278724fc230f0ab2255388151eb5784ef5",
         "extractos": [
           "Candidato `e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350`. Coinciden descuentos semestrales 20% para segundo y 50% para tercero o posterior, sin matrícula; certificados de nacimiento propio y hermanos. La norma admite medio hermanos y ajusta/extingue el beneficio si dejan de ser alumnos regulares. Renovación a solicitud. Cierre anual desconocido."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350` | Beca Hermano | DUOC | Nacimiento propio y de hermanos en ficha; no exigir por el CSV cédulas y alumno regular documental. | Convocatoria semestral vigente; confirmar modificaciones del reglamento. |"
         ]
       }
     ],
@@ -966,6 +980,13 @@
         "extractos": [
           "Candidato `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848`. La norma distingue selección institucional y federación COCh. Exige PPS 4,5 o ausencia de reprobaciones; selección exige asistencia superior a 75%. La página resume federación genérica y notas/asistencia sin umbrales: precisar alcance actual antes de certificarlos. Sus ventanas mayo/octubre no indican año."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848` | Beca Deportiva Duoc UC | DUOC | Mantener discrepancia federaciones y requisitos deportivos del informe previo; meses sin año. | Aclaración de modalidades y convocatoria fechada. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -998,6 +1019,13 @@
         "informe_sha256": "a49b03752f58e3a9e8b56449287f8d278724fc230f0ab2255388151eb5784ef5",
         "extractos": [
           "Candidato `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`. La norma exige solicitar previamente beneficios externos accesibles; aplicar descuento al saldo y acreditar ante sede. Declara compatibilidad con otros beneficios Duoc; la página obliga a elegir uno. Contradicción relevante sin resolver. No certificar calendario ni documentos específicos desconocidos.\n\nEstas cuatro candidatas siguen pendientes de confirmación completa. No hubo importación ni activaciones. Los originales permanecen intactos. Las omisiones del resumen no se tratan automáticamente como derogaciones de la norma."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b` | Beca Liceo Politécnico Andes | DUOC | No extender el beneficio a cualquier liceo técnico; incompatibilidad página/reglamento pendiente. | Aclarar compatibilidad y documentación del liceo específico. |"
         ]
       }
     ],
@@ -3175,6 +3203,13 @@
         "extractos": [
           "| `01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582` | Distincion Excelencia Académica UCN | Arancel primer año; ficha cita promoción diciembre 2026; convocatoria pendiente. |"
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582` | Distincion Excelencia Académica UCN | UCN | Ficha identifica promoción diciembre 2026; no cerrar con 31/12/2026 histórico. Grupo ya conciliado. | Calendario de matrícula y documentación; alcance de adjudicación. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3200,6 +3235,13 @@
         "informe_sha256": "ff99ea5b32a3319894cbded68074aec9c8436f5de00195b0d11f6581b7454928",
         "extractos": [
           "| `5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc` | Alojamiento UCN | Residencias en Antofagasta/Coquimbo con cupos; no asumir dinero mensual. |"
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc` | Alojamiento UCN | UCN | Evaluación académica, socioeconómica y psicológica; RSH 60 histórico sin respaldo en ficha. | Criterios detallados, cupos, documentos y calendario de residencia. |"
         ]
       }
     ],
@@ -3231,6 +3273,13 @@
         "extractos": [
           "| `2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69` | Alimentación UCN | Almuerzo/cena; puede ser beca o préstamo; no afirmar gratuidad universal. |"
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69` | Alimentación UCN | UCN | Conservar alternativa beca o préstamo; no tratar siempre como subsidio. Grupo ya conciliado. | Modalidad asignada, contrato si préstamo, documentos y calendario. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3260,6 +3309,13 @@
         "informe_sha256": "ff99ea5b32a3319894cbded68074aec9c8436f5de00195b0d11f6581b7454928",
         "extractos": [
           "| `160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66` | Plan de Escolaridad Segura UCN | Protección condicionada al fallecimiento del sostenedor; completar bases. |"
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66` | Plan de Escolaridad Segura UCN | UCN | Ingreso al plan en matrícula; no imponer lista documental del CSV. Grupo ya conciliado. | Condiciones del plan, trámite del siniestro y documentos. |"
         ]
       }
     ],
@@ -3611,6 +3667,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `4ec422a73e32828f499f9369a5dec1c0650c452d108038e35c2ebc64121c32ce` | Beca Excelencia Académica UDD | UDD | Excelencia genérica no equivale automáticamente a NEM del catálogo 2027. | Identidad y decreto anual; no certificar 30–100% ni NEM 6 del CSV. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3636,6 +3699,13 @@
         "informe_sha256": "77e41e92a7b1f7911e49b6179e0a847162c0cbcc3f9a7091761ae7eec0fc05f8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `e160388cb3ab618f94f9986e15ec9182d86bd4bb57a08f70245ecfd81aaf30fd` | Beca Deportiva UDD | UDD | No fusionar Deportiva genérica con programa de destacados solo por temática. | Identidad y decreto anual; cobertura histórica no respaldada. |"
         ]
       }
     ],
@@ -3667,6 +3737,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4` | Beca Socioeconomica UDD | UDD | Artículo 11 sobre becas especiales no certifica alias Socioeconómica ni sus dos listas de documentos. | Decreto o bases específicas para resolver los seis campos variantes. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3692,6 +3769,13 @@
         "informe_sha256": "77e41e92a7b1f7911e49b6179e0a847162c0cbcc3f9a7091761ae7eec0fc05f8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `92e4ad7a0560c3a831af47c3412ee193c26746839a7b4fbc7e949183226b0c26` | Beca Alumni UDD | UDD | No trasladar beneficios de postgrado a pregrado por el nombre Alumni. | Identificar beneficio de pregrado y decreto anual. |"
         ]
       }
     ],
@@ -3719,6 +3803,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `e553144c6bf6ba33aed11e5686df067afdf6b8b07b621e2519997b7e7385953e` | Beca Hijo Funcionario UDD | UDD | Reglamento general no respalda porcentaje particular del histórico. | Convenio o decreto específico de hijos de funcionarios. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3744,6 +3835,13 @@
         "informe_sha256": "77e41e92a7b1f7911e49b6179e0a847162c0cbcc3f9a7091761ae7eec0fc05f8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `635cf6ce0b82c6c433f06f0106aaf7517e423bc0b35ab1d61cd78675582db316` | Beca Convenio Empresas UDD | UDD | Convenio genérico no permite publicar rango sin empresa ni condiciones. | Convenio identificable, vigencia, beneficiarios y cobertura. |"
         ]
       }
     ],
@@ -3771,6 +3869,13 @@
         "extractos": [
           "| `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` | Beca de Arancel UdeC | Nombre genérico: no equiparar a Enrique Molina. |"
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` | Beca de Arancel UdeC | UDEC | Nombre genérico no identifica una única beca del catálogo; no elegir un decreto por cobertura parecida. | Identificar programa concreto y decreto antes de trasladar requisitos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3797,6 +3902,13 @@
         "extractos": [
           "| `eb3131c5f603c2fd6a2c622cd438316e0b7209aeec659094ecd19c8ae4dbac17` | Beca Excelencia Académica UdeC | Identificar beca concreta; no heredar requisitos de otra modalidad. |"
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `eb3131c5f603c2fd6a2c622cd438316e0b7209aeec659094ecd19c8ae4dbac17` | Beca Excelencia Académica UdeC | UDEC | No equiparar Excelencia Académica genérica con beneficios especializados del catálogo. | Acreditar equivalencia oficial del nombre y convocatoria. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3822,6 +3934,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9` | Beca de Residencia UdeC | No equiparar automáticamente a Residencia Doctor Virginio Gómez. |"
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9` | Beca de Residencia UdeC | UDEC | Residencia genérica no prueba identidad con Doctor Virginio Gómez; no trasladar calendario ni cuota. | Identificar modalidad exacta; respaldo del aporte mensual histórico. |"
         ]
       }
     ],
@@ -5463,6 +5582,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `0a02b2df6da5597d8ec9c067459445350c4803bae2712383d143f3cd6c9e89eb` | Beca Universidad de Talca | UTALCA | Art. 12: distinguir ranking de ingreso y renovación; no convertir posición relativa a puntaje fijo. | Calendario y documentación del proceso de asignación. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5489,6 +5615,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `86fa1bddee4e6717eb5f2df8145c52012de651aea6c4f39803dadb9b4056c8bd` | Beca al mas alto puntaje PAES | UTALCA | Art. 13: primera rendición previa al ingreso; no sustituir por año de egreso. Revisada renovación y pasantía. | Resolución anual de pasantía; calendario y documentos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5514,6 +5647,13 @@
         "informe_sha256": "8db3ce566d2b77e1c1154b21eb9a5ba432b8ec361896def3edfa4056997cd2e1",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `d2f9106c7c0aaaa3ee55b9bec8ec20678eb6c2e9f4323beb9054bb2a2833b53b` | Beca Mejores Puntajes Regionales PAES | UTALCA | Art. 14: aplicar mejor promedio regional; no cinco mejores de cuatro regiones. Región del colegio de egreso. | Calendario y documentación del proceso de asignación. |"
         ]
       }
     ],
@@ -5545,6 +5685,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb` | Beca de Excelencia Deportiva | UTALCA | Art. 15: conservar contradicción de antigüedad respecto de noticia 2023; grupo ya conciliado. | Aclaración oficial de antigüedad; convocatoria y documentos. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -5575,6 +5722,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8` | Beca Abate Molina | UTALCA | Art. 11: mantener alcance y excepciones del informe conciliado; no exigir certificado PAES histórico. | Calendario y documentos entregables; no confundir informes internos. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -5600,6 +5754,13 @@
         "informe_sha256": "8db3ce566d2b77e1c1154b21eb9a5ba432b8ec361896def3edfa4056997cd2e1",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `dfc3cda73ae8d20a3249f8d89f76ac2951a81aef98192dd0ee005144b2e418bf` | Beca de Apoyo para Mujeres Ingenieras | UTALCA | Art. 5: separar ingreso, renovación y cambio a otra ingeniería con M2; conservar importe desconocido. | Resolución anual de monto/cupos; calendario y documentos. |"
         ]
       }
     ],
@@ -5630,6 +5791,13 @@
         "informe_sha256": "8db3ce566d2b77e1c1154b21eb9a5ba432b8ec361896def3edfa4056997cd2e1",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea` | Beca de Arancel para Pedagogías | UTALCA | Art. 7: mantener separación de arancel y apoyo mensual; grupo ya conciliado. | Calendario y documentos entregables del proceso. |"
         ]
       }
     ],
@@ -13585,6 +13753,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `62a17a7e1af79715acfef1329490e40e539ffea6464182646bbe6f0b8e483a2f` | Beca Puntaje PAES UDD | UDD | No sustituir PAES genérica por Puntaje Ponderado sin equivalencia y tabla aplicable. | Identidad, modalidad, sede y decreto anual. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13610,6 +13785,13 @@
         "informe_sha256": "77e41e92a7b1f7911e49b6179e0a847162c0cbcc3f9a7091761ae7eec0fc05f8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "../REVISION_LOTE_26_FUENTES_COMPARTIDAS.md",
+        "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
+        "extractos": [
+          "| `5c2217c92aeccbb5588efa22b6db5a131263bf24ba315209985d6c41689561b6` | Beca Deportista Destacado UDD | UDD | Programa actual distinto de vía directa; no conservar 30–50% histórico ni imponer prueba física. | Equivalencia histórica; aclarar semestre y condiciones contradictorias. |"
         ]
       }
     ],
