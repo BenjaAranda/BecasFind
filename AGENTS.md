@@ -305,7 +305,9 @@ test: add unit tests for BecaService
 chore: update Maven dependencies
 ```
 
-**Formato**: `<type>: <descripción en inglés, imperativo, minúscula>`
+**Formato**: `<type>: <descripción en español, imperativo, minúscula>`
+
+Actualización autorizada el 2 de octubre de 2026: escribir los mensajes de los nuevos commits en español. Conservar los prefijos Conventional Commits (`feat`, `fix`, `docs`, etc.).
 
 ---
 
