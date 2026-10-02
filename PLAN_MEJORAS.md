@@ -12,6 +12,8 @@ Objetivo acordado: frontend en Vercel, backend y PostgreSQL 17 en Oracle Always 
 
 PAES UANDES necesita separar modalidades por tipo de colegio antes de resolver el grupo. Excelencia UFT requiere identificar el beneficio interno frente al ministerial. Las contradicciones de calendario UANDES y antigüedad de egreso deportiva UTalca siguen expresas; no autorizan activaciones. Los informes de los trece grupos conciliados se enlazan por candidata. Validación del lote: dieciséis pruebas Python y compilación Maven con Java 17 aprobadas.
 
+Duoc: leído visualmente el reglamento escaneado completo de ocho páginas y contrastadas sus cuatro candidatas. Persisten alcance deportivo, compatibilidad de Liceo Politécnico Andes y vigencia de cláusulas históricas por aclarar; no se cuenta confirmación nueva ni se importó. [Contraste individual](documentacion/auditoria_corpus/REVISION_DUOC_REGLAMENTO_2019.md).
+
 ## Hecho: no volver a abrir sin un hallazgo nuevo
 
 - [x] Santiago/La Serena: cuatro grupos de variantes (13 referencias) contrastados parcialmente. Un registro de Santiago corregido con aporte único de $450.000 CLP para 2026, sin activarlo; otros 572 preservados. Estos cuatro grupos siguen pendientes; el total vigente es 46 después de conciliar trece grupos. [Evidencia](documentacion/auditoria_corpus/REVISION_SANTIAGO_LASERENA.md).

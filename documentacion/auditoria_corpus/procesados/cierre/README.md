@@ -6,7 +6,7 @@ La solicitud es cerrar las 568 candidatas y los 59 grupos. Este directorio permi
 
 `informe_conciliacion` enlaza la decisión de los trece grupos cerrados. El generador comprueba que exista el informe y que el grupo esté conciliado; conserva pendiente la confirmación completa de la beca cuando corresponda.
 
-`informes.json` conserva hashes y URLs de los 24 informes de la primera pasada. `acceso_fuentes.json` registra la comprobación del 2 de octubre de 2026 de sus 438 enlaces: 396 respuestas HTTP; 18 errores HTTP y 24 errores de acceso. Un HTTP 200 puede ser una plantilla vacía, un bloqueo o contenido de otro beneficio. Esta comprobación no sustituye lectura ni confirma requisitos, vigencia o identidad. Un error tampoco demuestra que la beca haya desaparecido.
+`informes.json` conserva hashes y URLs de 25 informes: los 24 de la primera pasada y el contraste del reglamento escaneado Duoc. `acceso_fuentes.json` conserva la comprobación del 2 de octubre de 2026 de los 438 enlaces de los primeros 24: 396 respuestas HTTP; 18 errores HTTP y 24 errores de acceso. Un HTTP 200 puede ser una plantilla vacía, un bloqueo o contenido de otro beneficio. Esta comprobación no sustituye lectura ni confirma requisitos, vigencia o identidad. Un error tampoco demuestra que la beca haya desaparecido.
 
 Las fuentes nuevas de las confirmaciones se documentan en sus informes y evidencias de importación. La comprobación masiva es una fotografía de acceso, no se sobrescribe por volver a generar el inventario sin `--comprobar-acceso`.
 
