@@ -19,6 +19,8 @@
 
 Actualización del 1 de octubre de 2026 por la petición de incorporar `03_procesados`: conservar originales y añadir candidatos como archivo administrativo inactivo. CSV admite `estado_activa=false` y `solo_crear=true`; este último omite existentes sin sobrescribirlos. Una URL desconocida puede quedar vacía únicamente en un registro explícitamente inactivo; cualquier URL presente debe cumplir la política de enlace específico. La incorporación histórica no certifica datos ni autoriza publicarlos sin revisión oficial.
 
+Actualización autorizada el 2 de octubre de 2026: el usuario pide confirmar lo esencial y reducir el coste de revisión. P04 admite `CONFIRMADA_ESENCIAL` cuando se verifican identidad, fuente oficial específica, beneficio y requisitos principales. No exige reconstruir documentos, calendario anual ni leer reglamentos completos cuando la ficha oficial basta para ese alcance. Guardar desconocidos y límites explícitos; las contradicciones que afectan identidad, cobertura o elegibilidad impiden confirmar ese campo. Este estado cierra la revisión esencial, no equivale a la confirmación exhaustiva anterior ni autoriza activar una beca sin cierre confirmado. Conservar las dos confirmaciones completas y distinguir ambos conteos; no inventar información ni certificar por HTTP.
+
 ## 1. Estructura del Monorepo
 
 ```

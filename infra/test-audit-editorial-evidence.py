@@ -40,6 +40,14 @@ class EvidenceTest(unittest.TestCase):
             self.assertEqual('variantes/decision.md',cases[0]['informe_conciliacion'])
             self.assertEqual('PENDIENTE_CONFIRMACION_COMPLETA',cases[0]['estado'])
 
+            progress = folder/'avance/por_registro.csv'
+            progress.write_text(progress.read_text(encoding='utf-8').replace('REVISION_PARCIAL','CONFIRMADA_ESENCIAL'),encoding='utf-8')
+            (folder/'confirmaciones_esenciales.json').write_text(json.dumps([dict(candidato='abc',informe='report.md',limites='Fecha desconocida; no activar')]),encoding='utf-8')
+            cases, _ = module.inventory(folder)
+            self.assertEqual('CONFIRMADA_ESENCIAL',cases[0]['estado'])
+            self.assertIn('No activar sin cierre confirmado',cases[0]['accion'])
+            self.assertNotIn('confirmacion', cases[0])
+
     def test_unsupported_source_url_never_requested(self):
         sources = module.check_sources(['file:///private/file'],1)
         self.assertEqual('URL_NO_ADMITIDA',sources[0]['estado'])

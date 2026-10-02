@@ -57,7 +57,7 @@ def inventory(folder):
         if candidate not in variants or variants[candidate].get('estado') != 'CONCILIADO' or not (folder/'variantes'/entry['informe']).is_file():
             raise ValueError('Conciliación sin grupo cerrado o informe')
     for key, case in cases.items():
-        case.update(estado='CONFIRMADA_COMPLETA' if case['estado']=='CONFIRMADA_COMPLETA' else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
+        case.update(estado=case['estado'] if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL') else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
                     estado_variantes=variants.get(key, {}).get('estado', 'SIN_GRUPO_REPETIDO'),
                     campos_historicos_distintos=variants.get(key, {}).get('campos_distintos', ''),
                     informe_conciliacion='variantes/'+reconciliations[key]['informe'] if key in reconciliations else '',
@@ -66,6 +66,13 @@ def inventory(folder):
     for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
         cases[entry['candidato']]['confirmacion'] = entry
         cases[entry['candidato']]['accion'] = 'Conservar alcance documentado; no activar convocatorias cerradas ni extender la certificación a otro año.'
+    path = folder/'confirmaciones_esenciales.json'
+    for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
+        case = cases[entry['candidato']]
+        if case['estado'] != 'CONFIRMADA_ESENCIAL' or not (folder/entry['informe']).is_file():
+            raise ValueError('Confirmación esencial sin estado validado o informe')
+        case['confirmacion_esencial'] = entry
+        case['accion'] = 'Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.'
     return list(cases.values()), {name:{key:value for key,value in report.items() if key!='texto'} for name,report in reports.items()}
 
 

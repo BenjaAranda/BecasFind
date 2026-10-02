@@ -85,6 +85,33 @@ class ProgressTest(unittest.TestCase):
             (folder/'complete.md').unlink()
             with self.assertRaises(ValueError): module.report(folder)
 
+    def test_essential_closes_review_without_inventing_calendar_or_documents(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            entry = dict(candidato='a', alcance='Reglas públicas; vigencia desconocida', beneficio='Arancel parcial',
+                         requisitos_principales='Matrícula en la institución', limites='Documentos y cierre desconocidos; no activar',
+                         informe='review.md', fuentes=['https://example.org/beca'],
+                         verificaciones={key:True for key in ['identidad','fuente_oficial','cobertura','requisitos_principales']})
+            path = folder/'confirmaciones_esenciales.json'
+            path.write_text(json.dumps([entry]),encoding='utf-8')
+            totals = module.report(folder)
+            self.assertEqual(1, totals['confirmadas_esenciales'])
+            self.assertEqual(0, totals['confirmadas_completas'])
+            self.assertEqual(2, totals['pendientes_confirmacion'])
+            rows = module.read_csv(folder/'avance/por_registro.csv')
+            self.assertEqual(2, sum(row['estado']=='CONFIRMADA_ESENCIAL' for row in rows))
+            entry['verificaciones']['identidad'] = False
+            path.write_text(json.dumps([entry]),encoding='utf-8')
+            with self.assertRaises(ValueError): module.report(folder)
+            entry['verificaciones']['identidad'] = True
+            entry['fuentes'] = ['https://example.org/']
+            path.write_text(json.dumps([entry]),encoding='utf-8')
+            with self.assertRaises(ValueError): module.report(folder)
+            entry['fuentes'] = ['https://example.org/beca']
+            path.write_text(json.dumps([entry,entry]),encoding='utf-8')
+            with self.assertRaises(ValueError): module.report(folder)
+
 
 if __name__ == '__main__':
     unittest.main()
