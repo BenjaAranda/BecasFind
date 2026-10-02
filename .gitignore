@@ -38,9 +38,12 @@ frontend/test-results/
 frontend/playwright-report/
 
 # Temporary
+graphify-out/
 *.tmp
 *.bak
 *.sw?
 ~$*
 *.png
 *.pptx
+
+frontend/performance-report/

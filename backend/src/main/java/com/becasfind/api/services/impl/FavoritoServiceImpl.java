@@ -10,6 +10,9 @@ import com.becasfind.api.repositories.BecaRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.FavoritoService;
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.LockModeType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -20,6 +23,9 @@ import java.util.stream.Collectors;
 
 @Service
 public class FavoritoServiceImpl implements FavoritoService {
+
+    @PersistenceContext
+    private EntityManager entityManager;
 
     private static final Logger log = LoggerFactory.getLogger(FavoritoServiceImpl.class);
 
@@ -38,8 +44,10 @@ public class FavoritoServiceImpl implements FavoritoService {
     @Override
     @Transactional
     public void guardar(String email, Long idBeca) {
-        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
-                .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
+        Usuario usuario = lockUsuario(email);
+        Beca beca = becaRepository.findById(idBeca)
+                .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada"));
+        entityManager.refresh(beca, LockModeType.PESSIMISTIC_READ);
 
         if (becaFavoritaRepository.existsByUsuarioIdUsuarioAndBecaIdBeca(usuario.getIdUsuario(), idBeca)) {
             log.debug("La beca {} ya es favorita del usuario {}", idBeca, email);
@@ -48,8 +56,8 @@ public class FavoritoServiceImpl implements FavoritoService {
 
         BecaFavorita favorita = new BecaFavorita();
         favorita.setId(new BecaFavoritaId(usuario.getIdUsuario(), idBeca));
-        favorita.setUsuario(usuarioRepository.getReferenceById(usuario.getIdUsuario()));
-        favorita.setBeca(becaRepository.getReferenceById(idBeca));
+        favorita.setUsuario(usuario);
+        favorita.setBeca(beca);
         becaFavoritaRepository.save(favorita);
 
         log.info("Beca {} guardada como favorita para usuario {}", idBeca, email);
@@ -58,10 +66,36 @@ public class FavoritoServiceImpl implements FavoritoService {
     @Override
     @Transactional
     public void eliminar(String email, Long idBeca) {
-        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
-                .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
+        Usuario usuario = lockUsuario(email);
 
         becaFavoritaRepository.deleteByUsuarioIdUsuarioAndBecaIdBeca(usuario.getIdUsuario(), idBeca);
+    }
+
+    @Override
+    @Transactional
+    public void eliminar(String email, java.util.UUID publicId) {
+        eliminar(email, resolvePublicId(publicId));
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public boolean isFavorito(String email, java.util.UUID publicId) {
+        return isFavorito(email, resolvePublicId(publicId));
+    }
+
+    private Long resolvePublicId(java.util.UUID publicId) {
+        return becaRepository.findByPublicId(publicId)
+                .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada")).getIdBeca();
+    }
+
+    private Usuario lockUsuario(String email) {
+        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
+                .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
+        entityManager.refresh(usuario, LockModeType.PESSIMISTIC_WRITE);
+        if (!Boolean.TRUE.equals(usuario.getActivo())) {
+            throw new EntityNotFoundException("Usuario no encontrado");
+        }
+        return usuario;
     }
 
     @Override
@@ -74,11 +108,20 @@ public class FavoritoServiceImpl implements FavoritoService {
                 .stream()
                 .map(fav -> {
                     Beca b = fav.getBeca();
+                    var coverage = new com.becasfind.api.models.dtos.CoberturaDTO();
+                    coverage.setTipo(b.getCoberturaTipo());
+                    coverage.setImporte(b.getCoberturaImporte());
+                    coverage.setMoneda(b.getCoberturaMoneda());
+                    coverage.setPeriodicidad(b.getCoberturaPeriodicidad());
+                    coverage.setPorcentaje(b.getCoberturaPorcentaje());
                     return BecaDTO.builder()
+                            .estadoActiva(b.getEstadoActiva())
                             .idBeca(b.getIdBeca())
+                            .publicId(b.getPublicId())
                             .nombre(b.getNombre())
                             .descripcionCorta(b.getDescripcionCorta())
                             .montoCobertura(b.getMontoCobertura())
+                            .cobertura(coverage)
                             .fechaCierrePostulacion(b.getFechaCierrePostulacion())
                             .urlOficial(b.getUrlOficial())
                             .nombreInstitucion(b.getInstitucion() != null ? b.getInstitucion().getNombre() : null)

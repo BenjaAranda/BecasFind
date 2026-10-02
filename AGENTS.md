@@ -6,6 +6,21 @@
 
 ---
 
+## Decisiones autorizadas el 30 de septiembre de 2026
+
+- Restaurar azul y blanco con estética institucional, tipografía sans-serif y controles sobrios. Mantener accesibilidad y navegación pública. Integrar Gmail SMTP gratuito para recuperación mediante spring-boot-starter-mail (versión administrada por Spring Boot); secretos externos. Ejecutar estas correcciones secuencialmente; no iniciar despliegue.
+
+- Acceso gratuito y sin sesión al buscador/detalle. Sesión solo para perfil/favoritos/recomendaciones guardadas y administración. No contratar planes ni comprar dominios sin autorización.
+
+- P06–P11 pueden ejecutarse secuencialmente por la petición «termina todas las tareas hasta antes del inicio del despliegue». P12–P14 no están autorizadas en esta entrega.
+- P01–P05 pueden ejecutarse secuencialmente en esta entrega por petición explícita del usuario.
+- Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
+- La política «Cero Vacíos» queda reemplazada: no inferir requisitos, documentos ni fechas. Conservar desconocidos; excluir de la búsqueda vigente las becas sin cierre confirmado. No convertir fechas históricas en confirmadas por su apariencia.
+
+Actualización del 1 de octubre de 2026 por la petición de incorporar `03_procesados`: conservar originales y añadir candidatos como archivo administrativo inactivo. CSV admite `estado_activa=false` y `solo_crear=true`; este último omite existentes sin sobrescribirlos. Una URL desconocida puede quedar vacía únicamente en un registro explícitamente inactivo; cualquier URL presente debe cumplir la política de enlace específico. La incorporación histórica no certifica datos ni autoriza publicarlos sin revisión oficial.
+
+Actualización autorizada el 2 de octubre de 2026: el usuario pide confirmar lo esencial y reducir el coste de revisión. P04 admite `CONFIRMADA_ESENCIAL` cuando se verifican identidad, fuente oficial específica, beneficio y requisitos principales. No exige reconstruir documentos, calendario anual ni leer reglamentos completos cuando la ficha oficial basta para ese alcance. Guardar desconocidos y límites explícitos; las contradicciones que afectan identidad, cobertura o elegibilidad impiden confirmar ese campo. Este estado cierra la revisión esencial, no equivale a la confirmación exhaustiva anterior ni autoriza activar una beca sin cierre confirmado. Conservar las dos confirmaciones completas y distinguir ambos conteos; no inventar información ni certificar por HTTP.
+
 ## 1. Estructura del Monorepo
 
 ```
@@ -54,10 +69,12 @@ BecasFind/
 | Frontend | React + Vite | 19.2.5 |
 | CSS | Tailwind CSS + @tailwindcss/vite | 4.3.0 |
 | Librerías Front | React Router DOM v7, Axios, lucide-react, jwt-decode | — |
-| Base de Datos | MySQL | 8.0 |
-| Servidor | Render (Cloud Platform) | — |
-| Proxy Web | Nginx / Render | — |
-| Despliegue | Render + Dockerfile | — |
+| Base de Datos | PostgreSQL | 17 |
+| Servidor | Oracle Cloud Always Free (opción acordada) | — |
+| Proxy Web | Nginx | — |
+| Despliegue | Vercel (frontend) + Oracle y Dockerfile (backend) | — |
+
+Actualización autorizada el 29 de septiembre de 2026: conservar PostgreSQL y preparar Vercel + Oracle. Desarrollo local: activar explícitamente el perfil `dev`. Producción: perfil `prod`, secretos externos, esquema instalado previamente, `ddl-auto: validate` y sin carga automática de datos. Las verificaciones de encoding deben usar `encode(convert_to(nombre, 'UTF8'), 'hex')` en PostgreSQL; los ejemplos históricos MySQL con `HEX`, `UNHEX` y `RLIKE` no deben ejecutarse en este motor.
 
 ---
 
@@ -252,6 +269,8 @@ El backend traduce a Sort.by() y lo incluye en PageRequest
 Default: fechaCierrePostulacion ASC (más próximas a vencer primero)
 ```
 
+Actualización autorizada el 30 de septiembre de 2026 para completar FASES 1/2/5 en esta petición: conservar `montoCobertura` como texto original y añadir `cobertura` estructurada. Tipos: MONETARIA, PORCENTUAL, NO_MONETARIA, DESCONOCIDA. Importe NUMERIC(18,2), moneda ISO 4217 y periodicidad UNICA/MENSUAL/SEMESTRAL/ANUAL/DESCONOCIDA cuando sean conocidos; porcentaje NUMERIC(5,2) entre 0 y 100. No inferir importes ni convertir porcentajes a dinero. Los órdenes monetarios agrupan primero por moneda y periodicidad; comparan importe numérico dentro del grupo, dejan importes desconocidos al final y desempatan por ID. No implican equivalencia entre grupos. Respuestas JSON representan decimales como cadenas para conservar precisión. La precisión NEM no cambia. Esta autorización de varias fases se limita a esta petición; el protocolo general sigue vigente.
+
 ### BR-RECOMENDACION (Auto-Match por Perfil)
 ```
 GET /api/becas/recomendadas → carga PerfilEstudiante del usuario autenticado
@@ -288,7 +307,9 @@ test: add unit tests for BecaService
 chore: update Maven dependencies
 ```
 
-**Formato**: `<type>: <descripción en inglés, imperativo, minúscula>`
+**Formato**: `<type>: <descripción en español, imperativo, minúscula>`
+
+Actualización autorizada el 2 de octubre de 2026: escribir los mensajes de los nuevos commits en español. Conservar los prefijos Conventional Commits (`feat`, `fix`, `docs`, etc.).
 
 ---
 
@@ -318,7 +339,7 @@ Antes de dar por completada CUALQUIER fase, el agente debe:
 - **Doble Descripción**: Cada beca debe mapear dos columnas:
   - `descripcion` (corta): Resumen directo de máximo 2 líneas (qué financia y a quién va dirigida).
   - `descripcion_larga`: Texto exhaustivo con renovaciones, exclusiones, documentos requeridos típicos y proceso interno.
-- **Cero Vacíos**: Deducir requisitos de RSH, NEM o PAES usando conocimiento del sistema educativo chileno. Si la fecha de cierre es ambigua, usar por defecto `2026-12-31` para visibilidad continua.
+- **Cero Vacíos**: Conservar RSH, NEM, PAES, documentos y fechas desconocidos cuando no exista evidencia oficial. No usar fechas de cierre por defecto; una beca sin cierre confirmado queda fuera de los resultados vigentes.
 - **CSV sin comas en texto**: Los campos `descripcion` y `descripcion_larga` NO deben contener comas (`,`). Usar punto (`.`) o punto y coma (`;`) como separadores internos. Los campos que requieran comas deben ir entrecomillados (`"`).
 - **Política de URLs Profundas (Deep Linking)**: Queda estrictamente prohibido usar dominios raíz (ej. `www.universidad.cl/`). Toda beca debe apuntar a la subpágina pública específica donde se detallan sus requisitos (portal de Admisión, DAE, o Asuntos Estudiantiles). Si el sistema web dificulta encontrarla, usar `site:universidad.cl "becas"` en Google.
 - **Documentación Requerida Obligatoria**: Toda beca debe incluir en su `descripcion_larga` una sección `DOCUMENTOS REQUERIDOS:` con cada ítem precedido por `[OBLIGATORIO]` o `[OPCIONAL]`. El frontend parsea automáticamente estos marcadores y los muestra en una sección visual separada con indicadores de color (rojo = obligatorio, ámbar = opcional).

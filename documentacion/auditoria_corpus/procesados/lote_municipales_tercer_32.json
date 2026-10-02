@@ -1,0 +1,322 @@
+[
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior",
+    "institucion": "Municipalidad de Estacion Central",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "8230d6b883e4118885bbef8aab0d0f4d9a65c25b320074aaa4cdc1ef0edde829",
+    "nombre": "Beca de Educación Superior San Javier",
+    "institucion": "Municipalidad de San Javier",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "a7d1e5aeb120374260ecc498d9749c4ea2aaf290f514061c50ba21ffd28e85b0",
+    "nombre": "Beca Municipal Constitucion",
+    "institucion": "Municipalidad de Constitucion",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "efaad4251a4538b5d56c39d92950d5b6b839c7cc38c3883785a290cc92136703",
+    "nombre": "Beca Municipal Educación Superior Cauquenes",
+    "institucion": "Municipalidad de Cauquenes",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399",
+    "nombre": "Beca Municipal para Estudios Superiores Talcahuano",
+    "institucion": "Municipalidad de Talcahuano",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "16658e3c9dbbb7e11563ea1966d986ee7723be0a23fe14876830ff240c0c671b",
+    "nombre": "Beca Municipal de Educación Superior Rengo",
+    "institucion": "Municipalidad de Rengo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "ecec85e3fcec3c2300080131f2fe657701ff13bc3db3968e55a151adfd69eedc",
+    "nombre": "Beca Municipal de Educación Superior San Pedro de la Paz",
+    "institucion": "Municipalidad de San Pedro de la Paz",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Lota",
+    "institucion": "Municipalidad de Lota",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452",
+    "nombre": "Beca Municipal Educación Superior Aysen",
+    "institucion": "Municipalidad de Puerto Aysen",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "7bd59e5f3a91602b9a21dee25c39608ea0628df60bc230aea7250a5010e6d619",
+    "nombre": "Beca Municipal de Educación Superior La Cisterna",
+    "institucion": "Municipalidad de La Cisterna",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "fbbfe080a443b13056d8ea8c84e1a8bc67e25555f0543322179ca263e4f7ce0a",
+    "nombre": "Beca Municipal de Educación Superior Frutillar",
+    "institucion": "Municipalidad de Frutillar",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "0c7d609c72fc361501e101e307c3212b5002b02e8797efdc1d9116aa55f3697d",
+    "nombre": "Beca Municipal Educación Superior Huechuraba",
+    "institucion": "Municipalidad de Huechuraba",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+    "nombre": "Beca Municipal Educación Superior Cerrillos",
+    "institucion": "Municipalidad de Cerrillos",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
+    "nombre": "Beca Municipal Educación Superior La Pintana",
+    "institucion": "Municipalidad de La Pintana",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "dd49dcb2f2121f804fb53b15658a8cc81bd53d80df7694ac6f82b2937b59442c",
+    "nombre": "Beca Municipal Educación Superior Penco",
+    "institucion": "Municipalidad de Penco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "44d43d4b95af6bd191b116173c0c428bf40965cc20d10ba9f5aaa652a8aa0ef2",
+    "nombre": "Beca Municipal Educación Superior Llanquihue",
+    "institucion": "Municipalidad de Llanquihue",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
+    "nombre": "Beca Municipal Educación Superior San Ramon",
+    "institucion": "Municipalidad de San Ramon",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
+    "nombre": "Beca Municipal de Educación Superior Tocopilla",
+    "institucion": "Municipalidad de Tocopilla",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",
+    "nombre": "Beca Municipal Educación Superior PAC",
+    "institucion": "Municipalidad de Pedro Aguirre Cerda",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8",
+    "nombre": "Beca Municipal de Educación Superior Lo Espejo",
+    "institucion": "Municipalidad de Lo Espejo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "c813d491edc595bdd474efd08d3229ec4cbe4ed24b63c059a979a5164dd422b5",
+    "nombre": "Beca Municipal Educación Superior Concon",
+    "institucion": "Municipalidad de Concon",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "3a88821771f00fba0a8dd15954cd0baa4ebca62b0cc1c7baf727b28e1b9165ce",
+    "nombre": "Beca Municipal de Educación Superior La Ligua",
+    "institucion": "Municipalidad de La Ligua",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "38f0ee9c27d75d1036b0fad65fa5e3d4c3ceb98327a56087fbfa528843b42024",
+    "nombre": "Beca Municipal Educación Superior Illapel",
+    "institucion": "Municipalidad de Illapel",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
+    "nombre": "Beca Municipal Educación Superior Caldera",
+    "institucion": "Municipalidad de Caldera",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",
+    "nombre": "Beca Municipal Educación Superior Quinta Normal",
+    "institucion": "Municipalidad de Quinta Normal",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6",
+    "nombre": "Beca Municipal de Educación Superior Salamanca",
+    "institucion": "Municipalidad de Salamanca",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "562bf410b8ecba207698ab4f822528607ecca24c1864a78bd4f582e6346a6123",
+    "nombre": "Beca Educación Superior Lo Barnechea",
+    "institucion": "Municipalidad de Lo Barnechea",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "7ecb41780801fc76ae8f0422dc040ca1c205ffd7b3ea0a62914e914336195151",
+    "nombre": "Beca Municipal de Educación Superior El Bosque",
+    "institucion": "Municipalidad de El Bosque",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+    "nombre": "Beca Municipal Educación Superior Padre Hurtado",
+    "institucion": "Municipalidad de Padre Hurtado",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2",
+    "nombre": "Beca Municipal Educación Superior Mejillones",
+    "institucion": "Municipalidad de Mejillones",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "73bb66c800351cbfee020f307be46393c24a3515d48b04b146c490860ef6216b",
+    "nombre": "Beca Municipal de Educación Superior Vicuna",
+    "institucion": "Municipalidad de Vicuna",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque16_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "619a5925a144ba46c8153a0644b5086159f7d0b0548e65b989c38a7fe93a6427",
+    "nombre": "Beca Municipal Educación Superior San Jose de Maipo",
+    "institucion": "Municipalidad de San Jose de Maipo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  }
+]

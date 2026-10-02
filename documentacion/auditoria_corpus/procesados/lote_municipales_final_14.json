@@ -1,0 +1,142 @@
+[
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "148f90ce4ef8c71176854884de3ac9125fb79725b3d274daa64bdd28404bc5ba",
+    "nombre": "Beca Municipal Educación Superior La Serena",
+    "institucion": "Municipalidad de La Serena",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "3426d91768d52b544544dfcce0a325e2a88b2f9073c44441284e6aab89991af3",
+    "nombre": "Beca de Educación Superior Municipal Ovalle",
+    "institucion": "Municipalidad de Ovalle",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "329da2a2114725f39f8812b23e46593a790326af4e63e95f93752eaaf9f392ec",
+    "nombre": "Beca Municipal de Educación Superior Melipilla",
+    "institucion": "Municipalidad de Melipilla",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "bf9b92a1b55051e2d4a75aed55d83213433d79f16a62b964355c878f326c259d",
+    "nombre": "Beca Municipal de Educación Superior Quillota",
+    "institucion": "Municipalidad de Quillota",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "99ebd9c78ae2b366aa048c432026cbcc3b3eb2a747840f7e769b1f84a1d7245c",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Los Andes",
+    "institucion": "Municipalidad de Los Andes",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "19df4e73e6b31fa7b919bf2dd7aa58a2c44778ea6fc63ab1ec69d4cb57554abc",
+    "nombre": "Beca Ilustre Municipalidad de Linares",
+    "institucion": "Municipalidad de Linares",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4",
+    "nombre": "Beca Municipal de Educación Superior Coronel",
+    "institucion": "Municipalidad de Coronel",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf",
+    "nombre": "Beca Municipal de Educación Superior Puerto Varas",
+    "institucion": "Municipalidad de Puerto Varas",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "c7dd0cc93373c231f7536a20ae74e39f48a02215f72bd764a938af2a6d637327",
+    "nombre": "Beca Municipal de Educación Superior Ancud",
+    "institucion": "Municipalidad de Ancud",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_auditadas.csv",
+    "referencia": "línea física 3 reconstruida",
+    "candidato": "2d366f72cde758ed8a892956dd2951abac49700b28b96bd36ee77be37d1cb686",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior",
+    "institucion": "Municipalidad de Tomé",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_auditadas.csv",
+    "referencia": "registro original 1",
+    "candidato": "1f99d406642947226a53c406950f5214c739d580b4d5c8f70e560a83ab445999",
+    "nombre": "Beca de Estudios Superiores San Joaquín",
+    "institucion": "Municipalidad de San Joaquín",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
+    "referencia": "registro original 2",
+    "candidato": "f6ec7b3e88f41b217c22f2942fe26153405fe62a7ccda45161f35af7b4cfe77a",
+    "nombre": "Beca Municipal Escolar (Educación Superior)",
+    "institucion": "Municipalidad de Antofagasta",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
+    "referencia": "registro original 3",
+    "candidato": "f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55",
+    "nombre": "Beca Educación Superior",
+    "institucion": "Municipalidad de Concepción",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
+    "referencia": "registro original 4",
+    "candidato": "a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Temuco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  }
+]

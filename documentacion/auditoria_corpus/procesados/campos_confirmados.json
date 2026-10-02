@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Gratuidad",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": ["https://portal.beneficiosestudiantiles.cl/gratuidad", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
+    "campos": {"monto": "Matrícula y arancel durante la duración nominal", "url": "https://portal.beneficiosestudiantiles.cl/gratuidad", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
+    "limite": "Primer periodo FUAS para ingreso 2027. No equivale a renovación automática. Requisitos y documentos completos pendientes de certificación."
+  },
+  {
+    "nombre": "Beca Bicentenario",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": ["https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
+    "campos": {"monto": "Arancel de referencia anual", "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
+    "limite": "Primer periodo FUAS 2027. Ficha con fechas institucionales contradictorias; no activar por tener calendario común."
+  },
+  {
+    "nombre": "Beca Nuevo Milenio I",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": ["https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
+    "campos": {"monto": "Hasta 600000 CLP del arancel anual", "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm", "nem_minimo": "5.0", "cobertura_tipo": "MONETARIA", "cobertura_importe": "600000", "cobertura_moneda": "CLP", "cobertura_periodicidad": "ANUAL", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
+    "limite": "Primer periodo FUAS 2027. Conservar topes, no prometer asignación íntegra. RSH y documentos desconocidos; elegibilidad institucional pendiente."
+  },
+  {
+    "nombre": "Beca Nuevo Milenio II",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": ["https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
+    "campos": {"monto": "Hasta 860000 CLP del arancel anual", "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm", "nem_minimo": "5.0", "cobertura_tipo": "MONETARIA", "cobertura_importe": "860000", "cobertura_moneda": "CLP", "cobertura_periodicidad": "ANUAL", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
+    "limite": "Primer periodo FUAS 2027. Primer año y condiciones propias; no fusionar con modalidad I. RSH y documentos desconocidos."
+  },
+  {
+    "nombre": "Beca Juan Gómez Millas",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": ["https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
+    "campos": {"monto": "Hasta 1150000 CLP del arancel anual", "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm", "cobertura_tipo": "MONETARIA", "cobertura_importe": "1150000", "cobertura_moneda": "CLP", "cobertura_periodicidad": "ANUAL", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
+    "limite": "Primer periodo FUAS 2027. No reducir PAES/PACE a NEM. Ficha con fechas institucionales contradictorias; documentos completos pendientes."
+  }
+]

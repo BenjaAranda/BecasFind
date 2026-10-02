@@ -1,7 +1,7 @@
 package com.becasfind.api.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
-import com.becasfind.api.models.dtos.ErrorResponse;
+import com.becasfind.api.models.dtos.ApiResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.ServletWebRequest;
 import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.multipart.MaxUploadSizeExceededException;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -25,8 +26,37 @@ public class GlobalExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
+    @ExceptionHandler({org.springframework.http.converter.HttpMessageNotReadableException.class,
+            org.springframework.web.method.annotation.MethodArgumentTypeMismatchException.class,
+            org.springframework.web.bind.MissingServletRequestParameterException.class,
+            org.springframework.web.multipart.support.MissingServletRequestPartException.class})
+    public ResponseEntity<ApiResponse<Void>> handleMalformedRequest() {
+        return ResponseEntity.badRequest().body(ApiResponse.error(400,
+                "La solicitud contiene valores o un formato no válidos"));
+    }
+
+    @ExceptionHandler(org.springframework.web.HttpRequestMethodNotSupportedException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUnsupportedMethod(
+            org.springframework.web.HttpRequestMethodNotSupportedException ex) {
+        org.springframework.http.HttpHeaders headers = new org.springframework.http.HttpHeaders();
+        if (ex.getSupportedHttpMethods() != null) headers.setAllow(ex.getSupportedHttpMethods());
+        return new ResponseEntity<>(ApiResponse.error(405, "Método HTTP no permitido"), headers,
+                HttpStatus.METHOD_NOT_ALLOWED);
+    }
+
+    @ExceptionHandler(org.springframework.web.HttpMediaTypeNotSupportedException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUnsupportedMedia() {
+        return ResponseEntity.status(415).body(ApiResponse.error(415,
+                "El tipo de contenido de la solicitud no es compatible"));
+    }
+
+    @ExceptionHandler(org.springframework.orm.ObjectOptimisticLockingFailureException.class)
+    public ResponseEntity<ApiResponse<Void>> handleConcurrentModification() {
+        return ResponseEntity.status(409).body(ApiResponse.error(409, "La beca cambió mientras la editabas. Recarga sus datos antes de guardar de nuevo."));
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<ErrorResponse> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleValidation(MethodArgumentNotValidException ex, WebRequest request) {
         Map<String, String> errors = new HashMap<>();
         for (FieldError fieldError : ex.getBindingResult().getFieldErrors()) {
             errors.put(fieldError.getField(), fieldError.getDefaultMessage());
@@ -34,11 +64,11 @@ public class GlobalExceptionHandler {
 
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(java.time.LocalDateTime.now())
                 .status(HttpStatus.BAD_REQUEST.value())
-                .error("Error de validacion")
-                .message("Uno o mas campos no cumplen con las reglas de validacion")
+                .error("Error de validación")
+                .message("Uno o más campos no cumplen con las reglas de validación")
                 .path(path)
                 .validationErrors(errors)
                 .build();
@@ -47,10 +77,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(EntityNotFoundException.class)
-    public ResponseEntity<ErrorResponse> handleEntityNotFound(EntityNotFoundException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleEntityNotFound(EntityNotFoundException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.NOT_FOUND.value(),
                 "Recurso no encontrado",
                 ex.getMessage(),
@@ -61,10 +91,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(AccessDeniedException.class)
-    public ResponseEntity<ErrorResponse> handleAccessDenied(AccessDeniedException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleAccessDenied(AccessDeniedException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.FORBIDDEN.value(),
                 "Acceso denegado",
                 "No tienes permisos para acceder a este recurso",
@@ -75,14 +105,14 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(BadCredentialsException.class)
-    public ResponseEntity<ErrorResponse> handleBadCredentials(BadCredentialsException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleBadCredentials(BadCredentialsException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
-                .error("Credenciales invalidas")
-                .message("Correo electronico o contrasenia incorrectos")
+                .error("Credenciales inválidas")
+                .message("Correo electrónico o contraseña incorrectos")
                 .path(path)
                 .build();
 
@@ -90,14 +120,14 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(InternalAuthenticationServiceException.class)
-    public ResponseEntity<ErrorResponse> handleInternalAuth(InternalAuthenticationServiceException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleInternalAuth(InternalAuthenticationServiceException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.builder()
+        ApiResponse<Void> error = ApiResponse.<Void>builder()
                 .timestamp(LocalDateTime.now())
                 .status(HttpStatus.UNAUTHORIZED.value())
-                .error("Credenciales invalidas")
-                .message("Correo electronico o contrasenia incorrectos")
+                .error("Credenciales inválidas")
+                .message("Correo electrónico o contraseña incorrectos")
                 .path(path)
                 .build();
 
@@ -105,10 +135,10 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(BusinessException.class)
-    public ResponseEntity<ErrorResponse> handleBusiness(BusinessException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleBusiness(BusinessException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 ex.getStatus().value(),
                 "Error de negocio",
                 ex.getMessage(),
@@ -119,12 +149,12 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<ErrorResponse> handleIllegalArgument(IllegalArgumentException ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleIllegalArgument(IllegalArgumentException ex, WebRequest request) {
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.BAD_REQUEST.value(),
-                "Argumento invalido",
+                "Argumento inválido",
                 ex.getMessage(),
                 path
         );
@@ -132,15 +162,28 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
     }
 
+    @ExceptionHandler(MaxUploadSizeExceededException.class)
+    public ResponseEntity<ApiResponse<Void>> handleUploadLimit() {
+        return ResponseEntity.status(413).body(ApiResponse.error(413,
+                "El archivo supera el límite de 10 MB permitido para la importación."));
+    }
+
+    private ApiResponse<Void> detailedError(int status, String error, String message, String path) {
+        ApiResponse<Void> response = ApiResponse.error(status, message);
+        response.setError(error);
+        response.setPath(path);
+        return response;
+    }
+
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorResponse> handleGeneral(Exception ex, WebRequest request) {
+    public ResponseEntity<ApiResponse<Void>> handleGeneral(Exception ex, WebRequest request) {
         log.error("Error inesperado: {}", ex.getMessage(), ex);
         String path = ((ServletWebRequest) request).getRequest().getRequestURI();
 
-        ErrorResponse error = ErrorResponse.of(
+        ApiResponse<Void> error = detailedError(
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),
                 "Error interno del servidor",
-                "Ha ocurrido un error inesperado. Por favor, intenta de nuevo mas tarde.",
+                "Ha ocurrido un error inesperado. Por favor, intenta de nuevo más tarde.",
                 path
         );
 

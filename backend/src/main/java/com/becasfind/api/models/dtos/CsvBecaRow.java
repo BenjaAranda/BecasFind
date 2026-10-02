@@ -52,4 +52,24 @@ public class CsvBecaRow {
 
     @CsvBindByName(column = "documentos_requeridos")
     private String documentosRequeridos;
+    @CsvBindByName(column = "cobertura_tipo")
+    private String coberturaTipo;
+
+    @CsvBindByName(column = "cobertura_importe")
+    private String coberturaImporte;
+
+    @CsvBindByName(column = "cobertura_moneda")
+    private String coberturaMoneda;
+
+    @CsvBindByName(column = "cobertura_periodicidad")
+    private String coberturaPeriodicidad;
+
+    @CsvBindByName(column = "cobertura_porcentaje")
+    private String coberturaPorcentaje;
+
+    @CsvBindByName(column = "estado_activa")
+    private String estadoActiva;
+
+    @CsvBindByName(column = "solo_crear")
+    private String soloCrear;
 }

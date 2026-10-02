@@ -1,0 +1,32 @@
+[
+  {
+    "candidato": "2f9a8aa98fc2fdd2704fbbdefc3801b7549a2e23d9a08829919b6f1957fb26a5",
+    "revisado": "2026-10-02",
+    "alcance": "Modalidad educación superior 2026 de Dalcahue; convocatoria cerrada",
+    "informe": "CONFIRMACION_DALCAHUE_SUPERIOR_2026.md",
+    "fuentes": ["https://www.munidalcahue.cl/transparencia/inicio/documentos/otros/concursos/2026/202603BECASMUNICIPALES.pdf"],
+    "verificaciones": {
+      "identidad": true,
+      "convocatoria": true,
+      "cobertura": true,
+      "requisitos": true,
+      "documentos": true,
+      "discrepancias": true
+    }
+  },
+  {
+    "candidato": "371af7982aa3b8152cd1d362a873b11e7744674163eef5d869aba7c715a031fe",
+    "revisado": "2026-10-02",
+    "alcance": "Condiciones públicas de convocatoria y reglamento BUCH para ingreso 2027; límite horario conservado; sin inspeccionar una cuenta privada",
+    "informe": "CONFIRMACION_BUCH_ADMISION_2027.md",
+    "fuentes": ["https://uchile.cl/dbe/buch", "https://uchile.cl/dam/jcr%3Af94728ee-de97-416e-b85d-24b35cc29b5d/Nuevo%20Reglamento%20BUCH%20%2820-04-2026%29.pdf"],
+    "verificaciones": {
+      "identidad": true,
+      "convocatoria": true,
+      "cobertura": true,
+      "requisitos": true,
+      "documentos": true,
+      "discrepancias": true
+    }
+  }
+]

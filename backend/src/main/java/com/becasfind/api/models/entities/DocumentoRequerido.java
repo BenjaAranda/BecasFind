@@ -19,7 +19,9 @@ import lombok.Setter;
 public class DocumentoRequerido {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "documentos_requeridos_id_documento_seq")
+    @jakarta.persistence.SequenceGenerator(name = "documentos_requeridos_id_documento_seq", sequenceName = "documentos_requeridos_id_documento_seq", allocationSize = 1)
+    @org.hibernate.annotations.ColumnDefault("NEXT VALUE FOR documentos_requeridos_id_documento_seq")
     @Column(name = "id_documento")
     private Long idDocumento;
 

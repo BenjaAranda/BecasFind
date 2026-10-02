@@ -103,7 +103,7 @@ class AuthTest extends BaseTest {
     @Test
     @DisplayName("CP-13+CP-14: Reset password - token invalido")
     void resetPasswordInvalidToken() {
-        var res = post("/api/auth/reset-password", null, Map.of("token", "fake-token", "newPassword", "password123"),
+        var res = post("/api/auth/reset-password", null, Map.of("token", java.util.UUID.randomUUID().toString(), "newPassword", "password123"),
                 Map.class);
         assertEquals(401, res.getStatusCodeValue());
     }

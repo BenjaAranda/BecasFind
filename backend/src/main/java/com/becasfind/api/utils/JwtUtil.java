@@ -13,6 +13,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
+import javax.crypto.Mac;
+import java.security.GeneralSecurityException;
+import java.security.MessageDigest;
+import java.util.Base64;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
@@ -31,7 +35,7 @@ public class JwtUtil {
         this.expirationMs = expirationMs;
     }
 
-    public String generateToken(String email, String role, String nombreCompleto) {
+    public String generateToken(String email, String role, String nombreCompleto, String passwordHash) {
         Date now = new Date();
         Date expiry = new Date(now.getTime() + expirationMs);
 
@@ -39,6 +43,7 @@ public class JwtUtil {
                 .subject(email)
                 .claim("role", role)
                 .claim("nombre", nombreCompleto)
+                .claim("cv", credentialTag(passwordHash))
                 .issuedAt(now)
                 .expiration(expiry)
                 .signWith(secretKey)
@@ -51,6 +56,24 @@ public class JwtUtil {
 
     public String extractRole(String token) {
         return extractAllClaims(token).get("role", String.class);
+    }
+
+    public boolean matchesCredentials(String token, String passwordHash) {
+        Object version = extractAllClaims(token).get("cv");
+        return version instanceof String tag && MessageDigest.isEqual(
+                tag.getBytes(StandardCharsets.UTF_8), credentialTag(passwordHash).getBytes(StandardCharsets.UTF_8));
+    }
+
+    private String credentialTag(String passwordHash) {
+        if (passwordHash == null || passwordHash.isBlank()) throw new IllegalArgumentException("Credenciales no disponibles");
+        try {
+            Mac mac = Mac.getInstance("HmacSHA256");
+            mac.init(secretKey);
+            return Base64.getUrlEncoder().withoutPadding().encodeToString(
+                    mac.doFinal(("becasfind-credentials:" + passwordHash).getBytes(StandardCharsets.UTF_8)));
+        } catch (GeneralSecurityException ex) {
+            throw new IllegalStateException("No se pudo verificar la versión de credenciales", ex);
+        }
     }
 
     public boolean isTokenValid(String token) {

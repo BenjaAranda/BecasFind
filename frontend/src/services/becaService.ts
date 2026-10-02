@@ -2,8 +2,8 @@ import api from './api';
 import type { ApiResponse, BecaSummary, BecaDetail, BecaSearchRequest, PageResponse, Region } from '../types';
 
 export const becaService = {
-  search(filters: BecaSearchRequest) {
-    return api.post<ApiResponse<PageResponse<BecaSummary>>>('/becas/buscar', filters);
+  search(filters: BecaSearchRequest, signal?: AbortSignal) {
+    return api.post<ApiResponse<PageResponse<BecaSummary>>>('/becas/buscar', filters, { signal });
   },
 
   findAll(page: number = 0, size: number = 10) {
@@ -12,14 +12,15 @@ export const becaService = {
     });
   },
 
-  recomendar(page: number = 0, size: number = 10) {
+  recomendar(page: number = 0, size: number = 10, signal?: AbortSignal) {
     return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas/recomendadas', {
       params: { page, size },
+      signal,
     });
   },
 
-  findById(id: number) {
-    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`);
+  findById(id: string, signal?: AbortSignal) {
+    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`, { signal });
   },
 };
 
