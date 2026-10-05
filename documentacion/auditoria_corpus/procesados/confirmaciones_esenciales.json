@@ -1327,5 +1327,302 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "405de1b7a1268f2f812809d7a752274d05115510e09efe3cb6e617a55d6ac11f",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Educación Superior Caleta Tortel; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.diariooficial.interior.gob.cl/publicaciones/2026/03/10/44396/01/2779722.pdf"
+    ],
+    "beneficio": "$150.000 CLP mensuales de marzo a diciembre.",
+    "requisitos_principales": "Domicilio Tortel; cinco años de básica en escuela local; estudios presenciales fuera de comuna; RSH entre 40% y 90%; primer ingreso hasta dos años después de egreso; renovación con 60% de ramos aprobados.",
+    "limites": "No representar rango RSH como máximo único; un cambio de carrera permitido; no inferir NEM. Alcance ordenanza 2026. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-03-01",
+    "fecha_cierre": "2026-03-20",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Estudiantil Galvarino; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.galvarinochile.cl/web/beca-municipal-2026/"
+    ],
+    "beneficio": "Dinero de libre disposición para pasajes, alojamiento y alimentación; importe desconocido.",
+    "requisitos_principales": "Residencia comunal; RSH hasta 60%; matrícula/regular en educación superior reconocida y presencial; cuarto medio 5,0 para ingreso o promedio anual superior 4,5.",
+    "limites": "No NEM universal; descartar $120.000 histórico no acreditado. Alcance 2026. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-02-23",
+    "fecha_cierre": "2026-03-27",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal de Apoyo a la Educación Superior Quilleco; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://municipalidadquilleco.cl/municipalidad-de-quilleco-aprueba-nueva-ordenanza-de-beca-municipal-para-educacion-superior/"
+    ],
+    "beneficio": "$600.000 CLP anuales en diez cuotas mensuales de $60.000.",
+    "requisitos_principales": "18–28 años; residencia y RSH Quilleco hasta 70%; regular en institución reconocida; sin título técnico o profesional superior.",
+    "limites": "Vigente desde 2026; renovación académica y socioeconómica; marzo recurrente no fija convocatoria anual abierta. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Programa Beca de Movilizacion; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://municipalidadrenaico.cl/programa-beca-de-movilizacion/",
+      "https://municipalidadrenaico.cl/ochenta-estudiantes-de-educacion-superior-de-renaico-recibieron-beca-de-movilizacion-de-parte-del-municipio/"
+    ],
+    "beneficio": "Dinero mensual para movilización; importe individual desconocido; pagos marzo–diciembre.",
+    "requisitos_principales": "Educación superior universitaria, IP o CFT; desplazamiento diario o semanal desde/hacia Renaico; carencia económica acreditada en formulario.",
+    "limites": "La noticia de entrega 2026 respalda continuidad del programa; no dividir presupuesto entre beneficiarios ni trasladar máximo 2024. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Educación Superior Rapa Nui; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://rapanui.net/noticias/22873"
+    ],
+    "beneficio": "$400.000 CLP mensuales marzo–diciembre mediante transferencia.",
+    "requisitos_principales": "Regular de educación superior continental; residencia Rapa Nui habilitada por Ley 21.070; vulnerabilidad socioeconómica; acreditar ingresos.",
+    "limites": "Haka Ara 2026; 80 cupos; sin umbral RSH/NEM numérico publicado; descartar monto anual histórico. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-02-02",
+    "fecha_cierre": "2026-02-27",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca de Educación Superior Penalolen; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://tramites.penalolen.cl/Tramites/ver/beca-municipal-educacion-superior"
+    ],
+    "beneficio": "$100.000 CLP por beneficiario; periodicidad desconocida.",
+    "requisitos_principales": "Domicilio Peñalolén; matrícula superior reconocida; cuarto medio mínimo 6,0 o promedio anual superior 5,0; RSH hasta 60%.",
+    "limites": "Ficha declara trámite vencido; no hasta $300.000 histórico ni NEM universal. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-03-02",
+    "fecha_cierre": "2026-03-31",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca de Educación Superior Ilustre Municipalidad de Mariquina; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://munimariquina.cl/wp-content/uploads/2026/04/REQUISITOS-Y-MANUAL-DE-POSTULACION-BECA-MUNICIPAL-2026.pdf"
+    ],
+    "beneficio": "Ayuda en dinero en dos cuotas; importe desconocido.",
+    "requisitos_principales": "Domicilio y RSH Mariquina; carrera mínima cuatro semestres; ingreso con cuarto medio 5,5; superiores semestre II 2025 mínimo 4,5 y 75% de cátedras aprobadas.",
+    "limites": "Lectura de requisitos y pago de páginas 1–2; referencias de plantilla a San Clemente no reasignan proveedor; segunda cuota condicionada a regularidad septiembre. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-04-01",
+    "fecha_cierre": "2026-04-30",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca a Estudiantes de Enseñanza Superior Los Angeles; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.losangeles.cl/wp-content/uploads/2026/02/bases-beca-y-adjuntos.pdf"
+    ],
+    "beneficio": "$60.000 CLP mensuales general o $100.000 modalidad PAES; marzo–diciembre.",
+    "requisitos_principales": "Residencia/RSH Los Ángeles; institución acreditada; necesidad económica; ingreso 2025 con notas al menos 5,5; superiores último semestre 5,0; PAES ponderado 800 y egreso municipal inmediato para modalidad especial.",
+    "limites": "Un integrante por familia; sexto decil general y octavo PAES; RSH mayor a 70 requiere antecedentes adicionales, no exclusión automática. Excluye familias con funcionario municipal o de educación, salud o cementerio municipal. No NEM inferido; modalidades excluyentes. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-02-16",
+    "fecha_cierre": "2026-03-20",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c7dd0cc93373c231f7536a20ae74e39f48a02215f72bd764a938af2a6d637327",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal de Educación Superior Ancud; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/DECRETO-2303-BASES-BECA-MUNICIPAL.pdf",
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/Decreto-Exento-2306.pdf",
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/Decreto-2421-Modifica-Cronograma-Bases-Becas-2026.pdf"
+    ],
+    "beneficio": "$500.000 CLP fuera de comuna o $200.000 dentro; aporte anual en una cuota.",
+    "requisitos_principales": "Domicilio/RSH Ancud hasta 60%; pregrado presencial reconocido; carrera mínima ocho semestres o CFT cuatro; ingreso promedio 1°–4° medio 6,0; superiores promedio anterior 5,0 y menos de tres reprobaciones.",
+    "limites": "Bases y rectificaciones 2306/2421 leídas; no modalidades online/semipresenciales; cambio de carrera excluye renovación. Rectificación agosto y evaluación octubre no reabren postulaciones. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2026-07-14",
+    "fecha_cierre": "2026-07-21",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "015da93b9867cb6200ee3b9073e7fe172011d39f513d407f18145265daa8d42d",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Educación Superior Negrete; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.muninegrete.cl/becas-municipales/"
+    ],
+    "beneficio": "$300.000 CLP anuales en dos cuotas de $150.000 según ficha institucional.",
+    "requisitos_principales": "Estudiante de la comuna en educación técnica, profesional, universitaria o escuela matriz; acreditar continuidad para segundo semestre.",
+    "limites": "Ficha sin año de convocatoria: confirma reglas publicadas, sin certificar monto 2026 ni vigencia anual; otros umbrales desconocidos; distinta de útiles/JUNAEB. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Isla Lemuy - Puqueldon; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://munipuqueldon.cl/servicios-municipales/"
+    ],
+    "beneficio": "Aporte para arancel, internet móvil, equipamiento e insumos de educación superior; importe desconocido.",
+    "requisitos_principales": "Estudiante de Puqueldón; situación económica deficiente y rendimiento satisfactorio según evaluación municipal.",
+    "limites": "Alcance ficha de servicio sin convocatoria anual; no requisitos numéricos inferidos ni prestaciones de vestuario de educación media. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2d366f72cde758ed8a892956dd2951abac49700b28b96bd36ee77be37d1cb686",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Municipal de Apoyo a la Educación Superior; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-"
+    ],
+    "beneficio": "$20.000 CLP mensuales marzo–diciembre; total anual $200.000.",
+    "requisitos_principales": "Joven de Tomé con dificultades económicas; carrera técnica o profesional en universidad, IP o CFT dentro o fuera de Biobío; evaluación mediante entrevista social.",
+    "limites": "Entrega 2026 confirma beneficio general; PAES $500.000 corresponde a modalidad distinta. Calendario y umbrales no publicados en esta nota. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "8decb7d44a5ab885e94c7a52a343e45c63bff37b304433e924821ab3cf750652",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca Indigena; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.ventanillaunicasocial.gob.cl/ficha/112/beca-indigena"
+    ],
+    "beneficio": "$654.600 CLP en diez cuotas mensuales marzo–diciembre para educación superior.",
+    "requisitos_principales": "Ascendencia CONADI; institución reconocida y matrícula efectiva; primera asignación RSH hasta 60% y egreso cuarto medio 5,0; renovación RSH hasta 70% y promedio superior 4,5.",
+    "limites": "Ficha oficial actualizada agosto 2026; excluir extranjeros, postgrado y titulados técnicos/profesionales. No confundir requisitos o importes de básica/media. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": "2025-12-01",
+    "fecha_cierre": "2026-02-04",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "4090e29dc88efaefd5b86fbdd96983042c7bdefd71913a80822f40a81a9f2cd8",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales publicadas de Beca de Mantención Educación Superior; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
+    "fuentes": [
+      "https://www.ventanillaunicasocial.gob.cl/ficha/111/beca-mantencion-educacion-superior"
+    ],
+    "beneficio": "$207.950 CLP totales en diez cuotas iguales marzo–diciembre.",
+    "requisitos_principales": "Solo renovantes incluidos en última resolución JUNAEB del año anterior; matrícula en institución superior reconocida; beneficio de arancel MINEDUC o Comisión Ingresa.",
+    "limites": "Ficha actualizada 09/07/2026 leída directamente por HTTP con contenido; supera importe referencial histórico $195.600. Sin nuevos cupos; no requiere inferir PAES/RSH. Expediente documental exhaustivo no certificado; fechas nulas cuando no se corroboraron. Datos editoriales: sin sobrescritura de base ni activación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
