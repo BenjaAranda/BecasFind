@@ -1012,5 +1012,320 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Alimentación PUCV; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://www.daepucv.cl/becas-de-apoyo-pucv"
+    ],
+    "beneficio": "Dinero para alimentación: $3.300 por día cubierto; lunes, miércoles y viernes del período académico.",
+    "requisitos_principales": "Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico acreditado; sin BAES.",
+    "limites": "No fijar mensualidad universal; excluye vacaciones, feriados y recesos. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d29199f891c0f665cd931e2f6e2e0e0a8bf08be8552355af44b6f37f64494793",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Residencia PUCV; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://www.daepucv.cl/becas-de-apoyo-pucv"
+    ],
+    "beneficio": "$65.000 CLP mensuales para alojamiento.",
+    "requisitos_principales": "Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico.",
+    "limites": "No alojamiento gratuito; renovación de primer año exige promedio semestral 4,5. Incompatible con otras ayudas en dinero salvo Madres y Padres; permite alimentación. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Mayor Puntaje PAES UMAG; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=4099"
+    ],
+    "beneficio": "Beneficio de arancel; porcentaje desconocido.",
+    "requisitos_principales": "Carrera con corte inferior a 810; promedio PAES CL/M1 al menos 810 o ponderado superior a 810; primera PAES y matrícula en el mismo proceso; regular profesional/técnico; FUAS.",
+    "limites": "Máximo dos por carrera y seis al año; primer año con una única renovación consecutiva condicionada. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Pueblos Originarios Magallanes UMAG; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=4083"
+    ],
+    "beneficio": "Beneficio de arancel; porcentaje desconocido.",
+    "requisitos_principales": "Regular profesional/técnico; FUAS; ascendencia Kawésqar o Yagán acreditada por CONADI; necesidad económica; inscripción RSH.",
+    "limites": "No extender a cualquier pueblo originario ni inferir umbral RSH; cupos y presupuesto; fuente leída en la investigación de este lote, reconsulta posterior con timeout. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportistas Destacados UMAG; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=3911"
+    ],
+    "beneficio": "Financiamiento total o parcial del arancel.",
+    "requisitos_principales": "Regular profesional/técnico; FUAS; alto rendimiento acreditado; patrocinio del entrenador; disciplina prioritaria; club asociado con convenio; representación institucional.",
+    "limites": "No 100% universal; renovación exige aprobar 50% primer año y 60% cursos superiores; vigencia 1,5 veces duración de carrera. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Aporte Excepcional de Transporte ULagos; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+    ],
+    "beneficio": "Apoyo excepcional para transporte; importe desconocido.",
+    "requisitos_principales": "Campus Osorno; Obstetricia y Puericultura o Ingeniería Civil Informática; ingreso hasta 2023; gestionar antecedentes con trabajo social dentro del proceso correspondiente.",
+    "limites": "No beneficio general para todas las carreras ni cohortes. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Alimentación ULagos; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+    ],
+    "beneficio": "Alimentación mediante tarjeta.",
+    "requisitos_principales": "Regular profesional o técnico; necesidad económica; primer año NEM 5,5; superiores promedio último semestre al menos promedio de carrera y 4,5; sin sanción ejecutada; restricciones de títulos previos y duración.",
+    "limites": "No trasladar el promedio universitario al NEM; evaluación FAS/RSH; calendario 2026 referencial, sin acreditar convocatoria abierta. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Excelencia Académica UFRO; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/"
+    ],
+    "beneficio": "Dinero de libre disposición al mejor estudiante de cada carrera; incremento para mejor promedio global.",
+    "requisitos_principales": "Curso superior; promedio general acumulado al menos 5,0; plan al día; sin convalidaciones previas ni movimientos académicos salvo excepciones de salud grave o pasantía.",
+    "limites": "No rebaja de arancel ni NEM de ingreso; importe desconocido; identidad institucional específica acreditada por DDE. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Alimentación UBB; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "beneficio": "Alimentación en casino de lunes a viernes durante año académico.",
+    "requisitos_principales": "Estudiante sujeto a acreditación y evaluación socioeconómica institucional; no beneficiario BAES.",
+    "limites": "Importe desconocido; no pago en dinero; no exigir calendario completo para cerrar el alcance esencial. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Residencia UBB; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "beneficio": "Ayuda parcial para gastos de residencia.",
+    "requisitos_principales": "Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario.",
+    "limites": "Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UACh; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://diario.uach.cl/uach-abre-proceso-de-postulacion-a-beca-para-deportistas-destacados-as-2026/"
+    ],
+    "beneficio": "Beca de arancel para deportistas destacados; porcentaje desconocido.",
+    "requisitos_principales": "Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador.",
+    "limites": "Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Hijos de Funcionarios; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/becas-de-arancel/beca-funcionario/"
+    ],
+    "beneficio": "Descuento de arancel con topes máximos 40/45/50/75/100% según beneficiarios; proporcional a jornada y condiciones institucionales.",
+    "requisitos_principales": "Hijo de funcionario administrativo elegible o académico con contrato/nombramiento vigentes; alumno regular; hasta 28 años en pregrado o 30 en postgrado.",
+    "limites": "Sin evaluación socioeconómica; no matrícula; excluir administrativos a plazo fijo; no porcentaje fijo universal. Casos de jubilación, fallecimiento e invalidez tienen condiciones particulares. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UCSH; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://admisionucsh.cl/becas-y-beneficios/"
+    ],
+    "beneficio": "Hasta 100% del arancel anual o proporción evaluada.",
+    "requisitos_principales": "Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH.",
+    "limites": "Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva USACH; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://www.admision.usach.cl/beneficios-estudiantiles"
+    ],
+    "beneficio": "Total o parcial del arancel real.",
+    "requisitos_principales": "Regular de pregrado; destacado en rama deportiva impartida por la universidad; selección por méritos deportivos mediante Gestión del Deporte.",
+    "limites": "Independiente del cupo de ingreso Deportista Destacado; cuantía individual desconocida. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ef423bcb4b46f7376235fe84e597cccefb65b090039b94680bc5473d19f73178",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Alimentación para la Educación Superior; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-de-alimentacion-baes"
+    ],
+    "beneficio": "Tarjeta electrónica para parte de gastos de alimentación.",
+    "requisitos_principales": "Estudiante de primer año o superior; institución acreditada; beneficio de arancel elegible, CAE/Fondo Solidario o gratuidad; primeros tres quintiles/seis deciles según evaluación informada.",
+    "limites": "Asignación anual automática condicionada a presupuesto; no postulable; no importe acreditado en esta ficha ni equivalencia automática con porcentaje RSH. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

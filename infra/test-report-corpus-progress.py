@@ -10,6 +10,15 @@ spec.loader.exec_module(module)
 
 
 class ProgressTest(unittest.TestCase):
+    def test_specific_wordpress_page_without_accepting_generic_root(self):
+        self.assertTrue(module.specific_source('https://admision.umag.cl/?page_id=4099'))
+        for url in ['https://example.org/', 'https://example.org/?search=becas',
+                    'https://example.org/?page_id=0', 'https://example.org/?page_id=abc',
+                    'https://example.org/?page_id=1&page_id=2', 'http://example.org/?page_id=1',
+                    'https://user:password@example.org/?page_id=1']:
+            with self.subTest(url=url):
+                self.assertFalse(module.specific_source(url))
+
     def fixture(self, folder):
         (folder/'reparaciones').mkdir()
         rows = [dict(archivo='a.csv', registro=1, candidato='a'),

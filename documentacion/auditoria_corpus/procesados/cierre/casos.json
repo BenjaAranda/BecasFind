@@ -1442,6 +1442,13 @@
         "extractos": [
           "| `88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759` | Beca Presidente de la Republica | Superior solo renueva beneficio de media; UTM conservadas sin convertir. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759` | Beca Presidente de la Republica | BPR: requisitos de renovación localizados en resultados, ficha directa inaccesible; pendiente lectura oficial verificable. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1468,6 +1475,13 @@
         "extractos": [
           "| `8decb7d44a5ab885e94c7a52a343e45c63bff37b304433e924821ab3cf750652` | Beca Indigena | Importe superior separado de media/básica; umbrales varían por trámite. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `8decb7d44a5ab885e94c7a52a343e45c63bff37b304433e924821ab3cf750652` | Beca Indigena | Beca Indígena: ficha específica encontrada pero lectura directa fallida; no certificar solo por resultados indexados. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1480,7 +1494,7 @@
     "candidato": "ef423bcb4b46f7376235fe84e597cccefb65b090039b94680bc5473d19f73178",
     "nombre": "Beca de Alimentación para la Educación Superior",
     "institucion": "JUNAEB",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_junaeb.csv",
@@ -1494,13 +1508,41 @@
         "extractos": [
           "| `ef423bcb4b46f7376235fe84e597cccefb65b090039b94680bc5473d19f73178` | Beca de Alimentación para la Educación Superior | Instrumento de canje; no afirmar transferencia de libre disposición ni cierre. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `ef423bcb4b46f7376235fe84e597cccefb65b090039b94680bc5473d19f73178` | Beca de Alimentación para la Educación Superior | BAES | Tarjeta electrónica para parte de gastos de alimentación. Estudiante de primer año o superior; institución acreditada; beneficio de arancel elegible, CAE/Fondo Solidario o gratuidad; primeros tres quintiles/seis deciles según evaluación informada. | Asignación anual automática condicionada a presupuesto; no postulable; no importe acreditado en esta ficha ni equivalencia automática con porcentaje RSH. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "ef423bcb4b46f7376235fe84e597cccefb65b090039b94680bc5473d19f73178",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Alimentación para la Educación Superior; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-de-alimentacion-baes"
+      ],
+      "beneficio": "Tarjeta electrónica para parte de gastos de alimentación.",
+      "requisitos_principales": "Estudiante de primer año o superior; institución acreditada; beneficio de arancel elegible, CAE/Fondo Solidario o gratuidad; primeros tres quintiles/seis deciles según evaluación informada.",
+      "limites": "Asignación anual automática condicionada a presupuesto; no postulable; no importe acreditado en esta ficha ni equivalencia automática con porcentaje RSH. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "4090e29dc88efaefd5b86fbdd96983042c7bdefd71913a80822f40a81a9f2cd8",
@@ -1519,6 +1561,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `4090e29dc88efaefd5b86fbdd96983042c7bdefd71913a80822f40a81a9f2cd8` | Beca de Mantención Educación Superior | Solo renovación; importe referencial. No admite postulación nueva. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `4090e29dc88efaefd5b86fbdd96983042c7bdefd71913a80822f40a81a9f2cd8` | Beca de Mantención Educación Superior | BMES: falta lectura accesible de ficha oficial específica de renovación; importe indexado no basta. |"
         ]
       }
     ],
@@ -1816,6 +1865,13 @@
         "extractos": [
           "| `6af35875af55315c2e5f263752be976bdfacf1bf5f8eb55f73fb529478a2d113` | Beca Padre Hurtado | Formulario histórico localizado; bases y cobertura 2026 pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `6af35875af55315c2e5f263752be976bdfacf1bf5f8eb55f73fb529478a2d113` | Beca Padre Hurtado | Bloqueo del contraste anterior reutilizado: Formulario histórico localizado; bases y cobertura 2026 pendientes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1842,6 +1898,13 @@
         "extractos": [
           "| `eda6fbb494f175bb8f42a92153a7d68fe4ddd2890370d0ecb67f9f316fc7a9fd` | Beca de Excelencia Académica | Identificar beca ministerial o modalidad interna antes de trasladar requisitos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `eda6fbb494f175bb8f42a92153a7d68fe4ddd2890370d0ecb67f9f316fc7a9fd` | Beca de Excelencia Académica | Bloqueo del contraste anterior reutilizado: Identificar beca ministerial o modalidad interna antes de trasladar requisitos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1854,7 +1917,7 @@
     "candidato": "2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0",
     "nombre": "Beca Hijos de Funcionarios",
     "institucion": "Pontificia Universidad Católica de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_puc.csv",
@@ -1868,13 +1931,41 @@
         "extractos": [
           "| `2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0` | Beca Hijos de Funcionarios | Beneficio de funcionario distinto de la vía de ingreso de hijos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0` | Beca Hijos de Funcionarios | UC | Descuento de arancel con topes máximos 40/45/50/75/100% según beneficiarios; proporcional a jornada y condiciones institucionales. Hijo de funcionario administrativo elegible o académico con contrato/nombramiento vigentes; alumno regular; hasta 28 años en pregrado o 30 en postgrado. | Sin evaluación socioeconómica; no matrícula; excluir administrativos a plazo fijo; no porcentaje fijo universal. Casos de jubilación, fallecimiento e invalidez tienen condiciones particulares. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "2431dc32e2e800e7f2d4367de6c5b2e539c020921950366f04c09f9451f204b0",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Hijos de Funcionarios; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/becas-de-arancel/beca-funcionario/"
+      ],
+      "beneficio": "Descuento de arancel con topes máximos 40/45/50/75/100% según beneficiarios; proporcional a jornada y condiciones institucionales.",
+      "requisitos_principales": "Hijo de funcionario administrativo elegible o académico con contrato/nombramiento vigentes; alumno regular; hasta 28 años en pregrado o 30 en postgrado.",
+      "limites": "Sin evaluación socioeconómica; no matrícula; excluir administrativos a plazo fijo; no porcentaje fijo universal. Casos de jubilación, fallecimiento e invalidez tienen condiciones particulares. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "8b7291409cb313971ff5ef8b6505394ba190caf70d9f4704d86333736393c735",
@@ -1894,6 +1985,13 @@
         "extractos": [
           "| `8b7291409cb313971ff5ef8b6505394ba190caf70d9f4704d86333736393c735` | Beca de Excelencia Académica PUCV | Confirmar si corresponde a mantención por excelencia; no asumir rebaja de arancel. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `8b7291409cb313971ff5ef8b6505394ba190caf70d9f4704d86333736393c735` | Beca de Excelencia Académica PUCV | Bloqueo del contraste anterior reutilizado: Confirmar si corresponde a mantención por excelencia; no asumir rebaja de arancel. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1906,7 +2004,7 @@
     "candidato": "c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c",
     "nombre": "Beca de Alimentación PUCV",
     "institucion": "Pontificia Universidad Católica de Valparaíso",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_pucv.csv",
@@ -1920,13 +2018,41 @@
         "extractos": [
           "| `c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c` | Beca de Alimentación PUCV | Contrastar apoyo alimentario con convocatoria 2026; importe y cierre pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c` | Beca de Alimentación PUCV | PUCV | Dinero para alimentación: $3.300 por día cubierto; lunes, miércoles y viernes del período académico. Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico acreditado; sin BAES. | No fijar mensualidad universal; excluye vacaciones, feriados y recesos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Alimentación PUCV; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://www.daepucv.cl/becas-de-apoyo-pucv"
+      ],
+      "beneficio": "Dinero para alimentación: $3.300 por día cubierto; lunes, miércoles y viernes del período académico.",
+      "requisitos_principales": "Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico acreditado; sin BAES.",
+      "limites": "No fijar mensualidad universal; excluye vacaciones, feriados y recesos. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "32b114d0e9475a61bc05472195e5541bc5acdc62f600de3bdc246e65cf8de88a",
@@ -1945,6 +2071,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `32b114d0e9475a61bc05472195e5541bc5acdc62f600de3bdc246e65cf8de88a` | Beca de Apoyo Socioeconomico PUCV | Denominación genérica: identificar modalidad institucional. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `32b114d0e9475a61bc05472195e5541bc5acdc62f600de3bdc246e65cf8de88a` | Beca de Apoyo Socioeconomico PUCV | Bloqueo del contraste anterior reutilizado: Denominación genérica: identificar modalidad institucional. |"
         ]
       }
     ],
@@ -1972,6 +2105,13 @@
         "extractos": [
           "| `70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6` | Beca Deportiva PUCV | Obtener bases deportivas actuales; referencias antiguas no confirman 2026. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6` | Beca Deportiva PUCV | Bloqueo del contraste anterior reutilizado: Obtener bases deportivas actuales; referencias antiguas no confirman 2026. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1984,7 +2124,7 @@
     "candidato": "d29199f891c0f665cd931e2f6e2e0e0a8bf08be8552355af44b6f37f64494793",
     "nombre": "Beca de Residencia PUCV",
     "institucion": "Pontificia Universidad Católica de Valparaíso",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_pucv.csv",
@@ -1998,13 +2138,41 @@
         "extractos": [
           "| `d29199f891c0f665cd931e2f6e2e0e0a8bf08be8552355af44b6f37f64494793` | Beca de Residencia PUCV | Confirmar aporte para alojamiento y convocatoria; no asumir residencia gratuita. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `d29199f891c0f665cd931e2f6e2e0e0a8bf08be8552355af44b6f37f64494793` | Beca de Residencia PUCV | PUCV | $65.000 CLP mensuales para alojamiento. Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico. | No alojamiento gratuito; renovación de primer año exige promedio semestral 4,5. Incompatible con otras ayudas en dinero salvo Madres y Padres; permite alimentación. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d29199f891c0f665cd931e2f6e2e0e0a8bf08be8552355af44b6f37f64494793",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Residencia PUCV; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://www.daepucv.cl/becas-de-apoyo-pucv"
+      ],
+      "beneficio": "$65.000 CLP mensuales para alojamiento.",
+      "requisitos_principales": "Matrícula vigente; domicilio familiar fuera de la provincia de Valparaíso; déficit socioeconómico.",
+      "limites": "No alojamiento gratuito; renovación de primer año exige promedio semestral 4,5. Incompatible con otras ayudas en dinero salvo Madres y Padres; permite alimentación. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5",
@@ -2023,6 +2191,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5` | Beca Excelencia Académica Santo Tomas | Distinguir PAES y Excelencia; modalidad y cobertura propias pendientes. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5` | Beca Excelencia Académica Santo Tomas | Bloqueo del contraste anterior reutilizado: Distinguir PAES y Excelencia; modalidad y cobertura propias pendientes. |"
         ]
       }
     ],
@@ -2050,6 +2225,13 @@
         "extractos": [
           "| `7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5` | Beca Deportiva Santo Tomas | 50 a 100 por ciento del saldo tras beneficios externos; porcentaje variable. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5` | Beca Deportiva Santo Tomas | Santo Tomás: ficha dice arancel y el contraste anterior saldo tras otras ayudas; aclarar base de cálculo antes de confirmar cobertura. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2075,6 +2257,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92` | Beca Copago Santo Tomas | Identificar modalidad de copago y sede; no asumir cobertura completa. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92` | Beca Copago Santo Tomas | Bloqueo del contraste anterior reutilizado: Identificar modalidad de copago y sede; no asumir cobertura completa. |"
         ]
       }
     ],
@@ -2102,6 +2291,13 @@
         "extractos": [
           "| `6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3` | Beca Titulado Santo Tomas | Distinguir titulados; continuidad y convenios; identidad pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3` | Beca Titulado Santo Tomas | Bloqueo del contraste anterior reutilizado: Distinguir titulados; continuidad y convenios; identidad pendiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2128,6 +2324,13 @@
         "extractos": [
           "| `e89f59ae375830591a53a435dd8d89656ed816be6d33045d3a2e0d59b87fef3b` | Beca Familiar Santo Tomas | Obtener reglamento de descuento familiar; no asumir beca universal. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `e89f59ae375830591a53a435dd8d89656ed816be6d33045d3a2e0d59b87fef3b` | Beca Familiar Santo Tomas | Bloqueo del contraste anterior reutilizado: Obtener reglamento de descuento familiar; no asumir beca universal. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2153,6 +2356,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff` | Beca Convenio Empresas Santo Tomas | Obtener convenio concreto y distinguir UST/IP/CFT. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff` | Beca Convenio Empresas Santo Tomas | Bloqueo del contraste anterior reutilizado: Obtener convenio concreto y distinguir UST/IP/CFT. |"
         ]
       }
     ],
@@ -2184,6 +2394,13 @@
         "extractos": [
           "| `70cc47ac438139cde0dc4476cdde18108e009db8b9036d6db48c57d0f58a58e4` | Hogar Estudiantil UACh | Obtener bases actuales del hogar y requisitos de sede. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `70cc47ac438139cde0dc4476cdde18108e009db8b9036d6db48c57d0f58a58e4` | Hogar Estudiantil UACh | Bloqueo del contraste anterior reutilizado: Obtener bases actuales del hogar y requisitos de sede. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -2209,6 +2426,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `5eefb13006944f6b566d2c4aba3290a3d8d28ec8a5a6ef23936c74c468a5e618` | Bono Alimenticio UACh | Verificar equivalencia con Beca de Alimentación; no trasladar calendario por alias. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `5eefb13006944f6b566d2c4aba3290a3d8d28ec8a5a6ef23936c74c468a5e618` | Bono Alimenticio UACh | Bloqueo del contraste anterior reutilizado: Verificar equivalencia con Beca de Alimentación; no trasladar calendario por alias. |"
         ]
       }
     ],
@@ -2236,6 +2460,13 @@
         "extractos": [
           "| `4946711a55eee8c339ebd283c3c50940c4bed4e571f2138b2f54c48b085cf753` | Laborancia UACh | Obtener bases actuales de laborancia; no heredar condiciones de 2020. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `4946711a55eee8c339ebd283c3c50940c4bed4e571f2138b2f54c48b085cf753` | Laborancia UACh | Bloqueo del contraste anterior reutilizado: Obtener bases actuales de laborancia; no heredar condiciones de 2020. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2248,7 +2479,7 @@
     "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
     "nombre": "Beca Deportiva UACh",
     "institucion": "Universidad Austral de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uach.csv",
@@ -2266,13 +2497,41 @@
         "extractos": [
           "| `97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd` | Beca Deportiva UACh | Convocatoria deportiva 2026 localizada; completar cobertura y documentos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd` | Beca Deportiva UACh | UACH | Beca de arancel para deportistas destacados; porcentaje desconocido. Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador. | Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Deportiva UACh; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://diario.uach.cl/uach-abre-proceso-de-postulacion-a-beca-para-deportistas-destacados-as-2026/"
+      ],
+      "beneficio": "Beca de arancel para deportistas destacados; porcentaje desconocido.",
+      "requisitos_principales": "Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador.",
+      "limites": "Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
@@ -2295,6 +2554,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e` | Beca Excelencia Académica UAH | Excelencia agrupa porcentajes; fuente mezcla años 2026/2027. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e` | Beca Excelencia Académica UAH | Bloqueo del contraste anterior reutilizado: Excelencia agrupa porcentajes; fuente mezcla años 2026/2027. |"
         ]
       }
     ],
@@ -2322,6 +2588,13 @@
         "extractos": [
           "| `7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa` | Beca de Apoyo Socioeconomico UAH | Identificar ayuda socioeconómica específica y convocatoria. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa` | Beca de Apoyo Socioeconomico UAH | Bloqueo del contraste anterior reutilizado: Identificar ayuda socioeconómica específica y convocatoria. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2347,6 +2620,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` | Beca Vocacion Social UAH | No equiparar Vocación Social a Vocación de Profesor. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` | Beca Vocacion Social UAH | Bloqueo del contraste anterior reutilizado: No equiparar Vocación Social a Vocación de Profesor. |"
         ]
       }
     ],
@@ -2377,6 +2657,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b` | Beca Deportiva UAH | No confirmada como modalidad independiente en las fuentes consultadas. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b` | Beca Deportiva UAH | La fuente UAH distingue Deportista Destacado de Mérito Deportista: ayudas en pagos, con elegibilidad diferente; falta resolver la modalidad del nombre histórico genérico. |"
         ]
       }
     ],
@@ -3038,6 +3325,13 @@
         "extractos": [
           "| `795ecb1745d45294aac3defc740c3992abf826901fa0ea33e1d5432d5790e2fe` | Beca de Excelencia Académica UBB | Conciliar con variante sin de y distinto nombre institucional; bases pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `795ecb1745d45294aac3defc740c3992abf826901fa0ea33e1d5432d5790e2fe` | Beca de Excelencia Académica UBB | Bloqueo del contraste anterior reutilizado: Conciliar con variante sin de y distinto nombre institucional; bases pendientes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3050,7 +3344,7 @@
     "candidato": "baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90",
     "nombre": "Beca de Alimentación UBB",
     "institucion": "Universidad del Bío-Bío",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubb.csv",
@@ -3064,19 +3358,47 @@
         "extractos": [
           "| `baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90` | Beca de Alimentación UBB | Catálogo con fallo de acceso; falta modalidad y cobertura individual. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90` | Beca de Alimentación UBB | UBB | Alimentación en casino de lunes a viernes durante año académico. Estudiante sujeto a acreditación y evaluación socioeconómica institucional; no beneficiario BAES. | Importe desconocido; no pago en dinero; no exigir calendario completo para cerrar el alcance esencial. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Alimentación UBB; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+      ],
+      "beneficio": "Alimentación en casino de lunes a viernes durante año académico.",
+      "requisitos_principales": "Estudiante sujeto a acreditación y evaluación socioeconómica institucional; no beneficiario BAES.",
+      "limites": "Importe desconocido; no pago en dinero; no exigir calendario completo para cerrar el alcance esencial. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
     "nombre": "Beca de Residencia UBB",
     "institucion": "Universidad del Bío-Bío",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubb.csv",
@@ -3094,13 +3416,41 @@
         "extractos": [
           "| `c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f` | Beca de Residencia UBB | Confirmar naturaleza del aporte; no asumir alojamiento en especie. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f` | Beca de Residencia UBB | UBB | Ayuda parcial para gastos de residencia. Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario. | Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; url",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Residencia UBB; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+      ],
+      "beneficio": "Ayuda parcial para gastos de residencia.",
+      "requisitos_principales": "Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario.",
+      "limites": "Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "2b84c516a23ac208988c6ee20a88511eed4a2b565bbbadec9756b1d5f2aa755a",
@@ -3119,6 +3469,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `2b84c516a23ac208988c6ee20a88511eed4a2b565bbbadec9756b1d5f2aa755a` | Beca Deportiva UBB | Completar bases deportivas; asignación general no prueba porcentaje. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `2b84c516a23ac208988c6ee20a88511eed4a2b565bbbadec9756b1d5f2aa755a` | Beca Deportiva UBB | Bloqueo del contraste anterior reutilizado: Completar bases deportivas; asignación general no prueba porcentaje. |"
         ]
       }
     ],
@@ -3150,6 +3507,13 @@
         "extractos": [
           "| `d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49` | Beca Excelencia Académica UBO | Distinguir beca PAES de rendimiento universitario. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49` | Beca Excelencia Académica UBO | Bloqueo del contraste anterior reutilizado: Distinguir beca PAES de rendimiento universitario. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3175,6 +3539,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` | Beca Socioeconomica UBO | Identificar apoyo económico concreto y bases; no asumir umbral RSH. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` | Beca Socioeconomica UBO | Bloqueo del contraste anterior reutilizado: Identificar apoyo económico concreto y bases; no asumir umbral RSH. |"
         ]
       }
     ],
@@ -3206,6 +3577,13 @@
         "extractos": [
           "| `382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4` | Beca Deportiva UBO | Arancel deportivo evaluado; no heredar 100 por ciento universal. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4` | Beca Deportiva UBO | Bloqueo del contraste anterior reutilizado: Arancel deportivo evaluado; no heredar 100 por ciento universal. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3231,6 +3609,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af` | Beca Convenio Empresas UBO | Obtener convenio vigente concreto; no asumir porcentaje general. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af` | Beca Convenio Empresas UBO | Bloqueo del contraste anterior reutilizado: Obtener convenio vigente concreto; no asumir porcentaje general. |"
         ]
       }
     ],
@@ -3962,6 +4347,13 @@
         "extractos": [
           "| `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866` | Beca Excelencia Académica UCSH | Distinguir BEA ministerial de modalidades internas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866` | Beca Excelencia Académica UCSH | Bloqueo del contraste anterior reutilizado: Distinguir BEA ministerial de modalidades internas. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3988,6 +4380,13 @@
         "extractos": [
           "| `14f84638735c858c53f114c5e1e093e0bc8ae61422866366d6a0fd733eae5a97` | Beca Socioeconomica UCSH | Nombre genérico: no equiparar a gratuidad o Don Bosco. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `14f84638735c858c53f114c5e1e093e0bc8ae61422866366d6a0fd733eae5a97` | Beca Socioeconomica UCSH | Bloqueo del contraste anterior reutilizado: Nombre genérico: no equiparar a gratuidad o Don Bosco. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4000,7 +4399,7 @@
     "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
     "nombre": "Beca Deportiva UCSH",
     "institucion": "Universidad Católica Silva Henriquez",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
@@ -4018,13 +4417,41 @@
         "extractos": [
           "| `eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e` | Beca Deportiva UCSH | Beneficio deportivo localizado; PDF inaccesible; porcentaje pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e` | Beca Deportiva UCSH | UCSH | Hasta 100% del arancel anual o proporción evaluada. Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH. | Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. |"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Deportiva UCSH; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admisionucsh.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "Hasta 100% del arancel anual o proporción evaluada.",
+      "requisitos_principales": "Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH.",
+      "limites": "Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
@@ -4047,6 +4474,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` | Beca Familiar UCSH | Beneficio familiar no identificado inequívocamente en el catálogo. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` | Beca Familiar UCSH | Bloqueo del contraste anterior reutilizado: Beneficio familiar no identificado inequívocamente en el catálogo. |"
         ]
       }
     ],
@@ -4415,6 +4849,13 @@
         "extractos": [
           "| `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` | Beca de Arancel UdeC | UDEC | Nombre genérico no identifica una única beca del catálogo; no elegir un decreto por cobertura parecida. | Identificar programa concreto y decreto antes de trasladar requisitos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` | Beca de Arancel UdeC | Bloqueo del contraste anterior reutilizado: Nombre genérico: no equiparar a Enrique Molina. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4448,6 +4889,13 @@
         "extractos": [
           "| `eb3131c5f603c2fd6a2c622cd438316e0b7209aeec659094ecd19c8ae4dbac17` | Beca Excelencia Académica UdeC | UDEC | No equiparar Excelencia Académica genérica con beneficios especializados del catálogo. | Acreditar equivalencia oficial del nombre y convocatoria. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `eb3131c5f603c2fd6a2c622cd438316e0b7209aeec659094ecd19c8ae4dbac17` | Beca Excelencia Académica UdeC | Bloqueo del contraste anterior reutilizado: Identificar beca concreta; no heredar requisitos de otra modalidad. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4480,6 +4928,13 @@
         "informe_sha256": "88f70753e9af2d5b47c8792dff68834235e12758016f0f774e1bcf74b0296981",
         "extractos": [
           "| `7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9` | Beca de Residencia UdeC | UDEC | Residencia genérica no prueba identidad con Doctor Virginio Gómez; no trasladar calendario ni cuota. | Identificar modalidad exacta; respaldo del aporte mensual histórico. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9` | Beca de Residencia UdeC | Bloqueo del contraste anterior reutilizado: No equiparar automáticamente a Residencia Doctor Virginio Gómez. |"
         ]
       }
     ],
@@ -4984,6 +5439,13 @@
         "extractos": [
           "| `3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e` | Beca de Residencia UFRO | Identificar programa de residencia y bases específicas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e` | Beca de Residencia UFRO | Bloqueo del contraste anterior reutilizado: Identificar programa de residencia y bases específicas. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5013,6 +5475,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `e32478188248c1e8d179052cb8d9f6ff40b424a6bd0eff7637228ce064656933` | Beca de Alimentación UFRO | Contrastar con programa de alimentación; no presumir importe monetario. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `e32478188248c1e8d179052cb8d9f6ff40b424a6bd0eff7637228ce064656933` | Beca de Alimentación UFRO | Bloqueo del contraste anterior reutilizado: Contrastar con programa de alimentación; no presumir importe monetario. |"
         ]
       }
     ],
@@ -5044,6 +5513,13 @@
         "extractos": [
           "| `8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967` | Beca Deportiva UFRO | Obtener ficha deportiva específica y cobertura. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967` | Beca Deportiva UFRO | Bloqueo del contraste anterior reutilizado: Obtener ficha deportiva específica y cobertura. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -5069,6 +5545,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` | Beca de Apoyo Socioeconomico UFRO | Nombre genérico: identificar fondo de apoyo concreto. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` | Beca de Apoyo Socioeconomico UFRO | Bloqueo del contraste anterior reutilizado: Nombre genérico: identificar fondo de apoyo concreto. |"
         ]
       }
     ],
@@ -5264,7 +5747,7 @@
     "candidato": "a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423",
     "nombre": "Aporte Excepcional de Transporte ULagos",
     "institucion": "Universidad de Los Lagos",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ulagos.csv",
@@ -5278,13 +5761,41 @@
         "extractos": [
           "| `a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423` | Aporte Excepcional de Transporte ULagos | Transporte excepcional restringido por carrera y cohorte; importe pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423` | Aporte Excepcional de Transporte ULagos | ULAGOS | Apoyo excepcional para transporte; importe desconocido. Campus Osorno; Obstetricia y Puericultura o Ingeniería Civil Informática; ingreso hasta 2023; gestionar antecedentes con trabajo social dentro del proceso correspondiente. | No beneficio general para todas las carreras ni cohortes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Aporte Excepcional de Transporte ULagos; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+      ],
+      "beneficio": "Apoyo excepcional para transporte; importe desconocido.",
+      "requisitos_principales": "Campus Osorno; Obstetricia y Puericultura o Ingeniería Civil Informática; ingreso hasta 2023; gestionar antecedentes con trabajo social dentro del proceso correspondiente.",
+      "limites": "No beneficio general para todas las carreras ni cohortes. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477",
@@ -5303,6 +5814,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477` | Beca Interna ULagos | Interna agrupa varias becas; identificar modalidad antes de asignar campos. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477` | Beca Interna ULagos | Bloqueo del contraste anterior reutilizado: Interna agrupa varias becas; identificar modalidad antes de asignar campos. |"
         ]
       }
     ],
@@ -5330,6 +5848,13 @@
         "extractos": [
           "| `b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d` | Beca Santander ULagos | Identificar convocatoria Santander y comparar finalidad; no asumir mantención. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d` | Beca Santander ULagos | Bloqueo del contraste anterior reutilizado: Identificar convocatoria Santander y comparar finalidad; no asumir mantención. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5342,7 +5867,7 @@
     "candidato": "8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960",
     "nombre": "Beca de Alimentación ULagos",
     "institucion": "Universidad de Los Lagos",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ulagos.csv",
@@ -5356,19 +5881,47 @@
         "extractos": [
           "| `8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960` | Beca de Alimentación ULagos | Contrastar con Alimentación Interna mediante tarjeta; calendario 2026 localizado. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960` | Beca de Alimentación ULagos | ULAGOS | Alimentación mediante tarjeta. Regular profesional o técnico; necesidad económica; primer año NEM 5,5; superiores promedio último semestre al menos promedio de carrera y 4,5; sin sanción ejecutada; restricciones de títulos previos y duración. | No trasladar el promedio universitario al NEM; evaluación FAS/RSH; calendario 2026 referencial, sin acreditar convocatoria abierta. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca de Alimentación ULagos; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+      ],
+      "beneficio": "Alimentación mediante tarjeta.",
+      "requisitos_principales": "Regular profesional o técnico; necesidad económica; primer año NEM 5,5; superiores promedio último semestre al menos promedio de carrera y 4,5; sin sanción ejecutada; restricciones de títulos previos y duración.",
+      "limites": "No trasladar el promedio universitario al NEM; evaluación FAS/RSH; calendario 2026 referencial, sin acreditar convocatoria abierta. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857",
     "nombre": "Beca Mayor Puntaje PAES UMAG",
     "institucion": "Universidad de Magallanes",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umag.csv",
@@ -5382,19 +5935,47 @@
         "extractos": [
           "| `67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857` | Beca Mayor Puntaje PAES UMAG | Ficha enlazada desde catálogo; completar cobertura y calendario propios. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857` | Beca Mayor Puntaje PAES UMAG | UMAG_PAES | Beneficio de arancel; porcentaje desconocido. Carrera con corte inferior a 810; promedio PAES CL/M1 al menos 810 o ponderado superior a 810; primera PAES y matrícula en el mismo proceso; regular profesional/técnico; FUAS. | Máximo dos por carrera y seis al año; primer año con una única renovación consecutiva condicionada. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Mayor Puntaje PAES UMAG; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=4099"
+      ],
+      "beneficio": "Beneficio de arancel; porcentaje desconocido.",
+      "requisitos_principales": "Carrera con corte inferior a 810; promedio PAES CL/M1 al menos 810 o ponderado superior a 810; primera PAES y matrícula en el mismo proceso; regular profesional/técnico; FUAS.",
+      "limites": "Máximo dos por carrera y seis al año; primer año con una única renovación consecutiva condicionada. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8",
     "nombre": "Beca Pueblos Originarios Magallanes UMAG",
     "institucion": "Universidad de Magallanes",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umag.csv",
@@ -5408,19 +5989,47 @@
         "extractos": [
           "| `e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8` | Beca Pueblos Originarios Magallanes UMAG | Arancel y acreditación CONADI respaldados; porcentaje y cierre pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8` | Beca Pueblos Originarios Magallanes UMAG | UMAG_ORIGINARIOS | Beneficio de arancel; porcentaje desconocido. Regular profesional/técnico; FUAS; ascendencia Kawésqar o Yagán acreditada por CONADI; necesidad económica; inscripción RSH. | No extender a cualquier pueblo originario ni inferir umbral RSH; cupos y presupuesto; fuente leída en la investigación de este lote, reconsulta posterior con timeout. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Pueblos Originarios Magallanes UMAG; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=4083"
+      ],
+      "beneficio": "Beneficio de arancel; porcentaje desconocido.",
+      "requisitos_principales": "Regular profesional/técnico; FUAS; ascendencia Kawésqar o Yagán acreditada por CONADI; necesidad económica; inscripción RSH.",
+      "limites": "No extender a cualquier pueblo originario ni inferir umbral RSH; cupos y presupuesto; fuente leída en la investigación de este lote, reconsulta posterior con timeout. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b",
     "nombre": "Beca Deportistas Destacados UMAG",
     "institucion": "Universidad de Magallanes",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umag.csv",
@@ -5434,13 +6043,41 @@
         "extractos": [
           "| `0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b` | Beca Deportistas Destacados UMAG | Arancel total o parcial; no fijar 100 por ciento para todos los casos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b` | Beca Deportistas Destacados UMAG | UMAG_DEPORTE | Financiamiento total o parcial del arancel. Regular profesional/técnico; FUAS; alto rendimiento acreditado; patrocinio del entrenador; disciplina prioritaria; club asociado con convenio; representación institucional. | No 100% universal; renovación exige aprobar 50% primer año y 60% cursos superiores; vigencia 1,5 veces duración de carrera. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Deportistas Destacados UMAG; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=3911"
+      ],
+      "beneficio": "Financiamiento total o parcial del arancel.",
+      "requisitos_principales": "Regular profesional/técnico; FUAS; alto rendimiento acreditado; patrocinio del entrenador; disciplina prioritaria; club asociado con convenio; representación institucional.",
+      "limites": "No 100% universal; renovación exige aprobar 50% primer año y 60% cursos superiores; vigencia 1,5 veces duración de carrera. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00",
@@ -5459,6 +6096,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00` | Beca de Residencia UMAG | Identidad interna pendiente; no equiparar a residencia indígena externa. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00` | Beca de Residencia UMAG | Bloqueo del contraste anterior reutilizado: Identidad interna pendiente; no equiparar a residencia indígena externa. |"
         ]
       }
     ],
@@ -6103,6 +6747,13 @@
         "extractos": [
           "| `f43b0040acd2914489f6b344a0e588582de5c297915978a8f4832fd14e0770a1` | Beca de Excelencia Académica UPLA | Posible variante del otro candidato Excelencia; conservar ambos hasta conciliar. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `f43b0040acd2914489f6b344a0e588582de5c297915978a8f4832fd14e0770a1` | Beca de Excelencia Académica UPLA | Bloqueo del contraste anterior reutilizado: Posible variante del otro candidato Excelencia; conservar ambos hasta conciliar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6133,6 +6784,13 @@
         "extractos": [
           "| `68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3` | Beca de Alimentación UPLA | Obtener bases actuales; no extrapolar condiciones de 2025. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3` | Beca de Alimentación UPLA | Bloqueo del contraste anterior reutilizado: Obtener bases actuales; no extrapolar condiciones de 2025. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -6158,6 +6816,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd` | Beca de Residencia UPLA | Obtener ficha de residencia específica y convocatoria actual. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd` | Beca de Residencia UPLA | Bloqueo del contraste anterior reutilizado: Obtener ficha de residencia específica y convocatoria actual. |"
         ]
       }
     ],
@@ -6189,6 +6854,13 @@
         "extractos": [
           "| `387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46` | Beca Deportiva UPLA | Completar bases deportivas 2026; no fijar porcentaje sin fuente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46` | Beca Deportiva UPLA | Bloqueo del contraste anterior reutilizado: Completar bases deportivas 2026; no fijar porcentaje sin fuente. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -6214,6 +6886,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff` | Beca de Excelencia Académica USACH | Distinguir BEA de Mineduc y modalidades de excelencia institucional. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff` | Beca de Excelencia Académica USACH | Bloqueo del contraste anterior reutilizado: Distinguir BEA de Mineduc y modalidades de excelencia institucional. |"
         ]
       }
     ],
@@ -6241,6 +6920,13 @@
         "extractos": [
           "| `7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921` | Beca de Apoyo Socioeconomico USACH | Nombre genérico: identificar programa de apoyo concreto. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921` | Beca de Apoyo Socioeconomico USACH | Bloqueo del contraste anterior reutilizado: Nombre genérico: identificar programa de apoyo concreto. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6253,7 +6939,7 @@
     "candidato": "66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade",
     "nombre": "Beca Deportiva USACH",
     "institucion": "Universidad de Santiago de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_usach.csv",
@@ -6267,13 +6953,41 @@
         "extractos": [
           "| `66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade` | Beca Deportiva USACH | Total o parcial del arancel real; distinta del cupo de ingreso deportivo. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade` | Beca Deportiva USACH | USACH | Total o parcial del arancel real. Regular de pregrado; destacado en rama deportiva impartida por la universidad; selección por méritos deportivos mediante Gestión del Deporte. | Independiente del cupo de ingreso Deportista Destacado; cuantía individual desconocida. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Deportiva USACH; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://www.admision.usach.cl/beneficios-estudiantiles"
+      ],
+      "beneficio": "Total o parcial del arancel real.",
+      "requisitos_principales": "Regular de pregrado; destacado en rama deportiva impartida por la universidad; selección por méritos deportivos mediante Gestión del Deporte.",
+      "limites": "Independiente del cupo de ingreso Deportista Destacado; cuantía individual desconocida. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "5400345f14a5839d05af3184b2bff6801e9354ef7f2fa0d9d5984935c01c4bc6",
@@ -7430,6 +8144,13 @@
         "extractos": [
           "- `342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705`: USM Formación Élite: título primer año frente a duración nominal; cobertura contradictoria.\n- `ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb`: UTalca Deportiva: aclarar antigüedad de egreso contradictoria con noticia oficial anterior.\n- `86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848`: Duoc Deportiva: alcance federaciones y requisitos difieren del reglamento.\n- `bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b`: Duoc Liceo Andes: compatibilidad del reglamento y página contradictoria.\n- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705` | Beca Deportista en Formación Elite | USM Formación Elite: contradicción material de antigüedad/curso frente a denominación; conservar bloqueo anterior. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7520,6 +8241,13 @@
         "informe_sha256": "82104ab316d6a6cd6de9b641acfb999248dd5f1812912b7640bf42a2fab3728d",
         "extractos": [
           "- `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`: UV Apoyo Socioeconómico: identidad específica no acreditada.\n- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9` | Beca de Apoyo Socioeconomico UV | Bloqueo del contraste anterior reutilizado: La ficha de Honor no confirma este apoyo genérico. |"
         ]
       }
     ],
@@ -7670,6 +8398,13 @@
         "extractos": [
           "- `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870`: UV Deportiva: confirmar requisitos principales; no basta modificación de cobertura de 2016.\n- `a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f`: UFT Excelencia: alias interno frente a beca ministerial no acreditado.\n- `20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279`: UFT Socioeconómica: identidad específica no acreditada.\n- `311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533`: UFT Familiar: no equiparar nombre genérico con Hermanos sin equivalencia acreditada."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870` | Beca de Excelencia Deportiva UV | Bloqueo del contraste anterior reutilizado: Obtener ficha deportiva propia; no heredar requisitos de Honor. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -7700,6 +8435,13 @@
         "extractos": [
           "| `3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa` | Beca Matrícula UVM | Identificar beneficio específico de matrícula; no asumir exención general. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa` | Beca Matrícula UVM | Bloqueo del contraste anterior reutilizado: Identificar beneficio específico de matrícula; no asumir exención general. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -7726,6 +8468,13 @@
         "extractos": [
           "| `02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f` | Beca Copago UVM | Nota histórica menciona Copago; cobertura actual pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f` | Beca Copago UVM | Bloqueo del contraste anterior reutilizado: Nota histórica menciona Copago; cobertura actual pendiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7751,6 +8500,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af` | Beca Convenio Empresas UVM | Convenio de empresa concreto y vigencia pendientes. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af` | Beca Convenio Empresas UVM | Bloqueo del contraste anterior reutilizado: Convenio de empresa concreto y vigencia pendientes. |"
         ]
       }
     ],
@@ -7781,6 +8537,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154` | Beca Deportiva UVM | Admisiones nuevas/antiguas diferentes; porcentaje económico pendiente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154` | Beca Deportiva UVM | UVM: elegibilidad deportiva localizada, pero falta corroborar cobertura económica; el nombre beca no acredita descuento. |"
         ]
       }
     ],
@@ -15277,6 +16040,13 @@
         "extractos": [
           "| `2a9d39ae12be7f9247643f332d37f07186e6640babcc47ba17727be7cb6af5a7` | Beca Mérito Académico UCSH | Conciliar con Excelencia sin fusionar; bases propias pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `2a9d39ae12be7f9247643f332d37f07186e6640babcc47ba17727be7cb6af5a7` | Beca Mérito Académico UCSH | Bloqueo del contraste anterior reutilizado: Conciliar con Excelencia sin fusionar; bases propias pendientes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15434,6 +16204,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0` | Beca Copago Institucional UAH | Identificar modalidad concreta; no trasladar requisitos de otras becas. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0` | Beca Copago Institucional UAH | Bloqueo del contraste anterior reutilizado: Identificar modalidad concreta; no trasladar requisitos de otras becas. |"
         ]
       }
     ],
@@ -15695,6 +16472,13 @@
         "extractos": [
           "| `5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df` | Beca Excelencia Académica UPLA | Conciliar variante Excelencia con y sin de; no fusionar aún. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df` | Beca Excelencia Académica UPLA | Bloqueo del contraste anterior reutilizado: Conciliar variante Excelencia con y sin de; no fusionar aún. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15720,6 +16504,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `bcba150d8162b3efbb7489e70e25ec008d69dd6f16bad79bd26cf2e679296237` | Beca Copago Institucional UBO | Identificar modalidad de copago; no heredar máximo Talento DAE. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `bcba150d8162b3efbb7489e70e25ec008d69dd6f16bad79bd26cf2e679296237` | Beca Copago Institucional UBO | Bloqueo del contraste anterior reutilizado: Identificar modalidad de copago; no heredar máximo Talento DAE. |"
         ]
       }
     ],
@@ -15766,7 +16557,7 @@
     "candidato": "6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225",
     "nombre": "Beca Excelencia Académica UFRO",
     "institucion": "Universidad de La Frontera",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
@@ -15780,13 +16571,41 @@
         "extractos": [
           "| `6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225` | Beca Excelencia Académica UFRO | Nombre genérico: identificar beneficio de excelencia concreto. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225` | Beca Excelencia Académica UFRO | UFRO | Dinero de libre disposición al mejor estudiante de cada carrera; incremento para mejor promedio global. Curso superior; promedio general acumulado al menos 5,0; plan al día; sin convalidaciones previas ni movimientos académicos salvo excepciones de salud grave o pasantía. | No rebaja de arancel ni NEM de ingreso; importe desconocido; identidad institucional específica acreditada por DDE. |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas públicas esenciales de Beca Excelencia Académica UFRO; no certifica convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/"
+      ],
+      "beneficio": "Dinero de libre disposición al mejor estudiante de cada carrera; incremento para mejor promedio global.",
+      "requisitos_principales": "Curso superior; promedio general acumulado al menos 5,0; plan al día; sin convalidaciones previas ni movimientos académicos salvo excepciones de salud grave o pasantía.",
+      "limites": "No rebaja de arancel ni NEM de ingreso; importe desconocido; identidad institucional específica acreditada por DDE. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5",
@@ -16066,6 +16885,13 @@
         "extractos": [
           "| `305155ba36aa3c6648b576c3988442b004222a2c5a3d0e3d080eb6d9a3a9da8c` | Beca Excelencia Académica UBB | Conciliar con variante Bío-Bío y con de; no fusionar aún. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `305155ba36aa3c6648b576c3988442b004222a2c5a3d0e3d080eb6d9a3a9da8c` | Beca Excelencia Académica UBB | Bloqueo del contraste anterior reutilizado: Conciliar con variante Bío-Bío y con de; no fusionar aún. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16091,6 +16917,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c` | Beca de Mantención UMAG | Identidad pendiente; no asignar manutención de beneficios externos. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c` | Beca de Mantención UMAG | Bloqueo del contraste anterior reutilizado: Identidad pendiente; no asignar manutención de beneficios externos. |"
         ]
       }
     ],
@@ -16118,6 +16951,13 @@
         "extractos": [
           "| `e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6` | Beca Excelencia Académica ULagos | Identificar modalidad; Trayectoria Formativa no se presume equivalente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6` | Beca Excelencia Académica ULagos | Bloqueo del contraste anterior reutilizado: Identificar modalidad; Trayectoria Formativa no se presume equivalente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16143,6 +16983,13 @@
         "informe_sha256": "a79f401ee8569d6e8181e9f7bd4df92887acc904c07c477e3194ab5cc6f31ef8",
         "extractos": [
           "| `3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2` | Beca de Apoyo ULagos | Nombre genérico: identificar apoyo concreto antes de asignar importe. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2` | Beca de Apoyo ULagos | Bloqueo del contraste anterior reutilizado: Nombre genérico: identificar apoyo concreto antes de asignar importe. |"
         ]
       }
     ],
@@ -16340,6 +17187,13 @@
         "extractos": [
           "| `eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677` | Beca Excelencia Académica UMAG | Completar ficha y calendario propios; no extrapolar Mayor Puntaje. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677` | Beca Excelencia Académica UMAG | Bloqueo del contraste anterior reutilizado: Completar ficha y calendario propios; no extrapolar Mayor Puntaje. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16365,6 +17219,13 @@
         "informe_sha256": "616b5a2d726c0f1dd6976d3a05d51014e0a6939cae4c37362013573d5140955a",
         "extractos": [
           "| `32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3` | Beca Convenios UVM | Posible variante de convenio; no fusionar sin identificar acuerdo. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+        "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
+        "extractos": [
+          "| `32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3` | Beca Convenios UVM | Bloqueo del contraste anterior reutilizado: Posible variante de convenio; no fusionar sin identificar acuerdo. |"
         ]
       }
     ],

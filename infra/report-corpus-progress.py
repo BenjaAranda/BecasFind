@@ -3,7 +3,17 @@ import csv
 import json
 from collections import defaultdict
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
+
+
+def specific_source(url):
+    parsed = urlparse(url)
+    if parsed.scheme != 'https' or not parsed.hostname or parsed.username or parsed.password:
+        return False
+    if parsed.path not in ('', '/'):
+        return True
+    page_ids = parse_qs(parsed.query).get('page_id', [])
+    return len(page_ids) == 1 and page_ids[0].isascii() and page_ids[0].isdigit() and int(page_ids[0]) > 0
 
 
 def read_csv(path):
@@ -32,7 +42,7 @@ def essential_confirmations(folder, reviewed, completed):
             raise ValueError('Confirmación esencial sin alcance, datos o límites')
         if not (folder/entry['informe']).is_file():
             raise ValueError('Informe esencial ausente')
-        if any(urlparse(url).scheme != 'https' or not urlparse(url).hostname or urlparse(url).username or urlparse(url).password or urlparse(url).path in ('', '/') for url in entry['fuentes']):
+        if any(not specific_source(url) for url in entry['fuentes']):
             raise ValueError('Fuente esencial sin enlace específico válido')
         entries[key] = entry
     return entries
