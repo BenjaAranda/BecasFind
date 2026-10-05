@@ -6,7 +6,7 @@ Solicitud: organizar iteraciones mayores y continuar. Autorizado por el usuario 
 
 | Paso | Resultado revisable | Verificación | Dependencia |
 |---|---|---|---|
-| Selección | 25–40 hashes únicos y referencias originales | Sin duplicar candidatas; variantes enlazadas | Inventario actual |
+| Selección | 60–80 hashes únicos y referencias originales | Sin duplicar candidatas; variantes enlazadas | Inventario actual |
 | Contraste | Una matriz individual con fuentes y bloqueo específico | Cada conclusión respaldada; distinguir fuente leída de búsqueda y reutilización | Selección |
 | Registro | Enlazar informe individual y actualizar inventario una vez | Cuatro controles esenciales autorizados; seis solo para confirmación exhaustiva; originales intactos | Contraste |
 | Correcciones | Un CSV cuando haya campos justificadamente corregibles | Respaldo/restauración; atomicidad; UTF-8; sin alterar otras becas | Registro |

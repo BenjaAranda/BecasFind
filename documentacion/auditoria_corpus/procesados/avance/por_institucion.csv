@@ -5,7 +5,7 @@ DUOC UC,4,2,0,0,2,2
 INACAP,6,6,0,0,0,6
 IP Chile,6,6,0,0,0,6
 JUNAEB,4,4,0,0,0,4
-Ministerio de Educación,5,5,0,0,0,5
+Ministerio de Educación,5,0,0,0,5,0
 Municipalidad de Algarrobo,3,3,0,0,0,3
 Municipalidad de Alhue,1,1,0,0,0,1
 Municipalidad de Alto Biobio,1,1,0,0,0,1
@@ -300,11 +300,11 @@ Pontificia Universidad Católica de Chile,3,3,0,0,0,3
 Pontificia Universidad Católica de Valparaíso,5,5,0,0,0,5
 Santo Tomás,6,6,0,0,0,6
 Universidad Adolfo Ibanez,3,3,0,0,0,3
-Universidad Adolfo Ibáñez,5,5,0,0,0,5
+Universidad Adolfo Ibáñez,5,3,0,0,2,3
 Universidad Alberto Hurtado,5,5,0,0,0,5
 Universidad Arturo Prat,6,6,0,0,0,6
 Universidad Austral de Chile,4,4,0,0,0,4
-Universidad Autónoma de Chile,6,6,0,0,0,6
+Universidad Autónoma de Chile,6,4,0,0,2,4
 Universidad Bernardo O'Higgins,5,5,0,0,0,5
 Universidad Católica Silva Henriquez,5,5,0,0,0,5
 Universidad Católica de Temuco,6,6,0,0,0,6
@@ -312,18 +312,18 @@ Universidad Católica de la Santisima Concepción,1,1,0,0,0,1
 Universidad Católica de la Santísima Concepción,4,4,0,0,0,4
 Universidad Católica del Norte,4,0,0,0,4,0
 Universidad Central de Chile,4,4,0,0,0,4
-Universidad Diego Portales,6,6,0,0,0,6
+Universidad Diego Portales,6,0,0,0,6,0
 Universidad Finis Terrae,5,3,0,0,2,3
-Universidad Mayor,6,6,0,0,0,6
-Universidad Nacional Andrés Bello,7,7,0,0,0,7
-Universidad San Sebastián,7,7,0,0,0,7
+Universidad Mayor,6,5,0,0,1,5
+Universidad Nacional Andrés Bello,7,4,0,0,3,4
+Universidad San Sebastián,7,0,0,0,7,0
 Universidad Técnica Federico Santa Maria,6,1,0,0,5,1
 Universidad Viña del Mar,5,5,0,0,0,5
 Universidad de Chile,7,6,0,1,0,6
 Universidad de Concepción,3,3,0,0,0,3
 Universidad de La Frontera,5,5,0,0,0,5
 Universidad de Las Americas,3,3,0,0,0,3
-Universidad de Las Américas,4,4,0,0,0,4
+Universidad de Las Américas,4,3,0,0,1,3
 Universidad de Los Lagos,6,6,0,0,0,6
 Universidad de Magallanes,6,6,0,0,0,6
 Universidad de Playa Ancha,5,5,0,0,0,5

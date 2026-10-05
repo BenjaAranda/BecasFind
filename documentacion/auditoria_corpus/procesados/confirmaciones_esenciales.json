@@ -445,5 +445,572 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "a49b9bf87ce5fafc60030dcfa91dc8014404b5f455cf33e612166827a5c5a24e",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Académica UNAB; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.unab.cl/becas-unab/"
+    ],
+    "beneficio": "Hasta 100% del arancel anual.",
+    "requisitos_principales": "Mérito PAES 2024/2025; selección UNAB 2026; certificado del simulador.",
+    "limites": "Alcance 2026; título 2027 no actualiza esas condiciones. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9480220484dc43773469aff604795c0a6d27b18e8441b28a834f6689efe60da3",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UNAB; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.unab.cl/becas-unab/"
+    ],
+    "beneficio": "10–100% del arancel anual según evaluación.",
+    "requisitos_principales": "Deportista escolar/federado/seleccionado o alta competencia; acreditar trayectoria.",
+    "limites": "No porcentaje individual garantizado. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a495c84181a2e5a241bf753c046b7377b4f50c2f90009f36c5215fcc8f0c431e",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Fomento Regional UNAB; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.unab.cl/becas-unab/"
+    ],
+    "beneficio": "Rebaja de arancel; cuantía desconocida.",
+    "requisitos_principales": "Egresado de colegio fuera de Región Metropolitana; estudiar en Viña del Mar.",
+    "limites": "Sin RSH ni importe universal acreditado. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5400345f14a5839d05af3184b2bff6801e9354ef7f2fa0d9d5984935c01c4bc6",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "Rebaja de arancel calculada en simulador.",
+    "requisitos_principales": "Primer año diurno; admisión regular 2026; certificado de beneficio.",
+    "limites": "Cuantía individual desconocida; alcance 2026. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2b1c57c9a5601c1d0e16f9adaffad9446ede5acd557da6f440532864bb93fbce",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Excelencia Académica USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "20% del arancel anual/semestral según carrera.",
+    "requisitos_principales": "Regular diurno; promedio acumulado 5,5; asignatura profesionalizante; sin sanciones; dos años tras cambio/convalidación.",
+    "limites": "No postulable; cupos por carrera; 5,5 no es NEM. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9158a99e8cd09a9f3dfc3365d2fae183fd36d0a6c7e0d44a3f12ff3fb750e65a",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "Rebaja de arancel; porcentaje desconocido.",
+    "requisitos_principales": "Primer año; talento/figuración deportiva; vía Deportista; puntaje de ingreso; representación institucional; sin eliminación previa.",
+    "limites": "Octubre recurrente no acredita cierre. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "cf9dee9ad0fde9214be13f7f175232270fa4a125b90d1430689f57f080893663",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Talento Líder USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "Rebaja de arancel anual; cuantía desconocida.",
+    "requisitos_principales": "Primer año; liderazgo en organizaciones/proyectos acreditado.",
+    "limites": "La fuente informa postulación cerrada. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "e5aec1327d896ba5c9da9edc8c160e856e0c91807fee44d5710a7c4351eb51ee",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Familiar USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "10% del arancel anual.",
+    "requisitos_principales": "Padres/hermanos/hijos/cónyuges matriculados el mismo año; acreditar parentesco.",
+    "limites": "Solo integrantes matriculados; incompatibilidad salvo Excelencia USS. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "81c96cf6918051e9300d2fc634f368dcfad7af34d0a832cc20ff316ed5d30b8d",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Titulados USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "30% del arancel anual.",
+    "requisitos_principales": "Titulado USS; primera matrícula en otra carrera de pregrado; identificación.",
+    "limites": "Renovación condicionada. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "91beafc8e8b96777ac1fe4b984f4df92a5a8427a0bb158e10c3176a3344d25f3",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Hijo de Egresados USS; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "10% del arancel anual.",
+    "requisitos_principales": "Hijo de egresado USS; primer año de pregrado; acreditar parentesco.",
+    "limites": "Renovación condicionada. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c2d84306e2e91126d41dbe65c3333d4c5b726268307f64b77b52a68e1f814a11",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Puntaje PAES UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "25% del arancel de primer año.",
+    "requisitos_principales": "Egreso reciente; admisión centralizada 2026; promedio CL/M1 mínimo 810/910/935 según carrera.",
+    "limites": "Descartar 35% histórico; excluir Ingeniería Civil de esta tabla. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "724bc40ea97f49f31f653251554c435c4f090a6a0c8bd4d428767ff0997577c5",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Distincion Trayectorias Educativas UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "100% de matrícula y arancel de primer año.",
+    "requisitos_principales": "Egreso reciente; PAES máxima o DTE MINEDUC; pruebas de admisión 2026.",
+    "limites": "La ficha identifica beneficio interno; descartar 40% histórico. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d259e0e1d4c41596f82905035b8c53761c59ca8e741e6f023f44d9078d714cb4",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportista Destacado UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "Hasta 20% del arancel anual.",
+    "requisitos_principales": "Pregrado admitido/aceptado; seleccionado regional/nacional reciente o trayectoria escolar internacional; disciplina COCH; evaluación; representación.",
+    "limites": "Descartar 30% semestral histórico. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "316355690ce80d505a6d0de458c1b76920022ecc9bcd24840a69e50e6261c52a",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Bachillerato Internacional UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "25% del arancel de primer año.",
+    "requisitos_principales": "Egreso reciente; diploma internacional con convenio y puntaje destacado.",
+    "limites": "Convenio individual determina puntaje; descartar 30% histórico. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "8a8ef87bbef0ebebe9e0ff064ed8b4adec8599541d91f9b3bd32543e04c6387b",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca de Cesantia UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "Hasta seis mensualidades consecutivas de arancel; sin matrícula.",
+    "requisitos_principales": "Regular vespertino; trabajador dependiente que financia sus estudios; cesantía involuntaria.",
+    "limites": "No cualquier cesantía del sostenedor familiar; descartar RSH inferido. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "daaf42706261cc111466a5a16002b927df4bec8976de34eac9a8a9e30320262c",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Convenio de Descuento UDP; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "beneficio": "10% del arancel según convenio.",
+    "requisitos_principales": "ITC: egresado/titulado y carrera vespertina. DIPRECA: trabajador/cónyuge/hijo; diurna o vespertina.",
+    "limites": "No acumulable; no extender a toda empresa ni 30% histórico. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "52cd38af83cfb47bc031ff8fc8c6aae3b755b49a95933212da99822eef5b3f55",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UA; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "beneficio": "50% nacional o 100% internacional del arancel.",
+    "requisitos_principales": "Participación deportiva destacada; FUAS; compromiso de representación exclusiva.",
+    "limites": "Modalidad deportiva; no extender liderazgo/ciencia a este registro. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "838212eb4961778ab10d91be3dbaa66b2b0b2b843aad6d0d657f29335422ce90",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Copago UA; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "beneficio": "Descuento del copago según tabla.",
+    "requisitos_principales": "CAE por 100% de referencia; promedio CL/M1 vigente; carrera/tramo admitidos.",
+    "limites": "Reglas 2026; no todos los puntajes/carreras reciben beneficio. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "1bed886d10115e86a9a3aae7ac3b3b5cd87b6fabe51372b4dbbaf790c9d49ddd",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Total UAI; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "beneficio": "100% de matrícula y arancel; primero otras becas.",
+    "requisitos_principales": "Egreso 2024/2025 subvencionado/municipal/SLEP o becado socioeconómico; FUAS; gratuidad preseleccionada; ponderado 850 Peñalolén/840 Viña; centralizada 2026.",
+    "limites": "Alcance 2026; condiciones 2027 todavía pendientes. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "f22ffe5540ac95988a25543e78f7406b31203091c628d6fe4f3522d7b5f5d099",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Puntaje Ponderado UAI; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "beneficio": "Rebaja por carrera/campus/colegio; matrícula según dependencia.",
+    "requisitos_principales": "Egreso 2024/2025; primera matrícula; centralizada 2026; tramo ponderado aplicable.",
+    "limites": "PLG explícita; sin porcentaje/umbral universal; descartar tabla histórica 75%. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ee1474ecfc7cd3c2992fbeda735b1672111492025c48d72b05ed42bd6fc8150c",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Alumni UMayor; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://www.admisionmayor.cl/becas-y-creditos"
+    ],
+    "beneficio": "15% segunda carrera; 10% primera carrera de familiares.",
+    "requisitos_principales": "Egresado/titulado UMayor o familiar admitido; sin gratuidad/arancel ajustado; exclusiones salud/Bachillerato/Conservatorio.",
+    "limites": "Nombre oficial Egresado y Titulado; descartar 20% histórico. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "91edc86d30f49900052e39f7b54ad94dd4a84f5ea4bccc6ec72b52f5f7be85f8",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Deportiva UDLA; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://siae.udla.cl/becas-udla/beca-deportiva-estudiantes-antiguos/"
+    ],
+    "beneficio": "15–20% proyección; 20–40% representación; 50–80% excelencia.",
+    "requisitos_principales": "Renovante regular; PGA 4,8; avance 50% primer año/70% siguientes; categoría y participación deportiva.",
+    "limites": "Solo renovación; no primera asignación ni segundo semestre; distinta ficha para nuevos. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "96f76b70a68a1fad5f60009a09c9ed4bedcb7f1cae9bb4476eb92014ccca609c",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Gratuidad; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/gratuidad"
+    ],
+    "beneficio": "Matrícula y arancel durante duración nominal.",
+    "requisitos_principales": "60% menores ingresos; institución adscrita; pregrado presencial; requisitos de título/residencia y duración; FUAS.",
+    "limites": "Ficha 2027; no equiparar evaluación FUAS a un RSH sin más. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "988141e6f68d4ffdbb5823fcaf1b4ac0181e2476f07e61658085954d0c50fd13",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Bicentenario; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb"
+    ],
+    "beneficio": "Arancel de referencia anual.",
+    "requisitos_principales": "70% menores ingresos; universidad elegible/acreditada; pregrado presencial; PAES 510 para nuevos salvo PACE; antiguos con avance.",
+    "limites": "Antiguos: CRUCh; excepciones estatales; acreditación al cierre de 2026; fecha de acreditación de carreras remite a 2026 y no se extrapola. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "833ac94e0448048a743d3eb07059c99cd9c3a38228f0966d98e5e34fdc2fbf54",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Nuevo Milenio I; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm"
+    ],
+    "beneficio": "Hasta $600.000 CLP del arancel anual.",
+    "requisitos_principales": "70% menores ingresos; NEM 5,0; pregrado presencial; institución acreditada o eximida; antiguos con avance.",
+    "limites": "Modalidad I; elegibilidad institucional 2027. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "09e9e2762e4a4a11748fb03d29bafc7baf94f2bd7b07a743be19f1b8c10b8626",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Nuevo Milenio II; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm"
+    ],
+    "beneficio": "Hasta $860.000 CLP del arancel anual.",
+    "requisitos_principales": "Primer año; 50% menores ingresos; NEM 5,0; pregrado presencial; institución acreditada al menos tres años.",
+    "limites": "Modalidad II; acreditación al 31/12/2026; no fusionar con I. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "7b3ebc5e68996d6c9229a763c6605eefb780f314ad66e1d35ff46f285150e91d",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas públicas esenciales de Beca Juan Gómez Millas; no certifica convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm"
+    ],
+    "beneficio": "Hasta $1.150.000 CLP del arancel anual.",
+    "requisitos_principales": "Nacionalidad chilena; 70% menores ingresos; institución acreditada; pregrado presencial; PAES 510 salvo PACE; antiguos con avance.",
+    "limites": "Restricciones de títulos/becas previas; fecha de acreditación de carreras remite a 2026 y no se extrapola. Calendario y documentos no corroborados: desconocidos. Sin activación. Los datos contrastados quedan en este registro editorial; no se sobrescribe la base local.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
