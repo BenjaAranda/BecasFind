@@ -13458,7 +13458,7 @@
     "candidato": "44805ada8758b48b533fdce566a72fdf1d73f9253dad7cb5bd932dd8b2e62547",
     "nombre": "Beca Municipal Educación Superior Futaleufu",
     "institucion": "Municipalidad de Futaleufu",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque23_muni.csv",
@@ -13472,13 +13472,41 @@
         "extractos": [
           "Candidato: `44805ada8758b48b533fdce566a72fdf1d73f9253dad7cb5bd932dd8b2e62547`. Alegación histórica de monto / cierre: Asignacion de libre disposicion (50 becas maximo por ano) / 2026-04-30.\n\n[Fuente contrastada](https://www.futaleufu.cl/2026/02/23/abren-proceso-de-postulacion-a-la-beca-municipal-2026-en-futaleufu/). Anuncio oficial de apertura 2026 indexado; recarga devuelve timeout. Bases completas; importe y cierre pendientes. La beca deportiva es otra modalidad."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `44805ada8758b48b533fdce566a72fdf1d73f9253dad7cb5bd932dd8b2e62547`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para continuidad educativa; importe desconocido. Residencia comunal; edad hasta 28 años; RSH hasta 70%; promedio de enseñanza media 5,5 para egresados; superior 4,5 y no dos o más asignaturas reprobadas el año anterior.\n\nLímites: No confundir promedio de enseñanza media con notas superiores. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.futaleufu.cl/2026/02/23/abren-proceso-de-postulacion-a-la-beca-municipal-2026-en-futaleufu/)\n\n### Beca Municipal para Estudios Superiores San Clemente\n\nCandidato: `26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nEducación superior: $270.000 CLP sector urbano o $300.000 sector rural; periodicidad desconocida. Matrícula superior técnica o universitaria; RSH comunal hasta 40% y promedio del año anterior o último cursado 5,0; ambas condiciones admiten excepción por necesidad acreditada.\n\nLímites: La ficha incluye otros niveles con importes diferentes; alcance limitado a superior. Promedio anterior no equivale a NEM. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sanclemente.cl/index.php/2026/02/12/proceso-de-postulacion-beca-estudiantil-municipal-2026/)\n\n### Beca Municipal de Educación Superior Providencia\n\nCandidato: `97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff`\n\nAlcance: Reglas esenciales ficha actualizada en septiembre de 2026; sin certificar convocatoria abierta.\n\nAporte monetario mensual; importe desconocido. Residencia permanente; situación económica vulnerable; sin otra beca municipal; ingreso desde enseñanza media NEM 6,0; estudiantes superiores promedio anual 5,5; entrevista social.\n\nLímites: No publica máximo RSH ni calendario de convocatoria; actualización de ficha no acredita apertura. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://transparencia.providencia.cl/Carpeta/VerTablaV/413476)\n\n### Beca Municipal de Educación Superior Empedrado\n\nCandidato: `ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7`\n\nAlcance: Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta.\n\nModalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca. Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.\n\nLímites: No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://empedrado.cl/faq-preguntas-frecuentes/)\n\n### Beca de Educación Superior Sagrada Familia\n\nCandidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para educación superior; importe desconocido. Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.\n\nLímites: No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/)\n\n### Beca Municipal de Educación Superior 2026\n\nCandidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "44805ada8758b48b533fdce566a72fdf1d73f9253dad7cb5bd932dd8b2e62547",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://www.futaleufu.cl/2026/02/23/abren-proceso-de-postulacion-a-la-beca-municipal-2026-en-futaleufu/"
+      ],
+      "beneficio": "Aporte económico para continuidad educativa; importe desconocido.",
+      "requisitos_principales": "Residencia comunal; edad hasta 28 años; RSH hasta 70%; promedio de enseñanza media 5,5 para egresados; superior 4,5 y no dos o más asignaturas reprobadas el año anterior.",
+      "limites": "No confundir promedio de enseñanza media con notas superiores. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": "2026-03-02",
+      "fecha_cierre": "2026-03-27",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54",
@@ -13497,6 +13525,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54`. Alegación histórica de monto / cierre: Aporte anual unico (29 estudiantes admisibles por proceso) / 2026-07-23.\n\n[Fuente contrastada](https://munispa.cl/beca-social/). Beca Social de Estudios 2026: postulación 2 febrero a 31 marzo. Transparencia enero 2026 distingue NEM de ingreso 5.5 y nota universitaria 5.0 para continuidad; RSH 40–70 como rango. No son umbrales globales del alias. Importe y documentos completos pendientes."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54` | Beca Social de Estudios Municipalidad San Pedro de Atacama | Conservar revisión anterior. |"
         ]
       }
     ],
@@ -13524,6 +13559,13 @@
         "extractos": [
           "Candidato: `c1bfe255f8585bb0c9e79bc82a7b66ce7b915310b1913e5111a334a3fce1b005`. Alegación histórica de monto / cierre: Aporte economico anual (85 beneficiarios) / 2026-03-31.\n\n[Fuente contrastada](https://municipalidadtaltal.cl/portal9/wp-content/uploads/2026/04/RESUMEN-CUENTA-PUBLICA-ANO-2025-1.pdf). Gestión 2025 publicada en 2026: distingue Beca Municipal y Beca Paranal. No calcular importe individual a partir de presupuesto dividido por beneficiarios. Bases 2026 e identidad exacta pendientes."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `c1bfe255f8585bb0c9e79bc82a7b66ce7b915310b1913e5111a334a3fce1b005` | Beca Municipal Incentivo al Rendimiento Taltal | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13549,6 +13591,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `6bf1dd6dd4fc351adf739cea579e956179bd22f3cd16711e3d6951ec5cbd6987`. Alegación histórica de monto / cierre: $150.000 en cuota unica / 2026-03-31.\n\n[Fuente contrastada](https://www.municipalidadtucapel.cl/becas). Portal superior 2026 enlaza Profesionales del Futuro; movilización; apoyo vespertino y deporte. PDFs escaneados sin texto recuperado. No asignar importe ni calendario de una modalidad al alias genérico."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `6bf1dd6dd4fc351adf739cea579e956179bd22f3cd16711e3d6951ec5cbd6987` | Beca Municipal Educación Superior Tucapel | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -13609,6 +13658,13 @@
         "extractos": [
           "Candidato: `f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451`. Alegación histórica de monto / cierre: Aporte segun evaluacion del equipo social / 2026-04-17.\n\n[Fuente contrastada](https://www.caleradetango.cl/departamento-social). Ficha municipal menciona apoyo superior sujeto a evaluación social. No contiene importe; documentos ni calendario 2026 completos. Noticia de medio externo no reemplaza bases oficiales."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451` | Beca Municipal de Educación Superior 2026 | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13634,6 +13690,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `2f9a8aa98fc2fdd2704fbbdefc3801b7549a2e23d9a08829919b6f1957fb26a5`. Alegación histórica de monto / cierre: $222.000 aprox promedio (pto $27.300.000 entre 123 alumnos) / 2026-03-31.\n\n[Fuente contrastada](https://www.munidalcahue.cl/transparencia/inicio/documentos/otros/concursos/2026/202603BECASMUNICIPALES.pdf). Bases 2026: postulación presencial 16–31 marzo. Superior recibe 350000 CLP; media y necesidades educativas 100000 CLP. Alias genérico requiere diferenciar modalidades antes de fijar importe único. Nota 6.0 del año 2025 no es NEM; tramos RSH puntúan y no son límite global. Bases muestran encabezado Presupuesto 2025 pese a convocatoria 2026."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `2f9a8aa98fc2fdd2704fbbdefc3801b7549a2e23d9a08829919b6f1957fb26a5` | Beca Municipal Dalcahue 2026 | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -13678,6 +13741,13 @@
         "extractos": [
           "Candidato: `9485462cdc09bf824858faaab0644400725ff885480765b0e1523a3f186a9cb6`. Alegación histórica de monto / cierre: $100.000 fijos en 1 cuota / 2026-04-07.\n\n[Fuente contrastada](https://www.munisanesteban.cl/actividades/beca-ensenanza-superior-san-esteban-2026-162189). Calendario del portal 16 febrero a 31 marzo 2026; descripción general dice que el proceso inicia en marzo cada año. Inconsistencia conservada; no certificar cronograma completo ni inferir importe o requisitos."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `9485462cdc09bf824858faaab0644400725ff885480765b0e1523a3f186a9cb6` | Beca Municipal de Educación Superior San Esteban | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13703,6 +13773,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `db0210a522cabef8ca2fa45f95c995e5308e9913fbcdf5f902654a6355da9e17`. Alegación histórica de monto / cierre: Monto segun evaluacion. Mas de 100 beneficiarios. / 2026-03-31.\n\n[Fuente contrastada](https://www.munimontepatria.cl/web/index.php/direcciones-municipales/departamento-social?id=69). La FAQ publicada por Monte Patria incluye escolaridad con residencia en Las Condes y fechas 2021–2022; inconsistencia territorial. No copiar esos requisitos al candidato. Referencias 2018 y noticia externa 2026 no cierran bases actuales."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `db0210a522cabef8ca2fa45f95c995e5308e9913fbcdf5f902654a6355da9e17` | Beca Municipal de Apoyo a la Educación Superior Monte Patria | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -13730,6 +13807,13 @@
         "extractos": [
           "Candidato: `cf284114d027593b0838d159dc16d83b151dae5183f1fbe03a9a2af46925c0f4`. Alegación histórica de monto / cierre: $200.000 por alumno (250 becas. pto $50.000.000) / 2026-03-15.\n\n[Fuente contrastada](https://municipalidadcolbun.cl/becas2026.html). Portal indexado de renovación superior 2026; apertura devuelve error interno. No extrapolar reglas de renovación a postulantes nuevos. Fundación Colbún tiene otro proveedor."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `cf284114d027593b0838d159dc16d83b151dae5183f1fbe03a9a2af46925c0f4` | Beca Municipal de Educación Superior Colbun | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13755,6 +13839,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `d52e6d114cd29d756655560c6c3c107057b0fd5ee5c2c612c7691dc9dfc040f8`. Alegación histórica de monto / cierre: Devolucion exacta del costo del pasaje / 2026-03-31.\n\n[Fuente contrastada](https://trehuaco.com/PE2023.pdf). Plan 2023 refiere apoyo superior Trehuaco 50 años. Cuenta pública 2024 es contexto histórico. No confirma modalidad de pasajes ni cobertura y plazos 2026."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `d52e6d114cd29d756655560c6c3c107057b0fd5ee5c2c612c7691dc9dfc040f8` | Beca Municipal de Pasajes Educación Superior Trehuaco | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -13815,6 +13906,13 @@
         "extractos": [
           "Candidato: `99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5`. Alegación histórica de monto / cierre: $150.000 por alumno (400 cupos. pto $60.000.000) / 2026-03-31.\n\n[Fuente contrastada](https://biobio.mineduc.cl/2026/08/05/estudiantes-de-santa-juana-reciben-computadores-del-programa-becas-tic-de-junaeb/). Becas TIC 2026: computadores de JUNAEB para séptimo básico. No equivalen a beca municipal superior propia. Fondos municipales para organizaciones tampoco son este beneficio individual."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5` | Beca Municipal de Educación Superior | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13827,7 +13925,7 @@
     "candidato": "26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e",
     "nombre": "Beca Municipal para Estudios Superiores San Clemente",
     "institucion": "Municipalidad de San Clemente",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque24_muni.csv",
@@ -13841,13 +13939,41 @@
         "extractos": [
           "Candidato: `26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e`. Alegación histórica de monto / cierre: Aporte en cuota unica por deposito bancario / 2026-04-15.\n\n[Fuente contrastada](https://www.sanclemente.cl/index.php/2026/02/12/proceso-de-postulacion-beca-estudiantil-municipal-2026/). Postulación 5 enero a 31 marzo 2026. Superior: 270000 CLP urbano o 300000 rural; sin importe global. RSH 40 y nota anual 5.0 admiten excepciones por necesidad manifiesta; no convertir en RSH absoluto ni NEM. El procedimiento general de 300000 no cubre ambas residencias."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nEducación superior: $270.000 CLP sector urbano o $300.000 sector rural; periodicidad desconocida. Matrícula superior técnica o universitaria; RSH comunal hasta 40% y promedio del año anterior o último cursado 5,0; ambas condiciones admiten excepción por necesidad acreditada.\n\nLímites: La ficha incluye otros niveles con importes diferentes; alcance limitado a superior. Promedio anterior no equivale a NEM. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sanclemente.cl/index.php/2026/02/12/proceso-de-postulacion-beca-estudiantil-municipal-2026/)\n\n### Beca Municipal de Educación Superior Providencia\n\nCandidato: `97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff`\n\nAlcance: Reglas esenciales ficha actualizada en septiembre de 2026; sin certificar convocatoria abierta.\n\nAporte monetario mensual; importe desconocido. Residencia permanente; situación económica vulnerable; sin otra beca municipal; ingreso desde enseñanza media NEM 6,0; estudiantes superiores promedio anual 5,5; entrevista social.\n\nLímites: No publica máximo RSH ni calendario de convocatoria; actualización de ficha no acredita apertura. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://transparencia.providencia.cl/Carpeta/VerTablaV/413476)\n\n### Beca Municipal de Educación Superior Empedrado\n\nCandidato: `ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7`\n\nAlcance: Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta.\n\nModalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca. Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.\n\nLímites: No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://empedrado.cl/faq-preguntas-frecuentes/)\n\n### Beca de Educación Superior Sagrada Familia\n\nCandidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para educación superior; importe desconocido. Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.\n\nLímites: No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/)\n\n### Beca Municipal de Educación Superior 2026\n\nCandidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://www.sanclemente.cl/index.php/2026/02/12/proceso-de-postulacion-beca-estudiantil-municipal-2026/"
+      ],
+      "beneficio": "Educación superior: $270.000 CLP sector urbano o $300.000 sector rural; periodicidad desconocida.",
+      "requisitos_principales": "Matrícula superior técnica o universitaria; RSH comunal hasta 40% y promedio del año anterior o último cursado 5,0; ambas condiciones admiten excepción por necesidad acreditada.",
+      "limites": "La ficha incluye otros niveles con importes diferentes; alcance limitado a superior. Promedio anterior no equivale a NEM. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": "2026-01-05",
+      "fecha_cierre": "2026-03-31",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228",
@@ -13867,6 +13993,13 @@
         "extractos": [
           "Candidato: `e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228`. Alegación histórica de monto / cierre: $350.000 anuales aprox. Zona austral. / 2026-03-31.\n\n[Fuente contrastada](https://www.muniporvenir.cl/wpcont-wp/uploads/2026/06/ORDENANZA-19-BECA-PORVENIR-SIEMBRA.pdf). Ordenanza 19 de junio 2026: Porvenir Siembra entrega 80000 CLP mensuales de marzo a diciembre; presencial en institución acreditada y residencia comunal. Renovación exige 80% de asignaturas y asistencia. Incompatible con otras becas de mantención; compatible con arancel y alimentación. Calendario exacto pendiente; no usar fecha de firma como apertura."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228` | Beca Municipal de Educación Superior Porvenir | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13879,7 +14012,7 @@
     "candidato": "97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff",
     "nombre": "Beca Municipal de Educación Superior Providencia",
     "institucion": "Municipalidad de Providencia",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
@@ -13893,19 +14026,47 @@
         "extractos": [
           "Candidato: `97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff`. Alegación histórica de monto / cierre: Hasta 15 UTM anuales. Pago directo a institucion o alumno segun informe social. / 2026-01-31.\n\n[Fuente contrastada](https://transparencia.providencia.cl/Carpeta/VerTablaV/413476). Ficha actualizada agosto 2026: aporte mensual sin importe individual. Ingreso exige NEM 6.0 y continuidad promedio anual 5.5; no umbral NEM universal. No otra beca municipal; entrevista social presencial. Presupuesto global de becas no determina aporte individual."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff`\n\nAlcance: Reglas esenciales ficha actualizada en septiembre de 2026; sin certificar convocatoria abierta.\n\nAporte monetario mensual; importe desconocido. Residencia permanente; situación económica vulnerable; sin otra beca municipal; ingreso desde enseñanza media NEM 6,0; estudiantes superiores promedio anual 5,5; entrevista social.\n\nLímites: No publica máximo RSH ni calendario de convocatoria; actualización de ficha no acredita apertura. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://transparencia.providencia.cl/Carpeta/VerTablaV/413476)\n\n### Beca Municipal de Educación Superior Empedrado\n\nCandidato: `ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7`\n\nAlcance: Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta.\n\nModalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca. Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.\n\nLímites: No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://empedrado.cl/faq-preguntas-frecuentes/)\n\n### Beca de Educación Superior Sagrada Familia\n\nCandidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para educación superior; importe desconocido. Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.\n\nLímites: No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/)\n\n### Beca Municipal de Educación Superior 2026\n\nCandidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales ficha actualizada en septiembre de 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://transparencia.providencia.cl/Carpeta/VerTablaV/413476"
+      ],
+      "beneficio": "Aporte monetario mensual; importe desconocido.",
+      "requisitos_principales": "Residencia permanente; situación económica vulnerable; sin otra beca municipal; ingreso desde enseñanza media NEM 6,0; estudiantes superiores promedio anual 5,5; entrevista social.",
+      "limites": "No publica máximo RSH ni calendario de convocatoria; actualización de ficha no acredita apertura. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7",
     "nombre": "Beca Municipal de Educación Superior Empedrado",
     "institucion": "Municipalidad de Empedrado",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
@@ -13919,13 +14080,41 @@
         "extractos": [
           "Candidato: `ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7`. Alegación histórica de monto / cierre: $100.000 en 2 remesas de $50.000 (abril y septiembre) / 2026-03-31.\n\n[Fuente contrastada](https://empedrado.cl/faq-preguntas-frecuentes/). FAQ municipal sin convocatoria anual explícita: apoyo monetario de 30000 CLP mensuales y residencia en Talca son modalidades distintas. Renovación semestral no define periodicidad del pago. No certificar monto ni calendario 2026 con esta ficha sin año."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7`\n\nAlcance: Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta.\n\nModalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca. Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.\n\nLímites: No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://empedrado.cl/faq-preguntas-frecuentes/)\n\n### Beca de Educación Superior Sagrada Familia\n\nCandidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para educación superior; importe desconocido. Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.\n\nLímites: No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/)\n\n### Beca Municipal de Educación Superior 2026\n\nCandidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://empedrado.cl/faq-preguntas-frecuentes/"
+      ],
+      "beneficio": "Modalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca.",
+      "requisitos_principales": "Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.",
+      "limites": "No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "6501ada7381928e9f2396ea5baa4bf078442e8981fc895734499d9139808421d",
@@ -14010,6 +14199,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `9863378baa3c5f33e4419b813b2103b34894e9d1c2bffbbdbecda54e579c01c4`. Alegación histórica de monto / cierre: $100.000 anuales por transferencia / 2026-04-07.\n\n[Fuente contrastada](https://renca.cl/decreto-alcaldicio-n0496/). Portal 2026 remite a incentivo a trayectorias educativas mediante decreto 496 y modificación 1037 que menciona decreto 497. PDFs escaneados sin texto de bases completo; identidad con Renca Orgullosa y alcance de modificación pendientes."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `9863378baa3c5f33e4419b813b2103b34894e9d1c2bffbbdbecda54e579c01c4` | Beca Municipal Renca Orgullosa Educación Superior | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14103,6 +14299,13 @@
         "extractos": [
           "Candidato: `50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f`. Alegación histórica de monto / cierre: $150.000 anuales (100 mejores puntajes) / 2026-04-15.\n\n[Fuente contrastada](https://munisantacruz.cl/cuenta-publica-gestion-2025/). Gestión 2025 publicada abril 2026: Beca Concejo Municipal; cultural y deportiva son distintas. Presupuesto total y beneficiarios no definen aporte individual; bases actuales pendientes."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f` | Beca Municipal de Educación Superior Santa Cruz | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14128,6 +14331,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986`. Alegación histórica de monto / cierre: Entre $100.000 y $150.000 en cuota unica / 2026-04-30.\n\n[Fuente contrastada](https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-). Entrega 2026: aporte de 20000 CLP mensuales de marzo a diciembre; total anual 200000. La Beca Puntajes PAES de 500000 es distinta. No usar fecha de ceremonia como postulación. Bases y calendario pendientes."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986` | Beca Municipal de Educación Superior Tome | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14155,6 +14365,13 @@
         "extractos": [
           "Candidato: `57ee232f68ffe9a3208aa7e92876271d5c5e7bd731714bc4d41ed75cf7fc2eb2`. Alegación histórica de monto / cierre: Mas de $400.000. Traslado desde Puerto Williams al continente. / 2026-04-30.\n\n[Fuente contrastada](https://www.imcabodehornos.cl/DESCARGAS/Reglamento%20%20Municipal%20de%20Beca%202024.pdf). Reglamento de excelencia superior 2024; no confirma todas las condiciones del alias genérico en 2026. FONDEVE 2026 es otro programa."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `57ee232f68ffe9a3208aa7e92876271d5c5e7bd731714bc4d41ed75cf7fc2eb2` | Beca Municipal de Apoyo a la Educación Superior Cabo de Hornos | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14180,6 +14397,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `224808b50f467ce0a80eb00a462c675ad9f1fa90eb4b9d127a380750d918f1ab`. Alegación histórica de monto / cierre: $150.000 pago unico (vale vista o transferencia) / 2026-03-21.\n\n[Fuente contrastada](https://sanjoaquin.cl/wp-content/uploads/2025/01/GUIA-SERVICIOS_2024-2025.pdf). Guía 2024–2025 menciona Beca Ayuda Estudiantil. No extender importes; requisitos o calendario a 2026 sin bases específicas."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `224808b50f467ce0a80eb00a462c675ad9f1fa90eb4b9d127a380750d918f1ab` | Beca de Educación Superior Municipalidad de San Joaquin | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14240,6 +14464,13 @@
         "extractos": [
           "Candidato: `c77e495ae425a62562dc16bc78f63821d350ebc0a771d624693298b7eafc1ca7`. Alegación histórica de monto / cierre: $200.000 en 1 remesa (junio) / 2026-03-31.\n\n[Fuente contrastada](https://pichilemu.cl/wp-content/uploads/2026/02/FormularioBeca2026.pdf). Formulario 2026: postulación y renovación 2 marzo a 2 abril; RSH comunal hasta 70 vigente al 31 diciembre 2025. Máximo 24 años y cinco años de beneficio; exclusiones laborales e ingreso per cápita. Solicita alumno regular 2025 pese a convocatoria 2026: discrepancia conservada. Incremento a 50000 mensuales publicado para 2025 no acredita importe 2026."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `c77e495ae425a62562dc16bc78f63821d350ebc0a771d624693298b7eafc1ca7` | Beca Municipal de Educación Superior Pichilemu | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14265,6 +14496,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d`. Alegación histórica de monto / cierre: $200.000 en 2 cuotas de $100.000 (abril y septiembre) / 2026-04-15.\n\n[Fuente contrastada](https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/). Incentivo municipal a educación junto a tramitación de becas JUNAEB; abarca varios niveles. Promedio académico no equivale automáticamente a NEM. Importe; modalidad exacta y convocatoria 2026 pendientes."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d` | Beca Municipal Estudiantil Padre Las Casas | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14292,6 +14530,13 @@
         "extractos": [
           "Candidato: `3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367`. Alegación histórica de monto / cierre: $250.000 anuales para traslado y arriendo / 2026-04-30.\n\n[Fuente contrastada](https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf). Gestión 2019 describe tramitación de becas estatales; residencia familiar 2011 es histórica. No confirma beca municipal superior propia actual. Subvenciones 2026 para organizaciones son distintas."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367` | Beca Municipal Estudiantil Putre (Educación Superior) | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14317,6 +14562,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b`. Alegación histórica de monto / cierre: $300.000 en cuota unica (cofinanciado con mineras) / 2026-03-21.\n\n[Fuente contrastada](https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf). Cuenta pública 2015 aprueba programa de beca municipal superior. No prueba importe; requisitos o convocatoria 2026. Formación apoyada por Codelco es otro proveedor."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b` | Beca de Educación Superior Maria Elena | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14344,6 +14596,13 @@
         "extractos": [
           "Candidato: `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c`. Alegación histórica de monto / cierre: $250.000 en 2 cuotas: mayo $125.000 y octubre $125.000 / 2026-03-31.\n\n[Fuente contrastada](https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf). Gestión 2017 describe becas municipales media y superior; requisitos contiguos de Presidente de la República no deben copiarse. Entrega 2026 solo localizada en medio externo; confirmación municipal actual pendiente."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c` | Beca Educación Superior Ilustre Municipalidad de Papudo | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14369,6 +14628,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `cdc0dd04e0923e9868b12066bdcf8829aea20685da05f1fae092e39e024292ba`. Alegación histórica de monto / cierre: $200.000 anuales por comision social / 2026-04-15.\n\n[Fuente contrastada](https://munitirua.gob.cl/wp-content/uploads/2025/12/GUIA-DE-SERVICIOS-Y-TRAMITES-MUNICIPALES.pdf). Guía municipal describe ayudas escolares en zapatos para colegios municipales. No son apoyo superior. Directorio UCSC 2026 menciona incentivos con requisitos distintos; falta convocatoria municipal específica para confirmar modalidades."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `cdc0dd04e0923e9868b12066bdcf8829aea20685da05f1fae092e39e024292ba` | Beca de Apoyo a la Educación Superior Tirua | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14396,6 +14662,13 @@
         "extractos": [
           "Candidato: `0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86`. Alegación histórica de monto / cierre: $150.000 anuales por decreto del Concejo / 2026-04-15.\n\n[Fuente contrastada](https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf). Gestión 2024 informa aumento de 30000 a 50000 CLP mensuales; incentivo PAES de 100000 y hogar son distintos. No certificar importe 2026. Subvenciones 2026 corresponden a organizaciones."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86` | Beca Municipal de Educación Superior Combarbala | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14421,6 +14694,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `36dd41658c0b519c4f0248a2592ec084c12f89fba3ec80fcb520f9a638c2d5f6`. Alegación histórica de monto / cierre: $150.000 en cuota unica / 2026-03-31.\n\n[Fuente contrastada](https://longavi.cl/postulacion-apoyo-estudiantil-2026/). Renovantes entregan 23–27 marzo 2026; nuevos 30 marzo–2 abril. No fijar calendario único del alias mixto. Acta municipal 26 febrero anuncia total 250000 CLP en dos pagos; no dividir ni llamar semestral a cada cuota. Transparencia con actualización 2026 conserva ficha de 2024."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `36dd41658c0b519c4f0248a2592ec084c12f89fba3ec80fcb520f9a638c2d5f6` | Beca Municipal Educación Superior Longavi | Longaví: noticia recuperada aporta documentos y fechas, pero no delimita suficientemente modalidad y requisitos del candidato de educación superior. |"
         ]
       }
     ],
@@ -14448,6 +14728,13 @@
         "extractos": [
           "Candidato: `e6b5995ea93c75ba7a7e1e9f6d95939b5192ec9d6b9ba1b5018d7b9146b7fe09`. Alegación histórica de monto / cierre: $200.000 (122 cupos. pto $35.000.000). Cheques en septiembre. / 2026-09-30.\n\n[Fuente contrastada](https://www.teno.cl/portal2/beca-municipal-2026/). Portal 2026 abarca media y superior. Cédula y alumno regular son documentos obligatorios comunes; notas varían por nivel y salud es condicional. Ordenanza y calendario enlazados pendientes de lectura; sin importe ni umbrales globales inferidos."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `e6b5995ea93c75ba7a7e1e9f6d95939b5192ec9d6b9ba1b5018d7b9146b7fe09` | Beca Municipal Teno | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14473,6 +14760,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a`. Alegación histórica de monto / cierre: $150.000 en 1 remesa / 2026-03-31.\n\n[Fuente contrastada](https://mpencahue.cl/). Portal municipal accesible pero sin ficha específica recuperada; búsquedas dirigidas no localizaron bases de beca superior. Becas TIC estatales y concursos laborales no son equivalentes. Dominio raíz citado solo como intento de revisión; no importado."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a` | Beca Municipal Educación Superior Pencahue | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14500,6 +14794,13 @@
         "extractos": [
           "Candidato: `7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74`. Alegación histórica de monto / cierre: Pto $30.350.000. 87 Univ + 23 Tecnico Superior. / 2026-04-30.\n\n[Fuente contrastada](https://www.municallelarga.cl/). Portal municipal devuelve 403; búsquedas dirigidas no recuperaron bases oficiales. Nota externa con ruta 19062010 pese a fecha de cabecera 2026 no prueba convocatoria actual. Subdere para funcionarios y FONDECO son distintos. Dominio raíz citado solo como fallo de acceso; no importado."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74` | Beca Pedro Aguirre Cerda | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14525,6 +14826,13 @@
         "informe_sha256": "dc194ef807244eb960db8cd163e0c1f57286d711ea8ea4fc3be7478ca842bef3",
         "extractos": [
           "Candidato: `f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235`. Alegación histórica de monto / cierre: Aporte segun disponibilidad DIDECO / 2026-03-31.\n\n[Fuente contrastada](https://www.municatemu.cl/index.php/2-uncategorised/32-becas-deportivas-municipalidad-de-catemu). Página municipal de becas deportivas; no confirma beneficio genérico de educación superior. Decreto localizado es deportivo 2025; bases de la identidad candidata pendientes.\n\n\n\nSexto lote municipal: 32 identidades revisadas parcialmente. Doce registros inactivos corregidos: San Pedro de Atacama; Tucapel; Dalcahue; San Esteban; San Clemente; Porvenir; Providencia; Empedrado; Tomé; Pichilemu; Longaví y Teno. Porvenir: 80000.00 CLP mensuales. Tomé: 20000.00 CLP mensuales. Longaví: total 250000.00 CLP en dos pagos; periodicidad desconocida y calendarios diferentes para nuevos y renovantes conservados en texto. Dalcahue conserva importes por nivel. San Clemente distingue residencia urbana y rural; excepciones RSH y nota anual impiden umbrales globales. San Pedro conserva rango RSH y NEM por modalidad en texto. Pichilemu: RSH máximo 70 y discrepancia documental de año preservada. San Esteban conserva calendario del portal y contradicción con descripción general. Empedrado: importe de FAQ sin año; no certificado para 2026. Monte Patria publica contenido relativo a Las Condes; no aplicado a su candidato. Cinco listas documentales parciales verificadas y siete desconocidas. Otras 561 becas locales idénticas. Cero altas; errores y activaciones. Avance: 458 revisiones parciales y 110 sin revisión individual; todas las 568 pendientes de confirmación completa. Informe: REVISION_MUNICIPALES_SEXTO_32.md. Evidencia: CORRECCION_MUNICIPALES_SEXTO_32_LOCAL.json.\n\nRespaldo restaurado antes de importar; cero altas; cero errores; cero activaciones. Búsqueda y catálogo públicos idénticos. Importes; calendarios; RSH y documentos persistidos verificados. PostgreSQL: nombres y descripciones sin mojibake.\n\nFuentes complementarias para las correcciones: [tabla oficial San Pedro 2026](https://sanpedrodeatacamatransparente.cl/Uploads/2022/07/09%20Subsidios%20y%20Beneficios%20propios/2026/Beca%20Municipal/BECA%20SOCIAL%20DE%20ESTUDIOS%20ENERO%202026.pdf) y [acta municipal Longaví de 26 febrero 2026](https://transparencia.munilongavi.cl/wp-content/archivos/actas/2026/concejo-26-02-2026.pdf)."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235` | Beca Municipal de Educación Superior Catemu | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14552,6 +14860,13 @@
         "extractos": [
           "Candidato: `18b9ad971e54340ff364e4ad816c4e9b99e30975d002a97c3f2849333c7092c9`. Alegación histórica de monto / cierre: Asignacion unica anual por cheque nominativo / 2026-04-15.\n\n[Fuente contrastada](https://www.impanquehue.cl/?page_id=89). Portal anterior redirige a impanquehue.cl. DIDECO y cuenta pública de gestión 2015 describen asistencia y becas estatales; no confirman beca municipal superior propia 2026. Identidad y bases pendientes."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `18b9ad971e54340ff364e4ad816c4e9b99e30975d002a97c3f2849333c7092c9` | Beca Municipal de Apoyo a la Educación Superior Panquehue | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14577,6 +14892,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b`. Alegación histórica de monto / cierre: Aporte por decreto del Concejo. Sin ramos reprobados. / 2026-04-30.\n\n[Fuente contrastada](https://muniromeral.cl/romeral/?page_id=9336). Índice de actas 2026; sin bases individuales recuperadas. Notebooks Yo elijo mi PC de 2014 son JUNAEB y otro nivel. Subvenciones a organizaciones no acreditan el beneficio estudiantil candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b` | Beca Municipal de Educación Superior Romeral | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14604,6 +14926,13 @@
         "extractos": [
           "Candidato: `7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e`. Alegación histórica de monto / cierre: $150.000 en 1 remesa / 2026-04-15.\n\n[Fuente contrastada](https://www.munirauco.cl/sitio/wp-content/uploads/2025/04/INFORME-CTA.-PUB.-2024.pdf). Cuenta de gestión 2024 menciona becas estatales. Acta 2021 distingue Presidente de la República e Indígena; no trasladar importes o requisitos a una beca municipal propia sin confirmar identidad."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e` | Beca Municipal Estudiantil Rauco | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14616,7 +14945,7 @@
     "candidato": "65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7",
     "nombre": "Beca de Educación Superior Sagrada Familia",
     "institucion": "Municipalidad de Sagrada Familia",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -14630,13 +14959,41 @@
         "extractos": [
           "Candidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`. Alegación histórica de monto / cierre: $100.000 anuales / 2026-03-31.\n\n[Fuente contrastada](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/). Convocatoria 2026: 10–31 julio. Promedio del periodo previo 5.0 no equivale a NEM. Residencia por RSH; sin límite porcentual publicado. No haber recibido antes el aporte. Importe desconocido; documentos especiales son condicionales."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte económico para educación superior; importe desconocido. Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.\n\nLímites: No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/)\n\n### Beca Municipal de Educación Superior 2026\n\nCandidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/"
+      ],
+      "beneficio": "Aporte económico para educación superior; importe desconocido.",
+      "requisitos_principales": "Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.",
+      "limites": "No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": "2026-07-10",
+      "fecha_cierre": "2026-07-31",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
@@ -14655,6 +15012,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a`. Alegación histórica de monto / cierre: $100.000 en 2 cuotas de $50.000 / 2026-03-21.\n\n[Fuente contrastada](https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12137&ig=411&m=3). Decreto 423 de marzo 2026 trata Deportistas Destacados; no educación superior. Catálogo actualizado 2026 conserva datos 2025 de Beca Indígena. No copiar condiciones ni montos de esas identidades diferentes."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` | Beca Municipal Estudiantil Hualane | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14682,6 +15046,13 @@
         "extractos": [
           "Candidato: `617653494e11c6e1952b536b9bbd19081858aecf1a0509d0b013ec8be26befd8`. Alegación histórica de monto / cierre: Aporte regulado por decreto DIDECO / 2026-03-31.\n\n[Fuente contrastada](https://transparencia.curepto.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=43043&ig=431&m=2). Tabla informada febrero 2025 remite a reglamento Beca Concejo Municipal 2021. Fecha de actualización 2026 no renueva sus reglas. Becas de talento deportivo y artístico 2026 son otras modalidades; bases actuales superiores pendientes."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `617653494e11c6e1952b536b9bbd19081858aecf1a0509d0b013ec8be26befd8` | Beca de Apoyo a la Educación Superior Curepto | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14694,7 +15065,7 @@
     "candidato": "39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594",
     "nombre": "Beca Municipal de Educación Superior 2026",
     "institucion": "Municipalidad de Rinconada",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque28_muni.csv",
@@ -14708,13 +15079,41 @@
         "extractos": [
           "Candidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`. Alegación histórica de monto / cierre: $200.000 en 2 cuotas de $100.000 (mayo y octubre). 220 cupos. / 2026-05-20.\n\n[Fuente contrastada](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/). 2026: 200000 CLP anuales en dos cuotas de 100000; RSH hasta 40. Apertura 13 mayo y cierre 20 mayo. Promedios por cohorte no se convierten en NEM. La atención denominada sábado 17 mayo contradice el calendario 2026; conservar discrepancia."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre. RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.\n\nLímites: El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/)\n\n### Programa Beca Municipal de Enseñanza Superior\n\nCandidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/"
+      ],
+      "beneficio": "$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre.",
+      "requisitos_principales": "RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.",
+      "limites": "El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "6f510fcadfcd097ca04f64533ecabd90e37a17546d04c732d226d5b5ad321114",
@@ -14767,6 +15166,13 @@
         "extractos": [
           "Candidato: `f791e7c86277c3314f6d3fc2e5793a325104b13c892b8b7030d0b46253a1b612`. Alegación histórica de monto / cierre: Aporte segun presupuesto DIDECO / 2026-04-17.\n\n[Fuente contrastada](https://sidmun.carahue.cl/web/Archivos/Actas/2026/2026-02-02-42.pdf). Acta febrero 2026 pide preparar bases de estudio y pasajes; no constituye convocatoria aprobada. Nómina de educación superior 2025 no prueba importe ni requisitos 2026; no reproducir datos personales."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `f791e7c86277c3314f6d3fc2e5793a325104b13c892b8b7030d0b46253a1b612` | Beca Municipal de Educación Superior 2025/2026 | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14792,6 +15198,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3`. Alegación histórica de monto / cierre: Pto $130.000.000 a repartir entre seleccionados / 2026-03-31.\n\n[Fuente contrastada](https://lacalera.cl/wp-content/uploads/2024/04/CUENTA-PUBLICA-2023_flt-3.pdf). Cuenta pública de gestión 2023 distingue carreras profesionales y técnicas. Presupuesto total no es aporte individual. Noticia externa 2026 no reemplaza convocatoria municipal; reglamento deportivo 2023 es otro beneficio."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3` | Beca Municipal Educación Superior 2026 | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14819,6 +15232,13 @@
         "extractos": [
           "Candidato: `5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c`. Alegación histórica de monto / cierre: $250.000 en 2 cuotas o reembolso del 50% de la matricula / 2026-03-31.\n\n[Fuente contrastada](https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/). Apoyo en gastos 2026: 150000 CLP por beneficiario; recepción 1–30 abril. RSH 60 admite excepciones familiares; no límite absoluto. Alias combina apoyo y devolución de matrícula: no asignar importe o calendario único sin separar modalidades."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c` | Beca Municipal y Beca de Devolucion de Matrícula | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14844,6 +15264,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `2a7e233fdaf2ad73c4a0b7fb3255d30bab743376c8a72999a1619f95b369ba16`. Alegación histórica de monto / cierre: $100.000 + residencia gratuita en departamentos en Talca / 2026-04-30.\n\n[Fuente contrastada](https://www.munipelluhue.cl/transparencia/2014/BecaEns.pdf). Ficha expresa enero–marzo 2014; fecha del buscador 2026 no cambia el año. Presupuesto global y nota de ingreso no se convierten en aporte individual ni NEM actual. Acta 2012 no confirma beca 2026."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `2a7e233fdaf2ad73c4a0b7fb3255d30bab743376c8a72999a1619f95b369ba16` | Beca Municipal de Pelluhue para la Educación Superior | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14911,7 +15338,7 @@
     "candidato": "06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03",
     "nombre": "Programa Beca Municipal de Enseñanza Superior",
     "institucion": "Municipalidad de Cunco",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque28_muni.csv",
@@ -14925,13 +15352,41 @@
         "extractos": [
           "Candidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`. Alegación histórica de monto / cierre: Aporte monetario mensual durante el ano academico / 2026-03-31.\n\n[Fuente contrastada](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf). Postulación 6–30 abril 2026; 18 diciembre es rendición. Cuarto medio 5.5 o promedio superior 5.0; hay excepciones. No son NEM universal. Ingreso per cápita máximo 500000 CLP no es aporte. Importe desconocido; CuentaRUT admite cheque alternativo."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\n$100.000 CLP en un pago único a Cuenta RUT. Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.\n\nLímites: No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://villalegre.cl/beca-municipal-educacion-superior-2026/)\n\n### Beca Municipal de Apoyo a la Educación Superior\n\nCandidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://villalegre.cl/beca-municipal-educacion-superior-2026/"
+      ],
+      "beneficio": "$100.000 CLP en un pago único a Cuenta RUT.",
+      "requisitos_principales": "Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.",
+      "limites": "No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": "2026-04-02",
+      "fecha_cierre": "2026-04-23",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
@@ -14950,6 +15405,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519`. Alegación histórica de monto / cierre: Ayuda economica anual renovable por 2 anos / 2026-03-31.\n\n[Fuente contrastada](https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/). Entrega deportiva agosto 2026; beneficio diferente de educación superior. No trasladar requisitos ni montos. Búsqueda dirigida no recuperó bases específicas del candidato; no concluir inexistencia."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519` | Beca Educación Superior Santa Maria | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -14977,6 +15439,13 @@
         "extractos": [
           "Candidato: `bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05`. Alegación histórica de monto / cierre: Asignacion de libre disposicion financiada por DAEM/DIDECO / 2026-03-31.\n\n[Fuente contrastada](https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf). Cuenta pública 2018 describe beca municipal separada de Presidente de la República e Indígena. Existencia histórica no confirma calendario ni requisitos 2026; no calcular importe a partir de beneficiarios."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05` | Programa Beca Municipal de Educación Superior DAEM/DIDECO | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15002,6 +15471,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47`. Alegación histórica de monto / cierre: Aporte monetario anual de libre disposicion / 2026-04-30.\n\n[Fuente contrastada](https://www.munichanaral.cl/noticias.html). Archivo de noticias y directorio municipal accesibles; sin convocatoria individual de beca superior recuperada. Datos de contacto DIDECO no certifican cobertura ni requisitos. Mantener desconocidos y no concluir inexistencia."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47` | Beca Municipal Educación Superior Chanaral | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -15029,6 +15505,13 @@
         "extractos": [
           "Candidato: `c47882f77478fbfc4297cf9b6f74d48d45271bc6c8be33d1f4ef155b65f19b9c`. Alegación histórica de monto / cierre: Mas de $300.000 anuales para conectividad y pension / 2026-03-31.\n\n[Fuente contrastada](https://www.munitorresdelpaine.cl/VARIOS/bases_beca.pdf). Bases sin año explícito: 2 UTM mensuales superior y 1 UTM media; calendario menciona viernes 22 abril. No atribuir a 2026 ni convertir UTM a CLP. Requisitos laborales no prueban identidad del alias Zona Extrema."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `c47882f77478fbfc4297cf9b6f74d48d45271bc6c8be33d1f4ef155b65f19b9c` | Beca de Educación Superior Zona Extrema Torres del Paine | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15054,6 +15537,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `ce5c59956dd3c0026d4a3ffd1bf767e901506853d8bcf70bcacb52ac9a3488ff`. Alegación histórica de monto / cierre: $150.000 pago unico / 2026-03-31.\n\n[Fuente contrastada](https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf). BES-IMAC superior 2021 prevé diez mensualidades marzo–diciembre; sin importe actual confirmado. Beca PAES 2025 y hogar estudiantil son otras modalidades. No trasladar reglas o fechas históricas a 2026."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `ce5c59956dd3c0026d4a3ffd1bf767e901506853d8bcf70bcacb52ac9a3488ff` | Beca Estudiantil Alto del Carmen | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -15081,6 +15571,13 @@
         "extractos": [
           "Candidato: `0b340924ac77c85bfb757e308f5117cbecd4354d511aff4768dd73396173b7f0`. Alegación histórica de monto / cierre: Subsidio de asignacion directa presupuestaria / 2026-03-31.\n\n[Fuente contrastada](https://hijuelas.cl/beca-de-excelencia-municipal/). Excelencia Municipal 2026: 30 marzo–14 abril a las 14:00; RSH 60 y un año de residencia. NEM documental de ingreso y avance de continuidad son distintos. Sin importe confirmado. Índice oficial confirma publicación; recarga aislada dio 404."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `0b340924ac77c85bfb757e308f5117cbecd4354d511aff4768dd73396173b7f0` | Beca Municipal de Educación Superior Capital de las Flores | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15106,6 +15603,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `05e4e27bf6794c67f7cd58793b96ee2118e586f9e152465dc4de80cafd9a8836`. Alegación histórica de monto / cierre: Asignacion para traslado o pension fuera de la comuna / 2026-03-31.\n\n[Fuente contrastada](https://cms.muninavidad.cl/uploads/Ordenanza_Beca_2026_final_f6616a6d22.pdf?updated_at=2026-03-10T16%3A30%3A00.255Z). Ordenanza 2026: Profesionales para el Futuro; 600000 CLP semestrales presencial o 300000 online. No importe único. Renovación tiene fechas contradictorias: artículo 5 desde 15 julio y artículo 14 desde 20 julio. No convertir calendario anual en convocatoria confirmada; notas por cohorte sin NEM universal."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `05e4e27bf6794c67f7cd58793b96ee2118e586f9e152465dc4de80cafd9a8836` | Beca Municipal Educación Superior Navidad | Navidad: ordenanza 2026 exige 70% de asignaturas aprobadas para continuidad, pero tabla puntúa porcentajes inferiores y contiene rangos solapados. Contradicción de elegibilidad pendiente; tampoco reconstruir calendario con aperturas discordantes. |"
         ]
       }
     ],
@@ -15133,6 +15637,13 @@
         "extractos": [
           "Candidato: `238088f3e41617381b20c4bad0ed46fddabe9a60ca77976db3b7616d46a45858`. Alegación histórica de monto / cierre: $100.000 anuales / 2026-03-15.\n\n[Fuente contrastada](https://municipalidadnancagua.cl/entrega-de-becas-municipales/). Entrega junio 2025 a 223 estudiantes; presupuesto total no es importe individual. Reglamento 2024 no confirma requisitos ni calendario 2026. No extrapolar cierre ni activar."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `238088f3e41617381b20c4bad0ed46fddabe9a60ca77976db3b7616d46a45858` | Beca Municipal de Educación Superior Nancagua | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15145,7 +15656,7 @@
     "candidato": "941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5",
     "nombre": "Beca Municipal de Apoyo a la Educación Superior",
     "institucion": "Municipalidad de Villa Alegre",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque29_muni.csv",
@@ -15159,13 +15670,41 @@
         "extractos": [
           "Candidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`. Alegación histórica de monto / cierre: Aporte anual por criterios sociales / 2026-03-31.\n\n[Fuente contrastada](https://villalegre.cl/beca-municipal-educacion-superior-2026/). Aporte 2026 de 100000 CLP en un pago único por año. Instructivo permite entregar 2–23 abril. RSH 80 admite informe social sin RSH; no límite universal. Promedios de cuarto medio y superiores no son NEM. Documentación varía por trayectoria."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nAporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido. Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.\n\nLímites: Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf)\n\n### Beca Municipal Sebastian Reyes Fuentealba\n\nCandidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf"
+      ],
+      "beneficio": "Aporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido.",
+      "requisitos_principales": "Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.",
+      "limites": "Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": "2026-04-06",
+      "fecha_cierre": "2026-04-30",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "97cd52bf6568181b0ad219b87a81c222ce22024ef0861113ebd77ce210d5a83d",
@@ -15184,6 +15723,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `97cd52bf6568181b0ad219b87a81c222ce22024ef0861113ebd77ce210d5a83d`. Alegación histórica de monto / cierre: $150.000 en cuota unica / 2026-03-31.\n\n[Fuente contrastada](https://muniflorida.cl/contacto/). Ficha municipal sin año ofrece 1.5 UF y pide tres años cursados en liceos de Florida. No confirmar importe 2026 ni convertir UF a pesos; promedio de años cursados no es NEM automático. Florida Biobío no es La Florida Santiago."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `97cd52bf6568181b0ad219b87a81c222ce22024ef0861113ebd77ce210d5a83d` | Beca Municipal de Mantención Florida | Florida: ficha confirma 1,5 UF y trayectoria escolar local, pero no delimita suficientemente el alcance de mantención superior del candidato. No convertir UF ni atribuir periodicidad. |"
         ]
       }
     ],
@@ -15211,6 +15757,13 @@
         "extractos": [
           "Candidato: `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65`. Alegación histórica de monto / cierre: Aporte por evaluacion del departamento social y presupuesto del concejo / 2026-04-30.\n\n[Fuente contrastada](https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf). Residencia estudiantil 2025; modalidad y año diferentes del alias genérico. Sin bases superiores municipales 2026 recuperadas. No copiar documentos; cobertura ni fecha de esta modalidad sin confirmar relación."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65` | Beca Estudiantil Municipal Yumbel | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15236,6 +15789,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `fdc3f924f84f142ceb109d46af1ddc705180c3a0538a96e822c2b953f2e97c93`. Alegación histórica de monto / cierre: Aporte financiero fijo anual / 2026-03-31.\n\n[Fuente contrastada](https://www.contulmo.cl/postula-a-la-beca-municipal-de-apoyo-a-la-educacion-superior-2026-%F0%9F%8E%93%E2%9C%A8/). 2026: recepción 2–13 marzo; apoyo mensual diez meses marzo–diciembre. Importe individual y bases documentales no publicados en anuncio. Deportes cierra 9 marzo y es otro beneficio; no confundirlo."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `fdc3f924f84f142ceb109d46af1ddc705180c3a0538a96e822c2b953f2e97c93` | Beca Municipal de Apoyo a la Educación Superior Contulmo | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -15263,6 +15823,13 @@
         "extractos": [
           "Candidato: `cf2b6e51488e301ee7729cc34be162cd51373a78934c73d516c22e17f1543b0f`. Alegación histórica de monto / cierre: $200.000 fijo / 2026-05-07.\n\n[Fuente contrastada](https://www.munirionegro.cl/entrevista-para-beca-municipal/). Página indexada de entrevista para beca Profesor Luis Castillo Cid 2026; recarga devuelve timeout. No confirma calendario completo ni importe. Resultados de provincia argentina Río Negro descartados por proveedor y país distintos."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `cf2b6e51488e301ee7729cc34be162cd51373a78934c73d516c22e17f1543b0f` | Beca Municipal de Rio Negro 2026 | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15288,6 +15855,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9`. Alegación histórica de monto / cierre: Hasta 5 UTM anuales / 2026-05-31.\n\n[Fuente contrastada](https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/). Mérito Deportivo 2026 es distinto de beca estudiantil. Hasta5 UTM anuales es máximo; no convertir ni fijar importe garantizado. Aprobados municipales 2026 acredita otro proceso. Alias mixto exige separación y bases de ambas modalidades."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9` | Beca Municipal y Beca Mérito Deportivo | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -15315,6 +15889,13 @@
         "extractos": [
           "Candidato: `70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd`. Alegación histórica de monto / cierre: $212.121 aprox prom (33 benef.. pto $7.000.000) / 2026-03-31.\n\n[Fuente contrastada](https://sanjuandelacosta.cl/2026/08/07/prueba/). Resultados oficiales 2026 distinguen Alberto Antonio Herrera Cárdenas; residencia y deporte/cultura. No usar ceremonia o publicación de resultados como postulación. Entrega 2025 no acredita importe 2026; bases actuales pendientes."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd` | Beca Municipal Alberto Antonio Herrera Cardenas | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15327,7 +15908,7 @@
     "candidato": "135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53",
     "nombre": "Beca Municipal Sebastian Reyes Fuentealba",
     "institucion": "Municipalidad de Palena",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque30_muni.csv",
@@ -15341,13 +15922,41 @@
         "extractos": [
           "Candidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`. Alegación histórica de monto / cierre: Aporte segun disponibilidad DIDECO / 2026-08-15.\n\n[Fuente contrastada](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf). Manual 2026: media 40000 CLP y superior 65000 mensuales marzo–diciembre. Alias abarca dos niveles; no importe único. Cierre31 marzo; alumno regular puede completar en abril. Nota superior 5.0 y aprobación 60% no son NEM. Apertura exacta pendiente."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "Candidato: `135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53`\n\nAlcance: Reglas esenciales 2026; sin certificar convocatoria abierta.\n\nMedia: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel. RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.\n\nLímites: Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.\n\n[Fuente oficial](https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53",
+      "revisado": "2026-10-05",
+      "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+      "fuentes": [
+        "https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf"
+      ],
+      "beneficio": "Media: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel.",
+      "requisitos_principales": "RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.",
+      "limites": "Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+      "fecha_inicio": null,
+      "fecha_cierre": "2026-03-31",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308",
@@ -15366,6 +15975,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308`. Alegación histórica de monto / cierre: 10 UF ($250.000 aprox) o 5 UF ($125.000 aprox) transporte / 2026-03-31.\n\n[Fuente contrastada](https://www.lascabrasmunicipalidad.cl/trans/articulos/10-Subsidios_y_Programas_Sociales/archivos/0900201511%20REGLAMENTO%20BECA%20MUNICIPALES%20DAEM.pdf). Reglamento y plantilla 2015–2016 separan Concejo y Ayuda de Transporte; esta última 5 UF anuales. No convertir ni certificar para 2026; ponderación NEM no es umbral mínimo. Alias combinado requiere distinguir modalidades."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308` | Beca Educación Superior y Beca Ayuda para Transporte | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],
@@ -15393,6 +16009,13 @@
         "extractos": [
           "Candidato: `d244c3f979f455ce6a5a3750f9d00dc24b448043b5e53028e26446b03ab6a557`. Alegación histórica de monto / cierre: $300.000 anuales (o $250.000 en 2 cuotas: mayo y septiembre) / 2026-08-29.\n\n[Fuente contrastada](https://www.andacollochile.cl/page/Becas-Municipales). Ficha sin convocatoria anual explícita: Ignacio Domeyko 100000 CLP anual; Gabriela Mistral y Pedro Regalado son otras becas. No atribuir 600000 de la sección siguiente a Domeyko. Documentos y calendario generales no certifican vigencia 2026."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `d244c3f979f455ce6a5a3750f9d00dc24b448043b5e53028e26446b03ab6a557` | Beca Ignacio Domeyko (Educación Superior) | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15419,6 +16042,13 @@
         "extractos": [
           "Candidato: `93779d4ea342838b60e25b12ee492f54704ab18337dcb17ce93e6b2e1fc44f56`. Alegación histórica de monto / cierre: Asignacion depositada en cuenta. Beca Deportiva paralela de $300.000. / 2026-03-31.\n\n[Fuente contrastada](https://munimaullin.cl/wp-content/uploads/2025/12/ordenanza-municipal-beca-ensen%CC%83anza-superior.pdf). Ordenanza superior aprobada por decreto 3128 de diciembre 2025; PDF escaneado sin texto extraíble. Bases completas y convocatoria 2026 pendientes. Beca deportiva 2026 y FONDEVE corresponden a otros beneficios."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `93779d4ea342838b60e25b12ee492f54704ab18337dcb17ce93e6b2e1fc44f56` | Beca de Enseñanza Superior Maullin | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15444,6 +16074,13 @@
         "informe_sha256": "4053ae576653d163e697c740da13a635a58f4bbb211970f10fba8c4d711adb49",
         "extractos": [
           "Candidato: `f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238`. Alegación histórica de monto / cierre: $600.000 (Concejo) / $300.000 (Samuel Ovalle). Pto $200MM+. / 2026-02-28.\n\n[Fuente contrastada](https://mostazal.cl/noticias/municipalidad-de-mostazal-entrego-la-beca-concejo-municipal-a-146-estudiantes-de-educacion-superior/). Concejo 2026 entrega total 600000 CLP en dos cuotas 300000. Samuel Ovalle es otra modalidad; cuenta 2024 no confirma importe 2026 de esa beca. Alias mixto no admite cifra única; ceremonia 10 julio no es cierre de postulación.\n\n\n\nSéptimo lote municipal: 32 identidades revisadas parcialmente. Trece registros inactivos corregidos: Sagrada Familia; Rinconada; San Rosendo; Cunco; Hijuelas; Navidad; Villa Alegre; Florida; Contulmo; Punitaqui; Palena; Andacollo y Mostazal. Rinconada: 200000.00 CLP anuales en dos cuotas y RSH máximo 40; atención denominada sábado 17 de mayo contradice calendario 2026 y se conserva como discrepancia. Villa Alegre: 100000.00 CLP en un pago único; RSH 80 admite informe social alternativo. San Rosendo contempla excepciones RSH y el alias combina devolución de matrícula; sin cifra ni calendario globales. Navidad distingue presencial y online; fechas de renovación contradictorias conservadas sin fecha universal. Palena distingue media y superior. Mostazal combina Concejo y Samuel Ovalle; no trasladar 600000 CLP de la primera modalidad a la segunda. UF y UTM permanecen en texto. Andacollo y Florida no tienen convocatoria anual explícita; sus importes no se certifican para 2026. Siete listas documentales parciales verificadas y seis desconocidas. Otras 560 becas locales idénticas. Cero altas; errores y activaciones. Avance: 490 revisiones parciales y 78 sin revisión individual; todas las 568 pendientes de confirmación completa. Informe: REVISION_MUNICIPALES_SEPTIMO_32.md. Evidencia: CORRECCION_MUNICIPALES_SEPTIMO_32_LOCAL.json.\n\nRespaldo restaurado antes de importar; cero altas; cero errores; cero activaciones. Búsqueda y catálogo públicos idénticos. Importes; calendarios; RSH y documentos persistidos verificados. PostgreSQL: nombres y descripciones sin mojibake.\n\nReferencias complementarias contrastadas: [Panquehue gestión 2015](https://www.impanquehue.cl/wp-content/uploads/2016/05/CUENTA-PUBLICA-2016-2.pdf); [Romeral notebooks estatales](https://muniromeral.cl/romeral/?p=4865); [Rauco acta 2021](https://www.munirauco.cl/actas/pdf/2021-2024/ORD013.pdf); [Hualañé catálogo informado 2025](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6); [Carahue nómina 2025](https://carahue.cl/web/wp-content/uploads/2025/05/BENEFICIARIOS-BECA-MUNICIPAL-DE-EDUCACION-SUPERIOR.pdf); [Hijuelas índice 2026](https://hijuelas.cl/noticias-e-informaciones/); [Villa Alegre instructivo 2026](https://villalegre.cl/wp-content/uploads/2026/04/INSTRUCTIVO-APORTE-ESTUDIANTES-2026.pdf); [Punitaqui aprobados estudiantiles 2026](https://www.munipunitaqui.cl/aprobados-beca-municipal-2026/); [Palena anuncio 2026](https://municipalidadpalena.cl/abierto-el-proceso-de-postulacion-a-la-beca-municipal-sebastian-reyes-fuentealba-2026/); [Las Cabras plantilla 2015–2016](https://www.lascabrasmunicipalidad.cl/trans/articulos/10-Subsidios_y_Programas_Sociales/archivos/0900201511%20Plantilla%20Subsidios%20DAEM.pdf); [Maullín decreto 3128](https://munimaullin.cl/wp-content/uploads/2025/12/decreto-3128-que-aprueba-ordenanza-beca-municipal.pdf)."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+        "informe_sha256": "2123147f9c6545132b7bb1ca1861265909f58f0b03a762a859f587e8bdb6da62",
+        "extractos": [
+          "| `f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238` | Beca Concejo Municipal y Beca Samuel Ovalle | Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar. |"
         ]
       }
     ],

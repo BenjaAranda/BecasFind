@@ -2071,5 +2071,194 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "44805ada8758b48b533fdce566a72fdf1d73f9253dad7cb5bd932dd8b2e62547",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://www.futaleufu.cl/2026/02/23/abren-proceso-de-postulacion-a-la-beca-municipal-2026-en-futaleufu/"
+    ],
+    "beneficio": "Aporte económico para continuidad educativa; importe desconocido.",
+    "requisitos_principales": "Residencia comunal; edad hasta 28 años; RSH hasta 70%; promedio de enseñanza media 5,5 para egresados; superior 4,5 y no dos o más asignaturas reprobadas el año anterior.",
+    "limites": "No confundir promedio de enseñanza media con notas superiores. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": "2026-03-02",
+    "fecha_cierre": "2026-03-27",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://www.sanclemente.cl/index.php/2026/02/12/proceso-de-postulacion-beca-estudiantil-municipal-2026/"
+    ],
+    "beneficio": "Educación superior: $270.000 CLP sector urbano o $300.000 sector rural; periodicidad desconocida.",
+    "requisitos_principales": "Matrícula superior técnica o universitaria; RSH comunal hasta 40% y promedio del año anterior o último cursado 5,0; ambas condiciones admiten excepción por necesidad acreditada.",
+    "limites": "La ficha incluye otros niveles con importes diferentes; alcance limitado a superior. Promedio anterior no equivale a NEM. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": "2026-01-05",
+    "fecha_cierre": "2026-03-31",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "97b509ebed3195ed383563d1c4415a255245d30a09529ea3b94915144bce25ff",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales ficha actualizada en septiembre de 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://transparencia.providencia.cl/Carpeta/VerTablaV/413476"
+    ],
+    "beneficio": "Aporte monetario mensual; importe desconocido.",
+    "requisitos_principales": "Residencia permanente; situación económica vulnerable; sin otra beca municipal; ingreso desde enseñanza media NEM 6,0; estudiantes superiores promedio anual 5,5; entrevista social.",
+    "limites": "No publica máximo RSH ni calendario de convocatoria; actualización de ficha no acredita apertura. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ff9d6d609324efd1180a643d23b9ae7719a468a89ece28807c67524f9c40b3c7",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales ficha sin convocatoria anual identificada; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://empedrado.cl/faq-preguntas-frecuentes/"
+    ],
+    "beneficio": "Modalidad monetaria: $30.000 CLP mensuales. Modalidad distinta de residencia estudiantil en Talca.",
+    "requisitos_principales": "Residencia y RSH en Empedrado; estudios superiores en universidad, instituto o centro de formación técnica. Postulación o renovación semestral, no automática.",
+    "limites": "No sumar alojamiento al aporte monetario ni asumir cupo; fechas, umbral RSH y notas desconocidos. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/"
+    ],
+    "beneficio": "Aporte económico para educación superior; importe desconocido.",
+    "requisitos_principales": "Residencia acreditada mediante RSH comunal; alumno regular 2026 o semestre en universidad, instituto o CFT reconocido; promedio previo de semestre o trimestre 5,0; no haber recibido antes este beneficio.",
+    "limites": "No deducir máximo RSH ni NEM de la nota semestral. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": "2026-07-10",
+    "fecha_cierre": "2026-07-31",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/"
+    ],
+    "beneficio": "$200.000 CLP anuales en dos cuotas de $100.000, mayo y octubre.",
+    "requisitos_principales": "RSH comunal hasta 40%; regular en universidad o instituto reconocido; ingreso promedio 6,0; segundo año o superiores promedio 5,0.",
+    "limites": "El promedio de ingreso no se certifica como NEM. No reconstruir calendario completo desde referencias a días de atención. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://villalegre.cl/beca-municipal-educacion-superior-2026/"
+    ],
+    "beneficio": "$100.000 CLP en un pago único a Cuenta RUT.",
+    "requisitos_principales": "Domicilio comunal; matrícula en universidad, instituto o CFT; cuarto medio promedio 4,5 para ingreso o superior 4,0; RSH hasta 80%, con informe DIDECO cuando no hay RSH.",
+    "limites": "No convertir promedio de cuarto medio en NEM completo. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": "2026-04-02",
+    "fecha_cierre": "2026-04-23",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf"
+    ],
+    "beneficio": "Aporte para gastos educativos, transporte, arriendo, alimentación y materiales; importe desconocido.",
+    "requisitos_principales": "Superior regular reconocido; RSH comunal; ingreso per cápita hasta $500.000; cuarto medio 5,5 o superior 5,0 con máximo una reprobación; discapacidad: 5,0 ingreso o 4,5 superior; rendición previa.",
+    "limites": "Ingreso per cápita no es importe de beca. Excluye segunda carrera, título previo y continuidad técnica-profesional; incompatibilidad con beca deportiva municipal y contrato municipal a plazo fijo. Rendición de diciembre no es cierre. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": "2026-04-06",
+    "fecha_cierre": "2026-04-30",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53",
+    "revisado": "2026-10-05",
+    "alcance": "Reglas esenciales 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf"
+    ],
+    "beneficio": "Media: $40.000 CLP mensuales; superior: $65.000 mensuales, marzo a diciembre. Totales anuales $400.000 y $650.000 según nivel.",
+    "requisitos_principales": "RSH y residencia Palena; necesidad económica; sin rendición pendiente; superior presencial reconocido con promedio semestral 5,0 y 60% aprobado; media promedio 5,5 según etapa.",
+    "limites": "Distinguir niveles y reglas académicas; ingreso superior sin semestre previo no se reconstruye como NEM. No inferir máximo RSH de tabla de puntajes. Entrega posterior de alumno regular no amplía cierre general. Sin activación ni sobrescritura de base. Documentos exhaustivos no certificados.",
+    "fecha_inicio": null,
+    "fecha_cierre": "2026-03-31",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

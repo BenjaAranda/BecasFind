@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 468 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 98 confirmación esencial: faltan 468 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 459 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 107 confirmación esencial: faltan 459 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -71,14 +71,14 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque20_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque21_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque22_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque23_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque24_muni.csv | 10 | 10 | 9 | 0 | 0 | 9 |
-| bloque25_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
+| bloque23_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque24_muni.csv | 10 | 10 | 8 | 1 | 0 | 8 |
+| bloque25_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque26_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque27_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque28_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque29_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque30_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
+| bloque27_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque28_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
+| bloque29_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque30_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque31_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque32_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque33_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
