@@ -199,5 +199,38 @@
       "monto": "Variable; porcentaje universal desconocido.",
       "url": "Usar la página específica admision.finis.cl/becas-y-beneficios/."
     }
+  },
+  {
+    "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Misma beca municipal superior en sus referencias; denominaciones y cuantías históricas corregidas según alcance oficial.",
+    "informe": "CONCILIACION_MAIPU_EL_QUISCO.md",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ],
+    "campos": {
+      "descripcion": "Apoyo municipal para estudios superiores; importe desconocido.",
+      "descripcion_larga": "Residencia comunal; RSH hasta 90%; ingreso per cápita hasta $904.199; regular 2026 en institución reconocida; cuarto medio 6,5 para ingreso o promedio anual superior anterior 5,5. Excluye titulados, gratuidad y cobertura externa completa de arancel. Categorías jefa de hogar y cuidadora tienen condiciones adicionales. No certificar $500.000/$600.000 históricos; ingreso per cápita no es beneficio ni notas de cuarto medio NEM. Expediente exhaustivo no certificado; sin sobrescritura de base ni activación.",
+      "monto": "Apoyo municipal para estudios superiores; importe desconocido.",
+      "documentos_requeridos": "Lista histórica no certificada íntegramente; usar fuente oficial, sin heredar documentos de otra referencia."
+    }
+  },
+  {
+    "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Misma beca municipal superior en sus referencias; denominaciones y cuantías históricas corregidas según alcance oficial.",
+    "informe": "CONCILIACION_MAIPU_EL_QUISCO.md",
+    "fuentes": [
+      "https://www.elquisco.cl/beca-municipal-2026/",
+      "https://www.elquisco.cl/wp-content/uploads/2026/03/37-ORDENANZA-MUNICIPAL-BECA-DE-EDUCACION-SUPERIOR-2026.pdf"
+    ],
+    "campos": {
+      "descripcion": "$50.000 CLP mensuales por diez meses de marzo a diciembre.",
+      "descripcion_larga": "Domicilio acreditado con RSH comunal; matrícula en superior reconocida; formulario y documentos. Excluye posgrado, funcionarios y deudores alimenticios. Continuidad técnica a profesional de igual área admite excepción al título previo. Ordenanza 37/2025 y difusión 2026. Renovación semestral. Tablas académica/RSH puntúan, sin inferir mínimos excluyentes. La ficha abreviada omite la excepción por continuidad; prevalece artículo 5. Expediente exhaustivo no certificado; sin sobrescritura de base ni activación.",
+      "monto": "$50.000 CLP mensuales por diez meses de marzo a diciembre.",
+      "documentos_requeridos": "Lista histórica no certificada íntegramente; usar fuente oficial, sin heredar documentos de otra referencia.",
+      "fecha_inicio": "1 de febrero de 2026; no heredar apertura histórica distinta.",
+      "fecha_cierre": "31 de marzo de 2026; descartar 30 de abril histórico."
+    }
   }
 ]
