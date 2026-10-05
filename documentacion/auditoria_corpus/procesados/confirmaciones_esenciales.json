@@ -2260,5 +2260,69 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3",
+    "revisado": "2026-10-05",
+    "alcance": "ficha histórica de 2020; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+    "fuentes": [
+      "https://www.municipalidadcorral.cl/page/beca"
+    ],
+    "beneficio": "Regla ordinaria publicada: $400.000 CLP anuales en dos cuotas. Excepción explícita del proceso 2020: $300.000 en una cuota para segundo semestre.",
+    "requisitos_principales": "Residencia Corral; RSH hasta 60%; egreso del Liceo Carlos Haverbeck Richter con nota 5,5 o superiores 4,5; carrera reconocida de al menos cuatro semestres fuera del lugar de residencia; compromiso de actividad municipal.",
+    "limites": "No certificar $400.000 como importe 2026 ni aplicar excepción sanitaria de 2020 a otro año. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2",
+    "revisado": "2026-10-05",
+    "alcance": "alcance de la ficha municipal 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+    "fuentes": [
+      "https://municipalidadcollipulli.cl/becas-educacion-superior/"
+    ],
+    "beneficio": "Aporte económico para gastos de una carrera universitaria o técnica; importe desconocido.",
+    "requisitos_principales": "Ser estudiante de carrera universitaria o técnica y residente de Collipulli, según requisitos publicados en la ficha de convocatoria.",
+    "limites": "Cierre publicado 11 mayo 2026; apertura desconocida. La ficha permite confirmar el alcance esencial publicado, no requisitos exhaustivos ni admisión garantizada. PDF escaneado no legible por el lector disponible: edad, RSH, notas, exclusiones y documentos específicos permanecen desconocidos; no trasladar reglamento 2022 o 2024. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+    "fecha_inicio": null,
+    "fecha_cierre": "2026-05-11",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e",
+    "revisado": "2026-10-05",
+    "alcance": "reglas publicadas sin año certificado y aporte 2026 diferenciado; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+    "fuentes": [
+      "https://www.munistgo.cl/beca-de-estudios/",
+      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+    ],
+    "beneficio": "Noticia de entrega 2026: $450.000 CLP en un aporte único. No asociar este importe automáticamente a convocatorias históricas.",
+    "requisitos_principales": "Ficha: estudiante y familia residentes Santiago; RSH comunal al menos seis meses; vulnerabilidad; último año 5,0 para carreras de ocho o más semestres o 5,5 para cuatro a siete; cuarto medio 6,0 para ingreso; entrevista.",
+    "limites": "Ficha titulada 2025 incluye resultados 2026: confirmar reglas tal como publicadas, sin certificar el año de aplicación. Excluye título profesional, título técnico salvo continuidad de misma especialidad, distancia y notas extranjeras no homologables. Práctica no remunerada admitida. No inferir NEM ni máximo RSH. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

@@ -16115,6 +16115,13 @@
         "extractos": [
           "| `909ff9418bcda015e2cdc50d480bc97b841d5ebd15ec2d5f4594701d3ad370b6` | Beca Municipal de Asistencialidad Chaiten | Chaitén: ficha 2023 leída acredita identidad y notas, pero no naturaleza/cuantía del beneficio; falta cobertura esencial específica. No exigir calendario 2026 para cerrar una edición histórica delimitada. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `909ff9418bcda015e2cdc50d480bc97b841d5ebd15ec2d5f4594701d3ad370b6` | Beca Municipal de Asistencialidad Chaiten | La URL municipal de Chaitén ahora muestra contenido de apuestas ajeno al programa. No usarla para confirmar ni recomendar postulación; encontrar una fuente oficial recuperada. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16147,6 +16154,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4` | Beca Estudiantil Municipal Olivar | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta pública 2018 acredita existencia histórica; presupuesto total no es aporte individual. Tabla de beneficiarios 2014 actualizada en 2026 sigue siendo 2014. No reproducir datos personales ni certificar importe actual. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4` | Beca Estudiantil Municipal Olivar | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16181,6 +16195,13 @@
         "extractos": [
           "| `f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967` | Beca Municipal Estudiantil Educación Superior San Gregorio | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Convocatoria municipal 2025 para media y superior indexada; recarga falla. Sin bases 2026 recuperadas. No asignar condiciones de un nivel o año al alias superior actual. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967` | Beca Municipal Estudiantil Educación Superior San Gregorio | San Gregorio: noticia 2025 rechaza lectura con 406; no trasladar requisitos entre niveles. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16213,6 +16234,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392` | Beca Municipal de Educación Superior Timaukel | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Noticia oficial de Porvenir sobre computadores JUNAEB 2024 incluye Timaukel; es otro proveedor y nivel educativo. Búsquedas en dominio original y por municipio sin bases superiores propias recuperadas. No concluir inexistencia. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392` | Beca Municipal de Educación Superior Timaukel | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16247,6 +16275,13 @@
         "extractos": [
           "| `0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff` | Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Tabla municipal de beca de incentivo fechada en octubre 2022. No demuestra convocatoria 2026; requisitos completos pendientes. Conservación histórica no autoriza activar. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff` | Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16279,6 +16314,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `16e415d3c49650a2da9b2ff89cd9345e59ca6224bff2781ba3068ddc75b226f7` | Beca Municipal de Educación Superior Puerto Cisnes | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Ficha municipal 2014 con residencia y trayectoria local. No extender sus reglas a 2026. Búsqueda dirigida no recuperó convocatoria actual; no concluir inexistencia. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `16e415d3c49650a2da9b2ff89cd9345e59ca6224bff2781ba3068ddc75b226f7` | Beca Municipal de Educación Superior Puerto Cisnes | Cisnes: recarga 403 y timeout; ficha histórica no recuperada completamente. |"
         ]
       }
     ],
@@ -16313,6 +16355,13 @@
         "extractos": [
           "| `2d84e8bcf07080e6c810804618bdfeb47b1b095061bbc4f08975dd02ce67e36b` | Beca Municipal Educación Superior Cerro Sombrero | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Recepción 16 febrero–13 marzo 2026 hasta 13:00. Media y técnico profesional superior; no afirmar elegibilidad de toda carrera universitaria. Bases enlazadas en Drive sin texto recuperado. Importe y documentos desconocidos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `2d84e8bcf07080e6c810804618bdfeb47b1b095061bbc4f08975dd02ce67e36b` | Beca Municipal Educación Superior Cerro Sombrero | Primavera: noticia delimita media y técnico profesional superior; PDF de Drive no recuperado. Cobertura y requisitos adicionales pendientes. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16345,6 +16394,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d` | Beca Municipal de Apoyo a la Educación Superior Camina | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsqueda dirigida en dominio original y por nombre municipal sin fuente específica recuperada. Este dominio raíz es referencia histórica de contexto; no se incorpora como enlace de beca. No concluir inexistencia ni inventar requisitos. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d` | Beca Municipal de Apoyo a la Educación Superior Camina | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16385,6 +16441,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `405de1b7a1268f2f812809d7a752274d05115510e09efe3cb6e617a55d6ac11f` | Beca Municipal Educación Superior Caleta Tortel | TORTEL | $150.000 CLP mensuales de marzo a diciembre. Domicilio Tortel; cinco años de básica en escuela local; estudios presenciales fuera de comuna; RSH entre 40% y 90%; primer ingreso hasta dos años después de egreso; renovación con 60% de ramos aprobados. | No representar rango RSH como máximo único; un cambio de carrera permitido; no inferir NEM. Alcance ordenanza 2026. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `405de1b7a1268f2f812809d7a752274d05115510e09efe3cb6e617a55d6ac11f` — Beca Municipal Educación Superior Caleta Tortel; cierre anterior conservado.\n- `4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c` — Programa Beca de Movilizacion; cierre anterior conservado.\n- `4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5` — Beca de Educación Superior Ilustre Municipalidad de Mariquina; cierre anterior conservado.\n- `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` — Beca de Educación Superior Penalolen; cierre anterior conservado.\n- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -16440,6 +16503,13 @@
         "extractos": [
           "| `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99` | Beca de Mantención Educación Superior Huara | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Becas TIC JUNAEB 2020 para séptimo básico de Huara; beneficio distinto. Búsqueda municipal no recuperó mantención superior propia. Fondo Subdere para funcionarios tampoco acredita este candidato. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99` | Beca de Mantención Educación Superior Huara | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16472,6 +16542,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `e9d19755434b511dcefa8b4292f6faac35007429f92ca5c271e4ba472b706e7e` | Beca Municipal de Educación Superior Melinka | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Excelencia AquaChile–municipio 2026: 1000000 CLP anual; 6 abril–1 mayo. Relación con alias municipal genérico pendiente: no asignar importe o calendario universal. Bases PDF enlazadas pero descarga falla. No convertir menciones documentales generales en lista obligatoria. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `e9d19755434b511dcefa8b4292f6faac35007429f92ca5c271e4ba472b706e7e` | Beca Municipal de Educación Superior Melinka | Guaitecas: ficha oficial de Excelencia AquaChile leída; no acredita equivalencia con alias municipal genérico. Mantener identidad pendiente. |"
         ]
       }
     ],
@@ -16506,6 +16583,13 @@
         "extractos": [
           "| `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131` | Beca Municipal de Apoyo Estudiantil Visviri / General Lagos | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Ficha oficial de General Lagos sobre Beca Indígena estatal 2013; no municipal propia 2026. Acta 2009 menciona otras modalidades. No trasladar importes ni documentos al candidato genérico. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131` | Beca Municipal de Apoyo Estudiantil Visviri / General Lagos | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16539,6 +16623,13 @@
         "extractos": [
           "| `e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed` | Beca Municipal de Educación Superior Archipielago Juan Fernandez | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsqueda dirigida por municipio y dominio original sin convocatoria municipal superior recuperada. Resultados de personas llamadas Juan Fernández y otras comunas descartados. Dominio raíz únicamente como contexto histórico; no se importa. Identidad pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed` | Beca Municipal de Educación Superior Archipielago Juan Fernandez | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16571,6 +16662,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` | Beca Municipal Estudiantil Galvarino | GALVARINO | Dinero de libre disposición para pasajes, alojamiento y alimentación; importe desconocido. Residencia comunal; RSH hasta 60%; matrícula/regular en educación superior reconocida y presencial; cuarto medio 5,0 para ingreso o promedio anual superior 4,5. | No NEM universal; descartar $120.000 histórico no acreditado. Alcance 2026. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -16626,6 +16724,13 @@
         "extractos": [
           "| `ac077e1770bbf329d185ddce24d60dad89227e0a73bf332e6eb9b7c407eaae26` | Beca Municipal Educación Superior Alhue | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Ficha JUNAEB práctica técnico profesional conserva periodo 2019–2020 pese a encabezado 2026. No es beca municipal superior propia. Búsquedas por dominio original y municipio sin bases específicas recuperadas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `ac077e1770bbf329d185ddce24d60dad89227e0a73bf332e6eb9b7c407eaae26` | Beca Municipal Educación Superior Alhue | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16658,6 +16763,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `c0bdc07760312c8208ca965c3160c4028bf74895cc9b9547daf49291cd2c6d36` | Beca de Educación Superior Ilustre Municipalidad de Zapallar | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Team Zapallar deportivo 2026 no equivale a beca superior. TIC JUNAEB 2026 corresponde a séptimo básico. Bases específicas del candidato pendiente; no copiar importes ni requisitos de esas modalidades. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `c0bdc07760312c8208ca965c3160c4028bf74895cc9b9547daf49291cd2c6d36` | Beca de Educación Superior Ilustre Municipalidad de Zapallar | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16692,6 +16804,13 @@
         "extractos": [
           "| `f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5` | Beca Municipal Estudiantil Maria Pinto | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: FONDEVE 2026 atiende organizaciones; reglamento enlazado conserva año 2024. No acredita beca individual superior. Búsqueda dirigida sin convocatoria específica recuperada; no concluir inexistencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5` | Beca Municipal Estudiantil Maria Pinto | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16724,6 +16843,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4` | Beca Municipal de Educación Superior Paredones | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Referencia periodística a beca Paredones 2020; no fuente municipal vigente. Dominio municipal no devolvió bases específicas en búsqueda. Sin incorporar importes ni calendarios; confirmar oficialmente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4` | Beca Municipal de Educación Superior Paredones | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16758,6 +16884,13 @@
         "extractos": [
           "| `5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b` | Beca Municipal Estudiantil Pumanque | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta de gestión 2022 acredita ayuda superior; 173 millones para 170 estudiantes es presupuesto global. Noticia 2014 tampoco fija importe 2026. No dividir totales ni extrapolar cierre. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b` | Beca Municipal Estudiantil Pumanque | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16790,6 +16923,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` | Beca Municipal de Apoyo a la Educación Superior Quilleco | QUILLECO | $600.000 CLP anuales en diez cuotas mensuales de $60.000. 18–28 años; residencia y RSH Quilleco hasta 70%; regular en institución reconocida; sin título técnico o profesional superior. | Vigente desde 2026; renovación académica y socioeconómica; marzo recurrente no fija convocatoria anual abierta. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -16845,6 +16985,13 @@
         "extractos": [
           "| `484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b` | Beca Municipal Educación Superior Antuco | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Tabla de ordenanzas actualizada julio 2026 remite a Ordenanza 3 del 22 marzo 2023. Fecha de tabla no renueva el instrumento. Sin bases actuales completas recuperadas; no certificar condiciones 2026. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b` | Beca Municipal Educación Superior Antuco | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16877,6 +17024,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a` | Beca Municipal Educación Superior Perquenco | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsqueda municipal y por nombre sin fuente primaria individual recuperada. Copia externa de cuenta pública 2019 no confirma condiciones 2026. Dominio original raíz solo contexto; no importado. No concluir inexistencia. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a` | Beca Municipal Educación Superior Perquenco | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -16911,6 +17065,13 @@
         "extractos": [
           "| `5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1` | Beca Municipal Heriberto Hott Contreras 2025/2026 | Puyehue: díptico 2026 previamente contrastado, ahora inaccesible; falta consolidar requisitos principales completos en evidencia de cierre esencial. No confundir ingreso per cápita con importe. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1` | Beca Municipal Heriberto Hott Contreras 2025/2026 | Puyehue: díptico actual no accesible con el lector; no confirmar por metadatos o alegaciones anteriores. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16943,6 +17104,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c` | Programa Beca de Movilizacion | RENAICO | Dinero mensual para movilización; importe individual desconocido; pagos marzo–diciembre. Educación superior universitaria, IP o CFT; desplazamiento diario o semanal desde/hacia Renaico; carencia económica acreditada en formulario. | La noticia de entrega 2026 respalda continuidad del programa; no dividir presupuesto entre beneficiarios ni trasladar máximo 2024. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c` — Programa Beca de Movilizacion; cierre anterior conservado.\n- `4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5` — Beca de Educación Superior Ilustre Municipalidad de Mariquina; cierre anterior conservado.\n- `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` — Beca de Educación Superior Penalolen; cierre anterior conservado.\n- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -16999,6 +17167,13 @@
         "extractos": [
           "| `b7e2e0db8d9f9bbde871292ab4e54eeaefab6543c649eacf75eae952c6387c5d` | Beca de Educación Superior Municipal | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta 2022 confirma beca municipal superior para egresados del liceo local; 50000 CLP mensuales históricos. No certificar importe ni cierre 2026. Presupuesto y número de alumnos no permiten calcular monto actual. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `b7e2e0db8d9f9bbde871292ab4e54eeaefab6543c649eacf75eae952c6387c5d` | Beca de Educación Superior Municipal | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17031,6 +17206,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `7d7a697df80c332c341316e28812b94143342a4833e2eae45dd4823a36bb83e0` | Beca Municipal de Educación Superior 2026 | Portezuelo: fuente individual localizada, relectura actual fallida; falta contraste esencial de cobertura y elegibilidad específicas, sin trasladar condiciones JUNAEB. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `7d7a697df80c332c341316e28812b94143342a4833e2eae45dd4823a36bb83e0` | Beca Municipal de Educación Superior 2026 | Portezuelo: conexión rechazada; conservar el contraste anterior sin cierre nuevo. |"
         ]
       }
     ],
@@ -17065,6 +17247,13 @@
         "extractos": [
           "| `edca53421b6dc7d400453eb214c62827f5d17736a65c7766f22fd469d3100013` | Beca Residencia Estudiantil Ranquil | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: PLADECO 2025–2030 indexa beca de arriendo; recarga falla. Guías universitarias 2024–2025 distinguen arriendo y beca superior; no prueban equivalencia del alias Residencia. Condiciones 2026 e identidad exacta pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `edca53421b6dc7d400453eb214c62827f5d17736a65c7766f22fd469d3100013` | Beca Residencia Estudiantil Ranquil | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17097,6 +17286,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `3e58349a5c478d40079a35bacf8244596d9d6f1d9108657cf8674573ec7ae4db` | Beca Municipal para Educación Superior 2026 | Chillán Viejo: requisitos y $210.000 localizados en resultados, lectura directa de noticia/PDF 2026 bloqueada por 403; no certificar solo por indexación. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `3e58349a5c478d40079a35bacf8244596d9d6f1d9108657cf8674573ec7ae4db` | Beca Municipal para Educación Superior 2026 | Chillán Viejo: recarga oficial 403; indexación no cierra requisitos. |"
         ]
       }
     ],
@@ -17131,6 +17327,13 @@
         "extractos": [
           "| `b2be5fb5638a098b2d79ac9b8389cb7637c2d80967653353a7ce539024e79445` | Beca Ilustre Municipalidad de Rio Verde | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Anuncios febrero y marzo 2026 remiten a afiches cuya descarga da timeout. Fecha de publicación no es fecha de postulación. Ficha sin año mezcla básica; media y superior con UTM distintas; no fijar monto único ni convertir a pesos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `b2be5fb5638a098b2d79ac9b8389cb7637c2d80967653353a7ce539024e79445` | Beca Ilustre Municipalidad de Rio Verde | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17163,6 +17366,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `40044ec5fd96b31d08c362a29d66ec4fee46a73a644a0fed361d3b70383becfd` | Beca Municipal Quemchi y Beca Pescadores Artesanales | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Portal distingue procesos 2026 de Excelencia y de Hijos de Pescadores Artesanales; incluye segundos llamados. El alias combina beneficios: no monto ni calendario únicos. Requisitos bajo sección 2024 no se trasladan a 2026. Bases actuales enlazadas en Drive requieren lectura completa. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `40044ec5fd96b31d08c362a29d66ec4fee46a73a644a0fed361d3b70383becfd` | Beca Municipal Quemchi y Beca Pescadores Artesanales | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -17197,6 +17407,13 @@
         "extractos": [
           "| `9665b7223c82df5ae960437894543746ad0410209a348f800b27e7f5739f700d` | Beca Municipal de Ninhue | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Reglamento con documentos 2026: Ingreso 150000 CLP; Mantención 170000; Excelencia 230000 anuales en dos cuotas. No importe universal. NEM 5.5 solo para ingreso; no umbral global. Artículos 10 y 43 mencionan marzo y marzo/agosto sin días exactos. Participación comunitaria y notas de institutos difieren entre artículos; preservar discrepancias. Dominio .cl bloqueado; .gob.cl permite lectura. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `9665b7223c82df5ae960437894543746ad0410209a348f800b27e7f5739f700d` | Beca Municipal de Ninhue | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_OCTAVO_32.md](../REVISION_MUNICIPALES_OCTAVO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17209,7 +17426,7 @@
     "candidato": "67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2",
     "nombre": "Aporte Económico Educación Superior 2026",
     "institucion": "Municipalidad de Collipulli",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque33_muni.csv",
@@ -17230,13 +17447,41 @@
         "extractos": [
           "| `67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2` | Aporte Económico Educación Superior 2026 | Contraste previo reutilizado (REVISION_MUNICIPALES_OCTAVO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Aporte superior 2026: cierre 11 mayo confirmado por anuncio municipal. Residencia y carrera universitaria o técnica; importe no publicado. Reglamento PDF enlazado escaneado; lectura completa pendiente. Aporte deportivo cierra 25 mayo y es otro beneficio. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "Candidato: `67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2`\n\nAlcance: alcance de la ficha municipal 2026; sin certificar convocatoria abierta.\n\nAporte económico para gastos de una carrera universitaria o técnica; importe desconocido. Ser estudiante de carrera universitaria o técnica y residente de Collipulli, según requisitos publicados en la ficha de convocatoria.\n\nLímites: Cierre publicado 11 mayo 2026; apertura desconocida. La ficha permite confirmar el alcance esencial publicado, no requisitos exhaustivos ni admisión garantizada. PDF escaneado no legible por el lector disponible: edad, RSH, notas, exclusiones y documentos específicos permanecen desconocidos; no trasladar reglamento 2022 o 2024. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://municipalidadcollipulli.cl/becas-educacion-superior/)\n\n### Beca de Educación Superior Santiago\n\nCandidato: `a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e`\n\nAlcance: reglas publicadas sin año certificado y aporte 2026 diferenciado; sin certificar convocatoria abierta.\n\nNoticia de entrega 2026: $450.000 CLP en un aporte único. No asociar este importe automáticamente a convocatorias históricas. Ficha: estudiante y familia residentes Santiago; RSH comunal al menos seis meses; vulnerabilidad; último año 5,0 para carreras de ocho o más semestres o 5,5 para cuatro a siete; cuarto medio 6,0 para ingreso; entrevista.\n\nLímites: Ficha titulada 2025 incluye resultados 2026: confirmar reglas tal como publicadas, sin certificar el año de aplicación. Excluye título profesional, título técnico salvo continuidad de misma especialidad, distancia y notas extranjeras no homologables. Práctica no remunerada admitida. No inferir NEM ni máximo RSH. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://www.munistgo.cl/beca-de-estudios/)\n- [Fuente oficial](https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2",
+      "revisado": "2026-10-05",
+      "alcance": "alcance de la ficha municipal 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+      "fuentes": [
+        "https://municipalidadcollipulli.cl/becas-educacion-superior/"
+      ],
+      "beneficio": "Aporte económico para gastos de una carrera universitaria o técnica; importe desconocido.",
+      "requisitos_principales": "Ser estudiante de carrera universitaria o técnica y residente de Collipulli, según requisitos publicados en la ficha de convocatoria.",
+      "limites": "Cierre publicado 11 mayo 2026; apertura desconocida. La ficha permite confirmar el alcance esencial publicado, no requisitos exhaustivos ni admisión garantizada. PDF escaneado no legible por el lector disponible: edad, RSH, notas, exclusiones y documentos específicos permanecen desconocidos; no trasladar reglamento 2022 o 2024. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+      "fecha_inicio": null,
+      "fecha_cierre": "2026-05-11",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "f8055636603f64517e02fa6dfa22ce0766c685b8bff0353afe607e5a9c074fe2",
@@ -17262,6 +17507,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `f8055636603f64517e02fa6dfa22ce0766c685b8bff0353afe607e5a9c074fe2` | Beca Municipal de Educación Superior Lonquimay | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Segunda nómina del primer semestre 2026 acredita el beneficio. Los 70700000 CLP son presupuesto total; no importe individual. Calendario y documentos actuales pendientes. No copiar nóminas personales. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f8055636603f64517e02fa6dfa22ce0766c685b8bff0353afe607e5a9c074fe2` | Beca Municipal de Educación Superior Lonquimay | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -17362,6 +17614,13 @@
         "extractos": [
           "| `93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8` | Beca Municipal Educación Superior Tolten | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsquedas municipales y por nombre sin bases específicas superiores recuperadas. Resultados deportivos y de Saavedra Argentina no acreditan este candidato. Dominio histórico raíz solo como contexto; no se importa. No concluir inexistencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8` | Beca Municipal Educación Superior Tolten | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17428,6 +17687,13 @@
         "extractos": [
           "| `7367c1c3f35eab6f639524831873a1a177233ef474a5b2c83d8bd392b5ce0e58` | Beca de Educación Superior Municipalidad de Lumaco | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Entrega municipal sin año confirmado. Otra noticia registra un presupuesto total; no dividirlo por estudiantes. La cuenta pública 2019 no demuestra condiciones 2026. Calendario e importe actual desconocidos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `7367c1c3f35eab6f639524831873a1a177233ef474a5b2c83d8bd392b5ce0e58` | Beca de Educación Superior Municipalidad de Lumaco | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17493,6 +17759,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `47ab68a7e7ba3e61b550ce43ba73a1a5b4ccaee3ede9935ae9c97134e2d26c1f` | Beca Municipal Puerto Saavedra | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Bases 2025: 12–30 mayo. No trasladar ese calendario a 2026. Descartar noticias de Saavedra Argentina. Revisión de convocatoria actual pendiente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `47ab68a7e7ba3e61b550ce43ba73a1a5b4ccaee3ede9935ae9c97134e2d26c1f` | Beca Municipal Puerto Saavedra | Saavedra: PDF 2025 bloqueado; no certificar por HTTP ni extrapolar a 2026. |"
         ]
       }
     ],
@@ -17593,6 +17866,13 @@
         "extractos": [
           "| `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` | Beca Municipal Educación Superior Rapa Nui | RAPA_NUI | $400.000 CLP mensuales marzo–diciembre mediante transferencia. Regular de educación superior continental; residencia Rapa Nui habilitada por Ley 21.070; vulnerabilidad socioeconómica; acreditar ingresos. | Haka Ara 2026; 80 cupos; sin umbral RSH/NEM numérico publicado; descartar monto anual histórico. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17646,6 +17926,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `9f4a326359d6f315b18bf71098b1c69ecf55f5779305bac407ec418ad541bfd6` | Beca Municipal Estudiantil Quilaco | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Catastro universitario 2024; referencia secundaria a Quilaco. No confirma importe ni calendario municipal 2026. Búsqueda en dominio original sin bases actuales recuperadas; no inferir vigencia. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `9f4a326359d6f315b18bf71098b1c69ecf55f5779305bac407ec418ad541bfd6` | Beca Municipal Estudiantil Quilaco | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -17717,6 +18004,13 @@
         "extractos": [
           "| `0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694` | Beca Municipal de Educación Superior San Antonio | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Decreto exento 1359 del 22 mayo 2026 otorga aporte IMSA y remite a reglamento 2022. Importe individual y calendario no contrastados en esta revisión. No copiar datos personales de beneficiarios ni convertir fecha del decreto en cierre. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694` | Beca Municipal de Educación Superior San Antonio | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -17783,6 +18077,13 @@
         "extractos": [
           "| `3b84b51cf1b3376a47226d92043464191fdc08a80242e2618244e56c52c6e768` | Beca Municipal Educación Superior Alto Biobio | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Portal municipal de contexto. Referencia periodística 2026 describe beca de arancel Pewenche; su equivalencia con el alias genérico requiere fuentes municipales específicas. Sin importe ni fechas asignados. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `3b84b51cf1b3376a47226d92043464191fdc08a80242e2618244e56c52c6e768` | Beca Municipal Educación Superior Alto Biobio | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17816,6 +18117,13 @@
         "extractos": [
           "| `a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e` | Beca de Educación Superior Santa Barbara | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Tabla 2019 actualizada en 2026 conserva su año histórico. No certificar condiciones actuales. Noticias de computadores para séptimo básico son otro beneficio y nivel educativo. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e` | Beca de Educación Superior Santa Barbara | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17848,6 +18156,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `015da93b9867cb6200ee3b9073e7fe172011d39f513d407f18145265daa8d42d` | Beca Municipal Educación Superior Negrete | NEGRETE | $300.000 CLP anuales en dos cuotas de $150.000 según ficha institucional. Estudiante de la comuna en educación técnica, profesional, universitaria o escuela matriz; acreditar continuidad para segundo semestre. | Ficha sin año de convocatoria: confirma reglas publicadas, sin certificar monto 2026 ni vigencia anual; otros umbrales desconocidos; distinta de útiles/JUNAEB. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `015da93b9867cb6200ee3b9073e7fe172011d39f513d407f18145265daa8d42d` — Beca Municipal Educación Superior Negrete; cierre anterior conservado.\n- `405de1b7a1268f2f812809d7a752274d05115510e09efe3cb6e617a55d6ac11f` — Beca Municipal Educación Superior Caleta Tortel; cierre anterior conservado.\n- `4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c` — Programa Beca de Movilizacion; cierre anterior conservado.\n- `4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5` — Beca de Educación Superior Ilustre Municipalidad de Mariquina; cierre anterior conservado.\n- `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` — Beca de Educación Superior Penalolen; cierre anterior conservado.\n- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -18035,6 +18350,13 @@
         "extractos": [
           "| `f041edb44bcc736e2328a50184a1b9944152efe7dd7c5745ace67d9bb0b68c31` | Beca Municipal de Estudios Superiores Macul | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Profesor Carlos Herrera Ferrada 2026: aporte único de 150000 CLP para educación superior. Encabezado combina fechas de julio y agosto; no es calendario de postulación. Mantener fechas y documentos desconocidos; no copiar nómina. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f041edb44bcc736e2328a50184a1b9944152efe7dd7c5745ace67d9bb0b68c31` | Beca Municipal de Estudios Superiores Macul | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18067,6 +18389,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` | Beca de Educación Superior Penalolen | PENALOLEN | $100.000 CLP por beneficiario; periodicidad desconocida. Domicilio Peñalolén; matrícula superior reconocida; cuarto medio mínimo 6,0 o promedio anual superior 5,0; RSH hasta 60%. | Ficha declara trámite vencido; no hasta $300.000 histórico ni NEM universal. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` — Beca de Educación Superior Penalolen; cierre anterior conservado.\n- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -18287,6 +18616,13 @@
         "extractos": [
           "| `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20` | Beca Municipal Estudiantil El Monte | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta 2024 informa beneficios estatales; no acredita convocatoria municipal superior propia 2026. Búsqueda dirigida sin bases específicas recuperadas. No atribuir Presidente de la República como beca del municipio. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20` | Beca Municipal Estudiantil El Monte | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18473,6 +18809,13 @@
         "extractos": [
           "| `4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5` | Beca de Educación Superior Ilustre Municipalidad de Mariquina | MARIQUINA | Ayuda en dinero en dos cuotas; importe desconocido. Domicilio y RSH Mariquina; carrera mínima cuatro semestres; ingreso con cuarto medio 5,5; superiores semestre II 2025 mínimo 4,5 y 75% de cátedras aprobadas. | Lectura de requisitos y pago de páginas 1–2; referencias de plantilla a San Clemente no reasignan proveedor; segunda cuota condicionada a regularidad septiembre. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `4a249fa9a99030f2bfcb7804f4858139e3021d362b313ccd8e6831c24f70cfd5` — Beca de Educación Superior Ilustre Municipalidad de Mariquina; cierre anterior conservado.\n- `5e04c244a1d06e515016320e5992bd3518311ff6cca2f38352b4c392cab428f6` — Beca de Educación Superior Penalolen; cierre anterior conservado.\n- `665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678` — Beca Municipal de Apoyo a la Educación Superior Quilleco; cierre anterior conservado.\n- `95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084` — Beca Municipal Estudiantil Galvarino; cierre anterior conservado.\n- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18527,6 +18870,13 @@
         "extractos": [
           "| `42e596bd66c43cc97ce7dab5adf1adccfce708abebbb20dc6f47fb8858e0bcb5` | Beca Municipal Estudiantil Lanco | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Noticia de entrega 2025 con 100000 CLP por estudiante; no certificar importe 2026. Anexo de participación indexado recientemente conserva año 2025. Lanco no es Lago Ranco ni Loncoche. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `42e596bd66c43cc97ce7dab5adf1adccfce708abebbb20dc6f47fb8858e0bcb5` | Beca Municipal Estudiantil Lanco | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18560,6 +18910,13 @@
         "extractos": [
           "| `c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e` | Beca Municipal Educación Superior Mafil | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Bases deportivas 2026 corresponden a otra modalidad. Cuenta pública 2024 y beneficios TIC no acreditan beca municipal superior propia actual. No copiar montos deportivos al candidato. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e` | Beca Municipal Educación Superior Mafil | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18572,7 +18929,7 @@
     "candidato": "db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3",
     "nombre": "Beca Municipal de Apoyo a la Educación Superior Corral",
     "institucion": "Municipalidad de Corral",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque38_muni.csv",
@@ -18593,13 +18950,41 @@
         "extractos": [
           "| `db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3` | Beca Municipal de Apoyo a la Educación Superior Corral | Corral: ficha publicada en 2020 distingue regla $400.000 en dos cuotas y excepción COVID $300.000 única para 2020. No se acredita regla anual actual; conservar evidencia histórica delimitada. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "Candidato: `db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3`\n\nAlcance: ficha histórica de 2020; sin certificar convocatoria abierta.\n\nRegla ordinaria publicada: $400.000 CLP anuales en dos cuotas. Excepción explícita del proceso 2020: $300.000 en una cuota para segundo semestre. Residencia Corral; RSH hasta 60%; egreso del Liceo Carlos Haverbeck Richter con nota 5,5 o superiores 4,5; carrera reconocida de al menos cuatro semestres fuera del lugar de residencia; compromiso de actividad municipal.\n\nLímites: No certificar $400.000 como importe 2026 ni aplicar excepción sanitaria de 2020 a otro año. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://www.municipalidadcorral.cl/page/beca)\n\n### Aporte Económico Educación Superior 2026\n\nCandidato: `67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2`\n\nAlcance: alcance de la ficha municipal 2026; sin certificar convocatoria abierta.\n\nAporte económico para gastos de una carrera universitaria o técnica; importe desconocido. Ser estudiante de carrera universitaria o técnica y residente de Collipulli, según requisitos publicados en la ficha de convocatoria.\n\nLímites: Cierre publicado 11 mayo 2026; apertura desconocida. La ficha permite confirmar el alcance esencial publicado, no requisitos exhaustivos ni admisión garantizada. PDF escaneado no legible por el lector disponible: edad, RSH, notas, exclusiones y documentos específicos permanecen desconocidos; no trasladar reglamento 2022 o 2024. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://municipalidadcollipulli.cl/becas-educacion-superior/)\n\n### Beca de Educación Superior Santiago\n\nCandidato: `a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e`\n\nAlcance: reglas publicadas sin año certificado y aporte 2026 diferenciado; sin certificar convocatoria abierta.\n\nNoticia de entrega 2026: $450.000 CLP en un aporte único. No asociar este importe automáticamente a convocatorias históricas. Ficha: estudiante y familia residentes Santiago; RSH comunal al menos seis meses; vulnerabilidad; último año 5,0 para carreras de ocho o más semestres o 5,5 para cuatro a siete; cuarto medio 6,0 para ingreso; entrevista.\n\nLímites: Ficha titulada 2025 incluye resultados 2026: confirmar reglas tal como publicadas, sin certificar el año de aplicación. Excluye título profesional, título técnico salvo continuidad de misma especialidad, distancia y notas extranjeras no homologables. Práctica no remunerada admitida. No inferir NEM ni máximo RSH. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://www.munistgo.cl/beca-de-estudios/)\n- [Fuente oficial](https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3",
+      "revisado": "2026-10-05",
+      "alcance": "ficha histórica de 2020; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+      "fuentes": [
+        "https://www.municipalidadcorral.cl/page/beca"
+      ],
+      "beneficio": "Regla ordinaria publicada: $400.000 CLP anuales en dos cuotas. Excepción explícita del proceso 2020: $300.000 en una cuota para segundo semestre.",
+      "requisitos_principales": "Residencia Corral; RSH hasta 60%; egreso del Liceo Carlos Haverbeck Richter con nota 5,5 o superiores 4,5; carrera reconocida de al menos cuatro semestres fuera del lugar de residencia; compromiso de actividad municipal.",
+      "limites": "No certificar $400.000 como importe 2026 ni aplicar excepción sanitaria de 2020 a otro año. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "2e7297d32bfefea5d2809e3a98c5df90a01a47454b23d8b39146df1ceb871743",
@@ -18625,6 +19010,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `2e7297d32bfefea5d2809e3a98c5df90a01a47454b23d8b39146df1ceb871743` | Beca Municipal Villa O'Higgins (Educación Superior) | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Instrumentos 2024 distinguen gratuidad; arancel presencial o en línea y técnico profesional. No hay monto ni condiciones universales para el alias genérico. Actualización del índice no convierte instrumentos en convocatoria 2026. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `2e7297d32bfefea5d2809e3a98c5df90a01a47454b23d8b39146df1ceb871743` | Beca Municipal Villa O'Higgins (Educación Superior) | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -18659,6 +19051,13 @@
         "extractos": [
           "| `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d` | Beca Municipal Educación Superior Cochamo | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Referencia periodística 2026 mezcla básica; media y superior. Fuente municipal específica pendiente. No atribuir importe o documentos universales al registro superior con esa referencia secundaria. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d` | Beca Municipal Educación Superior Cochamo | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18691,6 +19090,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` | Beca Municipal Isla Lemuy - Puqueldon | PUQUELDON | Aporte para arancel, internet móvil, equipamiento e insumos de educación superior; importe desconocido. Estudiante de Puqueldón; situación económica deficiente y rendimiento satisfactorio según evaluación municipal. | Alcance ficha de servicio sin convocatoria anual; no requisitos numéricos inferidos ni prestaciones de vestuario de educación media. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a` — Beca Municipal Isla Lemuy - Puqueldon; cierre anterior conservado.\n- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
         ]
       }
     ],
@@ -18746,6 +19152,13 @@
         "extractos": [
           "| `8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1` | Beca de Educación Superior Rio Claro | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsqueda por municipio y dominio original sin bases individuales específicas recuperadas. Beneficios Subdere para funcionarios no acreditan este candidato estudiantil. Dominio histórico raíz únicamente como contexto; no se importa. No concluir inexistencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1` | Beca de Educación Superior Rio Claro | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18778,6 +19191,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `15bd3a7d2897fed8d6dfcc78af3f961504aeadb5733b27e2b2d61afd82eb0e6b` | Beca Municipal Educación Superior Vichuquen | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Índice municipal: anuncio 18 marzo 2026 de Beca de Incentivo superior con cierre 31 marzo. Artículo específico no recuperado; no importar el índice como enlace definitivo ni fijar monto. La Beca Talentos es distinta. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `15bd3a7d2897fed8d6dfcc78af3f961504aeadb5733b27e2b2d61afd82eb0e6b` | Beca Municipal Educación Superior Vichuquen | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -19142,6 +19562,13 @@
         "extractos": [
           "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` | Beca Municipal de Educación Superior Arica | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Residencia Familiar Estudiantil JUNAEB 2026 es otro programa. Subvenciones municipales para organizaciones tampoco acreditan beca individual superior. Identidad exacta y condiciones de este candidato pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` | Beca Municipal de Educación Superior Arica | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19174,6 +19601,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `6aa434ee4b7ef7a402c40f03e5c5687be6e096329d6002dc3b8a7f38bf63ca2e` | Beca Educación Superior DIDECO Chillan | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Manual DIDECO 2026 encontrado; lector web rechaza tamaño de 18.6 MB y su contenido específico queda pendiente. Beca Mérito Académico de noticia histórica requiere calendario y bases actuales. Artes; deportiva y estatales son modalidades distintas; no usar sus requisitos. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `6aa434ee4b7ef7a402c40f03e5c5687be6e096329d6002dc3b8a7f38bf63ca2e` | Beca Educación Superior DIDECO Chillan | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -19208,6 +19642,13 @@
         "extractos": [
           "| `8a7aba09ea083666fde7d0a8b66a05ffa1c9ca4e1dfe06a2ce85ab3f783fe561` | Beca Estudiantes de Educación Superior Ilustre Municipalidad de Calama | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Entrega superior 2026 confirma existencia y 124 beneficiarios. Inversión superior a 100 millones es presupuesto global; no dividir ni fijar aporte individual. Regla 2024 no se extiende automáticamente. Calendario y documentos actuales pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `8a7aba09ea083666fde7d0a8b66a05ffa1c9ca4e1dfe06a2ce85ab3f783fe561` | Beca Estudiantes de Educación Superior Ilustre Municipalidad de Calama | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19240,6 +19681,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` | Beca Municipal de Educación Superior Copiapo | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Carmen Vilches 2026 apoya Medicina y Odontología en Argentina. Equivalencia con alias municipal superior genérico pendiente; no asignar condiciones universales. Pasajes de Caldera a Copiapó pertenecen a otro municipio. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` | Beca Municipal de Educación Superior Copiapo | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -19274,6 +19722,13 @@
         "extractos": [
           "| `d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5` | Beca de Mantención Municipal para Estudios Superiores | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Búsqueda en dominio y por nombre sin bases específicas recuperadas. Resultados de Salamanca y apoyos de empleadores regionales no acreditan este proveedor. Fuente de contexto original; identidad y condiciones pendientes; no concluir inexistencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5` | Beca de Mantención Municipal para Estudios Superiores | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19307,6 +19762,13 @@
         "extractos": [
           "| `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90` | Beca Concejo Municipal de Osorno para Educación Superior | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta 2011 describe gestión de Beca Presidente de la República estatal. Beca deportiva 2026 y fondos para organizaciones son otros beneficios. No confirman la beca Concejo Municipal superior del alias; no copiar importes ni presupuestos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90` | Beca Concejo Municipal de Osorno para Educación Superior | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19339,6 +19801,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959` | Beca Municipal para Educación Superior Punta Arenas | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Cuenta 2019 describe gestión JUNAEB; no beca municipal superior universal. Convenio universitario con escolares seleccionados requiere identidad exacta y fuente municipal. Apoyos de básica o media y SIPEE no acreditan este candidato. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959` | Beca Municipal para Educación Superior Punta Arenas | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -19592,6 +20061,13 @@
         "extractos": [
           "| `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` | Beca a Estudiantes de Enseñanza Superior Los Angeles | LOS_ANGELES | $60.000 CLP mensuales general o $100.000 modalidad PAES; marzo–diciembre. Residencia/RSH Los Ángeles; institución acreditada; necesidad económica; ingreso 2025 con notas al menos 5,5; superiores último semestre 5,0; PAES ponderado 800 y egreso municipal inmediato para modalidad especial. | Un integrante por familia; sexto decil general y octavo PAES; RSH mayor a 70 requiere antecedentes adicionales, no exclusión automática. Excluye familias con funcionario municipal o de educación, salud o cementerio municipal. No NEM inferido; modalidades excluyentes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "- `b9d5eaca604acfae4e8fb88163abb80c926e23249fd201a88ce09e4f75ed9ba5` — Beca a Estudiantes de Enseñanza Superior Los Angeles; cierre anterior conservado.\n- `bce5d29e99741b4c9c286dcfe17ed9a825e13b6ab374fe9706ab7c66555f2869` — Beca Municipal Educación Superior Rapa Nui; cierre anterior conservado."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19645,6 +20121,13 @@
         "informe_sha256": "f06259e35ea3022442ff18deb6f0e206a147444eef240a121afa98ec680cdbd0",
         "extractos": [
           "| `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` | Beca Municipal Educación Superior Talca | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Noticia 2026 de preuniversitario corresponde a otra prestación; no beca superior municipal. PADEM 2020 describe beneficios estatales. Enlace raíz con parámetro p solo contexto; no se importa. Bases exactas pendientes. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "| `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` | Beca Municipal Educación Superior Talca | Contraste y bloqueo conservados en [REVISION_MUNICIPALES_NOVENO_32.md](../REVISION_MUNICIPALES_NOVENO_32.md); sin evidencia nueva suficiente. |"
         ]
       }
     ],
@@ -19767,7 +20250,7 @@
     "candidato": "a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e",
     "nombre": "Beca de Educación Superior Santiago",
     "institucion": "Municipalidad de Santiago",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
@@ -19788,13 +20271,42 @@
         "extractos": [
           "| `a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e` | Beca de Educación Superior Santiago | Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Entrega superior 2026: aporte único de 450000 CLP. Ficha de estudios conserva encabezado 2025 junto a resultados 2026; no trasladar requisitos sin contraste. Notas de cuarto medio y superior no equivalen a NEM. Calendario y documentos actuales pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+        "informe_sha256": "225d669e6b99dba49e82dae9e4fc82d704621aebbda653824621c5df65043d8f",
+        "extractos": [
+          "Candidato: `a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e`\n\nAlcance: reglas publicadas sin año certificado y aporte 2026 diferenciado; sin certificar convocatoria abierta.\n\nNoticia de entrega 2026: $450.000 CLP en un aporte único. No asociar este importe automáticamente a convocatorias históricas. Ficha: estudiante y familia residentes Santiago; RSH comunal al menos seis meses; vulnerabilidad; último año 5,0 para carreras de ocho o más semestres o 5,5 para cuatro a siete; cuarto medio 6,0 para ingreso; entrevista.\n\nLímites: Ficha titulada 2025 incluye resultados 2026: confirmar reglas tal como publicadas, sin certificar el año de aplicación. Excluye título profesional, título técnico salvo continuidad de misma especialidad, distancia y notas extranjeras no homologables. Práctica no remunerada admitida. No inferir NEM ni máximo RSH. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.\n\n- [Fuente oficial](https://www.munistgo.cl/beca-de-estudios/)\n- [Fuente oficial](https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e",
+      "revisado": "2026-10-05",
+      "alcance": "reglas publicadas sin año certificado y aporte 2026 diferenciado; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_OCTAVO_NOVENO_64.md",
+      "fuentes": [
+        "https://www.munistgo.cl/beca-de-estudios/",
+        "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+      ],
+      "beneficio": "Noticia de entrega 2026: $450.000 CLP en un aporte único. No asociar este importe automáticamente a convocatorias históricas.",
+      "requisitos_principales": "Ficha: estudiante y familia residentes Santiago; RSH comunal al menos seis meses; vulnerabilidad; último año 5,0 para carreras de ocho o más semestres o 5,5 para cuatro a siete; cuarto medio 6,0 para ingreso; entrevista.",
+      "limites": "Ficha titulada 2025 incluye resultados 2026: confirmar reglas tal como publicadas, sin certificar el año de aplicación. Excluye título profesional, título técnico salvo continuidad de misma especialidad, distancia y notas extranjeras no homologables. Práctica no remunerada admitida. No inferir NEM ni máximo RSH. Calendario desconocido. Sin activación ni sobrescritura de base. Confirmación exhaustiva pendiente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "ae844129445fe6fbe5442e950b7effd4b1369d6196e56a17094125b5f86e3cb8",
