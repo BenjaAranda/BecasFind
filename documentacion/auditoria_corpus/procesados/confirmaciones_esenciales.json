@@ -2834,5 +2834,47 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529",
+    "revisado": "2026-10-06",
+    "alcance": "Confirmación esencial histórica del decreto UNAP 1312/2014; aplicación actual pendiente; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+    "fuentes": [
+      "https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf"
+    ],
+    "beneficio": "50% del arancel básico de matrícula del primer año.",
+    "requisitos_principales": "Ingreso DEMRE a pregrado PSU en primera preferencia; incluye segunda preferencia si la primera queda en lista de espera; PSU del año anterior.",
+    "limites": "Artículo 14 de decreto 1312 de 15 de julio de 2014. No 25% de arancel ni NEM 5,5 ni renovación universal. No trasladar PSU histórica a PAES 2026. Tabla de transparencia con fecha 2024 y encabezado 2026 no resuelve actualización normativa. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63",
+    "revisado": "2026-10-06",
+    "alcance": "Confirmación esencial histórica del decreto UNAP 1312/2014; aplicación actual pendiente; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+    "fuentes": [
+      "https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf"
+    ],
+    "beneficio": "Exención total o parcial del arancel anual o semestral; porcentaje exacto desconocido.",
+    "requisitos_principales": "Excelencia deportiva acreditada mediante exámenes físicos y técnicos; alto rendimiento o destaque comunal, regional o nacional. Selección por Coordinación de Deportes y resolución de Asuntos Estudiantiles.",
+    "limites": "Artículo 18 de decreto 1312 de 15 de julio de 2014. No 20% fijo. Se localizó documento escaneado en transparencia 2025 sin lectura suficiente: aplicación actual pendiente. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

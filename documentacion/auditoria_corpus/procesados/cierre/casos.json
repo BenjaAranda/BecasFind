@@ -7717,7 +7717,7 @@
     "candidato": "7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529",
     "nombre": "Beca Primeras Preferencias UNAP",
     "institucion": "Universidad Arturo Prat",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_unap.csv",
@@ -7738,19 +7738,47 @@
         "extractos": [
           "Candidato: `7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529`\n\nEstado: pendiente. La referencia de primeras preferencias debe contrastarse con normativa vigente; no acreditar 25% de arancel con una ficha histórica de descuento de matrícula.\n\n- [Fuente oficial](https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf)"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+        "informe_sha256": "d48e08183a4172144960e957886bb7eca0b2514679d71640f7bb77bf4ed7636f",
+        "extractos": [
+          "Candidato: `7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529`\n\nEstado: CONFIRMADA_ESENCIAL con alcance histórico 2014.\n\n50% del arancel básico de matrícula del primer año.\n\nIngreso DEMRE a pregrado PSU en primera preferencia; incluye segunda preferencia si la primera queda en lista de espera; PSU del año anterior.\n\nArtículo 14 de decreto 1312 de 15 de julio de 2014. No 25% de arancel ni NEM 5,5 ni renovación universal. No trasladar PSU histórica a PAES 2026. Tabla de transparencia con fecha 2024 y encabezado 2026 no resuelve actualización normativa. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Decreto oficial histórico](https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529",
+      "revisado": "2026-10-06",
+      "alcance": "Confirmación esencial histórica del decreto UNAP 1312/2014; aplicación actual pendiente; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+      "fuentes": [
+        "https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf"
+      ],
+      "beneficio": "50% del arancel básico de matrícula del primer año.",
+      "requisitos_principales": "Ingreso DEMRE a pregrado PSU en primera preferencia; incluye segunda preferencia si la primera queda en lista de espera; PSU del año anterior.",
+      "limites": "Artículo 14 de decreto 1312 de 15 de julio de 2014. No 25% de arancel ni NEM 5,5 ni renovación universal. No trasladar PSU histórica a PAES 2026. Tabla de transparencia con fecha 2024 y encabezado 2026 no resuelve actualización normativa. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63",
     "nombre": "Beca Deportiva UNAP",
     "institucion": "Universidad Arturo Prat",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_unap.csv",
@@ -7771,13 +7799,41 @@
         "extractos": [
           "Candidato: `3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63`\n\nEstado: pendiente. Se identificó reglamentación deportiva UNAP; falta lectura de la normativa reciente para acreditar cobertura y requisitos aplicables. No confirmar por resultados del buscador.\n\n- [Fuente oficial](https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf)"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+        "informe_sha256": "d48e08183a4172144960e957886bb7eca0b2514679d71640f7bb77bf4ed7636f",
+        "extractos": [
+          "Candidato: `3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63`\n\nEstado: CONFIRMADA_ESENCIAL con alcance histórico 2014.\n\nExención total o parcial del arancel anual o semestral; porcentaje exacto desconocido.\n\nExcelencia deportiva acreditada mediante exámenes físicos y técnicos; alto rendimiento o destaque comunal, regional o nacional. Selección por Coordinación de Deportes y resolución de Asuntos Estudiantiles.\n\nArtículo 18 de decreto 1312 de 15 de julio de 2014. No 20% fijo. Se localizó documento escaneado en transparencia 2025 sin lectura suficiente: aplicación actual pendiente. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Decreto oficial histórico](https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63",
+      "revisado": "2026-10-06",
+      "alcance": "Confirmación esencial histórica del decreto UNAP 1312/2014; aplicación actual pendiente; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+      "fuentes": [
+        "https://www.unap.cl/mk/prontus_unap/vice_academica/de_1312_aprueba_texto_refundo_reglamento_becas_deja_sin_efecto_de_510_2014.pdf"
+      ],
+      "beneficio": "Exención total o parcial del arancel anual o semestral; porcentaje exacto desconocido.",
+      "requisitos_principales": "Excelencia deportiva acreditada mediante exámenes físicos y técnicos; alto rendimiento o destaque comunal, regional o nacional. Selección por Coordinación de Deportes y resolución de Asuntos Estudiantiles.",
+      "limites": "Artículo 18 de decreto 1312 de 15 de julio de 2014. No 20% fijo. Se localizó documento escaneado en transparencia 2025 sin lectura suficiente: aplicación actual pendiente. Fechas anuales y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "f43b0040acd2914489f6b344a0e588582de5c297915978a8f4832fd14e0770a1",
@@ -21643,6 +21699,13 @@
         "informe_sha256": "e04f27fd006caed7192157994b175cad75f86a991d010ba72926f8e7a6ec7af7",
         "extractos": [
           "Candidato: `cbeeacde2338566b893c078e8b13f8015716535fd427b0c7098eda5430e11de5`\n\nEstado: pendiente. Se localizó reglamento específico de alimentación UCSC; su lectura y contraste con convocatoria de pregrado siguen pendientes.\n\n- [Fuente oficial](https://ucsc.cl/admision/pregrado/becas-y-financiamiento/becas-y-beneficios/?id=beca-deportiva)"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_HISTORICA_UNAP_Y_CONTRADICCION_UCSC.md",
+        "informe_sha256": "d48e08183a4172144960e957886bb7eca0b2514679d71640f7bb77bf4ed7636f",
+        "extractos": [
+          "Candidato: `cbeeacde2338566b893c078e8b13f8015716535fd427b0c7098eda5430e11de5`\n\nPendiente: el reglamento de 13 de mayo de 2013 exige haber cursado segundo semestre; la noticia de 16 de marzo de 2026 admite estudiantes nuevos y enlaza ese mismo reglamento. No cerrar elegibilidad general hasta resolver excepción o modificación. Beneficio reglamentario: vales de colación; no alojamiento. La apertura 30 de marzo y cierre 1 de abril pertenecen solo a la convocatoria de novatos 2026; no se importan al caso genérico ni se activa.\n\n- [Reglamento oficial](https://direcciones.ucsc.cl/content/uploads/sites/17/2023/08/REGLAMENTO-BECA-DE-ALIMENTACION-UCSC.pdf)\n- [Convocatoria novatos 2026](https://dae.ucsc.cl/blog-y-noticias/postulacion-becas-de-mantencion-interna-para-estudiantes-novatos/)"
         ]
       }
     ],

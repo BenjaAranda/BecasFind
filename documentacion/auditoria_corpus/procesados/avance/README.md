@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 432 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 134 confirmación esencial: faltan 432 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 430 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 136 confirmación esencial: faltan 430 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -49,7 +49,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_umag.csv | 4 | 4 | 1 | 3 | 0 | 1 |
 | becas_umayor.csv | 6 | 6 | 5 | 1 | 0 | 5 |
 | becas_unab.csv | 7 | 7 | 4 | 3 | 0 | 4 |
-| becas_unap.csv | 4 | 4 | 3 | 1 | 0 | 3 |
+| becas_unap.csv | 4 | 4 | 1 | 3 | 0 | 1 |
 | becas_upla.csv | 4 | 4 | 3 | 1 | 0 | 3 |
 | becas_usach.csv | 3 | 3 | 2 | 1 | 0 | 2 |
 | becas_uss.csv | 7 | 7 | 0 | 7 | 0 | 0 |
