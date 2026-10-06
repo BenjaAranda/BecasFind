@@ -2876,5 +2876,48 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "ffdfa449a8dc16246062554cc18b9e0f56ab0f48e702e5daf514658ce6d609b4",
+    "revisado": "2026-10-06",
+    "alcance": "Condiciones esenciales publicadas para 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+      "https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf"
+    ],
+    "beneficio": "10% del arancel anual para cada hermano estudiante regular.",
+    "requisitos_principales": "Parentesco entre hermanos acreditado con certificados de nacimiento; ambos estudiantes regulares. Reglamento aplica descuento después de beneficios estatales y excluye gratuidad.",
+    "limites": "No extender a hijos o cónyuges ni familiares de titulados. Renovación según reglamento: aprobación anual y reglas de reducción por reprobaciones; no renovación semestral universal. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "0e9e5f4af12e410779b1442219fafd24ef3cb589e5f66f21803da12fbc386d22",
+    "revisado": "2026-10-06",
+    "alcance": "Condiciones esenciales publicadas para 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+    "fuentes": [
+      "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf"
+    ],
+    "beneficio": "Descuento de arancel según promedio PAES y tabla por carrera; porcentaje universal desconocido. Limitado al saldo después de beneficios estatales.",
+    "requisitos_principales": "Primer año; promedio Competencia Lectora y M1 de selección suficiente según tabla; FUAS correcto en primer proceso 2026; sin gratuidad; renovación exige aprobar todas las asignaturas del año anterior salvo intercambio.",
+    "limites": "Reglamento 2026 artículos 10–18 y 38–46. No 30% fijo, NEM 5,8 ni renovación por promedio 5,0. CAE preseleccionado se contabiliza al 100% referencial aunque se solicite menos; el saldo adicional queda a cargo del estudiante. Condiciones de cambio y suspensión requieren evaluación institucional. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

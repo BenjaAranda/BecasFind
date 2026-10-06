@@ -3748,6 +3748,13 @@
         "extractos": [
           "| `09bb3a4491be203a2df104a7edfd88586cfeb28cbff9d3ff86e01642cea2a59c` | Beca Excelencia Académica UA | UA: Excelencia Académica no identificada entre PAES, matrícula y Trayectoria Académica. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `09bb3a4491be203a2df104a7edfd88586cfeb28cbff9d3ff86e01642cea2a59c`\n\nEstado: pendiente. El reglamento menciona Excelencia, pero el catálogo 2026 diferencia Matrícula Gratis, PAES y Trayectoria Académica. No se acredita equivalencia del alias ni su cobertura histórica.\n\n- [Fuente oficial](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [Fuente oficial](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3835,6 +3842,13 @@
         "extractos": [
           "| `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750` | Beca Socioeconomica UA | UA: Socioeconómica genérica sin identidad específica corroborada. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`\n\nEstado: pendiente. Apoyo económico por regiones y crédito universitario no acreditan una beca Socioeconómica genérica de arancel. Mantener identidad pendiente.\n\n- [Fuente oficial](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [Fuente oficial](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3868,6 +3882,13 @@
         "extractos": [
           "| `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c` | Beca Alumni UA | UA: Alumni sin beneficio específico corroborado. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c`\n\nEstado: pendiente. UAlumni tiene beneficios de postgrado y convocatorias propias; no acredita automáticamente el descuento histórico para segunda carrera de pregrado. Falta delimitar programa.\n\n- [Fuente oficial](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [Fuente oficial](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf)\n- [Fuente oficial](https://postgrados.uautonoma.cl/becas-y-beneficios/)\n- [Fuente oficial](https://postgrados.uautonoma.cl/2da-convocatoria-ualumni-2026/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3880,7 +3901,7 @@
     "candidato": "ffdfa449a8dc16246062554cc18b9e0f56ab0f48e702e5daf514658ce6d609b4",
     "nombre": "Beca Familiar UA",
     "institucion": "Universidad Autónoma de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uautonoma.csv",
@@ -3901,13 +3922,42 @@
         "extractos": [
           "| `ffdfa449a8dc16246062554cc18b9e0f56ab0f48e702e5daf514658ce6d609b4` | Beca Familiar UA | UA: Familiar genérica no equivale a Hermanos sin decidir su alcance. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `ffdfa449a8dc16246062554cc18b9e0f56ab0f48e702e5daf514658ce6d609b4`\n\nEstado: CONFIRMADA_ESENCIAL.\n\n10% del arancel anual para cada hermano estudiante regular.\n\nParentesco entre hermanos acreditado con certificados de nacimiento; ambos estudiantes regulares. Reglamento aplica descuento después de beneficios estatales y excluye gratuidad.\n\nLímites: No extender a hijos o cónyuges ni familiares de titulados. Renovación según reglamento: aprobación anual y reglas de reducción por reprobaciones; no renovación semestral universal. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [Fuente oficial](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "ffdfa449a8dc16246062554cc18b9e0f56ab0f48e702e5daf514658ce6d609b4",
+      "revisado": "2026-10-06",
+      "alcance": "Condiciones esenciales publicadas para 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+      "fuentes": [
+        "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+        "https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf"
+      ],
+      "beneficio": "10% del arancel anual para cada hermano estudiante regular.",
+      "requisitos_principales": "Parentesco entre hermanos acreditado con certificados de nacimiento; ambos estudiantes regulares. Reglamento aplica descuento después de beneficios estatales y excluye gratuidad.",
+      "limites": "No extender a hijos o cónyuges ni familiares de titulados. Renovación según reglamento: aprobación anual y reglas de reducción por reprobaciones; no renovación semestral universal. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "838212eb4961778ab10d91be3dbaa66b2b0b2b843aad6d0d657f29335422ce90",
@@ -7117,7 +7167,7 @@
     "candidato": "0e9e5f4af12e410779b1442219fafd24ef3cb589e5f66f21803da12fbc386d22",
     "nombre": "Beca Puntaje PAES UMayor",
     "institucion": "Universidad Mayor",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umayor.csv",
@@ -7138,13 +7188,41 @@
         "extractos": [
           "| `0e9e5f4af12e410779b1442219fafd24ef3cb589e5f66f21803da12fbc386d22` | Beca Puntaje PAES UMayor | Mayor: tabla PAES titulada 2027 y cuerpo 2026; cohorte/umbral aplicable sin resolver. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `0e9e5f4af12e410779b1442219fafd24ef3cb589e5f66f21803da12fbc386d22`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nDescuento de arancel según promedio PAES y tabla por carrera; porcentaje universal desconocido. Limitado al saldo después de beneficios estatales.\n\nPrimer año; promedio Competencia Lectora y M1 de selección suficiente según tabla; FUAS correcto en primer proceso 2026; sin gratuidad; renovación exige aprobar todas las asignaturas del año anterior salvo intercambio.\n\nLímites: Reglamento 2026 artículos 10–18 y 38–46. No 30% fijo, NEM 5,8 ni renovación por promedio 5,0. CAE preseleccionado se contabiliza al 100% referencial aunque se solicite menos; el saldo adicional queda a cargo del estudiante. Condiciones de cambio y suspensión requieren evaluación institucional. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "0e9e5f4af12e410779b1442219fafd24ef3cb589e5f66f21803da12fbc386d22",
+      "revisado": "2026-10-06",
+      "alcance": "Condiciones esenciales publicadas para 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+      "fuentes": [
+        "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf"
+      ],
+      "beneficio": "Descuento de arancel según promedio PAES y tabla por carrera; porcentaje universal desconocido. Limitado al saldo después de beneficios estatales.",
+      "requisitos_principales": "Primer año; promedio Competencia Lectora y M1 de selección suficiente según tabla; FUAS correcto en primer proceso 2026; sin gratuidad; renovación exige aprobar todas las asignaturas del año anterior salvo intercambio.",
+      "limites": "Reglamento 2026 artículos 10–18 y 38–46. No 30% fijo, NEM 5,8 ni renovación por promedio 5,0. CAE preseleccionado se contabiliza al 100% referencial aunque se solicite menos; el saldo adicional queda a cargo del estudiante. Condiciones de cambio y suspensión requieren evaluación institucional. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7",
@@ -7170,6 +7248,13 @@
         "informe_sha256": "dbb600b580ad50440fa4135b8aed3a421b8a53f83e7989dcfb6116bd12794fb6",
         "extractos": [
           "| `58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7` | Beca Deportiva UMayor | Mayor: Deportiva sin beneficio específico corroborado. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7`\n\nEstado: pendiente. El reglamento 2026 enumera becas y casos de excepción sin ficha deportiva general al 25%. No confirmar por ausencia ni por nombre del sistema.\n\n- [Fuente oficial](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf)"
         ]
       }
     ],
@@ -7204,6 +7289,13 @@
         "extractos": [
           "| `6df6b1fdb7542c8a80b8340c0cf17a92226887ab13bbf0501c4654787428d33e` | Beca Copago UMayor | Mayor: Copago genérico no acredita DTE; requisito histórico del 60% no basta. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `6df6b1fdb7542c8a80b8340c0cf17a92226887ab13bbf0501c4654787428d33e`\n\nEstado: pendiente. Copago 0 DTE es una modalidad concreta con distinción ministerial y egreso del año anterior; no prueba el complemento genérico por RSH 60% del histórico.\n\n- [Fuente oficial](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7237,6 +7329,13 @@
         "extractos": [
           "| `245f7c71a69590e6fd40f85bbaf812bec5b5a4f760c4a9b650cc59b92c68b12c` | Beca Familiar UMayor | Mayor: Familiar histórica de arancel frente a Familia Mayor de matrícula; identidad pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `245f7c71a69590e6fd40f85bbaf812bec5b5a4f760c4a9b650cc59b92c68b12c`\n\nEstado: pendiente. Familia Mayor paga una única matrícula del mayor valor; Egresado y Titulado aplica descuentos diferentes a egresados y sus familiares. El histórico mezcla ambas poblaciones con 15% de arancel: identidad pendiente.\n\n- [Fuente oficial](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7269,6 +7368,13 @@
         "informe_sha256": "dbb600b580ad50440fa4135b8aed3a421b8a53f83e7989dcfb6116bd12794fb6",
         "extractos": [
           "| `28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019` | Beca Talento Emprendedor UMayor | Mayor: Talento Emprendedor no equivale al sistema Espíritu Emprendedor. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AUTONOMA_MAYOR_9.md",
+        "informe_sha256": "94124841308210cabd6ceb8a18b551435ef828bca5e31b5f1ee96fdb90dfdeed",
+        "extractos": [
+          "Candidato: `28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019`\n\nEstado: pendiente. Espíritu Emprendedor es el nombre del sistema de becas; no prueba una beca Talento Emprendedor por proyectos al 20%. Se requiere ficha específica.\n\n- [Fuente oficial](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf)"
         ]
       }
     ],
