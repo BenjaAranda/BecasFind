@@ -715,6 +715,13 @@
         "extractos": [
           "| `2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb` | Beca Fomento Regional UAI | UAI: Fomento Regional no acredita equivalencia con Mantención Regiones; no trasladar 50 UF. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb`\n\nEstado: pendiente. Mantención Regiones financia 50 UF anuales y excluye RM y Valparaíso; no acredita Fomento Regional con rebaja de arancel del 20%. No equiparar programas.\n\n- [Fuente oficial](https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado)\n- [Fuente oficial](https://www.uai.cl/admision/becas-y-aranceles/becas)"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3462,6 +3469,13 @@
         "extractos": [
           "| `83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0` | Beca Deporte Destacado UAI | UAI: Deporte Destacado sin beneficio y requisitos específicos corroborados en catálogo. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0`\n\nEstado: pendiente. La vía deportiva acredita bonificación de hasta 25 puntos de admisión; no una rebaja de arancel del 30–50%. Beneficio económico e identidad pendientes.\n\n- [Fuente oficial](https://www.uai.cl/admision/como-postular/admision-directa-especial)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3494,6 +3508,13 @@
         "informe_sha256": "dbb600b580ad50440fa4135b8aed3a421b8a53f83e7989dcfb6116bd12794fb6",
         "extractos": [
           "| `d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e` | Beca Hijo Funcionario UAI | UAI: Hijo Funcionario sin condiciones específicas públicas corroboradas. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e`\n\nEstado: pendiente. El reglamento 2024 menciona beneficios para hijos o cónyuges de funcionarios en su cláusula de compatibilidad; no acredita cobertura del 40% ni requisitos completos de ese beneficio.\n\n- [Fuente oficial](https://alumno.uai.cl/assets/uploads/2024/04/reglamentos-uai-2024.pdf)"
         ]
       }
     ],
@@ -6042,6 +6063,13 @@
         "extractos": [
           "| `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e` | Beca Fomento Regional UDLA | UDLA: Fomento Regional sin modalidad específica corroborada; histórico tiene columnas desplazadas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`\n\nEstado: pendiente. La ficha general no identifica un Fomento Regional con 20% por residencia. Falta fuente específica; no inferir beneficio por sede.\n\n- [Fuente oficial](https://siae.udla.cl/becas-udla/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6075,6 +6103,13 @@
         "extractos": [
           "| `d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00` | Beca Rendimiento Académico UDLA | UDLA: Rendimiento Académico no identificado; no trasladar NEM de Excelencia. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00`\n\nEstado: pendiente. Puntaje Ponderado tiene renovación con PGA 5,3 y avance 70%; no acredita alias Rendimiento con 20–35%, NEM 5,5 y renovación 5,0.\n\n- [Fuente oficial](https://siae.udla.cl/becas-udla/beca-puntaje-ponderado/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6107,6 +6142,13 @@
         "informe_sha256": "dbb600b580ad50440fa4135b8aed3a421b8a53f83e7989dcfb6116bd12794fb6",
         "extractos": [
           "| `043540cfe5f8a5663e40439f26b6c954749d4f12f60dd6b96f1d1a6ab1470711` | Beca CAE Complemento UDLA | UDLA: CAE Complemento podría referir Copago CAE; nombre/alcance sin equivalencia acreditada. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `043540cfe5f8a5663e40439f26b6c954749d4f12f60dd6b96f1d1a6ab1470711`\n\nEstado: pendiente. La fuente distingue Copago CAE al Mérito Académico y modalidades por carrera; no acredita complemento universal que cubra toda diferencia solo por tener CAE. Exige PGA 5,3, avance 70% y solicitar 100% del arancel de referencia. Reconciliar identidad y alcance antes de cerrar.\n\n- [Fuente oficial](https://siae.udla.cl/becas-udla/becas-copago/)"
         ]
       }
     ],
@@ -6944,6 +6986,13 @@
         "extractos": [
           "| `c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477` | Beca Interna ULagos | Bloqueo del contraste anterior reutilizado: Interna agrupa varias becas; identificar modalidad antes de asignar campos. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477`\n\nEstado: pendiente. Rectoría y Social son programas distintos; la ficha no identifica Interna genérica con tope 30% y RSH 60%. No sustituir el alias por uno de ellos.\n\n- [Fuente oficial](https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6956,7 +7005,7 @@
     "candidato": "b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d",
     "nombre": "Beca Santander ULagos",
     "institucion": "Universidad de Los Lagos",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ulagos.csv",
@@ -6977,13 +7026,41 @@
         "extractos": [
           "| `b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d` | Beca Santander ULagos | Bloqueo del contraste anterior reutilizado: Identificar convocatoria Santander y comparar finalidad; no asumir mantención. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nAporte único USD 4.000; cinco cupos para movilidad internacional de un semestre.\n\nPregrado regular desde quinto semestre; no último semestre; promedio mínimo 5,0; sin deudas vencidas ni beca Santander previa ni movilidad semestral financiada equivalente. Inscripción en Santander Open Academy y aceptación de universidad en convenio.\n\nSolo movilidad internacional; no confirma modalidad nacional del histórico. Estadía 2027 o primer semestre 2028. Cierre oficial 7 de junio de 2026 a las 17:30; no activar. Originales y base conservados.\n\nDocumentación publicada: formulario ULagos; certificado de alumno regular; carta de motivación; boletines de todos los semestres; certificado médico; copia de cédula. Se registra en el informe sin reconstruir expediente exhaustivo.\n\n- [Fuente oficial](https://rrii.ulagos.cl/wp-content/uploads/2026/04/Extracto-ULAGOS-Bases-Convocatoria-Beca-Santander-2026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d",
+      "revisado": "2026-10-06",
+      "alcance": "Movilidad internacional Santander ULagos 2026–2027; convocatoria cerrada, no vigente",
+      "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+      "fuentes": [
+        "https://rrii.ulagos.cl/wp-content/uploads/2026/04/Extracto-ULAGOS-Bases-Convocatoria-Beca-Santander-2026.pdf"
+      ],
+      "beneficio": "Aporte único USD 4.000; cinco cupos para movilidad internacional de un semestre.",
+      "requisitos_principales": "Pregrado regular desde quinto semestre; no último semestre; promedio mínimo 5,0; sin deudas vencidas ni beca Santander previa ni movilidad semestral financiada equivalente. Inscripción en Santander Open Academy y aceptación de universidad en convenio.",
+      "limites": "Solo movilidad internacional; no confirma modalidad nacional del histórico. Estadía 2027 o primer semestre 2028. Cierre oficial 7 de junio de 2026 a las 17:30; no activar. Originales y base conservados.",
+      "fecha_inicio": "2026-04-01",
+      "fecha_cierre": "2026-06-07",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "8410987d565134f941ddc876ceb40e692058bfaedab903e4d99e05ebbbadd960",
@@ -20593,6 +20670,13 @@
         "extractos": [
           "| `3f28de5a54cf8f087d7bfb86226d966171dbd44ad5c1fccc66e7d6d65f309360` | Beca Puntaje Académico UAI | UAI: Puntaje Académico no acredita equivalencia con PLG. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `3f28de5a54cf8f087d7bfb86226d966171dbd44ad5c1fccc66e7d6d65f309360`\n\nEstado: pendiente. Pedro Luis González depende de carrera, campus y puntaje; no acredita equivalencia inequívoca con el alias Puntaje Académico y su 50% fijo.\n\n- [Fuente oficial](https://www.uai.cl/admision/becas-y-aranceles/becas)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20666,6 +20750,13 @@
         "extractos": [
           "| `cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134` | Beca Deportiva UAI | UAI: Deportiva no identificada como misma modalidad de Deporte Destacado. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134`\n\nEstado: pendiente. La admisión deportiva no acredita beca de arancel del 25–50%. Conservar separado de Deporte Destacado hasta demostrar equivalencia económica.\n\n- [Fuente oficial](https://www.uai.cl/admision/como-postular/admision-directa-especial)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20698,6 +20789,13 @@
         "informe_sha256": "dbb600b580ad50440fa4135b8aed3a421b8a53f83e7989dcfb6116bd12794fb6",
         "extractos": [
           "| `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02` | Beca Hermanos UAI | UAI: Hermanos sin ficha específica corroborada. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`\n\nEstado: pendiente. Las fichas de becas consultadas no acreditan identidad, rebaja del 25% y condiciones de Hermanos. No se concluye inexistencia.\n\n- [Fuente oficial](https://www.uai.cl/admision/becas-y-aranceles/becas)"
         ]
       }
     ],
@@ -21875,6 +21973,13 @@
         "extractos": [
           "| `e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6` | Beca Excelencia Académica ULagos | Bloqueo del contraste anterior reutilizado: Identificar modalidad; Trayectoria Formativa no se presume equivalente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6`\n\nEstado: pendiente. La oferta interna consultada no acredita identidad y rango PAES 15–100% de Excelencia interna. No confundir con BEA ministerial.\n\n- [Fuente oficial](https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -21907,6 +22012,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2` | Beca de Apoyo ULagos | Bloqueo del contraste anterior reutilizado: Nombre genérico: identificar apoyo concreto antes de asignar importe. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+        "informe_sha256": "4bb5c92a9ff7286da51f2b2bb9aeb13e1ce024739c8e6f962fcd925e0098276f",
+        "extractos": [
+          "Candidato: `3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2`\n\nEstado: pendiente. Alimentación y ayudas monetarias tienen modalidades propias; Apoyo genérico no permite determinar cuál corresponde ni un RSH 60% común.\n\n- [Fuente oficial](https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/)"
         ]
       }
     ],

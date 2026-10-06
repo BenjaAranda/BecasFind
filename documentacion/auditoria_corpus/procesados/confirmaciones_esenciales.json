@@ -2963,5 +2963,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "b9037d3b4fadd7a3798ff419d5d38a649213e718f74743612ccaaf3da1c5755d",
+    "revisado": "2026-10-06",
+    "alcance": "Movilidad internacional Santander ULagos 2026–2027; convocatoria cerrada, no vigente",
+    "informe": "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md",
+    "fuentes": [
+      "https://rrii.ulagos.cl/wp-content/uploads/2026/04/Extracto-ULAGOS-Bases-Convocatoria-Beca-Santander-2026.pdf"
+    ],
+    "beneficio": "Aporte único USD 4.000; cinco cupos para movilidad internacional de un semestre.",
+    "requisitos_principales": "Pregrado regular desde quinto semestre; no último semestre; promedio mínimo 5,0; sin deudas vencidas ni beca Santander previa ni movilidad semestral financiada equivalente. Inscripción en Santander Open Academy y aceptación de universidad en convenio.",
+    "limites": "Solo movilidad internacional; no confirma modalidad nacional del histórico. Estadía 2027 o primer semestre 2028. Cierre oficial 7 de junio de 2026 a las 17:30; no activar. Originales y base conservados.",
+    "fecha_inicio": "2026-04-01",
+    "fecha_cierre": "2026-06-07",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
