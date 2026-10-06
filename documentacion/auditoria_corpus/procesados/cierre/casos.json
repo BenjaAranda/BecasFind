@@ -741,6 +741,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `53e222463ef2465e09c5f0f2df32431163625b0939925ae40b86c676efa6a889`\n\nApoyo de segunda carrera publicado al 10% primer año; no acredita equivalencia con Beca Titulado del histórico al 20% semestral. AIEP-UNAB es otra entidad de destino.\n\n- [Fuente oficial consultada](https://www.aiep.cl/admision/becas-y-financiamiento/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -767,6 +774,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `d5a265b509cf2ce442824708f2fcc3f4d3bde0dc2b80ce41dcc0518385ceaa85`\n\nDos becas publicadas para padres e hijos, no una beca universal para familiares directos o de titulados. Falta identidad específica.\n\n- [Fuente oficial consultada](https://www.aiep.cl/admision/becas-y-financiamiento/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -779,7 +793,7 @@
     "candidato": "160a1cab2e384797a962f81c8e4ed47fb141241cedb66edea200042202088d29",
     "nombre": "Beca Mérito Académico AIEP",
     "institucion": "AIEP",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_aiep.csv",
@@ -793,19 +807,47 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `160a1cab2e384797a962f81c8e4ed47fb141241cedb66edea200042202088d29`\n\nAlcance: FAQ institucional sin convocatoria anual certificada; sin certificar convocatoria abierta.\n\nEntre 10% y 50% del arancel anual según sede, escuela y cupos.\n\nEstudiante AIEP con promedio de asignaturas de al menos 6,0; sin beneficios estatales; selección automática por rendimiento.\n\nLímites: No conservar 30% semestral ni NEM 5,5 del histórico. No equivale al apoyo financiero por NEM para estudiantes nuevos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.aiep.cl/estudiantes/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "160a1cab2e384797a962f81c8e4ed47fb141241cedb66edea200042202088d29",
+      "revisado": "2026-10-05",
+      "alcance": "FAQ institucional sin convocatoria anual certificada; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://www.aiep.cl/estudiantes/"
+      ],
+      "beneficio": "Entre 10% y 50% del arancel anual según sede, escuela y cupos.",
+      "requisitos_principales": "Estudiante AIEP con promedio de asignaturas de al menos 6,0; sin beneficios estatales; selección automática por rendimiento.",
+      "limites": "No conservar 30% semestral ni NEM 5,5 del histórico. No equivale al apoyo financiero por NEM para estudiantes nuevos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "d786c0d8bb8c75483d5bc1d905eb79adf5ce62b0fe1a050ef4bc72b605314c85",
     "nombre": "Beca Deportiva AIEP",
     "institucion": "AIEP",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_aiep.csv",
@@ -819,13 +861,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `d786c0d8bb8c75483d5bc1d905eb79adf5ce62b0fe1a050ef4bc72b605314c85`\n\nAlcance: modalidades de Beca Deportistas sin calendario certificado; sin certificar convocatoria abierta.\n\nArancel anual: 15% para modalidad federada; 80% para alto rendimiento.\n\nParticipación destacada nacional/internacional federada; para alto rendimiento, deporte reconocido por COCh y selección nacional al matricularse.\n\nLímites: Renovación del alto rendimiento exige conservar selección nacional. No 25% semestral ni cobertura universal; documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.aiep.cl/admision/becas-y-financiamiento/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d786c0d8bb8c75483d5bc1d905eb79adf5ce62b0fe1a050ef4bc72b605314c85",
+      "revisado": "2026-10-05",
+      "alcance": "modalidades de Beca Deportistas sin calendario certificado; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://www.aiep.cl/admision/becas-y-financiamiento/"
+      ],
+      "beneficio": "Arancel anual: 15% para modalidad federada; 80% para alto rendimiento.",
+      "requisitos_principales": "Participación destacada nacional/internacional federada; para alto rendimiento, deporte reconocido por COCh y selección nacional al matricularse.",
+      "limites": "Renovación del alto rendimiento exige conservar selección nacional. No 25% semestral ni cobertura universal; documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95",
@@ -844,6 +914,13 @@
         "informe_sha256": "25a429742ab988700e66c3f62f67188ded42aee949c11e58f36a260eca56da05",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95`\n\nConvenio AIEP-Bomberos no prueba beneficio genérico para empresas ni rango 10–25%.\n\n- [Fuente oficial consultada](https://www.aiep.cl/admision/becas-y-financiamiento/)"
         ]
       }
     ],
@@ -871,6 +948,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -896,6 +980,13 @@
         "informe_sha256": "9e485bde4c7d9ff6bdb305d9e1a2a4c1e39967957fa0fa4e5cc972b1eb8da9ae",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
         ]
       }
     ],
@@ -923,6 +1014,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -948,6 +1046,13 @@
         "informe_sha256": "9e485bde4c7d9ff6bdb305d9e1a2a4c1e39967957fa0fa4e5cc972b1eb8da9ae",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
         ]
       }
     ],
@@ -975,6 +1080,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1000,6 +1112,13 @@
         "informe_sha256": "9e485bde4c7d9ff6bdb305d9e1a2a4c1e39967957fa0fa4e5cc972b1eb8da9ae",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`\n\nLas páginas oficiales de admisión y apoyo estudiantil no detallan esta candidata ni su cobertura/requisitos. La enumeración de becas Mineduc y la orientación DIPE no certifican programa interno. No se usó la copia de reglamento en Scribd como fuente oficial.\n\n- [Fuente oficial consultada](https://enac.cl/admision/)\n- [Fuente oficial consultada](https://enac.cl/estudiantes/atencion-estudiantil/)"
         ]
       }
     ],
@@ -1257,6 +1376,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `46ce6745c005ceab3194b5e57b25126208a6e023643949829942f594bc39ffce`\n\nBECH tiene modalidades asistencial, académica y deportiva. Ficha asistencial 2025 exclusiva de Universidad Tecnológica de Chile INACAP; no acredita beca CPC universal para hijos/nietos de trabajadores ni 50% anual.\n\n- [Fuente oficial consultada](https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-asistencial)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1282,6 +1408,13 @@
         "informe_sha256": "7248f3eaad4a6002b02cbecaec61e72e9837780eb26036fc03bb0439722fec7e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `480d4529d10aefb9b554c9d1d4f466eb1e6b73386cd40510503b56e0a6100b70`\n\nBECH Excelencia al mejor promedio de sede mínimo 6,0 y cobertura 50% no acredita equivalencia del nombre genérico Mérito con NEM 5,5 y 25% histórico.\n\n- [Fuente oficial consultada](https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-excelencia-academica-bech)"
         ]
       }
     ],
@@ -1309,6 +1442,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`\n\nListado oficial no identifica beca interna Articulación EMTP al 20%; no confundir con beneficio estatal Articulación para titulados técnicos.\n\n- [Fuente oficial consultada](https://portal.inacap.cl/financiamiento-estudiantil/becas)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1321,7 +1461,7 @@
     "candidato": "2d143ed5cfd05a43e7344c797ccf5ac9d730ccaec6b193c2f428436e84bd0dd8",
     "nombre": "Beca Deportista Destacado",
     "institucion": "INACAP",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_inacap.csv",
@@ -1335,13 +1475,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `2d143ed5cfd05a43e7344c797ccf5ac9d730ccaec6b193c2f428436e84bd0dd8`\n\nAlcance: BECH Deportista Destacado publicada, sin calendario anual; sin certificar convocatoria abierta.\n\n50% de matrícula y colegiatura sobre saldo no cubierto por beneficios externos.\n\nPromedio semestral mínimo 4,8 sin reprobaciones o 5,0 con una; seleccionado o preseleccionado nacional juvenil/adulto; compromiso de representar INACAP y acreditar trayectoria.\n\nLímites: La introducción alude a figuración regional, pero los requisitos exigen selección nacional: no basta figuración regional. No certificar 30% histórico ni vigencia anual o extensión indiscriminada a todas las entidades INACAP. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-deportista-destacado)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "2d143ed5cfd05a43e7344c797ccf5ac9d730ccaec6b193c2f428436e84bd0dd8",
+      "revisado": "2026-10-05",
+      "alcance": "BECH Deportista Destacado publicada, sin calendario anual; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-deportista-destacado"
+      ],
+      "beneficio": "50% de matrícula y colegiatura sobre saldo no cubierto por beneficios externos.",
+      "requisitos_principales": "Promedio semestral mínimo 4,8 sin reprobaciones o 5,0 con una; seleccionado o preseleccionado nacional juvenil/adulto; compromiso de representar INACAP y acreditar trayectoria.",
+      "limites": "La introducción alude a figuración regional, pero los requisitos exigen selección nacional: no basta figuración regional. No certificar 30% histórico ni vigencia anual o extensión indiscriminada a todas las entidades INACAP. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c",
@@ -1360,6 +1528,13 @@
         "informe_sha256": "7248f3eaad4a6002b02cbecaec61e72e9837780eb26036fc03bb0439722fec7e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`\n\nPlan 40/40 para cursos/diplomados no acredita beca de pregrado para familiares de egresados.\n\n- [Fuente oficial consultada](https://portal.inacap.cl/financiamiento-estudiantil)"
         ]
       }
     ],
@@ -1387,6 +1562,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `c569b40a8d5f68cc73121d2de6883233dbc7c7dbcdb5c0258165d6c95ab22cfd`\n\nSe verificó existencia de convenios específicos, sin acreditar uno universal de empresas 10–30%; requieren identificar convenio y entidad aplicable.\n\n- [Fuente oficial consultada](https://portales.inacap.cl/financiamiento-estudiantil/convenios/index)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1399,7 +1581,7 @@
     "candidato": "ac554083e2e67618d326d111004376fc11e778b82a24c6ea824e0c510e3686a4",
     "nombre": "Beca Excelencia Académica IP Chile",
     "institucion": "IP Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
@@ -1413,19 +1595,48 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `ac554083e2e67618d326d111004376fc11e778b82a24c6ea824e0c510e3686a4`\n\nAlcance: ficha vigente y precisión del protocolo histórico 2024; sin certificar convocatoria abierta.\n\n10% del arancel anual y 50% de matrícula; beca de rendimiento para continuidad, denominada Excelencia Académica Interna en el protocolo.\n\nContinuidad; promedio destacado; plan al día; todas las asignaturas anteriores aprobadas; sin intersemestre anterior. Protocolo 2024 precisa promedio anual mínimo 6,5 y modalidad presencial/online.\n\nLímites: Primer semestre 2026 finalizado; no cierre exacto ni segundo semestre abierto acreditados. El umbral 6,5 se atribuye al protocolo 2024, no a una regla anual 2026 certificada; no NEM 5,5 ni 25% semestral. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/)\n- [Fuente oficial](https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "ac554083e2e67618d326d111004376fc11e778b82a24c6ea824e0c510e3686a4",
+      "revisado": "2026-10-05",
+      "alcance": "ficha vigente y precisión del protocolo histórico 2024; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/",
+        "https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf"
+      ],
+      "beneficio": "10% del arancel anual y 50% de matrícula; beca de rendimiento para continuidad, denominada Excelencia Académica Interna en el protocolo.",
+      "requisitos_principales": "Continuidad; promedio destacado; plan al día; todas las asignaturas anteriores aprobadas; sin intersemestre anterior. Protocolo 2024 precisa promedio anual mínimo 6,5 y modalidad presencial/online.",
+      "limites": "Primer semestre 2026 finalizado; no cierre exacto ni segundo semestre abierto acreditados. El umbral 6,5 se atribuye al protocolo 2024, no a una regla anual 2026 certificada; no NEM 5,5 ni 25% semestral. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "0335d9da10e92c82457cfc09085804b78ff3045bd21c5394ae0927085c461ce4",
     "nombre": "Beca Deportiva IP Chile",
     "institucion": "IP Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
@@ -1439,13 +1650,42 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `0335d9da10e92c82457cfc09085804b78ff3045bd21c5394ae0927085c461ce4`\n\nAlcance: ficha deportiva publicada; protocolo complementario histórico 2024; sin certificar convocatoria abierta.\n\n10% del arancel anual y 100% de matrícula.\n\nMérito deportivo acreditado mediante currículo y carpeta de logros; evaluación institucional.\n\nLímites: Protocolo 2024 añade selección federada/amateur inscrita, avance 70%, plan al día, rendimiento y NEM 5,0 para nuevos; no se trasladan automáticamente esos detalles a 2026. Página informa primer semestre 2026 finalizado; fechas exactas desconocidas. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/)\n- [Fuente oficial](https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "0335d9da10e92c82457cfc09085804b78ff3045bd21c5394ae0927085c461ce4",
+      "revisado": "2026-10-05",
+      "alcance": "ficha deportiva publicada; protocolo complementario histórico 2024; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/",
+        "https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf"
+      ],
+      "beneficio": "10% del arancel anual y 100% de matrícula.",
+      "requisitos_principales": "Mérito deportivo acreditado mediante currículo y carpeta de logros; evaluación institucional.",
+      "limites": "Protocolo 2024 añade selección federada/amateur inscrita, avance 70%, plan al día, rendimiento y NEM 5,0 para nuevos; no se trasladan automáticamente esos detalles a 2026. Página informa primer semestre 2026 finalizado; fechas exactas desconocidas. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c",
@@ -1464,6 +1704,13 @@
         "informe_sha256": "9e485bde4c7d9ff6bdb305d9e1a2a4c1e39967957fa0fa4e5cc972b1eb8da9ae",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c`\n\nFicha de becas internas no identifica complemento Copago; gratuidad no prueba beca interna adicional.\n\n- [Fuente oficial consultada](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/)"
         ]
       }
     ],
@@ -1491,6 +1738,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65`\n\nRDT y continuidad externa tienen otros beneficios; no equivalen a beca para titulados IPCHILE en segunda carrera.\n\n- [Fuente oficial consultada](https://www.ipchile.cl/noticias/reconocimiento-de-titulo-ipchile-convierte-tu-titulo-tecnico-en-uno-profesional-de-manera-online/)\n- [Fuente oficial consultada](https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1517,6 +1771,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb`\n\nNo se identificó en ficha interna el descuento familiar del histórico; no certificación por ausencia.\n\n- [Fuente oficial consultada](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1542,6 +1803,13 @@
         "informe_sha256": "9e485bde4c7d9ff6bdb305d9e1a2a4c1e39967957fa0fa4e5cc972b1eb8da9ae",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`\n\nConvenios de continuidad con universidades no acreditan beca para trabajadores de empresas.\n\n- [Fuente oficial consultada](https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/)"
         ]
       }
     ],
@@ -2389,6 +2657,13 @@
         "extractos": [
           "| `91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5` | Beca Excelencia Académica Santo Tomas | Bloqueo del contraste anterior reutilizado: Distinguir PAES y Excelencia; modalidad y cobertura propias pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5`\n\nBEA estatal no equivale a descuento interno NEM 5,8 al 30%; catálogo interno consultado no resuelve identidad.\n\n- [Fuente oficial consultada](https://www.tupuedes.cl/becas-y-beneficios/becas-internas/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2401,7 +2676,7 @@
     "candidato": "7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5",
     "nombre": "Beca Deportiva Santo Tomas",
     "institucion": "Santo Tomás",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_santotomas.csv",
@@ -2422,13 +2697,41 @@
         "extractos": [
           "| `7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5` | Beca Deportiva Santo Tomas | Santo Tomás: ficha dice arancel y el contraste anterior saldo tras otras ayudas; aclarar base de cálculo antes de confirmar cobertura. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5`\n\nAlcance: requisitos de postulación deportiva publicados para 2026; sin certificar convocatoria abierta.\n\n50% a 100% del saldo de arancel después de becas externas, según comité y cupos; UST, IP y CFT, incluida modalidad online.\n\nAlto rendimiento con presencia regional, nacional o internacional; FUAS 2026.\n\nLímites: Renovación: aprobar 75% de asignaturas, informe DAE, mantener condición activa con 75% de participación, regularidad y conducta adecuada. No 25% semestral; cierre desconocido. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-deportista-destacado/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5",
+      "revisado": "2026-10-05",
+      "alcance": "requisitos de postulación deportiva publicados para 2026; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-deportista-destacado/"
+      ],
+      "beneficio": "50% a 100% del saldo de arancel después de becas externas, según comité y cupos; UST, IP y CFT, incluida modalidad online.",
+      "requisitos_principales": "Alto rendimiento con presencia regional, nacional o internacional; FUAS 2026.",
+      "limites": "Renovación: aprobar 75% de asignaturas, informe DAE, mantener condición activa con 75% de participación, regularidad y conducta adecuada. No 25% semestral; cierre desconocido. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92",
@@ -2454,6 +2757,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92` | Beca Copago Santo Tomas | Bloqueo del contraste anterior reutilizado: Identificar modalidad de copago y sede; no asumir cobertura completa. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92`\n\nInformación general de financiamiento no acredita programa específico Copago ni cobertura universal.\n\n- [Fuente oficial consultada](https://www.tupuedes.cl/becas-y-beneficios/)"
         ]
       }
     ],
@@ -2488,6 +2798,13 @@
         "extractos": [
           "| `6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3` | Beca Titulado Santo Tomas | Bloqueo del contraste anterior reutilizado: Distinguir titulados; continuidad y convenios; identidad pendiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3`\n\nUST Titulados IPCFT es continuidad con 20% y matrícula; no se acredita equivalencia con descuento de segunda carrera al 15%.\n\n- [Fuente oficial consultada](https://www.tupuedes.cl/becas-y-beneficios/descuentos/descuento-ust-titulados-ipcft/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2521,6 +2838,13 @@
         "extractos": [
           "| `e89f59ae375830591a53a435dd8d89656ed816be6d33045d3a2e0d59b87fef3b` | Beca Familiar Santo Tomas | Bloqueo del contraste anterior reutilizado: Obtener reglamento de descuento familiar; no asumir beca universal. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `e89f59ae375830591a53a435dd8d89656ed816be6d33045d3a2e0d59b87fef3b`\n\nPortal anuncia descuentos para hermanos pero no ficha con alcance familiar general del histórico ni 10% certificado.\n\n- [Fuente oficial consultada](https://www.tupuedes.cl/becas-y-beneficios/descuentos/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2553,6 +2877,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff` | Beca Convenio Empresas Santo Tomas | Bloqueo del contraste anterior reutilizado: Obtener convenio concreto y distinguir UST/IP/CFT. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff`\n\nCatálogo de convenios no acredita rango universal 10–30%; falta convenio específico.\n\n- [Fuente oficial consultada](https://www.tupuedes.cl/becas-y-beneficios/convenios/)"
         ]
       }
     ],
@@ -2838,6 +3169,13 @@
         "extractos": [
           "| `37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e` | Beca Excelencia Académica UAH | Bloqueo del contraste anterior reutilizado: Excelencia agrupa porcentajes; fuente mezcla años 2026/2027. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e`\n\nExcelencia tiene modalidades y tablas; ingreso 2026 contradice egreso escolar 2026 y portal 2027. Contradicción afecta cohorte elegible: pendiente, sin validar 50% toda carrera.\n\n- [Fuente oficial consultada](https://admision.uahurtado.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -2870,6 +3208,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa` | Beca de Apoyo Socioeconomico UAH | Bloqueo del contraste anterior reutilizado: Identificar ayuda socioeconómica específica y convocatoria. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa`\n\nMantención enumera programas distintos; no confirma apoyo de arancel universal hasta 40% ni RSH 60.\n\n- [Fuente oficial consultada](https://www.uahurtado.cl/estudiantes/direccion-de-asuntos-estudiantiles-dae/bienestar-estudiantil/beneficios-institucionales-de-mantencion/)\n- [Fuente oficial consultada](https://admision.uahurtado.cl/becas-y-beneficios/)"
         ]
       }
     ],
@@ -2904,6 +3249,13 @@
         "extractos": [
           "| `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` | Beca Vocacion Social UAH | Bloqueo del contraste anterior reutilizado: No equiparar Vocación Social a Vocación de Profesor. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`\n\nTalento Pedagógico, matrícula inclusiva y beneficios sociales no acreditan Vocación Social al 30% para facultades completas.\n\n- [Fuente oficial consultada](https://admision.uahurtado.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2916,7 +3268,7 @@
     "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
     "nombre": "Beca Deportiva UAH",
     "institucion": "Universidad Alberto Hurtado",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uah.csv",
@@ -2941,13 +3293,41 @@
         "extractos": [
           "| `dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b` | Beca Deportiva UAH | La fuente UAH distingue Deportista Destacado de Mérito Deportista: ayudas en pagos, con elegibilidad diferente; falta resolver la modalidad del nombre histórico genérico. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b`\n\nAlcance: modalidades deportivas UAH publicadas sin convocatoria anual certificada; sin certificar convocatoria abierta.\n\nAporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.\n\nDestacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado.\n\nLímites: Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://admision.uahurtado.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
+      "revisado": "2026-10-05",
+      "alcance": "modalidades deportivas UAH publicadas sin convocatoria anual certificada; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://admision.uahurtado.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
+      "requisitos_principales": "Destacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado.",
+      "limites": "Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "1bed886d10115e86a9a3aae7ac3b3b5cd87b6fabe51372b4dbbaf790c9d49ddd",
@@ -3926,6 +4306,13 @@
         "extractos": [
           "| `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9` | Beca Fundadores UCentral | UCEN: Fundadores sin ficha específica corroborada. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9`\n\nBeca U. Central y Mérito no prueban equivalencia con Fundadores ni umbral NEM 5,8 histórico.\n\n- [Fuente oficial consultada](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3963,6 +4350,13 @@
         "extractos": [
           "| `6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000` | Beca Copago UCentral | UCEN: Copago genérico no acredita equivalencia con Complementaria. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000`\n\nComplementaria para nuevos ACCESO con CAE completo y Copago especial histórico 2019 no prueban una identidad universal. Delimitar modalidad antes de cerrar.\n\n- [Fuente oficial consultada](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)\n- [Fuente oficial consultada](https://becas.ucentral.cl/)"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -3975,7 +4369,7 @@
     "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
     "nombre": "Beca Deportiva UCentral",
     "institucion": "Universidad Central de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
@@ -4000,19 +4394,48 @@
         "extractos": [
           "| `52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248` | Beca Deportiva UCentral | UCEN: Deportiva sin beneficio y requisitos corroborados en catálogos actuales consultados. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248`\n\nAlcance: Beca Deportiva UCEN publicada sin calendario anual certificado; sin certificar convocatoria abierta.\n\nRebaja de arancel con tope determinado por Comisión de Becas; porcentaje desconocido.\n\nAlto rendimiento y figuración regional, nacional o internacional en disciplinas con selecciones UCEN; prueba técnica y antecedentes curriculares para acreditar excelencia.\n\nLímites: No 20% ni 25–50% garantizados. Fuente ofrece contactos Santiago y La Serena/Coquimbo; no restringir a RM ni asumir alcance nacional. Calendario y lista documental exhaustiva desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)\n- [Fuente oficial](https://www.ucentral.cl/estudiantes/dave/area-de-beneficios-y-servicios-estudiantiles/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; regiones; url",
-    "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "informe_conciliacion": "variantes/CONCILIACION_DEPORTIVA_UCENTRAL.md",
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
+      "revisado": "2026-10-05",
+      "alcance": "Beca Deportiva UCEN publicada sin calendario anual certificado; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+        "https://www.ucentral.cl/estudiantes/dave/area-de-beneficios-y-servicios-estudiantiles/becas-y-beneficios/"
+      ],
+      "beneficio": "Rebaja de arancel con tope determinado por Comisión de Becas; porcentaje desconocido.",
+      "requisitos_principales": "Alto rendimiento y figuración regional, nacional o internacional en disciplinas con selecciones UCEN; prueba técnica y antecedentes curriculares para acreditar excelencia.",
+      "limites": "No 20% ni 25–50% garantizados. Fuente ofrece contactos Santiago y La Serena/Coquimbo; no restringir a RM ni asumir alcance nacional. Calendario y lista documental exhaustiva desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "698498ea4a93633643467ad0fd5c78ed90f92d88deb561ea3c078a5f3a28968f",
     "nombre": "Beca Familiar UCentral",
     "institucion": "Universidad Central de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
@@ -4033,13 +4456,41 @@
         "extractos": [
           "| `698498ea4a93633643467ad0fd5c78ed90f92d88deb561ea3c078a5f3a28968f` | Beca Familiar UCentral | UCEN: Familiar sin equivalencia corroborada; no inferir filiación. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `698498ea4a93633643467ad0fd5c78ed90f92d88deb561ea3c078a5f3a28968f`\n\nAlcance: Beca Filiación publicada sin convocatoria anual certificada; sin certificar convocatoria abierta.\n\n10% del arancel anual al segundo y siguientes integrantes de la familia.\n\nVínculo de padre, madre, hijo, hermano o cónyuge con estudiante regular UCEN; acreditar nacimiento o matrimonio al matricularse.\n\nLímites: No extender a familiares de titulados sin alumno regular ni conceder a todos los integrantes; fechas desconocidas. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "698498ea4a93633643467ad0fd5c78ed90f92d88deb561ea3c078a5f3a28968f",
+      "revisado": "2026-10-05",
+      "alcance": "Beca Filiación publicada sin convocatoria anual certificada; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+      ],
+      "beneficio": "10% del arancel anual al segundo y siguientes integrantes de la familia.",
+      "requisitos_principales": "Vínculo de padre, madre, hijo, hermano o cónyuge con estudiante regular UCEN; acreditar nacimiento o matrimonio al matricularse.",
+      "limites": "No extender a familiares de titulados sin alumno regular ni conceder a todos los integrantes; fechas desconocidas. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "371af7982aa3b8152cd1d362a873b11e7744674163eef5d869aba7c715a031fe",
@@ -19791,7 +20242,7 @@
     "candidato": "f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0",
     "nombre": "Beca Copago Institucional UAH",
     "institucion": "Universidad Alberto Hurtado",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
@@ -19812,13 +20263,41 @@
         "extractos": [
           "| `f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0` | Beca Copago Institucional UAH | Bloqueo del contraste anterior reutilizado: Identificar modalidad concreta; no trasladar requisitos de otras becas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+        "informe_sha256": "34813ea84bb449a770c24fa63b90f12539f389e3d24446c77fd70734317ed7c2",
+        "extractos": [
+          "Candidato: `f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0`\n\nAlcance: Beca Complementaria al CAE de cursos superiores, sin calendario certificado; sin certificar convocatoria abierta.\n\nDescuento anual entre 10% y 50% del copago entre arancel de referencia y real o ajustado.\n\nPregrado regular en misma carrera tras dos semestres; CAE al 100% del arancel referencial; avance 80%, mínimo 30 créditos por semestre salvo excepciones y promedio exigido por carrera; insuficiencia económica; sin otra rebaja institucional/estatal.\n\nLímites: No complemento universal de cualquier beca Mineduc ni cobertura total. Mantener normas institucionales y no causal de eliminación; fechas desconocidas. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://admision.uahurtado.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0",
+      "revisado": "2026-10-05",
+      "alcance": "Beca Complementaria al CAE de cursos superiores, sin calendario certificado; sin certificar convocatoria abierta",
+      "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+      "fuentes": [
+        "https://admision.uahurtado.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "Descuento anual entre 10% y 50% del copago entre arancel de referencia y real o ajustado.",
+      "requisitos_principales": "Pregrado regular en misma carrera tras dos semestres; CAE al 100% del arancel referencial; avance 80%, mínimo 30 créditos por semestre salvo excepciones y promedio exigido por carrera; insuficiencia económica; sin otra rebaja institucional/estatal.",
+      "limites": "No complemento universal de cualquier beca Mineduc ni cobertura total. Mantener normas institucionales y no causal de eliminación; fechas desconocidas. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f",

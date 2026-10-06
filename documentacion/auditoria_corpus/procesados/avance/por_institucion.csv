@@ -1,9 +1,9 @@
 institucion,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,pendientes_confirmacion
-AIEP,5,5,0,0,0,5
+AIEP,5,3,0,0,2,3
 CFT ENAC,6,6,0,0,0,6
 DUOC UC,4,2,0,0,2,2
-INACAP,6,6,0,0,0,6
-IP Chile,6,6,0,0,0,6
+INACAP,6,5,0,0,1,5
+IP Chile,6,4,0,0,2,4
 JUNAEB,4,1,0,0,3,1
 Ministerio de Educación,5,0,0,0,5,0
 Municipalidad de Algarrobo,3,3,0,0,0,3
@@ -298,10 +298,10 @@ Municipalidad de Yungay,1,1,0,0,0,1
 Municipalidad de Zapallar,1,1,0,0,0,1
 Pontificia Universidad Católica de Chile,3,2,0,0,1,2
 Pontificia Universidad Católica de Valparaíso,5,3,0,0,2,3
-Santo Tomás,6,6,0,0,0,6
+Santo Tomás,6,5,0,0,1,5
 Universidad Adolfo Ibanez,3,3,0,0,0,3
 Universidad Adolfo Ibáñez,5,3,0,0,2,3
-Universidad Alberto Hurtado,5,5,0,0,0,5
+Universidad Alberto Hurtado,5,3,0,0,2,3
 Universidad Arturo Prat,6,6,0,0,0,6
 Universidad Austral de Chile,4,0,0,0,4,0
 Universidad Autónoma de Chile,6,4,0,0,2,4
@@ -311,7 +311,7 @@ Universidad Católica de Temuco,6,6,0,0,0,6
 Universidad Católica de la Santisima Concepción,1,1,0,0,0,1
 Universidad Católica de la Santísima Concepción,4,4,0,0,0,4
 Universidad Católica del Norte,4,0,0,0,4,0
-Universidad Central de Chile,4,4,0,0,0,4
+Universidad Central de Chile,4,2,0,0,2,2
 Universidad Diego Portales,6,0,0,0,6,0
 Universidad Finis Terrae,5,3,0,0,2,3
 Universidad Mayor,6,5,0,0,1,5

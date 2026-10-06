@@ -2516,5 +2516,218 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "160a1cab2e384797a962f81c8e4ed47fb141241cedb66edea200042202088d29",
+    "revisado": "2026-10-05",
+    "alcance": "FAQ institucional sin convocatoria anual certificada; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://www.aiep.cl/estudiantes/"
+    ],
+    "beneficio": "Entre 10% y 50% del arancel anual según sede, escuela y cupos.",
+    "requisitos_principales": "Estudiante AIEP con promedio de asignaturas de al menos 6,0; sin beneficios estatales; selección automática por rendimiento.",
+    "limites": "No conservar 30% semestral ni NEM 5,5 del histórico. No equivale al apoyo financiero por NEM para estudiantes nuevos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d786c0d8bb8c75483d5bc1d905eb79adf5ce62b0fe1a050ef4bc72b605314c85",
+    "revisado": "2026-10-05",
+    "alcance": "modalidades de Beca Deportistas sin calendario certificado; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://www.aiep.cl/admision/becas-y-financiamiento/"
+    ],
+    "beneficio": "Arancel anual: 15% para modalidad federada; 80% para alto rendimiento.",
+    "requisitos_principales": "Participación destacada nacional/internacional federada; para alto rendimiento, deporte reconocido por COCh y selección nacional al matricularse.",
+    "limites": "Renovación del alto rendimiento exige conservar selección nacional. No 25% semestral ni cobertura universal; documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ac554083e2e67618d326d111004376fc11e778b82a24c6ea824e0c510e3686a4",
+    "revisado": "2026-10-05",
+    "alcance": "ficha vigente y precisión del protocolo histórico 2024; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/",
+      "https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf"
+    ],
+    "beneficio": "10% del arancel anual y 50% de matrícula; beca de rendimiento para continuidad, denominada Excelencia Académica Interna en el protocolo.",
+    "requisitos_principales": "Continuidad; promedio destacado; plan al día; todas las asignaturas anteriores aprobadas; sin intersemestre anterior. Protocolo 2024 precisa promedio anual mínimo 6,5 y modalidad presencial/online.",
+    "limites": "Primer semestre 2026 finalizado; no cierre exacto ni segundo semestre abierto acreditados. El umbral 6,5 se atribuye al protocolo 2024, no a una regla anual 2026 certificada; no NEM 5,5 ni 25% semestral. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "0335d9da10e92c82457cfc09085804b78ff3045bd21c5394ae0927085c461ce4",
+    "revisado": "2026-10-05",
+    "alcance": "ficha deportiva publicada; protocolo complementario histórico 2024; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/",
+      "https://www.ipchile.cl/wp-content/uploads/2024/03/Protocolo-Becas-Internas-2024.pdf"
+    ],
+    "beneficio": "10% del arancel anual y 100% de matrícula.",
+    "requisitos_principales": "Mérito deportivo acreditado mediante currículo y carpeta de logros; evaluación institucional.",
+    "limites": "Protocolo 2024 añade selección federada/amateur inscrita, avance 70%, plan al día, rendimiento y NEM 5,0 para nuevos; no se trasladan automáticamente esos detalles a 2026. Página informa primer semestre 2026 finalizado; fechas exactas desconocidas. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2d143ed5cfd05a43e7344c797ccf5ac9d730ccaec6b193c2f428436e84bd0dd8",
+    "revisado": "2026-10-05",
+    "alcance": "BECH Deportista Destacado publicada, sin calendario anual; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-deportista-destacado"
+    ],
+    "beneficio": "50% de matrícula y colegiatura sobre saldo no cubierto por beneficios externos.",
+    "requisitos_principales": "Promedio semestral mínimo 4,8 sin reprobaciones o 5,0 con una; seleccionado o preseleccionado nacional juvenil/adulto; compromiso de representar INACAP y acreditar trayectoria.",
+    "limites": "La introducción alude a figuración regional, pero los requisitos exigen selección nacional: no basta figuración regional. No certificar 30% histórico ni vigencia anual o extensión indiscriminada a todas las entidades INACAP. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5",
+    "revisado": "2026-10-05",
+    "alcance": "requisitos de postulación deportiva publicados para 2026; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-deportista-destacado/"
+    ],
+    "beneficio": "50% a 100% del saldo de arancel después de becas externas, según comité y cupos; UST, IP y CFT, incluida modalidad online.",
+    "requisitos_principales": "Alto rendimiento con presencia regional, nacional o internacional; FUAS 2026.",
+    "limites": "Renovación: aprobar 75% de asignaturas, informe DAE, mantener condición activa con 75% de participación, regularidad y conducta adecuada. No 25% semestral; cierre desconocido. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
+    "revisado": "2026-10-05",
+    "alcance": "modalidades deportivas UAH publicadas sin convocatoria anual certificada; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/"
+    ],
+    "beneficio": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
+    "requisitos_principales": "Destacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado.",
+    "limites": "Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "f976cd5ab825b50284cad3c2d70d6077690da03fab5791756cedf155fecd44a0",
+    "revisado": "2026-10-05",
+    "alcance": "Beca Complementaria al CAE de cursos superiores, sin calendario certificado; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/"
+    ],
+    "beneficio": "Descuento anual entre 10% y 50% del copago entre arancel de referencia y real o ajustado.",
+    "requisitos_principales": "Pregrado regular en misma carrera tras dos semestres; CAE al 100% del arancel referencial; avance 80%, mínimo 30 créditos por semestre salvo excepciones y promedio exigido por carrera; insuficiencia económica; sin otra rebaja institucional/estatal.",
+    "limites": "No complemento universal de cualquier beca Mineduc ni cobertura total. Mantener normas institucionales y no causal de eliminación; fechas desconocidas. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
+    "revisado": "2026-10-05",
+    "alcance": "Beca Deportiva UCEN publicada sin calendario anual certificado; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+      "https://www.ucentral.cl/estudiantes/dave/area-de-beneficios-y-servicios-estudiantiles/becas-y-beneficios/"
+    ],
+    "beneficio": "Rebaja de arancel con tope determinado por Comisión de Becas; porcentaje desconocido.",
+    "requisitos_principales": "Alto rendimiento y figuración regional, nacional o internacional en disciplinas con selecciones UCEN; prueba técnica y antecedentes curriculares para acreditar excelencia.",
+    "limites": "No 20% ni 25–50% garantizados. Fuente ofrece contactos Santiago y La Serena/Coquimbo; no restringir a RM ni asumir alcance nacional. Calendario y lista documental exhaustiva desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "698498ea4a93633643467ad0fd5c78ed90f92d88deb561ea3c078a5f3a28968f",
+    "revisado": "2026-10-05",
+    "alcance": "Beca Filiación publicada sin convocatoria anual certificada; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "beneficio": "10% del arancel anual al segundo y siguientes integrantes de la familia.",
+    "requisitos_principales": "Vínculo de padre, madre, hijo, hermano o cónyuge con estudiante regular UCEN; acreditar nacimiento o matrimonio al matricularse.",
+    "limites": "No extender a familiares de titulados sin alumno regular ni conceder a todos los integrantes; fechas desconocidas. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
