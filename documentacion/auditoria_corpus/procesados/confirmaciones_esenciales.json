@@ -2984,5 +2984,52 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "3a41308e3bb5b26565a810449e95fa95b05d2e8c051c88a79821a6de39bcc0d8",
+    "revisado": "2026-10-06",
+    "alcance": "Condiciones públicas de la ficha municipal con formularios 2025; calendario 2026 contrastado por separado",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+    "fuentes": [
+      "https://municanete.cl/v2/becasmunicipales/",
+      "https://municanete.cl/v2/postulacion-y-renovacion-beca-municipal-educacion-superior/",
+      "https://municanete.cl/v2/abren-proceso-de-renovacion-para-la-beca-municipal-del-2-semestre-2026/"
+    ],
+    "beneficio": "Apoyo económico para continuidad en educación superior. Importe, frecuencia y 266 cupos del histórico no confirmados.",
+    "requisitos_principales": "Residencia comunal en RSH hasta 70%; situación socioeconómica deficiente; alumno regular. Nuevo: NEM 5,7. En curso: promedio 5,5 o 70% de asignaturas aprobadas. Sin título previo ni continuidad de estudios; una persona por familia; incompatibilidad con becas JUNAEB y municipales; máximo cinco semestres técnicos o diez profesionales.",
+    "limites": "Se confirma la ficha general vinculada al alias 2025; no se certifica que todas sus condiciones se mantengan en 2026. Aviso 2026 abre postulación 16–31 de marzo, diferente del 10 de marzo histórico. Renovación segundo semestre 17 de agosto–4 de septiembre con certificados de alumno regular y notas; pago anunciado última semana de octubre. Fechas 2026 se documentan aparte y no se trasladan a la ficha 2025. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "297f981de47ce6df1c009ae8390d277be5a921f149299294fe012ddd20ba9bbd",
+    "revisado": "2026-10-06",
+    "alcance": "Beca de Apoyo Económico para Educación Superior Laja 2026; condiciones esenciales públicas",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+    "fuentes": [
+      "https://munilaja.cl/w/desde-el-lunes-02-de-febrero-hasta-el-lunes-02-de-marzo-se-abre-el-periodo-de-postulacion-a-las-becas-municipales-2026-de-la-comuna-de-laja-la-postulacion-se-realiza-de-lunes-a-viernes-entre-las-083/",
+      "https://munilaja.cl/w/wp-content/uploads/2026/01/documentos-a-presentar.docx",
+      "https://munilaja.cl/w/wp-content/uploads/2026/01/Ficha-Postulacion-becas-2026.docx",
+      "https://munilaja.cl/w/municipalidad-informa-recepcion-de-certificados-para-segunda-cuota-de-beca-de-apoyo-economico/"
+    ],
+    "beneficio": "Ayuda económica a estudiantes de la comuna; aviso de agosto acredita segunda cuota. Importe y cuantía por cuota desconocidos.",
+    "requisitos_principales": "Ser estudiante de la comuna de Laja que curse o inicie educación superior; postulación con ficha y antecedentes académicos, sociales y económicos. Documento 2026 exige notas de enseñanza media para nuevos o último año para antiguos, matrícula 2026, RSH y acreditación de ingresos y gastos familiares. Segunda cuota exclusivamente para beneficiarios que recibieron el primer pago y presentan certificado del segundo semestre.",
+    "limites": "Alias Estudiantil interpretado como Apoyo Económico por finalidad y dos pagos; no como Excelencia o Deportiva. No confirmar $200.000, RSH 70%, promedio 5,0 ni máximo de un ramo reprobado del histórico. Word oficiales leídos mediante extracción XML completa de sus cuerpos; sin interpretar imágenes. Postulación cerrada el 2 de marzo de 2026; sin activación. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.",
+    "fecha_inicio": "2026-02-02",
+    "fecha_cierre": "2026-03-02",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

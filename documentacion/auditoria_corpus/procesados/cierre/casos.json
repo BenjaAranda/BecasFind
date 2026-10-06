@@ -12475,6 +12475,13 @@
         "extractos": [
           "| `500cab60de1499617e480ca56535336479dd7531fd8ca0b036614f8596d14bb8` | Beca Municipal Educación Superior Cabrero | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_CUARTO_32.md](../REVISION_MUNICIPALES_CUARTO_32.md); sin nueva evidencia suficiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `500cab60de1499617e480ca56535336479dd7531fd8ca0b036614f8596d14bb8`\n\nEstado: pendiente. Decreto 766/2026 leído en páginas 1–2 acredita adjudicación y aporte $69.000 marzo–agosto a la generación 2026. Remite al reglamento 2525/2024 sin publicar en esos apartados umbrales de acceso. No confirmar RSH 60%, promedio 5,0 ni periodicidad del histórico con una nómina de pagos. No almacenar datos personales de beneficiarios.\n\n- [Fuente oficial](https://www.cabrero.cl/transparencia_cabrero/becas/becas.php)\n- [Fuente oficial](https://www.cabrero.cl/transparencia_cabrero/becas/DAE%20Otorga%20generacion%202026.pdf)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13276,6 +13283,13 @@
         "extractos": [
           "| `e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9` | Beca Municipal Estudios Superiores Cholchol | [REVISION_MUNICIPALES_33.md](../REVISION_MUNICIPALES_33.md) |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9`\n\nEstado: pendiente. El índice municipal contiene ayudas sociales generales, pero no acredita las condiciones específicas de Estudios Superiores. No equiparar asistencia social y beca.\n\n- [Fuente oficial](https://municholchol.cl/municipio/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13288,7 +13302,7 @@
     "candidato": "3a41308e3bb5b26565a810449e95fa95b05d2e8c051c88a79821a6de39bcc0d8",
     "nombre": "Beca Municipal Ed. Superior Canete 2025",
     "institucion": "Municipalidad de Canete",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque19_muni.csv",
@@ -13309,13 +13323,43 @@
         "extractos": [
           "| `3a41308e3bb5b26565a810449e95fa95b05d2e8c051c88a79821a6de39bcc0d8` | Beca Municipal Ed. Superior Canete 2025 | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_CUARTO_32.md](../REVISION_MUNICIPALES_CUARTO_32.md); sin nueva evidencia suficiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `3a41308e3bb5b26565a810449e95fa95b05d2e8c051c88a79821a6de39bcc0d8`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nCondiciones públicas de la ficha municipal con formularios 2025; calendario 2026 contrastado por separado\n\nApoyo económico para continuidad en educación superior. Importe, frecuencia y 266 cupos del histórico no confirmados.\n\nResidencia comunal en RSH hasta 70%; situación socioeconómica deficiente; alumno regular. Nuevo: NEM 5,7. En curso: promedio 5,5 o 70% de asignaturas aprobadas. Sin título previo ni continuidad de estudios; una persona por familia; incompatibilidad con becas JUNAEB y municipales; máximo cinco semestres técnicos o diez profesionales.\n\nLímites: Se confirma la ficha general vinculada al alias 2025; no se certifica que todas sus condiciones se mantengan en 2026. Aviso 2026 abre postulación 16–31 de marzo, diferente del 10 de marzo histórico. Renovación segundo semestre 17 de agosto–4 de septiembre con certificados de alumno regular y notas; pago anunciado última semana de octubre. Fechas 2026 se documentan aparte y no se trasladan a la ficha 2025. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.\n\n- [Fuente oficial](https://municanete.cl/v2/becasmunicipales/)\n- [Fuente oficial](https://municanete.cl/v2/postulacion-y-renovacion-beca-municipal-educacion-superior/)\n- [Fuente oficial](https://municanete.cl/v2/abren-proceso-de-renovacion-para-la-beca-municipal-del-2-semestre-2026/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "3a41308e3bb5b26565a810449e95fa95b05d2e8c051c88a79821a6de39bcc0d8",
+      "revisado": "2026-10-06",
+      "alcance": "Condiciones públicas de la ficha municipal con formularios 2025; calendario 2026 contrastado por separado",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+      "fuentes": [
+        "https://municanete.cl/v2/becasmunicipales/",
+        "https://municanete.cl/v2/postulacion-y-renovacion-beca-municipal-educacion-superior/",
+        "https://municanete.cl/v2/abren-proceso-de-renovacion-para-la-beca-municipal-del-2-semestre-2026/"
+      ],
+      "beneficio": "Apoyo económico para continuidad en educación superior. Importe, frecuencia y 266 cupos del histórico no confirmados.",
+      "requisitos_principales": "Residencia comunal en RSH hasta 70%; situación socioeconómica deficiente; alumno regular. Nuevo: NEM 5,7. En curso: promedio 5,5 o 70% de asignaturas aprobadas. Sin título previo ni continuidad de estudios; una persona por familia; incompatibilidad con becas JUNAEB y municipales; máximo cinco semestres técnicos o diez profesionales.",
+      "limites": "Se confirma la ficha general vinculada al alias 2025; no se certifica que todas sus condiciones se mantengan en 2026. Aviso 2026 abre postulación 16–31 de marzo, diferente del 10 de marzo histórico. Renovación segundo semestre 17 de agosto–4 de septiembre con certificados de alumno regular y notas; pago anunciado última semana de octubre. Fechas 2026 se documentan aparte y no se trasladan a la ficha 2025. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "3d8a38d7ca8beb6d7e70210d68313c889d336f2918a89dbfea47afe73da6ba7c",
@@ -13341,6 +13385,13 @@
         "informe_sha256": "ec7db8eccdc19a698bd4a0dfdfa20bb7a418557a369e2a8a9acdc7e9e45a7346",
         "extractos": [
           "| `3d8a38d7ca8beb6d7e70210d68313c889d336f2918a89dbfea47afe73da6ba7c` | Beca Municipal de Enseñanza Superior Los Alamos | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_CUARTO_32.md](../REVISION_MUNICIPALES_CUARTO_32.md); sin nueva evidencia suficiente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `3d8a38d7ca8beb6d7e70210d68313c889d336f2918a89dbfea47afe73da6ba7c`\n\nEstado: pendiente. Localizada noticia municipal de aumento a $50.000 por diez meses en 2020; dos intentos de recarga fallaron. No prueba convocatoria 2026 ni cierre histórico 16 de abril. Se mantiene pendiente; contenido indexado solo orientativo.\n\n- [Fuente oficial](https://munilosalamos.cl/noticias/18-02-2020-1/)"
         ]
       }
     ],
@@ -13375,6 +13426,13 @@
         "extractos": [
           "| `a3525fb8686a72e8d6791904ef64608b71cd25a4cfe423d45ac2212d6549cb38` | Beca Municipal de Educación Superior Yungay | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_CUARTO_32.md](../REVISION_MUNICIPALES_CUARTO_32.md); sin nueva evidencia suficiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `a3525fb8686a72e8d6791904ef64608b71cd25a4cfe423d45ac2212d6549cb38`\n\nEstado: pendiente. El enlace oficial 2026 devuelve 403. La referencia externa sirve para localizarlo, no para certificar cobertura o requisitos. Se conserva pendiente sin atribuir lectura de bases.\n\n- [Fuente oficial](https://www.yungay.cl/beca-municipal-de-educacion-superior-2026/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13407,6 +13465,13 @@
         "informe_sha256": "ec7db8eccdc19a698bd4a0dfdfa20bb7a418557a369e2a8a9acdc7e9e45a7346",
         "extractos": [
           "| `00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a` | Beca PAES y Educación Superior Lebu 2026 | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_CUARTO_32.md](../REVISION_MUNICIPALES_CUARTO_32.md); sin nueva evidencia suficiente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`\n\nEstado: pendiente. Guía UCSC no descargada por límite de tamaño del lector; se reutiliza el bloqueo previo de identidad PAES versus mantención. No se atribuye nueva lectura de ese PDF ni se certifica alias combinado.\n\n- [Fuente oficial](https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf)"
         ]
       }
     ],
@@ -14078,6 +14143,13 @@
         "extractos": [
           "| `8ed2b2d2a1272943fbbd233a07879095f7ad17f6e1d212adb8d3fe45cb87a8f9` | Beca Municipal de Educación Superior Hualqui | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_QUINTO_32.md](../REVISION_MUNICIPALES_QUINTO_32.md); sin nueva evidencia suficiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `8ed2b2d2a1272943fbbd233a07879095f7ad17f6e1d212adb8d3fe45cb87a8f9`\n\nEstado: pendiente. Índice de Educación identifica una noticia de entrega Más Cerca de la Gente de 2018. La página específica accesible no devuelve el cuerpo; identidad económica, $150.000 y requisitos no confirmados.\n\n- [Fuente oficial](https://www.munihualqui.cl/alumnos-de-educacion-superior-reciben-la-beca-mas-cerca-de-la-gente-articulo-noticias-1604692047.html)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14090,7 +14162,7 @@
     "candidato": "297f981de47ce6df1c009ae8390d277be5a921f149299294fe012ddd20ba9bbd",
     "nombre": "Beca Municipal Estudiantil Laja",
     "institucion": "Municipalidad de Laja",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque21_muni.csv",
@@ -14111,13 +14183,44 @@
         "extractos": [
           "| `297f981de47ce6df1c009ae8390d277be5a921f149299294fe012ddd20ba9bbd` | Beca Municipal Estudiantil Laja | Contraste individual y bloqueo conservados en [REVISION_MUNICIPALES_QUINTO_32.md](../REVISION_MUNICIPALES_QUINTO_32.md); sin nueva evidencia suficiente. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+        "informe_sha256": "f15c50b8c97b08c8c385a86b60c162317e67ba99e8e0ee53c8e4abb28741df60",
+        "extractos": [
+          "Candidato: `297f981de47ce6df1c009ae8390d277be5a921f149299294fe012ddd20ba9bbd`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nBeca de Apoyo Económico para Educación Superior Laja 2026; condiciones esenciales públicas\n\nAyuda económica a estudiantes de la comuna; aviso de agosto acredita segunda cuota. Importe y cuantía por cuota desconocidos.\n\nSer estudiante de la comuna de Laja que curse o inicie educación superior; postulación con ficha y antecedentes académicos, sociales y económicos. Documento 2026 exige notas de enseñanza media para nuevos o último año para antiguos, matrícula 2026, RSH y acreditación de ingresos y gastos familiares. Segunda cuota exclusivamente para beneficiarios que recibieron el primer pago y presentan certificado del segundo semestre.\n\nLímites: Alias Estudiantil interpretado como Apoyo Económico por finalidad y dos pagos; no como Excelencia o Deportiva. No confirmar $200.000, RSH 70%, promedio 5,0 ni máximo de un ramo reprobado del histórico. Word oficiales leídos mediante extracción XML completa de sus cuerpos; sin interpretar imágenes. Postulación cerrada el 2 de marzo de 2026; sin activación. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.\n\n- [Fuente oficial](https://munilaja.cl/w/desde-el-lunes-02-de-febrero-hasta-el-lunes-02-de-marzo-se-abre-el-periodo-de-postulacion-a-las-becas-municipales-2026-de-la-comuna-de-laja-la-postulacion-se-realiza-de-lunes-a-viernes-entre-las-083/)\n- [Fuente oficial](https://munilaja.cl/w/wp-content/uploads/2026/01/documentos-a-presentar.docx)\n- [Fuente oficial](https://munilaja.cl/w/wp-content/uploads/2026/01/Ficha-Postulacion-becas-2026.docx)\n- [Fuente oficial](https://munilaja.cl/w/municipalidad-informa-recepcion-de-certificados-para-segunda-cuota-de-beca-de-apoyo-economico/)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "297f981de47ce6df1c009ae8390d277be5a921f149299294fe012ddd20ba9bbd",
+      "revisado": "2026-10-06",
+      "alcance": "Beca de Apoyo Económico para Educación Superior Laja 2026; condiciones esenciales públicas",
+      "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUIMIENTO_8.md",
+      "fuentes": [
+        "https://munilaja.cl/w/desde-el-lunes-02-de-febrero-hasta-el-lunes-02-de-marzo-se-abre-el-periodo-de-postulacion-a-las-becas-municipales-2026-de-la-comuna-de-laja-la-postulacion-se-realiza-de-lunes-a-viernes-entre-las-083/",
+        "https://munilaja.cl/w/wp-content/uploads/2026/01/documentos-a-presentar.docx",
+        "https://munilaja.cl/w/wp-content/uploads/2026/01/Ficha-Postulacion-becas-2026.docx",
+        "https://munilaja.cl/w/municipalidad-informa-recepcion-de-certificados-para-segunda-cuota-de-beca-de-apoyo-economico/"
+      ],
+      "beneficio": "Ayuda económica a estudiantes de la comuna; aviso de agosto acredita segunda cuota. Importe y cuantía por cuota desconocidos.",
+      "requisitos_principales": "Ser estudiante de la comuna de Laja que curse o inicie educación superior; postulación con ficha y antecedentes académicos, sociales y económicos. Documento 2026 exige notas de enseñanza media para nuevos o último año para antiguos, matrícula 2026, RSH y acreditación de ingresos y gastos familiares. Segunda cuota exclusivamente para beneficiarios que recibieron el primer pago y presentan certificado del segundo semestre.",
+      "limites": "Alias Estudiantil interpretado como Apoyo Económico por finalidad y dos pagos; no como Excelencia o Deportiva. No confirmar $200.000, RSH 70%, promedio 5,0 ni máximo de un ramo reprobado del histórico. Word oficiales leídos mediante extracción XML completa de sus cuerpos; sin interpretar imágenes. Postulación cerrada el 2 de marzo de 2026; sin activación. Sin sobrescritura de base ni originales. Expediente documental exhaustivo desconocido.",
+      "fecha_inicio": "2026-02-02",
+      "fecha_cierre": "2026-03-02",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "39ff9b4bcfab533cf5d423ce4ee9ec5bd3858be9e02195e195212d4c702e6de6",
