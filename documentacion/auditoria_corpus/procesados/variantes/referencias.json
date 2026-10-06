@@ -184,7 +184,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Decreto exento 1359 del 22 mayo 2026 otorga aporte IMSA y remite a reglamento 2022. Importe individual y calendario no contrastados en esta revisión. No copiar datos personales de beneficiarios ni convertir fecha del decreto en cierre.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md"
+      ]
+    }
   },
   {
     "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
@@ -388,7 +397,16 @@
       "nem_minimo"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Fuente específica de Combustible 2026 localizada: apoyo a hogares vulnerables, cuidadores, discapacidad y sectores rurales. No acredita transporte estudiantil a otras ciudades. Incompatibilidad material de identidad del registro; requiere reclasificación antes de cerrar.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
@@ -441,7 +459,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: La publicación de 2022 agotó el tiempo de consulta. Falta leer bases y decidir las diferencias entre las dos versiones.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",
@@ -731,7 +758,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: El dominio del informe 2000–2001 no resolvió. No se convierten ayudas históricas en convocatoria de educación superior 2026.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
@@ -912,7 +948,22 @@
       "monto",
       "url"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+      ],
+      "campos": {
+        "descripcion": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio.",
+        "descripcion_larga": "Deportista destacado o seleccionado nacional que participe representando a UPLA; evaluación de especialistas coordinada por Deportes. No 20% fijo; no generalizar alimentación deportiva a todo estudiante vulnerable. Alcance 2025 sin convocatoria actual acreditada. Sin activación ni sobrescritura de base.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio. No adoptar cuantías históricas no corroboradas.",
+        "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+      }
+    },
     "descarte": null
   },
   {
@@ -1004,7 +1055,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: El reglamento histórico de matrícula no se recuperó en esta consulta. Las cuatro versiones discrepan en monto y finalidad; falta equivalencia con el alias de educación superior.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
@@ -1138,7 +1198,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://www.mpuentealto.cl/estudiantes-de-puente-alto-reciben-beca-municipal-de-educacion-superior/"
+      ],
+      "campos": {
+        "descripcion": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido.",
+        "descripcion_larga": "Estudiantes comunales de educación superior o técnica sin gratuidad. Aviso específico leído y fechado 31 de marzo de 2023. No confirma convocatoria 2026, RSH 60%, nota 5,0, escuelas matrices ni cuantías del histórico. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido. No adoptar cuantías históricas no corroboradas."
+      }
+    },
     "descarte": null
   },
   {
@@ -1406,7 +1480,26 @@
       "tipo_beca",
       "url"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://www.munistgo.cl/beca-de-estudios/",
+        "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+      ],
+      "campos": {
+        "descripcion": "Aporte único de $450.000 CLP en 2026.",
+        "descripcion_larga": "Residencia del estudiante y familia; RSH comunal con seis meses; vulnerabilidad. Notas: 6,0 egreso medio; 5,0 carreras de ocho o más semestres; 5,5 carreras de cuatro a siete. Excluye distancia y títulos previos con excepción técnica publicada. No trasladar automáticamente condiciones de ficha titulada 2025 a toda la convocatoria 2026. RSH 60% y cierres históricos no acreditados. Se corrige la interpretación del importe histórico; base ya corregida en entrega anterior. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "fecha_cierre": "Cierre desconocido. Ninguna fecha histórica distinta se convierte en cierre confirmado; no activar.",
+        "monto": "Aporte único de $450.000 CLP en 2026. No adoptar cuantías históricas no corroboradas.",
+        "nem_minimo": "NEM mínimo global desconocido. Conservar requisitos por modalidad: Residencia del estudiante y familia; RSH comunal con seis meses; vulnerabilidad. Notas: 6,0 egreso medio; 5,0 carreras de ocho o más semestres; 5,5 carreras de cuatro a siete. Excluye distancia y títulos previos con excepción técnica publicada. No convertir promedio universitario o notas documentadas en un NEM universal.",
+        "tipo_beca": "Apoyo económico municipal para educación superior; no beca de excelencia universal. Conservar modalidad y condiciones de la confirmación, sin modificar el catálogo administrativo.",
+        "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://www.munistgo.cl/beca-de-estudios/; https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+      }
+    },
     "descarte": null
   },
   {
@@ -1520,7 +1613,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Complementaria para nuevos ACCESO con CAE completo y Copago especial histórico 2019 no prueban una identidad universal. Delimitar modalidad antes de cerrar.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_INSTITUTOS_UAH_UCENTRAL_38.md"
+      ]
+    }
   },
   {
     "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
@@ -1703,7 +1805,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: La ruta de trámites devuelve solo la aplicación sin contenido de la ficha. No confirma cobertura ni requisitos.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
@@ -1753,7 +1864,22 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-publicos-y-subvencionados",
+        "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-particulares"
+      ],
+      "campos": {
+        "descripcion": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado.",
+        "descripcion_larga": "Primer ingreso; convocado; egreso escolar actual o anterior; puntaje de tabla propia. Bachilleratos excluidos. No aplicar una misma tabla o renovación a ambas modalidades. Particulares: aprobación de créditos y sin reprobaciones; posible reintegro al retirarse. No confirma convocatoria 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado. No adoptar cuantías históricas no corroboradas."
+      }
+    },
     "descarte": null
   },
   {
@@ -1891,7 +2017,16 @@
       "nem_minimo"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Ficha becas localizada describe gestión de BPR/Indígena JUNAEB; recarga del cuerpo falló. Preuniversitario municipal es otro servicio. Falta acreditar el aporte propio o transporte y sus requisitos; no confirmar $300.000.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
@@ -1963,7 +2098,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Acta de convenio 2013 localizada para diez ingresantes UChile vía SIPEE: no equivale al apoyo DIDECO genérico. Referencia de pasajes sociales previa no acredita subsidio mensual de estudiantes. Identidad y condiciones de los alias siguen sin equivalencia.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
@@ -2144,7 +2288,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Beca Deportiva UFRO: Deportiva UFRO: índice de admisión y FAQ no respaldan 25% de arancel; no inferir inexistencia ni trasladar becas de postgrado.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UCHILE_UACH_UFRO_13.md"
+      ]
+    }
   },
   {
     "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
@@ -2195,23 +2348,17 @@
       "institucion",
       "monto"
     ],
-    "conciliacion": {
+    "conciliacion": null,
+    "descarte": {
       "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
-      "revisado": "2026-10-02",
-      "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
-      "informe": "CONCILIACION_UV_2.md",
-      "fuentes": [
-        "https://contraloriainterna.uv.cl/attachments/CONTENIDO/CONTROL%20DE%20JURIDICIDAD/NORMATIVA%20UNIVERSITARIA/DEXE_N_4218_2016.pdf"
-      ],
-      "campos": {
-        "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
-        "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
-        "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
-        "institucion": "Normalizar Universidad de Valparaíso; preservar originales.",
-        "monto": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración."
-      }
-    },
-    "descarte": null
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Obtener ficha deportiva propia; no heredar requisitos de Honor.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_LOTE_78.md"
+      ]
+    }
   },
   {
     "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
@@ -2304,7 +2451,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Acta de convenio 2013 localizada para diez ingresantes UChile vía SIPEE: no equivale al apoyo DIDECO genérico. Referencia de pasajes sociales previa no acredita subsidio mensual de estudiantes. Identidad y condiciones de los alias siguen sin equivalencia.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
@@ -2354,7 +2510,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://diario.uach.cl/uach-abre-proceso-de-postulacion-a-beca-para-deportistas-destacados-as-2026/"
+      ],
+      "campos": {
+        "descripcion": "Beca de arancel para deportistas destacados; porcentaje desconocido.",
+        "descripcion_larga": "Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador. Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Beca de arancel para deportistas destacados; porcentaje desconocido. No adoptar cuantías históricas no corroboradas."
+      }
+    },
     "descarte": null
   },
   {
@@ -2555,7 +2725,16 @@
       "tipo_beca"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Ficha becas localizada describe gestión de BPR/Indígena JUNAEB; recarga del cuerpo falló. Preuniversitario municipal es otro servicio. Falta acreditar el aporte propio o transporte y sus requisitos; no confirmar $300.000.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "ab1e3af5c29616a196bc339cfc55dcd9fbd91fb12d89e019aceb9ff69dcae039",
@@ -2763,7 +2942,16 @@
       "nem_minimo"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Directorio Desarrollo Social leído: presenta asistencia general y oficinas. No acredita ayuda municipal superior ni pasajes con las condiciones del corpus; BPR es JUNAEB y viaje a China 2012 es otro programa. Buscar bases específicas, no tomar la página general como prueba.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
@@ -2833,7 +3021,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Plataforma oficial 2026 leída: beca escolar de kínder a cuarto medio. No equivale a educación superior. Identidad de las dos candidatas superiores no acreditada; no trasladar cobertura escolar.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
@@ -2886,7 +3083,24 @@
       "regiones",
       "url"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+      ],
+      "campos": {
+        "descripcion": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos.",
+        "descripcion_larga": "Sin BAES ni título profesional; primeros seis deciles y asignaturas inscritas y ratificadas; sujeto a presupuesto. No certificar almuerzo y cena ni sustituir deciles por RSH. Postulación semestral por intranet sin fechas exactas. Sin activación ni sobrescritura de base.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "institucion": "Normalizar identidad editorial a Universidad de Tarapacá. Las diferencias ortográficas no crean otra institución; originales intactos.",
+        "monto": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos. No adoptar cuantías históricas no corroboradas.",
+        "regiones": "Beneficio interno de Universidad de Tarapacá. Regiones de cobertura no corroboradas en la confirmación; conservar desconocido editorialmente sin adoptar una lista histórica ni vaciar asociaciones administrativas para declararlo nacional.",
+        "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://webdae.uta.cl/index.php/beneficios-complementarios/"
+      }
+    },
     "descarte": null
   },
   {
@@ -2978,7 +3192,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: La página recuperada corresponde a Talento Deportivo 2026 para mayores de seis años; no acredita una beca de educación superior. La sección de educación agotó el tiempo de consulta.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
@@ -3114,7 +3337,23 @@
       "monto",
       "url"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+      ],
+      "campos": {
+        "descripcion": "Ayuda parcial para gastos de residencia.",
+        "descripcion_larga": "Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario. Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "institucion": "Normalizar identidad editorial a Universidad del Bío-Bío. Las diferencias ortográficas no crean otra institución; originales intactos.",
+        "monto": "Ayuda parcial para gastos de residencia. No adoptar cuantías históricas no corroboradas.",
+        "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+      }
+    },
     "descarte": null
   },
   {
@@ -3168,7 +3407,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "c813d491edc595bdd474efd08d3229ec4cbe4ed24b63c059a979a5164dd422b5",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: El decreto deportivo agotó el tiempo de consulta. Deporte y educación superior no se consideran equivalentes sin evidencia.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
@@ -3242,7 +3490,16 @@
       "tipo_beca"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Directorio Desarrollo Social leído: presenta asistencia general y oficinas. No acredita ayuda municipal superior ni pasajes con las condiciones del corpus; BPR es JUNAEB y viaje a China 2012 es otro programa. Buscar bases específicas, no tomar la página general como prueba.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
@@ -3448,7 +3705,23 @@
       "nem_minimo",
       "tipo_beca"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+      ],
+      "campos": {
+        "descripcion": "Apoyo económico universitario; importe y periodicidad desconocidos.",
+        "descripcion_larga": "Alumno regular/matriculado; RSH de Algarrobo; acreditar arancel, notas e ingresos familiares mediante formulario social. Página completa obtenida directamente. No acredita RSH 60%, promedio mínimo 5,0 ni rango monetario original. Marzo–abril no permite inventar día exacto de cierre. Movilidad/Combustible es otro programa. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Apoyo económico universitario; importe y periodicidad desconocidos. No adoptar cuantías históricas no corroboradas.",
+        "nem_minimo": "NEM mínimo global desconocido. Conservar requisitos por modalidad: Alumno regular/matriculado; RSH de Algarrobo; acreditar arancel, notas e ingresos familiares mediante formulario social. No convertir promedio universitario o notas documentadas en un NEM universal.",
+        "tipo_beca": "Apoyo económico municipal para educación superior; no beca de excelencia universal. Conservar modalidad y condiciones de la confirmación, sin modificar el catálogo administrativo."
+      }
+    },
     "descarte": null
   },
   {
@@ -3500,7 +3773,22 @@
       "monto",
       "url"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://admision.uahurtado.cl/becas-y-beneficios/"
+      ],
+      "campos": {
+        "descripcion": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
+        "descripcion_larga": "Destacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado. Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre. No adoptar cuantías históricas no corroboradas.",
+        "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://admision.uahurtado.cl/becas-y-beneficios/"
+      }
+    },
     "descarte": null
   },
   {
@@ -3616,7 +3904,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
+      "revisado": "2026-10-06",
+      "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
+      "informe": "CONCILIACION_FINAL_10.md",
+      "fuentes": [
+        "https://admisionucsh.cl/becas-y-beneficios/"
+      ],
+      "campos": {
+        "descripcion": "Hasta 100% del arancel anual o proporción evaluada.",
+        "descripcion_larga": "Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH. Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+        "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
+        "monto": "Hasta 100% del arancel anual o proporción evaluada. No adoptar cuantías históricas no corroboradas."
+      }
+    },
     "descarte": null
   },
   {
@@ -3667,23 +3969,17 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": {
+    "conciliacion": null,
+    "descarte": {
       "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
-      "revisado": "2026-10-02",
-      "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
-      "informe": "CONCILIACION_UTALCA_3.md",
-      "fuentes": [
-        "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf",
-        "https://www.utalca.cl/noticias/utalca-apoya-los-deportistas-traves-de-nueva-beca-de-excelencia/"
-      ],
-      "campos": {
-        "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
-        "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
-        "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
-        "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
-      }
-    },
-    "descarte": null
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: UTalca Deportiva: aclarar antigüedad de egreso contradictoria con noticia oficial anterior.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_LOTE_30.md"
+      ]
+    }
   },
   {
     "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
@@ -3733,7 +4029,16 @@
       "monto"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: LeyChile devuelve una página sin texto normativo recuperable. Las dos referencias históricas requieren identificar programa y condiciones antes de conciliarlas.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md"
+      ]
+    }
   },
   {
     "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
@@ -3806,7 +4111,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
+      "revisado": "2026-10-06",
+      "motivo": "La revisión disponible no cierra el alcance esencial de este candidato histórico. Antecedente individual: Beca de Estudios Santiago leída financia continuidad superior, no acredita tarjeta bip ni subsidio mensual separado. Falta fuente oficial específica del programa de transporte.",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar por evidencia esencial insuficiente o contradictoria; no afirma inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "CIERRE_EDITORIAL_RESTANTES_291.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md"
+      ]
+    }
   },
   {
     "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",

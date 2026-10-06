@@ -10,9 +10,9 @@ Los 59 grupos tienen al menos un campo distinto. Una diferencia puede ser de esc
 - `referencias.json`: valores de cada referencia y su archivo y registro de origen. Las filas malformadas sustituidas por reconstrucciones no se cuentan dos veces.
 - `resumen.json`: conteos reproducibles.
 
-Trece grupos están conciliados: dos USM, tres UCN, dos UV, dos UANDES, tres UTalca y uno UFT. Quedan 46 pendientes. `conciliaciones.json` enlaza el informe individual de cada decisión de identidad y campo discrepante; los documentos no corroborados quedan desconocidos. Los informes también explican por qué PAES UANDES y Excelencia UFT continúan pendientes. Para cerrar un grupo hay que identificar el beneficio oficial; distinguir modalidades y años; contrastar los campos contradictorios y documentar la decisión. Los originales se mantienen intactos. Una conciliación no activa automáticamente la beca ni equivale por sí sola a confirmar todos sus requisitos.
+Los 59 grupos están cerrados al 6 de octubre: 29 conciliados y 30 excluidos editorialmente; cero pendientes. `conciliaciones.json` contiene las decisiones activas por identidad y campo discrepante. Diez grupos ya confirmados se resolvieron en [conciliación final](CONCILIACION_FINAL_10.md). Las dos conciliaciones previas de Deportiva UV y UTalca se sustituyen por exclusión del candidato; sus decisiones anteriores y fuentes se conservan íntegramente en el [cierre editorial](../CIERRE_EDITORIAL_RESTANTES_291.md). No se cuenta un grupo como conciliado y excluido a la vez. Los originales permanecen intactos; ninguna decisión activa automáticamente una beca.
 
 Reproducir desde la raíz: `python infra/report-corpus-variants.py`.
 
 
-Actualización del 6 de octubre: 21 grupos conciliados; nueve descartados editorialmente y 29 por resolver. Los descartes excluyen todas las referencias del candidato; no concilian sus campos ni eliminan originales. Evidencia: [primer lote](../DESCARTE_EDITORIAL_INSTITUCIONES_53.md) y [segundo lote](../DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md).
+Cierre final: las exclusiones afectan todas las referencias del candidato; no certifican inexistencia ni concilian sus campos. Evidencia individual en [descartes.json](../descartes.json) y [cierre de 291 candidatas](../CIERRE_EDITORIAL_RESTANTES_291.md).
