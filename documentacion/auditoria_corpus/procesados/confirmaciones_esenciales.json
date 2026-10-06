@@ -2729,5 +2729,110 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "5106a524977d01e989fb469872757dc7c2908ac7279432a5ac31ec15f01a3fd6",
+    "revisado": "2026-10-05",
+    "alcance": "instructivo histórico 2024; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
+    "fuentes": [
+      "https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf"
+    ],
+    "beneficio": "Tarjeta precargada con apoyo económico para alimentación; importe desconocido.",
+    "requisitos_principales": "Pregrado profesional sin articulación y sin BAES; postulación y evaluación socioeconómica institucional.",
+    "limites": "No complemento de BAES ni RSH 60% universal. Alcance histórico 2024; no calendario actual certificado. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "92569119ae4b688cb9c5e465709fa7f6c7071a44fb235cd4fd03e707a7bba171",
+    "revisado": "2026-10-05",
+    "alcance": "ficha de Alimentación UC Temuco; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
+    "fuentes": [
+      "https://dge.uct.cl/beca-de-alimentacion-uc-temuco/"
+    ],
+    "beneficio": "Una ración diaria de almuerzo en casino institucional según campus.",
+    "requisitos_principales": "Estudiante regular; evaluación social hasta decil 8 y buen rendimiento académico; incompatible con BAES.",
+    "limites": "No RSH 60% ni compatibilidad BAES histórica. Buen rendimiento sin umbral numérico publicado; calendario desconocido. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
+    "revisado": "2026-10-05",
+    "alcance": "información de admisión histórica 2025; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
+    "fuentes": [
+      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+    ],
+    "beneficio": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio.",
+    "requisitos_principales": "Deportista destacado o seleccionado nacional que participe representando a UPLA; evaluación de especialistas coordinada por Deportes.",
+    "limites": "No 20% fijo; no generalizar alimentación deportiva a todo estudiante vulnerable. Alcance 2025 sin convocatoria actual acreditada. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
+    "revisado": "2026-10-05",
+    "alcance": "Ayuda Solidaria de Alimentación UTA; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
+    "fuentes": [
+      "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+    ],
+    "beneficio": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos.",
+    "requisitos_principales": "Sin BAES ni título profesional; primeros seis deciles y asignaturas inscritas y ratificadas; sujeto a presupuesto.",
+    "limites": "No certificar almuerzo y cena ni sustituir deciles por RSH. Postulación semestral por intranet sin fechas exactas. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "57dde5f97192fa9eb4e8daac436f1ad1108f5a1219a46a6854715f0db3ba79f4",
+    "revisado": "2026-10-05",
+    "alcance": "Honor de alumnos destacados UTA; sin certificar convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
+    "fuentes": [
+      "https://webdae.uta.cl/index.php/becas/"
+    ],
+    "beneficio": "100% del arancel diferenciado y básico del año siguiente; si terminó estudios se sustituye por 100% del trámite de titulación o graduación.",
+    "requisitos_principales": "Elegido alumno más destacado por su facultad.",
+    "limites": "No beca automática por NEM ni duración completa. Criterios adicionales de elección y calendario desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 437 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 129 confirmación esencial: faltan 437 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 432 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 134 confirmación esencial: faltan 432 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -38,7 +38,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_ucn.csv | 4 | 4 | 0 | 4 | 0 | 0 |
 | becas_ucsc.csv | 4 | 4 | 4 | 0 | 0 | 4 |
 | becas_ucsh.csv | 4 | 4 | 3 | 1 | 0 | 3 |
-| becas_uct.csv | 4 | 4 | 4 | 0 | 0 | 4 |
+| becas_uct.csv | 4 | 4 | 3 | 1 | 0 | 3 |
 | becas_udd.csv | 6 | 6 | 6 | 0 | 0 | 6 |
 | becas_udec.csv | 3 | 3 | 3 | 0 | 0 | 3 |
 | becas_udla.csv | 4 | 4 | 3 | 1 | 0 | 3 |
@@ -49,11 +49,11 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_umag.csv | 4 | 4 | 1 | 3 | 0 | 1 |
 | becas_umayor.csv | 6 | 6 | 5 | 1 | 0 | 5 |
 | becas_unab.csv | 7 | 7 | 4 | 3 | 0 | 4 |
-| becas_unap.csv | 4 | 4 | 4 | 0 | 0 | 4 |
-| becas_upla.csv | 4 | 4 | 4 | 0 | 0 | 4 |
+| becas_unap.csv | 4 | 4 | 3 | 1 | 0 | 3 |
+| becas_upla.csv | 4 | 4 | 3 | 1 | 0 | 3 |
 | becas_usach.csv | 3 | 3 | 2 | 1 | 0 | 2 |
 | becas_uss.csv | 7 | 7 | 0 | 7 | 0 | 0 |
-| becas_uta.csv | 4 | 4 | 4 | 0 | 0 | 4 |
+| becas_uta.csv | 4 | 4 | 2 | 2 | 0 | 2 |
 | becas_utalca.csv | 7 | 7 | 1 | 6 | 0 | 1 |
 | becas_utfsm.csv | 6 | 6 | 1 | 5 | 0 | 1 |
 | becas_uv.csv | 4 | 4 | 2 | 2 | 0 | 2 |
@@ -91,9 +91,9 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 0 | 3 |
 | bloque6_docs.csv | 12 | 12 | 9 | 3 | 0 | 9 |
 | bloque6_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque7_docs.csv | 12 | 12 | 9 | 3 | 0 | 9 |
+| bloque7_docs.csv | 12 | 12 | 8 | 4 | 0 | 8 |
 | bloque7_muni.csv | 10 | 10 | 6 | 4 | 0 | 6 |
-| bloque8_docs.csv | 16 | 16 | 14 | 2 | 0 | 14 |
+| bloque8_docs.csv | 16 | 16 | 13 | 3 | 0 | 13 |
 | bloque9_docs.csv | 6 | 6 | 6 | 0 | 0 | 6 |
 | bloque9_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque_muni_456.csv | 3 | 3 | 3 | 0 | 0 | 3 |
