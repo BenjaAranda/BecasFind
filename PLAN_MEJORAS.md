@@ -10,6 +10,8 @@ El cierre masivo del commit `91e8c48` queda revertido: sus 291 exclusiones no so
 
 El inventario comprende 568 candidatas y 647 referencias en 93 archivos originales. Tras la reversión, los registros anteriores contienen 171 confirmaciones esenciales, dos exhaustivas, 103 exclusiones anteriores y 292 pendientes. Estos son conteos históricos de partida: las 103 exclusiones también entran en la revisión y no quedan fuera del nuevo plan. Los 59 grupos parten con 21 conciliados, nueve excluidos anteriormente y 29 pendientes; todos se consideran al comprobar variantes.
 
+Entrega documental del 6 de octubre: las 291 candidatas del cierre revertido tienen un apartado individual en [la revisión](documentacion/auditoria_corpus/REVISION_ESENCIAL_291_2026_10_06.md). Se incorporaron 47 confirmaciones esenciales con alcance y fuentes explícitos; 244 conservan aclaraciones pendientes. No se añadieron descartes ni se eliminaron originales. Total actualizado: 218 esenciales, dos exhaustivas, 103 exclusiones anteriores por reconsiderar y 245 pendientes de confirmación (244 de esta entrega y una candidata adicional ajena al lote). Los grupos de variantes no se cerraron automáticamente por compartir una fuente. Solo se actualizó documentación; sin pruebas del backend, cambios de base ni despliegue.
+
 ### Trabajo por lotes de 50 o más
 
 1. **Reunir beca, datos y referencias existentes.** Seleccionar hashes estables y agrupar por institución o municipio. Leer las revisiones anteriores para saber qué está respaldado y qué falta; no repetir la extracción ni cambiar identidades por orden de archivo. El inventario inicial incluye las 568 candidatas, también las antes excluidas.

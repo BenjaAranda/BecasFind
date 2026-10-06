@@ -3624,5 +3624,995 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
+    "revisado": "2026-10-06",
+    "alcance": "Ordenanza municipal 3 de 2018; Beca Matrícula de Educación Superior.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf",
+      "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf"
+    ],
+    "beneficio": "Financiamiento total o parcial de matrícula; tope de $200.000. Pago a la institución.",
+    "requisitos_principales": "Residir en Quilpué; primer ingreso a educación superior; necesidad socioeconómica y NEM mínimo 5,5.",
+    "limites": "Confirmación histórica de matrícula, no de mantención general. No extrapolar el monto ni los requisitos a 2026. Texto contrastado en la lectura web del PDF oficial.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
+    "revisado": "2026-10-06",
+    "alcance": "Acuerdo municipal de La Serena de 2013; modalidad específica SIPEE.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
+    ],
+    "beneficio": "$150.000 mensuales; acuerdo de apoyo por cuatro años.",
+    "requisitos_principales": "Diez alumnos de enseñanza media que ingresan a la Universidad de Chile mediante SIPEE.",
+    "limites": "No acredita una beca general para todas las instituciones ni un subsidio de pasajes. La convocatoria actual y los umbrales de selección siguen desconocidos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Presidente de la República; ficha oficial de ChileAtiende consultada el 6 de octubre de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/2086"
+    ],
+    "beneficio": "En educación superior: 12,4 UTM al año, hasta diez cuotas.",
+    "requisitos_principales": "Solo renovación de quienes ya tuvieron la beca en enseñanza media. PAES promedio de pruebas obligatorias mínimo 485 para ingreso universitario; promedio semestral 5,0 desde 2011. RSH hasta 70% para becados hasta 2022 o hasta 40% desde 2023.",
+    "limites": "Excepciones de cohortes 2008–2010 y pruebas anteriores según la ficha. IP/CFT no requieren puntaje PAES. No convertir UTM a pesos ni confundir con BAES o BMES.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "6af35875af55315c2e5f263752be976bdfacf1bf5f8eb55f73fb529478a2d113",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Padre Hurtado; reglamento aprobado en diciembre de 2001.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://registrosacademicos.uc.cl/wp-content/uploads/2021/11/padreHurtado.pdf"
+    ],
+    "beneficio": "Cobertura del arancel universitario completo durante el período formal; coordinación con otras ayudas.",
+    "requisitos_principales": "Según el reglamento: nacionalidad chilena; cursar cuarto medio; pertenecer al 10% superior de notas de primero a tercero medio; necesidad económica y entrevista.",
+    "limites": "Confirmación histórica. El reglamento usa PAA y límites definidos anualmente; no trasladarlos a PAES ni a 2026. Residencia y alimentación no son una asignación automática.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705",
+    "revisado": "2026-10-06",
+    "alcance": "USM: beca al mérito académico de ingreso por Deportista en Formación Élite.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "beneficio": "Hasta 50% del arancel anual por la duración nominal de la carrera.",
+    "requisitos_principales": "Egreso de enseñanza media del año en curso o anterior; mayor puntaje ponderado por admisión especial centralizada Deportista en Formación Élite.",
+    "limites": "Distinguir de Deportista Élite, cuyo beneficio es diferente. La ficha advierte variaciones entre períodos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "1bd209e4d81b1fcf12836288ad291f6bf67b4994895ff09f252caf910e36aced",
+    "revisado": "2026-10-06",
+    "alcance": "Programa de Colina 2024; decreto y programa adjunto.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.colina.cl/archivos/cf73484-0779.pdf"
+    ],
+    "beneficio": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "requisitos_principales": "Estudiantes de educación superior desde primer año; residencia en Colina; notas desde 5,5 y necesidad socioeconómica. Arancel: sin beca ministerial, con excepción del CAE que no cubra todo el arancel. Transporte: sin Gratuidad.",
+    "limites": "Los montos son topes de modalidades distintas. No sumarlos ni extender las reglas de 2024 a 2026. Se mantienen ambos registros históricos sin resolver automáticamente su duplicidad.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "526d000a3d0f071920f61c6208964cc05b945fc032e3a19f7b32f704deda3ba3",
+    "revisado": "2026-10-06",
+    "alcance": "Beca de Enseñanza Superior Ilustre Municipalidad de Vallenar; ficha oficial 2022.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.imvallenar.gob.cl/2022/02/21/concejo-municipal-de-vallenar-aprueba-aumento-de-recursos-para-beca-de-ensenanza-superior/"
+    ],
+    "beneficio": "Apoyo económico para financiar parte de los gastos de educación; importe individual desconocido.",
+    "requisitos_principales": "Universidad, IP o CFT reconocido; notas mínimo 6,0 para egresados de media o 5,0 en superior; RSH hasta 70% y acreditación de necesidad socioeconómica.",
+    "limites": "No sustituir este programa por Padre Gustavo Cereceda, que tiene otra ordenanza. Monto y condiciones 2026 desconocidos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c4624704c3f03bc58230e706118c395e9047ca7c1fb9043b7442bd9093edad7c",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Ilustre Municipalidad de Quintero; comunicación municipal de junio de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.muniquintero.cl/index.php/2026/06/15/municipio-entregara-692-becas-para-estudiantes-de-la-educacion-superior-junto-con-ello-concejo-municipal-no-54-arueba-convenio-noche-digna/"
+    ],
+    "beneficio": "Aporte de libre disposición en dos cuotas anuales. La ficha diferencia $200.000 para egresados del Liceo Politécnico de Quintero y $150.000 para otros establecimientos.",
+    "requisitos_principales": "Estudiantes de educación superior de la comuna que cumplen criterios académicos y socioeconómicos del reglamento.",
+    "limites": "Confirmados destinatarios y criterios principales. Umbrales de notas/RSH desconocidos; la noticia no permite certificar si el importe indicado corresponde al total anual o a cada cuota. No duplicar ni multiplicar el monto.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",
+    "revisado": "2026-10-06",
+    "alcance": "Beca de Educación Superior PAC 2026; bases leídas visualmente, páginas 3–6; modificación de calendario contrastada.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.pedroaguirrecerda.cl/app/uploads/2026/02/Bases-de-Becas-Decretadas.pdf"
+    ],
+    "beneficio": "Aporte de hasta $500.000 por estudiante.",
+    "requisitos_principales": "Residencia y RSH de Pedro Aguirre Cerda; matrícula 2026 en institución reconocida. Nota anual previa mínimo 6,0 al ingresar a primer año o 5,0 desde segundo año. Incompatibilidades por personal municipal/parentesco previsto, deuda alimenticia y antecedentes de violencia intrafamiliar.",
+    "limites": "RSH admitido en los tramos de 40% a 100% según bases. Reservas de cupos sujetas a la convocatoria. El beneficio es un tope, no un pago uniforme garantizado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",
+    "revisado": "2026-10-06",
+    "alcance": "Cuenta pública municipal de Quinta Normal 2006, página 55.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://ligup-v2.s3.amazonaws.com/quintanormal/multimedia/19430_cuenta_publica_2006.pdf"
+    ],
+    "beneficio": "$50.000 por estudiante, una vez en el año informado.",
+    "requisitos_principales": "Estudiantes de educación superior residentes de Quinta Normal; escasez de recursos y rendimiento destacado.",
+    "limites": "Solo acredita el programa y población beneficiaria históricos. Notas mínimas y reglas actuales desconocidas; no confundir con útiles escolares 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "bbf9abe727b9d19e2c2458b88239500def9f2e79b596299c6629cd4475134ab7",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha municipal Beca Educación Superior; proceso 2025.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://tramites.santodomingo.cl/beca-educacion-superior"
+    ],
+    "beneficio": "Aporte de libre disposición; cuantía determinada por evaluación socioeconómica y académica.",
+    "requisitos_principales": "Alumno regular en institución reconocida; carrera de al menos cuatro semestres; RSH de Santo Domingo y entrevista social obligatoria. Un postulante por familia; no capacitación ni práctica profesional; disposición al voluntariado requerido.",
+    "limites": "No existe renovación automática. Los umbrales numéricos de RSH/notas y el importe individual no están confirmados.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "1ecc22c483debd1c574cb88c7c544bf6d9c7ae021c16c5cde64f24430d7754f1",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha municipal histórica de Pirque; ordenanza 2008 citada en documento de 2012.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.pirque.cl/transparencia/a20120731172714.pdf"
+    ],
+    "beneficio": "Dinero de libre disposición en dos cuotas anuales.",
+    "requisitos_principales": "Residencia en Pirque; ingreso a educación superior; necesidad socioeconómica y buen rendimiento evaluados por el Departamento Social.",
+    "limites": "Importe individual y umbral de notas desconocidos en la ficha leída. No certificar una convocatoria 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "3d8a38d7ca8beb6d7e70210d68313c889d336f2918a89dbfea47afe73da6ba7c",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Los Álamos; comunicación oficial de febrero de 2020.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://munilosalamos.cl/noticias/18-02-2020-1/"
+    ],
+    "beneficio": "$500.000 anuales, distribuidos en diez pagos de $50.000.",
+    "requisitos_principales": "Estudiantes de la comuna en universidad o instituto; vulnerabilidad y mérito académico; acreditar matrícula, residencia y situación económica. Incompatible con Beca Indígena y BPR.",
+    "limites": "Alcance histórico 2020. No trasladar monto o incompatibilidades a 2026; umbrales académicos y socioeconómicos no numéricos en la noticia.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a3525fb8686a72e8d6791904ef64608b71cd25a4cfe423d45ac2212d6549cb38",
+    "revisado": "2026-10-06",
+    "alcance": "Reglamento de Beca Municipal Yungay 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.yungay.cl/wp-content/uploads/2026/03/Reglamento-Beca-Municipal-2026-PDF.pdf"
+    ],
+    "beneficio": "Apoyo monetario para gastos de estudios en dos cuotas; monto individual no fijado en el reglamento leído.",
+    "requisitos_principales": "Residencia en Yungay; RSH hasta 60%; hasta 28 años. NEM mínimo 5,8 al ingresar; continuidad exige aprobación del año anterior. Educación superior reconocida y restricciones de modalidad.",
+    "limites": "No confundir cuotas con montos. Revisar excepciones de estudios en el extranjero y modalidad por discapacidad si se aplica a un solicitante concreto.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "da56f40a73c6c7dc52d263c0507aa23970dcd296fa0e56b2aa8ed86d59d1eb23",
+    "revisado": "2026-10-06",
+    "alcance": "Becas de Pasajes Excelencia Académica Pitrufquén; bases 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/publicaciones/Postulacion_a_Becas_de_Pasajes_para_Estudiantes_de_Educacion_Superior_2026_6a5e6d15e3545/BASES_BECAS_ESTUDIANTES_2026.pdf"
+    ],
+    "beneficio": "Pago único: $150.000 para carrera profesional o $100.000 para carrera técnica profesional.",
+    "requisitos_principales": "Residencia/RSH de Pitrufquén, tramos hasta 70%; egreso de liceo de la comuna; matrícula reconocida; promedio absoluto 6,0 en primer semestre 2026 y ninguna asignatura reprobada. Sin título profesional previo ni cambios/convalidación/congelación durante 2026.",
+    "limites": "Precisar la modalidad de pasajes; no atribuirla a cualquier beca municipal. El pie conserva 2025, pero el cuerpo, matrícula y período identifican 2026; registrar esa anomalía editorial.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a8d1e9fe964628fd011a13a117f23467ac95b717ea4cd0ca39124bba725b4c7a",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Educación Superior La Unión; información municipal 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munilaunioninfo.com/single-post/municipio-inicia-proceso-de-postulaci%25C3%25B3n-proceso-de-postulaci%25C3%25B3n-a-beca-de-educaci%25C3%25B3n-superior-2026"
+    ],
+    "beneficio": "$70.000 mensuales; 255 cupos anunciados.",
+    "requisitos_principales": "Residencia y RSH de La Unión; matrícula 2026. Egresados de media: nota mínima 5,5; estudiantes superiores: 5,0. Evaluación social e ingresos familiares.",
+    "limites": "Cantidad de pagos anuales y RSH máximo no corroborados. No inferirlos a partir de las becas de otras comunas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "e732d18e136ba8361cf104c0ff1f35601afe15f1ee06a1396cf4156f588daac8",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal de Mantención Estudiantil Petorca 2026; ficha oficial.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://munipetorca.cl/docs/becamunicipaleducacionsuperior/"
+    ],
+    "beneficio": "Mantención económica para educación superior; importe desconocido.",
+    "requisitos_principales": "Residencia en Petorca; RSH en los tramos descritos como 40% a 60%; alumno regular técnico, profesional o de Fuerzas Armadas. Aprobación del 100% de asignaturas; incompatible con Casa Hogar municipal.",
+    "limites": "Conservar la formulación de tramos de la fuente; no inventar un umbral para otros casos. Importe individual desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "df318733f7b7c7c1fc173313700f8d709ecd7625a6fd3ef1b310deb5a8a2277e",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal de Transporte Tiltil 2025.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://munitiltil.cl/wp-content/uploads/2025/04/BECA-MUNICIPAL-DE-TRANSPORTE-2025-PROGRAMA-PRESENTACION.pdf"
+    ],
+    "beneficio": "$100.000 anuales destinados a transporte; 60 cupos inicialmente previstos.",
+    "requisitos_principales": "Residencia/RSH de Tiltil; matrícula fuera de la comuna dentro de RM o, excepcionalmente, Llay Llay, San Felipe o Los Andes. Asistencia presencial periódica. Restricciones por empleo público, repitencia/abandono y un beneficiario familiar con excepciones presupuestarias.",
+    "limites": "Montos y cupos pueden modificarse según presupuesto. No certifica automáticamente una beca general de educación superior distinta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Social de Estudios; ficha municipal de transparencia enero 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://sanpedrodeatacamatransparente.cl/Uploads/2022/07/09%20Subsidios%20y%20Beneficios%20propios/2026/Beca%20Municipal/BECA%20SOCIAL%20DE%20ESTUDIOS%20ENERO%202026.pdf"
+    ],
+    "beneficio": "Aporte para gastos de estudios; contempla dos pagos. Importe individual desconocido.",
+    "requisitos_principales": "Habitantes de San Pedro de Atacama; chilenos o extranjeros con residencia definitiva/temporaria; institución reconocida; RSH comunal en tramos 40%–70%; NEM mínimo 5,5 o notas superiores mínimo 5,0; sin dos o más asignaturas reprobadas.",
+    "limites": "La ficha corresponde a San Pedro de Atacama, no a Catemu. Presupuesto global de $48 millones no equivale al aporte individual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9485462cdc09bf824858faaab0644400725ff885480765b0e1523a3f186a9cb6",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha municipal Beca San Esteban 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munisanesteban.cl/actividades/beca-ensenanza-superior-san-esteban-2026-162189"
+    ],
+    "beneficio": "Ayuda económica municipal; cuantía desconocida.",
+    "requisitos_principales": "Jóvenes de San Esteban matriculados en educación superior; vulnerabilidad del grupo familiar evaluada por DIDECO.",
+    "limites": "Alcance esencial de destinatarios y evaluación socioeconómica; sin afirmar umbrales de notas, RSH ni montos ausentes.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228",
+    "revisado": "2026-10-06",
+    "alcance": "Porvenir Siembra; ordenanza 19 de 2026, artículos 2–13.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.muniporvenir.cl/wpcont-wp/uploads/2026/06/ORDENANZA-19-BECA-PORVENIR-SIEMBRA.pdf"
+    ],
+    "beneficio": "$80.000 mensuales de marzo a diciembre; renovación semestral.",
+    "requisitos_principales": "Residencia en Porvenir; alumno regular presencial en institución acreditada; evaluación socioeconómica/RSH. Incompatibilidades con ayudas de mantención y personal/parientes municipales previstos. Renovación: al menos 80% de asignaturas aprobadas.",
+    "limites": "Arancel, Gratuidad y alimentación son compatibles según la ordenanza. No confundir renovación con una nueva convocatoria abierta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "6501ada7381928e9f2396ea5baa4bf078442e8981fc895734499d9139808421d",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha oficial Beca enseñanza superior consultada el 6 de octubre de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.lascondes.cl/transparencia/tramites-organismo/direccion_desarrollo_comunitario.html"
+    ],
+    "beneficio": "Apoyo al pago de arancel mensual o similar; importe desconocido.",
+    "requisitos_principales": "Residencia y RSH de Las Condes; alumno regular en institución reconocida; primera carrera técnica/profesional de cuatro semestres como mínimo; notas 5,7 al egresar de media o 5,0 en superior. Evaluación social; excluye posgrado, segunda carrera y Apoyo al Empleo Juvenil 2026–2027.",
+    "limites": "No confundir con Subsidio Juvenil, que tiene otras notas y contraprestación. Importe, calendario y vigencia de postulación desconocidos. Las dos referencias se conservan.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986",
+    "revisado": "2026-10-06",
+    "alcance": "Beca de Educación Superior Tomé; información municipal mayo 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-"
+    ],
+    "beneficio": "$20.000 mensuales de marzo a diciembre; total anual $200.000.",
+    "requisitos_principales": "Jóvenes de Tomé con dificultades económicas que cursan carreras técnicas o profesionales en universidad, IP o CFT.",
+    "limites": "Umbrales de notas y RSH no publicados en la noticia. Separar premio PAES de $500.000, que es otro beneficio.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "617653494e11c6e1952b536b9bbd19081858aecf1a0509d0b013ec8be26befd8",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Concejo Municipal Curepto; ficha de transparencia 2025.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.curepto.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=43043&ig=431&m=2"
+    ],
+    "beneficio": "$700.000 anuales para gastos de educación.",
+    "requisitos_principales": "Segundo ciclo básico en escuela de Curepto y media en Liceo Luis Correa Rojas; sin repetición; NEM mínimo 6,0; egreso el año previo; ingreso a universidad CRUCH o adscrita a admisión; RSH hasta 60% y necesidad económica.",
+    "limites": "La ficha aún menciona PSU en la evaluación. No convertirla a PAES ni extrapolar a convocatoria 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2a7e233fdaf2ad73c4a0b7fb3255d30bab743376c8a72999a1619f95b369ba16",
+    "revisado": "2026-10-06",
+    "alcance": "Reglamento de Beca Enseñanza Superior Pelluhue 2014.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munipelluhue.cl/transparencia/2014/BecaEns.pdf"
+    ],
+    "beneficio": "Aporte parcial para gastos educativos de $40.000 según el reglamento.",
+    "requisitos_principales": "Nacionalidad chilena; residencia en Pelluhue; necesidad socioeconómica y matrícula reconocida. Egresados: notas 6,0; superiores: 5,0 o aprobación mínima del 60% de asignaturas.",
+    "limites": "Periodicidad monetaria no certificada en este resumen. Un beneficiario familiar con excepciones sociales. Reglas históricas, no convocatoria 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c47882f77478fbfc4297cf9b6f74d48d45271bc6c8be33d1f4ef155b65f19b9c",
+    "revisado": "2026-10-06",
+    "alcance": "Bases históricas de Torres del Paine; documento que solicita antecedentes escolares de 2021.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munitorresdelpaine.cl/VARIOS/bases_beca.pdf"
+    ],
+    "beneficio": "2 UTM mensuales para educación superior de marzo a diciembre.",
+    "requisitos_principales": "Vínculo local del estudiante/familia o trabajador de la comuna con antigüedad laboral prevista; matrícula reconocida y necesidad económica. Nota 5,0 al ingresar o 4,5 y aprobación de 80% en continuidad; reglas específicas de carga académica.",
+    "limites": "No afirmar año actual de convocatoria ni actualizar el límite per cápita histórico sin fuente. Excepciones de residencia y vínculo laboral requieren aplicación individual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "238088f3e41617381b20c4bad0ed46fddabe9a60ca77976db3b7616d46a45858",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal Nancagua; comunicación de entrega 2025.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://municipalidadnancagua.cl/entrega-de-becas-municipales/"
+    ],
+    "beneficio": "Apoyo económico para continuidad en educación superior; importe individual desconocido.",
+    "requisitos_principales": "Estudiantes de Nancagua en educación superior con buen rendimiento académico; renovantes sujetos al reglamento municipal.",
+    "limites": "Presupuesto de $169,2 millones y 223 becarios no permiten inferir un importe uniforme. Umbrales y demás criterios de admisibilidad no detallados en la noticia.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "cf2b6e51488e301ee7729cc34be162cd51373a78934c73d516c22e17f1543b0f",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal Río Negro 2026; ficha de entrevista/postulación.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munirionegro.cl/entrevista-para-beca-municipal/"
+    ],
+    "beneficio": "Aporte de $200.000.",
+    "requisitos_principales": "RSH de Río Negro hasta 40%; egreso de cuarto medio en establecimiento de la comuna; alumno regular superior. Un beneficiario por familia; sin segunda carrera ni posgrado, salvo continuidad técnica a profesional. Restricción de funcionarios según ingresos.",
+    "limites": "No asumir notas mínimas ni compatibilidad con otras becas no descritas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967",
+    "revisado": "2026-10-06",
+    "alcance": "Becas Municipales San Gregorio; noticia oficial 2025.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.sangregorio.cl/2025/03/14/ya-estan-abiertas-postulaciones-para-becas-municipales-de-san-gregorio-2025/"
+    ],
+    "beneficio": "Subsidio mensual durante diez meses con renovación semestral; importe desconocido.",
+    "requisitos_principales": "Residencia en San Gregorio; RSH hasta 80%; necesidad socioeconómica y rendimiento académico. Educación superior hasta 25 años y sin título previo.",
+    "limites": "Umbral académico y monto individual desconocidos; no extrapolar a 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Heriberto Hott Contreras; díptico 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://municipalidaddepuyehue.cl/web/wp-content/uploads/2026/08/fffffDIPTICO_2026.pdf.pdf"
+    ],
+    "beneficio": "$350.000 en un pago anual; 160 cupos anunciados.",
+    "requisitos_principales": "Residencia y RSH de Puyehue; matrícula en institución reconocida; notas mínimo 5,0; ingresos per cápita y personales hasta $365.000. Sin rendiciones pendientes. Incompatible con Beca Indígena, BPR y beca deportiva municipal.",
+    "limites": "Distinguir de otras ayudas municipales y de la edición 2025. El tope de ingresos corresponde a esta convocatoria.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "323120dca07f297f629fc71a60d5b9fd0ba48b10c44b9ad45d9e10ea5ae86b51",
+    "revisado": "2026-10-06",
+    "alcance": "Bases de Beca Municipal Melipeuco 2026; lectura visual páginas 2–6.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-BASES-BECA-MUNICIPAL.pdf"
+    ],
+    "beneficio": "$400.000 anuales en dos cuotas de $200.000; 35 cupos.",
+    "requisitos_principales": "Residencia/RSH de Melipeuco con antigüedad mínima de un año; RSH hasta 70%; NEM mínimo 5,8 o notas superiores 5,0. Admite presencial/online y diurno/nocturno. Sin título técnico/profesional previo ni becas incompatibles de residencia, Indígena o BPR; restricciones por empleo público con excepción de renta.",
+    "limites": "La tabla confirma hasta 70%, resolviendo la redacción ambigua de la noticia. El calendario incluye un imposible 31 de noviembre: no normalizarlo ni usarlo para certificar vigencia.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "a8184eb83e65d96f5f62c85c0538582a753ec0c9a555b0933f394bfd787422fc",
+    "revisado": "2026-10-06",
+    "alcance": "Incentivo Educación Superior Curarrehue; bases 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://curarrehue.cl/on/wp-content/uploads/2026/04/bases-incentivo-educacion-superior-2026.pdf"
+    ],
+    "beneficio": "Aporte monetario parcial para arancel o gastos de transporte, materiales y alimentación; cuantía según presupuesto.",
+    "requisitos_principales": "Residencia y RSH de Curarrehue; alumno regular superior 2026; sin rendiciones pendientes. Evaluación socioeconómica y de condiciones familiares; compromiso de voluntariado y rendición.",
+    "limites": "RSH se usa en puntuación; no inventar un máximo excluyente. No acredita una beca independiente de traslado con importe fijo.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ae8c01706df16fc9b76b082a6ad29002f1c665951dccc04af004426663eabe19",
+    "revisado": "2026-10-06",
+    "alcance": "Bases de Beca Municipal Melipeuco 2026; lectura visual páginas 2–6.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-BASES-BECA-MUNICIPAL.pdf"
+    ],
+    "beneficio": "$400.000 anuales en dos cuotas de $200.000; 35 cupos.",
+    "requisitos_principales": "Residencia/RSH de Melipeuco con antigüedad mínima de un año; RSH hasta 70%; NEM mínimo 5,8 o notas superiores 5,0. Admite presencial/online y diurno/nocturno. Sin título técnico/profesional previo ni becas incompatibles de residencia, Indígena o BPR; restricciones por empleo público con excepción de renta.",
+    "limites": "La tabla confirma hasta 70%, resolviendo la redacción ambigua de la noticia. El calendario incluye un imposible 31 de noviembre: no normalizarlo ni usarlo para certificar vigencia.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "883c8be7ade5b6bbec6d0a6eabaeafe0a97e21fa3fca0fe53b7e108bcf2cd676",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Ilustre Municipalidad de Quintero; comunicación municipal de junio de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.muniquintero.cl/index.php/2026/06/15/municipio-entregara-692-becas-para-estudiantes-de-la-educacion-superior-junto-con-ello-concejo-municipal-no-54-arueba-convenio-noche-digna/"
+    ],
+    "beneficio": "Aporte de libre disposición en dos cuotas anuales. La ficha diferencia $200.000 para egresados del Liceo Politécnico de Quintero y $150.000 para otros establecimientos.",
+    "requisitos_principales": "Estudiantes de educación superior de la comuna que cumplen criterios académicos y socioeconómicos del reglamento.",
+    "limites": "Confirmados destinatarios y criterios principales. Umbrales de notas/RSH desconocidos; la noticia no permite certificar si el importe indicado corresponde al total anual o a cada cuota. No duplicar ni multiplicar el monto.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9fc66303a799b82e86b9680df67f867c911012e8ddd195599ee8916791327d5d",
+    "revisado": "2026-10-06",
+    "alcance": "Reglamento de Becas Municipales San Bernardo 2026; categoría superior.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "beneficio": "Educación superior: $250.000; 718 cupos en esa categoría.",
+    "requisitos_principales": "Residencia/RSH de San Bernardo, tramos 40%–70%; alumno regular 2026. Primer ingreso: notas de cuarto medio 6,5; continuidad: promedio previo 5,5. Declaración de ingresos y restricciones de personal municipal.",
+    "limites": "No usar los importes de básica/media. Conservar ambos registros sin eliminar originales; confirmar condiciones no resuelve por sí solo la duplicidad.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "878a3bcced5d9efe65003d6a97a447f82a501b5e95e07232249ae3691fe1142d",
+    "revisado": "2026-10-06",
+    "alcance": "Programa de Colina 2024; decreto y programa adjunto.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.colina.cl/archivos/cf73484-0779.pdf"
+    ],
+    "beneficio": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "requisitos_principales": "Estudiantes de educación superior desde primer año; residencia en Colina; notas desde 5,5 y necesidad socioeconómica. Arancel: sin beca ministerial, con excepción del CAE que no cubra todo el arancel. Transporte: sin Gratuidad.",
+    "limites": "Los montos son topes de modalidades distintas. No sumarlos ni extender las reglas de 2024 a 2026. Se mantienen ambos registros históricos sin resolver automáticamente su duplicidad.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "2e7297d32bfefea5d2809e3a98c5df90a01a47454b23d8b39146df1ceb871743",
+    "revisado": "2026-10-06",
+    "alcance": "Ordenanza Villa O’Higgins publicada en febrero de 2024.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.municipalidadohiggins.cl/web/wp-content/uploads/2024/02/BECAS.pdf"
+    ],
+    "beneficio": "Apoyo parcial al arancel en modalidades presencial y E-learning; excluye matrícula.",
+    "requisitos_principales": "Residencia del postulante/familia en O’Higgins y RSH local; educación superior formal reconocida; al menos cuatro años en Liceo Pioneros del Sur, con excepción de beneficiarios anteriores a 2023. Condiciones por Gratuidad y continuidad técnica a profesional.",
+    "limites": "Porcentajes de las tablas no certificados en esta revisión. Separar beca técnico-profesional de enseñanza media de $300.000. No extrapolar reglas a 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "15bd3a7d2897fed8d6dfcc78af3f961504aeadb5733b27e2b2d61afd82eb0e6b",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal Incentivo Educación Superior Vichuquén; noticia de postulación 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.munivichuquen.cl/postula-a-la-beca-municipal-de-incentivo-a-la-educacion-superior-2026-no-pierdas-la-oportunidad/"
+    ],
+    "beneficio": "$200.000 en un pago para gastos asociados a los estudios.",
+    "requisitos_principales": "Residencia en Vichuquén; RSH hasta 60%; alumno regular superior 2026; notas 2025 mínimo 5,5. No haber sido beneficiado en años anteriores.",
+    "limites": "Beneficio de una vez, no renovable según esta ficha. No confundir con Beca de Talentos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "4f1b6f61f222298377b0967da919d5b0cb2673399e81d93e832d1275d8cd64e8",
+    "revisado": "2026-10-06",
+    "alcance": "Reglamento de Becas Municipales San Bernardo 2026; categoría superior.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "beneficio": "Educación superior: $250.000; 718 cupos en esa categoría.",
+    "requisitos_principales": "Residencia/RSH de San Bernardo, tramos 40%–70%; alumno regular 2026. Primer ingreso: notas de cuarto medio 6,5; continuidad: promedio previo 5,5. Declaración de ingresos y restricciones de personal municipal.",
+    "limites": "No usar los importes de básica/media. Conservar ambos registros sin eliminar originales; confirmar condiciones no resuelve por sí solo la duplicidad.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "148f90ce4ef8c71176854884de3ac9125fb79725b3d274daa64bdd28404bc5ba",
+    "revisado": "2026-10-06",
+    "alcance": "Acuerdo municipal de La Serena de 2013; modalidad específica SIPEE.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
+    ],
+    "beneficio": "$150.000 mensuales; acuerdo de apoyo por cuatro años.",
+    "requisitos_principales": "Diez alumnos de enseñanza media que ingresan a la Universidad de Chile mediante SIPEE.",
+    "limites": "No acredita una beca general para todas las instituciones ni un subsidio de pasajes. La convocatoria actual y los umbrales de selección siguen desconocidos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "cbeeacde2338566b893c078e8b13f8015716535fd427b0c7098eda5430e11de5",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Alimentación UCSC; reglamento de 2013 alojado por la universidad.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/17/2023/08/REGLAMENTO-BECA-DE-ALIMENTACION-UCSC.pdf"
+    ],
+    "beneficio": "Cupones mensuales de colación para días de clases en casino universitario o convenio.",
+    "requisitos_principales": "Según reglamento: alumno regular desde segundo semestre; aprobación de al menos 50% de asignaturas o créditos del año previo; necesidad socioeconómica; sin otra ayuda de alimentación.",
+    "limites": "Confirmación histórica. Una comunicación actual admite novatos: no aplicar la restricción de segundo semestre a 2026 hasta conciliar la normativa. No asignar el monto de BAES a esta beca interna.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ebbc870f644be29040fcef815783e2d5b20b767b2877ed8ca38773d8d89f98a8",
+    "revisado": "2026-10-06",
+    "alcance": "UDLA; catálogo oficial de becas de copago consultado el 6 de octubre de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://admision.udla.cl/becas/"
+    ],
+    "beneficio": "Copago Bicentenario y Copago CAE: 100% en carreras profesionales/universitarias; 50% en Enfermería, Psicología, Obstetricia y Animación Digital según ficha.",
+    "requisitos_principales": "Admisión regular/directa; beneficiario de Bicentenario o CAE según modalidad y pagaré suscrito. Renovación: promedio acumulado mínimo 5,5; avance mínimo 70%; compromisos financieros y matrícula al día.",
+    "limites": "Mantener ambas modalidades diferenciadas. No convertir copago en cobertura del arancel completo ni asumir idéntico arancel de cálculo entre modalidades.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "329da2a2114725f39f8812b23e46593a790326af4e63e95f93752eaaf9f392ec",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Incentivo Educación Superior Melipilla; información municipal 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://melipilla.cl/municipio-de-melipilla-entrego-beca-de-incentivo-a-la-educacion-superior-a-mas-de-2-mil-estudiantes-de-la-comuna/"
+    ],
+    "beneficio": "Apoyo económico a la continuidad de educación superior; importe individual desconocido.",
+    "requisitos_principales": "Estudiantes de Melipilla en educación superior; cobertura RSH ampliada hasta el 80% en 2026.",
+    "limites": "La noticia confirma destinatarios y condición RSH. Notas mínimas y otros criterios no publicados. No dividir $455 millones por 2.275 para inventar un monto.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "99ebd9c78ae2b366aa048c432026cbcc3b3eb2a747840f7e769b1f84a1d7245c",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Educación Superior Los Andes 2026; noticia municipal y antecedentes de postulación.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.losandes.cl/ultimos-dias-para-postular-a-la-beca-de-educacion-superior-en-los-andes/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/?wpdmdl=15723&refresh=6ac5255f9bb091791305055&ind=1770180488141&filename=2026_ANTECEDENTES_POSTULACION_BECA_SUPERIOR.pdf"
+    ],
+    "beneficio": "$450.000 para carrera profesional o $250.000 para nivel técnico; cien cupos por modalidad.",
+    "requisitos_principales": "Residencia en Los Andes y matrícula superior; acreditar notas previas, RSH e ingresos del grupo familiar y presentar antecedentes sujetos a evaluación social.",
+    "limites": "No aparecen umbrales numéricos de notas/RSH en los textos leídos. No aplicarlos por analogía. Mantener modalidades distintas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "8568b5a399f32efc017a64165a1ae4506dfd207d4ee0686f21e54b0131148deb",
+    "revisado": "2026-10-06",
+    "alcance": "Beca de Arancel Municipal Lampa; noticia oficial 2023.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://lampa.cl/noticias/asi-puedes-postular-a-la-beca-de-arancel-municipal-para-la-educacion-superior/"
+    ],
+    "beneficio": "Apoyo económico al arancel de educación superior; importe individual desconocido.",
+    "requisitos_principales": "Residencia/RSH de Lampa y necesidad socioeconómica. Egresados de media: NEM 6,0. Segundo año: promedio 5,5 y al menos 80% de ramos aprobados; matrícula 2023.",
+    "limites": "Confirmación histórica de arancel. No acredita beca de transporte ni materiales, ni convocatoria actual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "87d6aa970a561466fd44f04f7b7865cc9bd5fce4e881c859b56585a1dc72e6cc",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha oficial Beca enseñanza superior consultada el 6 de octubre de 2026.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.lascondes.cl/transparencia/tramites-organismo/direccion_desarrollo_comunitario.html"
+    ],
+    "beneficio": "Apoyo al pago de arancel mensual o similar; importe desconocido.",
+    "requisitos_principales": "Residencia y RSH de Las Condes; alumno regular en institución reconocida; primera carrera técnica/profesional de cuatro semestres como mínimo; notas 5,7 al egresar de media o 5,0 en superior. Evaluación social; excluye posgrado, segunda carrera y Apoyo al Empleo Juvenil 2026–2027.",
+    "limites": "No confundir con Subsidio Juvenil, que tiene otras notas y contraprestación. Importe, calendario y vigencia de postulación desconocidos. Las dos referencias se conservan.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "f6ec7b3e88f41b217c22f2942fe26153405fe62a7ccda45161f35af7b4cfe77a",
+    "revisado": "2026-10-06",
+    "alcance": "Beca Municipal Antofagasta 2023; comunicación de retiro publicada en mayo de 2024.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.municipalidadantofagasta.cl/index.php/noticias/3999-beca-municipal-2023-conoce-donde-retirarla"
+    ],
+    "beneficio": "Aporte monetario anual para básica, media y superior; cuantía individual desconocida.",
+    "requisitos_principales": "RSH actualizado; no recibir otra beca; rendimiento académico, deportivo o artístico destacado, o discapacidad según categorías; notas fijadas por el Concejo Municipal.",
+    "limites": "No confundir fecha de publicación con año del beneficio. Umbrales de notas y reglas 2026 desconocidos; presupuesto global no es importe individual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
