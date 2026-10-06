@@ -3391,5 +3391,132 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
+    "revisado": "2026-10-06",
+    "alcance": "PAES: modalidades públicas/subvencionadas y particulares; reglas de admisión 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-publicos-y-subvencionados",
+      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-particulares"
+    ],
+    "beneficio": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado.",
+    "requisitos_principales": "Primer ingreso; convocado; egreso escolar actual o anterior; puntaje de tabla propia. Bachilleratos excluidos.",
+    "limites": "No aplicar una misma tabla o renovación a ambas modalidades. Particulares: aprobación de créditos y sin reprobaciones; posible reintegro al retirarse. No confirma convocatoria 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
+    "revisado": "2026-10-06",
+    "alcance": "Económica: reglas publicadas con referencia expresa a admisión 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-uandes-economica"
+    ],
+    "beneficio": "15–70% de matrícula y arancel anual según evaluación económica.",
+    "requisitos_principales": "Ingreso por admisión directa o PAES; acreditar situación familiar con formulario completo y antecedentes; renovación económica anual.",
+    "limites": "RSH 60% histórico no acreditado. Calendario ahora 19 octubre 2026–30 enero 2027 frente a requisitos y matrícula de 2026: fechas desconocidas en el inventario. No certificar elegibilidad 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "3ae5586d0fae5eeda97689875a0c3f350b7e7013cd14da36a8025a34ebf95ab5",
+    "revisado": "2026-10-06",
+    "alcance": "NEM: ficha de postulación agosto–septiembre de 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-uandes-nem"
+    ],
+    "beneficio": "70% de arancel; matrícula 2 UF. Complemento con tres becas estatales puede alcanzar 100%.",
+    "requisitos_principales": "Colegio público/subvencionado de nómina; egreso actual/anterior; PAES correspondiente; NEM por carrera; refuerzo presencial.",
+    "limites": "No validar NEM universal 5,8. Nómina exige promedio escolar PAES 660; no convertirlo en puntaje individual. Ventana 11 agosto–11 septiembre 2026 vencida. Fechas conservadas; documentos exhaustivos desconocidos. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": "2026-08-11",
+    "fecha_cierre": "2026-09-11",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d71f011070e0a643659ede1d40035465e6fc14d9cbe28d1a6aa4dc12f2f1bfb1",
+    "revisado": "2026-10-06",
+    "alcance": "Alimentación: condiciones publicadas con referencia a admisión 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-alimentacion-uandes"
+    ],
+    "beneficio": "Crédito mensual en campus marzo–diciembre: $88.000 sin JUNAEB; $44.000 con ella.",
+    "requisitos_principales": "Acreditación económica completa; nuevos mediante formulario y vigentes mediante Banner; no ingreso de mitad de año; evaluación anual.",
+    "limites": "No acredita RSH 60%. No es transferencia bancaria. Calendario 19 octubre 2026–30 enero 2027 mezclado con admisión 2026: fechas desconocidas; no certificar convocatoria 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9b0b5f5bfbee7c03322f9b3723552f6e9cda60334929bcccc6e5bceb05a77bb9",
+    "revisado": "2026-10-06",
+    "alcance": "Hijo Funcionario: descuento institucional publicado; referencia admisión 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-hijo-funcionario"
+    ],
+    "beneficio": "50% de arancel anual. Bonificación de puntaje 5% es componente separado.",
+    "requisitos_principales": "Descuento: hijo de funcionario Universidad/ESE con contrato indefinido y jornada de al menos 33 horas; mantener vínculo laboral.",
+    "limites": "Descuento no incluye Clínica. Bonificación tiene jornada de 22 horas y reglas propias; Medicina tiene cupos y condiciones adicionales. Calendario solo meses 2026/2027; fechas desconocidas. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "b440cc318693acc838d640a383a1d452988c24549a890258655934b0bc55b58b",
+    "revisado": "2026-10-06",
+    "alcance": "Armada: condiciones y cupos etiquetados admisión 2026",
+    "informe": "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-armada-de-chile"
+    ],
+    "beneficio": "50% del arancel anual; matrícula íntegra.",
+    "requisitos_principales": "Hijo de funcionario activo/retirado de Armada bajo ley 18.476; egreso del año; convocado PAES; primer ingreso. Renovación: alumno regular; mitad superior; malla al día y sin reprobaciones.",
+    "limites": "Excluye bachilleratos e ingreso a mitad de año. Cupos 2026 no trasladados a 2027. Meses noviembre 2026/enero 2027 sin días; fechas desconocidas. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

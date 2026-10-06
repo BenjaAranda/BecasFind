@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 406 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 160 confirmación esencial: faltan 406 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 400 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 166 confirmación esencial: faltan 400 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -29,7 +29,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uach.csv | 4 | 4 | 0 | 4 | 0 | 0 |
 | becas_uah.csv | 4 | 4 | 3 | 1 | 0 | 3 |
 | becas_uai.csv | 5 | 5 | 3 | 2 | 0 | 3 |
-| becas_uandes.csv | 8 | 8 | 8 | 0 | 0 | 8 |
+| becas_uandes.csv | 8 | 8 | 2 | 6 | 0 | 2 |
 | becas_uautonoma.csv | 6 | 6 | 3 | 3 | 0 | 3 |
 | becas_ubb.csv | 4 | 4 | 2 | 2 | 0 | 2 |
 | becas_ubo.csv | 4 | 4 | 3 | 1 | 0 | 3 |
@@ -87,7 +87,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque36_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
 | bloque37_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
 | bloque38_muni.csv | 9 | 9 | 6 | 3 | 0 | 6 |
-| bloque5_docs.csv | 15 | 15 | 5 | 10 | 0 | 5 |
+| bloque5_docs.csv | 15 | 15 | 2 | 13 | 0 | 2 |
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 0 | 3 |
 | bloque6_docs.csv | 12 | 12 | 9 | 3 | 0 | 9 |
 | bloque6_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
