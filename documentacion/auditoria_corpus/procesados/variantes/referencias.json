@@ -1519,7 +1519,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "70cc47ac438139cde0dc4476cdde18108e009db8b9036d6db48c57d0f58a58e4",
+      "revisado": "2026-10-05",
+      "decision_identidad": "Las dos referencias históricas nombran el mismo programa de la misma institución; delimitado al alcance específico de la fuente oficial, sin fusionar programas de otra sede o modalidad.",
+      "informe": "CONCILIACION_HOGAR_UACH.md",
+      "fuentes": [
+        "https://dae.uach.cl/comienza-proceso-de-postulacion-a-residencias-estudiantiles-para-nuevos-as-estudiantes/"
+      ],
+      "campos": {
+        "descripcion": "Cupo en residencia estudiantil en Valdivia administrada por Fundación Leiva Mella; coste o gratuidad del alojamiento desconocidos.",
+        "descripcion_larga": "Matrícula UACh; preselección Gratuidad FUAS; familia fuera de Valdivia; cartola RSH y necesidad socioeconómica de alojamiento; cupos limitados con prioridad de puntaje PAES/PDT. Ficha 2023 discrepa cierre 20/22 enero; no calendario confirmado. No trasladar reglas a 2026 ni certificar bajo costo, copago o cobertura de Puerto Montt. Reglamento 2024 no leído completamente. Sin activación ni sobrescritura de base; documentos exhaustivos no certificados.",
+        "documentos_requeridos": "No conservar lista histórica como universal. Ficha 2023 solo enumera cartola RSH y comprobante FUAS; no certificar lista 2026.",
+        "monto": "Cupo en residencia estudiantil en Valdivia administrada por Fundación Leiva Mella; coste o gratuidad del alojamiento desconocidos."
+      }
+    }
   },
   {
     "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
@@ -3355,7 +3369,21 @@
       "documentos_requeridos",
       "monto"
     ],
-    "conciliacion": null
+    "conciliacion": {
+      "candidato": "e32478188248c1e8d179052cb8d9f6ff40b424a6bd0eff7637228ce064656933",
+      "revisado": "2026-10-05",
+      "decision_identidad": "Las dos referencias históricas nombran el mismo programa de la misma institución; delimitado al alcance específico de la fuente oficial, sin fusionar programas de otra sede o modalidad.",
+      "informe": "CONCILIACION_ALIMENTACION_UFRO.md",
+      "fuentes": [
+        "https://admision.ufro.cl/becas-y-beneficios/programa-de-alimentacion-ufro/"
+      ],
+      "campos": {
+        "descripcion": "Un almuerzo menú ejecutivo; no respaldo para cena ni subsidio monetario.",
+        "descripcion_larga": "Estudiante UFRO sin BAES, con beneficios de arancel y domicilio acreditado. No atribuir RSH máximo 60 ni modalidad Complemento BAES 2022. Portal rotula admisión 2027 y pie 2026: alcance de servicio publicado, sin convocatoria anual certificada; fechas y documentación específica desconocidas. Sin activación ni sobrescritura de base; documentos exhaustivos no certificados.",
+        "documentos_requeridos": "No conservar lista histórica como universal. Ficha no publica lista exhaustiva; desconocida. No documentos de alojamiento en programa de almuerzo.",
+        "monto": "Un almuerzo menú ejecutivo; no respaldo para cena ni subsidio monetario."
+      }
+    }
   },
   {
     "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
