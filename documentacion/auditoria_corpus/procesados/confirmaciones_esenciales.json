@@ -3518,5 +3518,111 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "210deca2ecb50907fb94d96cdfe23efa4ed3ef0c1e7eb984c9754f340b2d841e",
+    "revisado": "2026-10-06",
+    "alcance": "Convocatoria de educación superior 2026",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
+    "fuentes": [
+      "https://munisancarlos.cl/municipio-de-san-carlos-inicia-postulacion-a-becas-municipales-y-aumenta-su-presupuesto-en-mas-del-27/"
+    ],
+    "beneficio": "45000 CLP mensuales durante diez meses de marzo a diciembre; incompatible con gratuidad.",
+    "requisitos_principales": "Residencia en San Carlos; matrícula 2026; RSH entre 40 y 70 según el anuncio.",
+    "limites": "No trasladar la nota 6.7 de Excelencia Académica ni el importe de Especial de Gratuidad. Documentación exhaustiva desconocida. Mantener inactiva.",
+    "fecha_inicio": "2026-01-15",
+    "fecha_cierre": "2026-02-15",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "7bd59e5f3a91602b9a21dee25c39608ea0628df60bc230aea7250a5010e6d619",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha municipal sin convocatoria anual identificada",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
+    "fuentes": [
+      "https://www.cisterna.cl/paginas/beneficios-sociales-y-apoyos-sociales-directos-nan"
+    ],
+    "beneficio": "Beca anual para gastos de materiales; vestuario y otras necesidades académicas; importe desconocido.",
+    "requisitos_principales": "Vecinos que inician estudios superiores en universidades o institutos; atención y evaluación mediante entrevista social.",
+    "limites": "Rendición del beneficio anterior para volver a postular. No certifica condiciones 2026; calendario y lista documental exhaustiva desconocidos. Mantener inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "0c7d609c72fc361501e101e307c3212b5002b02e8797efdc1d9116aa55f3697d",
+    "revisado": "2026-10-06",
+    "alcance": "Convocatoria de educación superior 2026",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
+    "fuentes": [
+      "https://huechuraba.cl/sala-de-prensa/1720/detalle/postula-hasta-el-22-de-marzo"
+    ],
+    "beneficio": "Total de 430000 CLP dentro de la Región Metropolitana o 560000 CLP fuera; dividido en dos cuotas semestrales.",
+    "requisitos_principales": "Carrera técnica o profesional de al menos cuatro semestres; promedio anual mínimo 5.5; RSH comunal entre 40 y 60; CuentaRUT.",
+    "limites": "El promedio anual no se transforma en NEM. Cada cuota no equivale al total. Lista documental exhaustiva desconocida. Mantener inactiva.",
+    "fecha_inicio": "2026-03-09",
+    "fecha_cierre": "2026-03-22",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "dd49dcb2f2121f804fb53b15658a8cc81bd53d80df7694ac6f82b2937b59442c",
+    "revisado": "2026-10-06",
+    "alcance": "Reglas esenciales anunciadas para educación superior 2026",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
+    "fuentes": [
+      "https://penco.cl/penco-abre-postulacion-a-mil-becas-para-la-educacion-superior-con-una-inversion-de-100-millones-de-pesos/"
+    ],
+    "beneficio": "100000 CLP por beneficiario de libre disposición; periodicidad desconocida.",
+    "requisitos_principales": "Residencia en Penco; inscripción en RSH; egresados de cuarto medio 2025 con promedio mínimo 5.5 o estudiantes superiores con promedio mínimo 5.0.",
+    "limites": "La noticia cierra el 6 de marzo y el formulario previamente contrastado el 9 de marzo; calendario desconocido por contradicción. No inventar tope RSH 60 ni NEM; documentos exhaustivos desconocidos. Mantener inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "562bf410b8ecba207698ab4f822528607ecca24c1864a78bd4f582e6346a6123",
+    "revisado": "2026-10-06",
+    "alcance": "Ficha específica de educación superior 2026 enlazada por el municipio",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
+    "fuentes": [
+      "https://lobarnechea.cl/Noticias/becas-municipales-beneficios-y-plazos-para-postular/",
+      "https://mlobarnechea.custhelp.com/app/postulaciones/inicio/a_id/61/incidents.c%24tipo_atencion/217"
+    ],
+    "beneficio": "Hasta 750000 CLP por semestre para arancel; pago directo a la institución; segundo semestre sujeto a renovación.",
+    "requisitos_principales": "Residencia comunal y necesidad económica; matrícula en institución admitida; sin título profesional previo; no funcionario municipal; promedio anterior mínimo 5.0.",
+    "limites": "Para ingreso se usa cuarto medio; no NEM. RSH 71–100 puede evaluarse: no tope universal 70. Modalidades presencial; en línea e híbrida. Extranjeros con residencia definitiva. Documentación exhaustiva desconocida. Mantener inactiva.",
+    "fecha_inicio": "2026-03-01",
+    "fecha_cierre": "2026-03-25",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

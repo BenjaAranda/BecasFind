@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 400 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 166 confirmación esencial: faltan 400 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 395 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 171 confirmación esencial: faltan 395 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -58,12 +58,12 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_utfsm.csv | 6 | 6 | 1 | 5 | 0 | 1 |
 | becas_uv.csv | 4 | 4 | 2 | 2 | 0 | 2 |
 | becas_uvm.csv | 4 | 4 | 3 | 1 | 0 | 3 |
-| bloque10_muni.csv | 10 | 10 | 6 | 4 | 0 | 6 |
+| bloque10_muni.csv | 10 | 10 | 5 | 5 | 0 | 5 |
 | bloque11_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque12_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque13_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
+| bloque13_muni.csv | 10 | 10 | 4 | 6 | 0 | 4 |
 | bloque14_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque15_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
+| bloque15_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
 | bloque16_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque17_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque18_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
