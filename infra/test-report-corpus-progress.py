@@ -12,10 +12,15 @@ spec.loader.exec_module(module)
 class ProgressTest(unittest.TestCase):
     def test_specific_wordpress_page_without_accepting_generic_root(self):
         self.assertTrue(module.specific_source('https://admision.umag.cl/?page_id=4099'))
+        self.assertTrue(module.specific_source('https://web.molina.cl/?p=81797'))
         for url in ['https://example.org/', 'https://example.org/?search=becas',
                     'https://example.org/?page_id=0', 'https://example.org/?page_id=abc',
                     'https://example.org/?page_id=1&page_id=2', 'http://example.org/?page_id=1',
-                    'https://user:password@example.org/?page_id=1']:
+                    'https://user:password@example.org/?page_id=1',
+                    'https://example.org/?p=0', 'https://example.org/?p=abc',
+                    'https://example.org/?p=1&p=2', 'https://example.org/?p=1&p=',
+                    'https://example.org/?p=1&page_id=2', 'https://example.org/?p=١',
+                    'https://user:password@example.org/?p=1', 'http://example.org/?p=1']:
             with self.subTest(url=url):
                 self.assertFalse(module.specific_source(url))
 

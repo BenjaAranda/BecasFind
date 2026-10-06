@@ -12,7 +12,11 @@ def specific_source(url):
         return False
     if parsed.path not in ('', '/'):
         return True
-    page_ids = parse_qs(parsed.query).get('page_id', [])
+    query = parse_qs(parsed.query, keep_blank_values=True)
+    keys = [key for key in ('page_id', 'p') if key in query]
+    if len(keys) != 1:
+        return False
+    page_ids = query[keys[0]]
     return len(page_ids) == 1 and page_ids[0].isascii() and page_ids[0].isdigit() and int(page_ids[0]) > 0
 
 

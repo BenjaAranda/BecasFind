@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 423 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 143 confirmación esencial: faltan 423 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 406 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 160 confirmación esencial: faltan 406 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
 
@@ -8,8 +8,8 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 
 | Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Sin revisión individual | Pendientes de cierre |
 |---|---:|---:|---:|---:|---:|---:|
-| auditoria_municipal.csv | 16 | 16 | 14 | 2 | 0 | 14 |
-| auditoria_municipal_fix.csv | 16 | 16 | 14 | 2 | 0 | 14 |
+| auditoria_municipal.csv | 16 | 16 | 11 | 5 | 0 | 11 |
+| auditoria_municipal_fix.csv | 16 | 16 | 11 | 5 | 0 | 11 |
 | beca_uai_fix.csv | 1 | 1 | 1 | 0 | 0 | 1 |
 | becas_aiep.csv | 5 | 5 | 3 | 2 | 0 | 3 |
 | becas_cftenac.csv | 6 | 6 | 6 | 0 | 0 | 6 |
@@ -18,9 +18,9 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_ipchile.csv | 6 | 6 | 4 | 2 | 0 | 4 |
 | becas_junaeb.csv | 4 | 4 | 1 | 3 | 0 | 1 |
 | becas_mineduc.csv | 5 | 5 | 0 | 5 | 0 | 0 |
-| becas_munialgarrobo.csv | 2 | 2 | 2 | 0 | 0 | 2 |
+| becas_munialgarrobo.csv | 2 | 2 | 1 | 1 | 0 | 1 |
 | becas_munilaserena.csv | 2 | 2 | 2 | 0 | 0 | 2 |
-| becas_munistgo.csv | 2 | 2 | 2 | 0 | 0 | 2 |
+| becas_munistgo.csv | 2 | 2 | 1 | 1 | 0 | 1 |
 | becas_munivalpo.csv | 2 | 2 | 2 | 0 | 0 | 2 |
 | becas_munivina.csv | 2 | 2 | 2 | 0 | 0 | 2 |
 | becas_puc.csv | 3 | 3 | 2 | 1 | 0 | 2 |
@@ -58,15 +58,15 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_utfsm.csv | 6 | 6 | 1 | 5 | 0 | 1 |
 | becas_uv.csv | 4 | 4 | 2 | 2 | 0 | 2 |
 | becas_uvm.csv | 4 | 4 | 3 | 1 | 0 | 3 |
-| bloque10_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque11_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque10_muni.csv | 10 | 10 | 6 | 4 | 0 | 6 |
+| bloque11_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque12_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque13_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
-| bloque14_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
+| bloque13_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
+| bloque14_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque15_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque16_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque17_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque18_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque17_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque18_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque19_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
 | bloque20_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
 | bloque21_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
@@ -83,16 +83,16 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque32_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque33_muni.csv | 10 | 10 | 8 | 2 | 0 | 8 |
 | bloque34_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
-| bloque35_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
-| bloque36_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
-| bloque37_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
+| bloque35_muni.csv | 10 | 10 | 6 | 4 | 0 | 6 |
+| bloque36_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
+| bloque37_muni.csv | 10 | 10 | 7 | 3 | 0 | 7 |
 | bloque38_muni.csv | 9 | 9 | 6 | 3 | 0 | 6 |
 | bloque5_docs.csv | 15 | 15 | 5 | 10 | 0 | 5 |
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 0 | 3 |
 | bloque6_docs.csv | 12 | 12 | 9 | 3 | 0 | 9 |
 | bloque6_muni.csv | 10 | 10 | 10 | 0 | 0 | 10 |
 | bloque7_docs.csv | 12 | 12 | 7 | 5 | 0 | 7 |
-| bloque7_muni.csv | 10 | 10 | 6 | 4 | 0 | 6 |
+| bloque7_muni.csv | 10 | 10 | 5 | 5 | 0 | 5 |
 | bloque8_docs.csv | 16 | 16 | 13 | 3 | 0 | 13 |
 | bloque9_docs.csv | 6 | 6 | 5 | 1 | 0 | 5 |
 | bloque9_muni.csv | 10 | 10 | 9 | 1 | 0 | 9 |
@@ -100,6 +100,6 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | municipalidades_auditadas.csv | 4 | 4 | 1 | 3 | 0 | 1 |
 | municipalidades_bloque3.csv | 4 | 4 | 4 | 0 | 0 | 4 |
 | municipalidades_final.csv | 2 | 2 | 1 | 1 | 0 | 1 |
-| municipalidades_urbano.csv | 5 | 5 | 4 | 1 | 0 | 4 |
+| municipalidades_urbano.csv | 5 | 5 | 3 | 2 | 0 | 3 |
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
