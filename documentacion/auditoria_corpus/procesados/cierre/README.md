@@ -14,6 +14,6 @@ Las fuentes nuevas de las confirmaciones se documentan en sus informes y evidenc
 
 `../confirmaciones_esenciales.json` registra el nuevo criterio autorizado: identidad, fuente oficial específica, beneficio y requisitos principales. Los documentos y el calendario no publicados no bloquean este cierre; permanecen desconocidos. No se certifican años futuros ni se publica una beca sin cierre confirmado. El inventario distingue `CONFIRMADA_ESENCIAL` de `CONFIRMADA_COMPLETA`.
 
-Estado actual: 171 confirmaciones esenciales; dos exhaustivas; 53 descartes editoriales y 342 candidatas por resolver. Grupos: 21 conciliados; dos descartados y 36 pendientes. Los descartes conservan originales y registros administrativos inactivos; no afirman inexistencia ni cuentan como confirmaciones. ../descartes.json contiene motivos; alcance y evidencia individual. No hubo activaciones.
+Estado actual: 171 confirmaciones esenciales; dos exhaustivas; 103 descartes editoriales y 292 candidatas por resolver. Grupos: 21 conciliados; nueve descartados y 29 pendientes. Los descartes conservan originales y registros administrativos inactivos; no afirman inexistencia ni cuentan como confirmaciones. ../descartes.json contiene motivos; alcance y evidencia individual. No hubo activaciones.
 
 Reproducir: `python infra/report-corpus-progress.py` y `python infra/audit-editorial-evidence.py`. Para comprobar acceso nuevamente: `python infra/audit-editorial-evidence.py --comprobar-acceso`.

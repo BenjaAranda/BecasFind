@@ -667,7 +667,17 @@
       "regiones"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
+      "revisado": "2026-10-06",
+      "motivo": "Mantención Regiones financia 50 UF anuales y excluye RM y Valparaíso; no acredita Fomento Regional con rebaja de arancel del 20%. No equiparar programas.",
+      "criterio": "PROGRAMA_DISTINTO",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
+      ]
+    }
   },
   {
     "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
@@ -773,7 +783,17 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
+      "revisado": "2026-10-06",
+      "motivo": "Excelencia tiene modalidades y tablas; ingreso 2026 contradice egreso escolar 2026 y portal 2027. Contradicción afecta cohorte elegible: pendiente, sin validar 50% toda carrera.",
+      "criterio": "CONTRADICCION_MATERIAL",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md"
+      ]
+    }
   },
   {
     "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
@@ -1039,7 +1059,17 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+      "revisado": "2026-10-06",
+      "motivo": "Política de descuentos UVM permite ayudas de matrícula pero no acredita identidad y reglas del programa Matrícula genérico.",
+      "criterio": "IDENTIDAD_NO_ACREDITADA",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
+      ]
+    }
   },
   {
     "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
@@ -1231,7 +1261,17 @@
       "regiones"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
+      "revisado": "2026-10-06",
+      "motivo": "Convenios familiares de instituciones concretas no acreditan descuento Familiar universal UCSH.",
+      "criterio": "IDENTIDAD_NO_ACREDITADA",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
+      ]
+    }
   },
   {
     "candidato": "61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4",
@@ -1419,7 +1459,17 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+      "revisado": "2026-10-06",
+      "motivo": "La ficha consultada acredita alimentación para representación deportiva; no la beca general vulnerable del histórico ni compatibilidad BAES.",
+      "criterio": "PROGRAMA_DISTINTO",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
+      ]
+    }
   },
   {
     "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
@@ -3245,7 +3295,17 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
+      "revisado": "2026-10-06",
+      "motivo": "PAES UBO es descuento por carrera y puntaje hasta 80% con requisitos propios. No se acredita equivalencia con el alias Excelencia y NEM del histórico.",
+      "criterio": "IDENTIDAD_NO_ACREDITADA",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
+      ]
+    }
   },
   {
     "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
@@ -3799,6 +3859,16 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+      "revisado": "2026-10-06",
+      "motivo": "La ficha Excelencia Puntaje Trayectoria Educativa contiene modalidades y una contradicción entre descuento posterior a becas ministeriales e incompatibilidad Mineduc. No certificar cobertura y compatibilidad sin resolverla.",
+      "criterio": "CONTRADICCION_MATERIAL",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
+      ]
+    }
   }
 ]

@@ -15,4 +15,4 @@ Trece grupos están conciliados: dos USM, tres UCN, dos UV, dos UANDES, tres UTa
 Reproducir desde la raíz: `python infra/report-corpus-variants.py`.
 
 
-Actualización del 6 de octubre: 21 grupos conciliados; dos descartados editorialmente y 36 pendientes. Los descartes excluyen todas las referencias del candidato de la selección para publicar; no concilian sus campos ni eliminan originales. Evidencia: [descartes](../DESCARTE_EDITORIAL_INSTITUCIONES_53.md).
+Actualización del 6 de octubre: 21 grupos conciliados; nueve descartados editorialmente y 29 por resolver. Los descartes excluyen todas las referencias del candidato; no concilian sus campos ni eliminan originales. Evidencia: [primer lote](../DESCARTE_EDITORIAL_INSTITUCIONES_53.md) y [segundo lote](../DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md).
