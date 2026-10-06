@@ -3624,26 +3624,5 @@
       "cobertura": true,
       "requisitos_principales": true
     }
-  },
-  {
-    "candidato": "663b36cb2ba3adac80121dbc8a63e9185ee7e88f79ab5cb0840d0483e1d355f1",
-    "revisado": "2026-10-06",
-    "alcance": "Reglas públicas esenciales de Beca Deportiva UCSC; sin convocatoria anual abierta certificada",
-    "informe": "CIERRE_ESENCIAL_DEPORTIVA_UCSC.md",
-    "fuentes": [
-      "https://ucsc.cl/admision/pregrado/becas-y-financiamiento/becas-y-beneficios/?id=beca-deportiva"
-    ],
-    "beneficio": "Rebaja porcentual del arancel anual de pregrado; porcentaje individual desconocido.",
-    "requisitos_principales": "Matrícula de pregrado; selección o preselección nacional o extranjera o selección regional de nivel equivalente; deportes aprobados; currículo deportivo evaluado por la Unidad de Deportes.",
-    "limites": "La ficha indica primera semana de marzo sin año ni día exacto; no se fija cierre 2026. Porcentaje universal, RSH y NEM desconocidos. Renovación sujeta a requisitos de Deportes. No se confirma expediente exhaustivo ni se activa la beca.",
-    "fecha_inicio": null,
-    "fecha_cierre": null,
-    "documentos": null,
-    "verificaciones": {
-      "identidad": true,
-      "fuente_oficial": true,
-      "cobertura": true,
-      "requisitos_principales": true
-    }
   }
 ]

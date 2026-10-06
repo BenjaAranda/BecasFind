@@ -92,6 +92,22 @@
     }
   },
   {
+    "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
+    "informe": "CONCILIACION_UV_2.md",
+    "fuentes": [
+      "https://contraloriainterna.uv.cl/attachments/CONTENIDO/CONTROL%20DE%20JURIDICIDAD/NORMATIVA%20UNIVERSITARIA/DEXE_N_4218_2016.pdf"
+    ],
+    "campos": {
+      "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
+      "institucion": "Normalizar Universidad de Valparaíso; preservar originales.",
+      "monto": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración."
+    }
+  },
+  {
     "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
     "revisado": "2026-10-02",
     "decision_identidad": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe.",
@@ -149,6 +165,22 @@
       "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
       "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
       "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante."
+    }
+  },
+  {
+    "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+    "informe": "CONCILIACION_UTALCA_3.md",
+    "fuentes": [
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf",
+      "https://www.utalca.cl/noticias/utalca-apoya-los-deportistas-traves-de-nueva-beca-de-excelencia/"
+    ],
+    "campos": {
+      "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
+      "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
     }
   },
   {
@@ -302,171 +334,6 @@
       "url": "https://www.uvm.cl/deporte/",
       "institucion": "Universidad Viña del Mar. Variantes de tilde y doble codificación del histórico refieren a la misma institución; originales se conservan.",
       "regiones": "Alcance territorial desconocido; no inferir V/RM ni nacionalidad del beneficio a partir de sede o vacío."
-    }
-  },
-  {
-    "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
-    ],
-    "campos": {
-      "descripcion": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio.",
-      "descripcion_larga": "Deportista destacado o seleccionado nacional que participe representando a UPLA; evaluación de especialistas coordinada por Deportes. No 20% fijo; no generalizar alimentación deportiva a todo estudiante vulnerable. Alcance 2025 sin convocatoria actual acreditada. Sin activación ni sobrescritura de base.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio. No adoptar cuantías históricas no corroboradas.",
-      "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
-    }
-  },
-  {
-    "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://www.mpuentealto.cl/estudiantes-de-puente-alto-reciben-beca-municipal-de-educacion-superior/"
-    ],
-    "campos": {
-      "descripcion": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido.",
-      "descripcion_larga": "Estudiantes comunales de educación superior o técnica sin gratuidad. Aviso específico leído y fechado 31 de marzo de 2023. No confirma convocatoria 2026, RSH 60%, nota 5,0, escuelas matrices ni cuantías del histórico. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido. No adoptar cuantías históricas no corroboradas."
-    }
-  },
-  {
-    "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://www.munistgo.cl/beca-de-estudios/",
-      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
-    ],
-    "campos": {
-      "descripcion": "Aporte único de $450.000 CLP en 2026.",
-      "descripcion_larga": "Residencia del estudiante y familia; RSH comunal con seis meses; vulnerabilidad. Notas: 6,0 egreso medio; 5,0 carreras de ocho o más semestres; 5,5 carreras de cuatro a siete. Excluye distancia y títulos previos con excepción técnica publicada. No trasladar automáticamente condiciones de ficha titulada 2025 a toda la convocatoria 2026. RSH 60% y cierres históricos no acreditados. Se corrige la interpretación del importe histórico; base ya corregida en entrega anterior. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "fecha_cierre": "Cierre desconocido. Ninguna fecha histórica distinta se convierte en cierre confirmado; no activar.",
-      "monto": "Aporte único de $450.000 CLP en 2026. No adoptar cuantías históricas no corroboradas.",
-      "nem_minimo": "NEM mínimo global desconocido. Conservar requisitos por modalidad: Residencia del estudiante y familia; RSH comunal con seis meses; vulnerabilidad. Notas: 6,0 egreso medio; 5,0 carreras de ocho o más semestres; 5,5 carreras de cuatro a siete. Excluye distancia y títulos previos con excepción técnica publicada. No convertir promedio universitario o notas documentadas en un NEM universal.",
-      "tipo_beca": "Apoyo económico municipal para educación superior; no beca de excelencia universal. Conservar modalidad y condiciones de la confirmación, sin modificar el catálogo administrativo.",
-      "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://www.munistgo.cl/beca-de-estudios/; https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
-    }
-  },
-  {
-    "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-publicos-y-subvencionados",
-      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-particulares"
-    ],
-    "campos": {
-      "descripcion": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado.",
-      "descripcion_larga": "Primer ingreso; convocado; egreso escolar actual o anterior; puntaje de tabla propia. Bachilleratos excluidos. No aplicar una misma tabla o renovación a ambas modalidades. Particulares: aprobación de créditos y sin reprobaciones; posible reintegro al retirarse. No confirma convocatoria 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado. No adoptar cuantías históricas no corroboradas."
-    }
-  },
-  {
-    "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://diario.uach.cl/uach-abre-proceso-de-postulacion-a-beca-para-deportistas-destacados-as-2026/"
-    ],
-    "campos": {
-      "descripcion": "Beca de arancel para deportistas destacados; porcentaje desconocido.",
-      "descripcion_larga": "Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador. Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Beca de arancel para deportistas destacados; porcentaje desconocido. No adoptar cuantías históricas no corroboradas."
-    }
-  },
-  {
-    "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://webdae.uta.cl/index.php/beneficios-complementarios/"
-    ],
-    "campos": {
-      "descripcion": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos.",
-      "descripcion_larga": "Sin BAES ni título profesional; primeros seis deciles y asignaturas inscritas y ratificadas; sujeto a presupuesto. No certificar almuerzo y cena ni sustituir deciles por RSH. Postulación semestral por intranet sin fechas exactas. Sin activación ni sobrescritura de base.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "institucion": "Normalizar identidad editorial a Universidad de Tarapacá. Las diferencias ortográficas no crean otra institución; originales intactos.",
-      "monto": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos. No adoptar cuantías históricas no corroboradas.",
-      "regiones": "Beneficio interno de Universidad de Tarapacá. Regiones de cobertura no corroboradas en la confirmación; conservar desconocido editorialmente sin adoptar una lista histórica ni vaciar asociaciones administrativas para declararlo nacional.",
-      "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://webdae.uta.cl/index.php/beneficios-complementarios/"
-    }
-  },
-  {
-    "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
-    ],
-    "campos": {
-      "descripcion": "Ayuda parcial para gastos de residencia.",
-      "descripcion_larga": "Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario. Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "institucion": "Normalizar identidad editorial a Universidad del Bío-Bío. Las diferencias ortográficas no crean otra institución; originales intactos.",
-      "monto": "Ayuda parcial para gastos de residencia. No adoptar cuantías históricas no corroboradas.",
-      "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
-    }
-  },
-  {
-    "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
-    ],
-    "campos": {
-      "descripcion": "Apoyo económico universitario; importe y periodicidad desconocidos.",
-      "descripcion_larga": "Alumno regular/matriculado; RSH de Algarrobo; acreditar arancel, notas e ingresos familiares mediante formulario social. Página completa obtenida directamente. No acredita RSH 60%, promedio mínimo 5,0 ni rango monetario original. Marzo–abril no permite inventar día exacto de cierre. Movilidad/Combustible es otro programa. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Apoyo económico universitario; importe y periodicidad desconocidos. No adoptar cuantías históricas no corroboradas.",
-      "nem_minimo": "NEM mínimo global desconocido. Conservar requisitos por modalidad: Alumno regular/matriculado; RSH de Algarrobo; acreditar arancel, notas e ingresos familiares mediante formulario social. No convertir promedio universitario o notas documentadas en un NEM universal.",
-      "tipo_beca": "Apoyo económico municipal para educación superior; no beca de excelencia universal. Conservar modalidad y condiciones de la confirmación, sin modificar el catálogo administrativo."
-    }
-  },
-  {
-    "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://admision.uahurtado.cl/becas-y-beneficios/"
-    ],
-    "campos": {
-      "descripcion": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
-      "descripcion_larga": "Destacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado. Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre. No adoptar cuantías históricas no corroboradas.",
-      "url": "Usar exclusivamente las fuentes específicas de la confirmación: https://admision.uahurtado.cl/becas-y-beneficios/"
-    }
-  },
-  {
-    "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
-    "revisado": "2026-10-06",
-    "decision_identidad": "Misma identidad histórica agrupada; utilizar únicamente el alcance y las modalidades de la confirmación esencial individual, sin fusionar sus condiciones.",
-    "informe": "CONCILIACION_FINAL_10.md",
-    "fuentes": [
-      "https://admisionucsh.cl/becas-y-beneficios/"
-    ],
-    "campos": {
-      "descripcion": "Hasta 100% del arancel anual o proporción evaluada.",
-      "descripcion_larga": "Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH. Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
-      "documentos_requeridos": "Expediente completo desconocido. No elegir ninguna lista histórica como obligatoria sin corroboración; documentos principales mencionados en la confirmación conservan su alcance parcial.",
-      "monto": "Hasta 100% del arancel anual o proporción evaluada. No adoptar cuantías históricas no corroboradas."
     }
   }
 ]
