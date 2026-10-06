@@ -14,6 +14,6 @@ Las fuentes nuevas de las confirmaciones se documentan en sus informes y evidenc
 
 `../confirmaciones_esenciales.json` registra el nuevo criterio autorizado: identidad, fuente oficial específica, beneficio y requisitos principales. Los documentos y el calendario no publicados no bloquean este cierre; permanecen desconocidos. No se certifican años futuros ni se publica una beca sin cierre confirmado. El inventario distingue `CONFIRMADA_ESENCIAL` de `CONFIRMADA_COMPLETA`.
 
-Estado actual: 21 confirmaciones esenciales y dos exhaustivas anteriores —Dalcahue superior 2026 y BUCH ingreso 2027—; 545 candidatas pendientes esenciales. Trece grupos USM/UCN/UV/UANDES/UTalca/UFT conciliados; 46 pendientes. El cierre esencial no resuelve automáticamente sus campos históricos discrepantes. No hubo activaciones. Límites y datos desconocidos permanecen expresos.
+Estado actual: 171 confirmaciones esenciales; dos exhaustivas; 53 descartes editoriales y 342 candidatas por resolver. Grupos: 21 conciliados; dos descartados y 36 pendientes. Los descartes conservan originales y registros administrativos inactivos; no afirman inexistencia ni cuentan como confirmaciones. ../descartes.json contiene motivos; alcance y evidencia individual. No hubo activaciones.
 
 Reproducir: `python infra/report-corpus-progress.py` y `python infra/audit-editorial-evidence.py`. Para comprobar acceso nuevamente: `python infra/audit-editorial-evidence.py --comprobar-acceso`.

@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+from corpus_discard import read_discards
 
 
 def read_csv(path):
@@ -57,7 +58,7 @@ def inventory(folder):
         if candidate not in variants or variants[candidate].get('estado') != 'CONCILIADO' or not (folder/'variantes'/entry['informe']).is_file():
             raise ValueError('Conciliación sin grupo cerrado o informe')
     for key, case in cases.items():
-        case.update(estado=case['estado'] if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL') else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
+        case.update(estado=case['estado'] if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL', 'DESCARTADA_EDITORIAL') else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
                     estado_variantes=variants.get(key, {}).get('estado', 'SIN_GRUPO_REPETIDO'),
                     campos_historicos_distintos=variants.get(key, {}).get('campos_distintos', ''),
                     informe_conciliacion='variantes/'+reconciliations[key]['informe'] if key in reconciliations else '',
@@ -73,6 +74,12 @@ def inventory(folder):
             raise ValueError('Confirmación esencial sin estado validado o informe')
         case['confirmacion_esencial'] = entry
         case['accion'] = 'Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.'
+    confirmed = {key for key,case in cases.items() if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL')}
+    for key, entry in read_discards(folder, cases, confirmed).items():
+        if cases[key]['estado'] != 'DESCARTADA_EDITORIAL':
+            raise ValueError('Descarte sin estado validado')
+        cases[key]['descarte'] = entry
+        cases[key]['accion'] = 'Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.'
     return list(cases.values()), {name:{key:value for key,value in report.items() if key!='texto'} for name,report in reports.items()}
 
 

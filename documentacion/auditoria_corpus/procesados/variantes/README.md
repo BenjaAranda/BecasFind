@@ -13,3 +13,6 @@ Los 59 grupos tienen al menos un campo distinto. Una diferencia puede ser de esc
 Trece grupos están conciliados: dos USM, tres UCN, dos UV, dos UANDES, tres UTalca y uno UFT. Quedan 46 pendientes. `conciliaciones.json` enlaza el informe individual de cada decisión de identidad y campo discrepante; los documentos no corroborados quedan desconocidos. Los informes también explican por qué PAES UANDES y Excelencia UFT continúan pendientes. Para cerrar un grupo hay que identificar el beneficio oficial; distinguir modalidades y años; contrastar los campos contradictorios y documentar la decisión. Los originales se mantienen intactos. Una conciliación no activa automáticamente la beca ni equivale por sí sola a confirmar todos sus requisitos.
 
 Reproducir desde la raíz: `python infra/report-corpus-variants.py`.
+
+
+Actualización del 6 de octubre: 21 grupos conciliados; dos descartados editorialmente y 36 pendientes. Los descartes excluyen todas las referencias del candidato de la selección para publicar; no concilian sus campos ni eliminan originales. Evidencia: [descartes](../DESCARTE_EDITORIAL_INSTITUCIONES_53.md).

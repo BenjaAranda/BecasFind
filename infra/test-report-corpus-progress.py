@@ -10,6 +10,45 @@ spec.loader.exec_module(module)
 
 
 class ProgressTest(unittest.TestCase):
+    def discard(self, folder):
+        (folder/'discard.md').write_text('a: identidad histórica sin respaldo', encoding='utf-8')
+        entry = dict(candidato='a', revisado='2026-10-06', motivo='Alias no identificable',
+                     alcance='Exclusión editorial con histórico conservado', informe='discard.md', evidencia=['review.md'])
+        (folder/'descartes.json').write_text(json.dumps([entry]), encoding='utf-8')
+        return entry
+
+    def test_discard_closes_all_duplicate_references_without_counting_confirmation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            self.discard(folder)
+            totals = module.report(folder)
+            self.assertEqual(1, totals['descartadas'])
+            self.assertEqual(2, totals['pendientes_confirmacion'])
+            self.assertEqual(0, totals['confirmadas_esenciales'])
+            rows = module.read_csv(folder/'avance/por_registro.csv')
+            discarded = [row for row in rows if row['candidato']=='a']
+            self.assertEqual(2, len(discarded))
+            self.assertTrue(all(row['estado']=='DESCARTADA_EDITORIAL' and row['pendiente_confirmacion']=='false' for row in discarded))
+
+    def test_discard_cannot_override_a_confirmation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            self.confirmation(folder)
+            self.discard(folder)
+            with self.assertRaises(ValueError):
+                module.report(folder)
+
+    def test_discard_without_individual_evidence_is_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            self.discard(folder)
+            (folder/'discard.md').write_text('Sin identificador del caso', encoding='utf-8')
+            with self.assertRaises(ValueError):
+                module.report(folder)
+
     def test_specific_wordpress_page_without_accepting_generic_root(self):
         self.assertTrue(module.specific_source('https://admision.umag.cl/?page_id=4099'))
         self.assertTrue(module.specific_source('https://web.molina.cl/?p=81797'))

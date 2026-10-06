@@ -23,7 +23,7 @@ class VariantsTest(unittest.TestCase):
             for path, data in [('originales.jsonl', originals), ('reparaciones/reparados.jsonl', repairs)]:
                 (folder/path).write_text('\n'.join(json.dumps(row) for row in data), encoding='utf-8')
             (folder/'indice.csv').write_text('candidato,nombre,institucion\na,Beca A,Institución\nb,Beca B,Institución\n', encoding='utf-8')
-            self.assertEqual(dict(grupos=1, referencias=2, referencias_adicionales=1, grupos_con_campos_distintos=1, grupos_conciliados=0, grupos_pendientes=1), module.report(folder))
+            self.assertEqual(dict(grupos=1, referencias=2, referencias_adicionales=1, grupos_con_campos_distintos=1, grupos_conciliados=0, grupos_descartados=0, grupos_pendientes=1), module.report(folder))
             groups = json.loads((folder/'variantes/referencias.json').read_text(encoding='utf-8'))
             self.assertEqual(['monto'], groups[0]['campos_distintos'])
             self.assertEqual(['100', '200'], [row['campos']['monto'] for row in groups[0]['referencias']])

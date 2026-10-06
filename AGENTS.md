@@ -21,6 +21,8 @@ Actualización del 1 de octubre de 2026 por la petición de incorporar `03_proce
 
 Actualización autorizada el 2 de octubre de 2026: el usuario pide confirmar lo esencial y reducir el coste de revisión. P04 admite `CONFIRMADA_ESENCIAL` cuando se verifican identidad, fuente oficial específica, beneficio y requisitos principales. No exige reconstruir documentos, calendario anual ni leer reglamentos completos cuando la ficha oficial basta para ese alcance. Guardar desconocidos y límites explícitos; las contradicciones que afectan identidad, cobertura o elegibilidad impiden confirmar ese campo. Este estado cierra la revisión esencial, no equivale a la confirmación exhaustiva anterior ni autoriza activar una beca sin cierre confirmado. Conservar las dos confirmaciones completas y distinguir ambos conteos; no inventar información ni certificar por HTTP.
 
+Actualización autorizada el 6 de octubre de 2026: resolver al menos 50 candidatas por entrega mediante confirmación esencial o descarte editorial documentado. `DESCARTADA_EDITORIAL` excluye un candidato del catálogo para publicar y de los pendientes; conserva originales y registros administrativos inactivos. No certifica inexistencia. Registrar motivo individual; alcance y evidencia en `descartes.json`. Los grupos repetidos descartados se cierran por exclusión; no se cuentan como conciliados. No dejar pendientes dentro del lote resuelto.
+
 ## 1. Estructura del Monorepo
 
 ```

@@ -4,6 +4,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+from corpus_discard import read_discards
 
 
 def specific_source(url):
@@ -82,7 +83,8 @@ def report(folder):
             raise ValueError('Confirmación sin alcance o evidencia')
         completed[candidate] = entry
     essential = essential_confirmations(folder, reviews, completed)
-    closed = completed.keys() | essential.keys()
+    discarded = read_discards(folder, identities, completed.keys() | essential.keys())
+    closed = completed.keys() | essential.keys() | discarded.keys()
     files, institutions = defaultdict(list), defaultdict(set)
     for row in rows:
         identity = identities[row['candidato']]
@@ -93,7 +95,9 @@ def report(folder):
             reports.add(completed[candidate]['informe'])
         if candidate in essential:
             reports.add(essential[candidate]['informe'])
-        row.update(estado='CONFIRMADA_COMPLETA' if candidate in completed else 'CONFIRMADA_ESENCIAL' if candidate in essential else 'REVISION_PARCIAL' if candidate in reviews else 'SIN_REVISION_INDIVIDUAL',
+        if candidate in discarded:
+            reports.add(discarded[candidate]['informe'])
+        row.update(estado='DESCARTADA_EDITORIAL' if candidate in discarded else 'CONFIRMADA_COMPLETA' if candidate in completed else 'CONFIRMADA_ESENCIAL' if candidate in essential else 'REVISION_PARCIAL' if candidate in reviews else 'SIN_REVISION_INDIVIDUAL',
                    pendiente_confirmacion='false' if candidate in closed else 'true', informes='; '.join(sorted(reports)))
         files[row['archivo']].append(row)
         institutions[row['institucion']].add(row['candidato'])
@@ -109,27 +113,27 @@ def report(folder):
         partial = len((candidates & reviews.keys())-closed)
         summary.append(dict(archivo=Path(filename).name, registros=len(entries), becas_unicas=len(candidates),
                             revision_parcial=partial, sin_revision_individual=len(candidates-reviews.keys()),
-                            confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), pendientes_confirmacion=len(candidates-closed)))
+                            confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & discarded.keys()), pendientes_confirmacion=len(candidates-closed)))
     totals = dict(archivos=len(files), registros=len(rows), becas_unicas=len(identities),
                   revision_parcial=len(reviews.keys()-closed), sin_revision_individual=len(identities)-len(reviews),
-                  confirmadas_completas=len(completed), confirmadas_esenciales=len(essential), pendientes_confirmacion=len(identities)-len(closed))
+                  confirmadas_completas=len(completed), confirmadas_esenciales=len(essential), descartadas=len(discarded), pendientes_confirmacion=len(identities)-len(closed))
     write_csv(output/'por_archivo.csv', list(summary[0]), summary)
     by_institution = [dict(institucion=name, becas_unicas=len(candidates), revision_parcial=len((candidates & reviews.keys())-closed),
-                          sin_revision_individual=len(candidates-reviews.keys()), confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), pendientes_confirmacion=len(candidates-closed))
+                          sin_revision_individual=len(candidates-reviews.keys()), confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & discarded.keys()), pendientes_confirmacion=len(candidates-closed))
                       for name,candidates in sorted(institutions.items())]
     write_csv(output/'por_institucion.csv', list(by_institution[0]), by_institution)
     (output/'resumen.json').write_text(json.dumps(totals, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['confirmadas_esenciales']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
+    table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['confirmadas_esenciales']} | {r['descartadas']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
     text = f'''# Avance editorial por archivo
 
 Inventario reconstruido al 2 de octubre de 2026: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. {totals['confirmadas_completas']} tienen confirmación completa y {totals['confirmadas_esenciales']} confirmación esencial: faltan {totals['pendientes_confirmacion']} por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-La incorporación administrativa está terminada. El criterio esencial autorizado confirma identidad, fuente oficial específica, beneficio y requisitos principales. Documentos y fechas no publicados quedan desconocidos; la revisión exhaustiva es distinta de este cierre. «Pendiente» no significa que falte importar. Una referencia revisada puede detectar contradicciones o ausencia de confirmación. Las 573 becas de la base local incluyen registros previos ajenos al inventario; no usar ese total para contar pendientes del corpus.
+La incorporación administrativa está terminada. Hay {totals['descartadas']} candidatas descartadas editorialmente: se excluyen de la selección para publicar y de los pendientes; no son confirmaciones ni prueban inexistencia. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
-| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Sin revisión individual | Pendientes de cierre |
-|---|---:|---:|---:|---:|---:|---:|
+| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Descartadas | Sin revisión individual | Pendientes de cierre |
+|---|---:|---:|---:|---:|---:|---:|---:|
 {table}
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
