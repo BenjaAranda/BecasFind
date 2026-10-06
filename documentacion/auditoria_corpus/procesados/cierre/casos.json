@@ -4220,6 +4220,13 @@
         "extractos": [
           "| `d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49` | Beca Excelencia Académica UBO | Bloqueo del contraste anterior reutilizado: Distinguir beca PAES de rendimiento universitario. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49`\n\nEstado: pendiente. PAES UBO es descuento por carrera y puntaje hasta 80% con requisitos propios. No se acredita equivalencia con el alias Excelencia y NEM del histórico.\n\n- [Fuente oficial](https://admision.ubo.cl/financiamiento/)\n- [Fuente oficial](https://dae.ubo.cl/becas/becas-ubo/)"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -4253,6 +4260,13 @@
         "extractos": [
           "| `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` | Beca Socioeconomica UBO | Bloqueo del contraste anterior reutilizado: Identificar apoyo económico concreto y bases; no asumir umbral RSH. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`\n\nEstado: pendiente. Contingencia DAE exige dificultad extraordinaria o sobreviniente; no acredita una beca Socioeconómica genérica con RSH universal.\n\n- [Fuente oficial](https://admision.ubo.cl/financiamiento/)\n- [Fuente oficial](https://dae.ubo.cl/becas/becas-ubo/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4265,7 +4279,7 @@
     "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
     "nombre": "Beca Deportiva UBO",
     "institucion": "Universidad Bernardo O'Higgins",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubo.csv",
@@ -4290,13 +4304,42 @@
         "extractos": [
           "| `382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4` | Beca Deportiva UBO | Bloqueo del contraste anterior reutilizado: Arancel deportivo evaluado; no heredar 100 por ciento universal. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nRebaja anual de arancel sobre saldo después de beneficios externos; el programa Talento indica apoyo hasta 100% del copago según evaluación, no cobertura universal.\n\nEstudiantes antiguos que representen a UBO y destaquen por capacidad deportiva; seguimiento anual por expertos y Comisión de Becas. Programa Talento exige selección deportiva, carga académica al día salvo excepción y participación constante.\n\nLímites: Fichas DAE leídas mediante contenido indexado oficial; recarga directa bloqueada. No 20% ni rango 25–50% universales. Tope del programa no garantiza adjudicación completa. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://dae.ubo.cl/becas/becas-ubo/)\n- [Fuente oficial](https://dae.ubo.cl/talentodae/)"
+        ]
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "informe_conciliacion": "variantes/CONCILIACION_DEPORTIVA_UBO.md",
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
+      "revisado": "2026-10-06",
+      "alcance": "Condiciones deportivas públicas esenciales; sin certificar convocatoria anual abierta",
+      "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+      "fuentes": [
+        "https://dae.ubo.cl/becas/becas-ubo/",
+        "https://dae.ubo.cl/talentodae/"
+      ],
+      "beneficio": "Rebaja anual de arancel sobre saldo después de beneficios externos; el programa Talento indica apoyo hasta 100% del copago según evaluación, no cobertura universal.",
+      "requisitos_principales": "Estudiantes antiguos que representen a UBO y destaquen por capacidad deportiva; seguimiento anual por expertos y Comisión de Becas. Programa Talento exige selección deportiva, carga académica al día salvo excepción y participación constante.",
+      "limites": "Fichas DAE leídas mediante contenido indexado oficial; recarga directa bloqueada. No 20% ni rango 25–50% universales. Tope del programa no garantiza adjudicación completa. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af",
@@ -4322,6 +4365,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af` | Beca Convenio Empresas UBO | Bloqueo del contraste anterior reutilizado: Obtener convenio vigente concreto; no asumir porcentaje general. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af`\n\nEstado: pendiente. Los convenios identifican instituciones y carreras concretas; la sección 2026 conserva requisitos escritos para admisión 2025. No certificar descuento genérico de empresas sin convenio aplicable.\n\n- [Fuente oficial](https://admision.ubo.cl/financiamiento/)\n- [Fuente oficial](https://dae.ubo.cl/becas/becas-ubo/)"
         ]
       }
     ],
@@ -5307,6 +5357,13 @@
         "extractos": [
           "| `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866` | Beca Excelencia Académica UCSH | Bloqueo del contraste anterior reutilizado: Distinguir BEA ministerial de modalidades internas. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866`\n\nEstado: pendiente. Excelencia Complementaria UCSH requiere BEA ministerial y descuenta 20%; no equivale al histórico Excelencia interna 40% por NEM y PAES.\n\n- [Fuente oficial](https://admisionucsh.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -5339,6 +5396,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `14f84638735c858c53f114c5e1e093e0bc8ae61422866366d6a0fd733eae5a97` | Beca Socioeconomica UCSH | Bloqueo del contraste anterior reutilizado: Nombre genérico: no equiparar a gratuidad o Don Bosco. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `14f84638735c858c53f114c5e1e093e0bc8ae61422866366d6a0fd733eae5a97`\n\nEstado: pendiente. Beneficios de mantención y gratuidad no prueban beca interna Socioeconómica genérica de arancel; falta ficha específica.\n\n- [Fuente oficial](https://admisionucsh.cl/becas-y-beneficios/)"
         ]
       }
     ],
@@ -5434,6 +5498,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` | Beca Familiar UCSH | Bloqueo del contraste anterior reutilizado: Beneficio familiar no identificado inequívocamente en el catálogo. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`\n\nEstado: pendiente. Convenios familiares de instituciones concretas no acreditan descuento Familiar universal UCSH.\n\n- [Fuente oficial](https://admisionucsh.cl/becas-y-beneficios/)"
         ]
       }
     ],
@@ -9773,6 +9844,13 @@
         "extractos": [
           "| `3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa` | Beca Matrícula UVM | Bloqueo del contraste anterior reutilizado: Identificar beneficio específico de matrícula; no asumir exención general. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa`\n\nEstado: pendiente. Política de descuentos UVM permite ayudas de matrícula pero no acredita identidad y reglas del programa Matrícula genérico.\n\n- [Fuente oficial](https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf)\n- [Fuente oficial](https://www.uvm.cl/deporte/)"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -9805,6 +9883,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f` | Beca Copago UVM | Bloqueo del contraste anterior reutilizado: Nota histórica menciona Copago; cobertura actual pendiente. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f`\n\nEstado: pendiente. Política 2022 identifica Copago para primer CAE y duración vinculada al crédito. Falta cobertura y requisitos de modalidad actual; no confirmar RSH 60% ni complemento universal de cualquier beca estatal.\n\n- [Fuente oficial](https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf)\n- [Fuente oficial](https://www.uvm.cl/deporte/)"
         ]
       }
     ],
@@ -9839,6 +9924,13 @@
         "extractos": [
           "| `a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af` | Beca Convenio Empresas UVM | Bloqueo del contraste anterior reutilizado: Convenio de empresa concreto y vigencia pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af`\n\nEstado: pendiente. Los convenios requieren identificar contraparte y carrera; política general no prueba descuento de empresas universal.\n\n- [Fuente oficial](https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf)\n- [Fuente oficial](https://www.uvm.cl/deporte/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -9851,7 +9943,7 @@
     "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
     "nombre": "Beca Deportiva UVM",
     "institucion": "Universidad Viña del Mar",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uvm.csv",
@@ -9876,13 +9968,42 @@
         "extractos": [
           "| `d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154` | Beca Deportiva UVM | UVM: elegibilidad deportiva localizada, pero falta corroborar cobertura económica; el nombre beca no acredita descuento. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154`\n\nEstado: CONFIRMADA_ESENCIAL.\n\nBeca interna de apoyo arancelario por excelencia deportiva; porcentaje y monto desconocidos.\n\nNuevos: currículo deportivo con acreditación certificada en admisión. Antiguos: dos años ininterrumpidos en selección UVM y postulación por jefatura y cuerpo técnico. Solo deportes desarrollados oficialmente; selección según necesidades del plantel.\n\nLímites: Ficha deportiva sin calendario anual certificado; política general publicada de 2022 explica rebajas arancelarias. No 20% ni 25–50% universales. No trasladar automáticamente condiciones generales de renovación a convocatoria anual no acreditada. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.\n\n- [Fuente oficial](https://www.uvm.cl/deporte/)\n- [Fuente oficial](https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf)"
+        ]
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; regiones; url",
-    "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "informe_conciliacion": "variantes/CONCILIACION_DEPORTIVA_UVM.md",
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
+      "revisado": "2026-10-06",
+      "alcance": "Condiciones deportivas públicas esenciales; sin certificar convocatoria anual abierta",
+      "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+      "fuentes": [
+        "https://www.uvm.cl/deporte/",
+        "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf"
+      ],
+      "beneficio": "Beca interna de apoyo arancelario por excelencia deportiva; porcentaje y monto desconocidos.",
+      "requisitos_principales": "Nuevos: currículo deportivo con acreditación certificada en admisión. Antiguos: dos años ininterrumpidos en selección UVM y postulación por jefatura y cuerpo técnico. Solo deportes desarrollados oficialmente; selección según necesidades del plantel.",
+      "limites": "Ficha deportiva sin calendario anual certificado; política general publicada de 2022 explica rebajas arancelarias. No 20% ni 25–50% universales. No trasladar automáticamente condiciones generales de renovación a convocatoria anual no acreditada. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "1bd209e4d81b1fcf12836288ad291f6bf67b4994895ff09f252caf910e36aced",
@@ -20505,6 +20626,13 @@
         "extractos": [
           "| `2a9d39ae12be7f9247643f332d37f07186e6640babcc47ba17727be7cb6af5a7` | Beca Mérito Académico UCSH | Bloqueo del contraste anterior reutilizado: Conciliar con Excelencia sin fusionar; bases propias pendientes. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `2a9d39ae12be7f9247643f332d37f07186e6640babcc47ba17727be7cb6af5a7`\n\nEstado: pendiente. No se acreditó programa interno Mérito por PAES 10–50% ni NEM 5,5; no confundir con BEA ministerial o Complementaria.\n\n- [Fuente oficial](https://admisionucsh.cl/becas-y-beneficios/)"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -21116,6 +21244,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `bcba150d8162b3efbb7489e70e25ec008d69dd6f16bad79bd26cf2e679296237` | Beca Copago Institucional UBO | Bloqueo del contraste anterior reutilizado: Identificar modalidad de copago; no heredar máximo Talento DAE. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `bcba150d8162b3efbb7489e70e25ec008d69dd6f16bad79bd26cf2e679296237`\n\nEstado: pendiente. Aplicar becas sobre copago no acredita una beca universal Copago Institucional independiente.\n\n- [Fuente oficial](https://admision.ubo.cl/financiamiento/)\n- [Fuente oficial](https://dae.ubo.cl/becas/becas-ubo/)"
         ]
       }
     ],
@@ -22057,6 +22192,13 @@
         "informe_sha256": "8744e5d94d75c1f494c403625da39f13c88b478c3fbf5e87aa5156a914a3af1e",
         "extractos": [
           "| `32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3` | Beca Convenios UVM | Bloqueo del contraste anterior reutilizado: Posible variante de convenio; no fusionar sin identificar acuerdo. |"
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+        "informe_sha256": "c8b081636eeee8f0b0efd3164fc41e80b68a29c2d22527fc257eb1c73fbf5e5b",
+        "extractos": [
+          "Candidato: `32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3`\n\nEstado: pendiente. Convenios UVM queda separado de Convenio Empresas hasta acreditar alcance y equivalencia; política general no fija un beneficio uniforme.\n\n- [Fuente oficial](https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf)\n- [Fuente oficial](https://www.uvm.cl/deporte/)"
         ]
       }
     ],

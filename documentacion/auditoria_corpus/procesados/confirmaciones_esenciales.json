@@ -2919,5 +2919,49 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
+    "revisado": "2026-10-06",
+    "alcance": "Condiciones deportivas públicas esenciales; sin certificar convocatoria anual abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+    "fuentes": [
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dae.ubo.cl/talentodae/"
+    ],
+    "beneficio": "Rebaja anual de arancel sobre saldo después de beneficios externos; el programa Talento indica apoyo hasta 100% del copago según evaluación, no cobertura universal.",
+    "requisitos_principales": "Estudiantes antiguos que representen a UBO y destaquen por capacidad deportiva; seguimiento anual por expertos y Comisión de Becas. Programa Talento exige selección deportiva, carga académica al día salvo excepción y participación constante.",
+    "limites": "Fichas DAE leídas mediante contenido indexado oficial; recarga directa bloqueada. No 20% ni rango 25–50% universales. Tope del programa no garantiza adjudicación completa. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
+    "revisado": "2026-10-06",
+    "alcance": "Condiciones deportivas públicas esenciales; sin certificar convocatoria anual abierta",
+    "informe": "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md",
+    "fuentes": [
+      "https://www.uvm.cl/deporte/",
+      "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf"
+    ],
+    "beneficio": "Beca interna de apoyo arancelario por excelencia deportiva; porcentaje y monto desconocidos.",
+    "requisitos_principales": "Nuevos: currículo deportivo con acreditación certificada en admisión. Antiguos: dos años ininterrumpidos en selección UVM y postulación por jefatura y cuerpo técnico. Solo deportes desarrollados oficialmente; selección según necesidades del plantel.",
+    "limites": "Ficha deportiva sin calendario anual certificado; política general publicada de 2022 explica rebajas arancelarias. No 20% ni 25–50% universales. No trasladar automáticamente condiciones generales de renovación a convocatoria anual no acreditada. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
