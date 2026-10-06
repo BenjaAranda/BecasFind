@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 47,
-  "requieren_aclaracion": 244,
+  "confirmaciones_nuevas": 69,
+  "requieren_aclaracion": 222,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -373,17 +373,40 @@
       "candidato": "795ecb1745d45294aac3defc740c3992abf826901fa0ea33e1d5432d5790e2fe",
       "nombre": "Beca de Excelencia Académica UBB",
       "institucion": "Universidad del Bío-Bío",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El 30% y NEM 5,8 del antecedente no quedan corroborados. Renovación sujeta al reglamento; no confundir con Mérito Académico. Se conservan ambos registros de variante. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://ubiobio.cl/admision/Becas_y_Beneficios/",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        },
+        {
+          "url": "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/",
+          "consulta": "2026-10-06",
+          "sha256": "92e4d65f5faf65b7873d874cfa001b2cc894035d50caf81181717b3c5b171bb6",
+          "url_final": "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        ],
+        "alcance": "Catálogo oficial Mineduc de servicios universitarios, admisión 2026, página 312: Excelencia Académica UBB.",
+        "beneficio": "Exención del 100% del arancel anual de matrícula.",
+        "requisitos_principales": "Dos primeros seleccionados y matriculados por carrera mediante vía regular; egreso de media dentro de los dos años anteriores; no haber usado antes el beneficio. Sin puntaje ponderado mínimo.",
+        "limites": "El 30% y NEM 5,8 del antecedente no quedan corroborados. Renovación sujeta al reglamento; no confundir con Mérito Académico. Se conservan ambos registros de variante. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "2b84c516a23ac208988c6ee20a88511eed4a2b565bbbadec9756b1d5f2aa755a",
@@ -563,24 +586,40 @@
       "candidato": "7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921",
       "nombre": "Beca de Apoyo Socioeconomico USACH",
       "institucion": "Universidad de Santiago de Chile",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma la modalidad de dinero correspondiente al apoyo descrito. No certifica el rango histórico hasta $90.000 ni un corte RSH 60%; no mezclar Beca de Trabajo o Residencia. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://vrae.usach.cl/beneficios-estudiantiles",
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://vrae.usach.cl/comenzaron-las-postulaciones-de-becas-internas-para-este-primer-semestre-2026/",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "557d73be014781f36bb08e34a925f09b8fd082a44ca875d5463f4e0870f285bf",
+          "url_final": "https://vrae.usach.cl/comenzaron-las-postulaciones-de-becas-internas-para-este-primer-semestre-2026/"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://vrae.usach.cl/comenzaron-las-postulaciones-de-becas-internas-para-este-primer-semestre-2026/"
+        ],
+        "alcance": "Convocatoria USACH primer semestre de 2026; modalidad Beca de Dinero.",
+        "beneficio": "$35.000 mensuales.",
+        "requisitos_principales": "Pregrado regular matriculado en el semestre; primer nivel aprobado; permanencia dentro de la duración formal; necesidad socioeconómica acreditada.",
+        "limites": "Se confirma la modalidad de dinero correspondiente al apoyo descrito. No certifica el rango histórico hasta $90.000 ni un corte RSH 60%; no mezclar Beca de Trabajo o Residencia. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "c175b394c63caf018e42cf9cf7adc976977da684a5ce8e33573bc48ee361985f",
       "nombre": "Beca Integración Transfronteriza UTA",
       "institucion": "Universidad de Tarapacá",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El catálogo contiene otros beneficios; falta corroborar Integración Transfronteriza sin sustituirla por otro programa.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No trasladar a CRISCOS ni becas de intercambio. Selección adicional no reconstruida. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://webdae.uta.cl/index.php/beneficios-complementarios/",
@@ -597,9 +636,26 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "d1523b9ba7a0c9843444766711c88dd9f096482674e8c25425fc48b977057805",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        ],
+        "alcance": "Catálogo Mineduc admisión 2026, página 293: Integración Transfronteriza UTA–AGCID.",
+        "beneficio": "100% de arancel básico y diferenciado durante la carrera; AGCID aporta $300.000 mensuales entre marzo y diciembre.",
+        "requisitos_principales": "Nacionalidad peruana o boliviana; egreso de media el año inmediatamente anterior al proceso; cursar pregrado en UTA.",
+        "limites": "No trasladar a CRISCOS ni becas de intercambio. Selección adicional no reconstruida. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
@@ -828,8 +884,8 @@
       "candidato": "b721f22d2bf20f0a6d2944fed575b94fefd8d16b38b5c45869aa4f9ae82c70c9",
       "nombre": "Beca Municipal de Educación Superior Pucon",
       "institucion": "Municipalidad de Pucon",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia histórica diferencia novatos y renovantes con aportes de $200.000/$250.000. Falta corroborar requisitos principales y año aplicable.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No se trasladan los montos de noticias de otros años. La ponderación social de 60% no constituye un corte RSH. Becas especiales y hermanos tienen reglas propias. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://municipalidadpucon.cl/?p=29502",
@@ -846,9 +902,26 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "bc0035b3355c30b0bf8ab65fe278b7fad05148d08ab1be63f6686918781a7506",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.municipalidadpucon.cl/oldweb/web2010/transparencia/LetraC/Reglamento_Becas_Municipales_2019.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "98c285313479d583b63ed64e2ae75e81daee6088bc41b60e2a2c33a38b1bb743",
+          "paginas": 7,
+          "url_final": "https://www.municipalidadpucon.cl/oldweb/web2010/transparencia/LetraC/Reglamento_Becas_Municipales_2019.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.municipalidadpucon.cl/oldweb/web2010/transparencia/LetraC/Reglamento_Becas_Municipales_2019.pdf"
+        ],
+        "alcance": "Reglamento Pucón 2019, artículos 3–6 y 13–15; lectura visual y OCR.",
+        "beneficio": "Aporte anual en una cuota: $100.000 para postulantes y $200.000 para renovantes; sujeto a presupuesto.",
+        "requisitos_principales": "Residencia y RSH en Pucón; matrícula en educación superior reconocida; ingreso con promedio anual de cuarto medio 6,0 y continuidad con promedio 5,0; selección social y académica.",
+        "limites": "No se trasladan los montos de noticias de otros años. La ponderación social de 60% no constituye un corte RSH. Becas especiales y hermanos tienen reglas propias. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "680087f1deb1051da26f42fcea650e3e6b893550afb3efa41a4abe6a43e13d35",
@@ -957,6 +1030,11 @@
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.constitucion.cl/wp-content/uploads/2025/04/DECRETO-EXENTO-1120C-BECAS-MUNICIPALES.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -1126,6 +1204,13 @@
           "tipo": "text/html",
           "sha256": "4ff75cdc3dade5550d6eee84a015e513a646a920e50ffce12cdea8cf379e9131",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "ffd2466d5ca4263502c731fe8bb10c493c648b74b3adcf148d1cb631d0be3fe9",
+          "url_final": "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf",
+          "paginas": 2
         }
       ],
       "alcance": null
@@ -1208,17 +1293,27 @@
       "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
       "nombre": "Beca Municipal Educación Superior San Ramon",
       "institucion": "Municipalidad de San Ramon",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Solo se confirman los criterios principales expresamente publicados; cortes numéricos y condiciones adicionales desconocidos. El cuerpo indexado pudo leerse, pero la apertura directa agotó el tiempo de espera; no representa una convocatoria 2026. No certifica calendario/documentos completos ni autoriza activación. Original conservado.",
       "fuentes": [
         {
           "url": "https://municipalidadsanramon.cl/2022/02/16/ya-se-encuentra-disponible-la-beca-municipal-de-educacion-superior/",
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://municipalidadsanramon.cl/2022/02/16/ya-se-encuentra-disponible-la-beca-municipal-de-educacion-superior/"
+        ],
+        "alcance": "Comunicación municipal San Ramón del 16 de febrero de 2022; contenido indexado de la fuente institucional.",
+        "beneficio": "Subsidio económico financiado íntegramente por el municipio; importe individual desconocido.",
+        "requisitos_principales": "Estudiantes de educación superior de San Ramón con rendimiento académico destacado y/o vulnerabilidad socioeconómica.",
+        "limites": "Solo se confirman los criterios principales expresamente publicados; cortes numéricos y condiciones adicionales desconocidos. El cuerpo indexado pudo leerse, pero la apertura directa agotó el tiempo de espera; no representa una convocatoria 2026. No certifica calendario/documentos completos ni autoriza activación. Original conservado."
+      }
     },
     {
       "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
@@ -1357,8 +1452,8 @@
       "candidato": "3a88821771f00fba0a8dd15954cd0baa4ebca62b0cc1c7baf727b28e1b9165ce",
       "nombre": "Beca Municipal de Educación Superior La Ligua",
       "institucion": "Municipalidad de La Ligua",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente acredita adjudicación, nómina o presupuesto. Falta corroborar condiciones principales; no dividir presupuesto entre beneficiarios para inventar un importe.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Incompatible con Hogar Municipal Universitario, que es otra modalidad. No certificar un límite RSH numérico. Beneficio para una carrera; renovación anual. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://web.laligua.cl/noticias/27",
@@ -1367,9 +1462,26 @@
           "tipo": "text/html; charset=utf-8",
           "sha256": "136c7f1e84b2ba463ba2a80a33d39bb2360547a59212cdf05cf3ecb4f9d7e724",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.comunadelaligua.cl/transparencia/reglamentos/2022/DA2173-07032022.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "4cb6290c26b67d15f841e3220d8eaf5ce5484dea61b1c059f920ff1e3757d221",
+          "paginas": 14,
+          "url_final": "https://www.comunadelaligua.cl/transparencia/reglamentos/2022/DA2173-07032022.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.comunadelaligua.cl/transparencia/reglamentos/2022/DA2173-07032022.pdf"
+        ],
+        "alcance": "Reglamento La Ligua 2022, páginas 2–5; artículos 4, 6, 7 y 13–16; lectura visual.",
+        "beneficio": "$250.000 anuales de libre disposición; dos cuotas semestrales o cuotas mensuales iguales.",
+        "requisitos_principales": "Domicilio local; matrícula reconocida por el Estado en pregrado o carrera conducente a título profesional; vulnerabilidad familiar y promedio anual anterior 5,0. Preferencia por egresados de educación pública local.",
+        "limites": "Incompatible con Hogar Municipal Universitario, que es otra modalidad. No certificar un límite RSH numérico. Beneficio para una carrera; renovación anual. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "38f0ee9c27d75d1036b0fad65fa5e3d4c3ceb98327a56087fbfa528843b42024",
@@ -1752,13 +1864,24 @@
       "nombre": "Beca Municipalidad de Puchuncavi Ano 2026",
       "institucion": "Municipalidad de Puchuncavi",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La noticia municipal Puchuncaví del 13 de marzo de 2026 remite a becas2026.php, cuyo texto extraído no contiene las bases. Falta leer el reglamento enlazado con beneficio y criterios; no certificar por el anuncio.",
       "fuentes": [
         {
           "url": "https://munipuchuncavi.cl/2.0/sitio10/pdf/becas2026/reglamento.pdf",
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://munipuchuncavi.cl/2.0/sitio10/pdf/becas2025/reglamento.pdf",
+          "consulta": "2026-10-06",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://munipuchuncavi.cl/2.0/sitio10/news-beca-municipalidad-de-2120.html",
+          "consulta": "2026-10-06",
+          "sha256": "008a93ed1fa84e7099794479ff450552fbf20471a3e62423c04372acd14870f2",
+          "url_final": "https://munipuchuncavi.cl/2.0/sitio10/news-beca-municipalidad-de-2120.html"
         }
       ],
       "alcance": null
@@ -1784,7 +1907,7 @@
       "nombre": "Beca Municipal Educación Superior",
       "institucion": "Municipalidad de El Tabo",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Reglamento El Tabo 2025 leído mediante OCR y contraste visual: aporte de $350.000/$650.000; RSH hasta 60%; continuidad universitaria 4,5 y técnica 5,0. El artículo 10 refiere créditos de 2023 y el 11 de 2025 para distinguir cobertura; la condición económica que determina el monto completo queda contradictoria. No homologar ambos criterios ni certificar el beneficio completo.",
       "fuentes": [
         {
           "url": "https://eltabo.cl/wp-content/uploads/2025/03/Reglamento-y-requisitos-Becas-2025.pdf",
@@ -1816,13 +1939,20 @@
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de La Cruz",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "El decreto La Cruz de agosto de 2016 regula devolución de matrícula para residentes matriculados con necesidad acreditada por informe social. Declara ser complementario a la Beca Municipal del decreto 84/2004; no prueba que sean la misma ayuda. Falta el reglamento propio de la beca candidata.",
       "fuentes": [
         {
           "url": "https://lacruz.cl/a94a8fe5/noticias/postula-a-la-beca-municipal-de-educacion-superior-2026/",
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.lacruz.cl/imagenes/TRANSPARENCIA/4/REGLAMENTO%20BECAS.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "e796223a0c62d9f8ddc828359c8e377610a6603417b5b4e83d59531cd861d542",
+          "url_final": "https://www.lacruz.cl/imagenes/TRANSPARENCIA/4/REGLAMENTO%20BECAS.pdf",
+          "paginas": 2
         }
       ],
       "alcance": null
@@ -1877,13 +2007,20 @@
       "nombre": "Beca Municipal Dr. Joaquin Contreras Silva 2026",
       "institucion": "Municipalidad de Requinoa",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Reglamento Requínoa de 2014 leído: Dr. Joaquín Contreras Silva, aporte anual según presupuesto; alumno regular superior reconocido, domicilio y evaluación socioeconómica. La candidata general requiere relacionar su edición con este programa histórico. No atribuirle automáticamente requisitos o importes de 2026.",
       "fuentes": [
         {
           "url": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2024/Secretaria_municipal/ASO/ASO97.pdf",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "95447a4fba769f5cc5b466e964552c36aa3faf3f0129788e7ec5e76c3f8c2bcb",
+          "url_final": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
+          "paginas": 7
         }
       ],
       "alcance": null
@@ -2120,6 +2257,13 @@
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "37959101e494e9bac3dece309d737d805b30a7ef699643bc5677ec7dbb1a516e",
+          "url_final": "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+          "paginas": 86
         }
       ],
       "alcance": null
@@ -2156,6 +2300,13 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "c20c8f86371ff941297b0df07fa6450f3f187f263694b8f06301248366dd3928",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://pace.ubiobio.cl/wp-content/uploads/2024/07/Becas-Municipales-Nuble-Diguillin.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "ff97f8510533a6c5fac370e2b943b481bdc8e5ceb4eb04772c30385f5469a8a1",
+          "url_final": "https://pace.ubiobio.cl/wp-content/uploads/2024/07/Becas-Municipales-Nuble-Diguillin.pdf",
+          "paginas": 6
         }
       ],
       "alcance": null
@@ -2164,8 +2315,8 @@
       "candidato": "8f72bd261a65f6a0f96ae5fdb6f71ca3c9adbe103a2bb40688cdf39452f8f617",
       "nombre": "Beca Municipal Educación Superior Cobquecura",
       "institucion": "Municipalidad de Cobquecura",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Incompatible con residencia municipal/Asociación Valle del Itata. Reglas particulares para hijos de funcionarios; no confirmar un corte RSH o nota mínima no publicado. No calcular importes desde presupuesto. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://municipalidadcobquecura.cl/noticias-cobquecura/",
@@ -2174,9 +2325,23 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "0f786f78c7ecf4f534d9def0048c4decf355546ee78b582b11e7768b6b47b1c2",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://cobquecura.cl/wp-content/uploads/BASES-APORTE-EDUCACION-SUPERIOR-ANO-2025.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://cobquecura.cl/wp-content/uploads/BASES-APORTE-EDUCACION-SUPERIOR-ANO-2025.pdf"
+        ],
+        "alcance": "Bases municipales Cobquecura 2025; texto íntegro leído en el visor web.",
+        "beneficio": "$130.000 por una vez; $160.000 para los diez mejores promedios. Modalidad de $90.000 para hijos de funcionarios de planta/contrata en áreas señaladas.",
+        "requisitos_principales": "Residencia local acreditada con RSH; alumno regular de universidad, IP, CFT o Fuerzas Armadas reconocidos; evaluación socioeconómica y académica. Excluye cursos, diplomados y posgrados.",
+        "limites": "Incompatible con residencia municipal/Asociación Valle del Itata. Reglas particulares para hijos de funcionarios; no confirmar un corte RSH o nota mínima no publicado. No calcular importes desde presupuesto. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "452826bd9e394d071ee7d7567dc608ebfb684d43fea04cca935fad9b2625d5ee",
@@ -2275,8 +2440,8 @@
       "candidato": "2cc109644b2dd0812c372d3c47e03563ea59689b2f9b3c1769d39b39f0f600ea",
       "nombre": "Beca Municipal de Educación Superior Loncoche",
       "institucion": "Municipalidad de Loncoche",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La comunicación identifica postulación o renovación. Falta cobertura y/o requisitos principales; no certificar únicamente por ese anuncio.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No ampliar la cobertura a ingreso de primer año. El importe desconocido no se sustituye por el del CSV. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://muniloncoche.cl/ultimos-dias-para-postular-a-la-beca-municipal-de-educacion-superior-2026/",
@@ -2285,9 +2450,26 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "a2e5c352411fb74fbb26a32546d818580d33dbca7a4c8429c9e397ab07ef289b",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://loncochetransparente.cl/dmdocuments/normativo/modificacion%20beca%20municipal.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "f88d38d0d2dd72140c94e28271604bbb9468b4711bbc1c4f995ff2bf5170c417",
+          "paginas": 7,
+          "url_final": "https://loncochetransparente.cl/dmdocuments/normativo/modificacion%20beca%20municipal.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://loncochetransparente.cl/dmdocuments/normativo/modificacion%20beca%20municipal.pdf"
+        ],
+        "alcance": "Ordenanza municipal Loncoche de marzo de 2022; lectura visual y OCR, artículos de objeto y requisitos.",
+        "beneficio": "Apoyo económico para matrícula, movilización, materiales y necesidades personales; importe desconocido.",
+        "requisitos_principales": "Residencia permanente local y RSH con antigüedad de seis meses; promedio anual 5,0; carrera técnica desde segundo año o práctica y universitaria desde segundo hasta séptimo año en institución reconocida; necesidad socioeconómica.",
+        "limites": "No ampliar la cobertura a ingreso de primer año. El importe desconocido no se sustituye por el del CSV. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "a8d1e9fe964628fd011a13a117f23467ac95b717ea4cd0ca39124bba725b4c7a",
@@ -2364,6 +2546,11 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "93db1b9e4daa76bc874632c2d3ea8aaf144590a680f5fb20b06933773bfaf814",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -2372,8 +2559,8 @@
       "candidato": "5a37d991a2e4eddf2813738cf8df3457bab4be7b5ed6c3c35d0ace322b80729e",
       "nombre": "Programa Beca Municipal Educación Superior Calbuco",
       "institucion": "Municipalidad de Calbuco",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente se titula Excelencia Académica y publica condiciones de notas y modalidad. Falta cobertura y relación con la denominación general de este registro.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El texto histórico menciona jornada vespertina. No convertirlo en una convocatoria 2026 ni asignar importes actuales. Incompatible con otra beca estatal; sin título profesional y un beneficiario familiar. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://www.municipalidadcalbuco.cl/?page_id=58411",
@@ -2382,9 +2569,25 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "198c4e4e92abfc7fa6fae9a827be0baf9a726fb33dda5da1adc9f73a50313ca7",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.bcn.cl/leychile/navegar?i=1007823",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "4ff75cdc3dade5550d6eee84a015e513a646a920e50ffce12cdea8cf379e9131",
+          "url_final": "https://www.bcn.cl/leychile/navegar?i=1007823"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.bcn.cl/leychile/navegar?i=1007823"
+        ],
+        "alcance": "Ordenanza municipal Calbuco de 2009, publicada por BCN; Beca Excelencia Académica para Estudios Superiores.",
+        "beneficio": "Financiamiento parcial de gastos superiores; dos cuotas del 50%; importe según decisión municipal anual.",
+        "requisitos_principales": "Residencia de dos años; NEM 6,0; continuidad con totalidad de asignaturas aprobadas; necesidad acreditada; institución reconocida, estudios presenciales durante semana y carrera de dos años como mínimo.",
+        "limites": "El texto histórico menciona jornada vespertina. No convertirlo en una convocatoria 2026 ni asignar importes actuales. Incompatible con otra beca estatal; sin título profesional y un beneficiario familiar. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "a7563d17807c6b315a814d7caedda04c0c1f0dd205b97b77a6c4d57da52e44a1",
@@ -2406,8 +2609,8 @@
       "candidato": "3e4ff932460110c429fad99dca61e28e582411e133c6582f2416b50daa238c84",
       "nombre": "Beca Municipal Estudiantil Los Muermos",
       "institucion": "Municipalidad de Los Muermos",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La ficha 2024 presenta un umbral de notas contradictorio entre cuerpo y pie. No certificarlo hasta aclarar la redacción; beneficio insuficientemente detallado.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Preferencia por estudiantes sin gratuidad, que no implica incompatibilidad absoluta. El documento contiene meses de pago discordantes; no certificar calendario ni extrapolar a 2026. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://www.muermos.cl/4.1/images/FICHA-INFORMATIVA-POSTULACION-A-BECA-MUNICIPAL-2024.pdf",
@@ -2418,9 +2621,26 @@
           "paginas": 2,
           "lectura_limite": "todas las páginas con texto extraíble",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.muermos.cl/transparencia2.0/images/A._Transparencia_2021/Modificaciones/salud/Reglamento_de_Subsidio_Municipal_2021_MODIFICADO.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "50d496c13832e2fe45a8f7cf777b5044b5b85aa610becf20f7b43216e42c4398",
+          "paginas": 6,
+          "url_final": "https://www.muermos.cl/transparencia2.0/images/A._Transparencia_2021/Modificaciones/salud/Reglamento_de_Subsidio_Municipal_2021_MODIFICADO.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.muermos.cl/transparencia2.0/images/A._Transparencia_2021/Modificaciones/salud/Reglamento_de_Subsidio_Municipal_2021_MODIFICADO.pdf"
+        ],
+        "alcance": "Reglamento Los Muermos modificado en 2021; artículos 2 y 4 y requisitos.",
+        "beneficio": "$200.000 anuales; monto individual fijado expresamente.",
+        "requisitos_principales": "Domicilio/RSH local; vulnerabilidad; estudiante regular de CFT, IP o universidad; NEM 5,5; continuidad con un máximo de una asignatura reprobada. Excluye vespertino y clases de sábado; primera carrera y una persona por familia.",
+        "limites": "Preferencia por estudiantes sin gratuidad, que no implica incompatibilidad absoluta. El documento contiene meses de pago discordantes; no certificar calendario ni extrapolar a 2026. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
@@ -2563,6 +2783,12 @@
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://municipalidadsanfernando.cl/beca-municipal-2026/",
+          "consulta": "2026-10-06",
+          "sha256": "6ab9500a94113f75594286da8f36e7729b009234f5a5db3845786077674e1eb2",
+          "url_final": "https://municipalidadsanfernando.cl/beca-municipal-2026/"
         }
       ],
       "alcance": null
@@ -2571,8 +2797,8 @@
       "candidato": "db8097377d2bf3d6e6a796a7890160f1bb8926e14f722872723eb44df4222f19",
       "nombre": "Beca Municipal Jose Panichine Cayun",
       "institucion": "Municipalidad de Rio Ibanez",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se identificaron documentos de bases, pero la extracción no permitió leer sus apartados esenciales. No confirmar por título o primera página solamente.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Incompatible con Beca Aysén y Patagonia Aysén. Excluye fines de semana y distancia. No certificar RSH 60%; artículo de prioridad usa sobre 5,0, por lo que esa prioridad queda sin homologar. Alcance 2023. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://rioibanez.cl/wp-content/uploads/2026/05/Cuenta-Publica-2025_merged.pdf",
@@ -2596,10 +2822,20 @@
           "sha256": "375ff806f924e0105b6ed2802e95a8aea4fae3813aed5144dbf5634c483b9a30",
           "paginas": 4,
           "lectura_limite": "texto extraíble; hasta 60 páginas",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://rioibanez.cl/wp-content/uploads/2023/08/Beca-Municipal-Jose-Panchine-Cayun.pdf"
+        ],
+        "alcance": "Reglamento José Panichine Cayún, Río Ibáñez, aprobado en junio de 2023; páginas 1–3 leídas visualmente.",
+        "beneficio": "$450.000 anuales en una cuota.",
+        "requisitos_principales": "Nacionalidad chilena; residencia familiar local de un año; educación superior reconocida presencial diurna o vespertina; necesidad socioeconómica; ingreso, continuidad o renovación con notas exigidas por el reglamento. Para renovación el artículo 3 señala 5,0.",
+        "limites": "Incompatible con Beca Aysén y Patagonia Aysén. Excluye fines de semana y distancia. No certificar RSH 60%; artículo de prioridad usa sobre 5,0, por lo que esa prioridad queda sin homologar. Alcance 2023. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "ebd7aebb575dda598b7d124aeca15c7f92765c5f122f88a48937cd30f5b35599",
@@ -2914,6 +3150,13 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "8827d1c0849b4b2d81330fae57ba46bbfe52e882d9d991046edc25bf20297cbe",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "d090000bbc14f6dde1b52d69680d189fe2e69d037656e72fda1c2b92d6346e63",
+          "url_final": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf",
+          "paginas": 62
         }
       ],
       "alcance": null
@@ -2949,8 +3192,8 @@
       "candidato": "db0210a522cabef8ca2fa45f95c995e5308e9913fbcdf5f902654a6355da9e17",
       "nombre": "Beca Municipal de Apoyo a la Educación Superior Monte Patria",
       "institucion": "Municipalidad de Monte Patria",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página contiene referencias a residencia en Las Condes. No atribuir esos requisitos a Monte Patria; falta una fuente municipal coherente.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No usar requisitos de Las Condes. Excluye práctica, internado, tesis y seminario; máximo tres años del beneficio mediante postulación anual. No extrapolar a edición actual. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://www.munimontepatria.cl/web/index.php/direcciones-municipales/departamento-social?id=69",
@@ -2959,16 +3202,33 @@
           "tipo": "text/html; charset=utf-8",
           "sha256": "41b54223b65d15253d767937949a67e5f14082ef236bfcde5da812cd027dae66",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.munimontepatria.cl/transparencia/index.php?a=2018&action=plantillas_generar_archivo&ia=49110&ig=404&m=12",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "8172f751c9d7b15b140478ff4c8577275ce1d669f5501048f017da936d50db6d",
+          "paginas": 3,
+          "url_final": "https://www.munimontepatria.cl/transparencia/index.php?a=2018&action=plantillas_generar_archivo&ia=49110&ig=404&m=12"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.munimontepatria.cl/transparencia/index.php?a=2018&action=plantillas_generar_archivo&ia=49110&ig=404&m=12"
+        ],
+        "alcance": "Reglamento Monte Patria publicado en transparencia de 2018; Beca al Esfuerzo y Mérito Académico.",
+        "beneficio": "Aporte económico individual según evaluación y recursos; importe desconocido.",
+        "requisitos_principales": "Residencia familiar y RSH local hasta 60%; institución reconocida; ingreso NEM 6,0; continuidad técnica de cuatro semestres con 5,5 o profesional de ocho a diez semestres con 5,0 y aprobación del 90% como mínimo.",
+        "limites": "No usar requisitos de Las Condes. Excluye práctica, internado, tesis y seminario; máximo tres años del beneficio mediante postulación anual. No extrapolar a edición actual. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "cf284114d027593b0838d159dc16d83b151dae5183f1fbe03a9a2af46925c0f4",
       "nombre": "Beca Municipal de Educación Superior Colbun",
       "institucion": "Municipalidad de Colbun",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La comunicación identifica postulación o renovación. Falta cobertura y/o requisitos principales; no certificar únicamente por ese anuncio.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La ponderación social 60% no es límite RSH. Monto exclusivamente histórico 2009; no utilizarlo como importe actual. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://municipalidadcolbun.cl/becas2026.html",
@@ -2977,9 +3237,25 @@
           "tipo": "text/html",
           "sha256": "fd6537f36cfbeeb0d0a5b7d38b00bc9b05f34263f2718174b8604a269a06ef92",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1002805",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "4ff75cdc3dade5550d6eee84a015e513a646a920e50ffce12cdea8cf379e9131",
+          "url_final": "https://www.bcn.cl/leychile/navegar?idNorma=1002805"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=1002805"
+        ],
+        "alcance": "Ordenanza Colbún 2009, artículos 2–5, 17 y transitorio segundo; BCN.",
+        "beneficio": "$15.000 mensuales en 2009; aporte anual pagado de marzo a diciembre; años siguientes sujetos a presupuesto.",
+        "requisitos_principales": "Haber estudiado en establecimiento municipal diurno o vespertino y residir localmente; matrícula en universidad, instituto superior o CFT; promedio anterior 5,0 y necesidad socioeconómica.",
+        "limites": "La ponderación social 60% no es límite RSH. Monto exclusivamente histórico 2009; no utilizarlo como importe actual. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "d52e6d114cd29d756655560c6c3c107057b0fd5ee5c2c612c7691dc9dfc040f8",
@@ -2993,6 +3269,13 @@
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "bba88bc0c7144782c33e98ab61bae313ed9301a15257ee2c9bb744ed846303dd",
+          "url_final": "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf",
+          "paginas": 7
         }
       ],
       "alcance": null
@@ -3138,7 +3421,7 @@
       "nombre": "Beca Municipal Renca Orgullosa Educación Superior",
       "institucion": "Municipalidad de Renca",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se identificaron documentos de bases, pero la extracción no permitió leer sus apartados esenciales. No confirmar por título o primera página solamente.",
+      "hallazgo": "Ficha Renca 2025 leída: Incentivo a la Trayectoria y Rendimiento, aporte único $150.000, primer año superior, residencia local, RSH hasta 70%, promedio anterior 5,5 y cuenta propia. La candidata se denomina Renca Orgullosa; falta demostrar equivalencia o edición del programa. No sustituir su identidad automáticamente.",
       "fuentes": [
         {
           "url": "https://renca.cl/decreto-alcaldicio-n0496/",
@@ -3157,6 +3440,12 @@
           "paginas": 5,
           "lectura_limite": "todas las páginas con texto extraíble",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://renca.cl/postula-a-la-beca-municipal-educacion-superior/",
+          "consulta": "2026-10-06",
+          "sha256": "b5911d98a1613493a3c665ae4701085ecf3c55578748cfeeac2dd96ce68a09dd",
+          "url_final": "https://renca.cl/postula-a-la-beca-municipal-educacion-superior/"
         }
       ],
       "alcance": null
@@ -3246,7 +3535,7 @@
       "nombre": "Beca Municipal de Apoyo a la Educación Superior Cabo de Hornos",
       "institucion": "Municipalidad de Cabo de Hornos",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El documento histórico modifica evaluación social/habitacional. Falta cobertura y elegibilidad completas del programa al que aplica.",
+      "hallazgo": "Reglamento Cabo de Hornos 2024 leído: arancel según puntaje; residencia familiar local, matrícula reconocida y seis años escolares en Liceo Donald Mc-Intyre Griffiths. La fila de notas para postulantes figura como 54,532 a 6,0 en texto y tabla, incompatible con una nota escolar interpretable. Renovación publica 5,0 universitaria/5,5 técnica y 70% de avance; falta aclarar el criterio de ingreso antes de certificarlo.",
       "fuentes": [
         {
           "url": "https://www.imcabodehornos.cl/DESCARGAS/Reglamento%20%20Municipal%20de%20Beca%202024.pdf",
@@ -3321,17 +3610,33 @@
       "candidato": "c77e495ae425a62562dc16bc78f63821d350ebc0a771d624693298b7eafc1ca7",
       "nombre": "Beca Municipal de Educación Superior Pichilemu",
       "institucion": "Municipalidad de Pichilemu",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No inventar cortes numéricos de RSH o notas. Distinguir la beca municipal de beneficios JUNAEB contiguos en la página. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://pichilemu.cl/wp-content/uploads/2026/02/FormularioBeca2026.pdf",
           "consulta": "2026-10-06",
           "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://pichilemu.cl/servicios/tramites/educacion/",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "eeea7d585382f80b64b20972d5afb147219e64ec981a7d07c64f8a5a509a1e14",
+          "url_final": "https://pichilemu.cl/servicios/tramites/educacion/"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://pichilemu.cl/servicios/tramites/educacion/"
+        ],
+        "alcance": "Ficha municipal Educación de Pichilemu, apartado Beca Cardenal Caro, consultada el 6 de octubre de 2026.",
+        "beneficio": "Aporte monetario de libre disposición; importe desconocido.",
+        "requisitos_principales": "Residencia acreditada con RSH local; matrícula o condición regular de educación superior; antecedentes de notas del año anterior o cuarto medio e ingresos familiares para evaluación social.",
+        "limites": "No inventar cortes numéricos de RSH o notas. Distinguir la beca municipal de beneficios JUNAEB contiguos en la página. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d",
@@ -3451,6 +3756,11 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "c754d800c73c4354c13704e9d8ba4afe5e502a525df75b2ecdf6b035c6177c4a",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://municipalidadlongavi.cl/wp-content/uploads/2018/02/Ordenanza-de-Apoyo-Estudiantil-2018.pdf",
+          "consulta": "2026-10-06",
+          "error": "The read operation timed out"
         }
       ],
       "alcance": null
@@ -3832,6 +4142,11 @@
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://cms.muninavidad.cl/uploads/ORDENANZA_BECA_MUNICIPAL_NAVIDAD_14_02_2024_a0e5bed7d3.pdf?updated_at=2024-02-19T21%3A00%3A47.613Z",
+          "consulta": "2026-10-06",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
         }
       ],
       "alcance": null
@@ -3903,8 +4218,8 @@
       "candidato": "fdc3f924f84f142ceb109d46af1ddc705180c3a0538a96e822c2b953f2e97c93",
       "nombre": "Beca Municipal de Apoyo a la Educación Superior Contulmo",
       "institucion": "Municipalidad de Contulmo",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La comunicación acredita apoyo y población estudiantil, pero no detalla suficientemente cobertura y/o selección principal. Mantener los datos parciales y buscar la ficha propia.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No calcular importe individual dividiendo presupuesto entre nómina; no guardar nombres de beneficiarios. Preferencia por educación pública local. Alcance histórico 2022. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://www.contulmo.cl/postula-a-la-beca-municipal-de-apoyo-a-la-educacion-superior-2026-%F0%9F%8E%93%E2%9C%A8/",
@@ -3913,9 +4228,26 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "cf0bcb0f5e802c9fdb7a3e018842926399c16119fca044af17ae7149a9ade9bd",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.contulmo.cl/Transparencia/Decretos/2022/05-Mayo/DE1685.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "7e6d30a2db0c1e323dc85c873965f282833b24b1ee2b7d7d27c42b6e4083bb7c",
+          "paginas": 16,
+          "url_final": "https://www.contulmo.cl/Transparencia/Decretos/2022/05-Mayo/DE1685.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.contulmo.cl/Transparencia/Decretos/2022/05-Mayo/DE1685.pdf"
+        ],
+        "alcance": "Reglamento Contulmo proceso 2022 incorporado al decreto; páginas 5–8, lectura visual/OCR.",
+        "beneficio": "Aporte monetario de libre disposición mensual durante diez meses; monto sujeto a decreto individual y presupuesto.",
+        "requisitos_principales": "Residencia local; RSH hasta 70%; egreso de media con promedio 5,5; matrícula reconocida y avance curricular al día; estudios de pregrado de hasta doce semestres. Mantención semestral con 4,5.",
+        "limites": "No calcular importe individual dividiendo presupuesto entre nómina; no guardar nombres de beneficiarios. Preferencia por educación pública local. Alcance histórico 2022. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "cf2b6e51488e301ee7729cc34be162cd51373a78934c73d516c22e17f1543b0f",
@@ -3984,17 +4316,31 @@
       "candidato": "65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308",
       "nombre": "Beca Educación Superior y Beca Ayuda para Transporte",
       "institucion": "Municipalidad de Las Cabras",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El registro combina programas/modalidades. Falta corroborar cada componente con sus condiciones propias; no extender el monto de uno al otro.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Los cupos de la modalidad superior difieren entre artículos: desconocidos. No homologar a mérito académico con promedio 6,0. Incompatibilidades con BPR/Indígena y otras becas municipales según modalidad. Fuente histórica y transporte con TLS no validable; autoría municipal contrastada en documento. No certifica calendario/documentos completos ni autoriza activación. Original conservado.",
       "fuentes": [
         {
           "url": "https://www.lascabrasmunicipalidad.cl/trans/articulos/10-Subsidios_y_Programas_Sociales/archivos/0900201511%20REGLAMENTO%20BECA%20MUNICIPALES%20DAEM.pdf",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "sha256": "15ec6a18afda7e436d9a6826f803f4ca5dc60a735f33c82d3de516cfcbc73014",
+          "paginas": 6,
+          "url_final": "https://www.lascabrasmunicipalidad.cl/trans/articulos/10-Subsidios_y_Programas_Sociales/archivos/0900201511%20REGLAMENTO%20BECA%20MUNICIPALES%20DAEM.pdf",
+          "limite_transporte": "Certificado TLS no validable; documento público recuperado sin autenticación. Contrastar autoría municipal del documento.",
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.lascabrasmunicipalidad.cl/trans/articulos/10-Subsidios_y_Programas_Sociales/archivos/0900201511%20REGLAMENTO%20BECA%20MUNICIPALES%20DAEM.pdf"
+        ],
+        "alcance": "Reglamento Las Cabras aprobado en agosto de 2015; páginas 1–4 leídas visualmente.",
+        "beneficio": "Modalidades separadas: educación superior 10 UF anuales; ayuda transporte superior 5 UF anuales, sin conversión a pesos actuales.",
+        "requisitos_principales": "Residencia familiar local; carrera de cuatro semestres como mínimo y promedio 5,5. Educación superior: cuatro años previos en educación municipal local y egreso de media dentro de tres años. Transporte diferencia cupos según establecimiento, con excepción del requisito escolar local para una categoría.",
+        "limites": "Los cupos de la modalidad superior difieren entre artículos: desconocidos. No homologar a mérito académico con promedio 6,0. Incompatibilidades con BPR/Indígena y otras becas municipales según modalidad. Fuente histórica y transporte con TLS no validable; autoría municipal contrastada en documento. No certifica calendario/documentos completos ni autoriza activación. Original conservado."
+      }
     },
     {
       "candidato": "d244c3f979f455ce6a5a3750f9d00dc24b448043b5e53028e26446b03ab6a557",
@@ -4016,17 +4362,33 @@
       "candidato": "93779d4ea342838b60e25b12ee492f54704ab18337dcb17ce93e6b2e1fc44f56",
       "nombre": "Beca de Enseñanza Superior Maullin",
       "institucion": "Municipalidad de Maullin",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No confundir con residencia, útiles o inscripción PAA. No admite cobertura total equivalente de otra institución. Confirmación histórica 2000; no convocatoria vigente. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://munimaullin.cl/wp-content/uploads/2025/12/ordenanza-municipal-beca-ensen%CC%83anza-superior.pdf",
           "consulta": "2026-10-06",
           "error": "The read operation timed out",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=156710",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "4ff75cdc3dade5550d6eee84a015e513a646a920e50ffce12cdea8cf379e9131",
+          "url_final": "https://www.bcn.cl/leychile/navegar?idNorma=156710"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=156710"
+        ],
+        "alcance": "Ordenanza Maullín de 2000, artículos 13–19; texto obtenido de BCN.",
+        "beneficio": "Financiamiento parcial o total de matrícula y/o arancel; cheque a la institución; importe anual según presupuesto.",
+        "requisitos_principales": "Egreso del Liceo Francisco Vidal Gormaz de Maullín; escasos recursos e imposibilidad económica de pago; continuidad con promedio 5,0; acreditar costo adeudado.",
+        "limites": "No confundir con residencia, útiles o inscripción PAA. No admite cobertura total equivalente de otra institución. Confirmación histórica 2000; no convocatoria vigente. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238",
@@ -4042,6 +4404,11 @@
           "tipo": "text/html; charset=utf-8",
           "sha256": "e0c09d4078e2ef7ab9e3f090b88e031600b5bc9b7e68be28497eb4be17a3270e",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://mostazal.cl/wp-content/uploads/2025/04/Cuenta_Publica_gestion_2024_digital.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -4216,8 +4583,8 @@
       "candidato": "e9d19755434b511dcefa8b4292f6faac35007429f92ca5c271e4ba472b706e7e",
       "nombre": "Beca Municipal de Educación Superior Melinka",
       "institucion": "Municipalidad de Guaitecas",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia identifica Excelencia AquaChile con $1.000.000 anual. Falta probar equivalencia con la candidata municipal; puede tratarse de otro programa.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "También existe tramo escolar con otro importe; no mezclar ni atribuir Beca Excelencia AquaChile. La fuente incluye estudios dentro y fuera de Melinka; no certificar una beca separada solo de pasajes. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://muniguaitecas.cl/2026/04/07/bases-beca-de-excelencia-y-ficha-de-postulacion-guaitecas-2026/",
@@ -4234,9 +4601,25 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "58e052d0c0a4c3678b1360aa7302c36f3cf63727b4f94e574830447edb793dd3",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://muniguaitecas.cl/2018/05/16/beca-incentivo-escolar-un-beneficio-exclusivo-que-apoya-a-los-jovenes-de-guaitecas/",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "10d029a124e108fad9c03fa28b7f464307e0e2c789749bb66af2bdcd4a42029f",
+          "url_final": "https://muniguaitecas.cl/2018/05/16/beca-incentivo-escolar-un-beneficio-exclusivo-que-apoya-a-los-jovenes-de-guaitecas/"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://muniguaitecas.cl/2018/05/16/beca-incentivo-escolar-un-beneficio-exclusivo-que-apoya-a-los-jovenes-de-guaitecas/"
+        ],
+        "alcance": "Programa municipal Incentivo Escolar Guaitecas, comunicación del 16 de mayo de 2018, tramo educación superior.",
+        "beneficio": "$70.000 mensuales durante ocho meses para educación superior.",
+        "requisitos_principales": "Residencia acreditada con RSH local; alumno regular superior y aprobación del 70% de asignaturas.",
+        "limites": "También existe tramo escolar con otro importe; no mezclar ni atribuir Beca Excelencia AquaChile. La fuente incluye estudios dentro y fuera de Melinka; no certificar una beca separada solo de pasajes. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131",
@@ -4277,6 +4660,12 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "75c26f5a53325291e28f19d85a31ccaf77ec3bd4a1b456bef7104b9116d30193",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://municipalidadalhue.cl/portal/beca-municipal/",
+          "consulta": "2026-10-06",
+          "sha256": "0d9a3955b5df5e76d135bd598e24c5023e9995683aaeebb8acebe5dfa1db7734",
+          "url_final": "https://municipalidadalhue.cl/portal/beca-municipal/"
         }
       ],
       "alcance": null
@@ -4365,6 +4754,11 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "10032caf8c43e164755619b97bdd6927433ce50e7e598a76a67a58f2c9f13ba6",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.municipalidadantuco.cl/wp-content/uploads/2018/03/DA-N%C2%B0-05222-aprueba-ordenanza-que-regula-beca-Municipal-ES.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -4466,13 +4860,18 @@
       "nombre": "Beca Municipal para Educación Superior 2026",
       "institucion": "Municipalidad de Chillan Viejo",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Reglamento Chillán Viejo 2024 leído en contenido indexado institucional: aporte de mantención; domicilio/RSH local, matrícula reconocida, ingreso con 5,5 y continuidad con 5,0 y todas las asignaturas aprobadas. La candidata especifica 2026; el reglamento histórico no certifica que esas condiciones sigan rigiendo para esa edición.",
       "fuentes": [
         {
           "url": "https://chillanviejo.cl/noticia/se-abre-el-proceso-de-postulacion-para-la-beca-municipal-2026-en-chillan-viejo/",
           "consulta": "2026-10-06",
           "error": "HTTP Error 403: Forbidden",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://chillanviejo.cl/wp-content/uploads/2024/02/REGLAMENTO-BECA-MUNICIPAL-2024.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "alcance": null
@@ -4491,6 +4890,11 @@
           "tipo": "text/html; charset=utf-8",
           "sha256": "ae618ba88c0d3711ccef2bdb83a570266888d2ebc1392bf4631d379da8c3ec64",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.rioverde.cl/beca-i-municipalidad-de-rio-verde",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -4500,7 +4904,7 @@
       "nombre": "Beca Municipal Quemchi y Beca Pescadores Artesanales",
       "institucion": "Municipalidad de Quemchi",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El registro combina programas/modalidades. Falta corroborar cada componente con sus condiciones propias; no extender el monto de uno al otro.",
+      "hallazgo": "Portal Quemchi actualizado diferencia bases 2026 de Excelencia Académica y de Hijos de Pescadores Artesanales. La ficha histórica publica notas diferentes según universidad/CFT e ingreso. Falta leer beneficio y requisitos de ambas modalidades propias para confirmar el registro compuesto; no trasladar condiciones de una a otra.",
       "fuentes": [
         {
           "url": "https://www.muniquemchi.cl/becas-municipales/",
@@ -4747,7 +5151,7 @@
       "nombre": "Beca Municipal Puerto Saavedra",
       "institucion": "Municipalidad de Saavedra",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Bases Saavedra 2025 leídas: aporte único $150.000 o $180.000 con voluntariado; residencia, RSH 40–60%, matrícula reconocida, ingreso con 5,0 y continuidad con 4,5. El párrafo que excluye hijos de funcionarios condiciona la exclusión a ingresos que no sobrepasen 1,5 mínimos y más de dos hijos, con alcance ambiguo. No certificar esa elegibilidad familiar sin aclaración.",
       "fuentes": [
         {
           "url": "https://munisaavedra.cl/wp-content/uploads/2025/05/BASES-BECA-MUNICIPAL-ANO-2025.pdf",
@@ -4870,8 +5274,8 @@
       "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
       "nombre": "Beca Municipal de Educación Superior San Antonio",
       "institucion": "Municipalidad de San Antonio",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Un beneficiario familiar y contraprestación voluntaria según ficha. Excluye capacitación/práctica. La página conserva un párrafo ajeno de servicio funerario: no se utiliza como evidencia educativa. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://www.sanantonio.cl/images/2026/pdf/D.A%20BECA%20IMSA%202026.pdf",
@@ -4884,9 +5288,25 @@
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "ee2e99d3a8e0372bd4360395a4119a6f8d310374a28a268f0373ebe78135a24a",
+          "url_final": "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html"
+        ],
+        "alcance": "Ficha municipal Beca Municipal de San Antonio, consultada el 6 de octubre de 2026.",
+        "beneficio": "Aporte por cheque para pasajes, matrícula, arancel y materiales; importe desconocido.",
+        "requisitos_principales": "Residencia local acreditada mediante RSH; alumno regular de educación superior; acreditación socioeconómica y evaluación de trabajador social; carrera de cuatro semestres como mínimo en institución reconocida.",
+        "limites": "Un beneficiario familiar y contraprestación voluntaria según ficha. Excluye capacitación/práctica. La página conserva un párrafo ajeno de servicio funerario: no se utiliza como evidencia educativa. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "3b84b51cf1b3376a47226d92043464191fdc08a80242e2618244e56c52c6e768",
@@ -5372,7 +5792,7 @@
       "nombre": "Beca Educación Superior DIDECO Chillan",
       "institucion": "Municipalidad de Chillan",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada trata ayudas JUNAEB/Mineduc o su tramitación. No permite atribuir sus beneficios y condiciones a una beca municipal propia.",
+      "hallazgo": "Noticia municipal Chillán de 2024 leída: Aporte Económico Educación Superior, $500.000 de libre disposición, mayor de 18 años, RSH local y egreso de colegio municipal; indica primero a cuarto año y rendimiento 6,0 o 86% de aprobación, pero la invitación final menciona primero o segundo. No certificar un intervalo de año académico sin aclarar esa discordancia.",
       "fuentes": [
         {
           "url": "https://www.municipalidadchillan.cl/sitio/descargas/DIDECO/Manual-DIDECO-2026.pdf",
@@ -5383,6 +5803,12 @@
           "paginas": 66,
           "lectura_limite": "primeras 60 páginas",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://www.municipalidadchillan.cl/sitio/noticia.php?id=3147",
+          "consulta": "2026-10-06",
+          "sha256": "aa75eab0b39eaa6398e421dcf4ffbb00ea9dfee411fa21093bc13b8152058180",
+          "url_final": "https://www.municipalidadchillan.cl/sitio/noticia.php?id=3147"
         }
       ],
       "alcance": null
@@ -5407,6 +5833,11 @@
           "consulta": "2026-10-06",
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://www.municipalidadcalama.cl/resources/docs/GENERAL_N_559_13_03_2024_ARCH.pdf",
+          "consulta": "2026-10-06",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "alcance": null
@@ -5683,17 +6114,34 @@
       "candidato": "305155ba36aa3c6648b576c3988442b004222a2c5a3d0e3d080eb6d9a3a9da8c",
       "nombre": "Beca Excelencia Académica UBB",
       "institucion": "Universidad del Bio-Bio",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El 30% y NEM 5,8 del antecedente no quedan corroborados. Renovación sujeta al reglamento; no confundir con Mérito Académico. Se conservan ambos registros de variante. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://admision.ubiobio.cl/becas-y-beneficios/",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true,
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        ],
+        "alcance": "Catálogo oficial Mineduc de servicios universitarios, admisión 2026, página 312: Excelencia Académica UBB.",
+        "beneficio": "Exención del 100% del arancel anual de matrícula.",
+        "requisitos_principales": "Dos primeros seleccionados y matriculados por carrera mediante vía regular; egreso de media dentro de los dos años anteriores; no haber usado antes el beneficio. Sin puntaje ponderado mínimo.",
+        "limites": "El 30% y NEM 5,8 del antecedente no quedan corroborados. Renovación sujeta al reglamento; no confundir con Mérito Académico. Se conservan ambos registros de variante. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c",
@@ -5821,8 +6269,8 @@
       "candidato": "4971212c6be331a101938831771fdd4cef110d8f7fd12d1f45dfcb1cc44307ed",
       "nombre": "Beca Familiar UDLA",
       "institucion": "Universidad de Las Americas",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El catálogo actual no permitió identificar y corroborar la modalidad de este registro. No equivale a demostrar que nunca existió.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No se concede por primera vez. Incompatible con otras becas internas; Familia y Trabajo y Matrimonial/AUC son modalidades separadas; no adjudicarles el mismo porcentaje. Calendario y documentos completos no certificados; no activar; conservar el original.",
       "fuentes": [
         {
           "url": "https://admision.udla.cl/becas/",
@@ -5831,25 +6279,51 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "4581ff05baf89daf0a9378d5e8a8b291d67b1895573fe9ecb8e73977f48ccba6",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://siae.udla.cl/becas-udla/becas-familiares/",
+          "consulta": "2026-10-06",
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://siae.udla.cl/becas-udla/becas-familiares/"
+        ],
+        "alcance": "Ficha oficial SIAE UDLA consultada el 6 de octubre de 2026.",
+        "beneficio": "Mantiene el porcentaje previamente concedido sobre el arancel de menor valor de un integrante familiar; porcentaje individual desconocido.",
+        "requisitos_principales": "Solo renovación; otro integrante familiar regular con carga académica; progreso acumulado de ambos de 70%; compromisos financieros al día.",
+        "limites": "No se concede por primera vez. Incompatible con otras becas internas; Familia y Trabajo y Matrimonial/AUC son modalidades separadas; no adjudicarles el mismo porcentaje. Calendario y documentos completos no certificados; no activar; conservar el original."
+      }
     },
     {
       "candidato": "3426d91768d52b544544dfcce0a325e2a88b2f9073c44441284e6aab89991af3",
       "nombre": "Beca de Educación Superior Municipal Ovalle",
       "institucion": "Municipalidad de Ovalle",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No atribuir condiciones del Bono a todas las categorías. Cortes numéricos de notas/RSH desconocidos en esta ficha; importes del original no respaldados permanecen sin certificar. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
       "fuentes": [
         {
           "url": "https://muniovalle.gob.cl/servicios/beca-concejo-municipal/",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "sha256": "3b23f5c49a633e601962948870d9b2bfd54dd93fc4ffc89ace6acdb8225c09cc",
+          "url_final": "https://muniovalle.gob.cl/servicios/beca-concejo-municipal/",
+          "lectura_esencial": true
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://muniovalle.gob.cl/servicios/beca-concejo-municipal/"
+        ],
+        "alcance": "Ficha Beca Concejo Municipal Ovalle, consultada el 6 de octubre de 2026.",
+        "beneficio": "$500.000 anuales en dos cuotas.",
+        "requisitos_principales": "Residencia local, vulnerabilidad y mérito; matrícula en universidad y carrera acreditadas, IP o CFT; categorías académica, artística/literaria, deportiva o discapacidad.",
+        "limites": "No atribuir condiciones del Bono a todas las categorías. Cortes numéricos de notas/RSH desconocidos en esta ficha; importes del original no respaldados permanecen sin certificar. Calendario y documentación completa no certificados; no activar. Los originales se conservan."
+      }
     },
     {
       "candidato": "329da2a2114725f39f8812b23e46593a790326af4e63e95f93752eaaf9f392ec",
@@ -5892,6 +6366,12 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "119e39db442fff5101bf1b0c770b94943884ec175f9410d53a99611a35383aa3",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://quillota.cl/municipalidad/atencion-estudiantes-de-quillota-desde-hoy-pueden-postular-a-la-beca-municipal-banamor-de-educacion-superior/",
+          "consulta": "2026-10-06",
+          "sha256": "7d7366ef536db3601b8ba8898e22ef73807ee54181cdeffd818bf52648e95aed",
+          "url_final": "https://www.quillota.cl/"
         }
       ],
       "alcance": null
@@ -6034,13 +6514,25 @@
       "nombre": "Beca Municipal de Educación Superior Puerto Varas",
       "institucion": "Municipalidad de Puerto Varas",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Reglamento Puerto Varas decreto 3914 de septiembre de 2022 recuperado y leído por OCR/contraste visual: apoyo para matrícula/arancel, materiales y pasajes; institución reconocida/acreditada, residencia y RSH local, una persona por familia y sin título o posgrado. Tabla de requisitos exige 5,5 durante último año en letra d y 5,0 desde segundo año en letra e. Este umbral académico permanece contradictorio; importe individual desconocido. Fuente pública recuperada con certificado TLS no validable.",
       "fuentes": [
         {
           "url": "https://www.ptovaras.cl/noticias/puerto-varas-entrega-beca-municipal-a-188-estudiantes-destacados-de-ensenanza-media-y-superior",
           "consulta": "2026-10-06",
           "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
           "contenido_extraido": false
+        },
+        {
+          "url": "https://ptovaras.cl/documentos/becas-municipales/DEC%203914%20REGLAMENTO%20BECAS%20MUNICIPALES.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "2aca2a9def880dfde380c2e23df0ccce2ce9695959e859102ab37448c6edfa9d",
+          "url_final": "https://ptovaras.cl/documentos/becas-municipales/DEC%203914%20REGLAMENTO%20BECAS%20MUNICIPALES.pdf",
+          "paginas": 12
+        },
+        {
+          "url": "https://www.ptovaras.cl/images/becas/Reglamento_Beca_Municipal_2025.pdf",
+          "consulta": "2026-10-06",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
         }
       ],
       "alcance": null
@@ -6258,5 +6750,11 @@
       ],
       "alcance": null
     }
-  ]
+  ],
+  "busqueda_adicional": {
+    "candidatas": 244,
+    "consultas_institucionales": 212,
+    "confirmaciones_adicionales": 22,
+    "registro": "busquedas_adicionales_244_2026_10_06.json"
+  }
 }
