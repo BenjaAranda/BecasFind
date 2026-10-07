@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Resultado acumulado de estas 291: 114 confirmaciones esenciales y 177 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
+Resultado acumulado de estas 291: 123 confirmaciones esenciales y 168 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
 
@@ -12,7 +12,7 @@ Cada apartado identifica el mismo hash estable del inventario. Las confirmacione
 
 Tras las primeras 47 confirmaciones se hicieron 212 búsquedas institucionales para las 244 restantes y se recuperaron reglamentos y fichas específicas. Se añaden 22 confirmaciones con datos leídos. Se usó OCR para los reglamentos escaneados y contraste visual de las páginas citadas. Las búsquedas y URLs localizadas son pistas de investigación, no confirmaciones automáticas; su registro está en [el anexo de búsquedas](procesados/busquedas_adicionales_244_2026_10_06.json).
 
-Persisten 177 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
+Persisten 168 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
 
 ## Revisión de las 222 restantes y respaldo
 
@@ -20,14 +20,19 @@ Se incorporan 45 confirmaciones adicionales con alcance por modalidad, facultad 
 
 Las diferencias de convocatoria se conservan por año. Los catastros universitarios se identifican como fuentes institucionales referenciales e históricas; sus datos no se presentan como bases municipales vigentes. Persisten campos sin fuente suficiente y contradicciones internas que no pueden resolverse escogiendo arbitrariamente una cifra. No se han eliminado candidatas.
 
+## Nuevo lote de 50 — 7 de octubre de 2026
+
+Se revisaron 50 candidatas: 9 confirmaciones esenciales adicionales y 41 aclaraciones documentales actualizadas. No son 50 confirmaciones. El lote de 291 acumula 123 confirmaciones esenciales y 168 aclaraciones abiertas. No se añadieron descartes ni se activaron registros.
+
+Respaldo previo verificado: `C:\Users\benja\Documents\BecasFind-respaldos\corpus-antes-siguiente50-20261007-201459.zip`; 192 archivos; SHA-256 `e51379f3205b00fe3f30c9ea2eff165699f890e82e92d6e0e61d37ece2e5500d`. Se preservan las confirmaciones y decisiones históricas anteriores.
+
 ## 001. Beca Municipal Educación Superior La Florida — bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0
 Institución del registro: Municipalidad de La Florida.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El enlace corresponde a beca escolar de kínder a cuarto medio. No respalda educación superior ni demuestra que esta candidata no exista.
-Antecedente por comprobar (no constituye nueva confirmación): Plataforma oficial 2026 leída: beca escolar de kínder a cuarto medio. No equivale a educación superior. Identidad de las dos candidatas superiores no acreditada; no trasladar cobertura escolar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://appx.laflorida.cl/beca_escolar/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 002. Beca Municipal Educación Superior Quilpue — 38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da
 Institución del registro: Municipalidad de Quilpue.
@@ -44,11 +49,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 003. Beca Municipal Educación Superior Villa Alemana — c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715
 Institución del registro: Municipalidad de Villa Alemana.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El contenido obtenido no permite corroborar conjuntamente identidad, beneficio y requisitos principales de esta candidata. Hace falta una lectura específica adicional; no confirmar por acceso HTTP.
-Antecedente por comprobar (no constituye nueva confirmación): La página recuperada corresponde a Talento Deportivo 2026 para mayores de seis años; no acredita una beca de educación superior. La sección de educación agotó el tiempo de consulta.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.villalemana.cl/secciones/educacion/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: La noticia presupuestaria de Villa Alemana anuncia creación de una beca superior para 2025. El anuncio no fija importe individual ni requisitos de acceso; no certifica una convocatoria ejecutada o vigente.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://villalemana.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/)
 
 ## 004. Beca Municipal de Educación Superior Viña del Mar — cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d
 Institución del registro: Municipalidad de Viña del Mar.
@@ -106,12 +110,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 009. Aporte de Movilidad y Combustible Algarrobo — 16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322
 Institución del registro: Municipalidad de Algarrobo.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La ayuda de movilidad localizada cubre otras poblaciones y necesidades; no acredita un programa específico para estudiantes superiores.
-Antecedente por comprobar (no constituye nueva confirmación): Fuente específica de Combustible 2026 localizada: apoyo a hogares vulnerables, cuidadores, discapacidad y sectores rurales. No acredita transporte estudiantil a otras ciudades. Incompatibilidad material de identidad del registro; requiere reclasificación antes de cerrar.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La noticia Algarrobo 2026 corresponde a aporte de combustible para hogares vulnerables. No es una beca educativa o de transporte estudiantil. Se conserva el registro y se busca su programa propio; no se confirma ni descarta por el enlace equivocado.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/)
-- [Referencia 2](https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 010. Beca Municipal de Educación Superior La Serena — 8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b
 Institución del registro: Municipalidad de La Serena.
@@ -181,24 +183,20 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 016. Beca Fundadores UCentral — 805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9
 Institución del registro: Universidad Central de Chile.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo DAVE contiene otras ayudas. Falta identificar Fundadores/Copago y verificar su cobertura y requisitos propios.
-Antecedente por comprobar (no constituye nueva confirmación): Beca U. Central y Mérito no prueban equivalencia con Fundadores ni umbral NEM 5,8 histórico.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: El catálogo actual confirma otras becas UCentral, pero no identifica Fundadores. La ausencia en ese catálogo no prueba que haya sido eliminada; falta equivalencia oficial con un beneficio concreto.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)
-- [Referencia 2](https://www.ucentral.cl/admision/becas-y-beneficios)
-Límite de acceso registrado: The read operation timed out.
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 017. Beca Copago UCentral — 6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000
 Institución del registro: Universidad Central de Chile.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo DAVE contiene otras ayudas. Falta identificar Fundadores/Copago y verificar su cobertura y requisitos propios.
-Antecedente por comprobar (no constituye nueva confirmación): Complementaria para nuevos ACCESO con CAE completo y Copago especial histórico 2019 no prueban una identidad universal. Delimitar modalidad antes de cerrar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/)
-- [Referencia 2](https://www.ucentral.cl/admision/becas-y-beneficios)
-Límite de acceso registrado: The read operation timed out.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: UCentral: informativo oficial indexado 2019, sección carreras técnicas, página 8.
+Beneficio corroborado: Copago: 45% para CAE más BBE o BBE; 35% para CAE, según diferencia entre arancel real y referencia. La preselección a gratuidad tiene condiciones específicas en la ficha.
+Requisitos principales: Estudiantes técnicos ingresados entre 2016 y 2018 dentro de duración formal en 2019; CAE o BBE vigente, o preselección a gratuidad 2019 y RSH 60% del antecedente 2018 conforme a las excepciones del informativo.
+Límites: Lectura del contenido oficial conservado en índice de búsqueda; la recarga directa devuelve 404. Alcance técnico histórico 2019: no extrapolar porcentajes a toda la universidad ni al año 2026. No se acredita enlace operativo actual. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.ucentral.cl/ucentral/site/docs/20191218/20191218100048/informativo.pdf)
 
 ## 018. Beca de Alimentación UChile — a39386e8f04af45e34f405eaf768937ac54d61fa80ff46fc0df474b732967ec5
 Institución del registro: Universidad de Chile.
@@ -214,49 +212,47 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 019. Beca de Residencia UFRO — 3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e
 Institución del registro: Universidad de La Frontera.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo UFRO no aporta una ficha suficiente de esta modalidad. Se retiró una referencia de la Universidad de Chile que no corresponde a UFRO.
-Antecedente por comprobar (no constituye nueva confirmación): Beca de Residencia UFRO: Residencia UFRO: REAS y Beca Residencia Indígena son programas diferentes; falta ficha que delimite identidad y requisitos del alias propio.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La noticia REAS 2021 confirma apoyo residencial y casas para estudiantes, pero no precisa todas las condiciones de acceso ni cobertura individual. No certificar gratuidad o manutención completa.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://admision.ufro.cl/becas-y-beneficios/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/)
 
 ## 020. Beca Deportiva UFRO — 8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967
 Institución del registro: Universidad de La Frontera.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo UFRO no aporta una ficha suficiente de esta modalidad. Se retiró una referencia de la Universidad de Chile que no corresponde a UFRO.
-Antecedente por comprobar (no constituye nueva confirmación): Beca Deportiva UFRO: Deportiva UFRO: índice de admisión y FAQ no respaldan 25% de arancel; no inferir inexistencia ni trasladar becas de postgrado.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: El catálogo UFRO y la publicación Mineduc describen actividades deportivas y otros apoyos; no identifican una beca deportiva con beneficio y elegibilidad atribuibles a este registro.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://admision.ufro.cl/becas-y-beneficios/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
 
 ## 021. Beca de Apoyo Socioeconomico UFRO — d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997
 Institución del registro: Universidad de La Frontera.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo UFRO no aporta una ficha suficiente de esta modalidad. Se retiró una referencia de la Universidad de Chile que no corresponde a UFRO.
-Antecedente por comprobar (no constituye nueva confirmación): Beca de Apoyo Socioeconomico UFRO: Apoyo socioeconómico UFRO: red de donatarios con becas por carreras no acredita modalidad general del alias. No asignar importe universal.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La referencia REAS corresponde a apoyo residencial. No acredita una beca general en efectivo ni descuento de arancel; donatarios y residencia son programas distintos y no se sustituyen entre sí.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
 
 ## 022. Beca de Residencia UMAG — e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00
 Institución del registro: Universidad de Magallanes.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo del contraste anterior reutilizado: Identidad interna pendiente; no equiparar a residencia indígena externa.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.umag.cl/?page_id=4095)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: UMAG: Beca de Alojamiento, publicación oficial Mineduc admisión 2026, página 250.
+Beneficio corroborado: Ayuda económica para gastos de arriendo y hospedaje; importe desconocido.
+Requisitos principales: Estudiantes UMAG vulnerables provenientes de otras comunas o regiones; evaluación socioeconómica e informe de trabajadora social municipal de origen.
+Límites: Se identifica apoyo económico de alojamiento, no residencia gratuita ni exención de arancel. La URL original page_id=4095 corresponde a distinción PAES y no acredita alojamiento. Sin corte numérico RSH o NEM confirmado. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
 
 ## 023. Beca de Excelencia Académica USACH — b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff
 Institución del registro: Universidad de Santiago de Chile.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo del contraste anterior reutilizado: Distinguir BEA de Mineduc y modalidades de excelencia institucional.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://vrae.usach.cl/beneficios-estudiantiles)
-Límite de acceso registrado: HTTP Error 404: Not Found.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: La publicación Mineduc diferencia distinción PAES, Propedéutico y otras becas USACH. La BEA estatal y sus cupos supernumerarios no prueban una beca interna universal; falta identificar el programa del registro.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
 
 ## 024. Beca de Apoyo Socioeconomico USACH — 7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921
 Institución del registro: Universidad de Santiago de Chile.
@@ -282,12 +278,13 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 026. Beca de Excelencia Deportiva — ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb
 Institución del registro: Universidad de Talca.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La ficha deportiva contiene una redacción ambigua sobre antigüedad de egreso. Cobertura y modalidad localizadas; falta resolver esa condición principal.
-Antecedente por comprobar (no constituye nueva confirmación): UTalca Deportiva: aclarar antigüedad de egreso contradictoria con noticia oficial anterior.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.utalca.cl/becas/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: UTalca: RU 46 de 2026, artículo 15, modalidad de renovación de Excelencia Deportiva.
+Beneficio corroborado: Arancel anual completo cuando no existe otra cobertura; complemento cuando la cobertura externa es parcial; con gratuidad o cobertura total, aporte anual de 22 UTM.
+Requisitos principales: Renovación: estudiante regular que continúe representando deportivamente a la universidad, sin sanciones disciplinarias del año anterior y con acreditaciones académicas y deportivas institucionales.
+Límites: Confirmación limitada a renovación. El requisito de antigüedad de egreso para nuevo ingreso dice al menos dos años en el reglamento y hasta dos en la ficha de admisión: ese campo permanece sin confirmar. No convertir UTM a pesos ni afirmar resolución de la contradicción de ingreso. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf)
 
 ## 027. Beca Deportista en Formación Elite — 342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705
 Institución del registro: Universidad Técnica Federico Santa Maria.
@@ -303,11 +300,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 028. Beca de Apoyo Socioeconomico UV — 33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9
 Institución del registro: Universidad de Valparaíso.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo del contraste anterior reutilizado: La ficha de Honor no confirma este apoyo genérico.
-Fuentes específicas consultadas o intentadas:
-- Sin enlace específico disponible.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: Mineduc distingue Facilidades de Apoyo Arancelario, Solidaridad Estudiantil y Vida Universitaria UV. La denominación genérica no determina cuál corresponde; no fusionar cobertura y requisitos de los tres programas.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
 
 ## 029. Beca de Excelencia Deportiva UV — 8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870
 Institución del registro: Universidad de Valparaíso.
@@ -334,11 +330,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 031. Beca Municipal Educación Superior Paine — b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c
 Institución del registro: Municipalidad de Paine.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La información adicional está en un sitio personal del alcalde. Falta respaldo en una ficha o bases institucionales del programa.
-Antecedente por comprobar (no constituye nueva confirmación): Búsquedas por municipio y nivel no localizaron bases oficiales específicas del aporte descrito. Torres del Paine pertenece a otra comuna y no sirve de referencia. Sin fuente profunda válida no se acreditan $200.000, cuotas ni elegibilidad. No se declara inexistencia del programa.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 032. Beca Municipal para Estudiantes de Educación Superior Angol — f435a119901e41f784b3ee4831a5af00ddbfd30b031da6188b775dbc98fdaead
 Institución del registro: Municipalidad de Angol.
@@ -374,12 +369,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 035. Beca Municipal de Educación Superior San Miguel — 1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc
 Institución del registro: Municipalidad de San Miguel.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La fuente describe Beca Dorada de INACAP para otra población. No acredita la beca municipal superior general.
-Antecedente por comprobar (no constituye nueva confirmación): Se recuperaron archivos de categorías de educación e infancia. La recuperación del listado no acredita una ficha específica ni condiciones individuales.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://web.sanmiguel.cl/category/educacion/)
-- [Referencia 2](https://web.sanmiguel.cl/category/ninos/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 036. Beca Municipal de Educación Superior Pucon — b721f22d2bf20f0a6d2944fed575b94fefd8d16b38b5c45869aa4f9ae82c70c9
 Institución del registro: Municipalidad de Pucon.
@@ -447,40 +440,35 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 042. Beca Municipal para Estudios Superiores Talcahuano — 432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399
 Institución del registro: Municipalidad de Talcahuano.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): El enlace anterior presenta error de certificado. La orientación sobre beneficios estatales no acredita una beca municipal monetaria propia.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios)
-Límite de acceso registrado: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: Los catastros describen apadrinamiento de empresas Un Niño Nuestro Compromiso de Talcahuano; edades difieren entre ediciones. No confirma una beca municipal general ni permite juntar cortes de edad y montos de años distintos.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
+- [Referencia 2](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf)
 
 ## 043. Beca Municipal de Educación Superior San Pedro de la Paz — ecec85e3fcec3c2300080131f2fe657701ff13bc3db3968e55a151adfd69eedc
 Institución del registro: Municipalidad de San Pedro de la Paz.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El contenido obtenido no permite corroborar conjuntamente identidad, beneficio y requisitos principales de esta candidata. Hace falta una lectura específica adicional; no confirmar por acceso HTTP.
-Antecedente por comprobar (no constituye nueva confirmación): La ruta devuelve un formulario administrativo de carga de programas; no una ficha pública de beca. No se utiliza el formulario ni se envían datos.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.transparencia.sanpedrodelapaz.cl/admin/programas.php)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UCSC describe preuniversitario municipal gratuito para jóvenes de 17 a 25 años. No acredita una beca de mantención de educación superior; se conserva la identidad original sin sustituirla.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf)
 
 ## 044. Beca Municipal Educación Superior Hualpen — 156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a
 Institución del registro: Municipalidad de Hualpen.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): PLADECO 2026–2032 localizado describe orientación para becas estatales; cuenta 2022, convenio con IP Diego Portales. Ninguna referencia localizada acredita mantención municipal de libre disposición de $200.000. Fuentes indexadas son pistas, sin cierre esencial.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf)
-Límite de acceso registrado: <urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UdeC describe convenio Hualpén con Instituto Diego Portales: 50% de arancel y veinte cupos anuales para residentes con RSH y matrícula en IDP. Es distinto de una beca municipal general de mantención; falta acreditar equivalencia.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
 
 ## 045. Beca Municipal para Estudiantes de Educación Superior Lota — 77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d
 Institución del registro: Municipalidad de Lota.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La comunicación acredita entrega de becas de pasajes. No basta para confirmar importe y criterios de admisión.
-Antecedente por comprobar (no constituye nueva confirmación): Se recuperó el archivo de abril 2026. El listado de noticias no acredita condiciones del candidato; Pasajes debe distinguirse de otros apoyos.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://lota.cl/2026/04/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UCSC describe apoyo de pasajes de Lota, con residencia y rendimiento específicos. No acredita que la denominación genérica municipal corresponda a ese programa; no transferir $100.000 a otra modalidad.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf)
 
 ## 046. Beca Municipal para Estudiantes de Educación Superior Valdivia — 35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313
 Institución del registro: Municipalidad de Valdivia.
@@ -534,11 +522,11 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 051. Beca Municipal Educación Superior Cerrillos — f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501
 Institución del registro: Municipalidad de Cerrillos.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El visor BCN no permitió leer el texto de la ordenanza. No tratar la respuesta de la página como lectura del contenido normativo.
-Antecedente por comprobar (no constituye nueva confirmación): LeyChile devuelve una página sin texto normativo recuperable. Las dos referencias históricas requieren identificar programa y condiciones antes de conciliarlas.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.bcn.cl/leychile/navegar?idNorma=1125252)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: NEM contradictorio entre modificación oficial de 2018 (5,5) y catastro UAH 2022 (5,8). Son ediciones diferentes; no combinarlas. El aporte de $125.000 durante ocho meses del catastro no confirma un importe universal vigente; falta texto municipal actualizado.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
+- [Referencia 2](https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf)
 
 ## 052. Beca Municipal Educación Superior La Pintana — 3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515
 Institución del registro: Municipalidad de La Pintana.
@@ -553,22 +541,22 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 053. Beca Municipal Educación Superior Panguipulli — 18cb53fe509caeed9752404d14f621a8b8af4eea7b50bb35301fa5f759cbb6b2
 Institución del registro: Municipalidad de Panguipulli.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: Mantención y Premio PAES son beneficios distintos. El aporte PAES no puede atribuirse a todos los beneficiarios de mantención.
-Antecedente por comprobar (no constituye nueva confirmación): Artículo oficial 2026 leído acredita Mantención para residentes vulnerables; los requisitos específicos están remitidos a imágenes no interpretadas en esta revisión. No cerrar con NEM/RSH del histórico. Alias combinado añade PAES: falta separar ambos programas y contrastar $300.000/12 cupos.
-Fuentes específicas consultadas o intentadas:
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Panguipulli: publicaciones municipales de febrero y julio de 2026, Beca Mantención.
+Beneficio corroborado: Aporte monetario de mantención; importe individual desconocido.
+Requisitos principales: Estudiantes de educación básica, media, especial o superior residentes en Panguipulli que acrediten necesidad socioeconómica.
+Límites: Los importes publicados son presupuestos globales; no dividirlos por beneficiarios. Umbrales y criterios de selección adicionales desconocidos; se certifican población y condiciones principales expresadas en las publicaciones. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://municipalidadpanguipulli.cl/archivos/45837)
-- [Referencia 2](https://municipalidadpanguipulli.cl/archivos/47524)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://municipalidadpanguipulli.cl/archivos/48401)
 
 ## 054. Beca Municipal Educación Superior Llanquihue — 44d43d4b95af6bd191b116173c0c428bf40965cc20d10ba9f5aaa652a8aa0ef2
 Institución del registro: Municipalidad de Llanquihue.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La noticia histórica anuncia postulación; no detalla suficientemente cobertura y criterios principales.
-Antecedente por comprobar (no constituye nueva confirmación): La noticia 2023 informa apertura y cierre pero no desarrolla beneficio ni requisitos. No se reutiliza su calendario para 2026.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La noticia municipal de Llanquihue anuncia postulaciones 2023 y remite a un enlace abreviado de bases. Es un antecedente histórico; las bases no fueron recuperadas. Beneficio y requisitos aún no confirmados.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://llanquihue.cl/hasta-martes-11-de-abril-abiertas-las-postulaciones-de-la-beca-municipal-estudiantil-de-ensenanza-superior-2023/)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 055. Beca Municipal Educación Superior San Ramon — 18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1
 Institución del registro: Municipalidad de San Ramon.
@@ -604,11 +592,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 058. Beca Municipal de Educación Superior Lo Espejo — 110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8
 Institución del registro: Municipalidad de Lo Espejo.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.
-Antecedente por comprobar (no constituye nueva confirmación): La ficha del departamento menciona postulación a becas superiores sin identificar cobertura ni elegibilidad del programa propio.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.loespejo.cl/departamento-de-desarrollo-social/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 059. Beca Municipal Educación Superior Conchali — fd2aac77793899dd23a4a5a9b02243e5b958ab5463939bba252b884fc78245c8
 Institución del registro: Municipalidad de Conchali.
@@ -684,13 +671,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 066. Beca Municipal para Estudiantes de Educación Superior Penaflor — f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1
 Institución del registro: Municipalidad de Penaflor.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente consultada](https://penaflor.cl/departamento-social/). La página describe orientación para becas estatales. El catálogo https://penaflor.cl/tramites/ menciona becas municipales sin condiciones suficientes. Becas deportivas no confirman este beneficio; no se trasladan campos.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://penaflor.cl/departamento-social/)
-- [Referencia 2](https://penaflor.cl/tramites/)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 067. Beca Municipal Educación Superior Padre Hurtado — 7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789
 Institución del registro: Municipalidad de Padre Hurtado.
@@ -704,12 +688,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 068. Beca de Educación Superior Ilustre Municipalidad de Tiltil — 231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18
 Institución del registro: Municipalidad de Tiltil.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La beca de transporte de Tiltil tiene fuente propia. Falta relacionarla con esta denominación general; no fusionar automáticamente.
-Antecedente por comprobar (no constituye nueva confirmación): El programa 2025 es Transporte: 100000 CLP anuales modificables; incluye educación media y superior. Falta equivalencia con el alias genérico; puntajes RSH no son límites excluyentes.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://munitiltil.cl/documentacion-dideco/)
-- [Referencia 2](https://munitiltil.cl/wp-content/uploads/2025/04/BECA-MUNICIPAL-DE-TRANSPORTE-2025-PROGRAMA-PRESENTACION.pdf)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: Los antecedentes Tiltil diferencian beca de educación superior y transporte. La cuenta pública 2022 no se recuperó en esta lectura; no extrapolar condiciones del programa de transporte ni descartar por el fallo de acceso.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://munitiltil.cl/wp-content/uploads/2023/04/CUENTA-PUBLICA-2022-21.04.23.pdf)
 
 ## 069. Beca Municipal Educación Superior Mejillones — 10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2
 Institución del registro: Municipalidad de Mejillones.
@@ -834,12 +816,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 081. Beca Educación Superior — 7b32991aa64fc28ef4dc7f1df6a1aee4da3c366a0b257a738ac100a101bc5ee9
 Institución del registro: Municipalidad de Cartagena.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): El documento 2025 exige cinco años de residencia; RSH 40–80; matrícula y notas por nivel. No describe cobertura; tampoco se confunde la modalidad deportiva con educación superior.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: Requisitos Cartagena 2025: residencia de cinco años; RSH 40% a 80%; ingreso 5,5 y continuidad 5,0; sin título previo. No confirma límite RSH 60%. El documento no determina beneficio individual; falta cobertura y naturaleza del aporte.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf)
-Límite de acceso registrado: The read operation timed out.
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 082. Beca Municipal de Educación Superior — ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544
 Institución del registro: Municipalidad de La Cruz.
@@ -1105,20 +1085,19 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 107. Beca de Estudios Superiores Municipalidad de Purranque — c14a2cd973b875eb0c2adbca23c5743f9b20feb7ac6a0b1fc8424cb4c78de870
 Institución del registro: Municipalidad de Purranque.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La ficha conserva texto de plantilla en sus campos esenciales. Esos textos no constituyen evidencia del beneficio.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente contrastada](https://www.purranque.cl/unidades-municipales/dideco/becas.html). Ficha de oficina con objetivos e indicaciones sin completar. Documento JUNAEB es estatal; no prueba beca municipal superior propia.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La URL de becas Purranque redirige a la portada. La noticia de resultados 2026 identifica Aporte a Educación Superior, pero no detalla beneficio o elegibilidad. Una portada o folleto JUNAEB no certifica este aporte municipal.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://www.purranque.cl/unidades-municipales/dideco/becas.html)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 108. Beca Municipal Educación Superior Quellon — ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495
 Institución del registro: Municipalidad de Quellon.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La noticia 2026 distingue becas Municipal, Hijos de Pescadores, CEA y Mujer Trabajadora, con importes diferentes. Falta corroborar requisitos de la modalidad municipal; no conservar $250.000 como confirmado.
-Antecedente por comprobar (no constituye nueva confirmación): Quellón: entrega 2026 y $400.000 corroborados, pero noticia no publica requisitos principales de la modalidad general. No dividir presupuesto ni heredar reglas de hijos de pescadores.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La noticia Quellón 2026 describe aporte municipal de $400.000 en dos cuotas y otras tres categorías diferentes. El total agregado de beneficiarios tiene discrepancia, sin modificar por sí solo el aporte individual. Requisitos 2025 no acreditan reglas 2026; falta edición concordante.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://muniquellon.cl/municipalidad-de-quellon-entrega-40-millones-en-becas-y-beneficia-a-100-estudiantes-de-la-comuna/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf)
 
 ## 109. Programa Beca Municipal Educación Superior Calbuco — 5a37d991a2e4eddf2813738cf8df3457bab4be7b5ed6c3c35d0ace322b80729e
 Institución del registro: Municipalidad de Calbuco.
@@ -1253,11 +1232,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 121. Beca Municipal de Educación Superior Los Lagos — 5061a005eb041913fff48284ae8e0124a0b7682c82f8fe2044f46978d99ea353
 Institución del registro: Municipalidad de Los Lagos.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El proceso identifica residencia y evaluación social, pero no describe suficientemente el beneficio económico.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente contrastada](https://municipios.simple.digital.gob.cl/tramites/informativo/12799). Portal estatal indica postulación municipal Los Lagos; exige bases específicas para estudiantes residentes. Autenticación no realizada; monto y calendario pendientes.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La plataforma SIMPLE visitada se identifica expresamente como plataforma de pruebas, no trámite real. Su formulario no confirma convocatoria, beneficio ni requisitos municipales operativos; conservar y obtener bases de Los Lagos.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://municipios.simple.digital.gob.cl/tramites/informativo/12799)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 122. Beca Municipal de Estudios Superiores (Modalidad Reembolso de Matrícula) — 6bc95197a359821ca7f311c918f9c1350d70d691acd7c53a4b8e9de61bc0d638
 Institución del registro: Municipalidad de Licanten.
@@ -1302,11 +1280,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 126. Beca Municipal de Educación Superior (BMES) y Bono PAES — ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7
 Institución del registro: Municipalidad de San Pedro de Melipilla.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La fuente acredita adjudicación, nómina o presupuesto. Falta corroborar condiciones principales; no dividir presupuesto entre beneficiarios para inventar un importe.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente contrastada](https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf). Decreto 2026 de otorgamiento superior; no extraer datos personales. Alias combina BMES y bono PAES; falta base por modalidad y calendario exacto. San Pedro no es San Pedro de la Paz.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: El decreto San Pedro de Melipilla 2026 registra beneficiarios de beca municipal y PAES y remite al reglamento 406/2025. La nómina no acredita requisitos principales ni equivalencia entre ambas modalidades; no usar datos personales para suplir bases.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 127. Beca Municipal para Estudios Superiores Retiro — b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022
 Institución del registro: Municipalidad de Retiro.
@@ -1391,11 +1368,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 135. Beca Municipal de Educación Superior 2026 — f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451
 Institución del registro: Municipalidad de Calera de Tango.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.caleradetango.cl/departamento-social)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 no contiene una ficha de Calera de Tango. La noticia de terceros de 2026 no sustituye bases municipales; beneficio y requisitos no certificados para esta convocatoria.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 136. Beca Municipal de Educación Superior San Esteban — 9485462cdc09bf824858faaab0644400725ff885480765b0e1523a3f186a9cb6
 Institución del registro: Municipalidad de San Esteban.
@@ -1444,22 +1420,23 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 140. Beca Municipal de Mantención 2026 y Beca PAES — 6fda2f2da246d5235e0fc5cf3a60ff0bc83888333b6ced0cc518cb80fdfd871c
 Institución del registro: Municipalidad de Panguipulli.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: Mantención y Premio PAES son beneficios distintos. El aporte PAES no puede atribuirse a todos los beneficiarios de mantención.
-Antecedente por comprobar (no constituye nueva confirmación): Artículo oficial 2026 leído acredita Mantención para residentes vulnerables; los requisitos específicos están remitidos a imágenes no interpretadas en esta revisión. No cerrar con NEM/RSH del histórico. Alias combinado añade PAES: falta separar ambos programas y contrastar $300.000/12 cupos.
-Fuentes específicas consultadas o intentadas:
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Panguipulli 2026: registro combinado de Mantención y PAES, con alcance separado para cada modalidad.
+Beneficio corroborado: Mantención: aporte monetario individual desconocido. PAES: $300.000 por estudiante seleccionado.
+Requisitos principales: Mantención: residencia local y necesidad socioeconómica acreditada. PAES: mejores puntajes de establecimientos de la comuna; publicación municipal identifica quince premiados de ocho establecimientos.
+Límites: Los $300.000 son exclusivos de PAES. Cortes cuantitativos y reglas adicionales no publicados en estas fichas; no convertir PSU histórica en PAES ni trasladar montos entre modalidades. El registro combinado no prueba que exista un programa único. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://municipalidadpanguipulli.cl/archivos/45837)
-- [Referencia 2](https://municipalidadpanguipulli.cl/archivos/47524)
-Calendario y documentos: no certificados en esta entrega; no activar.
+- [Referencia 2](https://municipalidadpanguipulli.cl/archivos/48401)
+- [Referencia 3](https://municipalidadpanguipulli.cl/archivos/47524)
 
 ## 141. Beca Municipal de Educación Superior — 99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5
 Institución del registro: Municipalidad de Santa Juana.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La fuente localizada trata ayudas JUNAEB/Mineduc o su tramitación. No permite atribuir sus beneficios y condiciones a una beca municipal propia.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://biobio.mineduc.cl/2026/08/05/estudiantes-de-santa-juana-reciben-computadores-del-programa-becas-tic-de-junaeb/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UdeC distingue devolución de matrícula de primer año CRUCH sin gratuidad y apoyo de transporte vespertino. No es un aporte genérico de mantención; falta identificar modalidad del registro y evitar mezclar reglas.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
 
 ## 142. Beca Municipal de Educación Superior Porvenir — e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228
 Institución del registro: Municipalidad de Porvenir.
@@ -1677,11 +1654,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 163. Beca Pedro Aguirre Cerda — 7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74
 Institución del registro: Municipalidad de Calle Larga.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo individual conservado en [REVISION_MUNICIPALES_SEXTO_32.md](../REVISION_MUNICIPALES_SEXTO_32.md); no hay evidencia nueva suficiente para cerrar.
-Fuentes específicas consultadas o intentadas:
-- Sin enlace específico disponible.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 164. Beca Municipal de Educación Superior Catemu — f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235
 Institución del registro: Municipalidad de Catemu.
@@ -1742,12 +1718,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 170. Beca Municipal Educación Superior — 6f510fcadfcd097ca04f64533ecabd90e37a17546d04c732d226d5b5ad321114
 Institución del registro: Municipalidad de Teodoro Schmidt.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El documento de requisitos 2025 no acredita suficientemente la cobertura. No completar el importe por analogía.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente contrastada](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf). Requisitos de educación superior 2025; no extenderlos a 2026. La convocatoria de residencia 2026 localizada es otra modalidad y no permite asignar su aporte al alias genérico. Cuenta pública 2025 distingue educación superior; residencia y persona destacada. Falta convocatoria actual específica.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Teodoro Schmidt, requisitos y decreto 1015 de julio de 2025.
+Beneficio corroborado: $120.000 por beneficiario.
+Requisitos principales: Estudiante regular en educación superior reconocida; residencia y RSH local hasta 60%; necesidad económica; ingreso con notas 5,5 y continuidad 5,0; sin beneficio similar; uno por familia y sin otro programa municipal.
+Límites: Los $24.000.000 corresponden al presupuesto global. El decreto corrige la fecha del acta anterior. No trasladar reglas 2025 a 2026 ni fusionar automáticamente las dos variantes. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://muniteodoro.cl/portal/wp-content/uploads/2025/07/DAE-1015-APRUEBA-ACTA-Y-ENTREGA-BECA-MUNICIPAL-2025.pdf)
+- [Referencia 2](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf)
 
 ## 171. Beca Municipal de Educación Superior 2025/2026 — f791e7c86277c3314f6d3fc2e5793a325104b13c892b8b7030d0b46253a1b612
 Institución del registro: Municipalidad de Carahue.
@@ -1835,13 +1813,13 @@ Revisión documental: 7 de octubre de 2026. Los campos señalados no se certific
 
 ## 180. Beca Municipal de Educación Superior Capital de las Flores — 0b340924ac77c85bfb757e308f5117cbecd4354d511aff4768dd73396173b7f0
 Institución del registro: Municipalidad de Hijuelas.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://hijuelas.cl/beca-de-excelencia-municipal/)
-Límite de acceso registrado: The read operation timed out.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Hijuelas: bases municipales 2024, modalidad de educación superior.
+Beneficio corroborado: Aporte monetario en diez mensualidades; monto individual según presupuesto, desconocido. Destinado a gastos educativos rendibles.
+Requisitos principales: Residencia local mínima de un año; RSH hasta 60% con excepción evaluada por DIDECO; primer ingreso universitario con NEM 5,9 o técnico 5,4; continuidad con 80% de asignaturas aprobadas y no más de dos semestres de atraso. Sin título profesional previo; continuidad afín desde título técnico permitida.
+Límites: No usar presupuesto global como importe individual. No transformar actividad comunitaria voluntaria en obligación. Se confirma 2024; no se trasladan umbrales a 2026. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://hijuelas.cl/wp-content/uploads/BASES-Beca-municipal-2024.pdf)
 
 ## 181. Beca Municipal Educación Superior Navidad — 05e4e27bf6794c67f7cd58793b96ee2118e586f9e152465dc4de80cafd9a8836
 Institución del registro: Municipalidad de Navidad.
@@ -1915,11 +1893,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 188. Beca Municipal Alberto Antonio Herrera Cardenas — 70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd
 Institución del registro: Municipalidad de San Juan de la Costa.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La fuente acredita adjudicación, nómina o presupuesto. Falta corroborar condiciones principales; no dividir presupuesto entre beneficiarios para inventar un importe.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo individual conservado en [REVISION_MUNICIPALES_SEPTIMO_32.md](../REVISION_MUNICIPALES_SEPTIMO_32.md); no hay evidencia nueva suficiente para cerrar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://sanjuandelacosta.cl/2026/08/07/prueba/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: La referencia municipal de San Juan de la Costa identifica el nombre Alberto Antonio Herrera Cárdenas. El acceso a bases permanece bloqueado; no certificar cobertura ni requisitos a partir del título o confundir abreviaciones con nuevas becas.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://sanjuandelacosta.cl/2025/05/02/requisitos-para-postular-a-la-beca-municipal-antonio-herrera-2025/)
 
 ## 189. Beca Educación Superior y Beca Ayuda para Transporte — 65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308
 Institución del registro: Municipalidad de Las Cabras.
@@ -2024,12 +2001,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 199. Beca Municipal Educación Superior Cerro Sombrero — 2d84e8bcf07080e6c810804618bdfeb47b1b095061bbc4f08975dd02ce67e36b
 Institución del registro: Municipalidad de Primavera.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La convocatoria distingue enseñanza media y superior técnico-profesional. Las condiciones del archivo enlazado no quedaron leídas; no extender a toda universidad.
-Antecedente por comprobar (no constituye nueva confirmación): Primavera: noticia delimita media y técnico profesional superior; PDF de Drive no recuperado. Cobertura y requisitos adicionales pendientes.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: La noticia Primavera 2026 menciona educación media y técnico-profesional superior. No acredita extensión a todas las carreras universitarias; bases enlazadas no leídas íntegramente y beneficio o elegibilidad aún sin confirmar.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://www.muniprimavera.cl/noticias/proceso-de-becas-municipales-de-primavera-2026/)
-- [Referencia 2](https://drive.google.com/file/d/1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h/view?usp=drive_link)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 200. Beca Municipal de Apoyo a la Educación Superior Camina — 5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d
 Institución del registro: Municipalidad de Camina.
@@ -2332,22 +2307,24 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 229. Beca de Educación Superior Teodoro Schmidt — 526967115bd25380d1d433196774528634fb8a10a49980e44324ed0f6dee86f0
 Institución del registro: Municipalidad de Teodoro Schmidt.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El documento de requisitos 2025 no acredita suficientemente la cobertura. No completar el importe por analogía.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente contrastada](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf). Requisitos de educación superior 2025; no extenderlos a 2026. La convocatoria de residencia 2026 localizada es otra modalidad y no permite asignar su aporte al alias genérico. Cuenta pública 2025 distingue educación superior; residencia y persona destacada. Falta convocatoria actual específica.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Teodoro Schmidt, requisitos y decreto 1015 de julio de 2025.
+Beneficio corroborado: $120.000 por beneficiario.
+Requisitos principales: Estudiante regular en educación superior reconocida; residencia y RSH local hasta 60%; necesidad económica; ingreso con notas 5,5 y continuidad 5,0; sin beneficio similar; uno por familia y sin otro programa municipal.
+Límites: Los $24.000.000 corresponden al presupuesto global. El decreto corrige la fecha del acta anterior. No trasladar reglas 2025 a 2026 ni fusionar automáticamente las dos variantes. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://muniteodoro.cl/portal/wp-content/uploads/2025/07/DAE-1015-APRUEBA-ACTA-Y-ENTREGA-BECA-MUNICIPAL-2025.pdf)
+- [Referencia 2](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf)
 
 ## 230. Beca Municipal Estudiantil Quilaco — 9f4a326359d6f315b18bf71098b1c69ecf55f5779305bac407ec418ad541bfd6
 Institución del registro: Municipalidad de Quilaco.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Catastro universitario 2024; referencia secundaria a Quilaco. No confirma importe ni calendario municipal 2026. Búsqueda en dominio original sin bases actuales recuperadas; no inferir vigencia.
-Fuentes específicas consultadas o intentadas:
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Quilaco: catastro institucional UdeC 2024, página impresa 13.
+Beneficio corroborado: $40.000 mensuales de marzo a diciembre, diez meses.
+Requisitos principales: Primera carrera de pregrado en universidad, IP o CFT; modalidades presencial u online; residencia y RSH local. Continuidad con al menos 50% de créditos del semestre anterior aprobados.
+Límites: Fuente institucional referencial histórica; requiere ratificación municipal para postular. La otra ficha UCSC titulada Quilaco remite a contacto de Quilleco: no se combinan sus condiciones. No inventar corte de NEM ni porcentaje máximo RSH. Calendario no certificado; no activar. Originales y variantes conservados.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 231. Beca de Educación Superior Ilustre Municipalidad de Quintero — 883c8be7ade5b6bbec6d0a6eabaeafe0a97e21fa3fca0fe53b7e108bcf2cd676
 Institución del registro: Municipalidad de Quintero.
@@ -2385,11 +2362,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 234. Beca de Educación Superior Santa Barbara — a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e
 Institución del registro: Municipalidad de Santa Barbara.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La ficha corresponde a subsidios sociales generales, no a condiciones específicas de la beca candidata.
-Antecedente por comprobar (no constituye nueva confirmación): Contraste previo reutilizado (REVISION_MUNICIPALES_NOVENO_32.md); no basta para cierre de identidad, cobertura y elegibilidad: Tabla 2019 actualizada en 2026 conserva su año histórico. No certificar condiciones actuales. Noticias de computadores para séptimo básico son otro beneficio y nivel educativo.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://transparencia.santabarbara.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=3264&ig=237&m=3)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UdeC describe Vivienda de Estudiantes de Santa Bárbara y aporte mínimo del estudiante de $20.000. No es evidencia de una beca monetaria general; periodicidad del aporte y equivalencia con el registro no confirmadas.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
 
 ## 235. Beca Municipal Educación Superior San Bernardo — 9fc66303a799b82e86b9680df67f867c911012e8ddd195599ee8916791327d5d
 Institución del registro: Municipalidad de San Bernardo.
@@ -2438,21 +2414,18 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 239. Beca de Mantención Educación Superior Hualpen — d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c
 Institución del registro: Municipalidad de Hualpen.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): PLADECO 2026–2032 localizado describe orientación para becas estatales; cuenta 2022, convenio con IP Diego Portales. Ninguna referencia localizada acredita mantención municipal de libre disposición de $200.000. Fuentes indexadas son pistas, sin cierre esencial.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf)
-Límite de acceso registrado: <urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UdeC describe convenio Hualpén con Instituto Diego Portales: 50% de arancel y veinte cupos anuales para residentes con RSH y matrícula en IDP. Es distinto de una beca municipal general de mantención; falta acreditar equivalencia.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)
 
 ## 240. Beca Municipal para la Educación Superior Paine — 1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46
 Institución del registro: Municipalidad de Paine.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La información adicional está en un sitio personal del alcalde. Falta respaldo en una ficha o bases institucionales del programa.
-Antecedente por comprobar (no constituye nueva confirmación): Búsquedas por municipio y nivel no localizaron bases oficiales específicas del aporte descrito. Torres del Paine pertenece a otra comuna y no sirve de referencia. Sin fuente profunda válida no se acreditan $200.000, cuotas ni elegibilidad. No se declara inexistencia del programa.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 241. Beca Municipal Estudiantil El Monte — 6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20
 Institución del registro: Municipalidad de El Monte.
@@ -2467,13 +2440,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 242. Beca de Educación Superior Municipalidad de Penaflor — 3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b
 Institución del registro: Municipalidad de Penaflor.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El contenido obtenido no permite corroborar conjuntamente identidad, beneficio y requisitos principales de esta candidata. Hace falta una lectura específica adicional; no confirmar por acceso HTTP.
-Antecedente por comprobar (no constituye nueva confirmación): [Fuente consultada](https://penaflor.cl/departamento-social/). La página describe orientación para becas estatales. El catálogo https://penaflor.cl/tramites/ menciona becas municipales sin condiciones suficientes. Becas deportivas no confirman este beneficio; no se trasladan campos.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://penaflor.cl/departamento-social/)
-- [Referencia 2](https://penaflor.cl/tramites/)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 243. Beca Municipal de Apoyo a la Educación Superior Colina — 878a3bcced5d9efe65003d6a97a447f82a501b5e95e07232249ae3691fe1142d
 Institución del registro: Municipalidad de Colina.
@@ -2489,12 +2459,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 244. Beca Municipal Educación Superior Chiguayante — 3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a
 Institución del registro: Municipalidad de Chiguayante.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La norma histórica describe alumnado destacado en deporte, arte o ciencia. Falta vincularla con la candidata superior actual y su cobertura.
-Antecedente por comprobar (no constituye nueva confirmación): $150.000 en cuota unica / 2026-03-31. Contrastar con el apartado municipal anterior. Identidad y documentos completos pendientes.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
-- [Referencia 2](https://chiguayante.cl/Chgte/?page_id=161)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 245. Beca Municipal Estudiantil Lanco — 42e596bd66c43cc97ce7dab5adf1adccfce708abebbb20dc6f47fb8858e0bcb5
 Institución del registro: Municipalidad de Lanco.
@@ -2715,11 +2683,10 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 266. Beca Municipal de Educación Superior La Florida — 3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be
 Institución del registro: Municipalidad de La Florida.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El enlace corresponde a beca escolar de kínder a cuarto medio. No respalda educación superior ni demuestra que esta candidata no exista.
-Antecedente por comprobar (no constituye nueva confirmación): Plataforma oficial 2026 leída: beca escolar de kínder a cuarto medio. No equivale a educación superior. Identidad de las dos candidatas superiores no acreditada; no trasladar cobertura escolar.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://appx.laflorida.cl/beca_escolar/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 ## 267. Beca Municipal Educación Superior La Serena — 148f90ce4ef8c71176854884de3ac9125fb79725b3d274daa64bdd28404bc5ba
 Institución del registro: Municipalidad de La Serena.
@@ -2746,12 +2713,11 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 269. Beca de Mantención UMAG — ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c
 Institución del registro: Universidad de Magallanes.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo del contraste anterior reutilizado: Identidad pendiente; no asignar manutención de beneficios externos.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.umag.cl/becas/)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: La información UMAG distingue apoyos de arancel, alojamiento y alimentación de ayudas estatales de mantención. No acredita el importe ni las reglas de una beca interna genérica en efectivo.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
+- [Referencia 2](https://admision.umag.cl/?page_id=678)
 
 ## 270. Beca de Alimentación UCSC — cbeeacde2338566b893c078e8b13f8015716535fd427b0c7098eda5430e11de5
 Institución del registro: Universidad Católica de la Santisima Concepción.
@@ -2767,22 +2733,19 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 271. Beca Excelencia Académica UMAG — eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677
 Institución del registro: Universidad de Magallanes.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: Mayor Puntaje PAES es una modalidad específica. Falta equivalencia con Excelencia Académica y cobertura; no trasladar automáticamente el 100% del registro.
-Antecedente por comprobar (no constituye nueva confirmación): Bloqueo del contraste anterior reutilizado: Completar ficha y calendario propios; no extrapolar Mayor Puntaje.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.umag.cl/becas/)
-- [Referencia 2](https://admision.umag.cl/?page_id=4099)
-Límite de acceso registrado: <urlopen error _ssl.c:993: The handshake operation timed out>.
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UMAG distingue Distinción PAES y Mayor Puntaje PAES de Ingreso, con cupos y requisitos distintos. Excelencia Académica genérica no identifica inequívocamente uno; no asignar NEM, PAES o cobertura de otra modalidad.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
+- [Referencia 2](https://admision.umag.cl/?page_id=678)
 
 ## 272. Beca Académica UDLA — 9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094
 Institución del registro: Universidad de Las Americas.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: El catálogo actual no permitió identificar y corroborar la modalidad de este registro. No equivale a demostrar que nunca existió.
-Antecedente por comprobar (no constituye nueva confirmación): UDLA: Académica genérica no acredita equivalencia con Puntaje Ponderado o Excelencia.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://admision.udla.cl/becas/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: El catálogo UDLA consultado corresponde a admisión 2027. Excelencia UDLA exige NEM 6,7 y renovación 5,3 con 70% de créditos; no acredita equivalencia de la beca académica genérica ni condiciones 2026.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://admision.udla.cl/diurno/becas/)
 
 ## 273. Beca Copago UDLA — ebbc870f644be29040fcef815783e2d5b20b767b2877ed8ca38773d8d89f98a8
 Institución del registro: Universidad de Las Americas.
@@ -2874,21 +2837,18 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 ## 281. Beca Municipal de Educación Superior Coronel — f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4
 Institución del registro: Municipalidad de Coronel.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La noticia corresponde a una subvención excepcional de pasajes por puntaje PAES. Falta verificar el alcance y criterios de la beca general.
-Antecedente por comprobar (no constituye nueva confirmación): Contraste previo reutilizado (REVISION_MUNICIPALES_FINAL_14.md); no basta para cierre de identidad, cobertura y elegibilidad: Noticia municipal enero 2026 distingue Subvención de Pasajes para destacados PAES. La deportiva septiembre 2026 es otra modalidad. El alias de subsidio anual genérico requiere identidad y bases; no trasladar sus condiciones.
-Fuentes específicas consultadas o intentadas:
-- [Referencia 1](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)
-Calendario y documentos: no certificados en esta entrega; no activar.
+Hallazgo: UCSC describe subvención de pasajes Coronel 2024. El premio municipal PAES es distinto; no asignar sus montos ni requisitos al registro genérico sin identificación positiva.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
+- [Referencia 1](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf)
 
 ## 282. Beca Municipal para Estudiantes de Educación Superior Chiguayante — 362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4
 Institución del registro: Municipalidad de Chiguayante.
 Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo y punto pendiente: La norma histórica describe alumnado destacado en deporte, arte o ciencia. Falta vincularla con la candidata superior actual y su cobertura.
-Antecedente por comprobar (no constituye nueva confirmación): Beneficio economico anual segun presupuesto DIDECO / 2026-05-31. Contrastar con el apartado municipal anterior. Identidad y documentos completos pendientes.
-Fuentes específicas consultadas o intentadas:
+Hallazgo: Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.
+Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
+Referencias y antecedentes consultados:
 - [Referencia 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
-- [Referencia 2](https://chiguayante.cl/Chgte/?page_id=161)
-Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 283. Beca Municipal de Educación Superior Puerto Varas — 92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf
 Institución del registro: Municipalidad de Puerto Varas.
