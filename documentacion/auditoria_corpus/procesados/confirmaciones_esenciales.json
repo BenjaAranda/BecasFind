@@ -6495,5 +6495,115 @@
     "beneficio": "Aporte económico municipal a estudiantes de familias vulnerables; importe y periodicidad desconocidos.",
     "requisitos_principales": "Matrícula o calidad de alumno regular; promedio mínimo 6,0 y RSH hasta 60%; atención comunal a población vulnerable, incluidos estudios superiores.",
     "limites": "La ficha distingue incentivo municipal de las becas JUNAEB. No aplicar las 0,62 UTM de Presidente de la República al incentivo municipal. No se confirma un requisito de antigüedad residencial no expresado ni una convocatoria anual. Calendario no certificado; no activar. Originales preservados."
+  },
+  {
+    "candidato": "44d43d4b95af6bd191b116173c0c428bf40965cc20d10ba9f5aaa652a8aa0ef2",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://llanquihue.cl/hasta-martes-11-de-abril-abiertas-las-postulaciones-de-la-beca-municipal-estudiantil-de-ensenanza-superior-2023/",
+      "https://bit.ly/becas_llanquihue_2023",
+      "https://drive.google.com/file/d/1dS8L0av2i2uq35jMmhM569f0ZYMUxszE/view?usp=share_link",
+      "https://drive.google.com/uc?export=download&id=1dS8L0av2i2uq35jMmhM569f0ZYMUxszE"
+    ],
+    "alcance": "Llanquihue: manual oficial de procedimientos de Beca Municipal 2023, recuperado siguiendo el enlace de la noticia municipal.",
+    "beneficio": "Subsidio económico para materiales, movilización, alimentación y otros gastos esenciales de estudios; pagos mensuales. Importe no explicitado en las secciones leídas.",
+    "requisitos_principales": "Residencia y RSH local hasta 60%; ingreso con NEM 5,5 o superior con promedio 4,5; carrera reconocida de al menos dos años. Un beneficiario por grupo familiar; exclusión de funcionarios y familiares enumerados, títulos previos y cursos sin título; casos de práctica sujetos a evaluación de comisión.",
+    "limites": "No completar monto con otras convocatorias. La noticia publicada en mayo presenta un plazo de marzo–abril del manual: se preserva la diferencia de publicación, sin certificar vigencia. No reconstruir duración máxima desde frases incompletas del apartado de semestres. Calendario publicable no certificado; no activar. Originales y variantes preservados."
+  },
+  {
+    "candidato": "2d84e8bcf07080e6c810804618bdfeb47b1b095061bbc4f08975dd02ce67e36b",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://www.muniprimavera.cl/noticias/proceso-de-becas-municipales-de-primavera-2026/",
+      "https://drive.google.com/file/d/1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h/view?usp=drive_link",
+      "https://drive.google.com/uc?export=download&id=1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h"
+    ],
+    "alcance": "Primavera, Cerro Sombrero: reglamento aprobado por decreto 052 de 17 de febrero de 2025, enlazado por el anuncio municipal 2026; alcance del reglamento fechado.",
+    "beneficio": "1,5 UTM mensuales de marzo a diciembre para educación superior presencial. Pasajes son una modalidad separada; Concejo Municipal permite máximo conjunto de 2 UTM mensuales.",
+    "requisitos_principales": "Residencia familiar habitual en Primavera; estudios presenciales fuera de la comuna en entidad reconocida; promedio superior mínimo 4,5 y RSH hasta 80%. Sin título técnico o universitario previo ni beca de mantención JUNAEB; régimen de excepción PIE/discapacidad definido en reglamento.",
+    "limites": "No convertir UTM a pesos ni sumar 2 UTM al aporte base. El premio de excelencia de $400.000 técnico o $500.000 universitario es distinto. El documento incluye educación universitaria; el anuncio 2026 nombra media y técnico profesional: no interpretar una exclusión universitaria no expresada ni afirmar vigencia universitaria 2026. Calendario publicable no certificado; no activar. Originales y variantes preservados."
+  },
+  {
+    "candidato": "b7e2e0db8d9f9bbde871292ab4e54eeaefab6543c649eacf75eae952c6387c5d",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://curacodevelez.cl/2014/wp-content/uploads/2023/05/CP-2022.pdf"
+    ],
+    "alcance": "Curaco de Vélez: Cuenta Pública de gestión 2022, página impresa 128; beca municipal superior propia.",
+    "beneficio": "$50.000 mensuales durante diez meses, depositados en Cuenta RUT para gastos estudiantiles.",
+    "requisitos_principales": "Alumnos de la comuna egresados del Liceo Alfredo Barría Oyarzún que acceden a educación superior; administración mediante comité ejecutivo y reglamento municipal.",
+    "limites": "La ficha no expresa umbrales NEM o RSH: quedan desconocidos. Los $11.360.000 reportados son globales y no se usan para calcular el aporte. Se certifica el programa histórico descrito, sin atribuir sus condiciones a 2026. Calendario publicable no certificado; no activar. Originales y variantes preservados."
+  },
+  {
+    "candidato": "7d7a697df80c332c341316e28812b94143342a4833e2eae45dd4823a36bb83e0",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://mportezuelo.cl/Inicio/direccion-de-desarrollo-comunitario/"
+    ],
+    "alcance": "Portezuelo: apartado específico Beca Municipal de Enseñanza Superior de la ficha DIDECO; sin año explícito.",
+    "beneficio": "Financiamiento parcial de los gastos de educación superior por los semestres de duración de la carrera; importe y frecuencia de pago desconocidos.",
+    "requisitos_principales": "Alumnos de la comuna matriculados en universidad, IP o CFT del país reconocido por el Estado. Compatible con ayudas estatales y privadas; incompatible con Beca Hogar Estudiantil de la Asociación de Municipalidades del Valle del Itata.",
+    "limites": "No se corroboran los $200.000, cuatro cuotas, RSH 70% ni notas 5,0/4,5 del original. Se confirma la ficha del programa; el año 2026 del alias no constituye convocatoria comprobada. Calendario publicable no certificado; no activar. Originales y variantes preservados."
+  },
+  {
+    "candidato": "19f6c41c58aa99ac2e0c36c7f3d9981335261555aeadf2683371d4ad0c2ea25b",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf"
+    ],
+    "alcance": "Limache: modalidad ordinaria superior descrita en Cuenta Pública de gestión 2023, página impresa 153; comprobación individual de este segundo registro.",
+    "beneficio": "$150.000 por semestre como ayuda económica.",
+    "requisitos_principales": "Egreso de enseñanza media municipal; domicilio comunal; acceso a universidad o formación técnica reconocida por Mineduc; situación socioeconómica evaluada por DIDECO.",
+    "limites": "La cobertura coincide con las dos cuotas de $150.000 del registro, pero no se corroboran nota 4,0, 75% de ramos ni RSH 60%. No se ratifica cierre 2026. Comparte modalidad documentada con la otra ficha Limache; se preservan ambos registros, sin decisión automática de duplicidad. Calendario publicable no certificado; no activar. Originales y variantes preservados."
   }
 ]
