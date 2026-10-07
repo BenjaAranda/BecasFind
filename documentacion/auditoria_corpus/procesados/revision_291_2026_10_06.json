@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 132,
-  "requieren_aclaracion": 159,
+  "confirmaciones_nuevas": 136,
+  "requieren_aclaracion": 155,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -152,24 +152,27 @@
       "nombre": "Beca de Transporte Escolar Superior Santiago",
       "institucion": "Municipalidad de Santiago",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente describe Beca de Estudios Santiago 2026; falta establecer que incluya la candidata de transporte superior. No combinar condiciones por similitud de nombre.",
+      "hallazgo": "La ficha oficial corresponde a Beca de Estudios 2025. No acredita una modalidad propia de transporte escolar superior bajo el nombre del registro; no trasladar automáticamente sus requisitos al subsidio de transporte.",
       "fuentes": [
         {
           "url": "https://www.munistgo.cl/beca-de-estudios/",
           "url_final": "https://www.munistgo.cl/beca-de-estudios/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "c809f6569dfddb8b27539f8222488adaf90119dc8586cf1ebca82ed1767ab53c",
-          "contenido_extraido": true
+          "sha256": "81a3a8af1372c214b541957d6a7b4b6250160d0b218c6c059279dac1d32be15c",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         },
         {
           "url": "https://www.munistgo.cl/fondos-y-becas/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
@@ -295,28 +298,31 @@
       "nombre": "Subsidio de Pasajes La Serena",
       "institucion": "Municipalidad de La Serena",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El convenio SIPEE de La Serena financia una modalidad universitaria específica. No demuestra un subsidio independiente de pasajes.",
+      "hallazgo": "El acta 898 de 2013 diferencia subvención de mantención y convenio universitario. No se recuperó una definición concordante del subsidio de pasajes de este registro. El índice de transparencia no aporta requisitos específicos.",
       "fuentes": [
         {
           "url": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf",
           "url_final": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "application/pdf",
           "sha256": "022cb53a220a267a912350eb38e72508800b02981a6f26a8def4407d8c0879e2",
           "paginas": 33,
           "lectura_limite": "todas las páginas con texto extraíble",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         },
         {
           "url": "https://transparencia.laserena.cl/ptransact.php?n=104",
           "url_final": "https://transparencia.laserena.cl/ptransact.php?n=104",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "57dd7cf3ddeb3ab15b4d6792cd9e8641bea3cbe5af43c5d89cf12f8876f3be3c",
-          "contenido_extraido": true
+          "sha256": "97ae75aede0e6ebbd35f340ebb5d6d29b9af1aa8a7331c19ab79a8bd6a19e1b0",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759",
@@ -1045,9 +1051,16 @@
       "nombre": "Beca Municipal de Educación Superior San Vicente",
       "institucion": "Municipalidad de San Vicente de Tagua Tagua",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Excelencia y Estímulo son modalidades distintas. No combinar sus montos o requisitos; faltan las condiciones propias de la candidata.",
-      "fuentes": [],
-      "alcance": null
+      "hallazgo": "El portal oficial indexado distingue Beca Municipal de excelencia y Beca Estímulo superior. El cuerpo dinámico no se recuperó en la apertura; la descripción del listado no define requisitos completos ni permite fusionar modalidades.",
+      "fuentes": [
+        {
+          "url": "https://convocatorias.municipalidadsanvicente.cl/",
+          "consulta": "2026-10-07",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        }
+      ],
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc",
@@ -1229,17 +1242,31 @@
       "candidato": "8230d6b883e4118885bbef8aab0d0f4d9a65c25b320074aaa4cdc1ef0edde829",
       "nombre": "Beca de Educación Superior San Javier",
       "institucion": "Municipalidad de San Javier",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El monto $11.200.000 es global, no individual. La modalidad CEIA se identifica separadamente con financiamiento municipal y Santander; no aplicar a ella el requisito 6,0. El período del PLADECO no demuestra convocatoria 2026 ni universalidad del alias. Calendario no certificado; no activar. Originales preservados.",
       "fuentes": [
         {
           "url": "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "The read operation timed out",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "a2583deb964bdf4dded6adfce1fcd82083e19434b47b5f08a99d2f4d82c3683a",
+          "paginas": 240,
+          "url_final": "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf"
+        ],
+        "alcance": "San Javier: PLADECO 2026–2029; alcance de la modalidad para egresados del Liceo Manuel Montt descrita en el diagnóstico.",
+        "beneficio": "Financiamiento municipal de apoyo al acceso a educación superior; importe individual desconocido.",
+        "requisitos_principales": "Egreso del Liceo Manuel Montt y promedio igual o superior a 6,0 durante tercero y cuarto medio; continuidad en educación superior.",
+        "limites": "El monto $11.200.000 es global, no individual. La modalidad CEIA se identifica separadamente con financiamiento municipal y Santander; no aplicar a ella el requisito 6,0. El período del PLADECO no demuestra convocatoria 2026 ni universalidad del alias. Calendario no certificado; no activar. Originales preservados."
+      },
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "a7d1e5aeb120374260ecc498d9749c4ea2aaf290f514061c50ba21ffd28e85b0",
@@ -1388,16 +1415,20 @@
       "nombre": "Beca Municipal para Estudiantes de Educación Superior Valdivia",
       "institucion": "Municipalidad de Valdivia",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La página recuperada trata acceso al preuniversitario 2026. No acredita una beca municipal superior monetaria; conservar pendiente la identidad del programa del registro.",
       "fuentes": [
         {
           "url": "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "7770ce660a1e30bfa14bffb756ce8da20f1714c53e48b6474a786ee45105eeb3",
+          "url_final": "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216",
@@ -1464,16 +1495,18 @@
       "nombre": "Beca Municipal Educación Superior Machali",
       "institucion": "Municipalidad de Machali",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "El enlace de anexos deportivos devuelve 404. Además, la modalidad deportiva histórica no equivale automáticamente a la beca municipal de educación superior del registro.",
       "fuentes": [
         {
           "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
@@ -1653,18 +1686,20 @@
       "nombre": "Beca Municipal de Educación Superior Tocopilla",
       "institucion": "Municipalidad de Tocopilla",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El contenido obtenido no permite corroborar conjuntamente identidad, beneficio y requisitos principales de esta candidata. Hace falta una lectura específica adicional; no confirmar por acceso HTTP.",
+      "hallazgo": "DIDECO declara la gestión de beneficios económicos mediante Beca Municipal, pero no especifica cobertura y requisitos de selección. Identidad institucional parcialmente respaldada; no confirmar los restantes campos.",
       "fuentes": [
         {
           "url": "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
           "url_final": "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "fbdbd49996091633027a98dd28e1764981a3af4dbf1b6cc02c8febd648f32a01",
-          "contenido_extraido": true
+          "sha256": "d65d645de6282eb6b383fb3a90619550adfc94b9d43b2151779c2fc237019b7c",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",
@@ -1870,18 +1905,20 @@
       "nombre": "Beca Municipal Educación Superior Caldera",
       "institucion": "Municipalidad de Caldera",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La contratación de transporte no acredita por sí sola las condiciones de una beca monetaria de educación superior.",
+      "hallazgo": "El PDF FONDESCO devuelve solo 32 caracteres extraíbles. No se leyó su contenido mediante OCR en esta revisión. Su rótulo no basta para acreditar una beca individual superior ni sus requisitos.",
       "fuentes": [
         {
           "url": "https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf",
           "url_final": "https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html",
           "sha256": "bb19142954130ddadb2829d1d1cc4391e47d51fcabd998099f036529f5444fcb",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",
@@ -1975,8 +2012,8 @@
       "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
       "nombre": "Beca Municipal Educación Superior Padre Hurtado",
       "institucion": "Municipalidad de Padre Hurtado",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La comunicación identifica postulación o renovación. Falta cobertura y/o requisitos principales; no certificar únicamente por ese anuncio.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No inferir corte RSH ni porcentaje de arancel. Noticia de 2016; no trasladar condiciones a 2026. La ruta dinámica de trámites sola no sirvió como evidencia. Calendario no certificado; no activar. Originales preservados.",
       "fuentes": [
         {
           "url": "https://tramites.mph.cl/becas",
@@ -1985,9 +2022,26 @@
           "tipo": "text/html; charset=UTF-8",
           "sha256": "6937d7eedbe5cd5b171924bbef25d1289634cd5458af10d7ddfe42102570a92b",
           "contenido_extraido": true
+        },
+        {
+          "url": "https://portal.mph.cl/?p=11935",
+          "consulta": "2026-10-07",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "cb8dcdcedcc938abdccc575c6c15852039840942786d49ccbae4577661bd9fd0",
+          "url_final": "https://portal.mph.cl/?p=11935"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://portal.mph.cl/?p=11935"
+        ],
+        "alcance": "Padre Hurtado: convocatoria municipal publicada el 27 de mayo de 2016; alcance histórico para tercer semestre.",
+        "beneficio": "Ayuda económica para gastos de la carrera; importe y periodicidad desconocidos.",
+        "requisitos_principales": "Cursar tercer semestre superior; condición regular y promedio mínimo 5,0. Acreditar situación económica y RSH; no recibir Beca Indígena ni Presidente de la República.",
+        "limites": "No inferir corte RSH ni porcentaje de arancel. Noticia de 2016; no trasladar condiciones a 2026. La ruta dinámica de trámites sola no sirvió como evidencia. Calendario no certificado; no activar. Originales preservados."
+      },
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18",
@@ -2028,18 +2082,20 @@
       "nombre": "Beca Municipal Educación Superior Mejillones",
       "institucion": "Municipalidad de Mejillones",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.",
+      "hallazgo": "La página DIDECO agrupa subsidios y becas. No permite atribuir requisitos o cobertura a un programa municipal superior específico.",
       "fuentes": [
         {
           "url": "https://www.mejillones.cl/departamento-de-desarrollo-comunitario/",
           "url_final": "https://www.mejillones.cl/departamento-de-desarrollo-comunitario/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "7f7aceeec4c2c0dec8fde8ef6eccc39c9328226d7776fd083b50982fdb0067a7",
-          "contenido_extraido": true
+          "sha256": "14f6628ca2b832b36309f127e7db570d7a97293fbe7c186ad04bdb7de63a8ac9",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "73bb66c800351cbfee020f307be46393c24a3515d48b04b146c490860ef6216b",
@@ -2096,45 +2152,50 @@
       "nombre": "Beca Municipal Educación Superior Llay Llay",
       "institucion": "Municipalidad de Llay Llay",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
+      "hallazgo": "La búsqueda dirigida no recuperó ficha superior propia de Llay Llay. El proyecto educativo de escuela encontrado describe Beca Indígena JUNAEB básica, otro nivel y administrador; no sustituye la fuente faltante.",
       "fuentes": [],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb",
       "nombre": "Beca Municipal para Estudiantes de Educación Superior Los Vilos",
       "institucion": "Municipalidad de Los Vilos",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente corresponde a transferencia para residencia JUNAEB. No acredita una beca municipal independiente.",
+      "hallazgo": "El registro oficial de transferencia corresponde a residencia familiar estudiantil JUNAEB de marzo de 2005. No prueba subsidio municipal superior propio ni cobertura individual del registro.",
       "fuentes": [
         {
           "url": "https://registros19862.gob.cl/transferencia/25727",
           "url_final": "https://registros19862.gob.cl/transferencia/25727",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
           "sha256": "5f69c23e515051041a7b7b8c9097db160b462851c0a22698d9838999f41dec90",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
       "nombre": "Beca Municipal Educación Superior Coelemu",
       "institucion": "Municipalidad de Coelemu",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada corresponde a una beca deportiva. No respalda automáticamente la beca superior general de este registro.",
+      "hallazgo": "El decreto 2000 de 2024 acredita convocatoria de Excelencia y Proyección Deportiva. No corresponde por sí solo a beca general de educación superior.",
       "fuentes": [
         {
           "url": "https://www.municoelemu.cl/decreto-alcaldicio-n-2000-con-fecha-de-20-de-noviembre-de-2024-que-aprueba-bases-administrativas-de-beca-de-excelencia-y-proyeccion-deportiva-coelemu-2024/",
           "url_final": "https://www.municoelemu.cl/decreto-alcaldicio-n-2000-con-fecha-de-20-de-noviembre-de-2024-que-aprueba-bases-administrativas-de-beca-de-excelencia-y-proyeccion-deportiva-coelemu-2024/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "234e6e6cb9f4f7a8a0e66c7276b79a05fe6c10d0cd7ce07f271a4d0557539a9d",
-          "contenido_extraido": true
+          "sha256": "4b5fe102ed4c24604049f7696e84e16ad90590c07cb2dcc0e73ebfdd98747c32",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "500cab60de1499617e480ca56535336479dd7531fd8ca0b036614f8596d14bb8",
@@ -2541,32 +2602,36 @@
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de Machali",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La variante de Machalí comparte el enlace deportivo inaccesible de la otra candidata. Una URL compartida no prueba duplicidad; ambas conservan su identidad pendiente.",
       "fuentes": [
         {
           "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
       "nombre": "Beca de Estudio Graneros Nueva Ciudad",
       "institucion": "Municipalidad de Graneros",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Hay antecedentes indexados en un PADEM histórico. Falta lectura suficiente del apartado específico para confirmar beneficio y elegibilidad.",
+      "hallazgo": "PADEM 2019 devuelve 404. Se conserva el antecedente, sin certificar contenido que no se pudo leer ni concluir inexistencia.",
       "fuentes": [
         {
           "url": "https://www.daemgraneros.cl/file/padem2019.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",
@@ -2589,18 +2654,20 @@
       "nombre": "Beca Municipal Estudiantil",
       "institucion": "Municipalidad de Coltauco",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La comunicación identifica postulación o renovación. Falta cobertura y/o requisitos principales; no certificar únicamente por ese anuncio.",
+      "hallazgo": "La noticia específica de Coltauco confirma postulación superior y vías presencial/online, pero no detalla beneficio ni requisitos de selección. Fechas sin año en el cuerpo: no atribuir calendario 2026 por noticias vecinas.",
       "fuentes": [
         {
           "url": "https://www.coltauco.cl/rsp/noticias.php?id=359",
           "url_final": "https://www.coltauco.cl/rsp/noticias.php?id=359",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "df2602db2067ffe5042650c1c14963b7408bc64c2b3222ccd6d1f42ccda35efd",
-          "contenido_extraido": true
+          "sha256": "7a89580fc5c26b7082b8331a6cedaef8e457d3fadafc448024f28211919f5590",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "1ecc22c483debd1c574cb88c7c544bf6d9c7ae021c16c5cde64f24430d7754f1",
@@ -2654,44 +2721,49 @@
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de Peumo",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente acredita adjudicación, nómina o presupuesto. Falta corroborar condiciones principales; no dividir presupuesto entre beneficiarios para inventar un importe.",
+      "hallazgo": "La noticia de Peumo anuncia beneficiarios. Una nómina acredita entrega, pero no define beneficio o elegibilidad; no reproducir datos personales ni deducir condiciones desde seleccionados.",
       "fuentes": [
         {
           "url": "https://mpeumo.cl/page/2/?paged=2",
           "url_final": "https://mpeumo.cl/page/2/?paged=2",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "bffb72f67768bf5ed3824206f3788ffa163ce53529d1b16330e18d4a0142d63a",
-          "contenido_extraido": true
+          "sha256": "0107b8fb33ac705a89ca67a735c352599b695a9c86447bbac288d92b2e4ab857",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
       "nombre": "Beca Municipal Estudios Superiores Cholchol",
       "institucion": "Municipalidad de Cholchol",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página municipal leída no contiene condiciones esenciales específicas de la candidata. Conservar el registro y buscar sus bases.",
+      "hallazgo": "La página municipal y contacto no proporcionan ficha particular de la beca superior de Cholchol. No convertir información de atención institucional en reglas de selección.",
       "fuentes": [
         {
           "url": "https://municholchol.cl/municipio/",
           "url_final": "https://municholchol.cl/municipio/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html",
-          "sha256": "382c93e74a4ec07eb97e42613e73ed62fcb50cca70e786a30e87af3b06692a33",
-          "contenido_extraido": true
+          "sha256": "c630b263201842aa24afd0a36ad21b8127b8a75aa78665f85156487a3e68ced3",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         },
         {
           "url": "https://municholchol.cl/contacto-5/",
           "url_final": "https://municholchol.cl/contacto-5/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html",
-          "sha256": "7a69850ee8158afc9dd990b39558b5af7d75d3abe405dbbb1a1c34ad9177d964",
-          "contenido_extraido": true
+          "sha256": "5c08048936c1452918164604255cb04552985f151f0b79a5b2e682d5ba8b8009",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "3d8a38d7ca8beb6d7e70210d68313c889d336f2918a89dbfea47afe73da6ba7c",
@@ -2923,16 +2995,18 @@
       "nombre": "Beca Estudiantil Municipal Lautaro",
       "institucion": "Municipalidad de Lautaro",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La página vuelve a responder 406. El antecedente de trabajos de verano no acredita beca superior; no descartar por bloqueo de acceso.",
       "fuentes": [
         {
           "url": "https://www.munilautaro.cl/trabajos-de-veranos-2023/",
-          "consulta": "2026-10-06",
-          "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false
+          "consulta": "2026-10-07",
+          "error": "HTTP Error 406: Not Acceptable",
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "da56f40a73c6c7dc52d263c0507aa23970dcd296fa0e56b2aa8ed86d59d1eb23",
@@ -2976,20 +3050,22 @@
       "nombre": "Beca Municipal Estudiantil Gorbea",
       "institucion": "Municipalidad de Gorbea",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada corresponde a una beca deportiva. No respalda automáticamente la beca superior general de este registro.",
+      "hallazgo": "Las bases recuperadas son Beca Deportiva 2025, con categorías de iniciación y desarrollo. No trasladar importes o requisitos deportivos a la beca superior general.",
       "fuentes": [
         {
           "url": "https://www.municipalidadgorbea.cl/transparencia/images/ArchivosHOME/Anuncios/Bonos/2025/BASES%20BECAS%20DEPORTIVAS%202025%20WEB.pdf",
           "url_final": "https://www.municipalidadgorbea.cl/transparencia/images/ArchivosHOME/Anuncios/Bonos/2025/BASES%20BECAS%20DEPORTIVAS%202025%20WEB.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "application/pdf",
           "sha256": "7a69c19d0b52cf9800645166b8012ff5e3a439e9455478556b1a9e6f65514601",
           "paginas": 13,
           "lectura_limite": "todas las páginas con texto extraíble",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "2cc109644b2dd0812c372d3c47e03563ea59689b2f9b3c1769d39b39f0f600ea",
@@ -3159,16 +3235,21 @@
       "nombre": "Beca Municipal de Educación Superior Freirina",
       "institucion": "Municipalidad de Freirina",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Cuenta Pública 2010, página impresa 91: programa municipal superior propio, $30.000 mensuales de marzo a diciembre, veinte beneficiarios. Faltan requisitos principales; presupuesto y número de personas no permiten reconstruir elegibilidad ni vigencia actual.",
       "fuentes": [
         {
           "url": "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "The read operation timed out",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "5d7284ec224d9be410afb72b7a0adda0029d119429747e119d78eb82cc860886",
+          "paginas": 116,
+          "url_final": "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "3e4ff932460110c429fad99dca61e28e582411e133c6582f2416b50daa238c84",
@@ -3603,9 +3684,10 @@
       "nombre": "Beca Municipal de Estudiantes de Educación Superior",
       "institucion": "Municipalidad de Marchigue",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
+      "hallazgo": "La búsqueda dirigida al municipio de Marchigüe no recuperó ficha oficial superior específica. No usar la portada histórica como enlace de postulación ni interpretar ausencia de resultados como inexistencia.",
       "fuentes": [],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7",
@@ -3634,27 +3716,30 @@
       "nombre": "Beca Municipal para Estudios Superiores Retiro",
       "institucion": "Municipalidad de Retiro",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.",
+      "hallazgo": "La página de noticias de Retiro recuperada no contiene ficha de beca ni definición de cobertura o requisitos. Mantener el antecedente sin completar campos por inferencia.",
       "fuentes": [
         {
           "url": "https://retiro.cl/noticias2/",
           "url_final": "https://retiro.cl/noticias2/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "c751d436266dd13886a17101063762dea69004f66e92c0997aa6f27931f3b849",
-          "contenido_extraido": true
+          "sha256": "8096a912cd332ca67c37f0b0d8b624cdeecdd1ea5cc317f9350d8fca98b92a2b",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488",
       "nombre": "Beca Municipal Enseñanza Superior Tierra Amarilla",
       "institucion": "Municipalidad de Tierra Amarilla",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El programa UDA/Caserones es otra iniciativa. No reemplaza la fuente de esta candidata municipal.",
+      "hallazgo": "Los resultados distinguen Candelaria y SCM Carola como programas empresariales y otro apoyo deportivo municipal. No prueban la beca superior propia de Tierra Amarilla registrada; preservar identidad pendiente.",
       "fuentes": [],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "4b09f17c6bd830f7ad70ba8d0f593b28f2aeeb1312ac08fe8e97e5c6a820ccb5",
@@ -3696,9 +3781,10 @@
       "nombre": "Beca Municipal Educación Superior Quinchao",
       "institucion": "Municipalidad de Quinchao",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
+      "hallazgo": "La nueva búsqueda dirigida no recuperó bases propias de Quinchao. Los resultados de Chonchi corresponden a otro municipio y no son evidencia transferible.",
       "fuentes": [],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54",
@@ -4185,31 +4271,34 @@
       "nombre": "Beca Municipal Renca Orgullosa Educación Superior",
       "institucion": "Municipalidad de Renca",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se leyó el decreto 496/2026 mediante OCR y cotejo visual. Confirma Incentivo a las Trayectorias Educativas: $150.000 una vez, primer ingreso 2026, egreso 2023–2025, cuarto medio 5,5 y RSH local entre 40% y 70%. El voluntariado es voluntario. No acredita que el alias Renca Orgullosa del original identifique este mismo programa; esa identidad permanece pendiente. No conservar como confirmados $100.000, NEM 5,0 ni voluntariado obligatorio del original.",
+      "hallazgo": "La noticia oficial enlaza decreto 496/2026, pero el PDF solo entrega 24 caracteres extraíbles. La noticia adicional refiere bases 2025. No se declara resuelta la contradicción anterior ni se mezclan años para certificar requisitos.",
       "fuentes": [
         {
           "url": "https://renca.cl/decreto-alcaldicio-n0496/",
           "url_final": "https://renca.cl/decreto-alcaldicio-n0496/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "ad1a720edcb93481a7a732a32088e4b2d10ad075d49feda86b41e166e7ccc460",
-          "contenido_extraido": true
+          "sha256": "80fc0c81ecd3490866e9efba3f1b7643ffdbdae68f19277e2aeca89aa7a30b91",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         },
         {
           "url": "https://renca.cl/wp-content/uploads/2026/02/DECRETO-496-APRUEBA-BASES-DE-POSTULACION-A-LA-BECA-MUNICIPAL-DE-INCENTIVO-A-LAS-TRAYECTORIAS-EDUCATIVAS-1.pdf",
           "url_final": "https://renca.cl/wp-content/uploads/2026/02/DECRETO-496-APRUEBA-BASES-DE-POSTULACION-A-LA-BECA-MUNICIPAL-DE-INCENTIVO-A-LAS-TRAYECTORIAS-EDUCATIVAS-1.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "application/pdf",
           "sha256": "d8a4339ce0f826e2de7ce5686367ac592ecebfa944c491f254be8a5167cf788a",
           "paginas": 5,
           "lectura_limite": "todas las páginas con texto extraíble",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         },
         {
           "url": "https://renca.cl/postula-a-la-beca-municipal-educacion-superior/",
-          "consulta": "2026-10-06",
-          "sha256": "b5911d98a1613493a3c665ae4701085ecf3c55578748cfeeac2dd96ce68a09dd",
-          "url_final": "https://renca.cl/postula-a-la-beca-municipal-educacion-superior/"
+          "consulta": "2026-10-07",
+          "sha256": "02237087285f2d50388845a726d69bb2a08ba529cff915db7af64705be721326",
+          "url_final": "https://renca.cl/postula-a-la-beca-municipal-educacion-superior/",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
       "alcance": null,
@@ -4258,26 +4347,47 @@
       "candidato": "ef6988a5b06dcc9019344a3036c07730adc3ede4b73a1ce1a11b2e552edff76f",
       "nombre": "Beca Ilustre Municipalidad de Limache",
       "institucion": "Municipalidad de Limache",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La cuenta documenta once excepciones para egresados no municipales sin reglamentar su acceso general: no certificarlas como regla abierta. El total $56.100.000 no es individual. Bus vespertino es otro programa; no sumar su ahorro al aporte. Calendario no certificado; no activar. Originales preservados.",
       "fuentes": [
         {
           "url": "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "The read operation timed out",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "f773bfcd93c9a6c8c19eeaff9b212d3e87b0414b86ac516038a7a527d40a77d7",
+          "paginas": 178,
+          "url_final": "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf"
+        ],
+        "alcance": "Limache: Cuenta Pública de gestión 2023, página impresa 153; modalidad ordinaria de Educación Superior.",
+        "beneficio": "$150.000 semestrales como ayuda económica.",
+        "requisitos_principales": "Egreso de enseñanza media municipal; domicilio comunal; ingreso a universidad o formación técnica reconocida por Mineduc; situación socioeconómica evaluada por DIDECO.",
+        "limites": "La cuenta documenta once excepciones para egresados no municipales sin reglamentar su acceso general: no certificarlas como regla abierta. El total $56.100.000 no es individual. Bus vespertino es otro programa; no sumar su ahorro al aporte. Calendario no certificado; no activar. Originales preservados."
+      },
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f",
       "nombre": "Beca Municipal de Educación Superior Santa Cruz",
       "institucion": "Municipalidad de Santa Cruz",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
-      "fuentes": [],
-      "alcance": null
+      "hallazgo": "Transparencia de Santa Cruz registra modificaciones de becas cultural y deportiva. Son evidencias de otras modalidades; no prueban la beca general superior del registro ni justifican descartarla.",
+      "fuentes": [
+        {
+          "url": "https://www.transparenciasantacruz.cl/actos-resoluciones/actos-resoluciones-terceros/ordenanzas/ordenanzas-municipales",
+          "consulta": "2026-10-07",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        }
+      ],
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986",
@@ -4457,17 +4567,30 @@
       "candidato": "342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d",
       "nombre": "Beca Municipal Estudiantil Padre Las Casas",
       "institucion": "Municipalidad de Padre Las Casas",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La ficha distingue incentivo municipal de las becas JUNAEB. No aplicar las 0,62 UTM de Presidente de la República al incentivo municipal. No se confirma un requisito de antigüedad residencial no expresado ni una convocatoria anual. Calendario no certificado; no activar. Originales preservados.",
       "fuentes": [
         {
           "url": "https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "cd894c2f72a369fd3788c1bb612f86abce99a5eca20ad5c871d7ec82050a89f6",
+          "url_final": "https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/"
         }
       ],
-      "alcance": null
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/"
+        ],
+        "alcance": "Padre Las Casas: apartado específico Apoyo e Incentivo a la Educación en ficha municipal DIDECO; sin año explícito.",
+        "beneficio": "Aporte económico municipal a estudiantes de familias vulnerables; importe y periodicidad desconocidos.",
+        "requisitos_principales": "Matrícula o calidad de alumno regular; promedio mínimo 6,0 y RSH hasta 60%; atención comunal a población vulnerable, incluidos estudios superiores.",
+        "limites": "La ficha distingue incentivo municipal de las becas JUNAEB. No aplicar las 0,62 UTM de Presidente de la República al incentivo municipal. No se confirma un requisito de antigüedad residencial no expresado ni una convocatoria anual. Calendario no certificado; no activar. Originales preservados."
+      },
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367",
@@ -4495,36 +4618,41 @@
       "nombre": "Beca de Educación Superior Maria Elena",
       "institucion": "Municipalidad de Maria Elena",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La resolución histórica aprueba un programa sin aportar condiciones esenciales suficientes.",
+      "hallazgo": "La recarga de Secretaría Municipal de María Elena agotó el tiempo de conexión. No certifica contenido; conservar pendiente, sin afirmar inexistencia.",
       "fuentes": [
         {
           "url": "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
           "url_final": "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "application/pdf",
           "sha256": "57e380504e4b337d6a7d6a08527d069e5ca56dc1e7341247a58bc8fe9854e330",
           "paginas": 18,
           "lectura_limite": "todas las páginas con texto extraíble",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "error": "<urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder>"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
       "nombre": "Beca Educación Superior Ilustre Municipalidad de Papudo",
       "institucion": "Municipalidad de Papudo",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La cuenta pública de Papudo falla por certificado TLS no válido para el dominio. No se rebajó la verificación de conexión ni se tomó el fallo como motivo de descarte.",
       "fuentes": [
         {
           "url": "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.municipalidadpapudo.cl'. (_ssl.c:1010)>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "cdc0dd04e0923e9868b12066bdcf8829aea20685da05f1fae092e39e024292ba",
@@ -4639,9 +4767,16 @@
       "nombre": "Beca Municipal Educación Superior Pencahue",
       "institucion": "Municipalidad de Pencahue",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
-      "fuentes": [],
-      "alcance": null
+      "hallazgo": "El PLADECO de Pencahue indexado describe Beca Presidente de la República. El portal de trámites agrupa diferentes municipios: la beca de Los Lagos no pertenece a Pencahue. No certificar un programa propio por estas referencias.",
+      "fuentes": [
+        {
+          "url": "https://www.mpencahue.cl/transparencia/TA-2019/PLADECO/PLADECO-19-26.pdf",
+          "consulta": "2026-10-07",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        }
+      ],
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",
@@ -4667,36 +4802,40 @@
       "nombre": "Beca Municipal de Educación Superior Catemu",
       "institucion": "Municipalidad de Catemu",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se retiró un PDF de San Pedro de Atacama atribuido erróneamente a Catemu. El documento restante no permite confirmar cobertura y requisitos.",
+      "hallazgo": "La noticia recuperada anuncia becas deportivas de Catemu y no aporta bases superiores generales. No transferir identidad entre modalidades.",
       "fuentes": [
         {
           "url": "https://www.municatemu.cl/index.php/2-uncategorised/32-becas-deportivas-municipalidad-de-catemu",
           "url_final": "https://www.municatemu.cl/index.php/2-uncategorised/32-becas-deportivas-municipalidad-de-catemu",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=utf-8",
-          "sha256": "21c7d78ba3c3e21878a7d2ae784ff300cc08bbdda8eb93b75df7099c0747845b",
-          "contenido_extraido": true
+          "sha256": "9459577d92e1cf0e740d2a88ed5fe8f2af47f5176c02885448d233eef069a2a2",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "18b9ad971e54340ff364e4ad816c4e9b99e30975d002a97c3f2849333c7092c9",
       "nombre": "Beca Municipal de Apoyo a la Educación Superior Panquehue",
       "institucion": "Municipalidad de Panquehue",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El contenido disponible no permitió identificar el apartado específico del beneficio y sus condiciones principales.",
+      "hallazgo": "La página de Panquehue recuperada no contiene definición particular de beca. Cobertura y elegibilidad siguen sin corroborar.",
       "fuentes": [
         {
           "url": "https://www.impanquehue.cl/?page_id=89",
           "url_final": "https://www.impanquehue.cl/?page_id=89",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
           "sha256": "dc9d1078176a4b3a03d8cc9d77b2206eb70c46997c6b463a0bc020ef46a9ae9a",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b",
@@ -4723,34 +4862,38 @@
       "nombre": "Beca Municipal Estudiantil Rauco",
       "institucion": "Municipalidad de Rauco",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La cuenta pública de Rauco responde 403. No se certificó su contenido en esta recarga; el bloqueo no permite eliminar el registro.",
       "fuentes": [
         {
           "url": "https://www.munirauco.cl/sitio/wp-content/uploads/2025/04/INFORME-CTA.-PUB.-2024.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 403: Forbidden",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
       "nombre": "Beca Municipal Estudiantil Hualane",
       "institucion": "Municipalidad de Hualane",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada corresponde a una beca deportiva. No respalda automáticamente la beca superior general de este registro.",
+      "hallazgo": "El acto de marzo de 2026 aprueba Beca Deportistas Destacados con importes por nivel competitivo. Es otra modalidad; no atribuir $500.000, $750.000 o $1.000.000 a beca superior general.",
       "fuentes": [
         {
           "url": "https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12137&ig=411&m=3",
           "url_final": "https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12137&ig=411&m=3",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "88fd6babd8d3d5bfc3f48ea60aababdf5472da922e0f0a27573d893cdbb13140",
-          "contenido_extraido": true
+          "sha256": "4bdaf6d599174f99b79bd795e74fdbf13835b367943ef60d25a6daed98470b5a",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "617653494e11c6e1952b536b9bbd19081858aecf1a0509d0b013ec8be26befd8",
@@ -4846,16 +4989,18 @@
       "nombre": "Beca Municipal Educación Superior 2026",
       "institucion": "Municipalidad de La Calera",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La cuenta pública de La Calera responde 403. El documento histórico de 2023 tampoco equivale automáticamente a bases 2026 del alias; conservar ambos años separados.",
       "fuentes": [
         {
           "url": "https://lacalera.cl/wp-content/uploads/2024/04/CUENTA-PUBLICA-2023_flt-3.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "HTTP Error 403: Forbidden",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c",
@@ -4912,50 +5057,58 @@
       "nombre": "Beca Educación Superior Santa Maria",
       "institucion": "Municipalidad de Santa Maria",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La noticia de deportistas de Santa María responde 403. Incluso su título no basta para certificar beca general superior; no descartar por inaccesibilidad.",
       "fuentes": [
         {
           "url": "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/",
-          "consulta": "2026-10-06",
-          "error": "The read operation timed out",
-          "contenido_extraido": false
+          "consulta": "2026-10-07",
+          "error": "HTTP Error 403: Forbidden",
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
       "nombre": "Programa Beca Municipal de Educación Superior DAEM/DIDECO",
       "institucion": "Municipalidad de Codegua",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La extracción de Cuenta Pública 2018 de Codegua falla por codificación SymbolSetEncoding. No se ejecutó OCR del documento; no declarar leído el contenido ni deducir beneficio.",
       "fuentes": [
         {
           "url": "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf",
-          "consulta": "2026-10-06",
-          "error": "The read operation timed out",
-          "contenido_extraido": false
+          "consulta": "2026-10-07",
+          "error": "unknown encoding: /SymbolSetEncoding",
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "4338176c9f1ec87cead8a271812a81e0b24b1f50e83a7e2808e4c7b2b9ccf29b",
+          "url_final": "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
       "nombre": "Beca Municipal Educación Superior Chanaral",
       "institucion": "Municipalidad de Chanaral",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La página disponible es general, un listado o navegación municipal. Falta una ficha específica con beneficio y requisitos; no implica inexistencia.",
+      "hallazgo": "El listado de noticias de Chañaral no ofrece texto de una ficha de beca específica en la recuperación. No usar toda la portada como referencia suficiente de elegibilidad.",
       "fuentes": [
         {
           "url": "https://www.munichanaral.cl/noticias.html",
           "url_final": "https://www.munichanaral.cl/noticias.html",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html",
           "sha256": "84412c5bb41aadbb474295a2e238fff1172bd08adc5324394cabd58c51ff3308",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "c47882f77478fbfc4297cf9b6f74d48d45271bc6c8be33d1f4ef155b65f19b9c",
@@ -4991,13 +5144,17 @@
       "nombre": "Beca Estudiantil Alto del Carmen",
       "institucion": "Municipalidad de Alto del Carmen",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se leyó el reglamento BESIMAC 2021. Aporte monetario en diez cuotas; importe presupuestario desconocido. Primer ingreso: notas de enseñanza media 5,0; continuidad: el artículo 9 exige 4,5 pero la documentación del artículo 19 vuelve a exigir 5,0. La contradicción de continuidad permanece sin aclaración oficial; no elegir una nota arbitrariamente. No se certifica una convocatoria actual con estas bases históricas.",
+      "hallazgo": "Bases IMAC 2021 leídas: diez mensualidades de marzo a diciembre; importe anual variable. Artículo 9 exige ingreso NEM 5,0 y continuidad 4,5; artículo 18 añade 80% de ramos para renovación semestral. Artículo 19 pide certificado del último año con 5,0 sin distinguir continuidad, en tensión con 4,5. No certificar ese umbral de continuidad ni sustituirlo por 7,0. Residencia local y per cápita máximo $200.000 constan; queda pendiente aclaración oficial de aplicación.",
       "fuentes": [
         {
           "url": "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "The read operation timed out",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "98c54e630cbaf768254c6bac62b7070ec4e571c53d43f566908b7d362450d41a",
+          "paginas": 10,
+          "url_final": "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf"
         }
       ],
       "alcance": null,
@@ -5220,18 +5377,20 @@
       "nombre": "Beca Municipal y Beca Mérito Deportivo",
       "institucion": "Municipalidad de Punitaqui",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente disponible describe mérito deportivo. No confirma toda la candidata compuesta Municipal + Mérito Deportivo.",
+      "hallazgo": "La URL recuperada corresponde a Mérito Deportivo 2026 de Punitaqui, no a una convocatoria conjunta municipal superior. No sumar ni mezclar categorías con ayuda estudiantil.",
       "fuentes": [
         {
           "url": "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/",
           "url_final": "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "967f1014431f216dcb9b3f7769e469f3d73c7be074fb788f29e4c2554ac66d76",
-          "contenido_extraido": true
+          "sha256": "4800f6ef5a02f2aa1fba6a7da9ea8bdf473d3cf1a3c5dc8323cc1e123ea0dc67",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd",
@@ -5402,20 +5561,22 @@
       "nombre": "Beca Estudiantil Municipal Olivar",
       "institucion": "Municipalidad de Olivar",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La cuenta pública informa presupuesto y beneficiarios históricos. No confirma monto individual ni requisitos; no calcularlos mediante una división.",
+      "hallazgo": "Cuenta Pública Olivar 2018: beca para universitarios de la comuna; reporta 47 beneficiarios en un apartado y 57 en otro. No dividir $21.150.000 para inferir monto individual. Faltan reglas de selección y resolver el alcance de esas cifras.",
       "fuentes": [
         {
           "url": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-OLIVAR-2018_compressed.pdf",
           "url_final": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-OLIVAR-2018_compressed.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "application/pdf",
           "sha256": "06403603922a15997994c05464fdc9598b8372e16f08ef0ede9126ea1446f4df",
           "paginas": 205,
           "lectura_limite": "primeras 60 páginas",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967",
@@ -5449,16 +5610,20 @@
       "nombre": "Beca Municipal de Educación Superior Timaukel",
       "institucion": "Municipalidad de Timaukel",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "La página está en Porvenir y describe entrega de computadores Becas TIC JUNAEB a varias comunas, incluido Timaukel. No acredita una beca municipal superior propia de Timaukel.",
       "fuentes": [
         {
           "url": "https://www.muniporvenir.cl/2024/07/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "0e6fd492c0b5bc310b1f391cce5acf07c318c3045f754dbf94ee649a218f4cc9",
+          "url_final": "https://www.muniporvenir.cl/2024/07/"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
@@ -5556,27 +5721,36 @@
       "nombre": "Beca Municipal de Apoyo a la Educación Superior Camina",
       "institucion": "Municipalidad de Camina",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
-      "fuentes": [],
-      "alcance": null
+      "hallazgo": "El proyecto educativo oficial encontrado describe Beca Municipal de uniforme escolar en Camiña. No equivale al apoyo superior de este registro. Identidad, beneficio y requisitos superiores pendientes.",
+      "fuentes": [
+        {
+          "url": "https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf",
+          "consulta": "2026-10-07",
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        }
+      ],
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99",
       "nombre": "Beca de Mantención Educación Superior Huara",
       "institucion": "Municipalidad de Huara",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada trata ayudas JUNAEB/Mineduc o su tramitación. No permite atribuir sus beneficios y condiciones a una beca municipal propia.",
+      "hallazgo": "La noticia GORE trata computadores Becas TIC JUNAEB de 2020, no aporte municipal superior Huara. No copiar monto o elegibilidad de ese programa.",
       "fuentes": [
         {
           "url": "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/",
           "url_final": "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html; charset=UTF-8",
-          "sha256": "d9b849a2a4dc474c3e6345e119b039830cd90da833b0d19938977af101f49fc0",
-          "contenido_extraido": true
+          "sha256": "b2043bfe1e79e599cc342864d0a788b8ab1c0b2d03feae348211299aee32ae91",
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "e9d19755434b511dcefa8b4292f6faac35007429f92ca5c271e4ba472b706e7e",
@@ -5625,25 +5799,31 @@
       "nombre": "Beca Municipal de Apoyo Estudiantil Visviri / General Lagos",
       "institucion": "Municipalidad de General Lagos",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente localizada trata ayudas JUNAEB/Mineduc o su tramitación. No permite atribuir sus beneficios y condiciones a una beca municipal propia.",
+      "hallazgo": "El PDF de General Lagos contiene requisitos de Presidente de la República e Indígena. No acredita un programa municipal superior propio por el hecho de alojar fichas JUNAEB.",
       "fuentes": [
         {
           "url": "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "7f3ee398a0146c936619c9a1c9d444832a68044e4b264325955e8832cacee303",
+          "paginas": 8,
+          "url_final": "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed",
       "nombre": "Beca Municipal de Educación Superior Archipielago Juan Fernandez",
       "institucion": "Municipalidad de Juan Fernandez",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No hay enlace específico utilizable en el registro revisado. Falta localizar la ficha oficial de este programa y corroborar beneficio y requisitos principales; no descartar por ausencia de enlace.",
+      "hallazgo": "La búsqueda por Archipiélago Juan Fernández no recuperó convocatoria propia. Los resultados de personas con ese nombre y otras municipalidades no corresponden; no utilizar sus datos ni inferir inexistencia.",
       "fuentes": [],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "ac077e1770bbf329d185ddce24d60dad89227e0a73bf332e6eb9b7c407eaae26",
@@ -5683,34 +5863,40 @@
       "nombre": "Beca de Educación Superior Ilustre Municipalidad de Zapallar",
       "institucion": "Municipalidad de Zapallar",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo texto suficiente de una fuente específica en esta consulta. Falta corroborar beneficio y requisitos principales; el bloqueo de acceso no justifica descartarla.",
+      "hallazgo": "Team Zapallar 2026 es apoyo deportivo con acompañamiento físico y kinesiológico. No demuestra la beca general superior del registro; no convertir respaldo deportivo en arancel.",
       "fuentes": [
         {
           "url": "https://www.munizapallar.cl/blog/becas-deportivas-team-zapallar-2026",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false
+          "contenido_extraido": false,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "sha256": "85a6c27a3c16a61430f7b1d37b2c75d7898e2bed51fbed8ea1b2d7c47cb53b1c",
+          "url_final": "https://www.munizapallar.cl/blog/becas-deportivas-team-zapallar-2026"
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
       "nombre": "Beca Municipal Estudiantil Maria Pinto",
       "institucion": "Municipalidad de Maria Pinto",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente trata subvenciones de organizaciones/FONDEVE. No respalda una ayuda individual para estudiantes.",
+      "hallazgo": "La página de María Pinto corresponde a formularios comunitarios FONDEVE. No aporta identidad de beca individual superior ni cobertura y requisitos concordantes.",
       "fuentes": [
         {
           "url": "https://www.mpinto.cl/formularios-fondeve/",
           "url_final": "https://www.mpinto.cl/formularios-fondeve/",
-          "consulta": "2026-10-06",
+          "consulta": "2026-10-07",
           "tipo": "text/html",
           "sha256": "54bdfcac43f67264581aecb280a950074809fb4e287aa827f341df7596b376b0",
-          "contenido_extraido": true
+          "contenido_extraido": true,
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null
+      "alcance": null,
+      "ultima_revision": "2026-10-07"
     },
     {
       "candidato": "52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4",
@@ -8326,6 +8512,71 @@
       "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-lote50b-20261007-202253.zip",
       "archivos": 192,
       "sha256": "e343d3950c14fe26bfe5b1ad093f9b5d3986b251848b65cb71a331604cb87527"
+    },
+    "descartes_nuevos": 0,
+    "originales_preservados": true
+  },
+  "revision_lote50c": {
+    "fecha": "2026-10-07",
+    "revisadas": 50,
+    "confirmaciones_adicionales": 4,
+    "aclaraciones_actualizadas": 46,
+    "candidatos": [
+      "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
+      "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+      "16549819d19a32f2ee89760b7e220306352014258237afa4ee4a45d9ddddfbd6",
+      "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
+      "5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0",
+      "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
+      "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
+      "10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2",
+      "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
+      "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb",
+      "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
+      "89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535",
+      "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
+      "cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925",
+      "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
+      "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+      "14abd2d4252d535d32030eead8a43b45fd448a5d3ea087c749f43ad2b6ba85cb",
+      "349245ad74fc8dbe5e8eb93fb9b786d0a21cdba992eec27b0d9e03e14d4e868c",
+      "a7563d17807c6b315a814d7caedda04c0c1f0dd205b97b77a6c4d57da52e44a1",
+      "74f2312dfa48e8430ec8fe4af6235fc7ea200c9df394dd1951508c5797ea0930",
+      "b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022",
+      "06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488",
+      "9128e1de1498d39f011b4d87625c566b6fdcca045e04ae41361a03fa18ab2ae8",
+      "9863378baa3c5f33e4419b813b2103b34894e9d1c2bffbbdbecda54e579c01c4",
+      "50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f",
+      "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
+      "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
+      "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a",
+      "f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235",
+      "18b9ad971e54340ff364e4ad816c4e9b99e30975d002a97c3f2849333c7092c9",
+      "7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e",
+      "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
+      "ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3",
+      "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
+      "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
+      "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
+      "ce5c59956dd3c0026d4a3ffd1bf767e901506853d8bcf70bcacb52ac9a3488ff",
+      "5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9",
+      "3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4",
+      "f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392",
+      "5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d",
+      "15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99",
+      "6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131",
+      "e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed",
+      "c0bdc07760312c8208ca965c3160c4028bf74895cc9b9547daf49291cd2c6d36",
+      "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
+      "8230d6b883e4118885bbef8aab0d0f4d9a65c25b320074aaa4cdc1ef0edde829",
+      "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+      "ef6988a5b06dcc9019344a3036c07730adc3ede4b73a1ce1a11b2e552edff76f",
+      "342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d"
+    ],
+    "respaldo": {
+      "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-lote50c-20261007-203517.zip",
+      "archivos": 192,
+      "sha256": "054f66796cff2e3d9fe073e17ee2f3af5817517c6a02f2739fad2e9f0f20a3e8"
     },
     "descartes_nuevos": 0,
     "originales_preservados": true

@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 7 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 160 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 303 confirmación esencial. Permanecen 160 pendientes de confirmación, además de las 103 exclusiones históricas por reconsiderar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 7 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 156 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 307 confirmación esencial. Permanecen 156 pendientes de confirmación, además de las 103 exclusiones históricas por reconsiderar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. Las 103 exclusiones de `descartes.json` son decisiones históricas no ratificadas por esta revisión; los conteos generados conservan esa categoría para trazabilidad, sin certificar que deban descartarse. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -59,11 +59,11 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uv.csv | 4 | 4 | 1 | 3 | 0 | 0 | 1 |
 | becas_uvm.csv | 4 | 4 | 0 | 1 | 3 | 0 | 0 |
 | bloque10_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque11_muni.csv | 10 | 10 | 3 | 6 | 1 | 0 | 3 |
+| bloque11_muni.csv | 10 | 10 | 2 | 7 | 1 | 0 | 2 |
 | bloque12_muni.csv | 10 | 10 | 9 | 1 | 0 | 0 | 9 |
 | bloque13_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque14_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque15_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
+| bloque15_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque16_muni.csv | 10 | 10 | 4 | 4 | 2 | 0 | 4 |
 | bloque17_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque18_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
@@ -73,8 +73,8 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque22_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque23_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque24_muni.csv | 10 | 10 | 2 | 7 | 0 | 0 | 2 |
-| bloque25_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
-| bloque26_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
+| bloque25_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
+| bloque26_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque27_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
 | bloque28_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque29_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
@@ -85,7 +85,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque34_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque35_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque36_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
-| bloque37_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
+| bloque37_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque38_muni.csv | 9 | 9 | 3 | 6 | 0 | 0 | 3 |
 | bloque5_docs.csv | 15 | 15 | 0 | 15 | 0 | 0 | 0 |
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 0 | 0 | 3 |

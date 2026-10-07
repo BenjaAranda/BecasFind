@@ -6411,5 +6411,89 @@
     "beneficio": "Aporte monetario de mantención por una vez al año y en una cuota; importe determinado anualmente, desconocido en el reglamento.",
     "requisitos_principales": "Residencia familiar y RSH local; matrícula superior reconocida en universidad, CFT, escuela de Fuerzas Armadas o carrera profesional de IP. Primer ingreso con cuarto medio 5,5; continuidad con todas las asignaturas aprobadas y promedio 5,0. Continuidad técnica a la misma carrera profesional permitida.",
     "limites": "Lectura del contenido oficial indexado; acceso directo bloqueado por 403. No usar $210.000 ni plazos de noticia 2026 para completar el reglamento histórico. No inferir RSH máximo ni aplicar reglas 2024 como convocatoria 2026. Calendario no certificado; no activar. Originales y variantes conservados."
+  },
+  {
+    "candidato": "8230d6b883e4118885bbef8aab0d0f4d9a65c25b320074aaa4cdc1ef0edde829",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf"
+    ],
+    "alcance": "San Javier: PLADECO 2026–2029; alcance de la modalidad para egresados del Liceo Manuel Montt descrita en el diagnóstico.",
+    "beneficio": "Financiamiento municipal de apoyo al acceso a educación superior; importe individual desconocido.",
+    "requisitos_principales": "Egreso del Liceo Manuel Montt y promedio igual o superior a 6,0 durante tercero y cuarto medio; continuidad en educación superior.",
+    "limites": "El monto $11.200.000 es global, no individual. La modalidad CEIA se identifica separadamente con financiamiento municipal y Santander; no aplicar a ella el requisito 6,0. El período del PLADECO no demuestra convocatoria 2026 ni universalidad del alias. Calendario no certificado; no activar. Originales preservados."
+  },
+  {
+    "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://portal.mph.cl/?p=11935"
+    ],
+    "alcance": "Padre Hurtado: convocatoria municipal publicada el 27 de mayo de 2016; alcance histórico para tercer semestre.",
+    "beneficio": "Ayuda económica para gastos de la carrera; importe y periodicidad desconocidos.",
+    "requisitos_principales": "Cursar tercer semestre superior; condición regular y promedio mínimo 5,0. Acreditar situación económica y RSH; no recibir Beca Indígena ni Presidente de la República.",
+    "limites": "No inferir corte RSH ni porcentaje de arancel. Noticia de 2016; no trasladar condiciones a 2026. La ruta dinámica de trámites sola no sirvió como evidencia. Calendario no certificado; no activar. Originales preservados."
+  },
+  {
+    "candidato": "ef6988a5b06dcc9019344a3036c07730adc3ede4b73a1ce1a11b2e552edff76f",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf"
+    ],
+    "alcance": "Limache: Cuenta Pública de gestión 2023, página impresa 153; modalidad ordinaria de Educación Superior.",
+    "beneficio": "$150.000 semestrales como ayuda económica.",
+    "requisitos_principales": "Egreso de enseñanza media municipal; domicilio comunal; ingreso a universidad o formación técnica reconocida por Mineduc; situación socioeconómica evaluada por DIDECO.",
+    "limites": "La cuenta documenta once excepciones para egresados no municipales sin reglamentar su acceso general: no certificarlas como regla abierta. El total $56.100.000 no es individual. Bus vespertino es otro programa; no sumar su ahorro al aporte. Calendario no certificado; no activar. Originales preservados."
+  },
+  {
+    "candidato": "342da54336832efcb2f1a9c38bc93bf080a19ff8be4b4ec13e58070b69b0440d",
+    "revisado": "2026-10-07",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "fuentes": [
+      "https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/"
+    ],
+    "alcance": "Padre Las Casas: apartado específico Apoyo e Incentivo a la Educación en ficha municipal DIDECO; sin año explícito.",
+    "beneficio": "Aporte económico municipal a estudiantes de familias vulnerables; importe y periodicidad desconocidos.",
+    "requisitos_principales": "Matrícula o calidad de alumno regular; promedio mínimo 6,0 y RSH hasta 60%; atención comunal a población vulnerable, incluidos estudios superiores.",
+    "limites": "La ficha distingue incentivo municipal de las becas JUNAEB. No aplicar las 0,62 UTM de Presidente de la República al incentivo municipal. No se confirma un requisito de antigüedad residencial no expresado ni una convocatoria anual. Calendario no certificado; no activar. Originales preservados."
   }
 ]
