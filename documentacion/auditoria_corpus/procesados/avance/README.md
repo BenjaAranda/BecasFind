@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 7 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 169 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 294 confirmación esencial. Permanecen 169 pendientes de confirmación, además de las 103 exclusiones históricas por reconsiderar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 7 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 160 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 303 confirmación esencial. Permanecen 160 pendientes de confirmación, además de las 103 exclusiones históricas por reconsiderar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 La incorporación administrativa está terminada. Las 103 exclusiones de `descartes.json` son decisiones históricas no ratificadas por esta revisión; los conteos generados conservan esa categoría para trazabilidad, sin certificar que deban descartarse. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -65,24 +65,24 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque14_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque15_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
 | bloque16_muni.csv | 10 | 10 | 4 | 4 | 2 | 0 | 4 |
-| bloque17_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
+| bloque17_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque18_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque20_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
-| bloque21_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque21_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque22_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque23_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque24_muni.csv | 10 | 10 | 2 | 7 | 0 | 0 | 2 |
-| bloque25_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque26_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
+| bloque25_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque26_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
 | bloque27_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
 | bloque28_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque29_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque29_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque30_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque31_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
 | bloque32_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
-| bloque33_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque34_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque33_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque34_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque35_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque36_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque37_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
