@@ -353,4 +353,3 @@ Página INACAP de articulación describe beca estatal TNS a carrera profesional 
 Candidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.
 
 Portal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile.
-
