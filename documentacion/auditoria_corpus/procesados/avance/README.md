@@ -1,12 +1,14 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 8 de octubre de 2026: 647 referencias en 93 archivos; 568 candidatas únicas. Hay 402 confirmaciones esenciales, dos completas y 120 pendientes. Además quedan 44 exclusiones históricas aún no ratificadas: en total, 164 candidatas requieren resolución. Una confirmación esencial no habilita publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 8 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 116 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 406 confirmación esencial: 116 requieren aclaración; además hay 44 exclusiones históricas pendientes de ratificación individual (160 casos por resolver). Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-El tercer lote añade once confirmaciones del grupo de 291 y diecinueve recuperaciones históricas; aquel grupo queda con 171 esenciales y 120 aclaraciones. Las 103 decisiones antiguas permanecen intactas en `descartes_historicos_2026_10_07.json`; `descartes.json` conserva únicamente las 44 todavía no recuperadas. No son descartes nuevos ni prueban inexistencia. Originales y variantes conservados. [Detalle de las 30 nuevas confirmaciones](../TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+La incorporación administrativa está terminada. Las 44 entradas de `descartes.json` son exclusiones históricas todavía no ratificadas; se mantienen como casos por resolver y no prueban inexistencia. Originales y variantes se conservan. El criterio esencial verifica identidad, fuente específica, beneficio y requisitos principales; no autoriza activar sin cierre confirmado.
+
+Última entrega: [50 candidatas revisadas](../REVISION_MUNICIPAL_50_2026_10_08.md); cuatro confirmaciones esenciales nuevas y 46 aclaraciones. No se añaden descartes.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
-| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Exclusiones históricas | Sin revisión individual | Pendientes de cierre |
+| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Exclusiones históricas sin ratificar | Sin revisión individual | Pendientes de cierre |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | auditoria_municipal.csv | 16 | 16 | 9 | 7 | 0 | 0 | 9 |
 | auditoria_municipal_fix.csv | 16 | 16 | 9 | 7 | 0 | 0 | 9 |
@@ -63,14 +65,14 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque12_muni.csv | 10 | 10 | 9 | 1 | 0 | 0 | 9 |
 | bloque13_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque14_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque15_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque15_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque16_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque17_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque18_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque20_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque21_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
-| bloque22_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque22_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque23_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque24_muni.csv | 10 | 10 | 2 | 7 | 0 | 0 | 2 |
 | bloque25_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
@@ -78,7 +80,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque27_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
 | bloque28_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque29_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque30_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
+| bloque30_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque31_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque32_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque33_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |

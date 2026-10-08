@@ -8507,5 +8507,89 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "73bb66c800351cbfee020f307be46393c24a3515d48b04b146c490860ef6216b",
+    "alcance": "Beca de Estudios Superior de Vicuña; ficha municipal de trámites de septiembre de 2023.",
+    "beneficio": "Apoyo económico para estudiantes superiores; importe y periodicidad desconocidos.",
+    "requisitos_principales": "Domicilio comunal y matrícula superior; ingreso: cuarto medio mínimo 6,0; continuidad: promedio anual mínimo 4,5; situación económica deficitaria evaluada por ingreso per cápita y quintiles CASEN; RSH actualizado.",
+    "limites": "Se corrige el promedio general 5,0 del original. No se confirma RSH máximo 60%, aporte anual ni calendario 2026. San Juan, deportiva y hogar son modalidades distintas; las 3 UTM de San Juan no corresponden a esta ficha.",
+    "fuentes": [
+      "https://www.transparenciavicuna.cl/wp-content/uploads/2023/09/SOCIAL.pdf"
+    ],
+    "revisado": "2026-10-08",
+    "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "6bc95197a359821ca7f311c918f9c1350d70d691acd7c53a4b8e9de61bc0d638",
+    "alcance": "Beca de Reembolso de Matrícula de Licantén; definición publicada en la gestión 2023, página 64.",
+    "beneficio": "Por única vez: 100%, 70% o 40% de derechos de matrícula del primer semestre o primer año según régimen de la carrera.",
+    "requisitos_principales": "Jóvenes de escasos recursos de Licantén o comunas aledañas Hualañé, Vichuquén y Curepto que estudiaron en establecimientos de Licantén; primer año superior en universidad, IP o CFT reconocido por el Estado. Selección por notas de media, quintiles y evaluación social.",
+    "limites": "No es reembolso íntegro universal. No se acredita NEM 5,0, RSH máximo 60% ni convocatoria 2026. La tabla registra cero beneficiarios en 2023: confirma la definición del programa, no su ejecución ese año.",
+    "fuentes": [
+      "https://www.mlicanten.cl/laip/Transparencia%20Municipalidad/Cuentas%20Publicas%20de%20Gestion/2023/Cuenta%20P%C3%BAblica%202023.pdf"
+    ],
+    "revisado": "2026-10-08",
+    "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "74f2312dfa48e8430ec8fe4af6235fc7ea200c9df394dd1951508c5797ea0930",
+    "alcance": "Beca Municipal de Estudiantes de Educación Superior de Marchigüe; modificación reglamentaria aprobada el 20 de abril de 2022.",
+    "beneficio": "Matrícula superior a $100.000: $60.000–$65.000; matrícula entre $51.000 y $100.000: $45.000–$50.000; matrícula cero con gratuidad: $45.000–$50.000.",
+    "requisitos_principales": "Postulantes a educación superior bajo reglamento municipal; se excluyen diplomados, cursos y capacitaciones. El aporte depende del tramo de matrícula.",
+    "limites": "Se confirma la modificación publicada y sus exclusiones, no el reglamento íntegro ni elegibilidad individual. Desconocidos residencia exigida, NEM, RSH, tramo de matrícula $1–$50.999 y condiciones actuales. No completar ese tramo por analogía.",
+    "fuentes": [
+      "https://marchigue.cl/pdf/Cuenta-publica-2022.pdf"
+    ],
+    "revisado": "2026-10-08",
+    "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d244c3f979f455ce6a5a3750f9d00dc24b448043b5e53028e26446b03ab6a557",
+    "alcance": "Beca Ignacio Domeyko de Andacollo; ficha oficial consultada el 8 de octubre de 2026.",
+    "beneficio": "Aporte anual de $100.000.",
+    "requisitos_principales": "Residencia y RSH vigente en Andacollo; alumno regular universitario público o privado; formulario y antecedentes exigidos. Incompatible con Pedro Regalado Videla, Gabriela Mistral, hijos de pirquineros fallecidos y beca para personas con discapacidad.",
+    "limites": "El original mezclaba modalidades. No corresponden los $300.000 ni las dos cuotas de otra beca; tampoco se acredita egreso exclusivo de los tres colegios, nota mínima ni RSH máximo 60%. No incorporar calendario anual genérico como cierre confirmado.",
+    "fuentes": [
+      "https://www.andacollochile.cl/page/Becas-Municipales"
+    ],
+    "revisado": "2026-10-08",
+    "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
