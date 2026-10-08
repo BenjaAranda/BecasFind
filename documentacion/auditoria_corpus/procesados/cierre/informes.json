@@ -1029,7 +1029,7 @@
     ]
   },
   "../REVISION_ESENCIAL_291_2026_10_06.md": {
-    "sha256": "e6bb710eb928f9962631a7b3e3b2951f26a89a7c6581c43a090f4f51926c1ed4",
+    "sha256": "4b8e6f1cf6c4a9552065f1151e5972ba293c176d50317a4ba0916617f88f1ca9",
     "urls": [
       "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
       "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
@@ -1061,6 +1061,7 @@
       "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf",
       "https://drive.google.com/file/d/1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h/view?usp=drive_link",
       "https://drive.google.com/file/d/13nednAwuwuRiyOJtctqq55R09LKHEuli/view?usp=sharing",
+      "https://drive.google.com/file/d/1VgqB3r8QExCgL2zlmeO4fYzebWJ22yyp/view",
       "https://drive.google.com/file/d/1dS8L0av2i2uq35jMmhM569f0ZYMUxszE/view?usp=share_link",
       "https://drive.google.com/file/d/1rhh03eqb9EbXw_yCONyi4YDx8_H0GlyO/view?usp=drive_link",
       "https://drive.google.com/uc?export=download&id=1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h",
@@ -1080,7 +1081,6 @@
       "https://lacalera.cl/wp-content/uploads/2024/04/CUENTA-PUBLICA-2023_flt-3.pdf",
       "https://lacruz.cl/a94a8fe5/wp-content/uploads/2026/04/CUENTA-PUBLICA-2025.pdf",
       "https://lampa.cl/noticias/asi-puedes-postular-a-la-beca-de-arancel-municipal-para-la-educacion-superior/",
-      "https://ligup-v2.s3.amazonaws.com/nuevaimperial/files/77506_ficha_de_postulacion_bmes_2025.pdf",
       "https://ligup-v2.s3.amazonaws.com/quintanormal/multimedia/19430_cuenta_publica_2006.pdf",
       "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf",
       "https://llanquihue.cl/hasta-martes-11-de-abril-abiertas-las-postulaciones-de-la-beca-municipal-estudiantil-de-ensenanza-superior-2023/",
@@ -1130,6 +1130,7 @@
       "https://munitiltil.cl/wp-content/uploads/2025/04/BECA-MUNICIPAL-DE-TRANSPORTE-2025-PROGRAMA-PRESENTACION.pdf",
       "https://munitirua.gob.cl/wp-content/uploads/2025/12/GUIA-DE-SERVICIOS-Y-TRAMITES-MUNICIPALES.pdf",
       "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/",
+      "https://nuevaimperial.ligup2.com/actividades/146728",
       "https://pace.ubiobio.cl/wp-content/uploads/2024/07/Becas-Municipales-Nuble-Diguillin.pdf",
       "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf",
       "https://padrelascasas.cl/newplc/direccion-de-desarrollo-comunitario/",
@@ -1276,8 +1277,7 @@
       "https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-",
       "https://www.transparencia.muniolmue.cl/docs/cuentas/cuenta_2010.pdf",
       "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
-      "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2024/Secretaria_municipal/ASO/ASO97.pdf",
-      "https://www.transparenciasantacruz.cl/actos-resoluciones/actos-resoluciones-terceros/ordenanzas/ordenanzas-municipales",
+      "https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo",
       "https://www.transparenciavicuna.cl/wp-content/uploads/2023/09/SOCIAL.pdf",
       "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf",
       "https://www.ucentral.cl/admision/becas-y-beneficios",
@@ -1511,6 +1511,15 @@
       "https://www.udd.cl/admision/becas/",
       "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/",
       "https://www.upla.cl/desarrolloestudiantil/beneficios-estudiantiles-upla/"
+    ]
+  },
+  "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md": {
+    "sha256": "e7e088f7fcce8e77fd8417f7c33df736d4d5061007504621276cc172722348bb",
+    "urls": [
+      "https://drive.google.com/file/d/1VgqB3r8QExCgL2zlmeO4fYzebWJ22yyp/view",
+      "https://nuevaimperial.ligup2.com/actividades/146728",
+      "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
+      "https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo"
     ]
   }
 }

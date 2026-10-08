@@ -8654,5 +8654,69 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "452826bd9e394d071ee7d7567dc608ebfb684d43fea04cca935fad9b2625d5ee",
+    "revisado": "2026-10-08",
+    "alcance": "Convocatoria municipal de Nueva Imperial 2024; no confirma 2025 ni 2026",
+    "informe": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md",
+    "fuentes": [
+      "https://nuevaimperial.ligup2.com/actividades/146728"
+    ],
+    "beneficio": "Pago único de $100.000 para gastos de estudios.",
+    "requisitos_principales": "Estudiantes nuevos o antiguos de educación superior técnica o profesional; RSH inscrito en Nueva Imperial; nota 5,5 de cuarto medio o 5,0 de educación superior durante 2023; matrícula 2024; sin rendiciones pendientes.",
+    "limites": "La convocatoria 2024 contradice $200.000 en dos cuotas del original. No respalda el máximo RSH 70%, mínimo técnico 4,5 ni exclusiones de otras becas indicadas en el CSV. Las condiciones 2026 quedan desconocidas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f",
+    "revisado": "2026-10-08",
+    "alcance": "Beca Concejo Municipal de Santa Cruz; requisitos de convocatoria 2020 exclusivamente",
+    "informe": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md",
+    "fuentes": [
+      "https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo",
+      "https://drive.google.com/file/d/1VgqB3r8QExCgL2zlmeO4fYzebWJ22yyp/view"
+    ],
+    "beneficio": "Aporte económico sujeto al presupuesto disponible y número de postulantes; importe 2020 desconocido.",
+    "requisitos_principales": "Alumno regular de educación superior del segundo semestre 2020; nota mínima 4,5; RSH de Santa Cruz hasta 80%. Decreto 2680/2020, páginas 1–2, leído visualmente.",
+    "limites": "No se trasladan los $273.248 del decreto 2184/2023 a las condiciones 2020. El original RSH 60% y NEM 5,0 no describe esta convocatoria. Importe $150.000 y cupo de cien no respaldados. Vigencia 2026 desconocida.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "70d4fb04e8a87e97a09bec9ae72c4b3fad2db3670019715e27bd41ddc7839fc1",
+    "revisado": "2026-10-08",
+    "alcance": "Programa Beca Municipal Dr. Joaquín Contreras Silva de Requínoa; reglamento 2014, no convocatoria 2026 del título original",
+    "informe": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md",
+    "fuentes": [
+      "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf"
+    ],
+    "beneficio": "Estímulo económico anual; monto y cupos definidos según disponibilidad presupuestaria municipal.",
+    "requisitos_principales": "Estudiante regular de educación superior en las instituciones contempladas por el reglamento; domicilio en Requínoa; acreditación socioeconómica. Selección mediante evaluación social y preferencia de menor ingreso familiar en empate. Decreto 1815/2014, páginas 2–5.",
+    "limites": "El reglamento leído no respalda NEM 5,5, RSH 60%, $200.000 ni 55 cupos para 2026. La confirmación corresponde al programa histórico 2014; no certifica el año 2026 añadido al nombre original.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

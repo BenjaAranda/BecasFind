@@ -12,7 +12,7 @@ El inventario comprende 568 candidatas y 647 referencias en 93 archivos original
 
 Entrega documental actualizada el 8 de octubre: [contraste institucional y Paine de 50 candidatas](documentacion/auditoria_corpus/procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md), con dos confirmaciones esenciales para la convocatoria 2025 y 48 aclaraciones. Total: 409 esenciales, dos completas, 114 pendientes y 43 exclusiones históricas sin ratificar; quedan 157 candidatas por resolver. Cohorte de 291: 177 esenciales y 114 aclaraciones. Dos fichas de Paine no equivalen a dos programas. Sin descartes nuevos. Pendiente completar verificaciones y alcanzar al menos 30 confirmaciones nuevas por lote. Backend/frontend y pruebas aplazados; sin despliegue.
 
-Ejecución iniciada: [cola única de 157 candidatas y primer bloque seleccionado](documentacion/auditoria_corpus/procesados/COLA_REVISION_ESENCIAL_157_2026_10_08.md). Atribución individual de controles en curso; no confundir clasificación preliminar con verificación. Colchane: decreto leído visualmente; falta contrastar elegibilidad en las bases referidas. Conteos de confirmación sin cambios.
+Ejecución iniciada: [cola única de 157 candidatas y primer bloque seleccionado](documentacion/auditoria_corpus/procesados/COLA_REVISION_ESENCIAL_157_2026_10_08.md). Atribución individual de controles en curso; no confundir clasificación preliminar con verificación. Colchane: decreto leído visualmente; falta contrastar elegibilidad en las bases referidas. Resultado posterior: tres confirmaciones históricas nuevas; total 412 esenciales, dos completas y 154 por resolver (111 aclaraciones y 43 exclusiones sin ratificar). [Informe del bloque](documentacion/auditoria_corpus/procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md). La meta de treinta cierres sigue pendiente.
 
 ### Método vigente: cierre esencial por evidencia
 
@@ -163,7 +163,7 @@ P09 deja de ser pendiente externo. El envío local permanece deshabilitado; acti
 - [x] Añadir revisión parcial de ocho beneficios UAndes (11 referencias históricas); conservar cinco candidatos MINEDUC con campos y referencias oficiales parciales sin activarlos.
 - [x] Contrastar siete registros UChile y aplicar siete correcciones parciales con respaldo/restauración; los otros 560 registros permanecen idénticos. BUCH: corregir RSH/NEM/cobertura y registrar cierre al mediodía; BAB: corregir cobertura/NEM y dejar fechas contradictorias desconocidas. Ninguna activación.
 - [x] Verificar 220 casos Chromium/Firefox sobre el build actualizado; conservar diseño institucional azul/blanco.
-- [ ] Completar la confirmación esencial de las 157 candidatas según tasks/plan.md; resolver contradicciones de identidad, beneficio y elegibilidad principal. Conservar calendario y documentos desconocidos sin exigir confirmación exhaustiva.
+- [ ] Completar la confirmación esencial de las 154 candidatas aún abiertas de la cola inicial de 157 según tasks/plan.md; resolver contradicciones de identidad, beneficio y elegibilidad principal. Conservar calendario y documentos desconocidos sin exigir confirmación exhaustiva.
 - [x] Resolver las 17 estructuras malformadas y recuperar seis identidades; originales preservados.
 - [ ] Conciliar los 46 grupos restantes; dos grupos USM tienen decisiones documentadas sin activar ni fusionar becas.
 - [ ] Aplicar correcciones por beneficio con evidencia y publicar únicamente convocatorias confirmadas. Incorporación administrativa no equivale a publicación ni certificación completa.

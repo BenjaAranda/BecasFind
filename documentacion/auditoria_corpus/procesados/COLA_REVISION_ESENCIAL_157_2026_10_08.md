@@ -22,3 +22,7 @@ Las primeras 50 están marcadas como bloque inicial. Se priorizan 26 candidatas 
 La comprobación de estos accesos no cierra becas. Se mantienen intactos los conteos: 409 esenciales; dos completas; 157 por resolver. No se ejecutaron pruebas de aplicación, importaciones ni despliegue.
 
 SHA-256 del decreto de Colchane leído: `59cb672c4ad5b277d51525429a8ee04973dfdb4974427b930e60b94b3648adda`. Lectura: página 1, vistos 5–7; página 2, considerando 3 y tabla de ceremonia; página 3, decreto de prórroga.
+
+## Resultado posterior del bloque inicial
+
+Se conservan las 157 filas de partida. Tres tienen ahora confirmación esencial histórica; quedan 154 por resolver (111 aclaraciones y 43 exclusiones sin ratificar). [Informe individual del bloque](REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md). Las columnas añadidas registran el resultado actual sin borrar el estado de origen. El objetivo de treinta confirmaciones nuevas no está cumplido.

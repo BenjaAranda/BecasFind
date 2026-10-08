@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Resultado acumulado de estas 291: 177 confirmaciones esenciales y 114 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
+Resultado acumulado de estas 291: 180 confirmaciones esenciales y 111 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
 
@@ -12,7 +12,7 @@ Cada apartado identifica el mismo hash estable del inventario. Las confirmacione
 
 Tras las primeras 47 confirmaciones se hicieron 212 búsquedas institucionales para las 244 restantes y se recuperaron reglamentos y fichas específicas. Se añaden 22 confirmaciones con datos leídos. Se usó OCR para los reglamentos escaneados y contraste visual de las páginas citadas. Las búsquedas y URLs localizadas son pistas de investigación, no confirmaciones automáticas; su registro está en [el anexo de búsquedas](procesados/busquedas_adicionales_244_2026_10_06.json).
 
-Persisten 114 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
+Persisten 111 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
 
 ## Revisión de las 222 restantes y respaldo
 
@@ -982,17 +982,17 @@ Fuentes específicas de la confirmación:
 - [Referencia 1](https://www.transparencia.muniolmue.cl/docs/cuentas/cuenta_2010.pdf)
 Calendario y documentos: no certificados en esta entrega; no activar.
 
-## 085. Beca Municipal Dr. Joaquin Contreras Silva 2026 — 70d4fb04e8a87e97a09bec9ae72c4b3fad2db3670019715e27bd41ddc7839fc1
-Institución del registro: Municipalidad de Requinoa.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Acta Requínoa 2024 aprueba 31 becas superiores de $250.000 y solicita notas de cuarto medio a nuevos ingresantes. El reglamento 2014 tiene otro alcance; calendario del acta menciona 2023. No certifica programa 2026 ni permite mezclar requisitos entre ediciones.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2024/Secretaria_municipal/ASO/ASO97.pdf)
-- [Referencia 2](https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf)
+## 085. Beca Municipal Dr. Joaquin Contreras Silva 2026
 
-Última revisión (8 de octubre): Acta 97/2024 aprueba 31 becas superiores de $250.000 y uso de notas de cuarto medio para ingreso. El candidato nombra 2026 y $200.000/55 cupos: no trasladar año, montos ni cupos sin sus bases.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Candidata: `70d4fb04e8a87e97a09bec9ae72c4b3fad2db3670019715e27bd41ddc7839fc1`. Estado: **CONFIRMADA_ESENCIAL**.
+
+Programa Beca Municipal Dr. Joaquín Contreras Silva de Requínoa; reglamento 2014, no convocatoria 2026 del título original.
+
+Estímulo económico anual; monto y cupos definidos según disponibilidad presupuestaria municipal. Estudiante regular de educación superior en las instituciones contempladas por el reglamento; domicilio en Requínoa; acreditación socioeconómica. Selección mediante evaluación social y preferencia de menor ingreso familiar en empate. Decreto 1815/2014, páginas 2–5. El reglamento leído no respalda NEM 5,5, RSH 60%, $200.000 ni 55 cupos para 2026. La confirmación corresponde al programa histórico 2014; no certifica el año 2026 añadido al nombre original.
+
+Informe: [contraste documental](procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md).
+
+Fuentes: [fuente oficial](https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf).
 
 ## 086. Beca Municipal de Educación Superior — 89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535
 Institución del registro: Municipalidad de Machali.
@@ -1151,16 +1151,17 @@ Fuentes específicas de la confirmación:
 - [Referencia 1](https://cobquecura.cl/wp-content/uploads/BASES-APORTE-EDUCACION-SUPERIOR-ANO-2025.pdf)
 Calendario y documentos: no certificados en esta entrega; no activar.
 
-## 100. Beca Municipal de Educación Superior Nueva Imperial — 452826bd9e394d071ee7d7567dc608ebfb684d43fea04cca935fad9b2625d5ee
-Institución del registro: Municipalidad de Nueva Imperial.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El formulario 2025 acredita que existe postulación BMES municipal, pero solicita datos sin definir cobertura ni requisitos de selección. No sustituirlo por beneficios JUNAEB.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://ligup-v2.s3.amazonaws.com/nuevaimperial/files/77506_ficha_de_postulacion_bmes_2025.pdf)
+## 100. Beca Municipal de Educación Superior Nueva Imperial
 
-Última revisión (8 de octubre): Formulario 2025 identifica Beca Municipal de Educación Superior de Nueva Imperial. No contiene importe ni criterios de admisibilidad; buscar bases correspondientes.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Candidata: `452826bd9e394d071ee7d7567dc608ebfb684d43fea04cca935fad9b2625d5ee`. Estado: **CONFIRMADA_ESENCIAL**.
+
+Convocatoria municipal de Nueva Imperial 2024; no confirma 2025 ni 2026.
+
+Pago único de $100.000 para gastos de estudios. Estudiantes nuevos o antiguos de educación superior técnica o profesional; RSH inscrito en Nueva Imperial; nota 5,5 de cuarto medio o 5,0 de educación superior durante 2023; matrícula 2024; sin rendiciones pendientes. La convocatoria 2024 contradice $200.000 en dos cuotas del original. No respalda el máximo RSH 70%, mínimo técnico 4,5 ni exclusiones de otras becas indicadas en el CSV. Las condiciones 2026 quedan desconocidas.
+
+Informe: [contraste documental](procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md).
+
+Fuentes: [fuente oficial](https://nuevaimperial.ligup2.com/actividades/146728).
 
 ## 101. Beca Estudiantil Municipal Lautaro — 14abd2d4252d535d32030eead8a43b45fd448a5d3ea087c749f43ad2b6ba85cb
 Institución del registro: Municipalidad de Lautaro.
@@ -1680,16 +1681,17 @@ Límites: La cuenta documenta once excepciones para egresados no municipales sin
 Referencias y antecedentes consultados:
 - [Referencia 1](https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf)
 
-## 148. Beca Municipal de Educación Superior Santa Cruz — 50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f
-Institución del registro: Municipalidad de Santa Cruz.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Transparencia de Santa Cruz registra modificaciones de becas cultural y deportiva. Son evidencias de otras modalidades; no prueban la beca general superior del registro ni justifican descartarla.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.transparenciasantacruz.cl/actos-resoluciones/actos-resoluciones-terceros/ordenanzas/ordenanzas-municipales)
+## 148. Beca Municipal de Educación Superior Santa Cruz
 
-Última revisión (8 de octubre): Acta 69/2023 documenta Beca Concejo Municipal de $273.248 y 439 beneficiarios. No verifica requisitos ni la cifra de $150.000/100 cupos del original; no usar becas estatales de cuentas anteriores como sustitución.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Candidata: `50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f`. Estado: **CONFIRMADA_ESENCIAL**.
+
+Beca Concejo Municipal de Santa Cruz; requisitos de convocatoria 2020 exclusivamente.
+
+Aporte económico sujeto al presupuesto disponible y número de postulantes; importe 2020 desconocido. Alumno regular de educación superior del segundo semestre 2020; nota mínima 4,5; RSH de Santa Cruz hasta 80%. Decreto 2680/2020, páginas 1–2, leído visualmente. No se trasladan los $273.248 del decreto 2184/2023 a las condiciones 2020. El original RSH 60% y NEM 5,0 no describe esta convocatoria. Importe $150.000 y cupo de cien no respaldados. Vigencia 2026 desconocida.
+
+Informe: [contraste documental](procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md).
+
+Fuentes: [fuente oficial](https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo); [fuente oficial](https://drive.google.com/file/d/1VgqB3r8QExCgL2zlmeO4fYzebWJ22yyp/view).
 
 ## 149. Beca Municipal de Educación Superior Tome — 33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986
 Institución del registro: Municipalidad de Tome.

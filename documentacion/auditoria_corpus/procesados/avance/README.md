@@ -1,8 +1,8 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 8 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 114 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 409 confirmación esencial: quedan 157 sin resolver: 114 aclaraciones y 43 exclusiones históricas sin ratificar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 8 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 111 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 412 confirmación esencial: quedan 154 por resolver: 111 aclaraciones y 43 exclusiones históricas sin ratificar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-La incorporación administrativa está terminada. Hay 43 exclusiones históricas sin ratificar que deben revisarse individualmente y forman parte de las 157 candidatas sin resolver. No son confirmaciones ni prueban inexistencia. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
+La incorporación administrativa está terminada. Hay 43 exclusiones históricas sin ratificar que forman parte de las 154 candidatas sin resolver; no son confirmaciones ni prueban inexistencia. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
@@ -66,14 +66,14 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque15_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque16_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque17_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque18_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
+| bloque18_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque20_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque20_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque21_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque22_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque23_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque24_muni.csv | 10 | 10 | 2 | 7 | 0 | 0 | 2 |
-| bloque25_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
+| bloque25_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque26_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque27_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
 | bloque28_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
@@ -103,5 +103,3 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | municipalidades_urbano.csv | 5 | 5 | 2 | 3 | 0 | 0 | 2 |
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
-
-Última revisión: [50 candidatas y convocatoria de Paine 2025](../REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).

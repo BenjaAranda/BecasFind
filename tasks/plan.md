@@ -4,7 +4,7 @@ Actualizado el 8 de octubre de 2026 por petición del usuario. Sustituye el mét
 
 ## Diagnóstico y punto de partida
 
-Hay 568 identidades candidatas: 409 confirmaciones esenciales; dos completas; 114 pendientes y 43 exclusiones históricas sin ratificar. La cola real contiene 157 candidatas. Son registros candidatos, no necesariamente 568 programas distintos. Las 647 referencias originales tampoco son 647 becas distintas.
+Hay 568 identidades candidatas: 412 confirmaciones esenciales; dos completas; 111 pendientes y 43 exclusiones históricas sin ratificar. La cola real contiene ahora 154 candidatas sin resolver; el archivo de cola conserva las 157 de partida. Son registros candidatos, no necesariamente 568 programas distintos. Las 647 referencias originales tampoco son 647 becas distintas.
 
 Los últimos informes anunciaron 51 y 50 candidatas, pero produjeron una y dos confirmaciones nuevas respectivamente. El primer archivo de revisiones contiene 50 aclaraciones y documenta la recuperación adicional por separado. Los dos archivos de revisiones comparten cuatro candidatas. Las dos fichas de Paine corresponden a un programa. El volumen de consultas no demuestra progreso de cierre.
 
@@ -66,3 +66,9 @@ Aceptación: 568 candidatas contabilizadas sin doble conteo y reducción real de
 No publicar otro informe de cincuenta intentos como si fueran cincuenta confirmaciones. Priorizar cierres y completar el bloque antes de informar. Si la evidencia impide alcanzar treinta confirmaciones, explicar los bloqueos concretos y el cambio de método; no rellenar el objetivo con duplicados, exclusiones o confirmaciones repetidas. No prometer que todas las candidatas serán confirmables antes de conocer sus fuentes.
 
 Los resultados de informes anteriores siguen como antecedentes. Este plan cambia el proceso, no rebaja el requisito de evidencia oficial ni reabre trabajo del backend, frontend o despliegue.
+
+## Contraste iniciado el 8 de octubre de 2026
+
+Bloque inicial de 50: tres confirmaciones históricas nuevas (Nueva Imperial 2024, Santa Cruz 2020 y programa de Requínoa con reglamento 2014); 47 sin cierre esencial. [Informe individual](../documentacion/auditoria_corpus/procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md). Total: 412 esenciales, dos completas, 111 aclaraciones y 43 exclusiones antiguas sin ratificar; 154 por resolver. El objetivo de treinta cierres sigue abierto.
+
+La selección inicial no garantizaba documentos suficientes: varias rutas corresponden a deportes, convenios o becas estatales. Antes del siguiente bloque deben distinguirse esas modalidades y buscarse el documento específico; repetir esas páginas no constituye progreso. Los intentos de acceso están diferenciados de lectura. No se ejecutaron pruebas de aplicación.

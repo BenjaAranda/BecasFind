@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 177,
-  "requieren_aclaracion": 114,
+  "confirmaciones_nuevas": 180,
+  "requieren_aclaracion": 111,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -2828,8 +2828,8 @@
       "candidato": "70d4fb04e8a87e97a09bec9ae72c4b3fad2db3670019715e27bd41ddc7839fc1",
       "nombre": "Beca Municipal Dr. Joaquin Contreras Silva 2026",
       "institucion": "Municipalidad de Requinoa",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Acta 97/2024 aprueba 31 becas superiores de $250.000 y uso de notas de cuarto medio para ingreso. El candidato nombra 2026 y $200.000/55 cupos: no trasladar año, montos ni cupos sin sus bases.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Estímulo económico anual; monto y cupos definidos según disponibilidad presupuestaria municipal. Estudiante regular de educación superior en las instituciones contempladas por el reglamento; domicilio en Requínoa; acreditación socioeconómica. Selección mediante evaluación social y preferencia de menor ingreso familiar en empate. Decreto 1815/2014, páginas 2–5. El reglamento leído no respalda NEM 5,5, RSH 60%, $200.000 ni 55 cupos para 2026. La confirmación corresponde al programa histórico 2014; no certifica el año 2026 añadido al nombre original.",
       "fuentes": [
         {
           "url": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2024/Secretaria_municipal/ASO/ASO97.pdf",
@@ -2849,11 +2849,17 @@
           "url_final": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
           "paginas": 7,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha oficial o páginas del decreto indicadas en informe",
+          "alcance_lectura": "Programa Beca Municipal Dr. Joaquín Contreras Silva de Requínoa; reglamento 2014, no convocatoria 2026 del título original"
         }
       ],
-      "alcance": null,
+      "alcance": "Programa Beca Municipal Dr. Joaquín Contreras Silva de Requínoa; reglamento 2014, no convocatoria 2026 del título original",
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md"
     },
     {
       "candidato": "89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535",
@@ -3254,8 +3260,8 @@
       "candidato": "452826bd9e394d071ee7d7567dc608ebfb684d43fea04cca935fad9b2625d5ee",
       "nombre": "Beca Municipal de Educación Superior Nueva Imperial",
       "institucion": "Municipalidad de Nueva Imperial",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Formulario 2025 identifica Beca Municipal de Educación Superior de Nueva Imperial. No contiene importe ni criterios de admisibilidad; buscar bases correspondientes.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Pago único de $100.000 para gastos de estudios. Estudiantes nuevos o antiguos de educación superior técnica o profesional; RSH inscrito en Nueva Imperial; nota 5,5 de cuarto medio o 5,0 de educación superior durante 2023; matrícula 2024; sin rendiciones pendientes. La convocatoria 2024 contradice $200.000 en dos cuotas del original. No respalda el máximo RSH 70%, mínimo técnico 4,5 ni exclusiones de otras becas indicadas en el CSV. Las condiciones 2026 quedan desconocidas.",
       "fuentes": [
         {
           "url": "https://ligup-v2.s3.amazonaws.com/nuevaimperial/files/77506_ficha_de_postulacion_bmes_2025.pdf",
@@ -3268,11 +3274,17 @@
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
           "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+        },
+        {
+          "url": "https://nuevaimperial.ligup2.com/actividades/146728",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha oficial o páginas del decreto indicadas en informe",
+          "alcance_lectura": "Convocatoria municipal de Nueva Imperial 2024; no confirma 2025 ni 2026"
         }
       ],
-      "alcance": null,
+      "alcance": "Convocatoria municipal de Nueva Imperial 2024; no confirma 2025 ni 2026",
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md"
     },
     {
       "candidato": "14abd2d4252d535d32030eead8a43b45fd448a5d3ea087c749f43ad2b6ba85cb",
@@ -4807,18 +4819,30 @@
       "candidato": "50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f",
       "nombre": "Beca Municipal de Educación Superior Santa Cruz",
       "institucion": "Municipalidad de Santa Cruz",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Acta 69/2023 documenta Beca Concejo Municipal de $273.248 y 439 beneficiarios. No verifica requisitos ni la cifra de $150.000/100 cupos del original; no usar becas estatales de cuentas anteriores como sustitución.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Aporte económico sujeto al presupuesto disponible y número de postulantes; importe 2020 desconocido. Alumno regular de educación superior del segundo semestre 2020; nota mínima 4,5; RSH de Santa Cruz hasta 80%. Decreto 2680/2020, páginas 1–2, leído visualmente. No se trasladan los $273.248 del decreto 2184/2023 a las condiciones 2020. El original RSH 60% y NEM 5,0 no describe esta convocatoria. Importe $150.000 y cupo de cien no respaldados. Vigencia 2026 desconocida.",
       "fuentes": [
         {
           "url": "https://www.transparenciasantacruz.cl/actos-resoluciones/actos-resoluciones-terceros/ordenanzas/ordenanzas-municipales",
           "consulta": "2026-10-07",
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha oficial o páginas del decreto indicadas en informe",
+          "alcance_lectura": "Beca Concejo Municipal de Santa Cruz; requisitos de convocatoria 2020 exclusivamente"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VgqB3r8QExCgL2zlmeO4fYzebWJ22yyp/view",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha oficial o páginas del decreto indicadas en informe",
+          "alcance_lectura": "Beca Concejo Municipal de Santa Cruz; requisitos de convocatoria 2020 exclusivamente"
         }
       ],
-      "alcance": null,
+      "alcance": "Beca Concejo Municipal de Santa Cruz; requisitos de convocatoria 2020 exclusivamente",
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md"
     },
     {
       "candidato": "33524629e7659e4a57d0e1287f97468b70cf5f9e37af87a3c9f834457086c986",
@@ -9674,5 +9698,12 @@
       "archivos": 203,
       "sha256": "2d589857010e42b9d708acb9803651b0f224b6aa7449dd14dc7fafcd12f36c3e"
     }
+  },
+  "revision_bloque_inicial_50_2026_10_08": {
+    "informe": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md",
+    "candidatas": 50,
+    "confirmaciones_nuevas": 3,
+    "sin_cierre": 47,
+    "objetivo_30_alcanzado": false
   }
 }
