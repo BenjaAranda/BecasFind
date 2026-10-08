@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Resultado acumulado de estas 291: 160 confirmaciones esenciales y 131 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
+Resultado acumulado de estas 291: 171 confirmaciones esenciales y 120 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
 
@@ -12,7 +12,7 @@ Cada apartado identifica el mismo hash estable del inventario. Las confirmacione
 
 Tras las primeras 47 confirmaciones se hicieron 212 búsquedas institucionales para las 244 restantes y se recuperaron reglamentos y fichas específicas. Se añaden 22 confirmaciones con datos leídos. Se usó OCR para los reglamentos escaneados y contraste visual de las páginas citadas. Las búsquedas y URLs localizadas son pistas de investigación, no confirmaciones automáticas; su registro está en [el anexo de búsquedas](procesados/busquedas_adicionales_244_2026_10_06.json).
 
-Persisten 131 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
+Persisten 120 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
 
 ## Revisión de las 222 restantes y respaldo
 
@@ -57,6 +57,10 @@ Nueve candidatas de este lote pasan a confirmación esencial; acumulado 150 conf
 ## Ampliación esencial — 8 de octubre de 2026
 
 Diez confirmaciones adicionales dentro de este grupo: acumulado 160 esenciales y 131 aclaraciones. El [informe de 30 nuevas candidatas](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md) también documenta veinte recuperaciones históricas con evidencia individual. Los apartados anteriores son antecedentes de sus respectivas entregas; este es el conteo actual. No se fusionan variantes ni se añaden descartes.
+
+## Tercer lote esencial — 8 de octubre de 2026
+
+Once confirmaciones adicionales dentro de este grupo: acumulado **171 esenciales y 120 aclaraciones**. El [tercer informe de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md) documenta también diecinueve exclusiones reconsideradas. Este es el conteo actual; los apartados anteriores describen entregas previas. No se eliminan originales ni se fusionan variantes.
 
 ## 001. Beca Municipal Educación Superior La Florida — bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0
 Institución del registro: Municipalidad de La Florida.
@@ -708,12 +712,14 @@ Referencias y antecedentes consultados:
 
 ## 068. Beca de Educación Superior Ilustre Municipalidad de Tiltil — 231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18
 Institución del registro: Municipalidad de Tiltil.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Los antecedentes Tiltil diferencian beca de educación superior y transporte. La cuenta pública 2022 no se recuperó en esta lectura; no extrapolar condiciones del programa de transporte ni descartar por el fallo de acceso.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://munitiltil.cl/documentacion-dideco/)
-- [Referencia 2](https://munitiltil.cl/wp-content/uploads/2025/04/BECA-MUNICIPAL-DE-TRANSPORTE-2025-PROGRAMA-PRESENTACION.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Educación Superior de Tiltil; programa descrito para 2023 en la cuenta de gestión 2022.
+Beneficio corroborado: Aporte económico no renovable para mensualidades o proceso de titulación; importe individual no publicado.
+Requisitos principales: Habitantes de Tiltil que cursan segundo año de carrera técnica superior o profesional en institución reconocida por Mineduc.
+Límites: La fuente lo presenta como propuesta de trabajo 2023: se confirma su definición y destinatarios; no su ejecución ni una convocatoria vigente. No confundir con la Beca Municipal de Transporte de $100.000 ni inferir RSH o NEM.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://munitiltil.cl/wp-content/uploads/2023/04/CUENTA-PUBLICA-2022-21.04.23.pdf)
 
 ## 069. Beca Municipal Educación Superior Mejillones — 10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2
 Institución del registro: Municipalidad de Mejillones.
@@ -809,11 +815,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 079. Beca Municipal de Educación Superior Nogales — 70e13bcc5e803463641c7301979d0b31fa5cafcc397cc3b3c2e4931f3cd392f1
 Institución del registro: Municipalidad de Nogales.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El acta de entrega Nogales sigue en 404. La ceremonia histórica no reemplaza reglas de selección ni importe individual; la ausencia de acceso no acredita inexistencia.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.muninogales.cl/pdf/acta_entrega_2021-2024.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Nogales; gestión 2015, página 29.
+Beneficio corroborado: $90.000 por semestre.
+Requisitos principales: Estudiantes superiores de la comuna; prioridad a jóvenes marginados de beneficios estatales o de organismos que imparten títulos técnicos o profesionales. Evaluación social y rendimiento académico.
+Límites: No reconstruir umbrales ni compatibilidad obligatoria: la fuente habla de prioridad. Los aportes de empresas se distinguen de la financiación propia; no sumar presupuestos. No acredita vigencia actual.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.muninogales.cl/transp/archivos/otrosantecedentes/cp15.pdf)
 
 ## 080. Beca Municipal Educación Superior — 952273dbc59fe30412742f7c1045027f2bc54fd6a8a42a3e97a1c3c6066fdb66
 Institución del registro: Municipalidad de El Tabo.
@@ -835,13 +844,14 @@ Referencias y antecedentes consultados:
 
 ## 082. Beca Municipal de Educación Superior — ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544
 Institución del registro: Municipalidad de La Cruz.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El PDF rotulado REGLAMENTO BECAS es en realidad decreto 761/2016 de devolución de matrícula, complementario a la beca general. OCR de sus dos páginas confirma residencia, matrícula y necesidad social, pero no prueba identidad con la beca general 2026. La nueva noticia de julio 2026 acredita $250.000 universitarios y $150.000 técnicos; faltan bases concordantes.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://lacruz.cl/a94a8fe5/noticias/postula-a-la-beca-municipal-de-educacion-superior-2026/)
-- [Referencia 2](https://www.lacruz.cl/imagenes/TRANSPARENCIA/4/REGLAMENTO%20BECAS.pdf)
-- [Referencia 3](https://www.lacruz.cl/Municipalidad/noticia.php?id=61)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca de Educación Superior de La Cruz; ejecución 2025, páginas 56–57.
+Beneficio corroborado: $300.000 por estudiante de carrera profesional y $150.000 por estudiante de carrera técnica; dos cuotas de 50% cada una.
+Requisitos principales: Estudiantes superiores de La Cruz en situación de vulnerabilidad socioeconómica. Se considera continuidad de estudios antes de la segunda cuota.
+Límites: No mezclar con devolución de matrícula del decreto 761/2016 ni con montos universitarios de $250.000 informados en 2026. RSH y nota mínima desconocidos en esta cuenta pública.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://lacruz.cl/a94a8fe5/wp-content/uploads/2026/04/CUENTA-PUBLICA-2025.pdf)
 
 ## 083. Beca Educación Superior Santo Domingo — bbf9abe727b9d19e2c2458b88239500def9f2e79b596299c6629cd4475134ab7
 Institución del registro: Municipalidad de Santo Domingo.
@@ -1069,11 +1079,15 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 106. Programa Beca Municipal Rio Bueno — 671ce43a3f4eea74aff8189da16fe144e0e9180af68a1589cbbca1297f6f2376
 Institución del registro: Municipalidad de Rio Bueno.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta Pública de gestión 2025: sección de becas DAEM distingue Beca Municipal de Indígena y Presidente de la República. Hay evidencia positiva del programa propio, pero la tabla de cantidades no determina requisitos ni importe individual. No usar bienestar de funcionarios como beca estudiantil.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://muniriobueno.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025-v6.0_compressed_compressed.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Río Bueno; alcance histórico del PADEM 2007, página 13.
+Beneficio corroborado: Pago de matrícula y arancel con tope aproximado de $350.000.
+Requisitos principales: Estudiantes de escasos recursos egresados de cuarto medio del Liceo Vicente Pérez Rosales que continúan enseñanza superior.
+Límites: No trasladar este tope a 2024: el decreto 3126/2024 documenta $120.000 anuales bajo otro reglamento. Se conservan años separados; RSH y NEM desconocidos para este alcance.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://transparencia.muniriobueno.cl/index.php?d=EDUCACION&f=PADEM+2007.pdf)
+- [Fuente 2](https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf)
 
 ## 107. Beca de Estudios Superiores Municipalidad de Purranque — c14a2cd973b875eb0c2adbca23c5743f9b20feb7ac6a0b1fc8424cb4c78de870
 Institución del registro: Municipalidad de Purranque.
@@ -1085,12 +1099,14 @@ Referencias y antecedentes consultados:
 
 ## 108. Beca Municipal Educación Superior Quellon — ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495
 Institución del registro: Municipalidad de Quellon.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La noticia municipal de agosto 2026 mantiene aporte de $400.000 en dos cuotas para Beca Municipal y separa Hijos de Pescadores, CEA y Mujer Trabajadora. Las bases generales 2025 y la ruta ensayada 2026 respondieron 404. Las cifras de categorías suman 101 aunque el titular dice 100: no cambia por sí solo el aporte individual. No usar las bases de Hijos de Pescadores 2026 para certificar requisitos generales.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://muniquellon.cl/municipalidad-de-quellon-entrega-40-millones-en-becas-y-beneficia-a-100-estudiantes-de-la-comuna/)
-- [Referencia 2](https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Educación Superior de Quellón; bases 2025.
+Beneficio corroborado: $400.000 anuales en dos cuotas semestrales de $200.000 para manutención.
+Requisitos principales: Domicilio familiar en Quellón acreditado por RSH, hasta 70%; primer ingreso: egreso municipal/subvencionado y promedio 2024 de 6,0; continuidad superior: promedio 2024 de 5,0; técnico a profesional: 6,0. Pregrado presencial, salvo práctica o tesis con calidad regular.
+Límites: No segundas carreras excepto continuidad. Incompatible con becas municipales Hijos de Pescadores, CEA y Mujer Trabajadora. Excluye funcionarios municipales, DESAM y concejales. No extrapolar bases 2025 a 2026.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf)
 
 ## 109. Programa Beca Municipal Educación Superior Calbuco — 5a37d991a2e4eddf2813738cf8df3457bab4be7b5ed6c3c35d0ace322b80729e
 Institución del registro: Municipalidad de Calbuco.
@@ -1105,11 +1121,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 110. Beca Municipal de Educación Superior Freirina — a7563d17807c6b315a814d7caedda04c0c1f0dd205b97b77a6c4d57da52e44a1
 Institución del registro: Municipalidad de Freirina.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta Pública 2010, página impresa 91: programa municipal superior propio, $30.000 mensuales de marzo a diciembre, veinte beneficiarios. Faltan requisitos principales; presupuesto y número de personas no permiten reconstruir elegibilidad ni vigencia actual.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Enseñanza Superior de Freirina; ejecución 2007.
+Beneficio corroborado: Cuotas individuales de $25.000; periodicidad no indicada en el apartado.
+Requisitos principales: Estudiantes de enseñanza superior de la comuna de Freirina.
+Límites: Se confirma el destinatario publicado, no un proceso de selección completo. RSH, NEM, incompatibilidades y calendario actual desconocidos. No convertir las cuotas en monto mensual ni trasladar los $30.000 de 2010 a 2007.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%20%202007.pdf)
 
 ## 111. Beca Municipal Estudiantil Los Muermos — 3e4ff932460110c429fad99dca61e28e582411e133c6582f2416b50daa238c84
 Institución del registro: Municipalidad de Los Muermos.
@@ -1265,11 +1284,14 @@ Referencias y antecedentes consultados:
 
 ## 126. Beca Municipal de Educación Superior (BMES) y Bono PAES — ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7
 Institución del registro: Municipalidad de San Pedro de Melipilla.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. El decreto San Pedro de Melipilla 2026 registra beneficiarios de beca municipal y PAES y remite al reglamento 406/2025. La nómina no acredita requisitos principales ni equivalencia entre ambas modalidades; no usar datos personales para suplir bases.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: San Pedro de Melipilla: BMES y Beca PAES son dos modalidades del reglamento aprobado en marzo de 2025.
+Beneficio corroborado: BMES: aporte anual para gastos estudiantiles; importe conforme a fórmula reglamentaria de presupuesto dividido por postulantes elegibles. PAES: aporte anual con rendición; cifra individual no publicada en el apartado.
+Requisitos principales: BMES: RSH en San Pedro, institución superior acreditada, carrera de al menos cuatro semestres, primera carrera o continuidad técnica; cuarto medio mínimo 5,5 o superior 5,0, con exención de nota si aprueba toda la malla anterior. PAES: egreso del liceo municipal, residencia comunal, primera rendición y al menos 800 puntos; selección de cuatro mayores puntajes.
+Límites: No sumar modalidades ni asignar importe mediante cálculo sin presupuesto y selección. BMES excluye preuniversitario, capacitación, modalidad para trabajadores y prácticas; rendiciones anteriores observadas deben subsanarse. No inferir corte RSH de 60%.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.munisanpedro.cl/wp-content/uploads/2025/03/REGLAMENTO-BECAS-BMES-2025-1.pdf)
 
 ## 127. Beca Municipal para Estudios Superiores Retiro — b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022
 Institución del registro: Municipalidad de Retiro.
@@ -1715,11 +1737,14 @@ Referencias y antecedentes consultados:
 
 ## 173. Beca Municipal y Beca de Devolucion de Matrícula — 5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c
 Institución del registro: Municipalidad de San Rosendo.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La recarga de la página San Rosendo devuelve 500. Continúa abierta la distinción entre apoyo en gastos estudiantiles y devolución de matrícula; el fallo técnico no justifica descartar ni confirmar.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: San Rosendo: se confirma exclusivamente Beca de Apoyo en Gastos Estudiantiles 2026; devolución de matrícula permanece fuera del alcance.
+Beneficio corroborado: $150.000 por beneficiario para gastos estudiantiles.
+Requisitos principales: Estudiante superior profesional o técnico con RSH en San Rosendo hasta 60%; sobre 60% admite cesantía del jefe familiar, enfermedad catastrófica, estudiante embarazada u otro integrante estudiando educación superior.
+Límites: No exigir NEM no publicado. No mezclar requisitos o montos con devolución de matrícula del rótulo conjunto. Convocatoria abril de 2026 finalizada; no acredita apertura actual.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/)
 
 ## 174. Beca Municipal de Pelluhue para la Educación Superior — 2a7e233fdaf2ad73c4a0b7fb3255d30bab743376c8a72999a1619f95b369ba16
 Institución del registro: Municipalidad de Pelluhue.
@@ -1742,11 +1767,14 @@ Referencias y antecedentes consultados:
 
 ## 176. Programa Beca Municipal de Educación Superior DAEM/DIDECO — bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05
 Institución del registro: Municipalidad de Codegua.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La extracción de Cuenta Pública 2018 de Codegua falla por codificación SymbolSetEncoding. No se ejecutó OCR del documento; no declarar leído el contenido ni deducir beneficio.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Estudiantil de Enseñanza Superior de Codegua; gestión 2018, página 96.
+Beneficio corroborado: Modalidad regular: $100.000 en primer tramo y $69.000 en segundo. Reconocimiento especial por mejor rendimiento: $200.000 en primer año y $250.000 desde segundo.
+Requisitos principales: Jóvenes de Codegua que cursan enseñanza superior técnica o universitaria; la modalidad especial reconoce mejor rendimiento académico.
+Límites: Los tramos no son años de carrera ni notas mínimas. No asignar importe a una persona sin conocer su clasificación; RSH y puntos de corte desconocidos. No mezclar la tabla 2019, que contiene referencias discordantes al año 2018.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf)
 
 ## 177. Beca Municipal Educación Superior Chanaral — b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47
 Institución del registro: Municipalidad de Chanaral.
@@ -1860,11 +1888,14 @@ Referencias y antecedentes consultados:
 
 ## 188. Beca Municipal Alberto Antonio Herrera Cardenas — 70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd
 Institución del registro: Municipalidad de San Juan de la Costa.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. La referencia municipal de San Juan de la Costa identifica el nombre Alberto Antonio Herrera Cárdenas. El acceso a bases permanece bloqueado; no certificar cobertura ni requisitos a partir del título o confundir abreviaciones con nuevas becas.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://sanjuandelacosta.cl/2026/08/07/prueba/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal Alberto Antonio Herrera Cárdenas de San Juan de la Costa; bases aprobadas el 14 de junio de 2023.
+Beneficio corroborado: Educación superior técnica: $200.000; universitaria: $250.000 por beneficiario.
+Requisitos principales: Alumno regular; haber estudiado básica en San Juan de la Costa un mínimo de cinco años continuos o discontinuos; evaluación socioeconómica municipal. Primer año superior: promedio de media 5,5; continuidad: 5,0.
+Límites: No transferir importes de básica o media. La revisión cruza beneficios JUNAEB y prioriza a quienes no los obtienen, sin inferir incompatibilidad absoluta. No certificar montos o bases 2025/2026.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://sanjuandelacosta.cl/archivostransparencia/dctos_concejo/2023/junio/14-06-2023.pdf)
 
 ## 189. Beca Educación Superior y Beca Ayuda para Transporte — 65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308
 Institución del registro: Municipalidad de Las Cabras.
@@ -2059,11 +2090,14 @@ Referencias y antecedentes consultados:
 
 ## 209. Beca Municipal Estudiantil Pumanque — 5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b
 Institución del registro: Municipalidad de Pumanque.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta pública de gestión 2022 publicada en 2023: la noticia municipal informa apoyo superior a 170 estudiantes por $173 millones. Confirma ejecución del programa, pero no monto individual ni requisitos. No dividir el presupuesto por beneficiarios.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://munipumanque.cl/index.php/2023/05/05/solida-y-unificadora-fue-la-cuenta-publica-2022-que-presento-del-alcalde-baraona/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal para Estudiantes de Educación Superior de Pumanque; presentación municipal de enero de 2014.
+Beneficio corroborado: Aporte de $32.000; frecuencia no especificada.
+Requisitos principales: Estudiantes de educación superior de la comuna de Pumanque.
+Límites: La noticia remite a requisitos adicionales sin enumerarlos: quedan desconocidos, al igual que RSH y NEM. Se confirma la definición y sus destinatarios publicados, no elegibilidad individual ni reglamento completo. No dividir el presupuesto agregado de 2022.
+Informe: [Tercer lote de 30](procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://munipumanque.cl/index.php/2014/01/21/primer-encuentro-de-jovenes-por-pumanque/)
 
 ## 210. Beca Municipal Educación Superior Antuco — 484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b
 Institución del registro: Municipalidad de Antuco.

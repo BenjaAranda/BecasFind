@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 160,
-  "requieren_aclaracion": 131,
+  "confirmaciones_nuevas": 171,
+  "requieren_aclaracion": 120,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -2128,8 +2128,8 @@
       "candidato": "231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18",
       "nombre": "Beca de Educación Superior Ilustre Municipalidad de Tiltil",
       "institucion": "Municipalidad de Tiltil",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Los antecedentes Tiltil diferencian beca de educación superior y transporte. La cuenta pública 2022 no se recuperó en esta lectura; no extrapolar condiciones del programa de transporte ni descartar por el fallo de acceso.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La fuente lo presenta como propuesta de trabajo 2023: se confirma su definición y destinatarios; no su ejecución ni una convocatoria vigente. No confundir con la Beca Municipal de Transporte de $100.000 ni inferir RSH o NEM.",
       "fuentes": [
         {
           "url": "https://munitiltil.cl/documentacion-dideco/",
@@ -2153,12 +2153,21 @@
         },
         {
           "url": "https://munitiltil.cl/wp-content/uploads/2023/04/CUENTA-PUBLICA-2022-21.04.23.pdf",
-          "consulta": "2026-10-07",
-          "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos."
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos.",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Educación Superior de Tiltil; programa descrito para 2023 en la cuenta de gestión 2022.",
+        "beneficio": "Aporte económico no renovable para mensualidades o proceso de titulación; importe individual no publicado.",
+        "requisitos_principales": "Habitantes de Tiltil que cursan segundo año de carrera técnica superior o profesional en institución reconocida por Mineduc.",
+        "limites": "La fuente lo presenta como propuesta de trabajo 2023: se confirma su definición y destinatarios; no su ejecución ni una convocatoria vigente. No confundir con la Beca Municipal de Transporte de $100.000 ni inferir RSH o NEM.",
+        "fuentes": [
+          "https://munitiltil.cl/wp-content/uploads/2023/04/CUENTA-PUBLICA-2022-21.04.23.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2",
@@ -2493,8 +2502,8 @@
       "candidato": "70e13bcc5e803463641c7301979d0b31fa5cafcc397cc3b3c2e4931f3cd392f1",
       "nombre": "Beca Municipal de Educación Superior Nogales",
       "institucion": "Municipalidad de Nogales",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El acta de entrega Nogales sigue en 404. La ceremonia histórica no reemplaza reglas de selección ni importe individual; la ausencia de acceso no acredita inexistencia.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No reconstruir umbrales ni compatibilidad obligatoria: la fuente habla de prioridad. Los aportes de empresas se distinguen de la financiación propia; no sumar presupuestos. No acredita vigencia actual.",
       "fuentes": [
         {
           "url": "https://www.muninogales.cl/pdf/acta_entrega_2021-2024.pdf",
@@ -2502,10 +2511,23 @@
           "error": "HTTP Error 404: Not Found",
           "contenido_extraido": false,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://www.muninogales.cl/transp/archivos/otrosantecedentes/cp15.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Nogales; gestión 2015, página 29.",
+        "beneficio": "$90.000 por semestre.",
+        "requisitos_principales": "Estudiantes superiores de la comuna; prioridad a jóvenes marginados de beneficios estatales o de organismos que imparten títulos técnicos o profesionales. Evaluación social y rendimiento académico.",
+        "limites": "No reconstruir umbrales ni compatibilidad obligatoria: la fuente habla de prioridad. Los aportes de empresas se distinguen de la financiación propia; no sumar presupuestos. No acredita vigencia actual.",
+        "fuentes": [
+          "https://www.muninogales.cl/transp/archivos/otrosantecedentes/cp15.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "952273dbc59fe30412742f7c1045027f2bc54fd6a8a42a3e97a1c3c6066fdb66",
@@ -2562,8 +2584,8 @@
       "candidato": "ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544",
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de La Cruz",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El PDF rotulado REGLAMENTO BECAS es en realidad decreto 761/2016 de devolución de matrícula, complementario a la beca general. OCR de sus dos páginas confirma residencia, matrícula y necesidad social, pero no prueba identidad con la beca general 2026. La nueva noticia de julio 2026 acredita $250.000 universitarios y $150.000 técnicos; faltan bases concordantes.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No mezclar con devolución de matrícula del decreto 761/2016 ni con montos universitarios de $250.000 informados en 2026. RSH y nota mínima desconocidos en esta cuenta pública.",
       "fuentes": [
         {
           "url": "https://lacruz.cl/a94a8fe5/noticias/postula-a-la-beca-municipal-de-educacion-superior-2026/",
@@ -2584,10 +2606,23 @@
           "url": "https://www.lacruz.cl/Municipalidad/noticia.php?id=61",
           "consulta": "2026-10-07",
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://lacruz.cl/a94a8fe5/wp-content/uploads/2026/04/CUENTA-PUBLICA-2025.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca de Educación Superior de La Cruz; ejecución 2025, páginas 56–57.",
+        "beneficio": "$300.000 por estudiante de carrera profesional y $150.000 por estudiante de carrera técnica; dos cuotas de 50% cada una.",
+        "requisitos_principales": "Estudiantes superiores de La Cruz en situación de vulnerabilidad socioeconómica. Se considera continuidad de estudios antes de la segunda cuota.",
+        "limites": "No mezclar con devolución de matrícula del decreto 761/2016 ni con montos universitarios de $250.000 informados en 2026. RSH y nota mínima desconocidos en esta cuenta pública.",
+        "fuentes": [
+          "https://lacruz.cl/a94a8fe5/wp-content/uploads/2026/04/CUENTA-PUBLICA-2025.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "bbf9abe727b9d19e2c2458b88239500def9f2e79b596299c6629cd4475134ab7",
@@ -3226,8 +3261,8 @@
       "candidato": "671ce43a3f4eea74aff8189da16fe144e0e9180af68a1589cbbca1297f6f2376",
       "nombre": "Programa Beca Municipal Rio Bueno",
       "institucion": "Municipalidad de Rio Bueno",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta Pública de gestión 2025: sección de becas DAEM distingue Beca Municipal de Indígena y Presidente de la República. Hay evidencia positiva del programa propio, pero la tabla de cantidades no determina requisitos ni importe individual. No usar bienestar de funcionarios como beca estudiantil.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No trasladar este tope a 2024: el decreto 3126/2024 documenta $120.000 anuales bajo otro reglamento. Se conservan años separados; RSH y NEM desconocidos para este alcance.",
       "fuentes": [
         {
           "url": "https://muniriobueno.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025-v6.0_compressed_compressed.pdf",
@@ -3238,10 +3273,29 @@
           "sha256": "41f275b1ddda1ce57fdf02b9cdc04c6c998f0b6d2b0f68b1a70e1c157b1b23e2",
           "paginas": 313,
           "url_final": "https://muniriobueno.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025-v6.0_compressed_compressed.pdf"
+        },
+        {
+          "url": "https://transparencia.muniriobueno.cl/index.php?d=EDUCACION&f=PADEM+2007.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
+        },
+        {
+          "url": "https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Río Bueno; alcance histórico del PADEM 2007, página 13.",
+        "beneficio": "Pago de matrícula y arancel con tope aproximado de $350.000.",
+        "requisitos_principales": "Estudiantes de escasos recursos egresados de cuarto medio del Liceo Vicente Pérez Rosales que continúan enseñanza superior.",
+        "limites": "No trasladar este tope a 2024: el decreto 3126/2024 documenta $120.000 anuales bajo otro reglamento. Se conservan años separados; RSH y NEM desconocidos para este alcance.",
+        "fuentes": [
+          "https://transparencia.muniriobueno.cl/index.php?d=EDUCACION&f=PADEM+2007.pdf",
+          "https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "c14a2cd973b875eb0c2adbca23c5743f9b20feb7ac6a0b1fc8424cb4c78de870",
@@ -3267,8 +3321,8 @@
       "candidato": "ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495",
       "nombre": "Beca Municipal Educación Superior Quellon",
       "institucion": "Municipalidad de Quellon",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia municipal de agosto 2026 mantiene aporte de $400.000 en dos cuotas para Beca Municipal y separa Hijos de Pescadores, CEA y Mujer Trabajadora. Las bases generales 2025 y la ruta ensayada 2026 respondieron 404. Las cifras de categorías suman 101 aunque el titular dice 100: no cambia por sí solo el aporte individual. No usar las bases de Hijos de Pescadores 2026 para certificar requisitos generales.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No segundas carreras excepto continuidad. Incompatible con becas municipales Hijos de Pescadores, CEA y Mujer Trabajadora. Excluye funcionarios municipales, DESAM y concejales. No extrapolar bases 2025 a 2026.",
       "fuentes": [
         {
           "url": "https://muniquellon.cl/municipalidad-de-quellon-entrega-40-millones-en-becas-y-beneficia-a-100-estudiantes-de-la-comuna/",
@@ -3281,13 +3335,22 @@
         },
         {
           "url": "https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf",
-          "consulta": "2026-10-07",
+          "consulta": "2026-10-08",
           "error": "HTTP Error 404: Not Found",
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Educación Superior de Quellón; bases 2025.",
+        "beneficio": "$400.000 anuales en dos cuotas semestrales de $200.000 para manutención.",
+        "requisitos_principales": "Domicilio familiar en Quellón acreditado por RSH, hasta 70%; primer ingreso: egreso municipal/subvencionado y promedio 2024 de 6,0; continuidad superior: promedio 2024 de 5,0; técnico a profesional: 6,0. Pregrado presencial, salvo práctica o tesis con calidad regular.",
+        "limites": "No segundas carreras excepto continuidad. Incompatible con becas municipales Hijos de Pescadores, CEA y Mujer Trabajadora. Excluye funcionarios municipales, DESAM y concejales. No extrapolar bases 2025 a 2026.",
+        "fuentes": [
+          "https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "5a37d991a2e4eddf2813738cf8df3457bab4be7b5ed6c3c35d0ace322b80729e",
@@ -3327,8 +3390,8 @@
       "candidato": "a7563d17807c6b315a814d7caedda04c0c1f0dd205b97b77a6c4d57da52e44a1",
       "nombre": "Beca Municipal de Educación Superior Freirina",
       "institucion": "Municipalidad de Freirina",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta Pública 2010, página impresa 91: programa municipal superior propio, $30.000 mensuales de marzo a diciembre, veinte beneficiarios. Faltan requisitos principales; presupuesto y número de personas no permiten reconstruir elegibilidad ni vigencia actual.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma el destinatario publicado, no un proceso de selección completo. RSH, NEM, incompatibilidades y calendario actual desconocidos. No convertir las cuotas en monto mensual ni trasladar los $30.000 de 2010 a 2007.",
       "fuentes": [
         {
           "url": "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf",
@@ -3339,10 +3402,23 @@
           "sha256": "5d7284ec224d9be410afb72b7a0adda0029d119429747e119d78eb82cc860886",
           "paginas": 116,
           "url_final": "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf"
+        },
+        {
+          "url": "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%20%202007.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Enseñanza Superior de Freirina; ejecución 2007.",
+        "beneficio": "Cuotas individuales de $25.000; periodicidad no indicada en el apartado.",
+        "requisitos_principales": "Estudiantes de enseñanza superior de la comuna de Freirina.",
+        "limites": "Se confirma el destinatario publicado, no un proceso de selección completo. RSH, NEM, incompatibilidades y calendario actual desconocidos. No convertir las cuotas en monto mensual ni trasladar los $30.000 de 2010 a 2007.",
+        "fuentes": [
+          "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%20%202007.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "3e4ff932460110c429fad99dca61e28e582411e133c6582f2416b50daa238c84",
@@ -3809,8 +3885,8 @@
       "candidato": "ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7",
       "nombre": "Beca Municipal de Educación Superior (BMES) y Bono PAES",
       "institucion": "Municipalidad de San Pedro de Melipilla",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. El decreto San Pedro de Melipilla 2026 registra beneficiarios de beca municipal y PAES y remite al reglamento 406/2025. La nómina no acredita requisitos principales ni equivalencia entre ambas modalidades; no usar datos personales para suplir bases.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No sumar modalidades ni asignar importe mediante cálculo sin presupuesto y selección. BMES excluye preuniversitario, capacitación, modalidad para trabajadores y prácticas; rendiciones anteriores observadas deben subsanarse. No inferir corte RSH de 60%.",
       "fuentes": [
         {
           "url": "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf",
@@ -3822,10 +3898,26 @@
           "lectura_limite": "todas las páginas con texto extraíble",
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://www.munisanpedro.cl/wp-content/uploads/2025/03/REGLAMENTO-BECAS-BMES-2025-1.pdf",
+          "consulta": "2026-10-08",
+          "sha256": "0d6199ee18b4a43ea4e33a6171f491cc0d89f4295be8c6dba465317273c8e524",
+          "paginas": 25,
+          "url_final": "https://www.munisanpedro.cl/wp-content/uploads/2025/03/REGLAMENTO-BECAS-BMES-2025-1.pdf",
+          "metodo": "Lectura de texto del documento o ficha oficial descargado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "San Pedro de Melipilla: BMES y Beca PAES son dos modalidades del reglamento aprobado en marzo de 2025.",
+        "beneficio": "BMES: aporte anual para gastos estudiantiles; importe conforme a fórmula reglamentaria de presupuesto dividido por postulantes elegibles. PAES: aporte anual con rendición; cifra individual no publicada en el apartado.",
+        "requisitos_principales": "BMES: RSH en San Pedro, institución superior acreditada, carrera de al menos cuatro semestres, primera carrera o continuidad técnica; cuarto medio mínimo 5,5 o superior 5,0, con exención de nota si aprueba toda la malla anterior. PAES: egreso del liceo municipal, residencia comunal, primera rendición y al menos 800 puntos; selección de cuatro mayores puntajes.",
+        "limites": "No sumar modalidades ni asignar importe mediante cálculo sin presupuesto y selección. BMES excluye preuniversitario, capacitación, modalidad para trabajadores y prácticas; rendiciones anteriores observadas deben subsanarse. No inferir corte RSH de 60%.",
+        "fuentes": [
+          "https://www.munisanpedro.cl/wp-content/uploads/2025/03/REGLAMENTO-BECAS-BMES-2025-1.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022",
@@ -5138,22 +5230,31 @@
       "candidato": "5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c",
       "nombre": "Beca Municipal y Beca de Devolucion de Matrícula",
       "institucion": "Municipalidad de San Rosendo",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La recarga de la página San Rosendo devuelve 500. Continúa abierta la distinción entre apoyo en gastos estudiantiles y devolución de matrícula; el fallo técnico no justifica descartar ni confirmar.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No exigir NEM no publicado. No mezclar requisitos o montos con devolución de matrícula del rótulo conjunto. Convocatoria abril de 2026 finalizada; no acredita apertura actual.",
       "fuentes": [
         {
           "url": "https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/",
           "url_final": "https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/",
-          "consulta": "2026-10-07",
+          "consulta": "2026-10-08",
           "tipo": "text/html; charset=UTF-8",
           "sha256": "8d1acbf3ceb978d8201f65e11dfe4d263f25cffc2d7c29a46ebf2b429d910250",
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "error": "HTTP Error 500: Internal Server Error"
+          "error": "HTTP Error 500: Internal Server Error",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "San Rosendo: se confirma exclusivamente Beca de Apoyo en Gastos Estudiantiles 2026; devolución de matrícula permanece fuera del alcance.",
+        "beneficio": "$150.000 por beneficiario para gastos estudiantiles.",
+        "requisitos_principales": "Estudiante superior profesional o técnico con RSH en San Rosendo hasta 60%; sobre 60% admite cesantía del jefe familiar, enfermedad catastrófica, estudiante embarazada u otro integrante estudiando educación superior.",
+        "limites": "No exigir NEM no publicado. No mezclar requisitos o montos con devolución de matrícula del rótulo conjunto. Convocatoria abril de 2026 finalizada; no acredita apertura actual.",
+        "fuentes": [
+          "https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "2a7e233fdaf2ad73c4a0b7fb3255d30bab743376c8a72999a1619f95b369ba16",
@@ -5206,21 +5307,30 @@
       "candidato": "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
       "nombre": "Programa Beca Municipal de Educación Superior DAEM/DIDECO",
       "institucion": "Municipalidad de Codegua",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La extracción de Cuenta Pública 2018 de Codegua falla por codificación SymbolSetEncoding. No se ejecutó OCR del documento; no declarar leído el contenido ni deducir beneficio.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Los tramos no son años de carrera ni notas mínimas. No asignar importe a una persona sin conocer su clasificación; RSH y puntos de corte desconocidos. No mezclar la tabla 2019, que contiene referencias discordantes al año 2018.",
       "fuentes": [
         {
           "url": "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf",
-          "consulta": "2026-10-07",
+          "consulta": "2026-10-08",
           "error": "unknown encoding: /SymbolSetEncoding",
           "contenido_extraido": false,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
           "sha256": "4338176c9f1ec87cead8a271812a81e0b24b1f50e83a7e2808e4c7b2b9ccf29b",
-          "url_final": "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf"
+          "url_final": "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Estudiantil de Enseñanza Superior de Codegua; gestión 2018, página 96.",
+        "beneficio": "Modalidad regular: $100.000 en primer tramo y $69.000 en segundo. Reconocimiento especial por mejor rendimiento: $200.000 en primer año y $250.000 desde segundo.",
+        "requisitos_principales": "Jóvenes de Codegua que cursan enseñanza superior técnica o universitaria; la modalidad especial reconoce mejor rendimiento académico.",
+        "limites": "Los tramos no son años de carrera ni notas mínimas. No asignar importe a una persona sin conocer su clasificación; RSH y puntos de corte desconocidos. No mezclar la tabla 2019, que contiene referencias discordantes al año 2018.",
+        "fuentes": [
+          "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
@@ -5536,8 +5646,8 @@
       "candidato": "70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd",
       "nombre": "Beca Municipal Alberto Antonio Herrera Cardenas",
       "institucion": "Municipalidad de San Juan de la Costa",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. La referencia municipal de San Juan de la Costa identifica el nombre Alberto Antonio Herrera Cárdenas. El acceso a bases permanece bloqueado; no certificar cobertura ni requisitos a partir del título o confundir abreviaciones con nuevas becas.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No transferir importes de básica o media. La revisión cruza beneficios JUNAEB y prioriza a quienes no los obtienen, sin inferir incompatibilidad absoluta. No certificar montos o bases 2025/2026.",
       "fuentes": [
         {
           "url": "https://sanjuandelacosta.cl/2026/08/07/prueba/",
@@ -5553,10 +5663,23 @@
           "url": "https://sanjuandelacosta.cl/2025/05/02/requisitos-para-postular-a-la-beca-municipal-antonio-herrera-2025/",
           "consulta": "2026-10-07",
           "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos."
+        },
+        {
+          "url": "https://sanjuandelacosta.cl/archivostransparencia/dctos_concejo/2023/junio/14-06-2023.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal Alberto Antonio Herrera Cárdenas de San Juan de la Costa; bases aprobadas el 14 de junio de 2023.",
+        "beneficio": "Educación superior técnica: $200.000; universitaria: $250.000 por beneficiario.",
+        "requisitos_principales": "Alumno regular; haber estudiado básica en San Juan de la Costa un mínimo de cinco años continuos o discontinuos; evaluación socioeconómica municipal. Primer año superior: promedio de media 5,5; continuidad: 5,0.",
+        "limites": "No transferir importes de básica o media. La revisión cruza beneficios JUNAEB y prioriza a quienes no los obtienen, sin inferir incompatibilidad absoluta. No certificar montos o bases 2025/2026.",
+        "fuentes": [
+          "https://sanjuandelacosta.cl/archivostransparencia/dctos_concejo/2023/junio/14-06-2023.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "65bb1dd61fdb5dc3efe1a7baf8ff75ff1613a265f09ace4909bd1c7e93ac2308",
@@ -6106,8 +6229,8 @@
       "candidato": "5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b",
       "nombre": "Beca Municipal Estudiantil Pumanque",
       "institucion": "Municipalidad de Pumanque",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta pública de gestión 2022 publicada en 2023: la noticia municipal informa apoyo superior a 170 estudiantes por $173 millones. Confirma ejecución del programa, pero no monto individual ni requisitos. No dividir el presupuesto por beneficiarios.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La noticia remite a requisitos adicionales sin enumerarlos: quedan desconocidos, al igual que RSH y NEM. Se confirma la definición y sus destinatarios publicados, no elegibilidad individual ni reglamento completo. No dividir el presupuesto agregado de 2022.",
       "fuentes": [
         {
           "url": "https://munipumanque.cl/index.php/2023/05/05/solida-y-unificadora-fue-la-cuenta-publica-2022-que-presento-del-alcalde-baraona/",
@@ -6117,10 +6240,23 @@
           "sha256": "69ac7ce89c5c2e9b251a04dfa20af0436288be2aca1e6093db6af4441df0604f",
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://munipumanque.cl/index.php/2014/01/21/primer-encuentro-de-jovenes-por-pumanque/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de contenido oficial indexado; alcance temporal expresamente delimitado."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal para Estudiantes de Educación Superior de Pumanque; presentación municipal de enero de 2014.",
+        "beneficio": "Aporte de $32.000; frecuencia no especificada.",
+        "requisitos_principales": "Estudiantes de educación superior de la comuna de Pumanque.",
+        "limites": "La noticia remite a requisitos adicionales sin enumerarlos: quedan desconocidos, al igual que RSH y NEM. Se confirma la definición y sus destinatarios publicados, no elegibilidad individual ni reglamento completo. No dividir el presupuesto agregado de 2022.",
+        "fuentes": [
+          "https://munipumanque.cl/index.php/2014/01/21/primer-encuentro-de-jovenes-por-pumanque/"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b",
@@ -9136,5 +9272,51 @@
     "descartes_nuevos": 0,
     "originales_preservados": true,
     "informe": "procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md"
+  },
+  "tercer_lote_2026_10_08": {
+    "fecha": "2026-10-08",
+    "confirmaciones_adicionales": 30,
+    "del_lote_291": 11,
+    "exclusiones_reconsideradas": 19,
+    "candidatos": [
+      "14f84638735c858c53f114c5e1e093e0bc8ae61422866366d6a0fd733eae5a97",
+      "231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18",
+      "32b114d0e9475a61bc05472195e5541bc5acdc62f600de3bdc246e65cf8de88a",
+      "3f28de5a54cf8f087d7bfb86226d966171dbd44ad5c1fccc66e7d6d65f309360",
+      "3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2",
+      "4ec422a73e32828f499f9369a5dec1c0650c452d108038e35c2ebc64121c32ce",
+      "51937f9b1efc788242199295cfb01e97bd0c113f5c1f800c8d9b56669064473d",
+      "5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b",
+      "5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c",
+      "671ce43a3f4eea74aff8189da16fe144e0e9180af68a1589cbbca1297f6f2376",
+      "6e1b87bada53011cb5b51c8f24ea581b762aab68a6b491c4b2bff939d994ce31",
+      "70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd",
+      "70e13bcc5e803463641c7301979d0b31fa5cafcc397cc3b3c2e4931f3cd392f1",
+      "7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9",
+      "81e02a92854405e359c00409d926331129b2e3ca4950aca27be436ea6035110e",
+      "8b7291409cb313971ff5ef8b6505394ba190caf70d9f4704d86333736393c735",
+      "9c56a6c240b27b63c1bcffc27685918f0c5114b66165f261e8241919dbff298c",
+      "a7563d17807c6b315a814d7caedda04c0c1f0dd205b97b77a6c4d57da52e44a1",
+      "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
+      "c62193606762c6068d1f3429aabfc3ec8e862f6f6f38c358225ec7fea9267477",
+      "cbd7db98f09fda78b88820abaea0a377f414bd1e4126c1abf4a08410563ca525",
+      "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
+      "e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6",
+      "ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495",
+      "ead60590e917f7a5225e6c64df548415d1394520e831c97a9f332d6b479eb6d9",
+      "eb3131c5f603c2fd6a2c622cd438316e0b7209aeec659094ecd19c8ae4dbac17",
+      "ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544",
+      "efaad4251a4538b5d56c39d92950d5b6b839c7cc38c3883785a290cc92136703",
+      "f43b0040acd2914489f6b344a0e588582de5c297915978a8f4832fd14e0770a1",
+      "ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7"
+    ],
+    "respaldo": {
+      "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261008-183531.zip",
+      "archivos": 197,
+      "sha256": "31c83761f238981624b9c34c0fc84ad5b5522827f8e09ae056388cde5b3b21fa"
+    },
+    "descartes_nuevos": 0,
+    "originales_preservados": true,
+    "informe": "procesados/TERCER_LOTE_ESENCIAL_30_2026_10_08.md"
   }
 }
