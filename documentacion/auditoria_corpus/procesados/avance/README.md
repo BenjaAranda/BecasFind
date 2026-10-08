@@ -1,10 +1,8 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 8 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 116 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 406 confirmación esencial: 116 requieren aclaración; además hay 44 exclusiones históricas pendientes de ratificación individual (160 casos por resolver). Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 8 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 116 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 407 confirmación esencial: quedan 159 sin resolver: 116 aclaraciones y 43 exclusiones históricas sin ratificar. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-La incorporación administrativa está terminada. Las 44 entradas de `descartes.json` son exclusiones históricas todavía no ratificadas; se mantienen como casos por resolver y no prueban inexistencia. Originales y variantes se conservan. El criterio esencial verifica identidad, fuente específica, beneficio y requisitos principales; no autoriza activar sin cierre confirmado.
-
-Última entrega: [50 candidatas revisadas](../REVISION_MUNICIPAL_50_2026_10_08.md); cuatro confirmaciones esenciales nuevas y 46 aclaraciones. No se añaden descartes.
+La incorporación administrativa está terminada. Hay 43 exclusiones históricas sin ratificar que deben revisarse individualmente y forman parte de las 159 candidatas sin resolver. No son confirmaciones ni prueban inexistencia. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
@@ -40,7 +38,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_ucn.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 |
 | becas_ucsc.csv | 4 | 4 | 0 | 3 | 1 | 0 | 0 |
 | becas_ucsh.csv | 4 | 4 | 0 | 2 | 2 | 0 | 0 |
-| becas_uct.csv | 4 | 4 | 0 | 2 | 2 | 0 | 0 |
+| becas_uct.csv | 4 | 4 | 0 | 3 | 1 | 0 | 0 |
 | becas_udd.csv | 6 | 6 | 0 | 2 | 4 | 0 | 0 |
 | becas_udec.csv | 3 | 3 | 0 | 2 | 1 | 0 | 0 |
 | becas_udla.csv | 4 | 4 | 0 | 3 | 1 | 0 | 0 |
@@ -105,3 +103,5 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | municipalidades_urbano.csv | 5 | 5 | 2 | 3 | 0 | 0 | 2 |
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
+
+Última revisión: [51 candidatas y recuperación UCT](../REVISION_FUENTES_51_2026_10_08.md).

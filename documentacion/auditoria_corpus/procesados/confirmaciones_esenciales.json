@@ -8591,5 +8591,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "3e95cab235ff364f2b441a5676988cf44b6c5cb6d771bd1c8b3cb9d3757458a2",
+    "revisado": "2026-10-08",
+    "alcance": "Beca de Apoyo a Residencia de la UCT; informe institucional de autoevaluación 2024, página 44.",
+    "informe": "REVISION_FUENTES_51_2026_10_08.md",
+    "fuentes": [
+      "https://acreditacion.uct.cl/wp-content/uploads/Informe-Autoevaluacion-2024.pdf"
+    ],
+    "beneficio": "Apoyo para gastos relacionados con la residencia; importe y periodicidad desconocidos.",
+    "requisitos_principales": "Estudiantes de la UCT provenientes de comunas distantes a Temuco y pertenecientes a los primeros deciles de ingreso; recursos limitados.",
+    "limites": "La fuente no especifica qué deciles ni un RSH máximo 60%. No confirma alojamiento en hogares, importe mensual, calendario vigente ni admisibilidad individual. Se recupera una beca interna distinta de JUNAEB; la exclusión anterior no queda ratificada. Lectura del apartado oficial indexado; descarga directa fallida por certificado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
