@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 141,
-  "requieren_aclaracion": 150,
+  "confirmaciones_nuevas": 150,
+  "requieren_aclaracion": 141,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -3512,8 +3512,8 @@
       "candidato": "b73769ab309f045c7953b955a1a12252efd21a925f7edde2e82558b739b0c303",
       "nombre": "Beca Municipal (Programa Becas San Fernando)",
       "institucion": "Municipalidad de San Fernando",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La ficha municipal 2026 trata renovación: promedio 5,0, matrícula y acreditación de ingresos. No define importe del beneficio. La ficha deportiva y el PLADECO no completan cobertura de la beca general; faltan datos concordantes.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Alcance histórico 2012; umbral académico numérico desconocido. No mezclar con anuncios de renovación 2026. Las dos candidatas mantienen sus originales y no se declaran duplicadas.",
       "fuentes": [
         {
           "url": "https://municipalidadsanfernando.cl/beca-deportiva-2026/",
@@ -3540,9 +3540,24 @@
           "sha256": "aa3c6ff2fb3256bb11fd970cc83df810c5509c89d0aaa4d45e74baef5f7c4871",
           "url_final": "https://municipalidadsanfernando.cl/beca-municipal-2026/",
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "58e580b4731cea8e3af177795626d83319deb55614f331558157a08cb600b5c1",
+          "paginas": 75,
+          "url_final": "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Beca Municipal de San Fernando; ejecución y condiciones documentadas en Cuenta Pública 2012.",
+        "beneficio": "2 UF mensuales en diez cuotas de marzo a diciembre.",
+        "requisitos_principales": "Estudiante de San Fernando con escasos recursos y rendimiento destacado; egresado municipal o particular subvencionado. Para este último se exige haber contado con beca de arancel escolar.",
+        "limites": "Alcance histórico 2012; umbral académico numérico desconocido. No mezclar con anuncios de renovación 2026. Las dos candidatas mantienen sus originales y no se declaran duplicadas.",
+        "fuentes": [
+          "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -4310,8 +4325,8 @@
       "candidato": "9863378baa3c5f33e4419b813b2103b34894e9d1c2bffbbdbecda54e579c01c4",
       "nombre": "Beca Municipal Renca Orgullosa Educación Superior",
       "institucion": "Municipalidad de Renca",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia oficial enlaza decreto 496/2026, pero el PDF solo entrega 24 caracteres extraíbles. La noticia adicional refiere bases 2025. No se declara resuelta la contradicción anterior ni se mezclan años para certificar requisitos.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Decreto 496 leído mediante OCR de sus cinco páginas. No extender a renovación ni sustituir nota de cuarto medio por NEM. Proceso de marzo terminado; no activar.",
       "fuentes": [
         {
           "url": "https://renca.cl/decreto-alcaldicio-n0496/",
@@ -4341,7 +4356,15 @@
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Primer ingreso a educación superior; bases Renca 2026.",
+        "beneficio": "Aporte único de $150.000; 400 cupos.",
+        "requisitos_principales": "Residencia en Renca; primer año superior en institución reconocida; egreso de media 2023–2025; nota de cuarto medio mínima 5,5; RSH entre 40% y 70% a diciembre de 2025; evaluación social y cuenta bancaria.",
+        "limites": "Decreto 496 leído mediante OCR de sus cinco páginas. No extender a renovación ni sustituir nota de cuarto medio por NEM. Proceso de marzo terminado; no activar.",
+        "fuentes": [
+          "https://renca.cl/wp-content/uploads/2026/02/DECRETO-496-APRUEBA-BASES-DE-POSTULACION-A-LA-BECA-MUNICIPAL-DE-INCENTIVO-A-LAS-TRAYECTORIAS-EDUCATIVAS-1.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -5183,8 +5206,8 @@
       "candidato": "ce5c59956dd3c0026d4a3ffd1bf767e901506853d8bcf70bcacb52ac9a3488ff",
       "nombre": "Beca Estudiantil Alto del Carmen",
       "institucion": "Municipalidad de Alto del Carmen",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Bases IMAC 2021 leídas: diez mensualidades de marzo a diciembre; importe anual variable. Artículo 9 exige ingreso NEM 5,0 y continuidad 4,5; artículo 18 añade 80% de ramos para renovación semestral. Artículo 19 pide certificado del último año con 5,0 sin distinguir continuidad, en tensión con 4,5. No certificar ese umbral de continuidad ni sustituirlo por 7,0. Residencia local y per cápita máximo $200.000 constan; queda pendiente aclaración oficial de aplicación.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma solo primer ingreso. Las exigencias discordantes de 4,5 y 5,0 para continuidad no se trasladan a esta modalidad. Importe individual y convocatoria actual desconocidos.",
       "fuentes": [
         {
           "url": "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf",
@@ -5197,7 +5220,15 @@
           "url_final": "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Primer ingreso; bases IMAC 2021 de Alto del Carmen.",
+        "beneficio": "Aporte económico mensual de marzo a diciembre; importe sujeto a determinación presupuestaria.",
+        "requisitos_principales": "Residencia en Alto del Carmen; matrícula superior; primer ingreso con NEM mínimo 5,0; ingreso familiar per cápita no superior a $200.000; evaluación socioeconómica. No tener título superior previo; excluye funcionarios públicos y sus hijos, y postulantes o beneficiarios del Hogar Universitario Limarí.",
+        "limites": "Se confirma solo primer ingreso. Las exigencias discordantes de 4,5 y 5,0 para continuidad no se trasladan a esta modalidad. Importe individual y convocatoria actual desconocidos.",
+        "fuentes": [
+          "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -5542,8 +5573,8 @@
       "candidato": "f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238",
       "nombre": "Beca Concejo Municipal y Beca Samuel Ovalle",
       "institucion": "Municipalidad de Mostazal",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Noticia Mostazal 2026 acredita Concejo Municipal por $600.000 en dos cuotas de $300.000; Samuel Ovalle es otra línea. No describe requisitos principales de ambas ni autoriza importe único para el alias combinado.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Contenido oficial indexado páginas 190–191; PDF directo actualmente inaccesible. No fusionar modalidades ni trasladarles requisitos de Talento Artístico, descrito en otro apartado. RSH máximo y calendario actual desconocidos.",
       "fuentes": [
         {
           "url": "https://mostazal.cl/noticias/municipalidad-de-mostazal-entrego-la-beca-concejo-municipal-a-146-estudiantes-de-educacion-superior/",
@@ -5561,7 +5592,15 @@
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Concejo Municipal y Samuel Ovalle; modalidades distintas en Cuenta Pública Mostazal 2024.",
+        "beneficio": "Concejo: $600.000; Samuel Ovalle: $300.000. Cada una en dos cuotas.",
+        "requisitos_principales": "Residencia y RSH en Mostazal; vulnerabilidad evaluada; primer ingreso NEM 5,5 o continuidad con todas las asignaturas aprobadas. Concejo exige egreso de liceos Alberto Hurtado o Elvira Sánchez Garcés; Samuel Ovalle egreso de liceos de fuera de la comuna.",
+        "limites": "Contenido oficial indexado páginas 190–191; PDF directo actualmente inaccesible. No fusionar modalidades ni trasladarles requisitos de Talento Artístico, descrito en otro apartado. RSH máximo y calendario actual desconocidos.",
+        "fuentes": [
+          "https://mostazal.cl/wp-content/uploads/2025/04/Cuenta_Publica_gestion_2024_digital.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -6248,8 +6287,8 @@
       "candidato": "40044ec5fd96b31d08c362a29d66ec4fee46a73a644a0fed361d3b70383becfd",
       "nombre": "Beca Municipal Quemchi y Beca Pescadores Artesanales",
       "institucion": "Municipalidad de Quemchi",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Resumen oficial Quemchi 2023: ingreso superior 5,6; continuidad universitaria 5,0 y técnica 5,3; máximo dos por hogar y rendición anterior. Portal distingue general y pescadores 2026, pero la lectura del resumen no determina cobertura de ambas ni permite trasladar umbrales 2023 a 2026.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "PDFs íntegros enlazados por el municipio. $19.500.000 es presupuesto general del segundo proceso, no importe individual. La tabla general señala ingreso per cápita inferior a $100.000 como inadmisible: conservar literalmente sin invertir el signo. No extrapolar a convocatorias posteriores ni activar.",
       "fuentes": [
         {
           "url": "https://www.muniquemchi.cl/becas-municipales/",
@@ -6327,9 +6366,27 @@
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
           "error": "'ascii' codec can't encode character '\\xb0' in position 41: ordinal not in range(128)"
+        },
+        {
+          "url": "https://drive.google.com/file/d/13nednAwuwuRiyOJtctqq55R09LKHEuli/view?usp=sharing",
+          "consulta": "2026-10-07"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1rhh03eqb9EbXw_yCONyi4YDx8_H0GlyO/view?usp=drive_link",
+          "consulta": "2026-10-07"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Quemchi 2026: segundo proceso general y beca para hijos de pescadores; control separado de modalidades.",
+        "beneficio": "Beca general: ayuda monetaria con rendición; importe por persona no determinado. Pescadores superior: cinco cupos de $300.000; los $150.000 corresponden a media.",
+        "requisitos_principales": "Residencia acreditada con RSH y matrícula regular; primer ingreso NEM 5,7; continuidad profesional de al menos ocho semestres con promedio anual 5,3 o técnica de al menos cuatro con 5,6. Pescadores exige progenitor inscrito en RPA Quemchi al menos tres años. Evaluación económica y rendiciones previas al día; postular simultáneamente a ambas deja ambas inadmisibles.",
+        "limites": "PDFs íntegros enlazados por el municipio. $19.500.000 es presupuesto general del segundo proceso, no importe individual. La tabla general señala ingreso per cápita inferior a $100.000 como inadmisible: conservar literalmente sin invertir el signo. No extrapolar a convocatorias posteriores ni activar.",
+        "fuentes": [
+          "https://www.muniquemchi.cl/becas-municipales/",
+          "https://drive.google.com/file/d/13nednAwuwuRiyOJtctqq55R09LKHEuli/view?usp=sharing",
+          "https://drive.google.com/file/d/1rhh03eqb9EbXw_yCONyi4YDx8_H0GlyO/view?usp=drive_link"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -7451,8 +7508,8 @@
       "candidato": "8a7aba09ea083666fde7d0a8b66a05ffa1c9ca4e1dfe06a2ce85ab3f783fe561",
       "nombre": "Beca Estudiantes de Educación Superior Ilustre Municipalidad de Calama",
       "institucion": "Municipalidad de Calama",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia oficial de septiembre 2026 acredita Beca de Enseñanza Superior y 124 estudiantes, con presupuesto total superior a $100 millones. El contenido oficial indexado del acuerdo 066/2024, artículos 26 y 27, describe aporte monetario anual único por vulnerabilidad. El PDF directo sigue en 404, también sin www; no se recuperaron los requisitos particulares siguientes. No dividir presupuesto ni aplicar la pauta anterior de otro título a superiores.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Lectura del contenido indexado oficial de artículos 26–31; apertura directa fallida. No aplicar a superior los puntajes académicos de básica/media. No inferir RSH máximo ni NEM. Vigencia publicable no confirmada.",
       "fuentes": [
         {
           "url": "https://www.municipalidadcalama.cl/Noticias/20260925",
@@ -7475,9 +7532,22 @@
           "consulta": "2026-10-07",
           "error": "HTTP Error 404: Not Found",
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://www.municipalidadcalama.cl/resources/docs/ORDENANZA_N%C2%B0_002%2C_18.04.2024_ARCH_%282%29.pdf",
+          "consulta": "2026-10-07",
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Categoría de educación superior; ordenanza municipal de Calama 2024.",
+        "beneficio": "Aporte económico anual; importe individual no corroborado.",
+        "requisitos_principales": "Estudios en universidad, IP o CFT reconocido; carrera de al menos cuatro semestres; matrícula regular y acreditación económica; un beneficiario por grupo familiar. Se excluyen estudios extranjeros, personas con título previo y mayores de 28 años que trabajan permanentemente.",
+        "limites": "Lectura del contenido indexado oficial de artículos 26–31; apertura directa fallida. No aplicar a superior los puntajes académicos de básica/media. No inferir RSH máximo ni NEM. Vigencia publicable no confirmada.",
+        "fuentes": [
+          "https://www.municipalidadcalama.cl/resources/docs/ORDENANZA_N%C2%B0_002%2C_18.04.2024_ARCH_%282%29.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -8064,8 +8134,8 @@
       "candidato": "bf9b92a1b55051e2d4a75aed55d83213433d79f16a62b964355c878f326c259d",
       "nombre": "Beca Municipal de Educación Superior Quillota",
       "institucion": "Municipalidad de Quillota",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Los enlaces Quillota ahora muestran portadas, no la ficha Banamor. Acta 2021 acredita $240.000 de beca completa y $120.000 media, pero no requisitos actuales; no suplirlos mediante datos personales de nóminas.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Ficha oficial indexada; la apertura directa redirige actualmente a portada. No inferir NEM, porcentaje RSH, monto ni periodicidad de pago. No confundir vigencia anual del trámite con pago anual confirmado.",
       "fuentes": [
         {
           "url": "https://www.quillota.cl/becas",
@@ -8087,9 +8157,23 @@
           "url": "https://www.quillota.cl/transparencia/actas/2021/ACTAS%20FIRMADAS%202021/ACTA%2027-2021%20S.%20ORDINARIA%2017.06.2021%20_signed.pdf",
           "consulta": "2026-10-07",
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://quillota.cl/municipalidad/beca-municipal/",
+          "consulta": "2026-10-07",
+          "sha256": "96eab170c8acc3ef5bc910688ea6dd31f7de3dc89b287720fe3094678e812e38",
+          "url_final": "https://www.quillota.cl/"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Beca Municipal de Educación Superior Quillota; ficha de trámite 2026.",
+        "beneficio": "Apoyo económico para continuidad superior; importe no publicado.",
+        "requisitos_principales": "RSH con domicilio en Quillota; alumno regular superior; vulnerabilidad acreditada por evaluación social; cuenta RUT vigente y antecedentes económicos.",
+        "limites": "Ficha oficial indexada; la apertura directa redirige actualmente a portada. No inferir NEM, porcentaje RSH, monto ni periodicidad de pago. No confundir vigencia anual del trámite con pago anual confirmado.",
+        "fuentes": [
+          "https://quillota.cl/municipalidad/beca-municipal/"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -8143,8 +8227,8 @@
       "candidato": "a196c601cb3b1c05eaeda3ae1795e27e94da43ebdc68e9609fe0e14286ede14d",
       "nombre": "Beca Municipal de Educación Superior San Fernando",
       "institucion": "Municipalidad de San Fernando",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La fuente deportiva 2026 es distinta. La ficha de renovación general confirma notas 5,0 y acreditación académica y económica, sin importe; continúa pendiente cobertura concordante de la beca superior.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Alcance histórico 2012; umbral académico numérico desconocido. No mezclar con anuncios de renovación 2026. Las dos candidatas mantienen sus originales y no se declaran duplicadas.",
       "fuentes": [
         {
           "url": "https://municipalidadsanfernando.cl/beca-deportiva-2026/",
@@ -8164,9 +8248,24 @@
           "sha256": "c962d724b44b8f421c25293739f096839b71c88218ecc9215750180972b51925",
           "paginas": 317,
           "url_final": "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/PLADECO-1.pdf"
+        },
+        {
+          "url": "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "58e580b4731cea8e3af177795626d83319deb55614f331558157a08cb600b5c1",
+          "paginas": 75,
+          "url_final": "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Beca Municipal de San Fernando; ejecución y condiciones documentadas en Cuenta Pública 2012.",
+        "beneficio": "2 UF mensuales en diez cuotas de marzo a diciembre.",
+        "requisitos_principales": "Estudiante de San Fernando con escasos recursos y rendimiento destacado; egresado municipal o particular subvencionado. Para este último se exige haber contado con beca de arancel escolar.",
+        "limites": "Alcance histórico 2012; umbral académico numérico desconocido. No mezclar con anuncios de renovación 2026. Las dos candidatas mantienen sus originales y no se declaran duplicadas.",
+        "fuentes": [
+          "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -8250,8 +8349,8 @@
       "candidato": "92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf",
       "nombre": "Beca Municipal de Educación Superior Puerto Varas",
       "institucion": "Municipalidad de Puerto Varas",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Los tres enlaces Puerto Varas fallaron por certificado TLS. Se conserva la contradicción de promedio 5,5 frente a 5,0 en el reglamento previamente leído y el alcance 2022 del aporte transitorio; no trasladar a 2026.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Reglamento leído mediante OCR. No confirmar umbral de continuidad: los apartados 5 d y 5 e contienen 5,5 y 5,0. No trasladar montos transitorios ni reglas de categorías deportivas.",
       "fuentes": [
         {
           "url": "https://www.ptovaras.cl/noticias/puerto-varas-entrega-beca-municipal-a-188-estudiantes-destacados-de-ensenanza-media-y-superior",
@@ -8276,7 +8375,15 @@
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "alcance": "Beca estudiantil para primer ingreso; reglamento Puerto Varas aprobado en septiembre de 2022.",
+        "beneficio": "Aporte económico para gastos de estudios superiores; importe vigente desconocido.",
+        "requisitos_principales": "Alumno regular de universidad, IP o CFT acreditado; residencia y RSH en Puerto Varas; primer ingreso con NEM mínimo 5,5; cuenta bancaria y evaluación municipal. El último año cursado también debe alcanzar 5,5. Se excluyen titulados profesionales, licenciados y postgrados.",
+        "limites": "Reglamento leído mediante OCR. No confirmar umbral de continuidad: los apartados 5 d y 5 e contienen 5,5 y 5,0. No trasladar montos transitorios ni reglas de categorías deportivas.",
+        "fuentes": [
+          "https://ptovaras.cl/documentos/becas-municipales/DEC%203914%20REGLAMENTO%20BECAS%20MUNICIPALES.pdf"
+        ]
+      },
       "ultima_revision": "2026-10-07"
     },
     {
@@ -8814,5 +8921,52 @@
     },
     "descartes_nuevos": 0,
     "originales_preservados": true
+  },
+  "revision_recuperacion30": {
+    "fecha": "2026-10-07",
+    "confirmaciones_adicionales": 30,
+    "del_lote_291": 9,
+    "pendiente_externa": 1,
+    "exclusiones_reconsideradas": 20,
+    "candidatos": [
+      "043540cfe5f8a5663e40439f26b6c954749d4f12f60dd6b96f1d1a6ab1470711",
+      "09bb3a4491be203a2df104a7edfd88586cfeb28cbff9d3ff86e01642cea2a59c",
+      "245f7c71a69590e6fd40f85bbaf812bec5b5a4f760c4a9b650cc59b92c68b12c",
+      "2a9d39ae12be7f9247643f332d37f07186e6640babcc47ba17727be7cb6af5a7",
+      "311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533",
+      "3602117f70140321b534fa8451d7a0d53fb36e7e235a04792dbe3e6c763e7618",
+      "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
+      "40044ec5fd96b31d08c362a29d66ec4fee46a73a644a0fed361d3b70383becfd",
+      "4230e052a0e3f7b0661575dc0d2a0dfad060e5f590532171cfb51267d35d9704",
+      "480d4529d10aefb9b554c9d1d4f466eb1e6b73386cd40510503b56e0a6100b70",
+      "5c2217c92aeccbb5588efa22b6db5a131263bf24ba315209985d6c41689561b6",
+      "65680b69869b49c6d2f5280c22deb43c78a188aa5d06117b7f2b4555bf9681be",
+      "663b36cb2ba3adac80121dbc8a63e9185ee7e88f79ab5cb0840d0483e1d355f1",
+      "6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3",
+      "86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848",
+      "8a7aba09ea083666fde7d0a8b66a05ffa1c9ca4e1dfe06a2ce85ab3f783fe561",
+      "92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf",
+      "9863378baa3c5f33e4419b813b2103b34894e9d1c2bffbbdbecda54e579c01c4",
+      "a196c601cb3b1c05eaeda3ae1795e27e94da43ebdc68e9609fe0e14286ede14d",
+      "a80e24e15ca2c85e885eb514e5ee7462cccf38a8dc110895737d85e3b8028db4",
+      "aef2df9ec411b25b3388b9f62817ae5486ad26a3a1d3b0f1e0546a404c533ce8",
+      "b73769ab309f045c7953b955a1a12252efd21a925f7edde2e82558b739b0c303",
+      "bbf9e045948a887373d63f24673cb023eb20bef65b27099407772ffe30d4e74b",
+      "bcba150d8162b3efbb7489e70e25ec008d69dd6f16bad79bd26cf2e679296237",
+      "bf9b92a1b55051e2d4a75aed55d83213433d79f16a62b964355c878f326c259d",
+      "ce5c59956dd3c0026d4a3ffd1bf767e901506853d8bcf70bcacb52ac9a3488ff",
+      "d5a265b509cf2ce442824708f2fcc3f4d3bde0dc2b80ce41dcc0518385ceaa85",
+      "e160388cb3ab618f94f9986e15ec9182d86bd4bb57a08f70245ecfd81aaf30fd",
+      "e89f59ae375830591a53a435dd8d89656ed816be6d33045d3a2e0d59b87fef3b",
+      "f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238"
+    ],
+    "respaldo": {
+      "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-recuperacion30-20261007-205227.zip",
+      "archivos": 192,
+      "sha256": "bfeeb1552a680155163378a03ed72ea12dd42010d50de8de99d14e65a1cf1675"
+    },
+    "descartes_nuevos": 0,
+    "originales_preservados": true,
+    "informe": "procesados/CONFIRMACION_ESENCIAL_30_2026_10_07.md"
   }
 }
