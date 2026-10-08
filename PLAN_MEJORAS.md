@@ -12,6 +12,8 @@ El inventario comprende 568 candidatas y 647 referencias en 93 archivos original
 
 Entrega documental actualizada el 8 de octubre: [contraste institucional y Paine de 50 candidatas](documentacion/auditoria_corpus/procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md), con dos confirmaciones esenciales para la convocatoria 2025 y 48 aclaraciones. Total: 409 esenciales, dos completas, 114 pendientes y 43 exclusiones históricas sin ratificar; quedan 157 candidatas por resolver. Cohorte de 291: 177 esenciales y 114 aclaraciones. Dos fichas de Paine no equivalen a dos programas. Sin descartes nuevos. Pendiente completar verificaciones y alcanzar al menos 30 confirmaciones nuevas por lote. Backend/frontend y pruebas aplazados; sin despliegue.
 
+Ejecución iniciada: [cola única de 157 candidatas y primer bloque seleccionado](documentacion/auditoria_corpus/procesados/COLA_REVISION_ESENCIAL_157_2026_10_08.md). Atribución individual de controles en curso; no confundir clasificación preliminar con verificación. Colchane: decreto leído visualmente; falta contrastar elegibilidad en las bases referidas. Conteos de confirmación sin cambios.
+
 ### Método vigente: cierre esencial por evidencia
 
 El [plan de ejecución actualizado](tasks/plan.md) sustituye el flujo anterior. Preparar una cola única de **157 candidatas**: 114 pendientes y 43 exclusiones sin ratificar. Mapear los cuatro controles por candidata antes de seleccionar bloques de 50 o más; agrupar por institución y fuente. La meta es al menos 30 confirmaciones nuevas por entrega, no 50 consultas. Tras las primeras diez candidatas, comprobar internamente si el método produce cierres y cambiar fuente o técnica si no los produce; no detener la entrega en ese punto.

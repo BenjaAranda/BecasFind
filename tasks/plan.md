@@ -1,6 +1,6 @@
 # Plan de cierre de la revisión esencial de becas
 
-Actualizado el 8 de octubre de 2026 por petición del usuario. Sustituye el método de selección y cierre anterior de P04. El único listado de pendientes continúa en [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Esta entrega modifica únicamente la planificación; no confirma, excluye, importa ni activa candidatas.
+Actualizado el 8 de octubre de 2026 por petición del usuario. Sustituye el método de selección y cierre anterior de P04. El único listado de pendientes continúa en [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). El replanteamiento inicial modificó únicamente la planificación. La ejecución comenzó con la cola de 157 y la lectura visual de Colchane; no se han registrado confirmaciones nuevas, exclusiones, importaciones ni activaciones en este bloque.
 
 ## Diagnóstico y punto de partida
 
@@ -29,7 +29,7 @@ Una fuente histórica puede cerrar la confirmación esencial de su convocatoria 
 
 ### 1. Preparar una sola cola de 157 candidatas
 
-- [ ] Unir las 114 pendientes y las 43 exclusiones sin ratificar mediante sus hashes, sin modificar sus estados.
+- [x] Unir las 114 pendientes y las 43 exclusiones sin ratificar mediante sus hashes, sin modificar sus estados. [Cola de 157](../documentacion/auditoria_corpus/procesados/COLA_REVISION_ESENCIAL_157_2026_10_08.md).
 - [ ] Para cada candidata registrar los cuatro controles: respaldado, contradicho o falta evidencia; enlazar el apartado y el informe existentes.
 - [ ] Identificar el único próximo paso útil: leer apartado pendiente, recuperar documento, resolver identidad/modalidad o localizar fuente específica. Agrupar por institución y fuente compartida.
 
