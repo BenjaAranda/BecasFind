@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 175,
-  "requieren_aclaracion": 116,
+  "confirmaciones_nuevas": 177,
+  "requieren_aclaracion": 114,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -658,7 +658,7 @@
       "nombre": "Beca Deportiva UFRO",
       "institucion": "Universidad de La Frontera",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La enumeración de beneficios no acredita porcentaje de arancel ni requisitos de esta modalidad deportiva.",
+      "hallazgo": "El apartado UFRO del catálogo Mineduc describe otros beneficios y servicios. No acredita rebaja deportiva 25–50% del candidato.",
       "fuentes": [
         {
           "url": "https://admision.ufro.cl/becas-y-beneficios/",
@@ -677,18 +677,26 @@
           "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
           "paginas": 404,
           "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "1b8b1d4f3a0c0626d0dbb5bcf2d7492d3f79165ce0caf134c9cebb14fe5e4dbe",
+          "paginas": 398,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf"
         }
       ],
       "alcance": null,
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997",
       "nombre": "Beca de Apoyo Socioeconomico UFRO",
       "institucion": "Universidad de La Frontera",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Los programas de acompañamiento no acreditan una beca económica interna general.",
+      "hallazgo": "El apartado UFRO diferencia acompañamiento y orientación estatal. No acredita una beca interna general socioeconómica de arancel.",
       "fuentes": [
         {
           "url": "https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/",
@@ -707,11 +715,19 @@
           "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
           "paginas": 404,
           "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "1b8b1d4f3a0c0626d0dbb5bcf2d7492d3f79165ce0caf134c9cebb14fe5e4dbe",
+          "paginas": 398,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf"
         }
       ],
       "alcance": null,
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00",
@@ -1010,8 +1026,8 @@
       "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
       "nombre": "Beca Municipal Educación Superior Paine",
       "institucion": "Municipalidad de Paine",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Publicación del alcalde informa aporte de $100.000 a 286 estudiantes en 2026. Falta corroboración municipal específica y criterios de selección; no certificar por fuente secundaria institucionalmente distinta.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
       "fuentes": [
         {
           "url": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu",
@@ -1029,11 +1045,38 @@
           "sha256": "d090000bbc14f6dde1b52d69680d189fe2e69d037656e72fda1c2b92d6346e63",
           "paginas": 62,
           "url_final": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+        },
+        {
+          "url": "https://www.paine.cl/resultados-becas-educacion-superior-2025/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c0ecd15104034d0d09c0fecb37f847c2b510eb4f176921d5f9590cee4651ae0a",
+          "url_final": "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
+        "revisado": "2026-10-08",
+        "alcance": "Beca Educación Superior de Paine: convocatoria municipal 2025. Revisión esencial histórica, sin confirmar la convocatoria 2026.",
+        "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+        "fuentes": [
+          "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+        ],
+        "beneficio": "Aporte monetario de libre disposición entregado una vez al año. Importe individual desconocido.",
+        "requisitos_principales": "Ingreso a una universidad, instituto profesional, CFT u otra institución superior en 2025; egreso de enseñanza media en 2024; familia con RSH hasta 90%.",
+        "limites": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null,
+        "verificaciones": {
+          "identidad": true,
+          "fuente_oficial": true,
+          "cobertura": true,
+          "requisitos_principales": true
+        }
+      },
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "f435a119901e41f784b3ee4831a5af00ddbfd30b031da6188b775dbc98fdaead",
@@ -2657,7 +2700,7 @@
       "nombre": "Beca Educación Superior",
       "institucion": "Municipalidad de Cartagena",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Requisitos 2025 corroborados: residencia cinco años, RSH 40–80%, matrícula reconocida, media 5,5 o superior 5,0 y sin título previo. El documento no describe cobertura: ese campo sigue abierto.",
+      "hallazgo": "La ficha de requisitos Cartagena 2025 acredita residencia cinco años, RSH 40–80%, matrícula, notas y ausencia de título. Falta beneficio primario de esa convocatoria; no trasladar importe de una entrega 2026.",
       "fuentes": [
         {
           "url": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
@@ -2668,12 +2711,12 @@
           "sha256": "c627b7f0919d1657265faf8ddeeb7add60ca6e71ad7556ab315195677f0e92ff",
           "paginas": 2,
           "url_final": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
-          "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+          "metodo": "Lectura de ficha o apartados del texto servido"
         }
       ],
       "alcance": null,
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544",
@@ -3079,7 +3122,7 @@
       "nombre": "Beca PAES y Educación Superior Lebu 2026",
       "institucion": "Municipalidad de Lebu",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Catastro UCSC 2026 separa modalidades y municipios. No acredita por sí solo que la beca PAES del original sea una beca ordinaria de permanencia.",
+      "hallazgo": "El catastro UCSC 2026 distingue modalidades. No prueba equivalencia entre beca PAES y ayuda general de permanencia del candidato.",
       "fuentes": [
         {
           "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
@@ -3090,7 +3133,7 @@
           "sha256": "42d798fec88029e6e3f67741e4434f0cdf5f2b12a9179560d7b7d73917bbd863",
           "paginas": 30,
           "url_final": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
-          "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+          "metodo": "Lectura de ficha o apartados del texto servido"
         },
         {
           "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
@@ -3103,7 +3146,7 @@
       ],
       "alcance": null,
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "8c8a0b6ef680c9175d88e817de0224d660864d3d26bc49c0d911924b587bf132",
@@ -3419,7 +3462,7 @@
       "nombre": "Beca de Estudios Superiores Municipalidad de Purranque",
       "institucion": "Municipalidad de Purranque",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Página de unidad Becas de Purranque sirve texto de plantilla sin objetivo ni apoyos completados. Buscar reglamento y no certificar esos espacios vacíos.",
+      "hallazgo": "La web municipal anuncia Aporte Educación Superior 2026 y ceremonia de octubre. Confirma referencia institucional; no publica importe ni criterios. La página de Becas tiene campos de plantilla vacíos.",
       "fuentes": [
         {
           "url": "https://www.purranque.cl/unidades-municipales/dideco/becas.html",
@@ -3430,11 +3473,18 @@
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
           "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+        },
+        {
+          "url": "https://www.purranque.cl/?s=beca",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "8bc4d00b7b57990ab4db2f757886bcb71d16bcbd50ecd48fb2519feffaffcada",
+          "url_final": "https://www.purranque.cl/?s=beca"
         }
       ],
       "alcance": null,
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495",
@@ -7533,8 +7583,8 @@
       "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
       "nombre": "Beca Municipal para la Educación Superior Paine",
       "institucion": "Municipalidad de Paine",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Publicación del alcalde describe $100.000 en 2026; no acredita dos cuotas ni $200.000. Buscar respaldo municipal y criterios.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
       "fuentes": [
         {
           "url": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu",
@@ -7552,11 +7602,38 @@
           "sha256": "d090000bbc14f6dde1b52d69680d189fe2e69d037656e72fda1c2b92d6346e63",
           "paginas": 62,
           "url_final": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+        },
+        {
+          "url": "https://www.paine.cl/resultados-becas-educacion-superior-2025/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c0ecd15104034d0d09c0fecb37f847c2b510eb4f176921d5f9590cee4651ae0a",
+          "url_final": "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
+        "revisado": "2026-10-08",
+        "alcance": "Beca Educación Superior de Paine: convocatoria municipal 2025. Revisión esencial histórica, sin confirmar la convocatoria 2026.",
+        "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+        "fuentes": [
+          "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+        ],
+        "beneficio": "Aporte monetario de libre disposición entregado una vez al año. Importe individual desconocido.",
+        "requisitos_principales": "Ingreso a una universidad, instituto profesional, CFT u otra institución superior en 2025; egreso de enseñanza media en 2024; familia con RSH hasta 90%.",
+        "limites": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null,
+        "verificaciones": {
+          "identidad": true,
+          "fuente_oficial": true,
+          "cobertura": true,
+          "requisitos_principales": true
+        }
+      },
       "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
     },
     {
       "candidato": "6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20",
@@ -9585,6 +9662,17 @@
       "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261008-190437.zip",
       "archivos": 201,
       "sha256": "658f993b872a10bf7f988acb310a7ee7e3c9f4b2b696cfc3c7cd06f435d30455"
+    }
+  },
+  "revision_instituciones_paine_50_2026_10_08": {
+    "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+    "revisadas": 50,
+    "confirmaciones_adicionales": 2,
+    "aclaraciones": 48,
+    "respaldo": {
+      "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261008-191847.zip",
+      "archivos": 203,
+      "sha256": "2d589857010e42b9d708acb9803651b0f224b6aa7449dd14dc7fafcd12f36c3e"
     }
   }
 }

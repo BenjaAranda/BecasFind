@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Resultado acumulado de estas 291: 175 confirmaciones esenciales y 116 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
+Resultado acumulado de estas 291: 177 confirmaciones esenciales y 114 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
 
@@ -12,7 +12,7 @@ Cada apartado identifica el mismo hash estable del inventario. Las confirmacione
 
 Tras las primeras 47 confirmaciones se hicieron 212 búsquedas institucionales para las 244 restantes y se recuperaron reglamentos y fichas específicas. Se añaden 22 confirmaciones con datos leídos. Se usó OCR para los reglamentos escaneados y contraste visual de las páginas citadas. Las búsquedas y URLs localizadas son pistas de investigación, no confirmaciones automáticas; su registro está en [el anexo de búsquedas](procesados/busquedas_adicionales_244_2026_10_06.json).
 
-Persisten 116 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
+Persisten 114 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
 
 ## Revisión de las 222 restantes y respaldo
 
@@ -65,6 +65,10 @@ Once confirmaciones adicionales dentro de este grupo: acumulado **171 esenciales
 ## Revisión municipal de 50 — 8 de octubre de 2026
 
 Cuatro confirmaciones esenciales nuevas; 46 aclaraciones documentadas. Acumulado actual: **175 esenciales y 116 aclaraciones**. [Informe individual](procesados/REVISION_MUNICIPAL_50_2026_10_08.md). Los balances anteriores son históricos.
+
+## Contraste institucional y Paine — 8 de octubre de 2026
+
+Saldo vigente: **177 esenciales y 114 aclaraciones** de las 291. Dos fichas de Paine confirmadas para 2025; las 43 exclusiones históricas continúan sin ratificar. [Informe de 50 candidatas](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
 
 ## 001. Beca Municipal Educación Superior La Florida — bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0
 Institución del registro: Municipalidad de La Florida.
@@ -286,6 +290,8 @@ Referencias y antecedentes consultados:
 
 Revisión de fuentes del 8 de octubre: La enumeración de beneficios no acredita porcentaje de arancel ni requisitos de esta modalidad deportiva. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
 
+Contraste del 8 de octubre: El apartado UFRO del catálogo Mineduc describe otros beneficios y servicios. No acredita rebaja deportiva 25–50% del candidato. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
+
 ## 021. Beca de Apoyo Socioeconomico UFRO — d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997
 Institución del registro: Universidad de La Frontera.
 Estado: **REQUIERE_ACLARACIÓN**.
@@ -295,6 +301,8 @@ Referencias y antecedentes consultados:
 - [Referencia 1](https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/)
 
 Revisión de fuentes del 8 de octubre: Los programas de acompañamiento no acreditan una beca económica interna general. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+
+Contraste del 8 de octubre: El apartado UFRO diferencia acompañamiento y orientación estatal. No acredita una beca interna general socioeconómica de arancel. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
 
 ## 022. Beca de Residencia UMAG — e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00
 Institución del registro: Universidad de Magallanes.
@@ -392,13 +400,15 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 031. Beca Municipal Educación Superior Paine — b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c
 Institución del registro: Municipalidad de Paine.
-Estado: **REQUIERE_ACLARACIÓN**.
+Estado: **CONFIRMADA_ESENCIAL**.
 Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
 Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
 Referencias y antecedentes consultados:
 - [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 Revisión de fuentes del 8 de octubre: Publicación del alcalde informa aporte de $100.000 a 286 estudiantes en 2026. Falta corroboración municipal específica y criterios de selección; no certificar por fuente secundaria institucionalmente distinta. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+
+Contraste del 8 de octubre: Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
 
 ## 032. Beca Municipal para Estudiantes de Educación Superior Angol — f435a119901e41f784b3ee4831a5af00ddbfd30b031da6188b775dbc98fdaead
 Institución del registro: Municipalidad de Angol.
@@ -937,6 +947,8 @@ Referencias y antecedentes consultados:
 Última revisión (8 de octubre): Requisitos 2025 corroborados: residencia cinco años, RSH 40–80%, matrícula reconocida, media 5,5 o superior 5,0 y sin título previo. El documento no describe cobertura: ese campo sigue abierto.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
 
+Contraste del 8 de octubre: La ficha de requisitos Cartagena 2025 acredita residencia cinco años, RSH 40–80%, matrícula, notas y ausencia de título. Falta beneficio primario de esa convocatoria; no trasladar importe de una entrega 2026. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
+
 ## 082. Beca Municipal de Educación Superior — ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544
 Institución del registro: Municipalidad de La Cruz.
 Estado: **CONFIRMADA_ESENCIAL**.
@@ -1103,6 +1115,8 @@ Referencias y antecedentes consultados:
 Última revisión (8 de octubre): Catastro UCSC 2026 separa modalidades y municipios. No acredita por sí solo que la beca PAES del original sea una beca ordinaria de permanencia.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
 
+Contraste del 8 de octubre: El catastro UCSC 2026 distingue modalidades. No prueba equivalencia entre beca PAES y ayuda general de permanencia del candidato. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
+
 ## 097. Beca de Educación Superior Curanilahue — 8c8a0b6ef680c9175d88e817de0224d660864d3d26bc49c0d911924b587bf132
 Institución del registro: Municipalidad de Curanilahue.
 Estado: **CONFIRMADA_ESENCIAL**.
@@ -1225,6 +1239,8 @@ Referencias y antecedentes consultados:
 
 Última revisión (8 de octubre): Página de unidad Becas de Purranque sirve texto de plantilla sin objetivo ni apoyos completados. Buscar reglamento y no certificar esos espacios vacíos.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+
+Contraste del 8 de octubre: La web municipal anuncia Aporte Educación Superior 2026 y ceremonia de octubre. Confirma referencia institucional; no publica importe ni criterios. La página de Becas tiene campos de plantilla vacíos. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
 
 ## 108. Beca Municipal Educación Superior Quellon — ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495
 Institución del registro: Municipalidad de Quellon.
@@ -2656,13 +2672,15 @@ Revisión de fuentes del 8 de octubre: PLADECO sin contenido leído satisfactori
 
 ## 240. Beca Municipal para la Educación Superior Paine — 1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46
 Institución del registro: Municipalidad de Paine.
-Estado: **REQUIERE_ACLARACIÓN**.
+Estado: **CONFIRMADA_ESENCIAL**.
 Hallazgo: El catastro UAH 2022 indica ausencia de información de beneficios para este municipio. Ese vacío histórico no acredita inexistencia ni confirma beneficio y elegibilidad; conservar el registro y localizar una ficha municipal específica.
 Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
 Referencias y antecedentes consultados:
 - [Referencia 1](https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf)
 
 Revisión de fuentes del 8 de octubre: Publicación del alcalde describe $100.000 en 2026; no acredita dos cuotas ni $200.000. Buscar respaldo municipal y criterios. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+
+Contraste del 8 de octubre: Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
 
 ## 241. Beca Municipal Estudiantil El Monte — 6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20
 Institución del registro: Municipalidad de El Monte.

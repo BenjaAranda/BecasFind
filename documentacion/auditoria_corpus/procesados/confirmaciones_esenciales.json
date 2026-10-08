@@ -8612,5 +8612,47 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
+    "revisado": "2026-10-08",
+    "alcance": "Beca Educación Superior de Paine: convocatoria municipal 2025. Revisión esencial histórica, sin confirmar la convocatoria 2026.",
+    "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+    "fuentes": [
+      "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+    ],
+    "beneficio": "Aporte monetario de libre disposición entregado una vez al año. Importe individual desconocido.",
+    "requisitos_principales": "Ingreso a una universidad, instituto profesional, CFT u otra institución superior en 2025; egreso de enseñanza media en 2024; familia con RSH hasta 90%.",
+    "limites": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
+    "revisado": "2026-10-08",
+    "alcance": "Beca Educación Superior de Paine: convocatoria municipal 2025. Revisión esencial histórica, sin confirmar la convocatoria 2026.",
+    "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+    "fuentes": [
+      "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+    ],
+    "beneficio": "Aporte monetario de libre disposición entregado una vez al año. Importe individual desconocido.",
+    "requisitos_principales": "Ingreso a una universidad, instituto profesional, CFT u otra institución superior en 2025; egreso de enseñanza media en 2024; familia con RSH hasta 90%.",
+    "limites": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
