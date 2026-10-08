@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Resultado acumulado de estas 291: 150 confirmaciones esenciales y 141 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
+Resultado acumulado de estas 291: 160 confirmaciones esenciales y 131 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
 
@@ -12,7 +12,7 @@ Cada apartado identifica el mismo hash estable del inventario. Las confirmacione
 
 Tras las primeras 47 confirmaciones se hicieron 212 búsquedas institucionales para las 244 restantes y se recuperaron reglamentos y fichas específicas. Se añaden 22 confirmaciones con datos leídos. Se usó OCR para los reglamentos escaneados y contraste visual de las páginas citadas. Las búsquedas y URLs localizadas son pistas de investigación, no confirmaciones automáticas; su registro está en [el anexo de búsquedas](procesados/busquedas_adicionales_244_2026_10_06.json).
 
-Persisten 141 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
+Persisten 131 aclaraciones; no se declara terminado el objetivo de confirmar las 291. El resto de los apartados conserva el hallazgo previo y las nuevas referencias se registran en el archivo de trazabilidad. No se añaden descartes.
 
 ## Revisión de las 222 restantes y respaldo
 
@@ -53,6 +53,10 @@ Respaldo íntegro verificado: `C:\Users\benja\Documents\BecasFind-respaldos\corp
 ## Ampliación con 30 confirmaciones esenciales — 7 de octubre de 2026
 
 Nueve candidatas de este lote pasan a confirmación esencial; acumulado 150 confirmadas y 141 con aclaraciones. El [informe de 30 candidatas](procesados/CONFIRMACION_ESENCIAL_30_2026_10_07.md) añade además una pendiente externa y veinte exclusiones históricas reconsideradas con fuentes oficiales. No se añaden descartes ni se cierran variantes por compartir fuente.
+
+## Ampliación esencial — 8 de octubre de 2026
+
+Diez confirmaciones adicionales dentro de este grupo: acumulado 160 esenciales y 131 aclaraciones. El [informe de 30 nuevas candidatas](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md) también documenta veinte recuperaciones históricas con evidencia individual. Los apartados anteriores son antecedentes de sus respectivas entregas; este es el conteo actual. No se fusionan variantes ni se añaden descartes.
 
 ## 001. Beca Municipal Educación Superior La Florida — bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0
 Institución del registro: Municipalidad de La Florida.
@@ -232,11 +236,16 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 019. Beca de Residencia UFRO — 3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e
 Institución del registro: Universidad de La Frontera.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. La noticia REAS 2021 confirma apoyo residencial y casas para estudiantes, pero no precisa todas las condiciones de acceso ni cobertura individual. No certificar gratuidad o manutención completa.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://admision.ufro.cl/becas-y-beneficios/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: UFRO: alojamiento en Residencias Estudiantiles Autogestionadas (REAS), alcance descrito en diagnóstico institucional 2023 y noticias 2024–2025.
+Beneficio corroborado: Alojamiento en residencias autogestionadas; residentes contribuyen a servicios básicos. No se acredita subsidio monetario de arriendo.
+Requisitos principales: Estudiantes de pregrado provenientes de fuera de Temuco que necesitan alojamiento; selección contempla antecedentes académicos y socioeconómicos y revisión académica para renovar.
+Límites: Se confirma exclusivamente REAS. El diagnóstico no fija umbrales, que quedan desconocidos; no certificar RSH 60%, alojamiento totalmente gratuito ni manutención completa. Cupos operativos de noticias no se presentan como oferta actual.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf)
+- [Fuente 2](https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/)
+- [Fuente 3](https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/)
 
 ## 020. Beca Deportiva UFRO — 8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967
 Institución del registro: Universidad de La Frontera.
@@ -377,11 +386,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 034. Beca Municipal de Educación Superior San Vicente — 16549819d19a32f2ee89760b7e220306352014258237afa4ee4a45d9ddddfbd6
 Institución del registro: Municipalidad de San Vicente de Tagua Tagua.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El portal oficial indexado distingue Beca Municipal de excelencia y Beca Estímulo superior. El cuerpo dinámico no se recuperó en la apertura; la descripción del listado no define requisitos completos ni permite fusionar modalidades.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://convocatorias.municipalidadsanvicente.cl/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de San Vicente de Tagua Tagua; categoría superior de la gestión 2025, páginas 157–158.
+Beneficio corroborado: Aporte de $50.000 mensuales de marzo a diciembre.
+Requisitos principales: Estudiante de educación superior de escasos recursos y rendimiento sobresaliente; no contar con Beca Presidente de la República u otro beneficio similar.
+Límites: No extender montos de enseñanza media o discapacidad a superior. Umbrales RSH y NEM y convocatoria actualmente abierta desconocidos.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf)
 
 ## 035. Beca Municipal de Educación Superior San Miguel — 1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc
 Institución del registro: Municipalidad de San Miguel.
@@ -529,12 +541,14 @@ Referencias y antecedentes consultados:
 
 ## 051. Beca Municipal Educación Superior Cerrillos — f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501
 Institución del registro: Municipalidad de Cerrillos.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se releyó el decreto oficial 202/1308 de 2018: NEM mínimo 5,5, ponderación vulnerabilidad 40%, NEM 40% e informe social 20%; incorpora restricción por Gratuidad. La modificación no reproduce toda la descripción monetaria del texto refundido de 2013. El catastro 2022 con NEM 5,8 y ocho cuotas de $125.000 no se combina con este año: falta edición completa concordante.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.bcn.cl/leychile/navegar?idNorma=1125252)
-- [Referencia 2](https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca de educación superior de escasos recursos de Cerrillos; modificación de Ordenanza 20 publicada el 14 de noviembre de 2018.
+Beneficio corroborado: Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.
+Requisitos principales: Estudiantes de escasos recursos de Cerrillos; NEM mínimo 5,5. Selección pondera vulnerabilidad 40%, NEM 40% e informe social 20%; se incorpora gratuidad a restricciones.
+Límites: Decreto modificatorio, no texto consolidado: las restricciones adicionales no se reconstruyen por inferencia. No confirmar $150.000 del archivo ni RSH máximo. Puntaje nacional PSU es otra modalidad y no se convierte en PAES.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf)
 
 ## 052. Beca Municipal Educación Superior La Pintana — 3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515
 Institución del registro: Municipalidad de La Pintana.
@@ -878,11 +892,14 @@ Referencias y antecedentes consultados:
 
 ## 088. Beca Municipal Excelencia y Beca Estimulo Enseñanza Superior — fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044
 Institución del registro: Municipalidad de San Vicente de Tagua Tagua.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El portal San Vicente distingue Excelencia Académica y Estímulo para Enseñanza Superior. Sin bases de cada modalidad no hay monto o elegibilidad comunes que certifiquen el alias combinado.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://convocatorias.municipalidadsanvicente.cl/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Registro conjunto de San Vicente; se distinguen Beca Municipal superior y Estímulo para la Enseñanza Superior en gestión 2025, páginas 157–159.
+Beneficio corroborado: Municipal superior: $50.000 mensuales marzo–diciembre. Estímulo: $130.000 por una vez y de libre disposición.
+Requisitos principales: Municipal: escasos recursos, rendimiento sobresaliente y sin BPR o similar. Estímulo: egresados de media o estudiantes superiores en universidad, IP o CFT acreditado; dificultad económica para estudiar fuera de la comuna.
+Límites: Dos modalidades distintas: no sumar sus aportes ni afirmar compatibilidad. No convertir el registro conjunto en programa único. Los umbrales académicos y RSH no están definidos en la cuenta pública.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf)
 
 ## 089. Beca Municipal Estudiantil — cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925
 Institución del registro: Municipalidad de Coltauco.
@@ -1230,11 +1247,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 124. Beca Municipal Ilustre Municipalidad de La Estrella — 00d1fa426f88bf92442581048ebdb3109c6b53bcb6ce2210a1a6fb33f41d813b
 Institución del registro: Municipalidad de La Estrella.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta La Estrella 2021 identifica beca municipal de educación superior: $36.042 mensuales y $360.420 anuales por estudiante. No publica umbrales de selección ni acredita convocatoria actual; no inferir NEM o RSH.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de La Estrella; categoría superior ejecutada en 2021, páginas 76–77.
+Beneficio corroborado: $36.042 mensuales; total anual de $360.420 por estudiante de educación superior.
+Requisitos principales: Estudiantes superiores originarios de la comuna que deben continuar sus estudios donde exista oferta de educación superior.
+Límites: La cuenta pública explica el apoyo en contexto de vulnerabilidad, pero no fija RSH ni NEM exigibles: quedan desconocidos. No trasladar el monto de enseñanza media. Confirmación histórica, sin certificar convocatoria actual.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf)
 
 ## 125. Beca Municipal de Estudiantes de Educación Superior — 74f2312dfa48e8430ec8fe4af6235fc7ea200c9df394dd1951508c5797ea0930
 Institución del registro: Municipalidad de Marchigue.
@@ -1567,11 +1587,14 @@ Referencias y antecedentes consultados:
 
 ## 159. Beca Municipal de Educación Superior Combarbala — 0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86
 Institución del registro: Municipalidad de Combarbala.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta Combarbalá 2024 separa beca municipal ($30.000 mensuales, $50.000 desde segundo semestre) y mejores PAES ($100.000 mensuales). Faltan requisitos de selección de la municipal; no usar el premio PAES como aporte universal.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Combarbalá; apartado 9.3 A de la gestión 2024.
+Beneficio corroborado: $30.000 mensuales en primer semestre y $50.000 mensuales en segundo semestre de 2024.
+Requisitos principales: Estudiantes de la comuna que continúan estudios de educación superior.
+Límites: La cuenta pública documenta destinatarios y finalidad, sin publicar todos los criterios de selección. No inferir RSH ni NEM. No confundir con beca PAES ni Hogar Limarí del mismo apartado.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf)
 
 ## 160. Beca Municipal Educación Superior Longavi — 36dd41658c0b519c4f0248a2592ec084c12f89fba3ec80fcb520f9a638c2d5f6
 Institución del registro: Municipalidad de Longavi.
@@ -1897,11 +1920,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 194. Beca Estudiantil Municipal Olivar — 3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4
 Institución del registro: Municipalidad de Olivar.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Cuenta Pública Olivar 2018: beca para universitarios de la comuna; reporta 47 beneficiarios en un apartado y 57 en otro. No dividir $21.150.000 para inferir monto individual. Faltan reglas de selección y resolver el alcance de esas cifras.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-OLIVAR-2018_compressed.pdf)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Beca Municipal de Olivar; ejecución 2020, páginas 90–91 de la cuenta pública.
+Beneficio corroborado: Aporte por semestre de $175.000 para estudiantes fuera de la región y $125.000 dentro de la región.
+Requisitos principales: Estudiar educación superior en universidad, instituto profesional o centro de formación técnica. Para continuidad en segundo semestre, acreditar alumno regular de ese periodo.
+Límites: Importes individuales tomados de columnas monto c/u, sin dividir presupuestos. No inferir RSH, NEM ni condiciones completas de selección. El primer pago sin condicionante se refiere a beneficiarios seleccionados, no a admisión universal.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf)
 
 ## 195. Beca Municipal Estudiantil Educación Superior San Gregorio — f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967
 Institución del registro: Municipalidad de San Gregorio.
@@ -2386,12 +2412,14 @@ Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 244. Beca Municipal Educación Superior Chiguayante — 3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a
 Institución del registro: Municipalidad de Chiguayante.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
-- [Referencia 2](https://chiguayante.cl/Chgte/?page_id=161)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.
+Beneficio corroborado: Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.
+Requisitos principales: Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.
+Límites: El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
 
 ## 245. Beca Municipal Estudiantil Lanco — 42e596bd66c43cc97ce7dab5adf1adccfce708abebbb20dc6f47fb8858e0bcb5
 Institución del registro: Municipalidad de Lanco.
@@ -2647,11 +2675,15 @@ Referencias y antecedentes consultados:
 
 ## 272. Beca Académica UDLA — 9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094
 Institución del registro: Universidad de Las Americas.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El catálogo UDLA consultado corresponde a admisión 2027. Excelencia UDLA exige NEM 6,7 y renovación 5,3 con 70% de créditos; no acredita equivalencia de la beca académica genérica ni condiciones 2026.
-Faltante: la confirmación esencial permanece abierta; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://admision.udla.cl/diurno/becas/)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.
+Beneficio corroborado: Reducción de hasta 100% del arancel anual según tramo de promedio PAES; se aplica al saldo después de beneficios externos.
+Requisitos principales: Estudiante nuevo de primer año 2026 por Sistema de Acceso; promedio de Competencia Lectora y Matemática 1 determina el tramo de beneficio.
+Límites: No confundir con Excelencia UDLA por NEM de admisión directa. No certificar NEM 5,5 ni porcentajes 20–35/50 del archivo. Tabla numérica por carrera y renovación específica no reconstruidas. Dos candidatas conservadas sin declarar duplicidad.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)
+- [Fuente 2](https://siae.udla.cl/sistema-de-becas/becas-udla/)
 
 ## 273. Beca Copago UDLA — ebbc870f644be29040fcef815783e2d5b20b767b2877ed8ca38773d8d89f98a8
 Institución del registro: Universidad de Las Americas.
@@ -2750,12 +2782,14 @@ Referencias y antecedentes consultados:
 
 ## 282. Beca Municipal para Estudiantes de Educación Superior Chiguayante — 362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4
 Institución del registro: Municipalidad de Chiguayante.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
-- [Referencia 2](https://chiguayante.cl/Chgte/?page_id=161)
+Estado: **CONFIRMADA_ESENCIAL**.
+Alcance: Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.
+Beneficio corroborado: Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.
+Requisitos principales: Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.
+Límites: El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.
+Informe de detalle: [Ampliación de 30](procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md).
+Referencias consultadas:
+- [Fuente 1](https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf)
 
 ## 283. Beca Municipal de Educación Superior Puerto Varas — 92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf
 Institución del registro: Municipalidad de Puerto Varas.

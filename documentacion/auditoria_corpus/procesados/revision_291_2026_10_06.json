@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 150,
-  "requieren_aclaracion": 141,
+  "confirmaciones_nuevas": 160,
+  "requieren_aclaracion": 131,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -585,8 +585,8 @@
       "candidato": "3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e",
       "nombre": "Beca de Residencia UFRO",
       "institucion": "Universidad de La Frontera",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. La noticia REAS 2021 confirma apoyo residencial y casas para estudiantes, pero no precisa todas las condiciones de acceso ni cobertura individual. No certificar gratuidad o manutención completa.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma exclusivamente REAS. El diagnóstico no fija umbrales, que quedan desconocidos; no certificar RSH 60%, alojamiento totalmente gratuito ni manutención completa. Cupos operativos de noticias no se presentan como oferta actual.",
       "fuentes": [
         {
           "url": "https://admision.ufro.cl/becas-y-beneficios/",
@@ -603,10 +603,35 @@
           "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos.",
           "sha256": "09513cb785be456ff7d5cabc9f8b7e1864dac7bc6c7e85ac1e2d96d3c99d0962",
           "url_final": "https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/"
+        },
+        {
+          "url": "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "170a8a901766c903089d59742cfe35784bb63c5163b628740a8768019e9b22cc",
+          "paginas": 155,
+          "url_final": "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf"
+        },
+        {
+          "url": "https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/",
+          "consulta": "2026-10-08"
+        },
+        {
+          "url": "https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/",
+          "consulta": "2026-10-08"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "UFRO: alojamiento en Residencias Estudiantiles Autogestionadas (REAS), alcance descrito en diagnóstico institucional 2023 y noticias 2024–2025.",
+        "beneficio": "Alojamiento en residencias autogestionadas; residentes contribuyen a servicios básicos. No se acredita subsidio monetario de arriendo.",
+        "requisitos_principales": "Estudiantes de pregrado provenientes de fuera de Temuco que necesitan alojamiento; selección contempla antecedentes académicos y socioeconómicos y revisión académica para renovar.",
+        "limites": "Se confirma exclusivamente REAS. El diagnóstico no fija umbrales, que quedan desconocidos; no certificar RSH 60%, alojamiento totalmente gratuito ni manutención completa. Cupos operativos de noticias no se presentan como oferta actual.",
+        "fuentes": [
+          "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+          "https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/",
+          "https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
@@ -1053,17 +1078,27 @@
       "candidato": "16549819d19a32f2ee89760b7e220306352014258237afa4ee4a45d9ddddfbd6",
       "nombre": "Beca Municipal de Educación Superior San Vicente",
       "institucion": "Municipalidad de San Vicente de Tagua Tagua",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El portal oficial indexado distingue Beca Municipal de excelencia y Beca Estímulo superior. El cuerpo dinámico no se recuperó en la apertura; la descripción del listado no define requisitos completos ni permite fusionar modalidades.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No extender montos de enseñanza media o discapacidad a superior. Umbrales RSH y NEM y convocatoria actualmente abierta desconocidos.",
       "fuentes": [
         {
-          "url": "https://convocatorias.municipalidadsanvicente.cl/",
+          "url": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
           "consulta": "2026-10-07",
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+          "sha256": "f8f6b2d29630a76748a68d727c8c4b8234c4600d49459f1dd8b245f935fa225d",
+          "paginas": 256,
+          "url_final": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de San Vicente de Tagua Tagua; categoría superior de la gestión 2025, páginas 157–158.",
+        "beneficio": "Aporte de $50.000 mensuales de marzo a diciembre.",
+        "requisitos_principales": "Estudiante de educación superior de escasos recursos y rendimiento sobresaliente; no contar con Beca Presidente de la República u otro beneficio similar.",
+        "limites": "No extender montos de enseñanza media o discapacidad a superior. Umbrales RSH y NEM y convocatoria actualmente abierta desconocidos.",
+        "fuentes": [
+          "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc",
@@ -1517,8 +1552,8 @@
       "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
       "nombre": "Beca Municipal Educación Superior Cerrillos",
       "institucion": "Municipalidad de Cerrillos",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se releyó el decreto oficial 202/1308 de 2018: NEM mínimo 5,5, ponderación vulnerabilidad 40%, NEM 40% e informe social 20%; incorpora restricción por Gratuidad. La modificación no reproduce toda la descripción monetaria del texto refundido de 2013. El catastro 2022 con NEM 5,8 y ocho cuotas de $125.000 no se combina con este año: falta edición completa concordante.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Decreto modificatorio, no texto consolidado: las restricciones adicionales no se reconstruyen por inferencia. No confirmar $150.000 del archivo ni RSH máximo. Puntaje nacional PSU es otra modalidad y no se convierte en PAES.",
       "fuentes": [
         {
           "url": "https://www.bcn.cl/leychile/navegar?idNorma=1125252",
@@ -1546,8 +1581,16 @@
           "url_final": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca de educación superior de escasos recursos de Cerrillos; modificación de Ordenanza 20 publicada el 14 de noviembre de 2018.",
+        "beneficio": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.",
+        "requisitos_principales": "Estudiantes de escasos recursos de Cerrillos; NEM mínimo 5,5. Selección pondera vulnerabilidad 40%, NEM 40% e informe social 20%; se incorpora gratuidad a restricciones.",
+        "limites": "Decreto modificatorio, no texto consolidado: las restricciones adicionales no se reconstruyen por inferencia. No confirmar $150.000 del archivo ni RSH máximo. Puntaje nacional PSU es otra modalidad y no se convierte en PAES.",
+        "fuentes": [
+          "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
@@ -2677,17 +2720,27 @@
       "candidato": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",
       "nombre": "Beca Municipal Excelencia y Beca Estimulo Enseñanza Superior",
       "institucion": "Municipalidad de San Vicente de Tagua Tagua",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El portal San Vicente distingue Excelencia Académica y Estímulo para Enseñanza Superior. Sin bases de cada modalidad no hay monto o elegibilidad comunes que certifiquen el alias combinado.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Dos modalidades distintas: no sumar sus aportes ni afirmar compatibilidad. No convertir el registro conjunto en programa único. Los umbrales académicos y RSH no están definidos en la cuenta pública.",
       "fuentes": [
         {
-          "url": "https://convocatorias.municipalidadsanvicente.cl/",
+          "url": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
           "consulta": "2026-10-07",
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+          "sha256": "f8f6b2d29630a76748a68d727c8c4b8234c4600d49459f1dd8b245f935fa225d",
+          "paginas": 256,
+          "url_final": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Registro conjunto de San Vicente; se distinguen Beca Municipal superior y Estímulo para la Enseñanza Superior en gestión 2025, páginas 157–159.",
+        "beneficio": "Municipal superior: $50.000 mensuales marzo–diciembre. Estímulo: $130.000 por una vez y de libre disposición.",
+        "requisitos_principales": "Municipal: escasos recursos, rendimiento sobresaliente y sin BPR o similar. Estímulo: egresados de media o estudiantes superiores en universidad, IP o CFT acreditado; dificultad económica para estudiar fuera de la comuna.",
+        "limites": "Dos modalidades distintas: no sumar sus aportes ni afirmar compatibilidad. No convertir el registro conjunto en programa único. Los umbrales académicos y RSH no están definidos en la cuenta pública.",
+        "fuentes": [
+          "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925",
@@ -3717,8 +3770,8 @@
       "candidato": "00d1fa426f88bf92442581048ebdb3109c6b53bcb6ce2210a1a6fb33f41d813b",
       "nombre": "Beca Municipal Ilustre Municipalidad de La Estrella",
       "institucion": "Municipalidad de La Estrella",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta La Estrella 2021 identifica beca municipal de educación superior: $36.042 mensuales y $360.420 anuales por estudiante. No publica umbrales de selección ni acredita convocatoria actual; no inferir NEM o RSH.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La cuenta pública explica el apoyo en contexto de vulnerabilidad, pero no fija RSH ni NEM exigibles: quedan desconocidos. No trasladar el monto de enseñanza media. Confirmación histórica, sin certificar convocatoria actual.",
       "fuentes": [
         {
           "url": "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf",
@@ -3731,8 +3784,16 @@
           "url_final": "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de La Estrella; categoría superior ejecutada en 2021, páginas 76–77.",
+        "beneficio": "$36.042 mensuales; total anual de $360.420 por estudiante de educación superior.",
+        "requisitos_principales": "Estudiantes superiores originarios de la comuna que deben continuar sus estudios donde exista oferta de educación superior.",
+        "limites": "La cuenta pública explica el apoyo en contexto de vulnerabilidad, pero no fija RSH ni NEM exigibles: quedan desconocidos. No trasladar el monto de enseñanza media. Confirmación histórica, sin certificar convocatoria actual.",
+        "fuentes": [
+          "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "74f2312dfa48e8430ec8fe4af6235fc7ea200c9df394dd1951508c5797ea0930",
@@ -4743,8 +4804,8 @@
       "candidato": "0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86",
       "nombre": "Beca Municipal de Educación Superior Combarbala",
       "institucion": "Municipalidad de Combarbala",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta Combarbalá 2024 separa beca municipal ($30.000 mensuales, $50.000 desde segundo semestre) y mejores PAES ($100.000 mensuales). Faltan requisitos de selección de la municipal; no usar el premio PAES como aporte universal.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La cuenta pública documenta destinatarios y finalidad, sin publicar todos los criterios de selección. No inferir RSH ni NEM. No confundir con beca PAES ni Hogar Limarí del mismo apartado.",
       "fuentes": [
         {
           "url": "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf",
@@ -4757,8 +4818,16 @@
           "url_final": "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Combarbalá; apartado 9.3 A de la gestión 2024.",
+        "beneficio": "$30.000 mensuales en primer semestre y $50.000 mensuales en segundo semestre de 2024.",
+        "requisitos_principales": "Estudiantes de la comuna que continúan estudios de educación superior.",
+        "limites": "La cuenta pública documenta destinatarios y finalidad, sin publicar todos los criterios de selección. No inferir RSH ni NEM. No confundir con beca PAES ni Hogar Limarí del mismo apartado.",
+        "fuentes": [
+          "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "36dd41658c0b519c4f0248a2592ec084c12f89fba3ec80fcb520f9a638c2d5f6",
@@ -5641,8 +5710,8 @@
       "candidato": "3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4",
       "nombre": "Beca Estudiantil Municipal Olivar",
       "institucion": "Municipalidad de Olivar",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta Pública Olivar 2018: beca para universitarios de la comuna; reporta 47 beneficiarios en un apartado y 57 en otro. No dividir $21.150.000 para inferir monto individual. Faltan reglas de selección y resolver el alcance de esas cifras.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Importes individuales tomados de columnas monto c/u, sin dividir presupuestos. No inferir RSH, NEM ni condiciones completas de selección. El primer pago sin condicionante se refiere a beneficiarios seleccionados, no a admisión universal.",
       "fuentes": [
         {
           "url": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-OLIVAR-2018_compressed.pdf",
@@ -5654,10 +5723,25 @@
           "lectura_limite": "primeras 60 páginas",
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "183f408284100ac317cdcb6c358450c2e74534e0c38a8133c460a30e907af575",
+          "paginas": 200,
+          "url_final": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Beca Municipal de Olivar; ejecución 2020, páginas 90–91 de la cuenta pública.",
+        "beneficio": "Aporte por semestre de $175.000 para estudiantes fuera de la región y $125.000 dentro de la región.",
+        "requisitos_principales": "Estudiar educación superior en universidad, instituto profesional o centro de formación técnica. Para continuidad en segundo semestre, acreditar alumno regular de ese periodo.",
+        "limites": "Importes individuales tomados de columnas monto c/u, sin dividir presupuestos. No inferir RSH, NEM ni condiciones completas de selección. El primer pago sin condicionante se refiere a beneficiarios seleccionados, no a admisión universal.",
+        "fuentes": [
+          "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "f5f48010ee916be505545f229eb36c834c6cbda2f09777db3d9a7a79201af967",
@@ -7195,8 +7279,8 @@
       "candidato": "3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a",
       "nombre": "Beca Municipal Educación Superior Chiguayante",
       "institucion": "Municipalidad de Chiguayante",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
       "fuentes": [
         {
           "url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
@@ -7219,8 +7303,16 @@
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+        "beneficio": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+        "requisitos_principales": "Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.",
+        "limites": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
+        "fuentes": [
+          "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "42e596bd66c43cc97ce7dab5adf1adccfce708abebbb20dc6f47fb8858e0bcb5",
@@ -7994,8 +8086,8 @@
       "candidato": "9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094",
       "nombre": "Beca Académica UDLA",
       "institucion": "Universidad de Las Americas",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El catálogo UDLA consultado corresponde a admisión 2027. Excelencia UDLA exige NEM 6,7 y renovación 5,3 con 70% de créditos; no acredita equivalencia de la beca académica genérica ni condiciones 2026.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "No confundir con Excelencia UDLA por NEM de admisión directa. No certificar NEM 5,5 ni porcentajes 20–35/50 del archivo. Tabla numérica por carrera y renovación específica no reconstruidas. Dos candidatas conservadas sin declarar duplicidad.",
       "fuentes": [
         {
           "url": "https://admision.udla.cl/becas/",
@@ -8011,10 +8103,32 @@
           "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos.",
           "sha256": "981b8d739b626af425ac0545e21f7260a6ef26d7c7612be46b839bf95890f704",
           "url_final": "https://admision.udla.cl/diurno/becas/"
+        },
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+        },
+        {
+          "url": "https://siae.udla.cl/sistema-de-becas/becas-udla/",
+          "consulta": "2026-10-07",
+          "sha256": "f4ac79b251195276efbf61cb30ffbeb4df4861784c8564e8f445748ff5320a54",
+          "url_final": "https://siae.udla.cl/becas-udla/"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.",
+        "beneficio": "Reducción de hasta 100% del arancel anual según tramo de promedio PAES; se aplica al saldo después de beneficios externos.",
+        "requisitos_principales": "Estudiante nuevo de primer año 2026 por Sistema de Acceso; promedio de Competencia Lectora y Matemática 1 determina el tramo de beneficio.",
+        "limites": "No confundir con Excelencia UDLA por NEM de admisión directa. No certificar NEM 5,5 ni porcentajes 20–35/50 del archivo. Tabla numérica por carrera y renovación específica no reconstruidas. Dos candidatas conservadas sin declarar duplicidad.",
+        "fuentes": [
+          "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "https://siae.udla.cl/sistema-de-becas/becas-udla/"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "ebbc870f644be29040fcef815783e2d5b20b767b2877ed8ca38773d8d89f98a8",
@@ -8318,8 +8432,8 @@
       "candidato": "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",
       "nombre": "Beca Municipal para Estudiantes de Educación Superior Chiguayante",
       "institucion": "Municipalidad de Chiguayante",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. Ordenanza Chiguayante 2000: becas para alumnos destacados y exalumnos de escuelas municipales; NEM 6,0 y PAA 600 o matrícula alternativa prevista. Hasta 15 UTM según presupuesto. No confirma aporte genérico por necesidad ni $150.000; PAA no se convierte en PAES y la vigencia de la ordenanza requiere ratificación.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
       "fuentes": [
         {
           "url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
@@ -8342,8 +8456,16 @@
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-07"
+      "alcance": {
+        "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+        "beneficio": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+        "requisitos_principales": "Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.",
+        "limites": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
+        "fuentes": [
+          "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+        ]
+      },
+      "ultima_revision": "2026-10-08"
     },
     {
       "candidato": "92d1b47979f80ceba46965409ecc3a337c5fa9b149d7c8756907495464a2e3bf",
@@ -8968,5 +9090,51 @@
     "descartes_nuevos": 0,
     "originales_preservados": true,
     "informe": "procesados/CONFIRMACION_ESENCIAL_30_2026_10_07.md"
+  },
+  "ampliacion_2026_10_08": {
+    "fecha": "2026-10-08",
+    "confirmaciones_adicionales": 30,
+    "del_lote_291": 10,
+    "exclusiones_reconsideradas": 20,
+    "candidatos": [
+      "00d1fa426f88bf92442581048ebdb3109c6b53bcb6ce2210a1a6fb33f41d813b",
+      "02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f",
+      "0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86",
+      "1505c7ed3c606713feb675642dc272cb31eeeedb9324f4368475b5d8746a6bae",
+      "16549819d19a32f2ee89760b7e220306352014258237afa4ee4a45d9ddddfbd6",
+      "20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279",
+      "3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a",
+      "32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3",
+      "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",
+      "3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4",
+      "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+      "3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e",
+      "46ce6745c005ceab3194b5e57b25126208a6e023643949829942f594bc39ffce",
+      "53e222463ef2465e09c5f0f2df32431163625b0939925ae40b86c676efa6a889",
+      "5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df",
+      "5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff",
+      "62a17a7e1af79715acfef1329490e40e539ffea6464182646bbe6f0b8e483a2f",
+      "6df6b1fdb7542c8a80b8340c0cf17a92226887ab13bbf0501c4654787428d33e",
+      "866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af",
+      "86e8521e23d94015034c50c52d18ef04207e5c225f1cc8e319bbe482f9011dc2",
+      "91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5",
+      "9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094",
+      "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
+      "a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af",
+      "bfaa96e4bff3e6085df773d50a5492c27480eeff4cf50f9e42ab60377f6fc5b7",
+      "c569b40a8d5f68cc73121d2de6883233dbc7c7dbcdb5c0258165d6c95ab22cfd",
+      "d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00",
+      "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+      "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+      "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044"
+    ],
+    "respaldo": {
+      "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261007-212018.zip",
+      "archivos": 195,
+      "sha256": "9d906e1c362c5bd87ef8d0abce3efd5efd906a8bf56de9160eb015021ddeb73d"
+    },
+    "descartes_nuevos": 0,
+    "originales_preservados": true,
+    "informe": "procesados/AMPLIACION_ESENCIAL_30_2026_10_08.md"
   }
 }

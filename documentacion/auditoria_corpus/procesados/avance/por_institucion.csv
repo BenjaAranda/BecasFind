@@ -1,8 +1,8 @@
 institucion,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,descartadas,pendientes_confirmacion
-AIEP,5,0,0,0,3,2,0
+AIEP,5,0,0,0,4,1,0
 CFT ENAC,6,0,0,0,0,6,0
 DUOC UC,4,0,0,0,4,0,0
-INACAP,6,0,0,0,2,4,0
+INACAP,6,0,0,0,4,2,0
 IP Chile,6,0,0,0,2,4,0
 JUNAEB,4,0,0,0,4,0,0
 Ministerio de Educación,5,0,0,0,5,0,0
@@ -34,11 +34,11 @@ Municipalidad de Cartagena,1,1,0,0,0,0,1
 Municipalidad de Casablanca,2,0,0,0,2,0,0
 Municipalidad de Catemu,1,1,0,0,0,0,1
 Municipalidad de Cauquenes,1,0,0,0,0,1,0
-Municipalidad de Cerrillos,1,1,0,0,0,0,1
+Municipalidad de Cerrillos,1,0,0,0,1,0,0
 Municipalidad de Cerro Navia,2,0,0,0,2,0,0
 Municipalidad de Chaiten,1,0,0,0,1,0,0
 Municipalidad de Chanaral,1,1,0,0,0,0,1
-Municipalidad de Chiguayante,2,2,0,0,0,0,2
+Municipalidad de Chiguayante,2,0,0,0,2,0,0
 Municipalidad de Chillan,1,0,0,0,1,0,0
 Municipalidad de Chillan Viejo,1,0,0,0,1,0,0
 Municipalidad de Chimbarongo,1,1,0,0,0,0,1
@@ -54,7 +54,7 @@ Municipalidad de Colchane,1,1,0,0,0,0,1
 Municipalidad de Colina,2,0,0,0,2,0,0
 Municipalidad de Collipulli,1,0,0,0,1,0,0
 Municipalidad de Coltauco,1,1,0,0,0,0,1
-Municipalidad de Combarbala,1,1,0,0,0,0,1
+Municipalidad de Combarbala,1,0,0,0,1,0,0
 Municipalidad de Concepción,1,1,0,0,0,0,1
 Municipalidad de Conchali,2,0,0,0,2,0,0
 Municipalidad de Concon,1,1,0,0,0,0,1
@@ -105,7 +105,7 @@ Municipalidad de Juan Fernandez,1,1,0,0,0,0,1
 Municipalidad de La Calera,1,1,0,0,0,0,1
 Municipalidad de La Cisterna,1,0,0,0,1,0,0
 Municipalidad de La Cruz,1,1,0,0,0,0,1
-Municipalidad de La Estrella,1,1,0,0,0,0,1
+Municipalidad de La Estrella,1,0,0,0,1,0,0
 Municipalidad de La Florida,2,2,0,0,0,0,2
 Municipalidad de La Granja,2,0,0,0,2,0,0
 Municipalidad de La Ligua,1,0,0,0,1,0,0
@@ -163,7 +163,7 @@ Municipalidad de Ninhue,1,0,0,0,1,0,0
 Municipalidad de Nogales,1,1,0,0,0,0,1
 Municipalidad de Nueva Imperial,1,1,0,0,0,0,1
 Municipalidad de O'Higgins,1,0,0,0,1,0,0
-Municipalidad de Olivar,1,1,0,0,0,0,1
+Municipalidad de Olivar,1,0,0,0,1,0,0
 Municipalidad de Olmue,1,0,0,0,1,0,0
 Municipalidad de Osorno,1,1,0,0,0,0,1
 Municipalidad de Ovalle,1,0,0,0,1,0,0
@@ -256,7 +256,7 @@ Municipalidad de San Pedro de Melipilla,1,1,0,0,0,0,1
 Municipalidad de San Pedro de la Paz,1,1,0,0,0,0,1
 Municipalidad de San Ramon,1,0,0,0,1,0,0
 Municipalidad de San Rosendo,1,1,0,0,0,0,1
-Municipalidad de San Vicente de Tagua Tagua,2,2,0,0,0,0,2
+Municipalidad de San Vicente de Tagua Tagua,2,0,0,0,2,0,0
 Municipalidad de Santa Barbara,1,1,0,0,0,0,1
 Municipalidad de Santa Cruz,1,1,0,0,0,0,1
 Municipalidad de Santa Juana,1,1,0,0,0,0,1
@@ -298,41 +298,41 @@ Municipalidad de Yungay,1,0,0,0,1,0,0
 Municipalidad de Zapallar,1,1,0,0,0,0,1
 Pontificia Universidad Católica de Chile,3,0,0,0,2,1,0
 Pontificia Universidad Católica de Valparaíso,5,0,0,0,2,3,0
-Santo Tomás,6,0,0,0,3,3,0
+Santo Tomás,6,0,0,0,5,1,0
 Universidad Adolfo Ibanez,3,0,0,0,0,3,0
 Universidad Adolfo Ibáñez,5,0,0,0,2,3,0
 Universidad Alberto Hurtado,5,0,0,0,3,2,0
-Universidad Arturo Prat,6,0,0,0,4,2,0
+Universidad Arturo Prat,6,0,0,0,5,1,0
 Universidad Austral de Chile,4,0,0,0,4,0,0
 Universidad Autónoma de Chile,6,0,0,0,4,2,0
-Universidad Bernardo O'Higgins,5,0,0,0,2,3,0
+Universidad Bernardo O'Higgins,5,0,0,0,3,2,0
 Universidad Católica Silva Henriquez,5,0,0,0,2,3,0
 Universidad Católica de Temuco,6,0,0,0,1,5,0
 Universidad Católica de la Santisima Concepción,1,0,0,0,1,0,0
-Universidad Católica de la Santísima Concepción,4,0,0,0,2,2,0
+Universidad Católica de la Santísima Concepción,4,0,0,0,3,1,0
 Universidad Católica del Norte,4,0,0,0,4,0,0
 Universidad Central de Chile,4,1,0,0,3,0,1
 Universidad Diego Portales,6,0,0,0,6,0,0
-Universidad Finis Terrae,5,0,0,0,3,2,0
-Universidad Mayor,6,0,0,0,3,3,0
-Universidad Nacional Andrés Bello,7,0,0,0,3,4,0
+Universidad Finis Terrae,5,0,0,0,5,0,0
+Universidad Mayor,6,0,0,0,4,2,0
+Universidad Nacional Andrés Bello,7,0,0,0,4,3,0
 Universidad San Sebastián,7,0,0,0,7,0,0
 Universidad Técnica Federico Santa Maria,6,0,0,0,6,0,0
-Universidad Viña del Mar,5,0,0,0,1,4,0
+Universidad Viña del Mar,5,0,0,0,5,0,0
 Universidad de Chile,7,0,0,1,6,0,0
 Universidad de Concepción,3,0,0,0,0,3,0
-Universidad de La Frontera,5,3,0,0,2,0,3
-Universidad de Las Americas,3,1,0,0,2,0,1
-Universidad de Las Américas,4,0,0,0,2,2,0
+Universidad de La Frontera,5,2,0,0,3,0,2
+Universidad de Las Americas,3,0,0,0,3,0,0
+Universidad de Las Américas,4,0,0,0,3,1,0
 Universidad de Los Lagos,6,0,0,0,3,3,0
 Universidad de Magallanes,6,2,0,0,4,0,2
-Universidad de Playa Ancha,5,0,0,0,1,4,0
+Universidad de Playa Ancha,5,0,0,0,2,3,0
 Universidad de Santiago de Chile,3,1,0,0,2,0,1
 Universidad de Talca,7,0,0,0,7,0,0
-Universidad de Tarapaca,1,0,0,0,0,1,0
+Universidad de Tarapaca,1,0,0,0,1,0,0
 Universidad de Tarapacá,4,0,0,0,3,1,0
 Universidad de Valparaíso,4,1,0,0,3,0,1
 Universidad de los Andes,8,0,0,0,7,1,0
 Universidad del Bio-Bio,1,0,0,0,1,0,0
 Universidad del Bío-Bío,4,0,0,0,4,0,0
-Universidad del Desarrollo,8,0,0,0,2,6,0
+Universidad del Desarrollo,8,0,0,0,3,5,0
