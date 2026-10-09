@@ -37,13 +37,13 @@ Aceptación: 157 hashes distintos; ninguna exclusión heredada queda fuera; cada
 
 ### 2. Resolver primero lo que ya tiene evidencia recuperable
 
-- [ ] Seleccionar bloques de 50 o más candidatas por institución/programa y disponibilidad de evidencia; objetivo de entrega: al menos 30 confirmaciones nuevas, sin imponer resultados sin respaldo.
+- [ ] Seleccionar bloques de 30 candidatas por petición del 9 de octubre de 2026 por institución/programa y disponibilidad de evidencia; objetivo de entrega: al menos 30 confirmaciones nuevas, sin imponer resultados sin respaldo.
 - [ ] Leer una vez cada fuente compartida y mapear sus apartados a las candidatas; aprovechar los datos y documentos ya reunidos.
 - [ ] Corregir discrepancias del mismo programa y cerrar los cuatro controles esenciales sin reconstruir calendario anual ni documentación exhaustiva.
 
 Aceptación: cada confirmación tiene evidencia individual de los cuatro controles y límites; las correcciones no sustituyen programas. Dependencia: paso 1. Verificación: comparación con contenido oficial leído.
 
-Punto de control tras las primeras diez candidatas: si no aparecen cierres, revisar el tipo de bloqueo y cambiar fuente o método antes de recorrer las otras cuarenta. Este control es interno; no convertirlo en una entrega de una o dos confirmaciones. Una consulta repetida sin evidencia nueva no cuenta como avance.
+Punto de control tras las primeras diez candidatas: si no aparecen cierres, revisar el tipo de bloqueo y cambiar fuente o método antes de recorrer las restantes del bloque. Este control es interno; no convertirlo en una entrega de una o dos confirmaciones. Una consulta repetida sin evidencia nueva no cuenta como avance.
 
 ### 3. Resolver acceso difícil y variantes dentro del mismo bloque
 
@@ -72,3 +72,7 @@ Los resultados de informes anteriores siguen como antecedentes. Este plan cambia
 Bloque inicial de 50: tres confirmaciones históricas nuevas (Nueva Imperial 2024, Santa Cruz 2020 y programa de Requínoa con reglamento 2014); 47 sin cierre esencial. [Informe individual](../documentacion/auditoria_corpus/procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md). Total: 412 esenciales, dos completas, 111 aclaraciones y 43 exclusiones antiguas sin ratificar; 154 por resolver. El objetivo de treinta cierres sigue abierto.
 
 La selección inicial no garantizaba documentos suficientes: varias rutas corresponden a deportes, convenios o becas estatales. Antes del siguiente bloque deben distinguirse esas modalidades y buscarse el documento específico; repetir esas páginas no constituye progreso. Los intentos de acceso están diferenciados de lectura. No se ejecutaron pruebas de aplicación.
+
+## Ejecución del 9 de octubre de 2026
+
+Se contrastaron 107 candidatas adicionales en bloques de 30, 30, 30 y 17. Se recuperó contenido de 68 de 77 enlaces distintos; nueve fallaron. Recuperar contenido no equivale a confirmar. Los informes separan programas diferentes, fuentes generales y carencias esenciales. La revisión no permite dar por confirmadas todas las candidatas; deben resolverse las correspondencias documentadas. Quality quedó corregido con `source-map-js` 1.2.2: audit sin vulnerabilidades, lint y compilación local correctos; ejecuciones GitHub 38004778577 y 38004772848 satisfactorias.
