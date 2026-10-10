@@ -1,6 +1,6 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
-Estado actual al 9 de octubre: 187 confirmaciones esenciales y 104 aclaraciones dentro de esta cohorte de 291. [Últimas correcciones y fuentes](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md). Los conteos de los apartados siguientes describen entregas históricas.
+Estado actual al 9 de octubre: 189 confirmaciones esenciales y 102 aclaraciones dentro de esta cohorte de 291. [Últimas correcciones y fuentes](procesados/CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md). Los conteos de los apartados siguientes describen entregas históricas.
 
 Resultado acumulado de estas 291: 180 confirmaciones esenciales y 111 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
@@ -1044,17 +1044,18 @@ Referencias y antecedentes consultados:
 - [Referencia 1](https://eltabo.cl/wp-content/uploads/2025/03/Reglamento-y-requisitos-Becas-2025.pdf)
 
 ## 081. Beca Educación Superior — 7b32991aa64fc28ef4dc7f1df6a1aee4da3c366a0b257a738ac100a101bc5ee9
-Institución del registro: Municipalidad de Cartagena.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se relee la ficha municipal 2025: residencia de cinco años; RSH entre 40% y 80%; matrícula superior; cuarto medio 5,5 o último semestre superior 5,0; sin título previo. La ficha no describe importe ni naturaleza detallada del beneficio, por lo que cobertura permanece pendiente. No certificar RSH máximo 60% del original.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf)
 
-Última revisión (8 de octubre): Requisitos 2025 corroborados: residencia cinco años, RSH 40–80%, matrícula reconocida, media 5,5 o superior 5,0 y sin título previo. El documento no describe cobertura: ese campo sigue abierto.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 9 de octubre de 2026.
 
-Contraste del 8 de octubre: La ficha de requisitos Cartagena 2025 acredita residencia cinco años, RSH 40–80%, matrícula, notas y ausencia de título. Falta beneficio primario de esa convocatoria; no trasladar importe de una entrega 2026. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
+Beca Educación Superior de Cartagena; bases 2025 y Cuenta Pública gestión 2025, páginas 32 y 216. Confirmación histórica de la naturaleza monetaria y elegibilidad; importe 2025 desconocido.
+
+Aporte monetario municipal para estudios superiores. La cuenta pública 2025 registra las becas municipales y transferencias de asistencia social relacionadas con becas de estudio. No cuantifica el importe individual de esta modalidad en 2025.
+
+Bases 2025: residencia en Cartagena de cinco años; RSH comunal entre 40% y 80%; matrícula en institución superior reconocida por el Estado; promedio 5,0 del último semestre superior o 5,5 de cuarto medio para egresados; no poseer título técnico superior o profesional; cédula vigente y correo de contacto.
+
+No mezclar convocatorias: la noticia municipal de 24 de septiembre de 2026 acredita 400.000 CLP por estudiante y distingue 495 becas superiores de 43 deportivas/artísticas. Ese importe no se traslada a 2025 ni las condiciones 2025 a 2026. Calendario 2026 del original sin confirmar. El límite inferior RSH 40% y los dos promedios académicos no se expresan correctamente mediante un único filtro máximo RSH y NEM.
+
+Informe: [detalle](procesados/CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md).
 
 ## 082. Beca Municipal de Educación Superior — ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544
 Institución del registro: Municipalidad de La Cruz.
@@ -2275,18 +2276,18 @@ Fuentes específicas consultadas o intentadas:
 Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 187. Beca Municipal y Beca Mérito Deportivo — 5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9
-Institución del registro: Municipalidad de Punitaqui.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La URL recuperada corresponde a Mérito Deportivo 2026 de Punitaqui, no a una convocatoria conjunta municipal superior. No sumar ni mezclar categorías con ayuda estudiantil.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/)
 
-Última revisión (8 de octubre): Ficha municipal confirma Mérito Deportivo hasta 5 UTM anuales. Es programa deportivo, no evidencia de la beca superior candidata.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 9 de octubre de 2026.
 
+Beca al Mérito Deportivo de Punitaqui 2026, categorías Deportista Destacado y Deportista de Proyección. Corregir el título compuesto del original para representar exclusivamente el programa deportivo descrito.
 
-Contraste del 9 de octubre: La descripción original identifica expresamente Mérito Deportivo. La ficha municipal 2026 acredita hasta 5 UTM anuales para gastos deportivos, residencia permanente y evaluación social. Corrige la restricción original a carreras técnicas/superiores: la beca no exige ese nivel y prohíbe financiar matrícula o arancel. El encabezado compuesto no acredita otra beca general. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
+Hasta 5 UTM anuales, sujeto a disponibilidad presupuestaria y aprobación municipal. Uso exclusivo en transporte a entrenamientos/competencias, inscripción, hospedaje deportivo y equipamiento especializado. Prohíbe matrícula, arancel, clubes privados y gastos ajenos a la disciplina.
+
+Residencia permanente en Punitaqui acreditada por RSH; informe socioeconómico; práctica deportiva sistemática y competitiva; conducta intachable; no tener deudas municipales ni rendiciones pendientes. Destacados: trayectoria y condición de seleccionado o preseleccionado regional/nacional. Proyección: participación destacada en club u organización y cualidades sobresalientes.
+
+La identificación se apoya en la descripción original que nombra Beca Mérito Deportivo y coincide en importe, periodicidad, ventana de postulación y ausencia de deudas/rendiciones. No se confirma una segunda beca general de mantención. La fuente no exige cursar carrera técnica/superior ni publica NEM 5,0 o RSH máximo 60%; retirarlos de la ficha corregida. No convertir UTM a pesos. El plazo publicado es desde primer día hábil de marzo hasta último día hábil de mayo; no usar 1 de marzo y 31 de mayo como fechas confirmadas. No activar.
+
+Informe: [detalle](procesados/CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md).
 
 ## 188. Beca Municipal Alberto Antonio Herrera Cardenas — 70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd
 Institución del registro: Municipalidad de San Juan de la Costa.
@@ -3450,3 +3451,6 @@ Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
 Referencias y antecedentes consultados:
 - [Referencia 1](https://transparencia.temuco.cl/theconcejo/2024/junio/18-06.pdf)
 - [Referencia 2](https://www.temuco.cl/dideco/)
+
+
+Actualización del 9 de octubre: Cartagena y Punitaqui cierran lo esencial con sus límites expresos. La cohorte de 291 queda en 189 confirmaciones esenciales y 102 aclaraciones. Conteo global: 422 esenciales; dos completas; 144 sin resolución, incluidas 42 exclusiones históricas sin ratificar.

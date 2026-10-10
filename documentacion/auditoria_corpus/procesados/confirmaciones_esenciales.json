@@ -8944,5 +8944,65 @@
       "monto": "Apoyo alimentario; almuerzo y cena universales no acreditados",
       "rsh_documentos_fechas": "Desconocidos para el alcance leído"
     }
+  },
+  {
+    "candidato": "7b32991aa64fc28ef4dc7f1df6a1aee4da3c366a0b257a738ac100a101bc5ee9",
+    "revisado": "2026-10-09",
+    "alcance": "Beca Educación Superior de Cartagena; bases 2025 y Cuenta Pública gestión 2025, páginas 32 y 216. Confirmación histórica de la naturaleza monetaria y elegibilidad; importe 2025 desconocido.",
+    "informe": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md",
+    "fuentes": [
+      "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
+      "https://drive.google.com/file/d/1uuP1pliYswd0nuv5ShRJYYfuOk46M_Rn/view",
+      "https://cms.municipalidadcartagena.cl/noticias/742"
+    ],
+    "beneficio": "Aporte monetario municipal para estudios superiores. La cuenta pública 2025 registra las becas municipales y transferencias de asistencia social relacionadas con becas de estudio. No cuantifica el importe individual de esta modalidad en 2025.",
+    "requisitos_principales": "Bases 2025: residencia en Cartagena de cinco años; RSH comunal entre 40% y 80%; matrícula en institución superior reconocida por el Estado; promedio 5,0 del último semestre superior o 5,5 de cuarto medio para egresados; no poseer título técnico superior o profesional; cédula vigente y correo de contacto.",
+    "limites": "No mezclar convocatorias: la noticia municipal de 24 de septiembre de 2026 acredita 400.000 CLP por estudiante y distingue 495 becas superiores de 43 deportivas/artísticas. Ese importe no se traslada a 2025 ni las condiciones 2025 a 2026. Calendario 2026 del original sin confirmar. El límite inferior RSH 40% y los dos promedios académicos no se expresan correctamente mediante un único filtro máximo RSH y NEM.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correcciones": {
+      "url": "Bases oficiales específicas; sustituir raíz en ficha revisada",
+      "alcance_temporal": "Condiciones confirmadas para 2025; no declarar vigencia 2026",
+      "monto": "Aporte monetario; importe 2025 desconocido",
+      "rsh": "Intervalo 40–80%, no solamente máximo 80%",
+      "notas": "5,5 cuarto medio o 5,0 último semestre superior; distinguir ambos casos"
+    }
+  },
+  {
+    "candidato": "5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9",
+    "revisado": "2026-10-09",
+    "alcance": "Beca al Mérito Deportivo de Punitaqui 2026, categorías Deportista Destacado y Deportista de Proyección. Corregir el título compuesto del original para representar exclusivamente el programa deportivo descrito.",
+    "informe": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md",
+    "fuentes": [
+      "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/"
+    ],
+    "beneficio": "Hasta 5 UTM anuales, sujeto a disponibilidad presupuestaria y aprobación municipal. Uso exclusivo en transporte a entrenamientos/competencias, inscripción, hospedaje deportivo y equipamiento especializado. Prohíbe matrícula, arancel, clubes privados y gastos ajenos a la disciplina.",
+    "requisitos_principales": "Residencia permanente en Punitaqui acreditada por RSH; informe socioeconómico; práctica deportiva sistemática y competitiva; conducta intachable; no tener deudas municipales ni rendiciones pendientes. Destacados: trayectoria y condición de seleccionado o preseleccionado regional/nacional. Proyección: participación destacada en club u organización y cualidades sobresalientes.",
+    "limites": "La identificación se apoya en la descripción original que nombra Beca Mérito Deportivo y coincide en importe, periodicidad, ventana de postulación y ausencia de deudas/rendiciones. No se confirma una segunda beca general de mantención. La fuente no exige cursar carrera técnica/superior ni publica NEM 5,0 o RSH máximo 60%; retirarlos de la ficha corregida. No convertir UTM a pesos. El plazo publicado es desde primer día hábil de marzo hasta último día hábil de mayo; no usar 1 de marzo y 31 de mayo como fechas confirmadas. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correcciones": {
+      "nombre": "Beca al Mérito Deportivo de Punitaqui",
+      "tipo": "Beca deportiva; no mantención de educación superior",
+      "destino": "Gastos deportivos; matrícula y arancel prohibidos",
+      "nivel_educativo": "Sin exigencia de educación superior en la fuente",
+      "nem_minimo": null,
+      "rsh_maximo": null,
+      "monto": "Hasta 5 UTM anuales; no 5 UTM garantizadas"
+    }
   }
 ]

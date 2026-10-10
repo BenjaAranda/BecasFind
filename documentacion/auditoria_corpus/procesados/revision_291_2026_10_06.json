@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 187,
-  "requieren_aclaracion": 104,
+  "confirmaciones_nuevas": 189,
+  "requieren_aclaracion": 102,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -2701,8 +2701,8 @@
       "candidato": "7b32991aa64fc28ef4dc7f1df6a1aee4da3c366a0b257a738ac100a101bc5ee9",
       "nombre": "Beca Educación Superior",
       "institucion": "Municipalidad de Cartagena",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La ficha de requisitos Cartagena 2025 acredita residencia cinco años, RSH 40–80%, matrícula, notas y ausencia de título. Falta beneficio primario de esa convocatoria; no trasladar importe de una entrega 2026.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Aporte monetario municipal para estudios superiores. La cuenta pública 2025 registra las becas municipales y transferencias de asistencia social relacionadas con becas de estudio. No cuantifica el importe individual de esta modalidad en 2025. Bases 2025: residencia en Cartagena de cinco años; RSH comunal entre 40% y 80%; matrícula en institución superior reconocida por el Estado; promedio 5,0 del último semestre superior o 5,5 de cuarto medio para egresados; no poseer título técnico superior o profesional; cédula vigente y correo de contacto. No mezclar convocatorias: la noticia municipal de 24 de septiembre de 2026 acredita 400.000 CLP por estudiante y distingue 495 becas superiores de 43 deportivas/artísticas. Ese importe no se traslada a 2025 ni las condiciones 2025 a 2026. Calendario 2026 del original sin confirmar. El límite inferior RSH 40% y los dos promedios académicos no se expresan correctamente mediante un único filtro máximo RSH y NEM.",
       "fuentes": [
         {
           "url": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
@@ -2714,11 +2714,23 @@
           "paginas": 2,
           "url_final": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
           "metodo": "Lectura de ficha o apartados del texto servido"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1uuP1pliYswd0nuv5ShRJYYfuOk46M_Rn/view",
+          "consulta": "2026-10-09",
+          "contenido_extraido": true,
+          "metodo": "Lectura específica de contenido oficial; alcance detallado en informe"
+        },
+        {
+          "url": "https://cms.municipalidadcartagena.cl/noticias/742",
+          "consulta": "2026-10-09",
+          "contenido_extraido": true,
+          "metodo": "Lectura específica de contenido oficial; alcance detallado en informe"
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
+      "alcance": "Beca Educación Superior de Cartagena; bases 2025 y Cuenta Pública gestión 2025, páginas 32 y 216. Confirmación histórica de la naturaleza monetaria y elegibilidad; importe 2025 desconocido.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md"
     },
     {
       "candidato": "ee82b569225b89c2e9550394d290cdc914c5aff9fcfcf9b888ed1f06e8c10544",
@@ -3482,7 +3494,7 @@
       "nombre": "Beca de Estudios Superiores Municipalidad de Purranque",
       "institucion": "Municipalidad de Purranque",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La web municipal anuncia Aporte Educación Superior 2026 y ceremonia de octubre. Confirma referencia institucional; no publica importe ni criterios. La página de Becas tiene campos de plantilla vacíos.",
+      "hallazgo": "Noticia municipal de 14 de noviembre de 2025 leída: Aporte Municipal para la Educación Superior 2025 entrega 100.000 CLP a cada beneficiario; inversión agregada de 11 millones no se confunde con importe individual. Se verifica identidad y naturaleza monetaria. Faltan condiciones principales de selección; no aplicar requisitos de Beca Indígena JUNAEB ni atribuir el importe a 2026.",
       "fuentes": [
         {
           "url": "https://www.purranque.cl/unidades-municipales/dideco/becas.html",
@@ -3503,8 +3515,8 @@
         }
       ],
       "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md"
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "REVISION_PURRANQUE_2026_10_09.md"
     },
     {
       "candidato": "ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495",
@@ -5930,8 +5942,8 @@
       "candidato": "5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9",
       "nombre": "Beca Municipal y Beca Mérito Deportivo",
       "institucion": "Municipalidad de Punitaqui",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La descripción original identifica expresamente Mérito Deportivo. La ficha municipal 2026 acredita hasta 5 UTM anuales para gastos deportivos, residencia permanente y evaluación social. Corrige la restricción original a carreras técnicas/superiores: la beca no exige ese nivel y prohíbe financiar matrícula o arancel. El encabezado compuesto no acredita otra beca general.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Hasta 5 UTM anuales, sujeto a disponibilidad presupuestaria y aprobación municipal. Uso exclusivo en transporte a entrenamientos/competencias, inscripción, hospedaje deportivo y equipamiento especializado. Prohíbe matrícula, arancel, clubes privados y gastos ajenos a la disciplina. Residencia permanente en Punitaqui acreditada por RSH; informe socioeconómico; práctica deportiva sistemática y competitiva; conducta intachable; no tener deudas municipales ni rendiciones pendientes. Destacados: trayectoria y condición de seleccionado o preseleccionado regional/nacional. Proyección: participación destacada en club u organización y cualidades sobresalientes. La identificación se apoya en la descripción original que nombra Beca Mérito Deportivo y coincide en importe, periodicidad, ventana de postulación y ausencia de deudas/rendiciones. No se confirma una segunda beca general de mantención. La fuente no exige cursar carrera técnica/superior ni publica NEM 5,0 o RSH máximo 60%; retirarlos de la ficha corregida. No convertir UTM a pesos. El plazo publicado es desde primer día hábil de marzo hasta último día hábil de mayo; no usar 1 de marzo y 31 de mayo como fechas confirmadas. No activar.",
       "fuentes": [
         {
           "url": "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/",
@@ -5944,9 +5956,9 @@
           "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
         }
       ],
-      "alcance": null,
+      "alcance": "Beca al Mérito Deportivo de Punitaqui 2026, categorías Deportista Destacado y Deportista de Proyección. Corregir el título compuesto del original para representar exclusivamente el programa deportivo descrito.",
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_081_110_2026_10_09.md"
+      "informe_ultima_revision": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md"
     },
     {
       "candidato": "70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd",

@@ -86,3 +86,9 @@ Actualización posterior del 9 de octubre: [diagnóstico individual de las 146 p
 La recuperación pública de noticias y archivos municipales permitió leer fuentes específicas que no aparecieron en el método anterior. Las bases de Los Lagos se leyeron visualmente; las de Illapel 2026 publican beneficio, exclusiones y cronograma. Para las confirmaciones históricas se conserva expresamente el año de la fuente. Las restantes carencias están individualizadas en la lista unificada; no se ratifican exclusiones por ausencia de fuentes.
 
 Estado de variantes al 9 de octubre: 22 grupos conciliados; 34 pendientes y tres exclusiones históricas sin ratificar (37 sin conciliación verificada). La comparación de alimentación UPLA queda cerrada con evidencia de rectoría 2011. No equivale a confirmar reglas actuales.
+
+
+Consolidación documental del 9 de octubre: [15 alias aplicados y mapa completo de las 568 candidatas](../documentacion/auditoria_corpus/procesados/CATALOGO_DOCUMENTAL_CONSOLIDADO_2026_10_09.md). El catálogo contiene 553 fichas: 405 esenciales; dos completas; 146 sin resolución. Los conteos por candidata siguen en 420 esenciales y dos completas. Purranque: fuente municipal específica confirma 100.000 CLP por beneficiario en 2025; queda comprobar selección. No hubo importación, activación, eliminación ni despliegue.
+
+
+Cierres posteriores del 9 de octubre: [Cartagena histórica 2025 y Mérito Deportivo de Punitaqui 2026](../documentacion/auditoria_corpus/procesados/CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md). Total actualizado: 422 candidatas esenciales; dos completas; 144 sin resolución (102 aclaraciones y 42 exclusiones históricas sin ratificar). Catálogo: 553 fichas; 407 esenciales y dos completas. Los 15 alias conservan sus originales. Cartagena no mezcla el importe 2026 con requisitos 2025; Punitaqui queda deportiva y prohíbe pagar matrícula/arancel. Los dos controles de GitHub para eba37e4 concluyeron correctamente.
