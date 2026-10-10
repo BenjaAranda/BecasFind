@@ -76,3 +76,9 @@ La selección inicial no garantizaba documentos suficientes: varias rutas corres
 ## Ejecución del 9 de octubre de 2026
 
 Se contrastaron 107 candidatas adicionales en bloques de 30, 30, 30 y 17. Se recuperó contenido de 68 de 77 enlaces distintos; nueve fallaron. Recuperar contenido no equivale a confirmar. Los informes separan programas diferentes, fuentes generales y carencias esenciales. La revisión no permite dar por confirmadas todas las candidatas; deben resolverse las correspondencias documentadas. Quality quedó corregido con `source-map-js` 1.2.2: audit sin vulnerabilidades, lint y compilación local correctos; ejecuciones GitHub 38004778577 y 38004772848 satisfactorias.
+
+## Confirmaciones registradas el 9 de octubre
+
+Estado actual del 9 de octubre: [ocho confirmaciones nuevas con correcciones individuales](../documentacion/auditoria_corpus/procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md). Total: **420 esenciales, dos completas y 146 sin resolución esencial** (104 aclaraciones y 42 exclusiones sin ratificar). Dos candidatas de Machalí corresponden a un programa. Se revierte la exclusión de alimentación UPLA, con historial conservado. La cohorte de 291 queda en 187 esenciales y 104 aclaraciones. [Lista única de pendientes actuales](../documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv). No se ha completado la meta de treinta cierres ni la revisión global. Quality del commit anterior aprobado en sus dos ejecuciones de GitHub.
+
+La recuperación pública de noticias y archivos municipales permitió leer fuentes específicas que no aparecieron en el método anterior. Las bases de Los Lagos se leyeron visualmente; las de Illapel 2026 publican beneficio, exclusiones y cronograma. Para las confirmaciones históricas se conserva expresamente el año de la fuente. Las restantes carencias están individualizadas en la lista unificada; no se ratifican exclusiones por ausencia de fuentes.

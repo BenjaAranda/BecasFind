@@ -1,5 +1,7 @@
 # Revisión documental de las 291 candidatas — 6 de octubre de 2026
 
+Estado actual al 9 de octubre: 187 confirmaciones esenciales y 104 aclaraciones dentro de esta cohorte de 291. [Últimas correcciones y fuentes](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md). Los conteos de los apartados siguientes describen entregas históricas.
+
 Resultado acumulado de estas 291: 180 confirmaciones esenciales y 111 candidatas que requieren aclaración. Cero descartes nuevos. Las dos confirmaciones exhaustivas previas se conservan.
 
 Alcance: identidad, fuente oficial específica, beneficio y requisitos principales. Se preservan originales, modalidades y años. Los desconocidos se mantienen; calendario y documentación completa quedan fuera de esta revisión. Ninguna confirmación autoriza activación o publicación. No se ejecutaron pruebas del backend ni cambios de base de datos.
@@ -678,6 +680,9 @@ Referencias y antecedentes consultados:
 
 Revisión de fuentes del 8 de octubre: Enlace deportivo inaccesible; no confirma beca superior ni demuestra inexistencia. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
 
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado. Aporte económico de $120.000 para estudiantes de educación superior de la comuna en la convocatoria 2024. Las bases no fueron recuperadas: RSH 60%, NEM 5,0/5,5, ausencia de reprobaciones y documentos específicos del original quedan sin certificar. No confirma calendarios 2026 ni dos programas distintos. Las dos noticias de 2024 usan Escolar Superior y Municipal de Educación Superior para el beneficio entregado por DIDECO. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
+
 ## 051. Beca Municipal Educación Superior Cerrillos — f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501
 Institución del registro: Municipalidad de Cerrillos.
 Estado: **CONFIRMADA_ESENCIAL**.
@@ -821,6 +826,9 @@ Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08
 
 
 Contraste del 9 de octubre: La cuenta pública 2016 es un antecedente de gestión. Falta atribuir beneficio y condiciones de selección a la beca del original. [Informe](procesados/REVISION_ESENCIAL_051_080_2026_10_09.md).
+
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Municipal de Educación Superior de Illapel; bases 2026 recuperadas desde el archivo público municipal. Aporte municipal de $250.000 en dos cuotas; primera por cheque nominativo y segunda por Cuenta RUT, condicionada a certificado de alumno regular del segundo semestre. La tabla evalúa RSH desde 0–40 hasta 81–100%; no exige RSH máximo 60%. Tabla académica desde 4,0; no confirma NEM mínimo 5,0. Se conserva el error tipográfico del correo en las bases como advertencia: no usarlo para enviar datos. Convocatoria cerrada; no activa la beca. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
 
 ## 063. Beca Municipal Educación Superior Caldera — a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777
 Institución del registro: Municipalidad de Caldera.
@@ -1102,6 +1110,9 @@ Referencias y antecedentes consultados:
 - [Referencia 1](https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf)
 
 Revisión de fuentes del 8 de octubre: Enlace deportivo inaccesible; identidad y cobertura siguen abiertas. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado. Aporte económico de $120.000 para estudiantes de educación superior de la comuna en la convocatoria 2024. Las bases no fueron recuperadas: RSH 60%, NEM 5,0/5,5, ausencia de reprobaciones y documentos específicos del original quedan sin certificar. No confirma calendarios 2026 ni dos programas distintos. Las dos noticias de 2024 usan Escolar Superior y Municipal de Educación Superior para el beneficio entregado por DIDECO. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
 
 ## 087. Beca de Estudio Graneros Nueva Ciudad — 6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d
 Institución del registro: Municipalidad de Graneros.
@@ -1504,6 +1515,9 @@ Referencias y antecedentes consultados:
 
 Última revisión (8 de octubre): Trámite oficial de Los Lagos identifica estudiantes residentes y evaluación conforme a bases. Faltan cobertura y requisitos de esas bases; recepción no implica otorgamiento.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Municipal de Los Lagos; ordenanza aprobada por decreto exento 388 del 25 de febrero de 2026 y convocatoria 2026. Aporte monetario de libre disposición, no reembolsable, de 1,5 UTM por beneficiario; una cuota y una entrega por año. Artículos 5 y 18. Se leyeron visualmente las páginas 1–6 y 8–11 del PDF de 19 páginas; no se afirma lectura íntegra de sus anexos. No se convierten UTM a pesos. La fecha de cierre ya venció: no activa ni publica esta beca. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
 
 ## 122. Beca Municipal de Estudios Superiores (Modalidad Reembolso de Matrícula) — 6bc95197a359821ca7f311c918f9c1350d70d691acd7c53a4b8e9de61bc0d638
 Institución del registro: Municipalidad de Licanten.
@@ -1923,6 +1937,9 @@ Referencias y antecedentes consultados:
 Última revisión (8 de octubre): Guía de trámites descargada sin sección de becas en el texto extraído. Noticia municipal 2026 identifica Excelencia e Incentivo Superior; faltan reglas e importe de la modalidad del original.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
 
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Incentivo a la Educación Superior de Tirúa; alcance histórico de la publicación municipal de junio de 2024. Se distingue de Excelencia Académica. Aporte económico municipal para estudiantes que ingresan a educación superior; primera cuota entregada en junio de 2024. La noticia de 2025 describe dos cuotas, pero no se traslada esa periodicidad a 2024. No confirma $200.000, RSH 70%, promedio 5,0, prioridad fuera de Arauco ni fechas 2026 del original. No se transforma la beca de Excelencia en variante de Incentivo. Los ejemplos de carreras no son una lista cerrada de instituciones elegibles. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
+
 ## 159. Beca Municipal de Educación Superior Combarbala — 0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86
 Institución del registro: Municipalidad de Combarbala.
 Estado: **CONFIRMADA_ESENCIAL**.
@@ -2098,6 +2115,9 @@ Referencias y antecedentes consultados:
 
 Última revisión (8 de octubre): Cuenta pública bloqueada; resultado de reglamento deportivo 2023 no confirma beca superior. No extrapolar preferencias de selección deportiva.
 Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Municipal Educación Superior de La Calera; postulación 2025. La renovación 2026 se documenta aparte y no valida una postulación inicial 2026. Aporte económico depositado a estudiantes seleccionados para gastos de sus estudios. Los $130 millones son presupuesto municipal agregado de 2025, no monto individual. Los umbrales académicos y presupuesto del original corresponden a 2025; no se presentan como regla general 2026. No se respalda RSH máximo 60%. Importe individual desconocido. El presupuesto 2026 comunicado para renovación es $125 millones, no $130 millones. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
 
 ## 173. Beca Municipal y Beca de Devolucion de Matrícula — 5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c
 Institución del registro: Municipalidad de San Rosendo.
@@ -2548,6 +2568,9 @@ Revisión de fuentes del 8 de octubre: Referencia presupuestaria sin reglamento 
 
 
 Contraste del 9 de octubre: No se obtuvo ficha específica de Perquenco. Los resultados de Penco corresponden a otra comuna y no se aceptan como referencia. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
+
+
+Actualización del 9 de octubre: **CONFIRMADA_ESENCIAL**. Beca Municipal para la Educación Superior de Perquenco; entrega 2017 narrada en publicación municipal conservada en el sitio. No atribuir 2020 a la convocatoria por la fecha técnica del artículo. Aporte de $100.000 a estudiantes seleccionados en 2017; apoyo municipal para continuidad de estudios superiores. No confundir premios adicionales a mejores promedios con el monto general. No respalda $150.000, RSH 70%, NEM 5,0 ni exclusiones de 2026. Las noticias no publican bases exhaustivas: esos valores quedan desconocidos. El texto de la primera fuente dice 2017 aunque el sitio la fecha técnicamente en 2020. Alcance histórico, sin vigencia actual. [Evidencia y correcciones](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_09.md).
 
 ## 212. Beca Municipal Heriberto Hott Contreras 2025/2026 — 5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1
 Institución del registro: Municipalidad de Puyehue.

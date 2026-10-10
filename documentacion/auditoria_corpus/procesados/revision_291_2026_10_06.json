@@ -2,8 +2,8 @@
   "fecha": "2026-10-06",
   "alcance": "Revisión esencial documental; sin activación",
   "revisadas": 291,
-  "confirmaciones_nuevas": 180,
-  "requieren_aclaracion": 111,
+  "confirmaciones_nuevas": 187,
+  "requieren_aclaracion": 104,
   "descartes_nuevos": 0,
   "casos": [
     {
@@ -1625,21 +1625,27 @@
       "candidato": "5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0",
       "nombre": "Beca Municipal Educación Superior Machali",
       "institucion": "Municipalidad de Machali",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Enlace deportivo inaccesible; no confirma beca superior ni demuestra inexistencia.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado. Aporte económico de $120.000 para estudiantes de educación superior de la comuna en la convocatoria 2024. Las bases no fueron recuperadas: RSH 60%, NEM 5,0/5,5, ausencia de reprobaciones y documentos específicos del original quedan sin certificar. No confirma calendarios 2026 ni dos programas distintos. Las dos noticias de 2024 usan Escolar Superior y Municipal de Educación Superior para el beneficio entregado por DIDECO.",
       "fuentes": [
         {
-          "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
-          "consulta": "2026-10-08",
-          "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Intento de acceso; contenido no leído"
+          "url": "https://machali.cl/municipalidad-de-machali-inicia-inscripciones-para-la-beca-escolar-superior-2024/",
+          "titulo": "Municipalidad de Machalí inicia inscripciones para la Beca Escolar Superior 2024",
+          "fecha_publicacion": "2024-03-28T13:57:19",
+          "sha256_contenido_html": "751d7e06a7178d919fc905db1a56f689c9d622cd46f24454a2f7e61a06c43996",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://machali.cl/193-estudiantes-machalinos-reciben-la-beca-municipal-de-educacion-superior-ano-2024/",
+          "titulo": "193 estudiantes machalinos reciben la Beca Municipal de Educación Superior Año 2024",
+          "fecha_publicacion": "2024-09-05T20:25:38",
+          "sha256_contenido_html": "4804b91538f265804caa8b254d431ed1dd6cd7399094c77191e1ad45c461a655",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "alcance": "Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
@@ -2066,24 +2072,20 @@
       "candidato": "38f0ee9c27d75d1036b0fad65fa5e3d4c3ceb98327a56087fbfa528843b42024",
       "nombre": "Beca Municipal Educación Superior Illapel",
       "institucion": "Municipalidad de Illapel",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La cuenta pública 2016 es un antecedente de gestión. Falta atribuir beneficio y condiciones de selección a la beca del original.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Municipal de Educación Superior de Illapel; bases 2026 recuperadas desde el archivo público municipal. Aporte municipal de $250.000 en dos cuotas; primera por cheque nominativo y segunda por Cuenta RUT, condicionada a certificado de alumno regular del segundo semestre. La tabla evalúa RSH desde 0–40 hasta 81–100%; no exige RSH máximo 60%. Tabla académica desde 4,0; no confirma NEM mínimo 5,0. Se conserva el error tipográfico del correo en las bases como advertencia: no usarlo para enviar datos. Convocatoria cerrada; no activa la beca.",
       "fuentes": [
         {
-          "url": "https://municipalidadillapel.cl/trans_web/sitio/transparencia/cuentas_publicas/cuenta_publica_2016.pdf",
-          "consulta": "2026-10-08",
-          "error": "<urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder>",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento",
-          "sha256": "6362688c90ca254be8c4f49342b665692d0401878940663ebd18fabdf1fb86bd",
-          "paginas": 340,
-          "url_final": "https://municipalidadillapel.cl/trans_web/sitio/transparencia/cuentas_publicas/cuenta_publica_2016.pdf"
+          "url": "https://municipalidadillapel.cl/app/uploads/2026/01/BASES-BECA-MUNICIPAL-2026-1.pdf",
+          "titulo": "Bases de Postulación Beca Municipal de Educación Superior año 2026",
+          "sha256": "888ce134fb7d5590e61a3484cca512f18e842bcb36171b5a86a15e6446aefbbe",
+          "paginas": 6,
+          "lectura": "Texto de las seis páginas leído, incluidos requisitos, exclusiones, ponderaciones y cronograma; tablas extraídas sin inferir umbrales."
         }
       ],
-      "alcance": null,
+      "alcance": "Beca Municipal de Educación Superior de Illapel; bases 2026 recuperadas desde el archivo público municipal.",
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_051_080_2026_10_09.md"
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
@@ -2865,21 +2867,27 @@
       "candidato": "89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535",
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de Machali",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Enlace deportivo inaccesible; identidad y cobertura siguen abiertas.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado. Aporte económico de $120.000 para estudiantes de educación superior de la comuna en la convocatoria 2024. Las bases no fueron recuperadas: RSH 60%, NEM 5,0/5,5, ausencia de reprobaciones y documentos específicos del original quedan sin certificar. No confirma calendarios 2026 ni dos programas distintos. Las dos noticias de 2024 usan Escolar Superior y Municipal de Educación Superior para el beneficio entregado por DIDECO.",
       "fuentes": [
         {
-          "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
-          "consulta": "2026-10-08",
-          "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Intento de acceso; contenido no leído"
+          "url": "https://machali.cl/municipalidad-de-machali-inicia-inscripciones-para-la-beca-escolar-superior-2024/",
+          "titulo": "Municipalidad de Machalí inicia inscripciones para la Beca Escolar Superior 2024",
+          "fecha_publicacion": "2024-03-28T13:57:19",
+          "sha256_contenido_html": "751d7e06a7178d919fc905db1a56f689c9d622cd46f24454a2f7e61a06c43996",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://machali.cl/193-estudiantes-machalinos-reciben-la-beca-municipal-de-educacion-superior-ano-2024/",
+          "titulo": "193 estudiantes machalinos reciben la Beca Municipal de Educación Superior Año 2024",
+          "fecha_publicacion": "2024-09-05T20:25:38",
+          "sha256_contenido_html": "4804b91538f265804caa8b254d431ed1dd6cd7399094c77191e1ad45c461a655",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_FUENTES_51_2026_10_08.md"
+      "alcance": "Beca Escolar Superior / Beca Municipal de Educación Superior de Machalí; convocatoria histórica 2024. Dos candidatas remiten a un solo programa municipal acreditado.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
@@ -3954,23 +3962,27 @@
       "candidato": "5061a005eb041913fff48284ae8e0124a0b7682c82f8fe2044f46978d99ea353",
       "nombre": "Beca Municipal de Educación Superior Los Lagos",
       "institucion": "Municipalidad de Los Lagos",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Trámite oficial de Los Lagos identifica estudiantes residentes y evaluación conforme a bases. Faltan cobertura y requisitos de esas bases; recepción no implica otorgamiento.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Municipal de Los Lagos; ordenanza aprobada por decreto exento 388 del 25 de febrero de 2026 y convocatoria 2026. Aporte monetario de libre disposición, no reembolsable, de 1,5 UTM por beneficiario; una cuota y una entrega por año. Artículos 5 y 18. Se leyeron visualmente las páginas 1–6 y 8–11 del PDF de 19 páginas; no se afirma lectura íntegra de sus anexos. No se convierten UTM a pesos. La fecha de cierre ya venció: no activa ni publica esta beca.",
       "fuentes": [
         {
-          "url": "https://municipios.simple.digital.gob.cl/tramites/informativo/12799",
-          "url_final": "https://municipios.simple.digital.gob.cl/tramites/informativo/12799",
-          "consulta": "2026-10-08",
-          "tipo": "text/html; charset=utf-8",
-          "sha256": "6817a25694361a08684fac672cfe1ab1a5396e738bada430004b115b47c2104f",
-          "contenido_extraido": true,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+          "url": "https://muniloslagos.cl/beca-municipal-2026/",
+          "titulo": "Beca Municipal 2026",
+          "fecha_publicacion": "2026-03-03T13:35:18",
+          "sha256_contenido_html": "677258f46e53df84bedcdc189b6a4a6c86824769429d60ae1cf34eca52088b4e",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://drive.google.com/file/d/1LIN2S1wHhk6-fw9oNrHFSjfUiwDTsZNH/view",
+          "titulo": "Ordenanza municipal de Los Lagos; decreto exento 388/2026",
+          "sha256": "e90a5f60a312c604488a945335fd0422baa838e6efaaa250c79187741c5b6b41",
+          "paginas": 19,
+          "lectura": "Lectura visual de páginas 1–6 y 8–11; artículos 1–10 y 11–22 con la salvedad de la tabla de página 7. Archivo enlazado por la convocatoria oficial."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "alcance": "Beca Municipal de Los Lagos; ordenanza aprobada por decreto exento 388 del 25 de febrero de 2026 y convocatoria 2026.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "6bc95197a359821ca7f311c918f9c1350d70d691acd7c53a4b8e9de61bc0d638",
@@ -5119,25 +5131,34 @@
       "candidato": "cdc0dd04e0923e9868b12066bdcf8829aea20685da05f1fae092e39e024292ba",
       "nombre": "Beca de Apoyo a la Educación Superior Tirua",
       "institucion": "Municipalidad de Tirua",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Guía de trámites descargada sin sección de becas en el texto extraído. Noticia municipal 2026 identifica Excelencia e Incentivo Superior; faltan reglas e importe de la modalidad del original.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Incentivo a la Educación Superior de Tirúa; alcance histórico de la publicación municipal de junio de 2024. Se distingue de Excelencia Académica. Aporte económico municipal para estudiantes que ingresan a educación superior; primera cuota entregada en junio de 2024. La noticia de 2025 describe dos cuotas, pero no se traslada esa periodicidad a 2024. No confirma $200.000, RSH 70%, promedio 5,0, prioridad fuera de Arauco ni fechas 2026 del original. No se transforma la beca de Excelencia en variante de Incentivo. Los ejemplos de carreras no son una lista cerrada de instituciones elegibles.",
       "fuentes": [
         {
-          "url": "https://munitirua.gob.cl/wp-content/uploads/2025/12/GUIA-DE-SERVICIOS-Y-TRAMITES-MUNICIPALES.pdf",
-          "url_final": "https://munitirua.gob.cl/wp-content/uploads/2025/12/GUIA-DE-SERVICIOS-Y-TRAMITES-MUNICIPALES.pdf",
-          "consulta": "2026-10-08",
-          "tipo": "application/pdf",
-          "sha256": "7a78adb20cf1dad916c6e06922ac49e76260690e6610c8518957b00205d885bd",
-          "paginas": 41,
-          "lectura_limite": "todas las páginas con texto extraíble",
-          "contenido_extraido": true,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Lectura de texto servido o apartados extraídos; no revisión íntegra del documento"
+          "url": "https://munitirua.gob.cl/alcalde-jose-linco-encabezo-entrega-de-becas-para-la-educacion-superior-a-17-estudiantes-de-tirua/",
+          "titulo": "Alcalde José Linco encabezó entrega de becas para la educación superior a 17 estudiantes de Tirúa",
+          "fecha_publicacion": "2024-06-17T17:00:00",
+          "sha256_contenido_html": "e169b8012d798a4a56a607fc3f84cd320ebd7aa68959953a34ea25d2d8cbd204",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://munitirua.gob.cl/alcalde-jose-linco-encabezo-ceremonia-de-entrega-de-becas-municipales-a-nuestros-estudiantes/",
+          "titulo": "Alcalde José Linco encabezó ceremonia de entrega de becas municipales a nuestros estudiantes",
+          "fecha_publicacion": "2025-04-21T19:09:14",
+          "sha256_contenido_html": "84d02c665500cade19c4cc594e4e9b86364563904cae106504ee36fb77fe3bc6",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://munitirua.gob.cl/apoyo-a-los-estudiantes-de-tirua-entrega-de-la-beca-de-excelencia-academica-y-beca-de-incentivo-a-la-ensenanza-superior/",
+          "titulo": "Apoyo a los estudiantes de Tirúa: entrega de la Beca de Excelencia Académica y Beca de Incentivo a la Enseñanza Superior",
+          "fecha_publicacion": "2026-06-10T15:07:00",
+          "sha256_contenido_html": "cf271a907ca94c28f0c7acc553d3541dfea432075e38ef49c8924721d77104b5",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "alcance": "Beca Incentivo a la Educación Superior de Tirúa; alcance histórico de la publicación municipal de junio de 2024. Se distingue de Excelencia Académica.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86",
@@ -5474,21 +5495,34 @@
       "candidato": "ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3",
       "nombre": "Beca Municipal Educación Superior 2026",
       "institucion": "Municipalidad de La Calera",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Cuenta pública bloqueada; resultado de reglamento deportivo 2023 no confirma beca superior. No extrapolar preferencias de selección deportiva.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Municipal Educación Superior de La Calera; postulación 2025. La renovación 2026 se documenta aparte y no valida una postulación inicial 2026. Aporte económico depositado a estudiantes seleccionados para gastos de sus estudios. Los $130 millones son presupuesto municipal agregado de 2025, no monto individual. Los umbrales académicos y presupuesto del original corresponden a 2025; no se presentan como regla general 2026. No se respalda RSH máximo 60%. Importe individual desconocido. El presupuesto 2026 comunicado para renovación es $125 millones, no $130 millones.",
       "fuentes": [
         {
-          "url": "https://lacalera.cl/wp-content/uploads/2024/04/CUENTA-PUBLICA-2023_flt-3.pdf",
-          "consulta": "2026-10-08",
-          "error": "HTTP Error 403: Forbidden",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Intento de acceso; contenido no leído"
+          "url": "https://lacalera.cl/abierto-proceso-de-postulacion-a-la-beca-municipal-educacion-superior-2025/",
+          "titulo": "ABIERTO PROCESO DE POSTULACIÓN A LA BECA MUNICIPAL EDUCACIÓN SUPERIOR 2025",
+          "fecha_publicacion": "2025-03-05T12:28:48",
+          "sha256_contenido_html": "7da70e222ce0689cf5bdffbeb58ce55b1783b738cd57214058fa2d8e10c108cb",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://lacalera.cl/municipio-calerano-invierte-mas-de-130-millones-de-pesos-en-beca-municipal-educacion-superior/",
+          "titulo": "MUNICIPIO CALERANO INVIERTE MÁS DE 130 MILLONES DE PESOS EN BECA MUNICIPAL EDUCACIÓN SUPERIOR",
+          "fecha_publicacion": "2025-06-02T17:12:14",
+          "sha256_contenido_html": "6cf49e9ef6638ad7e53313c6818b97bb35b4f0f23af10854bf1aa4b1d20a44d2",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://lacalera.cl/hasta-el-21-de-agosto-se-extiende-plazo-para-renovar-la-beca-municipal-educacion-superior-2026/",
+          "titulo": "HASTA EL 21 DE AGOSTO SE EXTIENDE PLAZO PARA RENOVAR LA BECA MUNICIPAL EDUCACIÓN SUPERIOR 2026",
+          "fecha_publicacion": "2026-07-31T23:04:55",
+          "sha256_contenido_html": "a7e1e6c1652135640feb672bf70ef62c7d91a63b18ca6eefa76b51e61edc56ec",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
         }
       ],
-      "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "alcance": "Beca Municipal Educación Superior de La Calera; postulación 2025. La renovación 2026 se documenta aparte y no valida una postulación inicial 2026.",
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c",
@@ -6601,12 +6635,27 @@
       "candidato": "62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a",
       "nombre": "Beca Municipal Educación Superior Perquenco",
       "institucion": "Municipalidad de Perquenco",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "No se obtuvo ficha específica de Perquenco. Los resultados de Penco corresponden a otra comuna y no se aceptan como referencia.",
-      "fuentes": [],
-      "alcance": null,
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Beca Municipal para la Educación Superior de Perquenco; entrega 2017 narrada en publicación municipal conservada en el sitio. No atribuir 2020 a la convocatoria por la fecha técnica del artículo. Aporte de $100.000 a estudiantes seleccionados en 2017; apoyo municipal para continuidad de estudios superiores. No confundir premios adicionales a mejores promedios con el monto general. No respalda $150.000, RSH 70%, NEM 5,0 ni exclusiones de 2026. Las noticias no publican bases exhaustivas: esos valores quedan desconocidos. El texto de la primera fuente dice 2017 aunque el sitio la fecha técnicamente en 2020. Alcance histórico, sin vigencia actual.",
+      "fuentes": [
+        {
+          "url": "https://www.perquenco.cl/perquenco-ha-beneficiado-a-601-alumnos-con-beca-municipal-para-la-educacion-superior/",
+          "titulo": "Perquenco ha beneficiado a 601 alumnos con Beca Municipal para la Educación Superior",
+          "fecha_publicacion": "2020-07-31T00:16:15",
+          "sha256_contenido_html": "947b27053f0aec074d332df4d323377df8e7997b46127a306c567785c7ee598a",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        },
+        {
+          "url": "https://www.perquenco.cl/80-becas-por-rendimiento-academico-fueron-entregadas-a-estudiantes-de-nuestra-comuna/",
+          "titulo": "80 becas por rendimiento académico fueron entregadas a estudiantes de nuestra comuna",
+          "fecha_publicacion": "2022-06-13T11:05:27",
+          "sha256_contenido_html": "f250dd52d89e7a63ea85681b7ca0b759c663f70359106095c0f1b5bf95b6e6d2",
+          "lectura": "Texto íntegro de la publicación recuperado mediante la API pública del mismo sitio oficial; sin datos personales de beneficiarios."
+        }
+      ],
+      "alcance": "Beca Municipal para la Educación Superior de Perquenco; entrega 2017 narrada en publicación municipal conservada en el sitio. No atribuir 2020 a la convocatoria por la fecha técnica del artículo.",
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_081_110_2026_10_09.md"
+      "informe_ultima_revision": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md"
     },
     {
       "candidato": "5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1",
@@ -9718,5 +9767,11 @@
     "confirmaciones_nuevas": 3,
     "sin_cierre": 47,
     "objetivo_30_alcanzado": false
+  },
+  "confirmaciones_municipales_2026_10_09": {
+    "candidatas_nuevas": 7,
+    "programas_identificados": 6,
+    "informe": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md",
+    "cohorte_291_cierres": 7
   }
 }

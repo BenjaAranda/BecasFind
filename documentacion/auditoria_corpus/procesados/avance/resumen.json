@@ -2,10 +2,14 @@
   "archivos": 93,
   "registros": 647,
   "becas_unicas": 568,
-  "revision_parcial": 111,
+  "revision_parcial": 104,
   "sin_revision_individual": 0,
   "confirmadas_completas": 2,
-  "confirmadas_esenciales": 412,
-  "descartadas": 43,
-  "pendientes_confirmacion": 111
+  "confirmadas_esenciales": 420,
+  "descartadas": 42,
+  "pendientes_confirmacion": 104,
+  "exclusiones_historicas_sin_ratificar": 42,
+  "pendientes_resolucion_esencial": 146,
+  "fecha_actualizacion": "2026-10-09",
+  "nota": "descartadas es el nombre heredado del contador; las 42 decisiones antiguas no están ratificadas y forman parte de las 146 sin resolución esencial."
 }
