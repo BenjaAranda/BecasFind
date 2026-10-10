@@ -1,7 +1,10 @@
 import { useState, type FormEvent } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
-import { LogIn, GraduationCap } from 'lucide-react';
+import { useAuth } from '../context/useAuth';
+import { ArrowRight, LoaderCircle } from 'lucide-react';
+import AuthLayout from '../components/layout/AuthLayout';
+import PasswordField from '../components/common/PasswordField';
+import { authFormError } from '../utils/authFormError';
 
 export default function LoginPage() {
   const { login } = useAuth();
@@ -14,108 +17,43 @@ export default function LoginPage() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    if (loading) return;
     setError('');
+    if (new TextEncoder().encode(password).length > 72) {
+      setError('La contraseña supera la longitud permitida. Usa menos caracteres.');
+      return;
+    }
     setLoading(true);
 
     try {
-      await login(email, password);
+      await login(email.trim(), password);
       navigate('/explorar');
     } catch (err: unknown) {
-      if (err && typeof err === 'object' && 'response' in err) {
-        const axiosErr = err as { response?: { data?: { message?: string } } };
-        setError(axiosErr.response?.data?.message || 'Credenciales inválidas');
-      } else {
-        setError('Error de conexión. Intenta nuevamente.');
-      }
+      setError(authFormError(err, 'Error de conexión. Intenta nuevamente.'));
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center p-4">
-      <div className="w-full max-w-md">
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mb-4">
-            <GraduationCap className="w-8 h-8 text-white" />
-          </div>
-          <h1 className="text-3xl font-bold text-white">BecasFind</h1>
-          <p className="text-blue-200 mt-2">Encuentra tu beca ideal</p>
+    <AuthLayout title="Iniciar Sesión" description="Vuelve a tus favoritas y continúa buscando oportunidades para estudiar."
+      footer={<p>¿Todavía no tienes cuenta? <Link to="/register" className="font-semibold text-[#0b3c75] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">Regístrate</Link></p>}>
+      {error && <p role="alert" className="mb-5 border-l-2 border-red-700 bg-red-50 p-3 text-sm text-red-800">{error}</p>}
+      <form onSubmit={handleSubmit} aria-busy={loading} className="space-y-5">
+        <div>
+          <label htmlFor="email" className="block text-sm font-medium mb-2">Correo electrónico</label>
+          <input id="email" type="email" required maxLength={254} autoComplete="email" disabled={loading}
+            value={email} onChange={event => setEmail(event.target.value)} placeholder="maria@email.com"
+            className="w-full min-h-12 px-3 py-3 border border-[#94a3b8] rounded-sm text-slate-900 placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75] disabled:bg-slate-50" />
         </div>
-
-        <div className="bg-white rounded-2xl shadow-xl p-8">
-          <h2 className="text-xl font-semibold text-gray-800 mb-6">Iniciar Sesión</h2>
-
-          {error && (
-            <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg">
-              {error}
-            </div>
-          )}
-
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                Correo electrónico
-              </label>
-              <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                autoComplete="email"
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800"
-                placeholder="admin@becasfind.cl"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
-                Contraseña
-              </label>
-              <input
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                autoComplete="current-password"
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800"
-                placeholder="••••••••"
-              />
-            </div>
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-2.5 px-4 rounded-lg transition cursor-pointer disabled:cursor-not-allowed"
-            >
-              {loading ? (
-                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                </svg>
-              ) : (
-                <LogIn className="w-5 h-5" />
-              )}
-              {loading ? 'Ingresando...' : 'Ingresar'}
-            </button>
-          </form>
-
-          <div className="mt-4 text-center space-y-2">
-            <p className="text-sm">
-              <Link to="/forgot-password" className="text-blue-600 hover:underline text-sm">¿Olvidaste tu contraseña?</Link>
-            </p>
-            <p className="text-sm text-gray-500">
-              ¿No tienes cuenta? <Link to="/register" className="text-blue-600 hover:underline font-medium">Regístrate</Link>
-            </p>
-          </div>
-        </div>
-
-        <p className="text-center text-blue-200 text-sm mt-6">
-          Motor de búsqueda de becas estudiantiles
-        </p>
-      </div>
-    </div>
+        <PasswordField id="password" label="Contraseña" value={password} onChange={setPassword} disabled={loading} placeholder="Tu contraseña" />
+        <div className="text-right"><Link to="/forgot-password" className="text-sm text-[#0b3c75] underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4">¿Olvidaste tu contraseña?</Link></div>
+        <button type="submit" disabled={loading} className="w-full min-h-12 flex items-center justify-between gap-3 bg-[#0b3c75] hover:bg-[#082e5b] text-white font-medium py-3 px-4 rounded-sm transition-colors disabled:opacity-60 disabled:cursor-wait focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0b3c75]">
+          {loading ? 'Ingresando...' : 'Ingresar'}
+          {loading ? <LoaderCircle size={18} className="animate-spin motion-reduce:animate-none" aria-hidden="true" /> : <ArrowRight size={18} aria-hidden="true" />}
+        </button>
+        {loading && <p role="status" className="text-xs text-slate-600">Comprobando tu acceso…</p>}
+      </form>
+    </AuthLayout>
   );
 }

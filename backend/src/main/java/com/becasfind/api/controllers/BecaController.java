@@ -1,6 +1,8 @@
 package com.becasfind.api.controllers;
 
 import com.becasfind.api.models.dtos.ApiResponse;
+import com.becasfind.api.models.dtos.PublicBecaDTO;
+import com.becasfind.api.models.dtos.PublicBecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
@@ -18,6 +20,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -46,33 +49,55 @@ public class BecaController {
     }
 
     @GetMapping
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> findAll(
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> findAll(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
         Page<BecaDTO> becas = becaService.buscarBecas(null, null, null, null, null, null, null, null, pageable);
-        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recuperadas exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Becas recuperadas exitosamente"));
     }
 
     @GetMapping("/recomendadas")
     @PreAuthorize("isAuthenticated()")
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> recomendar(
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> recomendar(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size,
             Principal principal) {
         PageRequest pageable = PageRequest.of(page, size, Sort.by("fechaCierrePostulacion").ascending());
         Page<BecaDTO> becas = becaService.recomendarBecas(principal.getName(), pageable);
-        return ResponseEntity.ok(ApiResponse.success(becas, "Becas recomendadas para tu perfil"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Becas recomendadas para tu perfil"));
+    }
+
+    @GetMapping("/administracion")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<ApiResponse<Page<BecaDTO>>> listarAdministracion(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "20") int size,
+            @RequestParam(required = false) String query) {
+        var becas = becaService.listarAdministracion(query, PageRequest.of(page, size));
+        return ResponseEntity.ok(ApiResponse.success(becas, "Listado administrativo de becas"));
+    }
+
+    @ExceptionHandler({org.springframework.web.method.annotation.MethodArgumentTypeMismatchException.class,
+            org.springframework.http.converter.HttpMessageNotReadableException.class})
+    public ResponseEntity<ApiResponse<Void>> invalidRequest() {
+        return ResponseEntity.badRequest().body(ApiResponse.error(400,
+                "La solicitud contiene valores o un formato no válidos"));
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ApiResponse<BecaDetailDTO>> findById(@PathVariable Long id) {
-        BecaDetailDTO beca = becaService.findById(id);
-        return ResponseEntity.ok(ApiResponse.success(beca, "Beca encontrada exitosamente"));
+    public ResponseEntity<ApiResponse<PublicBecaDetailDTO>> findById(@PathVariable java.util.UUID id) {
+        return ResponseEntity.ok(ApiResponse.success(PublicBecaDetailDTO.from(becaService.findByPublicId(id)), "Beca encontrada exitosamente"));
+    }
+
+    @GetMapping("/administracion/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<ApiResponse<BecaDetailDTO>> findAdminById(@PathVariable Long id) {
+        return ResponseEntity.ok(ApiResponse.success(becaService.findById(id), "Beca encontrada exitosamente"));
     }
 
     @PostMapping("/buscar")
-    public ResponseEntity<ApiResponse<Page<BecaDTO>>> buscar(@Valid @RequestBody BecaSearchRequest request) {
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> buscar(@Valid @RequestBody BecaSearchRequest request) {
         PageRequest pageable = PageRequest.of(
                 request.getPage() != null ? request.getPage() : 0,
                 request.getSize() != null ? request.getSize() : 10
@@ -88,7 +113,7 @@ public class BecaController {
                 request.getSort(),
                 pageable
         );
-        return ResponseEntity.ok(ApiResponse.success(becas, "Busqueda completada exitosamente"));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Busqueda completada exitosamente"));
     }
 
     @PostMapping
@@ -97,7 +122,7 @@ public class BecaController {
         var userDetails = customUserDetailsService.loadUserByEmail(principal.getName());
         BecaDTO beca = becaService.create(userDetails.getIdUsuario(), request);
         return ResponseEntity.status(HttpStatus.CREATED)
-                .body(ApiResponse.success(beca, "Beca creada exitosamente"));
+                .body(ApiResponse.created(beca, "Beca creada exitosamente"));
     }
 
     @PutMapping("/{id}")
@@ -119,7 +144,8 @@ public class BecaController {
     public ResponseEntity<ApiResponse<ImportResultDTO>> importarCsv(@RequestParam("file") MultipartFile file) {
         ImportResultDTO result = becaImportService.importarDesdeCsv(file);
         return ResponseEntity.ok(ApiResponse.success(result,
-                "Importacion completada: " + result.getCreadas() + " creadas, " +
-                result.getActualizadas() + " actualizadas, " + result.getErrores() + " errores"));
+                result.getErrores() > 0 ? "Importación rechazada: no se guardó ninguna fila." :
+                "Importación completada: " + result.getCreadas() + " creadas, " +
+                result.getActualizadas() + " actualizadas, 0 errores"));
     }
 }

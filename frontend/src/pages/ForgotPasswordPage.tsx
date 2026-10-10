@@ -1,132 +1,57 @@
 import { useState, type FormEvent } from 'react';
-import { Link } from 'react-router-dom';
+import { isAxiosError } from 'axios';
+import { Mail, CheckCircle2 } from 'lucide-react';
 import api from '../services/api';
-import { GraduationCap, Mail, KeyRound } from 'lucide-react';
-
-const Card = ({ children, title }: { children: React.ReactNode; title: string }) => (
-  <div className="w-full max-w-md">
-    <div className="text-center mb-8">
-      <Link to="/" className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mb-4">
-        <GraduationCap className="w-8 h-8 text-white" />
-      </Link>
-      <h1 className="text-3xl font-bold text-white">BecasFind</h1>
-      <p className="text-blue-200 mt-2">{title}</p>
-    </div>
-    <div className="bg-white rounded-2xl shadow-xl p-8">
-      {children}
-    </div>
-  </div>
-);
+import RecoveryLayout from '../components/common/RecoveryLayout';
+import { authFormError } from '../utils/authFormError';
 
 export default function ForgotPasswordPage() {
-  const [step, setStep] = useState<'email' | 'reset'>('email');
   const [email, setEmail] = useState('');
-  const [token, setToken] = useState('');
-  const [newPassword, setNewPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
+  const [sent, setSent] = useState(false);
   const [error, setError] = useState('');
-  const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleForgot = async (e: FormEvent) => {
-    e.preventDefault();
+  async function handleSubmit(event: FormEvent) {
+    event.preventDefault();
+    if (loading) return;
     setError('');
     setLoading(true);
     try {
-      await api.post('/auth/forgot-password', { email });
-      setSuccess('Si el email existe, recibirás instrucciones. Token: revisa la consola del servidor.');
-      setStep('reset');
-    } catch {
-      setError('Error al procesar la solicitud.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleReset = async (e: FormEvent) => {
-    e.preventDefault();
-    setError('');
-    setSuccess('');
-
-    if (newPassword !== confirmPassword) {
-      setError('Las contrasenias no coinciden');
-      return;
-    }
-
-    if (newPassword.length < 8) {
-      setError('La contrasenia debe tener al menos 8 caracteres');
-      return;
-    }
-
-    setLoading(true);
-    try {
-      await api.post('/auth/reset-password', { token, newPassword });
-      setSuccess('Contrasenia restablecida exitosamente. Redirigiendo...');
-      setTimeout(() => window.location.href = '/login', 2000);
+      await api.post('/auth/forgot-password', { email: email.trim() });
+      setSent(true);
     } catch (err: unknown) {
-      const axiosErr = err as { response?: { data?: { message?: string } } };
-      setError(axiosErr.response?.data?.message || 'Token invalido o expirado.');
+      const status = isAxiosError(err) ? err.response?.status : undefined;
+      setError(status === 429 ? 'Has realizado demasiados intentos. Espera unos minutos antes de volver a solicitar el enlace.'
+        : status === 503 ? 'La recuperación por correo aún no está disponible. Inténtalo más tarde.'
+        : authFormError(err, 'No pudimos procesar tu solicitud. Revisa tu conexión e inténtalo de nuevo.'));
     } finally {
       setLoading(false);
     }
-  };
-
-  if (step === 'email') {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center p-4">
-        <Card title="Recuperar Contraseña">
-          {error && <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg">{error}</div>}
-          <form onSubmit={handleForgot} className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Correo electrónico</label>
-              <input type="email" value={email} onChange={e => setEmail(e.target.value)} required
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800" placeholder="tu@email.com" />
-            </div>
-            <button type="submit" disabled={loading}
-              className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-2.5 rounded-lg transition cursor-pointer disabled:cursor-not-allowed">
-              <Mail className="w-5 h-5" />
-              {loading ? 'Enviando...' : 'Enviar enlace de recuperación'}
-            </button>
-          </form>
-          <p className="mt-4 text-center text-sm text-gray-500">
-            <Link to="/login" className="text-blue-600 hover:underline">Volver al inicio de sesión</Link>
-          </p>
-        </Card>
-      </div>
-    );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center p-4">
-      <Card title="Nueva Contraseña">
-        {success && <div className="mb-4 p-3 bg-green-50 border border-green-200 text-green-700 text-sm rounded-lg">{success}</div>}
-        {error && <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg">{error}</div>}
-        <form onSubmit={handleReset} className="space-y-4">
+    <RecoveryLayout title="Recupera tu acceso" description="Escribe el correo que usaste al registrarte. Te enviaremos un enlace para elegir una nueva contraseña.">
+      {sent ? (
+        <div role="status" className="bg-[#eff6ff] border border-green-200 p-5 text-green-900">
+          <CheckCircle2 className="mb-3" aria-hidden="true" />
+          <p className="font-semibold mb-2">Revisa tu correo</p>
+          <p className="text-sm leading-relaxed">Si el correo está registrado, recibirás un enlace que vence en 15 minutos. Revisa también la carpeta de spam.</p>
+          <button type="button" onClick={() => setSent(false)} className="mt-4 text-sm underline underline-offset-4 cursor-pointer">Solicitar otro enlace</button>
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit} className="space-y-5" aria-busy={loading}>
+          {error && <p role="alert" className="bg-red-50 border border-red-200 text-red-800 p-3 text-sm">{error}</p>}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Token de recuperación</label>
-            <input type="text" value={token} onChange={e => setToken(e.target.value)} required
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800 font-mono text-sm" placeholder="UUID del token" />
+            <label htmlFor="recovery-email" className="block text-sm font-semibold mb-2">Correo electrónico</label>
+            <input id="recovery-email" type="email" autoComplete="email" maxLength={254} required value={email}
+              onChange={event => setEmail(event.target.value)} disabled={loading}
+              className="w-full border border-slate-300 rounded-md px-4 py-3 focus:outline-2 focus:outline-[#0b3c75] focus:outline-offset-2" placeholder="tu@correo.cl" />
           </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Nueva contraseña</label>
-            <input type="password" value={newPassword} onChange={e => setNewPassword(e.target.value)} required minLength={8}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800" placeholder="Mínimo 8 caracteres" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Confirmar contraseña</label>
-            <input type="password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required minLength={8}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-gray-800" placeholder="Repite la contraseña" />
-          </div>
-          <button type="submit" disabled={loading}
-            className="w-full flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white font-medium py-2.5 rounded-lg transition cursor-pointer disabled:cursor-not-allowed">
-            <KeyRound className="w-5 h-5" />
-            {loading ? 'Restableciendo...' : 'Restablecer Contraseña'}
+          <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 bg-[#0b3c75] text-white rounded-md py-3 font-semibold hover:bg-[#082e5b] disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-4 cursor-pointer disabled:cursor-wait">
+            <Mail size={18} aria-hidden="true" />{loading ? 'Enviando solicitud…' : 'Enviar enlace de recuperación'}
           </button>
         </form>
-        <p className="mt-4 text-center text-sm text-gray-500">
-          <Link to="/login" className="text-blue-600 hover:underline">Volver al inicio de sesión</Link>
-        </p>
-      </Card>
-    </div>
+      )}
+    </RecoveryLayout>
   );
 }

@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-10-02",
+  "resultado": {
+    "creadas": 0,
+    "actualizadas": 1,
+    "omitidas": 0,
+    "errores": 0,
+    "mensajesError": []
+  },
+  "total_becas": 573,
+  "registros_preservados": 572,
+  "registros_restantes_preservados": true,
+  "activadas": 0,
+  "busqueda_publica_preservada": true,
+  "catalogo_publico_preservado": true,
+  "respaldo_restaurado": true,
+  "encoding_post_importacion_verificado": true,
+  "fechas_y_rsh_contrastados": true,
+  "nem_desconocido": true,
+  "archivo_sha256": "72b45abfd6228973c15b0f79ee1d1fb0dd26cfcb9fdb2625d47c7339a06993cd",
+  "respaldo_sha256": "d2fe031d155548580596702877f661a61c39b5bb7e694e8692ebaa27d36d5eed",
+  "fuente": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/08/11/44522/01/2851427.pdf",
+  "fuente_sha256": "52d5ebb7f0538ca1a459340a33dd65accd52df151eb816e6de190cc52491f5e4",
+  "paginas_leidas": 4,
+  "confirmacion_completa": false
+}

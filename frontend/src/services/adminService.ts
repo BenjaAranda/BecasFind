@@ -1,29 +1,29 @@
 import api from './api';
-import type { ApiResponse, BecaSummary, BecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
+import type { ApiResponse, AdminBecaSummary, AdminBecaDetail, UsuarioDTO, PageResponse, Region, TipoBeca, TipoInstitucion, Institucion, ImportResult } from '../types';
 
 export const adminService = {
-  getBecas(page: number = 0, size: number = 20) {
-    return api.get<ApiResponse<PageResponse<BecaSummary>>>('/becas', { params: { page, size } });
+  getBecas(page: number = 0, size: number = 20, query?: string, signal?: AbortSignal) {
+    return api.get<ApiResponse<PageResponse<AdminBecaSummary>>>('/becas/administracion', { params: { page, size, query }, signal });
   },
 
   getBeca(id: number) {
-    return api.get<ApiResponse<BecaDetail>>(`/becas/${id}`);
+    return api.get<ApiResponse<AdminBecaDetail>>(`/becas/administracion/${id}`);
   },
 
   createBeca(data: Record<string, unknown>) {
-    return api.post<ApiResponse<BecaSummary>>('/becas', data);
+    return api.post<ApiResponse<AdminBecaSummary>>('/becas', data);
   },
 
   updateBeca(id: number, data: Record<string, unknown>) {
-    return api.put<ApiResponse<BecaSummary>>(`/becas/${id}`, data);
+    return api.put<ApiResponse<AdminBecaSummary>>(`/becas/${id}`, data);
   },
 
   deleteBeca(id: number) {
     return api.delete<ApiResponse<void>>(`/becas/${id}`);
   },
 
-  getUsuarios() {
-    return api.get<ApiResponse<UsuarioDTO[]>>('/usuarios');
+  getUsuarios(signal?: AbortSignal) {
+    return api.get<ApiResponse<UsuarioDTO[]>>('/usuarios', { signal });
   },
 
   createUsuario(data: Record<string, unknown>) {

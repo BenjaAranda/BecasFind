@@ -1,0 +1,19 @@
+{
+  "candidatas_origen": 568,
+  "fichas_documentales": 553,
+  "alias_consolidados": 15,
+  "estados_fichas": {
+    "CONFIRMADA_COMPLETA": 2,
+    "CONFIRMADA_ESENCIAL": 407,
+    "EXCLUSION_HISTORICA_SIN_RATIFICAR": 42,
+    "REQUIERE_ACLARACION": 102
+  },
+  "confirmaciones_candidatas": {
+    "esenciales": 422,
+    "completas": 2
+  },
+  "candidatas_sin_resolucion": 144,
+  "originales_eliminados": 0,
+  "operaciones_bd": 0,
+  "despliegue": false
+}

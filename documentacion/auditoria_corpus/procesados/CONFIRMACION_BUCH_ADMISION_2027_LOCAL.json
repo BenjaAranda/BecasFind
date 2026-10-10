@@ -1,0 +1,34 @@
+{
+  "fecha": "2026-10-02",
+  "resultado": {
+    "creadas": 0,
+    "actualizadas": 1,
+    "omitidas": 0,
+    "errores": 0,
+    "mensajesError": []
+  },
+  "total_becas": 573,
+  "registros_preservados": 572,
+  "registros_restantes_preservados": true,
+  "activadas": 0,
+  "busqueda_publica_preservada": true,
+  "catalogo_publico_preservado": true,
+  "respaldo_restaurado": true,
+  "encoding_post_importacion_verificado": true,
+  "fechas_y_rsh_contrastados": true,
+  "nem_verificado": true,
+  "archivo_sha256": "97cfc3e46718af4d88f7df37645ec8d7b8d45a98762ff4bc67633e75906c3049",
+  "respaldo_sha256": "6bba05be6944b195237df8447c55e0cc95e0f23be3d253e4a22023ed9f8f8cbd",
+  "fuentes": [
+    {
+      "url": "https://uchile.cl/dbe/buch",
+      "sha256": "94048a71c5e3cb268445896fb300798f77ba34a3ba6e3c33bef7a0b412aa9699"
+    },
+    {
+      "url": "https://uchile.cl/dam/jcr%3Af94728ee-de97-416e-b85d-24b35cc29b5d/Nuevo%20Reglamento%20BUCH%20%2820-04-2026%29.pdf",
+      "sha256": "1c12a5eb687c80b0bc99d6a5b7d4581c81f5e5f56cf707c9f1d5069ec81e1a57"
+    }
+  ],
+  "paginas_reglamento_leidas": 8,
+  "alcance": "Condiciones públicas de postulación y renovación BUCH admisión 2027; registro inactivo por límite horario"
+}

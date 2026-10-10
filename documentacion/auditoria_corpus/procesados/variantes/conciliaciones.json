@@ -1,0 +1,704 @@
+[
+  {
+    "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo Premio Puntaje Máximo PAES; distinto de Premio Excelencia Primer Año",
+    "informe": "CONCILIACION_USM_2.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "descripcion": "Usar alcance oficial: exención condicionada de arancel y matrícula por duración nominal; no 100% universal.",
+      "descripcion_larga": "Usar la tabla y requisitos de la ficha oficial 2026. El promedio universitario de renovación no es NEM. No asignar vigencia futura.",
+      "monto": "50, 75 o 100% según puntaje ponderado; importe y porcentaje universales desconocidos. Ambas expresiones históricas describen el intervalo, sin probar asignación.",
+      "documentos_requeridos": "Desconocidos. Ninguna lista histórica queda corroborada por la ficha leída; no elegir una por ser más extensa."
+    }
+  },
+  {
+    "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Misma beca Deportista Élite; distinta de Deportista en Formación Élite y Deportista Destacado",
+    "informe": "CONCILIACION_USM_2.md",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "descripcion": "Usar beneficio oficial para el mayor puntaje de postulación por la vía Deportista Élite.",
+      "descripcion_larga": "Arancel y matrícula por duración nominal; egreso del año en curso o anterior y mayor puntaje de la vía. Renovación por excelencia del CSV no corroborada.",
+      "monto": "100% de arancel y matrícula por duración nominal; la expresión abreviada no representa otro beneficio.",
+      "documentos_requeridos": "Desconocidos. No certificar certificado médico ni evaluación DEFIDER ni RSH ni alumno regular por su inclusión en los CSV sin evidencia documental oficial."
+    }
+  },
+  {
+    "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+    "informe": "CONCILIACION_UCN_3.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "descripcion": "Distinción: asignación automática condicionada; ver informe.",
+      "descripcion_larga": "Distinción: asignación automática condicionada; ver informe.",
+      "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+      "institucion": "Normalizar Universidad Católica del Norte; conservar originales."
+    }
+  },
+  {
+    "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+    "informe": "CONCILIACION_UCN_3.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "descripcion": "Escolaridad Segura: alcance temporal del arancel; ver informe.",
+      "descripcion_larga": "Escolaridad Segura: alcance temporal del arancel; ver informe.",
+      "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+      "institucion": "Normalizar Universidad Católica del Norte; conservar originales.",
+      "monto": "Escolaridad Segura: alcance temporal del arancel; ver informe."
+    }
+  },
+  {
+    "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UCN en ambas referencias; véase comparación individual.",
+    "informe": "CONCILIACION_UCN_3.md",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "descripcion": "Alimentación: conservar alternativa beca o préstamo; ver informe.",
+      "descripcion_larga": "Alimentación: conservar alternativa beca o préstamo; ver informe.",
+      "documentos_requeridos": "Desconocidos; ninguna lista histórica corroborada.",
+      "institucion": "Normalizar Universidad Católica del Norte; conservar originales.",
+      "monto": "Alimentación: conservar alternativa beca o préstamo; ver informe."
+    }
+  },
+  {
+    "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
+    "informe": "CONCILIACION_UV_2.md",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "campos": {
+      "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
+      "institucion": "Normalizar Universidad de Valparaíso; preservar originales."
+    }
+  },
+  {
+    "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo programa UV en las dos referencias; ver comparación y límites.",
+    "informe": "CONCILIACION_UV_2.md",
+    "fuentes": [
+      "https://contraloriainterna.uv.cl/attachments/CONTENIDO/CONTROL%20DE%20JURIDICIDAD/NORMATIVA%20UNIVERSITARIA/DEXE_N_4218_2016.pdf"
+    ],
+    "campos": {
+      "descripcion": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "descripcion_larga": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración.",
+      "documentos_requeridos": "Desconocidos: no corroborados por las fuentes leídas.",
+      "institucion": "Normalizar Universidad de Valparaíso; preservar originales.",
+      "monto": "Aplicar decisión específica del informe; no conservar afirmaciones históricas sin corroboración."
+    }
+  },
+  {
+    "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe.",
+    "informe": "CONCILIACION_UANDES_2_Y_PAES_PENDIENTE.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-uandes-economica",
+      "https://admision.uandes.cl/docs/default-source/documentos-becas/beca-uandes-economica-documentos/Documentos-Beca-Economica-Uandes_2026.pdf"
+    ],
+    "campos": {
+      "descripcion": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe.",
+      "descripcion_larga": "Misma Económica; porcentaje individual. Calendario contradictorio; ver informe. Conservar límites documentados en el informe.",
+      "documentos_requeridos": "Sustituir listas históricas por anexo 2027 condicionado a situación personal; ver informe.",
+      "monto": "Intervalo 15 a 70%; porcentaje universal desconocido."
+    }
+  },
+  {
+    "candidato": "9b0b5f5bfbee7c03322f9b3723552f6e9cda60334929bcccc6e5bceb05a77bb9",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión.",
+    "informe": "CONCILIACION_UANDES_2_Y_PAES_PENDIENTE.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-hijo-funcionario"
+    ],
+    "campos": {
+      "descripcion": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión.",
+      "descripcion_larga": "Mismo Hijo Funcionario; distinguir descuento financiero de bonificación de admisión. Conservar límites documentados en el informe.",
+      "documentos_requeridos": "Desconocidos. Ninguna lista histórica corroborada; descartar lista relativa a hermanos.",
+      "monto": "50% condicionado; el 5% corresponde a admisión y no se suma al descuento."
+    }
+  },
+  {
+    "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+    "informe": "CONCILIACION_UTALCA_3.md",
+    "fuentes": [
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "campos": {
+      "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
+      "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
+    }
+  },
+  {
+    "candidato": "b1216a99e1f212c85cf6476d0409b0699b9258adca4734a13f2bd6a4230c4cd8",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+    "informe": "CONCILIACION_UTALCA_3.md",
+    "fuentes": [
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf"
+    ],
+    "campos": {
+      "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante."
+    }
+  },
+  {
+    "candidato": "ec2c9a1a242a2bf0b038e6329fe8f10677ea4ec22a33e1cf5465378ee05e41fb",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Mismo beneficio UTalca en ambas referencias; decisión individual en informe.",
+    "informe": "CONCILIACION_UTALCA_3.md",
+    "fuentes": [
+      "https://dgcypa2.utalca.cl/documents/archivos/RU-46-2026.pdf",
+      "https://www.utalca.cl/noticias/utalca-apoya-los-deportistas-traves-de-nueva-beca-de-excelencia/"
+    ],
+    "campos": {
+      "descripcion": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "descripcion_larga": "Aplicar la decisión individual del informe; conservar límites y desconocidos.",
+      "documentos_requeridos": "Desconocidos: listas históricas no corroboradas como exigencias al postulante.",
+      "monto": "Aplicar la decisión individual del informe; conservar límites y desconocidos."
+    }
+  },
+  {
+    "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+    "revisado": "2026-10-02",
+    "decision_identidad": "Misma Deportiva UFT; condiciones oficiales y límites en informe.",
+    "informe": "CONCILIACION_UFT_DEPORTIVA.md",
+    "fuentes": [
+      "https://admision.finis.cl/becas-y-beneficios/",
+      "https://finis.cl/wp-content/uploads/2026/01/RBB-2025-pre-y-posgrado-FINAL.pdf"
+    ],
+    "campos": {
+      "descripcion": "Aplicar alcance deportivo oficial documentado en el informe.",
+      "descripcion_larga": "Retirar requisitos históricos no corroborados; preservar límites del informe.",
+      "documentos_requeridos": "Desconocidos; no certificar ninguna lista histórica.",
+      "monto": "Variable; porcentaje universal desconocido.",
+      "url": "Usar la página específica admision.finis.cl/becas-y-beneficios/."
+    }
+  },
+  {
+    "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Misma beca municipal superior en sus referencias; denominaciones y cuantías históricas corregidas según alcance oficial.",
+    "informe": "CONCILIACION_MAIPU_EL_QUISCO.md",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ],
+    "campos": {
+      "descripcion": "Apoyo municipal para estudios superiores; importe desconocido.",
+      "descripcion_larga": "Residencia comunal; RSH hasta 90%; ingreso per cápita hasta $904.199; regular 2026 en institución reconocida; cuarto medio 6,5 para ingreso o promedio anual superior anterior 5,5. Excluye titulados, gratuidad y cobertura externa completa de arancel. Categorías jefa de hogar y cuidadora tienen condiciones adicionales. No certificar $500.000/$600.000 históricos; ingreso per cápita no es beneficio ni notas de cuarto medio NEM. Expediente exhaustivo no certificado; sin sobrescritura de base ni activación.",
+      "monto": "Apoyo municipal para estudios superiores; importe desconocido.",
+      "documentos_requeridos": "Lista histórica no certificada íntegramente; usar fuente oficial, sin heredar documentos de otra referencia."
+    }
+  },
+  {
+    "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Misma beca municipal superior en sus referencias; denominaciones y cuantías históricas corregidas según alcance oficial.",
+    "informe": "CONCILIACION_MAIPU_EL_QUISCO.md",
+    "fuentes": [
+      "https://www.elquisco.cl/beca-municipal-2026/",
+      "https://www.elquisco.cl/wp-content/uploads/2026/03/37-ORDENANZA-MUNICIPAL-BECA-DE-EDUCACION-SUPERIOR-2026.pdf"
+    ],
+    "campos": {
+      "descripcion": "$50.000 CLP mensuales por diez meses de marzo a diciembre.",
+      "descripcion_larga": "Domicilio acreditado con RSH comunal; matrícula en superior reconocida; formulario y documentos. Excluye posgrado, funcionarios y deudores alimenticios. Continuidad técnica a profesional de igual área admite excepción al título previo. Ordenanza 37/2025 y difusión 2026. Renovación semestral. Tablas académica/RSH puntúan, sin inferir mínimos excluyentes. La ficha abreviada omite la excepción por continuidad; prevalece artículo 5. Expediente exhaustivo no certificado; sin sobrescritura de base ni activación.",
+      "monto": "$50.000 CLP mensuales por diez meses de marzo a diciembre.",
+      "documentos_requeridos": "Lista histórica no certificada íntegramente; usar fuente oficial, sin heredar documentos de otra referencia.",
+      "fecha_inicio": "1 de febrero de 2026; no heredar apertura histórica distinta.",
+      "fecha_cierre": "31 de marzo de 2026; descartar 30 de abril histórico."
+    }
+  },
+  {
+    "candidato": "ab1e3af5c29616a196bc339cfc55dcd9fbd91fb12d89e019aceb9ff69dcae039",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Mismo programa municipal en ambas referencias; registro general delimitado a educación superior, separado de modalidad escolar.",
+    "informe": "CONCILIACION_VITACURA.md",
+    "fuentes": [
+      "https://vitacura.cl/noticias/beca-municipal-2026-vitacura-abre-postulaciones-para-apoyar-a-estudiantes-de-la-comuna/"
+    ],
+    "campos": {
+      "descripcion": "Financiamiento de matrícula y/o arancel superior; importe desconocido.",
+      "descripcion_larga": "Residencia Vitacura mínima seis meses; RSH comunal; si supera 90% aportar informe social; ingreso líquido per cápita hasta $1.000.000; promedio último año 5,7; superior en universidad o IP acreditado. Máximo dos becas familiares. Modalidad escolar distinta. No certificar $193.100 ni $820.000 estimados dividiendo presupuesto. Inicio desconocido; cierre ampliado 24 abril. Sin activación ni sobrescritura de base; expediente exhaustivo no certificado.",
+      "documentos_requeridos": "Lista histórica no certificada; conservar antecedentes académicos y socioeconómicos mencionados en ficha sin inferir listado exhaustivo.",
+      "fecha_cierre": "24 de abril de 2026; descartar enero y 30 abril.",
+      "fecha_inicio": "Desconocida; fecha de publicación no prueba apertura.",
+      "monto": "Desconocido: descartar $193.100 fijo y $820.000 calculado de presupuesto.",
+      "nem_minimo": "Desconocido; promedio 5,7 del último año no es NEM universal.",
+      "tipo_beca": "Educación superior para matrícula/arancel; distinguir modalidad escolar. No certificar etiqueta histórica distinta."
+    }
+  },
+  {
+    "candidato": "70cc47ac438139cde0dc4476cdde18108e009db8b9036d6db48c57d0f58a58e4",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Las dos referencias históricas nombran el mismo programa de la misma institución; delimitado al alcance específico de la fuente oficial, sin fusionar programas de otra sede o modalidad.",
+    "informe": "CONCILIACION_HOGAR_UACH.md",
+    "fuentes": [
+      "https://dae.uach.cl/comienza-proceso-de-postulacion-a-residencias-estudiantiles-para-nuevos-as-estudiantes/"
+    ],
+    "campos": {
+      "descripcion": "Cupo en residencia estudiantil en Valdivia administrada por Fundación Leiva Mella; coste o gratuidad del alojamiento desconocidos.",
+      "descripcion_larga": "Matrícula UACh; preselección Gratuidad FUAS; familia fuera de Valdivia; cartola RSH y necesidad socioeconómica de alojamiento; cupos limitados con prioridad de puntaje PAES/PDT. Ficha 2023 discrepa cierre 20/22 enero; no calendario confirmado. No trasladar reglas a 2026 ni certificar bajo costo, copago o cobertura de Puerto Montt. Reglamento 2024 no leído completamente. Sin activación ni sobrescritura de base; documentos exhaustivos no certificados.",
+      "documentos_requeridos": "No conservar lista histórica como universal. Ficha 2023 solo enumera cartola RSH y comprobante FUAS; no certificar lista 2026.",
+      "monto": "Cupo en residencia estudiantil en Valdivia administrada por Fundación Leiva Mella; coste o gratuidad del alojamiento desconocidos."
+    }
+  },
+  {
+    "candidato": "e32478188248c1e8d179052cb8d9f6ff40b424a6bd0eff7637228ce064656933",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Las dos referencias históricas nombran el mismo programa de la misma institución; delimitado al alcance específico de la fuente oficial, sin fusionar programas de otra sede o modalidad.",
+    "informe": "CONCILIACION_ALIMENTACION_UFRO.md",
+    "fuentes": [
+      "https://admision.ufro.cl/becas-y-beneficios/programa-de-alimentacion-ufro/"
+    ],
+    "campos": {
+      "descripcion": "Un almuerzo menú ejecutivo; no respaldo para cena ni subsidio monetario.",
+      "descripcion_larga": "Estudiante UFRO sin BAES, con beneficios de arancel y domicilio acreditado. No atribuir RSH máximo 60 ni modalidad Complemento BAES 2022. Portal rotula admisión 2027 y pie 2026: alcance de servicio publicado, sin convocatoria anual certificada; fechas y documentación específica desconocidas. Sin activación ni sobrescritura de base; documentos exhaustivos no certificados.",
+      "documentos_requeridos": "No conservar lista histórica como universal. Ficha no publica lista exhaustiva; desconocida. No documentos de alojamiento en programa de almuerzo.",
+      "monto": "Un almuerzo menú ejecutivo; no respaldo para cena ni subsidio monetario."
+    }
+  },
+  {
+    "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
+    "revisado": "2026-10-05",
+    "decision_identidad": "Las dos referencias históricas nombran Beca Deportiva de Universidad Central; la ficha específica acredita programa por excelencia deportiva, sin validar porcentajes ni limitarlo a RM.",
+    "informe": "CONCILIACION_DEPORTIVA_UCENTRAL.md",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+      "https://www.ucentral.cl/estudiantes/dave/area-de-beneficios-y-servicios-estudiantiles/becas-y-beneficios/"
+    ],
+    "campos": {
+      "descripcion": "Rebaja de arancel con tope determinado por Comisión de Becas; porcentaje desconocido.",
+      "descripcion_larga": "Alto rendimiento y figuración regional, nacional o internacional en disciplinas con selecciones UCEN; prueba técnica y antecedentes curriculares para acreditar excelencia. No 20% ni 25–50% garantizados. Fuente ofrece contactos Santiago y La Serena/Coquimbo; no restringir a RM ni asumir alcance nacional. Calendario y lista documental exhaustiva desconocidos. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": "Acreditar excelencia mediante prueba técnica y antecedentes curriculares. No certificar lista histórica exhaustiva ni certificado IND como obligación universal.",
+      "monto": "Porcentaje y tope exactos desconocidos; Comisión de Becas determina tope. Rechazar 20% y 25–50% como universales.",
+      "regiones": "Cobertura territorial desconocida. Contactos oficiales Santiago y La Serena/Coquimbo impiden exclusividad RM; no inferir alcance nacional.",
+      "url": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    }
+  },
+  {
+    "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
+    "revisado": "2026-10-06",
+    "decision_identidad": "Las dos referencias nombran el mismo programa deportivo institucional; se conservan modalidades y desconocidos sin validar porcentajes históricos.",
+    "informe": "CONCILIACION_DEPORTIVA_UBO.md",
+    "fuentes": [
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dae.ubo.cl/talentodae/"
+    ],
+    "campos": {
+      "descripcion": "Rebaja anual de arancel sobre saldo después de beneficios externos; el programa Talento indica apoyo hasta 100% del copago según evaluación, no cobertura universal.",
+      "descripcion_larga": "Estudiantes antiguos que representen a UBO y destaquen por capacidad deportiva; seguimiento anual por expertos y Comisión de Becas. Programa Talento exige selección deportiva, carga académica al día salvo excepción y participación constante. Fichas DAE leídas mediante contenido indexado oficial; recarga directa bloqueada. No 20% ni rango 25–50% universales. Tope del programa no garantiza adjudicación completa. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": "UBO: selección y seguimiento deportivo; no exigir certificados IND ni lista documental histórica universal.",
+      "monto": "Rebaja anual de arancel sobre saldo después de beneficios externos; el programa Talento indica apoyo hasta 100% del copago según evaluación, no cobertura universal.",
+      "url": "https://dae.ubo.cl/becas/becas-ubo/"
+    }
+  },
+  {
+    "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
+    "revisado": "2026-10-06",
+    "decision_identidad": "Las dos referencias nombran el mismo programa deportivo institucional; se conservan modalidades y desconocidos sin validar porcentajes históricos.",
+    "informe": "CONCILIACION_DEPORTIVA_UVM.md",
+    "fuentes": [
+      "https://www.uvm.cl/deporte/",
+      "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf"
+    ],
+    "campos": {
+      "descripcion": "Beca interna de apoyo arancelario por excelencia deportiva; porcentaje y monto desconocidos.",
+      "descripcion_larga": "Nuevos: currículo deportivo con acreditación certificada en admisión. Antiguos: dos años ininterrumpidos en selección UVM y postulación por jefatura y cuerpo técnico. Solo deportes desarrollados oficialmente; selección según necesidades del plantel. Ficha deportiva sin calendario anual certificado; política general publicada de 2022 explica rebajas arancelarias. No 20% ni 25–50% universales. No trasladar automáticamente condiciones generales de renovación a convocatoria anual no acreditada. Fechas exactas y documentos exhaustivos desconocidos. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": "Nuevo UVM: currículo con acreditación certificada; antiguo: trayectoria de dos años y postulación deportiva. Lista exhaustiva y obligación universal de IND desconocidas.",
+      "monto": "Beca interna de apoyo arancelario por excelencia deportiva; porcentaje y monto desconocidos.",
+      "url": "https://www.uvm.cl/deporte/",
+      "institucion": "Universidad Viña del Mar. Variantes de tilde y doble codificación del histórico refieren a la misma institución; originales se conservan.",
+      "regiones": "Alcance territorial desconocido; no inferir V/RM ni nacionalidad del beneficio a partir de sede o vacío."
+    }
+  },
+  {
+    "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Las dos referencias históricas nombran alimentación UPLA general. Se concilian respecto de la modalidad documentada por rectoría en 2011; no se transfieren las reglas deportivas ni se certifican sus añadidos de 2026.",
+    "informe": "CONCILIACION_ALIMENTACION_UPLA.md",
+    "fuentes": [
+      "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+    ],
+    "campos": {
+      "descripcion": "Apoyo institucional de alimentación para estudiantes UPLA sin becas JUNAEB, según criterios de ese organismo; alcance histórico 2011.",
+      "descripcion_larga": "La respuesta de rectoría de 22 de junio de 2011 distingue beca propia para no receptores JUNAEB y suplemento del vale de quienes sí reciben JUNAEB. Campus San Felipe aplica el mismo criterio que el apartado 3.5. No se certifica compatibilidad BAES de la misma modalidad. Almuerzo y cena universales, RSH 60%, documentos y calendario 2026 quedan desconocidos. No se aplica la selección deportiva ni se activa la beca.",
+      "documentos_requeridos": "Desconocidos para el alcance histórico leído; no certificar las listas distintas del original.",
+      "monto": "Apoyo alimentario; prestación exacta y valoración monetaria desconocidas.",
+      "url": "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+    }
+  },
+  {
+    "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html"
+    ],
+    "campos": {
+      "descripcion": "Aporte por cheque para pasajes, matrícula, arancel y materiales; importe desconocido.",
+      "descripcion_larga": "Ficha municipal Beca Municipal de San Antonio, consultada el 6 de octubre de 2026. Residencia local acreditada mediante RSH; alumno regular de educación superior; acreditación socioeconómica y evaluación de trabajador social; carrera de cuatro semestres como mínimo en institución reconocida. Un beneficiario familiar y contraprestación voluntaria según ficha. Excluye capacitación/práctica. La página conserva un párrafo ajeno de servicio funerario: no se utiliza como evidencia educativa. Calendario y documentación completa no certificados; no activar. Los originales se conservan.",
+      "documentos_requeridos": null,
+      "fecha_cierre": null,
+      "fecha_inicio": null,
+      "monto": "Aporte por cheque para pasajes, matrícula, arancel y materiales; importe desconocido.",
+      "url": "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html"
+    }
+  },
+  {
+    "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://municipalidadsanramon.cl/2022/02/16/ya-se-encuentra-disponible-la-beca-municipal-de-educacion-superior/"
+    ],
+    "campos": {
+      "descripcion": "Subsidio económico financiado íntegramente por el municipio; importe individual desconocido.",
+      "descripcion_larga": "Comunicación municipal San Ramón del 16 de febrero de 2022; contenido indexado de la fuente institucional. Estudiantes de educación superior de San Ramón con rendimiento académico destacado y/o vulnerabilidad socioeconómica. Solo se confirman los criterios principales expresamente publicados; cortes numéricos y condiciones adicionales desconocidos. El cuerpo indexado pudo leerse, pero la apertura directa agotó el tiempo de espera; no representa una convocatoria 2026. No certifica calendario/documentos completos ni autoriza activación. Original conservado.",
+      "documentos_requeridos": null,
+      "monto": "Subsidio económico financiado íntegramente por el municipio; importe individual desconocido.",
+      "rsh_maximo": null,
+      "url": "https://municipalidadsanramon.cl/2022/02/16/ya-se-encuentra-disponible-la-beca-municipal-de-educacion-superior/"
+    }
+  },
+  {
+    "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+    ],
+    "campos": {
+      "descripcion": "$59.700 mensuales durante diez meses.",
+      "descripcion_larga": "UAH, catálogo publicado en 2022, página 30: Beca Municipal para Educación Superior La Pintana. Residencia local; desde segundo año en universidad CRUCH; evaluación académica y socioeconómica. Información histórica del catálogo: no certificar vigencia 2026. No extender a IP/CFT; admite una renovación, máximo dos años. Cortes numéricos no informados. No se certifica calendario vigente; no activar. Se conservan originales y variantes.",
+      "documentos_requeridos": null,
+      "monto": "$59.700 mensuales durante diez meses.",
+      "nem_minimo": null,
+      "rsh_maximo": null,
+      "url": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+    }
+  },
+  {
+    "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "campos": {
+      "descripcion": "90% del arancel durante la carrera.",
+      "descripcion_larga": "Beca Excelencia Académica UAH; modalidad 90% para admisión 2026 en publicación oficial Mineduc. Ingreso centralizado; egreso escolar 2025; promedio PAES CL y M1 al menos 800. Excluye pedagogías con Beca Vocación de Profesor; renovación entre 30% superior de cohorte y aprobación de al menos 80% de carga. Se confirma solo esta modalidad, sin combinar tabla de primer año ni datos de admisión 2027. NEM 5,8 histórico no acreditado.",
+      "documentos_requeridos": null,
+      "monto": "90% del arancel durante la carrera.",
+      "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    }
+  },
+  {
+    "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+    ],
+    "campos": {
+      "descripcion": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio.",
+      "descripcion_larga": "información de admisión histórica 2025; sin certificar convocatoria abierta Deportista destacado o seleccionado nacional que participe representando a UPLA; evaluación de especialistas coordinada por Deportes. No 20% fijo; no generalizar alimentación deportiva a todo estudiante vulnerable. Alcance 2025 sin convocatoria actual acreditada. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": null,
+      "monto": "Hasta 30% del arancel para beca deportiva; alimentación deportiva es otro beneficio.",
+      "url": "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+    }
+  },
+  {
+    "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "campos": {
+      "descripcion": "100% de matrícula del primer año.",
+      "descripcion_larga": "UVM: beneficio matrícula de ingreso 2026; catálogo página 399. Alumno de primer año de programa regular diurno presencial, seleccionado por postulación centralizada o vía especial. Se corrige 50–100% por PAES del archivo. No requiere trasladar NEM 5,5 no documentado, ni aplicar cobertura a matrícula de años posteriores.",
+      "documentos_requeridos": null,
+      "institucion": "Universidad Viña del Mar",
+      "monto": "100% de matrícula del primer año.",
+      "regiones": "No ampliar territorio a partir de las variantes; conservar el ámbito de la modalidad del expediente esencial.",
+      "tipo_beca": "Beneficio de matrícula de primer año",
+      "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    }
+  },
+  {
+    "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.mpuentealto.cl/estudiantes-de-puente-alto-reciben-beca-municipal-de-educacion-superior/"
+    ],
+    "campos": {
+      "descripcion": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido.",
+      "descripcion_larga": "Puente Alto: alcance histórico marzo de 2023 Estudiantes comunales de educación superior o técnica sin gratuidad. Aviso específico leído y fechado 31 de marzo de 2023. No confirma convocatoria 2026, RSH 60%, nota 5,0, escuelas matrices ni cuantías del histórico. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+      "documentos_requeridos": null,
+      "monto": "Apoyo parcial al arancel; compatible con otros beneficios crediticios e internos. Importe desconocido."
+    }
+  },
+  {
+    "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.munistgo.cl/beca-de-estudios/",
+      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+    ],
+    "campos": {
+      "descripcion": "Aporte único de $450.000 CLP en 2026.",
+      "descripcion_larga": "Santiago: beneficio 2026 y condiciones de ficha general con título 2025 Residencia del estudiante y familia; RSH comunal con seis meses; vulnerabilidad. Notas: 6,0 egreso medio; 5,0 carreras de ocho o más semestres; 5,5 carreras de cuatro a siete. Excluye distancia y títulos previos con excepción técnica publicada. No trasladar automáticamente condiciones de ficha titulada 2025 a toda la convocatoria 2026. RSH 60% y cierres históricos no acreditados. Se corrige la interpretación del importe histórico; base ya corregida en entrega anterior. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+      "documentos_requeridos": null,
+      "fecha_cierre": null,
+      "monto": "Aporte único de $450.000 CLP en 2026.",
+      "nem_minimo": "No usar un mínimo único: 6,0 al egreso medio; 5,0 o 5,5 en superior según duración. Condiciones de ficha 2025 y aporte 2026 separados.",
+      "tipo_beca": "Aporte económico de educación superior",
+      "url": "https://www.munistgo.cl/beca-de-estudios/"
+    }
+  },
+  {
+    "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.ucentral.cl/ucentral/site/docs/20191218/20191218100048/informativo.pdf"
+    ],
+    "campos": {
+      "descripcion": "Copago: 45% para CAE más BBE o BBE; 35% para CAE, según diferencia entre arancel real y referencia. La preselección a gratuidad tiene condiciones específicas en la ficha.",
+      "descripcion_larga": "UCentral: informativo oficial indexado 2019, sección carreras técnicas, página 8. Estudiantes técnicos ingresados entre 2016 y 2018 dentro de duración formal en 2019; CAE o BBE vigente, o preselección a gratuidad 2019 y RSH 60% del antecedente 2018 conforme a las excepciones del informativo. Lectura del contenido oficial conservado en índice de búsqueda; la recarga directa devuelve 404. Alcance técnico histórico 2019: no extrapolar porcentajes a toda la universidad ni al año 2026. No se acredita enlace operativo actual. Calendario no certificado; no activar. Originales y variantes conservados.",
+      "documentos_requeridos": null,
+      "url": "https://www.ucentral.cl/ucentral/site/docs/20191218/20191218100048/informativo.pdf"
+    }
+  },
+  {
+    "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://portal.mph.cl/?p=11935"
+    ],
+    "campos": {
+      "descripcion": "Ayuda económica para gastos de la carrera; importe y periodicidad desconocidos.",
+      "descripcion_larga": "Padre Hurtado: convocatoria municipal publicada el 27 de mayo de 2016; alcance histórico para tercer semestre. Cursar tercer semestre superior; condición regular y promedio mínimo 5,0. Acreditar situación económica y RSH; no recibir Beca Indígena ni Presidente de la República. No inferir corte RSH ni porcentaje de arancel. Noticia de 2016; no trasladar condiciones a 2026. La ruta dinámica de trámites sola no sirvió como evidencia. Calendario no certificado; no activar. Originales preservados.",
+      "documentos_requeridos": null,
+      "fecha_cierre": null,
+      "monto": "Ayuda económica para gastos de la carrera; importe y periodicidad desconocidos.",
+      "url": "https://portal.mph.cl/?p=11935"
+    }
+  },
+  {
+    "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias de una ficha compuesta: conservar las modalidades diferenciadas en el expediente; no mezclar requisitos ni crear un porcentaje universal.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-publicos-y-subvencionados",
+      "https://admision.uandes.cl/becas/beca-uandes-paes-colegios-particulares"
+    ],
+    "campos": {
+      "descripcion": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado.",
+      "descripcion_larga": "PAES: modalidades públicas/subvencionadas y particulares; reglas de admisión 2026 Primer ingreso; convocado; egreso escolar actual o anterior; puntaje de tabla propia. Bachilleratos excluidos. No aplicar una misma tabla o renovación a ambas modalidades. Particulares: aprobación de créditos y sin reprobaciones; posible reintegro al retirarse. No confirma convocatoria 2027. Sin activación. Original y base no sobrescritos; expediente documental exhaustivo desconocido.",
+      "documentos_requeridos": null,
+      "monto": "15–100% según carrera y puntaje. Públicos/subvencionados: matrícula y arancel; particulares: arancel. Complemento estatal condicionado."
+    }
+  },
+  {
+    "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://diario.uach.cl/uach-abre-proceso-de-postulacion-a-beca-para-deportistas-destacados-as-2026/"
+    ],
+    "campos": {
+      "descripcion": "Beca de arancel para deportistas destacados; porcentaje desconocido.",
+      "descripcion_larga": "Reglas públicas esenciales de Beca Deportiva UACh; no certifica convocatoria abierta Representación deportiva UACh en selecciones institucionales; nuevos o renovantes; formularios deportivos y médicos; nuevos con currículo acreditado; renovantes con informe del entrenador. Convocatoria 2026; inicio anunciado 23/03/2026, cierre no indicado. Documentos principales identificados, sin certificar expediente exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "documentos_requeridos": null,
+      "monto": "Beca de arancel para deportistas destacados; porcentaje desconocido."
+    }
+  },
+  {
+    "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "campos": {
+      "descripcion": "20% del arancel anual.",
+      "descripcion_larga": "Beca Universidad Finis Terrae por puntaje ponderado; ingreso regular 2026, catálogo páginas 343–344. Ingreso a primer año por admisión regular; puntaje ponderado mínimo definido por carrera. La descripción original identifica mérito PAES, pero su título Excelencia y rango 30–100% no quedan respaldados: se corrige al nombre y beneficio oficiales. Umbral por carrera desconocido. No acumulable con otras becas internas; excluye gratuidad y arancel ajustado.",
+      "documentos_requeridos": null,
+      "monto": "20% del arancel anual.",
+      "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    }
+  },
+  {
+    "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+    ],
+    "campos": {
+      "descripcion": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos.",
+      "descripcion_larga": "Ayuda Solidaria de Alimentación UTA; sin certificar convocatoria abierta Sin BAES ni título profesional; primeros seis deciles y asignaturas inscritas y ratificadas; sujeto a presupuesto. No certificar almuerzo y cena ni sustituir deciles por RSH. Postulación semestral por intranet sin fechas exactas. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": null,
+      "institucion": "Universidad de Tarapacá",
+      "monto": "Apoyo de alimentación durante el período académico; importe y raciones desconocidos.",
+      "regiones": "No ampliar territorio a partir de las variantes; conservar el ámbito de la modalidad del expediente esencial.",
+      "url": "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+    }
+  },
+  {
+    "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "campos": {
+      "descripcion": "Ayuda parcial para gastos de residencia.",
+      "descripcion_larga": "Reglas públicas esenciales de Beca de Residencia UBB; no certifica convocatoria abierta Necesidad socioeconómica evaluada institucionalmente; residencia familiar distante que impide traslado diario. Cuantía desconocida; no asumir plaza gratuita en hogar ni cobertura completa. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "documentos_requeridos": null,
+      "institucion": "Universidad del Biobío",
+      "monto": "Ayuda parcial para gastos de residencia.",
+      "url": "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    }
+  },
+  {
+    "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "campos": {
+      "descripcion": "Hasta 80% de arancel anual según carrera y promedio PAES; aplicado al saldo luego de beneficios ministeriales y CAE.",
+      "descripcion_larga": "UBO: corrección del rótulo de excelencia a Beca Puntaje PAES, ingreso 2026. Alumno nuevo sin gratuidad que completa FUAS, convocado por DEMRE con PAES válida; promedio Competencia Lectora y Matemática 1 determina porcentaje; excluye Medicina. No certificar 30–100% ni NEM 5,8. Solo compatible con Beca Matrícula; renovación exige aprobar 100% de asignaturas en los dos últimos semestres, dentro de duración formal. No se declara alias oficial del nombre histórico.",
+      "documentos_requeridos": null,
+      "monto": "Hasta 80% de arancel anual según carrera y promedio PAES; aplicado al saldo luego de beneficios ministeriales y CAE.",
+      "nem_minimo": null,
+      "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    }
+  },
+  {
+    "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+    ],
+    "campos": {
+      "descripcion": "Apoyo económico universitario; importe y periodicidad desconocidos.",
+      "descripcion_larga": "Algarrobo: Aporte Económico Municipal 2026 Alumno regular/matriculado; RSH de Algarrobo; acreditar arancel, notas e ingresos familiares mediante formulario social. Página completa obtenida directamente. No acredita RSH 60%, promedio mínimo 5,0 ni rango monetario original. Marzo–abril no permite inventar día exacto de cierre. Movilidad/Combustible es otro programa. Sin activación ni sobrescritura de base u originales. Expediente exhaustivo desconocido.",
+      "documentos_requeridos": null,
+      "monto": "Apoyo económico universitario; importe y periodicidad desconocidos.",
+      "nem_minimo": null,
+      "tipo_beca": "Aporte económico de educación superior"
+    }
+  },
+  {
+    "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias de una ficha compuesta: conservar las modalidades diferenciadas en el expediente; no mezclar requisitos ni crear un porcentaje universal.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/"
+    ],
+    "campos": {
+      "descripcion": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
+      "descripcion_larga": "modalidades deportivas UAH publicadas sin convocatoria anual certificada; sin certificar convocatoria abierta Destacado: primer semestre de pregrado/postgrado y trayectoria compatible con selección UAH, salud, formularios y entrevista. Mérito: desde tercer semestre, dos semestres en selección, rendimiento al menos promedio de generación y sin Destacado. Destacado renovable; Mérito requiere nueva postulación anual. No descuento universal de arancel 25%. Mantener separadas ambas modalidades y requisitos; no certificar calendario ni documentos exhaustivos. Sin activación ni sobrescritura de base.",
+      "documentos_requeridos": null,
+      "monto": "Aporte anual de importe desconocido: Deportista Destacado en ocho pagos abril–noviembre; Mérito Deportivo en seis mayo–octubre.",
+      "url": "https://admision.uahurtado.cl/becas-y-beneficios/"
+    }
+  },
+  {
+    "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://admisionucsh.cl/becas-y-beneficios/"
+    ],
+    "campos": {
+      "descripcion": "Hasta 100% del arancel anual o proporción evaluada.",
+      "descripcion_larga": "Reglas públicas esenciales de Beca Deportiva UCSH; no certifica convocatoria abierta Ingreso o regular de pregrado; destacado en disciplina con selección DAE UCSH. Presupuesto anual equivalente a cinco aranceles; máximo no garantizado; ficha esencial suficiente sin exigir PDF exhaustivo. Calendario y expediente documental completos no certificados. Sin activación ni sobrescritura de la base local.",
+      "documentos_requeridos": null,
+      "monto": "Hasta 100% del arancel anual o proporción evaluada."
+    }
+  },
+  {
+    "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf"
+    ],
+    "campos": {
+      "descripcion": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.",
+      "descripcion_larga": "Beca de educación superior de escasos recursos de Cerrillos; modificación de Ordenanza 20 publicada el 14 de noviembre de 2018. Estudiantes de escasos recursos de Cerrillos; NEM mínimo 5,5. Selección pondera vulnerabilidad 40%, NEM 40% e informe social 20%; se incorpora gratuidad a restricciones. Decreto modificatorio, no texto consolidado: las restricciones adicionales no se reconstruyen por inferencia. No confirmar $150.000 del archivo ni RSH máximo. Puntaje nacional PSU es otra modalidad y no se convierte en PAES.",
+      "monto": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada."
+    }
+  },
+  {
+    "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Referencias del mismo registro histórico; consolidar con las correcciones y el alcance del expediente esencial. No conservar como becas independientes los porcentajes, umbrales o fechas divergentes sin fuente.",
+    "informe": "CONCILIACION_VARIANTES_21_2026_10_09.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "campos": {
+      "descripcion": "50% del arancel a pagar después de becas ministeriales; sin becas ministeriales, 50% de arancel.",
+      "descripcion_larga": "UCSC: Beca Excelencia Puntaje Trayectoria Educativa 2; catálogo de admisión 2026, página 108. Promedio de 950 puntos en Competencia Lectora y Matemática 1 o 1000 puntos en alguna prueba obligatoria exigible para la carrera de matrícula. Solo modalidad 2 de excelencia por PAES. No confundir con DTE 1 al 90%, rendimiento escolar ni Beca Arancel UCSC. No se certifican NEM 5,8 y rango 15–100% originales.",
+      "documentos_requeridos": null,
+      "institucion": "Universidad Católica de la Santísima Concepción",
+      "monto": "50% del arancel a pagar después de becas ministeriales; sin becas ministeriales, 50% de arancel.",
+      "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    }
+  }
+]

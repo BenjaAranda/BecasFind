@@ -1,12 +1,13 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import AdminDialog from '../../components/admin/AdminDialog';
+import { useState, useEffect, useRef } from 'react';
 import { adminService } from '../../services/adminService';
-import { becaService } from '../../services/becaService';
-import type { BecaSummary, ImportResult } from '../../types';
+import type { AdminBecaSummary, ImportResult } from '../../types';
 import BecaForm from '../../components/admin/BecaForm';
 import { Plus, Edit, Trash2, ExternalLink, Upload, X, Search as SearchIcon } from 'lucide-react';
+import { formatCalendarDate } from '../../utils/dates';
 
 export default function AdminBecasPage() {
-  const [becas, setBecas] = useState<BecaSummary[]>([]);
+  const [becas, setBecas] = useState<AdminBecaSummary[]>([]);
   const [totalPages, setTotalPages] = useState(0);
   const [page, setPage] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -19,29 +20,53 @@ export default function AdminBecasPage() {
   const [importResult, setImportResult] = useState<ImportResult | null>(null);
   const [importLoading, setImportLoading] = useState(false);
   const [searchText, setSearchText] = useState('');
+  const [error, setError] = useState('');
+  const [deleteError, setDeleteError] = useState('');
+  const [deleting, setDeleting] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [totalElements, setTotalElements] = useState(0);
+  const [refresh, setRefresh] = useState(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const fetchBecas = useCallback(async (p: number) => {
-    setLoading(true);
-    try {
-      const { data } = await becaService.search({
-        query: searchText || undefined,
-        page: p,
-        size: 50,
-      });
-      setBecas(data.data.content);
-      setTotalPages(data.data.totalPages);
-      setPage(data.data.number);
-    } catch { setBecas([]); }
-    finally { setLoading(false); }
-  }, [searchText]);
+  useEffect(() => {
+    let active = true;
+    const controller = new AbortController();
+    const timer = setTimeout(async () => {
+      setLoading(true);
+      setError('');
+      try {
+        const { data } = await adminService.getBecas(page, 50, searchText || undefined, controller.signal);
+        if (!active) return;
+        if (page > 0 && page >= data.data.totalPages) {
+          setPage(Math.max(0, data.data.totalPages - 1));
+          return;
+        }
+        setBecas(data.data.content);
+        setTotalPages(data.data.totalPages);
+        setTotalElements(data.data.totalElements);
+      } catch {
+        if (active) {
+          setBecas([]);
+          setTotalPages(0);
+          setTotalElements(0);
+          setError('No se pudieron cargar las becas. Reintenta la consulta.');
+        }
+      } finally { if (active) setLoading(false); }
+    }, searchText ? 400 : 0);
+    return () => { active = false; clearTimeout(timer); controller.abort(); };
+  }, [page, searchText, refresh]);
 
-  useEffect(() => { const t = setTimeout(() => fetchBecas(0), 400); return () => clearTimeout(t); }, [searchText]);
-  useEffect(() => { fetchBecas(0); }, []);
+  const reload = () => setRefresh(v => v + 1);
 
   const displayed = becas;
+  const todayInChile = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Santiago', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date());
 
   const handleEdit = async (id: number) => {
+    if (editing) return;
+    setEditing(true);
+    setError('');
     try {
       const { data } = await adminService.getBeca(id);
       const d = data.data;
@@ -50,10 +75,12 @@ export default function AdminBecasPage() {
         descripcionCorta: d.descripcionCorta,
         descripcionLarga: d.descripcionLarga,
         montoCobertura: d.montoCobertura,
+        cobertura: d.cobertura,
         idTipoBeca: d.tipoBeca?.idTipoBeca,
         idInstitucion: d.institucion?.idInstitucion,
         fechaInicioPostulacion: d.fechaInicioPostulacion,
         fechaCierrePostulacion: d.fechaCierrePostulacion,
+        version: d.version,
         urlOficial: d.urlOficial,
         estadoActiva: d.estadoActiva,
         regionesIds: d.regiones?.map(r => r.idRegion),
@@ -66,53 +93,60 @@ export default function AdminBecasPage() {
       });
       setEditId(id);
       setShowForm(true);
-    } catch {}
+    } catch { setError('No se pudo cargar la beca para editar. Reintenta desde la fila.'); }
+    finally { setEditing(false); }
   };
 
   const handleDelete = async () => {
-    if (!confirmDeleteId) return;
-    await adminService.deleteBeca(confirmDeleteId);
-    setConfirmDeleteId(null);
-    fetchBecas(page);
+    if (!confirmDeleteId || deleting) return;
+    setDeleting(true);
+    setDeleteError('');
+    try {
+      await adminService.deleteBeca(confirmDeleteId);
+      setConfirmDeleteId(null);
+      reload();
+    } catch { setDeleteError('No se pudo eliminar la beca. Puedes reintentar.'); }
+    finally { setDeleting(false); }
   };
 
   const handleFormSave = () => {
     setShowForm(false);
     setEditId(null);
     setEditData(null);
-    fetchBecas(0);
+    setPage(0);
+    reload();
   };
 
-  const formatDate = (d: string) => new Date(d).toLocaleDateString('es-CL');
+  const formatDate = (d: string | null) => formatCalendarDate(d, true);
 
   return (
-    <div className="p-6">
-      <div className="flex items-center justify-between mb-6">
+    <div className="p-4 sm:p-6">
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-2xl font-bold text-gray-800">Gestión de Becas</h1>
-          <p className="text-sm text-gray-500 mt-1">{becas.length} becas en total</p>
+          <h1 className="text-2xl font-bold text-[#16324f]">Gestión de Becas</h1>
+          <p className="text-sm text-gray-600 mt-1">{totalElements} becas en total</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <div className="relative">
-            <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-600" />
             <input
               type="text"
               placeholder="Buscar beca..."
               value={searchText}
-              onChange={e => setSearchText(e.target.value)}
-              className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 outline-none w-48"
+              maxLength={200} aria-label="Buscar beca" onChange={e => { setSearchText(e.target.value); setPage(0); }}
+              className="pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-[#164e8c] outline-none w-48"
             />
           </div>
           <button
             onClick={() => { setShowImport(true); setImportResult(null); setImportFile(null); }}
-            className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]"
           >
             <Upload className="w-4 h-4" />
             Importar CSV
           </button>
           <button
             onClick={() => { setEditId(null); setEditData(null); setShowForm(true); }}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 bg-[#16324f] text-white text-sm font-medium rounded-lg hover:bg-[#0b3c75] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]"
           >
             <Plus className="w-4 h-4" />
             Nueva Beca
@@ -120,6 +154,7 @@ export default function AdminBecasPage() {
         </div>
       </div>
 
+      {error && <div role="alert" className="mb-4 p-3 bg-red-50 text-red-700 rounded-lg">{error} <button onClick={reload} className="underline">Reintentar consulta</button></div>}
       {loading ? (
         <div className="space-y-3">
           {Array.from({ length: 5 }).map((_, i) => (
@@ -127,8 +162,8 @@ export default function AdminBecasPage() {
           ))}
         </div>
       ) : (
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-          <table className="w-full text-sm">
+        <div className="bg-[#ffffff] rounded-xl shadow-sm border border-gray-100 overflow-x-auto">
+          <table className="w-full min-w-[560px] text-sm">
             <thead>
               <tr className="bg-gray-50 text-left">
                 <th className="px-4 py-3 font-medium text-gray-600">Nombre</th>
@@ -142,25 +177,25 @@ export default function AdminBecasPage() {
               {displayed.map(beca => (
                 <tr key={beca.idBeca} className="hover:bg-gray-50">
                   <td className="px-4 py-3">
-                    <span className="font-medium text-gray-800">{beca.nombre}</span>
-                    <span className="block text-xs text-gray-400">{beca.nombreTipoBeca}</span>
+                    <span className="font-medium text-[#16324f]">{beca.nombre}</span>
+                    <span className="block text-xs text-gray-600">{beca.nombreTipoBeca}</span>
                   </td>
                   <td className="px-4 py-3 text-gray-600 hidden md:table-cell">{beca.nombreInstitucion}</td>
                   <td className="px-4 py-3 text-gray-600 hidden lg:table-cell">{formatDate(beca.fechaCierrePostulacion)}</td>
                   <td className="px-4 py-3">
-                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${new Date(beca.fechaCierrePostulacion) > new Date() ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-                      {new Date(beca.fechaCierrePostulacion) > new Date() ? 'Activa' : 'Expirada'}
+                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${beca.estadoActiva && beca.fechaCierrePostulacion !== null && beca.fechaCierrePostulacion >= todayInChile ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                      {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : beca.fechaCierrePostulacion >= todayInChile ? 'Vigente' : 'Vencida'}
                     </span>
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-1">
-                      <a href={`/becas/${beca.idBeca}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer">
+                      {beca.estadoActiva && beca.fechaCierrePostulacion && <a href={`/becas/${beca.publicId}`} aria-label={`Ver detalle de ${beca.nombre}`} target="_blank" rel="noopener noreferrer" className="p-1.5 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                         <ExternalLink className="w-4 h-4" />
-                      </a>
-                      <button onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer">
+                      </a>}
+                      <button disabled={editing} aria-label={`Editar ${beca.nombre}`} onClick={() => handleEdit(beca.idBeca)} className="p-1.5 text-gray-600 hover:text-amber-600 hover:bg-amber-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                         <Edit className="w-4 h-4" />
                       </button>
-                      <button onClick={() => setConfirmDeleteId(beca.idBeca)} className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer">
+                      <button aria-label={`Eliminar ${beca.nombre}`} onClick={() => { setDeleteError(''); setConfirmDeleteId(beca.idBeca); }} className="p-1.5 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                         <Trash2 className="w-4 h-4" />
                       </button>
                     </div>
@@ -168,7 +203,7 @@ export default function AdminBecasPage() {
                 </tr>
               ))}
               {displayed.length === 0 && (
-                <tr><td colSpan={5} className="px-4 py-8 text-center text-gray-400">No hay becas registradas</td></tr>
+                <tr><td colSpan={5} className="px-4 py-8 text-center text-gray-600">No hay becas registradas</td></tr>
               )}
             </tbody>
           </table>
@@ -177,8 +212,8 @@ export default function AdminBecasPage() {
 
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-1 mt-4">
-          <button disabled={page === 0} onClick={() => fetchBecas(page - 1)}
-            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">«</button>
+          <button disabled={page === 0} onClick={() => setPage(page - 1)}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">«</button>
           {Array.from({ length: Math.min(totalPages, 6) }, (_, i) => {
             let p: number;
             if (totalPages <= 6) { p = i; }
@@ -187,50 +222,55 @@ export default function AdminBecasPage() {
             else { p = page - 2 + i; }
             return (
               <button key={p} disabled={p === page}
-                onClick={() => fetchBecas(p)}
-                className={`w-7 h-7 text-xs rounded cursor-pointer ${p === page ? 'bg-blue-600 text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
+                onClick={() => setPage(p)}
+                className={`w-7 h-7 text-xs rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c] ${p === page ? 'bg-[#16324f] text-white font-medium' : 'border border-gray-300 hover:bg-gray-100'}`}>
                 {p + 1}
               </button>
             );
           })}
-          <button disabled={page >= totalPages - 1} onClick={() => fetchBecas(page + 1)}
-            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer">»</button>
+          <button disabled={page >= totalPages - 1} onClick={() => setPage(page + 1)}
+            className="px-2.5 py-1 text-sm rounded border border-gray-300 disabled:opacity-40 hover:bg-gray-100 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">»</button>
         </div>
       )}
 
       {showForm && <BecaForm onClose={() => setShowForm(false)} onSave={handleFormSave} editId={editId} initialData={editData} />}
 
       {confirmDeleteId && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-xl p-6 max-w-sm mx-4">
+        <AdminDialog title="Confirmar eliminación" busy={deleting} onClose={() => setConfirmDeleteId(null)}>
+          <div className="p-6">
             <h3 className="text-lg font-semibold mb-2">Confirmar eliminación</h3>
             <p className="text-sm text-gray-600 mb-4">¿Estás seguro de eliminar esta beca? Esta acción no se puede deshacer.</p>
+            {deleteError && <p role="alert" className="mb-3 text-red-700">{deleteError}</p>}
             <div className="flex justify-end gap-3">
-              <button onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer">Cancelar</button>
-              <button onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer">Eliminar</button>
+              <button disabled={deleting} onClick={() => setConfirmDeleteId(null)} className="px-4 py-2 text-sm border rounded-lg cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">Cancelar</button>
+              <button disabled={deleting} onClick={handleDelete} className="px-4 py-2 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">{deleting ? 'Eliminando…' : 'Eliminar'}</button>
             </div>
           </div>
-        </div>
+        </AdminDialog>
       )}
 
       {showImport && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-xl w-full max-w-md mx-4 p-6">
+        <AdminDialog title="Importar becas desde CSV" busy={importLoading} onClose={() => setShowImport(false)}>
+          <div className="p-6">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold">Importar Becas desde CSV</h3>
-              <button onClick={() => setShowImport(false)} className="p-1 hover:bg-gray-100 rounded cursor-pointer"><X className="w-5 h-5" /></button>
+              <button disabled={importLoading} aria-label="Cerrar importación" onClick={() => setShowImport(false)} className="p-1 hover:bg-gray-100 rounded cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]"><X className="w-5 h-5" /></button>
             </div>
 
             {importResult ? (
               <div className="space-y-3">
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   <div className="p-3 bg-green-50 rounded-lg text-center">
                     <p className="text-2xl font-bold text-green-700">{importResult.creadas}</p>
                     <p className="text-xs text-green-600">Creadas</p>
                   </div>
                   <div className="p-3 bg-blue-50 rounded-lg text-center">
-                    <p className="text-2xl font-bold text-blue-700">{importResult.actualizadas}</p>
+                    <p className="text-2xl font-bold text-[#0b3c75]">{importResult.actualizadas}</p>
                     <p className="text-xs text-blue-600">Actualizadas</p>
+                  </div>
+                  <div className="p-3 bg-slate-50 rounded-lg text-center">
+                    <p className="text-2xl font-bold text-[#0b3c75]">{importResult.omitidas ?? 0}</p>
+                    <p className="text-xs text-slate-600">Existentes conservadas</p>
                   </div>
                   <div className="p-3 bg-red-50 rounded-lg text-center">
                     <p className="text-2xl font-bold text-red-700">{importResult.errores}</p>
@@ -244,22 +284,22 @@ export default function AdminBecasPage() {
                     ))}
                   </div>
                 )}
-                <button onClick={() => { setShowImport(false); fetchBecas(0); }}
-                  className="w-full py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 cursor-pointer">
+                <button onClick={() => { setShowImport(false); setPage(0); reload(); }}
+                  className="w-full py-2 bg-[#16324f] text-white text-sm rounded-lg hover:bg-[#0b3c75] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                   Cerrar
                 </button>
               </div>
             ) : (
               <>
-                <p className="text-sm text-gray-500 mb-4">
+                <p className="text-sm text-gray-600 mb-4">
                   Selecciona un archivo CSV con las becas a importar. El sistema detectará duplicados y los actualizará automáticamente.
                 </p>
-                <input type="file" accept=".csv" ref={fileInputRef}
+                <input aria-label="Archivo CSV de becas" disabled={importLoading} type="file" accept=".csv" ref={fileInputRef}
                   onChange={e => setImportFile(e.target.files?.[0] || null)}
-                  className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-50 file:text-blue-700 file:cursor-pointer hover:file:bg-blue-100" />
+                  className="w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-blue-50 file:text-[#0b3c75] file:cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c] hover:file:bg-[#eff6ff]" />
                 <div className="flex justify-end gap-3 mt-4">
-                  <button onClick={() => setShowImport(false)}
-                    className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer">Cancelar</button>
+                  <button disabled={importLoading} onClick={() => setShowImport(false)}
+                    className="px-4 py-2 text-sm border rounded-lg hover:bg-gray-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">Cancelar</button>
                   <button
                     disabled={!importFile || importLoading}
                     onClick={async () => {
@@ -278,14 +318,14 @@ export default function AdminBecasPage() {
                       }
                       finally { setImportLoading(false); }
                     }}
-                    className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 cursor-pointer">
+                    className="px-4 py-2 text-sm bg-[#16324f] text-white rounded-lg hover:bg-[#0b3c75] disabled:opacity-50 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#164e8c]">
                     {importLoading ? 'Importando...' : 'Importar'}
                   </button>
                 </div>
               </>
             )}
           </div>
-        </div>
+        </AdminDialog>
       )}
     </div>
   );

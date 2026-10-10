@@ -1,0 +1,25 @@
+{
+  "revisado": "2026-10-01",
+  "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
+  "institucion": "Municipalidad de Santiago",
+  "nombre_historico": "Aporte Económico para Educación Superior",
+  "nombre_oficial": "Beca de Educación Superior",
+  "alcance": "Cobertura confirmada del proceso 2026. Correspondencia por institución y finalidad; nombre histórico conservado para no cambiar su identidad. Sin cierre de postulación confirmado.",
+  "fuentes": [
+    "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/",
+    "https://www.munistgo.cl/beca-de-estudios/"
+  ],
+  "campos": {
+    "monto": "$450.000 en un aporte único para el proceso 2026",
+    "cobertura_tipo": "MONETARIA",
+    "cobertura_importe": "450000.00",
+    "cobertura_moneda": "CLP",
+    "cobertura_periodicidad": "UNICA",
+    "cobertura_porcentaje": "",
+    "url": "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/",
+    "estado_activa": "false",
+    "solo_crear": "false"
+  },
+  "desconocidos": ["fecha_inicio", "fecha_cierre", "rsh_maximo", "nem_minimo", "documentos_requeridos"],
+  "nota": "No trasladar requisitos del contenido titulado 2025 a 2026. La entrega de julio de 2026 no es una fecha de cierre. La periodicidad describe un pago único y no garantiza renovación anual. No conservar los importes truncados ni el intervalo histórico sin fuente."
+}

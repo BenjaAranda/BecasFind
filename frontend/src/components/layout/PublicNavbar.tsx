@@ -1,57 +1,48 @@
-import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import { GraduationCap, Search, UserPlus, LogIn, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { NavLink, Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/useAuth';
+import { GraduationCap, Menu, X } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function PublicNavbar() {
-  const { isAuthenticated, isAdmin, logout } = useAuth();
+  const { isAuthenticated, isAdmin, user, logout } = useAuth();
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
-
-  const handleLogout = () => { logout(); navigate('/'); };
-
+  const toggle = useRef<HTMLButtonElement>(null);
+  const close = () => setOpen(false);
+  useEffect(() => {
+    if (!open) return;
+    const escape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') { setOpen(false); toggle.current?.focus(); }
+    };
+    window.addEventListener('keydown', escape);
+    return () => window.removeEventListener('keydown', escape);
+  }, [open]);
+  const linkClass = ({ isActive }: { isActive: boolean }) => `inline-flex min-h-11 items-center px-3 text-sm rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0b3c75] ${isActive ? 'bg-[#eff6ff] text-[#0b3c75] font-semibold' : 'text-slate-600 hover:bg-[#f1f5f9] hover:text-[#0b3c75]'}`;
   return (
-    <header className="bg-white/90 backdrop-blur border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition">
-          <GraduationCap className="w-6 h-6 text-blue-600" />
-          <span className="font-bold text-lg text-gray-900">BecasFind</span>
-        </Link>
-
-        <button onClick={() => setOpen(!open)} className="lg:hidden p-2">
-          {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
-
-        <nav className={`${open ? 'flex' : 'hidden'} lg:flex absolute lg:static top-14 left-0 right-0 bg-white lg:bg-transparent border-b lg:border-b-0 flex-col lg:flex-row items-start lg:items-center gap-2 p-4 lg:p-0 shadow lg:shadow-none`}>
-          <Link to="/explorar" className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 px-3 py-1.5 rounded-lg transition">
-            <Search className="w-4 h-4" />
-            Explorar Becas
+    <header className="sticky top-0 z-30 border-t-4 border-t-blue-800 border-b border-[#dbe3ed] bg-white text-[#0b3c75]">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="h-18 flex items-center justify-between gap-4">
+          <Link to="/" onClick={close} className="inline-flex items-center gap-2.5 rounded font-semibold text-xl focus-visible:outline-2 focus-visible:outline-offset-4">
+            <GraduationCap size={28} aria-hidden="true" /> BecasFind
           </Link>
-
-          {isAuthenticated ? (
-            <>
-              {isAdmin && (
-                <Link to="/admin" className="text-sm text-purple-600 hover:text-purple-700 px-3 py-1.5 rounded-lg transition font-medium">
-                  Admin
-                </Link>
-              )}
-              <button onClick={handleLogout} className="text-sm text-red-500 hover:text-red-600 px-3 py-1.5 rounded-lg transition cursor-pointer">
-                Salir
-              </button>
-            </>
-          ) : (
-            <>
-              <Link to="/login" className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 px-3 py-1.5 rounded-lg transition">
-                <LogIn className="w-4 h-4" />
-                Ingresar
-              </Link>
-              <Link to="/register" className="flex items-center gap-1 text-sm bg-blue-600 text-white px-4 py-1.5 rounded-lg hover:bg-blue-700 transition">
-                <UserPlus className="w-4 h-4" />
-                Registrarse
-              </Link>
-            </>
-          )}
-        </nav>
+          <button ref={toggle} type="button" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={open} aria-controls="public-navigation"
+            onClick={() => setOpen(current => !current)} className="lg:hidden flex items-center justify-center min-h-11 min-w-11 rounded-sm border border-[#cbd5e1] focus-visible:outline-2 focus-visible:outline-offset-2">
+            {open ? <X size={21} aria-hidden="true" /> : <Menu size={21} aria-hidden="true" />}
+          </button>
+          <nav id="public-navigation" aria-label="Navegación principal" className={`${open ? 'flex' : 'hidden'} absolute top-18 left-0 right-0 border-b border-[#dbe3ed] bg-white p-4 flex-col gap-1 shadow-sm lg:static lg:flex lg:flex-row lg:items-center lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none`}>
+            <NavLink to="/explorar" onClick={close} className={linkClass}>Explorar Becas</NavLink>
+            {isAuthenticated ? <>
+              <NavLink to="/favoritos" onClick={close} className={linkClass}>Favoritos</NavLink>
+              <NavLink to="/perfil" onClick={close} className={linkClass}>Mi Perfil</NavLink>
+              {isAdmin && <NavLink to="/admin" onClick={close} className={linkClass}>Admin</NavLink>}
+              <span className="max-w-32 truncate px-3 py-2 text-xs text-[#375b80]" title={user?.nombreCompleto}>{user?.nombreCompleto}</span>
+              <button onClick={() => { close(); logout(); navigate('/'); }} className="min-h-11 px-3 text-left text-sm text-red-800 rounded-sm hover:bg-red-50 focus-visible:outline-2 focus-visible:outline-offset-2">Salir</button>
+            </> : <>
+              <NavLink to="/login" onClick={close} className={linkClass}>Ingresar</NavLink>
+              <NavLink to="/register" onClick={close} className="inline-flex min-h-11 items-center justify-center px-4 text-sm font-medium rounded-sm bg-[#0b3c75] text-white hover:bg-[#082e5b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0b3c75]">Registrarse</NavLink>
+            </>}
+          </nav>
+        </div>
       </div>
     </header>
   );

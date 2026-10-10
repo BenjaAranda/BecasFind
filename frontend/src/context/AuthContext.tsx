@@ -1,119 +1,88 @@
-import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react';
+import { useState, useEffect, useCallback, type ReactNode } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import api from '../services/api';
-import type { User, AuthContextType as ACT, ApiResponse, AuthResponse } from '../types';
+import { AuthContext } from './useAuth';
+import type { User, AuthContextType, ApiResponse, AuthResponse } from '../types';
 
-interface JwtPayload {
-  sub: string;
-  role: string;
-  nombre: string;
-  exp: number;
+interface Session {
+  token: string;
+  user: User;
+  expiresAt: number;
 }
 
-const AuthContext = createContext<ACT | null>(null);
+function sessionFromToken(token: string): Session {
+  const decoded = jwtDecode<{ sub: string; role: string; nombre: string; exp: number }>(token);
+  if (typeof decoded.sub !== 'string' || !decoded.sub.trim()
+      || typeof decoded.nombre !== 'string' || !decoded.nombre.trim()
+      || !['ADMIN', 'STUDENT'].includes(decoded.role)
+      || typeof decoded.exp !== 'number' || !Number.isFinite(decoded.exp)
+      || decoded.exp * 1000 <= Date.now()) {
+    throw new Error('La sesión recibida no es válida.');
+  }
+  // Decoding controls the interface only; the API verifies signature and permissions.
+  return { token, expiresAt: decoded.exp * 1000, user: {
+    idUsuario: 0, email: decoded.sub, nombreCompleto: decoded.nombre, rol: decoded.role, activo: true,
+  } };
+}
 
-const TOKEN_KEY = 'token';
-const USER_KEY = 'user';
+function readStoredSession(): Session | null {
+  const token = localStorage.getItem('token');
+  if (!token) return null;
+  try { return sessionFromToken(token); }
+  catch { return null; }
+}
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
-  const [token, setToken] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [session, setSession] = useState<Session | null>(readStoredSession);
 
   useEffect(() => {
-    const storedToken = localStorage.getItem(TOKEN_KEY);
-    if (storedToken) {
-      try {
-        const decoded = jwtDecode<JwtPayload>(storedToken);
-        const now = Date.now() / 1000;
-        if (decoded.exp > now) {
-          setToken(storedToken);
-          setUser({
-            idUsuario: 0,
-            email: decoded.sub,
-            nombreCompleto: decoded.nombre,
-            rol: decoded.role,
-            activo: true,
-          });
-        } else {
-          localStorage.removeItem(TOKEN_KEY);
-          localStorage.removeItem(USER_KEY);
-        }
-      } catch {
-        localStorage.removeItem(TOKEN_KEY);
-        localStorage.removeItem(USER_KEY);
-      }
+    // The legacy user cache is unnecessary: restored identity comes from the token.
+    localStorage.removeItem('user');
+    if (!session) {
+      localStorage.removeItem('token');
+      return;
     }
-    setLoading(false);
+    const timer = setTimeout(() => setSession(readStoredSession()),
+      Math.min(Math.max(0, session.expiresAt - Date.now()), 2_147_483_647));
+    return () => clearTimeout(timer);
+  }, [session]);
+
+  useEffect(() => {
+    const sync = (event: StorageEvent) => {
+      if (event.storageArea === localStorage && (event.key === 'token' || event.key === null)) {
+        setSession(readStoredSession());
+      }
+    };
+    window.addEventListener('storage', sync);
+    return () => window.removeEventListener('storage', sync);
+  }, []);
+
+  const saveSession = useCallback((token: string) => {
+    const next = sessionFromToken(token);
+    localStorage.setItem('token', token);
+    setSession(next);
   }, []);
 
   const login = useCallback(async (email: string, password: string) => {
     const { data } = await api.post<ApiResponse<AuthResponse>>('/auth/login', { email, password });
-    const { token: jwtToken, nombreRol, nombreCompleto } = data.data;
-
-    localStorage.setItem(TOKEN_KEY, jwtToken);
-
-    const userData: User = {
-      idUsuario: 0,
-      email,
-      nombreCompleto,
-      rol: nombreRol,
-      activo: true,
-    };
-    localStorage.setItem(USER_KEY, JSON.stringify(userData));
-
-    setToken(jwtToken);
-    setUser(userData);
-  }, []);
+    saveSession(data.data.token);
+  }, [saveSession]);
 
   const register = useCallback(async (nombreCompleto: string, email: string, password: string) => {
     const { data } = await api.post<ApiResponse<AuthResponse>>('/auth/register', { nombreCompleto, email, password });
-    const { token: jwtToken, nombreRol } = data.data;
-
-    localStorage.setItem(TOKEN_KEY, jwtToken);
-
-    const userData: User = {
-      idUsuario: 0,
-      email,
-      nombreCompleto,
-      rol: nombreRol,
-      activo: true,
-    };
-    localStorage.setItem(USER_KEY, JSON.stringify(userData));
-
-    setToken(jwtToken);
-    setUser(userData);
-  }, []);
+    saveSession(data.data.token);
+  }, [saveSession]);
 
   const logout = useCallback(() => {
-    localStorage.removeItem(TOKEN_KEY);
-    localStorage.removeItem(USER_KEY);
-    setToken(null);
-    setUser(null);
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    setSession(null);
   }, []);
 
-  const value: ACT = {
-    user,
-    token,
-    loading,
-    login,
-    register,
-    logout,
-    isAuthenticated: !!token,
-    isAdmin: user?.rol === 'ADMIN',
+  const value: AuthContextType = {
+    user: session?.user ?? null, token: session?.token ?? null, loading: false,
+    login, register, logout, isAuthenticated: !!session, isAdmin: session?.user.rol === 'ADMIN',
   };
 
-  return (
-    <AuthContext.Provider value={value}>
-      {children}
-    </AuthContext.Provider>
-  );
-}
-
-export function useAuth(): ACT {
-  const context = useContext(AuthContext);
-  if (!context) {
-    throw new Error('useAuth debe usarse dentro de un AuthProvider');
-  }
-  return context;
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
