@@ -1509,7 +1509,7 @@
       "nombre": "Beca Municipal para Estudiantes de Educación Superior Lota",
       "institucion": "Municipalidad de Lota",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La publicación de abril 2026 informa beca de pasajes a 277 estudiantes. No identifica una beca distinta de mantención general ni acredita sus requisitos.",
+      "hallazgo": "Página 78: Beca de Pasajes Educación Superior Lota; 100.000 CLP en un cheque y 100 cupos; regular, RSH y promedio anterior 5,5. Estudios fuera de Lota salvo residentes de Colcura/Chivilingo. La referencia a lunes 1 y viernes 12 de abril corresponde al calendario histórico, no certifica 2026. El original debe distinguir pasajes del supuesto aporte general; no conservar RSH 60% ni NEM 5,0 como confirmados.",
       "fuentes": [
         {
           "url": "https://lota.cl/2026/04/",
@@ -1532,7 +1532,7 @@
       ],
       "alcance": null,
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_081_110_2026_10_09.md"
+      "informe_ultima_revision": "RELECTURA_MUNICIPAL_2026_10_09.md"
     },
     {
       "candidato": "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
@@ -3136,7 +3136,7 @@
       "nombre": "Beca PAES y Educación Superior Lebu 2026",
       "institucion": "Municipalidad de Lebu",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El PDF UCSC 2026 recuperado resultó incompleto. No confirma ni refuta PAES y educación superior de Lebu; se requiere documento legible de esa modalidad.",
+      "hallazgo": "El PDF completo ya se recuperó y leyó. Página 48: Beca Efectivo de Lebu, con referencia expresa a 2025; aporte durante diez meses sujeto a presupuesto. Egreso de establecimiento municipal; ingreso per cápita máximo 180.000 CLP; nota 5,0 para nuevos y 4,5 para superiores, sin dos o más asignaturas reprobadas. No respalda una beca PAES de pago único 2026. Página 47 corresponde a otra modalidad de residencia 2024: 80.000 mensuales por diez meses. Falta identificar el incentivo PAES, no recuperar otra vez este PDF.",
       "fuentes": [
         {
           "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
@@ -3160,7 +3160,7 @@
       ],
       "alcance": null,
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_051_080_2026_10_09.md"
+      "informe_ultima_revision": "RELECTURA_MUNICIPAL_2026_10_09.md"
     },
     {
       "candidato": "8c8a0b6ef680c9175d88e817de0224d660864d3d26bc49c0d911924b587bf132",
@@ -4587,7 +4587,7 @@
       "nombre": "Beca Municipal de Educación Superior",
       "institucion": "Municipalidad de Santa Juana",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "La noticia Mineduc es Becas TIC de séptimo básico. El catastro UdeC 2024 distingue devolución de matrícula, traslado vespertino y pasajes; no demuestra cuál corresponde a la candidata genérica.",
+      "hallazgo": "Páginas 73–76 separan cuatro programas Santa Juana. Devolución de matrícula: primer ingreso superior, residencia mínima de dos años y RSH; cuantía según matrícula y selección. Transporte vespertino es servicio; pasajes es aporte mensual; hogar es alojamiento gratuito. Ninguno de esos apartados acredita el pago general de 150.000 CLP, 400 cupos y presupuesto de 60 millones del original. Debe identificarse si la candidata describía devolución de matrícula; no mezclar los cuatro programas.",
       "fuentes": [
         {
           "url": "https://biobio.mineduc.cl/2026/08/05/estudiantes-de-santa-juana-reciben-computadores-del-programa-becas-tic-de-junaeb/",
@@ -4609,7 +4609,7 @@
       ],
       "alcance": null,
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_081_110_2026_10_09.md"
+      "informe_ultima_revision": "RELECTURA_MUNICIPAL_2026_10_09.md"
     },
     {
       "candidato": "e77c46f910d4477222d4486a8668ab2ecf3e72fbb2be266b826a58e282120228",
@@ -5845,7 +5845,7 @@
       "nombre": "Beca Estudiantil Municipal Yumbel",
       "institucion": "Municipalidad de Yumbel",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Formulario 2025 es Beca de Residencia en hogar de Concepción. El original describe aporte monetario general; identidad de modalidad no resuelta, sin convertir alojamiento en dinero.",
+      "hallazgo": "Página 68: Beca Residencia Yumbel, estadía en hogares de Concepción marzo–diciembre; matrícula en institución superior de Concepción–Talcahuano, domicilio, notas, RSH y formulario. No describe un cheque ni un aporte general según presupuesto. Falta fuente que demuestre el supuesto apoyo monetario original; no sustituirlo por alojamiento.",
       "fuentes": [
         {
           "url": "https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf",
@@ -5861,8 +5861,8 @@
         }
       ],
       "alcance": null,
-      "ultima_revision": "2026-10-08",
-      "informe_ultima_revision": "REVISION_MUNICIPAL_50_2026_10_08.md"
+      "ultima_revision": "2026-10-09",
+      "informe_ultima_revision": "RELECTURA_MUNICIPAL_2026_10_09.md"
     },
     {
       "candidato": "fdc3f924f84f142ceb109d46af1ddc705180c3a0538a96e822c2b953f2e97c93",
@@ -8948,7 +8948,7 @@
       "nombre": "Beca Municipal de Educación Superior Coronel",
       "institucion": "Municipalidad de Coronel",
       "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Un premio a puntajes nacionales PAES no acredita la ayuda socioeconómica general de Coronel.",
+      "hallazgo": "Página 71: subvención de pasajes Coronel, año 2024; monto según presupuesto. RSH sin umbral publicado; notas 5,5 al egreso y todos los ramos aprobados en superior. Restringida a locomoción: no valida libre disposición anual ni NEM 5,0 del original. La comunicación municipal de 2019 sobre programa 100 por 100 identifica otro antecedente; falta precisar cuál corresponde al registro.",
       "fuentes": [
         {
           "url": "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
@@ -8970,7 +8970,7 @@
       ],
       "alcance": null,
       "ultima_revision": "2026-10-09",
-      "informe_ultima_revision": "REVISION_ESENCIAL_051_080_2026_10_09.md"
+      "informe_ultima_revision": "RELECTURA_MUNICIPAL_2026_10_09.md"
     },
     {
       "candidato": "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",

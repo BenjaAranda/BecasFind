@@ -35,9 +35,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; monto; nem_minimo; tipo_beca; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
@@ -167,9 +167,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
@@ -797,9 +797,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; nem_minimo; tipo_beca",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
@@ -1502,6 +1502,13 @@
         "extractos": [
           "Candidata: `1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina AIEP leída: contempla funcionarios públicos, bomberos y mujeres STEM. No prueba convenio genérico de empresas del original; falta convenio aplicable.\n\n### 43. Beca Apoyo Familiar ENAC\n\nCandidata: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 44. Beca Convenio Empresas ENAC\n\nCandidata: `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 45. Beca Deportiva ENAC\n\nCandidata: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 46. Beca Excelencia Académica ENAC\n\nCandidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95`\n\nLa ficha específica establece financiación de la carrera por el empleador mediante orden de compra y factura; si la factura queda impaga y se anula, la deuda vuelve al estudiante. No establece descuento propio del 10–25% ni extensión a cargas familiares. Distinguir financiación empresarial de descuento por convenio; falta acreditar el convenio que afirma el original.\n\n**Fuente:** https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1579,6 +1586,13 @@
         "informe_sha256": "f8d118d45b6bbde20aa11b646a8f87569aeeeabbb394d4ad9661f644544ababb",
         "extractos": [
           "Candidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
+        ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
         ]
       }
     ],
@@ -1658,6 +1672,13 @@
         "extractos": [
           "Candidata: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 44. Beca Convenio Empresas ENAC\n\nCandidata: `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 45. Beca Deportiva ENAC\n\nCandidata: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 46. Beca Excelencia Académica ENAC\n\nCandidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1735,6 +1756,13 @@
         "informe_sha256": "f8d118d45b6bbde20aa11b646a8f87569aeeeabbb394d4ad9661f644544ababb",
         "extractos": [
           "Candidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
+        ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
         ]
       }
     ],
@@ -1814,6 +1842,13 @@
         "extractos": [
           "Candidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1892,6 +1927,13 @@
         "extractos": [
           "Candidata: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 46. Beca Excelencia Académica ENAC\n\nCandidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -1969,6 +2011,13 @@
         "informe_sha256": "f8d118d45b6bbde20aa11b646a8f87569aeeeabbb394d4ad9661f644544ababb",
         "extractos": [
           "Candidata: `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 45. Beca Deportiva ENAC\n\nCandidata: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 46. Beca Excelencia Académica ENAC\n\nCandidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
+        ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`\n\nEl informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.\n\n**Fuente:** https://acreditacion.enac.cl/wp-content/uploads/2022/07/Informe-Autoevaluacion-Institucional.pdf"
         ]
       }
     ],
@@ -4975,9 +5024,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "97cf306bd5f0270ad05574df2a299517fa001e2236a4b829f73f14d23a5e5bfd",
@@ -5061,9 +5110,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
@@ -5284,9 +5333,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "dbdecee12d076f3859709eb37f330f64884f65d0ffd3b1212e3358760062067b",
@@ -5594,9 +5643,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "7a3d8682663ac9393a6f60077d1fc05a2a3ee87eab4e0c28ebc9e35362adec26",
@@ -6231,6 +6280,13 @@
         "extractos": [
           "Candidato: `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`. Institución: Universidad Autónoma de Chile.\n\nHallazgo: Autónoma distingue copago sujeto a beneficios estatales y otras condiciones. No acredita la rebaja socioeconómica genérica de 15–40%.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://admision.uautonoma.cl/becas-y-creditos/becas-internas/](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`\n\nLectura visual completa de nueve páginas: resolución 193/2020, reglamento de ingreso 2021. Artículo 7 distribuye apoyo por regiones, hermanos, convenios, colegios y funcionarios; artículo 9–13 regula crédito reembolsable por necesidad económica. No identifica Alumni para segunda carrera ni una rebaja genérica por RSH del 15–40%. El archivo fue alojado en 2023 pero su alcance es 2021; no trasladarlo a 2026 ni reemplazar beca por préstamo.\n\n**Fuente:** https://www.uautonoma.cl/content/uploads/2023/07/universidad-autononoma-estudiantes-reglamento-de-becas-y-creditos.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6308,6 +6364,13 @@
         "informe_sha256": "2a184fe211ac32bb0e1a0ae3d54b3fbf1405b0a70f35de10f46b421990943a5e",
         "extractos": [
           "Candidato: `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c`. Institución: Universidad Autónoma de Chile.\n\nHallazgo: El catálogo Autónoma identifica becas de puntaje y copago; no acredita descuento Alumni para segunda carrera de esta candidata.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://admision.uautonoma.cl/becas-y-creditos/becas-internas/](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)\n- [https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
+        ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c`\n\nLectura visual completa de nueve páginas: resolución 193/2020, reglamento de ingreso 2021. Artículo 7 distribuye apoyo por regiones, hermanos, convenios, colegios y funcionarios; artículo 9–13 regula crédito reembolsable por necesidad económica. No identifica Alumni para segunda carrera ni una rebaja genérica por RSH del 15–40%. El archivo fue alojado en 2023 pero su alcance es 2021; no trasladarlo a 2026 ni reemplazar beca por préstamo.\n\n**Fuente:** https://www.uautonoma.cl/content/uploads/2023/07/universidad-autononoma-estudiantes-reglamento-de-becas-y-creditos.pdf"
         ]
       }
     ],
@@ -6590,9 +6653,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "c76ee0b52bafce77c6bfc9e7525367cfca0a4bc604ba169e47ec69add0474b5f",
@@ -6730,9 +6793,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; nem_minimo; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
@@ -7076,9 +7139,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
@@ -7907,9 +7970,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
@@ -8306,9 +8369,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "eaa3c099b708a3f777b4a4b758d102dca018b71ceb0a558087c78874efc0e39e",
@@ -10371,9 +10434,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
@@ -11172,6 +11235,13 @@
         "extractos": [
           "Candidato: `58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7`. Institución: Universidad Mayor.\n\nHallazgo: El catálogo Universidad Mayor enlaza reglamento y becas por convenio; falta apartado deportivo que respalde rebaja 25% semestral.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://www.admisionmayor.cl/becas-y-creditos](https://www.admisionmayor.cl/becas-y-creditos)\n- [https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
         ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7`\n\nReglamento 2026: artículo 9 enumera modalidades; “Espíritu Emprendedor” es el nombre del sistema, no una beca individual del 20%. Artículos 108–109 mencionan seleccionados deportivos dentro de un crédito interno de hasta 150 UF: préstamo y deuda, no rebaja deportiva semestral del 25%. Se leyó el catálogo y el apartado pertinente; falta una cláusula específica del beneficio que afirma esta candidata.\n\n**Fuente:** https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -11413,6 +11483,13 @@
         "informe_sha256": "accb3de133cab770f87c6b2dd27007ad887b0f9cc2ad8a7a6048511f3cec69d5",
         "extractos": [
           "Candidato: `28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019`. Institución: Universidad Mayor.\n\nHallazgo: Espíritu Emprendedor es denominación de un sistema institucional en Mineduc 2026. No acredita una beca Talento Emprendedor individual de 20%.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://www.admisionmayor.cl/becas-y-creditos](https://www.admisionmayor.cl/becas-y-creditos)\n- [https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf](https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
+        ]
+      },
+      {
+        "informe": "RELECTURA_INSTITUCIONAL_2026_10_09.md",
+        "informe_sha256": "d8f8322a9263ee40dd15f1839489c8bcf4d63175460acff8da24fd7dbb467076",
+        "extractos": [
+          "`28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019`\n\nReglamento 2026: artículo 9 enumera modalidades; “Espíritu Emprendedor” es el nombre del sistema, no una beca individual del 20%. Artículos 108–109 mencionan seleccionados deportivos dentro de un crédito interno de hasta 150 UF: préstamo y deuda, no rebaja deportiva semestral del 25%. Se leyó el catálogo y el apartado pertinente; falta una cláusula específica del beneficio que afirma esta candidata.\n\n**Fuente:** https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf"
         ]
       }
     ],
@@ -12477,9 +12554,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "387d29807e757a9dd151309e6d1053d3751f720135ca326c26da6fc9afef2d46",
@@ -13262,9 +13339,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; regiones; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "bd7ef9210bdbdca885ab8f55c55f5f726be951bcd96f8869474502e2c4a06bfc",
@@ -14384,9 +14461,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; regiones; tipo_beca; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
@@ -16229,6 +16306,13 @@
         "extractos": [
           "Candidato: `77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d`. Institución: Municipalidad de Lota.\n\nHallazgo: La publicación de abril 2026 informa beca de pasajes a 277 estudiantes. No identifica una beca distinta de mantención general ni acredita sus requisitos.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://lota.cl/2026/04/](https://lota.cl/2026/04/)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
         ]
+      },
+      {
+        "informe": "RELECTURA_MUNICIPAL_2026_10_09.md",
+        "informe_sha256": "8f45e968a8f180366de607c1bf7dd5b685c5c908a352f123942c56ae4e0510c6",
+        "extractos": [
+          "`77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d`\n\nPágina 78: Beca de Pasajes Educación Superior Lota; 100.000 CLP en un cheque y 100 cupos; regular, RSH y promedio anterior 5,5. Estudios fuera de Lota salvo residentes de Colcura/Chivilingo. La referencia a lunes 1 y viernes 12 de abril corresponde al calendario histórico, no certifica 2026. El original debe distinguir pasajes del supuesto aporte general; no conservar RSH 60% ni NEM 5,0 como confirmados.\n\nFuente: https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf; página 78."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16806,9 +16890,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
@@ -16939,9 +17023,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; nem_minimo; rsh_maximo; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",
@@ -17267,9 +17351,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; rsh_maximo; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
@@ -18240,9 +18324,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
@@ -20733,6 +20817,13 @@
         "informe_sha256": "f760f0389fd021864d303aa303f1cdd620585ed98ae8cd179c21a8f8dce26649",
         "extractos": [
           "Candidato: `00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`. Institución: Municipalidad de Lebu.\n\nHallazgo: El PDF UCSC 2026 recuperado resultó incompleto. No confirma ni refuta PAES y educación superior de Lebu; se requiere documento legible de esa modalidad.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf](https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
+        ]
+      },
+      {
+        "informe": "RELECTURA_MUNICIPAL_2026_10_09.md",
+        "informe_sha256": "8f45e968a8f180366de607c1bf7dd5b685c5c908a352f123942c56ae4e0510c6",
+        "extractos": [
+          "`00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`\n\nEl PDF completo ya se recuperó y leyó. Página 48: Beca Efectivo de Lebu, con referencia expresa a 2025; aporte durante diez meses sujeto a presupuesto. Egreso de establecimiento municipal; ingreso per cápita máximo 180.000 CLP; nota 5,0 para nuevos y 4,5 para superiores, sin dos o más asignaturas reprobadas. No respalda una beca PAES de pago único 2026. Página 47 corresponde a otra modalidad de residencia 2024: 80.000 mensuales por diez meses. Falta identificar el incentivo PAES, no recuperar otra vez este PDF.\n\nFuente: https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf; página 48."
         ]
       }
     ],
@@ -23928,6 +24019,13 @@
         "extractos": [
           "Candidato: `99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5`. Institución: Municipalidad de Santa Juana.\n\nHallazgo: La noticia Mineduc es Becas TIC de séptimo básico. El catastro UdeC 2024 distingue devolución de matrícula, traslado vespertino y pasajes; no demuestra cuál corresponde a la candidata genérica.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://biobio.mineduc.cl/2026/08/05/estudiantes-de-santa-juana-reciben-computadores-del-programa-becas-tic-de-junaeb/](https://biobio.mineduc.cl/2026/08/05/estudiantes-de-santa-juana-reciben-computadores-del-programa-becas-tic-de-junaeb/)\n- [https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf](https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
         ]
+      },
+      {
+        "informe": "RELECTURA_MUNICIPAL_2026_10_09.md",
+        "informe_sha256": "8f45e968a8f180366de607c1bf7dd5b685c5c908a352f123942c56ae4e0510c6",
+        "extractos": [
+          "`99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5`\n\nPáginas 73–76 separan cuatro programas Santa Juana. Devolución de matrícula: primer ingreso superior, residencia mínima de dos años y RSH; cuantía según matrícula y selección. Transporte vespertino es servicio; pasajes es aporte mensual; hogar es alojamiento gratuito. Ninguno de esos apartados acredita el pago general de 150.000 CLP, 400 cupos y presupuesto de 60 millones del original. Debe identificarse si la candidata describía devolución de matrícula; no mezclar los cuatro programas.\n\nFuente: https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf; página 73.\n\nSHA-256 del PDF: `37959101e494e9bac3dece309d737d805b30a7ef699643bc5677ec7dbb1a516e`."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -26996,6 +27094,13 @@
         "informe_sha256": "f8d118d45b6bbde20aa11b646a8f87569aeeeabbb394d4ad9661f644544ababb",
         "extractos": [
           "Candidata: `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nFormulario 2025 corresponde a residencia estudiantil en Concepción. Respalda matrícula y domicilio, pero no equivalencia con aporte monetario original; falta resolver modalidad.\n\n### 16. Beca Municipal Estudiantil El Monte\n\nCandidata: `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nCuenta pública 2024 muestra gestión de BPR/BI de JUNAEB; no acredita beca municipal propia. Falta fuente específica de esta última; no concluir inexistencia.\n\n### 17. Beca Concejo Municipal de Osorno para Educación Superior\n\nCandidata: `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPDF 2011 sin texto extraíble. Requiere lectura visual del acuerdo del Concejo; no sustituir por becas deportivas o culturales actuales.\n\n### 18. Beca Municipal de Mantención Pudahuel\n\nCandidata: `1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nBoletín municipal agosto 2024 respalda pago económico, pero no elegibilidad. Catastro UAH 2022 corresponde a otro año; recuperar bases de una misma convocatoria antes de combinarlos.\n\n### 19. Beca Ilustre Municipalidad de Linares\n\nCandidata: `19df4e73e6b31fa7b919bf2dd7aa58a2c44778ea6fc63ab1ec69d4cb57554abc`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nActa municipal 2024 no recuperada por certificado TLS. PDF de corporación sobre estudios requiere acceso y contraste: podría ser convenio CFT, no misma beca; no confirmar alias.\n\n### 20. Beca Educación Superior\n\nCandidata: `f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nActa 2015 sin texto extraíble requiere lectura visual. Documento de 2018 para funcionarios no acredita candidata general de educación superior.\n\n### 21. Beca Municipal de Educación Superior\n\nCandidata: `a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nActa 2024 consultada describe becas deportivas. No respalda candidata de mantención superior; falta reglamento de esta modalidad.\n\n### 22. Beca Municipal para Estudiantes de Educación Superior\n\nCandidata: `c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nEnlace a bases 2026 redirige a portada municipal. Recuperar archivo desde transparencia o publicación original; portada no prueba requisitos.\n\n### 23. Beca Municipal Educación Superior Caldera\n\nCandidata: `a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nRuta FONDESCO 2025 devuelve HTML, no bases PDF. Falta demostrar beneficio individual superior; contratación de transporte no acredita aporte monetario propio.\n\n### 24. Beca Municipal Estudiantil\n\nCandidata: `cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nNoticia municipal anuncia postulaciones de superior, sin precisar aporte ni condiciones. Leer bases o formulario público enlazado sin enviar solicitud.\n\n### 25. Beca Municipal Capital del Mimbre\n\nCandidata: `e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nDocumento alojado en Cámara no recuperado por 403. Buscar reglamento municipal Capital del Mimbre y verificar alcance de superior.\n\n### 26. Beca Municipal de Educación Superior\n\nCandidata: `7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nDocumento oficial contiene beneficiarios, no bases ni cobertura. Falta acuerdo o reglamento del mismo programa; no deducir criterios desde nómina.\n\n### 27. Beca Red de Egresados\n\nCandidata: `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina Red de Egresados devuelve 404. Recuperar beneficio propio para familiares de egresados; beca estatal de articulación no prueba esta candidata.\n\n### 28. Beca de Mantención Municipal para Estudios Superiores\n\nCandidata: `d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina DIDECO devuelve 404. Falta fuente específica de beca superior propia; distinguir convenios con universidades.\n\n### 29. Beca de Estudio Graneros Nueva Ciudad\n\nCandidata: `6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL.\n\n### 30. Beca de Mantención Educación Superior Hualpen\n\nCandidata: `d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nCatastro UdeC 2024 detalla convenio IDP de descuento de arancel, no mantención monetaria. Falta demostrar candidata de mantención independiente.\n\n### 31. Beca Municipal Educación Superior 2026\n\nCandidata: `ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nCuenta pública 2023 bloqueada 403. Falta recuperar sección de superior y reglamento que describa cobertura y elegibilidad.\n\n### 32. Beca Estudiantil Municipal Lautaro\n\nCandidata: `14abd2d4252d535d32030eead8a43b45fd448a5d3ea087c749f43ad2b6ba85cb`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal devuelve 406. Falta documento específico del programa superior con beneficio y requisitos; no marcar como inexistente.\n\n### 33. Beca Municipal Educación Superior Machali\n\nCandidata: `5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nEnlace municipal deportivo no recuperado; corresponde a modalidad distinta de la candidata superior. Falta fuente de superior.\n\n### 34. Beca Municipal de Educación Superior\n\nCandidata: `89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nEnlace municipal deportivo no recuperado; no acredita mantención de educación superior. Falta resolver identidad de modalidad.\n\n### 35. Beca Educación Superior Santa Maria\n\nCandidata: `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nNoticia de deportes bloqueada 403; título no respalda educación superior. Falta localizar beca estudiantil propia.\n\n### 36. Beca Municipal Educación Superior Talca\n\nCandidata: `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nDocumento municipal no recuperado por cadena TLS. Recuperar archivo de bases, sin inferir cobertura del nombre.\n\n### 37. Beca Municipal de Educación Superior Victoria\n\nCandidata: `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico.\n\n### 38. Beca Familiar UCSH\n\nCandidata: `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina familiar UCSH bloqueada 403. Formulario familiar de magíster no acredita pregrado; falta regla específica de familiares para el nivel candidato.\n\n### 39. Beca Intercultural UCT\n\nCandidata: `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina intercultural UCT devuelve 404. Beca estatal indígena no acredita beneficio institucional propio; falta identificar programa.\n\n### 40. Beca de Apoyo Socioeconomico UCT\n\nCandidata: `e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina social UCT devuelve 404. No sustituir por beneficio MEP de arancel de otra ficha ya confirmada; falta identidad de esta candidata.\n\n### 41. Beca Fomento Regional UDLA\n\nCandidata: `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nEnlace regional UDLA devuelve 404. Recuperar reglamento o ficha que identifique apoyo regional propio y su cobertura.\n\n### 42. Beca Convenio Empresas AIEP\n\nCandidata: `1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina AIEP leída: contempla funcionarios públicos, bomberos y mujeres STEM. No prueba convenio genérico de empresas del original; falta convenio aplicable.\n\n### 43. Beca Apoyo Familiar ENAC\n\nCandidata: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 44. Beca Convenio Empresas ENAC\n\nCandidata: `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 45. Beca Deportiva ENAC\n\nCandidata: `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 46. Beca Excelencia Académica ENAC\n\nCandidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 47. Beca Titulado ENAC\n\nCandidata: `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 48. Beca Vocacion de Servicio ENAC\n\nCandidata: `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina ENAC leída enumera beneficios estatales; no acredita beca propia de esta candidata. Falta reglamento institucional específico.\n\n### 49. Beca de Articulacion EMTP\n\nCandidata: `3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPágina INACAP de articulación describe beca estatal TNS a carrera profesional de 750.000. No respalda convenio EMTP de 20% del original; falta documento propio.\n\n### 50. Beca Convenio Empresas IP Chile\n\nCandidata: `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`. Estado de esta revisión: SIN_CIERRE_ESENCIAL.\n\nPortal IP Chile de continuidad describe convenios para titulados hacia otras universidades. No acredita beca para trabajadores de empresas que estudian en IP Chile."
+        ]
+      },
+      {
+        "informe": "RELECTURA_MUNICIPAL_2026_10_09.md",
+        "informe_sha256": "8f45e968a8f180366de607c1bf7dd5b685c5c908a352f123942c56ae4e0510c6",
+        "extractos": [
+          "`ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65`\n\nPágina 68: Beca Residencia Yumbel, estadía en hogares de Concepción marzo–diciembre; matrícula en institución superior de Concepción–Talcahuano, domicilio, notas, RSH y formulario. No describe un cheque ni un aporte general según presupuesto. Falta fuente que demuestre el supuesto apoyo monetario original; no sustituirlo por alojamiento.\n\nFuente: https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf; página 68."
         ]
       }
     ],
@@ -30568,9 +30673,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; fecha_inicio; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VARIANTES_21_2026_10_09.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "0dc47cf73607134a8774381dc8e9bbc7413959f533f682d9d6434ac9c0082694",
@@ -35867,6 +35972,13 @@
         "informe_sha256": "f760f0389fd021864d303aa303f1cdd620585ed98ae8cd179c21a8f8dce26649",
         "extractos": [
           "Candidato: `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`. Institución: Municipalidad de Coronel.\n\nHallazgo: Un premio a puntajes nacionales PAES no acredita la ayuda socioeconómica general de Coronel.\n\nFuentes contrastadas o cuya recuperación se intentó:\n\n- [https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)\n\nDecisión: requiere aclaración individual; no hay evidencia suficiente de los cuatro controles para confirmar la candidata."
+        ]
+      },
+      {
+        "informe": "RELECTURA_MUNICIPAL_2026_10_09.md",
+        "informe_sha256": "8f45e968a8f180366de607c1bf7dd5b685c5c908a352f123942c56ae4e0510c6",
+        "extractos": [
+          "`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`\n\nPágina 71: subvención de pasajes Coronel, año 2024; monto según presupuesto. RSH sin umbral publicado; notas 5,5 al egreso y todos los ramos aprobados en superior. Restringida a locomoción: no valida libre disposición anual ni NEM 5,0 del original. La comunicación municipal de 2019 sobre programa 100 por 100 identifica otro antecedente; falta precisar cuál corresponde al registro.\n\nFuente: https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf; página 71."
         ]
       }
     ],

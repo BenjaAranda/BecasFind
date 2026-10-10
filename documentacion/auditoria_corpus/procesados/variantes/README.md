@@ -1,6 +1,6 @@
 # Grupos de referencias históricas
 
-Estado reconstruido al 9 de octubre: **22 grupos conciliados, 34 pendientes de conciliación y tres exclusiones históricas sin ratificar**. Total 59. Los 37 no conciliados siguen requiriendo revisión. La reconstrucción sustituye los conteos históricos de los párrafos siguientes: el inventario no se había regenerado después de varias reversiones anteriores. Alimentación UPLA se concilia con fuente de rectoría de 2011; alcance histórico, sin confirmar vigencia actual. [Decisión individual](CONCILIACION_ALIMENTACION_UPLA.md).
+Estado actual del 9 de octubre: **43 grupos conciliados, 13 pendientes de conciliación y tres exclusiones históricas sin ratificar**. Total 59; quedan 16 sin conciliación verificada. Esta entrega cierra [21 grupos con 45 referencias](CONCILIACION_VARIANTES_21_2026_10_09.md) comparando cada campo con su expediente esencial. Quilpué y La Serena permanecen abiertos por una correspondencia de modalidad insuficiente. Las cifras de párrafos posteriores son antecedentes históricos. Los alias con nombres distintos se revisan por separado: [decisiones de 21 pares](../DECISIONES_ALIAS_2026_10_09.md).
 
 Corrección del 6 de octubre: el cierre masivo de 291 candidatas queda revertido. Los conteos y decisiones anteriores de este inventario son antecedentes del nuevo [plan de revisión](../../../../PLAN_MEJORAS.md). Se revisarán las 568 candidatas, incluidas las 103 excluidas anteriormente, con sus datos y fuentes existentes. No se descartará por información incompleta ni se forzará el cierre de un lote.
 
