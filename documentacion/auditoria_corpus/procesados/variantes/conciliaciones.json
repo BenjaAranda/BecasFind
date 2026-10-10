@@ -335,5 +335,21 @@
       "institucion": "Universidad Viña del Mar. Variantes de tilde y doble codificación del histórico refieren a la misma institución; originales se conservan.",
       "regiones": "Alcance territorial desconocido; no inferir V/RM ni nacionalidad del beneficio a partir de sede o vacío."
     }
+  },
+  {
+    "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+    "revisado": "2026-10-09",
+    "decision_identidad": "Las dos referencias históricas nombran alimentación UPLA general. Se concilian respecto de la modalidad documentada por rectoría en 2011; no se transfieren las reglas deportivas ni se certifican sus añadidos de 2026.",
+    "informe": "CONCILIACION_ALIMENTACION_UPLA.md",
+    "fuentes": [
+      "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+    ],
+    "campos": {
+      "descripcion": "Apoyo institucional de alimentación para estudiantes UPLA sin becas JUNAEB, según criterios de ese organismo; alcance histórico 2011.",
+      "descripcion_larga": "La respuesta de rectoría de 22 de junio de 2011 distingue beca propia para no receptores JUNAEB y suplemento del vale de quienes sí reciben JUNAEB. Campus San Felipe aplica el mismo criterio que el apartado 3.5. No se certifica compatibilidad BAES de la misma modalidad. Almuerzo y cena universales, RSH 60%, documentos y calendario 2026 quedan desconocidos. No se aplica la selección deportiva ni se activa la beca.",
+      "documentos_requeridos": "Desconocidos para el alcance histórico leído; no certificar las listas distintas del original.",
+      "monto": "Apoyo alimentario; prestación exacta y valoración monetaria desconocidas.",
+      "url": "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+    }
   }
 ]

@@ -1,5 +1,7 @@
 # Grupos de referencias históricas
 
+Estado reconstruido al 9 de octubre: **22 grupos conciliados, 34 pendientes de conciliación y tres exclusiones históricas sin ratificar**. Total 59. Los 37 no conciliados siguen requiriendo revisión. La reconstrucción sustituye los conteos históricos de los párrafos siguientes: el inventario no se había regenerado después de varias reversiones anteriores. Alimentación UPLA se concilia con fuente de rectoría de 2011; alcance histórico, sin confirmar vigencia actual. [Decisión individual](CONCILIACION_ALIMENTACION_UPLA.md).
+
 Corrección del 6 de octubre: el cierre masivo de 291 candidatas queda revertido. Los conteos y decisiones anteriores de este inventario son antecedentes del nuevo [plan de revisión](../../../../PLAN_MEJORAS.md). Se revisarán las 568 candidatas, incluidas las 103 excluidas anteriormente, con sus datos y fuentes existentes. No se descartará por información incompleta ni se forzará el cierre de un lote.
 
 Al 2 de octubre de 2026 hay 59 candidatos que aparecen más de una vez: reúnen 138 referencias. Son 79 referencias adicionales respecto de conservar una por candidato. No son 59 becas nuevas ni 59 duplicados demostrados.

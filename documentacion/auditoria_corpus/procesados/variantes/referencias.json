@@ -783,17 +783,7 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "37a79ec39d3bb71267e0faabe3ec2b3a26ac7aab6e3b176b4ffdb7c1d47beb8e",
-      "revisado": "2026-10-06",
-      "motivo": "Excelencia tiene modalidades y tablas; ingreso 2026 contradice egreso escolar 2026 y portal 2027. Contradicción afecta cohorte elegible: pendiente, sin validar 50% toda carrera.",
-      "criterio": "CONTRADICCION_MATERIAL",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md"
-      ]
-    }
+    "descarte": null
   },
   {
     "candidato": "382bdbc8032b6559ebe92eb2ac50e06d8dcef23f9a5040f3d673a1b27c0228c4",
@@ -1059,17 +1049,7 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
-      "revisado": "2026-10-06",
-      "motivo": "Política de descuentos UVM permite ayudas de matrícula pero no acredita identidad y reglas del programa Matrícula genérico.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
-    }
+    "descarte": null
   },
   {
     "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
@@ -1458,18 +1438,23 @@
       "monto",
       "url"
     ],
-    "conciliacion": null,
-    "descarte": {
+    "conciliacion": {
       "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
-      "revisado": "2026-10-06",
-      "motivo": "La ficha consultada acredita alimentación para representación deportiva; no la beca general vulnerable del histórico ni compatibilidad BAES.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
-      ]
-    }
+      "revisado": "2026-10-09",
+      "decision_identidad": "Las dos referencias históricas nombran alimentación UPLA general. Se concilian respecto de la modalidad documentada por rectoría en 2011; no se transfieren las reglas deportivas ni se certifican sus añadidos de 2026.",
+      "informe": "CONCILIACION_ALIMENTACION_UPLA.md",
+      "fuentes": [
+        "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+      ],
+      "campos": {
+        "descripcion": "Apoyo institucional de alimentación para estudiantes UPLA sin becas JUNAEB, según criterios de ese organismo; alcance histórico 2011.",
+        "descripcion_larga": "La respuesta de rectoría de 22 de junio de 2011 distingue beca propia para no receptores JUNAEB y suplemento del vale de quienes sí reciben JUNAEB. Campus San Felipe aplica el mismo criterio que el apartado 3.5. No se certifica compatibilidad BAES de la misma modalidad. Almuerzo y cena universales, RSH 60%, documentos y calendario 2026 quedan desconocidos. No se aplica la selección deportiva ni se activa la beca.",
+        "documentos_requeridos": "Desconocidos para el alcance histórico leído; no certificar las listas distintas del original.",
+        "monto": "Apoyo alimentario; prestación exacta y valoración monetaria desconocidas.",
+        "url": "https://upla.cl/noticias/2011/06/22/respuestas-a-demandas-estudiantiles/"
+      }
+    },
+    "descarte": null
   },
   {
     "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
@@ -2472,16 +2457,7 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
-      "revisado": "2026-10-06",
-      "motivo": "No se acredita equivalencia del alias histórico con una modalidad oficial específica.",
-      "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-      "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-      "evidencia": [
-        "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-      ]
-    }
+    "descarte": null
   },
   {
     "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
@@ -3295,17 +3271,7 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "d23bed1c58c7d1d28dce5c553cd1aeeafad3ddf382273360a181146917473b49",
-      "revisado": "2026-10-06",
-      "motivo": "PAES UBO es descuento por carrera y puntaje hasta 80% con requisitos propios. No se acredita equivalencia con el alias Excelencia y NEM del histórico.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
-    }
+    "descarte": null
   },
   {
     "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
@@ -3859,16 +3825,6 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
-      "revisado": "2026-10-06",
-      "motivo": "La ficha Excelencia Puntaje Trayectoria Educativa contiene modalidades y una contradicción entre descuento posterior a becas ministeriales e incompatibilidad Mineduc. No certificar cobertura y compatibilidad sin resolverla.",
-      "criterio": "CONTRADICCION_MATERIAL",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
-      ]
-    }
+    "descarte": null
   }
 ]

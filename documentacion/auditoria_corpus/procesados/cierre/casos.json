@@ -5061,7 +5061,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
     "informe_conciliacion": "",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
@@ -6730,7 +6730,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; nem_minimo; url",
     "informe_conciliacion": "",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
@@ -7907,7 +7907,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; url",
     "informe_conciliacion": "",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
@@ -10371,7 +10371,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
     "informe_conciliacion": "",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
@@ -12335,9 +12335,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; url",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_ALIMENTACION_UPLA.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
@@ -14384,7 +14384,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; monto; regiones; tipo_beca; url",
     "informe_conciliacion": "",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",

@@ -229,3 +229,5 @@ Revisión de cierre iniciada el 2 de octubre de 2026: se inventariaron los 59 gr
 
 
 Cierre editorial iniciado el 2 de octubre de 2026: inventario individual de 568 candidatas con 647 referencias e informes enlazados en procesados/cierre. Acceso contrastado a 438 fuentes: 396 respuestas y 42 errores; ninguna certificación automática. Dos confirmaciones documentales con alcance explícito: Dalcahue superior 2026 y BUCH admisión 2027; ambas inactivas. Trece grupos USM/UCN/UV/UANDES/UTalca/UFT conciliados sin fusión de base; quedan 46 grupos y 566 confirmaciones pendientes. Dos importaciones separadas con respaldo restaurado; una actualización cada una y cero altas, errores o activaciones; 571 becas ajenas a ambas actualizaciones preservadas. Dieciséis pruebas Python aprobadas.
+
+Estado de variantes al 9 de octubre: 22 grupos conciliados; 34 pendientes y tres exclusiones históricas sin ratificar (37 sin conciliación verificada). La comparación de alimentación UPLA queda cerrada con evidencia de rectoría 2011. No equivale a confirmar reglas actuales.
