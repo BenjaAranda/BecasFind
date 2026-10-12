@@ -3042,21 +3042,20 @@
       "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
       "nombre": "Beca de Estudio Graneros Nueva Ciudad",
       "institucion": "Municipalidad de Graneros",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "PADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL. La dirección de PADEM 2019 devuelve HTML y no el documento anunciado. No acredita la beca Graneros Nueva Ciudad.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El PADEM 2019 oficial indexado identifica el programa municipal Graneros Nueva Ciudad en 2018. Confirma aporte de $150.000 en educación superior y residencia en Graneros/familias vulnerables, con características académicas, mérito o discapacidad. No confirma requisitos, monto ni calendario actuales. Descarga directa falló (403; intentos anteriores 404/HTML); no se afirma lectura integral.",
       "fuentes": [
         {
           "url": "https://www.daemgraneros.cl/file/padem2019.pdf",
-          "consulta": "2026-10-08",
-          "error": "HTTP Error 404: Not Found",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Intento de acceso; contenido no leído"
+          "consulta": "2026-10-12",
+          "contenido_extraido": true,
+          "alcance_lectura": "Extracto oficial indexado: sección 13.4.d, página impresa 45, resultados 2018; identidad, propósito, población y monto histórico de educación superior.",
+          "metodo": "Búsqueda web del dominio oficial DAEM Graneros; apertura posterior devolvió 403. No se usó Firecrawl."
         }
       ],
-      "alcance": null,
+      "alcance": "Confirmación esencial histórica; no confirma vigencia ni convocatoria actual.",
       "ultima_revision": "2026-10-12",
-      "informe_ultima_revision": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md"
+      "informe_ultima_revision": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md"
     },
     {
       "candidato": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",
@@ -10087,5 +10086,15 @@
     "fuentes_sin_firecrawl": true,
     "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-la-serena-20261012.zip",
     "sha256_respaldo": "7FF4958F2FB7A6C0F9F5F982445D768635D6BB65E79D284ED1E7CC58545F645E"
+  },
+  "revision_graneros_2026_10_12": {
+    "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+    "candidatas_contrastadas": 1,
+    "confirmaciones_nuevas": 1,
+    "pendientes_antes": 129,
+    "pendientes_despues": 128,
+    "descartes_nuevos": 0,
+    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-graneros-20261012-174735.zip",
+    "sha256_respaldo": "FA8ADD3022E8144E73ADFC3CB535737EC0BE75E20AE72004AB84D13067D5ED23"
   }
 }

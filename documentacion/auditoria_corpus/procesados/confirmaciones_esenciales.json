@@ -9410,5 +9410,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
+    "revisado": "2026-10-12",
+    "alcance": "Programa municipal histórico 2018: identidad, aporte de educación superior y requisitos generales; no acredita convocatoria vigente. Evidencia oficial indexada del PADEM 2019, sección 13.4.d, página impresa 45.",
+    "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+    "fuentes": [
+      "https://www.daemgraneros.cl/file/padem2019.pdf"
+    ],
+    "beneficio": "La tabla de becas asignadas 2018 registra Enseñanza Superior: $150.000 por beca. Importe y asignación exclusivamente históricos; cuantía actual desconocida.",
+    "requisitos_principales": "Residencia establecida en Graneros y familia de alta vulnerabilidad. El PADEM menciona alto rendimiento académico, discapacidad o mérito escolar como características de acceso; no permite convertirlas en una regla acumulativa.",
+    "limites": "El extracto indexado del PADEM oficial identifica el programa y sus resultados de 2018. La descarga directa del PDF actualmente falla (403; intentos anteriores 404/HTML); no se afirma lectura integral del documento. No se confirman RSH 70%, incompatibilidad con BPR/Indígena, nota mínima, dos cuotas ni calendario 2026. Fechas, documentos y requisitos actuales desconocidos. No publicar como vigente ni activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

@@ -20810,7 +20810,7 @@
     "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
     "nombre": "Beca de Estudio Graneros Nueva Ciudad",
     "institucion": "Municipalidad de Graneros",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
@@ -20859,13 +20859,41 @@
         "extractos": [
           "Identificador: 6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nLa dirección de PADEM 2019 devuelve HTML y no el documento anunciado. No acredita la beca Graneros Nueva Ciudad.\n\nAntecedente pendiente antes de esta consulta: PADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL.\n\nAcción pendiente: Recuperar y leer visualmente el documento de Municipalidad de Graneros indicado en las fuentes; localizar el apartado de Beca de Estudio Graneros Nueva Ciudad y registrar páginas con beneficio y elegibilidad.\n\n- https://www.daemgraneros.cl/file/padem2019.pdf"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+        "informe_sha256": "bd920d0774ddd9803faf8927abc3d0b52aed98031024d5bf8118ee31f71c064b",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
+      "revisado": "2026-10-12",
+      "alcance": "Programa municipal histórico 2018: identidad, aporte de educación superior y requisitos generales; no acredita convocatoria vigente. Evidencia oficial indexada del PADEM 2019, sección 13.4.d, página impresa 45.",
+      "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+      "fuentes": [
+        "https://www.daemgraneros.cl/file/padem2019.pdf"
+      ],
+      "beneficio": "La tabla de becas asignadas 2018 registra Enseñanza Superior: $150.000 por beca. Importe y asignación exclusivamente históricos; cuantía actual desconocida.",
+      "requisitos_principales": "Residencia establecida en Graneros y familia de alta vulnerabilidad. El PADEM menciona alto rendimiento académico, discapacidad o mérito escolar como características de acceso; no permite convertirlas en una regla acumulativa.",
+      "limites": "El extracto indexado del PADEM oficial identifica el programa y sus resultados de 2018. La descarga directa del PDF actualmente falla (403; intentos anteriores 404/HTML); no se afirma lectura integral del documento. No se confirman RSH 70%, incompatibilidad con BPR/Indígena, nota mínima, dos cuotas ni calendario 2026. Fechas, documentos y requisitos actuales desconocidos. No publicar como vigente ni activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",

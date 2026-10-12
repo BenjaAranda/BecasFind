@@ -273,13 +273,13 @@
     "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
     "nombre": "Beca de Estudio Graneros Nueva Ciudad",
     "url_consultada": "https://www.daemgraneros.cl/file/padem2019.pdf",
-    "resultado_acceso": "HTML",
+    "resultado_acceso": "403 (la búsqueda indexó contenido oficial)",
     "sha256_recurso": "8b7922d9df614e0f15a4a6dee35c46a9596ab0fc8bc0e6b81bb42f21f1f6bccd",
-    "hallazgo": "La dirección de PADEM 2019 devuelve HTML y no el documento anunciado. No acredita la beca Graneros Nueva Ciudad.",
+    "hallazgo": "La búsqueda en el dominio oficial del DAEM recupera el PADEM 2019, sección 13.4.d, pág. impresa 45: identifica Graneros Nueva Ciudad 2018, población vulnerable residente y $150.000 por beca superior. La apertura directa posterior devuelve 403; intentos previos 404/HTML. Confirmación esencial histórica documentada; no acredita requisitos o vigencia actuales.",
     "carencia_anterior": "PADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL.",
-    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Graneros indicado en las fuentes; localizar el apartado de Beca de Estudio Graneros Nueva Ciudad y registrar páginas con beneficio y elegibilidad.",
-    "estado": "REQUIERE_ACLARACION",
-    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "pendiente_tras_contraste": "Ninguna para identidad/beneficio/requisitos históricos esenciales. Vigencia actual, fechas y documentos permanecen desconocidos y no publicables.",
+    "estado": "CONFIRMADA_ESENCIAL",
+    "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
     "fuentes": [
       "https://www.daemgraneros.cl/file/padem2019.pdf"
     ]

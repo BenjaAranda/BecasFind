@@ -8079,7 +8079,7 @@
       "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d"
     ],
     "nombre_de_referencia": "Beca de Estudio Graneros Nueva Ciudad",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
@@ -8088,14 +8088,16 @@
         "institucion_original": "Municipalidad de Graneros"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "PADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "alcance_verificado": "Programa municipal histórico de educación superior, documentado para 2018; requisitos generales y residencia en Graneros.",
+    "beneficio_verificado": "$150.000 por beca de Enseñanza Superior asignada en 2018. Histórico, no vigente.",
+    "requisitos_principales_verificados": "Residencia establecida en Graneros y familias de alta vulnerabilidad; PADEM menciona alto rendimiento académico, discapacidad o mérito escolar como características de acceso.",
+    "limites": "PADEM 2019 oficial indexado, sección 13.4.d, pág. impresa 45; descarga directa 403 (intentos anteriores 404/HTML). No confirma RSH 70%, incompatibilidad, nota mínima, dos cuotas, calendario 2026 ni requisitos actuales. Fechas/documentos desconocidos. No activar/publicar vigente.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.daemgraneros.cl/file/padem2019.pdf"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
+    "accion_administrativa": "MANTENER_INACTIVA"
   },
   {
     "clave_documental": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",

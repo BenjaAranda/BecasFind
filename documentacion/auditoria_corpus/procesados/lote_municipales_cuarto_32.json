@@ -185,9 +185,9 @@
     "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
     "nombre": "Beca de Estudio Graneros Nueva Ciudad",
     "institucion": "Municipalidad de Graneros",
-    "estado": "SIN_REVISION_INDIVIDUAL",
-    "pendiente_confirmacion": "true",
-    "informes": ""
+    "estado": "CONFIRMADA_ESENCIAL",
+    "pendiente_confirmacion": "false",
+    "informes": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md"
   },
   {
     "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
