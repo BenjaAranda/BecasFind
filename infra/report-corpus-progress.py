@@ -84,7 +84,12 @@ def report(folder):
         completed[candidate] = entry
     essential = essential_confirmations(folder, reviews, completed)
     discarded = read_discards(folder, identities, completed.keys() | essential.keys())
-    closed = completed.keys() | essential.keys() | discarded.keys()
+    pending = {entry['candidato'] for entry in read_csv(folder/'pendientes_esenciales_actuales.csv')}
+    historical = discarded.keys() & pending
+    ratified = discarded.keys() - historical
+    closed = completed.keys() | essential.keys() | ratified
+    if pending != identities.keys() - closed:
+        raise ValueError('Cola pendiente y estados documentales no coinciden')
     files, institutions = defaultdict(list), defaultdict(set)
     for row in rows:
         identity = identities[row['candidato']]
@@ -97,7 +102,7 @@ def report(folder):
             reports.add(essential[candidate]['informe'])
         if candidate in discarded:
             reports.add(discarded[candidate]['informe'])
-        row.update(estado='DESCARTADA_EDITORIAL' if candidate in discarded else 'CONFIRMADA_COMPLETA' if candidate in completed else 'CONFIRMADA_ESENCIAL' if candidate in essential else 'REVISION_PARCIAL' if candidate in reviews else 'SIN_REVISION_INDIVIDUAL',
+        row.update(estado='EXCLUSION_HISTORICA_SIN_RATIFICAR' if candidate in historical else 'DESCARTADA_EDITORIAL' if candidate in ratified else 'CONFIRMADA_COMPLETA' if candidate in completed else 'CONFIRMADA_ESENCIAL' if candidate in essential else 'REVISION_PARCIAL' if candidate in reviews else 'SIN_REVISION_INDIVIDUAL',
                    pendiente_confirmacion='false' if candidate in closed else 'true', informes='; '.join(sorted(reports)))
         files[row['archivo']].append(row)
         institutions[row['institucion']].add(row['candidato'])
@@ -110,30 +115,30 @@ def report(folder):
     summary = []
     for filename, entries in sorted(files.items()):
         candidates = {r['candidato'] for r in entries}
-        partial = len((candidates & reviews.keys())-closed)
+        partial = len((candidates & reviews.keys())-closed-historical)
         summary.append(dict(archivo=Path(filename).name, registros=len(entries), becas_unicas=len(candidates),
                             revision_parcial=partial, sin_revision_individual=len(candidates-reviews.keys()),
-                            confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & discarded.keys()), pendientes_confirmacion=len(candidates-closed)))
+                            confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & ratified), exclusiones_historicas_sin_ratificar=len(candidates & historical), pendientes_confirmacion=len(candidates-closed)))
     totals = dict(archivos=len(files), registros=len(rows), becas_unicas=len(identities),
-                  revision_parcial=len(reviews.keys()-closed), sin_revision_individual=len(identities)-len(reviews),
-                  confirmadas_completas=len(completed), confirmadas_esenciales=len(essential), descartadas=len(discarded), pendientes_confirmacion=len(identities)-len(closed))
+                  revision_parcial=len(reviews.keys()-closed-historical), sin_revision_individual=len(identities)-len(reviews),
+                  confirmadas_completas=len(completed), confirmadas_esenciales=len(essential), descartadas=len(ratified), exclusiones_historicas_sin_ratificar=len(historical), pendientes_confirmacion=len(identities)-len(closed))
     write_csv(output/'por_archivo.csv', list(summary[0]), summary)
-    by_institution = [dict(institucion=name, becas_unicas=len(candidates), revision_parcial=len((candidates & reviews.keys())-closed),
-                          sin_revision_individual=len(candidates-reviews.keys()), confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & discarded.keys()), pendientes_confirmacion=len(candidates-closed))
+    by_institution = [dict(institucion=name, becas_unicas=len(candidates), revision_parcial=len((candidates & reviews.keys())-closed-historical),
+                          sin_revision_individual=len(candidates-reviews.keys()), confirmadas_completas=len(candidates & completed.keys()), confirmadas_esenciales=len(candidates & essential.keys()), descartadas=len(candidates & ratified), exclusiones_historicas_sin_ratificar=len(candidates & historical), pendientes_confirmacion=len(candidates-closed))
                       for name,candidates in sorted(institutions.items())]
     write_csv(output/'por_institucion.csv', list(by_institution[0]), by_institution)
     (output/'resumen.json').write_text(json.dumps(totals, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-    table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['confirmadas_esenciales']} | {r['descartadas']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
+    table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['confirmadas_esenciales']} | {r['descartadas']} | {r['exclusiones_historicas_sin_ratificar']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
     text = f'''# Avance editorial por archivo
 
 Inventario reconstruido al 2 de octubre de 2026: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. {totals['confirmadas_completas']} tienen confirmación completa y {totals['confirmadas_esenciales']} confirmación esencial: faltan {totals['pendientes_confirmacion']} por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-La incorporación administrativa está terminada. Hay {totals['descartadas']} candidatas descartadas editorialmente: se excluyen de la selección para publicar y de los pendientes; no son confirmaciones ni prueban inexistencia. Originales y registros administrativos inactivos se conservan. `descartes.json` documenta cada motivo y evidencia. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
+Hay {totals['exclusiones_historicas_sin_ratificar']} exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los {totals['descartadas']} descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
-| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Descartadas | Sin revisión individual | Pendientes de cierre |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Descartadas ratificadas | Exclusiones históricas pendientes | Sin revisión individual | Pendientes de cierre |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
 {table}
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
