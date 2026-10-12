@@ -38,5 +38,19 @@
     "fuentes": ["https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm", "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"],
     "campos": {"monto": "Hasta 1150000 CLP del arancel anual", "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm", "cobertura_tipo": "MONETARIA", "cobertura_importe": "1150000", "cobertura_moneda": "CLP", "cobertura_periodicidad": "ANUAL", "fecha_inicio": "2026-10-01", "fecha_cierre": "2026-10-22"},
     "limite": "Primer periodo FUAS 2027. No reducir PAES/PACE a NEM. Ficha con fechas institucionales contradictorias; documentos completos pendientes."
+  },
+  {
+    "nombre": "Beca Municipal para Estudios Superiores Retiro",
+    "institucion": "Municipalidad de Retiro",
+    "revisado": "2026-10-12",
+    "fuentes": [
+      "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf",
+      "https://www.retiro.cl/archivos_adjuntos/actas_concejo/ACTA_TRASPASO_2021_2024.pdf"
+    ],
+    "campos": {
+      "monto": "2022: aporte parcial o total de matrícula o aporte semestral; monto individual desconocido",
+      "url": "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf"
+    },
+    "limite": "Confirmación histórica 2022; monto individual, RSH y vigencia 2026 desconocidos. No activar."
   }
 ]

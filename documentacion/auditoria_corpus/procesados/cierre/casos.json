@@ -24003,7 +24003,7 @@
     "candidato": "b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022",
     "nombre": "Beca Municipal para Estudios Superiores Retiro",
     "institucion": "Municipalidad de Retiro",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque23_muni.csv",
@@ -24052,13 +24052,42 @@
         "extractos": [
           "Identificador: b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022\n\nEstado: REQUIERE_ACLARACION. Consulta: HTML.\n\nLa página de noticias de Retiro no aportó apartado legible del programa. No se confirmó cobertura ni requisitos; conservar y recuperar ficha específica.\n\nPendiente: Localizar las bases o ficha específica de Beca Municipal para Estudios Superiores Retiro en Municipalidad de Retiro; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.\n\n- https://retiro.cl/noticias2/"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_RETIRO_2026_10_12.md",
+        "informe_sha256": "9e1d1a6ac085a6bca7f396f2d597805e4df9eb879b25f7064174cd72802db5e0",
+        "extractos": [
+          "Fecha de revisión: 12 de octubre de 2026. Candidato: `b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022`.\n\n**Estado: CONFIRMADA_ESENCIAL para el programa municipal histórico, con evidencia de 2022 y continuidad reportada entre 2021 y 2024.** Esto no confirma convocatoria, monto individual ni vigencia en 2026; el registro administrativo sigue inactivo."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b33db90fdf464549fc5c8f225a8bf642774711f5660eb30125ca60ea07359022",
+      "revisado": "2026-10-12",
+      "alcance": "Confirmación histórica 2022 del programa de educación superior de Retiro; continuidad reportada en gestión 2021-2024; no confirma convocatoria 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_RETIRO_2026_10_12.md",
+      "fuentes": [
+        "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf",
+        "https://www.retiro.cl/archivos_adjuntos/actas_concejo/ACTA_TRASPASO_2021_2024.pdf"
+      ],
+      "beneficio": "Aporte monetario para cubrir parcial o totalmente la matrícula de ingreso mediante pago o reembolso, o aporte por semestre académico. Monto individual desconocido.",
+      "requisitos_principales": "Residencia en Retiro y estudios superiores. Para 2022, nota mínima 5.0 para cuarto medio, IP o CFT; 4.5 para universidad. Requisitos académicos históricos, no trasladables a 2026.",
+      "limites": "Monto individual 2022 y límite RSH desconocidos. No se confirma vigencia, calendario ni convocatoria 2026. Sin activación.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488",
