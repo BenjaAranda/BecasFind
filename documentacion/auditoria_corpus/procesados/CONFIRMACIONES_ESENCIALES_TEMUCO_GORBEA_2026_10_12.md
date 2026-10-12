@@ -26,6 +26,12 @@ La Cuenta Pública 2016 de la Municipalidad de Gorbea documenta un programa deno
 
 Estas bases no establecen un pago fijo de $150.000 ni 400 cupos; el presupuesto consignado en el documento no coincide con los $60.000.000 atribuidos al candidato. La coincidencia de municipio y primer año no basta para afirmar que este instrumento es la candidata descrita como beca de mantención. Se conserva pendiente hasta localizar la fuente que explique la modalidad y cifra originales. La convocatoria 2024 no acredita vigencia en 2026.
 
+## Papudo — `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c`
+
+**Estado: REQUIERE_ACLARACION; se corrige una lectura previa.** La Cuenta Pública municipal 2017 sí enumera, separada de la Beca Presidente de la República, una «Beca Enseñanza Superior» bajo el encabezado «Beca Municipal», con 24 postulantes, 20 renovantes y 44 beneficiarios. Fuente oficial: [Cuenta Pública 2017, Municipalidad de Papudo](https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf), sección de becas, p. 70 del PDF. Esto aporta evidencia histórica de una ayuda municipal para estudiantes de educación superior; por lo tanto, la interpretación anterior de que todo el pasaje correspondía a JUNAEB era incorrecta.
+
+El informe no detalla en esa sección el monto, la forma de pago ni las condiciones de elegibilidad de la modalidad superior. No confirma los $250.000 en dos cuotas, RSH 60 %, promedio 5,0 ni documentos del registro. Se mantiene en aclaración hasta recuperar las bases o el acto específico de esa modalidad; tampoco se infiere vigencia actual.
+
 ## Resultado y preservación
 
 Se agrega una confirmación esencial al inventario: Gorbea. Temuco permanece en la cola hasta identificar oficialmente el programa; Santa Juana permanece abierta por diferencias de modalidad y montos. Los originales se conservan en `originales.jsonl`; el bono de Gorbea queda inactivo porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.
