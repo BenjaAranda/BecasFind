@@ -116,4 +116,3 @@ Transparencia institucional 2026 informa 8.614 estudiantes con beca académica y
 ## Estado del lote y del conjunto
 
 Las 16 fichas permanecen abiertas; no se confirma ni se descarta ninguna por ausencia de resultados. El archivo vigente de candidatas pendientes contiene 118 filas: 81 `REQUIERE_ACLARACION` y 37 `EXCLUSION_HISTORICA_SIN_RATIFICAR`. El registro canónico contiene 447 confirmaciones esenciales, 2 completas, 1 descarte ratificado y 118 abiertas: 568 en total. Los informes anteriores que informan 132 pendientes son cortes históricos y no reflejan el estado del archivo actual.
-
