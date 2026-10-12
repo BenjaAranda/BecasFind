@@ -9562,5 +9562,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "eda6fbb494f175bb8f42a92153a7d68fe4ddd2890370d0ecb67f9f316fc7a9fd",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad corregida a Matrícula de Honor UC, premio institucional de excelencia académica; reglas esenciales 2026; no certifica elegibilidad individual ni convocatorias futuras.",
+    "informe": "REVISION_UC_TEMUCO_2026_10_12.md",
+    "fuentes": [
+      "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/premios-a-la-excelencia-academica/premio-a-la-excelencia-academica-matricula-de-honor/"
+    ],
+    "beneficio": "Exención parcial de arancel anual: 40% durante primer año; hasta 50% para quienes acrediten situación socioeconómica hasta el noveno decil, según pauta UC.",
+    "requisitos_principales": "Estudiantes nuevos: egreso el año inmediatamente anterior, puntaje máximo en una de las pruebas PAES especificadas por UC y pertenecer al 10% superior de seleccionados de la carrera. Estudiantes en curso: mejor rendimiento de su promoción según definición de Vicerrectoría Académica.",
+    "limites": "Se descartan NEM 6,0 y percentil PAES genérico del original. La asignación es anual; documentos, calendario exacto y renovación no quedan confirmados aquí. La página describe gestión de la excepción 50% entre marzo y mayo de 2026. No inferir convocatoria futura.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
