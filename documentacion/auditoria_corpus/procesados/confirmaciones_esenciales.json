@@ -9497,4 +9497,26 @@
       "requisitos_principales": true
     }
   }
+,
+  {
+    "candidato": "1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95",
+    "revisado": "2026-10-12",
+    "alcance": "Confirmación esencial del Beneficio Empresas AIEP publicado actualmente. El registro original mezclaba este mecanismo con porcentajes fijos y cargas familiares no documentados.",
+    "informe": "CONFIRMACION_ESENCIAL_AIEP_EMPRESAS_2026_10_12.md",
+    "fuentes": [
+      "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/"
+    ],
+    "beneficio": "La empresa financia un monto por orden de compra que AIEP aplica a la deuda del estudiante. No publica porcentaje uniforme.",
+    "requisitos_principales": "El estudiante debe estar matriculado. La orden de compra empresarial debe identificar al estudiante por nombre y RUT; máximo dos órdenes anuales por estudiante.",
+    "limites": "La página no indica elegibilidad por vínculo laboral ni cargas familiares, ni un porcentaje fijo de 10%-25%. El monto depende de la empresa. No hay convocatoria individual ni fechas confirmadas; mantener inactivo.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Orden de compra empresarial con nombre y RUT del estudiante; otros documentos de elegibilidad desconocidos.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  }
 ]

@@ -53,4 +53,24 @@
     },
     "limite": "Confirmación histórica 2022; monto individual, RSH y vigencia 2026 desconocidos. No activar."
   }
+,
+  {
+    "nombre": "Beneficio Empresas AIEP",
+    "institucion": "AIEP",
+    "revisado": "2026-10-12",
+    "fuentes": [
+      "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/"
+    ],
+    "campos": {
+      "monto": "Monto por orden de compra definido por la empresa; sin porcentaje fijo publicado",
+      "url": "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": null,
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "Confirmación del mecanismo empresarial vigente; porcentaje original, cargas familiares y elegibilidad laboral no confirmados. No activar como convocatoria."
+  }
 ]
