@@ -9689,5 +9689,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",
+    "revisado": "2026-10-12",
+    "alcance": "Reglas esenciales históricas del programa identificado por Transparencia Activa; no acredita convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_CALLE_LARGA_2026_10_12.md",
+    "fuentes": [
+      "https://www.transparencia.callelarga.cl/Archivos/DeptoSocial/6.-Becas/Beca%20Pedro%20Aguirre%20Cerda/programa%20BECA%20PEDRO%20AGUIRRE%20CERDA.pdf"
+    ],
+    "beneficio": "Aporte anual municipal para apoyar acceso y mantención educativa; presupuesto global de $7.000.000 en el ciclo 2012. Monto individual desconocido.",
+    "requisitos_principales": "Estudiantes de enseñanza media y superior de Calle Larga con buen rendimiento académico y vulnerabilidad socioeconómica.",
+    "limites": "El registro oficial corresponde al ciclo 2012. No valida $30.350.000, 87 cupos universitarios, 23 técnico-profesionales, RSH 60%, NEM 5,0 ni fechas 2026 del original. Fechas y documentos actuales desconocidos. Mantener inactiva hasta confirmar convocatoria y cierre actuales.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
