@@ -11343,7 +11343,7 @@
       "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff"
     ],
     "nombre_de_referencia": "Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque31_muni.csv",
@@ -11352,12 +11352,14 @@
         "institucion_original": "Municipalidad de Colchane"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "El decreto 494/2023 identifica la beca y un millón de pesos en una cuota. La admisibilidad señala promedio 6,5 y RSH 40–60%; la tabla puntúa notas 5,5–6,5 y RSH inferior a 40%. También mezcla referencias 2022/2023. No se puede confirmar un corte de elegibilidad ignorando estas contradicciones. Falta: Precisar mediante acto modificatorio o bases corregidas qué criterios de admisibilidad prevalecen. Conservar el programa y el aporte acreditados; no descartar.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Reglas históricas de admisibilidad y evaluación para el proceso 2023 del Decreto 494/2023.",
+    "beneficio_verificado": "$1.000.000 CLP en una cuota, en las bases 2023.",
+    "requisitos_principales_verificados": "Residencia Colchane; RSH 40–60%; matrícula superior reconocida; tercer semestre o posterior; promedio anual 6,5 mínimo para el período que fijan las bases.",
+    "limites": "La tabla de puntaje posterior presenta inconsistencias internas y mezcla referencias anuales; la admisibilidad está expresamente antes de la evaluación. Confirmación histórica 2023, no vigencia actual.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.imcolchane.cl/documentos/inde/DECRETO%20494%202023.pdf"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },

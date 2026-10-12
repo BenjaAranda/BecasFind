@@ -6444,38 +6444,31 @@
       "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
       "nombre": "Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior",
       "institucion": "Municipalidad de Colchane",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El decreto 494/2023 identifica la beca y un millón de pesos en una cuota. La admisibilidad señala promedio 6,5 y RSH 40–60%; la tabla puntúa notas 5,5–6,5 y RSH inferior a 40%. También mezcla referencias 2022/2023. No se puede confirmar un corte de elegibilidad ignorando estas contradicciones. El índice municipal identifica el decreto de la beca en 2022. No modifica ni resuelve por sí mismo la contradicción entre admisibilidad y tabla de puntuación del decreto 494/2023.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El Decreto Alcaldicio 494/2023 aprueba bases modificadas para la beca. La admisibilidad expresa exige promedio 6,5 y RSH 40–60%; la tabla de puntaje viene después y no sustituye ese filtro aunque incluya filas de nota 5,5–5,9 con cero puntos y RSH inferior a 40. Se conserva el defecto de la tabla como limitación. Beneficio $1.000.000 CLP en una cuota; criterios y calendario históricos 2023. Convocatoria actual desconocida; no activar.",
       "fuentes": [
-        {
-          "url": "https://imcolchane.cl/Becas.php",
-          "consulta": "2026-10-08",
-          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "sha256": "a580e779bc86b15407e5001f094552e85663bbd10a90d4ed2434b1b3718c21c2",
-          "url_final": "https://imcolchane.cl/Becas.php",
-          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra"
-        },
-        {
-          "url": "https://imcolchane.cl/documentos/Becas/Decreto%2011122022.pdf",
-          "consulta": "2026-10-07",
-          "lectura_esencial": true,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "sha256": "59cb672c4ad5b277d51525429a8ee04973dfdb4974427b930e60b94b3648adda",
-          "paginas": 3,
-          "url_final": "https://imcolchane.cl/documentos/Becas/Decreto%2011122022.pdf"
-        },
         {
           "url": "https://www.imcolchane.cl/documentos/inde/DECRETO%20494%202023.pdf",
           "consulta": "2026-10-12",
           "contenido_extraido": true,
-          "metodo": "Contraste documentado; fuente insuficiente para cierre esencial"
+          "lectura_visual_completa": true,
+          "paginas": 8,
+          "paginas_relevantes": "3–7",
+          "alcance_lectura": "Decreto 494/2023 y bases modificadas; identificación, beneficio, requisitos de admisibilidad, evaluación y calendario histórico."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://www.imcolchane.cl/documentos/inde/DECRETO%20494%202023.pdf"
+        ],
+        "alcance": "Bases históricas aprobadas por Decreto 494/2023 para el proceso 2023.",
+        "beneficio": "$1.000.000 CLP en una cuota.",
+        "requisitos_principales": "Residencia Colchane; RSH 40–60%; institución superior reconocida; tercer semestre o posterior; promedio anual mínimo 6,5 según la admisibilidad.",
+        "limites": "Tabla de puntaje presenta inconsistencias y referencias anuales mezcladas; no reemplaza admisibilidad. No confirma convocatoria ni condiciones actuales; no activar."
+      },
       "ultima_revision": "2026-10-12",
-      "informe_ultima_revision": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md"
+      "informe_ultima_revision": "CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md"
     },
     {
       "candidato": "16e415d3c49650a2da9b2ff89cd9345e59ca6224bff2781ba3068ddc75b226f7",
@@ -10087,5 +10080,16 @@
     "programas_identificados": 6,
     "informe": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md",
     "cohorte_291_cierres": 7
+  },
+  "confirmaciones_esenciales_2026_10_12": {
+    "informe": "CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md",
+    "candidatas_contrastadas": 1,
+    "confirmaciones_nuevas": 1,
+    "pendientes_anteriores": 132,
+    "pendientes_tras_cierre": 131,
+    "descartes_nuevos": 0,
+    "fuentes_sin_firecrawl": true,
+    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-revision-132-20261012.zip",
+    "sha256_respaldo": "8c020d58ddca65aa704f10dec405256d9a6ec00eae76a8a7538aa72004656cfa"
   }
 }

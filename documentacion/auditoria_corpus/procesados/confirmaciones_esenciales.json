@@ -9346,5 +9346,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
+    "revisado": "2026-10-12",
+    "alcance": "Reglas históricas de la Beca Ilustre Municipalidad de Colchane de Incentivo al Rendimiento Académico de Estudio Superior aprobadas por Decreto 494/2023; no certifica convocatoria abierta.",
+    "informe": "CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md",
+    "fuentes": [
+      "https://www.imcolchane.cl/documentos/inde/DECRETO%20494%202023.pdf"
+    ],
+    "beneficio": "$1.000.000 CLP en una cuota, conforme a las bases de 2023.",
+    "requisitos_principales": "Para 2023: residencia en Colchane; RSH tramo 40–60%; educación superior en institución reconocida por el Estado; tercer semestre o posterior; promedio anual mínimo 6,5. La admisibilidad precede a la tabla de puntaje.",
+    "limites": "La tabla posterior presenta inconsistencias de puntaje y referencias de año mezcladas, que se documentan y no se interpretan como sustitución de los filtros expresos de admisibilidad. Requisitos, monto y calendario son históricos de 2023; convocatoria, cierre y condiciones posteriores desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

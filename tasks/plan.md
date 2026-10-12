@@ -107,3 +107,8 @@ Dos cierres esenciales históricos: Lota y Los Vilos. Contraste de fuentes de 59
 ### Segundo lote sin Firecrawl — 12 de octubre de 2026
 
 Se contrastaron 50 candidatas; dos cierres esenciales históricos nuevos: Coltauco y Taltal. Los otros 48 casos permanecen sin cierre, con carencias individuales actualizadas. Total: 434 esenciales, dos completas y 132 pendientes (90 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 201 esenciales y 90 aclaraciones. Catálogo: 419 fichas esenciales de 553. No se eliminó ningún original. Detalle: `REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md`.
+
+
+## Seguimiento de confirmación de pendientes (12-10-2026)
+
+Revisado íntegramente y confirmado en alcance histórico el expediente Colchane por Decreto 494/2023. Quedan 131 pendientes: 89 aclaraciones y 42 exclusiones históricas sin ratificar. Continúa pendiente el contraste individual de cada uno; no iniciar despliegue.

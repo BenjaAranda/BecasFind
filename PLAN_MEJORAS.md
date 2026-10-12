@@ -254,3 +254,10 @@ Dos cierres esenciales históricos: Lota y Los Vilos. Contraste de fuentes de 59
 ### Segundo lote sin Firecrawl — 12 de octubre de 2026
 
 Se contrastaron 50 candidatas; dos cierres esenciales históricos nuevos: Coltauco y Taltal. Los otros 48 casos permanecen sin cierre, con carencias individuales actualizadas. Total: 434 esenciales, dos completas y 132 pendientes (90 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 201 esenciales y 90 aclaraciones. Catálogo: 419 fichas esenciales de 553. No se eliminó ningún original. Detalle: `REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md`.
+
+
+## Actualización de cierre documental — Colchane, 12 de octubre de 2026
+
+La lectura visual de las bases completas del Decreto 494/2023 resuelve la aparente contradicción: la sección de admisibilidad establece el corte mínimo de promedio 6,5 y el tramo RSH 40–60%; a continuación, una tabla asigna puntajes. Se confirma el beneficio histórico de $1.000.000 CLP en una cuota y los requisitos de esa convocatoria. Las inconsistencias de la tabla se conservan como limitación; no se trasladan sus puntajes a la admisibilidad. Fechas y vigencia posteriores a 2023 siguen desconocidas. De las 132 pendientes iniciales se cierra una; quedan 131 (89 aclaraciones y 42 exclusiones históricas sin ratificar), con cero descartes.
+
+Evidencia: `documentacion/auditoria_corpus/procesados/CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md`; respaldo previo: `C:\Users\benja\Documents\BecasFind-respaldos\corpus-antes-revision-132-20261012.zip` (SHA-256 `8c020d58ddca65aa704f10dec405256d9a6ec00eae76a8a7538aa72004656cfa`). No se modificaron originales ni se descartaron becas.
