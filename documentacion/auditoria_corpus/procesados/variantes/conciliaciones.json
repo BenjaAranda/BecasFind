@@ -1,5 +1,20 @@
 [
   {
+    "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
+    "revisado": "2026-10-12",
+    "decision_identidad": "Las cuatro referencias originales identifican la misma beca municipal de educación superior de Quilpué; sus nombres e institución coinciden. La ficha consultada de Beca Escolar La Florida no guarda relación y no se usa como prueba.",
+    "informe": "CONCILIACION_MUNICIPAL_QUILPUE_EVIDENCIA_INSUFICIENTE_2026_10_12.md",
+    "fuentes": ["https://www.quilpue.cl/"],
+    "campos": {
+      "descripcion": "Las cuatro referencias atribuyen un aporte municipal a educación superior; la finalidad y cobertura exactas no están confirmadas por fuente oficial específica.",
+      "descripcion_larga": "Identidad editorial reconciliada como una candidata con cuatro referencias históricas. Se conservan como desconocidos el monto anual (las filas difieren entre $80.000 y $250.000 y cifras truncadas), RSH, NEM, documentos y calendario. El único enlace municipal aportado es la página raíz y no identifica bases de esta beca.",
+      "documentos_requeridos": "Desconocidos; las listas históricas varían y no hay bases oficiales específicas.",
+      "monto": "Desconocido; contradicción entre referencias sin fuente oficial que permita resolverla.",
+      "fecha_inicio": "Desconocida; las filas discrepan y no hay convocatoria oficial específica.",
+      "fecha_cierre": "Desconocida; las filas difieren entre 2026-03-31 y 2026-04-30, sin convocatoria oficial que lo resuelva."
+    }
+  },
+  {
     "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
     "revisado": "2026-10-02",
     "decision_identidad": "Mismo Premio Puntaje Máximo PAES; distinto de Premio Excelencia Primer Año",

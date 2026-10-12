@@ -278,9 +278,9 @@
   },
   {
     "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
-    "nombre": "Beca Municipal Educación Superior Quilpue",
-    "institucion": "Municipalidad de Quilpue",
-    "estado": "CONFIRMADA_ESENCIAL",
+    "nombre": "Beca Municipal de Educación Superior Quilpué",
+    "institucion": "Municipalidad de Quilpué",
+    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -330,32 +330,10 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; fecha_inicio; monto",
-    "informe_conciliacion": "",
-    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
-    "confirmacion_esencial": {
-      "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
-      "revisado": "2026-10-06",
-      "alcance": "Ordenanza municipal 3 de 2018; Beca Matrícula de Educación Superior.",
-      "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
-      "fuentes": [
-        "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf",
-        "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf"
-      ],
-      "beneficio": "Financiamiento total o parcial de matrícula; tope de $200.000. Pago a la institución.",
-      "requisitos_principales": "Residir en Quilpué; primer ingreso a educación superior; necesidad socioeconómica y NEM mínimo 5,5.",
-      "limites": "Confirmación histórica de matrícula, no de mantención general. No extrapolar el monto ni los requisitos a 2026. Texto contrastado en la lectura web del PDF oficial.",
-      "fecha_inicio": null,
-      "fecha_cierre": null,
-      "documentos": null,
-      "verificaciones": {
-        "identidad": true,
-        "fuente_oficial": true,
-        "cobertura": true,
-        "requisitos_principales": true
-      }
-    }
+    "informe_conciliacion": "variantes/CONCILIACION_MUNICIPAL_QUILPUE_EVIDENCIA_INSUFICIENTE_2026_10_12.md",
+    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
   },
   {
     "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
