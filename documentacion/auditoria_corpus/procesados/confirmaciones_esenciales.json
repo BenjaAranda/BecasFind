@@ -9604,5 +9604,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad y criterio social esencial de la Beca Municipal para estudiantes de educación superior en Calera de Tango; no certifica monto ni convocatoria vigente.",
+    "informe": "CONFIRMACION_CALERA_TANGO_2026_10_12.md",
+    "fuentes": [
+      "https://www.caleradetango.cl/departamento-social"
+    ],
+    "beneficio": "Beca municipal para estudiantes de educación superior. La ficha oficial no detalla importe ni modalidad específica de cobertura.",
+    "requisitos_principales": "Ser estudiante de educación superior y obtener calificación o evaluación del equipo Social municipal. La fuente no especifica umbrales académicos ni socioeconómicos.",
+    "limites": "Monto, documentos, NEM 5,0, RSH 60%, modalidad de postulación y fechas 2026 del original no corroborados. Existencia del programa no confirma convocatoria abierta o vigencia anual. No activar sin bases actuales.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

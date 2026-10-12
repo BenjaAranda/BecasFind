@@ -24774,7 +24774,7 @@
     "candidato": "f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451",
     "nombre": "Beca Municipal de Educación Superior 2026",
     "institucion": "Municipalidad de Calera de Tango",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque24_muni.csv",
@@ -24823,13 +24823,41 @@
         "extractos": [
           "Identificador: f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nDepartamento Social reconoce la beca propia para educación superior y evaluación del equipo social. No especifica su cobertura económica ni criterios de selección particulares.\n\nAntecedente pendiente antes de esta consulta: Página social identifica beca municipal superior y evaluación social, pero no precisa beneficio. Falta leer bases o acuerdo de creación; URL original contiene texto ajeno.\n\nAcción pendiente: Localizar las bases o ficha específica de Beca Municipal de Educación Superior 2026 en Municipalidad de Calera de Tango; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.\n\n- https://www.caleradetango.cl/departamento-social"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_CALERA_TANGO_2026_10_12.md",
+        "informe_sha256": "f85b6be86bc47858145d5bca2e4211b18abe2ad47bdf5884e30ac28e4b1f0804",
+        "extractos": [
+          "## `f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451`\n\n**Resultado: confirmada esencialmente con alcance acotado; no acredita convocatoria vigente.**\n\nLa página del Departamento Social de la Municipalidad de Calera de Tango enumera de forma específica la **Beca Municipal para estudiantes de educación superior** entre los beneficios que entrega previa calificación o evaluación del equipo Social. Esto coincide con la identidad institucional, el nivel educativo y el criterio social descritos en la candidata.\n\nLa fuente no especifica importe ni forma de cobertura, requisitos académicos, límite de RSH, documentos o fechas de convocatoria. Por tanto, se conservan desconocidos el monto, el NEM 5,0, el RSH 60%, el calendario de abril 2026, la modalidad presencial/digital y los documentos de la ficha original. La URL municipal rota y el documento UAH adjunto no prueban esos campos. La existencia del programa y su evaluación social no bastan para certificar una convocatoria abierta ni su vigencia anual.\n\nFuente oficial específica: https://www.caleradetango.cl/departamento-social"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad y criterio social esencial de la Beca Municipal para estudiantes de educación superior en Calera de Tango; no certifica monto ni convocatoria vigente.",
+      "informe": "CONFIRMACION_CALERA_TANGO_2026_10_12.md",
+      "fuentes": [
+        "https://www.caleradetango.cl/departamento-social"
+      ],
+      "beneficio": "Beca municipal para estudiantes de educación superior. La ficha oficial no detalla importe ni modalidad específica de cobertura.",
+      "requisitos_principales": "Ser estudiante de educación superior y obtener calificación o evaluación del equipo Social municipal. La fuente no especifica umbrales académicos ni socioeconómicos.",
+      "limites": "Monto, documentos, NEM 5,0, RSH 60%, modalidad de postulación y fechas 2026 del original no corroborados. Existencia del programa no confirma convocatoria abierta o vigencia anual. No activar sin bases actuales.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "2f9a8aa98fc2fdd2704fbbdefc3801b7549a2e23d9a08829919b6f1957fb26a5",
