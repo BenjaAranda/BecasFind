@@ -6557,7 +6557,7 @@
       "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d"
     ],
     "nombre_de_referencia": "Beca Municipal para Estudiantes de Educación Superior Lota",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -6566,12 +6566,15 @@
         "institucion_original": "Municipalidad de Lota"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Decreto 483/2026 de 17 de abril: Beca Municipal Educación Superior para 200 alumnos de institutos y universidades; 100.000 CLP individuales por transferencia. El considerando denomina el apoyo Beca de Pasajes 2026. Los antecedentes incluyen informe socioeconómico, RSH vigente y certificado de alumno regular. Se distingue importe por persona de presupuesto agregado de 20 millones. Falta: Bases de selección que permitan fijar elegibilidad principal y destino preciso; la nómina de adjudicados no publica cortes de notas o RSH. No reproducir datos personales de beneficiarios.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Beca de Pasajes de Lota: identidad y requisitos de la ficha municipal de julio de 2023; continuidad del apoyo al transporte acreditada en 2025. Confirmación documental histórica del programa, sin certificar la convocatoria 2026.",
+    "beneficio_verificado": "Ayuda municipal para gastos de transporte de estudiantes que ingresan o cursan educación superior. La noticia de 2025 acredita financiación municipal; importe individual desconocido en las fuentes incorporadas, sin dividir presupuesto por beneficiarios.",
+    "requisitos_principales_verificados": "Ficha histórica 2023: residencia en Lota acreditada por RSH y certificado vecinal; alumno regular de educación superior; RSH hasta 40%; promedio de cuarto medio 5,5 para ingreso y promedio del año anterior 5,0 para cursos superiores.",
+    "limites": "Se corrige la descripción genérica hacia la finalidad de pasajes identificada por DIDECO. No se trasladan los requisitos de 2023 a 2025/2026. La fecha de actualización del portal en 2026 no cambia el año de la fila. No se confirma libre disposición ni RSH 60%. Cierre actual, documentos actuales e importe individual quedan desconocidos; no activar.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.lotatransparente.cl/index.php?a=2023&action=plantillas_generar_plantilla&ia=71453&ig=115&m=7",
+      "https://lota.cl/juntos-fortalecemos-lota-colcura-y-chivilingo/"
+    ],
+    "informe_esencial": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },
@@ -7632,7 +7635,7 @@
       "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb"
     ],
     "nombre_de_referencia": "Beca Municipal para Estudiantes de Educación Superior Los Vilos",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque16_muni.csv",
@@ -7641,12 +7644,15 @@
         "institucion_original": "Municipalidad de Los Vilos"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "La transferencia 25727 corresponde a Residencia Familiar Estudiantil de marzo de 2005. No acredita el aporte de libre disposición del original.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Becas Municipales de Educación Superior de Los Vilos; convocatoria y entrega municipales de 2025. Confirmación esencial histórica; distingue educación superior, incentivo, residencia, deporte y movilización.",
+    "beneficio_verificado": "Apoyo económico municipal a estudiantes de educación superior. La entrega 2025 identifica esta línea separadamente de residencias, deporte, incentivos y movilización CEDUC. No se deduce un importe individual del presupuesto conjunto ni se asigna un monto de otra modalidad.",
+    "requisitos_principales_verificados": "Convocatoria 2025: residencia y RSH en Los Vilos; matrícula en universidad, IP o CFT reconocido por el Estado; promedio 5,0 para egresados de enseñanza media y 4,0 para estudiantes superiores; vulnerabilidad socioeconómica acreditada. Duración financiada no superior a la duración formal más un semestre, previa evaluación social.",
+    "limites": "El tipo de ayuda, identidad, fuente específica y destinatarios están acreditados; importe exacto no es condición adicional de la revisión esencial. La ficha no impone RSH máximo 60% ni promedio 5,0 indistinto para todos. Los requisitos y el plazo publicados corresponden a 2025, no a 2026. No se confirma libre disposición ni renovación automática. Cierre vigente desconocido; no activar.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.munilosvilos.cl/?p=58415",
+      "https://www.munilosvilos.cl/?p=59156"
+    ],
+    "informe_esencial": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },

@@ -97,3 +97,8 @@ Cierres posteriores del 9 de octubre: [Cartagena histórica 2025 y Mérito Depor
 Actualización del 12 de octubre de 2026: 430 candidatas esenciales; dos completas; 136 pendientes. Cohorte 291: 197 esenciales y 94 aclaraciones. Catálogo: 553 fichas; 415 esenciales. Detalle: CONFIRMACIONES_MUNICIPALES_2026_10_12.md. Ningún original eliminado; sin importación, activación ni despliegue.
 
 Lote de 50 candidatas contrastadas: ocho confirmaciones esenciales y 42 contrastes sin cierre; detalle individual en CONTRASTES_INDIVIDUALES_50_2026_10_12.md. No se descarta por ausencia ni se cuenta revisión parcial como confirmación.
+
+
+### Continuación sin Firecrawl — 12 de octubre de 2026
+
+Dos cierres esenciales históricos: Lota y Los Vilos. Contraste de fuentes de 59 candidatas; 57 sin cierre, incluidos fallos de acceso. Total vigente del seguimiento: 432 esenciales, dos completas y 134 pendientes (92 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 199 esenciales y 92 aclaraciones. Catálogo: 417 fichas esenciales de 553. Ningún original eliminado. Detalle: `REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md`. No confundir contraste de fuentes con confirmación.
