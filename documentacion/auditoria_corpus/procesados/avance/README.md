@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 88 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 436 confirmación esencial: faltan 130 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 87 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 437 confirmación esencial: faltan 129 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 42 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 0 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -8,8 +8,8 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 
 | Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Descartadas ratificadas | Exclusiones históricas pendientes | Sin revisión individual | Pendientes de cierre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| auditoria_municipal.csv | 16 | 16 | 9 | 7 | 0 | 0 | 0 | 9 |
-| auditoria_municipal_fix.csv | 16 | 16 | 9 | 7 | 0 | 0 | 0 | 9 |
+| auditoria_municipal.csv | 16 | 16 | 8 | 8 | 0 | 0 | 0 | 8 |
+| auditoria_municipal_fix.csv | 16 | 16 | 8 | 8 | 0 | 0 | 0 | 8 |
 | beca_uai_fix.csv | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 1 |
 | becas_aiep.csv | 5 | 5 | 0 | 4 | 0 | 1 | 0 | 1 |
 | becas_cftenac.csv | 6 | 6 | 0 | 0 | 0 | 6 | 0 | 6 |
@@ -19,7 +19,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_junaeb.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_mineduc.csv | 5 | 5 | 0 | 5 | 0 | 0 | 0 | 0 |
 | becas_munialgarrobo.csv | 2 | 2 | 1 | 1 | 0 | 0 | 0 | 1 |
-| becas_munilaserena.csv | 2 | 2 | 1 | 1 | 0 | 0 | 0 | 1 |
+| becas_munilaserena.csv | 2 | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
 | becas_munistgo.csv | 2 | 2 | 1 | 1 | 0 | 0 | 0 | 1 |
 | becas_munivalpo.csv | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 |
 | becas_munivina.csv | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 |

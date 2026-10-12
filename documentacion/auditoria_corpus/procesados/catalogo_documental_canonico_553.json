@@ -270,7 +270,7 @@
       "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3"
     ],
     "nombre_de_referencia": "Subsidio de Pasajes La Serena",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -291,14 +291,16 @@
         "institucion_original": "Municipalidad de La Serena"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "El acta La Serena 2013 trata solicitudes de subvenciones a organizaciones y actividades. Falta regla específica de subsidio de pasajes para estudiantes superiores.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "alcance_verificado": "Programa municipal histórico publicado para 2023: Pasajes terrestres con fines de estudio. Confirma el apoyo, su finalidad y requisitos sociales esenciales; no una convocatoria abierta ni un pago mensual.",
+    "beneficio_verificado": "Entrega de pasajes terrestres para regreso a clases o al hogar cuando el costo mensual del traslado desde/hacia el lugar de estudios perjudica el presupuesto familiar. No se publica monto individual ni periodicidad de pago.",
+    "requisitos_principales_verificados": "Residencia en La Serena y situación de indigencia o pobreza según RSH, o necesidad manifiesta; para fines de estudio, certificado de alumno regular y de asistencia. Evaluación técnica y priorización de mayor vulnerabilidad.",
+    "limites": "La ficha transparenta el programa para 2023 y remite al Manual de Procedimientos de Aportes Sociales, Resolución 1221/21. No confirma el 60% RSH exacto, nota mínima 5,0, postulación/renovación semestral ni subsidio mensual del original. Monto global 2023 en proceso de determinación; importe individual desconocido. No se afirma vigencia posterior ni se activa.",
+    "fuentes_verificadas_del_expediente": [
+      "https://transparencia.laserena.cl/ptransact.php?n=104"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
+    "accion_administrativa": "Conservar inactiva; no publicar como vigente."
   },
   {
     "clave_documental": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",

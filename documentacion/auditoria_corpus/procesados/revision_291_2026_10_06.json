@@ -315,8 +315,8 @@
       "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
       "nombre": "Subsidio de Pasajes La Serena",
       "institucion": "Municipalidad de La Serena",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El acta La Serena 2013 trata solicitudes de subvenciones a organizaciones y actividades. Falta regla específica de subsidio de pasajes para estudiantes superiores. Acta de La Serena de 2013 aprueba mantención para diez ingresos SIPEE a Universidad de Chile, 150.000 mensuales por alumno. No respalda un subsidio general de pasajes para todos los estudiantes.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "La ficha municipal de transparencia para 2023 identifica pasajes terrestres con fines de estudio, propósito, residencia, vulnerabilidad y certificados requeridos. No respalda pago mensual, 60% RSH exacto ni nota mínima 5,0; esos campos se retiran o dejan desconocidos.",
       "fuentes": [
         {
           "url": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf",
@@ -338,11 +338,26 @@
           "sha256": "97ae75aede0e6ebbd35f340ebb5d6d29b9af1aa8a7331c19ab79a8bd6a19e1b0",
           "contenido_extraido": true,
           "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información."
+        },
+        {
+          "url": "https://transparencia.laserena.cl/ptransact.php?n=104",
+          "consulta": "2026-10-12",
+          "contenido_extraido": true,
+          "metodo": "Lectura de la ficha municipal de transparencia; acredita programa y condiciones esenciales publicados para 2023."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://transparencia.laserena.cl/ptransact.php?n=104"
+        ],
+        "alcance": "Programa municipal histórico publicado para 2023: Pasajes terrestres con fines de estudio. Confirma el apoyo, su finalidad y requisitos sociales esenciales; no una convocatoria abierta ni un pago mensual.",
+        "beneficio": "Entrega de pasajes terrestres para regreso a clases o al hogar cuando el costo mensual del traslado desde/hacia el lugar de estudios perjudica el presupuesto familiar. No se publica monto individual ni periodicidad de pago.",
+        "requisitos_principales": "Residencia en La Serena y situación de indigencia o pobreza según RSH, o necesidad manifiesta; para fines de estudio, certificado de alumno regular y de asistencia. Evaluación técnica y priorización de mayor vulnerabilidad.",
+        "limites": "La ficha transparenta el programa para 2023 y remite al Manual de Procedimientos de Aportes Sociales, Resolución 1221/21. No confirma el 60% RSH exacto, nota mínima 5,0, postulación/renovación semestral ni subsidio mensual del original. Monto global 2023 en proceso de determinación; importe individual desconocido. No se afirma vigencia posterior ni se activa."
+      },
       "ultima_revision": "2026-10-12",
-      "informe_ultima_revision": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md"
+      "informe_ultima_revision": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md"
     },
     {
       "candidato": "88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759",
@@ -10063,14 +10078,14 @@
     "cohorte_291_cierres": 7
   },
   "confirmaciones_esenciales_2026_10_12": {
-    "informe": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md",
+    "informe": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
     "candidatas_contrastadas": 1,
     "confirmaciones_nuevas": 1,
-    "pendientes_anteriores": 131,
-    "pendientes_tras_cierre": 130,
+    "pendientes_anteriores": 130,
+    "pendientes_tras_cierre": 129,
     "descartes_nuevos": 0,
     "fuentes_sin_firecrawl": true,
-    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-umag-20261012.zip",
-    "sha256_respaldo": "5b099bc442648c1d82e9ab4d7208d296d2a193301793e23851310579cb199219"
+    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-la-serena-20261012.zip",
+    "sha256_respaldo": "7FF4958F2FB7A6C0F9F5F982445D768635D6BB65E79D284ED1E7CC58545F645E"
   }
 }

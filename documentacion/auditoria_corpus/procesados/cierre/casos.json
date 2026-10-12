@@ -1032,7 +1032,7 @@
     "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
     "nombre": "Subsidio de Pasajes La Serena",
     "institucion": "Municipalidad de La Serena",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -1089,13 +1089,41 @@
         "extractos": [
           "Identificador: 82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3\n\nEstado: **REQUIERE_ACLARACION**. Acceso: PDF_TEXTUAL.\n\nActa de La Serena de 2013 aprueba mantención para diez ingresos SIPEE a Universidad de Chile, 150.000 mensuales por alumno. No respalda un subsidio general de pasajes para todos los estudiantes.\n\nAntecedente pendiente antes de esta consulta: El acta La Serena 2013 trata solicitudes de subvenciones a organizaciones y actividades. Falta regla específica de subsidio de pasajes para estudiantes superiores.\n\nAcción pendiente: Contrastar Subsidio de Pasajes La Serena con el apartado del programa de Municipalidad de La Serena; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.\n\n- https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
+        "informe_sha256": "095c69be436e7de3c9d10143cc7ee3c27a26a1e3299b7e2c1163352aec1b26dd",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; nem_minimo; url",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+      "revisado": "2026-10-12",
+      "alcance": "Programa municipal histórico publicado para 2023: Pasajes terrestres con fines de estudio. Confirma el apoyo, su finalidad y requisitos sociales esenciales; no una convocatoria abierta ni un pago mensual.",
+      "informe": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
+      "fuentes": [
+        "https://transparencia.laserena.cl/ptransact.php?n=104"
+      ],
+      "beneficio": "Entrega de pasajes terrestres para regreso a clases o al hogar cuando el costo mensual del traslado desde/hacia el lugar de estudios perjudica el presupuesto familiar. No se publica monto individual ni periodicidad de pago.",
+      "requisitos_principales": "Residencia en La Serena y situación de indigencia o pobreza según RSH, o necesidad manifiesta; para fines de estudio, certificado de alumno regular y de asistencia. Evaluación técnica y priorización de mayor vulnerabilidad.",
+      "limites": "La ficha transparenta el programa para 2023 y remite al Manual de Procedimientos de Aportes Sociales, Resolución 1221/21. No confirma el 60% RSH exacto, nota mínima 5,0, postulación/renovación semestral ni subsidio mensual del original. Monto global 2023 en proceso de determinación; importe individual desconocido. No se afirma vigencia posterior ni se activa.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "Para fines de estudio: certificado de alumno regular y certificado de asistencia. La ficha general también pide cédula, residencia y acreditación de ingresos; el detalle puede variar según el aporte.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",

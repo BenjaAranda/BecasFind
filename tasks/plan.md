@@ -115,3 +115,5 @@ Revisado íntegramente y confirmado en alcance histórico el expediente Colchane
 
 
 Actualización 12-10-2026: Colchane histórico 2023 y Excelencia Académica UMAG histórica 2017 revisados y confirmados esencialmente con límites documentados. Restan 130 pendientes (88 aclaraciones y 42 exclusiones históricas sin ratificar). No iniciar despliegue.
+
+Actualización 12-10-2026: confirmación esencial histórica del Subsidio de Pasajes de La Serena para 2023 con ficha oficial de transparencia. Se corrigió el beneficio a entrega de pasajes y se conservaron como desconocidos el monto individual, el 60% exacto, la nota y el calendario posterior. El corpus queda en 437 confirmaciones esenciales, 2 completas y 129 pendientes (87 aclaraciones y 42 exclusiones históricas sin ratificar); cero descartes nuevos. Respaldo previo: `C:\Users\benja\Documents\BecasFind-respaldos\corpus-antes-la-serena-20261012.zip` (SHA-256 `7FF4958F2FB7A6C0F9F5F982445D768635D6BB65E79D284ED1E7CC58545F645E`). No iniciar despliegue.

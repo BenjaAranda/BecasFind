@@ -9389,5 +9389,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+    "revisado": "2026-10-12",
+    "alcance": "Programa municipal histórico publicado para 2023: Pasajes terrestres con fines de estudio. Confirma el apoyo, su finalidad y requisitos sociales esenciales; no una convocatoria abierta ni un pago mensual.",
+    "informe": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.laserena.cl/ptransact.php?n=104"
+    ],
+    "beneficio": "Entrega de pasajes terrestres para regreso a clases o al hogar cuando el costo mensual del traslado desde/hacia el lugar de estudios perjudica el presupuesto familiar. No se publica monto individual ni periodicidad de pago.",
+    "requisitos_principales": "Residencia en La Serena y situación de indigencia o pobreza según RSH, o necesidad manifiesta; para fines de estudio, certificado de alumno regular y de asistencia. Evaluación técnica y priorización de mayor vulnerabilidad.",
+    "limites": "La ficha transparenta el programa para 2023 y remite al Manual de Procedimientos de Aportes Sociales, Resolución 1221/21. No confirma el 60% RSH exacto, nota mínima 5,0, postulación/renovación semestral ni subsidio mensual del original. Monto global 2023 en proceso de determinación; importe individual desconocido. No se afirma vigencia posterior ni se activa.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Para fines de estudio: certificado de alumno regular y certificado de asistencia. La ficha general también pide cédula, residencia y acreditación de ingresos; el detalle puede variar según el aporte.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
