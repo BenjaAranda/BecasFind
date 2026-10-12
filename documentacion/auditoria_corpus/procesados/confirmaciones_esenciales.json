@@ -9645,5 +9645,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "349245ad74fc8dbe5e8eb93fb9b786d0a21cdba992eec27b0d9e03e14d4e868c",
+    "revisado": "2026-10-12",
+    "alcance": "Bono municipal de apoyo a estudiantes de educación superior; edición histórica 2016. No confirma convocatoria vigente.",
+    "informe": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipalidadgorbea.cl/transparencia/images/pdf/cp2016.pdf",
+      "https://www.municipalidadgorbea.cl/transparencia/images/acta_17.pdf"
+    ],
+    "beneficio": "Edición 2016: $120.000 CLP por estudiante, una cuota anual mediante cheque nominativo. Edición 2017: $80.000 para 174 beneficiarios. No extrapolar montos a otros años.",
+    "requisitos_principales": "Ser estudiante de educación superior; criterios adicionales de selección desconocidos.",
+    "limites": "No se confirman los $150.000 del original, RSH 70%, NEM 5,0, tres años de residencia, incompatibilidad con gratuidad, documentos ni calendario 2026. Un acta municipal 2023 alude a que el bono no habría pasado. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
