@@ -8868,60 +8868,41 @@
       "candidato": "eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677",
       "nombre": "Beca Excelencia Académica UMAG",
       "institucion": "Universidad de Magallanes",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "El calendario 2026 identifica separadamente becas internas Mayor Puntaje y Excelencia Académica. Confirma su existencia, pero no el 15–100% según PAES ni elegibilidad. Falta reglamento de la beca Excelencia, sin confundir con Mayor Puntaje o BEA estatal.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El Decreto 028/SU/2017 contiene la Beca de Excelencia Académica UMAG (arts. 57–60, p. impresa 9) y sus requisitos históricos de PSU, corte y primera matrícula. El calendario UMAG 2026 también la identifica como Beca Interna distinta de Mayor Puntaje. Se desconoce monto/cobertura exacta y se retira 15–100% del original. No se atribuyen requisitos de 2017 a 2026.",
       "fuentes": [
         {
-          "url": "https://admision.umag.cl/becas/",
-          "consulta": "2026-10-06",
-          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "contenido_extraido": false
-        },
-        {
-          "url": "https://admision.umag.cl/?page_id=4099",
-          "url_final": "https://admision.umag.cl/?page_id=4099",
-          "consulta": "2026-10-06",
-          "tipo": "text/html; charset=UTF-8",
-          "sha256": "66356d54d9babf8de69b46a0e95e0451d46eabed528af82286e09e5413d09b6c",
-          "contenido_extraido": true
-        },
-        {
-          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
-          "consulta": "2026-10-07",
-          "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos.",
-          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
-          "paginas": 404,
-          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
-        },
-        {
-          "url": "https://admision.umag.cl/?page_id=678",
-          "consulta": "2026-10-07",
-          "alcance_lectura": "Contenido documental indicado en el hallazgo; los fallos de acceso y las fuentes no recuperadas no certifican datos.",
-          "sha256": "501113abbad7d890e5b89060fd3c7e949181182392941ed3b505f50c1fe57ac2",
-          "url_final": "https://admision.umag.cl/?page_id=678"
-        },
-        {
-          "url": "https://admision.umag.cl/?page_id=634",
+          "url": "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
           "consulta": "2026-10-12",
           "contenido_extraido": true,
-          "metodo": "Contraste documentado; fuente insuficiente para cierre esencial"
-        },
-        {
-          "url": "https://demre.cl/publicaciones/pdf/2024-23-11-23-servicios-y-beneficios-universitarios.pdf",
-          "consulta": "2026-10-12",
-          "contenido_extraido": true,
-          "metodo": "Contraste documentado; fuente insuficiente para cierre esencial"
+          "lectura_visual_completa": true,
+          "paginas": 11,
+          "paginas_relevantes": "9",
+          "alcance_lectura": "Decreto 028/SU/2017; título noveno, artículos 57–60."
         },
         {
           "url": "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
           "consulta": "2026-10-12",
           "contenido_extraido": true,
-          "metodo": "Alcance y límites de lectura: REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md"
+          "lectura_esencial": true,
+          "paginas": 17,
+          "paginas_relevantes": "2 y 4",
+          "alcance_lectura": "Calendario oficial 2026 incluye como Becas Internas Mayor Puntaje y Excelencia Académica separadamente."
         }
       ],
-      "alcance": null,
+      "alcance": {
+        "estado": "CONFIRMADA_ESENCIAL",
+        "fuentes": [
+          "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+          "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf"
+        ],
+        "alcance": "Beca UMAG histórica 2017 y denominación incluida en calendario institucional 2026.",
+        "beneficio": "Beca de estudios; porcentaje, monto y cobertura exacta desconocidos.",
+        "requisitos_principales": "Requisitos 2017: PSU promedio >=750; carrera con corte <700; primera rendición y matrícula en igual proceso, con excepción reglada por Mayor Puntaje. No son requisitos 2026 confirmados.",
+        "limites": "No se verifican requisitos, cobertura o cierre actuales. No activar."
+      },
       "ultima_revision": "2026-10-12",
-      "informe_ultima_revision": "REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md"
+      "informe_ultima_revision": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md"
     },
     {
       "candidato": "9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094",
@@ -10082,14 +10063,14 @@
     "cohorte_291_cierres": 7
   },
   "confirmaciones_esenciales_2026_10_12": {
-    "informe": "CONFIRMACION_ESENCIAL_COLCHANE_2026_10_12.md",
+    "informe": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md",
     "candidatas_contrastadas": 1,
     "confirmaciones_nuevas": 1,
-    "pendientes_anteriores": 132,
-    "pendientes_tras_cierre": 131,
+    "pendientes_anteriores": 131,
+    "pendientes_tras_cierre": 130,
     "descartes_nuevos": 0,
     "fuentes_sin_firecrawl": true,
-    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-revision-132-20261012.zip",
-    "sha256_respaldo": "8c020d58ddca65aa704f10dec405256d9a6ec00eae76a8a7538aa72004656cfa"
+    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-umag-20261012.zip",
+    "sha256_respaldo": "5b099bc442648c1d82e9ab4d7208d296d2a193301793e23851310579cb199219"
   }
 }

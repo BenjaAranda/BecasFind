@@ -112,3 +112,6 @@ Se contrastaron 50 candidatas; dos cierres esenciales históricos nuevos: Coltau
 ## Seguimiento de confirmación de pendientes (12-10-2026)
 
 Revisado íntegramente y confirmado en alcance histórico el expediente Colchane por Decreto 494/2023. Quedan 131 pendientes: 89 aclaraciones y 42 exclusiones históricas sin ratificar. Continúa pendiente el contraste individual de cada uno; no iniciar despliegue.
+
+
+Actualización 12-10-2026: Colchane histórico 2023 y Excelencia Académica UMAG histórica 2017 revisados y confirmados esencialmente con límites documentados. Restan 130 pendientes (88 aclaraciones y 42 exclusiones históricas sin ratificar). No iniciar despliegue.

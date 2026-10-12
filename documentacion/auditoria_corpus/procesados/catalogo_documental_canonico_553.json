@@ -13885,7 +13885,7 @@
       "eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677"
     ],
     "nombre_de_referencia": "Beca Excelencia Académica UMAG",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
@@ -13894,12 +13894,15 @@
         "institucion_original": "Universidad de Magallanes"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Ficha UMAG y DEMRE Admisión 2024, páginas 211–212, distinguen becas estatales BEA y BMES de ayudas internas por mérito cultural, deportivo y otros perfiles. No permiten atribuir BEA estatal o BMES JUNAEB a un programa interno genérico. Falta: Fuente de la Excelencia Académica interna y de Mantención interna descritas por los originales; no excluirlas por ausencia del catálogo.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Identidad histórica de la beca bajo el Decreto 028/SU/2017; nombre institucional separado de Mayor Puntaje también figura en calendario 2026.",
+    "beneficio_verificado": "Beca de estudios. Monto y cobertura exacta desconocidos; el porcentaje 15–100% del original no se respalda.",
+    "requisitos_principales_verificados": "Normativa histórica 2017: promedio PSU Lenguaje/Matemática >=750; corte de carrera <700; primera rendición y matrícula en el mismo proceso salvo excepción reglada; máximo 2 becas anuales.",
+    "limites": "El calendario 2026 solo confirma nombre y trámite interno, no condiciones actuales ni cobertura. Requisitos históricos no se extienden a 2026.",
+    "fuentes_verificadas_del_expediente": [
+      "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },

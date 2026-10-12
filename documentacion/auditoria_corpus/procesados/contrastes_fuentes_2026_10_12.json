@@ -95,18 +95,6 @@
   },
   {
     "prefijos": [
-      "eca3a961c94b",
-      "ec336267e686"
-    ],
-    "fuentes": [
-      "https://admision.umag.cl/?page_id=634",
-      "https://demre.cl/publicaciones/pdf/2024-23-11-23-servicios-y-beneficios-universitarios.pdf"
-    ],
-    "hallazgo": "Ficha UMAG y DEMRE Admisión 2024, páginas 211–212, distinguen becas estatales BEA y BMES de ayudas internas por mérito cultural, deportivo y otros perfiles. No permiten atribuir BEA estatal o BMES JUNAEB a un programa interno genérico.",
-    "falta": "Fuente de la Excelencia Académica interna y de Mantención interna descritas por los originales; no excluirlas por ausencia del catálogo."
-  },
-  {
-    "prefijos": [
       "cf5a13346643",
       "83d07b99691d"
     ],
@@ -278,5 +266,16 @@
     ],
     "hallazgo": "Lectura visual completa (8 páginas) del Decreto 494/2023 y bases modificadas. La admisibilidad establece promedio mínimo 6,5 y RSH 40–60%; la tabla posterior puntúa postulantes admisibles. Sus inconsistencias se documentan sin sobreescribir el filtro. Beneficio $1.000.000 CLP en una cuota para 2023.",
     "falta": "Convocatoria, fechas y requisitos posteriores a 2023 desconocidos; conservar inactiva y no presentarla como vigente."
+  },
+  {
+    "prefijos": [
+      "eca3a961c94b"
+    ],
+    "fuentes": [
+      "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf"
+    ],
+    "hallazgo": "El Decreto 028/SU/2017 define una Beca de Excelencia Académica UMAG (artículos 57–60). El calendario institucional 2026 la nombra como Beca Interna aparte de Mayor Puntaje. Los requisitos del reglamento son históricos; el calendario no aporta condiciones actuales.",
+    "falta": "El porcentaje 15–100%, monto/cobertura exacta y requisitos vigentes no se corroboran; retirarlos o conservarlos como desconocidos. No activar."
   }
 ]

@@ -9367,5 +9367,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad histórica y requisitos de Beca de Excelencia Académica UMAG del Decreto 028/SU/2017; nombre también figura en calendario institucional 2026. No certifica montos o requisitos vigentes.",
+    "informe": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md",
+    "fuentes": [
+      "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf"
+    ],
+    "beneficio": "Beca de estudios. La cobertura y el monto no están especificados en las fuentes disponibles; se retira la afirmación 15–100% de arancel.",
+    "requisitos_principales": "Según norma 2017: PSU promedio Lenguaje/Matemática >=750; corte de carrera <700; primera rendición y matrícula en el mismo proceso, salvo excepción expresa por Beca Mayor Puntaje; máximo dos becas anuales. Requisitos históricos, no aplicados a 2026.",
+    "limites": "El calendario 2026 confirma la denominación como Beca Interna separada de Mayor Puntaje, pero no publica cobertura, requisitos actuales ni cierre. Los requisitos verificables son del reglamento 2017. No activar ni presentar porcentaje como confirmado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
