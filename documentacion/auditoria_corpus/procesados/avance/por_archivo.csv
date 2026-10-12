@@ -1,7 +1,7 @@
 archivo,registros,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,descartadas,exclusiones_historicas_sin_ratificar,pendientes_confirmacion
 auditoria_municipal.csv,16,16,7,0,0,8,1,0,7
 auditoria_municipal_fix.csv,16,16,7,0,0,8,1,0,7
-beca_uai_fix.csv,1,1,0,0,0,0,0,1,1
+beca_uai_fix.csv,1,1,0,0,0,1,0,0,0
 becas_aiep.csv,5,5,0,0,0,5,0,0,0
 becas_cftenac.csv,6,6,0,0,0,0,0,6,6
 becas_duocuc.csv,4,4,0,0,0,4,0,0,0
@@ -19,7 +19,7 @@ becas_pucv.csv,5,5,0,0,0,4,0,1,1
 becas_santotomas.csv,6,6,0,0,0,6,0,0,0
 becas_uach.csv,4,4,0,0,0,4,0,0,0
 becas_uah.csv,4,4,0,0,0,2,0,2,2
-becas_uai.csv,5,5,0,0,0,2,0,3,3
+becas_uai.csv,5,5,0,0,0,3,0,2,2
 becas_uandes.csv,8,8,0,0,0,8,0,0,0
 becas_uautonoma.csv,6,6,0,0,0,4,0,2,2
 becas_ubb.csv,4,4,0,0,0,4,0,0,0

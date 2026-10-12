@@ -957,7 +957,7 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "DESCARTADO_EDITORIAL",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; monto; nem_minimo",
     "informe_conciliacion": "",
     "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
@@ -1211,9 +1211,9 @@
   },
   {
     "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
-    "nombre": "Beca Fomento Regional UAI",
+    "nombre": "Beca Mantención Regiones UAI",
     "institucion": "Universidad Adolfo Ibáñez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/beca_uai_fix.csv",
@@ -1273,23 +1273,40 @@
         "extractos": [
           "Candidata: `2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb`. Estado: **SIN_CIERRE_ESENCIAL**.\n\nLa FAQ identifica Mantención Regiones de 50 UF para estudiantes de regiones distintas de Metropolitana y Valparaíso con rendimiento de admisión destacado. El original atribuye fomento regional a una rebaja de arancel; no son el mismo beneficio acreditado.\n\n**Falta para cerrar:** Identificar descuento arancelario regional del original o documentar positivamente que se refiere a Mantención Regiones. No convertir UF ni modificar modalidad sin prueba.\n\nFuentes leídas:\n- https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+        "informe_sha256": "9f4287bb4c086f643e411201d21e87fa69b37fe0cf04cc4847fac002547bff55",
+        "extractos": [
+          "**Candidata:** `2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb`  \n**Resultado:** `CONFIRMADA_ESENCIAL` para las condiciones publicadas de Admisión 2026. La identificación original “Beca Fomento Regional UAI” se corrige al nombre oficial **Beca Mantención Regiones**.\n\nLa fuente es la página oficial de becas UAI enlazada por las dos referencias originales. Su sección de “Beca Mantención Regiones” identifica precisamente una ayuda para estudiantes que egresan de establecimientos municipales, particulares subvencionados o SLEP de regiones distintas de la Metropolitana y Valparaíso. Esa coincidencia de institución, población regional objetivo y URL original resuelve la identidad. La fuente no respalda el 20% de descuento de arancel que atribuían los registros.\n\nLa cobertura oficial para Admisión 2026 es **50 UF anuales para gastos de manutención**, pagadas en 10 cuotas iguales y sucesivas desde marzo. No es un descuento arancelario. Para postular en ese proceso, la persona debía:\n\n- egresar en 2024 o 2025 de un establecimiento municipal, particular subvencionado o SLEP ubicado fuera de las regiones Metropolitana y de Valparaíso; la página exceptúa de esta condición de ubicación a los establecimientos de Isla de Pascua y Juan Fernández;\n- obtener puntaje ponderado de al menos 850 para el campus Peñalolén o 840 para Viña del Mar;\n- ser seleccionada por Admisión Centralizada ACCESO/DEMRE y matricularse en la UAI en el primer semestre de 2026.\n\nLa beca puede complementar la Beca Total, la Beca Puntaje Ponderado Pedro Luis González y la Beca Comunidad Chancón. La fuente establece para renovación condiciones vinculadas a la beca complementaria; cuando la Mantención Regiones no acompaña otra beca UAI, exige aprobar al menos 50 créditos anuales, requisito aplicable tras completar dos semestres.\n\nLa fuente describe exclusivamente el proceso de Admisión 2026. No acredita apertura, monto ni reglas de Admisión 2027; tampoco se corroboran documentos ni fechas de postulación. Los inicios 1 de enero y cierre 31 de diciembre de la ficha original quedan descartados como calendario oficial. No activar como convocatoria vigente.\n\n**Fuente oficial específica:** [Becas UAI, requisitos y detalles de Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas), sección “Beca Mantención Regiones”."
+        ]
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; institucion; regiones",
-    "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "informe_conciliacion": "variantes/CONCILIACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
-      "revisado": "2026-10-06",
-      "motivo": "Mantención Regiones financia 50 UF anuales y excluye RM y Valparaíso; no acredita Fomento Regional con rebaja de arancel del 20%. No equiparar programas.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
-      ]
+      "revisado": "2026-10-12",
+      "alcance": "Beca Mantención Regiones UAI, nombre y campos corregidos; reglas esenciales publicadas para Admisión 2026, sin certificar convocatoria vigente",
+      "informe": "CONFIRMACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+      "fuentes": [
+        "https://www.uai.cl/admision/becas-y-aranceles/becas"
+      ],
+      "beneficio": "50 UF anuales para gastos de manutención, en 10 cuotas iguales y sucesivas desde marzo; no es descuento de arancel.",
+      "requisitos_principales": "Egreso 2024 o 2025 de establecimiento municipal, particular subvencionado o SLEP fuera de RM y Valparaíso (con excepción de ubicación para Isla de Pascua y Juan Fernández); puntaje ponderado mínimo 850 en Peñalolén o 840 en Viña del Mar; selección centralizada ACCESO/DEMRE y matrícula UAI en primer semestre 2026.",
+      "limites": "La página describe Admisión 2026 y no acredita reglas ni apertura 2027. Renovación sujeta a las condiciones de la beca complementaria; sin otra beca UAI exige 50 créditos aprobados anuales luego de dos semestres. Fechas específicas y documentos: desconocidos. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
@@ -18652,6 +18669,13 @@
         "extractos": [
           "Identificador: a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nEl supuesto PDF de FONDESCO devuelve HTML. FONDESCO no debe asumirse como beca individual para educación superior sin comprobar su objeto y beneficiarios.\n\nAntecedente pendiente antes de esta consulta: Ruta FONDESCO 2025 devuelve HTML, no bases PDF. Falta demostrar beneficio individual superior; contratación de transporte no acredita aporte monetario propio.\n\nAcción pendiente: Recuperar y leer visualmente el documento de Municipalidad de Caldera indicado en las fuentes; localizar el apartado de Beca Municipal Educación Superior Caldera y registrar páginas con beneficio y elegibilidad.\n\n- https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf"
         ]
+      },
+      {
+        "informe": "REVISION_PUDAHUEL_CALDERA_2026_10_12.md",
+        "informe_sha256": "bf4e8beae0ef8440658f4deec59b2ea2b67f3f1acf71e0a40bf2c3e731e527a7",
+        "extractos": [
+          "## Caldera — `a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777`\n\nEl enlace presentado como sustento para FONDESCO 2025 contiene las bases del **Fondo de Desarrollo Comunitario**. Es un concurso de proyectos y organizaciones; establece evaluación técnica de iniciativas, puntaje de corte, marco presupuestario y aprobación por el Concejo. No define un estipendio individual para estudiantes ni una beca de educación superior. La Cuenta Pública de Caldera 2023 también distingue las ayudas sociales generales a personas en carencia económica del concurso comunitario.\n\nPor lo tanto, el enlace de FONDESCO no acredita el aporte anual individual, el RSH 60%, el promedio 5,0 ni los documentos adjudicados en la ficha. Tampoco descarta que exista una beca separada: no se hallaron sus bases en esta consulta. Se conserva la candidata abierta y queda pendiente encontrar una convocatoria, decreto o reglamento de beca individual.\n\nFuentes específicas: [bases FONDESCO 2025](https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf), [decreto de bases FONDESCO 2024](https://caldera.cl/mantencion/doc/DA%201546.pdf) y [Cuenta Pública de Caldera 2023](https://caldera.cl/mantencion/doc/Cuenta%20p%C3%BAblica%20sintesis%202.pdf)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -24772,7 +24796,7 @@
   },
   {
     "candidato": "f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451",
-    "nombre": "Beca Municipal de Educación Superior 2026",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior",
     "institucion": "Municipalidad de Calera de Tango",
     "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
@@ -26383,6 +26407,13 @@
         "informe_sha256": "ff9f8304c0a08785365ad75cbc9be937df227f75ccb0cfbf521aa748f3f359c0",
         "extractos": [
           "Identificador: 0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b\n\nEstado: **REQUIERE_ACLARACION**. Acceso: PDF_TEXTUAL.\n\nInforme de Secretaría Municipal de 2015 constituye antecedente de aprobación. No sustituye el texto del reglamento con elegibilidad y beneficio.\n\nAntecedente pendiente antes de esta consulta: Informe de secretaría 2015 identifica aprobación del programa de educación superior. Falta contenido del reglamento: beneficio y elegibilidad.\n\nAcción pendiente: Localizar las bases o ficha específica de Beca de Educación Superior Maria Elena en Municipalidad de Maria Elena; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.\n\n- https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf"
+        ]
+      },
+      {
+        "informe": "REVISION_MARIA_ELENA_YUMBEL_EL_MONTE_2026_10_12.md",
+        "informe_sha256": "e8c59b377a8aeb922e819951599cbb94f58bee2b97824b3a17c52187faacffc1",
+        "extractos": [
+          "## María Elena — `0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b`\n\nLa Cuenta Pública de Secretaría Municipal de 2015 registra que se aprobó el programa **“Beca municipal, enseñanza superior 2015”** (p. 46 del documento). Esto confirma la existencia histórica de un programa municipal de educación superior. El antecedente municipal de planificación 2009–2014 que señalaba que aún no había un sistema municipal de becas pertenece a un período anterior; no contradice la aprobación de 2015.\n\nLa Cuenta Pública consultada no entrega el reglamento, beneficiarios, cuantía ni requisitos de esa beca. Por ello no confirma los $300.000 en cuota única, cofinanciamiento de mineras, duración mínima de carreras, promedio 5,0, RSH 60% ni documentos del registro original. Se mantiene abierta hasta localizar las bases o el decreto íntegro de 2015; la aprobación histórica tampoco confirma una convocatoria vigente.\n\nFuente específica: [Cuenta Pública de Secretaría Municipal de María Elena 2015](https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf)."
         ]
       }
     ],
@@ -28519,6 +28550,13 @@
         "informe_sha256": "ff9f8304c0a08785365ad75cbc9be937df227f75ccb0cfbf521aa748f3f359c0",
         "extractos": [
           "Identificador: ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65\n\nEstado: **REQUIERE_ACLARACION**. Acceso: PDF_TEXTUAL.\n\nEl formulario recuperado es Solicitud Beca de Residencia Municipal Enseñanza Superior 2025 en Concepción. No prueba el cheque o apoyo monetario general atribuido al original.\n\nAntecedente pendiente antes de esta consulta: Página 68: Beca Residencia Yumbel, estadía en hogares de Concepción marzo–diciembre; matrícula en institución superior de Concepción–Talcahuano, domicilio, notas, RSH y formulario. No describe un cheque ni un aporte general según presupuesto. Falta fuente que demuestre el supuesto apoyo monetario original; no sustituirlo por alojamiento.\n\nAcción pendiente: Contrastar Beca Estudiantil Municipal Yumbel con el apartado del programa de Municipalidad de Yumbel; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.\n\n- https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf"
+        ]
+      },
+      {
+        "informe": "REVISION_MARIA_ELENA_YUMBEL_EL_MONTE_2026_10_12.md",
+        "informe_sha256": "e8c59b377a8aeb922e819951599cbb94f58bee2b97824b3a17c52187faacffc1",
+        "extractos": [
+          "## Yumbel — `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65`\n\nLa municipalidad publicó para 2025 una **Beca de Residencia Municipal de Enseñanza Superior en Concepción**, con formulario para postulantes y renovantes y período de solicitud del 18 de diciembre de 2024 al 17 de enero de 2025. El formulario solicita, entre otros antecedentes, residencia, notas, malla curricular, matrícula/alumno regular y Cartola Hogar del RSH; excluye a técnicos y profesionales titulados. La DIDECO también enumera “Aporte pasajes Estudiantes Universitarios y de Enseñanza Media” y “Devolución matrícula” como servicios municipales distintos.\n\nLa fuente prueba la existencia de esos beneficios municipales, pero no identifica como equivalentes la residencia, los pasajes o la devolución de matrícula con la candidata, que afirma un aporte monetario general sujeto a evaluación social y presupuesto del concejo. Tampoco respalda $/RSH 60%, NEM 5,0, plazo de 30 días ni los documentos exactos atribuidos al original. Se conserva pendiente y no se transfieren requisitos entre modalidades.\n\nFuentes específicas: [formulario municipal de residencia 2025](https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf), [aviso de postulación municipal](https://yumbel.cl/2024/12/18/postulaciones-beca-de-residencia-municipal-universitaria/) y [catálogo DIDECO](https://yumbel.cl/dideco/)."
         ]
       }
     ],
@@ -33325,6 +33363,13 @@
         "extractos": [
           "Identificador: 6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20\n\nEstado: **REQUIERE_ACLARACION**. Acceso: ERROR_ACCESO.\n\nNo se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.\n\nAntecedente pendiente antes de esta consulta: Cuenta pública 2024 muestra gestión de BPR/BI de JUNAEB; no acredita beca municipal propia. Falta fuente específica de esta última; no concluir inexistencia.\n\nAcción pendiente: Recuperar y leer visualmente el documento de Municipalidad de El Monte indicado en las fuentes; localizar el apartado de Beca Municipal Estudiantil El Monte y registrar páginas con beneficio y elegibilidad.\n\n- https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf"
         ]
+      },
+      {
+        "informe": "REVISION_MARIA_ELENA_YUMBEL_EL_MONTE_2026_10_12.md",
+        "informe_sha256": "e8c59b377a8aeb922e819951599cbb94f58bee2b97824b3a17c52187faacffc1",
+        "extractos": [
+          "## El Monte — `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20`\n\nLa Cuenta Pública municipal 2024 es una fuente oficial pertinente para revisar la actividad de DIDECO. La evidencia recogida en el expediente identifica gestión de postulaciones a beneficios JUNAEB (Beca Presidente de la República y Beca Indígena) y beneficios sociales generales; no identifica en lo revisado una beca municipal propia de educación superior con pago único de $100.000.\n\nLa descarga directa de la Cuenta Pública excede el límite de lectura de esta consulta y no se obtuvo una ficha municipal específica con bases. La falta de acceso a ese documento no permite concluir que el programa no exista. Se conserva la candidata abierta; quedan sin confirmar monto, RSH 60%, promedio 5,0, calendario y documentos. No se traslada a la ficha la cobertura de JUNAEB.\n\nFuente municipal pendiente de lectura íntegra: [Cuenta Pública de El Monte 2024](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf). La portada municipal es [munielmonte.cl](https://www.munielmonte.cl/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -35462,6 +35507,13 @@
         "informe_sha256": "ff9f8304c0a08785365ad75cbc9be937df227f75ccb0cfbf521aa748f3f359c0",
         "extractos": [
           "Identificador: 1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nEl portal DIDECO ofrece consulta de resultados de Beca de Educación Superior por RUT; no publica en esta pantalla la cobertura y requisitos. No se consultan datos de personas.\n\nAntecedente pendiente antes de esta consulta: Boletín municipal agosto 2024 respalda pago económico, pero no elegibilidad. Catastro UAH 2022 corresponde a otro año; recuperar bases de una misma convocatoria antes de combinarlos.\n\nAcción pendiente: Localizar las bases o ficha específica de Beca Municipal de Mantención Pudahuel en Municipalidad de Pudahuel; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.\n\n- https://dideco.mpudahuel.cl/app/tramites/home.asp"
+        ]
+      },
+      {
+        "informe": "REVISION_PUDAHUEL_CALDERA_2026_10_12.md",
+        "informe_sha256": "bf4e8beae0ef8440658f4deec59b2ea2b67f3f1acf71e0a40bf2c3e731e527a7",
+        "extractos": [
+          "## Pudahuel — `1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b`\n\nEl boletín oficial municipal **La Estrella de Pudahuel**, edición de agosto de 2024 (p. 6), confirma que la Municipalidad entregó una Beca de Educación Superior una vez al año. Informa que 2.011 estudiantes fueron beneficiarios en 2024 y que el aporte se cobró entre el 6 de agosto y el 4 de septiembre presentando cédula vigente. La página actual de trámites DIDECO también mantiene la consulta de resultados de la Beca de Educación Superior, pero exige RUT y no publica bases ni cobertura.\n\nEsto corrobora que existe un beneficio municipal monetario anual, pero no identifica si corresponde exactamente a la candidata llamada “Beca Municipal de Mantención”, ni confirma los $200.000, egreso de establecimientos comunales, NEM 5,5, RSH 60% o requisitos documentales del registro original. El pago de 2024 tampoco es una convocatoria vigente. Se mantiene pendiente hasta localizar las bases de la misma edición que sustente los requisitos y monto.\n\nFuentes específicas: [boletín oficial municipal, agosto de 2024](https://media.mpudahuel.cl/web/media/boletines/2024/08/la-estrella-de-pudahuel-ed-17-agosto-2024.pdf) y [trámites DIDECO](https://dideco.mpudahuel.cl/app/tramites/home.asp)."
         ]
       }
     ],

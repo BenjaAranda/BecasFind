@@ -16,9 +16,9 @@ def report(folder):
             groups[row['candidato']].append(dict(archivo=row['archivo'], referencia=f"registro original {row['registro']}", campos=row['original']))
     for row in repairs:
         groups[row['candidato']].append(dict(archivo=row['archivo'], referencia=f"línea física {row['linea_fisica']} reconstruida", campos=row['reconstruido']))
+    identities = {row['candidato']: row for row in repairs}
     with (folder/'indice.csv').open(encoding='utf-8', newline='') as stream:
-        identities = {row['candidato']: row for row in csv.DictReader(stream)}
-    identities.update({row['candidato']: row for row in repairs})
+        identities.update({row['candidato']: row for row in csv.DictReader(stream)})
     reconciled = {}
     path = folder/'variantes/conciliaciones.json'
     for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:

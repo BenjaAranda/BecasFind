@@ -700,5 +700,21 @@
       "monto": "50% del arancel a pagar después de becas ministeriales; sin becas ministeriales, 50% de arancel.",
       "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
     }
+  },
+  {
+    "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
+    "revisado": "2026-10-12",
+    "decision_identidad": "Las dos filas son la misma Beca Mantención Regiones UAI 2026: comparten nombre histórico, institución y URL oficial; se corrigen el alias y el beneficio con la sección oficial específica.",
+    "informe": "CONCILIACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "campos": {
+      "descripcion": "50 UF anuales para manutención, pagadas en diez cuotas iguales y sucesivas desde marzo (Admisión 2026).",
+      "descripcion_larga": "Beca Mantención Regiones UAI. Egreso 2024 o 2025 de establecimiento municipal, particular subvencionado o SLEP ubicado fuera de RM y Valparaíso, con excepción de ubicación para Isla de Pascua y Juan Fernández; puntaje ponderado mínimo de 850 en Peñalolén o 840 en Viña del Mar; selección centralizada ACCESO/DEMRE y matrícula UAI en primer semestre 2026. No acredita convocatoria 2027.",
+      "documentos_requeridos": "Desconocidos; la página oficial consultada no publica lista documental específica.",
+      "institucion": "Universidad Adolfo Ibáñez",
+      "regiones": "Establecimientos fuera de RM y Valparaíso; excepción de ubicación para Isla de Pascua y Juan Fernández."
+    }
   }
 ]

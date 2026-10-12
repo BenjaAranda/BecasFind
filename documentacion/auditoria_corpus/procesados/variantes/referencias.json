@@ -405,7 +405,16 @@
       "nem_minimo"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+      "revisado": "2026-10-12",
+      "motivo": "La fuente municipal del Aporte de Movilidad y Combustible 2026 lo dirige a hogares y familias. Las tres filas originales mezclan ese programa con datos de transporte y elegibilidad estudiantil, y montos no publicados allí. La Municipalidad identifica por separado el Aporte Económico Municipal para estudiantes superiores; no hay evidencia que permita atribuirle el nombre, el monto ni todos los requisitos inventados de esta candidata.",
+      "alcance": "Exclusión editorial de esta identidad compuesta. No afirma inexistencia de ayuda municipal a estudiantes; conserva CSV originales e historial y no los borra.",
+      "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+      "evidencia": [
+        "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md"
+      ]
+    }
   },
   {
     "candidato": "18caa6f8f19291c80af1880121f3ce2cbcfa71bda065d91ffcacd2eb9e031ea1",
@@ -699,18 +708,23 @@
       "institucion",
       "regiones"
     ],
-    "conciliacion": null,
-    "descarte": {
+    "conciliacion": {
       "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
-      "revisado": "2026-10-06",
-      "motivo": "Mantención Regiones financia 50 UF anuales y excluye RM y Valparaíso; no acredita Fomento Regional con rebaja de arancel del 20%. No equiparar programas.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
-      ]
-    }
+      "revisado": "2026-10-12",
+      "decision_identidad": "Las dos filas son la misma Beca Mantención Regiones UAI 2026: comparten nombre histórico, institución y URL oficial; se corrigen el alias y el beneficio con la sección oficial específica.",
+      "informe": "CONCILIACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+      "fuentes": [
+        "https://www.uai.cl/admision/becas-y-aranceles/becas"
+      ],
+      "campos": {
+        "descripcion": "50 UF anuales para manutención, pagadas en diez cuotas iguales y sucesivas desde marzo (Admisión 2026).",
+        "descripcion_larga": "Beca Mantención Regiones UAI. Egreso 2024 o 2025 de establecimiento municipal, particular subvencionado o SLEP ubicado fuera de RM y Valparaíso, con excepción de ubicación para Isla de Pascua y Juan Fernández; puntaje ponderado mínimo de 850 en Peñalolén o 840 en Viña del Mar; selección centralizada ACCESO/DEMRE y matrícula UAI en primer semestre 2026. No acredita convocatoria 2027.",
+        "documentos_requeridos": "Desconocidos; la página oficial consultada no publica lista documental específica.",
+        "institucion": "Universidad Adolfo Ibáñez",
+        "regiones": "Establecimientos fuera de RM y Valparaíso; excepción de ubicación para Isla de Pascua y Juan Fernández."
+      }
+    },
+    "descarte": null
   },
   {
     "candidato": "3788658170a025af522ff62eabd59fd2c81a20d7724afa2a97465822e57f9515",

@@ -60,8 +60,8 @@ def report(folder):
     rows = [dict(archivo=r['archivo'], referencia=f"registro original {r['registro']}", candidato=r['candidato'])
             for r in originals if (r['archivo'], r['registro']) not in replaced]
     rows += [dict(archivo=r['archivo'], referencia=f"línea física {r['linea_fisica']} reconstruida", candidato=r['candidato']) for r in repairs]
-    identities = {r['candidato']:dict(nombre=r['nombre'], institucion=r['institucion']) for r in read_csv(folder/'indice.csv')}
-    identities.update({r['candidato']:dict(nombre=r['nombre'], institucion=r['institucion']) for r in repairs})
+    identities = {r['candidato']:dict(nombre=r['nombre'], institucion=r['institucion']) for r in repairs}
+    identities.update({r['candidato']:dict(nombre=r['nombre'], institucion=r['institucion']) for r in read_csv(folder/'indice.csv')})
     reviewed = read_csv(folder/'revisiones_parciales.csv')
     reviews = defaultdict(set)
     for entry in reviewed:

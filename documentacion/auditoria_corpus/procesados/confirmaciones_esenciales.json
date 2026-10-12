@@ -9625,5 +9625,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
+    "revisado": "2026-10-12",
+    "alcance": "Beca Mantención Regiones UAI, nombre y campos corregidos; reglas esenciales publicadas para Admisión 2026, sin certificar convocatoria vigente",
+    "informe": "CONFIRMACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "beneficio": "50 UF anuales para gastos de manutención, en 10 cuotas iguales y sucesivas desde marzo; no es descuento de arancel.",
+    "requisitos_principales": "Egreso 2024 o 2025 de establecimiento municipal, particular subvencionado o SLEP fuera de RM y Valparaíso (con excepción de ubicación para Isla de Pascua y Juan Fernández); puntaje ponderado mínimo 850 en Peñalolén o 840 en Viña del Mar; selección centralizada ACCESO/DEMRE y matrícula UAI en primer semestre 2026.",
+    "limites": "La página describe Admisión 2026 y no acredita reglas ni apertura 2027. Renovación sujeta a las condiciones de la beca complementaria; sin otra beca UAI exige 50 créditos aprobados anuales luego de dos semestres. Fechas específicas y documentos: desconocidos. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
