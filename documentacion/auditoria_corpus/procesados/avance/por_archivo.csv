@@ -34,7 +34,7 @@ becas_udd.csv,6,6,0,0,0,2,0,4,4
 becas_udec.csv,3,3,0,0,0,2,0,1,1
 becas_udla.csv,4,4,0,0,0,3,0,1,1
 becas_udp.csv,6,6,0,0,0,6,0,0,0
-becas_ufro.csv,4,4,2,0,0,2,0,0,2
+becas_ufro.csv,4,4,1,0,0,2,1,0,1
 becas_uft.csv,4,4,0,0,0,4,0,0,0
 becas_ulagos.csv,4,4,0,0,0,4,0,0,0
 becas_umag.csv,4,4,0,0,0,4,0,0,0
@@ -82,7 +82,7 @@ bloque5_docs.csv,15,15,0,0,0,15,0,0,0
 bloque5_muni.csv,3,3,3,0,0,0,0,0,3
 bloque6_docs.csv,12,12,0,0,0,8,0,4,4
 bloque6_muni.csv,10,10,5,0,0,5,0,0,5
-bloque7_docs.csv,12,12,1,0,0,11,0,0,1
+bloque7_docs.csv,12,12,0,0,0,11,1,0,0
 bloque7_muni.csv,10,10,4,0,0,6,0,0,4
 bloque8_docs.csv,16,16,1,0,0,13,0,2,3
 bloque9_docs.csv,6,6,0,0,0,6,0,0,0
