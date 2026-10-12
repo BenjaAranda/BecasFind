@@ -9710,5 +9710,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad, beneficio y elegibilidad principal del reglamento municipal de Residencia Estudiantil de Educación Superior; fecha de vigencia de esta versión y convocatoria actual no certificadas.",
+    "informe": "CONFIRMACION_ESENCIAL_RESIDENCIA_CATEMU_2026_10_12.md",
+    "fuentes": [
+      "https://www.municatemu.cl/ARCHIVOS_WEB/reglamentoresidencial.pdf"
+    ],
+    "beneficio": "Alojamiento gratuito en residencia del Gran Valparaíso con espacios de descanso y estudio y servicios básicos; no es aporte monetario.",
+    "requisitos_principales": "Domicilio en Catemu; matrícula en institución y carrera reconocidas de educación superior en Gran Valparaíso; vulnerabilidad que dificulte financiar estadía; selección por puntaje; para cursos superiores, aprobación de 80% de asignaturas salvo excepciones justificadas. El puntaje considera RSH y notas, sin el máximo RSH 70% ni NEM mínimo 5,0 atribuidos originalmente.",
+    "limites": "Reglamento consultado sin fecha de vigencia certificada. El proceso contempla llamados anuales en diciembre/enero y hasta 22 cupos, pero no se confirma convocatoria o cierre actual. No activar ni publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
