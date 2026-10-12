@@ -32,6 +32,16 @@ Estas bases no establecen un pago fijo de $150.000 ni 400 cupos; el presupuesto 
 
 El informe no detalla en esa sección el monto, la forma de pago ni las condiciones de elegibilidad de la modalidad superior. No confirma los $250.000 en dos cuotas, RSH 60 %, promedio 5,0 ni documentos del registro. Se mantiene en aclaración hasta recuperar las bases o el acto específico de esa modalidad; tampoco se infiere vigencia actual.
 
+## Pudahuel — `1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b`
+
+**Estado: CONFIRMADA_ESENCIAL, alcance histórico 2024.** El boletín oficial municipal confirma que la Beca de Educación Superior entregó un aporte municipal en dinero una vez al año y benefició a 2.011 estudiantes en 2024. El portal oficial de trámites DIDECO mantiene la consulta de resultados bajo ese nombre. Fuentes: [boletín municipal de agosto de 2024](https://media.mpudahuel.cl/web/media/boletines/2024/08/la-estrella-de-pudahuel-ed-17-agosto-2024.pdf) y [portal municipal de trámites DIDECO](https://dideco.mpudahuel.cl/app/tramites/home.asp).
+
+**Beneficio confirmado:** aporte municipal anual en dinero para estudiantes de educación superior; el monto individual y uso específico no están publicados en estas fuentes.
+
+**Requisito principal confirmado:** ser parte del grupo de estudiantes de educación superior que postula y resulta beneficiado. Los criterios de selección no se detallan en las fuentes consultadas.
+
+Los $200.000, egreso de un establecimiento municipal o subvencionado de Pudahuel, NEM 5,5, RSH 60 %, documentos y postulación en marzo permanecen sin confirmar. El antecedente acredita la edición 2024, no una convocatoria abierta en 2026; el registro queda inactivo.
+
 ## Resultado y preservación
 
 Se agrega una confirmación esencial al inventario: Gorbea. Temuco permanece en la cola hasta identificar oficialmente el programa; Santa Juana permanece abierta por diferencias de modalidad y montos. Los originales se conservan en `originales.jsonl`; el bono de Gorbea queda inactivo porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.

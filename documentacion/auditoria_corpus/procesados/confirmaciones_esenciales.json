@@ -9667,5 +9667,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b",
+    "revisado": "2026-10-12",
+    "alcance": "Beca municipal de educación superior; edición histórica 2024. No certifica convocatoria abierta en 2026.",
+    "informe": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
+    "fuentes": [
+      "https://media.mpudahuel.cl/web/media/boletines/2024/08/la-estrella-de-pudahuel-ed-17-agosto-2024.pdf",
+      "https://dideco.mpudahuel.cl/app/tramites/home.asp"
+    ],
+    "beneficio": "Aporte municipal anual en dinero para estudiantes de educación superior; en 2024 hubo 2.011 beneficiarios. Monto individual desconocido.",
+    "requisitos_principales": "Integrar el grupo de estudiantes de educación superior que postula y resulta seleccionado; criterios detallados desconocidos.",
+    "limites": "No se confirman los $200.000, egreso de establecimiento municipal o subvencionado de Pudahuel, NEM 5,5, RSH 60%, documentos ni fecha de postulación en marzo. El antecedente acredita 2024, no vigencia ni cierre confirmado en 2026. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
