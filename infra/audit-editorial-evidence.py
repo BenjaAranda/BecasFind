@@ -43,7 +43,7 @@ def inventory(folder):
         for index in hits:
             end = index+1
             if not lines[index].startswith('|'):
-                while end < len(lines) and not lines[end].startswith('## '):
+                while end < len(lines) and not re.match(r'^#{1,3} ', lines[end]):
                     end += 1
             excerpts.append('\n'.join(lines[index:end]).strip())
         if not excerpts:
@@ -58,7 +58,7 @@ def inventory(folder):
         if candidate not in variants or variants[candidate].get('estado') != 'CONCILIADO' or not (folder/'variantes'/entry['informe']).is_file():
             raise ValueError('Conciliación sin grupo cerrado o informe')
     for key, case in cases.items():
-        case.update(estado=case['estado'] if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL', 'DESCARTADA_EDITORIAL') else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
+        case.update(estado=case['estado'] if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL', 'DESCARTADA_EDITORIAL', 'EXCLUSION_HISTORICA_SIN_RATIFICAR') else 'PENDIENTE_CONFIRMACION_COMPLETA', grupo_variantes=key in variants,
                     estado_variantes=variants.get(key, {}).get('estado', 'SIN_GRUPO_REPETIDO'),
                     campos_historicos_distintos=variants.get(key, {}).get('campos_distintos', ''),
                     informe_conciliacion='variantes/'+reconciliations[key]['informe'] if key in reconciliations else '',
@@ -76,6 +76,10 @@ def inventory(folder):
         case['accion'] = 'Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.'
     confirmed = {key for key,case in cases.items() if case['estado'] in ('CONFIRMADA_COMPLETA', 'CONFIRMADA_ESENCIAL')}
     for key, entry in read_discards(folder, cases, confirmed).items():
+        if cases[key]['estado'] == 'EXCLUSION_HISTORICA_SIN_RATIFICAR':
+            cases[key]['antecedente_exclusion_sin_ratificar'] = entry
+            cases[key]['accion'] = 'Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.'
+            continue
         if cases[key]['estado'] != 'DESCARTADA_EDITORIAL':
             raise ValueError('Descarte sin estado validado')
         cases[key]['descarte'] = entry

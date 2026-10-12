@@ -43,3 +43,8 @@ Actualización del 12 de octubre de 2026: 430 candidatas esenciales; dos complet
 ### Continuación sin Firecrawl — 12 de octubre de 2026
 
 Dos cierres esenciales históricos: Lota y Los Vilos. Contraste de fuentes de 59 candidatas; 57 sin cierre, incluidos fallos de acceso. Total vigente del seguimiento: 432 esenciales, dos completas y 134 pendientes (92 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 199 esenciales y 92 aclaraciones. Catálogo: 417 fichas esenciales de 553. Ningún original eliminado. Detalle: `REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md`. No confundir contraste de fuentes con confirmación.
+
+
+### Segundo lote sin Firecrawl — 12 de octubre de 2026
+
+Se contrastaron 50 candidatas; dos cierres esenciales históricos nuevos: Coltauco y Taltal. Los otros 48 casos permanecen sin cierre, con carencias individuales actualizadas. Total: 434 esenciales, dos completas y 132 pendientes (90 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 201 esenciales y 90 aclaraciones. Catálogo: 419 fichas esenciales de 553. No se eliminó ningún original. Detalle: `REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md`.

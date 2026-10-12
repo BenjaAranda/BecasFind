@@ -9288,5 +9288,63 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925",
+    "alcance": "Beca Municipal Estudiantil de Coltauco: modalidad de educación superior en la ordenanza aprobada por decreto 835 del 10 de agosto de 2021. Lectura visual de las ocho páginas; confirmación esencial histórica.",
+    "fuentes": [
+      "https://www.coltauco.cl/rsp/servicios-municipales.php?unidad=Ordenanzas",
+      "https://www.coltauco.cl/Nuevo/pdf/2022/OBM.pdf"
+    ],
+    "beneficio": "Aporte monetario anual en una cuota para gastos educativos. Importe fijado por la autoridad según presupuesto, sin cifra individual confirmada. Beneficiarios de Presidente de la República, Indígena y Nuevo Milenio reciben 50% del monto municipal según artículo 14.",
+    "requisitos_principales": "Ordenanza 2021, artículo 5: residencia en Coltauco; matrícula y calidad de alumno regular en universidad, IP o CFT reconocido por el Estado; vulnerabilidad y RSH hasta 80%. Excluye título profesional previo, estudios a distancia, Beca Vocación de Profesor y funcionarios municipales; admite un postulante por familia. La selección evalúa vulnerabilidad y rendimiento del último semestre.",
+    "limites": "El año del acto es 2021, aunque el archivo está en una carpeta 2022. La tabla de notas superiores puntúa desde 5,0; no establece un NEM mínimo 5,0 en la admisibilidad del artículo 5. No trasladar la tabla escolar a educación superior. Importe y convocatoria actual desconocidos; no activar.",
+    "correcciones": {
+      "rsh_maximo_historico_2021": 80,
+      "nem_minimo": null,
+      "monto": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "revisado": "2026-10-12",
+    "informe": "REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "c1bfe255f8585bb0c9e79bc82a7b66ce7b915310b1913e5111a334a3fce1b005",
+    "alcance": "Beca Estudios Superiores de la Municipalidad de Taltal; cuenta pública 2016, página física 139. Confirmación esencial histórica de identidad, beneficio y destinatarios principales; no certifica bases completas ni convocatoria actual.",
+    "fuentes": [
+      "https://www.municipalidadtaltal.cl/portal7/images/cuentaPublica2016Taltal.pdf"
+    ],
+    "beneficio": "Aporte monetario de libre disposición para materiales, colegiatura, matrícula y otros gastos de educación superior. La cuenta separa esta beca municipal de Beca Paranal; presupuesto y totales de beneficiarios no se convierten en un importe individual.",
+    "requisitos_principales": "Descripción municipal 2016: estudiantes de educación superior en universidad, IP, CFT u otra institución superior cuya carrera o institución esté acreditada por Mineduc; estudiantes y familias residentes en Taltal.",
+    "limites": "La fuente no respalda NEM mínimo 5,0, RSH máximo 60%, 85 cupos ni fechas de marzo de 2026 del original. Son datos no confirmados. El cuadro de postulantes contiene cifras que no concilian; no se usa para certificar cupos o montos. Reglas adicionales de selección y calendario actual desconocidos; no activar.",
+    "correcciones": {
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "cupos": null,
+      "monto": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "revisado": "2026-10-12",
+    "informe": "REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

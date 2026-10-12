@@ -4,15 +4,15 @@
   "alias_consolidados": 15,
   "estados_fichas": {
     "CONFIRMADA_COMPLETA": 2,
-    "CONFIRMADA_ESENCIAL": 417,
+    "CONFIRMADA_ESENCIAL": 419,
     "EXCLUSION_HISTORICA_SIN_RATIFICAR": 42,
-    "REQUIERE_ACLARACION": 92
+    "REQUIERE_ACLARACION": 90
   },
   "confirmaciones_candidatas": {
-    "esenciales": 432,
+    "esenciales": 434,
     "completas": 2
   },
-  "candidatas_sin_resolucion": 134,
+  "candidatas_sin_resolucion": 132,
   "originales_eliminados": 0,
   "operaciones_bd": 0,
   "despliegue": false,
