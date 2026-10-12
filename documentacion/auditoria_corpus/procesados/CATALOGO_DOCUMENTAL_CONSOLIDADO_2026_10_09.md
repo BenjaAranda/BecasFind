@@ -4,7 +4,7 @@
 
 Las 568 candidatas de origen se representan en 553 fichas documentales tras consolidar 15 alias respaldados por decisiones individuales. Se conservan los identificadores y referencias originales. La clave documental no sustituye UUID públicos ni IDs administrativos. No se importó, activó ni eliminó ninguna beca.
 
-Los conteos anteriores de 422 esenciales y dos completas describen candidatas de origen, no programas diferentes. Este catálogo reúne 407 fichas esenciales y dos completas. Las 144 candidatas sin resolución siguen abiertas: esta consolidación no las confirma.
+Los conteos anteriores de 430 esenciales y dos completas describen candidatas de origen, no programas diferentes. Este catálogo reúne 415 fichas esenciales y dos completas. Las 136 candidatas sin resolución siguen abiertas: esta consolidación no las confirma.
 
 - [Catálogo de 553 fichas](catalogo_documental_canonico_553.json).
 - [Mapa de las 568 candidatas](mapa_consolidacion_568_2026_10_09.csv).
@@ -35,3 +35,6 @@ Los conteos anteriores de 422 esenciales y dos completas describen candidatas de
 Nuevo Milenio I y II permanecen separados. La Serena requiere demostrar la correspondencia de sus candidatas generales con SIPEE antes de consolidar. La Florida, Viña del Mar, Valdivia e Iquique necesitan identificar sus programas; no se consolidan por compartir municipio.
 
 Cada ficha mantiene un estado de vigencia independiente de la revisión esencial. Esta entrega no verifica convocatorias abiertas. En las dos fichas completas, el importe y requisitos no se reconstruyen automáticamente desde texto: sus informes exhaustivos siguen siendo la evidencia.
+
+
+Actualización del 12 de octubre de 2026: 430 candidatas esenciales; dos completas; 136 pendientes. Cohorte 291: 197 esenciales y 94 aclaraciones. Catálogo: 553 fichas; 415 esenciales. Detalle: CONFIRMACIONES_MUNICIPALES_2026_10_12.md. Ningún original eliminado; sin importación, activación ni despliegue.

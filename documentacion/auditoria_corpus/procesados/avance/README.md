@@ -1,8 +1,10 @@
 # Avance editorial por archivo
 
-Actualizado el 9 de octubre de 2026: 647 referencias originales en 93 archivos; 568 candidatas. Hay 422 confirmaciones esenciales y dos completas. Quedan 144 sin resolución: 102 aclaraciones y 42 exclusiones históricas sin ratificar. Las exclusiones antiguas también requieren revisión; no se consideran cierres definitivos.
+Actualizado el 12 de octubre de 2026: 647 referencias en 93 archivos; 568 candidatas. Hay 430 confirmaciones esenciales y dos completas. Quedan 136 sin resolución: 94 aclaraciones y 42 exclusiones históricas sin ratificar. Ninguna exclusión nueva.
 
-El catálogo documental consolidado contiene 553 fichas tras aplicar 15 alias individualmente respaldados, sin eliminar originales: 407 esenciales; dos completas; 144 sin resolución. Confirmación y vigencia son controles separados; no hubo activación, importación ni despliegue. Las columnas heredadas «Descartadas» y «Pendientes de cierre» separan las 42 exclusiones antiguas de las 102 aclaraciones; sumar ambos grupos para medir el trabajo sin resolución.
+Catálogo documental: 553 fichas; 415 esenciales y dos completas. Se conservan los 15 alias y todos los originales. Las columnas heredadas «Descartadas» y «Pendientes de cierre» separan decisiones antiguas sin ratificar y aclaraciones; ambos grupos integran las 136 pendientes. La confirmación no autoriza publicar como vigente.
+
+Lote contrastado: 50 candidatas; ocho cierres esenciales y 42 contrastes sin cierre. No se cuentan como 50 confirmaciones. Véanse CONFIRMACIONES_MUNICIPALES_2026_10_12.md y CONTRASTES_INDIVIDUALES_50_2026_10_12.md en la carpeta superior.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
@@ -62,28 +64,28 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque11_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque12_muni.csv | 10 | 10 | 8 | 2 | 0 | 0 | 8 |
 | bloque13_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
-| bloque14_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque14_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque15_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque16_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque17_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque18_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque20_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
+| bloque20_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque21_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque22_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
-| bloque23_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque23_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque24_muni.csv | 10 | 10 | 2 | 7 | 0 | 0 | 2 |
 | bloque25_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque26_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
-| bloque27_muni.csv | 10 | 10 | 7 | 3 | 0 | 0 | 7 |
-| bloque28_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
+| bloque27_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 6 |
+| bloque28_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque29_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
 | bloque30_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque31_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 5 |
-| bloque32_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
+| bloque32_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque33_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque34_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
-| bloque35_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
+| bloque35_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque36_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 |
 | bloque37_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 3 |
 | bloque38_muni.csv | 9 | 9 | 3 | 6 | 0 | 0 | 3 |
@@ -95,7 +97,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque7_muni.csv | 10 | 10 | 4 | 6 | 0 | 0 | 4 |
 | bloque8_docs.csv | 16 | 16 | 2 | 12 | 2 | 0 | 2 |
 | bloque9_docs.csv | 6 | 6 | 0 | 6 | 0 | 0 | 0 |
-| bloque9_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 2 |
+| bloque9_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 1 |
 | bloque_muni_456.csv | 3 | 3 | 0 | 3 | 0 | 0 | 0 |
 | municipalidades_auditadas.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 |
 | municipalidades_bloque3.csv | 4 | 4 | 2 | 2 | 0 | 0 | 2 |

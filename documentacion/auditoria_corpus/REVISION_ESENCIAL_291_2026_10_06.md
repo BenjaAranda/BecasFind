@@ -790,17 +790,18 @@ Fuentes específicas de la confirmación:
 Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 060. Beca Municipal Educación Superior Concon — c813d491edc595bdd474efd08d3229ec4cbe4ed24b63c059a979a5164dd422b5
-Institución del registro: Municipalidad de Concon.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Decreto Concón 718/2026 leído identifica apoyo a deportistas de proyección y alto rendimiento, no beca general superior. Beneficio deportivo no certifica el alias educativo sin evidencia de equivalencia.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Decretos/Decretos%20Alcaldicios%202026/Marzo/DA0718.pdf)
 
-Revisión de fuentes del 8 de octubre: Reglamento deportivo 2026: modalidad distinta del candidato superior general. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
 
+Beca Municipal de Educación Superior de Concón; reglamento aprobado por decreto 164 de 26 de enero de 2015. Confirmación histórica; páginas 2–4 verificadas visualmente.
 
-Contraste del 9 de octubre: El antecedente de transparencia requiere identificar el artículo del programa y sus beneficiarios; la referencia por sí sola no respalda las reglas originales. [Informe](procesados/REVISION_ESENCIAL_051_080_2026_10_09.md).
+Ayuda económica para la primera matrícula anual de una carrera de pregrado; entrega por cheque a nombre del beneficiario. Importe individual no establecido inequívocamente.
+
+Residencia en Concón y al menos dos años de escolaridad básica o media en la comuna; ingreso a institución de educación superior; necesidad socioeconómica con ingreso per cápita no superior a 5 UTM. Para jornada vespertina, no ejercer labores estables remuneradas y acreditar esa condición mediante declaración. Selección socioeconómica; buen rendimiento sin nota mínima numérica publicada.
+
+Se verifica el programa municipal superior identificado por el original; el reglamento contradice su atribución a dinero de libre disposición: financia matrícula. El artículo 8 atribuye 250.000 CLP al presupuesto destinado a las becas; no demuestra 250.000 CLP por persona. No acredita RSH 60%, promedio 5,0, voluntariado ni calendario 2026. Fuente de 2015; convocatoria actual desconocida.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 061. Beca Municipal de Educación Superior La Ligua — 3a88821771f00fba0a8dd15954cd0baa4ebca62b0cc1c7baf727b28e1b9165ce
 Institución del registro: Municipalidad de La Ligua.
@@ -1281,15 +1282,18 @@ Informe: [contraste documental](procesados/REVISION_BLOQUE_ESENCIAL_50_2026_10_0
 Fuentes: [fuente oficial](https://nuevaimperial.ligup2.com/actividades/146728).
 
 ## 101. Beca Estudiantil Municipal Lautaro — 14abd2d4252d535d32030eead8a43b45fd448a5d3ea087c749f43ad2b6ba85cb
-Institución del registro: Municipalidad de Lautaro.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La página vuelve a responder 406. El antecedente de trabajos de verano no acredita beca superior; no descartar por bloqueo de acceso.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.munilautaro.cl/trabajos-de-veranos-2023/)
 
-Última revisión (8 de octubre): El servidor respondió 406. Caso conservado; verificar otra publicación oficial de requisitos y cobertura.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
+
+Programa de Beneficio Estudiantil de Lautaro 2026; decreto 796 y modificación firmada el 6 de marzo de 2026.
+
+185.000 CLP en una cuota; 70 estudiantes de educación superior técnica o universitaria. Admite hasta dos beneficiarios por familia y renovación.
+
+Cursar desde segundo año de educación superior; RSH con domicilio en Lautaro hasta 50%; promedio 5,5 del año 2025; cuenta bancaria personal. La modificación rectifica expresamente el promedio 6,0 del decreto original a 5,5.
+
+La prioridad a estudiantes sin gratuidad o beca estatal completa opera cuando hay exceso de postulantes; no equivale a exclusión general. Postulación base 16–20 de marzo de 2026, sujeta a cambios. No se confirman 150.000 CLP, RSH 60%, NEM 5,0 ni cierre 15 de abril del original. El promedio corresponde a notas 2025 de educación superior, no NEM.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 102. Beca Municipal para Estudios Superiores Pitrufquen — da56f40a73c6c7dc52d263c0507aa23970dcd296fa0e56b2aa8ed86d59d1eb23
 Institución del registro: Municipalidad de Pitrufquen.
@@ -1351,17 +1355,18 @@ Referencias consultadas:
 - [Fuente 2](https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf)
 
 ## 107. Beca de Estudios Superiores Municipalidad de Purranque — c14a2cd973b875eb0c2adbca23c5743f9b20feb7ac6a0b1fc8424cb4c78de870
-Institución del registro: Municipalidad de Purranque.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Se reconsidera el antecedente individual y su alcance; sin nueva evidencia suficiente para cerrarlo. La URL de becas Purranque redirige a la portada. La noticia de resultados 2026 identifica Aporte a Educación Superior, pero no detalla beneficio o elegibilidad. Una portada o folleto JUNAEB no certifica este aporte municipal.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.purranque.cl/unidades-municipales/dideco/becas.html)
 
-Última revisión (8 de octubre): Página de unidad Becas de Purranque sirve texto de plantilla sin objetivo ni apoyos completados. Buscar reglamento y no certificar esos espacios vacíos.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
 
-Contraste del 8 de octubre: La web municipal anuncia Aporte Educación Superior 2026 y ceremonia de octubre. Confirma referencia institucional; no publica importe ni criterios. La página de Becas tiene campos de plantilla vacíos. [Informe](procesados/REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md).
+Aporte Municipal para la Educación Superior de Purranque; bases del ejercicio 2026. Lectura visual de páginas 1–3.
+
+120.000 CLP en una cuota anual para materiales, colegiatura, transporte, matrícula o alojamiento.
+
+Residencia en Purranque; estudiante regular de educación superior con rendimiento académico y situación socioeconómica acreditados. Admite universidades, institutos profesionales, CFT y escuelas de Carabineros, Fuerzas Armadas, Gendarmería y PDI. Selección ponderada: antecedentes académicos 40%; RSH 30%; salud y discapacidad individual/familiar 30%. Incompatible con otra ayuda municipal de educación superior del mismo año.
+
+No se acredita un corte de NEM 5,0 ni RSH máximo 60%; no confundir ponderaciones con admisibilidad. El cuerpo señala 2026 y postulación del 18 de agosto al 1 de septiembre; un anexo conserva una referencia a notas 2025. No trasladar el aporte de 100.000 CLP de la noticia 2025 al ejercicio 2026. Sin activación.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 108. Beca Municipal Educación Superior Quellon — ea6624c41005bdb3f8805c1f8d77b6066b1bbede2c0f8ac0577b56da77aad495
 Institución del registro: Municipalidad de Quellon.
@@ -1614,17 +1619,18 @@ Fuentes específicas de la confirmación:
 Calendario y documentos: no certificados en esta entrega; no activar.
 
 ## 130. Beca Municipal Educación Superior Quinchao — 9128e1de1498d39f011b4d87625c566b6fdcca045e04ae41361a03fa18ab2ae8
-Institución del registro: Municipalidad de Quinchao.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La nueva búsqueda dirigida no recuperó bases propias de Quinchao. Los resultados de Chonchi corresponden a otro municipio y no son evidencia transferible.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
 
-Última revisión (8 de octubre): Búsqueda municipal dirigida sin resultado utilizable. Mantener original y consultar bases/actas; no cambiar estado por ausencia de resultados.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
 
+Beca Municipal de Educación Superior de Quinchao; reglamento de 7 de julio de 2026, nueve páginas leídas. Páginas 2–3 verificadas visualmente.
 
-Contraste del 9 de octubre: Un promedio obtenido dividiendo gasto total por beneficiarios no es un monto individual oficial. Falta ficha específica con condiciones de Quinchao. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
+Aporte económico en una cuota anual por cheque nominativo o transferencia; pago previsto en agosto de 2026. Importe individual según evaluación y presupuesto; no determinado en la tabla publicada.
+
+Residencia familiar permanente en Quinchao acreditada mediante RSH; haber cursado algún año de enseñanza básica o media en la comuna; estudiante regular en universidad reconocida por el Estado, IP o CFT. Promedio mínimo 5,0 en enseñanza media o 4,5 en superior. Excepción académica documentada por enfermedad, embarazo, maternidad, fallecimiento u otras situaciones similares; estudiantes con discapacidad acreditada pueden postular sin cumplir la nota. Un beneficiario por vivienda entre hermanos, cónyuges o convivientes. Sin título profesional previo, salvo continuidad de estudios. Admite gratuidad y otras becas, que se ponderan en la evaluación.
+
+El reglamento no fija un máximo RSH. Su tabla de montos contiene valores por definir y errores de cálculo con casillas vacías: no permite atribuir un importe individual ni dividir el presupuesto de 25 millones. La modalidad presencial cierra el 31 de julio y en línea el 2 de agosto de 2026; no intercambiar plazos ni confirmar fechas originales de marzo–abril. Se confirma educación superior; la beca deportiva y el reconocimiento de excelencia son modalidades diferenciadas.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 131. Beca Social de Estudios Municipalidad San Pedro de Atacama — 39484c2659a44e908d08a8f16bbe8a33c6488ae2bf57f4e3e4d6f09529e07d54
 Institución del registro: Municipalidad de San Pedro de Atacama.
@@ -2018,18 +2024,18 @@ Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08
 Contraste del 9 de octubre: La publicación corresponde a becas deportivas; no acredita una beca general de educación superior de Catemu. [Informe](procesados/REVISION_ESENCIAL_051_080_2026_10_09.md).
 
 ## 165. Beca Municipal de Apoyo a la Educación Superior Panquehue — 18b9ad971e54340ff364e4ad816c4e9b99e30975d002a97c3f2849333c7092c9
-Institución del registro: Municipalidad de Panquehue.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: La página de Panquehue recuperada no contiene definición particular de beca. Cobertura y elegibilidad siguen sin corroborar.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.impanquehue.cl/?page_id=89)
 
-Última revisión (8 de octubre): Página consultada sin información utilizable sobre beca. Buscar bases o servicio municipal específico.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
 
+Beca Municipal de Educación Superior de Panquehue; ficha municipal de 4 de marzo de 2024. Confirmación histórica.
 
-Contraste del 9 de octubre: La noticia secundaria Panquehue 2024 menciona un aporte único para 20 ingresantes. Falta ficha municipal específica con las condiciones; no es confirmación oficial. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
+Aporte monetario en una cuota mediante transferencia electrónica a cuenta del estudiante o tutor legal si es menor; 20 estudiantes de primer ingreso. Importe individual no publicado en la ficha. Permite matrícula, arancel, materiales y pasajes, con rendición al 15 de diciembre de 2024.
+
+Residencia en Panquehue; primer ingreso a educación superior; NEM mínimo 5,5; RSH comunal vigente; antecedentes socioeconómicos y entrevista en DIDECO.
+
+La fuente establece plazo 29 de marzo de 2024 y no certifica convocatoria 2026. No fija RSH máximo 60% ni obliga a estudiar fuera de la comuna. El beneficio exige rendición, por lo que no se describe como dinero sin restricciones. El importe exacto desconocido no impide confirmar la naturaleza y destino del aporte.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 166. Beca Municipal de Educación Superior Romeral — 5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b
 Institución del registro: Municipalidad de Romeral.
@@ -2096,15 +2102,18 @@ Referencias y antecedentes consultados:
 - [Referencia 2](https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf)
 
 ## 171. Beca Municipal de Educación Superior 2025/2026 — f791e7c86277c3314f6d3fc2e5793a325104b13c892b8b7030d0b46253a1b612
-Institución del registro: Municipalidad de Carahue.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: Acta Carahue de febrero 2026 recoge solicitudes de actualizar beca de pasajes ante alzas tarifarias. Esa intervención no fija reglas aprobadas ni importe de la beca general; no equivale a bases.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://sidmun.carahue.cl/web/Archivos/Actas/2026/2026-02-02-42.pdf)
 
-Última revisión (8 de octubre): Conexión a acta oficial 2026 agotó tiempo. No se leyó su contenido; se conserva candidatura para fuente alternativa o lectura posterior.
-Informe: [Revisión municipal de 50](procesados/REVISION_MUNICIPAL_50_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
+
+Beca Municipal de Educación Superior de Carahue; reglamento y requisitos de convocatoria 2025.
+
+200.000 CLP en una cuota en mayo de 2025; convocatoria de 210 cupos y máximo una beca por familia.
+
+Residencia y RSH de Carahue hasta 40%; matrícula y certificado de alumno regular 2025. Primer ingreso: promedio mínimo 6,0 de enseñanza media. Continuidad: promedio 5,5 del año anterior de educación superior. Entrevista obligatoria en DIDECO.
+
+Fuente de 2025, con postulación del 24 de marzo al 17 de abril. El nombre original mezcla 2025/2026: se confirma exclusivamente 2025; no trasladar beneficio, requisitos ni calendario a 2026. La elegibilidad académica distingue ingreso de continuidad y no puede expresarse como un único NEM.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 172. Beca Municipal Educación Superior 2026 — ac001258a2e768939137b586647d7b0425bd4f82c86720ad94fe32a65c0b93f3
 Institución del registro: Municipalidad de La Calera.
@@ -2524,17 +2533,18 @@ Revisión de fuentes del 8 de octubre: Formularios FONDEVE son financiamiento ve
 Contraste del 9 de octubre: FONDEVE exige personalidad jurídica y directorio de una organización; no corresponde a apoyo individual de estudiante superior. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
 
 ## 208. Beca Municipal de Educación Superior Paredones — 52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4
-Institución del registro: Municipalidad de Paredones.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El índice de prensa contiene anuncio Paredones 2020 y no bases oficiales específicas. No permite completar importe, elegibilidad o calendario del registro. No confirmar por una noticia externa ni descartar por falta de ficha municipal.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.lavozdelaregion.cl/index.php/educacion)
 
-Revisión de fuentes del 8 de octubre: Noticia de 2020 es una pista de convocatoria. Faltan bases primarias de beneficio y requisitos. [Informe](procesados/REVISION_FUENTES_51_2026_10_08.md).
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
 
+Beca Municipal de Enseñanza Superior de Paredones; acuerdo municipal 22 de 31 de marzo de 2011. Confirmación histórica; documento completo leído visualmente.
 
-Contraste del 9 de octubre: El índice de prensa cita postulación Paredones 2020; no es fuente oficial y no acredita las reglas del aporte original. [Informe](procesados/REVISION_ESENCIAL_081_110_2026_10_09.md).
+80.000 CLP por beca; 25 becas y presupuesto agregado de 2.000.000 CLP en el acuerdo histórico.
+
+Residencia en Paredones; estudiante regular universitario o técnico profesional en carrera de al menos cuatro semestres, presencial diurna de lunes a viernes; ingreso mensual per cápita no superior a 150.000 CLP. Promedio mínimo 5,0 en educación superior o 5,5 en enseñanza media. No reprobar más de una asignatura anual. Evaluación de antecedentes académicos, económicos, habitacionales y de riesgo familiar.
+
+El acuerdo es de 2011; no certifica importe ni convocatoria 2026. La referencia a Ficha de Protección Social no constituye RSH máximo 70%. El período recurrente 16 de abril–15 de mayo carece de año actual confirmado. No se acreditan 200.000 CLP en dos cuotas ni segundo pago en agosto.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 209. Beca Municipal Estudiantil Pumanque — 5546ef2158fd6eb0721dae3032e255a3f8449a903dd60216948b013285896a4b
 Institución del registro: Municipalidad de Pumanque.
@@ -3329,12 +3339,18 @@ Referencias consultadas:
 - [Fuente 1](https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf)
 
 ## 280. Beca Ilustre Municipalidad de Linares — 19df4e73e6b31fa7b919bf2dd7aa58a2c44778ea6fc63ab1ec69d4cb57554abc
-Institución del registro: Municipalidad de Linares.
-Estado: **REQUIERE_ACLARACIÓN**.
-Hallazgo: El acta Corporación Linares 121/2024 falla por certificado TLS. No se recuperó texto que pruebe beneficio y elegibilidad de la beca del registro; no inferirlos desde institución y título.
-Confirmación esencial abierta. Conservar el registro; no activar ni descartar.
-Referencias y antecedentes consultados:
-- [Referencia 1](https://www.corporacionlinares.cl/ley20285/pdf/07/actas_de_concejo/ACTA_121_del_12_11_2024.pdf)
+
+Estado actual: **CONFIRMADA_ESENCIAL**. Revisión del 12 de octubre de 2026.
+
+Beca Municipal Carlos Ibáñez del Campo de Linares; noticia municipal de 14 de abril de 2022. Confirmación histórica del programa de apoyo a estudiantes destacados gestionado por DIDECO.
+
+50.000 CLP mensuales de marzo a diciembre: 500.000 CLP anuales en 2022. Apoyo a gastos de alimentación, transporte, vestuario y equipamiento tecnológico.
+
+Estudiantes de Linares que continúan carreras técnicas o profesionales. Promedio de notas igual o superior a 6,0 a diciembre del año anterior; admite egresados de establecimientos municipales, particulares subvencionados y particulares, científico-humanistas o técnico-profesionales. La autoridad indica flexibilización de requisitos, cuyos criterios de excepción no detalla.
+
+La fuente identifica al municipio, DIDECO, destinatarios destacados de educación superior y apoyo a gastos personales, coincidentes con el núcleo del original. Se registra el nombre oficial; no se confunde con convenios arancelarios de un CFT. La periodicidad mensual contradice el pago único del original. No acredita RSH máximo 60%, promedios 5,0/5,5 ni convocatoria 2026. El promedio 6,0 se conserva junto a la existencia de flexibilización sin inventar sus excepciones.
+
+Informe: [detalle](procesados/CONFIRMACIONES_MUNICIPALES_2026_10_12.md).
 
 ## 281. Beca Municipal de Educación Superior Coronel — f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4
 Institución del registro: Municipalidad de Coronel.
@@ -3454,3 +3470,6 @@ Referencias y antecedentes consultados:
 
 
 Actualización del 9 de octubre: Cartagena y Punitaqui cierran lo esencial con sus límites expresos. La cohorte de 291 queda en 189 confirmaciones esenciales y 102 aclaraciones. Conteo global: 422 esenciales; dos completas; 144 sin resolución, incluidas 42 exclusiones históricas sin ratificar.
+
+
+Actualización del 12 de octubre de 2026: 430 candidatas esenciales; dos completas; 136 pendientes. Cohorte 291: 197 esenciales y 94 aclaraciones. Catálogo: 553 fichas; 415 esenciales. Detalle: CONFIRMACIONES_MUNICIPALES_2026_10_12.md. Ningún original eliminado; sin importación, activación ni despliegue.

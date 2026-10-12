@@ -92,3 +92,8 @@ Consolidación documental del 9 de octubre: [15 alias aplicados y mapa completo 
 
 
 Cierres posteriores del 9 de octubre: [Cartagena histórica 2025 y Mérito Deportivo de Punitaqui 2026](../documentacion/auditoria_corpus/procesados/CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md). Total actualizado: 422 candidatas esenciales; dos completas; 144 sin resolución (102 aclaraciones y 42 exclusiones históricas sin ratificar). Catálogo: 553 fichas; 407 esenciales y dos completas. Los 15 alias conservan sus originales. Cartagena no mezcla el importe 2026 con requisitos 2025; Punitaqui queda deportiva y prohíbe pagar matrícula/arancel. Los dos controles de GitHub para eba37e4 concluyeron correctamente.
+
+
+Actualización del 12 de octubre de 2026: 430 candidatas esenciales; dos completas; 136 pendientes. Cohorte 291: 197 esenciales y 94 aclaraciones. Catálogo: 553 fichas; 415 esenciales. Detalle: CONFIRMACIONES_MUNICIPALES_2026_10_12.md. Ningún original eliminado; sin importación, activación ni despliegue.
+
+Lote de 50 candidatas contrastadas: ocho confirmaciones esenciales y 42 contrastes sin cierre; detalle individual en CONTRASTES_INDIVIDUALES_50_2026_10_12.md. No se descarta por ausencia ni se cuenta revisión parcial como confirmación.

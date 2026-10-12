@@ -4,16 +4,17 @@
   "alias_consolidados": 15,
   "estados_fichas": {
     "CONFIRMADA_COMPLETA": 2,
-    "CONFIRMADA_ESENCIAL": 407,
+    "CONFIRMADA_ESENCIAL": 415,
     "EXCLUSION_HISTORICA_SIN_RATIFICAR": 42,
-    "REQUIERE_ACLARACION": 102
+    "REQUIERE_ACLARACION": 94
   },
   "confirmaciones_candidatas": {
-    "esenciales": 422,
+    "esenciales": 430,
     "completas": 2
   },
-  "candidatas_sin_resolucion": 144,
+  "candidatas_sin_resolucion": 136,
   "originales_eliminados": 0,
   "operaciones_bd": 0,
-  "despliegue": false
+  "despliegue": false,
+  "actualizado": "2026-10-12"
 }
