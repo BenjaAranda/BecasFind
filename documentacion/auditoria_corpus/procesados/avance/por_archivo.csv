@@ -1,6 +1,6 @@
 archivo,registros,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,descartadas,exclusiones_historicas_sin_ratificar,pendientes_confirmacion
-auditoria_municipal.csv,16,16,8,0,0,8,0,0,8
-auditoria_municipal_fix.csv,16,16,8,0,0,8,0,0,8
+auditoria_municipal.csv,16,16,7,0,0,8,1,0,7
+auditoria_municipal_fix.csv,16,16,7,0,0,8,1,0,7
 beca_uai_fix.csv,1,1,0,0,0,0,0,1,1
 becas_aiep.csv,5,5,0,0,0,5,0,0,0
 becas_cftenac.csv,6,6,0,0,0,0,0,6,6
@@ -9,7 +9,7 @@ becas_inacap.csv,6,6,0,0,0,5,0,1,1
 becas_ipchile.csv,6,6,0,0,0,2,0,4,4
 becas_junaeb.csv,4,4,0,0,0,4,0,0,0
 becas_mineduc.csv,5,5,0,0,0,5,0,0,0
-becas_munialgarrobo.csv,2,2,1,0,0,1,0,0,1
+becas_munialgarrobo.csv,2,2,0,0,0,1,1,0,0
 becas_munilaserena.csv,2,2,0,0,0,2,0,0,0
 becas_munistgo.csv,2,2,1,0,0,1,0,0,1
 becas_munivalpo.csv,2,2,2,0,0,0,0,0,2
@@ -54,7 +54,7 @@ bloque11_muni.csv,10,10,2,0,0,8,0,0,2
 bloque12_muni.csv,10,10,7,0,0,3,0,0,7
 bloque13_muni.csv,10,10,0,0,0,10,0,0,0
 bloque14_muni.csv,10,10,3,0,0,7,0,0,3
-bloque15_muni.csv,10,10,3,0,0,7,0,0,3
+bloque15_muni.csv,10,10,2,0,0,8,0,0,2
 bloque16_muni.csv,10,10,3,0,0,7,0,0,3
 bloque17_muni.csv,10,10,1,0,0,9,0,0,1
 bloque18_muni.csv,10,10,1,0,0,9,0,0,1

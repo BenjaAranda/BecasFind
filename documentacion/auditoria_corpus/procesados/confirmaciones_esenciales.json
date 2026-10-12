@@ -9539,5 +9539,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad corregida a Beca Devolución de Matrícula de Salamanca; reglas esenciales documentadas y criterios históricos fechados; no certifica convocatoria abierta ni vigencia.",
+    "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+    "fuentes": [
+      "https://salamanca.cl/direccion-de-asuntos-estudiantiles/",
+      "https://salamanca.cl/imagenes/documentos/Cuenta%20_Publica_2024.pdf",
+      "https://www.salamanca.cl/transparencia/archivos/1.9_programas_sociales_y_subsidios/2013/1.9_Beca_Matricula.pdf"
+    ],
+    "beneficio": "Devolución de matrícula; tope máximo de 6 UF por alumno según el valor de matrícula, reportado en Cuenta Pública 2024.",
+    "requisitos_principales": "Estudiantes de educación superior sin gratuidad y que no sean beneficiarios de CARES. Ficha histórica 2013: matrícula en institución reconocida, promedio mínimo 5,0 en educación superior y evaluación socioeconómica; no pertenecer a CARES.",
+    "limites": "Promedio y criterios socioeconómicos proceden de ficha de 2013 y no se certifican como reglas actuales. RSH 60%, fechas 2026 y documentos actuales no corroborados. Convocatoria vigente y cierre desconocidos; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

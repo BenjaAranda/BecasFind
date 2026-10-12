@@ -883,7 +883,7 @@
     "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
     "nombre": "Aporte de Movilidad y Combustible Algarrobo",
     "institucion": "Municipalidad de Algarrobo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -947,13 +947,30 @@
         "extractos": [
           "Identificador: 16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nLa ficha de abril de 2026 y el formulario describen aporte de combustible a hogares con vehículo, evaluación social y prioridades de vulnerabilidad; estudiar en educación superior es un dato opcional del grupo familiar. No respaldan los requisitos estudiantiles ni el monto 30–80 mil del original. No se elimina el original ni se ratifica exclusión por esta sola diferencia temporal.\n\nAntecedente pendiente antes de esta consulta: El aporte de movilidad y combustible 2026 se dirige a familias vulnerables y otros grupos sociales; no se acredita la condición de estudiante de educación superior del original.\n\nAcción pendiente: Localizar las bases o ficha específica de Aporte de Movilidad y Combustible Algarrobo en Municipalidad de Algarrobo; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.\n\n- https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+        "informe_sha256": "590840840016f0284e29a46b92d8f6d5586ab40f83c2c81abd4009252d533dec",
+        "extractos": [
+          "## Algarrobo — `16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322`\n\n**Resultado: exclusión editorial por mezcla comprobable de dos programas distintos.**\n\nLa fuente oficial que coincide con el nombre de la candidata llama al programa “Aporte Económico de Movilidad y Combustible” 2026 y lo dirige a hogares/familias, con evaluación social y prioridades de vulnerabilidad; no describe una beca de transporte para estudiantes superiores. La Municipalidad publica por separado el “Aporte Económico Municipal” para estudiantes universitarios: exige matrícula/alumno regular, acreditación de arancel, notas, información económica del grupo y RSH comunal. Además, el municipio informó que en 2025 entregó $150.000 a cada uno de 192 estudiantes superiores bajo ese aporte estudiantil.\n\nLas tres versiones originales de esta candidata combinan el título y enlace del apoyo de combustible a hogares con requisitos estudiantiles, límites RSH/NEM, transporte y/o montos que no aparecen en las fuentes. El importe de movilidad no se atribuye al programa estudiantil ni se usa el programa estudiantil para validar el de combustible. Se excluye únicamente esta identidad editorial compuesta; no se afirma que la ayuda estudiantil municipal no exista y no se borran los CSV originales ni sus registros administrativos.\n\nFuentes oficiales:\n\n- https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/\n- https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/\n- https://munialgarrobo.cl/municipalidad-de-algarrobo-entrega-28-800-000-en-aporte-economico-para-estudiantes-de-educacion-superior/"
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; monto; nem_minimo",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
+      "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+      "revisado": "2026-10-12",
+      "motivo": "La fuente municipal del Aporte de Movilidad y Combustible 2026 lo dirige a hogares y familias. Las tres filas originales mezclan ese programa con datos de transporte y elegibilidad estudiantil, y montos no publicados allí. La Municipalidad identifica por separado el Aporte Económico Municipal para estudiantes superiores; no hay evidencia que permita atribuirle el nombre, el monto ni todos los requisitos inventados de esta candidata.",
+      "alcance": "Exclusión editorial de esta identidad compuesta. No afirma inexistencia de ayuda municipal a estudiantes; conserva CSV originales e historial y no los borra.",
+      "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+      "evidencia": [
+        "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md"
+      ]
+    }
   },
   {
     "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
@@ -18698,7 +18715,7 @@
     "candidato": "4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6",
     "nombre": "Beca Municipal de Educación Superior Salamanca",
     "institucion": "Municipalidad de Salamanca",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
@@ -18761,13 +18778,43 @@
         "extractos": [
           "Identificador: 4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6\n\nEstado: REQUIERE_ACLARACION. Consulta: HTML.\n\nAsuntos Estudiantiles de Salamanca identifica devolución de matrícula para superiores no beneficiarios de CARES y residencias separadas. No demuestra que la beca genérica sea una mantención anual ni sus requisitos completos.\n\nPendiente: Identificar matrícula frente a mantención o residencia, sin trasladar umbrales históricos a 2026.\n\n- https://salamanca.cl/direccion-de-asuntos-estudiantiles/"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+        "informe_sha256": "590840840016f0284e29a46b92d8f6d5586ab40f83c2c81abd4009252d533dec",
+        "extractos": [
+          "## Salamanca — `4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6`\n\n**Resultado: confirmación esencial con corrección de identidad y alcance; no acredita convocatoria vigente.**\n\nLa candidata genérica se vincula a la **Beca Devolución de Matrícula** municipal: la ficha oficial de Asuntos Estudiantiles identifica ese programa para estudiantes de educación superior que no sean beneficiarios de los CARES; la Cuenta Pública 2024 informa que se dirige a estudiantes superiores sin gratuidad y establece un máximo de 6 UF por alumno, según el valor de matrícula. La ficha oficial de programas publicada por transparencia establece matrícula en institución reconocida, promedio mínimo 5,0 en educación superior, evaluación socioeconómica y exclusión de alumnos pertenecientes a CARES. Esta última fuente es histórica (2013); sus criterios académicos/sociales se documentan con ese año y no se presentan como bases de una convocatoria 2026.\n\nSe corrige la descripción original de “subsidio anual de mantención” y se descartan como no corroborados RSH 60%, modalidad de libre disposición y fechas 2026. El beneficio respaldado es una devolución vinculada a matrícula, con tope de 6 UF; no se afirma que cubra otros gastos. La fecha de apertura/cierre, documentos actuales y convocatoria vigente quedan desconocidos. No publicar como vigente hasta obtener bases actuales.\n\nFuentes oficiales:\n\n- https://salamanca.cl/direccion-de-asuntos-estudiantiles/\n- https://salamanca.cl/imagenes/documentos/Cuenta%20_Publica_2024.pdf\n- https://www.salamanca.cl/transparencia/archivos/1.9_programas_sociales_y_subsidios/2013/1.9_Beca_Matricula.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad corregida a Beca Devolución de Matrícula de Salamanca; reglas esenciales documentadas y criterios históricos fechados; no certifica convocatoria abierta ni vigencia.",
+      "informe": "CONFIRMACION_SALAMANCA_DESCARTE_ALGARROBO_2026_10_12.md",
+      "fuentes": [
+        "https://salamanca.cl/direccion-de-asuntos-estudiantiles/",
+        "https://salamanca.cl/imagenes/documentos/Cuenta%20_Publica_2024.pdf",
+        "https://www.salamanca.cl/transparencia/archivos/1.9_programas_sociales_y_subsidios/2013/1.9_Beca_Matricula.pdf"
+      ],
+      "beneficio": "Devolución de matrícula; tope máximo de 6 UF por alumno según el valor de matrícula, reportado en Cuenta Pública 2024.",
+      "requisitos_principales": "Estudiantes de educación superior sin gratuidad y que no sean beneficiarios de CARES. Ficha histórica 2013: matrícula en institución reconocida, promedio mínimo 5,0 en educación superior y evaluación socioeconómica; no pertenecer a CARES.",
+      "limites": "Promedio y criterios socioeconómicos proceden de ficha de 2013 y no se certifican como reglas actuales. RSH 60%, fechas 2026 y documentos actuales no corroborados. Convocatoria vigente y cierre desconocidos; no activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "562bf410b8ecba207698ab4f822528607ecca24c1864a78bd4f582e6346a6123",
