@@ -1,6 +1,6 @@
-# Contraste oficial complementario de 8 candidatas — 12 de octubre de 2026
+# Contraste oficial complementario de 9 candidatas — 12 de octubre de 2026
 
-Se contrastaron ocho candidatas adicionales con fuentes institucionales y municipales específicas, sin Firecrawl. Los hallazgos identifican beneficios cercanos o contradicen detalles de las fichas, pero no bastan para certificar las becas tal como fueron descritas ni para ratificar descartes históricos. Se preservan originales y estados.
+Se contrastaron nueve candidatas adicionales con fuentes institucionales y municipales específicas, sin Firecrawl. Los hallazgos identifican beneficios cercanos o contradicen detalles de las fichas, pero no bastan para certificar las becas tal como fueron descritas ni para ratificar descartes históricos. Se preservan originales y estados.
 
 ## PUCV — Beca Deportiva — `70699bc9ed88`
 
