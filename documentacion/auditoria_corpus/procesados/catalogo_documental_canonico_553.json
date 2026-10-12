@@ -8184,7 +8184,7 @@
       "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67"
     ],
     "nombre_de_referencia": "Beca Municipal Capital del Mimbre",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
@@ -8193,14 +8193,17 @@
         "institucion_original": "Municipalidad de Chimbarongo"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Documento alojado en Cámara no recuperado por 403. Buscar reglamento municipal Capital del Mimbre y verificar alcance de superior.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "alcance_verificado": "Beca municipal de apoyo económico a educación superior para estudiantes de Chimbarongo; formulario oficial de modalidad superior 2024.",
+    "beneficio_verificado": "Apoyo económico. Cuantía actual desconocida por diferencia entre ficha que cita norma de 2010 y formulario 2024 que remite a Decreto 865/2021.",
+    "requisitos_principales_verificados": "Modalidad educación superior; residencia en Chimbarongo indicada por la ficha municipal y campos de domicilio e institución en formulario 2024. Criterios detallados desconocidos.",
+    "limites": "No confirma convocatoria 2026, montos, notas, avance académico, edad, incompatibilidades, documentos completos ni calendario. Formulario oficial indexado; descarga 403. No activar.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+      "https://www.municipalidadchimbarongo.com/becas.pdf"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
+    "accion_administrativa": "MANTENER_INACTIVA"
   },
   {
     "clave_documental": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",

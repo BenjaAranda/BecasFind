@@ -3150,21 +3150,27 @@
       "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
       "nombre": "Beca Municipal Capital del Mimbre",
       "institucion": "Municipalidad de Chimbarongo",
-      "estado": "REQUIERE_ACLARACION",
-      "hallazgo": "Documento alojado en Cámara no recuperado por 403. Buscar reglamento municipal Capital del Mimbre y verificar alcance de superior. La respuesta del enlace de la Cámara no proporciona texto utilizable del documento. La condición oficial del dominio no acredita el beneficio de Capital del Mimbre.",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "El formulario municipal oficial 2024 identifica la Beca Capital del Mimbre para nivel superior y remite al Decreto 865/2021. La ficha municipal A-14 confirma propósito de apoyo económico y residencia comunal, pero cita Decreto 2209/2010; por esta diferencia no se toman de allí montos ni requisitos detallados como actuales. No se acredita convocatoria 2026.",
       "fuentes": [
         {
-          "url": "https://www.camara.cl/verDoc.aspx?prmID=372191&prmTIPO=DOCUMENTO_COMISION",
-          "consulta": "2026-10-08",
-          "error": "HTTP Error 403: Forbidden",
-          "contenido_extraido": false,
-          "alcance_lectura": "Contenido y límites individualizados en el apartado; una URL inaccesible no certifica información.",
-          "metodo": "Intento de acceso; contenido no leído"
+          "url": "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+          "consulta": "2026-10-12",
+          "contenido_extraido": true,
+          "alcance_lectura": "Extracto indexado del formulario oficial de nivel superior 2024; identifica programa y norma 2021. Apertura devuelve 403.",
+          "metodo": "Búsqueda web del dominio municipal oficial; no se usó Firecrawl."
+        },
+        {
+          "url": "https://www.municipalidadchimbarongo.com/becas.pdf",
+          "consulta": "2026-10-12",
+          "contenido_extraido": true,
+          "alcance_lectura": "Ficha municipal A-14: apoyo económico para educación superior de residentes; cita norma de 2010, por lo que no se aplican sus condiciones detalladas actuales.",
+          "metodo": "Lectura del PDF municipal indexado."
         }
       ],
-      "alcance": null,
+      "alcance": "Confirmación esencial de identidad, apoyo y perfil general; sin cierre o convocatoria actual.",
       "ultima_revision": "2026-10-12",
-      "informe_ultima_revision": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md"
+      "informe_ultima_revision": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md"
     },
     {
       "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
@@ -10096,5 +10102,15 @@
     "descartes_nuevos": 0,
     "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-graneros-20261012-174735.zip",
     "sha256_respaldo": "FA8ADD3022E8144E73ADFC3CB535737EC0BE75E20AE72004AB84D13067D5ED23"
+  },
+  "revision_chimbarongo_2026_10_12": {
+    "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+    "candidatas_contrastadas": 1,
+    "confirmaciones_nuevas": 1,
+    "pendientes_antes": 128,
+    "pendientes_despues": 127,
+    "descartes_nuevos": 0,
+    "respaldo": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-chimbarongo-20261012-175053.zip",
+    "sha256_respaldo": "75A659BABA9537FCC85613046D3856A752500AF085DCF5BD9F27FA82DFF5E7EB"
   }
 }

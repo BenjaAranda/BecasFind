@@ -197,7 +197,7 @@
     },
     {
       "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
-      "estado": "REQUIERE_ACLARACION",
+      "estado": "CONFIRMADA_ESENCIAL",
       "hallazgo": "Documento de Cámara bloqueado con 403; falta lectura de contenido, no razón para excluir. Buscar reglamento municipal específico.",
       "evidencia_consulta": [
         {
@@ -206,7 +206,9 @@
           "metodo": "Intento de acceso; contenido no leído",
           "error": "HTTP Error 403: Forbidden"
         }
-      ]
+      ],
+      "pendiente_confirmacion": "false",
+      "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md"
     },
     {
       "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",

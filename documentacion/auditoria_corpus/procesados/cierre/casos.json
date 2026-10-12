@@ -21132,7 +21132,7 @@
     "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
     "nombre": "Beca Municipal Capital del Mimbre",
     "institucion": "Municipalidad de Chimbarongo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
@@ -21181,13 +21181,42 @@
         "extractos": [
           "Identificador: e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67\n\nEstado: **REQUIERE_ACLARACION**. Acceso: HTML.\n\nLa respuesta del enlace de la Cámara no proporciona texto utilizable del documento. La condición oficial del dominio no acredita el beneficio de Capital del Mimbre.\n\nAntecedente pendiente antes de esta consulta: Documento alojado en Cámara no recuperado por 403. Buscar reglamento municipal Capital del Mimbre y verificar alcance de superior.\n\nAcción pendiente: Recuperar y leer visualmente el documento de Municipalidad de Chimbarongo indicado en las fuentes; localizar el apartado de Beca Municipal Capital del Mimbre y registrar páginas con beneficio y elegibilidad.\n\n- https://www.camara.cl/verDoc.aspx?prmID=372191&prmTIPO=DOCUMENTO_COMISION"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+        "informe_sha256": "cf501f3255660985ee026c50a36823e4b8bb3ca037bd569963bd3b88314edf22",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad y reglas generales publicadas para Beca Capital del Mimbre, modalidad educación superior, con formulario oficial 2024 que remite a norma municipal de 2021. No acredita convocatoria 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+      "fuentes": [
+        "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+        "https://www.municipalidadchimbarongo.com/becas.pdf"
+      ],
+      "beneficio": "Apoyo económico para estudios de educación superior. El monto actual no se confirma: una ficha municipal cita cuantías bajo norma de 2010 y el formulario 2024 remite al Decreto 865/2021.",
+      "requisitos_principales": "Estudiantes de educación superior residentes de Chimbarongo, según ficha municipal A-14; el formulario superior 2024 solicita domicilio e institución de estudios. Los criterios académicos y socioeconómicos detallados actuales quedan desconocidos.",
+      "limites": "La ficha A-14 se basa en Decreto/Ordenanza 2209 de 2010; formulario oficial 2024 remite a Decreto 865 de 2021. Contradicción temporal sin texto íntegro de la norma posterior. No confirmar montos, edad, notas, ramos aprobados, incompatibilidades, fechas, documentos ni convocatoria 2026. El PDF 2024 fue indexado pero la descarga directa devolvió 403. No activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",

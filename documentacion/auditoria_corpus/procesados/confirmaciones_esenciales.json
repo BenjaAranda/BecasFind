@@ -9431,5 +9431,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad y reglas generales publicadas para Beca Capital del Mimbre, modalidad educación superior, con formulario oficial 2024 que remite a norma municipal de 2021. No acredita convocatoria 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+    "fuentes": [
+      "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+      "https://www.municipalidadchimbarongo.com/becas.pdf"
+    ],
+    "beneficio": "Apoyo económico para estudios de educación superior. El monto actual no se confirma: una ficha municipal cita cuantías bajo norma de 2010 y el formulario 2024 remite al Decreto 865/2021.",
+    "requisitos_principales": "Estudiantes de educación superior residentes de Chimbarongo, según ficha municipal A-14; el formulario superior 2024 solicita domicilio e institución de estudios. Los criterios académicos y socioeconómicos detallados actuales quedan desconocidos.",
+    "limites": "La ficha A-14 se basa en Decreto/Ordenanza 2209 de 2010; formulario oficial 2024 remite a Decreto 865 de 2021. Contradicción temporal sin texto íntegro de la norma posterior. No confirmar montos, edad, notas, ramos aprobados, incompatibilidades, fechas, documentos ni convocatoria 2026. El PDF 2024 fue indexado pero la descarga directa devolvió 403. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
