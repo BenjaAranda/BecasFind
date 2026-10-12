@@ -10,7 +10,14 @@ spec.loader.exec_module(module)
 
 
 class ProgressTest(unittest.TestCase):
+    def remove_pending(self, folder, candidate):
+        path = folder/'pendientes_esenciales_actuales.csv'
+        rows = module.read_csv(path)
+        module.write_csv(path, ['candidato'],
+                         [dict(candidato=row['candidato']) for row in rows if row['candidato'] != candidate])
+
     def discard(self, folder):
+        self.remove_pending(folder, 'a')
         (folder/'discard.md').write_text('a: identidad histórica sin respaldo', encoding='utf-8')
         entry = dict(candidato='a', revisado='2026-10-06', motivo='Alias no identificable',
                      alcance='Exclusión editorial con histórico conservado', informe='discard.md', evidencia=['review.md'])
@@ -76,6 +83,8 @@ class ProgressTest(unittest.TestCase):
                          [dict(candidato=key,nombre=key,institucion='Institución') for key in ['a','b']])
         (folder/'review.md').write_text('Revisión parcial', encoding='utf-8')
         module.write_csv(folder/'revisiones_parciales.csv', ['candidato','informe'], [dict(candidato='a',informe='review.md')])
+        module.write_csv(folder/'pendientes_esenciales_actuales.csv', ['candidato'],
+                         [dict(candidato=key) for key in ['a','b','c']])
 
     def test_duplicates_and_reconstructed_rows_do_not_inflate_reviewed_count(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -101,6 +110,7 @@ class ProgressTest(unittest.TestCase):
             self.assertFalse((folder/'avance').exists())
 
     def confirmation(self, folder):
+        self.remove_pending(folder, 'a')
         (folder/'complete.md').write_text('Alcance histórico confirmado', encoding='utf-8')
         entry = dict(candidato='a', alcance='Convocatoria histórica cerrada', informe='complete.md', fuentes=['https://example.org/beca'],
                      verificaciones={key:True for key in ['identidad','convocatoria','cobertura','requisitos','documentos','discrepancias']})
@@ -146,6 +156,7 @@ class ProgressTest(unittest.TestCase):
                          requisitos_principales='Matrícula en la institución', limites='Documentos y cierre desconocidos; no activar',
                          informe='review.md', fuentes=['https://example.org/beca'],
                          verificaciones={key:True for key in ['identidad','fuente_oficial','cobertura','requisitos_principales']})
+            self.remove_pending(folder, 'a')
             path = folder/'confirmaciones_esenciales.json'
             path.write_text(json.dumps([entry]),encoding='utf-8')
             totals = module.report(folder)

@@ -9496,8 +9496,7 @@
       "cobertura": true,
       "requisitos_principales": true
     }
-  }
-,
+  },
   {
     "candidato": "1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95",
     "revisado": "2026-10-12",
@@ -9512,6 +9511,28 @@
     "fecha_inicio": null,
     "fecha_cierre": null,
     "documentos": "Orden de compra empresarial con nombre y RUT del estudiante; otros documentos de elegibilidad desconocidos.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad y reglas esenciales de Articulación Directa EMTP de INACAP para admisión 2027; corrige la ficha de descuento no acreditada. No certifica convocatoria abierta.",
+    "informe": "CONFIRMACION_ESENCIAL_ARTICULACION_INACAP_2026_10_12.md",
+    "fuentes": [
+      "https://portal.inacap.cl/admision/articulacion/articulacion-directa",
+      "https://portal.inacap.cl/articulacion"
+    ],
+    "beneficio": "Reconocimiento y convalidación de asignaturas del primer semestre en una carrera INACAP elegible. Beneficio académico no monetario; no es un descuento del 20%.",
+    "requisitos_principales": "Egreso EMTP de establecimiento adscrito y elegible; categoría Alta o Media, o establecimiento Bicentenario Alta/Media/Media-Baja; especialidad y carrera deben estar incluidas en la lista oficial para admisión 2027.",
+    "limites": "Se elimina el 20% de descuento y el nombre “beca” como descripción del beneficio. Reglas limitadas a admisión 2027. Fecha de convocatoria y documentos específicos no detallados: desconocidos. No activar sin cierre confirmado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
     "verificaciones": {
       "identidad": true,
       "fuente_oficial": true,
