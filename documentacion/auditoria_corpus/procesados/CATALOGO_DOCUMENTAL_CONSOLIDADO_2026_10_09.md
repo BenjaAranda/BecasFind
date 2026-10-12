@@ -48,3 +48,18 @@ Dos cierres esenciales históricos: Lota y Los Vilos. Contraste de fuentes de 59
 ### Segundo lote sin Firecrawl — 12 de octubre de 2026
 
 Se contrastaron 50 candidatas; dos cierres esenciales históricos nuevos: Coltauco y Taltal. Los otros 48 casos permanecen sin cierre, con carencias individuales actualizadas. Total: 434 esenciales, dos completas y 132 pendientes (90 aclaraciones + 42 exclusiones históricas sin ratificar). Cohorte 291: 201 esenciales y 90 aclaraciones. Catálogo: 419 fichas esenciales de 553. No se eliminó ningún original. Detalle: `REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md`.
+
+
+### Revisión complementaria de 16 fuentes — 12 de octubre de 2026
+
+Se revisaron 16 candidatas abiertas con fuentes oficiales específicas. Ninguna se cerró: hay diferencias entre modalidades, apoyos puntuales y beneficios actuales, o faltan reglas individuales. El seguimiento vigente es 447 confirmaciones esenciales, 2 completas, 1 descarte ratificado y 118 abiertas (81 aclaraciones y 37 exclusiones históricas sin ratificar), total 568. El archivo de pendientes confirma 118 filas. Detalle: REVISION_COMPLEMENTARIA_16_FUENTES_OFICIALES_2026_10_12.md. Los anteriores 132 pendientes son un corte previo.
+
+
+### Contraste municipal adicional — 12 de octubre de 2026
+
+Se amplió la consulta de fuentes primarias para candidatas de Peumo, Osorno, Iquique, La Florida y Puerto Montt. No hubo cierres: las fuentes identifican prestaciones cercanas o becas de alcance distinto, sin cerrar identidad y requisitos de las fichas pendientes. El seguimiento sigue en 447 confirmaciones esenciales, 2 completas, 1 descarte ratificado y 118 abiertas (81 aclaraciones y 37 exclusiones históricas sin ratificar), total 568. No se eliminó ni activó ninguna beca. Detalle: `REVISION_ADICIONAL_MUNICIPAL_2026_10_12.md`.
+
+
+### Confirmación esencial UAI — 12 de octubre de 2026
+
+El Reglamento de Becas UAI 2024 confirma la existencia y naturaleza de un beneficio de arancel para hijos/as o cónyuges de funcionarios. Se cerró una candidata en alcance esencial; el 40% original, documentos, renovación y vigencia para 2026 siguen desconocidos. Total vigente: 448 confirmaciones esenciales, 2 completas, 1 descarte ratificado y 117 abiertas (81 aclaraciones y 36 exclusiones históricas sin ratificar), total 568. Detalle: `CONFIRMACION_ESENCIAL_HIJO_FUNCIONARIO_UAI_2026_10_12.md`. No se activó ninguna beca.

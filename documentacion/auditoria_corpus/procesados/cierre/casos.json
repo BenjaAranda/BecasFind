@@ -5823,7 +5823,7 @@
     "candidato": "d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e",
     "nombre": "Beca Hijo Funcionario UAI",
     "institucion": "Universidad Adolfo Ibáñez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uai.csv",

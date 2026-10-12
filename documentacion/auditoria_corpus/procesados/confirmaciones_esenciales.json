@@ -9624,5 +9624,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e",
+    "revisado": "2026-10-12",
+    "alcance": "Beneficio UAI para hijos/as o cónyuges de funcionarios confirmado en reglamento oficial 2024; no certifica vigencia 2026 ni convocatoria abierta",
+    "informe": "CONFIRMACION_ESENCIAL_HIJO_FUNCIONARIO_UAI_2026_10_12.md",
+    "fuentes": [
+      "https://alumno.uai.cl/assets/uploads/2024/04/reglamentos-uai-2024.pdf"
+    ],
+    "beneficio": "Rebaja de arancel mensual; porcentaje exacto desconocido",
+    "requisitos_principales": "Ser hijo/a o cónyuge de funcionario/a de la Universidad Adolfo Ibáñez",
+    "limites": "El 40% original, la clasificación académica/administrativa del funcionario, renovación, documentación, calendario y vigencia para 2026 no están corroborados. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
