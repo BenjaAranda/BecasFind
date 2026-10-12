@@ -22943,9 +22943,9 @@
   },
   {
     "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
-    "nombre": "Beca de Mantención Educación Superior Fresia",
+    "nombre": "Beca de Movilización del Concejo Municipal de Fresia",
     "institucion": "Municipalidad de Fresia",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque21_muni.csv",
@@ -22994,13 +22994,41 @@
         "extractos": [
           "Identificador: 8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09\n\nEstado: **REQUIERE_ACLARACION**. Acceso: PDF_TEXTUAL.\n\nCuenta pública de gestión 2023: distingue Beca Concejo Municipal y movilización. Los importes por nivel y las 4 UTM de movilización no permiten identificar automáticamente cuál corresponde al original de mantención.\n\nAntecedente pendiente antes de esta consulta: Cuenta pública 2023 distingue Beca Concejo Municipal (750.000 universidad; 500.000 IP/CFT) y movilización (4 UTM). La candidata de mantención no tiene correspondencia inequívoca con una de ellas; falta identificar modalidad.\n\nAcción pendiente: Contrastar Beca de Mantención Educación Superior Fresia con el apartado del programa de Municipalidad de Fresia; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.\n\n- https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_FRESIA_MOVILIZACION_2026_10_12.md",
+        "informe_sha256": "2d7122ba8ede7dc7c2f04bdbae3e9b2b8d434f9d77de467da4d88a7b844e7643",
+        "extractos": [
+          "## `8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09`\n\n**Resultado: confirmada esencialmente con identidad y alcance corregidos.**\n\nLa candidata se identifica con la **Beca de Movilización del Concejo Municipal de Fresia**. La Cuenta Pública municipal de la gestión 2023 describe el mismo nivel educativo y propósito que los datos originales: contribuir parcialmente a los viajes diarios de estudiantes de educación superior en universidades, institutos profesionales y centros de formación técnica. Para esa gestión indica 30 becas anuales, 4 UTM por beneficiario, pago en mayo y agosto, no renovable y postulación en marzo y abril.\n\nSe corrige el nombre genérico “Beca de Mantención” y se limita su finalidad a transporte. La fuente no respalda arriendo, el importe fijo de $120.000, RSH 60%, NEM 5,0 ni el calendario 2026 del original; esos datos no se confirman. El monto de 4 UTM y las condiciones de postulación citadas corresponden a la gestión 2023, no a una convocatoria vigente. Residencia comunal, documentos actuales y montos de 2026 quedan desconocidos. No activar como vigente sin bases o convocatoria del año actual.\n\nFuente oficial específica: https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad corregida a Beca de Movilización del Concejo Municipal de Fresia; cobertura y condiciones esenciales documentadas para gestión 2023, no vigencia 2026.",
+      "informe": "CONFIRMACION_FRESIA_MOVILIZACION_2026_10_12.md",
+      "fuentes": [
+        "https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf"
+      ],
+      "beneficio": "Aporte para costear parcialmente los viajes diarios. Para gestión 2023: 4 UTM por estudiante en dos pagos semestrales.",
+      "requisitos_principales": "Estudiantes de educación superior en universidades, institutos profesionales o centros de formación técnica; 30 becas anuales en gestión 2023; no renovable y postulación en marzo-abril. Residencia comunal y umbrales académicos/socioeconómicos no constan en la fuente consultada.",
+      "limites": "Datos cuantitativos y calendario son de 2023 y no confirman una convocatoria actual. Arriendo, monto fijo $120.000, RSH 60%, NEM 5,0 y fechas 2026 del original quedan sin respaldo. Documentos y cierre actuales desconocidos; no activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "8ed2b2d2a1272943fbbd233a07879095f7ad17f6e1d212adb8d3fe45cb87a8f9",
