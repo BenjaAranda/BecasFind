@@ -61,8 +61,13 @@ El catálogo oficial de beneficios internos incluye una Beca de Excelencia Depor
 Fuente: https://www.admision.usach.cl/index.php/becas-internas
 
 ### UTA — Beca de Apoyo Estudiantil (`7bef7d41d7b3`)
-Los antecedentes oficiales enlazados para la candidata describen becas y servicios con nombres propios, pero no vinculan un apoyo mensual variable de DAE con los requisitos de RSH 60%, informe social y alumno regular del original. La revisión no encontró una ficha específica que cierre identidad, prestación y elegibilidad. Mantener abierta.
-Fuente antecedente: https://www.uta.cl/index.php/becas-y-beneficios/
+La página oficial de DAE UTA describe como apoyos vigentes becas de alimentación, fotocopias, residencia y otras líneas nominadas; la beca de residencia sí es monetaria, pero está destinada a costear parte de la residencia y tiene criterios específicos. No identifica una beca general de mantención con la denominación y los requisitos que se atribuyen a esta candidata.
+
+Se verificó además una posible colisión de nombre en la guía oficial MINEDUC **Servicios y Beneficios Universitarios, Admisión 2026**: “Beca de Apoyo Estudiantil” aparece bajo la sección de la **Universidad de Talca** (página impresa 273; beneficio mensual en dinero de libre disposición y postulación anual), no bajo la Universidad de Tarapacá. La coincidencia no autoriza a reasignar la ficha a Talca; es evidencia de posible confusión entre instituciones. Las condiciones de asignación de la beca de Talca remiten a requisitos que la guía no detalla.
+
+**Resultado:** permanece `EXCLUSION_HISTORICA_SIN_RATIFICAR`. No se confirma ni se descarta: falta una fuente UTA que vincule el nombre exacto con la prestación y elegibilidad descritas. No se trasladan a UTA los datos del beneficio de Talca.
+
+Fuentes oficiales: https://webdae.uta.cl/index.php/beneficios-complementarios/ ; https://www.uta.cl/index.php/dae/ ; https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf
 
 ### Universidad de Valparaíso — Beca de Apoyo Socioeconómico (`33ec94d4fb3a`)
 El catálogo oficial de Transparencia UV describe el Programa de Asistencia Económica como préstamo reembolsable y distingue la Ayuda Económica de postergación parcial de arancel. La candidata se presenta como beca no reembolsable evaluada socialmente. La diferencia material impide confirmar o sustituir la ficha sin el reglamento de la modalidad exacta.
