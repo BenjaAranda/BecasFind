@@ -21336,7 +21336,7 @@
       },
       {
         "informe": "CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md",
-        "informe_sha256": "c7a82c3ef07d98e56745ac10ca722ce3dd1e1825697c4971ad0c19af84a0ab9e",
+        "informe_sha256": "4828378b1b5f11071e13c07390b0b540be2c7daffbe0e429236677a290a17334",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -38958,9 +38958,9 @@
   },
   {
     "candidato": "ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c",
-    "nombre": "Beca de Mantención UMAG",
-    "institucion": "Universidad de Magallanes",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "nombre": "Beca de Mantención para la Educación Superior (BMES)",
+    "institucion": "Junta Nacional de Auxilio Escolar y Becas (JUNAEB)",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
@@ -39016,13 +39016,43 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BMES_UMAG_2026_10_12.md",
+        "informe_sha256": "601b934a640b6223c2b3d05cfcc155ec94ff07580fcc7f0828fdade7b52b0de4",
+        "extractos": [
+          "- Hash: `ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c`\n- Registro original: `ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv#10`\n- Nombre original: «Beca de Mantención UMAG»."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad, aporte y requisitos vigentes 2026 de la Beca de Mantención para la Educación Superior (BMES), listada por UMAG como beneficio JUNAEB; no valida la cobertura, requisitos ni fechas del registro original.",
+      "informe": "CONFIRMACION_ESENCIAL_BMES_UMAG_2026_10_12.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=634",
+        "https://www.chileatiende.gob.cl/fichas/10453/1/pdf",
+        "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes"
+      ],
+      "beneficio": "Aporte monetario de libre disposición; $207.950 anuales referenciales, pagados en hasta 10 cuotas.",
+      "requisitos_principales": "Debe figurar en la última resolución de asignación de JUNAEB; matrícula en una institución de educación superior reconocida por el Estado; y contar con un beneficio de arancel de Mineduc o Comisión Ingresa.",
+      "limites": "Se corrige la identidad a BMES, administrada por JUNAEB. La ficha oficial indica que ya no es postulable y solo continúa para beneficiarios anteriores. El alojamiento/alimentación, RSH 60%, fechas 2026 y documentos del original no están respaldados. Mantener inactiva y fuera de búsqueda vigente; las fechas de convocatoria/cierre y documentos específicos quedan desconocidos.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "e04fa641938cb4c684feb0a2e5519a074ab36c60e0314679147b8b2bb49f49d6",

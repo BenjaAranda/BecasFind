@@ -9818,5 +9818,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "ec336267e6863dc06ee5e692b4fba940673ba7c826abf8eb150a800d87e0940c",
+    "revisado": "2026-10-12",
+    "alcance": "Identidad, aporte y requisitos vigentes 2026 de la Beca de Mantención para la Educación Superior (BMES), listada por UMAG como beneficio JUNAEB; no valida la cobertura, requisitos ni fechas del registro original.",
+    "informe": "CONFIRMACION_ESENCIAL_BMES_UMAG_2026_10_12.md",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=634",
+      "https://www.chileatiende.gob.cl/fichas/10453/1/pdf",
+      "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes"
+    ],
+    "beneficio": "Aporte monetario de libre disposición; $207.950 anuales referenciales, pagados en hasta 10 cuotas.",
+    "requisitos_principales": "Debe figurar en la última resolución de asignación de JUNAEB; matrícula en una institución de educación superior reconocida por el Estado; y contar con un beneficio de arancel de Mineduc o Comisión Ingresa.",
+    "limites": "Se corrige la identidad a BMES, administrada por JUNAEB. La ficha oficial indica que ya no es postulable y solo continúa para beneficiarios anteriores. El alojamiento/alimentación, RSH 60%, fechas 2026 y documentos del original no están respaldados. Mantener inactiva y fuera de búsqueda vigente; las fechas de convocatoria/cierre y documentos específicos quedan desconocidos.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

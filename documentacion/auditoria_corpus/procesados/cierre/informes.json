@@ -2319,7 +2319,7 @@
     ]
   },
   "CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md": {
-    "sha256": "c7a82c3ef07d98e56745ac10ca722ce3dd1e1825697c4971ad0c19af84a0ab9e",
+    "sha256": "4828378b1b5f11071e13c07390b0b540be2c7daffbe0e429236677a290a17334",
     "urls": [
       "https://transparencia.municoelemu.cl/index.php?a=2010&action=plantillas_generar_archivo&ia=778&ig=207&m=3"
     ]
@@ -2351,6 +2351,14 @@
       "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior",
       "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf",
       "https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_BMES_UMAG_2026_10_12.md": {
+    "sha256": "601b934a640b6223c2b3d05cfcc155ec94ff07580fcc7f0828fdade7b52b0de4",
+    "urls": [
+      "https://admision.umag.cl/?page_id=634",
+      "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes",
+      "https://www.chileatiende.gob.cl/fichas/10453/1/pdf"
     ]
   }
 }
