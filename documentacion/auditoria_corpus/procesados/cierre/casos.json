@@ -546,6 +546,13 @@
         "extractos": [
           "| cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d — Beca Educación Superior Viña del Mar | La Cuenta Pública 2023 acredita una línea municipal de educación superior con $16.740.000 agregados y 279 estudiantes; no detalla monto individual, RSH, NEM ni vigencia de la ficha. [Cuenta Pública Viña 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf). | Pendiente: obtener bases que documenten requisitos y beneficio individual. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d` — Beca Municipal de Educación Superior Viña del Mar | La cuenta pública municipal 2023 informa una partida llamada “Beca Educación Superior”: inversión total de $16.740.000 y 279 estudiantes beneficiados. No informa el pago individual, el criterio de admisión ni acredita los $100.000–$300.000, RSH, NEM o documentos del original. La información de servicio social municipal sobre Beca Presidente de la República y Beca Indígena se refiere explícitamente a beneficios JUNAEB. Una cuenta municipal de 2012 describe otra beca homónima como incentivo para hijos de socios, lo que advierte sobre posible alcance laboral en registros de administración y finanzas. [Cuenta pública 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023-Resumen-Ejecutivo_c.pdf), [cuenta pública 2012](https://www.munivina.cl/uploads/2014/07/20140707223157-pagina20130508143943capitulo-2-cp-2012.pdf), [orientación JUNAEB](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/). | Pendiente. La evidencia confirma un gasto agregado histórico con ese rótulo, pero no permite identificar sus destinatarios frente a la ficha; no atribuirle el total agregado como monto individual ni asumir que es una beca general abierta. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -635,6 +642,13 @@
         "informe_sha256": "b4af38e7fdaa1fa5ab22650d9387e84ccbe86a09c2963a6bc86743b7523fe2ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8` — Beca de Pasajes Viña del Mar | La cuenta pública 2023 informa inversión agregada para becas de educación superior, sin identificar una modalidad de pasajes. La página municipal de servicio social consultada trata Beca Presidente de la República e Indígena de JUNAEB; no acredita transporte, periodicidad ni los requisitos atribuidos en esta ficha. [Cuenta pública 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023-Resumen-Ejecutivo_c.pdf), [servicio social](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/). | Pendiente. No convertir la inversión general en una subvención de transporte individual. |"
         ]
       }
     ],
@@ -8285,6 +8299,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md",
+        "informe_sha256": "c86893640bede26a29390a976996e3c77ee22e6c2787e75766835c40e012806e",
+        "extractos": [
+          "| `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9` — Beca Fundadores UCentral | El catálogo oficial vigente sí acredita becas UCEN definidas por puntaje PAES, matrícula, mérito, complemento, deporte y filiación. Sus montos, cohortes y requisitos no corresponden a los 30–50% por NEM/PAES que describe la candidata. La historia institucional tampoco acredita una beca llamada “Fundadores”. [Becas oficiales de admisión UCEN](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/). | Pendiente. La diferencia con becas vigentes no demuestra que una modalidad histórica homónima no existiera. No atribuir porcentajes de otra beca. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -12031,6 +12052,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md",
+        "informe_sha256": "c86893640bede26a29390a976996e3c77ee22e6c2787e75766835c40e012806e",
+        "extractos": [
+          "| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` — Beca de Apoyo Socioeconómico UFRO | El catálogo oficial DDE separa beneficios de arancel y mantención. La página de arancel lista programas identificados, en su mayoría estatales, y la de mantención identifica beneficios JUNAEB, incluyendo sus propias vías de asignación; ninguna describe un fondo UFRO general con el 60% RSH y monto que aparece en la candidata. [Arancel UFRO](https://dde.ufro.cl/beneficios-estudiantiles/arancel/), [mantención UFRO](https://dde.ufro.cl/beneficios-estudiantiles/mantencion/). | Pendiente. No usar beneficios estatales ni una ayuda institucional de nombre parecido como prueba de esta beca. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14396,6 +14424,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md",
+        "informe_sha256": "c86893640bede26a29390a976996e3c77ee22e6c2787e75766835c40e012806e",
+        "extractos": [
+          "| `b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff` — Beca de Excelencia Académica USACH | La página de Admisión describe cupos supernumerarios asociados a la BEA estatal y señala que las becas BEA son asignadas e informadas por MINEDUC. Sus requisitos de lista de espera no son un descuento propio USACH de arancel como el que atribuye la ficha. [Cupos supernumerarios USACH](https://admision.usach.cl/supernumerario). | Pendiente. La ficha puede referirse a otra modalidad; no sustituirla por cupos de acceso o cobertura estatal. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -16013,6 +16048,13 @@
         "informe_sha256": "b4af38e7fdaa1fa5ab22650d9387e84ccbe86a09c2963a6bc86743b7523fe2ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md",
+        "informe_sha256": "c86893640bede26a29390a976996e3c77ee22e6c2787e75766835c40e012806e",
+        "extractos": [
+          "| `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9` — Beca de Apoyo Socioeconómico UV | La página oficial de estudiantes describe para educación superior la Beca Presidente de la República, aporte de 1,24 UTM por diez meses, administrado por JUNAEB; también distingue la BMES estatal y el Programa de Asistencia Económica UV, que consiste en préstamos sujetos a necesidad acreditada y permanencia como alumno regular. La candidata describe una beca monetaria propia, con RSH 60% y reevaluación anual, sin coincidir inequívocamente con ninguno de esos programas. [Programas y beneficios de estudiantes UV](https://historia.uv.cl/pregrado/estudiantes), [ámbitos de atención social DAE](https://dae.uv.cl/area-de-bienestar-estudiantil/ambitos-de-atencion-aass). | Pendiente. No convertir el préstamo institucional en beca ni atribuir a UV la BPR/BMES estatal. Falta fuente que conecte la identidad concreta de la candidata con alguna modalidad. |"
         ]
       }
     ],
@@ -17923,6 +17965,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399` — Beca Municipal para Estudios Superiores Talcahuano | La página municipal actual describe orientación y tramitación de beneficios sociales estatales, sin nombrar esta beca. El catastro de beneficios vinculado al sitio UCSC describe para Talcahuano una beca de apadrinamiento con nombre y objeto distintos; no entrega base de la ayuda general postulada. [Subsidios municipales](https://web2026.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios), [catastro de beneficios 2024](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf). | Pendiente. Las fuentes no acreditan cobertura, beneficio ni requisitos de esta candidata. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18177,6 +18226,13 @@
         "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
         "extractos": [
           "| `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a` — Beca Municipal Educación Superior Hualpén | La documentación municipal localizada menciona beca de residencia con la Universidad de Chile y gestión de becas estatales; no una transferencia anual municipal general. [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf), [Cuenta pública 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf). | Pendiente: conservar como identidad distinta de la beca de mantención/residencia hasta hallar bases exactas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a` — Beca Municipal Educación Superior Hualpén | La cuenta pública 2022 registra un convenio de residencia con la Universidad de Chile para diez egresados de liceos públicos; el PLADECO actual también describe orientación a ayudas estatales. Estas fuentes no identifican una transferencia general de mantención. [Cuenta pública 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf), [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf). | Pendiente. Mantener esta candidata separada de residencia y de la otra ficha de Hualpén hasta obtener bases propias. |"
         ]
       }
     ],
@@ -25983,6 +26039,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488` — Beca Municipal Enseñanza Superior Tierra Amarilla | SCM Carola documenta una beca propia para jóvenes de pueblos originarios de Tierra Amarilla, con aporte económico y requisitos de pertenencia indígena y matrícula superior. La misma compañía indica que el programa es suyo; no es la beca municipal genérica atribuida a la candidata. [Convocatoria de Becas Jóvenes de Pueblos Originarios](https://scmcarola.cl/becas-indigenas/), [entrega 2026](https://scmcarola.cl/scm-carola-impulsa-la-formacion-de-jovenes-de-pueblos-originarios-de-la-comuna-de-tierra-amarilla/). | Pendiente. No cambiar institución ni asociar los requisitos de SCM Carola con el registro municipal. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -29180,6 +29243,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` — Hualañé | Transparencia municipal consultada describe tramitación de becas estatales y ayudas sociales; no documenta la beca municipal de educación superior ni sus cuotas alegadas. [Trámites municipales 2025](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6), [beneficios propios 2025](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=11622&ig=430&m=11). | Pendiente: base o acto específico de la beca propia. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` — Beca Municipal Estudiantil Hualañé | Transparencia municipal lista para educación la postulación/renovación de Beca Presidente de la República y Beca Indígena, esta última descrita para básica y media. La Universidad de Chile registra un convenio de residencia SIPEE con Hualañé de 2017–2019, ya terminado; tampoco es prueba de una subvención general de educación superior. [Transparencia municipal](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6), [nómina y fin del convenio SIPEE](https://uchile.cl/presentacion/asuntos-academicos/financiamiento-y-becas/becas-pregrado/nominas-historicas-beneficiariosas-municipalidad-de-hualane). | Pendiente. Identidad y beneficio de la ficha no quedan establecidos; conservar separados beneficios JUNAEB y residencia SIPEE histórica. |"
         ]
       }
     ],
@@ -34609,6 +34679,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e` — Beca de Educación Superior Santa Bárbara | La página municipal 2026 describe un programa de empleo de verano para estudiantes, con 20 horas de trabajo y pago de $60.000; no es la beca anual de mantención descrita en el original. Una publicación oficial histórica de transparencia menciona la Beca Indígena administrada por JUNAEB, también distinta. [Programa municipal de empleo 2026](https://www.santabarbara.cl/santa-barbara-programa-pge-estudiantes/), [transparencia histórica](https://transparencia.santabarbara.cl/escort-trans/index.php?a=2006&action=plantillas_selec_archivo&ig=136). | Pendiente. No trasladar el pago por trabajo ni condiciones de Beca Indígena a la candidata. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -37353,6 +37430,13 @@
         "extractos": [
           "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` — Beca Municipal de Educación Superior Arica | La fuente municipal actual describe Residencia Familiar Estudiantil en convenio con JUNAEB, con alojamiento y apoyo integral; no confirma el pago anual de $250.000 alegado. [Residencia Familiar Estudiantil](https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral). | Pendiente: programa distinto y de cobertura diferente. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` — Beca Municipal de Educación Superior Arica | La Municipalidad describe una Residencia Familiar Estudiantil ejecutada en convenio con JUNAEB, con alojamiento, alimentación y apoyo integral para estudiantes de varios niveles. Su página de subvenciones regula aportes distintos y no identifica la beca individual de dinero indicada por la candidata. [Residencia JUNAEB](https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral), [subvenciones municipales](https://www.muniarica.cl/tramites/subvenciones-municipales). | Pendiente. No atribuir el convenio JUNAEB ni subvenciones a una beca municipal de mantención. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -38793,6 +38877,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac — Variante Beca Educación Superior Viña | La misma cuenta pública acredita el programa municipal histórico, pero no respalda el rango individual ni los requisitos de esta variante; el registro común no prueba duplicidad. [Cuenta Pública Viña 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf). | Pendiente: localizar bases y mantener variante sin fusionar. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md",
+        "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
+        "extractos": [
+          "| `fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac` — Beca de Educación Superior Viña del Mar | La cuenta pública 2023 identifica una línea de beca superior, pero no distingue las candidatas de ayuda anual y pasajes ni publica sus criterios o montos individuales. La página municipal consultada describe en cambio becas estatales administradas por JUNAEB. | Pendiente. La coincidencia de ciudad y nivel no resuelve la identidad entre candidatas; no fusionar. |"
         ]
       }
     ],
