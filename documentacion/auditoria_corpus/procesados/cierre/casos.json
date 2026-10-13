@@ -28128,9 +28128,9 @@
   },
   {
     "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
-    "nombre": "Beca Educación Superior Ilustre Municipalidad de Papudo",
+    "nombre": "Beca Municipal de Enseñanza Superior",
     "institucion": "Municipalidad de Papudo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
@@ -28221,13 +28221,42 @@
         "extractos": [
           "| `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c` — Beca Educación Superior Papudo | El PLADECO municipal enumera becas JUNAEB (incluidas Beca Presidente de la República e Indígena); no confirma el aporte municipal de $250.000 en dos cuotas afirmado por la ficha. [PLADECO municipal](https://munipapudo.cl/images/PLADECO/Plan%20Desarrollo%20Comunal.pdf). | Pendiente: localizar bases municipales específicas; no confundir programas JUNAEB. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_PAPUDO_2017_2026_10_12.md",
+        "informe_sha256": "7a15f0b011d9c9acb32826ac3eac64e6d709e33d769787b95a934db81454c0d2",
+        "extractos": [
+          "- Hash: `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c`\n- Registro original conservado en `originales.jsonl`.\n- Nombre normalizado a la denominación documentada: **Beca Municipal de Enseñanza Superior**."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
+      "revisado": "2026-10-12",
+      "alcance": "Identidad y existencia histórica de la Beca Municipal de Enseñanza Superior de Papudo en instrumentos de 2015 y 2017; no confirma condiciones ni convocatoria actual.",
+      "informe": "CONFIRMACION_ESENCIAL_PAPUDO_2017_2026_10_12.md",
+      "fuentes": [
+        "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf",
+        "https://www.municipalidadpapudo.cl/portal/planes/plan_de_salud_2015.pdf"
+      ],
+      "beneficio": "Apoyo municipal para estudiantes de educación superior. La cuenta pública 2017 registra 44 beneficiarios; no detalla importe individual ni modalidad de pago para esta categoría.",
+      "requisitos_principales": "La documentación municipal identifica a estudiantes de educación superior postulantes y renovantes; otros criterios y documentos desconocidos.",
+      "limites": "Evidencia histórica de 2015 y 2017. El monto de $250.000 en dos cuotas, RSH 60%, NEM 5,0, documentos y fechas del original no están respaldados por las fuentes citadas. Convocatoria actual y cierre desconocidos; mantener inactiva y fuera de búsqueda vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "cdc0dd04e0923e9868b12066bdcf8829aea20685da05f1fae092e39e024292ba",
