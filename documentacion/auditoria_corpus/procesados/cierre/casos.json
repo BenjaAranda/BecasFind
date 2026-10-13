@@ -25238,7 +25238,7 @@
     "candidato": "00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a",
     "nombre": "Beca PAES y Educación Superior Lebu 2026",
     "institucion": "Municipalidad de Lebu",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque19_muni.csv",
@@ -25343,13 +25343,43 @@
         "extractos": [
           "Fecha: 13 de octubre de 2026. Candidata `00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LEBU_CONTINUIDAD_2026.md",
+        "informe_sha256": "c6701f337b3f9d694fc8a91be3e7ec2100dea41cec6edfbb41187d806d88bd34",
+        "extractos": [
+          "Fecha de revisión: 13 de octubre de 2026. Candidata: `00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a",
+      "revisado": "2026-10-13",
+      "alcance": "Identidad esencial y aporte económico municipal para continuidad de estudios superiores en Lebu; no confirma convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_LEBU_CONTINUIDAD_2026.md",
+      "fuentes": [
+        "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
+        "https://lebu.cl/municipalidad/",
+        "https://www.ventanillaunicasocial.gob.cl/ficha/260/beca-prueba-admision-educacion-superior"
+      ],
+      "beneficio": "Aporte económico para continuidad de estudios superiores. Monto y periodicidad: no especificados en la fuente 2026.",
+      "requisitos_principales": "Estudiantes con continuidad de estudios en educación superior; criterios adicionales: no especificados en la fuente 2026.",
+      "limites": "La fuente es una recopilación institucional UCSC que identifica el beneficio municipal y da contacto municipal; no son bases del otorgante. Se separa de la Beca PAES estatal. RSH, NEM, documentos, monto, periodicidad y fechas no especificados. No activar sin convocatoria y fecha de cierre confirmadas.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "No especificado en la fuente consultada.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "9c63f664610f354234d869125ae44862d9d795112f1a3aa9b32b49b189a1143f",

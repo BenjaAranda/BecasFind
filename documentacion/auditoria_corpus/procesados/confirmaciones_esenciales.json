@@ -10128,5 +10128,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad esencial y aporte económico municipal para continuidad de estudios superiores en Lebu; no confirma convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_LEBU_CONTINUIDAD_2026.md",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
+      "https://lebu.cl/municipalidad/",
+      "https://www.ventanillaunicasocial.gob.cl/ficha/260/beca-prueba-admision-educacion-superior"
+    ],
+    "beneficio": "Aporte económico para continuidad de estudios superiores. Monto y periodicidad: no especificados en la fuente 2026.",
+    "requisitos_principales": "Estudiantes con continuidad de estudios en educación superior; criterios adicionales: no especificados en la fuente 2026.",
+    "limites": "La fuente es una recopilación institucional UCSC que identifica el beneficio municipal y da contacto municipal; no son bases del otorgante. Se separa de la Beca PAES estatal. RSH, NEM, documentos, monto, periodicidad y fechas no especificados. No activar sin convocatoria y fecha de cierre confirmadas.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificado en la fuente consultada.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
