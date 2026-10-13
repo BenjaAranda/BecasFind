@@ -1,6 +1,6 @@
 # Contraste oficial adicional municipal — 13 de octubre de 2026
 
-Se revisaron fuentes institucionales nuevas para cuatro candidatas todavía abiertas. El objetivo fue comprobar identidad, tipo de beneficio y población; los anuncios o programas próximos no sustituyen las bases de la ficha.
+Se revisaron fuentes institucionales nuevas para cinco candidatas todavía abiertas. El objetivo fue comprobar identidad, tipo de beneficio y población; los anuncios o programas próximos no sustituyen las bases de la ficha.
 
 ## Villa Alemana
 
@@ -34,6 +34,14 @@ Fuente: [Municipalidad de Arica: Programa de Residencia Familiar Estudiantil](ht
 
 **Resultado:** las candidatas municipales genéricas de Arica siguen abiertas. No se equipara el programa JUNAEB con la ayuda descrita en ellas.
 
+## Estación Central
+
+Las bases municipales indexadas de **Becas Talento Centralino 2026** describen categorías académica, deportiva y artística; solicitan RSH en la comuna y documentos de residencia. El decreto municipal de adjudicación indica 50 beneficiarios y un aporte anual único de $1.000.000. La candidata pendiente se titula de forma genérica como beca para educación superior y sus originales describen una beca de mantención con monto variable, RSH máximo 60% y NEM mínimo 5,0. La evidencia de Talento Centralino no respalda esas condiciones y no demuestra que el registro genérico sea esa misma línea. El enlace PDF oficial hoy redirige al portal municipal, por lo que los datos provienen del contenido indexado del documento oficial y del texto indexado del decreto.
+
+Fuentes oficiales: [bases de Becas Talento Centralino 2026](https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf) y [decreto de adjudicación 2026](https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf).
+
+**Resultado:** permanece `REQUIERE_ACLARACION`. Hay evidencia de una beca municipal distinta o posiblemente relacionada, pero hace falta vincular la ficha original con Talento Centralino o localizar las bases de la modalidad de mantención antes de corregirla.
+
 ## Control
 
-Estas fuentes añaden evidencia concreta y delimitan diferencias; no completan todos los campos necesarios para la confirmación esencial de las candidatas. Ningún registro se elimina, fusiona o activa por este contraste. Las condiciones no publicadas quedan desconocidas y las cuatro candidatas continúan en la cola con su estado previo.
+Estas fuentes añaden evidencia concreta y delimitan diferencias; no completan todos los campos necesarios para la confirmación esencial de las candidatas. Ningún registro se elimina, fusiona o activa por este contraste. Las condiciones no publicadas quedan desconocidas y las cinco candidatas continúan en la cola con su estado previo.
