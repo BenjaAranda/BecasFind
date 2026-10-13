@@ -324,6 +324,13 @@
         "extractos": [
           "- `bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0` — “Beca Municipal Educación Superior La Florida”. La ordenanza es pertinente al nivel superior, pero no confirma importe, requisitos principales ni identidad de la modalidad que describen los datos originales. Mantener `REQUIERE_ACLARACION`.\n- `3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be` — “Beca Municipal de Educación Superior La Florida”. El mismo marco podría ser pertinente, pero no identifica esta variante en particular ni confirma el rango monetario original. No se declara duplicada con la candidata anterior solo por comuna y nombre parecido. Mantener `REQUIERE_ACLARACION`.\n\nNo se ratifica ningún descarte. El paso pendiente es recuperar el articulado de la Ordenanza 127 y las bases o convocatorias que enlacen cada candidata con una modalidad concreta. Mientras tanto, permanecen sin confirmar el monto, los cortes RSH/NEM, los documentos y las fechas atribuidos.\n\nFuentes oficiales: [PLADECO La Florida 2024–2029, registro de Ordenanza 127](https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf); [plataforma municipal de Beca Escolar 2026](https://appx.laflorida.cl/beca_escolar/); [iniciativas del PLADECO](https://pladeco.laflorida.cl/v3/main.php)."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -437,7 +444,7 @@
     "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
     "nombre": "Beca Municipal Educación Superior Villa Alemana",
     "institucion": "Municipalidad de Villa Alemana",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -553,7 +560,28 @@
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; fecha_inicio; monto",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+      "revisado": "2026-10-13",
+      "alcance": "Existencia histórica de la beca municipal para estudiantes de educación superior creada en el presupuesto 2025; no confirma monto, requisitos, convocatoria ni vigencia posterior.",
+      "informe": "CONFIRMACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2025_2026_10_13.md",
+      "fuentes": [
+        "https://munivillalemana.gob.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/"
+      ],
+      "beneficio": "Beca municipal dirigida en términos generales a estudiantes de educación superior; monto y cobertura específica: No especificado.",
+      "requisitos_principales": "Estudiar educación superior; otros requisitos: No especificado.",
+      "limites": "Creación identificada en el presupuesto 2025. No se confirman las reglas de la ficha original, una convocatoria vigente ni un cierre. No activar/publicar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "No especificado.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
@@ -18496,6 +18524,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "| `1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc` — San Miguel | [Acta oficial del Concejo, sesión 548](https://web.sanmiguel.cl/agosto/ABRIL%202024/ACTAS%20PARA%20TRANSPARENCIA/SESION%20548%20CONCEJO.pdf); [acta oficial del Concejo, sesión 629](https://web.sanmiguel.cl/agosto/actas%20junio/SESION%20629%20CONCEJO.pdf) | Las actas describen becas en convenio con la Universidad Autónoma y decisiones de una comisión municipal. No corroboran la beca general DIDECO de libre disposición, RSH 60%, NEM 5,0 ni el monto atribuido. La línea exacta requiere convenio o bases que coincidan con la candidata. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -22128,6 +22163,13 @@
         "extractos": [
           "- **Peñaflor** (`f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1`): la entrega municipal publicada en marzo de 2026 fue de gift cards para ropa, calzado y útiles de estudiantes escolares. No coincide con una beca monetaria de educación superior. La candidata permanece abierta; el contraste no demuestra que nunca exista otra modalidad. [Noticia municipal de marzo de 2026](https://penaflor.cl/alcalde-rodrigo-cornejo-triplica-el-apoyo-social-para-estudiantes-de-penaflor/).\n\n- **Caldera** (`a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777`): Mercado Público muestra una licitación municipal 2026 de suministro de pasajes a Copiapó para estudiantes de educación superior/técnico profesional. La ficha es una beca de aporte general; el proceso de transporte tiene objeto y descripción territorial distintos y además figura desierto. No se consolida ni se atribuye su alcance al registro. [Licitación 4192-8-LP26](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl+sAH7Zlm%2FV%2FoYUw%3D%3D).\n\n- **Mejillones** (`10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2`): el archivo municipal de postulantes 2023 y la cuenta pública comunal corroboran que existió una línea municipal de becas de enseñanza superior. No sustentan por sí solos los requisitos, el monto ni el calendario que la candidata atribuye a 2026. Se mantiene revisión parcial, sin trasladar las reglas de otro año. [Listado municipal 2023](https://mejillones.cl/wp-content/uploads/2023/04/Listado-Beneficiarios-Becas-2023.pdf) · [Cuenta Pública](https://mejillones.cl/wp-content/uploads/2023/05/CUENTA-VISTA_compressed.pdf).\n\n- **Victoria** (`c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`): la transparencia municipal muestra ayuda social para emergencias, mientras que las noticias de becas identifican programas de CMPC/JUNAEB. No confirman una beca municipal general de educación superior. Mantener abierta. [Transparencia de subsidios](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/) · [Beca de Excelencia CMPC 2025](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/).",
           "| Beca Municipal para Estudiantes de Educación Superior Peñaflor | `f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1` | este anexo; `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -31139,6 +31181,13 @@
         "extractos": [
           "| Beca Municipal Estudiantil Hualañé | `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` — Hualañé | [Transparencia municipal, ayudas de julio de 2026](https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12956&ig=677&m=7); [decreto municipal 2019 de beca en convenio con la Universidad de Chile](https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_archivo&ia=9984&ig=411&m=12) | La fuente 2026 documenta ayudas sociales para traslados escolares; el decreto 2019 adjudica una beca específica en convenio con la Universidad de Chile. Ninguna confirma las dos cuotas de $50.000, NEM 5,0, RSH 60% ni documentos de la candidata, y las modalidades no deben fusionarse. Falta identificar las bases de la beca DIDECO descrita. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -36940,6 +36989,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "| `a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e` — Santa Bárbara | [Vivienda para estudiantes de educación superior](https://historico.santabarbara.cl/noticias-de-la-comuna-historico/educacion/item/1924-estudiantes-de-educacion-superior-reciben-beneficio-municipal-unico-en-su-tipo-en-la-region) | La Municipalidad documenta alojamiento en viviendas arrendadas y equipadas para estudiantes en Concepción, Los Ángeles y Temuco. No es el aporte monetario anual de $200.000 que afirma la candidata. No se identifica si existe una línea financiera separada; monto, RSH, NEM, documentos y fechas de la candidata siguen sin fuente específica. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -37995,6 +38051,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_BLOQUE_3_2026_10_13.md",
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -41781,6 +41844,13 @@
         "informe_sha256": "27bccd7ddad71ac2eca558bcc1fe9db88db21040fccc5aeaac1cd7bfd79b03ca",
         "extractos": [
           "- `3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be` — “Beca Municipal de Educación Superior La Florida”. El mismo marco podría ser pertinente, pero no identifica esta variante en particular ni confirma el rango monetario original. No se declara duplicada con la candidata anterior solo por comuna y nombre parecido. Mantener `REQUIERE_ACLARACION`.\n\nNo se ratifica ningún descarte. El paso pendiente es recuperar el articulado de la Ordenanza 127 y las bases o convocatorias que enlacen cada candidata con una modalidad concreta. Mientras tanto, permanecen sin confirmar el monto, los cortes RSH/NEM, los documentos y las fechas atribuidos.\n\nFuentes oficiales: [PLADECO La Florida 2024–2029, registro de Ordenanza 127](https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf); [plataforma municipal de Beca Escolar 2026](https://appx.laflorida.cl/beca_escolar/); [iniciativas del PLADECO](https://pladeco.laflorida.cl/v3/main.php)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PROGRAMAS_DISTINTOS_2026_10_13.md",
+        "informe_sha256": "66af178b7e87721410093b438dc174b885079309632e0b8305dbec5e906600d8",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],

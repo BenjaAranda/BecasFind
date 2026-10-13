@@ -10085,5 +10085,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia histórica de la beca municipal para estudiantes de educación superior creada en el presupuesto 2025; no confirma monto, requisitos, convocatoria ni vigencia posterior.",
+    "informe": "CONFIRMACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2025_2026_10_13.md",
+    "fuentes": [
+      "https://munivillalemana.gob.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/"
+    ],
+    "beneficio": "Beca municipal dirigida en términos generales a estudiantes de educación superior; monto y cobertura específica: No especificado.",
+    "requisitos_principales": "Estudiar educación superior; otros requisitos: No especificado.",
+    "limites": "Creación identificada en el presupuesto 2025. No se confirman las reglas de la ficha original, una convocatoria vigente ni un cierre. No activar/publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificado.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

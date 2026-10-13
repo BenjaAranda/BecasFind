@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 62 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 468 confirmación esencial: faltan 94 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 61 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 469 confirmación esencial: faltan 93 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 32 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 4 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -8,8 +8,8 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 
 | Archivo | Registros | Becas únicas | Revisión parcial | Confirmadas esenciales | Descartadas ratificadas | Exclusiones históricas pendientes | Sin revisión individual | Pendientes de cierre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| auditoria_municipal.csv | 16 | 16 | 6 | 9 | 1 | 0 | 0 | 6 |
-| auditoria_municipal_fix.csv | 16 | 16 | 6 | 9 | 1 | 0 | 0 | 6 |
+| auditoria_municipal.csv | 16 | 16 | 5 | 10 | 1 | 0 | 0 | 5 |
+| auditoria_municipal_fix.csv | 16 | 16 | 5 | 10 | 1 | 0 | 0 | 5 |
 | beca_uai_fix.csv | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | becas_aiep.csv | 5 | 5 | 0 | 5 | 0 | 0 | 0 | 0 |
 | becas_cftenac.csv | 6 | 6 | 0 | 0 | 0 | 6 | 0 | 6 |
@@ -65,7 +65,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque14_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 0 | 3 |
 | bloque15_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
 | bloque16_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
-| bloque17_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
+| bloque17_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
 | bloque18_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
 | bloque19_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
 | bloque20_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
@@ -100,6 +100,6 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | municipalidades_auditadas.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | municipalidades_bloque3.csv | 4 | 4 | 1 | 3 | 0 | 0 | 0 | 1 |
 | municipalidades_final.csv | 2 | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
-| municipalidades_urbano.csv | 5 | 5 | 2 | 3 | 0 | 0 | 0 | 2 |
+| municipalidades_urbano.csv | 5 | 5 | 1 | 4 | 0 | 0 | 0 | 1 |
 
 Reproducir: `python infra/report-corpus-progress.py`. No consulta fuentes, modifica originales ni certifica automáticamente. Los informes enlazados contienen el alcance y límites de cada revisión.
