@@ -1,4 +1,4 @@
-# Contraste oficial adicional de ocho candidatas — 13 de octubre de 2026
+# Contraste oficial adicional de nueve candidatas — 13 de octubre de 2026
 
 Se revisaron nuevas fuentes oficiales para El Monte, Mejillones y Santa Bárbara. Los documentos acreditan antecedentes educativos municipales o programas distintos, pero no resuelven por sí solos la identidad y condiciones de las fichas actuales. Se conservan los registros originales y sus estados abiertos. No se usaron resultados negativos como prueba de inexistencia.
 
@@ -64,6 +64,14 @@ La Cuenta Pública municipal 2024 documenta la coordinación local de becas JUNA
 
 Fuente: [Municipalidad de Talca — Cuenta Pública 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf).
 
+## Villa Alemana — `c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715`
+
+Una publicación oficial sobre la aprobación del presupuesto municipal 2025 afirma que se creó una beca para estudiantes de educación superior. Esto confirma la existencia de una línea municipal con ese propósito y coincide en identidad general con la candidata. La noticia no informa el monto, destinatarios más específicos, requisitos, documentos ni calendario. Los antecedentes del registro atribuyen montos anuales variables y requisitos de RSH y promedio que esta fuente no respalda. Además, uno de los valores quedó truncado como “.000 y .000”, por lo que no se puede reconstruir.
+
+**Resultado:** mantener `REQUIERE_ACLARACION`. La existencia general queda respaldada, pero faltan el beneficio y los requisitos principales para una confirmación esencial. No publicar ni reparar los importes o condiciones sin bases, convocatoria o ficha municipal específica.
+
+Fuente: [Municipalidad de Villa Alemana — aprobación del presupuesto 2025](https://villalemana.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/).
+
 ## Estado de estas revisiones
 
-Ocho contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las ocho fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta. Vigencia publicable sigue siendo un control separado.
+Nueve contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las nueve fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta, aunque para Villa Alemana sí queda acreditada la existencia general de una beca municipal de educación superior. Vigencia publicable sigue siendo un control separado.
