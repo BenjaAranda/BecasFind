@@ -639,3 +639,7 @@ No se acredita equivalencia del alias histórico con una modalidad oficial espec
 [Fuentes y contraste individual](REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md).
 
 Se excluyen todas las versiones de este candidato de la selección para publicar; no se elige una cobertura ni elegibilidad sin respaldo.
+
+## Addendum: reapertura por evidencia nueva del 13 de octubre de 2026
+
+La exclusión histórica de `61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4` queda supersedida. La revisión actual confirmó esencialmente la categoría institucional de Becas Socioeconómicas UDD y su finalidad de apoyo para cubrir matrícula o arancel según necesidad económica. Se conserva este apartado como antecedente, pero ya no se cuenta como descarte ni como pendiente. Ver [confirmación esencial](CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md). La decisión no ratifica el 50%, RSH 60%, documentos ni calendario del original.

@@ -10151,5 +10151,48 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia y finalidad general publicada de las Becas Socioeconómicas UDD; no certifica convocatoria abierta ni cuantía individual.",
+    "informe": "CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md",
+    "fuentes": [
+      "https://donaciones.udd.cl/?page_id=107369",
+      "https://www.udd.cl/dircom/reglamentos/Reglamento-de-becas.pdf"
+    ],
+    "beneficio": "Apoyo para cubrir total o parcialmente matrícula y/o arancel por necesidad socioeconómica; monto/modalidad individual desconocidos.",
+    "requisitos_principales": "Estudiante que por motivos personales o familiares no puede cubrir total o parcialmente matrícula y/o arancel; condiciones particulares se fijan anualmente.",
+    "limites": "No verificados: 50%, RSH 60%, documentos, renovación ni calendario atribuidos al original. Cierre actual desconocido; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia histórica y modalidades esenciales de Aportes Sociales para la Educación Superior de Coquimbo; no confirma convocatoria 2026 ni monto individual.",
+    "informe": "CONFIRMACION_ESENCIAL_COQUIMBO_APORTES_SOCIALES_2026_10_13.md",
+    "fuentes": [
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
+    ],
+    "beneficio": "Apoyo económico en modalidad de cofinanciamiento de arancel anual o aporte para residencia fuera de la Región de Coquimbo; cuantía individual actual desconocida.",
+    "requisitos_principales": "Estudiantes de Coquimbo que iniciaron o cursan educación superior o técnico-profesional. La fuente vincula residencia fuera de la región con gratuidad o becas Mineduc y evaluación socioeducativa respaldada por informe social.",
+    "limites": "La fuente describe convocatoria histórica y datos de 2018. No confirma $200.000 en dos cuotas, RSH 60%, NEM 5,5, documentos ni cierre 2026. El requisito de gratuidad corresponde a residencia y no debe extrapolarse al aporte de arancel. Mantener inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

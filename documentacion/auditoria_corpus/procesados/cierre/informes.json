@@ -1049,7 +1049,7 @@
     ]
   },
   "DESCARTE_EDITORIAL_INSTITUCIONES_53.md": {
-    "sha256": "deff2d123b5bcbc53afd5f7a426919adc246c09b6f312465e5f7223be3c10c4e",
+    "sha256": "90d3e33ed44b4b416d7779c28f9f02a716146e932262596447f02efd9318e5cd",
     "urls": []
   },
   "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md": {
@@ -3079,6 +3079,19 @@
       "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
       "https://lebu.cl/municipalidad/",
       "https://www.ventanillaunicasocial.gob.cl/ficha/260/beca-prueba-admision-educacion-superior"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md": {
+    "sha256": "eeede8728bac0c8564e5058737010eb5d74594af9ae27e45814b6e3040120bb2",
+    "urls": [
+      "https://donaciones.udd.cl/?page_id=107369",
+      "https://www.udd.cl/dircom/reglamentos/Reglamento-de-becas.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_COQUIMBO_APORTES_SOCIALES_2026_10_13.md": {
+    "sha256": "e4771fac95d827a949070c4e08968f5f8e58af91e338755aa6e82a22f2894ce9",
+    "urls": [
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
     ]
   }
 }
