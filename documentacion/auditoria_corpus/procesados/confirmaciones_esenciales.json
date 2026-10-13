@@ -9996,5 +9996,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2",
+    "revisado": "2026-10-13",
+    "alcance": "Confirma la existencia de becas municipales de educación superior documentadas históricamente, identidad institucional municipal y apoyo económico agregado; no certifica convocatoria ni vigencia 2026.",
+    "informe": "CONTRASTE_FUENTES_PRIMARIAS_UCT_ENAC_MEJILLONES_2026_10_13.md",
+    "fuentes": [
+      "https://mejillones.cl/wp-content/uploads/2025/05/CUENTA-MEJILLONES-WEB.pdf",
+      "https://www.mejillones.cl/wp-content/uploads/2010/09/Cuenta-P%C3%BAblica-2009.pdf"
+    ],
+    "beneficio": "Cuenta Pública 2024: becas de enseñanza media y superior para 655 estudiantes; inversión agregada $125.400.000, sin desglose por nivel ni monto individual. Cuenta Pública 2009: aportes en dinero a 179 estudiantes superiores que estudiaban fuera de la comuna; total $36.750.000.",
+    "requisitos_principales": "La fuente 2024 identifica estudiantes de enseñanza media y superior. La fuente 2009 identifica educación superior y estudios fuera de la comuna. No afirma requisitos actuales de residencia, RSH, notas o selección.",
+    "limites": "Confirmación esencial limitada a la existencia histórica y naturaleza del apoyo municipal. Las cuentas 2021/2022 también reportan apoyos superiores, pero no publican reglas candidatas. Los umbrales RSH 60%, promedio 5,0, monto individual, periodicidad, documentos y fechas de la ficha no se corroboran. Convocatoria 2026 no confirmada; no activar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
