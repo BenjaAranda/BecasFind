@@ -9971,5 +9971,30 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
+    "revisado": "2026-10-13",
+    "alcance": "Confirmación esencial histórica de Beca Municipal para apoyo a estudiantes; no confirma convocatoria abierta en 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_CHANARAL_2026_10_13.md",
+    "fuentes": [
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202014.pdf",
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202015.pdf",
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202013.pdf",
+      "https://www.munichanaral.cl/new_graduacion_liceo_24.html",
+      "https://www.munichanaral.cl/pdf/Cuenta_Publica_2024.pdf"
+    ],
+    "beneficio": "Beca municipal para apoyo a estudiantes; una fuente de 2024 documenta pago de matrícula de educación superior. Importe por persona y uso libre desconocidos.",
+    "requisitos_principales": "Fuentes históricas documentan criterio académico y seguimiento socioeconómico para estudiantes; umbral de notas y corte RSH no verificables.",
+    "limites": "No confirma monto anual libre, RSH 70%, NEM 5,0, documentos, fechas ni convocatoria 2026. No mezclar con Beca Técnica Municipal, pasajes, trabajo de verano ni aportes separados de matrícula/arancel. Mantener desconocidos y no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
