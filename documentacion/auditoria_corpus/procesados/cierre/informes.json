@@ -2369,7 +2369,7 @@
     ]
   },
   "CONTRASTE_UNIVERSITARIO_ADICIONAL_2026_10_12.md": {
-    "sha256": "43df6e888009597f5a5a8abcbc482e8e6687ff06c7fc8fe0cfcfe23b9441644a",
+    "sha256": "86d2be76d1250004e6d3641a32979b698dafc635879b2c4edbaff64a8614fb1e",
     "urls": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://admision.uct.cl/becas-y-creditos/",
@@ -2378,7 +2378,8 @@
       "https://portal.inacap.cl/w/inacap-lanza-plan-40/40-un-beneficio-exclusivo-para-titulados-con-un-40-de-descuento-en-cursos-y-diplomados-stem",
       "https://www.ucsh.cl/becas-y-beneficios/",
       "https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html",
-      "https://www.unap.cl/prontus_unap/site/edic/base/port/bienestar_estudiantil.html"
+      "https://www.unap.cl/prontus_unap/site/edic/base/port/bienestar_estudiantil.html",
+      "https://zonaestudiantes.ucsh.cl/documentos/Instructivo_GraL_Ayudas_Estudiantiles_UCSH.pdf"
     ]
   },
   "CONTRASTE_FUENTES_OFICIALES_ADICIONALES_2026_10_12.md": {
@@ -2430,6 +2431,16 @@
     "sha256": "ed3481b5ac90f317452cb502a8d20ad122a19e9667d7cb62df790f01573b1f74",
     "urls": [
       "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf"
+    ]
+  },
+  "REVISION_COQUIMBO_APORTE_SOCIAL_2019_2026_10_12.md": {
+    "sha256": "128670599983e989f29dc804ecf64e04f5fcda9425bca9a79e1712bcc4df2702",
+    "urls": [
+      "https://datos.gob.cl/dataset/aporte-social-estudios-superiores-ano-2022",
+      "https://portaluchile.uchile.cl/convocatorias/beca-de-residencia-sipee-municipalidades",
+      "https://uchile.cl/dam/jcr:e1094b5a-3b5d-4cbf-9863-35518ed56fea/convenio-municipalidad-de-coquimbo.pdf",
+      "https://uchile.cl/presentacion/asuntos-academicos/financiamiento-y-becas/becas-pregrado/nominas-historicas-beneficiariosas-municipalidad-de-coquimbo",
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
     ]
   }
 }
