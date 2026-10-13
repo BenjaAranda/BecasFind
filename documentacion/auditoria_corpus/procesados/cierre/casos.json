@@ -18705,6 +18705,13 @@
         "extractos": [
           "| 35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313 — Variante DIDECO Valdivia | El convenio municipal–USS de 2005 y las becas deportivas municipales de 2025 son programas con población o finalidad distinta; no verifican esta ayuda DIDECO de libre disposición. [Convenio municipal–USS](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm), [Becas deportivas Valdivia 2025](https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/). | Pendiente: conservar variantes separadas hasta obtener acto o bases de cada una. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_VALDIVIA_2_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "ba8b072d3a9e3680f7d0f1d1500e7a88e29f0ec4a808ce27c80d9e187e0d108d",
+        "extractos": [
+          "## Beca Municipal para Estudiantes de Educación Superior — `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`\n\nEl registro comparte con la candidata anterior el municipio y la descripción de subsidio municipal de mantención de libre disposición. Sus antecedentes originales deben conservarse como una fila separada mientras no haya evidencia que demuestre identidad documental. Las fuentes municipales de 2004–2005 descritas arriba confirman una beca escolar de implementos, y el convenio con la Universidad San Sebastián confirma becas para funcionarios y familiares; ninguna confirma el programa general de educación superior de esta candidata.\n\n**Resultado:** no fusionar ambas candidatas ni sustituirlas por la beca escolar o el convenio de la USS. Mantener pendiente de aclaración individual hasta recuperar las bases o el acto administrativo del beneficio superior."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -28422,7 +28429,7 @@
     "candidato": "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
     "nombre": "Beca de Educación Superior Maria Elena",
     "institucion": "Municipalidad de Maria Elena",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
@@ -28485,13 +28492,42 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_MARIA_ELENA_HISTORICA_2026_10_13.md",
+        "informe_sha256": "85e7a260d1ded099c27460b52691b8015ba3c1ac852b0c60fd0915529e430ef9",
+        "extractos": [
+          "- Hash: `0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b`\n- Registro original: «Beca de Educación Superior Maria Elena», Municipalidad de María Elena.\n- Fuentes oficiales específicas: [Cuenta Pública de Secretaría Municipal 2015](https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf) y [trámites y requisitos municipales — Beca Enseñanza Superior](https://transparencia.imme.cl/archivo_11078.php)."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
+      "revisado": "2026-10-13",
+      "alcance": "Línea municipal histórica “Beca municipal, enseñanza superior 2015”; la fuente de trámites institucional enumera requisitos de la Beca Enseñanza Superior, sin fecharlos como convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_MARIA_ELENA_HISTORICA_2026_10_13.md",
+      "fuentes": [
+        "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
+        "https://transparencia.imme.cl/archivo_11078.php"
+      ],
+      "beneficio": "Beca municipal para educación superior; modalidad de pago y cobertura desconocidas.",
+      "requisitos_principales": "Acreditar cada semestre alumno regular y mantener situación socioeconómica que originó el beneficio; la fuente también indica continuidad de alumno regular y rendimiento académico igual o superior a 5,0.",
+      "limites": "No se confirman $300.000, cuota única, cofinanciamiento minero, duración mínima de carrera, RSH 60%, documentos ni fechas 2026. La información no acredita convocatoria o vigencia actual; mantener inactiva y fuera de búsqueda vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
@@ -37011,6 +37047,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18 — Beca Municipal Valdivia | La fuente municipal de 2005 documenta un convenio con USS de 20% de rebaja para funcionarios, sus hijos y escolares municipales con promedio mínimo 5,0; no acredita el subsidio general de mantención de esta candidata. [Convenio municipal–USS](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm). | Pendiente: aclarar si se trata del convenio histórico u otra ayuda municipal. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALDIVIA_2_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "ba8b072d3a9e3680f7d0f1d1500e7a88e29f0ec4a808ce27c80d9e187e0d108d",
+        "extractos": [
+          "## Beca Municipal para Estudiantes de Educación Superior Valdivia — `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18`\n\nLa candidata atribuye un subsidio municipal de mantención de libre disposición, con RSH hasta 60% y promedio 5,0. La noticia oficial de 2004 denomina “Beca municipal de Implementos escolares” a un aporte por única vez de $30.000 dirigido a estudiantes de segundo a cuarto medio de colegios municipales, seleccionado mediante puntuación socioeconómica entre quienes no recibieron la Beca Presidente de la República. La publicación municipal de 2005 confirma el mismo objetivo escolar, monto y población. No corresponde a educación superior ni a libre disposición.\n\nLa noticia oficial sobre el convenio Municipalidad–Universidad San Sebastián informa seis becas para funcionarios municipales y sus hijos, con rebaja de arancel del 20% durante la carrera. Es una modalidad de convenio con población destinataria distinta, no un subsidio general DIDECO ni prueba de RSH 60% o nota 5,0.\n\n**Resultado:** no se confirma la identidad, el monto, elegibilidad ni vigencia de la candidata. Mantener pendiente hasta localizar la norma o convocatoria específica del subsidio superior atribuido."
         ]
       }
     ],

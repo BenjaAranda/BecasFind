@@ -10147,7 +10147,7 @@
       "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b"
     ],
     "nombre_de_referencia": "Beca de Educación Superior Maria Elena",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
@@ -10156,12 +10156,15 @@
         "institucion_original": "Municipalidad de Maria Elena"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Informe de secretaría 2015 identifica aprobación del programa de educación superior. Falta contenido del reglamento: beneficio y elegibilidad.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Línea municipal histórica Beca municipal, enseñanza superior 2015; página oficial de trámites publica Beca Enseñanza Superior.",
+    "beneficio_verificado": "Beca municipal para educación superior; modalidad de pago y cobertura desconocidas.",
+    "requisitos_principales_verificados": "Alumno regular acreditado cada semestre; mantener situación socioeconómica de origen; rendimiento académico igual o superior a 5,0 indicado en página municipal.",
+    "limites": "Monto, cuota, cofinanciamiento minero, RSH 60%, documentos y fechas 2026 no respaldados. No acredita vigencia; mantener inactiva y fuera de búsqueda vigente.",
+    "fuentes_verificadas_del_expediente": [
+      "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
+      "https://transparencia.imme.cl/archivo_11078.php"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_MARIA_ELENA_HISTORICA_2026_10_13.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },

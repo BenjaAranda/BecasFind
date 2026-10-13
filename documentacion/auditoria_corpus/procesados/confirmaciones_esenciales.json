@@ -9905,5 +9905,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
+    "revisado": "2026-10-13",
+    "alcance": "Línea municipal histórica “Beca municipal, enseñanza superior 2015”; la fuente de trámites institucional enumera requisitos de la Beca Enseñanza Superior, sin fecharlos como convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_MARIA_ELENA_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
+      "https://transparencia.imme.cl/archivo_11078.php"
+    ],
+    "beneficio": "Beca municipal para educación superior; modalidad de pago y cobertura desconocidas.",
+    "requisitos_principales": "Acreditar cada semestre alumno regular y mantener situación socioeconómica que originó el beneficio; la fuente también indica continuidad de alumno regular y rendimiento académico igual o superior a 5,0.",
+    "limites": "No se confirman $300.000, cuota única, cofinanciamiento minero, duración mínima de carrera, RSH 60%, documentos ni fechas 2026. La información no acredita convocatoria o vigencia actual; mantener inactiva y fuera de búsqueda vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
