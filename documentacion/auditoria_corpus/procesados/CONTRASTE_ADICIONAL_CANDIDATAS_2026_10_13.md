@@ -1,4 +1,4 @@
-# Contraste oficial adicional de nueve candidatas — 13 de octubre de 2026
+# Contraste oficial adicional de diez candidatas — 13 de octubre de 2026
 
 Se revisaron nuevas fuentes oficiales para El Monte, Mejillones y Santa Bárbara. Los documentos acreditan antecedentes educativos municipales o programas distintos, pero no resuelven por sí solos la identidad y condiciones de las fichas actuales. Se conservan los registros originales y sus estados abiertos. No se usaron resultados negativos como prueba de inexistencia.
 
@@ -72,6 +72,14 @@ Una publicación oficial sobre la aprobación del presupuesto municipal 2025 afi
 
 Fuente: [Municipalidad de Villa Alemana — aprobación del presupuesto 2025](https://villalemana.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/).
 
+## Tocopilla — `a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d`
+
+La ficha oficial de DIDECO asigna a la unidad la función de difundir, gestionar y entregar beneficios económicos mediante la “Beca Municipal”. La Cuenta Pública municipal 2025 (gestión 2024) incluye un “Programa de Becas para la Educación Superior”, pero lo ubica en cartera pendiente, en etapa de diseño y construcción. Estas fuentes respaldan una función municipal de becas y una iniciativa superior planificada; no muestran que el programa específico ya haya entregado el subsidio anual descrito por el registro. Tampoco acreditan monto, promedio 5,0, tramo RSH 60%, documentos ni fechas.
+
+**Resultado:** mantener `REQUIERE_ACLARACION`. La existencia de una función municipal de becas y de una iniciativa de educación superior no confirma el beneficio ni sus requisitos principales. Se necesita la convocatoria, bases, decreto o nómina vinculada al programa ejecutado.
+
+Fuentes: [Municipalidad de Tocopilla — Dirección de Desarrollo Comunitario](https://imtocopilla.cl/direccion-de-desarrollo-comunitario/); [Municipalidad de Tocopilla — Cuenta Pública 2025, gestión 2024](https://imtocopilla.cl/download/22874/?tmstv=1746030338).
+
 ## Estado de estas revisiones
 
-Nueve contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las nueve fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta, aunque para Villa Alemana sí queda acreditada la existencia general de una beca municipal de educación superior. Vigencia publicable sigue siendo un control separado.
+Diez contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las diez fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta, aunque para Villa Alemana queda acreditada la creación de una beca de educación superior y para Tocopilla una línea municipal de becas junto a un programa superior aún en diseño. Vigencia publicable sigue siendo un control separado.
