@@ -10018,5 +10018,72 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia y cobertura agregada histórica 2022–2023 de la Beca Educación Superior municipal; no certifica reglas individuales ni convocatoria vigente.",
+    "informe": "CONFIRMACION_VINA_EDUCACION_SUPERIOR_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "beneficio": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "requisitos_principales": "Estudiar educación superior. Otros requisitos y criterios de selección: No especificado en las cuentas públicas consultadas.",
+    "limites": "Importes y fechas 2026 de los registros de origen no corroborados. No dividir presupuesto por estudiantes para inferir monto individual. No publicar como vigente sin convocatoria/cierre confirmados. Dos candidatas quedan asociadas al mismo rótulo institucional histórico; no se declara duplicidad sin evidencia individual suficiente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia y cobertura agregada histórica 2022–2023 de la Beca Educación Superior municipal; no certifica reglas individuales ni convocatoria vigente.",
+    "informe": "CONFIRMACION_VINA_EDUCACION_SUPERIOR_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "beneficio": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "requisitos_principales": "Estudiar educación superior. Otros requisitos y criterios de selección: No especificado en las cuentas públicas consultadas.",
+    "limites": "Importes y fechas 2026 de los registros de origen no corroborados. No dividir presupuesto por estudiantes para inferir monto individual. No publicar como vigente sin convocatoria/cierre confirmados. Dos candidatas quedan asociadas al mismo rótulo institucional histórico; no se declara duplicidad sin evidencia individual suficiente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65",
+    "revisado": "2026-10-13",
+    "alcance": "Convocatoria histórica 2025 de la Beca de Residencia Municipal Superior de Yumbel en Concepción; no certifica vigencia posterior.",
+    "informe": "CONFIRMACION_YUMBEL_RESIDENCIA_SUPERIOR_2025_2026_10_13.md",
+    "fuentes": [
+      "https://yumbel.cl/2024/12/18/postulaciones-beca-de-residencia-municipal-universitaria/",
+      "https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf",
+      "https://www.yumbel.cl/transparencia_municipal/cuenta_publica/informe-gestion-2011.pdf"
+    ],
+    "beneficio": "Residencia en hogar municipal para estudiantes de educación superior en Concepción. No se confirma aporte monetario libre.",
+    "requisitos_principales": "Postulante nuevo o renovante; acreditar residencia familiar, antecedentes académicos, matrícula/alumno regular y RSH conforme al formulario 2025. No pueden postular personas ya tituladas técnica o profesionalmente. Criterios específicos de nota dependen de situación académica y apelación.",
+    "limites": "No corroborados los montos $100.000–$300.000, RSH 60%, NEM 5,0, evaluación de 30 días ni fechas 2026 de la ficha original. Aprobación histórica únicamente; no activar sin convocatoria y cierre vigentes.",
+    "fecha_inicio": "2024-12-18",
+    "fecha_cierre": "2025-01-17",
+    "documentos": "Cédula; certificado de residencia; notas y malla según nivel; matrícula o alumno regular; cartola RSH. Posibles antecedentes adicionales a criterio de comisión.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
