@@ -6304,7 +6304,7 @@
     "candidato": "83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0",
     "nombre": "Beca Deporte Destacado UAI",
     "institucion": "Universidad Adolfo Ibáñez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uai.csv",
@@ -6395,22 +6395,29 @@
         "extractos": [
           "| 83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0 — Deporte Destacado UAI | La UAI publica una vía de admisión para postulantes con trayectoria deportiva y un catálogo de becas por admisión 2026; la fuente no convierte esa vía de ingreso en la beca deportiva de 20–50% de la candidata. [Becas UAI 2026](https://www.uai.cl/admision/becas-y-aranceles/becas), [Admisión especial UAI](https://www.uai.cl/admision/como-postular/admision-directa-especial). | Pendiente: falta fuente financiera específica. |"
         ]
+      },
+      {
+        "informe": "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md",
+        "informe_sha256": "93cfac3d98310632634e538126940ac6dd625ce22c8fdb83fc7e2e23a77333f4",
+        "extractos": [
+          "## 83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0 — Beca Deporte Destacado UAI\n\nEl registro original promete un descuento de 30% a 50% del arancel para deportistas destacados y describe una vía de admisión especial. La página oficial [Admisión Directa / Especial](https://www.uai.cl/admision/como-postular/admision-directa-especial) identifica expresamente “Deportistas destacados” como una vía para postulantes: concede una bonificación de hasta 25 puntos en el puntaje ponderado y exige egreso reciente, NEM mínimo 6,0, currículum deportivo y certificado de una institución patrocinadora. La [oferta oficial de becas UAI para Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas) define beneficios económicos de arancel/matrícula por separado y no convierte la bonificación de admisión en una beca de 30–50%.\n\n**Decisión:** ratificar `PROGRAMA_DISTINTO`. La coincidencia es una vía de admisión con bonificación de puntaje; no valida la cobertura económica de la candidata. Se excluye del catálogo de becas económicas, sin afirmar que la UAI nunca haya ofrecido otro beneficio deportivo."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0",
-      "revisado": "2026-10-06",
-      "motivo": "La vía deportiva acredita bonificación de hasta 25 puntos de admisión; no una rebaja de arancel del 30–50%. Beneficio económico e identidad pendientes.",
+      "revisado": "2026-10-12",
+      "motivo": "La fuente oficial vigente identifica “Deportistas destacados” como vía de admisión especial con bonificación de hasta 25 puntos; el catálogo 2026 de becas separa esa bonificación de los beneficios monetarios y no respalda el descuento 30–50% de la candidata. Se clasifica como programa distinto; no se afirma inexistencia de otro beneficio deportivo.",
       "criterio": "PROGRAMA_DISTINTO",
       "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "informe": "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md",
       "evidencia": [
-        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
+        "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md"
       ]
     }
   },
@@ -36363,7 +36370,7 @@
     "candidato": "cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134",
     "nombre": "Beca Deportiva UAI",
     "institucion": "Universidad Adolfo Ibanez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
@@ -36454,22 +36461,29 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md",
+        "informe_sha256": "93cfac3d98310632634e538126940ac6dd625ce22c8fdb83fc7e2e23a77333f4",
+        "extractos": [
+          "## cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134 — Beca Deportiva UAI\n\nEl registro original describe una beca para deportistas seleccionados o de alta competencia y atribuye una rebaja de arancel de 25–50%. La misma página oficial de [Admisión Directa / Especial](https://www.uai.cl/admision/como-postular/admision-directa-especial) delimita el apoyo deportivo que sí queda documentado como una bonificación de puntaje de admisión, no como una rebaja de arancel. El catálogo institucional de [Becas UAI 2026](https://www.uai.cl/admision/becas-y-aranceles/becas) describe los beneficios monetarios vigentes y mantiene aparte dicha vía especial.\n\n**Decisión:** ratificar `PROGRAMA_DISTINTO`. La evidencia disponible no permite tratar la vía de admisión como beca económica ni confirma el porcentaje atribuido. Se excluye del catálogo de becas económicas; se preserva el original y no se declara inexistente una eventual convocatoria distinta."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134",
-      "revisado": "2026-10-06",
-      "motivo": "La admisión deportiva no acredita beca de arancel del 25–50%. Conservar separado de Deporte Destacado hasta demostrar equivalencia económica.",
+      "revisado": "2026-10-12",
+      "motivo": "La fuente oficial identifica el apoyo de deportistas como bonificación de hasta 25 puntos de admisión; el catálogo 2026 de becas lista por separado los beneficios económicos y no respalda el arancel 25–50% de esta candidata. Se clasifica como programa distinto; no se afirma inexistencia de otra convocatoria deportiva.",
       "criterio": "PROGRAMA_DISTINTO",
       "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "informe": "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md",
       "evidencia": [
-        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
+        "RATIFICACION_EXCLUSIONES_UAI_DEPORTISTAS_2026_10_12.md"
       ]
     }
   },
