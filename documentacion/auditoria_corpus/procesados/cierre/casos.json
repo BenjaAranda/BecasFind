@@ -17553,6 +17553,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "REVISION_HUALPEN_PLadeco_2026_10_12.md",
+        "informe_sha256": "c972674305cf417ea3c4aa5a42ee62a93cd69a86236d45b47a9f2e9586817a22",
+        "extractos": [
+          "## Beca Municipal Educación Superior Hualpen — `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`\n\nEl registro atribuye al municipio una beca de educación superior. El PLADECO no identifica esa candidata como beneficio monetario propio ni establece su cobertura, monto, requisitos o calendario. La falta de una ficha en este plan no demuestra que la beca no exista; no confirmar ni descartar por omisión. Mantener cada candidato separado hasta localizar su reglamento, bases o decreto específico."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -34438,6 +34445,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c` — Hualpén | El PLADECO describe orientación y tramitación de beneficios estatales; no respalda por sí solo una beca municipal propia de mantención con el monto de la ficha. [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf). | Pendiente: bases o acto de la beca propia. |"
+        ]
+      },
+      {
+        "informe": "REVISION_HUALPEN_PLadeco_2026_10_12.md",
+        "informe_sha256": "c972674305cf417ea3c4aa5a42ee62a93cd69a86236d45b47a9f2e9586817a22",
+        "extractos": [
+          "## Beca de Mantención Educación Superior Hualpen — `d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`\n\nEl registro atribuye al municipio una beca de educación superior. El PLADECO no identifica esa candidata como beneficio monetario propio ni establece su cobertura, monto, requisitos o calendario. La falta de una ficha en este plan no demuestra que la beca no exista; no confirmar ni descartar por omisión. Mantener cada candidato separado hasta localizar su reglamento, bases o decreto específico."
         ]
       }
     ],
