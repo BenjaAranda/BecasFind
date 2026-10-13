@@ -2413,15 +2413,23 @@
     ]
   },
   "CONTRASTE_INSTITUCIONAL_ADICIONAL_2026_10_12.md": {
-    "sha256": "67fb641722b9379079ca2d79f0dafb8a491acba6aadd9431e48e668bcfce03ff",
+    "sha256": "90825c01c25aa90f1e5ab15653945a5ddf7470d12f8a285390d08e0fa92c1b8f",
     "urls": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://circulotitulados.ipchile.cl/convenios/",
       "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf",
       "https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/",
       "https://www.pucv.cl/pucv/futuros-estudiantes/becas-y-beneficios",
-      "https://www.pucv.cl/pucv/noticias/destacadas/admision-2026-conoce-los-beneficios-para-nuevos-estudiantes",
+      "https://www.pucv.cl/uuaa/educacion-fisica/noticias/becas-a-la-excelencia-deportiva-2023-a-nuestros-estudiantes",
+      "https://www.quillota.cl/pages/noticia/este-lunes-24-de-abril-comenzaran-postulaciones-a-las-becas-excelencia-deportiva-del-municipio",
       "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_QUILPUE_MATRICULA_2018_2026_10_12.md": {
+    "sha256": "ed3481b5ac90f317452cb502a8d20ad122a19e9667d7cb62df790f01573b1f74",
+    "urls": [
+      "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf"
     ]
   }
 }

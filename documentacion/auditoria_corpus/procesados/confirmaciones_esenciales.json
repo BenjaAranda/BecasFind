@@ -9863,5 +9863,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
+    "revisado": "2026-10-12",
+    "alcance": "Programa Beca Matrícula de Educación Superior de Quilpué, Ordenanza Municipal N.º 3 de 2018; confirma únicamente identidad y condiciones históricas, no convocatoria 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_QUILPUE_MATRICULA_2018_2026_10_12.md",
+    "fuentes": [
+      "https://docs.quilpue.cl/uploads/2019/11/20191107201730-n32018becasmatricula.pdf"
+    ],
+    "beneficio": "Financiamiento del costo de matrícula con tope máximo histórico de $200.000 CLP.",
+    "requisitos_principales": "Residencia en Quilpué; ingreso por primera vez a educación superior; vulnerabilidad socioeconómica; NEM mínimo 5,5. Preselección socioeconómica y selección según desempeño de los cuatro años de enseñanza media.",
+    "limites": "La fuente de 2018 contradice mantención, monto variable y NEM 5,0 del original. No fija máximo RSH específico; calendario y documentos no verificados. No confirma 2026. Mantener inactiva y sin cierre vigente. No trasladar requisitos de la Beca Excelencia Académica distinta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
