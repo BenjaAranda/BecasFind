@@ -56,6 +56,18 @@ Estas publicaciones confirman apoyo municipal real para educación superior, per
 
 Fuentes: [Municipalidad de Puerto Montt — beneficios para estudiantes de educación superior, convocatoria 2024](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/); [Municipalidad de Puerto Montt — regularización de la beca Hijo de Pescador, 2026](https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/).
 
+## Viña del Mar — tres candidatas municipales
+
+Se localizaron fuentes oficiales municipales adicionales para distinguir las tres fichas que seguían abiertas:
+
+- `cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d` — **Beca Municipal de Educación Superior Viña del Mar**. La cuenta pública 2022 informa una “Beca Educación Superior” con inversión de $13.790.000 para 275 estudiantes; la cuenta 2023 informa $16.740.000 para 279. Es evidencia positiva de una línea educativa, pero los informes no fijan el aporte individual, sus requisitos ni la enlazan con la beca general DIDECO del registro. El antecedente de $100.000–$300.000, RSH 60% y NEM 5,0 no queda corroborado.
+- `fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac` — **Beca de Educación Superior Viña del Mar**. Las publicaciones municipales de 2013 y 2015 documentan aportes educativos para hijos de socios de sindicatos de trabajadores de la Corporación Municipal (SETREV/SAEV), incluyendo estudiantes de educación superior. Son beneficios colectivos laborales, con destinatarios distintos a la beca DIDECO general alegada en esta candidata; no trasladarles montos o requisitos.
+- `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8` — **Beca de Pasajes Viña del Mar**. Las fuentes oficiales localizadas no documentan la modalidad de transporte o pasajes que afirma el registro. La página municipal consultada para Beca Presidente de la República describe una beca estatal JUNAEB gestionada con apoyo municipal, que no acredita el subsidio de transporte candidato.
+
+**Resultado para las tres:** mantener `REQUIERE_ACLARACION`. La evidencia nueva confirma beneficios educativos de la Corporación Municipal con alcance laboral específico y una línea agregada en cuentas públicas, pero no prueba que sean idénticos a las dos candidatas generales ni respalda la candidata de pasajes. No fusionar las fichas ni completar sus montos o requisitos por inferencia.
+
+Fuentes: [Cuenta Pública Viña del Mar 2022](https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf); [Cuenta Pública Viña del Mar 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf); [becas a hijos de socios SETREV, 2015](https://www.munivina.cl/noticias/hijos-de-socios-de-trabajadores-de-la-educacion-recibieron-beca-academica-de-parte-de-alcaldesa-virginia-reginato/); [becas a hijos de socios SAEV, 2013](https://www.munivina.cl/noticias/nuevos-estudiantes-reciben-becas-por-rendimiento-academico-de-parte-de-alcaldesa-virginia-reginato/); [Beca Presidente de la República — Viña del Mar](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/).
+
 ## Talca — `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`
 
 La Cuenta Pública municipal 2024 documenta la coordinación local de becas JUNAEB para educación superior, en concreto Beca Presidente de la República y Beca Indígena, financiadas y asignadas por JUNAEB. No identifica una beca propia municipal DIDECO con evaluación socioeconómica, RSH 60%, nota 5,0 y monto definido por evaluación social, que es lo que afirma esta candidata. La fuente prueba que la municipalidad orienta y coordina beneficios estatales, no que la beca municipal no exista.
@@ -82,4 +94,4 @@ Fuentes: [Municipalidad de Tocopilla — Dirección de Desarrollo Comunitario](h
 
 ## Estado de estas revisiones
 
-Diez contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las diez fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta, aunque para Villa Alemana queda acreditada la creación de una beca de educación superior y para Tocopilla una línea municipal de becas junto a un programa superior aún en diseño. Vigencia publicable sigue siendo un control separado.
+Trece contrastes oficiales adicionales; cero confirmaciones esenciales y cero descartes ratificados. Las trece fichas continúan en la cola abierta porque faltan fuentes que vinculen los beneficios y requisitos alegados con cada candidata exacta, aunque para Villa Alemana queda acreditada la creación de una beca de educación superior y para Tocopilla una línea municipal de becas junto a un programa superior aún en diseño. Vigencia publicable sigue siendo un control separado.
