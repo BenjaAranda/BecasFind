@@ -1897,6 +1897,13 @@
         "extractos": [
           "| ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30 — Beca Excelencia Académica ENAC | La página de admisión ENAC remite a beneficios Mineduc/JUNAEB e identifica la Beca Excelencia Académica como estatal; no acredita la beca interna con 25% y NEM 5,5 de la candidata. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: separar una beca institucional de la BEA estatal y localizar bases internas. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30` — Beca Excelencia Académica ENAC | La página oficial explica la Beca Excelencia Académica estatal de Mineduc; no confirma el 25% institucional semestral que afirma esta ficha. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: mantener separada la beca estatal de la supuesta beca interna. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2030,6 +2037,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| 317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5 — Apoyo Familiar ENAC | La página oficial presenta gratuidad, CAE y ayudas ministeriales; no documenta descuento familiar ENAC ni el requisito de tener hermanos en educación superior. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: falta norma institucional que confirme parentesco, elegibilidad y cobertura. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` — Beca Apoyo Familiar ENAC | La página de admisión oficial presenta gratuidad, CAE y becas estatales; no documenta una beca interna familiar con requisitos verificables. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: pedir base o reglamento institucional; la lista general no prueba ausencia. |"
         ]
       }
     ],
@@ -2165,6 +2179,13 @@
         "extractos": [
           "| 1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656 — Vocación de Servicio ENAC | La fuente oficial confirma que ENAC publica financiamiento estatal; no respalda el descuento de 20%, las carreras ni el NEM de la ficha. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: requiere bases de la supuesta beca propia. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` — Beca Vocación de Servicio ENAC | La página de admisión ENAC describe beneficios estatales; el convenio laboral hallado es para una población determinada distinta de la ficha. No acredita el 20% para las carreras y NEM alegados. [Admisión ENAC](https://enac.cl/admision/), [convenio Serbima–ENAC](https://personas.enac.cl/wp-content/uploads/2024/04/Convenio-Serbima-ENAC.pdf). | Pendiente: falta base institucional exacta y población destinataria. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2298,6 +2319,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31 — Titulado ENAC | La fuente de admisión ENAC consultada no describe un descuento para titulados que cursan una segunda carrera. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: no reemplazar la ficha por beneficios estatales distintos. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` — Beca Titulado ENAC | La página de admisión ENAC consultada no documenta una beca propia para titulados ni una tasa de descuento atribuible a esta ficha. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: falta fuente de beneficios institucionales para titulados. |"
         ]
       }
     ],
@@ -2433,6 +2461,13 @@
         "extractos": [
           "| bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e — Deportiva ENAC | La página oficial no acredita el descuento semestral ni la obligación de representar a ENAC en competencias. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: localizar convocatoria o reglamento deportivo institucional. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` — Beca Deportiva ENAC | La página oficial de admisión consultada no describe esta beca ni el descuento semestral afirmado. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: falta reglamento deportivo institucional específico. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2566,6 +2601,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c — Convenio Empresas ENAC | La página de admisión no individualiza empresas, población beneficiaria ni porcentajes de convenio para estudiantes ENAC. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: convenio identificable con su cobertura y condiciones. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` — Beca Convenio Empresas ENAC | La página de admisión oficial no identifica empresas participantes ni condiciones de un descuento de convenio para esta candidata. [Admisión ENAC](https://enac.cl/admision/). | Pendiente: falta convenio o base específica. |"
         ]
       }
     ],
@@ -3309,6 +3351,13 @@
         "extractos": [
           "| `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c` — INACAP, Red de Egresados | La referencia institucional de exalumnos debe distinguirse de becas estudiantiles de pregrado; la búsqueda adicional no encontró una fuente que conecte esa red con el descuento de 15% alegado. [Beneficios para exalumnos](https://portales.inacap.cl/exalumnos/beneficios-y-descuentos/). | Permanece en revisión: no ratificar la exclusión histórica sin prueba positiva individual. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c` — Beca Red de Egresados INACAP | La página oficial para exalumnos describe incorporación a la red y un 30% de descuento en educación continua para exalumnos, bajo sus condiciones; no acredita el 15% semestral de arancel para familiares que afirma la candidata. [Beneficios oficiales de exalumnos](https://portales.inacap.cl/exalumnos/beneficios-y-descuentos/). | Pendiente: diferencia material de población, nivel de estudios y porcentaje; no ratificar ni descartar la beca familiar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3628,6 +3677,13 @@
         "extractos": [
           "| 6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c — Copago IP Chile | IPCHILE publica gratuidad y convenios de continuidad; eso no equivale a una beca propia que cubra la brecha entre arancel real y de referencia. [Convenios de continuidad IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/), [Gratuidad IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/gratuidad/). | Pendiente: localizar bases de una beca institucional de copago. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c` — Beca Copago IPCHILE | Las fuentes oficiales consultadas describen becas estatales y condiciones generales, pero no confirman que IPCHILE cubra con una beca propia la diferencia entre arancel real y de referencia para el 60% RSH. [Becas IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/). | Pendiente: falta reglamento institucional del supuesto copago. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3754,6 +3810,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| 985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65 — Titulado IP Chile | La página oficial de continuidad informa hasta 35% bajo requisitos de título, relación y antigüedad; no acredita la candidata de 15% para una segunda carrera técnica. [Continuidad IPCHILE](https://admision.ipchile.cl/continuidad). | Pendiente: no intercambiar programas de continuidad distintos sin demostrar identidad. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65` — Beca Titulado IPCHILE | La página oficial de continuidad ofrece descuentos de hasta 35% para ciertos titulados, programas y condiciones; no acredita por sí sola el nombre ni la cobertura exacta de esta ficha. [Continuidad de estudios IPCHILE](https://admision.ipchile.cl/continuidad). | Pendiente: determinar si el registro corresponde a una modalidad concreta; no generalizar los descuentos. |"
         ]
       }
     ],
@@ -3882,6 +3945,13 @@
         "extractos": [
           "| 9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb — Familiar IP Chile | Las fuentes oficiales de continuidad identifican acuerdos específicos, pero no confirman el descuento general de 10% para familiares directos atribuido a la candidata. [Convenios de continuidad IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/). | Pendiente: falta reglamento familiar específico. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb` — Beca Familiar IPCHILE | La página oficial de convenios de titulados documenta convenios de continuidad de estudios y sus condiciones, no el descuento familiar del 10% atribuido a esta beca. [Convenios del Círculo de Titulados](https://circulotitulados.ipchile.cl/convenios/). | Pendiente: falta evidencia específica de parentesco y descuento familiar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -4008,6 +4078,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| 265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3 — Convenio Empresas IP Chile | IPCHILE informa convenios identificados, incluidos UNIACC, UNAP y el acuerdo con Machalí; sus descuentos y poblaciones difieren del rango genérico 10–25% de la candidata. [Convenios IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/), [Acuerdo IPCHILE–Machalí](https://www.ipchile.cl/noticias/ipchile-y-municipalidad-de-machali-firman-convenio-de-colaboracion/). | Pendiente: identificar qué convenio originó el registro. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3` — Beca Convenio Empresas IPCHILE | El portal oficial separa beneficios institucionales y ayudas estatales, pero no identifica en la evidencia revisada el convenio empresarial y descuento descritos en este registro. [Becas IPCHILE](https://www.ipchile.cl/becas-y-financiamiento/becas-ipchile/). | Pendiente: falta el acuerdo y los requisitos específicos. |"
         ]
       }
     ],
@@ -9638,6 +9715,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` — Beca Familiar UCSH | La página oficial de becas y beneficios consultada no permite atribuir con evidencia específica el 10% a hijos, hermanos y cónyuges descrito en los antecedentes. [Becas y beneficios UCSH](https://admision.ucsh.cl/becas-y-beneficios/). | Pendiente: falta fuente exacta de parentescos, porcentaje y vigencia. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -9969,6 +10053,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| 5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578 — Intercultural UCT | La página oficial separa becas estatales, beneficios JUNAEB y créditos internos; enumera una beca deportiva UCT, pero no acredita la beca intercultural interna ni el porcentaje de la candidata. [Becas y créditos UCT](https://admision.uct.cl/becas-y-creditos/). | Pendiente: localizar bases específicas y no reasignar la Beca Indígena JUNAEB a la institución. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578` — Beca Intercultural UCT | La beca UCT localizada para 2026 financia una experiencia de voluntariado misionero intercultural en grupo; otras ofertas para educadores o posgrado tienen población y objeto acotados. Ninguna corrobora el descuento de arancel de 20% para estudiantes indígenas que afirma esta ficha. [Programa UCT 2026](https://internacional.uct.cl/beca/beca-experiencia-global-en-equipo-2026-programa-de-voluntariado-misionero-intercontinental-pvmi/). | Pendiente: exigir ficha exacta de la supuesta beca de arancel. |"
         ]
       }
     ],
@@ -10988,6 +11079,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e` — UDLA | La búsqueda en fuentes oficiales no localizó ficha específica de “Fomento Regional” que respalde el 20% alegado; no se interpreta como inexistencia. | Pendiente: fuente institucional con nombre, beneficio y requisitos. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e` — Beca Fomento Regional UDLA | La consulta de las páginas oficiales disponibles no ubicó bases de la beca exacta que acrediten el 20% por procedencia regional descrito. No se infiere inexistencia. | Pendiente: falta una página institucional específica que identifique población y descuento. |"
         ]
       }
     ],
@@ -18038,6 +18136,13 @@
         "extractos": [
           "## Beca Municipal Educación Superior Hualpen — `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`\n\nEl registro atribuye al municipio una beca de educación superior. El PLADECO no identifica esa candidata como beneficio monetario propio ni establece su cobertura, monto, requisitos o calendario. La falta de una ficha en este plan no demuestra que la beca no exista; no confirmar ni descartar por omisión. Mantener cada candidato separado hasta localizar su reglamento, bases o decreto específico."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a` — Beca Municipal Educación Superior Hualpén | La documentación municipal localizada menciona beca de residencia con la Universidad de Chile y gestión de becas estatales; no una transferencia anual municipal general. [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf), [Cuenta pública 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf). | Pendiente: conservar como identidad distinta de la beca de mantención/residencia hasta hallar bases exactas. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -18431,6 +18536,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| 1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a — Beca Municipal Educación Superior Iquique | Iquique publica la Beca Artística Sixto Rojas Acosta, con línea de proyección para educación superior y postgrado, edades y montos específicos; esa beca artística no demuestra el aporte municipal general que afirma esta candidata. [Bases Beca Artística](https://www.municipioiquique.cl/files/1439). | Pendiente: no transferir requisitos ni monto de la beca artística a una beca general. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` — Beca Municipal de Educación Superior Iquique | Las bases oficiales de la Beca Artística Sixto Rojas Acosta establecen una línea Proyección para artistas de 18–28 años en educación superior/postgrado, con aporte único de $2.400.000 para gastos vinculados a su disciplina artística. No coincide con una ayuda general de mantención. [Bases oficiales 2025](https://www.municipioiquique.cl/files/1439). | Pendiente: no sustituir la candidata genérica por una beca artística distinta. |"
         ]
       }
     ],
@@ -20398,6 +20510,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1` — Beca Municipal para Estudiantes de Educación Superior Peñaflor | Las fuentes municipales describen gift cards para útiles, calzado y vestuario escolar dirigidas a estudiantes de establecimientos escolares; el Departamento Social lista orientación a becas estatales. No acreditan un aporte de educación superior general con los criterios alegados. [Entrega de gift cards](https://penaflor.cl/municipalidad-de-penaflor-multiplica-inversion-y-entrega-mas-de-2.800-giftcards-para-apoyar-a-estudiantes/), [Departamento Social](https://penaflor.cl/departamento-social/). | Pendiente: conservar separadas ayuda escolar, orientación a beneficios estatales y la candidata superior. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -21144,7 +21263,7 @@
     "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
     "nombre": "Beca Municipal Educación Superior Coelemu",
     "institucion": "Municipalidad de Coelemu",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque16_muni.csv",
@@ -21214,13 +21333,48 @@
         "extractos": [
           "| `cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f` — Coelemu | La búsqueda oficial adicional no encontró bases específicas para el subsidio de mantención descrito. | Pendiente: localizar el instrumento municipal; no eliminar. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md",
+        "informe_sha256": "c7a82c3ef07d98e56745ac10ca722ce3dd1e1825697c4971ad0c19af84a0ab9e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f` — Beca Municipal Educación Superior Coelemu | El Informe de Gestión Municipal 2009 identifica la «Beca Municipal» como ayuda económica para estudiantes de enseñanza superior de la comuna; reporta 35 jóvenes beneficiados y aporte municipal total de $8.625.000. [Informe oficial, apartado “Otros programas sociales”](https://transparencia.municoelemu.cl/index.php?a=2010&action=plantillas_generar_archivo&ia=778&ig=207&m=3). | **Confirmada esencial histórica para 2009.** Monto individual, criterios adicionales, documentos, calendario y vigencia actual desconocidos; mantener inactiva. Ver [informe de confirmación](CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md). |"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
+      "revisado": "2026-10-12",
+      "alcance": "Existencia y descripción de la Beca Municipal de Coelemu reportada para 2009; no confirma convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md",
+      "fuentes": [
+        "https://transparencia.municoelemu.cl/index.php?a=2010&action=plantillas_generar_archivo&ia=778&ig=207&m=3"
+      ],
+      "beneficio": "Ayuda económica municipal. En 2009: 35 jóvenes beneficiados y aporte total de $8.625.000; monto individual desconocido.",
+      "requisitos_principales": "La fuente describe estudiantes de enseñanza superior de la comuna; otros criterios y documentos desconocidos.",
+      "limites": "Confirmación histórica limitada a 2009. Fechas, documentos, reglas de selección y vigencia 2026 desconocidos. Mantener inactiva y fuera de búsqueda vigente sin cierre actual confirmado. No confundir con la beca deportiva municipal 2024.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "500cab60de1499617e480ca56535336479dd7531fd8ca0b036614f8596d14bb8",
@@ -28060,6 +28214,13 @@
         "extractos": [
           "| `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c` — Papudo | El PLADECO municipal menciona becas JUNAEB, incluida educación superior, y atribuye su administración al Estado. No prueba el aporte municipal de $250.000 ni sus reglas. [PLADECO de Papudo](https://munipapudo.cl/images/PLADECO/Plan%20Desarrollo%20Comunal.pdf). | Pendiente: localizar bases propias de la municipalidad. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c` — Beca Educación Superior Papudo | El PLADECO municipal enumera becas JUNAEB (incluidas Beca Presidente de la República e Indígena); no confirma el aporte municipal de $250.000 en dos cuotas afirmado por la ficha. [PLADECO municipal](https://munipapudo.cl/images/PLADECO/Plan%20Desarrollo%20Comunal.pdf). | Pendiente: localizar bases municipales específicas; no confundir programas JUNAEB. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -29630,6 +29791,13 @@
         "extractos": [
           "| `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519` — Santa María | La fuente municipal localizada en la revisión previa confirma una beca deportiva, distinta del apoyo general de educación superior descrito por esta candidata. [Beca deportiva municipal](https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/). | Pendiente: no atribuir la beca deportiva a la candidata general. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519` — Beca Educación Superior Santa María | En la consulta del dominio municipal indicado por la ficha no se localizó ficha o bases oficiales específicas que ratifiquen una ayuda renovable por dos años, excelencia académica y vulnerabilidad. La ausencia de una ficha localizada no prueba inexistencia. | Pendiente: requiere fuente específica; no confirmar monto, renovación ni selección. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -29779,6 +29947,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47` — Chañaral | La página de DIDECO enumera funciones y unidades generales; no acredita el monto ni requisitos de la beca superior. [DIDECO Chañaral](https://munichanaral.cl/dideco.html). | Pendiente: convocatoria o acto específico. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47` — Beca Municipal Educación Superior Chañaral | Una noticia municipal 2024 acredita que se entregó a una estudiante una beca municipal para pagar matrícula de educación superior. No acredita el programa anual general ni los umbrales RSH/NEM afirmados por la ficha. [Noticia municipal 2024](https://www.munichanaral.cl/new_graduacion_liceo_24.html). | Pendiente: preservar la evidencia positiva del apoyo de matrícula, pero resolver si identifica la beca general registrada. |"
         ]
       }
     ],
@@ -30309,6 +30484,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65` — Yumbel | La municipalidad publica una beca de residencia para educación superior fuera de la comuna, con formulario 2025 y documentos de identidad, residencia, notas, matrícula y RSH. La candidata se describía como apoyo genérico; no se trasladan monto ni requisitos sin demostrar que es la misma modalidad. [Formulario municipal 2025](https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf), [convocatoria](https://yumbel.cl/2024/12/18/postulaciones-beca-de-residencia-municipal-universitaria/). | Pendiente: resolver identidad entre la ficha genérica y la beca de residencia. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65` — Beca Estudiantil Municipal Yumbel | El formulario municipal 2025 acredita una beca de residencia para educación superior en Concepción, con postulación 18-12-2024 a 17-01-2025, exigencia de matrícula/alumno regular, notas y RSH, entre otros documentos. No acredita el aporte monetario general sujeto a evaluación descrito por esta ficha. [Formulario oficial 2025](https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf). | Pendiente: no fusionar residencia con mantención en dinero. Convocatoria histórica cerrada. |"
         ]
       }
     ],
@@ -35009,6 +35191,13 @@
         "extractos": [
           "## Beca de Mantención Educación Superior Hualpen — `d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`\n\nEl registro atribuye al municipio una beca de educación superior. El PLADECO no identifica esa candidata como beneficio monetario propio ni establece su cobertura, monto, requisitos o calendario. La falta de una ficha en este plan no demuestra que la beca no exista; no confirmar ni descartar por omisión. Mantener cada candidato separado hasta localizar su reglamento, bases o decreto específico."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c` — Beca de Mantención Educación Superior Hualpén | El PLADECO 2026–2032 describe asesoría para postular a beneficios estatales; la cuenta pública 2022 menciona una beca de residencia convenida con la Universidad de Chile para estudiantes de liceos públicos. Ninguna fuente respalda la transferencia de $200.000 de esta ficha. [PLADECO](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf), [Cuenta pública 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf). | Pendiente: las fuentes describen asesoría estatal y residencia, no mantención general en dinero. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -35248,6 +35437,13 @@
         "extractos": [
           "| `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20` — El Monte | Las páginas municipales revisadas no ofrecieron bases o ficha de la beca superior alegada. La ausencia de mención no demuestra que el beneficio no exista. [Educación municipal](https://www.munielmonte.cl/educacion.html), [noticias municipales](https://www.munielmonte.cl/NoticiasMayo2025_1.html). | Pendiente: fuente individual de convocatoria y beneficio. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20` — Beca Municipal Estudiantil El Monte | La cuenta pública municipal 2024 consultada informa apoyos de transporte/TNE para educación superior, pero no identifica la ayuda de $100.000, el umbral RSH o el requisito de notas de esta ficha. [Cuenta pública 2024](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf). | Pendiente: evidencia municipal distinta no ratifica este beneficio ni sus requisitos. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -35322,6 +35518,13 @@
         "informe_sha256": "1c8c9e3169c3aa13bf5e4843cfcbb7f45d8e2a91633f3954910f54fcb32df412",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b` — Beca de Educación Superior Municipalidad de Peñaflor | Las mismas fuentes oficiales de Peñaflor describen ayudas escolares y orientación a becas estatales, sin corroborar la beca de educación superior descrita en el registro. [Gift cards escolares](https://penaflor.cl/municipalidad-de-penaflor-multiplica-inversion-y-entrega-mas-de-2.800-giftcards-para-apoyar-a-estudiantes/), [Departamento Social](https://penaflor.cl/departamento-social/). | Pendiente: no declarar duplicidad con la otra ficha por semejanza de nombre. |"
         ]
       }
     ],
@@ -37079,6 +37282,13 @@
         "extractos": [
           "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` — Arica | La fuente municipal de 2026 describe Residencia Familiar Estudiantil como convenio con JUNAEB, no el pago municipal anual de $250.000 de la ficha. [Residencia Familiar Estudiantil](https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral). | Pendiente: mantener separadas la beca municipal alegada y la modalidad JUNAEB. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f` — Beca Municipal de Educación Superior Arica | La fuente municipal actual describe Residencia Familiar Estudiantil en convenio con JUNAEB, con alojamiento y apoyo integral; no confirma el pago anual de $250.000 alegado. [Residencia Familiar Estudiantil](https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral). | Pendiente: programa distinto y de cobertura diferente. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -37305,6 +37515,13 @@
         "extractos": [
           "| `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` — Copiapó | La fuente municipal actual confirma la beca “Carmen Vilches” para estudiar Medicina y Odontología en Argentina, mediante convenios y con mérito académico/necesidad económica. No coincide con la beca genérica de $150.000 de libre disposición. [Beca Carmen Vilches](https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/). | Pendiente: no sustituir la candidata por la beca internacional de carreras de salud. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` — Beca Municipal de Educación Superior Copiapó | La Municipalidad confirma la beca «Carmen Vilches» para estudiantes de Medicina y Odontología que estudian en Argentina bajo convenios. No coincide con la ayuda general de $150.000 de libre disposición que afirma esta candidata. [Información municipal 2026](https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/). | Pendiente: conservar ambos programas separados hasta encontrar fuente de la modalidad general. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -37386,6 +37603,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5` — Coquimbo | La publicación municipal sobre aportes de educación superior distingue apoyo de arancel y apoyo de residencia. No permite asignar inequívocamente a la candidata de mantención las condiciones de una de esas modalidades. [Aportes municipales](https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior). | Pendiente: atribuir primero la modalidad y conservar la contradicción. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5` — Beca de Mantención Municipal para Estudios Superiores, Coquimbo | La noticia oficial sobre aportes para educación superior distingue ayudas para arancel y residencia; no prueba la beca anual de mantención de $200.000 ni la exclusión por gratuidad de esta ficha. [Aportes municipales 2025](https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior). | Pendiente: aclarar la modalidad exacta; conservar requisitos económicos como no verificados. |"
         ]
       }
     ],
@@ -37475,6 +37699,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90` — Osorno | Las fuentes actuales identifican una beca deportiva municipal 2026 ($1.000.000; deportistas hasta 25 años) y una beca de las artes para formación artística. Son objetos y públicos distintos de la beca general de educación superior candidata. [Beca deportiva 2026](https://www.municipalidadosorno.cl/new/noticia.php?id=35435), [Beca Municipal de las Artes](https://www.municipalidadosorno.cl/new/noticia.php?id=35416). | Pendiente: localizar el acto o bases de la modalidad general; no fusionar beneficios. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90` — Beca Concejo Municipal de Osorno para Educación Superior | La cuenta pública 2019 describe apoyo municipal para postular/renovar las becas estatales Presidente de la República e Indígena; la Municipalidad también publica becas propias de Artes y Deportiva, con objetos y criterios diferentes. [Cuenta pública 2019](https://www.municipalidadosorno.cl/archivos/cp2020/anexo_letra_k_del_documento_cuenta_publica_gestion_2019.pdf), [Beca Municipal de las Artes](https://municipalidadosorno.cl/new/slide.php?id=875). | Pendiente: la ficha genérica no queda identificada como ninguno de esos programas. |"
         ]
       }
     ],
@@ -39187,6 +39418,13 @@
         "informe_sha256": "5d636eb817582ac112c7db3f9a8d0fc2ac9624d47bf32f09fc37e7a2aebb2a3a",
         "extractos": [
           "| e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112 — Apoyo Socioeconómico UCT | La fuente UCT explica los créditos internos y beneficios publicados; no documenta el descuento socioeconómico variable de 15–50% ni el corte RSH de la ficha. [Becas y créditos UCT](https://admision.uct.cl/becas-y-creditos/). | Pendiente: obtener condiciones institucionales exactas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_2026_10_12.md",
+        "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
+        "extractos": [
+          "| `e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112` — Beca de Apoyo Socioeconómico UCT | La información oficial UCT consultada sobre arancel ajustado/RSH no identifica una beca con el rango de 15–50% atribuido en la ficha. [Preguntas frecuentes UCT](https://dcr.uct.cl/preguntas-frecuentes/). | Pendiente: no convertir una explicación general de cobros en confirmación de una beca específica. |"
         ]
       }
     ],

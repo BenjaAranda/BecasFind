@@ -9797,5 +9797,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
+    "revisado": "2026-10-12",
+    "alcance": "Existencia y descripción de la Beca Municipal de Coelemu reportada para 2009; no confirma convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_COELEMU_2009_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.municoelemu.cl/index.php?a=2010&action=plantillas_generar_archivo&ia=778&ig=207&m=3"
+    ],
+    "beneficio": "Ayuda económica municipal. En 2009: 35 jóvenes beneficiados y aporte total de $8.625.000; monto individual desconocido.",
+    "requisitos_principales": "La fuente describe estudiantes de enseñanza superior de la comuna; otros criterios y documentos desconocidos.",
+    "limites": "Confirmación histórica limitada a 2009. Fechas, documentos, reglas de selección y vigencia 2026 desconocidos. Mantener inactiva y fuera de búsqueda vigente sin cierre actual confirmado. No confundir con la beca deportiva municipal 2024.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
