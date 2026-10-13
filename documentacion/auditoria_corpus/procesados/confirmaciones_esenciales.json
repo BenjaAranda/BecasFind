@@ -10194,5 +10194,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad y datos públicos esenciales de la convocatoria municipal 2025; no confirma vigencia 2026",
+    "informe": "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md",
+    "fuentes": [
+      "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+    ],
+    "beneficio": "Beca municipal para estudiantes de educación superior; monto, cobertura y forma de pago específicos no publicados en el aviso.",
+    "requisitos_principales": "Certificado de estudio o de alumno regular; fotocopia de cédula de identidad; dirección y teléfono.",
+    "limites": "Convocatoria 2025. RSH, NEM, monto, modalidad y periodicidad de pago, renovación y cierre: no especificados. No activar para 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Certificado de estudio o de alumno regular; fotocopia de cédula de identidad; datos de dirección y teléfono.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
