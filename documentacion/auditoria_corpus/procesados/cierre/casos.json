@@ -289,6 +289,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "### `bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0` y `3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be`\n\nLa plataforma oficial municipal de La Florida para 2026 describe la Beca Escolar Municipal: 3.500 estudiantes entre kínder y cuarto medio reciben apoyo destinado a útiles, calzado o vestimenta. La edad escolar y el objeto material no corresponden a la ficha general de educación superior. La comuna también tiene antecedentes oficiales de una Beca Ilustre Municipalidad de Florida para estudiantes superiores, que pertenece a la comuna de Florida, Región del Biobío; no trasladar esos datos a La Florida, Región Metropolitana.\n\n**Resultado para las dos fichas:** `REQUIERE_ACLARACION`. No fusionar las candidatas entre sí ni sustituirlas por la beca escolar o por la beca de Florida (Biobío).\n\nFuentes: [Municipalidad de La Florida — Plataforma Beca Escolar Municipal 2026](https://appx.laflorida.cl/beca_escolar/), [Municipalidad de Florida, Región del Biobío — contacto DIDECO y referencia a su beca](https://florida.muniflorida.cl/contacto/), [BCN — Ordenanza de becas de la Municipalidad de Florida](https://www.bcn.cl/leychile/navegar?idNorma=250931)."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -5307,6 +5314,13 @@
         "extractos": [
           "| `70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6` — Beca Deportiva PUCV | Una noticia oficial describe a una deportista que ingresó a la PUCV con beca deportiva, evidencia histórica de una adjudicación individual. No publica la regla, cobertura ni requisitos de la beca. [Noticia institucional PUCV](https://www.pucv.cl/pucv/noticias/alumni/sin-miedo-a-los-peligros-del-deporte-extremo-de-alto-rendimiento). | Pendiente: evidencia de existencia histórica parcial; no confirma porcentaje ni reglas actuales. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -6500,6 +6514,13 @@
         "extractos": [
           "| `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` — Beca Vocación Social UAH | La oferta institucional 2026 detalla una Beca Talento Pedagógico para integrantes del programa UAH correspondiente, matriculados en pedagogía; su aporte, cupos y condiciones se fijan cada año. También separa becas de excelencia y descuentos de arancel. No respalda el 30% para Ciencias Sociales atribuido a esta candidata. [Oferta oficial UAH 2026](https://admision.uahurtado.cl/becas-y-beneficios/). | Pendiente: mantener separadas las modalidades; falta identificar el beneficio del nombre original. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7627,6 +7648,13 @@
         "extractos": [
           "### Beca Socioeconómica UA — `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`\n\nLa ficha afirma una rebaja de arancel de 15–40% para estudiantes dentro del 60% de menores ingresos, evaluada por Asuntos Estudiantiles. El portal oficial actual de becas UA indica que cada beneficio tiene requisitos y plazos de convocatoria y deriva a la orientación social de cada sede, pero el contenido consultado no individualiza esa modalidad ni confirma porcentajes o umbral. El proceso FUAS refiere a beneficios estatales y no valida esta beca institucional. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; falta reglamento o convocatoria UA que atribuya la cobertura y elegibilidad al registro.\n\n- https://admision.uautonoma.cl/becas-y-creditos/\n- https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -7753,6 +7781,13 @@
         "informe_sha256": "ad7f7f4bc11572fc6c2c17da89b4c6b877f23029ed9c9922d93990279b3aec37",
         "extractos": [
           "### Beca Alumni UA — `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c`\n\nEl registro describe 20% de descuento para titulados UA que comiencen una segunda carrera de pregrado y enlaza el catálogo de becas internas de pregrado. La fuente oficial actual de UAlumni corresponde a postgrados: convocatoria 2026 para titulados que postulan a determinados magísteres y diplomados, con coberturas de 50% o 100% del arancel, sin matrícula. La fuente confirma una línea para titulados, pero cambia nivel, programas y porcentaje; no demuestra que sea la misma beca histórica. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no sustituir la ficha por UAlumni ni afirmar inexistencia del descuento de pregrado.\n\n- https://postgrados.uautonoma.cl/2da-convocatoria-ualumni-2026/\n- https://postgrados.uautonoma.cl/becas-y-beneficios/"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -8296,6 +8331,13 @@
         "extractos": [
           "### Beca Socioeconómica UBO — `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`\n\nLa DAE UBO publica una Beca de Contingencia para dificultades económicas extraordinarias durante el período académico, sujeta a evaluación socioeconómica y comité de financiamiento; también publica ayudas de alimentación. La página de admisión 2026 lista beneficios de arancel diferentes, incluida una beca PAES, matrícula y convenios. Ninguna fuente confirma una beca general con rebaja de 15–40% asociada al RSH 60% descrito en el original. La existencia de apoyos socioeconómicos está acreditada, pero no la identidad de la candidata. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no confundir contingencia con descuento estable de arancel.\n\n- https://dae.ubo.cl/becas/becas-ubo/\n- https://admision.ubo.cl/financiamiento/"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -8536,6 +8578,13 @@
         "informe_sha256": "9044c362a3a95fd2eab9c1adc43108c96468319237a411079fcaf23ca9abf3c1",
         "extractos": [
           "| `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9` — Beca Fundadores UCentral | La página institucional vigente describe Beca U. Central por puntaje PAES, Beca de Matrícula, Beca Complementaria sujeta a CAE, Beca Deportiva y Beca Filiación. Esta última concede 10% a familiares en condiciones específicas. No aparece una «Beca Fundadores» ni se respaldan el 30–50%, NEM 5,8 y asignación automática de la ficha. La diferencia no identifica por sí sola qué beneficio originó el registro. [Becas U. Central](https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/). | Pendiente: conservar sin certificar los datos incompatibles; falta una fuente del programa exacto. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -9651,6 +9700,13 @@
         "extractos": [
           "### Beca Socioeconómica UCSC — `ee4ccb1aa4a89edcfd46d1e017ee676f143f27985d44e9701a118d93e1bfdfaa`\n\nLa UCSC publica beneficios con destinatarios delimitados: Beca de Alimentación Interna, residencia, transporte mensual para estudiantes de determinadas comunas dentro del 60% de menores ingresos y la Beca Yolanda Garib, cuyo monto determina DAE y que considera, entre otros grupos, a personas que acreditan vulnerabilidad. Esas ayudas no equivalen a la rebaja de hasta 40% del arancel atribuida a la candidata. El catálogo de admisión también distingue las becas de arancel por nombre y requisitos. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; falta evidencia de una rebaja general de arancel con esas condiciones.\n\n- https://dae.ucsc.cl/bienestar-estudiantil/nuestros-servicios/\n- https://ucsc.cl/admision/pregrado/becas-y-financiamiento/becas-y-beneficios/"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -10659,6 +10715,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -10783,6 +10846,13 @@
       {
         "informe": "CONTRASTE_CATALOGOS_INSTITUCIONALES_2026_10_12.md",
         "informe_sha256": "40ab50e8702cc8740ff4dde2ffe8b3e0e92f7fec0e4ede4cbc81e7d9115afe16",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -10913,6 +10983,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -11040,6 +11117,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -11143,6 +11227,13 @@
       {
         "informe": "CONTRASTE_ADICIONAL_TANDA_66_115_2026_10_12.md",
         "informe_sha256": "b4af38e7fdaa1fa5ab22650d9387e84ccbe86a09c2963a6bc86743b7523fe2ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -12332,6 +12423,13 @@
         "extractos": [
           "| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` — Beca de Apoyo Socioeconómico UFRO | El catálogo oficial DDE separa beneficios de arancel y mantención. La página de arancel lista programas identificados, en su mayoría estatales, y la de mantención identifica beneficios JUNAEB, incluyendo sus propias vías de asignación; ninguna describe un fondo UFRO general con el 60% RSH y monto que aparece en la candidata. [Arancel UFRO](https://dde.ufro.cl/beneficios-estudiantiles/arancel/), [mantención UFRO](https://dde.ufro.cl/beneficios-estudiantiles/mantencion/). | Pendiente. No usar beneficios estatales ni una ayuda institucional de nombre parecido como prueba de esta beca. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13243,6 +13341,13 @@
         "extractos": [
           "| `58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7` — Beca Deportiva UMayor | El Reglamento del Sistema de Apoyo y Becas U. Mayor para el período académico 2026 enumera sus líneas vigentes: matrícula, arancel de primer año, cursos superiores y otros beneficios. No identifica una beca deportiva autónoma. El artículo 2 limita su alcance al período/carrera de asignación. No confirma el descuento de 25% ni la supuesta modalidad; la omisión en el reglamento no demuestra que nunca haya existido otra ayuda deportiva. [Reglamento institucional 2026](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf). | Pendiente: conservar; no publicar el dato 2026 como verificado. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13533,6 +13638,13 @@
         "informe_sha256": "9044c362a3a95fd2eab9c1adc43108c96468319237a411079fcaf23ca9abf3c1",
         "extractos": [
           "| `28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019` — Beca Talento Emprendedor UMayor | El mismo reglamento denomina al sistema general «Espíritu Emprendedor», pero no lista una beca individual «Talento Emprendedor». El nombre del sistema no demuestra que exista la beca con 20% de arancel atribuida a la candidata. [Reglamento institucional 2026](https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf). | Pendiente: no confundir el nombre del sistema con una beca; falta evidencia individual. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -14553,6 +14665,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -14722,6 +14841,13 @@
       {
         "informe": "CONTRASTE_CATALOGOS_INSTITUCIONALES_2026_10_12.md",
         "informe_sha256": "40ab50e8702cc8740ff4dde2ffe8b3e0e92f7fec0e4ede4cbc81e7d9115afe16",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -15407,6 +15533,13 @@
         "informe_sha256": "ad7f7f4bc11572fc6c2c17da89b4c6b877f23029ed9c9922d93990279b3aec37",
         "extractos": [
           "### Beca de Apoyo Estudiantil UTA — `7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3`\n\nLa transparencia institucional UTA registra reglamentos nominales para ayudas específicas: alimentación, residencia, títulos y grados, apoyo de práctica y aranceles. La DAE describe ayuda solidaria de alimentación para estudiantes dentro de los seis primeros deciles y beca monetaria de residencia bajo requisitos propios; no describe en esas fuentes una transferencia mensual general de libre disposición para cualquier estudiante en el 60% de menores ingresos. El contraste visual del reglamento general aprobado por Decreto Exento 1/2013 (anexo fechado en 2012) lista becas de puntaje nacional, regional y PSU, excelencia UTA, alojamiento, notas de enseñanza media y honor; no aparece la ayuda mensual genérica. El Reglamento de Beca de Ayuda Solidaria aprobado por Decreto Exento 1400/2007 sí define apoyo para estudiantes de pregrado con una contingencia que impide continuar normalmente los estudios, como financiamiento total o parcial de la diferencia de arancel; exige rendimiento destacado, necesidad económica, informe social favorable y evaluación de comité. No es la transferencia mensual descrita por el candidato. La evidencia distingue modalidades, pero no prueba inexistencia histórica de la candidata genérica. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no atribuirle requisitos de residencia, alimentación ni ayuda solidaria de arancel.\n\n- https://webdae.uta.cl/index.php/beneficios-complementarios/\n- https://www.uta.cl/transparencia/z.html\n- https://www.uta.cl/transparencia/pdf/z/1.2013.pdf\n- https://www.uta.cl/transparencia/pdf/mn/1/1400.pdf"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -16363,6 +16496,13 @@
         "informe_sha256": "2b52c743cb16730da74f6991a702a5c0dbc17db3177f43f5bbcec003b2d888b8",
         "extractos": [
           "## Universidad de Valparaíso — `33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9`\n\nEl catálogo oficial de transparencia UV detalla un “Programa de Asistencia Económica para los Estudiantes”: es un préstamo en dinero destinado a materiales de estudio, alimentación, residencia y salud. Entre sus requisitos publica calidad de alumno regular y acreditación documentada de insuficiencia económica; distingue préstamos regulares desde el segundo semestre del primer año y préstamos eventuales desde el primer semestre. El catálogo también lista por separado una “Ayuda Económica” de postergación parcial de arancel.\n\nLa candidata se titula “Beca de Apoyo Socioeconómico UV” y su antecedente la describe como apoyo económico evaluado por asistentes sociales, con RSH hasta 60%. La fuente oficial demuestra que existen ayudas económicas socioeconómicas en la UV, pero la prestación que describe es reembolsable y no acredita que sea la beca no reembolsable afirmada por la ficha. Tampoco respalda el límite RSH 60% ni su periodicidad.\n\n**Resultado:** mantener `REQUIERE_ACLARACION`. Existe contradicción material entre préstamo y beca; hace falta una fuente que identifique el programa exacto antes de corregir o confirmar la candidata.\n\nFuente: [Universidad de Valparaíso — Transparencia, beneficios y subsidios](https://transparencia.uv.cl/documentos/beneficios-y-subsidios/subsidios.html)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -17578,6 +17718,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## San Miguel — `1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc`\n\nLa Municipalidad publicó para 2026 Kits de Apoyo Estudiantil destinados a estudiantes desde primero básico hasta cuarto medio, con vulnerabilidad de hasta 60% RSH. Es un apoyo material escolar y excluye por nivel a estudiantes de educación superior. La página no acredita una beca superior de mantención con el nombre y monto de la candidata.\n\n**Resultado:** `REQUIERE_ACLARACION`. Mantener separados los kits escolares y la posible beca superior; la publicación escolar no confirma ni descarta otra línea municipal.\n\nFuentes: [Municipalidad de San Miguel — resultados municipales 2026, publicación de Kits de Apoyo Estudiantil](https://web.sanmiguel.cl/page/2/?s=2026), [Municipalidad de San Miguel — sección Educación](https://web.sanmiguel.cl/category/educacion/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -17850,6 +17997,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a` — Estación Central | El enlace atribuido a las bases 2026 no entregó un documento legible en la revisión previa. Una portada o URL no sustituye las bases. | Pendiente: recuperar el documento y contrastar su contenido. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Estación Central — `c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a`\n\nLa dirección municipal guardada para las bases 2026 devuelve la portada actual al abrirse. El índice de búsqueda del propio dominio alcanza a identificar un PDF titulado “Becas Talento Centralin@ Año 2026”, pero no se pudo recuperar el documento desde esa dirección para leer y comprobar todas sus disposiciones. El nombre “beca municipal de educación superior” del registro no prueba correspondencia con el concurso Talento Centralin@, que agrupa líneas y criterios propios.\n\n**Resultado:** `REQUIERE_ACLARACION`. La portada y el extracto indexado no sustituyen las bases legibles ni prueban el monto y requisitos de esta candidata.\n\nFuentes: [Municipalidad de Estación Central — URL registrada para las bases 2026](https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf), [Municipalidad de Estación Central — sitio actual](https://www.ecentral.cl/)."
         ]
       }
     ],
@@ -18279,6 +18433,13 @@
         "informe_sha256": "ecb7b5d8ccf7bb1949d5db3e41fbcd24d542dd2bd94d3a290e9a4101cd4afb36",
         "extractos": [
           "| `432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399` — Beca Municipal para Estudios Superiores Talcahuano | La página municipal actual describe orientación y tramitación de beneficios sociales estatales, sin nombrar esta beca. El catastro de beneficios vinculado al sitio UCSC describe para Talcahuano una beca de apadrinamiento con nombre y objeto distintos; no entrega base de la ayuda general postulada. [Subsidios municipales](https://web2026.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios), [catastro de beneficios 2024](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf). | Pendiente. Las fuentes no acreditan cobertura, beneficio ni requisitos de esta candidata. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Talcahuano — `432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399`\n\nLa página municipal “Educación Superior” describe orientación y acompañamiento para postular a gratuidad, becas y créditos estatales, además de cupos de preuniversitario gratuito para residentes de 17 a 29 años mediante convenios. No describe una beca municipal monetaria de estudios superiores ni publica monto, selección socioeconómica o requisitos de una ayuda propia.\n\n**Resultado:** `REQUIERE_ACLARACION`. La página oficial no vincula esos servicios con la ficha. Su alcance no permite concluir que la ayuda municipal no exista.\n\nFuente: [Municipalidad de Talcahuano — Educación Superior](https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior)."
         ]
       }
     ],
@@ -20566,6 +20727,13 @@
         "extractos": [
           "| `a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777` — Caldera | Las bases FONDESCO 2025 regulan aportes concursables a organizaciones y proyectos comunitarios; no acreditan una beca individual de educación superior. [Bases FONDESCO](https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf). | Pendiente: localizar bases de beca individual; no descartar por diferencia de programa. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Caldera — `a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777`\n\nLa ficha municipal afirma un aporte anual DIDECO en dinero, con RSH 60%, nota 5,0 y documentos socioeconómicos. El sistema oficial de Mercado Público registra licitaciones de la Municipalidad de Caldera para una “Beca de Movilización” 2026 destinada al traslado ida y regreso a Copiapó de estudiantes de educación superior o técnico-profesional; una convocatoria especifica la modalidad vespertina. Esto prueba una prestación de transporte distinta, no el aporte monetario general de la candidata ni sus umbrales. No trasladar condiciones entre ambas líneas.\n\n**Resultado:** `REQUIERE_ACLARACION`. Falta la convocatoria, decreto o base de la supuesta modalidad DIDECO de mantención. La prestación de movilidad es una pista municipal concreta, no una identidad confirmada.\n\nFuentes: [Mercado Público — Licitación 4192-7-LE26, Beca de Movilización 2026](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=rwSFVRXicvYw9No4jiswBQ%3D%3D), [Mercado Público — Licitación 4192-32-LE26, traslado vespertino 2026](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -22081,6 +22249,13 @@
         "extractos": [
           "| `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc` — Victoria | La Municipalidad informa una beca de excelencia CMPC para enseñanza media y canaliza becas estatales; su transparencia de beneficios propios no identificó en lo consultado la beca superior de la candidata. [Beca CMPC 2025](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/), [Departamento Social](https://victoriachile.cl/departamentos-y-direcciones/dideco/departamento-social/), [beneficios propios](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/). | Pendiente: no confundir becas estatales o de empresa con una beca municipal propia. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Victoria — `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`\n\nEl portal municipal de transparencia registra ayudas sociales y subvenciones con sus propios objetos; el PADEM municipal consultado describe beneficios JUNAEB, como la Beca Indígena, Beca Presidente de la República y Beca Práctica Técnico Profesional. Estas fuentes no individualizan la beca superior general descrita por la candidata ni justifican su monto y RSH. Otras noticias municipales encontradas tratan de becas de enseñanza media de CMPC, también distintas.\n\n**Resultado:** `REQUIERE_ACLARACION`. No usar beneficios estatales ni de CMPC para completar los campos de la beca municipal; recuperar bases o un acto de adjudicación del programa superior específico.\n\nFuentes: [Municipalidad de Victoria — Transparencia de subsidios y beneficios propios](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/), [Municipalidad de Victoria — PADEM 2014](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf), [Municipalidad de Victoria — becas CMPC de enseñanza media](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -23429,6 +23604,13 @@
         "informe_sha256": "ee8ed3420aaa4a949bdbd60ed19c1d22d87d31664ddaf652d35b8e7fafab8101",
         "extractos": [
           "| `7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1` — Peumo | El sitio municipal publica una nómina de beneficiarios de la Beca Municipal 2025, pero el contenido visible no define monto, cobertura ni criterios. [Publicación municipal](https://mpeumo.cl/index.php/product/edit/61741995). | Pendiente: obtener bases o decreto del programa. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Peumo — `7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1`\n\nUna nota local de febrero de 2026 informa un proceso municipal de postulación y renovación de la Beca Municipal de Educación Superior; enumera matrícula, alumno regular, RSH y cédula. Es una fuente periodística, no las bases o una publicación directa del municipio. No identifica monto, criterios de adjudicación ni relación con la descripción histórica de esta ficha. La búsqueda oficial municipal previa localizó una página de beneficiarios, no el reglamento ni la convocatoria con condiciones.\n\n**Resultado:** `REQUIERE_ACLARACION`. La nota es un indicio para recuperar las bases municipales; no cierra el beneficio ni sus requisitos principales.\n\nFuentes: [Municipalidad de Peumo — página institucional referenciada en el expediente](https://mpeumo.cl/), [Radio Naranja — aviso atribuido al proceso 2026](https://lasabrosadechile.cl/?p=33)."
         ]
       }
     ],
@@ -29616,6 +29798,13 @@
         "extractos": [
           "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` — Beca Municipal Estudiantil Hualañé | Transparencia municipal lista para educación la postulación/renovación de Beca Presidente de la República y Beca Indígena, esta última descrita para básica y media. La Universidad de Chile registra un convenio de residencia SIPEE con Hualañé de 2017–2019, ya terminado; tampoco es prueba de una subvención general de educación superior. [Transparencia municipal](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6), [nómina y fin del convenio SIPEE](https://uchile.cl/presentacion/asuntos-academicos/financiamiento-y-becas/becas-pregrado/nominas-historicas-beneficiariosas-municipalidad-de-hualane). | Pendiente. Identidad y beneficio de la ficha no quedan establecidos; conservar separados beneficios JUNAEB y residencia SIPEE histórica. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Hualañé — `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a`\n\nEl índice oficial de transparencia consultado ofrece una postulación a la Beca Indígena y el decreto municipal 423/2026 sobre deportistas destacados. Este decreto no es una base para la candidata de educación superior general; la ficha carece de una publicación específica que la conecte con los dos instrumentos encontrados.\n\n**Resultado:** `REQUIERE_ACLARACION`. No trasladar requisitos de becas estatales ni montos deportivos. Falta localizar la norma o convocatoria de la candidata.\n\nFuentes: [Municipalidad de Hualañé — Transparencia, trámites de Educación](https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6), [Municipalidad de Hualañé — decreto 423/2026 de deportistas destacados, referenciado en su transparencia activa](https://transparencia.hualane.cl/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -30296,6 +30485,13 @@
         "informe_sha256": "c7d958e6531887d21dc3b42b6e8ae7e8de6aafaa4ec704a3fe32b09114d78784",
         "extractos": [
           "| `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519` — Beca Educación Superior Santa María | En la consulta del dominio municipal indicado por la ficha no se localizó ficha o bases oficiales específicas que ratifiquen una ayuda renovable por dos años, excelencia académica y vulnerabilidad. La ausencia de una ficha localizada no prueba inexistencia. | Pendiente: requiere fuente específica; no confirmar monto, renovación ni selección. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Santa María — `9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519`\n\nLa noticia municipal de 2026 confirma la entrega de 30 becas deportivas para niñas, niños, adolescentes y jóvenes con desempeño destacado, destinadas a costos de entrenamiento. No es la ayuda general de educación superior socioeconómica de la candidata y no acredita los requisitos de esta última.\n\n**Resultado:** `REQUIERE_ACLARACION`. Mantener la modalidad deportiva fuera de la ficha hasta que una fuente municipal conecte identidad, beneficio y requisitos.\n\nFuente: [Municipalidad de Santa María — entrega de 30 becas deportivas](https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/)."
         ]
       }
     ],
@@ -36665,6 +36861,13 @@
         "extractos": [
           "| `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d` — Cochamó | La búsqueda del sitio municipal no produjo una ficha oficial específica de la beca alegada. Sin resultados no equivale a inexistencia. | Pendiente: fuente oficial de programa, beneficio y requisitos. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "## Cochamó — `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`\n\nDos medios locales publican que en 2026 el municipio entregó por primera vez un Aporte Municipal Estudiantil a 34 estudiantes de enseñanza básica, media y superior; atribuyen al municipio el pago de una primera cuota de $200.000 y describen evaluación social y continuidad de estudios. El sitio municipal disponible identifica sus departamentos y oficinas, pero no entrega en esta consulta la noticia, las bases ni el decreto del beneficio. La nota de prensa sirve para localizar un posible programa y no reemplaza su fuente primaria.\n\n**Resultado:** `REQUIERE_ACLARACION`. La mención de que sería la primera entrega en 2026 podría acotar la antigüedad de esta línea, pero procede de prensa y no demuestra que sea la misma ficha. No confirmar monto, requisitos o historial sin el acto o publicación municipal.\n\nFuentes: [Municipalidad de Cochamó — organización y unidades](https://municochamo.cl/municipalidad/), [FrutillarHoy — nota sobre el aporte de 2026](https://frutillarhoy.cl/regional/cochamo-aporte-estudiantil-34-jovenes-2026), [Diario El Huemul — nota sobre el aporte de 2026](https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -37524,6 +37727,13 @@
         "informe_sha256": "90825c01c25aa90f1e5ab15653945a5ddf7470d12f8a285390d08e0fa92c1b8f",
         "extractos": [
           "| `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02` — Beca Hermanos UAI | La página oficial corresponde a Admisión 2026 y enumera becas de excelencia y beneficios por puntaje y situación económica. No se encontró en ella una beca de hermanos ni el 25% atribuido al registro. [Catálogo UAI 2026](https://www.uai.cl/admision/becas-y-aranceles/becas) | Pendiente: el catálogo actual no resuelve existencia histórica. Conservar el antecedente y no confirmar el porcentaje. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -39402,6 +39612,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_11_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "4df4fa7a45e21a688a22ef6065ec1316677006f81e841e053bfc989493202dd8",
+        "extractos": [
+          "### `bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0` y `3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be`\n\nLa plataforma oficial municipal de La Florida para 2026 describe la Beca Escolar Municipal: 3.500 estudiantes entre kínder y cuarto medio reciben apoyo destinado a útiles, calzado o vestimenta. La edad escolar y el objeto material no corresponden a la ficha general de educación superior. La comuna también tiene antecedentes oficiales de una Beca Ilustre Municipalidad de Florida para estudiantes superiores, que pertenece a la comuna de Florida, Región del Biobío; no trasladar esos datos a La Florida, Región Metropolitana.\n\n**Resultado para las dos fichas:** `REQUIERE_ACLARACION`. No fusionar las candidatas entre sí ni sustituirlas por la beca escolar o por la beca de Florida (Biobío).\n\nFuentes: [Municipalidad de La Florida — Plataforma Beca Escolar Municipal 2026](https://appx.laflorida.cl/beca_escolar/), [Municipalidad de Florida, Región del Biobío — contacto DIDECO y referencia a su beca](https://florida.muniflorida.cl/contacto/), [BCN — Ordenanza de becas de la Municipalidad de Florida](https://www.bcn.cl/leychile/navegar?idNorma=250931)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -40260,6 +40477,13 @@
         "informe_sha256": "86d2be76d1250004e6d3641a32979b698dafc635879b2c4edbaff64a8614fb1e",
         "extractos": [
           "| Beca de Apoyo Institucional UNAP — `f0c9572600ee6cde88eba8f498d66d00ecf129ff379842ce655675431d3a63d1` | [Beneficios estudiantiles UNAP](https://www.unap.cl/prontus_unap/site/edic/base/port/bienestar_estudiantil.html); [Becas internas de mantención](https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html) | La UNAP publica beneficios diferenciados de tarjeta de alimentación, manutención complementaria, residencia y apoyo a padres/madres, además de financiamiento interno de arancel. No se encontró una ficha que identifique la candidata genérica con 15–50%, RSH 60% y los requisitos atribuidos. Mantener pendiente; no tratar una línea presupuestaria amplia como una beca individual. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md",
+        "informe_sha256": "81430031d5f1217f6c1875f79578227e72ce0cc59cc8416800134c88817f2ef3",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],

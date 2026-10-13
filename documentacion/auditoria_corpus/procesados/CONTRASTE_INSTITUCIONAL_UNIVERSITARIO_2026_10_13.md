@@ -10,7 +10,8 @@ Fuentes: https://www.pucv.cl/pucv/futuros-estudiantes/becas-y-beneficios ; https
 
 ### UAI — Beca Hermanos (`b63145bc2bc7`)
 El catálogo oficial de becas UAI para Admisión 2026 describe beneficios para estudiantes nuevos seleccionados por admisión centralizada, pero no respalda el descuento de 25% para hermanos atribuido por esta ficha. La búsqueda en páginas oficiales no identificó una regla de hermanos. La falta de mención no prueba inexistencia histórica.
-Fuente: https://www.uai.cl/admision/becas-y-aranceles/becas
+La revisión adicional de los beneficios oficiales Alumni sí identifica un descuento de 10% para titulados de pregrado o postgrado UAI contra certificado de título. Es un beneficio para egresados, no una regla para hermanos, y no se usa como sustituto.
+Fuentes: https://www.uai.cl/admision/becas-y-aranceles/becas ; https://alumni.uai.cl/pages/beneficios
 
 ### UAH — Beca Vocación Social (`83840acd4c10`)
 La página oficial de Admisión 2027 anuncia becas de ingreso por rendimiento PAES, entre ellas una exención de 90% para puntaje promedio PAES desde 800. Una convocatoria UAH de 2017 para el Programa de Apoyo Integral de Fundación Mar Abierto sí menciona excelencia académica, compromiso/vocación social y necesidad económica, con apoyo según necesidad para arancel, matrícula, alimentación y materiales. Ninguna fuente confirma la candidata con descuento fijo de 30%, carreras descritas, NEM 5,5 ni compromiso de participación. La convocatoria histórica podría explicar una similitud temática, pero no prueba identidad.
@@ -18,7 +19,8 @@ Fuentes: https://admision.uahurtado.cl/becas-y-beneficios/ ; https://derecho.uah
 
 ### UNAP — Beca de Apoyo Institucional (`f0c9572600ee`)
 Transparencia UNAP lista una Beca Rectoría. Para estudiantes nuevos requiere situación socioeconómica que amerite asignación; para antiguos también exige aprobar todas las asignaturas previas. El reglamento contempla cobertura parcial de arancel semestral, anual o básico, y decretos oficiales acreditan adjudicaciones con coberturas variables. Esto respalda una beca institucional socioeconómica real, pero las fuentes nombran “Beca Rectoría”, no “Beca de Apoyo Institucional”. No acreditan el límite RSH 60%, el rango 15–50% como regla general ni los documentos atribuidos. Mantener abiertas ambas denominaciones hasta localizar la fuente que las relacione; no asumir alias.
-Fuentes: https://transparencia.unap.cl/activa/web/index.php?a=2024&action=plantillas_generar_plantilla&ia=7154&ig=92&m=1 ; https://transparencia.unap.cl/activa/web/index.php?a=2025&action=plantillas_generar_archivo&ia=8155&ig=63&m=5
+El reglamento institucional de 2018 identifica además una “Beca de Apoyo Económico Estudiantil” como beca de asistencia. La reserva para este beneficio depende del presupuesto y los valores se fijan por decreto; se asigna caso a caso para situaciones de extrema necesidad. Exige alumno regular, condición socioeconómica deficiente, antecedentes de respaldo, nota mínima 4,0 y aprobación del 70% de las asignaturas del año o semestre anterior. Aunque es un paralelo oficial mucho más específico que la mención genérica previa, el reglamento no llama a esta beca “Apoyo Institucional” ni fija RSH 60% o un porcentaje de arancel del 15–50%; el vínculo de identidad sigue sin demostrarse.
+Fuentes: https://transparencia.unap.cl/activa/web/index.php?a=2018&action=plantillas_generar_archivo&ia=2520&ig=92&m=3 ; https://transparencia.unap.cl/activa/web/index.php?a=2024&action=plantillas_generar_plantilla&ia=7154&ig=92&m=1 ; https://transparencia.unap.cl/activa/web/index.php?a=2025&action=plantillas_generar_archivo&ia=8155&ig=63&m=5
 
 ### Universidad Autónoma — Alumni y Socioeconómica (`f88bb7b26455`, `0eb2e27ef8fe`)
 Se revisaron las fuentes oficiales antecedentes de la cola para ambas candidatas. No se obtuvo evidencia nueva que conecte una beca Alumni de 20% para una segunda carrera o una rebaja socioeconómica de hasta 40% con una convocatoria/reglamento específico vigente. Las condiciones de elegibilidad del CSV siguen sin respaldo directo; mantener abiertas ambas fichas.
@@ -42,11 +44,13 @@ Fuentes: https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sist
 
 ### Universidad de Concepción — Beca de Arancel (`cfb90f338bf4`)
 El catálogo institucional oficial revisado distingue varias becas nominadas, incluida la Beca Interna UdeC, con condiciones descritas por programa/carrera. No vincula en forma inequívoca la ficha “Beca de Arancel UdeC” con el supuesto beneficio socioeconómico de 50–100% gestionado por DISE ni con RSH 60%. No renombrar la candidata con una beca similar ni trasladar beneficios de carrera; mantener abierta.
-Fuente: https://admision.udec.cl/beneficios/
+La página vigente enumera además becas por carrera, mérito, mantención y beneficios estatales. Esto confirma que hay varias líneas y refuerza que la ficha genérica no identifica cuál sería la postulada. No aplicar la cobertura de ninguna de ellas sin un vínculo positivo con el original.
+Fuentes: https://admision.udec.cl/beneficios/ ; https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/
 
 ### UFRO — Beca de Apoyo Socioeconómico (`d5f97ce59d9f`)
 La Dirección de Desarrollo Estudiantil publica becas de arancel ministeriales e institucionales nominadas, más procedimientos de acreditación socioeconómica. En lo consultado no se identifica una beca general de apoyo socioeconómico con monto mensual variable como afirma el registro. Las ayudas de mantención específicas, incluido apoyo académico de Odontología, son distintas. Falta una convocatoria exacta; mantener abierta.
-Fuentes: https://dde.ufro.cl/beneficios-estudiantiles/arancel/ ; https://dde.ufro.cl/beneficios-estudiantiles/docs-bienestar-estudiantil/
+La página oficial de beneficios de mantención describe ayudas JUNAEB —entre ellas BPR, BVP y BAES— y sus requisitos; no la beca institucional genérica descrita por la ficha. No transferir los montos mensuales JUNAEB a la candidata.
+Fuentes: https://dde.ufro.cl/beneficios-estudiantiles/arancel/ ; https://dde.ufro.cl/beneficios-estudiantiles/docs-bienestar-estudiantil/ ; https://dde.ufro.cl/beneficios-estudiantiles/mantencion/
 
 ### UPLA — Beca de Residencia (`329107086a1a`)
 Se conserva el contraste oficial institucional registrado previamente: falta una convocatoria o reglamento que determine si la ficha ofrece un cupo residencial, un subsidio monetario, o ambas modalidades, y que vincule la población descrita. No inferir un subsidio ni un RSH 60% a partir de una descripción general de alojamiento.
