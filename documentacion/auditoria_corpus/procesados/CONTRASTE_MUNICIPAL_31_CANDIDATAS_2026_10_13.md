@@ -156,9 +156,9 @@ Fuentes: <https://tramites.penaflor.cl/> | <https://penaflor.cl/>
 
 ### 52. Beca Municipal Educación Superior Pencahue — Municipalidad de Pencahue (`c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a`)
 
-Pencahue: la consulta oficial dirigida no encontró una base o convocatoria para esta ficha. Sin descarte por ausencia de resultado.
+Actualización 13/10/2026: el portal municipal publicó “Resultados Becas 2026” con un listado de 92 estudiantes beneficiarios. Esto confirma una adjudicación municipal estudiantil en 2026, pero la página no identifica el nivel educacional, modalidad, monto ni requisitos; no basta para atribuirle los $150.000, RSH 60% y NEM 5,0 de esta candidata. Sigue pendiente recuperar bases o convocatoria para confirmar esos términos.
 
-Fuentes: <https://www.mpencahue.cl/>
+Fuentes: <https://mpencahue.cl/index.php/resultados-becas-2026/> | <https://www.mpencahue.cl/>
 
 ### 53. Beca Municipal Educación Superior Aysen — Municipalidad de Puerto Aysen (`134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452`)
 
