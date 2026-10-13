@@ -9731,5 +9731,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "ecec85e3fcec3c2300080131f2fe657701ff13bc3db3968e55a151adfd69eedc",
+    "revisado": "2026-10-12",
+    "alcance": "Apoyo económico municipal para continuidad de estudios superiores; identifica el programa y destinatarios principales, sin certificar monto o convocatoria futura",
+    "informe": "CONFIRMACION_ESENCIAL_SAN_PEDRO_2026_10_12.md",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/03/DECRETO-N%C2%B0406-APRUEBA-NUEVO-REGLAMENTO-DE-BECA-MUNICIPAL-DE-EDUCACION-SUPERIO-Y-BECA-PAES.pdf",
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf",
+      "https://www.munisanpedro.gob.cl/noticias/becas-municipales-de-educacion-superior-y-beca-paes/"
+    ],
+    "beneficio": "Apoyo económico municipal para apoyar y estimular la continuidad de estudios superiores; importe individual desconocido.",
+    "requisitos_principales": "Estudiante que ingresa o cursa estudios superiores en establecimiento acreditado; residencia en San Pedro de la Paz corroborada mediante RSH.",
+    "limites": "El reglamento completo no pudo leerse por tamaño del PDF. No confirmar RSH máximo 60%, promedio 5,0, documentos, monto, pago ni renovación atribuidos en original. El decreto evidencia proceso 2026, no una convocatoria futura. No activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
