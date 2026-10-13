@@ -10215,5 +10215,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112",
+    "revisado": "2026-10-14",
+    "alcance": "Identidad corregida al beneficio institucional Cobro de Arancel Ajustado UC Temuco; apoyo y requisitos esenciales confirmados desde fuentes institucionales. No certifica un porcentaje ni una convocatoria abierta para 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_UCT_ARANCEL_AJUSTADO_2026_10_14.md",
+    "fuentes": [
+      "https://dcr.uct.cl/preguntas-frecuentes/",
+      "https://dge.uct.cl/beneficios-internos/",
+      "https://admision.uct.cl/becas-y-creditos/"
+    ],
+    "beneficio": "Ajuste del cobro del arancel. No se confirma que sea una beca en efectivo ni un porcentaje fijo.",
+    "requisitos_principales": "Registro Social de Hogares vigente del año de postulación con calificación hasta 90%; estudiante con becas o créditos universitarios, o sin beneficios asignados por Mineduc/Ingresa; no aplica con gratuidad ministerial vigente o expirada. Postulación en el portal del estudiante con cartola RSH vigente en PDF.",
+    "limites": "El 15–50% y RSH 60% del registro original no están respaldados por la fuente consultada. Monto, porcentaje, fórmula, calendario y otros documentos no especificados. No se confirma convocatoria 2026 ni vigencia; no activar como beca publicada.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Cartola RSH vigente en PDF, indicada para la postulación en línea.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

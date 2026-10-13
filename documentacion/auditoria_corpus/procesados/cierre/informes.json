@@ -2614,7 +2614,7 @@
     ]
   },
   "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md": {
-    "sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+    "sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
     "urls": [
       "https://appx.laflorida.cl/beca_escolar/",
       "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
@@ -2623,6 +2623,7 @@
       "https://imputre.cl/transparencia/archivos_muni/CUENTA%20PUBLICA%202011.pdf",
       "https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf",
       "https://mejillones.cl/wp-content/uploads/2023/05/CUENTA-VISTA_compressed.pdf",
+      "https://mpencahue.cl/index.php/resultados-becas-2026/",
       "https://municholchol.cl/contacto-5/",
       "https://municholchol.cl/municipio/",
       "https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
@@ -2636,7 +2637,8 @@
       "https://transparencia.hualane.cl/",
       "https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6",
       "https://uchile.cl/dam/jcr%3A96653b26-bd5f-4c7e-91c6-59744d878d6b/convenio-municipalidad-de-puerto-montt.pdf",
-      "https://www.coronel.cl/",
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
       "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf",
       "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
       "https://www.imhuara.cl/",
@@ -3081,17 +3083,31 @@
       "https://www.ventanillaunicasocial.gob.cl/ficha/260/beca-prueba-admision-educacion-superior"
     ]
   },
-  "CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md": {
-    "sha256": "eeede8728bac0c8564e5058737010eb5d74594af9ae27e45814b6e3040120bb2",
-    "urls": [
-      "https://donaciones.udd.cl/?page_id=107369",
-      "https://www.udd.cl/dircom/reglamentos/Reglamento-de-becas.pdf"
-    ]
-  },
   "CONFIRMACION_ESENCIAL_COQUIMBO_APORTES_SOCIALES_2026_10_13.md": {
     "sha256": "e4771fac95d827a949070c4e08968f5f8e58af91e338755aa6e82a22f2894ce9",
     "urls": [
       "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
+    ]
+  },
+  "CONTRASTE_CHOLCHOL_REGLAMENTO_2026_10_13.md": {
+    "sha256": "b35309111db0cb38b65b217eb66dc854a3f2089f8f588ad38086289d437c0a97",
+    "urls": [
+      "https://drive.google.com/uc?export=download&id=1f9lfaMqRYj_8K6g6G5pe_fjKa5jiXxaT",
+      "https://www.municholchol.cl/municipio/"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md": {
+    "sha256": "c2370be850f6864af725f94ad98ce860f2f85bb7d972f4a84be9d0b169bec246",
+    "urls": [
+      "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_UCT_ARANCEL_AJUSTADO_2026_10_14.md": {
+    "sha256": "fe354b30a23f110a24d880c99e3867a62dc64c571ae99a70612b1853900386f9",
+    "urls": [
+      "https://admision.uct.cl/becas-y-creditos/",
+      "https://dcr.uct.cl/preguntas-frecuentes/",
+      "https://dge.uct.cl/beneficios-internos/"
     ]
   }
 }

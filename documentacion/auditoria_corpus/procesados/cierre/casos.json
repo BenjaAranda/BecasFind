@@ -299,7 +299,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 42. Beca Municipal Educación Superior La Florida — Municipalidad de La Florida (`bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0`)\n\nLa Florida: PLADECO municipal indexa Ordenanza 127/2020 de becas para varios niveles, incluida educación superior. Falta el articulado íntegro para verificar esta ficha y sus condiciones.\n\nFuentes: <https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf> | <https://appx.laflorida.cl/beca_escolar/>"
         ]
@@ -10161,7 +10161,7 @@
     "candidato": "ee4ccb1aa4a89edcfd46d1e017ee676f143f27985d44e9701a118d93e1bfdfaa",
     "nombre": "Beca Socioeconomica UCSC",
     "institucion": "Universidad Católica de la Santísima Concepción",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsc.csv",
@@ -10258,16 +10258,16 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "ee4ccb1aa4a89edcfd46d1e017ee676f143f27985d44e9701a118d93e1bfdfaa",
-      "revisado": "2026-10-06",
-      "motivo": "Programas solidarios específicos no prueban identidad de la candidata Socioeconómica genérica.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "revisado": "2026-10-13",
+      "motivo": "La ficha 2026 atribuye una beca socioeconómica general, hasta 40% y RSH máximo 60%; la fuente individual oficial de la Beca Especial de Arancel UCSC define tres modalidades con destinatarios y criterios incompatibles (hasta 20%/15% por zona y NEM, o hasta 50% para una carrera específica), sin requisito RSH. No se equiparan por la coincidencia genérica de ser rebajas de arancel.",
+      "criterio": "CONTRADICCION_MATERIAL",
+      "alcance": "Se ratifica la exclusión editorial de esta candidata como ficha mal identificada para 2026. No afirma inexistencia de apoyos socioeconómicos UCSC; no se convierte en la Beca Especial de Arancel. Archivos originales y registro histórico conservados.",
+      "informe": "DESCARTE_UCSC_Beca_Socioeconomica_2026_10_13.md",
       "evidencia": [
-        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
+        "DESCARTE_UCSC_Beca_Socioeconomica_2026_10_13.md"
       ]
     }
   },
@@ -11358,13 +11358,6 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Socioeconómica UDD | `61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_FUENTES_OFICIALES_32_2026_10_12.md` |"
-        ]
-      },
-      {
-        "informe": "CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md",
-        "informe_sha256": "eeede8728bac0c8564e5058737010eb5d74594af9ae27e45814b6e3040120bb2",
-        "extractos": [
-          "Candidata: `61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4` — **Beca Socioeconomica UDD**, Universidad del Desarrollo."
         ]
       }
     ],
@@ -19631,7 +19624,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 37. Beca Municipal Educación Superior Hualpen — Municipalidad de Hualpen (`156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`)\n\nHualpén: PLADECO contempla orientación para becas estatales e informes sociales, no confirma una beca municipal de mantención con estos datos.\n\nFuentes: <https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf>"
         ]
@@ -19985,7 +19978,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 55. Beca Municipal Educación Superior Puerto Montt — Municipalidad de Puerto Montt (`8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`)\n\nPuerto Montt: el convenio de mantención con Universidad de Chile tiene criterio de ingreso SIPEE y liceo municipal; no se puede atribuir a la beca DIDECO general descrita por esta otra ficha.\n\nFuentes: <https://uchile.cl/dam/jcr%3A96653b26-bd5f-4c7e-91c6-59744d878d6b/convenio-municipalidad-de-puerto-montt.pdf> | <https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/>"
         ]
@@ -20109,7 +20102,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 40. Beca Municipal de Educación Superior Iquique — Municipalidad de Iquique (`1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`)\n\nIquique: mismo contraste; no hay evidencia para fusionar esta segunda referencia con la artística ni con la otra ficha general.\n\nFuentes: <https://www.municipioiquique.cl/files/1439> | <https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta>"
         ]
@@ -20212,7 +20205,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 53. Beca Municipal Educación Superior Aysen — Municipalidad de Puerto Aysen (`134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452`)\n\nPuerto Aysén: fuentes municipales consultadas no identifican la beca candidata. No sustituirla con programas estatales o regionales.\n\nFuentes: <https://puertoaysen.cl/>"
         ]
@@ -21388,7 +21381,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 46. Beca Municipal de Educación Superior Lo Espejo — Municipalidad de Lo Espejo (`110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8`)\n\nLo Espejo: el municipio ofrece orientación para becas JUNAEB y postulación a becas superiores, pero esto no acredita una beca municipal propia.\n\nFuentes: <https://www.loespejo.cl/departamento-de-desarrollo-social/> | <https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/>"
         ]
@@ -22229,7 +22222,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 50. Beca Municipal para Estudiantes de Educación Superior Penaflor — Municipalidad de Penaflor (`f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1`)\n\nPeñaflor: su portal oficial presenta categoría de becas municipales, pero no se pudo recuperar la ficha específica ni bases de esta candidata.\n\nFuentes: <https://tramites.penaflor.cl/> | <https://penaflor.cl/>"
         ]
@@ -22548,7 +22541,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 49. Beca Municipal Educación Superior Mejillones — Municipalidad de Mejillones (`10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2`)\n\nMejillones: cuentas públicas municipales registran 252, 288 y 340 becas/beneficios para estudiantes superiores en 2019, 2021 y 2022. No especifican los términos DIDECO, monto, prioridad fuera de comuna ni umbrales de esta ficha.\n\nFuentes: <https://www.mejillones.cl/wp-content/uploads/2020/04/CUENTA-P%C3%9ABLICA-2019.pdf> | <https://www.mejillones.cl/wp-content/uploads/2022/06/CUENTA-PUBLICA-2021-1.pdf> | <https://mejillones.cl/wp-content/uploads/2023/05/CUENTA-VISTA_compressed.pdf>"
         ]
@@ -22953,7 +22946,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 45. Beca Municipal Educación Superior Llay Llay — Municipalidad de Llay Llay (`659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0`)\n\nLlay Llay: la búsqueda dirigida al sitio municipal no recuperó bases identificables. Mantener abierta; no inferir inexistencia.\n\nFuentes: <https://www.munillay.cl/>"
         ]
@@ -24792,7 +24785,7 @@
     "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
     "nombre": "Beca Municipal de Educación Superior",
     "institucion": "Municipalidad de Peumo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
@@ -24883,13 +24876,41 @@
         "extractos": [
           "| Beca Municipal de Educación Superior Peumo | `7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md`; `CONTRASTE_BLOQUE_30_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md",
+        "informe_sha256": "c2370be850f6864af725f94ad98ce860f2f85bb7d972f4a84be9d0b169bec246",
+        "extractos": [
+          "Candidata: `7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1`.\n\nRevisión del 13 de octubre de 2026. La Municipalidad de Peumo publicó en su portal oficial una convocatoria visual titulada “Beca Municipal 2025”, dirigida expresamente a estudiantes de educación superior. El aviso indica que la postulación se realiza ante el Departamento Social, de forma presencial o por correo electrónico.\n\nLa convocatoria enumera como requisitos: certificado de estudio o de alumno regular; fotocopia de la cédula de identidad; y datos personales de dirección y teléfono. Publica como contacto el correo becasmunicipales2025@gmail.com y el teléfono +56 9 4478 9055.\n\nFuentes oficiales:\n\n- [Imagen oficial de la convocatoria 2025](https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg)\n\n**Estado: CONFIRMADA_ESENCIAL**, limitado a la existencia de la beca municipal y su población destinataria en la convocatoria 2025. El aviso no publica monto, modalidad o periodicidad de pago, criterios RSH/NEM, renovación ni fecha de cierre. Por tanto, esos campos quedan sin especificar; las cifras y fechas atribuidas al candidato para 2026 no quedan confirmadas. La beca no se considera vigente para publicación en 2026 sin fecha de cierre confirmada."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
+      "revisado": "2026-10-13",
+      "alcance": "Identidad y datos públicos esenciales de la convocatoria municipal 2025; no confirma vigencia 2026",
+      "informe": "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md",
+      "fuentes": [
+        "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+      ],
+      "beneficio": "Beca municipal para estudiantes de educación superior; monto, cobertura y forma de pago específicos no publicados en el aviso.",
+      "requisitos_principales": "Certificado de estudio o de alumno regular; fotocopia de cédula de identidad; dirección y teléfono.",
+      "limites": "Convocatoria 2025. RSH, NEM, monto, modalidad y periodicidad de pago, renovación y cierre: no especificados. No activar para 2026.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "Certificado de estudio o de alumno regular; fotocopia de cédula de identidad; datos de dirección y teléfono.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "73d28e70cf8252afface9ef30e2c937cf187921bf2ea84f0403aaefc2b4c936f",
@@ -25022,7 +25043,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 30. Beca Municipal Estudios Superiores Cholchol — Municipalidad de Cholchol (`e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9`)\n\nCholchol: se localizó mención secundaria a una Beca Municipal de Educación Superior, sin bases municipales específicas accesibles. No confirma requisitos ni beneficio de la candidata.\n\nFuentes: <https://municholchol.cl/contacto-5/> | <https://municholchol.cl/municipio/>"
         ]
@@ -25046,6 +25067,13 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Municipal Estudios Superiores Cholchol | `e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md`; `CONTRASTE_BLOQUE_30_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_CHOLCHOL_REGLAMENTO_2026_10_13.md",
+        "informe_sha256": "b35309111db0cb38b65b217eb66dc854a3f2089f8f588ad38086289d437c0a97",
+        "extractos": [
+          "- **Beca Municipal Estudios Superiores Cholchol** (e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9): el reglamento no conecta las ayudas generales con la supuesta línea estudiantil de transporte y alimentación, ni valida los 100 beneficiarios o los requisitos anotados. Sigue REQUIERE_ACLARACION; no se ratifica ni se descarta.\n- **Beca de Educación Superior Cholchol** (25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba): el marco general de ayuda en dinero no acredita una beca de educación superior ni el monto anual de $200.000, RSH 60%, NEM 5,0 o cierre del 31 de marzo. Sigue REQUIERE_ACLARACION; no se fusiona con la otra candidata.\n\nLa revisión negativa de una regulación general no prueba que la Municipalidad no tenga o no haya tenido una beca específica. Para cerrar cualquiera de las fichas se necesita el acto, las bases o una convocatoria oficial que identifique el beneficio estudiantil. Tampoco se activa ninguna beca ni se confirma vigencia."
         ]
       }
     ],
@@ -25338,7 +25366,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 44. Beca PAES y Educación Superior Lebu 2026 — Municipalidad de Lebu (`00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a`)\n\nLebu: un recopilatorio universitario 2026 atribuye a la municipalidad un aporte de continuidad superior; no es una fuente municipal primaria ni confirma el conjunto de condiciones PAES/RSH/NEM del registro.\n\nFuentes: <https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf> | <https://www.lebu.cl/>"
         ]
@@ -30033,7 +30061,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 57. Beca Municipal Estudiantil Putre (Educación Superior) — Municipalidad de Putre (`3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367`)\n\nPutre: Cuenta Pública municipal 2019 registra asistencia para renovar Beca Indígena y Beca Presidente de la República; no acredita una beca municipal general para educación superior con los términos de esta ficha.\n\nFuentes: <https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf> | <https://imputre.cl/transparencia/archivos_muni/CUENTA%20PUBLICA%202011.pdf>"
         ]
@@ -30647,9 +30675,9 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
-          "### 52. Beca Municipal Educación Superior Pencahue — Municipalidad de Pencahue (`c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a`)\n\nPencahue: la consulta oficial dirigida no encontró una base o convocatoria para esta ficha. Sin descarte por ausencia de resultado.\n\nFuentes: <https://www.mpencahue.cl/>"
+          "### 52. Beca Municipal Educación Superior Pencahue — Municipalidad de Pencahue (`c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a`)\n\nActualización 13/10/2026: el portal municipal publicó “Resultados Becas 2026” con un listado de 92 estudiantes beneficiarios. Esto confirma una adjudicación municipal estudiantil en 2026, pero la página no identifica el nivel educacional, modalidad, monto ni requisitos; no basta para atribuirle los $150.000, RSH 60% y NEM 5,0 de esta candidata. Sigue pendiente recuperar bases o convocatoria para confirmar esos términos.\n\nFuentes: <https://mpencahue.cl/index.php/resultados-becas-2026/> | <https://www.mpencahue.cl/>"
         ]
       },
       {
@@ -31277,7 +31305,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 36. Beca Municipal Estudiantil Hualane — Municipalidad de Hualane (`a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a`)\n\nHualañé: los instrumentos visibles corresponden a postulación de Beca Indígena y ayuda deportiva; no identifican la beca general de educación superior.\n\nFuentes: <https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6> | <https://transparencia.hualane.cl/>"
         ]
@@ -32178,7 +32206,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 29. Beca Municipal Educación Superior Chanaral — Municipalidad de Chanaral (`b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47`)\n\nChañaral: el municipio reconoce Beca Municipal, pago de matrícula superior y un reglamento aprobado en 2015; falta recuperar el reglamento para ligar requisitos y prestación a esta ficha.\n\nFuentes: <https://www.munichanaral.cl/new_graduacion_liceo_24.html> | <https://www.munichanaral.cl/pdf/Cuenta%20Publica%202014.pdf> | <https://www.munichanaral.cl/pdf/Cuenta%20Publica%202015.pdf> | <https://www.munichanaral.cl/pdf/Cuenta_Publica_2024.pdf>"
         ]
@@ -34035,7 +34063,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 28. Beca Municipal de Apoyo a la Educación Superior Camina — Municipalidad de Camina (`5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`)\n\nCamiña: la consulta oficial no recuperó bases de esta denominación. No corregir “Camina” solo por semejanza ni descartar por falta de resultado.\n\nFuentes: <https://www.municamina.cl/>"
         ]
@@ -34206,7 +34234,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 38. Beca de Mantención Educación Superior Huara — Municipalidad de Huara (`15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99`)\n\nHuara: la búsqueda oficial dirigida no recuperó convocatoria o bases específicas. No equivale a prueba de inexistencia.\n\nFuentes: <https://www.imhuara.cl/>"
         ]
@@ -34377,7 +34405,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 35. Beca Municipal de Apoyo Estudiantil Visviri / General Lagos — Municipalidad de General Lagos (`6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131`)\n\nGeneral Lagos: el resultado de beca de transporte corresponde a General Lagos, Argentina. No se traslada a Visviri, Chile; las páginas oficiales chilenas no identifican la beca candidata.\n\nFuentes: <https://www.portalvisviri.cl/> | <https://www.portalvisviri.cl/transparencia/>"
         ]
@@ -34480,7 +34508,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 41. Beca Municipal de Educación Superior Archipielago Juan Fernandez — Municipalidad de Juan Fernandez (`e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed`)\n\nJuan Fernández: la Residencia Insular confirmada por Ventanilla Única es JUNAEB, no municipal. Mantener separada de la candidata.\n\nFuentes: <https://www.ventanillaunicasocial.gob.cl/ficha/121/beca-residencia-insular> | <https://munijf.cl/>"
         ]
@@ -34811,7 +34839,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 48. Beca Municipal Estudiantil Maria Pinto — Municipalidad de Maria Pinto (`f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5`)\n\nMaría Pinto: no se recuperó una publicación municipal que identifique la beca; resultados del homónimo comercial no son evidencia municipal.\n\nFuentes: <https://www.mpinto.cl/>"
         ]
@@ -36046,7 +36074,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 31. Beca de Educación Superior Cholchol — Municipalidad de Cholchol (`25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba`)\n\nCholchol: no se encontró acto que permita decidir si el nombre corresponde a un programa distinto o a la ficha anterior. Mantener separada hasta evidencia de identidad.\n\nFuentes: <https://municholchol.cl/contacto-5/> | <https://municholchol.cl/municipio/>"
         ]
@@ -36070,6 +36098,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "| Beca de Educación Superior Cholchol | `25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_CHOLCHOL_REGLAMENTO_2026_10_13.md",
+        "informe_sha256": "b35309111db0cb38b65b217eb66dc854a3f2089f8f588ad38086289d437c0a97",
+        "extractos": [
+          "- **Beca de Educación Superior Cholchol** (25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba): el marco general de ayuda en dinero no acredita una beca de educación superior ni el monto anual de $200.000, RSH 60%, NEM 5,0 o cierre del 31 de marzo. Sigue REQUIERE_ACLARACION; no se fusiona con la otra candidata.\n\nLa revisión negativa de una regulación general no prueba que la Municipalidad no tenga o no haya tenido una beca específica. Para cerrar cualquiera de las fichas se necesita el acto, las bases o una convocatoria oficial que identifique el beneficio estudiantil. Tampoco se activa ninguna beca ni se confirma vigencia."
         ]
       }
     ],
@@ -38143,7 +38178,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 51. Beca de Educación Superior Municipalidad de Penaflor — Municipalidad de Penaflor (`3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b`)\n\nPeñaflor: misma evidencia general; no prueba equivalencia con la candidata anterior. Mantener independiente hasta recuperar las bases de cada referencia.\n\nFuentes: <https://tramites.penaflor.cl/> | <https://penaflor.cl/>"
         ]
@@ -38579,7 +38614,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 47. Beca Municipal Educación Superior Mafil — Municipalidad de Mafil (`c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e`)\n\nMáfil: no se recuperó fuente municipal primaria que confirme monto en cuotas, RSH, NEM o condición de deudas. No descartar por esta búsqueda.\n\nFuentes: <https://munimafil.cl/>"
         ]
@@ -38832,7 +38867,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 32. Beca Municipal Educación Superior Cochamo — Municipalidad de Cochamo (`f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`)\n\nCochamó: las páginas municipales consultadas describen DAEM, pero no publican bases de la beca superior candidata. Las notas de prensa previas no sustituyen fuente municipal.\n\nFuentes: <https://municochamo.cl/daem1/> | <https://municochamo.cl/municipalidad/>"
         ]
@@ -39174,7 +39209,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 54. Beca Municipal Educación Superior — Municipalidad de Puerto Montt (`ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`)\n\nPuerto Montt: fuentes municipales confirman Incentivo PSU/PAES y beneficio a hijos de pescadores con destinatarios y requisitos definidos. No respaldan la beca DIDECO de libre disposición de este registro.\n\nFuentes: <https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/> | <https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/> | <https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/>"
         ]
@@ -39284,7 +39319,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 39. Beca Municipal de Educación Superior — Municipalidad de Iquique (`b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`)\n\nIquique: la beca oficial Sixto Rojas es artística, con población y finalidad delimitadas; no se transfiere a la beca general candidata.\n\nFuentes: <https://www.municipioiquique.cl/files/1439> | <https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta>"
         ]
@@ -40151,7 +40186,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 27. Beca Municipal de Educación Superior Arica — Municipalidad de Arica (`4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f`)\n\nArica: residencia estudiantil aparece como convenio con JUNAEB; las subvenciones municipales tienen otro alcance. No se identificó la beca general exacta.\n\nFuentes: <https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral> | <https://www.muniarica.cl/tramites/subvenciones-municipales>"
         ]
@@ -40419,9 +40454,9 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
-          "### 33. Beca Municipal de Educación Superior Copiapo — Municipalidad de Copiapo (`12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb`)\n\nCopiapó: la noticia oficial identifica la Beca Municipal Carmen Vilches para medicina/odontología en Argentina y acuerdos específicos; no prueba que sea esta beca general ni sus criterios. Mantener abierta.\n\nFuentes: <https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/>"
+          "### 33. Beca Municipal de Educación Superior Copiapo — Municipalidad de Copiapo (`12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb`)\n\nActualización 13/10/2026: la noticia oficial de 2026 confirma la Beca Municipal Carmen Vilches, vigente por convenios con la Universidad Nacional de La Rioja y Fundación Barceló, para jóvenes copiapinos con mérito académico y falta de recursos que cursan Medicina u Odontología en Argentina. La ficha candidata atribuye $150.000 anual, RSH 60% y NEM 5,5; esas condiciones no corresponden a lo publicado para Carmen Vilches. La fuente confirma una modalidad municipal distinta; falta la base de la ayuda general alegada. Mantener abierta sin reasignar.\n\nFuentes: <https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/>"
         ]
       },
       {
@@ -40784,7 +40819,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 56. Beca Municipal para Educación Superior Punta Arenas — Municipalidad de Punta Arenas (`dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959`)\n\nPunta Arenas: resultados sobre residencia estudiantil corresponden a prestaciones JUNAEB/Corporación y no confirman esta beca municipal general.\n\nFuentes: <https://www.puntaarenas.cl/archivos/Concejo/2008-2012/Ordinarias/Ordin_111_2011.pdf> | <https://www.ventanillaunicasocial.gob.cl/ficha/121/beca-residencia-insular/>"
         ]
@@ -41969,7 +42004,7 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
           "### 43. Beca Municipal de Educación Superior La Florida — Municipalidad de La Florida (`3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be`)\n\nLa Florida: existe la misma pista normativa, pero no determina si esta segunda candidata es duplicada o distinta. Conservar ambas hasta comparar texto íntegro y originales.\n\nFuentes: <https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf> | <https://appx.laflorida.cl/beca_escolar/>"
         ]
@@ -42531,9 +42566,9 @@
   },
   {
     "candidato": "e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112",
-    "nombre": "Beca de Apoyo Socioeconomico UCT",
+    "nombre": "Cobro de Arancel Ajustado UC Temuco",
     "institucion": "Universidad Católica de Temuco",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
@@ -42673,23 +42708,42 @@
         "extractos": [
           "### Beca de Apoyo Socioeconómico UCT — `e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112`\n\nLa oferta oficial de admisión explica beneficios estatales, préstamos internos y servicios estudiantiles; la evidencia ya localizada de apoyo a residencia tiene objetivo y cobertura diferentes del descuento de arancel de 15–50% atribuido al registro. Ninguna fuente recuperada vincula inequívocamente esa denominación con el descuento candidato. Mantener pendiente; no trasladar requisitos RSH ni modificar la modalidad.\n\nFuente: [UCT — Becas y créditos](https://admision.uct.cl/becas-y-creditos/)."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UCT_ARANCEL_AJUSTADO_2026_10_14.md",
+        "informe_sha256": "fe354b30a23f110a24d880c99e3867a62dc64c571ae99a70612b1853900386f9",
+        "extractos": [
+          "Fecha de revisión: 14 de octubre de 2026. Candidata: `e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112`, originalmente titulada “Beca de Apoyo Socioeconómico UCT”."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112",
-      "revisado": "2026-10-06",
-      "motivo": "Créditos y apoyos internos no prueban identidad y cobertura de la beca genérica Apoyo Socioeconómico.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
-      ]
+      "revisado": "2026-10-14",
+      "alcance": "Identidad corregida al beneficio institucional Cobro de Arancel Ajustado UC Temuco; apoyo y requisitos esenciales confirmados desde fuentes institucionales. No certifica un porcentaje ni una convocatoria abierta para 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_UCT_ARANCEL_AJUSTADO_2026_10_14.md",
+      "fuentes": [
+        "https://dcr.uct.cl/preguntas-frecuentes/",
+        "https://dge.uct.cl/beneficios-internos/",
+        "https://admision.uct.cl/becas-y-creditos/"
+      ],
+      "beneficio": "Ajuste del cobro del arancel. No se confirma que sea una beca en efectivo ni un porcentaje fijo.",
+      "requisitos_principales": "Registro Social de Hogares vigente del año de postulación con calificación hasta 90%; estudiante con becas o créditos universitarios, o sin beneficios asignados por Mineduc/Ingresa; no aplica con gratuidad ministerial vigente o expirada. Postulación en el portal del estudiante con cartola RSH vigente en PDF.",
+      "limites": "El 15–50% y RSH 60% del registro original no están respaldados por la fuente consultada. Monto, porcentaje, fórmula, calendario y otros documentos no especificados. No se confirma convocatoria 2026 ni vigencia; no activar como beca publicada.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "Cartola RSH vigente en PDF, indicada para la postulación en línea.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
@@ -43764,9 +43818,9 @@
       },
       {
         "informe": "CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "bbc244a172feb81e6ff8c70457da1c06d73c29610ad99fe40968d67c20bfa88f",
+        "informe_sha256": "14caa5b03553f8bc731bc0c544139ec340125a53d47cd1813297dd72f25f0956",
         "extractos": [
-          "### 34. Beca Municipal de Educación Superior Coronel — Municipalidad de Coronel (`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`)\n\nCoronel: fuentes municipales describen subvención de pasajes por resultados PAES y una beca deportiva; una cuenta histórica menciona Beca Alcalde. No hay bases que identifiquen la candidata con alguna modalidad.\n\nFuentes: <https://www.coronel.cl/> | <https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf>"
+          "### 34. Beca Municipal de Educación Superior Coronel — Municipalidad de Coronel (`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`)\n\nActualización 13/10/2026: la noticia municipal de enero de 2026 confirma una Beca Municipal de Subvención de Pasajes entregada a dos puntajes nacionales de Matemáticas PAES que egresaron de un liceo municipal. Es una ayuda individual de transporte ligada a un logro concreto; no acredita la ficha DIDECO de libre disposición, RSH y promedio 5,0. La Beca Alcalde histórica es otra modalidad. Falta el acto o las bases de la supuesta beca general.\n\nFuentes: <https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/> | <https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/> | <https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf>"
         ]
       },
       {
