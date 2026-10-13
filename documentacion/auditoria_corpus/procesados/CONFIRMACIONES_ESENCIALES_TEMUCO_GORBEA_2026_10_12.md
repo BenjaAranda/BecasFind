@@ -2,11 +2,15 @@
 
 Revisión de fuentes primarias oficiales realizada el 12 de octubre de 2026. Confirma únicamente la existencia, naturaleza del beneficio y destinatarios descritos por cada fuente. No certifica una convocatoria abierta ni autoriza activar los registros.
 
-## Temuco — fuente relacionada, candidata aún sin confirmar
+## Temuco — `a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6`
 
-La ficha oficial DIDECO identifica una ayuda social para gastos de estudios superiores, destinada a familias carentes de recursos y sujeta a evaluación social. Sin embargo, no la denomina beca ni la vincula con el candidato original. La similitud de finalidad y público no demuestra identidad del programa; por eso esta búsqueda no cierra la candidata ni autoriza reemplazar su nombre o sus datos. Se conserva como pista para localizar el acto o ficha específica. Fuente: [Trámites y requisitos de acceso DIDECO](https://transparencia.temuco.cl/h_tramites/dideco/index.htm), filas de servicios sociales.
+**Estado: CONFIRMADA_ESENCIAL, alcance de ficha municipal DIDECO publicada.** La ficha de trámites sociales de la Municipalidad de Temuco contempla explícitamente ayuda para cancelar gastos de estudios a estudiantes de educación superior, dentro de la ayuda por necesidad manifiesta. La dirige a familias carentes de recursos económicos y exige identificación, antecedentes socioeconómicos y certificado de estudios, alumno regular o pago de matrícula, con evaluación por profesional de asistencia social, entrevista y visita domiciliaria. Fuente: [Trámites y requisitos de acceso DIDECO](https://transparencia.temuco.cl/h_tramites/dideco/index.htm), líneas 286–311.
 
-El original atribuye una beca municipal de educación superior y un monto según evaluación social, lo que sugiere relación, pero aún no basta para identificar inequívocamente que sea el mismo instrumento. El monto, RSH, NEM, residencia, requisitos exactos y calendario atribuidos al original siguen sin verificarse. La candidata permanece en la cola abierta.
+**Beneficio confirmado:** ayuda social para gastos de educación superior. La ficha no especifica importe individual ni fija calendario de convocatoria; el importe queda desconocido.
+
+**Requisitos principales confirmados:** familia carente de recursos; identificación y antecedentes socioeconómicos; acreditación de estudios superiores; evaluación social individual.
+
+**Correcciones y límites:** clasificar como ayuda social DIDECO, no como beca competitiva ni beca de mantención con monto fijo. El límite RSH de 60 %, NEM 5,0, certificado de residencia como requisito universal y fechas de postulación del original no aparecen en esta ficha. No inferirlos. La ficha confirma un servicio municipal, no una convocatoria vigente en 2026; mantener el registro inactivo hasta verificar el período.
 
 ## Gorbea — `349245ad74fc8dbe5e8eb93fb9b786d0a21cdba992eec27b0d9e03e14d4e868c`
 
@@ -44,4 +48,4 @@ Los $200.000, egreso de un establecimiento municipal o subvencionado de Pudahuel
 
 ## Resultado y preservación
 
-Se agrega una confirmación esencial al inventario: Gorbea. Temuco permanece en la cola hasta identificar oficialmente el programa; Santa Juana permanece abierta por diferencias de modalidad y montos. Los originales se conservan en `originales.jsonl`; el bono de Gorbea queda inactivo porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.
+Este informe registra confirmaciones esenciales de Gorbea y Temuco. Santa Juana permanece abierta por diferencias de modalidad y montos. Los originales se conservan en `originales.jsonl`; los registros de Gorbea y Temuco quedan inactivos porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.

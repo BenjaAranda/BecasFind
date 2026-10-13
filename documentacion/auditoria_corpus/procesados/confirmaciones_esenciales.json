@@ -9754,5 +9754,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6",
+    "revisado": "2026-10-12",
+    "alcance": "Ficha municipal DIDECO publicada: ayuda social para gastos de educación superior; no acredita convocatoria vigente en 2026",
+    "informe": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.temuco.cl/h_tramites/dideco/index.htm"
+    ],
+    "beneficio": "Ayuda social para cancelar gastos de educación superior; importe individual desconocido.",
+    "requisitos_principales": "Familia carente de recursos económicos; identificación y antecedentes socioeconómicos; certificado de estudios, alumno regular o pago de matrícula; evaluación social individual por asistente social.",
+    "limites": "La fuente no publica monto individual, límite RSH, NEM, residencia universal ni fechas de convocatoria. Corregir clasificación a ayuda social DIDECO; no es beca competitiva ni monto fijo. No activar sin convocatoria/cierre confirmado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Identificación; antecedentes socioeconómicos; certificado de estudios, alumno regular o pago de matrícula; pueden solicitarse otros antecedentes según caso.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

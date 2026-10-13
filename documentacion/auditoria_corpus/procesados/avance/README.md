@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 75 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 453 confirmación esencial: faltan 109 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 74 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 454 confirmación esencial: faltan 108 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 34 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 4 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -98,7 +98,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque9_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
 | bloque_muni_456.csv | 3 | 3 | 0 | 3 | 0 | 0 | 0 | 0 |
 | municipalidades_auditadas.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
-| municipalidades_bloque3.csv | 4 | 4 | 2 | 2 | 0 | 0 | 0 | 2 |
+| municipalidades_bloque3.csv | 4 | 4 | 1 | 3 | 0 | 0 | 0 | 1 |
 | municipalidades_final.csv | 2 | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
 | municipalidades_urbano.csv | 5 | 5 | 3 | 2 | 0 | 0 | 0 | 3 |
 

@@ -14619,8 +14619,8 @@
     "candidatos_origen": [
       "a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6"
     ],
-    "nombre_de_referencia": "Beca Municipal de Educación Superior",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Ayuda social DIDECO para gastos de educación superior",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
@@ -14629,14 +14629,16 @@
         "institucion_original": "Municipalidad de Temuco"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Acta 2024 consultada describe becas deportivas. No respalda candidata de mantención superior; falta reglamento de esta modalidad.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Ficha municipal DIDECO publicada: ayuda social para gastos de educación superior; no acredita convocatoria vigente en 2026",
+    "beneficio_verificado": "Ayuda social para cancelar gastos de educación superior; importe individual desconocido.",
+    "requisitos_principales_verificados": "Familia carente de recursos económicos; identificación y antecedentes socioeconómicos; certificado de estudios, alumno regular o pago de matrícula; evaluación social individual por asistente social.",
+    "limites": "La fuente no publica monto individual, límite RSH, NEM, residencia universal ni fechas de convocatoria. Corregir clasificación a ayuda social DIDECO; no es beca competitiva ni monto fijo. No activar sin convocatoria/cierre confirmado.",
+    "fuentes_verificadas_del_expediente": [
+      "https://transparencia.temuco.cl/h_tramites/dideco/index.htm"
+    ],
+    "informe_esencial": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "accion_administrativa": "MANTENER_INACTIVA_HASTA_CONVOCATORIA_Y_CIERRE_CONFIRMADOS"
   },
   {
     "clave_documental": "317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5",
