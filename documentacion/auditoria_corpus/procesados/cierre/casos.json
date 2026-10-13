@@ -30836,6 +30836,13 @@
         "extractos": [
           "| `ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65` — Beca Estudiantil Municipal Yumbel | El formulario municipal 2025 acredita una beca de residencia para educación superior en Concepción, con postulación 18-12-2024 a 17-01-2025, exigencia de matrícula/alumno regular, notas y RSH, entre otros documentos. No acredita el aporte monetario general sujeto a evaluación descrito por esta ficha. [Formulario oficial 2025](https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf). | Pendiente: no fusionar residencia con mantención en dinero. Convocatoria histórica cerrada. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_YUMBEL_RESIDENCIA_2025_2026_10_12.md",
+        "informe_sha256": "cd0a3ee21854a4ab2faa29cb31358cd08091bfb19b6d6f661232f67dd9513ac9",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
