@@ -9678,8 +9678,8 @@
     "candidatos_origen": [
       "99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5"
     ],
-    "nombre_de_referencia": "Beca Municipal de Educación Superior",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Beca Devolución de Matrícula para primer año de Educación Superior",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque24_muni.csv",
@@ -9688,14 +9688,17 @@
         "institucion_original": "Municipalidad de Santa Juana"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Páginas 73–76 separan cuatro programas Santa Juana. Devolución de matrícula: primer ingreso superior, residencia mínima de dos años y RSH; cuantía según matrícula y selección. Transporte vespertino es servicio; pasajes es aporte mensual; hogar es alojamiento gratuito. Ninguno de esos apartados acredita el pago general de 150.000 CLP, 400 cupos y presupuesto de 60 millones del original. Debe identificarse si la candidata describía devolución de matrícula; no mezclar los cuatro programas.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Beca Devolución de Matrícula para estudiantes de primer año de Educación Superior, edición municipal histórica 2024",
+    "beneficio_verificado": "Devolución parcial del costo individual de matrícula; cuantía variable según matrícula y selección. No es aporte fijo de mantención.",
+    "requisitos_principales_verificados": "Ingreso a primer año de carrera técnico-profesional reconocida por el Ministerio de Educación; residencia en Santa Juana de al menos dos años; evaluación socioeconómica y jornada diurna. Preferencia RSH hasta 60%; incompatibilidad con gratuidad y ciertos beneficios municipales.",
+    "limites": "Edición 2024; ejecución abril-diciembre 2024. Los $150.000, 400 cupos y presupuesto de $60.000.000 del original no están respaldados. Postulación 2026 y convocatoria vigente desconocidas; mantener inactiva.",
+    "fuentes_verificadas_del_expediente": [
+      "https://santajuana.cl/beca-devolucion-de-matricula/",
+      "https://santajuana.cl/wp-content/uploads/2024/01/aprueba-bases-beca-devolucion-de-matricula-para-estudiantes-de-primer-ano-educacion-superior.pdf"
+    ],
+    "informe_esencial": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "accion_administrativa": "MANTENER_INACTIVA_HASTA_CONVOCATORIA_Y_CIERRE_CONFIRMADOS"
   },
   {
     "clave_documental": "26d8f7f7a1fddd27c9bffe48f331915f07c5e59547e5ce7efb36c6ddbe73a00e",

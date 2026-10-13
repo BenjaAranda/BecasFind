@@ -26,9 +26,13 @@ La Cuenta Pública 2016 de la Municipalidad de Gorbea documenta un programa deno
 
 ## Santa Juana — `99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5`
 
-**Estado: REQUIERE_ACLARACION.** La municipalidad publicó bases para la «Beca Devolución de Matrícula para estudiantes de primer año de Educación Superior 2024». Las bases escaneadas describen devolución de una parte del costo de matrícula, cuyo monto depende de los requisitos, postulaciones y matrícula individual. Se dirige a jóvenes de Santa Juana que ingresan a una carrera técnico-profesional reconocida por el Ministerio de Educación; exige, entre otros criterios, residencia comunal de al menos dos años, preferencia por RSH hasta 60 %, jornada diurna y evaluación de vulnerabilidad. Excluye a quienes reciben gratuidad o ciertos beneficios municipales incompatibles. La ejecución indicada va de abril a diciembre de 2024. Fuentes oficiales: [página municipal de la convocatoria](https://santajuana.cl/beca-devolucion-de-matricula/) y [bases aprobadas por Decreto Alcaldicio 210/2024](https://santajuana.cl/wp-content/uploads/2024/01/aprueba-bases-beca-devolucion-de-matricula-para-estudiantes-de-primer-ano-educacion-superior.pdf).
+**Estado: CONFIRMADA_ESENCIAL, edición histórica 2024.** Las bases municipales bajo el nombre «Beca Devolución de Matrícula para estudiantes de primer año de Educación Superior» identifican la modalidad que corresponde a la candidata: misma municipalidad, educación superior y foco en estudiantes de primer año. La fuente primaria se revisó en páginas 73–76 del expediente municipal. Fuentes: [convocatoria municipal](https://santajuana.cl/beca-devolucion-de-matricula/) y [bases del Decreto Alcaldicio 210/2024](https://santajuana.cl/wp-content/uploads/2024/01/aprueba-bases-beca-devolucion-de-matricula-para-estudiantes-de-primer-ano-educacion-superior.pdf).
 
-Estas bases no establecen un pago fijo de $150.000 ni 400 cupos; el presupuesto consignado en el documento no coincide con los $60.000.000 atribuidos al candidato. La coincidencia de municipio y primer año no basta para afirmar que este instrumento es la candidata descrita como beca de mantención. Se conserva pendiente hasta localizar la fuente que explique la modalidad y cifra originales. La convocatoria 2024 no acredita vigencia en 2026.
+**Beneficio confirmado:** devolución parcial del costo de matrícula; el importe depende de la matrícula individual y de la selección. No es un pago fijo de mantención.
+
+**Requisitos principales confirmados:** ingreso a primer año de carrera técnico-profesional reconocida por el Ministerio de Educación; residencia comunal mínima de dos años; evaluación socioeconómica y jornada diurna. Las bases dan preferencia al tramo RSH de hasta 60 % y excluyen gratuidad y ciertos beneficios municipales incompatibles.
+
+**Correcciones y límites:** los $150.000, los 400 cupos y el presupuesto de $60.000.000 del registro original no quedan respaldados; la fuente presenta una modalidad y presupuesto distintos. El alcance confirmado es la edición 2024, cuya ejecución indicada va de abril a diciembre de ese año. Las fechas de postulación para 2026 y su vigencia actual permanecen desconocidas; conservar inactiva hasta verificar convocatoria y cierre.
 
 ## Papudo — `005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c`
 
@@ -48,4 +52,4 @@ Los $200.000, egreso de un establecimiento municipal o subvencionado de Pudahuel
 
 ## Resultado y preservación
 
-Este informe registra confirmaciones esenciales de Gorbea y Temuco. Santa Juana permanece abierta por diferencias de modalidad y montos. Los originales se conservan en `originales.jsonl`; los registros de Gorbea y Temuco quedan inactivos porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.
+Este informe registra confirmaciones esenciales de Gorbea, Temuco y Santa Juana. Los originales se conservan en `originales.jsonl`; los registros de estos casos quedan inactivos porque no hay convocatoria vigente confirmada. No se dedujo inexistencia por falta de resultados.

@@ -9775,5 +9775,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5",
+    "revisado": "2026-10-12",
+    "alcance": "Beca Devolución de Matrícula para estudiantes de primer año de Educación Superior, edición municipal histórica 2024",
+    "informe": "CONFIRMACIONES_ESENCIALES_TEMUCO_GORBEA_2026_10_12.md",
+    "fuentes": [
+      "https://santajuana.cl/beca-devolucion-de-matricula/",
+      "https://santajuana.cl/wp-content/uploads/2024/01/aprueba-bases-beca-devolucion-de-matricula-para-estudiantes-de-primer-ano-educacion-superior.pdf"
+    ],
+    "beneficio": "Devolución parcial del costo individual de matrícula; cuantía variable según matrícula y selección. No es aporte fijo de mantención.",
+    "requisitos_principales": "Ingreso a primer año de carrera técnico-profesional reconocida por el Ministerio de Educación; residencia en Santa Juana de al menos dos años; evaluación socioeconómica y jornada diurna. Preferencia RSH hasta 60%; incompatibilidad con gratuidad y ciertos beneficios municipales.",
+    "limites": "Edición 2024; ejecución abril-diciembre 2024. Los $150.000, 400 cupos y presupuesto de $60.000.000 del original no están respaldados. Postulación 2026 y convocatoria vigente desconocidas; mantener inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Se mantienen los documentos de las bases 2024 en el informe fuente; no se extrapolan a 2026.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
