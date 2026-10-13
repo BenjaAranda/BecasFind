@@ -3804,7 +3804,7 @@
     "candidato": "985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65",
     "nombre": "Beca Titulado IP Chile",
     "institucion": "IP Chile",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
@@ -3930,22 +3930,40 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_IPCHILE_TITULADO_2026_10_13.md",
+        "informe_sha256": "9e6cbbf8978f3669087afc1e79492ac5aa5466148cb25b13066ece5cca13b84f",
+        "extractos": [
+          "Candidata: `985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65` — Beca Titulado IP Chile  \nFuente primaria: [Continuidad de estudios, modalidad online IPCHILE](https://admision.ipchile.cl/continuidad)"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65",
-      "revisado": "2026-10-06",
-      "motivo": "RDT y continuidad externa tienen otros beneficios; no equivalen a beca para titulados IPCHILE en segunda carrera.",
-      "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-      "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-      "evidencia": [
-        "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Existencia y condiciones esenciales de continuidad online para titulados IPCHILE; no certifica porcentaje individual ni convocatoria histórica exacta.",
+      "informe": "CONFIRMACION_ESENCIAL_IPCHILE_TITULADO_2026_10_13.md",
+      "fuentes": [
+        "https://admision.ipchile.cl/continuidad"
+      ],
+      "beneficio": "Becas de arancel hasta 35%; porcentaje individual desconocido.",
+      "requisitos_principales": "Título técnico o profesional superior de institución chilena acreditada; carrera previa relacionada con el programa; título de hasta 10 años. Para título técnico más antiguo se admite certificado laboral de experiencia.",
+      "limites": "La fuente corresponde a continuidad online. No confirma el 15% fijo de la ficha original; no sustituirlo por el máximo de 35%. Fechas, documentos específicos y renovación desconocidos. No activar por esta confirmación.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {

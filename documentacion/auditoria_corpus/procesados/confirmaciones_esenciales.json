@@ -9927,5 +9927,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia y condiciones esenciales de continuidad online para titulados IPCHILE; no certifica porcentaje individual ni convocatoria histórica exacta.",
+    "informe": "CONFIRMACION_ESENCIAL_IPCHILE_TITULADO_2026_10_13.md",
+    "fuentes": [
+      "https://admision.ipchile.cl/continuidad"
+    ],
+    "beneficio": "Becas de arancel hasta 35%; porcentaje individual desconocido.",
+    "requisitos_principales": "Título técnico o profesional superior de institución chilena acreditada; carrera previa relacionada con el programa; título de hasta 10 años. Para título técnico más antiguo se admite certificado laboral de experiencia.",
+    "limites": "La fuente corresponde a continuidad online. No confirma el 15% fijo de la ficha original; no sustituirlo por el máximo de 35%. Fechas, documentos específicos y renovación desconocidos. No activar por esta confirmación.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
