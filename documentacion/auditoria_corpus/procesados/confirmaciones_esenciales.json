@@ -9884,5 +9884,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa",
+    "revisado": "2026-10-12",
+    "alcance": "Beca Apoyo Socioeconómico para estudiantes de Trabajo Social, convocatoria/arancel 2021; no confirma una beca general UAH ni vigencia presente.",
+    "informe": "CONFIRMACION_ESENCIAL_UAH_TRABAJO_SOCIAL_2021_2026_10_12.md",
+    "fuentes": [
+      "https://csociales.uahurtado.cl/noticias/proceso-de-postulacion-beca-apoyo-socioeconomico-trabajo-social-2021/"
+    ],
+    "beneficio": "Descuento variable de 10% a 50% del arancel anual; con CAE se calcula sobre el copago no cubierto. Aplica al arancel 2021 y no es renovable.",
+    "requisitos_principales": "Estudiante regular de Trabajo Social desde el segundo semestre y dentro de la duración formal; promedio del último semestre igual o superior a 4,0; acreditar insuficiencia socioeconómica. No tener beneficios estatales o institucionales de arancel incompatibles.",
+    "limites": "Convocatoria histórica 2021; no acredita vigencia actual. El registro general, el corte RSH 60%, el 40% máximo y las fechas 2026 no quedan respaldados. Mantener inactiva y fuera de búsqueda vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
