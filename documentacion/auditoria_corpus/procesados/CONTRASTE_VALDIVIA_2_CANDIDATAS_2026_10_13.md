@@ -22,3 +22,12 @@ El registro comparte con la candidata anterior el municipio y la descripción de
 - [Municipalidad de Valdivia — Becas de implementos escolares, 2005](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/junio/sem1.htm)
 - [Municipalidad de Valdivia — Convenio con Universidad San Sebastián, marzo de 2005](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm)
 - [Municipalidad de Valdivia — Convenio con Universidad San Sebastián, agosto de 2004](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm)
+
+
+## Verificación adicional de fuente presupuestaria y gestión JUNAEB
+
+La Cuenta Pública municipal 2014, página 25, identifica las becas de mantención registradas —Presidente de la República e Indígena— como programas JUNAEB. En el mismo apartado señala que el municipio emitió informes sociales para que estudiantes de educación superior postularan a beneficios de otras instituciones y aclara que esa acreditación no era competencia municipal. El PADEM 2023 confirma que DAEM coordina programas JUNAEB; enumera Residencia Familiar Estudiantil y procesos de becas estatales, sin publicar bases de una beca municipal general de educación superior.
+
+Este antecedente nuevo refuerza que no deben confundirse ayudas estatales administradas localmente, informes socioeconómicos y las dos candidatas de mantención. No descarta una línea municipal distinta que no aparezca en estos documentos. Ambas candidatas siguen `REQUIERE_ACLARACION`; tampoco demuestra duplicidad entre ellas.
+
+Fuentes adicionales: [Cuenta Pública municipal 2014, p. 25](https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf); [PADEM Valdivia 2023, sección Programa JUNAEB](https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf).
