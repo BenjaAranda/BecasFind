@@ -42,15 +42,15 @@ Fuentes: <https://municochamo.cl/daem1/> | <https://municochamo.cl/municipalidad
 
 ### 33. Beca Municipal de Educación Superior Copiapo — Municipalidad de Copiapo (`12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb`)
 
-Copiapó: la noticia oficial identifica la Beca Municipal Carmen Vilches para medicina/odontología en Argentina y acuerdos específicos; no prueba que sea esta beca general ni sus criterios. Mantener abierta.
+Actualización 13/10/2026: la noticia oficial de 2026 confirma la Beca Municipal Carmen Vilches, vigente por convenios con la Universidad Nacional de La Rioja y Fundación Barceló, para jóvenes copiapinos con mérito académico y falta de recursos que cursan Medicina u Odontología en Argentina. La ficha candidata atribuye $150.000 anual, RSH 60% y NEM 5,5; esas condiciones no corresponden a lo publicado para Carmen Vilches. La fuente confirma una modalidad municipal distinta; falta la base de la ayuda general alegada. Mantener abierta sin reasignar.
 
 Fuentes: <https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/>
 
 ### 34. Beca Municipal de Educación Superior Coronel — Municipalidad de Coronel (`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`)
 
-Coronel: fuentes municipales describen subvención de pasajes por resultados PAES y una beca deportiva; una cuenta histórica menciona Beca Alcalde. No hay bases que identifiquen la candidata con alguna modalidad.
+Actualización 13/10/2026: la noticia municipal de enero de 2026 confirma una Beca Municipal de Subvención de Pasajes entregada a dos puntajes nacionales de Matemáticas PAES que egresaron de un liceo municipal. Es una ayuda individual de transporte ligada a un logro concreto; no acredita la ficha DIDECO de libre disposición, RSH y promedio 5,0. La Beca Alcalde histórica es otra modalidad. Falta el acto o las bases de la supuesta beca general.
 
-Fuentes: <https://www.coronel.cl/> | <https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf>
+Fuentes: <https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/> | <https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/> | <https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf>
 
 ### 35. Beca Municipal de Apoyo Estudiantil Visviri / General Lagos — Municipalidad de General Lagos (`6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131`)
 
