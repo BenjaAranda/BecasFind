@@ -9948,5 +9948,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "c0bdc07760312c8208ca965c3160c4028bf74895cc9b9547daf49291cd2c6d36",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad, beneficio y requisitos principales de la Beca de Educación Superior de Zapallar según reglamento histórico 2021; no certifica convocatoria vigente",
+    "informe": "CONTRASTE_FINAL_50_CANDIDATAS_2026_10_13.md",
+    "fuentes": [
+      "https://www.transparenciazapallar.cl/transparencia/files/2021/REGLAMENTO/76.pdf",
+      "https://www.transparenciazapallar.cl/transparencia/files/2019/DECRETOS/2371.pdf",
+      "https://www.transparenciazapallar.cl/transparencia/files/2016/decretos/6198.pdf"
+    ],
+    "beneficio": "Ayuda económica para gastos de educación superior; el reglamento 2021 fija un máximo de $125.000 sin precisar periodicidad. Decretos individuales 2016 y 2019 registran pagos mensuales de $125.000; no extrapolar esa periodicidad a reglas actuales.",
+    "requisitos_principales": "Residencia del estudiante y grupo familiar en Zapallar por al menos seis meses; alumno regular de primera carrera superior o continuidad técnico-profesional; NEM mínimo 5,0 para recién egresados o promedio previo mínimo 4,5 para continuantes; postular a todos los beneficios económicos Mineduc.",
+    "limites": "La ficha original difiere en monto anual, residencia de dos años, RSH 60% y notas mínimas. Las fechas actuales, documentos de la convocatoria actual y vigencia no están confirmados. No publicar como vigente ni activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
