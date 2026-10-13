@@ -5644,7 +5644,7 @@
     "candidato": "70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6",
     "nombre": "Beca Deportiva PUCV",
     "institucion": "Pontificia Universidad Católica de Valparaíso",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_pucv.csv",
@@ -5763,22 +5763,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_PUCV_BECA_DEPORTIVA_HISTORICA_2026_10_13.md",
+        "informe_sha256": "6fc4a355727b8df972d1167c758884a08affacd9aec5e669c6d5bb6caf800da0",
+        "extractos": [
+          "Se confirma la existencia histórica de una beca deportiva de la PUCV para cursar estudios universitarios. La universidad documenta que una atleta ingresó a la institución con beca deportiva y, en una publicación de 2025, recoge la mención de un estudiante que consideraba postular a esa beca. El alcance de la candidata `70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6` queda limitado a esa existencia; no confirma una convocatoria vigente. Esta evidencia sustituye la exclusión editorial asentada el 6 de octubre de 2026; ese informe se conserva únicamente como antecedente de la revisión anterior."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6",
-      "revisado": "2026-10-06",
-      "motivo": "Faltan bases deportivas de una convocatoria identificada; referencias antiguas no confirman 2026.",
-      "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-      "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-      "evidencia": [
-        "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Existencia histórica de beca deportiva para estudiar en PUCV, documentada mediante un caso y una mención de postulación en 2025; no confirma monto, reglas ni convocatoria vigente.",
+      "informe": "CONFIRMACION_PUCV_BECA_DEPORTIVA_HISTORICA_2026_10_13.md",
+      "fuentes": [
+        "https://www.pucv.cl/pucv/noticias/alumni/sin-miedo-a-los-peligros-del-deporte-extremo-de-alto-rendimiento",
+        "https://movilmail.pucv.cl/pucv/noticias/destacadas/universidad-ofrecio-amplia-informacion-sobre-programas-formativos-en"
+      ],
+      "beneficio": "Beca deportiva vinculada a estudios en la PUCV; monto y porcentaje de cobertura: No especificado.",
+      "requisitos_principales": "Destinada a quien postula/cursa estudios PUCV con vínculo deportivo; criterios completos de selección: No especificado.",
+      "limites": "El 30% de arancel, disciplinas, selección deportiva, documentos y calendario de la ficha original no están corroborados. No se confirma convocatoria abierta ni vigencia 2026.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "No especificado.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {

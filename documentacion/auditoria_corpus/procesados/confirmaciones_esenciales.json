@@ -10106,5 +10106,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6",
+    "revisado": "2026-10-13",
+    "alcance": "Existencia histórica de beca deportiva para estudiar en PUCV, documentada mediante un caso y una mención de postulación en 2025; no confirma monto, reglas ni convocatoria vigente.",
+    "informe": "CONFIRMACION_PUCV_BECA_DEPORTIVA_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://www.pucv.cl/pucv/noticias/alumni/sin-miedo-a-los-peligros-del-deporte-extremo-de-alto-rendimiento",
+      "https://movilmail.pucv.cl/pucv/noticias/destacadas/universidad-ofrecio-amplia-informacion-sobre-programas-formativos-en"
+    ],
+    "beneficio": "Beca deportiva vinculada a estudios en la PUCV; monto y porcentaje de cobertura: No especificado.",
+    "requisitos_principales": "Destinada a quien postula/cursa estudios PUCV con vínculo deportivo; criterios completos de selección: No especificado.",
+    "limites": "El 30% de arancel, disciplinas, selección deportiva, documentos y calendario de la ficha original no están corroborados. No se confirma convocatoria abierta ni vigencia 2026.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificado.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
