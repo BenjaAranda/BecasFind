@@ -1,6 +1,6 @@
 # Contraste oficial adicional municipal — 13 de octubre de 2026
 
-Se revisaron fuentes institucionales nuevas para cinco candidatas todavía abiertas. El objetivo fue comprobar identidad, tipo de beneficio y población; los anuncios o programas próximos no sustituyen las bases de la ficha.
+Se revisaron fuentes institucionales nuevas para seis candidatas todavía abiertas. El objetivo fue comprobar identidad, tipo de beneficio y población; los anuncios o programas próximos no sustituyen las bases de la ficha.
 
 ## Villa Alemana
 
@@ -42,6 +42,14 @@ Fuentes oficiales: [bases de Becas Talento Centralino 2026](https://www.muniesta
 
 **Resultado:** permanece `REQUIERE_ACLARACION`. Hay evidencia de una beca municipal distinta o posiblemente relacionada, pero hace falta vincular la ficha original con Talento Centralino o localizar las bases de la modalidad de mantención antes de corregirla.
 
+## Máfil
+
+Las bases oficiales municipales de **Becas Deportivas y Artístico-Culturales 2026** describen un aporte anual de $300.000 para 12 personas, con requisitos de trayectoria deportiva o artístico-cultural, edad, residencia en Máfil, RSH y documentación de logros. Esas bases acreditan una convocatoria municipal vigente de esas categorías. No confirman la candidata **Beca Municipal Educación Superior Máfil** como apoyo general de educación superior ni su monto/requisitos históricos. La Cuenta Pública de gestión 2024 registra BPR y Beca Indígena como beneficios JUNAEB para educación superior, que se distinguen del beneficio municipal.
+
+Fuentes oficiales: [bases municipales de becas deportivas 2026](https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf) y [Cuenta Pública municipal, gestión 2024](https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf).
+
+**Resultado:** permanece `REQUIERE_ACLARACION`. No confundir la beca deportiva/artística ni beneficios JUNAEB con la beca superior general descrita por la candidata.
+
 ## Control
 
-Estas fuentes añaden evidencia concreta y delimitan diferencias; no completan todos los campos necesarios para la confirmación esencial de las candidatas. Ningún registro se elimina, fusiona o activa por este contraste. Las condiciones no publicadas quedan desconocidas y las cinco candidatas continúan en la cola con su estado previo.
+Estas fuentes añaden evidencia concreta y delimitan diferencias; no completan todos los campos necesarios para la confirmación esencial de las candidatas. Ningún registro se elimina, fusiona o activa por este contraste. Las condiciones no publicadas quedan desconocidas y las seis candidatas continúan en la cola con su estado previo.
