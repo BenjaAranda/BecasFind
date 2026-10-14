@@ -10411,5 +10411,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3",
+    "revisado": "2026-10-13",
+    "alcance": "Beca Estudiantil UTA: identidad y reglas esenciales corregidas con el catálogo oficial vinculado desde el registro; no certifica una convocatoria 2026 abierta.",
+    "informe": "CONTRASTE_BECAS_UTA_APOYO_ESTUDIANTIL_2026_10_13.md",
+    "fuentes": [
+      "https://webdae.uta.cl/index.php/becas/"
+    ],
+    "beneficio": "Rebaja de 5% del arancel diferenciado para estudiantes con parentesco de hermanos o matrimonio.",
+    "requisitos_principales": "Ser estudiante UTA y tener parentesco de hermanos o matrimonio con otro estudiante UTA. No es renovable; se postula cada semestre.",
+    "limites": "El CSV original afirmaba pago mensual, RSH 60% y evaluación socioeconómica; el catálogo oficial enlazado no los respalda para esta beca. Fechas de postulación y documentos: no especificados en la fuente. No afirmar convocatoria abierta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

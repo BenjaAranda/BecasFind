@@ -16562,7 +16562,7 @@
     "candidato": "7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3",
     "nombre": "Beca de Apoyo Estudiantil UTA",
     "institucion": "Universidad de Tarapacá",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uta.csv",
@@ -16667,23 +16667,40 @@
         "extractos": [
           "Fecha de revisión: 13 de octubre de 2026. Candidata: `7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3`."
         ]
+      },
+      {
+        "informe": "CONTRASTE_BECAS_UTA_APOYO_ESTUDIANTIL_2026_10_13.md",
+        "informe_sha256": "8f8ac98cb3d337dfbcc91d30229048b2357047493461d2836db982f86dbf30ec",
+        "extractos": [
+          "`7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3`, “Beca de Apoyo Estudiantil UTA”, procedente de `ScrapperBecasFind/data_lake_becas/03_procesados/becas_uta.csv`. El original atribuye un aporte monetario mensual variable, evaluación socioeconómica, límite RSH de 60%, informe social y certificado de alumno regular. El enlace original apunta al catálogo general DAE. Se conserva intacto el dato de origen y no se heredan sus fechas 2026 como convocatoria oficial."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3",
-      "revisado": "2026-10-06",
-      "motivo": "El listado contiene varias ayudas solidarias; no acredita una beca genérica de Apoyo Estudiantil de arancel.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Beca Estudiantil UTA: identidad y reglas esenciales corregidas con el catálogo oficial vinculado desde el registro; no certifica una convocatoria 2026 abierta.",
+      "informe": "CONTRASTE_BECAS_UTA_APOYO_ESTUDIANTIL_2026_10_13.md",
+      "fuentes": [
+        "https://webdae.uta.cl/index.php/becas/"
+      ],
+      "beneficio": "Rebaja de 5% del arancel diferenciado para estudiantes con parentesco de hermanos o matrimonio.",
+      "requisitos_principales": "Ser estudiante UTA y tener parentesco de hermanos o matrimonio con otro estudiante UTA. No es renovable; se postula cada semestre.",
+      "limites": "El CSV original afirmaba pago mensual, RSH 60% y evaluación socioeconómica; el catálogo oficial enlazado no los respalda para esta beca. Fechas de postulación y documentos: no especificados en la fuente. No afirmar convocatoria abierta.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
