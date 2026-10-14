@@ -48,3 +48,7 @@ Se revisaron las 40 candidatas que seguían después de la tanda anterior. Se co
 ## Resultado
 
 Este contraste aporta evidencia directa para separar programas parecidos, constata diferencias históricas o de población en Puerto Montt y Valdivia, y documenta una contradicción importante en La Florida. Las noticias o páginas de terceros encontradas para María Pinto y otras comunas no se usan para confirmar. No hay base documental suficiente para cerrar como confirmadas o descartadas estas 40 candidatas; mantenerlas abiertas y pedir/localizar las bases, decretos o fichas específicas que faltan.
+
+### Complemento: Santa Bárbara
+
+La [Municipalidad de Santa Bárbara informó en 2026](https://www.santabarbara.cl/santa-barbara-programa-pge-estudiantes/) que financia el Programa de Generación de Empleo para Estudiantes de Educación Superior: 70 beneficiarios aplican una encuesta comunal durante 20 horas y reciben $60.000 líquidos. Es un programa de empleo temporal y levantamiento de información, no evidencia de la beca genérica de educación superior que aparece en el expediente. No se transfieren su pago, destinatarios ni condiciones a esa ficha; sigue pendiente identificar una fuente que confirme su identidad y beneficio.

@@ -12620,8 +12620,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Transparencia enumera subsidios generales. El catastro UdeC 2024 describe alojamiento con copago en otras ciudades; no acredita aporte anual de dinero de Santa Bárbara.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "Transparencia enumera subsidios generales. El catastro UdeC 2024 describe alojamiento con copago en otras ciudades; no acredita aporte anual de dinero de Santa Bárbara. Contraste oficial 14/10/2026: Santa Bárbara informa el Programa de Generación de Empleo para Estudiantes de Educación Superior 2026: 70 estudiantes realizan 20 horas de trabajo y reciben $60.000 líquidos. Es empleo municipal temporal, distinto de la beca genérica de la ficha; no se transfieren sus condiciones. Véase CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md. La identidad y beneficio de esta candidata siguen sin fuente específica.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.santabarbara.cl/santa-barbara-programa-pge-estudiantes/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
