@@ -10716,5 +10716,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia histórica y finalidad del subsidio social municipal para alumnos de educación superior, documentado en Cuenta Pública 2020. No acredita vigencia en 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_SUBSIDIO_PENAFLOR_2026_10_14.md",
+    "fuentes": [
+      "https://penaflor.cl/wp-content/uploads/2021/03/CUENTA-PUBLICA-2020_web.pdf"
+    ],
+    "beneficio": "Aporte económico destinado a cancelar aranceles. Monto individual: No especificado.",
+    "requisitos_principales": "No haber accedido a beneficios estudiantiles de becas y créditos de MINEDUC; acreditar vulnerabilidad socioeconómica, enfermedad catastrófica o discapacidad propia o de un integrante del grupo familiar; presentar certificado de alumno regular.",
+    "limites": "Fuente histórica de gestión 2020. No especifica monto individual, RSH máximo, NEM mínimo, documentos adicionales ni calendario. No confirma convocatoria vigente en 2026. No clasificar como mantención de libre disposición; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

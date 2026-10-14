@@ -84,3 +84,15 @@ Este complemento deja trazas oficiales adicionales para seis candidatas, sin con
 Fuentes institucionales: [Red de Exalumnos INACAP, bienvenida 2027](https://digital.inacap.cl/bienvenida/), [becas de movilidad UCT](https://internacional.uct.cl/becas/), [reglamento UCT del Doctorado en Estudios Interculturales](https://posgrado.uct.cl/wp-content/uploads/Resolucion-VIP-24-2024-Reglamento-de-funcionamiento-DEI.pdf), [becas oficiales de pregrado UdeC](https://admision.udec.cl/beneficios/) y [beneficios de arancel UdeC](https://vraeaweb.udec.cl/dirfin/dafe/pregrado-y-postgrado/).
 
 Este tercer complemento documenta tres expedientes con sus identificadores. Los catálogos actuales sirven para separar modalidades; su silencio no es evidencia positiva de inexistencia histórica.
+
+## Cuarto complemento — revisión universitaria — 14 de octubre de 2026
+
+| ID de candidata | Fuente oficial encontrada | Resultado |
+|---|---|---|
+| `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` — Beca Familiar UCSH | El catálogo vigente distingue convenios/descuentos de las becas para estudiantes antiguos. Publica Beca Don Bosco y Beca de Emergencia con evaluación socioeconómica, pero no identifica una beca familiar con las tasas 10% y 15% de los originales. | No trasladar condiciones de Don Bosco o de convenios. La fuente actual no resuelve qué regla histórica corresponde a los dos antecedentes agrupados bajo este candidato; no confirmar porcentajes ni descartar.
+| `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` — Beca Socioeconómica UBO | La DAE identifica becas de hermanos/familiares directos, alimentación y contingencia; la última atiende dificultades económicas extraordinarias mediante evaluación socioeconómica. | Confirma que existen apoyos internos, pero no que la candidata sea una de esas modalidades ni el descuento 15–40% o RSH 60%. Mantener separación y alcance sin ratificar.
+| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` — Beca de Apoyo Socioeconómico UFRO | Transparencia UFRO publica becas de mantención identificadas por carrera, incluida apoyo académico de Odontología, Medicina e Ingeniería en Construcción, con sus requisitos y actos asociados. | Las becas publicadas tienen población y condiciones específicas; el catálogo no identifica una beca general con el nombre, monto variable y RSH que afirma esta ficha. No asignar a la candidata reglas de una beca por carrera.
+
+Fuentes institucionales: [Becas y beneficios UCSH](https://www.ucsh.cl/becas-y-beneficios/), [Becas UBO](https://dae.ubo.cl/becas/becas-ubo/), [Transparencia de becas de pregrado UFRO](https://transparencia.ufro.cl/index.php/subsidios-y-beneficios/beneficios/78-general/98-becas-pregrado) y [becas de arancel UFRO](https://dde.ufro.cl/beneficios-estudiantiles/arancel/).
+
+Los tres contrastes ayudan a distinguir beneficios cercanos, sin aportar evidencia positiva para ratificar la exclusión ni cerrar la identidad exacta de las candidatas.
