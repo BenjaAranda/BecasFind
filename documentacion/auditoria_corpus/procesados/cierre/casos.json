@@ -986,6 +986,13 @@
         "extractos": [
           "Fecha: 13 de octubre de 2026. Candidata: `f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc`. Se consultaron páginas de primera parte de la Municipalidad de Santiago.\n\nLa candidata atribuye una tarjeta Bip o subsidio mensual para traslado a clases, residencia en Santiago, RSH máximo 60% y NEM 5,0. El catálogo municipal vigente identifica por separado la **Beca Deportistas con Proyección al Alto Rendimiento**, focalizada en deportistas, y la **Beca de Estudios Superiores**, dirigida a estudiantes de universidades, institutos profesionales y centros de formación técnica con excelencia académica y vulnerabilidad económica.\n\nLa noticia municipal de entrega 2026 identifica la Beca de Estudios Superiores y comunica un aporte único de $450.000 por estudiante. No dice que sea una tarjeta o subsidio de transporte, ni confirma los umbrales RSH/NEM de la candidata. La beca deportiva tampoco acredita transporte cotidiano a clases. Por tanto, las páginas oficiales corroboran que existen dos modalidades cercanas por población estudiantil, pero no identifican la candidata de transporte ni permiten transferirle monto, requisitos o fechas.\n\n**Decisión:** mantener `REQUIERE_ACLARACION`. No ratificar descarte por omisión. Falta el instrumento o convocatoria específica que demuestre si hubo una tercera beca de transporte o si el registro mezcló la Beca de Estudios Superiores con otra ayuda. Las fechas 2026 y los documentos originales siguen sin confirmar.\n\nFuentes oficiales: [catálogo municipal vigente de becas](https://www.munistgo.cl/becas-y-fondos/); [entrega de 360 Becas de Educación Superior 2026, aporte único de $450.000](https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/)."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_CORONEL_VALDIVIA_2026_10_13.md",
+        "informe_sha256": "eef5bf4f90759716e2c820f694992c41d86b3249d22be135edc5f5cd379fd0b9",
+        "extractos": [
+          "**Candidata:** `f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc`. La página municipal vigente confirma la Beca de Estudios Superiores: excelencia académica y vulnerabilidad económica; para 2026 se informó un aporte único de $450.000. No se encontró en las páginas oficiales consultadas una fuente equivalente que identifique una beca separada de transporte escolar superior. La existencia de la beca general no acredita la de transporte; la omisión no demuestra inexistencia. Mantener pendiente hasta obtener bases o acto específico de transporte.\n\nFuentes: [Beca de Estudios Superiores 2026](https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/), [catálogo municipal de fondos y becas](https://www.munistgo.cl/becas-y-fondos/)."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -19914,6 +19921,13 @@
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_CORONEL_VALDIVIA_2026_10_13.md",
+        "informe_sha256": "eef5bf4f90759716e2c820f694992c41d86b3249d22be135edc5f5cd379fd0b9",
+        "extractos": [
+          "**Candidatas:** `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` y `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`. Las fuentes municipales históricas acreditan convenios de becas con la Universidad San Sebastián: en 2005 se asignaron rebajas de arancel a funcionarios municipales y sus hijos; otra publicación describe cobertura variable de 20% a 100% para funcionarios, hijos y estudiantes de establecimientos municipales. Eso constituye una línea de convenio/arancel identificable, no el subsidio de mantención de libre disposición atribuido a DIDECO por ambos CSV. Las dos fichas también discrepan en cierre, umbral académico y parte de los detalles. No son dos confirmaciones del convenio ni deben fusionarse sin verificar la procedencia de cada ficha. Mantener ambas con aclaración de identidad/variante y sin transferir el beneficio del convenio.\n\nFuentes: [convenio USS–Municipalidad de Valdivia, marzo de 2005](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm), [publicación municipal del convenio](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm)."
         ]
       }
     ],
@@ -39497,6 +39511,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_CORONEL_VALDIVIA_2026_10_13.md",
+        "informe_sha256": "eef5bf4f90759716e2c820f694992c41d86b3249d22be135edc5f5cd379fd0b9",
+        "extractos": [
+          "**Candidatas:** `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` y `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`. Las fuentes municipales históricas acreditan convenios de becas con la Universidad San Sebastián: en 2005 se asignaron rebajas de arancel a funcionarios municipales y sus hijos; otra publicación describe cobertura variable de 20% a 100% para funcionarios, hijos y estudiantes de establecimientos municipales. Eso constituye una línea de convenio/arancel identificable, no el subsidio de mantención de libre disposición atribuido a DIDECO por ambos CSV. Las dos fichas también discrepan en cierre, umbral académico y parte de los detalles. No son dos confirmaciones del convenio ni deben fusionarse sin verificar la procedencia de cada ficha. Mantener ambas con aclaración de identidad/variante y sin transferir el beneficio del convenio.\n\nFuentes: [convenio USS–Municipalidad de Valdivia, marzo de 2005](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm), [publicación municipal del convenio](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -43913,6 +43934,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "- **Coronel** (`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`): el archivo municipal documenta la “Beca Alcalde” para estudiantes de educación superior con puntajes destacados; publicaciones separadas describen subvención de pasajes para puntajes nacionales. La ficha candidata de subsidio anual de libre disposición no queda identificada con ninguna modalidad exacta. Mantener abierta. [Cuenta Pública 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf) · [Subvención de pasajes 2026](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_MUNICIPAL_CORONEL_VALDIVIA_2026_10_13.md",
+        "informe_sha256": "eef5bf4f90759716e2c820f694992c41d86b3249d22be135edc5f5cd379fd0b9",
+        "extractos": [
+          "**Candidata:** `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`. El municipio acredita varias iniciativas reales relacionadas con acceso a educación superior: la Beca Alcalde financiada con recursos del alcalde, entregada por alto puntaje PSU/PAES y orientada a costos iniciales; y en enero de 2026 una Beca Municipal de Subvención de Pasajes para dos estudiantes con puntaje nacional en Matemáticas PAES. Son ayudas focalizadas y con identidad y beneficiarios propios. No respaldan la ficha DIDECO de subsidio anual de libre disposición, RSH 60% y promedio 5,0. No mezclar nombres, años ni requisitos; falta una fuente que vincule la candidata genérica con un programa concreto.\n\nFuentes: [Beca Alcalde, Cuenta Pública municipal 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf), [Beca Alcalde de 2022](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/), [subvención de pasajes, enero de 2026](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)."
         ]
       }
     ],
