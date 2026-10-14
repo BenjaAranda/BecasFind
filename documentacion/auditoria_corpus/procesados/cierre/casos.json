@@ -32202,7 +32202,7 @@
     "candidato": "7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e",
     "nombre": "Beca Municipal Estudiantil Rauco",
     "institucion": "Municipalidad de Rauco",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -32293,13 +32293,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_RAUCO_2026_10_14.md",
+        "informe_sha256": "c338694305db6d45c0166ae1363f79941903ad00b8803f1e5fe74ed61ccb3760",
+        "extractos": [
+          "Fecha: 14 de octubre de 2026. Candidata `7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e`. Se conserva intacto el registro original y no se utilizó Firecrawl."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e",
+      "revisado": "2026-10-14",
+      "alcance": "Existencia histórica del proceso municipal Beca Estudiantil 2025; no confirma vigencia ni datos atribuidos a 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_RAUCO_2026_10_14.md",
+      "fuentes": [
+        "https://beca.muniarauco.cl/login/"
+      ],
+      "beneficio": "El portal identifica una beca estudiantil municipal; modalidad y cuantía no especificadas en la página oficial consultada.",
+      "requisitos_principales": "No especificados en la página pública del portal oficial consultado.",
+      "limites": "Los valores originales de 2026 ($150.000, RSH 70%, NEM 5,0, prioridad de traslado y fechas) no quedan confirmados. El portal solo identifica el proceso 2025; no prueba convocatoria 2026 vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7",
@@ -32359,7 +32387,7 @@
     "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
     "nombre": "Beca Municipal Estudiantil Hualane",
     "institucion": "Municipalidad de Hualane",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -32464,13 +32492,42 @@
         "extractos": [
           "| `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a` — Hualañé | [Transparencia municipal, ayudas de julio de 2026](https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12956&ig=677&m=7); [decreto municipal 2019 de beca en convenio con la Universidad de Chile](https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_archivo&ia=9984&ig=411&m=12) | La fuente 2026 documenta ayudas sociales para traslados escolares; el decreto 2019 adjudica una beca específica en convenio con la Universidad de Chile. Ninguna confirma las dos cuotas de $50.000, NEM 5,0, RSH 60% ni documentos de la candidata, y las modalidades no deben fusionarse. Falta identificar las bases de la beca DIDECO descrita. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_HUALANE_2026_10_14.md",
+        "informe_sha256": "4778c90659da394438304a0c690e451c3879d4fcf17773e79e6b1291a4f528fa",
+        "extractos": [
+          "Fecha: 14 de octubre de 2026. Candidata `a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a`. Se conservan el registro y sus trazas originales. No se utilizó Firecrawl."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
+      "revisado": "2026-10-14",
+      "alcance": "Existencia histórica en 2019 de Beca Municipalidad de Hualañé adjudicada en convenio con Universidad de Chile; sin reglas ni vigencia 2026 confirmadas.",
+      "informe": "CONFIRMACION_ESENCIAL_HUALANE_2026_10_14.md",
+      "fuentes": [
+        "https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=12189&ig=411&m=12",
+        "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2019/12_Diciembre/3574.pdf"
+      ],
+      "beneficio": "Beca municipal adjudicada a una estudiante; monto, modalidad y periodicidad no especificados.",
+      "requisitos_principales": "No especificados en la fuente oficial consultada.",
+      "limites": "Los $100.000 en dos cuotas, RSH/NEM, documentos, fecha de cierre y vigencia 2026 de la ficha original no quedan confirmados. No publicar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "617653494e11c6e1952b536b9bbd19081858aecf1a0509d0b013ec8be26befd8",

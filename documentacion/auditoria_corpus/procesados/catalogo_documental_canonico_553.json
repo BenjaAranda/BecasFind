@@ -10570,7 +10570,7 @@
       "7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e"
     ],
     "nombre_de_referencia": "Beca Municipal Estudiantil Rauco",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -10579,15 +10579,15 @@
         "institucion_original": "Municipalidad de Rauco"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "La cuenta pública Rauco 2024 devuelve 403. El fallo de acceso no ratifica exclusión ni confirma el importe original. Contraste oficial 14/10/2026: La Cuenta Pública oficial 2024 registra Beca Presidente de la República y Beca Indígena, con cobertura estatal y datos comunales; no identifica la aportación municipal de $150.000 de la ficha. La fuente no prueba inexistencia de una beca propia separada y no confirma el RSH 70%, NEM 5,0 ni prioridad de traslado. Se conserva abierto: la fuente no enlaza el programa documentado con la candidata.",
+    "alcance_verificado": "Existencia histórica del proceso municipal Beca Estudiantil 2025; no confirma vigencia ni datos atribuidos a 2026.",
+    "beneficio_verificado": "El portal identifica una beca estudiantil municipal, pero no especifica su modalidad ni cuantía.",
+    "requisitos_principales_verificados": "No especificados en la página pública del portal oficial consultado.",
+    "limites": "El portal oficial confirma el proceso denominado Beca Estudiantil 2025. No publica modalidad, importe, población elegible, requisitos, documentos ni fechas. Los datos originales de 2026 no quedan confirmados; convocatoria actual no acreditada.",
     "fuentes_verificadas_del_expediente": [
-      "https://www.munirauco.cl/sitio/wp-content/uploads/2025/04/INFORME-CTA.-PUB.-2024.pdf"
+      "https://beca.muniarauco.cl/login/"
     ],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
+    "informe_esencial": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_RAUCO_2026_10_14.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
     "accion_administrativa": "NINGUNA"
   },
   {
@@ -10622,7 +10622,7 @@
       "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a"
     ],
     "nombre_de_referencia": "Beca Municipal Estudiantil Hualane",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -10631,17 +10631,19 @@
         "institucion_original": "Municipalidad de Hualane"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé. Contraste oficial 14/10/2026: Decreto municipal 572/2025 regula el Programa Residencia Familiar Estudiantil de JUNAEB, que incluye educación superior para estudiantes que requieren traslado. Es un programa estatal con ejecución convenida y no confirma la candidata municipal general. Contraste oficial 14/10/2026: la transparencia municipal de Hualañé describe postulación a Beca Presidente de la República e Indígena, y subsidio de transporte escolar para alumnos prioritarios matriculados en establecimientos de la comuna. El decreto municipal localizado aprueba convenio JUNAEB de Residencia Familiar Estudiantil 2025. Son programas estatales/escolares distintos; no acreditan la beca general superior candidata ni sus $100.000, RSH o notas. La omisión no demuestra inexistencia.",
+    "alcance_verificado": "Existencia histórica en 2019 de la Beca Municipalidad de Hualañé adjudicada en convenio con Universidad de Chile; no confirma reglas ni convocatoria actual.",
+    "beneficio_verificado": "Beca municipal adjudicada a una estudiante; importe, modalidad y periodicidad no especificados en el texto accesible.",
+    "requisitos_principales_verificados": "No especificados en la fuente oficial consultada.",
+    "limites": "La transparencia municipal registra el decreto exento 3574/2019 que adjudica una Beca Municipalidad de Hualañé en convenio con Universidad de Chile. El PDF oficial tiene 2 páginas pero no fue legible en extracción automatizada. Los $100.000 en dos cuotas, requisitos RSH/NEM, documentos y cierre atribuidos en el registro original no están confirmados. No confirma convocatoria ni vigencia 2026; no publicar como vigente.",
     "fuentes_verificadas_del_expediente": [
       "https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6",
       "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2025/03_Marzo/572.pdf",
-      "https://transparencia.hualane.cl/"
+      "https://transparencia.hualane.cl/",
+      "https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=12189&ig=411&m=12",
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2019/12_Diciembre/3574.pdf"
     ],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
+    "informe_esencial": "CONFIRMACION_ESENCIAL_HUALANE_2026_10_14.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
     "accion_administrativa": "NINGUNA"
   },
   {
