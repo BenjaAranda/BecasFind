@@ -4114,7 +4114,17 @@
       "url"
     ],
     "conciliacion": null,
-    "descarte": null
+    "descarte": {
+      "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
+      "revisado": "2026-10-13",
+      "motivo": "El catálogo oficial municipal vigente identifica solo la Beca de Estudios Superiores y la beca deportiva; no existe respaldo para la supuesta tarjeta Bip o subsidio mensual de traslado a clases. El programa de estudios entrega un aporte único; la otra modalidad es deportiva. La descripción de transporte cotidiano no coincide con ninguna.",
+      "criterio": "CONTRADICCION_POSITIVA_DE_MODALIDAD",
+      "alcance": "Se excluye esta candidata 2026 de la selección de becas vigentes. No se afirma que nunca haya existido otra ayuda de transporte municipal. Se conservan las tres referencias originales y el registro administrativo inactivo.",
+      "informe": "DESCARTE_SANTIAGO_TRANSPORTE_2026_10_13.md",
+      "evidencia": [
+        "DESCARTE_SANTIAGO_TRANSPORTE_2026_10_13.md"
+      ]
+    }
   },
   {
     "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",

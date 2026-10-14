@@ -10303,5 +10303,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30",
+    "revisado": "2026-10-13",
+    "alcance": "Beca de Excelencia Académica Mineduc disponible para estudiantes de carreras técnicas de CFT ENAC; no es beca interna propia de ENAC.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_EXCELENCIA_ACADEMICA_ENAC_2026_10_13.md",
+    "fuentes": [
+      "https://enac.cl/admision/",
+      "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf"
+    ],
+    "beneficio": "Financia matrícula y arancel hasta el límite normativo aplicable; para carreras técnicas en CFT, máximo de $600.000 según reglamento consolidado.",
+    "requisitos_principales": "Egreso de enseñanza media el año inmediatamente anterior y pertenecer al 10% superior del establecimiento o contar con DTE elegible; hasta octavo decil de ingreso per cápita. Sujeto a reglas generales e institución/carrera elegibles.",
+    "limites": "La página ENAC no ofrece un monto interno separado. Convocatoria anual, documentos operativos, adjudicación y cierre vigente no comprobados. Identificar al Mineduc como otorgante; no publicar como beca institucional vigente sin convocatoria anual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
