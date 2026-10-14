@@ -96,3 +96,11 @@ Este tercer complemento documenta tres expedientes con sus identificadores. Los 
 Fuentes institucionales: [Becas y beneficios UCSH](https://www.ucsh.cl/becas-y-beneficios/), [Becas UBO](https://dae.ubo.cl/becas/becas-ubo/), [Transparencia de becas de pregrado UFRO](https://transparencia.ufro.cl/index.php/subsidios-y-beneficios/beneficios/78-general/98-becas-pregrado) y [becas de arancel UFRO](https://dde.ufro.cl/beneficios-estudiantiles/arancel/).
 
 Los tres contrastes ayudan a distinguir beneficios cercanos, sin aportar evidencia positiva para ratificar la exclusión ni cerrar la identidad exacta de las candidatas.
+
+## Quinto complemento — acta histórica de San Miguel — 14 de octubre de 2026
+
+La candidata `1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc` atribuye a DIDECO una beca municipal general para educación superior, de mantención y aporte anual. El acta oficial de la sesión 629 del Concejo Municipal, de 20 de octubre de 2015, incluye “Becas Universidad Autónoma de Chile” en tabla; DIDECO informa seis incorporaciones nuevas ese año y el Concejo aprueba por unanimidad la nómina con montos y condiciones revisados por la Comisión de Becas. El documento remite los montos y condiciones a un cuadro anexo y no publica en el texto consultado reglas generales de residencia, RSH, notas, monto individual ni si la beca era de libre disposición.
+
+El acta confirma una línea histórica de becas municipales asociada con la Universidad Autónoma, pero no demuestra que sea la candidata general con los umbrales y modalidad descritos. No trasladar a la ficha el vínculo, destinatarios o importes de la nómina de 2015; conservarla como aclaración positiva de existencia de un programa relacionado y mantener abierta la identidad.
+
+Fuente primaria: [Acta 629 del Concejo Municipal de San Miguel, 20 de octubre de 2015](https://web.sanmiguel.cl/agosto/actas%20junio/SESION%20629%20CONCEJO.pdf), páginas 1–5.
