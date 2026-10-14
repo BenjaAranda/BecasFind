@@ -2533,6 +2533,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_ENAC_2027_2026_10_14.md",
+        "informe_sha256": "7659b010a69c88eebcf32b14f8c969788d162f41cc0db039a7a6b07922391573",
+        "extractos": [
+          "| Beca Apoyo Familiar ENAC (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`) | La página de admisión enumera gratuidad y beneficios estatales. La oferta pública visible no identifica una beca llamada Apoyo Familiar ni publica monto, población o requisitos que correspondan a la ficha. | Sigue abierta; beneficio y elegibilidad no especificados hasta obtener bases o convocatoria que identifique la modalidad. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2701,6 +2708,13 @@
         "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_ENAC_2027_2026_10_14.md",
+        "informe_sha256": "7659b010a69c88eebcf32b14f8c969788d162f41cc0db039a7a6b07922391573",
+        "extractos": [
+          "| Beca Vocación de Servicio ENAC (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | La página de admisión no identifica una modalidad con ese nombre ni confirma el descuento y los criterios atribuidos en el registro. | Sigue abierta; mantener como desconocidos los requisitos sin fuente individual. |"
         ]
       }
     ],
@@ -2871,6 +2885,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_ENAC_2027_2026_10_14.md",
+        "informe_sha256": "7659b010a69c88eebcf32b14f8c969788d162f41cc0db039a7a6b07922391573",
+        "extractos": [
+          "| Beca Titulado ENAC (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) | La página de titulados confirma convenios para continuar estudios en UAH, UNAP, UCSH y USS, con condiciones distintas por carrera e institución. No identifica una beca general de arancel de ENAC con el nombre de la candidata. | Sigue abierta; separar convenios vigentes del posible beneficio candidato hasta vincularlo con una convocatoria específica. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3040,6 +3061,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_ENAC_2027_2026_10_14.md",
+        "informe_sha256": "7659b010a69c88eebcf32b14f8c969788d162f41cc0db039a7a6b07922391573",
+        "extractos": [
+          "| Beca Deportiva ENAC (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`) | La oferta pública de Admisión 2027 no identifica esa beca ni confirma el descuento de 20% de la ficha. | Sigue abierta; no se confirma ni se descarta por omisión. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3208,6 +3236,13 @@
         "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_ENAC_2027_2026_10_14.md",
+        "informe_sha256": "7659b010a69c88eebcf32b14f8c969788d162f41cc0db039a7a6b07922391573",
+        "extractos": [
+          "| Beca Convenio Empresas ENAC (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`) | La página de titulados publica convenios de continuidad con otras instituciones para carreras determinadas. No son una beca general otorgada por ENAC a trabajadores de empresas, ni coinciden necesariamente con la candidata. | Sigue abierta; no transferir los descuentos de convenios educativos a esta candidata. |"
         ]
       }
     ],
