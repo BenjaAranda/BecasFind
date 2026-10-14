@@ -6605,10 +6605,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La página municipal vigente de Educación Superior describe orientación para tramitar beneficios estatales y cupos de preuniversitario; el PLADECO menciona acompañamiento para beneficios JUNAEB. No acredita la candidata general ni demuestra inexistencia de otra línea municipal. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
+    "limites": "La página municipal vigente de Educación Superior describe orientación para tramitar beneficios estatales y cupos de preuniversitario; el PLADECO menciona acompañamiento para beneficios JUNAEB. No acredita la candidata general ni demuestra inexistencia de otra línea municipal. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: la página municipal vigente de Talcahuano describe orientación/tramitación de subsidios estatales y no una beca municipal de educación superior. El expediente no puede cerrarse por esa omisión; falta evidencia primaria del programa propio y sus requisitos.",
     "fuentes_verificadas_del_expediente": [
       "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior",
-      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/06%20PLADECO%202024-2027%20%20I_MUNICIPALIDAD%20DE%20TALCAHUANO.pdf"
+      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/06%20PLADECO%202024-2027%20%20I_MUNICIPALIDAD%20DE%20TALCAHUANO.pdf",
+      "https://web2026.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -6733,11 +6734,14 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Ficha municipal de 18 de marzo de 2024: beca para hijos de pescadores artesanales, 750.000 CLP, y beca PAES de un millón para egresados 2023 de educación municipal con promedio PAES 485. Son programas con destinatarios específicos; no una ayuda general de mantención. Falta: Identificar si cada original corresponde a pescadores, mérito PAES u otra modalidad. No fusionar ambas modalidades ni atribuir sus importes a 2026. Publicaciones municipales adicionales 2023 y 2026: el Incentivo PAES y la Beca Hijo de Pescador tienen poblaciones/requisitos propios; ninguna vincula esta ficha genérica con esos programas. Permanecen sin fuente para esta candidata el beneficio DIDECO de libre disposición, RSH 60%, NEM 5,0 y el cierre 2026.",
+    "limites": "Ficha municipal de 18 de marzo de 2024: beca para hijos de pescadores artesanales, 750.000 CLP, y beca PAES de un millón para egresados 2023 de educación municipal con promedio PAES 485. Son programas con destinatarios específicos; no una ayuda general de mantención. Falta: Identificar si cada original corresponde a pescadores, mérito PAES u otra modalidad. No fusionar ambas modalidades ni atribuir sus importes a 2026. Publicaciones municipales adicionales 2023 y 2026: el Incentivo PAES y la Beca Hijo de Pescador tienen poblaciones/requisitos propios; ninguna vincula esta ficha genérica con esos programas. Permanecen sin fuente para esta candidata el beneficio DIDECO de libre disposición, RSH 60%, NEM 5,0 y el cierre 2026. Contraste oficial 14/10/2026: Puerto Montt confirma en publicaciones municipales el incentivo para hijos de pescadores artesanales y el Incentivo PAES para egresados de educación municipal, con poblaciones y requisitos distintos. El expediente genérico no permite seleccionar una variante ni atribuirle importes, notas o vigencia de esos programas. Pendiente el decreto o ficha que una este registro con una modalidad concreta.",
     "fuentes_verificadas_del_expediente": [
       "https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
       "https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/",
-      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/"
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/municipalidad-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+      "https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -6785,8 +6789,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Beca Aysén estatal es distinta del supuesto programa municipal; no atribuir sus reglas a la candidata de Municipalidad de Aysén.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "Beca Aysén estatal es distinta del supuesto programa municipal; no atribuir sus reglas a la candidata de Municipalidad de Aysén. Contraste oficial 14/10/2026: Ayuda Mineduc identifica la Beca Aysén como beneficio estatal de JUNAEB y especifica su monto referencial anual. Eso no es una beca municipal de Puerto Aysén. La web municipal consultada no aportó bases de una ayuda propia, pero su falta en páginas generales no prueba inexistencia. Pendiente documento municipal que respalde esta candidata y evite confundirla con Beca Aysén estatal.",
+    "fuentes_verificadas_del_expediente": [
+      "https://ayudamineduc.cl/node/9393004",
+      "https://www.puertoaysen.cl/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -7372,10 +7379,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Ruta FONDESCO 2025 devuelve HTML, no bases PDF. Falta demostrar beneficio individual superior; contratación de transporte no acredita aporte monetario propio.",
+    "limites": "Ruta FONDESCO 2025 devuelve HTML, no bases PDF. Falta demostrar beneficio individual superior; contratación de transporte no acredita aporte monetario propio. Contraste oficial 14/10/2026: Mercado Público registra una contratación municipal de pasajes ida y regreso a Copiapó para una «Beca de Movilización» asociada a estudiantes de educación superior/técnico-profesional en Copiapó. La descripción no demuestra que corresponda a una beca general de estudiantes residentes en Caldera; el texto del proceso incluso identifica a Copiapó como comuna destinataria. No transferir esta compra a la candidata sin las bases y su población beneficiaria.",
     "fuentes_verificadas_del_expediente": [
       "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=rwSFVRXicvYw9No4jiswBQ%3D%3D",
-      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D"
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl%2BsAH7Zlm%2FV%2FoYUw%3D%3D"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -7505,8 +7513,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Departamento Social orienta BPR, Indígena y FUAS; no identifica beca municipal propia de Peñaflor.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "Departamento Social orienta BPR, Indígena y FUAS; no identifica beca municipal propia de Peñaflor. Contraste oficial 14/10/2026: la Cuenta Pública municipal de Peñaflor 2023 describe gestión de Beca Indígena y Presidente de la República/JUNAEB, y apoyo de certificación FUAS; la cuenta 2020 también atribuye esas becas a JUNAEB. No acredita esta beca municipal general ni demuestra que no exista una línea separada. No trasladar montos ni requisitos estatales.",
+    "fuentes_verificadas_del_expediente": [
+      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
+      "https://penaflor.cl/wp-content/uploads/2021/03/CUENTA-PUBLICA-2020_web.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -7899,11 +7910,12 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Página de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico. Contraste oficial 14/10/2026: Cuenta Pública municipal 2024 reporta becas JUNAEB Presidente de la República e Indígena en enseñanza básica y media; no identifica la candidata superior. Alcance insuficiente para confirmar o descartar la beca alegada.",
+    "limites": "Página de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico. Contraste oficial 14/10/2026: Cuenta Pública municipal 2024 reporta becas JUNAEB Presidente de la República e Indígena en enseñanza básica y media; no identifica la candidata superior. Alcance insuficiente para confirmar o descartar la beca alegada. Contraste oficial 14/10/2026: un PADEM municipal histórico (2015) documenta un complemento municipal a la Beca Vocación de Profesor, para estudiantes que cumplían un umbral PSU publicado. La fuente confirma un antecedente histórico de una modalidad y año concretos, pero no es la misma descripción genérica ni respalda su monto, requisitos o vigencia 2026. No trasladar el antecedente; falta instrumento de la candidata actual.",
     "fuentes_verificadas_del_expediente": [
       "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
       "https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf",
-      "https://victoriachile.cl/wp-content/uploads/2025/07/Cuenta-Publica-2024-Municipalidad-de-Victoria.pdf"
+      "https://victoriachile.cl/wp-content/uploads/2025/07/Cuenta-Publica-2024-Municipalidad-de-Victoria.pdf",
+      "https://victoriachile.cl/wp-content/uploads/2023/07/padem_2015.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -8583,8 +8595,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La página de organización municipal no contiene las reglas del aporte de educación superior de Cholchol.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La página de organización municipal no contiene las reglas del aporte de educación superior de Cholchol. Contraste oficial 14/10/2026: la web municipal actual consultada acredita el sitio institucional y la vía de transparencia, pero no publica bases accesibles de educación superior en la página revisada. Referencias de prensa sobre entrega de 100 becas en 2025 no se usan como fuente de confirmación. Mantener independiente de la otra ficha Cholchol; no hay evidencia individual para fusionarlas ni para importar sus montos/requisitos 2026.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municholchol.cl/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -10620,10 +10634,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé. Contraste oficial 14/10/2026: Decreto municipal 572/2025 regula el Programa Residencia Familiar Estudiantil de JUNAEB, que incluye educación superior para estudiantes que requieren traslado. Es un programa estatal con ejecución convenida y no confirma la candidata municipal general.",
+    "limites": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé. Contraste oficial 14/10/2026: Decreto municipal 572/2025 regula el Programa Residencia Familiar Estudiantil de JUNAEB, que incluye educación superior para estudiantes que requieren traslado. Es un programa estatal con ejecución convenida y no confirma la candidata municipal general. Contraste oficial 14/10/2026: la transparencia municipal de Hualañé describe postulación a Beca Presidente de la República e Indígena, y subsidio de transporte escolar para alumnos prioritarios matriculados en establecimientos de la comuna. El decreto municipal localizado aprueba convenio JUNAEB de Residencia Familiar Estudiantil 2025. Son programas estatales/escolares distintos; no acreditan la beca general superior candidata ni sus $100.000, RSH o notas. La omisión no demuestra inexistencia.",
     "fuentes_verificadas_del_expediente": [
       "https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6",
-      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2025/03_Marzo/572.pdf"
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2025/03_Marzo/572.pdf",
+      "https://transparencia.hualane.cl/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -12437,8 +12452,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El directorio de contactos no describe monto ni condiciones del programa; no prueba duplicidad con la otra candidata Cholchol.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "El directorio de contactos no describe monto ni condiciones del programa; no prueba duplicidad con la otra candidata Cholchol. Contraste oficial 14/10/2026: la web municipal actual consultada no entrega una ficha o bases legibles de esta modalidad. La otra candidata Cholchol tampoco permite probar que sea el mismo programa. No asumir duplicidad por compartir comuna ni usar reportes de prensa como sustituto de bases oficiales. Falta instrumento municipal que identifique esta ayuda y sus condiciones.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municholchol.cl/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -12887,8 +12904,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La misma página municipal describe orientación a beneficios estatales; no acredita esta candidata ni resuelve su relación con la otra variante Peñaflor.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La misma página municipal describe orientación a beneficios estatales; no acredita esta candidata ni resuelve su relación con la otra variante Peñaflor. Contraste oficial 14/10/2026: la documentación municipal de Peñaflor revisada registra gestión de beneficios estatales JUNAEB y apoyo a postulaciones FUAS, no bases específicas para la beca candidata. No se deduce inexistencia ni se fusiona con la otra ficha de Peñaflor. Falta instrumento oficial individual del beneficio.",
+    "fuentes_verificadas_del_expediente": [
+      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
+      "https://penaflor.cl/wp-content/uploads/2021/03/CUENTA-PUBLICA-2020_web.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -13091,7 +13111,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La noticia de El Huemul describe aportes 2026 para 34 estudiantes de varios niveles; es un medio externo. Falta publicación oficial que establezca requisitos de selección.",
+    "limites": "La noticia de El Huemul describe aportes 2026 para 34 estudiantes de varios niveles; es un medio externo. Falta publicación oficial que establezca requisitos de selección. Contraste oficial 14/10/2026: el sitio de la Municipalidad de Cochamó confirma la existencia de Departamento Social, DIDECO y oficinas de coordinación, pero no publica en la página consultada las bases del aporte estudiantil 2026. Una nota periodística externa describe pagos; se excluye de este expediente porque la política de esta revisión exige respaldo oficial. Falta decreto, bases o comunicado municipal que individualice monto, elegibilidad y cuotas.",
     "fuentes_verificadas_del_expediente": [
       "https://municochamo.cl/municipalidad/"
     ],
@@ -13143,8 +13163,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "No se obtuvo fuente específica de Río Claro. Las becas de Río Negro, Río Hurtado y Río Verde pertenecen a otras municipalidades.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "No se obtuvo fuente específica de Río Claro. Las becas de Río Negro, Río Hurtado y Río Verde pertenecen a otras municipalidades. Contraste oficial 14/10/2026: el sitio de Río Claro describe la Dirección Comunal de Educación y sus funciones generales, sin identificar la beca superior de la ficha. Una página administrativa general no confirma ni descarta esta ayuda. Se mantiene la necesidad de bases, decreto o publicación oficial específica.",
+    "fuentes_verificadas_del_expediente": [
+      "https://rioclaro.cl/direccion-comunal-de-educacion/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -13193,11 +13215,14 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Ficha municipal de 18 de marzo de 2024: beca para hijos de pescadores artesanales, 750.000 CLP, y beca PAES de un millón para egresados 2023 de educación municipal con promedio PAES 485. Son programas con destinatarios específicos; no una ayuda general de mantención. Falta: Identificar si cada original corresponde a pescadores, mérito PAES u otra modalidad. No fusionar ambas modalidades ni atribuir sus importes a 2026. Publicaciones municipales adicionales 2023 y 2026: el Incentivo PAES y la Beca Hijo de Pescador tienen poblaciones/requisitos propios; ninguna vincula esta ficha genérica con esos programas. Permanecen sin fuente para esta candidata el beneficio DIDECO de libre disposición, RSH 60%, NEM 5,0 y el cierre 2026.",
+    "limites": "Ficha municipal de 18 de marzo de 2024: beca para hijos de pescadores artesanales, 750.000 CLP, y beca PAES de un millón para egresados 2023 de educación municipal con promedio PAES 485. Son programas con destinatarios específicos; no una ayuda general de mantención. Falta: Identificar si cada original corresponde a pescadores, mérito PAES u otra modalidad. No fusionar ambas modalidades ni atribuir sus importes a 2026. Publicaciones municipales adicionales 2023 y 2026: el Incentivo PAES y la Beca Hijo de Pescador tienen poblaciones/requisitos propios; ninguna vincula esta ficha genérica con esos programas. Permanecen sin fuente para esta candidata el beneficio DIDECO de libre disposición, RSH 60%, NEM 5,0 y el cierre 2026. Contraste oficial 14/10/2026: Puerto Montt documenta el Incentivo PAES para egresados de educación municipal y, por separado, el incentivo para hijos/as de pescadores artesanales. El primer año de PAES, actividad económica pesquera y condiciones de cada programa son distintas. No hay evidencia que identifique esta ficha genérica con uno de ellos ni sostenga RSH 60%, NEM 5,0 o libre disposición. Se conservan esas modalidades separadas; pendiente vinculación documental de esta candidata.",
     "fuentes_verificadas_del_expediente": [
       "https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
       "https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/",
-      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/"
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/municipalidad-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+      "https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -13937,7 +13962,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La Cuenta Pública 2024 identifica las becas Presidente de la República e Indígena como beneficios JUNAEB coordinados con DAEM; el preuniversitario municipal gratuito es otro servicio. No se encontró vínculo entre estas fuentes y una beca municipal general de educación superior. No prueban inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: DAEM Talca describe la tramitación de becas estatales Presidente de la República e Indígena y la certificación socioeconómica de educación superior. El PADEM describe beneficios JUNAEB. No vinculan la candidata genérica con una beca municipal propia ni verifican sus datos.",
+    "limites": "La Cuenta Pública 2024 identifica las becas Presidente de la República e Indígena como beneficios JUNAEB coordinados con DAEM; el preuniversitario municipal gratuito es otro servicio. No se encontró vínculo entre estas fuentes y una beca municipal general de educación superior. No prueban inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: DAEM Talca describe la tramitación de becas estatales Presidente de la República e Indígena y la certificación socioeconómica de educación superior. El PADEM describe beneficios JUNAEB. No vinculan la candidata genérica con una beca municipal propia ni verifican sus datos. Contraste oficial 14/10/2026: el sitio oficial del DAEM de Talca describe gestión municipal de postulación/renovación a Beca Presidente de la República y Beca Indígena JUNAEB para estudiantes superiores. Esa gestión estatal no confirma ni descarta una beca municipal general con nombre similar. Falta el acto o bases del programa candidato.",
     "fuentes_verificadas_del_expediente": [
       "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
       "https://www.talca.cl/?p=26627",
