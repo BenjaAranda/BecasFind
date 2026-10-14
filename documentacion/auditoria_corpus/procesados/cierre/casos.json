@@ -25468,6 +25468,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_MOVILIZACION_CHOLCHOL_2025_2026_2026_10_13.md",
+        "informe_sha256": "321c36bc2dff238aa6115992655a13de3e396b3aa23310a5fcea2cedf8f1a516",
+        "extractos": [
+          "`e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9`, “Beca Municipal Estudios Superiores Cholchol”, registro 10 de `bloque19_muni.csv` (SHA-256 del archivo: `14f3d4bc07a4b8f793680cd09273870918b2676e2d7805d23a3365b1b804db91`).\n\nEl original atribuye a DIDECO 100 beneficiarios, transporte y alimentación; aporte monetario global, postulación marzo–abril, ceremonia en mayo, ficha social y visita de asistente social, RSH máximo 60, NEM mínimo 5,0 y tres documentos obligatorios. El enlace original apunta a la portada municipal. Se conserva el original sin cambios."
+        ]
       }
     ],
     "grupo_variantes": false,
