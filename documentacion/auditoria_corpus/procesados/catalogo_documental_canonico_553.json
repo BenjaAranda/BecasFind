@@ -6636,8 +6636,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas. Falta: Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas. Falta: Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal. Contraste oficial 14/10/2026: el PLADECO asigna a la Oficina de Jóvenes asesoría para postular y renovar FUAS y becas estatales; no identifica esta beca municipal genérica. No confirma ni descarta la candidata.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -7877,10 +7879,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Página de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico.",
+    "limites": "Página de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico. Contraste oficial 14/10/2026: Cuenta Pública municipal 2024 reporta becas JUNAEB Presidente de la República e Indígena en enseñanza básica y media; no identifica la candidata superior. Alcance insuficiente para confirmar o descartar la beca alegada.",
     "fuentes_verificadas_del_expediente": [
       "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
-      "https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf"
+      "https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf",
+      "https://victoriachile.cl/wp-content/uploads/2025/07/Cuenta-Publica-2024-Municipalidad-de-Victoria.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -10597,9 +10600,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé.",
+    "limites": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé. Contraste oficial 14/10/2026: Decreto municipal 572/2025 regula el Programa Residencia Familiar Estudiantil de JUNAEB, que incluye educación superior para estudiantes que requieren traslado. Es un programa estatal con ejecución convenida y no confirma la candidata municipal general.",
     "fuentes_verificadas_del_expediente": [
-      "https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6"
+      "https://transparencia.hualane.cl/index.php?a=2025&action=plantillas_generar_plantilla&ia=10698&ig=579&m=6",
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2025/03_Marzo/572.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -12913,8 +12917,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas. Falta: Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas. Falta: Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal. Contraste oficial 14/10/2026: El PLADECO asigna a la Oficina de Jóvenes asesoría para postular y renovar FUAS y becas estatales; no confirma una beca municipal general. Mantener separada de la residencia universitaria de diez cupos documentada en Cuenta Pública 2022.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -13476,8 +13482,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La recuperación del enlace devolvió 403. No demuestra inexistencia; falta una ficha oficial del aporte de educación superior.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La recuperación del enlace devolvió 403. No demuestra inexistencia; falta una ficha oficial del aporte de educación superior. Contraste oficial 14/10/2026: La Municipalidad identifica la Beca Carmen Vilches para jóvenes copiapinos con mérito y recursos insuficientes que cursan Medicina u Odontología en Argentina. La fuente no la vincula con esta ficha DIDECO genérica de $150.000 anual, RSH hasta 60% y notas 5,5/5,0. No trasladar datos; falta fuente de la beca alegada.",
+    "fuentes_verificadas_del_expediente": [
+      "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -13907,10 +13915,12 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La Cuenta Pública 2024 identifica las becas Presidente de la República e Indígena como beneficios JUNAEB coordinados con DAEM; el preuniversitario municipal gratuito es otro servicio. No se encontró vínculo entre estas fuentes y una beca municipal general de educación superior. No prueban inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
+    "limites": "La Cuenta Pública 2024 identifica las becas Presidente de la República e Indígena como beneficios JUNAEB coordinados con DAEM; el preuniversitario municipal gratuito es otro servicio. No se encontró vínculo entre estas fuentes y una beca municipal general de educación superior. No prueban inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: DAEM Talca describe la tramitación de becas estatales Presidente de la República e Indígena y la certificación socioeconómica de educación superior. El PADEM describe beneficios JUNAEB. No vinculan la candidata genérica con una beca municipal propia ni verifican sus datos.",
     "fuentes_verificadas_del_expediente": [
       "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
-      "https://www.talca.cl/?p=26627"
+      "https://www.talca.cl/?p=26627",
+      "https://www.daemtalca.cl/social/",
+      "https://www.talcatransparente.cl/plan-desarrollo-educativo/doc_download/9389-padem-ano-2020"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -14406,9 +14416,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Página 71: subvención de pasajes Coronel, año 2024; monto según presupuesto. RSH sin umbral publicado; notas 5,5 al egreso y todos los ramos aprobados en superior. Restringida a locomoción: no valida libre disposición anual ni NEM 5,0 del original. La comunicación municipal de 2019 sobre programa 100 por 100 identifica otro antecedente; falta precisar cuál corresponde al registro. Publicación municipal de enero de 2026: la subvención de pasajes se otorgó a dos egresados del Liceo Bicentenario con puntaje nacional PAES; no acredita la ficha genérica de mantención DIDECO ni sus reglas RSH/NEM.",
+    "limites": "Página 71: subvención de pasajes Coronel, año 2024; monto según presupuesto. RSH sin umbral publicado; notas 5,5 al egreso y todos los ramos aprobados en superior. Restringida a locomoción: no valida libre disposición anual ni NEM 5,0 del original. La comunicación municipal de 2019 sobre programa 100 por 100 identifica otro antecedente; falta precisar cuál corresponde al registro. Publicación municipal de enero de 2026: la subvención de pasajes se otorgó a dos egresados del Liceo Bicentenario con puntaje nacional PAES; no acredita la ficha genérica de mantención DIDECO ni sus reglas RSH/NEM. Contraste oficial 14/10/2026: La Beca Alcalde descrita por la Municipalidad se financia con el sueldo del alcalde y apoya a 20 jóvenes con puntajes PDT destacados para gastos iniciales de educación superior. No es evidencia de la ayuda general de mantención DIDECO ni respalda sus datos RSH/NEM. Mantener también separada de la subvención de pasajes.",
     "fuentes_verificadas_del_expediente": [
-      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/"
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
