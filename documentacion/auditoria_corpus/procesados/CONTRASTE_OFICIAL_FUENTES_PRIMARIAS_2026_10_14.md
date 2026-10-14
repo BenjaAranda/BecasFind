@@ -2,7 +2,7 @@
 
 ## Alcance
 
-Se revisaron 30 candidatas municipales y universitarias de la cola mediante búsquedas acotadas a portales oficiales y lectura de fuentes primarias localizadas. Este informe registra únicamente resultados que describen un beneficio concreto. Las fuentes de otro programa, población o modalidad no se trasladan a la ficha candidata. Los resultados sin coincidencia no se usan como evidencia de inexistencia. No se cambia el estado de las candidatas incluidas.
+Las búsquedas de esta tanda abarcaron un grupo de 30 candidatas municipales y universitarias. Este informe registra solo las fuentes primarias localizadas y leídas que describen beneficios concretos para nueve candidatas individuales. Las fuentes de otro programa, población o modalidad no se trasladan a la ficha. Los resultados sin coincidencia no se usan como evidencia de inexistencia. No se cambia el estado de las candidatas incluidas.
 
 ## Hallazgos documentados
 
