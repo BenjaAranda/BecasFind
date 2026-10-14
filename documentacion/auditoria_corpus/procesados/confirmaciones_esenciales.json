@@ -10758,5 +10758,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia y reglas públicas del programa municipal de vivienda para estudiantes de educación superior de Santa Bárbara, documentado en marzo de 2024; no confirma la transferencia DIDECO de la ficha original ni vigencia futura.",
+    "informe": "CONFIRMACION_ESENCIAL_VIVIENDA_ESTUDIANTIL_SANTA_BARBARA_2026_10_14.md",
+    "fuentes": [
+      "https://historico.santabarbara.cl/noticias-de-la-comuna-historico/educacion/item/1924-estudiantes-de-educacion-superior-reciben-beneficio-municipal-unico-en-su-tipo-en-la-region"
+    ],
+    "beneficio": "Vivienda municipal equipada en Concepción, Los Ángeles o Temuco; en marzo de 2024 el aporte del estudiante era de aproximadamente $20.000 CLP mensuales. No es una transferencia monetaria.",
+    "requisitos_principales": "Ser estudiante de educación superior de la comuna y postular/renovar mediante DIDECO con cartola RSH, carta al alcalde y comprobante de matrícula, según la publicación municipal de 2024.",
+    "limites": "La ficha original atribuye $200.000 anual, RSH 60%, NEM 5,0 y fechas 2026; esos datos no quedan confirmados para este programa. Porcentaje RSH, notas mínimas, cupos actuales y calendario futuro: no especificados. La fuente es histórica; mantener inactivo.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Cartola del Registro Social de Hogares, carta dirigida al alcalde y comprobante de matrícula, conforme a publicación de 2024.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
