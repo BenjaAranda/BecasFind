@@ -3644,7 +3644,8 @@
       "https://www.udd.cl/admision-pregrado/",
       "https://www.udd.cl/admision-postgrado/proceso-de-admision/",
       "https://medicina.udd.cl/medicina-santiago/admision-directa/",
-      "https://www.udd.cl/sobre-nosotros/transparencia/"
+      "https://www.udd.cl/sobre-nosotros/transparencia/",
+      "https://www.udd.cl/dircom/web/ReglamentodeAdmisionyMatriculaAlumnosPregrado%2822-18%29%28Timbre%29.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -3698,10 +3699,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024, páginas 169–172: UdeC identifica exenciones arancelarias con nombres y destinatarios diferentes, entre ellas Enrique Molina Garmendia y becas de carreras científicas. Las exenciones tienen requisitos específicos; no acreditan una Beca de Arancel genérica de acceso universal. Falta: Determinar cuál programa describe el original antes de asignar montos o requisitos. No fusionar becas de carreras distintas.",
+    "limites": "DEMRE Admisión 2024, páginas 169–172: UdeC identifica exenciones arancelarias con nombres y destinatarios diferentes, entre ellas Enrique Molina Garmendia y becas de carreras científicas. Las exenciones tienen requisitos específicos; no acreditan una Beca de Arancel genérica de acceso universal. Falta: Determinar cuál programa describe el original antes de asignar montos o requisitos. No fusionar becas de carreras distintas. Contraste oficial 14/10/2026: La página oficial UdeC muestra la “Beca Interna UdeC” aplicada automáticamente al matricularse, para estudiantes nuevos y antiguos sin gratuidad. El monto publicado depende de la carrera. Esto contradice la descripción de una ayuda genérica de 50–100% asignada por evaluación socioeconómica; no prueba por sí solo que el registro genérico pretendiera representar esta beca. Se requiere resolver identidad antes de renombrar o trasladar cobertura. Se conserva abierto: la fuente no enlaza el programa documentado con la candidata.",
     "fuentes_verificadas_del_expediente": [
       "https://admision.udec.cl/beneficios/",
-      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/"
+      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/",
+      "https://admp.udec.cl/sistema-de-admision/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -10543,8 +10545,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La cuenta pública Rauco 2024 devuelve 403. El fallo de acceso no ratifica exclusión ni confirma el importe original.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La cuenta pública Rauco 2024 devuelve 403. El fallo de acceso no ratifica exclusión ni confirma el importe original. Contraste oficial 14/10/2026: La Cuenta Pública oficial 2024 registra Beca Presidente de la República y Beca Indígena, con cobertura estatal y datos comunales; no identifica la aportación municipal de $150.000 de la ficha. La fuente no prueba inexistencia de una beca propia separada y no confirma el RSH 70%, NEM 5,0 ni prioridad de traslado. Se conserva abierto: la fuente no enlaza el programa documentado con la candidata.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.munirauco.cl/sitio/wp-content/uploads/2025/04/INFORME-CTA.-PUB.-2024.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
