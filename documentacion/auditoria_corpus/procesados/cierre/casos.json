@@ -3858,6 +3858,13 @@
         "extractos": [
           "| Beca Red de Egresados INACAP | `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### INACAP — catálogo oficial de becas y portal de exalumnos (`34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`)\n\nEl catálogo oficial enumera sus becas institucionales y la página de exalumnos ofrece descuentos de educación continua. No individualiza una “Beca Red de Egresados” de pregrado ni prueba el porcentaje familiar atribuido. La omisión del catálogo vigente no descarta una modalidad histórica; permanece abierta.\n\nFuente oficial: https://portal.inacap.cl/financiamiento-estudiantil/becas | https://portal.inacap.cl/exalumnos."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -10745,6 +10752,13 @@
         "extractos": [
           "### Beca Familiar UCSH — `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`\n\nLos originales varían entre 10% para hijos, hermanos y cónyuges de estudiantes o titulados, y 15% para hermanos UCSH. El instructivo institucional consultado describe una beca para personal académico y de gestión, sus cónyuges e hijos, sin confirmar familiares de estudiantes/titulados ni esos porcentajes. La diferencia de destinatarios no prueba que nunca hubiera otra línea familiar; mantener pendiente y no reemplazar por la beca funcionaria.\n\nFuentes: [Instructivo de Ayudas Estudiantiles UCSH, enero 2024](https://www.ucsh.cl/assets/uploads/2024/01/Instructivos-Ayudas-Estudiantiles-ENERO-2024.pdf); [preguntas frecuentes de beneficios UCSH](https://www.ucsh.cl/unidad-de-gestion-de-beneficios-preguntas-frecuentes/)."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### UCSH — catálogo oficial de becas y beneficios (`561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`)\n\nEl catálogo describe beneficios con población identificada: Colegio Salesiano, deportistas destacados, trabajadores vespertinos y convenios como Carabineros, ANEF y ANFUP. Ninguno equivale por sí solo al descuento familiar atribuido a esta candidata. El catálogo no permite certificar la Beca Familiar ni demuestra que nunca existiera; continúa pendiente.\n\nFuente oficial: https://www.ucsh.cl/becas-y-beneficios/."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -12318,6 +12332,13 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Fomento Regional UDLA | `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md` |"
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_FOMENTO_REGIONAL_UDLA_UDALBA_2026_10_13.md",
+        "informe_sha256": "0a9a9d648aad3e48d80f159cd1e7eb620f55c10a8d7e4c3146d746d1030714aa",
+        "extractos": [
+          "Fecha: 13 de octubre de 2026. Identidad auditada: `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`.\n\nLa ficha original atribuye a la Universidad de Las Américas (UDLA) una beca regional de 20% del arancel para estudiantes de regiones distintas a la sede. El enlace histórico de la candidata no entrega bases específicas.\n\nUna fuente oficial de la **Universidad del Alba** publica para Admisión 2026 una “Beca Fomento Regional”: 20% del arancel para estudiantes nuevos que provengan de otra región donde la Universidad del Alba no tenga sede; exige acreditar la ciudad y región donde cursaron 4° medio. La coincidencia exacta del nombre, porcentaje y criterio regional muestra que los datos de la candidata UDLA pueden estar mal atribuidos o mezclados con el programa de Universidad del Alba. No se transfieren institución, sedes ni requisitos entre registros.\n\nLa fuente demuestra la existencia de la beca de Universidad del Alba, pero no demuestra que UDLA nunca haya tenido un beneficio homónimo. Por eso la candidata original **permanece pendiente**, sin confirmar el 20%, ni descartarla por mera falta de ficha. La resolución requiere una base histórica de UDLA o evidencia primaria que pruebe el origen de los datos.\n\nFuente primaria: [Universidad del Alba — Reglamento de becas, Admisión 2026](https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf). La sección “Título V — Beca Fomento Regional” identifica institución, destinatarios, porcentaje y acreditación de región de egreso."
         ]
       }
     ],
@@ -19795,6 +19816,13 @@
         "informe_sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### Hualpén — Beca Municipal Educación Superior (`156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`)\n\nLa cuenta pública documenta un convenio de residencia con la Universidad de Chile: 10 cupos anuales para egresados de liceos públicos de la comuna que cumplan los requisitos académicos de esa universidad, con costo mensual financiado 50% por la Universidad y 50% por el municipio. Es una modalidad residencial y delimitada; no acredita la beca general de educación superior de esta candidata.\n\nFuente oficial: https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf."
         ]
       }
     ],
@@ -37987,6 +38015,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### Hualpén — Beca de Mantención Educación Superior (`d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`)\n\nLa misma cuenta pública documenta un convenio de residencia con la Universidad de Chile: 10 cupos anuales para egresados de liceos públicos de la comuna que cumplan los requisitos académicos de esa universidad, con costo mensual financiado 50% por la Universidad y 50% por el municipio. Es una modalidad residencial y delimitada; no acredita esta beca de mantención ni sus datos atribuidos.\n\nFuente oficial: https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -40950,6 +40985,13 @@
         "informe_sha256": "10177f45423172fdf6bf12467c4f17e7513d757540e334bd8084f060863281a7",
         "extractos": [
           "**Candidata** `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`. La Cuenta Pública municipal 2019 describe apoyo de DAEM/DIDECO para postulación y renovación de las becas estatales Presidente de la República e Indígena administradas por JUNAEB; registra atenciones y postulaciones, no una beca general de mantención municipal de $180.000. Un acta del Concejo nombra una beca DAEM para un preuniversitario CEPECH de estudiantes de 3.º y 4.º medio, con criterios académicos y socioeconómicos: es preparación previa a la educación superior, no el estipendio atribuido al registro. La candidata conserva sin confirmar otorgante, importe, edad, RSH, NEM y fechas.\n\nFuentes: [Anexo Cuenta Pública municipal 2019](https://www.municipalidadosorno.cl/archivos/cp2020/anexo_letra_k_del_documento_cuenta_publica_gestion_2019.pdf), [acta municipal con la beca de preuniversitario DAEM–CEPECH](https://www.imo.cl/sistemas/sitioweb/actas/114_0.pdf)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### Osorno — acta oficial del Concejo 2024 (`cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`)\n\nEl acta registra una beca anunciada para 2024: 20 aportes de $500.000 para los primeros 20 puntajes PAES entre participantes del preuniversitario municipal; incluye liceos municipalizados científico-humanistas y técnico-profesionales. La candidata histórica atribuye $180.000 anuales, RSH 60% y NEM 5,0. La fuente prueba una ayuda municipal superior distinta en año, selección y monto; no se asignan esos datos a la candidata ni se descarta una línea separada.\n\nFuente oficial: https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf."
         ]
       }
     ],
@@ -44821,6 +44863,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "- **Concepción** (`f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`): la fuente oficial localizada trata la Beca Presidente de la República, un beneficio estatal, y aclara que para educación superior se renueva desde enseñanza media. No confirma una beca municipal DIDECO de monto variable. Mantener abierta. [Acta municipal sobre BPR](https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf).\n- **Hualpén** (`d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`, `156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`): la Cuenta Pública 2022 documenta diez cupos anuales de residencia para egresados de liceos públicos que estudien pregrado en la Universidad de Chile; municipio y universidad financian la residencia en partes iguales. El PLADECO describe asesoría para postular a becas estatales. No acreditan el aporte general de $200.000 atribuido a las dos candidatas ni que sean alias de la residencia. Mantener las candidatas separadas. [Cuenta Pública 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf) · [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf).\n- **Santa María** (`9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519`): la publicación municipal de agosto de 2026 confirma treinta becas deportivas para jóvenes con desempeño en disciplinas deportivas, aprobadas por el Concejo. No confirma una ayuda general de educación superior renovable por dos años. Mantener abierta y no trasladar a esta candidata las bases de la beca deportiva. [Entrega municipal de becas deportivas](https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/).\n- **Copiapó** (`12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb`): la noticia oficial de 2026 identifica la beca municipal “Carmen Vilches”, vinculada a convenios con Universidad Nacional de La Rioja y Fundación Barceló para Medicina y Odontología. No demuestra que sea la candidata general de $150.000 anuales, ni que las dos modalidades coincidan. Mantener abierta hasta bases que identifiquen población, cobertura y monto de la candidata. [Beca Carmen Vilches](https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/).\n- **Arica** (`4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f`): la noticia municipal de 2026 describe Residencia Familiar Estudiantil como convenio con JUNAEB y apoyo de residencia para jóvenes de zonas alejadas; es una modalidad distinta de la beca anual de $250.000 indicada por la candidata. Mantener abierta. [Residencia Familiar Estudiantil](https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral).\n- **Coronel** (`f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`): el archivo municipal documenta la “Beca Alcalde” para estudiantes de educación superior con puntajes destacados; publicaciones separadas describen subvención de pasajes para puntajes nacionales. La ficha candidata de subsidio anual de libre disposición no queda identificada con ninguna modalidad exacta. Mantener abierta. [Cuenta Pública 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf) · [Subvención de pasajes 2026](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_6_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
+        "extractos": [
+          "### Concepción — bases oficiales de subvenciones municipales 2026 (`f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`)\n\nLas reglas vigentes para subvenciones municipales 2026 excluyen ayudas monetarias, becas o bonos a personas naturales dentro de esa línea. Esto no acredita ni niega otro programa municipal de educación superior, ni valida monto o requisitos históricos de la candidata.\n\nFuente oficial: https://concepcion.cl/subvenciones-municipales-2026/."
         ]
       }
     ],
