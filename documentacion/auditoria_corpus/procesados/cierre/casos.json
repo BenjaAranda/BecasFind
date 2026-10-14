@@ -42522,7 +42522,7 @@
     "candidato": "dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959",
     "nombre": "Beca Municipal para Educación Superior Punta Arenas",
     "institucion": "Municipalidad de Punta Arenas",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
@@ -42613,13 +42613,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_PUNTA_ARENAS_USS_2026_10_14.md",
+        "informe_sha256": "752cdc945cf80cb0abda1f169f081e842fc674229652efcba1f7fa41199571ad",
+        "extractos": [
+          "Fecha de revisión: 14 de octubre de 2026. Candidata `dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959`. La ficha original y sus CSV de origen se conservan sin alteración. No se utilizó Firecrawl."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959",
+      "revisado": "2026-10-14",
+      "alcance": "Beca Municipalidad de Punta Arenas en convenio con USS; reglas publicadas para admisión 2027, no certifica un subsidio municipal DIDECO ni otras convocatorias.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_PUNTA_ARENAS_USS_2026_10_14.md",
+      "fuentes": [
+        "https://admision.uss.cl/becas-y-financiamiento"
+      ],
+      "beneficio": "Descuento sobre arancel anual USS: 10% en Medicina, Odontología, Kinesiología, Tecnología Médica y Medicina Veterinaria; 15% en las demás carreras USS.",
+      "requisitos_principales": "Egresar el año previo a la matrícula de uno de los ocho establecimientos de Punta Arenas nombrados por USS; presentar licencia de enseñanza media.",
+      "limites": "Importe fijo, cupos, RSH, NEM y calendario específico: no especificados. El subsidio DIDECO de $300.000 descrito en el original no está respaldado por esta fuente. No afirmar que no exista una segunda ayuda diferente; no publicar como DIDECO ni como convocatoria posterior a admisión 2027.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "Licencia de enseñanza media del año anterior al de admisión de uno de los establecimientos elegibles.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "4f1b6f61f222298377b0967da919d5b0cb2673399e81d93e832d1275d8cd64e8",

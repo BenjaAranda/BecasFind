@@ -10737,5 +10737,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959",
+    "revisado": "2026-10-14",
+    "alcance": "Beca Municipalidad de Punta Arenas en convenio con USS; reglas publicadas para admisión 2027, no certifica un subsidio municipal DIDECO ni otras convocatorias.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_PUNTA_ARENAS_USS_2026_10_14.md",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "beneficio": "Descuento sobre arancel anual USS: 10% en Medicina, Odontología, Kinesiología, Tecnología Médica y Medicina Veterinaria; 15% en las demás carreras USS.",
+    "requisitos_principales": "Egresar el año previo a la matrícula de uno de los ocho establecimientos de Punta Arenas nombrados por USS; presentar licencia de enseñanza media.",
+    "limites": "Importe fijo, cupos, RSH, NEM y calendario específico: no especificados. El subsidio DIDECO de $300.000 descrito en el original no está respaldado por esta fuente. No afirmar que no exista una segunda ayuda diferente; no publicar como DIDECO ni como convocatoria posterior a admisión 2027.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Licencia de enseñanza media del año anterior al de admisión de uno de los establecimientos elegibles.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
