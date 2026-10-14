@@ -197,7 +197,7 @@
     "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
     "nombre": "Beca Municipal Educación Superior La Florida",
     "institucion": "Municipalidad de La Florida",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -331,13 +331,50 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_LA_FLORIDA_ORDENANZA_127_2026_10_14.md",
+        "informe_sha256": "dc8d359479f5f2075877dd89f3ecba8992a796e210386805d8ae0fefb10e29a3",
+        "extractos": [
+          "La Municipalidad de La Florida registra en su PLADECO 2024–2029 la **Ordenanza N.º 127**, aprobada el 10 de marzo de 2020, con el título “Ordenanza sobre Otorgamiento de Becas Municipales para Estudiantes de Educación Especial, Prebásica, Básica, Media y Superior”. Esto acredita que existe un marco municipal de becas que incluye expresamente a estudiantes de educación superior, coincidente con el núcleo de la candidata `bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0`.\n\nLa plataforma municipal de la **Beca Escolar 2026** especifica kínder a cuarto medio y apoyos escolares; es otra modalidad. No se le trasladan sus requisitos a la beca superior. El PLADECO enumera por separado asesorías de acceso a educación superior, que tampoco se tratan como la beca."
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+      "revisado": "2026-10-14",
+      "alcance": "Existencia y alcance educativo acreditados por el título de la Ordenanza N.º 127/2020; no certifica bases completas ni convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_LA_FLORIDA_ORDENANZA_127_2026_10_14.md",
+      "fuentes": [
+        "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
+        "https://appx.laflorida.cl/beca_escolar/",
+        "https://pladeco.laflorida.cl/v3/main.php"
+      ],
+      "beneficio": "Beca municipal regulada por ordenanza para estudiantes de educación superior; modalidad y cuantía no especificadas en la fuente consultada.",
+      "requisitos_principales": "La norma identificada incluye a estudiantes de educación superior. Umbrales RSH/NEM, residencia, documentos y reglas de selección no especificados en las fuentes consultadas.",
+      "limites": "No se confirman los $100.000–$350.000, RSH 60%, NEM 5,0, fechas, cupos ni documentos atribuidos por la ficha original. La Beca Escolar 2026 es otra modalidad. No confirma vigencia actual ni autoriza activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "38c88eb393da1b2ae1d40c9f7f229d716141115820912ff93bd13f8edf4687da",
@@ -861,6 +898,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md",
+        "informe_sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+        "extractos": [
+          "- Candidata `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`.\n- La [página oficial de la Beca Presidente de la República en Viña del Mar](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/) se refiere al beneficio estatal y su gestión; describe requisitos académicos del programa estatal, no un subsidio municipal de pasajes. Las fuentes oficiales ya registradas para cuentas públicas y ayudas sociales se refieren a apoyos distintos y no individualizan esta ficha de transporte.\n- Decisión: abierta; no reasignar montos o requisitos de otras ayudas ni inferir inexistencia."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -940,7 +991,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -1129,6 +1180,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md",
+        "informe_sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+        "extractos": [
+          "- Candidatas `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d` (Beca Municipal Educación Superior Valparaíso) y `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c` (Beca Municipalidad de Valparaíso DIDECO).\n- Fuente municipal: [Becas de la Municipalidad de Valparaíso](https://municipalidaddevalparaiso.cl/becas/) y [Preuniversitario Popular 2026](https://municipalidaddevalparaiso.cl/mas-de-100-jovenes-inician-su-camino-a-la-educacion-superior-con-el-preuniversitario-popular-de-valparaiso/). La primera orienta sobre beneficios estatales Presidente de la República e Indígena, operados con JUNAEB; la noticia 2026 acredita un preuniversitario gratuito, que no es una beca económica. Ninguna fuente prueba los montos, RSH, NEM ni residencia atribuidos a estas dos fichas.\n- Decisión: ambas siguen abiertas. Son candidatas distintas y compartir una página municipal no demuestra duplicidad ni inexistencia."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -1239,6 +1304,20 @@
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md",
+        "informe_sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+        "extractos": [
+          "- Candidata `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`.\n- La oferta pública municipal consultada no individualiza un subsidio municipal de transporte superior. El [preuniversitario municipal 2026](https://municipalidaddevalparaiso.cl/mas-de-100-jovenes-inician-su-camino-a-la-educacion-superior-con-el-preuniversitario-popular-de-valparaiso/) es preparatorio y no acredita pasajes. No se encontró una convocatoria o bases oficiales específicas que corroboren el monto mensual y los traslados fuera de la comuna que afirma la ficha.\n- Decisión: abierta; la búsqueda sin coincidencia exacta no es evidencia positiva para descartar."
         ]
       }
     ],
@@ -2447,6 +2526,13 @@
         "extractos": [
           "| Apoyo Familiar, Convenio Empresas, Deportiva, Excelencia Académica, Titulado y Vocación de Servicio ENAC | `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`, `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`, `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`, `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`, `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`, `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2608,6 +2694,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "| Apoyo Familiar, Convenio Empresas, Deportiva, Excelencia Académica, Titulado y Vocación de Servicio ENAC | `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`, `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`, `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`, `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`, `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`, `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -2771,6 +2864,13 @@
         "extractos": [
           "| Apoyo Familiar, Convenio Empresas, Deportiva, Excelencia Académica, Titulado y Vocación de Servicio ENAC | `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`, `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`, `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`, `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`, `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`, `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2933,6 +3033,13 @@
         "extractos": [
           "| Apoyo Familiar, Convenio Empresas, Deportiva, Excelencia Académica, Titulado y Vocación de Servicio ENAC | `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`, `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`, `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`, `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`, `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`, `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3094,6 +3201,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "| Apoyo Familiar, Convenio Empresas, Deportiva, Excelencia Académica, Titulado y Vocación de Servicio ENAC | `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`, `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`, `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`, `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`, `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`, `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -3885,6 +3999,27 @@
         "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
         "extractos": [
           "### INACAP — catálogo oficial de becas y portal de exalumnos (`34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`)\n\nEl catálogo oficial enumera sus becas institucionales y la página de exalumnos ofrece descuentos de educación continua. No individualiza una “Beca Red de Egresados” de pregrado ni prueba el porcentaje familiar atribuido. La omisión del catálogo vigente no descarta una modalidad histórica; permanece abierta.\n\nFuente oficial: https://portal.inacap.cl/financiamiento-estudiantil/becas | https://portal.inacap.cl/exalumnos."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "c3b35c5149d36f06fe28178e8bb4eb75015d9e25a918764352684338e00844db",
+        "extractos": [
+          "**Candidata:** `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`.\n**Antecedente:** se describe como un descuento de 15% del arancel semestral para familiares directos de personas tituladas.\n\nLa página oficial de [Red de Exalumnos Destacados de INACAP](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte) indica que quienes egresan se incorporan automáticamente a la red y que tienen acceso a un descuento de 30% en programas de Educación Continua. El destinatario y el nivel de estudios son distintos de los atribuidos a la candidata. La fuente no acredita ni descarta una beca separada para familiares; no se trasladan su porcentaje, cobertura ni requisitos. **Permanece abierta.**"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_INACAP_UCT_UDLA_2026_10_14.md",
+        "informe_sha256": "5a4aa350cf240932e7de4d97959c34be8abb09a5c9a423d9a25662027a0c90fa",
+        "extractos": [
+          "- Candidata: `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`.\n- Fuentes: [Admisión ENAC/INACAP, financiamiento](https://enac.cl/admision/) y [Beca de Articulación INACAP](https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-de-articulacion).\n- La institución describe beneficios estatales y una Beca de Articulación distinta, dirigida a egresados o titulados de carreras técnicas que continúan una carrera profesional afín; su cobertura y condiciones no coinciden con el descuento del 15% a familiares de egresados que atribuye la ficha. La información institucional abierta consultada no acredita la identidad de “Beca Red de Egresados”.\n- Decisión: abierta. La falta de mención en páginas vigentes no demuestra que nunca existiera una beca o convenio con ese nombre."
         ]
       }
     ],
@@ -6901,7 +7036,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -7053,7 +7188,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -7119,6 +7254,34 @@
         "informe_sha256": "eed3488b46667bcade92dce841d15169e8f849d03f175026e4ac4baf52463dc8",
         "extractos": [
           "**Candidata:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`. La página oficial vigente presenta beneficios 2026 por excelencia PAES, talento pedagógico, pedagogía, arancel, alimentación, deporte y otros apoyos, pero no individualiza la modalidad “Vocación Social” ni confirma el 30%, NEM 5,5 o compromiso comunitario atribuidos a esta ficha. La omisión en el catálogo no demuestra inexistencia; podría tratarse de una modalidad previa o distinta. Mantener en aclaración hasta hallar bases o acto que vincule positivamente el nombre y el beneficio.\n\nFuente: [Becas y beneficios UAH, admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_UAH_UDEC_2026_10_14.md",
+        "informe_sha256": "6bc1e49407e0597d613acdeeec0db31a0ef2e6223b6b9c7f0e374a83fe9ed8af",
+        "extractos": [
+          "- Candidata: `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.\n- Fuente: [Becas y beneficios UAH, admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/).\n- La página institucional describe beneficios vigentes de arancel y mantención, entre ellos una Beca Talento Pedagógico de mantención con destinatarios definidos. No muestra una beca llamada “Vocación Social” ni respalda el descuento de 30%, NEM 5,5 o compromiso de participación social registrados.\n- Decisión: abierta. La página actual no basta para probar que nunca existió una modalidad aparte; se requiere reglamento, convocatoria o resolución que vincule el nombre y los criterios históricos."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` — Beca Vocación Social UAH | [Becas y beneficios UAH 2026](https://admision.uahurtado.cl/becas-y-beneficios/) | La página documenta beneficios específicos de excelencia, alimentación, transporte y talento pedagógico. No identifica el nombre “Vocación Social” ni permite trasladarle la cobertura de esos programas. La ausencia del nombre no prueba inexistencia. | Pendiente; conservar la exclusión histórica sin ratificar. |"
         ]
       }
     ],
@@ -7382,7 +7545,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -8275,6 +8438,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -8427,6 +8604,20 @@
       {
         "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
         "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -8947,7 +9138,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -8999,6 +9190,34 @@
         "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "c3b35c5149d36f06fe28178e8bb4eb75015d9e25a918764352684338e00844db",
+        "extractos": [
+          "**Candidata:** `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`.\n**Antecedente:** atribuye 15%–40% de descuento del arancel, RSH de hasta 60% y postulación anual.\n\nLa página oficial de la [DAE UBO](https://dae.ubo.cl/becas/becas-ubo/) identifica una Beca de Contingencia para dificultades económicas extraordinarias y una Beca de Alimentación sujeta a evaluación económica o de salud. La página oficial de [beneficios internos de admisión UBO](https://admision.ubo.cl/financiamiento/) describe otros beneficios para sus procesos de admisión. Las fuentes consultadas no vinculan la candidata con una beca general de arancel de 15%–40% ni respaldan el umbral RSH señalado. La existencia de apoyos distintos no prueba que la candidata no exista. **Permanece abierta y sus montos/requisitos no se ratifican.**"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` — Beca Socioeconómica UBO | [Talento DAE UBO](https://dae.ubo.cl/talentodae/) | La página institucional ofrece descuentos de arancel ligados a participación en actividades y sujetos al presupuesto anual. No identifica la beca socioeconómica genérica ni respalda el rango de 15–40% atribuido. | Pendiente; no equiparar categorías de apoyo. |"
         ]
       }
     ],
@@ -10386,7 +10605,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -10514,7 +10733,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -10798,7 +11017,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -10871,6 +11090,20 @@
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md",
+        "informe_sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+        "extractos": [
+          "- Candidata `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`.\n- El [catálogo oficial UCSH de becas y beneficios](https://www.ucsh.cl/becas-y-beneficios/) enumera becas internas y convenios con destinatarios específicos. No individualiza una “Beca Familiar” con el descuento atribuido. Su ausencia en el catálogo actual no demuestra que no existiera una modalidad histórica.\n- Decisión: abierta; falta fuente específica que relacione identidad, elegibilidad y beneficio."
         ]
       }
     ],
@@ -11172,7 +11405,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11245,6 +11478,20 @@
         "informe_sha256": "a7f2e9d2f49c5360bdfa6ed172176f9b7a45c7125060842d5a1351545e819fac",
         "extractos": [
           "### Beca Intercultural UCT — `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`\n\nEl catálogo oficial separa becas de arancel ministeriales, JUNAEB y beneficios internos. También publica programas de movilidad y participación con objetivos interculturales, pero esas referencias no acreditan la rebaja de arancel para estudiantes indígenas que afirma la ficha. Mantener pendiente sin equiparar por el término “intercultural”."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_INACAP_UCT_UDLA_2026_10_14.md",
+        "informe_sha256": "5a4aa350cf240932e7de4d97959c34be8abb09a5c9a423d9a25662027a0c90fa",
+        "extractos": [
+          "- Candidata: `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`.\n- Fuentes: [Becas y créditos de Admisión UCT](https://admision.uct.cl/becas-y-creditos/) y [Becas de la Dirección de Relaciones Internacionales UCT](https://internacional.uct.cl/becas/).\n- Admisión UCT describe beneficios estatales, incluida la Beca Indígena JUNAEB; la Dirección de Relaciones Internacionales publica becas de movilidad específicas. Ninguna de esas fuentes identifica una beca institucional de arancel llamada “Beca Intercultural UCT” ni acredita el descuento de 20% y requisitos atribuidos.\n- Decisión: abierta; no convertir beneficios JUNAEB ni becas internacionales en la candidata."
         ]
       }
     ],
@@ -11519,7 +11766,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11679,7 +11926,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11736,6 +11983,20 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11841,7 +12102,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11891,6 +12152,20 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11996,7 +12271,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -12046,6 +12321,20 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -12144,7 +12433,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -12175,6 +12464,34 @@
         "informe_sha256": "041ad936a37f044de4348640b969863922c83de0f9584e3c4d2d0f2c6dc8f0b6",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_UAH_UDEC_2026_10_14.md",
+        "informe_sha256": "6bc1e49407e0597d613acdeeec0db31a0ef2e6223b6b9c7f0e374a83fe9ed8af",
+        "extractos": [
+          "- Candidata: `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`.\n- Fuente: [Beneficios de admisión UdeC](https://admision.udec.cl/beneficios/).\n- La fuente enumera becas institucionales de pregrado con nombre, decreto, cobertura y requisitos específicos. Entre ellas aparecen la Beca Enrique Molina Garmendia y beneficios acotados a carreras o méritos concretos. No presenta una beca general con el nombre de la candidata ni respalda la cobertura de 50–100%, RSH 60% o el paquete documental atribuido.\n- Decisión: abierta. Las modalidades específicas no se fusionan con la candidata genérica; la falta de una coincidencia en la página vigente no prueba inexistencia histórica."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` — Beca de Arancel UdeC | [Beneficios oficiales de pregrado UdeC](https://admision.udec.cl/beneficios/) | La fuente identifica becas y beneficios con nombre y condiciones, entre ellos Beca Enrique Molina Garmendia. No acredita que la candidata genérica con 50–100% y requisito RSH 60% corresponda a ese programa. | Pendiente; no reasignar porcentajes. |"
         ]
       }
     ],
@@ -12470,9 +12787,23 @@
       },
       {
         "informe": "RECONTRASTE_FOMENTO_REGIONAL_UDLA_UDALBA_2026_10_13.md",
-        "informe_sha256": "0a9a9d648aad3e48d80f159cd1e7eb620f55c10a8d7e4c3146d746d1030714aa",
+        "informe_sha256": "dbde4fb0d0c0aafe9a92205c8f31b277887d84c348bb0034b00fdeb722ef575c",
         "extractos": [
           "Fecha: 13 de octubre de 2026. Identidad auditada: `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`.\n\nLa ficha original atribuye a la Universidad de Las Américas (UDLA) una beca regional de 20% del arancel para estudiantes de regiones distintas a la sede. El enlace histórico de la candidata no entrega bases específicas.\n\nUna fuente oficial de la **Universidad del Alba** publica para Admisión 2026 una “Beca Fomento Regional”: 20% del arancel para estudiantes nuevos que provengan de otra región donde la Universidad del Alba no tenga sede; exige acreditar la ciudad y región donde cursaron 4° medio. La coincidencia exacta del nombre, porcentaje y criterio regional muestra que los datos de la candidata UDLA pueden estar mal atribuidos o mezclados con el programa de Universidad del Alba. No se transfieren institución, sedes ni requisitos entre registros.\n\nLa fuente demuestra la existencia de la beca de Universidad del Alba, pero no demuestra que UDLA nunca haya tenido un beneficio homónimo. Por eso la candidata original **permanece pendiente**, sin confirmar el 20%, ni descartarla por mera falta de ficha. La resolución requiere una base histórica de UDLA o evidencia primaria que pruebe el origen de los datos.\n\nFuente primaria: [Universidad del Alba — Reglamento de becas, Admisión 2026](https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf). La sección “Título V — Beca Fomento Regional” identifica institución, destinatarios, porcentaje y acreditación de región de egreso."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_INACAP_UCT_UDLA_2026_10_14.md",
+        "informe_sha256": "5a4aa350cf240932e7de4d97959c34be8abb09a5c9a423d9a25662027a0c90fa",
+        "extractos": [
+          "- Candidata: `5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`.\n- Fuente: [Becas de estudio de Admisión UDLA 2027](https://admision.udla.cl/diurno/becas).\n- La lista oficial describe becas por puntaje, pueblos originarios, discapacidad, excepción, egreso, deporte y otras categorías, pero no una “Beca Fomento Regional”. La ficha original atribuye 20% de descuento a estudiantes de otras regiones y enumera sedes/regiones, condiciones que la fuente vigente no respalda. La página lista modalidades actuales y no basta por sí sola para descartar una convocatoria histórica distinta.\n- Decisión: abierta hasta encontrar evidencia específica que vincule nombre, cobertura y destinatarios; no reasignar el beneficio a otra beca UDLA."
         ]
       }
     ],
@@ -13252,7 +13583,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -13372,7 +13703,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -13410,6 +13741,20 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Apoyo Socioeconómico UFRO | `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_ADICIONAL_2026_10_12.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -15867,7 +16212,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -18920,6 +19265,13 @@
         "extractos": [
           "| `1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc` — San Miguel | [Acta oficial del Concejo, sesión 548](https://web.sanmiguel.cl/agosto/ABRIL%202024/ACTAS%20PARA%20TRANSPARENCIA/SESION%20548%20CONCEJO.pdf); [acta oficial del Concejo, sesión 629](https://web.sanmiguel.cl/agosto/actas%20junio/SESION%20629%20CONCEJO.pdf) | Las actas describen becas en convenio con la Universidad Autónoma y decisiones de una comisión municipal. No corroboran la beca general DIDECO de libre disposición, RSH 60%, NEM 5,0 ni el monto atribuido. La línea exacta requiere convenio o bases que coincidan con la candidata. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -19182,7 +19534,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -19225,6 +19577,20 @@
       {
         "informe": "CONTRASTE_OFICIAL_MUNICIPAL_2026_10_13.md",
         "informe_sha256": "2dae80516ed61d2e433377a3a506b83bb0cac616c9a8b657aaa5a8fa73cc10dc",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_ESTACION_CENTRAL_TALENTO_2026_2026_10_13.md",
+        "informe_sha256": "04e036a3faef7d88faa9c4f8f83b86fabe00c80b8a2d7133ed4c7ceb61d0ebd9",
+        "extractos": [
+          "`Beca Municipal para Estudiantes de Educación Superior` — Municipalidad de Estación Central (`c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a`). El registro original atribuye una beca de mantención general administrada por DIDECO, con aporte sujeto a presupuesto, RSH máximo 60%, promedio 5,0 y postulación entre marzo y abril."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -19682,6 +20048,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -20226,6 +20599,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20318,7 +20698,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -20367,9 +20747,23 @@
       },
       {
         "informe": "CONTRASTE_PUERTO_MONTT_2019_2026_10_13.md",
-        "informe_sha256": "6c5055528b8a6f13644114df10af4ef4f8301da3944745d6e683a7b955d8f9ab",
+        "informe_sha256": "a35eb52606984b637741d3ea230eb7372f715328fdb9c599da64eb163c498734",
         "extractos": [
           "- `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` — **Beca Municipal Educación Superior Puerto Montt**.\n\nLa publicación de 2019 acredita un incentivo municipal específico, pero sus destinatarios y condiciones no corresponden a las fichas genéricas, que atribuyen libre disposición DIDECO, RSH 60% y NEM 5,0 para 2026. La publicación no identifica que sean la misma línea; tampoco prueba que las candidatas no existan. Se mantienen separadas y pendientes de confirmación esencial hasta hallar bases o un acto que las vincule con una modalidad oficial. No se trasladan a las candidatas el importe, calendario ni requisitos de 2019."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` — Beca Municipal Educación Superior Puerto Montt | [Incentivo PAES para egresados municipales](https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/); [beneficios para egresados municipales e hijos de pescadores](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/) | El municipio publica incentivos con destinatarios específicos: egresados de educación municipal con rendimiento PAES y, en otra modalidad, hijos de pescadores artesanales. No identifican la candidata genérica de mantención con RSH 60% y NEM 5,0. | Pendiente; mantener modalidades separadas. |"
         ]
       }
     ],
@@ -20495,6 +20889,13 @@
         "extractos": [
           "### Beca Municipal de Educación Superior Iquique — `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` y `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`\n\nLos registros originales atribuyen un aporte general de mantención DIDECO para estudiantes de educación superior. Iquique sí publica una **Beca Artística Sixto Rojas Acosta**, línea “Proyección”, para personas de 18 a 28 años que estudian educación superior o posgrado en Chile, con aporte único de $2.400.000 destinado a implementos, bienes o servicios vinculados a su disciplina artística. La publicación y las bases identifican una finalidad y población específicas; no corresponden a una beca general por vulnerabilidad. Esta evidencia no confirma la ficha general ni excluye una línea municipal aparte. Conservar ambos candidatos abiertos y separados.\n\nFuentes: [Municipalidad de Iquique — noticia de la Beca Sixto Rojas](https://municipioiquique.cl/noticias/general/detalle/386/municipalidad-de-iquique-lanza-beca-sixto-rojas-acosta-para-apoyar-desarrollo-artistico-cultural-de-la-comuna); [bases oficiales de Beca Artística](https://www.municipioiquique.cl/files/1439)."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` — Beca Municipal de Educación Superior Iquique | [Beca Artística Sixto Rojas Acosta, convocatoria y bases municipales](https://www.municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta); [bases oficiales](https://www.municipioiquique.cl/files/1439) | La línea Proyección es artística, para personas de 18 a 28 años cursando educación superior o postgrado; entrega una suma única para gastos asociados al desarrollo artístico. Es distinta de la ficha genérica DIDECO que afirma mantención general, RSH 60% y NEM 5,0. No confirma ni descarta otra ayuda municipal. | Pendiente; no fusionar con Sixto Rojas. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20602,6 +21003,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
         "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -21429,7 +21837,7 @@
     "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
     "nombre": "Beca Municipal de Educación Superior Tocopilla",
     "institucion": "Municipalidad de Tocopilla",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
@@ -21534,13 +21942,42 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md",
+        "informe_sha256": "245962bb8c1f6016632b20a6a20bdbc3dae86600519729011af279ad0c1454cf",
+        "extractos": [
+          "**Candidata:** `a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d`\n\n**Revisión:** 13 de octubre de 2026\n**Resultado:** `CONFIRMADA_ESENCIAL`, con alcance histórico/programático 2024. No acredita adjudicación, convocatoria ni vigencia publicable en 2026."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
+      "revisado": "2026-10-13",
+      "alcance": "Identidad y planificación municipal de un programa de becas para educación superior en la cartera 2024; no acredita ejecución ni convocatoria",
+      "informe": "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md",
+      "fuentes": [
+        "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+        "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+      ],
+      "beneficio": "Existe una Beca Municipal con beneficios económicos; el importe y la cobertura de la línea superior son No especificado.",
+      "requisitos_principales": "No especificado en las fuentes oficiales consultadas; no trasladar requisitos desde otras becas o la ficha histórica.",
+      "limites": "La Cuenta Pública 2024 la sitúa en etapa Diseño y Construcción. No demuestra adjudicación, pagos, convocatoria ni vigencia 2026. Mantener no publicable hasta disponer de acto/bases y cierre confirmado.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "73acbb41b219b211ed0e0f4deeab2f72b0d4e65130ff86f830031966e9e8b6b6",
@@ -21778,6 +22215,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -22184,7 +22628,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -22236,6 +22680,20 @@
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_CALDERA_MOVILIZACION_2026_10_14.md",
+        "informe_sha256": "6ea750a25c5fe00f63e3eee038c1dbad21ceea49349909d2c256355d93fd3ebc",
+        "extractos": [
+          "- Candidata: `a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777` — “Beca Municipal Educación Superior Caldera”.\n- Fuente oficial: [Ficha de licitación en Mercado Público](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl+sAH7Zlm%2FV%2FoYUw%3D%3D), código 4192-32-LE26.\n- La ficha identifica a la Municipalidad de Caldera como organismo demandante y describe la contratación de pasajes de ida y regreso a Copiapó para estudiantes de educación superior o técnico-profesional de la comuna, bajo una “Beca de Movilización” 2026. El proceso figura desierto; por ello acredita que se licitó el servicio asociado al beneficio, no que se adjudicara o entregara.\n- Esto confirma una línea municipal de apoyo de transporte para estudiantes superiores, pero no coincide por sí sola con el supuesto aporte monetario anual de $200.000, ni acredita RSH máximo 60%, promedio 5,0, documentos o el nombre genérico de la candidata. No se deben atribuir esos datos a la beca de movilización.\n- Decisión: mantener abierta la candidata genérica. Registrar la beca de movilización como modalidad municipal distinta hasta encontrar bases o decreto que vinculen expresamente ambas identidades."
         ]
       }
     ],
@@ -22590,7 +23048,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -22641,6 +23099,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -23328,7 +23793,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -23359,6 +23824,13 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Municipal Educación Superior Llay Llay | `659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md`; `CONTRASTE_BLOQUE_30_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -23899,6 +24371,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
         "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -25491,6 +25970,13 @@
         "informe_sha256": "321c36bc2dff238aa6115992655a13de3e396b3aa23310a5fcea2cedf8f1a516",
         "extractos": [
           "`e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9`, “Beca Municipal Estudios Superiores Cholchol”, registro 10 de `bloque19_muni.csv` (SHA-256 del archivo: `14f3d4bc07a4b8f793680cd09273870918b2676e2d7805d23a3365b1b804db91`).\n\nEl original atribuye a DIDECO 100 beneficiarios, transporte y alimentación; aporte monetario global, postulación marzo–abril, ceremonia en mayo, ficha social y visita de asistente social, RSH máximo 60, NEM mínimo 5,0 y tres documentos obligatorios. El enlace original apunta a la portada municipal. Se conserva el original sin cambios."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -28380,6 +28866,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -30510,6 +31003,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -30581,7 +31081,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -30699,7 +31199,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -31124,6 +31624,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -31494,6 +32001,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -31587,6 +32101,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
         "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -33199,7 +33720,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -34168,6 +34689,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -34957,6 +35485,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -35285,6 +35820,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_BLOQUE_3_2026_10_13.md",
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -36544,6 +37086,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -36691,6 +37240,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_BLOQUE_3_2026_10_13.md",
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -37583,6 +38139,13 @@
         "extractos": [
           "| `a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e` — Santa Bárbara | [Vivienda para estudiantes de educación superior](https://historico.santabarbara.cl/noticias-de-la-comuna-historico/educacion/item/1924-estudiantes-de-educacion-superior-reciben-beneficio-municipal-unico-en-su-tipo-en-la-region) | La Municipalidad documenta alojamiento en viviendas arrendadas y equipadas para estudiantes en Concepción, Los Ángeles y Temuco. No es el aporte monetario anual de $200.000 que afirma la candidata. No se identifica si existe una línea financiera separada; monto, RSH, NEM, documentos y fechas de la candidata siguen sin fuente específica. |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -38271,6 +38834,13 @@
         "extractos": [
           "### Hualpén — Beca de Mantención Educación Superior (`d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`)\n\nLa misma cuenta pública documenta un convenio de residencia con la Universidad de Chile: 10 cupos anuales para egresados de liceos públicos de la comuna que cumplan los requisitos académicos de esa universidad, con costo mensual financiado 50% por la Universidad y 50% por el municipio. Es una modalidad residencial y delimitada; no acredita esta beca de mantención ni sus datos atribuidos.\n\nFuente oficial: https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -38499,7 +39069,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -38544,6 +39114,13 @@
         "informe_sha256": "37f5c6a08471310a7d6b1d58e4e1b3709ba1c5f6d541701a426e22aace73e351",
         "extractos": [
           "| Beca Municipal Estudiantil El Monte | `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20` | `CONTRASTE_ADICIONAL_CANDIDATAS_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -38609,7 +39186,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -38666,6 +39243,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39059,7 +39643,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39102,6 +39686,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_MUNICIPAL_2026_10_13.md",
         "informe_sha256": "2dae80516ed61d2e433377a3a506b83bb0cac616c9a8b657aaa5a8fa73cc10dc",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39501,6 +40092,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -39654,7 +40252,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39703,9 +40301,16 @@
       },
       {
         "informe": "CONTRASTE_PUERTO_MONTT_2019_2026_10_13.md",
-        "informe_sha256": "6c5055528b8a6f13644114df10af4ef4f8301da3944745d6e683a7b955d8f9ab",
+        "informe_sha256": "a35eb52606984b637741d3ea230eb7372f715328fdb9c599da64eb163c498734",
         "extractos": [
           "- `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` — **Beca Municipal Educación Superior**.\n- `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` — **Beca Municipal Educación Superior Puerto Montt**.\n\nLa publicación de 2019 acredita un incentivo municipal específico, pero sus destinatarios y condiciones no corresponden a las fichas genéricas, que atribuyen libre disposición DIDECO, RSH 60% y NEM 5,0 para 2026. La publicación no identifica que sean la misma línea; tampoco prueba que las candidatas no existan. Se mantienen separadas y pendientes de confirmación esencial hasta hallar bases o un acto que las vincule con una modalidad oficial. No se trasladan a las candidatas el importe, calendario ni requisitos de 2019."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -39931,6 +40536,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -40170,7 +40782,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -40291,7 +40903,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -40350,6 +40962,34 @@
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md",
+        "informe_sha256": "c3b35c5149d36f06fe28178e8bb4eb75015d9e25a918764352684338e00844db",
+        "extractos": [
+          "**Candidata:** `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`.\n**Antecedente:** el expediente atribuye un beneficio a hermanos que estudian en la UAI.\n\nLa página oficial de [becas UAI para Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas) describe las becas de excelencia y mantención vigentes para esa promoción. No se encontró una correspondencia específica que establezca las condiciones de la candidata ni que permita concluir que no existe una línea distinta. **Permanece abierta; no se ratifican cobertura, relación requerida ni vigencia.**"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02` — Beca Hermanos UAI | [Catálogo oficial de becas UAI](https://www.uai.cl/admision/becas-y-aranceles/becas) | La página describe beneficios de admisión 2026 por primera matrícula, puntaje, origen escolar y región. No documenta allí la beca para hermanos atribuida a la ficha; el catálogo consultado no demuestra por sí solo que no exista un beneficio interno o histórico distinto. | Pendiente; no sustituir con becas de ingreso. |"
         ]
       }
     ],
@@ -41001,6 +41641,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_COPIAPO_CORONEL_2026_10_14.md",
+        "informe_sha256": "b258645bfc077b1dc4821706fe2574e5110bbdf7f00aea4f1aef99e48647dd01",
+        "extractos": [
+          "- Candidata: `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` — “Beca Municipal de Educación Superior Copiapó”.\n- Fuente: [Municipio de Copiapó: encuentro con becados de Medicina y Odontología](https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/).\n- El municipio identifica la beca “Carmen Vilches”, vigente desde hace más de diez años mediante convenios con la Provincia de La Rioja, la Universidad Nacional de La Rioja y Fundación Barceló. Describe apoyo a jóvenes copiapinos con mérito académico y recursos económicos insuficientes que cursan Medicina u Odontología en Argentina.\n- La fuente confirma una beca municipal real de educación superior, pero no la vincula con la ficha genérica ni respalda $150.000 anuales, libre disposición, RSH 60%, NEM 5,5/5,0 o postulación en marzo. Puede ser una variante diferente; no se fusionan.\n- Decisión: mantener la ficha genérica abierta hasta localizar sus bases. Registrar la “Carmen Vilches” como modalidad municipal separada."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -41231,7 +41878,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -41283,6 +41930,27 @@
         "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
         "extractos": [
           "### Osorno — acta oficial del Concejo 2024 (`cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`)\n\nEl acta registra una beca anunciada para 2024: 20 aportes de $500.000 para los primeros 20 puntajes PAES entre participantes del preuniversitario municipal; incluye liceos municipalizados científico-humanistas y técnico-profesionales. La candidata histórica atribuye $180.000 anuales, RSH 60% y NEM 5,0. La fuente prueba una ayuda municipal superior distinta en año, selección y monto; no se asignan esos datos a la candidata ni se descarta una línea separada.\n\nFuente oficial: https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_OSORNO_UNAP_2026_10_14.md",
+        "informe_sha256": "0b8e7e410dfff9d71e4c306187d76410308099359b7ec60b5391965b27a6125c",
+        "extractos": [
+          "- Candidata: `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`.\n- Fuente oficial: [Actualización PLADECO Osorno 2013–2017, páginas 36–38](https://www.municipalidadosorno.cl/planes/pladeco/documentacion_diagnostico.pdf).\n- La municipalidad describe que en 2011 la Beca Indígena y la Beca Presidente de la República incorporaron beneficiarios de educación superior. Para la Beca Presidente de la República informa 120 beneficiarios superiores y un promedio de $275.884 por estudiante en 2011.\n- Esto aporta evidencia histórica de ayudas estatales de educación superior gestionadas localmente. No identifica una beca propia del Concejo Municipal ni coincide con los $180.000 anuales, edad, residencia, RSH y NEM atribuidos a la candidata. Las becas deportiva y de las artes encontradas en convocatorias recientes también son modalidades diferentes.\n- Decisión: permanece abierta. No asignar a esta candidata cifras o requisitos de otros programas ni descartar una línea separada sin evidencia positiva."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90` — Beca Concejo Municipal de Osorno para Educación Superior | [Acta municipal con la Beca Preuniversitario DAEM–CEPECH](https://www.imo.cl/sistemas/sitioweb/actas/114_0.pdf) | El acta describe preparación preuniversitaria para estudiantes de 3.º y 4.º medio, con selección académica y socioeconómica. No es el aporte para estudios superiores que afirma la candidata. Esta modalidad distinta no demuestra que el supuesto aporte no exista. | Pendiente; no transferir monto ni requisitos. |"
         ]
       }
     ],
@@ -41377,6 +42045,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_BLOQUE_3_2026_10_13.md",
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -41942,7 +42617,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -41987,6 +42662,20 @@
         "informe_sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` — Beca Municipal Educación Superior Talca | [Cuenta Pública municipal 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf) | El documento identifica y atribuye a JUNAEB las becas Presidente de la República e Indígena coordinadas por DAEM. No identifica en el apartado revisado la beca municipal genérica de la candidata; la cuenta pública no basta para probar que no exista por otra vía. | Pendiente; no atribuir requisitos JUNAEB a una beca municipal. |"
         ]
       }
     ],
@@ -42315,6 +43004,20 @@
         "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md",
+        "informe_sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+        "extractos": [
+          "- Candidatas `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d` (Beca Municipal Educación Superior Valparaíso) y `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c` (Beca Municipalidad de Valparaíso DIDECO).\n- Fuente municipal: [Becas de la Municipalidad de Valparaíso](https://municipalidaddevalparaiso.cl/becas/) y [Preuniversitario Popular 2026](https://municipalidaddevalparaiso.cl/mas-de-100-jovenes-inician-su-camino-a-la-educacion-superior-con-el-preuniversitario-popular-de-valparaiso/). La primera orienta sobre beneficios estatales Presidente de la República e Indígena, operados con JUNAEB; la noticia 2026 acredita un preuniversitario gratuito, que no es una beca económica. Ninguna fuente prueba los montos, RSH, NEM ni residencia atribuidos a estas dos fichas.\n- Decisión: ambas siguen abiertas. Son candidatas distintas y compartir una página municipal no demuestra duplicidad ni inexistencia."
         ]
       }
     ],
@@ -43196,7 +43899,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -43524,6 +44227,34 @@
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md",
+        "informe_sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_OSORNO_UNAP_2026_10_14.md",
+        "informe_sha256": "0b8e7e410dfff9d71e4c306187d76410308099359b7ec60b5391965b27a6125c",
+        "extractos": [
+          "- Candidata: `f0c9572600ee6cde88eba8f498d66d00ecf129ff379842ce655675431d3a63d1`.\n- Fuente oficial: [Decreto Exento UNAP N.º 10-0847-25, Reglamento de Becas y Beneficios Internos, artículos 26 y 4](https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9310&ig=92&m=2).\n- El artículo 26 acredita una Beca Rectoría excepcional de arancel anual o semestral, total o parcial, para estudiantes con rendimiento sobresaliente y necesidad de apoyo institucional por vulnerabilidad socioeconómica comprobada, discapacidad o situación excepcional multifactorial. Establece NEM 6,0 para estudiantes nuevos y aprobación del 100% de asignaturas del periodo previo para antiguos. El artículo 4 contiene requisitos generales, incluido RSH dentro del 70% más vulnerable.\n- La fuente acredita una modalidad institucional similar por propósito, pero no establece que su nombre oficial sea “Beca de Apoyo Institucional”, ni respalda el rango de 15–50% o el umbral RSH 60% de la candidata. Tampoco acredita la lista de documentos atribuida.\n- Decisión: permanece abierta por identidad no vinculada y contradicciones sustantivas de cobertura y elegibilidad. No sustituir datos originales por reglas de otra modalidad."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md",
+        "informe_sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+        "extractos": [
+          "| `f0c9572600ee6cde88eba8f498d66d00ecf129ff379842ce655675431d3a63d1` — Beca de Apoyo Institucional UNAP | [Becas internas de mantención UNAP](https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html); [reglamento institucional de 2026](https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9448&ig=97&m=3) | La universidad identifica beneficios internos concretos de mantención y asistencia, además de becas de estudios. No vincula la candidata genérica de arancel 15–50% con uno de ellos ni respalda sus requisitos atribuidos. | Pendiente; no trasladar reglas entre beneficios. |"
         ]
       }
     ],
@@ -44405,6 +45136,13 @@
         "extractos": [
           "**Candidata:** `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`. El municipio acredita varias iniciativas reales relacionadas con acceso a educación superior: la Beca Alcalde financiada con recursos del alcalde, entregada por alto puntaje PSU/PAES y orientada a costos iniciales; y en enero de 2026 una Beca Municipal de Subvención de Pasajes para dos estudiantes con puntaje nacional en Matemáticas PAES. Son ayudas focalizadas y con identidad y beneficiarios propios. No respaldan la ficha DIDECO de subsidio anual de libre disposición, RSH 60% y promedio 5,0. No mezclar nombres, años ni requisitos; falta una fuente que vincule la candidata genérica con un programa concreto.\n\nFuentes: [Beca Alcalde, Cuenta Pública municipal 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf), [Beca Alcalde de 2022](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/), [subvención de pasajes, enero de 2026](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/)."
         ]
+      },
+      {
+        "informe": "CONTRASTE_COPIAPO_CORONEL_2026_10_14.md",
+        "informe_sha256": "b258645bfc077b1dc4821706fe2574e5110bbdf7f00aea4f1aef99e48647dd01",
+        "extractos": [
+          "- Candidata: `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4` — “Beca Municipal de Educación Superior Coronel”.\n- Fuentes: [Beca Alcalde de Coronel, 2022](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/) y [Cuenta Pública municipal 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf).\n- Las fuentes describen una “Beca Alcalde” que entrega apoyo para gastos iniciales de educación superior a jóvenes destacados por puntaje PSU/PDT; en 2022 se informan 20 beneficiarios. La cuenta pública la atribuye a recursos propios del alcalde. La municipalidad también describe una subvención de pasajes a dos puntajes nacionales en enero de 2026. Son apoyos con objeto y selección específicos.\n- Las fuentes no acreditan que sean la beca DIDECO general de libre disposición, basada en vulnerabilidad, con RSH, promedio 5,0 y documentación que atribuye la candidata. No se trasladan sus requisitos ni montos.\n- Decisión: mantener la candidata genérica abierta; separar las modalidades “Beca Alcalde” y subvención de pasajes hasta que un acto oficial pruebe una relación."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -45128,7 +45866,7 @@
       },
       {
         "informe": "REVISION_REFUERZO_FUENTES_2026_10_12.md",
-        "informe_sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+        "informe_sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -45180,6 +45918,20 @@
         "informe_sha256": "7173456e57d1e828197d188ee3fe1bd4333d8ee051931cfbdfcfdbc09f62a7e9",
         "extractos": [
           "### Concepción — bases oficiales de subvenciones municipales 2026 (`f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`)\n\nLas reglas vigentes para subvenciones municipales 2026 excluyen ayudas monetarias, becas o bonos a personas naturales dentro de esa línea. Esto no acredita ni niega otro programa municipal de educación superior, ni valida monto o requisitos históricos de la candidata.\n\nFuente oficial: https://concepcion.cl/subvenciones-municipales-2026/."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md",
+        "informe_sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_CONCEPCION_2026_10_14.md",
+        "informe_sha256": "67f5ffd00d52b556e96eea32b9b3d1e5a7c95c2fbc870b8ab92fb57ce3207eb4",
+        "extractos": [
+          "- Candidata: `f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`.\n- Fuente: [Subvenciones Municipales 2026 de Concepción](https://concepcion.cl/subvenciones-municipales-2026/).\n- La ficha original atribuye a DIDECO una beca monetaria individual de monto variable, con residencia comunal, RSH, rendimiento y postulación durante el primer trimestre. La convocatoria municipal actual regula subvenciones a organizaciones sin fines de lucro y señala expresamente que no se financian becas o bonos a personas naturales. Por tanto, esa convocatoria no puede servir como respaldo para la beca individual descrita.\n- El alcance de la fuente es el proceso de subvenciones 2026. No demuestra que el municipio nunca haya tenido una línea individual de asistencia estudiantil distinta, ni identifica el supuesto decreto anual mencionado en la ficha.\n- Decisión: mantener abierta. No confirmar monto, calendario, RSH, NEM ni documentos; tampoco descartar la candidata por la falta de una convocatoria coincidente. Se requiere el decreto, bases o página de DIDECO que vincule la beca individual con sus reglas."
         ]
       }
     ],

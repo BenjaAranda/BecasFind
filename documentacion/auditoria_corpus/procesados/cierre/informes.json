@@ -2071,7 +2071,7 @@
     ]
   },
   "REVISION_REFUERZO_FUENTES_2026_10_12.md": {
-    "sha256": "84a533b63d33257c88d21a40a5c5859c8586430dc2a89b26c83c8d1b642a6961",
+    "sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
     "urls": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://admision.uai.cl/assets/uploads/2021/01/reglamento-becas-excelencia-academica-aplicable-a-la-promocin-de-ingreso-2021-.pdf",
@@ -2099,6 +2099,7 @@
       "https://www.municipalidadosorno.cl/new/noticia.php?id=35435",
       "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf",
       "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf",
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf",
       "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
       "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf",
       "https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf",
@@ -3201,8 +3202,9 @@
     ]
   },
   "RECONTRASTE_FOMENTO_REGIONAL_UDLA_UDALBA_2026_10_13.md": {
-    "sha256": "0a9a9d648aad3e48d80f159cd1e7eb620f55c10a8d7e4c3146d746d1030714aa",
+    "sha256": "dbde4fb0d0c0aafe9a92205c8f31b277887d84c348bb0034b00fdeb722ef575c",
     "urls": [
+      "https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/",
       "https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf"
     ]
   },
@@ -3275,9 +3277,11 @@
     ]
   },
   "CONTRASTE_PUERTO_MONTT_2019_2026_10_13.md": {
-    "sha256": "6c5055528b8a6f13644114df10af4ef4f8301da3944745d6e683a7b955d8f9ab",
+    "sha256": "a35eb52606984b637741d3ea230eb7372f715328fdb9c599da64eb163c498734",
     "urls": [
-      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/"
+      "https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/",
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/"
     ]
   },
   "CONTRASTE_MOVILIZACION_CHOLCHOL_2025_2026_2026_10_13.md": {
@@ -3293,6 +3297,168 @@
       "https://webdae.uta.cl/index.php/becas/",
       "https://webdae.uta.cl/index.php/beneficios-complementarios/",
       "https://www.uta.cl/transparencia/beneficiarios/4beca_ayud_solid_resid/2026/Junio/"
+    ]
+  },
+  "CONTRASTE_ESTACION_CENTRAL_TALENTO_2026_2026_10_13.md": {
+    "sha256": "04e036a3faef7d88faa9c4f8f83b86fabe00c80b8a2d7133ed4c7ceb61d0ebd9",
+    "urls": [
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf",
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md": {
+    "sha256": "245962bb8c1f6016632b20a6a20bdbc3dae86600519729011af279ad0c1454cf",
+    "urls": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+    ]
+  },
+  "CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md": {
+    "sha256": "c3b35c5149d36f06fe28178e8bb4eb75015d9e25a918764352684338e00844db",
+    "urls": [
+      "https://admision.ubo.cl/financiamiento/",
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte",
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ]
+  },
+  "CONTRASTE_OFICIAL_30_CANDIDATAS_2026_10_14.md": {
+    "sha256": "2b5bc349400ecf0cf576aaeb0ca06396922a0b94d1d148d27262d4a3cc9285ee",
+    "urls": [
+      "https://admision.ubo.cl/financiamiento/",
+      "https://admision.udec.cl/beneficios/",
+      "https://admision.udla.cl/diurno/becas",
+      "https://caldera.cl/",
+      "https://concepcion.cl/subvenciones-municipales-2026/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/arancel/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/",
+      "https://dise.udec.cl/node/264?q=node%2F12",
+      "https://enac.cl/admision/",
+      "https://internacional.uct.cl/becas/",
+      "https://portal.inacap.cl/es/financiamiento-estudiantil/becas/becas-hijas-e-hijos-de-profesionales-de-la-educacion-superior",
+      "https://portal.inacap.cl/financiamiento-estudiantil",
+      "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-apoyo-inacap",
+      "https://postgrados.udd.cl/programas/curso-intensivo-internacional-de-bioetica-xxi-version-234224/",
+      "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9310&ig=92&m=2",
+      "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
+      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/",
+      "https://www.daemtalca.cl/social/",
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl%2BsAH7Zlm%2FV%2FoYUw%3D%3D",
+      "https://www.municholchol.cl/municipio/",
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf",
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.ubo.cl/financiamiento-estudiantil/",
+      "https://www.ucsh.cl/becas-y-beneficios/",
+      "https://www.uct.cl/actualidad/"
+    ]
+  },
+  "CONTRASTE_40_CANDIDATAS_RESTANTES_2026_10_14.md": {
+    "sha256": "61b77c8d0c301cccaaaf42c763fc23f08b3f10bcade59ca55cc2ea2e5f2bd52e",
+    "urls": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/",
+      "https://appx.laflorida.cl/beca_escolar/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/",
+      "https://municipalidaddevalparaiso.cl/becas/",
+      "https://munirauco.cl/web/cuentapublica/CtaPublicaRauco2017.pdf",
+      "https://penaflor.cl/departamento-social/",
+      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
+      "https://pladeco.laflorida.cl/v3/main.php",
+      "https://rioclaro.cl/programas-de-subsidios-familiares/",
+      "https://slepaconcagua.gob.cl/noticias/slep-del-aconcagua-y-el-municipio-de-llay-llay-firman-convenio-de-colaboracion-en-beneficio-de-cerca-de-3-mil-estudiantes/",
+      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/",
+      "https://web.sanmiguel.cl/category/personas-mayores/",
+      "https://web.sanmiguel.cl/page/3/?s=2025",
+      "https://www.loespejo.cl/departamento-de-desarrollo-social/",
+      "https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/",
+      "https://www.mpinto.cl/",
+      "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf",
+      "https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf",
+      "https://www.munirauco.cl/pages/juventud",
+      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.munllayllay.cl/",
+      "https://www.puertomontt.cl/36-hijos-de-pescadores-artesanales-seran-favorecidos-con-beca-financiada-por-concejo/",
+      "https://www.puertomontt.cl/municipalidad-otorgo-59-millones-de-pesos-para-a-estudiantes-universitarios-de-puerto-montt/"
+    ]
+  },
+  "CONTRASTE_OFICIAL_OSORNO_UNAP_2026_10_14.md": {
+    "sha256": "0b8e7e410dfff9d71e4c306187d76410308099359b7ec60b5391965b27a6125c",
+    "urls": [
+      "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9310&ig=92&m=2",
+      "https://www.municipalidadosorno.cl/planes/pladeco/documentacion_diagnostico.pdf"
+    ]
+  },
+  "CONTRASTE_OFICIAL_UAH_UDEC_2026_10_14.md": {
+    "sha256": "6bc1e49407e0597d613acdeeec0db31a0ef2e6223b6b9c7f0e374a83fe9ed8af",
+    "urls": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/",
+      "https://admision.udec.cl/beneficios/"
+    ]
+  },
+  "CONTRASTE_OFICIAL_INACAP_UCT_UDLA_2026_10_14.md": {
+    "sha256": "5a4aa350cf240932e7de4d97959c34be8abb09a5c9a423d9a25662027a0c90fa",
+    "urls": [
+      "https://admision.uct.cl/becas-y-creditos/",
+      "https://admision.udla.cl/diurno/becas",
+      "https://enac.cl/admision/",
+      "https://internacional.uct.cl/becas/",
+      "https://portal.inacap.cl/es/financiamiento-estudiantil/becas/beca-de-articulacion"
+    ]
+  },
+  "CONTRASTE_CONCEPCION_2026_10_14.md": {
+    "sha256": "67f5ffd00d52b556e96eea32b9b3d1e5a7c95c2fbc870b8ab92fb57ce3207eb4",
+    "urls": [
+      "https://concepcion.cl/subvenciones-municipales-2026/"
+    ]
+  },
+  "CONTRASTE_CALDERA_MOVILIZACION_2026_10_14.md": {
+    "sha256": "6ea750a25c5fe00f63e3eee038c1dbad21ceea49349909d2c256355d93fd3ebc",
+    "urls": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl+sAH7Zlm%2FV%2FoYUw%3D%3D"
+    ]
+  },
+  "CONTRASTE_COPIAPO_CORONEL_2026_10_14.md": {
+    "sha256": "b258645bfc077b1dc4821706fe2574e5110bbdf7f00aea4f1aef99e48647dd01",
+    "urls": [
+      "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
+      "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf"
+    ]
+  },
+  "CONTRASTE_VALPARAISO_VINA_UCSH_2026_10_14.md": {
+    "sha256": "8b7f67eef601e21fd36aa3319bc40fd281c02a8789ff5ee1cd71724099d8bc73",
+    "urls": [
+      "https://municipalidaddevalparaiso.cl/becas/",
+      "https://municipalidaddevalparaiso.cl/mas-de-100-jovenes-inician-su-camino-a-la-educacion-superior-con-el-preuniversitario-popular-de-valparaiso/",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.ucsh.cl/becas-y-beneficios/"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_LA_FLORIDA_ORDENANZA_127_2026_10_14.md": {
+    "sha256": "dc8d359479f5f2075877dd89f3ecba8992a796e210386805d8ae0fefb10e29a3",
+    "urls": [
+      "https://appx.laflorida.cl/beca_escolar/",
+      "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
+      "https://pladeco.laflorida.cl/v3/main.php"
+    ]
+  },
+  "CONTRASTE_OFICIAL_FUENTES_PRIMARIAS_2026_10_14.md": {
+    "sha256": "3315bcc96a027bf3f714110a869c18e3a73dca7cd9f95078e0bb05de4eabf662",
+    "urls": [
+      "https://admision.uahurtado.cl/becas-y-beneficios/",
+      "https://admision.udec.cl/beneficios/",
+      "https://dae.ubo.cl/talentodae/",
+      "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9448&ig=97&m=3",
+      "https://www.imo.cl/sistemas/sitioweb/actas/114_0.pdf",
+      "https://www.municipioiquique.cl/files/1439",
+      "https://www.municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/",
+      "https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html"
     ]
   }
 }
