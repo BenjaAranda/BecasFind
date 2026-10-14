@@ -10325,5 +10325,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866",
+    "revisado": "2026-10-13",
+    "alcance": "Beca de Excelencia Académica del Mineduc disponible para estudiantes UCSH; se corrige la atribución histórica como beca interna y no se confirma el 40%/NEM/PAES original.",
+    "informe": "CONFIRMACION_ESENCIAL_BEA_MINEDUC_UCSH_2026_10_13.md",
+    "fuentes": [
+      "https://www.ucsh.cl/becas-y-beneficios/",
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+      "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf"
+    ],
+    "beneficio": "Financia hasta $1.150.000 del arancel anual según ficha vigente Mineduc; no equivale a la Beca de Excelencia Complementaria UCSH del 20%.",
+    "requisitos_principales": "10% superior del establecimiento o vía DTE definida en normativa; egreso el año anterior; establecimiento elegible; hasta 80% de menores ingresos; nacionalidad chilena; sin título previo; carrera presencial de pregrado e institución elegible.",
+    "limites": "Fechas de postulación, documentos operativos y adjudicación individual desconocidos. No confirmar el descuento interno 40%, NEM 5,8 ni PAES destacado atribuidos por el original. No publicar como convocatoria vigente sin verificar proceso anual.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

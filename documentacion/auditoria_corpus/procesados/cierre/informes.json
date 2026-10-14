@@ -3152,7 +3152,7 @@
     ]
   },
   "DESCARTE_SANTIAGO_TRANSPORTE_2026_10_13.md": {
-    "sha256": "e29c8ad12e53d41294f91ab08a767ba66fabc2e8dceb5d67c96fbe79464dee9d",
+    "sha256": "6a5a2683796f2468e7fc37d4770ae8aa084e2c5e4811e3230b9cbc3d501b815d",
     "urls": [
       "https://documentos.munistgo.cl/wp-content/uploads/2026/07/Bases-Becas-Deportistas-2026-v4.pdf",
       "https://www.munistgo.cl/beca-deportistas/",
@@ -3161,19 +3161,27 @@
     ]
   },
   "CONFIRMACION_ESENCIAL_BECA_EXCELENCIA_ACADEMICA_ENAC_2026_10_13.md": {
-    "sha256": "bbdfb080e23fb9ee704159e12b22846880529b4702b9da935655b7410cba5e84",
+    "sha256": "11882d2c68e291888cc2ff48c441c9650a85bacfb95eebffbebe7caa4374d6d0",
     "urls": [
       "https://enac.cl/admision/",
       "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf"
     ]
   },
   "CONTRASTE_OFICIAL_HUALPEN_TALCA_2026_10_13.md": {
-    "sha256": "6d854262c29d51fd78f558fedfbdc485e29248661d1752023619a91449d810ff",
+    "sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
     "urls": [
       "https://hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
       "https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf",
       "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
       "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_BEA_MINEDUC_UCSH_2026_10_13.md": {
+    "sha256": "5a5fc49641a0052362c5624355afadd0356890b53d7d15af0bbb1bb7f427a788",
+    "urls": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+      "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf",
+      "https://www.ucsh.cl/becas-y-beneficios/"
     ]
   }
 }

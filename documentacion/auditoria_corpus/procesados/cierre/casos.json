@@ -996,7 +996,7 @@
       },
       {
         "informe": "DESCARTE_SANTIAGO_TRANSPORTE_2026_10_13.md",
-        "informe_sha256": "e29c8ad12e53d41294f91ab08a767ba66fabc2e8dceb5d67c96fbe79464dee9d",
+        "informe_sha256": "6a5a2683796f2468e7fc37d4770ae8aa084e2c5e4811e3230b9cbc3d501b815d",
         "extractos": [
           "Candidata: `f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc` — «Beca de Transporte Escolar Superior Santiago»."
         ]
@@ -2248,9 +2248,9 @@
       },
       {
         "informe": "CONFIRMACION_ESENCIAL_BECA_EXCELENCIA_ACADEMICA_ENAC_2026_10_13.md",
-        "informe_sha256": "bbdfb080e23fb9ee704159e12b22846880529b4702b9da935655b7410cba5e84",
+        "informe_sha256": "11882d2c68e291888cc2ff48c441c9650a85bacfb95eebffbebe7caa4374d6d0",
         "extractos": [
-          "Candidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`  \nDecisión: `CONFIRMADA_ESENCIAL`"
+          "Candidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`\nDecisión: `CONFIRMADA_ESENCIAL`"
         ]
       }
     ],
@@ -10326,7 +10326,7 @@
     "candidato": "2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866",
     "nombre": "Beca Excelencia Académica UCSH",
     "institucion": "Universidad Católica Silva Henriquez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
@@ -10424,23 +10424,42 @@
         "extractos": [
           "### Beca Excelencia Académica UCSH — `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866`\n\nEl original afirma una beca propia de 40% del arancel durante la duración nominal, con NEM 5,8 y PAES destacado. El instructivo oficial UCSH de ayudas estudiantiles identifica una **Beca de Excelencia Complementaria** de 20% del arancel anual, destinada a estudiantes beneficiarios de la Beca de Excelencia Académica de Mineduc y sujeta a cupos. Es otra denominación y una condición de acceso distinta; no confirma el 40%, el NEM/PAES ni la duración declarados. El registro sigue abierto hasta hallar su reglamento específico o evidencia de que la ficha pretendía describir la beca complementaria."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BEA_MINEDUC_UCSH_2026_10_13.md",
+        "informe_sha256": "5a5fc49641a0052362c5624355afadd0356890b53d7d15af0bbb1bb7f427a788",
+        "extractos": [
+          "Candidata: `2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866`  \nDecisión: `CONFIRMADA_ESENCIAL`"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866",
-      "revisado": "2026-10-06",
-      "motivo": "Excelencia Complementaria UCSH requiere BEA ministerial y descuenta 20%; no equivale al histórico Excelencia interna 40% por NEM y PAES.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Beca de Excelencia Académica del Mineduc disponible para estudiantes UCSH; se corrige la atribución histórica como beca interna y no se confirma el 40%/NEM/PAES original.",
+      "informe": "CONFIRMACION_ESENCIAL_BEA_MINEDUC_UCSH_2026_10_13.md",
+      "fuentes": [
+        "https://www.ucsh.cl/becas-y-beneficios/",
+        "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+        "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf"
+      ],
+      "beneficio": "Financia hasta $1.150.000 del arancel anual según ficha vigente Mineduc; no equivale a la Beca de Excelencia Complementaria UCSH del 20%.",
+      "requisitos_principales": "10% superior del establecimiento o vía DTE definida en normativa; egreso el año anterior; establecimiento elegible; hasta 80% de menores ingresos; nacionalidad chilena; sin título previo; carrera presencial de pregrado e institución elegible.",
+      "limites": "Fechas de postulación, documentos operativos y adjudicación individual desconocidos. No confirmar el descuento interno 40%, NEM 5,8 ni PAES destacado atribuidos por el original. No publicar como convocatoria vigente sin verificar proceso anual.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
@@ -19757,7 +19776,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_HUALPEN_TALCA_2026_10_13.md",
-        "informe_sha256": "6d854262c29d51fd78f558fedfbdc485e29248661d1752023619a91449d810ff",
+        "informe_sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -37948,7 +37967,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_HUALPEN_TALCA_2026_10_13.md",
-        "informe_sha256": "6d854262c29d51fd78f558fedfbdc485e29248661d1752023619a91449d810ff",
+        "informe_sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -41616,7 +41635,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_HUALPEN_TALCA_2026_10_13.md",
-        "informe_sha256": "6d854262c29d51fd78f558fedfbdc485e29248661d1752023619a91449d810ff",
+        "informe_sha256": "68f321c8f1406a2cbd3af42ccd3e0870c1239e8a426e481a3c00f402815dac82",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
