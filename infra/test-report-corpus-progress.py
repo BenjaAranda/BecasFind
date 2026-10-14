@@ -47,6 +47,29 @@ class ProgressTest(unittest.TestCase):
             with self.assertRaises(ValueError):
                 module.report(folder)
 
+    def test_essential_confirmation_can_supersede_historical_editorial_discard(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            self.fixture(folder)
+            old_discard = self.discard(folder)
+            old_discard['estado'] = 'SUPERADO_POR_CONFIRMACION_ESENCIAL'
+            (folder/'descartes.json').write_text(json.dumps([old_discard]), encoding='utf-8')
+            self.remove_pending(folder, 'a')
+            (folder/'essential.md').write_text('Confirmación esencial histórica', encoding='utf-8')
+            entry = dict(candidato='a', alcance='Identidad histórica confirmada; vigencia desconocida',
+                         beneficio='Apoyo de residencia', requisitos_principales='Estudiante de la institución',
+                         limites='Importe, documentos y fechas desconocidos; no activar', informe='essential.md',
+                         fuentes=['https://example.org/beca'],
+                         verificaciones={key:True for key in ['identidad','fuente_oficial','cobertura','requisitos_principales']})
+            (folder/'confirmaciones_esenciales.json').write_text(json.dumps([entry]), encoding='utf-8')
+            totals = module.report(folder)
+            self.assertEqual(1, totals['confirmadas_esenciales'])
+            self.assertEqual(0, totals['descartadas'])
+            self.assertEqual(2, totals['pendientes_confirmacion'])
+            rows = module.read_csv(folder/'avance/por_registro.csv')
+            confirmed = [row for row in rows if row['candidato']=='a']
+            self.assertTrue(all(row['estado']=='CONFIRMADA_ESENCIAL' for row in confirmed))
+
     def test_discard_without_individual_evidence_is_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             folder = Path(temp)

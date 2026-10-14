@@ -8,7 +8,8 @@ def read_discards(folder, known, confirmed=()):
     entries = {}
     for entry in json.loads(path.read_text(encoding='utf-8')) if path.exists() else []:
         candidate = entry['candidato']
-        if candidate not in known or candidate in entries or candidate in confirmed:
+        superseded = entry.get('estado') == 'SUPERADO_POR_CONFIRMACION_ESENCIAL'
+        if candidate not in known or candidate in entries or (candidate in confirmed) != superseded:
             raise ValueError('Descarte desconocido, duplicado o confirmado')
         if any(not entry.get(field) for field in ('motivo', 'alcance', 'revisado', 'informe', 'evidencia')):
             raise ValueError('Descarte sin motivo, alcance o evidencia')
@@ -17,5 +18,6 @@ def read_discards(folder, known, confirmed=()):
             raise ValueError('Descarte sin apartado individual')
         if any(not (folder/name).is_file() for name in entry['evidencia']):
             raise ValueError('Evidencia de descarte ausente')
-        entries[candidate] = entry
+        if not superseded:
+            entries[candidate] = entry
     return entries

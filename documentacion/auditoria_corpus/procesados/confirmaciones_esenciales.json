@@ -10281,5 +10281,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd",
+    "revisado": "2026-10-13",
+    "alcance": "Confirmación esencial de existencia histórica de una beca institucional UPLA de residencia. No acredita convocatoria vigente ni autoriza publicación activa.",
+    "informe": "CONFIRMACION_ESENCIAL_RESIDENCIA_UPLA_2026_10_13.md",
+    "fuentes": [
+      "https://upla.cl/vinculacion/wp-content/uploads/2018/12/Informe-AUI-Institucional-UPLA-2016-29-02-2016.pdf",
+      "https://www.upla.cl/transparencia/wp-content/uploads/2016/12/2016_1210_beneficiarios_nov-2016__dto_exto_1426-2016.pdf"
+    ],
+    "beneficio": "Apoyo institucional de residencia para estudiantes UPLA. No se especifican importe ni modalidad de pago.",
+    "requisitos_principales": "Ser estudiante de la Universidad de Playa Ancha. Requisitos adicionales de distancia, RSH, vulnerabilidad y notas no especificados en las fuentes consultadas.",
+    "limites": "La autoevaluación institucional informa beneficios de residencia otorgados entre 2012 y 2015 y la resolución de Transparencia acredita beneficiarios de Beca Residencia en 2016. No se confirma vigencia posterior, convocatoria actual, importe, documentos ni modalidad de alojamiento/subsidio. Se distingue de la Beca de Residencia Indígena JUNAEB. Mantener inactiva hasta confirmar cierre futuro.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificados en las fuentes consultadas.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
