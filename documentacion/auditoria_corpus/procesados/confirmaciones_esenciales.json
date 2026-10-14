@@ -10238,5 +10238,48 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad corregida con fuente oficial específica; beneficio y requisitos esenciales contrastados. No acredita convocatoria abierta ni vigencia publicable.",
+    "informe": "CONFIRMACION_ESENCIAL_USACH_BEA_2026_10_13.md",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+      "https://admision.usach.cl/supernumerario"
+    ],
+    "beneficio": "Financia hasta $1.150.000 CLP del arancel anual de una carrera de pregrado.",
+    "requisitos_principales": "Personas chilenas egresadas de enseñanza media el año inmediatamente anterior; rendimiento entre el 10% superior del establecimiento o distinción DTE conforme a la normativa; hasta el 80% de menores ingresos; matrícula presencial de pregrado en institución acreditada. USACH confirma que la BEA es asignada e informada por MINEDUC.",
+    "limites": "Es un beneficio estatal asignado por MINEDUC, no una beca propia de USACH. No se respaldan el 50% ni un NEM fijo de 5,8 del registro original. El tope se imputa al arancel anual y no es dinero libre. Fechas y documentos específicos no indicados en la ficha oficial consultada. No se certifica convocatoria abierta; permanece inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificados en la fuente consultada.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad corregida con fuente oficial específica; beneficio y requisitos esenciales contrastados. No acredita convocatoria abierta ni vigencia publicable.",
+    "informe": "CONFIRMACION_ESENCIAL_ARICA_RESIDENCIA_JUNAEB_2026_10_13.md",
+    "fuentes": [
+      "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral"
+    ],
+    "beneficio": "Alojamiento en casa de familia tutora, alimentación y apoyo afectivo; programa JUNAEB ejecutado mediante convenio municipal.",
+    "requisitos_principales": "Estudiantes vulnerables de localidades alejadas que deben trasladarse a Arica para continuar estudios; la publicación incluye 7.º y 8.º básico, enseñanza media y educación superior.",
+    "limites": "La fuente identifica residencia JUNAEB mediante convenio, no una beca municipal en efectivo de $250.000. Monto monetario, tramo RSH, NEM, documentos y fechas de cierre no especificados. La nota de abril de 2026 informó cupos disponibles en la convocatoria reportada entonces, no disponibilidad actual. Ficha inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "No especificados en la fuente consultada.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

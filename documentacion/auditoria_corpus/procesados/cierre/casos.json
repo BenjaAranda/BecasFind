@@ -6996,6 +6996,13 @@
         "extractos": [
           "| Beca Vocación Social UAH | `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_OFICIAL_2026_10_12.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_TRIO_UTA_UPLA_UAH_2026_10_13.md",
+        "informe_sha256": "eed3488b46667bcade92dce841d15169e8f849d03f175026e4ac4baf52463dc8",
+        "extractos": [
+          "**Candidata:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`. La página oficial vigente presenta beneficios 2026 por excelencia PAES, talento pedagógico, pedagogía, arancel, alimentación, deporte y otros apoyos, pero no individualiza la modalidad “Vocación Social” ni confirma el 30%, NEM 5,5 o compromiso comunitario atribuidos a esta ficha. La omisión en el catálogo no demuestra inexistencia; podría tratarse de una modalidad previa o distinta. Mantener en aclaración hasta hallar bases o acto que vincule positivamente el nombre y el beneficio.\n\nFuente: [Becas y beneficios UAH, admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15461,6 +15468,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_TRIO_UTA_UPLA_UAH_2026_10_13.md",
+        "informe_sha256": "eed3488b46667bcade92dce841d15169e8f849d03f175026e4ac4baf52463dc8",
+        "extractos": [
+          "**Candidata:** `329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd`. El artículo UPLA consultado documenta la Beca de Residencia Indígena implementada por JUNAEB en 2016: apoyo de arriendo/pensión, población con ascendencia indígena y requisitos que difieren de la descripción original de residencia general o subsidio institucional. Esta evidencia confirma una modalidad histórica relacionada con residencia, pero no prueba que sea la misma candidata ni sustenta sus afirmaciones de residencia universitaria, subsidio mensual o RSH 60%. Conservar la identidad pendiente; no transferir condiciones de la modalidad JUNAEB.\n\nFuentes: [noticia UPLA sobre Beca de Residencia Indígena](https://www.upla.cl/noticias/2016/03/28/inedita-entrega-de-becas-de-residencia-para-universitarios-de-ascendencia-indigena/), [documentos de postulación UPLA/JUNAEB](https://www.upla.cl/desarrolloestudiantil/wp-content/uploads/2018/11/DOCUMENTOS-A-PRESENTAR-EN-ENTREVISTA-CON-ASISTENTE-SOCIAL.pdf)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15547,9 +15561,9 @@
   },
   {
     "candidato": "b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff",
-    "nombre": "Beca de Excelencia Académica USACH",
+    "nombre": "Beca de Excelencia Académica (BEA, MINEDUC)",
     "institucion": "Universidad de Santiago de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_usach.csv",
@@ -15654,13 +15668,42 @@
         "extractos": [
           "| Beca Excelencia Académica USACH | `b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_CATALOGOS_INSTITUCIONALES_2026_10_12.md` |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_USACH_BEA_2026_10_13.md",
+        "informe_sha256": "bf54e8a09b4bdf4056977d6e90e0cdc0f4ba35ac0d280f8243310dbc288bb838",
+        "extractos": [
+          "Fecha: 13 de octubre de 2026. Candidata: `b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff`."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff",
+      "revisado": "2026-10-13",
+      "alcance": "Identidad corregida con fuente oficial específica; beneficio y requisitos esenciales contrastados. No acredita convocatoria abierta ni vigencia publicable.",
+      "informe": "CONFIRMACION_ESENCIAL_USACH_BEA_2026_10_13.md",
+      "fuentes": [
+        "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+        "https://admision.usach.cl/supernumerario"
+      ],
+      "beneficio": "Financia hasta $1.150.000 CLP del arancel anual de una carrera de pregrado.",
+      "requisitos_principales": "Personas chilenas egresadas de enseñanza media el año inmediatamente anterior; rendimiento entre el 10% superior del establecimiento o distinción DTE conforme a la normativa; hasta el 80% de menores ingresos; matrícula presencial de pregrado en institución acreditada. USACH confirma que la BEA es asignada e informada por MINEDUC.",
+      "limites": "Es un beneficio estatal asignado por MINEDUC, no una beca propia de USACH. No se respaldan el 50% ni un NEM fijo de 5,8 del registro original. El tope se imputa al arancel anual y no es dinero libre. Fechas y documentos específicos no indicados en la ficha oficial consultada. No se certifica convocatoria abierta; permanece inactiva.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "No especificados en la fuente consultada.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921",
@@ -16364,6 +16407,13 @@
         "informe_sha256": "041ad936a37f044de4348640b969863922c83de0f9584e3c4d2d0f2c6dc8f0b6",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_UNIVERSITARIO_TRIO_UTA_UPLA_UAH_2026_10_13.md",
+        "informe_sha256": "eed3488b46667bcade92dce841d15169e8f849d03f175026e4ac4baf52463dc8",
+        "extractos": [
+          "**Candidata:** `7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3`. La ficha original afirma un aporte económico mensual variable y un umbral RSH del 60%. La página oficial DAE lista beneficios con nombres y reglas concretas: ayuda solidaria de alimentación, fotocopias e impresiones, ayuda solidaria de residencia para Casa Central en Arica, títulos y grados, internado, práctica y viaje estudiantil. La residencia es dinero para gastos de alojamiento, pero exige no tener residencia familiar en Arica e informe social; cursos superiores deben acreditar al menos 70% de aprobación. La página no identifica una beca genérica de pago mensual con el nombre de la candidata ni confirma su umbral RSH. No reasignar la candidata a residencia ni a alimentación por similitud.\n\nFuente: [Beneficios complementarios de la DAE UTA](https://webdae.uta.cl/index.php/beneficios-complementarios/)."
         ]
       }
     ],
@@ -40104,9 +40154,9 @@
   },
   {
     "candidato": "4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f",
-    "nombre": "Beca Municipal de Educación Superior Arica",
-    "institucion": "Municipalidad de Arica",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "nombre": "Residencia Familiar Estudiantil (JUNAEB) — Arica",
+    "institucion": "JUNAEB / Municipalidad de Arica",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
@@ -40218,13 +40268,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_ARICA_RESIDENCIA_JUNAEB_2026_10_13.md",
+        "informe_sha256": "bd8d81e00a4a3337fbb616c6e30419d6b49839d9456d097af1d70ed8e0ef448a",
+        "extractos": [
+          "Fecha: 13 de octubre de 2026. Candidata: `4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f`, originalmente “Beca Municipal de Educación Superior Arica”."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f",
+      "revisado": "2026-10-13",
+      "alcance": "Identidad corregida con fuente oficial específica; beneficio y requisitos esenciales contrastados. No acredita convocatoria abierta ni vigencia publicable.",
+      "informe": "CONFIRMACION_ESENCIAL_ARICA_RESIDENCIA_JUNAEB_2026_10_13.md",
+      "fuentes": [
+        "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral"
+      ],
+      "beneficio": "Alojamiento en casa de familia tutora, alimentación y apoyo afectivo; programa JUNAEB ejecutado mediante convenio municipal.",
+      "requisitos_principales": "Estudiantes vulnerables de localidades alejadas que deben trasladarse a Arica para continuar estudios; la publicación incluye 7.º y 8.º básico, enseñanza media y educación superior.",
+      "limites": "La fuente identifica residencia JUNAEB mediante convenio, no una beca municipal en efectivo de $250.000. Monto monetario, tramo RSH, NEM, documentos y fechas de cierre no especificados. La nota de abril de 2026 informó cupos disponibles en la convocatoria reportada entonces, no disponibilidad actual. Ficha inactiva.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "No especificados en la fuente consultada.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "6aa434ee4b7ef7a402c40f03e5c5687be6e096329d6002dc3b8a7f38bf63ca2e",
@@ -41564,7 +41642,7 @@
   },
   {
     "candidato": "a34312e9d0e3379c6b010b5a169e617b31a12f5337a1b9514ee23a426742a42e",
-    "nombre": "Beca de Educación Superior Santiago",
+    "nombre": "Beca de Estudios Superiores — Municipalidad de Santiago",
     "institucion": "Municipalidad de Santiago",
     "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
