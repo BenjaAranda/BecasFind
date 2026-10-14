@@ -9,3 +9,11 @@ Una fuente oficial de la **Universidad del Alba** publica para Admisión 2026 un
 La fuente demuestra la existencia de la beca de Universidad del Alba, pero no demuestra que UDLA nunca haya tenido un beneficio homónimo. Por eso la candidata original **permanece pendiente**, sin confirmar el 20%, ni descartarla por mera falta de ficha. La resolución requiere una base histórica de UDLA o evidencia primaria que pruebe el origen de los datos.
 
 Fuente primaria: [Universidad del Alba — Reglamento de becas, Admisión 2026](https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf). La sección “Título V — Beca Fomento Regional” identifica institución, destinatarios, porcentaje y acreditación de región de egreso.
+
+## Actualización de acceso — 14 de octubre de 2026
+
+Al revalidar los enlaces, el PDF del reglamento de Admisión 2026 devuelve **404** en acceso directo. El resultado indexado del dominio oficial conserva el texto del Título V, pero el archivo no puede volver a leerse desde su URL actual; no se presenta como un documento nuevamente descargado.
+
+La [nota institucional de UDALBA sobre sus becas](https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/) sigue accesible y confirma una Beca Fomento Regional para estudiantes nuevos provenientes de otra región sin sede universitaria, con cobertura histórica de 10–35% del arancel anual y tope de $500.000. Es un respaldo institucional de la existencia de una modalidad homónima en UDALBA; no identifica el origen de la ficha guardada como UDLA ni valida su porcentaje de 20%.
+
+**Decisión:** continúa `EXCLUSION_HISTORICA_SIN_RATIFICAR`. No se elimina ni se fusiona. Para ratificar su exclusión de UDLA aún hace falta un antecedente positivo de procedencia de los datos o una fuente oficial histórica de UDLA que identifique la modalidad exacta.
