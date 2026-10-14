@@ -1,0 +1,32 @@
+# Recontraste de candidatas abiertas — 14 de octubre de 2026
+
+Esta pasada vuelve a consultar fuentes primarias institucionales para las fichas que permanecen abiertas. Se conserva la separación entre confirmar que existe una ayuda concreta y demostrar que corresponde a la candidata histórica. No se cambia el estado de una beca solo por una búsqueda sin resultados ni se trasladan requisitos de una modalidad distinta.
+
+## Hallazgos
+
+| Candidata | Evidencia encontrada | Decisión y dato pendiente |
+|---|---|---|
+| Beca de Educación Superior Cholchol | Una nota de prensa de 2025, que no es una fuente municipal primaria, atribuye al municipio la entrega de 100 apoyos a estudiantes superiores. El sitio municipal actual permite pedir información y consultar transparencia, pero el material recuperado no expone las bases ni individualiza esta ficha. | Corroboración secundaria de una ayuda municipal; no cerrar confirmación esencial sin el acto, bases o publicación primaria con beneficio y población. Importe, criterios y requisitos de la ficha continúan sin ratificar. |
+| Beca de Mantención Educación Superior Hualpén | La Cuenta Pública municipal de 2022 identifica un convenio con el Instituto Profesional Diego Portales para 20 becas de estudio dirigidas a jóvenes de Hualpén con dificultades económicas. El PLADECO 2026–2032 describe asesoría municipal para postular a beneficios estatales, entre ellos FUAS, Beca Presidente de la República y Beca Indígena. | Son antecedentes oficiales de prestaciones relacionadas, pero no prueban que la ficha general de mantención de $200.000 sea esa modalidad. No combinar el convenio de 20 becas ni la asesoría estatal con la candidata. Falta el acto o bases de la modalidad exacta. |
+| Beca Municipal Estudiantil El Monte | La Cuenta Pública municipal 2024 describe trámites de TNE y apoyo a beneficios JUNAEB para estudiantes, sin individualizar una beca propia de educación superior. | La prestación de transporte estudiantil no confirma una beca de mantención municipal. Mantener abierta; falta una convocatoria o acto de la beca atribuida. |
+| Beca Municipal Educación Superior Talca | La Cuenta Pública 2024 identifica coordinación municipal para atención y difusión de beneficios JUNAEB, incluida la Beca Presidente de la República. | No acredita el estipendio municipal de la candidata ni sus requisitos. Mantener las ayudas estatales separadas. |
+| Beca Municipal de Educación Superior Victoria | El PADEM municipal 2015 registra becas escolares y un complemento municipal asociado a la Beca Vocación de Profesor; la fuente no vincula esos datos con la ayuda general superior de la ficha. | Evidencia de programas educativos distintos y de otra fecha. Mantener abierta hasta encontrar bases o acuerdo del programa exacto. |
+| Beca Familiar UCSH | El catálogo oficial actual de becas UCSH enumera beneficios institucionales y convenios concretos; no se encontró una entrada que coincida con la “Beca Familiar” descrita en el registro. | La omisión de un catálogo vigente no demuestra que nunca existió. No sustituirla por descuentos de convenios a cargas familiares. Falta una fuente histórica que vincule nombre, beneficiarios y descuento. |
+| Becas internas ENAC (Apoyo Familiar, Convenio Empresas, Deportiva, Titulado y Vocación de Servicio) | La página oficial de admisión enumera beneficios estatales y becas vigentes de ENAC; la página de titulados presenta convenios de continuidad y descuentos. Las páginas recuperadas no vinculan esos títulos con los porcentajes o requisitos históricos de las cinco candidatas. | No declarar falsas por ausencia en el catálogo actual ni reasignarles los convenios publicados. Mantener cada modalidad separada hasta encontrar reglamento o convocatoria que corresponda a su nombre y población. |
+| Beca Municipal Educación Superior Puerto Montt | La Municipalidad documenta el Incentivo PAES de $1.000.000 para egresados de establecimientos municipales en su primer año superior, con residencia comunal y puntaje PAES mínimo; también documenta el incentivo Hijos e Hijas de la Pesca Artesanal de $750.000 para estudiantes respaldados por un sindicato pesquero. En 2016 registró otra asignación anual de $600.000 a hijos de pescadores. | Las prestaciones oficiales tienen identidad y población delimitadas; no coinciden con la ficha abierta de aporte DIDECO de libre disposición, RSH 60% y NEM 5,0. No trasladar criterios ni montos. La existencia de otras líneas no descarta automáticamente una tercera modalidad; falta el acto o bases que correspondan a la ficha genérica. |
+
+## Fuentes consultadas
+
+- [Cuenta Pública 2024 de El Monte](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf)
+- [Cuenta Pública 2022 de Hualpén](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf)
+- [PLADECO 2026–2032 de Hualpén](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf)
+- [Cuenta Pública 2024 de Talca](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf)
+- [PADEM 2015 de Victoria](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2015.pdf)
+- [Becas y beneficios UCSH](https://www.ucsh.cl/becas-y-beneficios/)
+- [Admisión ENAC](https://enac.cl/admision/) y [Red de Titulados ENAC](https://enac.cl/titulados/)
+- [Convocatoria municipal de incentivos de Puerto Montt 2024](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [Incentivo PAES](https://www.puertomontt.cl/estudiantes-de-puerto-montt-cuentan-con-importante-ayuda-economica-en-primer-ano-universitario/) y [beca Hijos e Hijas de Pescadores 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/)
+- [Información municipal de Cholchol](https://municholchol.cl/); [nota secundaria sobre la entrega 2025](https://araucanianoticias.cl/2025/apoyo-municipal-100-jvenes-de-cholchol-son-beneficiados-con-becas-para-sus-estudios-superiores/0528282102)
+
+## Resultado del lote
+
+No hubo evidencia primaria suficiente para cerrar estas candidatas bajo el criterio vigente. Se conservan abiertas, con las modalidades similares diferenciadas y las carencias concretas arriba indicadas. Esto no equivale a descartarlas ni a afirmar que no existan.
