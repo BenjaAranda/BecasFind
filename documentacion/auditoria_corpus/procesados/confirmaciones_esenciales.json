@@ -10674,5 +10674,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "92e4ad7a0560c3a831af47c3412ee193c26746839a7b4fbc7e949183226b0c26",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia y reglas públicas del descuento Alumni UDD en el Curso Gestión de Compensaciones; no confirma el supuesto beneficio de segunda carrera de pregrado del registro.",
+    "informe": "CONFIRMACION_ESENCIAL_ALUMNI_UDD_2026_10_14.md",
+    "fuentes": [
+      "https://postgrados.udd.cl/programas/curso-gestion-de-compensaciones-240050/"
+    ],
+    "beneficio": "25% de descuento permanente sobre el arancel del curso consultado. La ficha publica arancel de $290.000 para la versión consultada; no generalizar el monto ni la cobertura a otros cursos.",
+    "requisitos_principales": "Ser Alumni UDD de pregrado (titulado) o postgrado (magíster o doctorado), según la ficha del curso.",
+    "limites": "La fuente no acredita 20% para segunda carrera de pregrado ni una beca monetaria general. La ficha específica corresponde al curso con fechas 2–25 de noviembre de 2026. No inferir calendario recurrente ni vigencia para otros programas.",
+    "fecha_inicio": "2026-11-02",
+    "fecha_cierre": "2026-11-25",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
