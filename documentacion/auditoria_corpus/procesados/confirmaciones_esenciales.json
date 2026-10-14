@@ -10610,5 +10610,26 @@
       "fecha_cierre": null,
       "documentos": null
     }
+  },
+  {
+    "candidato": "12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb",
+    "revisado": "2026-10-14",
+    "alcance": "Identidad, beneficiarios y beneficio esencial de la Beca Municipal Carmen Vilches según publicación municipal de 2026; no confirma convocatoria abierta.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md",
+    "fuentes": [
+      "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
+    ],
+    "beneficio": "Apoyo municipal que permite a jóvenes copiapinos con mérito académico y recursos insuficientes cursar Medicina u Odontología en Argentina mediante convenios con la Provincia de La Rioja, Universidad Nacional de La Rioja y Fundación Barceló. Monto individual y periodicidad: No especificado.",
+    "requisitos_principales": "Jóvenes de Copiapó con mérito académico y recursos económicos insuficientes; cursar Medicina u Odontología en Argentina. Umbrales RSH/NEM y documentos: No especificado.",
+    "limites": "La fuente no publica monto individual, periodicidad, cupos, documentos, umbrales RSH/NEM ni calendario de nuevas postulaciones. Los datos del registro original sobre $150.000, RSH 60%, NEM 5,5/5,0 y fechas 1–15 de marzo no quedan confirmados. La actividad de becarios en 2026 no demuestra convocatoria abierta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

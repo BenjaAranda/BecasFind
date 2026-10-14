@@ -13514,8 +13514,8 @@
     "candidatos_origen": [
       "12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb"
     ],
-    "nombre_de_referencia": "Beca Municipal de Educación Superior Copiapo",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Beca Municipal Carmen Vilches",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
@@ -13524,16 +13524,16 @@
         "institucion_original": "Municipalidad de Copiapo"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "La recuperación del enlace devolvió 403. No demuestra inexistencia; falta una ficha oficial del aporte de educación superior. Contraste oficial 14/10/2026: La Municipalidad identifica la Beca Carmen Vilches para jóvenes copiapinos con mérito y recursos insuficientes que cursan Medicina u Odontología en Argentina. La fuente no la vincula con esta ficha DIDECO genérica de $150.000 anual, RSH hasta 60% y notas 5,5/5,0. No trasladar datos; falta fuente de la beca alegada.",
+    "alcance_verificado": "Jóvenes copiapinos con mérito académico y recursos insuficientes que cursan Medicina u Odontología en Argentina mediante convenios municipales; publicación oficial de 2026.",
+    "beneficio_verificado": "Acceso y apoyo a estudios superiores en el área de salud. Monto individual y periodicidad: No especificado.",
+    "requisitos_principales_verificados": "Jóvenes copiapinos con mérito académico y recursos económicos insuficientes; carreras de Medicina u Odontología en Argentina. Documentación y umbrales: No especificado.",
+    "limites": "La publicación acredita becarios y actividad en 2026, no convocatoria abierta. Los datos originales de $150.000, RSH 60%, NEM 5,5/5,0 y fechas de postulación no están respaldados. Véase CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md.",
     "fuentes_verificadas_del_expediente": [
       "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
     ],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "informe_esencial": "CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md",
+    "vigencia_publicable": "NO_CONFIRMADA",
+    "accion_administrativa": "NORMALIZAR_NOMBRE_Y_ALCANCE; CONSERVAR_ORIGINAL"
   },
   {
     "clave_documental": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",

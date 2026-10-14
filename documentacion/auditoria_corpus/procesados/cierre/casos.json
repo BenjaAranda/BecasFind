@@ -41718,7 +41718,7 @@
     "candidato": "12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb",
     "nombre": "Beca Municipal de Educación Superior Copiapo",
     "institucion": "Municipalidad de Copiapo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
@@ -41830,13 +41830,41 @@
         "extractos": [
           "- Candidata: `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb` — “Beca Municipal de Educación Superior Copiapó”.\n- Fuente: [Municipio de Copiapó: encuentro con becados de Medicina y Odontología](https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/).\n- El municipio identifica la beca “Carmen Vilches”, vigente desde hace más de diez años mediante convenios con la Provincia de La Rioja, la Universidad Nacional de La Rioja y Fundación Barceló. Describe apoyo a jóvenes copiapinos con mérito académico y recursos económicos insuficientes que cursan Medicina u Odontología en Argentina.\n- La fuente confirma una beca municipal real de educación superior, pero no la vincula con la ficha genérica ni respalda $150.000 anuales, libre disposición, RSH 60%, NEM 5,5/5,0 o postulación en marzo. Puede ser una variante diferente; no se fusionan.\n- Decisión: mantener la ficha genérica abierta hasta localizar sus bases. Registrar la “Carmen Vilches” como modalidad municipal separada."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md",
+        "informe_sha256": "56a38f1c6a71757db0de1593176dded88a093776ced87ffdf18770db8b9c2beb",
+        "extractos": [
+          "Fecha: 14 de octubre de 2026. Candidata `12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb`. Se revisó una fuente primaria del municipio. No se utilizó Firecrawl y el CSV original se conserva sin cambios."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb",
+      "revisado": "2026-10-14",
+      "alcance": "Identidad, beneficiarios y beneficio esencial de la Beca Municipal Carmen Vilches según publicación municipal de 2026; no confirma convocatoria abierta.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md",
+      "fuentes": [
+        "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
+      ],
+      "beneficio": "Apoyo municipal que permite a jóvenes copiapinos con mérito académico y recursos insuficientes cursar Medicina u Odontología en Argentina mediante convenios con la Provincia de La Rioja, Universidad Nacional de La Rioja y Fundación Barceló. Monto individual y periodicidad: No especificado.",
+      "requisitos_principales": "Jóvenes de Copiapó con mérito académico y recursos económicos insuficientes; cursar Medicina u Odontología en Argentina. Umbrales RSH/NEM y documentos: No especificado.",
+      "limites": "La fuente no publica monto individual, periodicidad, cupos, documentos, umbrales RSH/NEM ni calendario de nuevas postulaciones. Los datos del registro original sobre $150.000, RSH 60%, NEM 5,5/5,0 y fechas 1–15 de marzo no quedan confirmados. La actividad de becarios en 2026 no demuestra convocatoria abierta.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",
