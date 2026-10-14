@@ -10454,5 +10454,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia y alcance educativo acreditados por el título de la Ordenanza N.º 127/2020; no certifica bases completas ni convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_LA_FLORIDA_ORDENANZA_127_2026_10_14.md",
+    "fuentes": [
+      "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
+      "https://appx.laflorida.cl/beca_escolar/",
+      "https://pladeco.laflorida.cl/v3/main.php"
+    ],
+    "beneficio": "Beca municipal regulada por ordenanza para estudiantes de educación superior; modalidad y cuantía no especificadas en la fuente consultada.",
+    "requisitos_principales": "La norma identificada incluye a estudiantes de educación superior. Umbrales RSH/NEM, residencia, documentos y reglas de selección no especificados en las fuentes consultadas.",
+    "limites": "No se confirman los $100.000–$350.000, RSH 60%, NEM 5,0, fechas, cupos ni documentos atribuidos por la ficha original. La Beca Escolar 2026 es otra modalidad. No confirma vigencia actual ni autoriza activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
