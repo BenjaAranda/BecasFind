@@ -104,8 +104,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El enlace compartido Valparaíso no se recuperó. No declarar duplicidad entre las variantes por compartir URL.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "El enlace compartido Valparaíso no se recuperó. No declarar duplicidad entre las variantes por compartir URL. Contraste oficial 14/10/2026: la ficha municipal consultada explica gestión de beneficios estatales Presidente de la República e Indígena por el municipio, con selección JUNAEB. No identifica una beca DIDECO autónoma ni prueba que esta candidata sea duplicada de la beca superior municipal; ambas deben conservarse separadas hasta evidencia individual.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municipalidaddevalparaiso.cl/becas/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -140,8 +142,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El enlace Valparaíso no se recuperó. No trasladar una regla de beca general a transporte sin apartado específico.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "El enlace Valparaíso no se recuperó. No trasladar una regla de beca general a transporte sin apartado específico. Contraste oficial 14/10/2026: la página municipal «Becas» consultada cubre orientación/tramitación de Beca Presidente de la República y Beca Indígena; no contiene una ficha de transporte para educación superior. La web institucional tampoco permite descartar una línea distinta por omisión. Faltan convocatoria, cobertura, criterios y monto de pasajes.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municipalidaddevalparaiso.cl/becas/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -620,11 +624,13 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Las páginas municipales revisadas describen la Beca Presidente de la República estatal y ayudas sociales sujetas a evaluación; la Cuenta Pública 2022 registra otro beneficio de Bienestar para hijos de socios. Ninguna confirma una beca abierta de pasajes con las condiciones de la candidata. No descartan por sí solas otra línea histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
+    "limites": "Las páginas municipales revisadas describen la Beca Presidente de la República estatal y ayudas sociales sujetas a evaluación; la Cuenta Pública 2022 registra otro beneficio de Bienestar para hijos de socios. Ninguna confirma una beca abierta de pasajes con las condiciones de la candidata. No descartan por sí solas otra línea histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: la municipalidad publica apoyo de gestión de la Beca Presidente de la República estatal y una Beca Deportiva Comunal con objeto de viajes/equipamiento/alojamiento deportivos. Ninguna acredita transporte para estudios superiores; no transferir el beneficio deportivo a esta candidata. La omisión no prueba inexistencia. Faltan bases o ficha del apoyo de pasajes y su alcance.",
     "fuentes_verificadas_del_expediente": [
       "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
       "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/",
-      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf"
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-complementario-beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/beca-deportiva-comunal-de-vina-del-mar/"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -13829,8 +13835,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La ficha Valparaíso no se recuperó por tiempo de espera; falta lectura del apartado del programa propio superior.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La ficha Valparaíso no se recuperó por tiempo de espera; falta lectura del apartado del programa propio superior. Contraste oficial 14/10/2026: la página municipal «Becas» distingue la Beca Presidente de la República y la Beca Indígena como beneficios estatales; especifica que el municipio orienta y tramita, mientras JUNAEB selecciona. Esta fuente no confirma una beca propia municipal de educación superior ni prueba su inexistencia. Se requiere instrumento municipal separado para mantener esta identidad.",
+    "fuentes_verificadas_del_expediente": [
+      "https://municipalidaddevalparaiso.cl/becas/"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
