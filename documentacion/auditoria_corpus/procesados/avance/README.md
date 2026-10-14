@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 14 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 50 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 486 confirmación esencial: quedan 69 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 14 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 48 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 488 confirmación esencial: quedan 67 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 19 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 11 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -60,9 +60,9 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uvm.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | bloque10_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
 | bloque11_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
-| bloque12_muni.csv | 10 | 10 | 6 | 4 | 0 | 0 | 0 | 6 |
+| bloque12_muni.csv | 10 | 10 | 5 | 5 | 0 | 0 | 0 | 5 |
 | bloque13_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
-| bloque14_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
+| bloque14_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
 | bloque15_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |
 | bloque16_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
 | bloque17_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |

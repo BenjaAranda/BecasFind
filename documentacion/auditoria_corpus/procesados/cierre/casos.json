@@ -20908,7 +20908,7 @@
     "candidato": "134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452",
     "nombre": "Beca Municipal Educación Superior Aysen",
     "institucion": "Municipalidad de Puerto Aysen",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -21019,7 +21019,40 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452",
+      "revisado": "2026-10-14",
+      "alcance": "Identidad y reglas esenciales de la Subvención Municipal de Transporte para Educación Superior Aysén-Coyhaique, segundo semestre 2026; corrige la ficha original sin sobrescribirla.",
+      "informe": "CONFIRMACION_ESENCIAL_AYSEN_CALDERA_2026_10_14.md",
+      "fuentes": [
+        "https://muniaysen.gob.cl/municipalidad-de-aysen-abre-proceso-de-segunda-postulacion-a-la-subvencion-municipal-de-transporte-para-estudiantes-de-educacion-superior/"
+      ],
+      "beneficio": "Apoyo económico destinado a disminuir los costos de traslado entre Aysén y Coyhaique; cuantía individual no especificada.",
+      "requisitos_principales": "Estudiantes de educación superior de la comuna de Aysén que cursan sus estudios en Coyhaique; postulación o renovación para el segundo semestre de 2026.",
+      "limites": "El aviso corresponde al segundo semestre de 2026 y cerró el 12 de agosto; no está vigente. No publica cuantía individual, tramo máximo RSH, NEM ni frecuencia de pago. El RSH se pide como documento, sin un umbral indicado.",
+      "fecha_inicio": null,
+      "fecha_cierre": "2026-08-12",
+      "documentos": "Cédula de identidad; certificado de alumno regular; cartola RSH; credencial de discapacidad cuando corresponda; liquidaciones de sueldo o pensiones de los últimos tres meses; si no hay ingresos formales, declaración de gastos con respaldos.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Subvención Municipal de Transporte para Educación Superior Aysén-Coyhaique 2026",
+        "tipo_beneficio": "MONETARIA",
+        "monto": null,
+        "moneda": null,
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": "2026-08-12",
+        "documentos": "Según publicación municipal; detalle en el campo documentos."
+      }
+    }
   },
   {
     "candidato": "5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0",
@@ -22562,7 +22595,7 @@
     "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
     "nombre": "Beca Municipal Educación Superior Caldera",
     "institucion": "Municipalidad de Caldera",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
@@ -22701,7 +22734,40 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
+      "revisado": "2026-10-14",
+      "alcance": "Identidad y condiciones esenciales de Beca Municipal de Movilización Caldera-Copiapó 2026; corrige la ficha genérica original sin sobrescribirla.",
+      "informe": "CONFIRMACION_ESENCIAL_AYSEN_CALDERA_2026_10_14.md",
+      "fuentes": [
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D"
+      ],
+      "beneficio": "Transporte en bus ida y regreso entre Caldera y Copiapó para estudios vespertinos; no es aporte monetario individual.",
+      "requisitos_principales": "Cursar educación superior o técnico-profesional en modalidad vespertina en Copiapó; la ficha de contratación identifica transporte de ida y regreso desde Caldera.",
+      "limites": "Importe individual, residencia formal, RSH, NEM, documentos y fechas de postulación de estudiantes no especificados. La licitación fue adjudicada en 2026; no usar sus plazos como convocatoria estudiantil.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Beca Municipal de Movilización Caldera-Copiapó 2026",
+        "tipo_beneficio": "NO_MONETARIA",
+        "monto": "Traslado en bus ida y regreso",
+        "moneda": null,
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null
+      }
+    }
   },
   {
     "candidato": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",
