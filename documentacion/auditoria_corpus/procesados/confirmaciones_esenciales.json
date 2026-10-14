@@ -10800,5 +10800,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc",
+    "revisado": "2026-10-14",
+    "alcance": "Ayuda monetaria municipal histórica para estudios registrada por el Departamento de Acción y Asistencia Social de San Miguel en su Manual 2019; no confirma nivel superior ni convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_AYUDA_ESTUDIOS_SAN_MIGUEL_2019_2026_10_14.md",
+    "fuentes": [
+      "https://web.sanmiguel.cl/Manual-Ayudas-Sociales-2019.pdf"
+    ],
+    "beneficio": "Ayuda monetaria renovable por 10 meses; importe No especificado.",
+    "requisitos_principales": "Estudios; nivel educacional y criterios de elegibilidad No especificados en el contenido oficial recuperable.",
+    "limites": "Documento oficial indexado, pero el PDF actualmente devuelve 404. No confirma RSH 60%, NEM 5,0, libre disposición, documentos, fechas ni vigencia 2026. Esas afirmaciones originales no se ratifican; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
