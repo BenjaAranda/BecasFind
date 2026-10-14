@@ -10779,5 +10779,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "e553144c6bf6ba33aed11e5686df067afdf6b8b07b621e2519997b7e7385953e",
+    "revisado": "2026-10-14",
+    "alcance": "Vía oficial de admisión directa a Medicina UDD para hijos/as de funcionarios en Admisión 2027; no es una beca ni confirma descuento de arancel.",
+    "informe": "CONFIRMACION_ESENCIAL_VIA_ADMISION_HIJO_FUNCIONARIO_UDD_2026_10_14.md",
+    "fuentes": [
+      "https://medicina.udd.cl/medicina-santiago/admision-directa/"
+    ],
+    "beneficio": "Dos cupos de admisión directa a Medicina UDD para el proceso 2027. No corresponde a cobertura monetaria; descuento de arancel: No especificado.",
+    "requisitos_principales": "Padre o madre con contrato indefinido, jornada igual o superior a media jornada y al menos un año continuo de vínculo UDD. Postulante debe haber postulado a Medicina UDD por Admisión Regular 2027 y estar en la mitad superior de la lista de espera.",
+    "limites": "El 40% de descuento del registro original no está confirmado por esta fuente. La postulación se habilita tras resultados de Admisión Regular 2027. No clasificar ni publicar como beca financiera.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Currículum, cédula y licencia de enseñanza media del postulante; certificado de vínculo laboral del padre o madre y certificado de nacimiento. Para nacidos en 2004 o antes, certificado de vacunación contra hepatitis B o informar que no cuenta con ella. Entrevista online para quienes cumplan requisitos.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
