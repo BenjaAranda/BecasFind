@@ -8,6 +8,14 @@ La Municipalidad informó que en 2019 entregaría el **Incentivo Municipal PSU**
 
 Fuente municipal: [Municipalidad de Puerto Montt beneficiará a 135 estudiantes en su primer año en la educación superior](https://www.puertomontt.cl/municipalidad-de-puerto-montt-beneficiara-a-135-estudiantes-en-su-primer-ano-en-la-educacion-superior/).
 
+## Revisión oficial complementaria — 13 de octubre de 2026
+
+Se revisaron dos publicaciones municipales adicionales para precisar la continuidad y el alcance de las líneas estudiantiles. En 2023, el municipio describió por separado el **Incentivo PAES** —para egresados de establecimientos municipales, con promedio mínimo de 485 puntos, residencia acreditada en Puerto Montt y matrícula de primer año— y el incentivo **Hijos e Hijas de la Pesca Artesanal**, que exigía respaldo de un sindicato, notas, matrícula y antecedentes socioeconómicos. En mayo de 2026, la Municipalidad informó que regularizó pagos pendientes de la Beca Hijo de Pescador 2025 y anunció nuevas bases para 2026, con intención de ampliar destinatarios a estudiantes de establecimientos subvencionados e hijos o nietos de pescadores.
+
+Fuentes oficiales específicas: [beneficios para estudiantes egresados de establecimientos municipales](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [regularización de la Beca Hijo de Pescador](https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/).
+
+Estas publicaciones confirman que existieron líneas municipales de educación superior distintas y con criterios propios. No identifican las dos fichas genéricas como ninguna de esas líneas ni respaldan para ellas el beneficio DIDECO de libre disposición, RSH 60%, NEM 5,0 o los cierres consignados. Tampoco prueban que una línea general separada no haya existido. Se mantienen ambas candidatas abiertas y no se transfieren montos ni requisitos.
+
 ## Resolución de las dos candidatas
 
 - `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` — **Beca Municipal Educación Superior**.
