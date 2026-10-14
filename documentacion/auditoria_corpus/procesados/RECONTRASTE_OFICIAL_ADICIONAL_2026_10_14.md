@@ -16,3 +16,11 @@ Se contrastaron fuentes primarias municipales y universitarias para separar prog
 ## Resultado operativo
 
 No se cambia el estado de ninguna candidata en esta revisión: las fuentes confirman beneficios relacionados, pero no la identidad y los requisitos principales de las fichas genéricas. Se agregan los enlaces y límites al registro de pendientes para evitar repetir el contraste. Las fechas y los importes de las fichas siguen sin confirmación; ninguna queda habilitada como vigente por este informe.
+
+
+### Contraste universitario adicional
+
+| Candidata | Fuente primaria | Qué confirma | Límite y decisión |
+|---|---|---|---|
+| Beca Red de Egresados INACAP (`34caa8ab…`) | [Beneficios oficiales de la Red de Exalumnos](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte); [catálogo oficial de financiamiento](https://portal.inacap.cl/financiamiento-estudiantil/becas) | La red incorpora a personas tituladas; la página de egresados describe 30% de descuento en Educación Continua para el titulado. | La ficha atribuye 15% de arancel semestral para familiares directos en pregrado. No coincide con el beneficio de la red identificado; no prueba que la ayuda familiar nunca haya existido. Mantener exclusión histórica sin ratificar y buscar reglamento histórico específico. |
+| Beca Intercultural UCT (`5f17b62e…`) | [Beca Experiencia Global en Equipo UCT 2026](https://internacional.uct.cl/beca/beca-experiencia-global-en-equipo-2026-programa-de-voluntariado-misionero-intercontinental-pvmi/) | UCT sí publica becas internas; esta convocatoria concreta financia una experiencia internacional para cuatro estudiantes y menciona diálogo intercultural. | No es un descuento de arancel para estudiantes de pueblos originarios ni respalda el 20% atribuido. Se mantiene separada y sin ratificar; la convocatoria distinta no prueba inexistencia de una beca indígena propia. |
