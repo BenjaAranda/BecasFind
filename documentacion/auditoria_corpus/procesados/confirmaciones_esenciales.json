@@ -10348,5 +10348,47 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3",
+    "revisado": "2026-10-13",
+    "alcance": "Convenio IPCHILE–Constructora Gardilcic; cláusula para colaboradores en carreras online, según fuente oficial publicada el 24 de mayo de 2024.",
+    "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+    "fuentes": [
+      "https://www.ipchile.cl/noticias/campus-a-distancia-firma-convenio-con-constructora-gardilcic/"
+    ],
+    "beneficio": "30% de descuento en aranceles y matrícula para carreras online; el convenio también contempla reconocimiento de título.",
+    "requisitos_principales": "Ser colaborador/a de Constructora Gardilcic y matricularse en carrera online incluida en el convenio.",
+    "limites": "El porcentaje original 10–20% no se confirma y se corrige para este convenio. No generalizar a otros empleadores, carreras presenciales, cursos OTEC ni a toda la oferta IPCHILE. Fechas, documentos, vigencia final y renovación no publicados; desconocidos. Disponibilidad individual actual no acreditada.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
+    "revisado": "2026-10-13",
+    "alcance": "Convenio IPCHILE–Constructora Gardilcic; cláusula para cónyuges e hijos de colaboradores, limitada a cursos y diplomados OTEC, según fuente oficial publicada el 24 de mayo de 2024.",
+    "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+    "fuentes": [
+      "https://www.ipchile.cl/noticias/campus-a-distancia-firma-convenio-con-constructora-gardilcic/"
+    ],
+    "beneficio": "40% de descuento en aranceles de cursos y diplomados impartidos por la OTEC de IPCHILE.",
+    "requisitos_principales": "Ser cónyuge o hijo/a de un/a colaborador/a de Constructora Gardilcic y matricularse en un curso o diplomado impartido por la OTEC de IPCHILE.",
+    "limites": "No se confirma el 10% semestral original ni un descuento para carreras regulares. No generalizar a familiares de trabajadores de otras empresas ni a otros cursos. Fechas, documentos, vigencia final y renovación no publicados; desconocidos. Disponibilidad individual actual no acreditada.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
