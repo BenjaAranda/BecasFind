@@ -6334,10 +6334,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El índice municipal de educación no contiene una ficha del aporte superior propio de San Miguel.",
+    "limites": "El índice municipal de educación no contiene una ficha del aporte superior propio de San Miguel. Contraste oficial 14/10/2026: el acta del Concejo 629 documenta en 2015 becas con la Universidad Autónoma, con incorporación de postulantes aprobada por el Concejo y una nómina con montos y condiciones no incluida en el PDF consultado. No prueba que sea la modalidad genérica descrita ni respalda los requisitos de la ficha; mantener aclaración. Véase RECONTRASTE_SAN_MIGUEL_2026_10_14.md.",
     "fuentes_verificadas_del_expediente": [
       "https://web.sanmiguel.cl/page/2/?s=2026",
-      "https://web.sanmiguel.cl/category/educacion/"
+      "https://web.sanmiguel.cl/category/educacion/",
+      "https://web.sanmiguel.cl/agosto/actas%20junio/SESION%20629%20CONCEJO.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
