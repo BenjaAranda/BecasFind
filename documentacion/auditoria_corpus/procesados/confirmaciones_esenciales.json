@@ -10577,5 +10577,38 @@
       "fecha_cierre": null,
       "documentos": null
     }
+  },
+  {
+    "candidato": "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
+    "revisado": "2026-10-14",
+    "alcance": "Identidad y beneficio esencial de asistencia social municipal en pasajes para estudiantes de Llay Llay hacia Valparaíso/Viña del Mar, periodo 2026; no certifica disponibilidad posterior.",
+    "informe": "CONFIRMACION_ESENCIAL_PASAJES_LLAY_LLAY_2026_10_14.md",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=kGDvPC8G0Hqw%2B3YyfIoLpQ%3D%3D"
+    ],
+    "beneficio": "Pasajes de bus ida y vuelta entre Llay Llay y Valparaíso/Viña del Mar; servicio no monetario para estudiantes.",
+    "requisitos_principales": "Asistencia social a estudiantes residentes de Llay Llay que requieren traslado hacia Valparaíso o Viña del Mar. El nivel educativo y el mecanismo de selección individual no se especifican.",
+    "limites": "No respaldados: pago en dinero al estudiante, monto individual, RSH 60%, NEM 5,0, cupos, documentos, proceso o fechas de postulación. La licitación 2026 fue adjudicada y contempla ocho meses de contrato; no confirma disponibilidad posterior.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correccion_editorial": {
+      "nombre": "Asistencia Social en Pasajes para Estudiantes Residentes de Llay Llay (2026)",
+      "tipo_beneficio": "NO_MONETARIA",
+      "monto": "Pasajes de bus ida y vuelta a Valparaíso/Viña del Mar; cuantía individual no aplica",
+      "moneda": null,
+      "periodicidad": "DESCONOCIDA",
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null
+    }
   }
 ]

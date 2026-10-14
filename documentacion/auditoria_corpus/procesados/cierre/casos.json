@@ -23835,7 +23835,7 @@
     "candidato": "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
     "nombre": "Beca Municipal Educación Superior Llay Llay",
     "institucion": "Municipalidad de Llay Llay",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque16_muni.csv",
@@ -23933,13 +23933,53 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_PASAJES_LLAY_LLAY_2026_10_14.md",
+        "informe_sha256": "07ab4bc654e7457998c99257e500a92fa7f67afb84139d1a190002efbfaf3fb2",
+        "extractos": [
+          "Fecha de revisión: 14 de octubre de 2026. Candidata `659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0`. Se contrastó el registro con una licitación oficial municipal del mismo año. No se utilizó Firecrawl. El CSV original permanece intacto."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
+      "revisado": "2026-10-14",
+      "alcance": "Identidad y beneficio esencial de asistencia social municipal en pasajes para estudiantes de Llay Llay hacia Valparaíso/Viña del Mar, periodo 2026; no certifica disponibilidad posterior.",
+      "informe": "CONFIRMACION_ESENCIAL_PASAJES_LLAY_LLAY_2026_10_14.md",
+      "fuentes": [
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=kGDvPC8G0Hqw%2B3YyfIoLpQ%3D%3D"
+      ],
+      "beneficio": "Pasajes de bus ida y vuelta entre Llay Llay y Valparaíso/Viña del Mar; servicio no monetario para estudiantes.",
+      "requisitos_principales": "Asistencia social a estudiantes residentes de Llay Llay que requieren traslado hacia Valparaíso o Viña del Mar. El nivel educativo y el mecanismo de selección individual no se especifican.",
+      "limites": "No respaldados: pago en dinero al estudiante, monto individual, RSH 60%, NEM 5,0, cupos, documentos, proceso o fechas de postulación. La licitación 2026 fue adjudicada y contempla ocho meses de contrato; no confirma disponibilidad posterior.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Asistencia Social en Pasajes para Estudiantes Residentes de Llay Llay (2026)",
+        "tipo_beneficio": "NO_MONETARIA",
+        "monto": "Pasajes de bus ida y vuelta a Valparaíso/Viña del Mar; cuantía individual no aplica",
+        "moneda": null,
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null
+      }
+    }
   },
   {
     "candidato": "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb",
