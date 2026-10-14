@@ -38,3 +38,21 @@ Esta pasada vuelve a consultar fuentes primarias institucionales para las fichas
 ## Resultado del lote
 
 No hubo evidencia primaria suficiente para cerrar estas candidatas bajo el criterio vigente. Se conservan abiertas, con las modalidades similares diferenciadas y las carencias concretas arriba indicadas. Esto no equivale a descartarlas ni a afirmar que no existan.
+
+
+## Ampliación de fuentes primarias — 14 de octubre de 2026
+
+| Candidata | Evidencia oficial específica | Resultado de contraste |
+|---|---|---|
+| Beca Municipal Estudiantil El Monte | La Cuenta Pública 2024 registra gestión de TNE y apoyos JUNAEB para estudiantes. | No valida el aporte de mantención de $100.000 atribuido a una beca municipal superior. Falta acto o bases de esa modalidad.
+| Beca Concejo Municipal de Osorno para Educación Superior | La Cuenta Pública 2011 identifica recursos para Beca Presidente de la República; el municipio documenta Beca de las Artes 2026 ($1.500.000 por seleccionado) y Beca Deportiva 2026 ($1.000.000 por seleccionado). | Las modalidades oficiales tienen alcance distinto y no acreditan la ficha general de $180.000. No concluir inexistencia; requerir las bases o el acuerdo correspondiente.
+| Beca Municipal de Educación Superior Lo Espejo | El Departamento de Desarrollo Social municipal asigna a Acción Social la postulación a becas de educación superior; una publicación municipal detalla trámites de becas JUNAEB. | Confirma orientación/postulación y gestión estatal, no financiamiento municipal propio. La ficha queda abierta.
+| Beca Municipal Educación Superior Pencahue | El PLADECO municipal describe Beca Presidente de la República como beneficio estatal, incluso reporta montos de su período. | No confirma la beca propia de $150.000 alegada. No trasladar importe ni requisitos estatales.
+| Beca Red de Egresados INACAP | El portal oficial acredita la RED de Exalumnos y publica descuentos de educación continua de 30% y 40% en cursos/diplomados. | La comunidad existe, pero el descuento de 15% semestral para familiares directos de la ficha no se valida. No equiparar ambos beneficios.
+| Beca Vocación Social UAH | El catálogo oficial 2027 presenta Beca Talento Pedagógico y líneas PAES, socioeconómicas y de mantención con sus propios destinatarios. | No identifica el nombre “Vocación Social” ni confirma 30%, NEM 5,5 o participación social. Mantener sin ratificar.
+| Beca Intercultural UCT | UCT publica becas estatales, movilidad y beneficios de posgrado para el Doctorado en Estudios Interculturales. | No valida el descuento de pregrado de 20%; las líneas de doctorado/movilidad son distintas. Mantener sin ratificar.
+| Beca Socioeconómica UA | El catálogo vigente Universidad Autónoma contiene becas de arancel sujetas a PAES/CAE y decil socioeconómico, y un beneficio de hermanos de 10%. | Las reglas vigentes consultadas no certifican por sí solas la ficha histórica de hasta 40% según evaluación social/RSH 60%. Hace falta reglamento o convocatoria que vincule esa modalidad exacta.
+
+Fuentes primarias: [Cuenta Pública 2024 de El Monte](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf), [Cuenta Pública 2011 de Osorno](https://www.municipalidadosorno.cl/docs/site/cuentapublica/cuentapublica2011.pdf), [Beca de las Artes 2026 de Osorno](https://www.municipalidadosorno.cl/new/noticia.php?id=35416), [Beca Deportiva 2026 de Osorno](https://www.municipalidadosorno.cl/new/noticia.php?id=35435), [Departamento de Desarrollo Social de Lo Espejo](https://www.loespejo.cl/departamento-de-desarrollo-social/), [Becas JUNAEB gestionadas en Lo Espejo](https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/), [PLADECO de Pencahue](https://www.mpencahue.cl/transparencia/TA-2019/PLADECO/PLADECO-19-26.pdf), [RED de Exalumnos INACAP](https://portal.inacap.cl/exalumnos), [Becas UAH](https://admision.uahurtado.cl/becas-y-beneficios/), [Becas internas Universidad Autónoma](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/), [Becas UCT](https://admision.uct.cl/becas-y-creditos/) y [Doctorado UCT en Estudios Interculturales](https://posgrado.uct.cl/programa/estudios-interculturales/).
+
+Este contraste añade ocho fichas con fuentes primarias adicionales. Ninguna alcanza confirmación esencial ni descarte positivo; estados y originales se conservan.
