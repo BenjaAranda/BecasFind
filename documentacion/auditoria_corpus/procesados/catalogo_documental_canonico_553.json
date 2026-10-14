@@ -620,8 +620,12 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El apartado social Viña del Mar no describe subsidio mensual de pasajes. La noticia deportiva no acredita esa modalidad.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "Las páginas municipales revisadas describen la Beca Presidente de la República estatal y ayudas sociales sujetas a evaluación; la Cuenta Pública 2022 registra otro beneficio de Bienestar para hijos de socios. Ninguna confirma una beca abierta de pasajes con las condiciones de la candidata. No descartan por sí solas otra línea histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/",
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -1974,7 +1978,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024, páginas 54–57: UAH distingue Beca Alberto Hurtado de primer año, Complementaria al CAE para cursos superiores, Patricio Cariola para Pedagogía para Profesionales y becas de mantención separadas. La complementaria requiere CAE, 80% de aprobación y 30 créditos por semestre; no es una ayuda socioeconómica genérica. La misión social de la universidad no acredita una Beca Vocación Social. Falta: Identidad exacta de cada original y programa específico; no asignar cobertura de una beca distinta por similitud temática.",
+    "limites": "DEMRE Admisión 2024 distingue Beca Alberto Hurtado de primer año, Complementaria al CAE para cursos superiores, Patricio Cariola para Pedagogía para Profesionales y becas de mantención separadas; la complementaria exige CAE, 80% de aprobación y 30 créditos por semestre, por lo que no equivale a una ayuda socioeconómica genérica. El catálogo UAH de admisión 2027 enumera beneficios vigentes, pero no nombra la candidata ni acredita 30%, NEM 5,5 o participación comunitaria. La misión institucional y la omisión del catálogo no prueban identidad ni inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
     "fuentes_verificadas_del_expediente": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://derecho.uahurtado.cl/noticias/convocatoria-programa-de-apoyo-integral-de-fundacion-mar-abierto/"
@@ -6573,9 +6577,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "El enlace Talcahuano no se recuperó por certificado TLS. El catastro describe un programa de patrocinio con otros destinatarios; no atribuirlo al aporte genérico.",
+    "limites": "La página municipal vigente de Educación Superior describe orientación para tramitar beneficios estatales y cupos de preuniversitario; el PLADECO menciona acompañamiento para beneficios JUNAEB. No acredita la candidata general ni demuestra inexistencia de otra línea municipal. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
     "fuentes_verificadas_del_expediente": [
-      "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior"
+      "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior",
+      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/06%20PLADECO%202024-2027%20%20I_MUNICIPALIDAD%20DE%20TALCAHUANO.pdf"
     ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
@@ -10835,7 +10840,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Noticia de deportes bloqueada 403; título no respalda educación superior. Falta localizar beca estudiantil propia.",
+    "limites": "La Municipalidad informó 30 becas deportivas locales en 2026; es una línea distinta. No acredita la candidata de educación superior. La ausencia de una base específica no prueba que esa línea no exista. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
     "fuentes_verificadas_del_expediente": [
       "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/"
     ],
@@ -13881,8 +13886,11 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Documento municipal no recuperado por cadena TLS. Recuperar archivo de bases, sin inferir cobertura del nombre.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "La Cuenta Pública 2024 identifica las becas Presidente de la República e Indígena como beneficios JUNAEB coordinados con DAEM; el preuniversitario municipal gratuito es otro servicio. No se encontró vínculo entre estas fuentes y una beca municipal general de educación superior. No prueban inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md.",
+    "fuentes_verificadas_del_expediente": [
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
+      "https://www.talca.cl/?p=26627"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
