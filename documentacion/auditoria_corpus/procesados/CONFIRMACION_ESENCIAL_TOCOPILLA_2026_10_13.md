@@ -1,7 +1,8 @@
 # Confirmación esencial delimitada — Beca municipal de educación superior de Tocopilla
 
-**Candidata:** `a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d`  
-**Revisión:** 13 de octubre de 2026  
+**Candidata:** `a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d`
+
+**Revisión:** 13 de octubre de 2026
 **Resultado:** `CONFIRMADA_ESENCIAL`, con alcance histórico/programático 2024. No acredita adjudicación, convocatoria ni vigencia publicable en 2026.
 
 ## Evidencia oficial
