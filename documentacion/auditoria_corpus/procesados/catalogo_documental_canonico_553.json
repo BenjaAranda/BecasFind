@@ -1084,8 +1084,10 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "Página Red de Egresados devuelve 404. Recuperar beneficio propio para familiares de egresados; beca estatal de articulación no prueba esta candidata.",
-    "fuentes_verificadas_del_expediente": [],
+    "limites": "Página Red de Egresados devuelve 404. Recuperar beneficio propio para familiares de egresados; beca estatal de articulación no prueba esta candidata. El contraste 13/10/2026 identifica descuento de 30% en Educación Continua para titulados de INACAP; no coincide con 15% del arancel semestral para familiares atribuido a la candidata. No prueba que no exista una beca distinta para familiares. Véase CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md.",
+    "fuentes_verificadas_del_expediente": [
+      "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte"
+    ],
     "informe_esencial": null,
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
@@ -2672,7 +2674,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024, páginas 91–92: UBO describe becas Matrícula, PAES, M2, Mujeres Líderes y Pedagogía; la aplicación al copago ocurre cuando hay becas estatales/CAE. No identifica la ayuda socioeconómica genérica del original. Copago y selección socioeconómica no son equivalentes. Falta: Fuente individual de cobertura y elegibilidad de la candidata socioeconómica; no sustituirla por PAES ni excluirla por falta de mención.",
+    "limites": "DEMRE Admisión 2024, páginas 91–92: UBO describe becas Matrícula, PAES, M2, Mujeres Líderes y Pedagogía; la aplicación al copago ocurre cuando hay becas estatales/CAE. No identifica la ayuda socioeconómica genérica del original. Copago y selección socioeconómica no son equivalentes. Falta: Fuente individual de cobertura y elegibilidad de la candidata socioeconómica; no sustituirla por PAES ni excluirla por falta de mención. El contraste 13/10/2026 identifica Beca de Contingencia y Beca de Alimentación, sin vincular la candidata con descuento general de arancel 15%-40% ni RSH máximo 60%. Beneficios distintos no prueban inexistencia. Véase CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md.",
     "fuentes_verificadas_del_expediente": [
       "https://admision.ubo.cl/financiamiento/",
       "https://dae.ubo.cl/becas/becas-ubo/"
@@ -13284,7 +13286,7 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "La FAQ revisada no contiene condiciones específicas de descuento para hermanos ni para hijos de funcionarios. Su silencio no demuestra inexistencia. Falta: Reglamento, convenio o ficha individual que identifique beneficiarios y cobertura de cada programa.",
+    "limites": "La FAQ revisada no contiene condiciones específicas de descuento para hermanos ni para hijos de funcionarios. Su silencio no demuestra inexistencia. Falta: Reglamento, convenio o ficha individual que identifique beneficiarios y cobertura de cada programa. El contraste 13/10/2026 revisa la página oficial de becas UAI para Admisión 2026; no establece las condiciones de la candidata ni prueba inexistencia de una línea distinta. Véase CONTRASTE_OFICIAL_UNIVERSITARIO_3_CANDIDATAS_2026_10_13.md.",
     "fuentes_verificadas_del_expediente": [
       "https://www.uai.cl/admision/becas-y-aranceles/becas",
       "https://alumni.uai.cl/pages/beneficios"
