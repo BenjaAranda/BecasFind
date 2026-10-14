@@ -72,13 +72,15 @@
   },
   {
     "candidato": "6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c",
-    "revisado": "2026-10-06",
-    "motivo": "Ficha de becas internas no identifica complemento Copago; gratuidad no prueba beca interna adicional.",
-    "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-    "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
+    "revisado": "2026-10-13",
+    "motivo": "La ficha llama beca a un supuesto pago institucional del copago. IPCHILE define el copago como diferencia entre arancel de referencia y arancel real que debe pagar el estudiante, y publica planes de cuotas para cubrirla; esto contradice que la institución cubra esa brecha como beca.",
+    "alcance": "Descarte ratificado únicamente del alias “Beca Copago IP Chile” y de la cobertura atribuida; originales y registro administrativo inactivo se conservan. No afirma inexistencia de otros beneficios institucionales.",
+    "informe": "DESCARTE_RATIFICADO_COPAGO_IPCHILE_2026_10_13.md",
     "evidencia": [
-      "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-    ]
+      "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
+      "DESCARTE_RATIFICADO_COPAGO_IPCHILE_2026_10_13.md"
+    ],
+    "criterio": "BENEFICIO_MAL_CLASIFICADO"
   },
   {
     "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
