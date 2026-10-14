@@ -1,8 +1,8 @@
 # Avance editorial por archivo
 
-Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 54 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 482 confirmación esencial: faltan 76 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario reconstruido al 2 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 52 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 483 confirmación esencial: faltan 72 por cerrar con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-Hay 22 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 8 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
+Hay 20 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 11 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 
@@ -33,7 +33,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uautonoma.csv | 6 | 6 | 0 | 4 | 0 | 2 | 0 | 2 |
 | becas_ubb.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_ubo.csv | 4 | 4 | 0 | 3 | 0 | 1 | 0 | 1 |
-| becas_ucentral.csv | 4 | 4 | 1 | 3 | 0 | 0 | 0 | 1 |
+| becas_ucentral.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_uchile.csv | 7 | 7 | 0 | 6 | 0 | 0 | 0 | 0 |
 | becas_ucn.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_ucsc.csv | 4 | 4 | 0 | 3 | 1 | 0 | 0 | 0 |
@@ -47,7 +47,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_uft.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_ulagos.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_umag.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
-| becas_umayor.csv | 6 | 6 | 0 | 4 | 0 | 2 | 0 | 2 |
+| becas_umayor.csv | 6 | 6 | 0 | 4 | 2 | 0 | 0 | 0 |
 | becas_unab.csv | 7 | 7 | 0 | 7 | 0 | 0 | 0 | 0 |
 | becas_unap.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_upla.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
@@ -92,7 +92,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque6_docs.csv | 12 | 12 | 0 | 9 | 1 | 2 | 0 | 2 |
 | bloque6_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 0 | 3 |
 | bloque7_docs.csv | 12 | 12 | 0 | 11 | 1 | 0 | 0 | 0 |
-| bloque7_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 0 | 3 |
+| bloque7_muni.csv | 10 | 10 | 2 | 7 | 1 | 0 | 0 | 2 |
 | bloque8_docs.csv | 16 | 16 | 0 | 15 | 0 | 1 | 0 | 1 |
 | bloque9_docs.csv | 6 | 6 | 0 | 6 | 0 | 0 | 0 | 0 |
 | bloque9_muni.csv | 10 | 10 | 1 | 9 | 0 | 0 | 0 | 1 |

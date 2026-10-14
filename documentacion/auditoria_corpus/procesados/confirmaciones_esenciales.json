@@ -10390,5 +10390,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9",
+    "revisado": "2026-10-13",
+    "alcance": "Beca U. Central para estudiantes de primer ingreso por admisión centralizada; nombre y alcance corregidos desde el antecedente “Beca Fundadores UCentral”. No certifica convocatoria abierta.",
+    "informe": "CONFIRMACION_ESENCIAL_UCENTRAL_BECAS_PRIMER_INGRESO_2026_10_13.md",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "beneficio": "Rebaja porcentual variable del arancel anual según tramos del promedio PAES de Competencia Lectora y Matemática 1. Porcentaje exacto desconocido en la ficha consultada; no se confirma matrícula.",
+    "requisitos_principales": "Primer año; ingreso por admisión centralizada ACCESO/DEMRE; utilizar una de las pruebas PAES vigentes de los dos últimos años.",
+    "limites": "La fuente no publica en esta ficha los tramos numéricos, porcentajes concretos, documentos ni fechas de postulación/cierre. Indica renovación automática si se cumplen los requisitos institucionales, que no detalla en esta página. No confirma el nombre “Fundadores”, NEM 5,8 ni renovación con promedio 5,0 del registro original. No declarar abierta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

@@ -370,5 +370,17 @@
     "evidencia": [
       "DESCARTE_SANTIAGO_TRANSPORTE_2026_10_13.md"
     ]
+  },
+  {
+    "candidato": "3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be",
+    "revisado": "2026-10-13",
+    "motivo": "Duplicado positivo en el corpus de la misma ficha candidata que bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0: coinciden otorgante, denominación de educación superior, rango alegado, año, RSH, promedio, región, descripción, documentos y URL raíz. La existencia y las condiciones actuales del programa canónico continúan sin confirmar.",
+    "alcance": "Se excluye solo la identidad documental repetida. Se preservan todas las filas y archivos originales y la candidata canónica permanece pendiente. Esta decisión no afirma que el programa exista o no exista.",
+    "informe": "REVISION_DUPLICADO_Y_DISTINCION_FLORIDA_2026_10_13.md",
+    "evidencia": [
+      "REVISION_DUPLICADO_Y_DISTINCION_FLORIDA_2026_10_13.md"
+    ],
+    "criterio": "DUPLICADO_IDENTIDAD",
+    "duplicado_de": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0"
   }
 ]
