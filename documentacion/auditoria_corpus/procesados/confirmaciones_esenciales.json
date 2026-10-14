@@ -10695,5 +10695,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia y finalidad del aporte municipal para estudiantes de educación superior habitantes de Máfil, documentado en la gestión 2024.",
+    "informe": "CONFIRMACION_ESENCIAL_APORTE_MAFIL_2026_10_14.md",
+    "fuentes": [
+      "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf"
+    ],
+    "beneficio": "Aporte municipal para estudiantes de educación superior; la Cuenta Pública informa un gasto agregado de $2.400.000 CLP para 60 beneficiarios en la gestión 2024. Importe individual: No especificado.",
+    "requisitos_principales": "Estudiar educación superior y habitar en la comuna de Máfil, según la descripción de la Cuenta Pública.",
+    "limites": "No se especifican criterios de selección, monto individual, documentos ni calendario. No dividir el gasto agregado para inferir un monto por persona. La evidencia es histórica y no acredita convocatoria vigente en 2026; mantener inactiva.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

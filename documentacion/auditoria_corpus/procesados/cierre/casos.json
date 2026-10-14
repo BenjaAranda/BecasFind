@@ -39855,7 +39855,7 @@
     "candidato": "c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e",
     "nombre": "Beca Municipal Educación Superior Mafil",
     "institucion": "Municipalidad de Mafil",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque38_muni.csv",
@@ -39967,13 +39967,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_APORTE_MAFIL_2026_10_14.md",
+        "informe_sha256": "bdf605e8e2294acd7ca7c18c9b45b36396deb0d47b5cdabf9fb2632f82d419d1",
+        "extractos": [
+          "Candidata: `c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e`.\n\nFecha de revisión: 14 de octubre de 2026. Se conservan el registro original y sus antecedentes. Esta confirmación se limita al aporte registrado por la Cuenta Pública municipal correspondiente a la gestión 2024."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e",
+      "revisado": "2026-10-14",
+      "alcance": "Existencia y finalidad del aporte municipal para estudiantes de educación superior habitantes de Máfil, documentado en la gestión 2024.",
+      "informe": "CONFIRMACION_ESENCIAL_APORTE_MAFIL_2026_10_14.md",
+      "fuentes": [
+        "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf"
+      ],
+      "beneficio": "Aporte municipal para estudiantes de educación superior; la Cuenta Pública informa un gasto agregado de $2.400.000 CLP para 60 beneficiarios en la gestión 2024. Importe individual: No especificado.",
+      "requisitos_principales": "Estudiar educación superior y habitar en la comuna de Máfil, según la descripción de la Cuenta Pública.",
+      "limites": "No se especifican criterios de selección, monto individual, documentos ni calendario. No dividir el gasto agregado para inferir un monto por persona. La evidencia es histórica y no acredita convocatoria vigente en 2026; mantener inactiva.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "db8d4d1567e1c05b9e9fafe1777adff057b92b7275301bf74be82dc5804993c3",
