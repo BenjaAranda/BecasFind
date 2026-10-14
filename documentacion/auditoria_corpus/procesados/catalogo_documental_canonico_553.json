@@ -7357,7 +7357,7 @@
       "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d"
     ],
     "nombre_de_referencia": "Beca Municipal de Educación Superior Tocopilla",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
@@ -7366,14 +7366,17 @@
         "institucion_original": "Municipalidad de Tocopilla"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "DIDECO Tocopilla reconoce que entrega beneficios económicos mediante Beca Municipal. Confirma existencia general; faltan destinatarios y requisitos de la modalidad superior.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
-    "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "alcance_verificado": "Tocopilla: identidad y planificación 2024 del Programa de Becas para la Educación Superior; en etapa Diseño y Construcción, no acredita ejecución.",
+    "beneficio_verificado": "La Municipalidad reconoce una Beca Municipal con beneficios económicos; monto y cobertura superior: No especificado.",
+    "requisitos_principales_verificados": "No especificado en las fuentes oficiales consultadas.",
+    "limites": "La Cuenta Pública 2024 sitúa el programa en diseño/construcción. No acredita adjudicación, pagos ni convocatoria 2026. Sin fechas, documentos ni importe confirmados. No publicar como vigente.",
+    "fuentes_verificadas_del_expediente": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md",
+    "vigencia_publicable": "NO_CONFIRMADA_SIN_CIERRE_Y_EJECUCION",
+    "accion_administrativa": "CONFIRMACION_ESENCIAL_HISTORICA"
   },
   {
     "clave_documental": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",

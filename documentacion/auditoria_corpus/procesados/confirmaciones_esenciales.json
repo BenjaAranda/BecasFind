@@ -10432,5 +10432,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
+    "revisado": "2026-10-13",
+    "alcance": "Identidad y planificación municipal de un programa de becas para educación superior en la cartera 2024; no acredita ejecución ni convocatoria",
+    "informe": "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md",
+    "fuentes": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+    ],
+    "beneficio": "Existe una Beca Municipal con beneficios económicos; el importe y la cobertura de la línea superior son No especificado.",
+    "requisitos_principales": "No especificado en las fuentes oficiales consultadas; no trasladar requisitos desde otras becas o la ficha histórica.",
+    "limites": "La Cuenta Pública 2024 la sitúa en etapa Diseño y Construcción. No demuestra adjudicación, pagos, convocatoria ni vigencia 2026. Mantener no publicable hasta disponer de acto/bases y cierre confirmado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
