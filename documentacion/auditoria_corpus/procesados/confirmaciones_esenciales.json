@@ -10543,5 +10543,39 @@
       "fecha_cierre": "2026-08-12",
       "documentos": "Según publicación municipal; detalle en el campo documentos."
     }
+  },
+  {
+    "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+    "revisado": "2026-10-14",
+    "alcance": "Identidad y reglas esenciales del servicio municipal de movilización para estudiantes vespertinos de educación superior de Cholchol, respaldado por licitaciones 2025 y 2026; no certifica disponibilidad posterior a 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_MOVILIZACION_CHOLCHOL_2026_10_14.md",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-32-LE25",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-30-LE26"
+    ],
+    "beneficio": "Servicio no monetario de movilización estudiantil. Presupuesto municipal referencial anual global 2026: CLP 16.329.000; no es monto individual.",
+    "requisitos_principales": "Estudiantes vespertinos de educación superior; la ficha no especifica residencia, mecanismo de acceso ni selección individual.",
+    "limites": "No respaldados: 100 cupos, alimentación, postulación individual, RSH 60%, NEM 5,0, documentos y calendario de estudiantes. Fechas de licitación no son fechas de postulación. Disponibilidad posterior a 2026 no confirmada.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correccion_editorial": {
+      "nombre": "Servicio Municipal de Movilización para Estudiantes Vespertinos de Educación Superior de Cholchol (2025-2026)",
+      "tipo_beneficio": "NO_MONETARIA",
+      "monto": "Movilización estudiantil; presupuesto contractual anual global 2026 CLP 16.329.000, no individual",
+      "moneda": null,
+      "periodicidad": "DESCONOCIDA",
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null
+    }
   }
 ]
