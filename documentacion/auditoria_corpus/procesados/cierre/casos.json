@@ -857,7 +857,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -1125,7 +1125,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -1236,7 +1236,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -4444,7 +4444,7 @@
     "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
     "nombre": "Beca Familiar IP Chile",
     "institucion": "IP Chile",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
@@ -4591,29 +4591,47 @@
         "extractos": [
           "| Convenio Empresas, Copago y Familiar IP Chile | `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`, `6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c`, `9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+        "informe_sha256": "8ebb7f683a199e6c14ca24b90714bc8900455e6cd35a8d64e422d8a64276d8ea",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
-      "revisado": "2026-10-06",
-      "motivo": "No se identificó en ficha interna el descuento familiar del histórico; no certificación por ausencia.",
-      "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-      "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-      "evidencia": [
-        "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Convenio IPCHILE–Constructora Gardilcic; cláusula para cónyuges e hijos de colaboradores, limitada a cursos y diplomados OTEC, según fuente oficial publicada el 24 de mayo de 2024.",
+      "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+      "fuentes": [
+        "https://www.ipchile.cl/noticias/campus-a-distancia-firma-convenio-con-constructora-gardilcic/"
+      ],
+      "beneficio": "40% de descuento en aranceles de cursos y diplomados impartidos por la OTEC de IPCHILE.",
+      "requisitos_principales": "Ser cónyuge o hijo/a de un/a colaborador/a de Constructora Gardilcic y matricularse en un curso o diplomado impartido por la OTEC de IPCHILE.",
+      "limites": "No se confirma el 10% semestral original ni un descuento para carreras regulares. No generalizar a familiares de trabajadores de otras empresas ni a otros cursos. Fechas, documentos, vigencia final y renovación no publicados; desconocidos. Disponibilidad individual actual no acreditada.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
     "candidato": "265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3",
     "nombre": "Beca Convenio Empresas IP Chile",
     "institucion": "IP Chile",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
@@ -4760,22 +4778,40 @@
         "extractos": [
           "| Convenio Empresas, Copago y Familiar IP Chile | `265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3`, `6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c`, `9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb` | `CONTRASTE_BENEFICIOS_CFT_Y_UCT_2026_10_13.md` |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+        "informe_sha256": "8ebb7f683a199e6c14ca24b90714bc8900455e6cd35a8d64e422d8a64276d8ea",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3",
-      "revisado": "2026-10-06",
-      "motivo": "Convenios de continuidad con universidades no acreditan beca para trabajadores de empresas.",
-      "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-      "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-      "evidencia": [
-        "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-      ]
+      "revisado": "2026-10-13",
+      "alcance": "Convenio IPCHILE–Constructora Gardilcic; cláusula para colaboradores en carreras online, según fuente oficial publicada el 24 de mayo de 2024.",
+      "informe": "CONFIRMACION_ESENCIAL_IPCHILE_CONVENIO_GARDILCIC_2026_10_13.md",
+      "fuentes": [
+        "https://www.ipchile.cl/noticias/campus-a-distancia-firma-convenio-con-constructora-gardilcic/"
+      ],
+      "beneficio": "30% de descuento en aranceles y matrícula para carreras online; el convenio también contempla reconocimiento de título.",
+      "requisitos_principales": "Ser colaborador/a de Constructora Gardilcic y matricularse en carrera online incluida en el convenio.",
+      "limites": "El porcentaje original 10–20% no se confirma y se corrige para este convenio. No generalizar a otros empleadores, carreras presenciales, cursos OTEC ni a toda la oferta IPCHILE. Fechas, documentos, vigencia final y renovación no publicados; desconocidos. Disponibilidad individual actual no acreditada.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
@@ -8232,6 +8268,13 @@
         "extractos": [
           "| Beca Socioeconómica UA | `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750` | mismos expedientes |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -8379,6 +8422,13 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Alumni UA | `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_MUNICIPAL_8_CANDIDATAS_2026_10_12.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -8943,6 +8993,13 @@
         "extractos": [
           "| Beca Socioeconómica UBO | `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_FUENTES_PRIMARIAS_2026_10_12.md` |"
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -9105,9 +9162,9 @@
   },
   {
     "candidato": "805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9",
-    "nombre": "Beca Fundadores UCentral",
+    "nombre": "Beca U. Central de primer ingreso",
     "institucion": "Universidad Central de Chile",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
@@ -9205,13 +9262,41 @@
         "extractos": [
           "| Beca Fundadores UCentral | `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9` | `CONTRASTE_INSTITUCIONAL_UNIVERSITARIO_2026_10_13.md`; `CONTRASTE_UNIVERSITARIO_OFICIAL_2026_10_12.md` |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UCENTRAL_BECAS_PRIMER_INGRESO_2026_10_13.md",
+        "informe_sha256": "dfe93be931a90a427d12773635a6b8b1a62ce0108ee95fdbfd7fde1ae0260755",
+        "extractos": [
+          "Fecha de revisión: 13 de octubre de 2026. Candidata original: `805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9`, registrada como “Beca Fundadores UCentral”."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9",
+      "revisado": "2026-10-13",
+      "alcance": "Beca U. Central para estudiantes de primer ingreso por admisión centralizada; nombre y alcance corregidos desde el antecedente “Beca Fundadores UCentral”. No certifica convocatoria abierta.",
+      "informe": "CONFIRMACION_ESENCIAL_UCENTRAL_BECAS_PRIMER_INGRESO_2026_10_13.md",
+      "fuentes": [
+        "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+      ],
+      "beneficio": "Rebaja porcentual variable del arancel anual según tramos del promedio PAES de Competencia Lectora y Matemática 1. Porcentaje exacto desconocido en la ficha consultada; no se confirma matrícula.",
+      "requisitos_principales": "Primer año; ingreso por admisión centralizada ACCESO/DEMRE; utilizar una de las pruebas PAES vigentes de los dos últimos años.",
+      "limites": "La fuente no publica en esta ficha los tramos numéricos, porcentajes concretos, documentos ni fechas de postulación/cierre. Indica renovación automática si se cumplen los requisitos institucionales, que no detalla en esta página. No confirma el nombre “Fundadores”, NEM 5,8 ni renovación con promedio 5,0 del registro original. No declarar abierta.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
@@ -10783,7 +10868,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11650,7 +11735,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11805,7 +11890,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -11960,7 +12045,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -14132,7 +14217,7 @@
     "candidato": "58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7",
     "nombre": "Beca Deportiva UMayor",
     "institucion": "Universidad Mayor",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umayor.csv",
@@ -14264,8 +14349,8 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7",
       "revisado": "2026-10-06",
       "motivo": "El reglamento 2026 enumera becas y casos de excepción sin ficha deportiva general al 25%. No confirmar por ausencia ni por nombre del sistema.",
@@ -14444,7 +14529,7 @@
     "candidato": "28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019",
     "nombre": "Beca Talento Emprendedor UMayor",
     "institucion": "Universidad Mayor",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umayor.csv",
@@ -14576,8 +14661,8 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019",
       "revisado": "2026-10-06",
       "motivo": "Espíritu Emprendedor es el nombre del sistema de becas; no prueba una beca Talento Emprendedor por proyectos al 20%. Se requiere ficha específica.",
@@ -19579,7 +19664,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -19880,6 +19965,13 @@
         "extractos": [
           "### Hualpén — Beca Municipal Educación Superior (`156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`)\n\nLa cuenta pública documenta un convenio de residencia con la Universidad de Chile: 10 cupos anuales para egresados de liceos públicos de la comuna que cumplan los requisitos académicos de esa universidad, con costo mensual financiado 50% por la Universidad y 50% por el municipio. Es una modalidad residencial y delimitada; no acredita la beca general de educación superior de esta candidata.\n\nFuente oficial: https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20113,7 +20205,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -20254,6 +20346,13 @@
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PUERTO_MONTT_2019_2026_10_13.md",
+        "informe_sha256": "6c5055528b8a6f13644114df10af4ef4f8301da3944745d6e683a7b955d8f9ab",
+        "extractos": [
+          "- `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` — **Beca Municipal Educación Superior Puerto Montt**.\n\nLa publicación de 2019 acredita un incentivo municipal específico, pero sus destinatarios y condiciones no corresponden a las fichas genéricas, que atribuyen libre disposición DIDECO, RSH 60% y NEM 5,0 para 2026. La publicación no identifica que sean la misma línea; tampoco prueba que las candidatas no existan. Se mantienen separadas y pendientes de confirmación esencial hasta hallar bases o un acto que las vincule con una modalidad oficial. No se trasladan a las candidatas el importe, calendario ni requisitos de 2019."
         ]
       }
     ],
@@ -20481,6 +20580,13 @@
         "informe_sha256": "093d9a6121b2bc7deb9dc69f410a971941eff51c7e502b2abdb718eff4cbe3d6",
         "extractos": [
           "| Beca Municipal de Educación Superior Puerto Aysén | `134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452` | `CONTRASTE_MUNICIPAL_31_CANDIDATAS_2026_10_13.md`; `CONTRASTE_BLOQUE_30_2026_10_13.md` |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -21654,7 +21760,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -22110,7 +22216,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -22517,7 +22623,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -23771,6 +23877,13 @@
         "informe_sha256": "10177f45423172fdf6bf12467c4f17e7513d757540e334bd8084f060863281a7",
         "extractos": [
           "**Candidata** `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. El Departamento Social municipal declara que canaliza postulaciones a becas que otorga el Estado, junto con DAEM. La noticia municipal sobre la Beca de Excelencia CMPC 2025 la identifica como programa privado, dirigido a estudiantes de enseñanza media de zonas alejadas; informa un aporte anual de $300.000 y continuidad durante enseñanza media. No es la candidata de educación superior atribuida a DIDECO. Esto ayuda a separar modalidades y otorgantes, pero no prueba que no exista una línea municipal superior distinta. Mantener abierta; monto, RSH 60%, NEM 5,0 y cierre no corroborados.\n\nFuentes: [funciones del Departamento Social de Victoria](https://victoriachile.cl/departamentos-y-direcciones/dideco/departamento-social/), [Beca de Excelencia CMPC en Victoria, 2025](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
       }
     ],
@@ -25351,7 +25464,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -30366,6 +30479,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -31436,6 +31556,13 @@
       {
         "informe": "CONTRASTE_OFICIAL_30_PENDIENTES_BLOQUE_3_2026_10_13.md",
         "informe_sha256": "27fe6333d50f0d15f15eb16b3ead001d5f894e3192a485e219778f78f34e2637",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_COMPLEMENTARIO_8_2026_10_13.md",
+        "informe_sha256": "3e3d4acd4699de1952a4df0adc8942d3bfa18a97caacd180fa584bc10b938cd1",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -36389,7 +36516,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -38514,7 +38641,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39196,7 +39323,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -39549,6 +39676,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PUERTO_MONTT_2019_2026_10_13.md",
+        "informe_sha256": "6c5055528b8a6f13644114df10af4ef4f8301da3944745d6e683a7b955d8f9ab",
+        "extractos": [
+          "- `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` — **Beca Municipal Educación Superior**.\n- `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` — **Beca Municipal Educación Superior Puerto Montt**.\n\nLa publicación de 2019 acredita un incentivo municipal específico, pero sus destinatarios y condiciones no corresponden a las fichas genéricas, que atribuyen libre disposición DIDECO, RSH 60% y NEM 5,0 para 2026. La publicación no identifica que sean la misma línea; tampoco prueba que las candidatas no existan. Se mantienen separadas y pendientes de confirmación esencial hasta hallar bases o un acto que las vincule con una modalidad oficial. No se trasladan a las candidatas el importe, calendario ni requisitos de 2019."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -39772,7 +39906,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -40189,7 +40323,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -40839,7 +40973,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -42154,7 +42288,7 @@
       },
       {
         "informe": "CONTRASTE_OFICIAL_20_CANDIDATAS_2026_10_13.md",
-        "informe_sha256": "3dfe2718b3da9e6c2a165174bba950b07bfc320b186127ef3ec57a08194e7a9c",
+        "informe_sha256": "b81ed3cf3df10e1bf3ca42c239eed5396e00f7b70b5cdfd1922649d1bf155f19",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
@@ -42309,7 +42443,7 @@
     "candidato": "3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be",
     "nombre": "Beca Municipal de Educación Superior La Florida",
     "institucion": "Municipalidad de La Florida",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
@@ -42434,7 +42568,19 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
+      "candidato": "3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be",
+      "revisado": "2026-10-13",
+      "motivo": "Duplicado positivo en el corpus de la misma ficha candidata que bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0: coinciden otorgante, denominación de educación superior, rango alegado, año, RSH, promedio, región, descripción, documentos y URL raíz. La existencia y las condiciones actuales del programa canónico continúan sin confirmar.",
+      "alcance": "Se excluye solo la identidad documental repetida. Se preservan todas las filas y archivos originales y la candidata canónica permanece pendiente. Esta decisión no afirma que el programa exista o no exista.",
+      "informe": "REVISION_DUPLICADO_Y_DISTINCION_FLORIDA_2026_10_13.md",
+      "evidencia": [
+        "REVISION_DUPLICADO_Y_DISTINCION_FLORIDA_2026_10_13.md"
+      ],
+      "criterio": "DUPLICADO_IDENTIDAD",
+      "duplicado_de": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0"
+    }
   },
   {
     "candidato": "148f90ce4ef8c71176854884de3ac9125fb79725b3d274daa64bdd28404bc5ba",
