@@ -38537,7 +38537,7 @@
     "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
     "nombre": "Beca de Educación Superior Cholchol",
     "institucion": "Municipalidad de Cholchol",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
@@ -38670,13 +38670,43 @@
         "extractos": [
           "Candidata(s): `25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba`.\n\n- [Reglamento de Asignación de Ayudas Sociales enlazado por el municipio](https://drive.google.com/file/d/1f9lfaMqRYj_8K6g6G5pe_fjKa5jiXxaT/view?usp=sharing)\n- [Página municipal de reglamentos](https://www.municholchol.cl/municipio/)\n\n**Decisión:** El reglamento municipal escaneado regula ayudas sociales generales, pero no identifica una beca superior con el beneficio anual de la ficha. La página oficial enlaza ese reglamento, no una convocatoria específica. La mención secundaria de una entrega de cien becas en 2025 sirve como pista para localizar el acto o las bases, no como evidencia primaria suficiente. Mantener abierta."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_CHOLCHOL_2026_10_15.md",
+        "informe_sha256": "26ddad6c6aeeb988fd2879f318c10cdf002e8fd3f85e372e8cf362b819e1982e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
+      "revisado": "2026-10-15",
+      "alcance": "Existencia e identidad histórica de la Beca Municipalidad de Cholchol para educación superior, documentada en PADEM 2021 para 2019–2020; no certifica vigencia actual.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_CHOLCHOL_2026_10_15.md",
+      "fuentes": [
+        "https://legalpython.com/municipalidades/cholchol/padems/PADEM_2021.pdf",
+        "https://surinformado.cl/entrega-becas-cholchol-2025/",
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-32-LE25"
+      ],
+      "beneficio": "Beca municipal para estudiantes de educación superior. PADEM registra beneficiarios/renovantes en 2019–2020; importe individual y periodicidad: No especificado.",
+      "requisitos_principales": "Nivel de estudios superior confirmado. Criterios individuales de elegibilidad: No especificado en el expediente municipal consultado.",
+      "limites": "No ratificados del registro original: CLP 200.000, RSH máximo 60%, NEM 5,0 y cierre 31 de marzo. Documentos, calendario y convocatoria actual: No especificado/no confirmados. El enlace directo al PADEM devuelve 404; contenido consultado mediante índice de búsqueda. La noticia 2025 es secundaria y solo respalda contexto/existencia, no requisitos ni cuantía. No publicar sin cierre vigente confirmado.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "323120dca07f297f629fc71a60d5b9fd0ba48b10c44b9ad45d9e10ea5ae86b51",
