@@ -37258,7 +37258,7 @@
     "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
     "nombre": "Beca Municipal Estudiantil Maria Pinto",
     "institucion": "Municipalidad de Maria Pinto",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque32_muni.csv",
@@ -37356,13 +37356,43 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_PASAJES_MARIA_PINTO_2026_10_15.md",
+        "informe_sha256": "2ca97d814597f2fbc402acfa57fbd0d7b6d65f66a305f388193761b6472bdf7e",
+        "extractos": [
+          "- Hash: `f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5`\n- Nombre recibido: Beca Municipal Estudiantil María Pinto.\n- Institución del registro: Municipalidad de María Pinto."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
+      "revisado": "2026-10-15",
+      "alcance": "Identidad y reglas esenciales históricas de Beca Pasajes / Conectividad de Educación Superior; no certifica convocatoria vigente 2026",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_PASAJES_MARIA_PINTO_2026_10_15.md",
+      "fuentes": [
+        "https://studylib.es/doc/7986385/acta-47---transparencia-municipal",
+        "https://www.mpinto.cl/actas-de-consejo/",
+        "https://ensanpedro.cl/2022/08/12/invitan-a-estudiantes-universitarios-de-maria-pinto-a-renovar-la-beca-de-conectividad-de-educacion-superior/"
+      ],
+      "beneficio": "Histórico: $20.000 mensuales para pasajes/conectividad; en 2015 nueve meses y 144 cupos; entrevista DIDECO 2022 informa abril–diciembre.",
+      "requisitos_principales": "Estudiantes de educación superior que viajan fuera de María Pinto; selección según sistema municipal previo. Para renovación 2022: matrícula vigente acreditada con certificado de alumno regular del segundo semestre.",
+      "limites": "Confirmación histórica 2015/2022. Umbrales RSH/NEM, criterios completos de selección inicial, documentos de primera postulación, convocatoria y montos de 2026: No especificado. No publicar como vigente sin bases y cierre actuales confirmados. La copia del acta está alojada por un tercero; el propio documento es un acta municipal.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": "Para renovación 2022: certificado de alumno regular del segundo semestre. Primera postulación: No especificado.",
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4",

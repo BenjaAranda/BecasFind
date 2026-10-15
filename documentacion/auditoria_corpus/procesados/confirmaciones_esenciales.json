@@ -11006,5 +11006,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
+    "revisado": "2026-10-15",
+    "alcance": "Identidad y reglas esenciales históricas de Beca Pasajes / Conectividad de Educación Superior; no certifica convocatoria vigente 2026",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_PASAJES_MARIA_PINTO_2026_10_15.md",
+    "fuentes": [
+      "https://studylib.es/doc/7986385/acta-47---transparencia-municipal",
+      "https://www.mpinto.cl/actas-de-consejo/",
+      "https://ensanpedro.cl/2022/08/12/invitan-a-estudiantes-universitarios-de-maria-pinto-a-renovar-la-beca-de-conectividad-de-educacion-superior/"
+    ],
+    "beneficio": "Histórico: $20.000 mensuales para pasajes/conectividad; en 2015 nueve meses y 144 cupos; entrevista DIDECO 2022 informa abril–diciembre.",
+    "requisitos_principales": "Estudiantes de educación superior que viajan fuera de María Pinto; selección según sistema municipal previo. Para renovación 2022: matrícula vigente acreditada con certificado de alumno regular del segundo semestre.",
+    "limites": "Confirmación histórica 2015/2022. Umbrales RSH/NEM, criterios completos de selección inicial, documentos de primera postulación, convocatoria y montos de 2026: No especificado. No publicar como vigente sin bases y cierre actuales confirmados. La copia del acta está alojada por un tercero; el propio documento es un acta municipal.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Para renovación 2022: certificado de alumno regular del segundo semestre. Primera postulación: No especificado.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
