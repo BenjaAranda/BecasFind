@@ -25,7 +25,7 @@ Candidata: `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.
 
 - [Becas y beneficios UAH, Admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/)
 
-La lectura completa del catálogo institucional 2026 identifica Beca Alberto Hurtado (10–80% el primer año para vías de acceso inclusivo), Beca Complementaria al CAE (10–50% del copago con requisitos académicos y socioeconómicos), Beca Talento Pedagógico (manutención con montos anuales no publicados en esta ficha), y becas de alimentación y transporte. Ninguna coincide con la descripción histórica de un descuento del 30% para carreras de Ciencias Sociales y Educación con NEM 5,5. La fuente actual no ratifica ni refuta la existencia histórica de esa modalidad; mantener abierta sin transferir datos.
+La lectura completa del catálogo institucional 2026 identifica Beca Alberto Hurtado (10–80% el primer año para vías de acceso inclusivo), Beca Complementaria al CAE (10–50% del copago con requisitos académicos y socioeconómicos), Beca Talento Pedagógico (manutención con montos anuales no publicados en esta ficha), y becas de alimentación y transporte. La actualización del catálogo consultada el 15/10/2026 identifica además una Beca Pedagogía Toda la Carrera: descuento de 25% para postulantes por admisión regular de la cohorte de ingreso 2026, con umbral PAES publicado por carrera y condiciones de renovación académica. No coincide con la descripción histórica de 30% para carreras de Ciencias Sociales y Educación sujeta a NEM 5,5. La fuente actual no ratifica ni refuta la existencia histórica de esa modalidad; mantener abierta sin transferir datos.
 
 ## Universidad Autónoma — Beca Alumni UA y Beca Socioeconómica UA
 
