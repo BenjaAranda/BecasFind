@@ -23,3 +23,10 @@ Estos seis contrastes no cierran candidatos. Próximo paso: localizar decretos, 
 | Beca de Arancel UdeC (`cfb90f338bf4`) | [Financiamiento de arancel UdeC](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/); [beneficios UdeC](https://admision.udec.cl/beneficios/); [Beca de Mantención para Educación Superior](https://dise.udec.cl/node/29) | La UdeC distingue becas estatales de arancel, beneficios institucionales con requisitos específicos y una BMES estatal que ya no acepta nuevos ingresos desde 2015. La ficha genérica no puede identificarse con una línea concreta sin fuente que vincule su nombre y reglas; conservar abierta. |
 
 No se confirma ninguna de estas candidatas con evidencia ambigua. Se preserva la diferencia entre beca general, beca estatal, beneficio interno, ayuda escolar y apoyo deportivo.
+
+## Separación de beneficios universitarios con nombres similares
+
+| Candidata | Fuente oficial revisada | Resultado y decisión |
+|---|---|---|
+| Beca Hermanos UAI (`b63145bc2bc7`) | [Catálogo UAI](https://www.uai.cl/admision/becas-y-aranceles/becas); [Becas UBO](https://dae.ubo.cl/becas/becas-ubo/) | El catálogo UAI consultado no identifica una Beca Hermanos. La UBO sí publica un beneficio de “Hermanos o Familiares Directos” de 5% anual por estudiante, pero es de otra institución. No trasladar el beneficio a la UAI; mantener abierta la ficha UAI hasta obtener fuente propia. |
+| Beca Vocación Social UAH (`83840acd4c10`) | [Catálogo de becas UAH 2027](https://admision.uahurtado.cl/becas-y-beneficios/) | La UAH publica una Beca Alberto Hurtado de 10%–80% para estudiantes de primer año que cumplan condiciones de acceso inclusivo; la beca social de arancel tiene criterios publicados. El catálogo consultado no identifica “Vocación Social”, 30% fijo, NEM 5,5 ni compromiso comunitario con ese nombre. Esas modalidades no se asumen equivalentes; mantener abierta. |
