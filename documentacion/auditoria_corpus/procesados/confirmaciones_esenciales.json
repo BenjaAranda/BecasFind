@@ -10821,47 +10821,5 @@
       "cobertura": true,
       "requisitos_principales": true
     }
-  },
-  {
-    "candidato": "dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18",
-    "revisado": "2026-10-14",
-    "alcance": "Beca Municipal para Estudiantes de Educación Superior: existencia histórica de un bono municipal de enseñanza superior en Valdivia, año 2014; no confirma convocatorias posteriores.",
-    "informe": "CONFIRMACION_ESENCIAL_BONO_EDUCACION_SUPERIOR_VALDIVIA_2014_2026_10_14.md",
-    "fuentes": [
-      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf"
-    ],
-    "beneficio": "Bono económico de enseñanza superior registrado por el DAEM de Valdivia en 2014; importe y forma de pago no especificados.",
-    "requisitos_principales": "No especificados en la Cuenta Pública 2014.",
-    "limites": "No confirma las fechas 2026, monto, RSH, NEM, residencia, documentos ni atribución a DIDECO de los CSV originales. No se evalúa vigencia actual. Se conservan dos filas porque la fuente no resuelve si son versiones o convocatorias distintas; no se declara duplicidad.",
-    "fecha_inicio": null,
-    "fecha_cierre": null,
-    "documentos": null,
-    "verificaciones": {
-      "identidad": true,
-      "fuente_oficial": true,
-      "cobertura": true,
-      "requisitos_principales": true
-    }
-  },
-  {
-    "candidato": "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
-    "revisado": "2026-10-14",
-    "alcance": "Beca Municipal para Estudiantes de Educación Superior Valdivia: existencia histórica de un bono municipal de enseñanza superior en Valdivia, año 2014; no confirma convocatorias posteriores.",
-    "informe": "CONFIRMACION_ESENCIAL_BONO_EDUCACION_SUPERIOR_VALDIVIA_2014_2026_10_14.md",
-    "fuentes": [
-      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf"
-    ],
-    "beneficio": "Bono económico de enseñanza superior registrado por el DAEM de Valdivia en 2014; importe y forma de pago no especificados.",
-    "requisitos_principales": "No especificados en la Cuenta Pública 2014.",
-    "limites": "No confirma las fechas 2026, monto, RSH, NEM, residencia, documentos ni atribución a DIDECO de los CSV originales. No se evalúa vigencia actual. Se conservan dos filas porque la fuente no resuelve si son versiones o convocatorias distintas; no se declara duplicidad.",
-    "fecha_inicio": null,
-    "fecha_cierre": null,
-    "documentos": null,
-    "verificaciones": {
-      "identidad": true,
-      "fuente_oficial": true,
-      "cobertura": true,
-      "requisitos_principales": true
-    }
   }
 ]
