@@ -25,7 +25,7 @@ Candidata: `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.
 
 - [Becas y beneficios UAH, Admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/)
 
-El catálogo actual incluye, entre otras, becas de excelencia basadas en PAES, una beca de manutención Talento Pedagógico con montos sujetos a convocatoria anual y descuentos de arancel con condiciones propias. Ninguna coincide con la descripción de un descuento del 30% para carreras de Ciencias Sociales y Educación con NEM 5,5. La página actual no ratifica el nombre ni las condiciones históricas de la candidata; mantenerla abierta.
+La lectura completa del catálogo institucional 2026 identifica Beca Alberto Hurtado (10–80% el primer año para vías de acceso inclusivo), Beca Complementaria al CAE (10–50% del copago con requisitos académicos y socioeconómicos), Beca Talento Pedagógico (manutención con montos anuales no publicados en esta ficha), y becas de alimentación y transporte. Ninguna coincide con la descripción histórica de un descuento del 30% para carreras de Ciencias Sociales y Educación con NEM 5,5. La fuente actual no ratifica ni refuta la existencia histórica de esa modalidad; mantener abierta sin transferir datos.
 
 ## Universidad Autónoma — Beca Alumni UA y Beca Socioeconómica UA
 
@@ -33,7 +33,7 @@ Candidatas: `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c` y
 
 - [Becas internas Autónoma, periodo 2026](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)
 
-El catálogo vigente incluye beneficios por trayectoria, deporte/liderazgo/ciencia, hermanos, región, bachillerato internacional, PAES y Copago Cero. Copago Cero se aplica a una diferencia de arancel y sus condiciones incluyen antecedentes de PAES y beneficios estatales; no es evidencia de un beneficio genérico definido solo por RSH de hasta 60%. La página no identifica la “Beca Alumni UA” descrita como 20% para titulados que cursen una segunda carrera. Mantener ambas candidatas abiertas; no sustituir una por beneficios que comparten institución.
+La lectura completa del catálogo para 2026 enumera matrícula gratis, tecnología, trayectoria académica, deporte/liderazgo/ciencia, hermanos, regiones, bachillerato internacional, PAES y Copago Cero. La Autónoma describe Copago Cero aplicado sobre la diferencia de arancel con requisitos de PAES y beneficios estatales; no es equivalente a la ficha de hasta 40% definida solo por RSH. Tampoco aparece la ficha “Beca Alumni UA” de 20% para titulados que cursen otra carrera. Mantener ambas abiertas: el catálogo actual no demuestra inexistencia histórica ni permite sustituir los nombres.
 
 ## Universidad Bernardo O’Higgins — Beca Socioeconómica UBO
 
@@ -50,7 +50,7 @@ Candidata: `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`.
 - [Financiamiento de arancel, DISE UdeC](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/)
 - [Preguntas sobre Beca de Mantención para la Educación Superior](https://dise.udec.cl/node/29)
 
-La primera página describe beneficios de arancel del Mineduc y el proceso FUAS; la segunda identifica BMES como beneficio estatal de mantención y aclara que actualmente no es asignable por la vía descrita. Ninguna identifica una beca institucional general que cubra hasta 100% del arancel según RSH 60%. Mantener abierta y no presentar una ayuda ministerial como beneficio propio UdeC.
+La página de financiamiento DISE describe beneficios ministeriales y FUAS. La revisión adicional de páginas oficiales de admisión confirma que UdeC publica la Beca Interna UdeC: se aplica al matricularse a estudiantes nuevos y antiguos que no tengan gratuidad; su importe varía según carrera. Esto acredita esa modalidad institucional, pero no resuelve si es la misma candidata: la ficha histórica afirma hasta 100% según evaluación socioeconómica/RSH 60%, datos que la fuente de admisión citada no vincula a la Beca Interna. La página BMES identifica una ayuda estatal distinta. Mantener la candidata abierta y no copiar cobertura o requisitos entre programas.
 
 ## Universidad del Desarrollo — Convenio Empresas UDD
 
@@ -63,4 +63,4 @@ La página específica que detalla descuentos a alumni, colaboradores y grupos d
 
 ## Alcance de la tanda
 
-Se revisaron 12 candidatas universitarias en este contraste (las cinco de ENAC cuentan individualmente). No se cierra ninguna: las páginas oficiales consultadas son generales o describen beneficios distintos, y no identifican la misma modalidad histórica con cobertura y requisitos principales. La revisión aporta límites verificables y evita falsas equivalencias; no autoriza descartar por ausencia en el catálogo vigente. No se modificaron originales, no se activaron registros y no se alteró el estado editorial.
+Se revisaron 12 candidatas universitarias en este contraste (las cinco de ENAC cuentan individualmente). Las páginas oficiales actuales describen con mayor precisión varias modalidades institucionales, pero no enlazan los nombres y datos de las candidatas históricas a esos beneficios. No se cierra ninguna: hace falta esa identidad específica para certificar alcance, beneficio y requisitos. La omisión actual no autoriza descartar por inexistencia histórica. No se modificaron originales, no se activaron registros ni se transfirieron importes o condiciones.
