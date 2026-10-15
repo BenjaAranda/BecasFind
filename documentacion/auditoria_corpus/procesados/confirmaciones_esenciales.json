@@ -10910,5 +10910,38 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90",
+    "revisado": "2026-10-14",
+    "alcance": "Existencia histórica y condiciones esenciales de una beca municipal de educación superior anunciada en sesión del Concejo de Osorno en enero de 2024; no acredita continuidad posterior ni convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_BECAS_OSORNO_2024_2026_10_14.md",
+    "fuentes": [
+      "https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf"
+    ],
+    "beneficio": "20 aportes de CLP $500.000 cada uno para gastos menores durante el año, según anuncio municipal para 2024.",
+    "requisitos_principales": "Estudiantes de colegios municipales participantes del preuniversitario municipal; selección de los 20 puntajes PAES más altos. La fuente menciona liceos técnico-profesionales y científico-humanistas.",
+    "limites": "No especifica documentos, residencia, RSH, NEM, edad máxima ni fechas de postulación/cierre. Los $180.000 anuales y condiciones de la ficha original no quedan respaldados por esta fuente y se preservan solo como antecedentes. Sin vigencia confirmada después de 2024.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correccion_editorial": {
+      "nombre": "Beca municipal de educación superior para participantes del Preuniversitario Municipal de Osorno (2024)",
+      "tipo_beneficio": "MONETARIA",
+      "monto": "500000",
+      "moneda": "CLP",
+      "periodicidad": "DESCONOCIDA",
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null
+    }
   }
 ]

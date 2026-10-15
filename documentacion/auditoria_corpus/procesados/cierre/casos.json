@@ -43281,7 +43281,7 @@
     "candidato": "cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90",
     "nombre": "Beca Concejo Municipal de Osorno para Educación Superior",
     "institucion": "Municipalidad de Osorno",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
@@ -43442,13 +43442,53 @@
         "extractos": [
           "| Beca Concejo Municipal de Osorno para Educación Superior (`cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`) | [Acta oficial del Concejo de Osorno](https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf) | El acta registra para 2024 veinte aportes de $500.000 a los primeros puntajes PAES entre participantes del preuniversitario municipal; incluye estudiantes de enseñanza media técnico-profesional y científico-humanista de establecimientos municipalizados. | La selección, el monto y la cohorte no coinciden con los $180.000 anuales, RSH 60% y NEM 5,0 atribuidos a la ficha. Acredita una modalidad diferente, no descarta otra línea histórica. Mantener abierta. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECAS_OSORNO_2024_2026_10_14.md",
+        "informe_sha256": "395e7e0487a1cf5696c95426795c84599c2601022a7a1ea912559b4f1ef7f78c",
+        "extractos": [
+          "Fecha de revisión: 14 de octubre de 2026. Candidata: `cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`, “Beca Concejo Municipal de Osorno para Educación Superior”."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90",
+      "revisado": "2026-10-14",
+      "alcance": "Existencia histórica y condiciones esenciales de una beca municipal de educación superior anunciada en sesión del Concejo de Osorno en enero de 2024; no acredita continuidad posterior ni convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_BECAS_OSORNO_2024_2026_10_14.md",
+      "fuentes": [
+        "https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf"
+      ],
+      "beneficio": "20 aportes de CLP $500.000 cada uno para gastos menores durante el año, según anuncio municipal para 2024.",
+      "requisitos_principales": "Estudiantes de colegios municipales participantes del preuniversitario municipal; selección de los 20 puntajes PAES más altos. La fuente menciona liceos técnico-profesionales y científico-humanistas.",
+      "limites": "No especifica documentos, residencia, RSH, NEM, edad máxima ni fechas de postulación/cierre. Los $180.000 anuales y condiciones de la ficha original no quedan respaldados por esta fuente y se preservan solo como antecedentes. Sin vigencia confirmada después de 2024.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Beca municipal de educación superior para participantes del Preuniversitario Municipal de Osorno (2024)",
+        "tipo_beneficio": "MONETARIA",
+        "monto": "500000",
+        "moneda": "CLP",
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null
+      }
+    }
   },
   {
     "candidato": "dad3b6b78a519cd5ea718531a74e92716d4d2e427efed74552c171783c10b959",
