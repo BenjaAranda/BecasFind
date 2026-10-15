@@ -2638,6 +2638,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Cinco candidatas ENAC: Apoyo Familiar (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`), Convenio Empresas (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`), Deportiva (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`), Titulado (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) y Vocación de Servicio (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | [Admisión oficial ENAC](https://enac.cl/admision/) describe Gratuidad, CAE y orientación para beneficios estatales; la portada institucional anuncia beneficios de Admisión 2027 sin exponer ahí bases de las cinco modalidades históricas. | La página consultada no identifica las cinco modalidades ni valida sus porcentajes o requisitos. No las descarta por omisión; continúan abiertas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidatas: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`.\n\nLa ficha institucional de admisión describe gratuidad, CAE y beneficios estatales, con derivación a los portales oficiales. No identifica las cinco modalidades internas ni confirma sus coberturas o requisitos. La coincidencia de “vocación de servicio” en material institucional describe el perfil formativo, no una beca. Las cinco candidatas quedan pendientes de reglamento, convenio o ficha de beneficio específico.\n\nFuente: [Admisión y financiamiento ENAC](https://enac.cl/admision/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -2827,6 +2841,20 @@
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Cinco candidatas ENAC: Apoyo Familiar (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`), Convenio Empresas (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`), Deportiva (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`), Titulado (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) y Vocación de Servicio (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | [Admisión oficial ENAC](https://enac.cl/admision/) describe Gratuidad, CAE y orientación para beneficios estatales; la portada institucional anuncia beneficios de Admisión 2027 sin exponer ahí bases de las cinco modalidades históricas. | La página consultada no identifica las cinco modalidades ni valida sus porcentajes o requisitos. No las descarta por omisión; continúan abiertas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidatas: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`.\n\nLa ficha institucional de admisión describe gratuidad, CAE y beneficios estatales, con derivación a los portales oficiales. No identifica las cinco modalidades internas ni confirma sus coberturas o requisitos. La coincidencia de “vocación de servicio” en material institucional describe el perfil formativo, no una beca. Las cinco candidatas quedan pendientes de reglamento, convenio o ficha de beneficio específico.\n\nFuente: [Admisión y financiamiento ENAC](https://enac.cl/admision/)."
         ]
       }
     ],
@@ -3018,6 +3046,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Cinco candidatas ENAC: Apoyo Familiar (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`), Convenio Empresas (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`), Deportiva (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`), Titulado (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) y Vocación de Servicio (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | [Admisión oficial ENAC](https://enac.cl/admision/) describe Gratuidad, CAE y orientación para beneficios estatales; la portada institucional anuncia beneficios de Admisión 2027 sin exponer ahí bases de las cinco modalidades históricas. | La página consultada no identifica las cinco modalidades ni valida sus porcentajes o requisitos. No las descarta por omisión; continúan abiertas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidatas: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`.\n\nLa ficha institucional de admisión describe gratuidad, CAE y beneficios estatales, con derivación a los portales oficiales. No identifica las cinco modalidades internas ni confirma sus coberturas o requisitos. La coincidencia de “vocación de servicio” en material institucional describe el perfil formativo, no una beca. Las cinco candidatas quedan pendientes de reglamento, convenio o ficha de beneficio específico.\n\nFuente: [Admisión y financiamiento ENAC](https://enac.cl/admision/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3208,6 +3250,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Cinco candidatas ENAC: Apoyo Familiar (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`), Convenio Empresas (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`), Deportiva (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`), Titulado (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) y Vocación de Servicio (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | [Admisión oficial ENAC](https://enac.cl/admision/) describe Gratuidad, CAE y orientación para beneficios estatales; la portada institucional anuncia beneficios de Admisión 2027 sin exponer ahí bases de las cinco modalidades históricas. | La página consultada no identifica las cinco modalidades ni valida sus porcentajes o requisitos. No las descarta por omisión; continúan abiertas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidatas: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`.\n\nLa ficha institucional de admisión describe gratuidad, CAE y beneficios estatales, con derivación a los portales oficiales. No identifica las cinco modalidades internas ni confirma sus coberturas o requisitos. La coincidencia de “vocación de servicio” en material institucional describe el perfil formativo, no una beca. Las cinco candidatas quedan pendientes de reglamento, convenio o ficha de beneficio específico.\n\nFuente: [Admisión y financiamiento ENAC](https://enac.cl/admision/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -3397,6 +3453,20 @@
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Cinco candidatas ENAC: Apoyo Familiar (`317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5`), Convenio Empresas (`caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c`), Deportiva (`bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e`), Titulado (`be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31`) y Vocación de Servicio (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) | [Admisión oficial ENAC](https://enac.cl/admision/) describe Gratuidad, CAE y orientación para beneficios estatales; la portada institucional anuncia beneficios de Admisión 2027 sin exponer ahí bases de las cinco modalidades históricas. | La página consultada no identifica las cinco modalidades ni valida sus porcentajes o requisitos. No las descarta por omisión; continúan abiertas. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidatas: `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`.\n\nLa ficha institucional de admisión describe gratuidad, CAE y beneficios estatales, con derivación a los portales oficiales. No identifica las cinco modalidades internas ni confirma sus coberturas o requisitos. La coincidencia de “vocación de servicio” en material institucional describe el perfil formativo, no una beca. Las cinco candidatas quedan pendientes de reglamento, convenio o ficha de beneficio específico.\n\nFuente: [Admisión y financiamiento ENAC](https://enac.cl/admision/)."
         ]
       }
     ],
@@ -7507,6 +7577,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Beca Vocación Social UAH (`83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`) | [Catálogo oficial UAH Admisión 2027](https://admision.uahurtado.cl/becas-y-beneficios/) identifica Beca Alberto Hurtado socioeconómica, Beca Complementaria al CAE, becas de excelencia y pedagogía, entre otras. La Beca Alberto Hurtado cubre 10–80% el primer año para participantes en programas de preparación/acceso inclusivo; la de pedagogía aplica criterios PAES y carreras definidos. | No identifica el nombre “Vocación Social”, el descuento de 30%, NEM 5,5 ni compromiso comunitario atribuidos. No trasladar las condiciones de la Beca Alberto Hurtado; expediente abierto. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidata: `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e` (Beca Vocación Social UAH).\n\nLa página oficial de beneficios 2026 detalla becas de excelencia, pedagogía, Alberto Hurtado, complemento CAE, descuentos por hermanos y otras modalidades con requisitos específicos. No identifica una “Beca Vocación Social” general para una facultad. Esto permite descartar la transferencia de reglas de la Beca Alberto Hurtado o la Complementaria al CAE, pero la ausencia de ese rótulo en la página no prueba que el beneficio histórico no existiera. Sigue pendiente de aclaración individual.\n\nFuente: [Becas y beneficios UAH](https://admision.uahurtado.cl/becas-y-beneficios/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -11378,6 +11462,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Beca Familiar UCSH (`561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d`) | [Catálogo oficial UCSH de becas y beneficios](https://www.ucsh.cl/becas-y-beneficios/) lista beneficios internos, convenios y descuentos por categorías. El convenio de Carabineros contempla hijos, cónyuges y cargas familiares con descuentos según carrera; otros convenios aplican a sus propios grupos. Los originales preservados para el mismo identificador discrepan: uno indica 10% a familiares y otro 15% para hermanos. | La fuente no confirma una beca familiar general UCSH ni resuelve la contradicción 10%/15%; los convenios citados tienen destinatarios propios. Preservar ambas filas originales y mantener abierta hasta contar con reglamento o convenio exacto. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidata: `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` (Beca Familiar UCSH).\n\nLa ficha institucional enumera beneficios como Beca Colegio Salesiano, Excelencia Complementaria, Deportista Destacado y Trabajador Vespertino; la convocatoria 2026–2027 de Beca Don Bosco publica descuento de 10% a 50% por evaluación socioeconómica y rendimiento. Ninguna fuente consultada identifica una “Beca Familiar” ni permite elegir entre los porcentajes discrepantes de los registros históricos. Se conserva pendiente; no se sustituye por Don Bosco ni por descuentos de convenios.\n\nFuentes: [Becas y beneficios UCSH](https://www.ucsh.cl/becas-y-beneficios/) y [convocatoria Beca Don Bosco 2026–2027](https://www.ucsh.cl/actualidad/ucsh-abre-postulaciones-a-la-beca-don-bosco-2025-2026-conoce-los-requisitos-promedios-y-plazos-del-beneficio/)."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -11793,6 +11891,13 @@
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Beca Intercultural UCT (`5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`) | [Beca oficial UCT Experiencia Global en Equipo 2026](https://internacional.uct.cl/beca/beca-experiencia-global-en-equipo-2026-programa-de-voluntariado-misionero-intercontinental-pvmi/) financia una actividad internacional de voluntariado para cuatro estudiantes; la convocatoria menciona diálogo intercultural y vocación de servicio. | Modalidad y cobertura distintas del descuento de arancel por pertenencia indígena de la ficha. No confirma 20% ni la elegibilidad alegada; mantener separada y abierta. |"
         ]
       }
     ],
@@ -12858,6 +12963,20 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Beca de Arancel UdeC (`cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`) | [Catálogo oficial de beneficios UdeC 2026](https://admision.udec.cl/beneficios/) publica becas con decretos y condiciones individualizadas: Enrique Molina, residencia, deportiva, Ernesto Mahuzier y becas por carrera. La Beca Enrique Molina exige egreso reciente, PAES 880, NEM 6,0, situación socioeconómica; otorga exención de cuota básica y matrícula, residencia/alimentación/pasajes y asignaciones, con 36 cupos. | La página confirma beneficios UdeC y evaluación socioeconómica, pero no una beca genérica de 50–100% condicionada a RSH 60% como afirma la ficha. No atribuir esas reglas a los programas listados; sigue abierta y requiere identificar instrumento exacto. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidata: `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598` (Beca de Arancel UdeC).\n\nLa página financiera oficial remite las becas de arancel a los beneficios estatales y al FUAS, además de describir condiciones de renovación. La denominación histórica aislada no determina si se refiere a un beneficio estatal concreto o a una ayuda institucional. No se completan monto ni requisitos hasta resolver esa identidad; continúa pendiente.\n\nFuente: [Financiamiento de arancel UdeC](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13176,6 +13295,13 @@
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PRIMARIO_UNIVERSIDADES_ADICIONAL_2026_10_14.md",
+        "informe_sha256": "00060859705464bd13af47266335564bc93c059f9f9f5f9da5c16e7a2557ab4e",
+        "extractos": [
+          "| Beca Fomento Regional UDLA (`5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e`) | [Catálogo oficial UDLA Admisión 2027](https://admision.udla.cl/diurno/becas) publica beneficios con nombre, cobertura y requisitos, entre ellos PAES, Pueblos Originarios, Excelencia, Egresados y Mujer STEM. | La consulta no identifica una beca de fomento regional con la ficha candidata; el catálogo no permite probar inexistencia. Mantener abierta sin trasladar condiciones de otros beneficios. |"
         ]
       }
     ],
@@ -21297,6 +21423,13 @@
         "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal Educación Superior Puerto Montt (`ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`, `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`) | [Beneficios para estudiantes egresados de educación municipal](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/); [entrega 2025 a hijos e hijas de pescadores](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/) | El municipio describe el Incentivo PAES para egresados de establecimientos municipales en su primer año y el beneficio para hijos de pescadores, con población y requisitos propios. En 2024 ambos tenían montos publicados de $1.000.000 y $750.000; en 2025 el aporte para hijos de pescadores fue de $750.000. | Ninguna fuente vincula esos incentivos con las fichas genéricas de mantención DIDECO ni con sus reglas de libre disposición. Mantener ambas candidatas separadas y abiertas; no transferir monto, requisitos ni vigencia. |"
+        ]
+      },
+      {
+        "informe": "CONTRASTE_FUENTES_OFICIALES_INSTITUCIONALES_MUNICIPAL_2026_10_14.md",
+        "informe_sha256": "883c0b9ab94b8fc2400196ac5d0af74caa20ded966db44bcc4fc70106cd76f27",
+        "extractos": [
+          "Candidata: `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` (Beca Municipal Educación Superior Puerto Montt).\n\nLas fuentes municipales identifican por separado el Incentivo PAES y el apoyo a Hijos e Hijas de Pescadores, con cohortes, requisitos y montos propios; una noticia 2026 comunica la regularización de beneficiarios del segundo. Ninguna fuente consultada vincula la ficha genérica DIDECO con esos programas ni valida su umbral RSH 60%, promedio 5,0 o monto anual. Se mantiene pendiente; no se reasignan los datos de los programas distintos.\n\nFuentes: [beneficios para educación superior municipal](https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/) y [regularización Beca Hijos de Pescadores 2026](https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/)."
         ]
       }
     ],
