@@ -10866,5 +10866,49 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a",
+    "revisado": "2026-10-14",
+    "alcance": "Convenio histórico de becas municipal con el Instituto Profesional Diego Portales, según Cuenta Pública 2022; no certifica convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_BECAS_HUALPEN_IPDP_2022.md",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf"
+    ],
+    "beneficio": "20 becas de estudio para facilitar el acceso a educación superior. Monto individual, porcentaje, cobertura específica y forma de pago: No especificado.",
+    "requisitos_principales": "Jóvenes de Hualpén con dificultades económicas. Edad exacta, rendimiento, tramo RSH, institución elegible y mecanismo de selección: No especificado.",
+    "limites": "La Cuenta Pública informa el convenio en 2022. No confirma continuidad posterior. Documentos, fechas, renovación y cierre: No especificado. No activar ni publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e",
+    "revisado": "2026-10-14",
+    "alcance": "Beca Fomento Regional de Universidad del Alba; reglamento institucional 2026, corroborado con reglamento institucional histórico de Universidad Pedro de Valdivia/Universidad del Alba. La atribución original a UDLA no queda respaldada por la fuente que traía la ficha y se corrige conforme a la coincidencia específica del nombre, porcentaje y requisito regional. Confirma existencia y condiciones esenciales documentadas; no una convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_FOMENTO_REGIONAL_UDALBA_2026.md",
+    "fuentes": [
+      "https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf",
+      "https://www.udalba.cl/wp-content/uploads/2021/10/Decreto_Universitario_2021.pdf",
+      "https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/"
+    ],
+    "beneficio": "20% del arancel en carreras de pregrado según reglamento 2026. El reglamento histórico UPV establece 10% a 35% del arancel anual, con tope de $500.000; no mezclar esas condiciones históricas con el 20% de 2026.",
+    "requisitos_principales": "Estudiantes nuevos provenientes de otra región donde no exista sede Universidad del Alba; acreditar ciudad y región donde cursaron 4.º medio. El reglamento 2026 limita carreras/modalidades elegibles y exige condiciones académicas para renovar.",
+    "limites": "Año de referencia 2026. El registro original atribuía por error el beneficio a Universidad de Las Américas y aportaba fechas 2026 sin evidencia; ambas fechas se dejan sin confirmar. No están confirmadas fechas de postulación/cierre, documentación adicional ni vigencia de una convocatoria abierta. No activar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": "Documento que acredite ciudad y región donde cursó 4.º medio; otros documentos y formulario: No especificado en la ficha 2026 consultada.",
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
