@@ -20514,7 +20514,7 @@
     "candidato": "432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399",
     "nombre": "Beca Municipal para Estudios Superiores Talcahuano",
     "institucion": "Municipalidad de Talcahuano",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -20640,13 +20640,44 @@
         "extractos": [
           "| Beca Municipal para Estudios Superiores Talcahuano (`432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399`) | [Ficha municipal de orientación para educación superior](https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior); [orientación y tramitación de beneficios sociales](https://web2026.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios); [descripción del apadrinamiento publicada por UCSC](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf) | El municipio describe orientación sobre beneficios estatales. La ficha de apadrinamiento identifica aporte privado anual de 22 UF para jóvenes de 13–21 años, con RSH y promedio sobre 5,5. | El apadrinamiento tiene patrocinio privado y una población que no equivale necesariamente a educación superior; la orientación estatal tampoco acredita una beca municipal general. Mantener la candidata sin trasladarle estas condiciones. |"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_TALCAHUANO_APADRINAMIENTO_2026_10_14.md",
+        "informe_sha256": "083420e7699c3057468b8fd08717ba63a764c50e1cb611b7f088d37b46734e11",
+        "extractos": [
+          "Candidata revisada: `432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399`, originalmente rotulada “Beca Municipal para Estudios Superiores Talcahuano”."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399",
+      "revisado": "2026-10-14",
+      "alcance": "Confirmación esencial del apoyo educativo municipal oficialmente denominado Proyecto Apadrinamiento Talcahuano / “Un niño, nuestro compromiso”. La correspondencia se apoya en la unidad municipal, el objetivo educativo, el apoyo económico y el perfil social descritos en fuentes oficiales; no certifica convocatoria abierta ni convierte el nombre histórico de la candidata en denominación oficial.",
+      "informe": "CONFIRMACION_ESENCIAL_TALCAHUANO_APADRINAMIENTO_2026_10_14.md",
+      "fuentes": [
+        "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/vinculacion-con-el-medio",
+        "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/06%20PLADECO%202024-2027%20%20I_MUNICIPALIDAD%20DE%20TALCAHUANO.pdf",
+        "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/CP%202024%20MUNICIPALIDAD%20DE%20TALCAHUANO.pdf",
+        "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/07%20-%20Convenios%20Celebrados.pdf"
+      ],
+      "beneficio": "Apoyo económico para favorecer continuidad y finalización de trayectorias educativas, gestionado mediante convenios con empresas. Monto, moneda de pago y periodicidad: no especificados en las fuentes oficiales consultadas.",
+      "requisitos_principales": "Estudiantes de 10 a 23 años, residentes en Talcahuano, con rendimiento académico destacado y alta vulnerabilidad socioeconómica. La fuente no publica umbral RSH ni promedio numérico; no se validan los valores históricos RSH 60% y NEM 5,0.",
+      "limites": "Nombre oficial normalizado desde Proyecto Apadrinamiento Talcahuano / “Un niño, nuestro compromiso”; la categoría histórica “beca de mantención” no se presenta como denominación oficial. Documentos requeridos, fechas, monto y periodicidad: no especificados. La página oficial indica que actualmente no hay cupos. Mantener inactiva; no publicar vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "16658e3c9dbbb7e11563ea1966d986ee7723be0a23fe14876830ff240c0c671b",
