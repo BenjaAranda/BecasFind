@@ -3568,7 +3568,7 @@
     ]
   },
   "RECONTRASTE_OFICIAL_ADICIONAL_2026_10_14.md": {
-    "sha256": "198e024bfb0522a7db280444651f3da0ea729fa4d5f0bf4b876049050c708ca7",
+    "sha256": "f861e1849dcc6ad1b21a5e6b6da84eae2d3449e74775497859eb81ce1ec7633c",
     "urls": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://admision.uct.cl/becas-y-creditos/",
@@ -3579,18 +3579,24 @@
       "https://mpinto.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf",
       "https://portal.inacap.cl/financiamiento-estudiantil/becas",
       "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte",
+      "https://victoriachile.cl/wp-content/uploads/2023/07/padem_2015.pdf",
+      "https://victoriachile.cl/wp-content/uploads/2023/11/Decreto_Reglamento_23_2099.pdf",
       "https://www.concepcion.cl/transparencia/documentos/actas_ord_2008_2012/ACTA_060-2010.pdf",
       "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
       "https://www.imo.cl/sistemas/sitioweb/actas/114_0.pdf",
       "https://www.imo.cl/sistemas/sitioweb/actas/1230_1491.pdf",
+      "https://www.municipioiquique.cl/files/1439",
+      "https://www.municipioiquique.cl/servicios/programas-sociales.html",
       "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf",
       "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf",
       "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf",
       "https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/",
       "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
       "https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/",
       "https://www.talca.cl/?p=26627",
-      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2021.pdf"
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2021.pdf",
+      "https://www.ventanillaunicasocial.gob.cl/ficha/109/beca-integracion-territorial-educacion-superior"
     ]
   },
   "CONFIRMACION_ESENCIAL_SUBSIDIO_PENAFLOR_2026_10_14.md": {
@@ -3807,9 +3813,23 @@
     ]
   },
   "CONFIRMACION_ESENCIAL_UCSH_HISTORICA_2026_10_14.md": {
-    "sha256": "3cf00c9d34b0ac4c737154c0a6ff21b326dea66026061677c1e5cf7d70532570",
+    "sha256": "57eadb28350c633bb6170de09ff1de83367ac27c8d2bd9c184c15f1eeaa8a26d",
     "urls": [
       "https://zonaestudiantes.ucsh.cl/documentos/Instructivo_GraL_Ayudas_Estudiantiles_UCSH.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_BECAS_HUALPEN_IPDP_2022.md": {
+    "sha256": "c5d3c4caa29079c18829a5c2c1d1c800c8c69108c8c100d9f6cb49e9e2623636",
+    "urls": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_FOMENTO_REGIONAL_UDALBA_2026.md": {
+    "sha256": "9ef4a1e7f91bd359786ca1e17581728304679a09674743fff8e9c0e93dc2d215",
+    "urls": [
+      "https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/",
+      "https://www.udalba.cl/wp-content/uploads/2021/10/Decreto_Universitario_2021.pdf",
+      "https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf"
     ]
   }
 }
