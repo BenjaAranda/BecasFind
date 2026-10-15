@@ -933,6 +933,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
+        "extractos": [
+          "| Beca de Pasajes Viña del Mar (`b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`) | [Cuenta Pública municipal 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf); [decretos alcaldicios publicados](https://www.munivina.cl/publicacion-de-decretos-alcaldicios/) | La cuenta pública informa una línea denominada “Beca Educación Superior” con inversión agregada de $16.740.000 y 279 estudiantes beneficiados. El índice de decretos consultado muestra una ordenanza para una beca deportiva, no las bases de pasajes. | La cuenta no individualiza transporte, monto por persona ni requisitos de la candidata; el agregado no demuestra que sea la misma modalidad. Mantenerla abierta hasta localizar bases, decreto o nómina que la identifique. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -1236,6 +1243,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
+        "extractos": [
+          "| Beca Municipalidad de Valparaíso DIDECO y Beca de Transporte Valparaíso (`aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`) | [Cuenta Pública Gestión 2024 de la Municipalidad de Valparaíso](https://municipalidaddevalparaiso.cl/wp-content/uploads/2025/04/CUENTA-PUBLICA-GESTION-2024-IMV.pdf) | La cuenta pública incluye apartados de educación y balances de la Corporación Municipal; el extracto consultado no identifica una beca DIDECO ni una ayuda de transporte individual para educación superior. | La omisión en una cuenta pública no demuestra que no existan. Sin convocatoria, acto, nómina o ficha oficial específica, ambas candidatas permanecen abiertas y sus campos históricos no se ratifican. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -1381,6 +1395,13 @@
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
+        "extractos": [
+          "| Beca Municipalidad de Valparaíso DIDECO y Beca de Transporte Valparaíso (`aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`) | [Cuenta Pública Gestión 2024 de la Municipalidad de Valparaíso](https://municipalidaddevalparaiso.cl/wp-content/uploads/2025/04/CUENTA-PUBLICA-GESTION-2024-IMV.pdf) | La cuenta pública incluye apartados de educación y balances de la Corporación Municipal; el extracto consultado no identifica una beca DIDECO ni una ayuda de transporte individual para educación superior. | La omisión en una cuenta pública no demuestra que no existan. Sin convocatoria, acto, nómina o ficha oficial específica, ambas candidatas permanecen abiertas y sus campos históricos no se ratifican. |"
         ]
       }
     ],
@@ -9453,7 +9474,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Socioeconómica UBO (`1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`) | [Catálogo oficial de financiamiento y becas internas UBO](https://admision.ubo.cl/financiamiento/) | El catálogo actual identifica beneficios de matrícula, puntaje PAES, admisión directa en pedagogía, mujeres en ingeniería, trabajador vespertino y convenios institucionales; precisa cobertura, admisión y renovación para esas modalidades. | No identifica en la página una beca socioeconómica interna de 15–40% con las reglas de la ficha. El catálogo vigente no prueba inexistencia histórica; mantener la exclusión antigua sin ratificar y no copiar requisitos de otras becas. |"
         ]
@@ -20011,7 +20032,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal para Estudiantes de Educación Superior de Estación Central (`c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a`) | [Bases oficiales Talento Centralin@ 2026](https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf) | Las bases precisan una convocatoria municipal de 2026 con cierre el 16 de marzo y selección por comisión. | Es una modalidad de mérito distinta de la ficha genérica. No transferirle el monto ni el RSH/NEM atribuidos; mantener abierta hasta vincular la candidata con un instrumento propio. |"
         ]
@@ -20486,6 +20507,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
+        "extractos": [
+          "| Beca Municipal para Estudios Superiores Talcahuano (`432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399`) | [Ficha municipal de orientación para educación superior](https://web2026.talcahuano.cl/centro-de-servicios/jovenes/educacion-superior); [orientación y tramitación de beneficios sociales](https://web2026.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios); [descripción del apadrinamiento publicada por UCSC](https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf) | El municipio describe orientación sobre beneficios estatales. La ficha de apadrinamiento identifica aporte privado anual de 22 UF para jóvenes de 13–21 años, con RSH y promedio sobre 5,5. | El apadrinamiento tiene patrocinio privado y una población que no equivale necesariamente a educación superior; la orientación estatal tampoco acredita una beca municipal general. Mantener la candidata sin trasladarle estas condiciones. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -20821,7 +20849,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca de Mantención Educación Superior Hualpén (`d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`) y Beca Municipal Educación Superior Hualpén (`156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`) | [Cuenta Pública municipal 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf); [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf) | Las fuentes identifican un convenio de residencia con 10 cupos para egresados de liceos públicos que cumplan requisitos académicos de la Universidad de Chile, y orientación para beneficios estatales. | La residencia tiene población y cobertura distintas; la orientación estatal no confirma una beca de mantención propia. Mantener separadas las dos fichas, sin ratificar monto, RSH o NEM. |"
         ]
@@ -21090,6 +21118,13 @@
         "extractos": [
           "- `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313` — «Beca Municipal para Estudiantes de Educación Superior Valdivia».\n\nLa fuente documenta que el DAEM mencionó esa prestación en 2014, pero no demuestra que sea el mismo programa atribuido a DIDECO en las fichas. Tampoco proporciona bases, población elegible, importe, requisitos ni una relación con las fechas 2026 de los CSV. La similitud del nivel educativo y la comuna no basta para identificar ambos beneficios, y el pasaje no demuestra que las dos fichas sean duplicadas."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
+        "extractos": [
+          "| Beca Municipal para Estudiantes de Educación Superior Valdivia (`35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`) | [Convenio histórico Municipalidad de Valdivia–Universidad San Sebastián](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm); [Cuenta Pública municipal 2014](https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf) | La fuente municipal de 2005 confirma becas de arancel del 20% para funcionarios y sus hijos por convenio con USS. La cuenta 2014 describe apoyo local para postular/renovar beneficios estatales y no identifica una beca general propia en el extracto consultado. | Son modalidades con destinatarios y mecanismos distintos de la beca general de la candidata. Conservar la separación y mantenerla abierta hasta encontrar el acto o bases de esa ayuda exacta. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -21259,7 +21294,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal Educación Superior Puerto Montt (`ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`, `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`) | [Beneficios para estudiantes egresados de educación municipal](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/); [entrega 2025 a hijos e hijas de pescadores](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/) | El municipio describe el Incentivo PAES para egresados de establecimientos municipales en su primer año y el beneficio para hijos de pescadores, con población y requisitos propios. En 2024 ambos tenían montos publicados de $1.000.000 y $750.000; en 2025 el aporte para hijos de pescadores fue de $750.000. | Ninguna fuente vincula esos incentivos con las fichas genéricas de mantención DIDECO ni con sus reglas de libre disposición. Mantener ambas candidatas separadas y abiertas; no transferir monto, requisitos ni vigencia. |"
         ]
@@ -21404,7 +21439,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipalidad de Iquique / Beca Municipal Educación Superior (`b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`, `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`) | [Acta oficial de seleccionados del Fondo Beca Sixto Rojas Acosta 2021](https://www.municipioiquique.cl/files/1586) | El municipio publicó una convocatoria cultural con líneas de formación y proyección, evaluación por disciplina y trayectoria. | Es una beca artística, no evidencia de la supuesta ayuda general para educación superior. No descarta que exista otra línea; mantener los dos registros abiertos y no fusionarlos con Sixto Rojas. |"
         ]
@@ -29605,7 +29640,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal Enseñanza Superior Tierra Amarilla (`06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488`) | [Resolución de la Superintendencia del Medio Ambiente sobre la RCA del proyecto Mina Carola](https://transparencia.sma.gob.cl/doc/resoluciones/RESOL_EXENTA_SMA_2023/Res.%20Ex.%2080%202023%20Archivo%20Mina%20Carola.pdf) | La resolución cita un fondo anual de Beca Joven Talento financiado por el proyecto minero para estudiantes locales de carreras técnicas o universitarias relacionadas con minería. | La fuente identifica una beca empresarial sectorial, no la supuesta beca DIDECO de $300.000 y 100 cupos. No fusionar ni descartar la candidata municipal; falta el instrumento municipal propio. |"
         ]
@@ -33836,7 +33871,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Educación Superior Santa María (`9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519`) | [Entrega municipal de 30 becas deportivas](https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/) | El municipio confirma apoyos deportivos a niñas, niños, adolescentes y jóvenes para costos de entrenamiento y deporte. | No corresponde a la beca general superior descrita en el registro. Mantenerla abierta; el programa deportivo no acredita los datos de la ficha. |"
         ]
@@ -38158,7 +38193,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal de Educación Superior Toltén (`93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8`) | [Antecedente periodístico local de 2008](https://informaciontolten.blogspot.com/2008/07/) | Una publicación secundaria relata una beca municipal de estudios superiores ese año, para residentes con promedio sobre 5,0 y montos de $100.000 a $200.000 según evaluación socioeconómica y rendimiento. | No es fuente municipal primaria, es histórica y no acredita la ficha actual de 120 cupos ni incompatibilidad con becas MINEDUC. Se conserva solo como pista para localizar ordenanza, acta o nómina oficial; no confirma el expediente. |"
         ]
@@ -39805,7 +39840,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca de Mantención Educación Superior Hualpén (`d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c`) y Beca Municipal Educación Superior Hualpén (`156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a`) | [Cuenta Pública municipal 2022](https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf); [PLADECO 2026–2032](https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf) | Las fuentes identifican un convenio de residencia con 10 cupos para egresados de liceos públicos que cumplan requisitos académicos de la Universidad de Chile, y orientación para beneficios estatales. | La residencia tiene población y cobertura distintas; la orientación estatal no confirma una beca de mantención propia. Mantener separadas las dos fichas, sin ratificar monto, RSH o NEM. |"
         ]
@@ -40252,7 +40287,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca de Educación Superior Municipalidad de Peñaflor (`3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b`) | [Cuenta Pública municipal 2023](https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf); [orientación del Departamento Social](https://penaflor.cl/departamento-social/); [giftcards escolares 2025](https://penaflor.cl/municipalidad-de-penaflor-multiplica-inversion-y-entrega-mas-de-2-800-giftcards-para-apoyar-a-estudiantes/) | Las fuentes identifican tramitación municipal de beneficios JUNAEB/FUAS y giftcards para útiles, calzado y vestuario escolar de población escolar vulnerable. | Ninguna vincula estos apoyos con la ficha superior de $150.000, RSH 70% e instituciones acreditadas. Mantenerla abierta y no convertir prestaciones escolares o estatales en la beca candidata. |"
         ]
@@ -41154,7 +41189,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca de Educación Superior Río Claro (`8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1`) | [Publicación municipal sobre incentivo a mujeres emprendedoras](https://rioclaro.cl/20-mujeres-de-rio-claro-recibieron-importante-impulso-para-emprender/) | El municipio documenta un incentivo de $100.000 a participantes de un curso de emprendimiento del programa Mujeres Jefas de Hogar. | Es una prestación productiva con población y objetivo diferentes; no confirma ni descarta la beca de educación superior de $120.000 atribuida. Mantener abierta. |"
         ]
@@ -41381,7 +41416,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipal Educación Superior Puerto Montt (`ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`, `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`) | [Beneficios para estudiantes egresados de educación municipal](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/); [entrega 2025 a hijos e hijas de pescadores](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/) | El municipio describe el Incentivo PAES para egresados de establecimientos municipales en su primer año y el beneficio para hijos de pescadores, con población y requisitos propios. En 2024 ambos tenían montos publicados de $1.000.000 y $750.000; en 2025 el aporte para hijos de pescadores fue de $750.000. | Ninguna fuente vincula esos incentivos con las fichas genéricas de mantención DIDECO ni con sus reglas de libre disposición. Mantener ambas candidatas separadas y abiertas; no transferir monto, requisitos ni vigencia. |"
         ]
@@ -41505,7 +41540,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Municipalidad de Iquique / Beca Municipal Educación Superior (`b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`, `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`) | [Acta oficial de seleccionados del Fondo Beca Sixto Rojas Acosta 2021](https://www.municipioiquique.cl/files/1586) | El municipio publicó una convocatoria cultural con líneas de formación y proyección, evaluación por disciplina y trayectoria. | Es una beca artística, no evidencia de la supuesta ayuda general para educación superior. No descarta que exista otra línea; mantener los dos registros abiertos y no fusionarlos con Sixto Rojas. |"
         ]
@@ -43140,7 +43175,7 @@
       },
       {
         "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
-        "informe_sha256": "fb37ed33bb1f494c81b9997d95a7e4ea6769ed492c373f348c35ba1108d36af7",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "| Beca Concejo Municipal de Osorno para Educación Superior (`cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90`) | [Acta oficial del Concejo de Osorno](https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf) | El acta registra para 2024 veinte aportes de $500.000 a los primeros puntajes PAES entre participantes del preuniversitario municipal; incluye estudiantes de enseñanza media técnico-profesional y científico-humanista de establecimientos municipalizados. | La selección, el monto y la cohorte no coinciden con los $180.000 anuales, RSH 60% y NEM 5,0 atribuidos a la ficha. Acredita una modalidad diferente, no descarta otra línea histórica. Mantener abierta. |"
         ]
@@ -43922,6 +43957,13 @@
       {
         "informe": "RECONTRASTE_OFICIAL_LOTE_AMPLIO_2026_10_14.md",
         "informe_sha256": "16e076fa79bd2d5787a07c1d2c83809078996e77be347cb7812b8e12c4e36e50",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_PRIMARIO_PENDIENTES_2026_10_14.md",
+        "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
