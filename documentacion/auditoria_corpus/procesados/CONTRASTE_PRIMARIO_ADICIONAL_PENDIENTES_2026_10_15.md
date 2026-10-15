@@ -49,8 +49,9 @@ Candidata(s): `25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba`
 Candidata(s): `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131`.
 
 - [Convocatoria encontrada por homonimia, Comuna de General Lagos, Santa Fe, Argentina](https://cglagos.gob.ar/noticias/view/424)
+- [Municipio de General Lagos, Chile: apoyo a estudiantes de jardín infantil, 2019](https://portalvisviri.cl/noticias_zapatos_estudiantes.html)
 
-**Decisión:** La beca “Destino Aprender” encontrada pertenece a la Comuna de General Lagos de Santa Fe, Argentina. No es evidencia para la Municipalidad de General Lagos de Chile. Excluir esta referencia del expediente chileno; la candidata queda abierta a falta de fuente chilena.
+**Decisión:** La beca “Destino Aprender” encontrada pertenece a la Comuna de General Lagos de Santa Fe, Argentina. No es evidencia para la Municipalidad de General Lagos de Chile. En el portal oficial chileno, la noticia “Municipio en Apoyo a los estudiantes” (5 de julio de 2019) describe entrega de buzos, zapatillas y otros enseres a un jardín infantil de Visviri; no identifica apoyo monetario para educación superior. Excluir la referencia argentina y conservar la noticia local solo como contraste de una ayuda escolar de otro nivel. La candidata queda abierta a falta de fuente chilena específica que identifique la beca superior.
 
 ## Valdivia — dos candidatas de educación superior
 
