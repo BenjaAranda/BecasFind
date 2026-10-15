@@ -32565,9 +32565,9 @@
   },
   {
     "candidato": "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a",
-    "nombre": "Beca Municipal Educación Superior Pencahue",
+    "nombre": "Becas Estudiantiles Pencahue 2026 (nivel no especificado)",
     "institucion": "Municipalidad de Pencahue",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -32672,13 +32672,41 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_PENCAHUE_2026_2026_10_14.md",
+        "informe_sha256": "ffdd027523ef4b1acebf01d3f454c99a2fbd4d95a13bff74c2ac053ad2c4920e",
+        "extractos": [
+          "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a",
+      "revisado": "2026-10-14",
+      "alcance": "Resultados municipales de becas estudiantiles de Pencahue publicados para 2026. Nivel, cobertura y convocatoria abierta no especificados. La etiqueta original de educación superior no queda confirmada.",
+      "informe": "CONFIRMACION_ESENCIAL_PENCAHUE_2026_2026_10_14.md",
+      "fuentes": [
+        "https://mpencahue.cl/index.php/resultados-becas-2026/"
+      ],
+      "beneficio": "No especificado en la publicación; la fuente solo publica resultados de selección de becas estudiantiles.",
+      "requisitos_principales": "No especificados en la publicación de resultados.",
+      "limites": "La página municipal no identifica nivel educativo ni publica importe, modalidad, requisitos, documentos, calendario de postulación o cierre. No ratifica $150.000, remesa única, RSH 60%, NEM 5,0 ni exclusión por gratuidad del original. Confirmación limitada a resultados de 2026; no implica vigencia actual.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",

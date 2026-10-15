@@ -10706,8 +10706,8 @@
     "candidatos_origen": [
       "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a"
     ],
-    "nombre_de_referencia": "Beca Municipal Educación Superior Pencahue",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Becas Estudiantiles Pencahue 2026 (nivel no especificado)",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
@@ -10716,12 +10716,14 @@
         "institucion_original": "Municipalidad de Pencahue"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "PLADECO Pencahue devuelve 403; falta contenido específico legible. No descartar por bloqueo de acceso.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Resultados de becas estudiantiles municipales de Pencahue publicados para 2026; nivel no especificado.",
+    "beneficio_verificado": "No especificado en la página oficial de resultados.",
+    "requisitos_principales_verificados": "No especificados en la página oficial de resultados.",
+    "limites": "La nómina no identifica nivel educativo, importe, modalidad, requisitos, documentos ni calendario. Los datos originales de $150.000, RSH 60%, NEM 5,0, remesa única y exclusión por gratuidad no se ratifican. No implica convocatoria abierta.",
+    "fuentes_verificadas_del_expediente": [
+      "https://mpencahue.cl/index.php/resultados-becas-2026/"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_PENCAHUE_2026_2026_10_14.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },
