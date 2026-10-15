@@ -947,6 +947,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_ADICIONAL_COHORTE_PENDIENTE_2026_10_14.md",
+        "informe_sha256": "8d0d0c2ee5f67aee50b7ca798e40c7f29e0b7d29d79f772334645c71f8c3fa1a",
+        "extractos": [
+          "| Beca de Pasajes Viña del Mar (`b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`) | [Beca Presidente de la República, Municipalidad de Viña del Mar](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/); [becas escolares de SETREV](https://www.munivina.cl/noticias/hijos-de-socios-de-trabajadores-de-la-educacion-recibieron-beca-academica-de-parte-de-alcaldesa-virginia-reginato/); [Programa municipal de ayudas sociales](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/) | La página municipal describe el programa estatal BPR; SETREV refiere estímulos para hijos de socios de un sindicato. El programa municipal de ayudas sociales incluye apoyo para matrículas de enseñanza superior, pero no una ayuda de pasajes. Ninguna fuente identifica una beca general municipal de pasajes para educación superior. | Mantener abierta; distinguir ayuda social para matrícula de la candidata de transporte. |"
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -36215,6 +36222,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_ADICIONAL_COHORTE_PENDIENTE_2026_10_14.md",
+        "informe_sha256": "8d0d0c2ee5f67aee50b7ca798e40c7f29e0b7d29d79f772334645c71f8c3fa1a",
+        "extractos": [
+          "| Beca Municipal de Apoyo a la Educación Superior Camiña (`5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`) | [Proyecto Educativo Institucional de la Escuela de Camiña](https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf) | El documento de la escuela menciona una Beca Municipal para uniforme escolar. Corresponde a otro nivel educativo y no confirma el supuesto beneficio de educación superior. | Mantener abierta; no descartar una línea superior diferente ni trasladar el apoyo escolar. |"
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -36385,6 +36399,13 @@
         "informe_sha256": "33f7e0138063770c53fcf648943eb578e2f13d6a7985cb091f0064ff2416d596",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_ADICIONAL_COHORTE_PENDIENTE_2026_10_14.md",
+        "informe_sha256": "8d0d0c2ee5f67aee50b7ca798e40c7f29e0b7d29d79f772334645c71f8c3fa1a",
+        "extractos": [
+          "| Beca de Mantención Educación Superior Huara (`15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99`) | [Informe sobre actividad física y deportes de la Municipalidad de Huara](https://www.camara.cl/verDoc.aspx?prmID=161135&prmTipo=DOCUMENTO_COMISION) | El informe municipal describe una beca deportiva gestionada en 2018 para deportistas destacados. No la identifica como ayuda de mantención para estudios superiores. | Mantener abierta y separada; el antecedente deportivo no confirma ni descarta otra beca superior. |"
         ]
       }
     ],
@@ -44318,6 +44339,13 @@
         "informe_sha256": "0aeeef7f7ecb53383a3dfa3fbdf51be0663710b843984c25b617bd54d912d499",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_OFICIAL_ADICIONAL_COHORTE_PENDIENTE_2026_10_14.md",
+        "informe_sha256": "8d0d0c2ee5f67aee50b7ca798e40c7f29e0b7d29d79f772334645c71f8c3fa1a",
+        "extractos": [
+          "| Beca Municipal Educación Superior Talca (`49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`) | [Cuenta Pública municipal de Talca 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf); [preuniversitario municipal 2026](https://www.talca.cl/?p=26627) | La Cuenta Pública identifica BPR e Indígena como becas JUNAEB coordinadas por DAEM. La noticia de 2026 trata preparación PAES gratuita para estudiantes de liceos municipales. Ambas fuentes son programas distintos; no acreditan la beca general de mantención atribuida a la candidata. | Mantener pendiente; no trasladar beneficio ni requisitos de JUNAEB o del preuniversitario. |"
         ]
       }
     ],
