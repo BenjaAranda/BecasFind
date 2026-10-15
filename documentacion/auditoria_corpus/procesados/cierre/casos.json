@@ -39974,7 +39974,7 @@
     "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
     "nombre": "Beca de Mantención Educación Superior Hualpen",
     "institucion": "Municipalidad de Hualpen",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
@@ -40134,7 +40134,28 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
+      "revisado": "2026-10-14",
+      "alcance": "Beca de mantención conjunta Municipalidad de Hualpén–Universidad de Chile descrita en el PADEM 2023; evidencia de programa planificado, no acredita adjudicaciones ni continuidad posterior.",
+      "informe": "CONFIRMACION_ESENCIAL_HUALPEN_PADEM_2023_2026_10_14.md",
+      "fuentes": [
+        "https://legalpython.com/municipalidades/hualpen/padems/PADEM_2023.pdf"
+      ],
+      "beneficio": "Beca de mantención conjunta entre Universidad de Chile y Municipalidad de Hualpén. Monto y periodicidad no especificados.",
+      "requisitos_principales": "Alumnos de la educación municipal de Hualpén; el convenio contempla ingreso especial a carreras con PSU desde 600 puntos. La fuente no confirma que ese puntaje sea condición de asignación de la beca.",
+      "limites": "PADEM 2023; copia consultada en archivo externo y sin copia municipal localizada en esta revisión. El monto original de $200.000, RSH 60%, NEM 5,0, documentos, calendario, cierre 2026 y continuidad vigente no quedan confirmados. No equiparar con la segunda candidata general de Hualpén ni activar.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",

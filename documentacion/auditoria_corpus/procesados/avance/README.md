@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 14 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 34 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 506 confirmación esencial: quedan 49 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 14 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 33 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 507 confirmación esencial: quedan 48 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 15 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 11 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -85,7 +85,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | bloque34_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
 | bloque35_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
 | bloque36_muni.csv | 10 | 10 | 0 | 10 | 0 | 0 | 0 | 0 |
-| bloque37_muni.csv | 10 | 10 | 3 | 7 | 0 | 0 | 0 | 3 |
+| bloque37_muni.csv | 10 | 10 | 2 | 8 | 0 | 0 | 0 | 2 |
 | bloque38_muni.csv | 9 | 9 | 2 | 7 | 0 | 0 | 0 | 2 |
 | bloque5_docs.csv | 15 | 15 | 0 | 15 | 0 | 0 | 0 | 0 |
 | bloque5_muni.csv | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 |
