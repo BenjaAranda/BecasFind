@@ -10985,5 +10985,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f0c9572600ee6cde88eba8f498d66d00ecf129ff379842ce655675431d3a63d1",
+    "revisado": "2026-10-15",
+    "alcance": "Reglas esenciales de la Beca Rectoría UNAP conforme al artículo 26 del reglamento institucional 2026; no certifica convocatoria abierta ni adjudicación individual.",
+    "informe": "CONFIRMACION_ESENCIAL_UNAP_Beca_Rectoria_2026.md",
+    "fuentes": [
+      "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9448&ig=97&m=3"
+    ],
+    "beneficio": "Beca anual o semestral, total o parcial, para el arancel; porcentaje y período individual determinados por resolución según el caso.",
+    "requisitos_principales": "Admisión regular CRUCH; no acceder a otra beca/beneficio del reglamento; rendimiento sobresaliente; vulnerabilidad comprobada, inclusión por discapacidad o situación multifactorial excepcional. Nuevos: NEM 6,0. Antiguos: 100% de asignaturas aprobadas en el semestre/año previo. Requisitos generales: estudiante regular de pregrado, duración formal, postulación FUAS, sin título profesional/licenciatura y RSH hasta 70%.",
+    "limites": "No especificado: porcentaje individual, límite específico RSH del 60% alegado, convocatoria/cupos, documentos específicos y fechas exactas. Art. 4 establece como requisito general estar dentro del 70% más vulnerable; no confirma el 60% de la ficha. El reglamento permite beca parcial o total y postulación anual en fechas informadas por DGAE. No activar ni presentar como convocatoria abierta.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
