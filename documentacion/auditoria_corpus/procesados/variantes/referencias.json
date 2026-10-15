@@ -1383,17 +1383,7 @@
       "regiones"
     ],
     "conciliacion": null,
-    "descarte": {
-      "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
-      "revisado": "2026-10-06",
-      "motivo": "Convenios familiares de instituciones concretas no acreditan descuento Familiar universal UCSH.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
-    }
+    "descarte": null
   },
   {
     "candidato": "61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4",

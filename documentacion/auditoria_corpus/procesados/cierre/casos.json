@@ -11283,7 +11283,7 @@
     "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
     "nombre": "Beca Familiar UCSH",
     "institucion": "Universidad Católica Silva Henriquez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
@@ -11476,23 +11476,40 @@
         "extractos": [
           "Candidata: `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` (Beca Familiar UCSH).\n\nLa ficha institucional enumera beneficios como Beca Colegio Salesiano, Excelencia Complementaria, Deportista Destacado y Trabajador Vespertino; la convocatoria 2026–2027 de Beca Don Bosco publica descuento de 10% a 50% por evaluación socioeconómica y rendimiento. Ninguna fuente consultada identifica una “Beca Familiar” ni permite elegir entre los porcentajes discrepantes de los registros históricos. Se conserva pendiente; no se sustituye por Don Bosco ni por descuentos de convenios.\n\nFuentes: [Becas y beneficios UCSH](https://www.ucsh.cl/becas-y-beneficios/) y [convocatoria Beca Don Bosco 2026–2027](https://www.ucsh.cl/actualidad/ucsh-abre-postulaciones-a-la-beca-don-bosco-2025-2026-conoce-los-requisitos-promedios-y-plazos-del-beneficio/)."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_UCSH_HISTORICA_2026_10_14.md",
+        "informe_sha256": "3cf00c9d34b0ac4c737154c0a6ff21b326dea66026061677c1e5cf7d70532570",
+        "extractos": [
+          "Candidata: `561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d` — «Beca Familiar UCSH», con dos registros originales que difieren en porcentaje (10% y 15%) y en parte de la población atribuida."
+        ]
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "DESCARTADO_EDITORIAL",
+    "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; monto; regiones",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
-      "revisado": "2026-10-06",
-      "motivo": "Convenios familiares de instituciones concretas no acreditan descuento Familiar universal UCSH.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
+      "revisado": "2026-10-14",
+      "alcance": "Existencia y reglas esenciales históricas documentadas por la UCSH en 2014; identidad y población corregidas a la Beca Universidad Católica Silva Henríquez para personal académico/de gestión y sus cónyuges e hijos. No certifica vigencia 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_UCSH_HISTORICA_2026_10_14.md",
+      "fuentes": [
+        "https://zonaestudiantes.ucsh.cl/documentos/Instructivo_GraL_Ayudas_Estudiantiles_UCSH.pdf"
+      ],
+      "beneficio": "Porcentaje de los derechos de matrícula y del arancel anual de pregrado; el porcentaje concreto no está especificado en el instructivo.",
+      "requisitos_principales": "Estudiante regular de pregrado; ser personal académico o de gestión UCSH, o cónyuge o hijo de ese personal.",
+      "limites": "Fuente primaria fechada 24/06/2014. No confirma convocatoria vigente en 2026. No respalda hermanos ni familiares de estudiantes/titulados en general. Porcentaje, documentos y fechas de convocatoria: no especificados.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
