@@ -56,6 +56,30 @@ La [página oficial del Departamento de Desarrollo Social](https://www.loespejo.
 
 **Decisión:** mantener `REQUIERE_ACLARACION` hasta localizar bases o un acto que vincule esta ficha con un beneficio monetario municipal. La página oficial reduce la ambigüedad del servicio prestado, pero no confirma la identidad financiera de la candidata.
 
+## Municipalidad de Puerto Montt — dos candidatas genéricas de educación superior
+
+**Candidatas:** `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` y `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`.
+
+La [convocatoria municipal de 2024](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/) identifica dos incentivos diferentes: Hijos e Hijas de la Pesca Artesanal, con $750.000 para estudiantes que acreditan el respaldo de un sindicato pesquero y requisitos académicos/documentales propios; e Incentivo PAES, con $1.000.000 para egresados de establecimientos municipales de Puerto Montt en su primer año, promedio mínimo PAES 485 y residencia comunal. Una [convocatoria municipal de 2016](https://www.puertomontt.cl/36-hijos-de-pescadores-artesanales-seran-favorecidos-con-beca-financiada-por-concejo/) confirma una cohorte anterior de hijos de pescadores con aporte de $60.000 mensuales por diez meses.
+
+Las dos candidatas abiertas atribuyen un apoyo general de libre disposición, RSH de hasta 60% y notas mínimas, sin asociarse a sindicato de pesca ni al Incentivo PAES de egresados municipales. Las fuentes oficiales confirman que existen programas locales de educación superior, pero no vinculan esas dos fichas con una modalidad concreta. **Decisión:** mantener ambas en aclaración y no fusionarlas: dos nombres similares no prueban que sean la misma beca ni que correspondan a los dos incentivos identificados.
+
+## Municipalidad de Viña del Mar — Beca de Pasajes
+
+**Candidata:** `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`.
+
+El [portal municipal de Servicio Social](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/) detalla la gestión de la Beca Presidente de la República y la Beca Indígena, ambas vinculadas a JUNAEB. Por separado, las [cuentas públicas de 2022](https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf) y [2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf) informan becas de educación superior para cientos de estudiantes; el registro institucional histórico las sitúa junto a beneficios de socios y sus familias, y la [cuenta municipal de 2011](https://www.munivina.cl/uploads/2014/07/20140707222948-cuenta-publica-2011.pdf) especifica que el aporte era para hijos de socios del Servicio de Bienestar. Son programas distintos de un subsidio comunal de pasajes para cualquier estudiante que se traslade fuera de Viña del Mar.
+
+**Decisión:** mantener la candidata abierta. No trasladar requisitos ni importes de JUNAEB o del beneficio para familias de socios; sigue faltando una base o acto específico del supuesto subsidio de transporte.
+
+## Municipalidad de Iquique — dos candidatas generales de educación superior
+
+**Candidatas:** `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` y `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`.
+
+La Municipalidad de Iquique publica una convocatoria específica a la [Beca Artística Sixto Rojas Acosta](https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta) y sus [bases oficiales](https://www.municipioiquique.cl/files/1439). La línea Proyección se dirige a personas de 18 a 28 años en educación superior o posgrado que desarrollen una disciplina artística; el aporte publicado es de $2.400.000 en una cuota, destinado a necesidades de esa disciplina. La fuente confirma esa modalidad y sus condiciones, pero no una beca general de mantención de DIDECO.
+
+Ambas candidatas genéricas atribuyen apoyo estudiantil más amplio y criterios socioeconómicos/académicos. La Beca Artística no es una identidad alternativa probada ni permite reemplazar sus datos: las disciplinas, edades, destino del dinero y proceso de convocatoria son propios. **Decisión:** mantener ambas abiertas y separadas; hace falta un acto o bases que vincule cada registro con una modalidad municipal concreta. La existencia de la Beca Artística no demuestra que las becas generales nunca existieran.
+
 ## Universidad Alberto Hurtado — Beca Vocación Social
 
 **Candidata:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.
