@@ -41,3 +41,39 @@ Ninguna de esas fuentes identifica una beca general de pasajes para estudiantes 
 ## Resultado de este anexo
 
 Se contrastaron cinco candidatas en cuatro grupos. Ninguna quedó confirmada ni descartada: la evidencia establece diferencias con programas oficiales cercanos, pero no prueba una identidad común ni una falsedad positiva. No se modificó el archivo fuente de becas. Para cerrar estos expedientes hace falta localizar bases, decreto o acto oficial que vincule cada candidata exacta con su modalidad, o un documento oficial que contradiga expresamente su existencia.
+
+## UC Temuco — “Beca Intercultural UCT”
+
+**Candidata:** `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`.
+
+La [página oficial de Becas y Créditos UCT](https://admision.uct.cl/becas-y-creditos/) distingue beneficios estatales, becas JUNAEB y beneficios UC Temuco. Para estos últimos dirige a Bienestar Estudiantil y nombra Beca Matrícula de Honor y Beca Personal Consagrado; también publica una Beca Deportiva UC Temuco, con población y cobertura propias. No se encontró en el expediente público la denominación “Beca Intercultural” ni el descuento del 20% para estudiantes indígenas que afirma la ficha.
+
+**Decisión:** pendiente. La fuente prueba que la institución entrega beneficios y becas, pero no la identidad de esta candidata ni sus requisitos o monto. No trasladar criterios de Beca Indígena JUNAEB ni de Beca Deportiva.
+
+## Universidad de Concepción — “Beca de Arancel UdeC”
+
+**Candidata:** `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`.
+
+La [página oficial de beneficios UdeC](https://admision.udec.cl/beneficios/) expone becas identificadas por nombre y decreto, sus requisitos y coberturas. Entre otras, Beca Enrique Molina Garmendia requiere egreso reciente, puntaje PAES, NEM y situación socioeconómica; publica 36 cupos anuales y prestaciones determinadas. La lista también contiene becas de residencia, deportivas, por carrera, mérito y mantención. No se identifica la beca general que la ficha describe como “principal beneficio institucional”, de 50–100% según evaluación socioeconómica.
+
+La fuente oficial sirve para contrastar becas UdeC concretas, pero no acredita que la candidata sea la Beca Enrique Molina ni otra modalidad nombrada. **Decisión:** pendiente; no reasignar coberturas, RSH, requisitos o cupos de programas diferentes.
+
+## Universidad de La Frontera — “Beca de Apoyo Socioeconómico UFRO”
+
+**Candidata:** `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997`.
+
+El [catálogo oficial UFRO 2027](https://admision.ufro.cl/becas-y-beneficios/) separa becas de mérito UFRO, beneficios ministeriales, mantención JUNAEB y becas UFRO con nombre propio. La [lista oficial de becas de arancel](https://admision.ufro.cl/becas-y-beneficios/becas-de-arancel-de-carrera/) detalla beneficios estatales y sus criterios. La ficha genérica de “Beca de Apoyo Socioeconómico UFRO”, con 60% RSH y monto variable, no está identificada como una de las modalidades descritas.
+
+**Decisión:** pendiente. No convertir una evaluación socioeconómica o la existencia de becas internas en evidencia de una beca específica con esos requisitos.
+
+## Universidad Alberto Hurtado — “Beca Vocación Social”
+
+**Candidata:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.
+
+La [página oficial UAH de Becas y Beneficios 2026](https://admision.uahurtado.cl/becas-y-beneficios/) publica becas de excelencia y beneficios socioeconómicos de arancel con denominaciones y condiciones propias, entre ellas Beca Alberto Hurtado y Complementaria al CAE. La candidata atribuye a “Vocación Social” un descuento de 30% para carreras de ciencias sociales, educación y humanidades, NEM 5,5 y compromiso comunitario; la fuente no enlaza ese nombre o esos criterios con las modalidades publicadas.
+
+**Decisión:** pendiente. No sustituir la candidata con otra beca UAH por compartir objetivo social.
+
+## Resultado ampliado
+
+Este anexo queda vinculado a nueve candidatas en total. Los catálogos institucionales ayudan a descartar la transferencia accidental de datos entre programas, pero no autorizan a convertir la falta de una denominación en evidencia de inexistencia histórica. El estado de estas nueve candidatas no cambia; se conservan identidad, campos y trazas originales hasta obtener un acto o ficha oficial específica.
