@@ -11052,5 +11052,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e",
+    "revisado": "2026-10-15",
+    "alcance": "Identidad corregida a Programa de Apoyo Integral (PAI) de la Universidad Alberto Hurtado; convocatoria 2024. Confirmación histórica; no acredita convocatoria ni vigencia en 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_UAH_PAI_2026_10_15.md",
+    "fuentes": [
+      "https://fen.uahurtado.cl/2023/noticias/convocatoria-estudiantes-de-pregrado-uah-unete-al-programa-de-apoyo-integral-2024/",
+      "https://derecho.uahurtado.cl/convocatorias/convocatoria-programa-de-apoyo-integral-pai-2024/"
+    ],
+    "beneficio": "Financiamiento parcial o total del arancel según necesidad socioeconómica; asignaciones mensuales y apoyo para proceso de titulación. Acompañamiento académico y actividades de desarrollo integral, incluido voluntariado. La fuente no publica porcentaje ni monto individual.",
+    "requisitos_principales": "Estudiante vigente de pregrado UAH; ubicarse en el 35% superior de su carrera/promoción; necesidad socioeconómica a analizar; no contar con gratuidad para la convocatoria 2024.",
+    "limites": "El nombre original “Beca Vocación Social UAH”, el 30% fijo, NEM 5,5 y restricción por facultades no están respaldados y se corrigen. La convocatoria consultada corresponde al ciclo 2024 y recibió postulaciones del 1 de agosto al 1 de septiembre de 2023. Documentos detallados y calendario actual: No especificado. No confirma vigencia ni apertura de postulación en 2026; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

@@ -1985,8 +1985,8 @@
     "candidatos_origen": [
       "83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e"
     ],
-    "nombre_de_referencia": "Beca Vocacion Social UAH",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Programa de Apoyo Integral (PAI) UAH — convocatoria 2024",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uah.csv",
@@ -1995,15 +1995,15 @@
         "institucion_original": "Universidad Alberto Hurtado"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024 distingue Beca Alberto Hurtado de primer año, Complementaria al CAE para cursos superiores, Patricio Cariola para Pedagogía para Profesionales y becas de mantención separadas; la complementaria exige CAE, 80% de aprobación y 30 créditos por semestre, por lo que no equivale a una ayuda socioeconómica genérica. El catálogo UAH de admisión 2027 enumera beneficios vigentes, pero no nombra la candidata ni acredita 30%, NEM 5,5 o participación comunitaria. La misión institucional y la omisión del catálogo no prueban identidad ni inexistencia histórica. Véase CONTRASTE_OFICIAL_5_CASOS_ABIERTOS_2026_10_13.md. Contraste oficial 14/10/2026: La página oficial de Admisión UAH para becas y beneficios 2026 identifica becas de excelencia, Talento Pedagógico, descuentos asociados a PAES y beneficios socioeconómicos con otras denominaciones. No identifica una “Beca Vocación Social” con 30% y NEM 5,5; tampoco permite descartar una modalidad distinta por omisión. La búsqueda no se usa como prueba de inexistencia; queda pendiente la fuente que vincule la ficha original con el beneficio y sus condiciones. Contraste oficial 14/10/2026: la página institucional de Becas y Beneficios 2026 describe, entre otras, Beca Talento Pedagógico: aporte de mantención por el primer año para estudiantes del Programa de Atracción de Talento Pedagógico que cursen pedagogía; no es el descuento de arancel del 30% con NEM 5,5 atribuido a esta ficha. También detalla descuentos de excelencia por PAES. La fuente no acredita la candidata ni prueba que no exista otra modalidad; mantener abierta. Véase CONTRASTE_INSTITUCIONAL_4_CANDIDATAS_2026_10_14.md.",
+    "alcance_verificado": "Programa de Apoyo Integral de la UAH, convocatoria 2024; postulación en agosto-septiembre de 2023. Identidad corregida desde el alias histórico “Beca Vocación Social UAH”.",
+    "beneficio_verificado": "Financiamiento parcial o total del arancel según necesidad; asignaciones mensuales y apoyo al proceso de titulación. Incluye acompañamiento y actividades de desarrollo integral.",
+    "requisitos_principales_verificados": "Estudiante vigente de pregrado UAH; 35% superior de carrera/promoción; necesidad económica; sin gratuidad para el ciclo 2024.",
+    "limites": "El 30% fijo, NEM 5,5 y restricción a facultades del original no aparecen en la convocatoria oficial y quedan corregidos. Los montos individuales y documentos detallados son No especificado. Confirmación histórica; vigencia actual no evaluada. No activar.",
     "fuentes_verificadas_del_expediente": [
-      "https://admision.uahurtado.cl/becas-y-beneficios/",
-      "https://derecho.uahurtado.cl/noticias/convocatoria-programa-de-apoyo-integral-de-fundacion-mar-abierto/"
+      "https://fen.uahurtado.cl/2023/noticias/convocatoria-estudiantes-de-pregrado-uah-unete-al-programa-de-apoyo-integral-2024/",
+      "https://derecho.uahurtado.cl/convocatorias/convocatoria-programa-de-apoyo-integral-pai-2024/"
     ],
-    "informe_esencial": "RECONTRASTE_OFICIAL_COHORTE_2026_10_14.md",
+    "informe_esencial": "CONFIRMACION_ESENCIAL_UAH_PAI_2026_10_15.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },
