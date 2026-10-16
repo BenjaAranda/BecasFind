@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 15 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 31 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 511 confirmación esencial: quedan 44 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 16 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 31 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 511 confirmación esencial: quedan 44 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 13 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 11 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -27,7 +27,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_pucv.csv | 5 | 5 | 0 | 5 | 0 | 0 | 0 | 0 |
 | becas_santotomas.csv | 6 | 6 | 0 | 6 | 0 | 0 | 0 | 0 |
 | becas_uach.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
-| becas_uah.csv | 4 | 4 | 0 | 3 | 0 | 1 | 0 | 1 |
+| becas_uah.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_uai.csv | 5 | 5 | 0 | 4 | 1 | 0 | 0 | 0 |
 | becas_uandes.csv | 8 | 8 | 0 | 8 | 0 | 0 | 0 | 0 |
 | becas_uautonoma.csv | 6 | 6 | 0 | 4 | 0 | 2 | 0 | 2 |
