@@ -88,6 +88,16 @@ La [oferta institucional UAH 2026](https://admision.uahurtado.cl/becas-y-benefic
 
 **Decisión:** mantener la exclusión histórica sin ratificar. Las fuentes establecen que hay otros beneficios UAH, pero no permiten confirmar esta identidad ni prueban que nunca existió una convocatoria histórica separada. No transferir nombres, porcentajes ni requisitos de otras becas. El detalle exacto del registro de 2012 está en [la publicación institucional histórica](https://www.uahurtado.cl/sin-categorizar/becas-para-estudiantes-de-la-uah/).
 
+## Municipalidad de Cochamó — Beca Municipal de Educación Superior
+
+**Candidata:** `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`.
+
+El expediente original atribuye a una beca DIDECO de 2026 un pago único de $200.000 para educación superior, RSH máximo 70%, NEM 5,0 y prioridad para sectores rurales aislados. El archivo municipal de 2017 conserva una noticia titulada [“Entrega de becas Fundación Desarrollo Cochamó FDC”](https://municochamo.cl/not2/); acredita la existencia histórica de una línea con ese nombre, pero no demuestra que sea la ayuda DIDECO de la candidata ni respalda sus campos actuales.
+
+Una [nota de prensa de julio de 2026](https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/) reporta un Aporte Municipal Estudiantil con $200.000 en la primera cuota, 34 estudiantes de enseñanza básica, media y superior, y dos pagos en el año. Para educación superior describe estudios presenciales fuera de la comuna y buen rendimiento; no publica RSH 70%, NEM 5,0 ni prioridad limitada a las localidades del original. La nota es secundaria y no sustituye el decreto, las bases o la publicación municipal del proceso.
+
+**Decisión:** no fusionar la antigua beca FDC con el aporte municipal reciente ni certificar la ficha DIDECO con base en prensa. Mantener abierta hasta obtener la fuente primaria de la asignación 2026 y determinar si ese acto identifica la candidata. Los importes, cuotas, destinatarios y vigencia de la ficha original requieren corrección si el instrumento oficial confirma que corresponde al aporte nuevo.
+
 ## Resultado y alcance
 
 Esta iteración aporta contraste documental adicional, pero no cambia estados: las fuentes específicas consultadas delimitan beneficios reales sin identificar suficientemente las fichas pendientes. El corte comprobado de `casos.csv` es de **45 casos abiertos: 31 `PENDIENTE_CONFIRMACION_COMPLETA` y 14 `EXCLUSION_HISTORICA_SIN_RATIFICAR`**. El archivo auxiliar `pendientes_esenciales_actuales.csv` tenía 44 filas y omitía la candidata UAH descrita arriba; quedó sincronizado con el inventario y ahora contiene 45. No se descartan ni fusionan registros por ausencia de evidencia.
