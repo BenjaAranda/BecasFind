@@ -98,6 +98,26 @@ Una [nota de prensa de julio de 2026](https://elhuemul.cl/2026/07/21/municipalid
 
 **Decisión:** no fusionar la antigua beca FDC con el aporte municipal reciente ni certificar la ficha DIDECO con base en prensa. Mantener abierta hasta obtener la fuente primaria de la asignación 2026 y determinar si ese acto identifica la candidata. Los importes, cuotas, destinatarios y vigencia de la ficha original requieren corrección si el instrumento oficial confirma que corresponde al aporte nuevo.
 
+## Camiña y Tierra Amarilla — modalidades oficiales distintas de las fichas generales
+
+### Municipalidad de Camiña
+
+**Candidata:** `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`.
+
+El [Proyecto Educativo Institucional de la Escuela de Camiña alojado en Mineduc](https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf) enumera una «Beca Municipal (Uniforme escolar)» entre las oportunidades del establecimiento y, separadamente, becas JUNAEB. Es una referencia directa a una ayuda municipal escolar, pero no identifica un aporte de mantención para educación superior ni respalda el 60% RSH, la nota mínima o el pago único de la candidata.
+
+**Decisión:** mantener abierta; la ayuda de uniforme no es una identidad probada de la beca de educación superior ni evidencia de que esta última no exista.
+
+### Municipalidad de Tierra Amarilla
+
+**Candidata:** `06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488`.
+
+La [Universidad de Atacama publica la Beca Caserones 2026](https://uda.cl/direccion-de-actividades-estudiantiles/beca-caserones-2026/), beneficio de mantención financiado por Caserones, con monto anual de $2.809.392 en diez cuotas y destinatarios de la Región de Atacama, priorizando Tierra Amarilla; incluye NEM mínimo 5,0 para estudiantes que ingresan a la educación superior. Esta fuente demuestra un beneficio relevante para estudiantes de la comuna, pero identifica otro otorgante, otro monto y otro calendario que la ficha municipal DIDECO, que afirma $300.000 en una cuota para 100 estudiantes.
+
+Una noticia sobre el [Preuniversitario Pedro Acevedo Gallardo 2026](https://tierramarillano.cl/2026/05/28/con-mas-de-100-estudiantes-y-profesores-de-la-universidad-de-atacama-comienza-la-5ta-edicion-del-preuniversitario-municipal-de-tierra-amarilla/) reporta una beca complementaria mensual de $30.000 para estudiantes de cuarto medio participantes, con RSH comunal hasta 40% y asistencia mínima; el artículo es de prensa, por lo que no se usa como evidencia primaria ni se traslada a la candidata de educación superior.
+
+**Decisión:** mantener abierta hasta localizar el acto municipal de la supuesta asignación de $300.000. No confundir la Beca Caserones ni el apoyo al preuniversitario con la beca DIDECO; tampoco descartar la candidata por esos programas distintos.
+
 ## Resultado y alcance
 
 Esta iteración aporta contraste documental adicional, pero no cambia estados: las fuentes específicas consultadas delimitan beneficios reales sin identificar suficientemente las fichas pendientes. El corte comprobado de `casos.csv` es de **45 casos abiertos: 31 `PENDIENTE_CONFIRMACION_COMPLETA` y 14 `EXCLUSION_HISTORICA_SIN_RATIFICAR`**. El archivo auxiliar `pendientes_esenciales_actuales.csv` tenía 44 filas y omitía la candidata UAH descrita arriba; quedó sincronizado con el inventario y ahora contiene 45. No se descartan ni fusionan registros por ausencia de evidencia.
