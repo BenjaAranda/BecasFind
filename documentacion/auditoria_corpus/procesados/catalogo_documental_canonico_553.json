@@ -4156,15 +4156,16 @@
     "alcance_verificado": null,
     "beneficio_verificado": null,
     "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024, páginas 179–180: UFRO distingue matrícula, PROENTA, olimpiadas y alimentación para estudiantes sin BAES. Asesorar la acreditación socioeconómica Mineduc no acredita una beca institucional genérica; la práctica deportiva no demuestra por sí sola financiamiento deportivo. Falta: Fuente específica de la beca deportiva y de apoyo socioeconómico descritas en los originales. No reemplazar apoyo económico por asesoría o servicios.",
+    "limites": "DEMRE Admisión 2024, páginas 179–180: UFRO distingue matrícula, PROENTA, olimpiadas y alimentación para estudiantes sin BAES. Asesorar la acreditación socioeconómica Mineduc no acredita una beca institucional genérica; la práctica deportiva no demuestra por sí sola financiamiento deportivo. Falta: Fuente específica de la beca deportiva y de apoyo socioeconómico descritas en los originales. No reemplazar apoyo económico por asesoría o servicios. Recontraste oficial 16/10/2026: la DDE UFRO publica becas institucionales nominadas y ayudas por carrera; la Red de Donatarios describe apoyos con requisitos propios. La FAQ institucional indica que no hay becas internas para cubrir arancel, pero esto no descarta por sí solo ayudas de mantención. Ninguna fuente vincula inequívocamente la ficha genérica con un programa ni confirma RSH 60%, monto variable o periodicidad; no trasladar reglas de otros apoyos. Véase RECONTRASTE_UFRO_APOYO_SOCIOECONOMICO_2026_10_16.md.",
     "fuentes_verificadas_del_expediente": [
       "https://dde.ufro.cl/beneficios-estudiantiles/arancel/",
       "https://dde.ufro.cl/beneficios-estudiantiles/docs-bienestar-estudiantil/",
       "https://dde.ufro.cl/beneficios-estudiantiles/mantencion/",
       "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/",
-      "https://dde.ufro.cl/wp-content/uploads/2024/09/Preguntas-frecuentes-beneficios-estudiantiles.pdf"
+      "https://dde.ufro.cl/wp-content/uploads/2024/09/Preguntas-frecuentes-beneficios-estudiantiles.pdf",
+      "https://dde.ufro.cl/beneficios-estudiantiles/red-de-donatarios/"
     ],
-    "informe_esencial": "RECONTRASTE_OFICIAL_COHORTE_2026_10_14.md",
+    "informe_esencial": "RECONTRASTE_UFRO_APOYO_SOCIOECONOMICO_2026_10_16.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },
