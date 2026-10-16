@@ -28,6 +28,10 @@ Se revisaron fuentes institucionales específicas de UCT, ENAC, Talca, Victoria,
 | Beca Municipal Estudiantil Putre (`3e4673bc5453`) | La búsqueda en el dominio institucional no recuperó una ficha específica ni acto que vincule la beca con educación superior. | Mantener pendiente; no convertir la ausencia de resultados en descarte. |
 | Beca de Educación Superior Río Claro (`8630387a7f9c`) | El portal municipal describe programas sociales, entre ellos [DIDESO](https://rioclaro.cl/dideso/), subsidios y coordinación educativa, sin individualizar esta beca. | No hay vínculo oficial individual con la candidata. Mantener pendiente y no inferir que el programa no existe. |
 | Beca Municipal de Educación Superior Romeral (`5ab3468f5021`) | La búsqueda en el dominio municipal no recuperó bases o ficha específica utilizable. | Mantener pendiente hasta que una fuente oficial individualice el programa. |
+| Beca Educación Superior Santa María (`9ce906481d31`) | La búsqueda dirigida en el dominio institucional no recuperó una ficha específica utilizable. | La ausencia de resultados no prueba inexistencia. Mantener pendiente. |
+| Beca Municipal de Enseñanza Superior Tierra Amarilla (`06b82c37a522`) | La búsqueda dirigida en el dominio institucional no recuperó bases específicas utilizables. | No se confirma ni se descarta por búsqueda negativa. Mantener pendiente. |
+| Beca Municipal de Educación Superior Timaukel (`f6544cfccaf4`) | La búsqueda exacta recuperó un sitio comercial ajeno a la municipalidad, sin relación con el programa; no se encontró una página oficial municipal específica en el resultado. | El resultado ajeno se excluye. La falta de ficha encontrada no prueba inexistencia; mantener pendiente. |
+| Beca Municipal de Educación Superior Toltén (`93aef50ce30d`) | La búsqueda dirigida en el dominio institucional no recuperó ficha o bases específicas utilizables. | Mantener pendiente sin inferir inexistencia. |
 
 ## Resultado operativo
 
