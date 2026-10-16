@@ -118,6 +118,28 @@ Una noticia sobre el [Preuniversitario Pedro Acevedo Gallardo 2026](https://tier
 
 **Decisión:** mantener abierta hasta localizar el acto municipal de la supuesta asignación de $300.000. No confundir la Beca Caserones ni el apoyo al preuniversitario con la beca DIDECO; tampoco descartar la candidata por esos programas distintos.
 
+## Contraste adicional — ENAC, UCT, Talca y Victoria
+
+### CFT ENAC — cinco candidatas
+
+La [página institucional de ENAC](https://enac.cl/) anuncia para Admisión 2027 una beca de matrícula a costo cero y remite a sus opciones de financiamiento. Ese beneficio de ingreso no acredita las cinco fichas históricas de Apoyo Familiar, Convenio Empresas, Deportiva, Titulado y Vocación de Servicio; no se atribuyen requisitos ni porcentajes del anuncio a esos candidatos. La página de [Admisión](https://enac.cl/admision/) y la de [atención estudiantil](https://enac.cl/estudiantes/atencion-estudiantil/) describen orientación y beneficios estatales, pero no las modalidades históricas individuales.
+
+**Decisión:** conservar abiertas las cinco exclusiones históricas sin ratificar. La oferta 2027 confirma que ENAC ofrece beneficios de admisión actuales, pero no permite inferir que alguna de las fichas antiguas sea la misma modalidad ni que las cinco nunca hayan existido.
+
+### Universidad Católica de Temuco — Beca Intercultural
+
+El [catálogo oficial UCT de becas de movilidad](https://internacional.uct.cl/becas/) identifica convocatorias concretas, entre ellas Experiencia Global en Equipo y Líderes Globales, con propósito internacional y condiciones propias. Esto no coincide con la ficha histórica, que atribuye 20% de descuento de arancel a estudiantes de pueblos originarios, con acreditación CONADI. Las actividades, becas de movilidad y programas académicos interculturales de la UCT no verifican ese descuento.
+
+**Decisión:** conservar la aclaración. No se encontró una fuente primaria que identifique el beneficio exacto ni que confirme su porcentaje, público y requisitos; el catálogo de movilidad tampoco prueba su inexistencia histórica.
+
+### Municipalidades de Talca y Victoria
+
+La [Cuenta Pública de Talca 2020](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf) identifica la Beca Residencia Indígena como beneficio JUNAEB y detalla la labor municipal de difusión y tramitación. El [programa municipal de Talca de 2026](https://www.talca.cl/?p=26627) es un preuniversitario gratuito para estudiantes de liceos municipales que preparan la PAES. Ninguna de esas modalidades es una beca general municipal de mantención para educación superior, y no confirma el registro pendiente.
+
+En Victoria, la municipalidad informa que la [Beca de Excelencia CMPC de 2025](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/) se dirige a estudiantes de enseñanza media de zonas alejadas y entrega $300.000 anuales; también documenta becas rurales CMPC para enseñanza media en [2024](https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion). Son apoyos privados para enseñanza media, distintos de la ficha municipal general de educación superior. La Cuenta Pública municipal de 2024 documenta por separado beneficios JUNAEB de enseñanza básica y media.
+
+**Decisión:** mantener ambos expedientes abiertos. Se identificaron servicios y becas oficiales con alcance distinto, pero no se acreditó la identidad de la beca general histórica ni se probó su inexistencia. No trasladar montos, requisitos ni otorgantes.
+
 ## Resultado y alcance
 
 Esta iteración aporta contraste documental adicional, pero no cambia estados: las fuentes específicas consultadas delimitan beneficios reales sin identificar suficientemente las fichas pendientes. El corte comprobado de `casos.csv` es de **45 casos abiertos: 31 `PENDIENTE_CONFIRMACION_COMPLETA` y 14 `EXCLUSION_HISTORICA_SIN_RATIFICAR`**. El archivo auxiliar `pendientes_esenciales_actuales.csv` tenía 44 filas y omitía la candidata UAH descrita arriba; quedó sincronizado con el inventario y ahora contiene 45. No se descartan ni fusionan registros por ausencia de evidencia.
