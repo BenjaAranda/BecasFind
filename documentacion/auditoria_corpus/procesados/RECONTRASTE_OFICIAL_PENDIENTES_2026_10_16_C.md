@@ -1,4 +1,4 @@
-# Recontraste oficial de candidatas abiertas — 17 de octubre de 2026
+# Recontraste oficial de candidatas abiertas — 16 de octubre de 2026
 
 Se consultaron páginas, cuentas públicas y documentos publicados por municipalidades. Las fuentes que describen becas estatales, apoyos escolares o beneficios de otra población se conservaron como contexto; no se usaron para confirmar ni descartar una ficha de educación superior con identidad distinta.
 
@@ -41,6 +41,30 @@ Las páginas municipales encontradas describen la coordinación de las becas Pre
 Fuentes: [calendario municipal de becas JUNAEB 2013–2014](https://muniromeral.cl/romeral/?p=3466), [noticias municipales de Romeral](https://muniromeral.cl/romeral/?author=2&paged=9).
 
 Estado: abierta; no se trasladan datos de becas estatales o apoyos escolares.
+
+## Huara — `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99`
+
+Ayuda Mineduc publica una Beca de Mantención para la Educación Superior (BMES) nacional: aporte referencial de $207.950 hasta en 10 cuotas, para estudiantes incluidos en la última resolución JUNAEB, matriculados en una institución reconocida y con un beneficio de arancel Mineduc o Comisión Ingresa. La candidata se atribuye a la Municipalidad de Huara y agrega RSH 70%, NEM 5,0 y asignación municipal anual. La fuente confirma la existencia de la BMES nacional, pero no vincula esta candidata con ella ni descarta una línea municipal aparte; el corpus ya conserva una ficha JUNAEB con ese nombre. No fusionar sin prueba de modalidad/convocatoria común.
+
+Fuente: [Ayuda Mineduc — BMES](https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes).
+
+Estado: abierta; resolver si el nombre del registro es una atribución errónea de la BMES o una beca local diferente.
+
+## Tierra Amarilla — `06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488`
+
+La Universidad de Atacama documenta la Beca Caserones 2026, de mantención para estudiantes de educación superior con énfasis en Tierra Amarilla, con reglas y cobertura propias. SCM Carola publica por separado becas para estudiantes de pueblos originarios de la comuna. Son beneficios institucionales/empresariales, no acreditan la supuesta asignación DIDECO de $300.000, 100 cupos, RSH 60% y NEM 5,0. Tampoco prueban que una línea municipal distinta no exista.
+
+Fuentes: [Beca Caserones 2026 — Universidad de Atacama](https://uda.cl/direccion-de-actividades-estudiantiles/beca-caserones-2026/), [SCM Carola — Becas Jóvenes de Pueblos Originarios 2026](https://scmcarola.cl/scm-carola-impulsa-la-formacion-de-jovenes-de-pueblos-originarios-de-la-comuna-de-tierra-amarilla/).
+
+Estado: abierta; no transferir condiciones de las becas externas a la candidata municipal.
+
+## Camiña — `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`
+
+Un proyecto educativo institucional de una escuela de Camiña alojado en el servidor del Ministerio de Educación menciona una “Beca Municipal” para uniforme escolar, junto a beneficios JUNAEB. Esto acredita un apoyo escolar de alcance diferente, no la beca DIDECO de educación superior descrita por la candidata. La fuente no permite concluir que esta última no exista.
+
+Fuente: [Proyecto Educativo Institucional, Escuela de Camiña, servidor MINEDUC](https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf).
+
+Estado: abierta; el instrumento municipal de educación superior sigue sin identificarse.
 
 ## Resultado de esta tanda
 

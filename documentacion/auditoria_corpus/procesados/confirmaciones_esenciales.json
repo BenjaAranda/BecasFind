@@ -11074,5 +11074,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed",
+    "revisado": "2026-10-16",
+    "alcance": "Identidad y reglas esenciales de la Beca de Integración Territorial (BIT) para residentes de Juan Fernández; proceso 2026 cerrado, sin confirmar vigencia futura.",
+    "informe": "CONFIRMACION_ESENCIAL_BIT_JUAN_FERNANDEZ_2026_10_16.md",
+    "fuentes": [
+      "https://ayudamineduc.cl/ficha/beca-integracion-territorial-bit",
+      "https://www.chileatiende.gob.cl/fichas/10498-hogares-y-residencia-insular"
+    ],
+    "beneficio": "18,7 UTM anuales en 10 cuotas para mantención y 3,73 UTM para traslado en 2 cuotas, según Ayuda Mineduc para Juan Fernández. No convertir UTM a pesos.",
+    "requisitos_principales": "Residencia familiar en Juan Fernández; cursar educación superior reconocida por el Estado fuera de la localidad, en programa sin oferta local; RSH hasta 80%; al menos 50% de asignaturas aprobadas para postular. NEM 5,0 para egresados de 4.º medio. Renovación requiere aprobar todas las asignaturas cursadas.",
+    "limites": "La fuente consultada no especifica lista de documentos ni próximo calendario. Postulación proceso 2026 cerró el 4 de febrero de 2026. Excluye titulados, estudios a distancia/semipresenciales y posgrado. La ficha original confundió proveedor, monto, RSH y calendario; se conserva sin cambios en originales.jsonl. Mantener estado inactivo.",
+    "fecha_inicio": "2025-12-01",
+    "fecha_cierre": "2026-02-04",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

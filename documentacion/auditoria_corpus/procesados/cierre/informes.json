@@ -1,4 +1,22 @@
 {
+  "CONTRASTE_OFICIAL_15_10_2026_CONTINUACION.md": {
+    "sha256": "887dac2a7e4a30df9efc992b68137dcfdfc06f606f4cb81688f0dc6808154c54",
+    "urls": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+      "https://admision.uct.cl/educacion-parvularia/",
+      "https://admision.ufro.cl/becas-y-beneficios/",
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/mantencion/",
+      "https://digital.inacap.cl/bienvenida/",
+      "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
+      "https://victoriachile.cl/departamentos-y-direcciones/dideco/departamento-social/",
+      "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
+      "https://www.uautonoma.cl/content/uploads/2024/01/Aprueba-Reglamento-de-Becas-y-Creditos.pdf",
+      "https://www.uautonoma.cl/ualumni/convenios-y-beneficios/"
+    ]
+  },
   "REVISION_TANDA_COMPLEMENTARIA_10_12_2026.md": {
     "sha256": "27c648e87f9eb0f775df0bf21c8445cbce0ad559b2e3f3fb4ef53089b1c4c681",
     "urls": [
@@ -4012,78 +4030,172 @@
       "https://www.uai.cl/admision/becas-y-aranceles/becas"
     ]
   },
-  "RECONTRASTE_PENDIENTES_FUENTES_PRIMARIAS_2026_10_16.md": {
-    "sha256": "e858e8eb70250d5849586212b9a3870649a16acaabe6089bfef3bfa8a321377f",
+  "CONTRASTE_OFICIAL_COMPLEMENTARIO_2026_10_15_B.md": {
+    "sha256": "5e354d82cd5bfb316a5391b11bb129ef0c9a5c2103590d1e31171971b253e855",
     "urls": [
-      "https://derecho.uahurtado.cl/convocatorias/convocatoria-programa-de-apoyo-integral-pai-2024/",
-      "https://fen.uahurtado.cl/2023/noticias/convocatoria-estudiantes-de-pregrado-uah-unete-al-programa-de-apoyo-integral-2024/",
-      "https://admision.udec.cl/beneficios/"
+      "https://admision.uahurtado.cl/becas-y-beneficios/",
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+      "https://admision.ubo.cl/financiamiento/",
+      "https://admision.uct.cl/becas-y-creditos/",
+      "https://admision.udec.cl/beneficios/",
+      "https://admision.ufro.cl/becas-y-beneficios/",
+      "https://admision.ufro.cl/becas-y-beneficios/becas-de-arancel-de-carrera/",
+      "https://enac.cl/admision/",
+      "https://enac.cl/estudiantes/atencion-estudiantil/",
+      "https://enac.cl/titulados/",
+      "https://innovacion.enac.cl/crea-enac-2024/",
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
+      "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ]
+  },
+  "CONTRASTE_FOCALIZADO_2026_10_15_D.md": {
+    "sha256": "9b667b8457522e800d39a7787c012961c6e92158397d95c39b81df63da43d80a",
+    "urls": [
+      "https://admision.udec.cl/beneficios/",
+      "https://admision.udec.cl/derecho/",
+      "https://www.bcn.cl/leychile/navegar?i=176953",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
+      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf",
+      "https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA_PUBLICA_2015.pdf",
+      "https://www.munivalpo.cl/transparencia/paginas/DIDECO/Presentaciones/DDPS_PRESENTACION_2015.pdf",
+      "https://www.portalvisviri.cl/",
+      "https://www.portalvisviri.cl/transparencia/tramites.html"
+    ]
+  },
+  "CONTRASTE_OFICIAL_INSTITUCIONAL_2026_10_15.md": {
+    "sha256": "30c74a3ccb83952b34fa3bfcc43b75e1d3fc590c6575a7e0671107b9aaf71918",
+    "urls": [
+      "https://admision.uct.cl/becas-y-creditos/",
+      "https://admision.udec.cl/beneficios/",
+      "https://ayudamineduc.cl/ficha/beca-integracion-territorial-bit",
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://enac.cl/admision/",
+      "https://enac.cl/estudiantes/",
+      "https://internacional.uct.cl/beca/beca-experiencia-global-en-equipo-2026-programa-de-voluntariado-misionero-intercontinental-pvmi/",
+      "https://municochamo.cl/daem1/",
+      "https://municochamo.cl/llamado-a-concurso/",
+      "https://penaflor.cl/inscripcion-beca-curso-piloto/",
+      "https://penaflor.cl/municipalidad-de-penaflor-multiplica-inversion-y-entrega-mas-de-2-800-giftcards-para-apoyar-a-estudiantes/",
+      "https://posgrado.uct.cl/programa/estudios-interculturales/",
+      "https://rioclaro.cl/dideso/",
+      "https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion/",
+      "https://victoriachile.cl/wp-content/uploads/2025/07/Cuenta-Publica-2024-Municipalidad-de-Victoria.pdf",
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
+      "https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/",
+      "https://www.municipioiquique.cl/files/1439",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/noticias/hijos-de-socios-de-trabajadores-de-la-educacion-recibieron-beca-academica-de-parte-de-alcaldesa-virginia-reginato/",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf"
+    ]
+  },
+  "CONTRASTE_OFICIAL_COHORTE_RESTANTE_2026_10_15.md": {
+    "sha256": "7daad7aafd1dfbc789a29dd512488cb4608accf0e5cd9f5bd547bef8836bef45",
+    "urls": [
+      "https://admision.uct.cl/becas-y-creditos/",
+      "https://admision.udec.cl/beneficios/",
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
+      "https://tramites.penaflor.cl/",
+      "https://www.municipioiquique.cl/files/1439",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-complementario-beca-presidente-de-la-republica/",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/"
+    ]
+  },
+  "CONTRASTE_MUNICIPAL_2026_10_15_EVIDENCIA_ADICIONAL.md": {
+    "sha256": "a9c931ff4f482fa064a7351f157ac7f26a700eab14b8df43dc859e51477e1e03",
+    "urls": [
+      "https://municochamo.cl/",
+      "https://scmcarola.cl/scm-carola-impulsa-la-formacion-de-jovenes-de-pueblos-originarios-de-la-comuna-de-tierra-amarilla/",
+      "https://www.bcn.cl/leychile/navegar?i=176953",
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf",
+      "https://www.portalvisviri.cl/"
+    ]
+  },
+  "CONTRASTE_OFICIAL_COMPLEMENTARIO_2026_10_15_C.md": {
+    "sha256": "a7bde9368b20c327b953e70eb486507f8aafae3b8fb59419b83db882243bf560",
+    "urls": [
+      "https://ayudamineduc.cl/ficha/beca-integracion-territorial-bit",
+      "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/",
+      "https://municipalidaddevalparaiso.cl/becas/",
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
+      "https://www.municipioiquique.cl/files/1439",
+      "https://www.municipioiquique.cl/servicios/programas-sociales.html",
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+      "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf"
     ]
   },
   "RECONTRASTE_ADICIONAL_FUENTES_OFICIALES_2026_10_16.md": {
     "sha256": "c1d010918ba35b59c1c1d448bfd01bc50b5584eaf2d5f3d9ee0a3a340d4f75cf",
     "urls": [
-      "https://www.uai.cl/admision/becas-y-aranceles/becas",
       "https://admision.uautonoma.cl/becas-y-creditos/",
       "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
-      "https://dae.ubo.cl/becas/becas-ubo/",
       "https://admision.ubo.cl/financiamiento/",
+      "https://dae.ubo.cl/becas/becas-ubo/",
       "https://dde.ufro.cl/beneficios-estudiantiles/arancel/",
-      "https://www.portalvisviri.cl/",
-      "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf",
+      "https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
       "https://muniromeral.cl/romeral/?p=3466",
-      "https://rioclaro.cl/",
+      "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/",
       "https://penaflor.cl/programas-de-educacion/",
       "https://penaflor.cl/wp-content/uploads/2025/11/LIBRO-PRESUPUESTO-2026.pdf",
+      "https://rioclaro.cl/",
       "https://www.bcn.cl/leychile/navegar?i=176953",
-      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2016.pdf",
-      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
-      "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/",
-      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
-      "https://www.talca.cl/?p=26627",
       "https://www.municipioiquique.cl/files/1439",
-      "https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
+      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2016.pdf",
+      "https://www.portalvisviri.cl/",
+      "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf",
       "https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/",
-      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/"
+      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+      "https://www.talca.cl/?p=26627",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
     ]
   },
   "RECONTRASTE_OFICIAL_BLOQUE_2026_10_16.md": {
     "sha256": "e20744d50e574d1163ad8ec762442e60f8033b2441969dde68018b03cd7be5db",
     "urls": [
-      "https://admision.ubo.cl/financiamiento/",
-      "https://admision.udec.cl/beneficios/",
-      "https://concepcion.cl/subvenciones-municipales-2026/",
-      "https://dae.ubo.cl/becas/becas-ubo/",
-      "https://dae.ubo.cl/talentodae/",
-      "https://penaflor.cl/programas-de-educacion/",
-      "https://penaflor.cl/wp-content/uploads/2021/09/PRESUPUESTO_2018.pdf",
-      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
-      "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte",
-      "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
-      "https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion/",
-      "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
-      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/",
-      "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf",
-      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
-      "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf",
-      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
-      "https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/",
-      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf"
+      "https://admision.ubo.cl/financiamiento/](https://admision.ubo.cl/financiamiento/",
+      "https://admision.udec.cl/beneficios/](https://admision.udec.cl/beneficios/",
+      "https://concepcion.cl/subvenciones-municipales-2026/](https://concepcion.cl/subvenciones-municipales-2026/",
+      "https://dae.ubo.cl/becas/becas-ubo/](https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dae.ubo.cl/talentodae/](https://dae.ubo.cl/talentodae/",
+      "https://penaflor.cl/programas-de-educacion/](https://penaflor.cl/programas-de-educacion/",
+      "https://penaflor.cl/wp-content/uploads/2021/09/PRESUPUESTO_2018.pdf](https://penaflor.cl/wp-content/uploads/2021/09/PRESUPUESTO_2018.pdf",
+      "https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf](https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf",
+      "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte",
+      "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
+      "https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion/](https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion/",
+      "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
+      "https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/",
+      "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf](https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf",
+      "https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/",
+      "https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf",
+      "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/](https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+      "https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/](https://www.puertomontt.cl/municipalidad-abre-proceso-de-postulacion-para-apoyo-a-hijos-de-pescadores-artesanales/",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf"
     ]
   },
   "RECONTRASTE_FICHAS_INSTITUCIONALES_2026_10_16.md": {
     "sha256": "a725400f289f53b60162053b576d1ccede00c490d66ad6f1defd3d1ebd31e616",
     "urls": [
-      "https://admision.uct.cl/becas-y-creditos/",
-      "https://api.municipalidaddeestacioncentral.cl/storage/files/67021c15df955a36c8814167cf24d4cd.pdf",
-      "https://enac.cl/admision/",
-      "https://enac.cl/estudiantes/",
-      "https://enac.cl/titulados/",
-      "https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf",
+      "https://admision.uct.cl/becas-y-creditos/](https://admision.uct.cl/becas-y-creditos/",
+      "https://api.municipalidaddeestacioncentral.cl/storage/files/67021c15df955a36c8814167cf24d4cd.pdf](https://api.municipalidaddeestacioncentral.cl/storage/files/67021c15df955a36c8814167cf24d4cd.pdf",
+      "https://enac.cl/admision/](https://enac.cl/admision/",
+      "https://enac.cl/estudiantes/](https://enac.cl/estudiantes/",
+      "https://enac.cl/titulados/](https://enac.cl/titulados/",
+      "https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf](https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf",
       "https://tramites.munivalpo.cl/fondos",
-      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
-      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
-      "https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm",
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf](https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm",
       "https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA_PUBLICA_2011.pdf",
       "https://www.munivalpo.cl/transparencia/paginas/DIDECO/Presentaciones/DDPS_PRESENTACION_2015.pdf",
       "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/",
@@ -4106,48 +4218,47 @@
       "https://www.udd.cl/admision-postgrado/proceso-de-admision/"
     ]
   },
-  "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_16.md": {
-    "sha256": "3c0cd829050c7623c40933380ebccf5d33026a9540ca671d35fd8496e02f418c",
-    "urls": [
-      "https://pruebas.munielmonte.cl/?author=5",
-      "https://concepcion.cl/direccion-de-desarrollo-comunitario/",
-      "https://transparencia.concepcion.cl/programas/tramites/listado_tramites.php",
-      "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/",
-      "https://municochamo.cl/daem1/",
-      "https://enac.cl/admision/",
-      "https://enac.cl/"
-    ]
-  },
   "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_16_B.md": {
     "sha256": "1ad5110ee41c1fe4ee53a7fcc050f170b9eceeb8cca80212fe07052319f42196",
     "urls": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf",
+      "https://penaflor.cl/dideco/",
+      "https://penaflor.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf",
       "https://www.loespejo.cl/departamento-de-desarrollo-social/",
       "https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/",
-      "https://penaflor.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf",
-      "https://penaflor.cl/dideco/",
-      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf",
-      "https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf",
       "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/junio/sem1.htm",
-      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
-      "https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf",
-      "https://dae.ubo.cl/becas/becas-ubo/"
+      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf",
+      "https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf"
     ]
   },
-  "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_17.md": {
-    "sha256": "a202a5f4f2acd86a89dd3906179b479e553ad15c757bb9475f32d96521839a58",
+  "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_16_C.md": {
+    "sha256": "9626db66c334ff72dc7a66fac630c4532853ac089bd68e2553b08b9cdca2570b",
     "urls": [
-      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
-      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
-      "https://victoriachile.cl/departamentos-y-direcciones/dideco/departamento-social/",
-      "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
-      "https://victoriachile.cl/junaeb-entrego-235-computadores-a-estudiantes-de-victoria/",
-      "https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf",
       "https://imputre.cl/concursos/",
-      "https://www.portalvisviri.cl/",
-      "https://www.portalvisviri.cl/transparencia/tramites.html",
-      "https://www.portalvisviri.cl/transparencia/documentos/padem/PADEM%202011.pdf",
+      "https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf",
+      "https://muniromeral.cl/romeral/?author=2&paged=9",
       "https://muniromeral.cl/romeral/?p=3466",
-      "https://muniromeral.cl/romeral/?author=2&paged=9"
+      "https://scmcarola.cl/scm-carola-impulsa-la-formacion-de-jovenes-de-pueblos-originarios-de-la-comuna-de-tierra-amarilla/",
+      "https://uda.cl/direccion-de-actividades-estudiantiles/beca-caserones-2026/",
+      "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
+      "https://victoriachile.cl/departamentos-y-direcciones/dideco/departamento-social/",
+      "https://victoriachile.cl/junaeb-entrego-235-computadores-a-estudiantes-de-victoria/",
+      "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes",
+      "https://www.portalvisviri.cl/",
+      "https://www.portalvisviri.cl/transparencia/documentos/padem/PADEM%202011.pdf",
+      "https://www.portalvisviri.cl/transparencia/tramites.html",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
+      "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf",
+      "https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf"
+    ]
+  },
+  "CONFIRMACION_ESENCIAL_BIT_JUAN_FERNANDEZ_2026_10_16.md": {
+    "sha256": "d717e42bdedbade208f6c726a552f4739c27b9ee1955f2a80ab9fd6a942ed862",
+    "urls": [
+      "https://ayudamineduc.cl/ficha/beca-integracion-territorial-bit",
+      "https://www.chileatiende.gob.cl/fichas/10498-hogares-y-residencia-insular"
     ]
   }
 }
