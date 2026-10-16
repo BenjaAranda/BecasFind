@@ -11096,5 +11096,27 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c",
+    "revisado": "2026-10-16",
+    "alcance": "Beca UAlumni de postgrado; convocatoria institucional 2026; no confirma una beca para segunda carrera de pregrado ni continuidad futura",
+    "informe": "CONFIRMACION_ESENCIAL_UALUMNI_2026_10_16.md",
+    "fuentes": [
+      "https://postgrados.uautonoma.cl/2da-convocatoria-ualumni-2026/",
+      "https://postgrados.uautonoma.cl/content/uploads/2026/03/Bases-Becas-Ualumni-Postgrado-2026-1ra-convocatoria-.pdf"
+    ],
+    "beneficio": "50% o 100% del arancel de magíster o diplomado seleccionado; no incluye matrícula",
+    "requisitos_principales": "Ser egresado/licenciado de la Universidad Autónoma de Chile; postular en plazo; cumplir admisión del programa y condiciones de las bases",
+    "limites": "Reemplaza la afirmación original de 20% para segunda carrera de pregrado, que no quedó confirmada. Alcance comprobado solo para la convocatoria 2026. Próxima convocatoria y documentos no especificados. No confirma vigencia abierta; no activar.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
