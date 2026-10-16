@@ -16,6 +16,8 @@ La [oferta oficial de becas internas de la Universidad Autónoma](https://admisi
 
 **Decisión:** mantener ambos expedientes abiertos hasta obtener una fuente oficial específica para sus identidades y coberturas. No confundir Universidad Autónoma (UA) con Universidad Adolfo Ibáñez (UAI); el beneficio de hermanos del 10% de la primera no respalda la ficha UAI de 25%.
 
+La [convocatoria oficial UAlumni 2026](https://postgrados.uautonoma.cl/2da-convocatoria-ualumni-2026/) especifica que el programa cubre 50% o 100% del arancel de programas seleccionados de magíster y diplomado para licenciados/as de la Universidad Autónoma; la matrícula queda excluida. Este beneficio actual de postgrado es distinto del 20% para cursar una segunda carrera de pregrado atribuido a la candidata “Beca Alumni UA”. La convocatoria prueba que existe UAlumni, pero no identifica la modalidad de segunda carrera ni permite trasladarle nombre, porcentaje o elegibilidad.
+
 ## Universidad Católica de Temuco — Beca Intercultural
 
 **Candidata:** `5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578`.
