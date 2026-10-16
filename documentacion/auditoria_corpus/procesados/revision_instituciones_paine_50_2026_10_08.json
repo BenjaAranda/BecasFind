@@ -1,0 +1,712 @@
+{
+  "fecha": "2026-10-08",
+  "informe": "REVISION_INSTITUCIONES_PAINE_50_2026_10_08.md",
+  "respaldo": {
+    "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261008-191847.zip",
+    "archivos": 203,
+    "sha256": "2d589857010e42b9d708acb9803651b0f224b6aa7449dd14dc7fafcd12f36c3e"
+  },
+  "revisiones": [
+    {
+      "candidato": "1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página de financiamiento distingue apoyos para funcionarios públicos y otros destinatarios. No acredita el convenio empresarial genérico de 10–25% ni sus cargas familiares.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.aiep.cl/admision/becas-y-financiamiento/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0bd9d8195e850dcdb1145ca1b3306657e798774f8a93476610c37ca1ad557719",
+          "url_final": "https://www.aiep.cl/admision/becas-y-financiamiento/"
+        }
+      ]
+    },
+    {
+      "candidato": "ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La ficha de admisión diferencia BEA estatal y excelencia técnica. No prueba una beca ENAC propia de 25% con NEM 5,5.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La ficha de admisión no acredita el descuento familiar de 15% ni la regla de hermano en cualquier institución.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La admisión a carreras sociales no prueba la beca propia de 20% ni una carta de motivación como requisito de esa beca.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "No se acredita el descuento de 15% para segunda carrera dentro de ENAC. El convenio ENAC-UCSH tiene otra institución de destino.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La ficha de admisión no define beca deportiva propia de 20%. Requiere reglamento específico; no afirmar inexistencia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "No se acredita el rango empresarial 10–20% ni la extensión a cargas. El convenio Serbima para trabajadores ENAC es otro beneficio.",
+      "evidencia_consulta": [
+        {
+          "url": "https://enac.cl/admision/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "3eec57e27738d4ca4288e06104563de67bb9ba111abdb67c6f3238e5acd80317",
+          "url_final": "https://enac.cl/admision/"
+        }
+      ]
+    },
+    {
+      "candidato": "3d18e832d502f72a7526c52bcc01a709465772b0e57cdaacfc301ada94baf7ef",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La Beca de Articulación publicada es estatal para titulados técnicos superiores; no prueba 20% institucional para egresados de media técnico-profesional.",
+      "evidencia_consulta": [
+        {
+          "url": "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-de-articulacion",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "d07516f111a454107cd6ac1bcfcc2f9ab697099da2020d0327820f1239170e8c",
+          "url_final": "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-de-articulacion"
+        }
+      ]
+    },
+    {
+      "candidato": "34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La URL histórica respondió 404. Se conserva el caso; falta ficha de familiares de titulados y 15%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.inacap.cl/tportal/portales/tp4964b0e11802/becas-y-beneficios.html",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La orientación FUAS no prueba complemento interno de copago. La gratuidad no es una beca institucional IP Chile.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.ipchile.cl/becas-y-financiamiento/que-es-el-fuas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "a214970905e7f33d7c6ccbebeeeb8fdae85501ff8b97be24135b3de017285a46",
+          "url_final": "https://www.ipchile.cl/becas-y-financiamiento/que-es-el-fuas/"
+        }
+      ]
+    },
+    {
+      "candidato": "985da9da2d35c58583858216ff1a5e630386dfa27350ff6ea15d253aabd91e65",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Los convenios de continuidad describen descuentos en instituciones de destino distintas. No acreditan 15% para segunda carrera en IP Chile.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0c5a53963dc3ccb67167045508fbbe643bf868369c02548619c24958674bb8d3",
+          "url_final": "https://www.ipchile.cl/becas-y-financiamiento/convenios-de-continuidad-de-estudios/"
+        }
+      ]
+    },
+    {
+      "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El descuento para familia IPCHILE se refiere a cursos/diplomados. No prueba 10% en el arancel semestral de carreras para familiares directos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://campus.ipchile.cl/cursos-y-diplomados/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "35465e442f918ecf851c3778309e9e349c03eb8ed82c9bed22fcfa966aac1ee3",
+          "url_final": "https://campus.ipchile.cl/cursos-y-diplomados/"
+        }
+      ]
+    },
+    {
+      "candidato": "265188d05ce42208284cba01c4ef3c35ed8f99093de8e89d3e2d6ae535727dd3",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El catálogo de titulados distingue convenios individuales. No acredita rango empresarial genérico 10–25% para carreras IP Chile.",
+      "evidencia_consulta": [
+        {
+          "url": "https://circulotitulados.ipchile.cl/convenios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "26afc42fe35157959266b5aa4ddef2fb20b4b547f61bd331a20071b02aca61eb",
+          "url_final": "https://circulotitulados.ipchile.cl/convenios/"
+        }
+      ]
+    },
+    {
+      "candidato": "70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Los premios de ingreso y alimentación PUCV no prueban Premio al Mérito Deportivo ni 30% deportivo. No trasladar un premio de la UACh a PUCV.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.pucv.cl/pucv/futuros-estudiantes/becas-y-beneficios",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c6ab89eb886e8436985e7508e4062f9190132f318675819dff6ec8bfd7a1a94f",
+          "url_final": "https://www.pucv.cl/pucv/futuros-estudiantes/becas-y-beneficios"
+        }
+      ]
+    },
+    {
+      "candidato": "7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Respuesta servida con contenido ilegible; no se leyó una ficha de copago. Los documentos familiares del original tampoco permiten identificar este beneficio.",
+      "evidencia_consulta": [
+        {
+          "url": "https://tupuedes.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Contenido ilegible o insuficiente; sin ficha verificada",
+          "sha256": "d8fdcbe3ceb7b60ab362a4dc6dc2968d3e3b3c29f52725e715c5a319c1b6657f",
+          "url_final": "https://www.tupuedes.cl/web/wp-content/uploads/sites/28/2017/05/becas-y-beneficios.jpg"
+        }
+      ]
+    },
+    {
+      "candidato": "0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página distingue copago, mérito y otros programas. No acredita un descuento socioeconómico general 15–40% con RSH 60%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0abff730812ad243f385b4ba6c91ca6b6d7c7b6edcf290ee7fabe1a943f0a810",
+          "url_final": "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+        }
+      ]
+    },
+    {
+      "candidato": "f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página de becas no prueba 20% para segunda carrera de titulados ni renovación automática de esa modalidad.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0abff730812ad243f385b4ba6c91ca6b6d7c7b6edcf290ee7fabe1a943f0a810",
+          "url_final": "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+        }
+      ]
+    },
+    {
+      "candidato": "61c89463a41b047f3c0d9cdc29eb0511549fc9f907a9fc7f6388afc82fd836a4",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La URL redirige a contenido institucional sin ficha socioeconómica utilizable; no prueba hasta 50% de arancel.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.udd.cl/becas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c44d0ced6d792d9155addf45c77f3f969de3a87e51791f9bdb7f87004148f441",
+          "url_final": "https://www.udd.cl/"
+        }
+      ]
+    },
+    {
+      "candidato": "92e4ad7a0560c3a831af47c3412ee193c26746839a7b4fbc7e949183226b0c26",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El catálogo no vincula la condición de Alumni con 20% para una segunda carrera de pregrado.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.udd.cl/admision/becas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "78ab30f0d43f33e01bfd732bd4e38e166ee3f70b88d0eaac0fb3ef28d62b41dc",
+          "url_final": "https://www.udd.cl/admision-pregrado/becas/"
+        }
+      ]
+    },
+    {
+      "candidato": "e553144c6bf6ba33aed11e5686df067afdf6b8b07b621e2519997b7e7385953e",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La vía de Medicina para hijos de funcionarios establece admisión y cupos. No acredita descuento arancelario de 40%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://medicina.udd.cl/medicina-santiago/admision-directa/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "2ec8a126b31cc8de19b40d3571d9321968e630fc5372836091aaf0a5b4098701",
+          "url_final": "https://medicina.udd.cl/medicina-santiago/admision-directa/"
+        }
+      ]
+    },
+    {
+      "candidato": "635cf6ce0b82c6c433f06f0106aaf7517e423bc0b35ab1d61cd78675582db316",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El catálogo distingue programas de mérito; no acredita rango genérico empresarial 10–30% ni condiciones de cada convenio.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.udd.cl/admision/becas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "78ab30f0d43f33e01bfd732bd4e38e166ee3f70b88d0eaac0fb3ef28d62b41dc",
+          "url_final": "https://www.udd.cl/admision-pregrado/becas/"
+        }
+      ]
+    },
+    {
+      "candidato": "cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página presenta becas de carreras y mérito con requisitos específicos. No prueba un beneficio general DISE de 50–100% por evaluación social.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.udec.cl/beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "f52ef490fbdcaf2ba47d029a1ffdec6ca28bf34dcbfac53e948f1b4012c1892f",
+          "url_final": "https://admision.udec.cl/beneficios/"
+        }
+      ]
+    },
+    {
+      "candidato": "58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página de apoyo y becas no acredita 25% para deportistas seleccionados. El ingreso especial por talento no garantiza esa rebaja.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.admisionmayor.cl/becas-y-creditos",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "095144155e8c2611e001a86fbb32622b9b005adfbe55680aa2a140a1ab11a1e4",
+          "url_final": "https://www.admisionmayor.cl/becas-y-creditos"
+        }
+      ]
+    },
+    {
+      "candidato": "28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El nombre Espíritu Emprendedor designa el sistema de apoyo. No demuestra una beca de 20% para proyectos de emprendimiento.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.admisionmayor.cl/becas-y-creditos",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "095144155e8c2611e001a86fbb32622b9b005adfbe55680aa2a140a1ab11a1e4",
+          "url_final": "https://www.admisionmayor.cl/becas-y-creditos"
+        }
+      ]
+    },
+    {
+      "candidato": "2eb06d5d5510162226c3140cf27af430eda6469758dea7357132fdeee5e04bbb",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Mantención Regiones es un aporte en UF con requisitos propios; no equivale al descuento de arancel de 20% del original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "222d09b63c7ec1ea3811c3e86b2484a9e17ec73396a02d97b434016ff6d6368d",
+          "url_final": "https://www.uai.cl/admision/becas-y-aranceles/becas"
+        }
+      ]
+    },
+    {
+      "candidato": "eda6fbb494f175bb8f42a92153a7d68fe4ddd2890370d0ecb67f9f316fc7a9fd",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El portal consultado no proporciona ficha verificable de una beca UC propia de 50% con NEM 6,0 y percentil PAES.",
+      "evidencia_consulta": [
+        {
+          "url": "https://arancelesybeneficios.uc.cl/",
+          "consulta": "2026-10-08",
+          "metodo": "Contenido ilegible o insuficiente; sin ficha verificada",
+          "sha256": "b893d4584c90307345e6967877d6a59af6df6331518f5d51d53240175018dd71",
+          "url_final": "https://admision.uc.cl/financiamiento-y-matricula/"
+        }
+      ]
+    },
+    {
+      "candidato": "7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página separa Alberto Hurtado para ingreso y Complementaria al CAE para continuidad. Falta equivalencia del rótulo genérico y su supuesto máximo 40%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0aff44af8c0d020c83d1c93a883be7d1b2f96496dfa95eefd0a050b3f5c4290e",
+          "url_final": "https://admision.uahurtado.cl/becas-y-beneficios/"
+        }
+      ]
+    },
+    {
+      "candidato": "83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La beca para pedagogías y las becas de excelencia tienen criterios propios. No prueban Vocación Social de 30% para toda una facultad y NEM 5,5.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uahurtado.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "0aff44af8c0d020c83d1c93a883be7d1b2f96496dfa95eefd0a050b3f5c4290e",
+          "url_final": "https://admision.uahurtado.cl/becas-y-beneficios/"
+        }
+      ]
+    },
+    {
+      "candidato": "83d07b99691da9504f6e88798c1328e38a92c2fac793afcf88e0d3f94d6f7fc0",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La admisión deportiva puede bonificar puntaje. No acredita una beca arancelaria 30–50% ni selección por nivel regional/nacional.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.uai.cl/admision/como-postular/admision-directa-especial",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "395c504819c7351345c2cf3ba80e1d64f4f7227c2fff3146bd420a8813ad20d7",
+          "url_final": "https://www.uai.cl/admision/como-postular/admision-directa-especial"
+        }
+      ]
+    },
+    {
+      "candidato": "d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El catálogo de becas publicado no acredita 40% para hijos de funcionarios; requiere reglamento laboral o de becas específico.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "222d09b63c7ec1ea3811c3e86b2484a9e17ec73396a02d97b434016ff6d6368d",
+          "url_final": "https://www.uai.cl/admision/becas-y-aranceles/becas"
+        }
+      ]
+    },
+    {
+      "candidato": "1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página identifica beneficios por ingreso, carrera y convenios. No prueba beca socioeconómica general de 15–40% y RSH 60%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.ubo.cl/financiamiento/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "19eca5daf44847842a1bb9bc2d1734dae626d889fd8332861494d2d72c507690",
+          "url_final": "https://admision.ubo.cl/financiamiento/"
+        }
+      ]
+    },
+    {
+      "candidato": "ee4ccb1aa4a89edcfd46d1e017ee676f143f27985d44e9701a118d93e1bfdfaa",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Texto servido insuficiente para leer becas. Mantener el rótulo socioeconómico pendiente y no sustituirlo por beneficios de ingreso.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.ucsc.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Contenido ilegible o insuficiente; sin ficha verificada",
+          "sha256": "08e3224b78ad7610c76d9565f83a0dcd596b2b447e2a1f3354699bebb77d0ace",
+          "url_final": "https://admision.ucsc.cl/becas-y-beneficios/"
+        }
+      ]
+    },
+    {
+      "candidato": "2e9e62d5e80a0773c231c899e11a1f8a0c554377f78bff67ac2a75ac6fb0c866",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El instructivo publicado en 2024 lleva encabezado 2023 y define Excelencia Complementaria para beneficiarios BEA Mineduc. No demuestra equivalencia con la beca automática de 40% y NEM 5,8 del original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.ucsh.cl/assets/uploads/2024/01/Instructivos-Ayudas-Estudiantiles-ENERO-2024.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "33c17a6e78ce0eded28df3b549f6e672aac529f0ae4d92b443d8e37f47286fb7",
+          "paginas": 24,
+          "url_final": "https://www.ucsh.cl/assets/uploads/2024/01/Instructivos-Ayudas-Estudiantiles-ENERO-2024.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "Acceso directo bloqueado; el instructivo distingue programas y convenios. No confirma descuento de 15% por hermanos UCSH.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.ucsh.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "candidato": "5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "URL histórica inaccesible; Beca Indígena estatal y actividades interculturales no prueban rebaja propia de 20%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uct.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "5254ac468066e3edc4853385821173bc489dfd44d9e6acb0db1ce3f5ff20ef7e",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "URL histórica respondió 404. La diversidad geográfica de sedes no acredita beca regional propia de 20%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.udla.cl/becas-y-financiamiento/",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La FAQ describe almuerzo para seleccionados deportivos y alimentación asociada a actividad musical. No demuestra almuerzo y cena para cualquier estudiante vulnerable.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "8e2e72ad4159bf9a8a35c1074d7d4c88f8cfa0a85ecac5f5ca3a3a7f69d09dcd",
+          "url_final": "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+        }
+      ]
+    },
+    {
+      "candidato": "329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La ayuda para dificultades de alojamiento publicada es un préstamo de urgencia. No prueba cupo residencial o subsidio propio; la nómina histórica de residencia necesita reglamento de esa modalidad.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.upla.cl/desarrolloestudiantil/beneficios-estudiantiles-upla/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "2339703ec92b8f4d023fa15c8e3e94740cd04b1851a4d3cefb583a8ea9f9fd72",
+          "url_final": "https://www.upla.cl/desarrolloestudiantil/beneficios-estudiantiles-upla/"
+        }
+      ]
+    },
+    {
+      "candidato": "7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La fuente complementaria define residencia solidaria. Además, el catálogo Mineduc distingue Beca Estudiantil por hermanos/matrimonio; ninguna identifica automáticamente el apoyo monetario general del original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://webdae.uta.cl/index.php/beneficios-complementarios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "ad8a4db0cb7a11e2af22b5bd247ebbfb5f2debf6c79452373877ed79aef588a8",
+          "url_final": "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+        }
+      ]
+    },
+    {
+      "candidato": "cf5a13346643aa8078e67571c454f401da0f9bf79486ff2cd1eb543ede05b134",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El ingreso deportivo especial no prueba 25–50% del arancel. Se mantiene separado de las becas por admisión regular.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.uai.cl/admision/como-postular/admision-directa-especial",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "395c504819c7351345c2cf3ba80e1d64f4f7227c2fff3146bd420a8813ad20d7",
+          "url_final": "https://www.uai.cl/admision/como-postular/admision-directa-especial"
+        }
+      ]
+    },
+    {
+      "candidato": "b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "La página de becas no acredita 25% para hermanos. No atribuir el 10% de hermanos de otra universidad a la UAI.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "222d09b63c7ec1ea3811c3e86b2484a9e17ec73396a02d97b434016ff6d6368d",
+          "url_final": "https://www.uai.cl/admision/becas-y-aranceles/becas"
+        }
+      ]
+    },
+    {
+      "candidato": "e88f2512a40acfc5e28efc57cb4cf115b82da9989b89dd025fe7bded0b389112",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "URL histórica respondió 404. La beca interna de residencia recuperada es otro programa; no prueba rebaja general de arancel 15–50%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.uct.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "f0c9572600ee6cde88eba8f498d66d00ecf129ff379842ce655675431d3a63d1",
+      "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+      "hallazgo": "El reglamento 2025 diferencia Rectoría, manutención y emergencias. Rectoría exige desempeño y evaluación excepcional; no prueba equivalencia del rótulo Apoyo Institucional ni el rango 15–50%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9310&ig=92&m=2",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "1e0f54d4675e8c7642d5fe31a3e41f6732f2520dd2763e53f229dd3c25d07c0b",
+          "paginas": 18,
+          "url_final": "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_archivo&ia=9310&ig=92&m=2"
+        }
+      ]
+    },
+    {
+      "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.paine.cl/resultados-becas-educacion-superior-2025/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c0ecd15104034d0d09c0fecb37f847c2b510eb4f176921d5f9590cee4651ae0a",
+          "url_final": "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+        }
+      ]
+    },
+    {
+      "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
+      "estado": "CONFIRMADA_ESENCIAL",
+      "hallazgo": "Se confirma solo la convocatoria 2025. No se acredita RSH máximo 60%, promedio mínimo 5,0, $200.000, dos cuotas ni renovación en agosto. No se atribuyen requisitos del formulario de ingreso 2026 ni datos de prensa a esta convocatoria. Residencia exigida y documentación específica desconocidas.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.paine.cl/resultados-becas-educacion-superior-2025/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c0ecd15104034d0d09c0fecb37f847c2b510eb4f176921d5f9590cee4651ae0a",
+          "url_final": "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+        }
+      ]
+    },
+    {
+      "candidato": "7b32991aa64fc28ef4dc7f1df6a1aee4da3c366a0b257a738ac100a101bc5ee9",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La ficha de requisitos Cartagena 2025 acredita residencia cinco años, RSH 40–80%, matrícula, notas y ausencia de título. Falta beneficio primario de esa convocatoria; no trasladar importe de una entrega 2026.",
+      "evidencia_consulta": [
+        {
+          "url": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "c627b7f0919d1657265faf8ddeeb7add60ca6e71ad7556ab315195677f0e92ff",
+          "paginas": 2,
+          "url_final": "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El catastro UCSC 2026 distingue modalidades. No prueba equivalencia entre beca PAES y ayuda general de permanencia del candidato.",
+      "evidencia_consulta": [
+        {
+          "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "42d798fec88029e6e3f67741e4434f0cdf5f2b12a9179560d7b7d73917bbd863",
+          "paginas": 30,
+          "url_final": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "c14a2cd973b875eb0c2adbca23c5743f9b20feb7ac6a0b1fc8424cb4c78de870",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La web municipal anuncia Aporte Educación Superior 2026 y ceremonia de octubre. Confirma referencia institucional; no publica importe ni criterios. La página de Becas tiene campos de plantilla vacíos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.purranque.cl/?s=beca",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "8bc4d00b7b57990ab4db2f757886bcb71d16bcbd50ecd48fb2519feffaffcada",
+          "url_final": "https://www.purranque.cl/?s=beca"
+        }
+      ]
+    },
+    {
+      "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El apartado UFRO del catálogo Mineduc describe otros beneficios y servicios. No acredita rebaja deportiva 25–50% del candidato.",
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "1b8b1d4f3a0c0626d0dbb5bcf2d7492d3f79165ce0caf134c9cebb14fe5e4dbe",
+          "paginas": 398,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El apartado UFRO diferencia acompañamiento y orientación estatal. No acredita una beca interna general socioeconómica de arancel.",
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de ficha o apartados del texto servido",
+          "sha256": "1b8b1d4f3a0c0626d0dbb5bcf2d7492d3f79165ce0caf134c9cebb14fe5e4dbe",
+          "paginas": 398,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2024/11/Servicios-2025_19_11_24_compressed.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "revisado": "2026-10-01",
+  "files": [
+    {
+      "filename": "becas_cftenac.csv",
+      "sha256": "edf16d18f5ad28465c17865041f13e288cf29d30446f118a198f7af3fc212229",
+      "sha256_lf": "4bd698af510ff379922481e5d8a271d29c1b6110d615cd27002b7b20e8f99bc4",
+      "actions": [
+        {
+          "line": 2,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        },
+        {
+          "line": 3,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        },
+        {
+          "line": 4,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        },
+        {
+          "line": 5,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        },
+        {
+          "line": 6,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        },
+        {
+          "line": 7,
+          "kind": "close_description_before_url",
+          "url": "https://www.enac.cl/admision/becas-y-beneficios"
+        }
+      ]
+    },
+    {
+      "filename": "becas_ipchile.csv",
+      "sha256": "2bb0a696cb063a693fb6259b5a486077a24587152c9ccc13906691408374cc91",
+      "sha256_lf": "489fad2da92872a360d2fe675310e313a094b415e51a965eabe025719acacee5",
+      "actions": [
+        {
+          "line": 2,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        },
+        {
+          "line": 3,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        },
+        {
+          "line": 4,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        },
+        {
+          "line": 5,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        },
+        {
+          "line": 6,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        },
+        {
+          "line": 7,
+          "kind": "close_description_before_url",
+          "url": "https://www.ipchile.cl/admision/becas"
+        }
+      ]
+    },
+    {
+      "filename": "becas_uach.csv",
+      "sha256": "9321e5d0e550ef6e43ccc5e3fde95bf37d4fa32ea4265508d6a116f8fc11ba3e",
+      "sha256_lf": "64da84e5948af942783e0f55802cecb23ff6e224344822d34908441fdfcac4cb",
+      "actions": [
+        {
+          "line": 3,
+          "kind": "remove_empty_region_column"
+        },
+        {
+          "line": 4,
+          "kind": "remove_empty_region_column"
+        },
+        {
+          "line": 5,
+          "kind": "remove_empty_region_column"
+        }
+      ]
+    },
+    {
+      "filename": "becas_uai.csv",
+      "sha256": "c6266948f11127e1ed99d1003ccbdae11fa93a28bdacad203b6707f7f1ad9fe4",
+      "sha256_lf": "4e41b1ca15b84ffd1fbe7a9629366a6c5b1521a429266693a4085b7a57d65efc",
+      "actions": [
+        {
+          "line": 5,
+          "kind": "remove_empty_region_column"
+        }
+      ]
+    },
+    {
+      "filename": "becas_udla.csv",
+      "sha256": "b511b91fff9e5cd5486239af92b10ef2d2d99da7315d0362366ed340a902371b",
+      "sha256_lf": "f2d157672ecf213de06be44388c53641bb6bf34efd72a89fe15a212782803d6c",
+      "actions": [
+        {
+          "line": 4,
+          "kind": "remove_empty_region_column"
+        }
+      ]
+    },
+    {
+      "filename": "becas_uv.csv",
+      "sha256": "76ed738809b07d3fa1522690eb5d0be351bed392ea1039365ca0c26d2c49209a",
+      "sha256_lf": "014d1a9ab9010a29ade7a0ebed871016a3c5ad4f4397913eadabe8d86321c913",
+      "actions": [
+        {
+          "line": 5,
+          "kind": "remove_empty_region_column"
+        }
+      ]
+    },
+    {
+      "filename": "bloque24_muni.csv",
+      "sha256": "8833ae047564abe281df2bf47a11be3a26e7a0037e609f2a95acd553146ae792",
+      "sha256_lf": "99a4bd376ffa825ea83abae0f612672fe129086374ba37708ec6a026734cf8bf",
+      "actions": [
+        {
+          "line": 3,
+          "kind": "join_description_fragments"
+        }
+      ]
+    },
+    {
+      "filename": "bloque_muni_456.csv",
+      "sha256": "ebd3ec28d8bb8a902dd7ef6f91f58c0a5012370c5b154c06fb16a0d22f7a591a",
+      "sha256_lf": "df0e1074438188636c3c90dfaa05ceee6c211a322fbe723e14aec3e9df590384",
+      "actions": [
+        {
+          "line": 2,
+          "kind": "join_description_fragments"
+        },
+        {
+          "line": 3,
+          "kind": "join_description_fragments"
+        }
+      ]
+    },
+    {
+      "filename": "municipalidades_auditadas.csv",
+      "sha256": "fd55571def961dab2fb21fa48ab2e2eb244af02c3115f648c5e8b5e2a9d0d9a7",
+      "sha256_lf": "92043a1b2177c74bc37494cf3bae5dc90ddc1e7d21d5f8b04a3244026d0f42a4",
+      "actions": [
+        {
+          "line": 3,
+          "kind": "join_description_fragments"
+        }
+      ]
+    },
+    {
+      "filename": "municipalidades_bloque3.csv",
+      "sha256": "0863e239a1cea958fc78341741b747bcd6ef24ff93794ffd146d56b587377ac2",
+      "sha256_lf": "564295d5959192c74538037309617b5dfe11713e756406d2b236631bcabb3112",
+      "actions": [
+        {
+          "line": 2,
+          "kind": "join_description_fragments"
+        }
+      ]
+    }
+  ]
+}

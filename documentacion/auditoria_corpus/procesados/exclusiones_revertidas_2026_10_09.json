@@ -1,0 +1,36 @@
+[
+  {
+    "decision_anterior": {
+      "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+      "revisado": "2026-10-06",
+      "motivo": "La ficha consultada acredita alimentación para representación deportiva; no la beca general vulnerable del histórico ni compatibilidad BAES.",
+      "criterio": "PROGRAMA_DISTINTO",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
+      ]
+    },
+    "decision_actual": "CONFIRMADA_ESENCIAL",
+    "revisado": "2026-10-09",
+    "informe": "CONFIRMACIONES_MUNICIPALES_2026_10_09.md",
+    "motivo": "La respuesta oficial 2011 acredita la modalidad propia general que no acreditaba la ficha deportiva usada para excluirla."
+  },
+  {
+    "decision_anterior": {
+      "candidato": "7f5037292bf58c5621286521ad656c054990f6cf18515e4ff4ee028d055d10fa",
+      "revisado": "2026-10-06",
+      "motivo": "Mantención enumera programas distintos; no confirma apoyo de arancel universal hasta 40% ni RSH 60.",
+      "criterio": "IDENTIDAD_NO_ACREDITADA",
+      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
+      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "evidencia": [
+        "CONFIRMACION_ESENCIAL_INSTITUCIONES_52.md"
+      ]
+    },
+    "decision_actual": "CONFIRMADA_ESENCIAL",
+    "revisado": "2026-10-12",
+    "informe": "CONFIRMACION_ESENCIAL_UAH_TRABAJO_SOCIAL_2021_2026_10_12.md",
+    "motivo": "La fuente oficial individualiza la Beca Apoyo Socioeconómico de Trabajo Social 2021, confirma el arancel y requisitos principales; corrige la exclusión previa por falta de identidad."
+  }
+]

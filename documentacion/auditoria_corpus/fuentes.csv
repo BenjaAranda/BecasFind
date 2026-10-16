@@ -1,0 +1,388 @@
+url,status,final_url,content_sha256,error
+Beca Fomento Regional UAI con 20% de descuento del arancel para estudiantes con residencia familiar acreditada en regiones distintas a la Region Metropolitana. Incentiva la diversidad geografica en el campus. Documentos: certificado de residencia en region. matricula UAI. Renovable manteniendo calidad de alumno regular.,,,,ValueError
+Beca Fomento Regional UDLA con 20% de descuento para estudiantes de sedes regionales. Incentiva la diversidad geografica. Documentos: certificado de residencia en region. matricula. Renovable.,,,,ValueError
+Beneficio de Bienestar Estudiantil de la DAE UV que entrega apoyo economico a estudiantes con acreditacion socioeconomica vigente. Evaluado por el equipo de Asistentes Sociales de la Direccion de Asuntos Estudiantiles. Documentos: certificado RSH. informe social. cartola de alumno regular. Requiere pertenecer al 60% mas vulnerable. Renovacion anual con reevaluacion.,,,,ValueError
+Bono alimenticio UACh que entrega apoyo para alimentacion en casinos universitarios. Postulacion a traves de InfoAlumnos en Beneficios. Requiere acreditacion socioeconomica vigente de la DAE. Renovable semestralmente manteniendo calidad de alumno regular.,,,,ValueError
+CFT,,,,ValueError
+Los Hogares Estudiantiles UACh ofrecen alojamiento a bajo costo para estudiantes de otras localidades de la region o del pais. Gestionados por la DAE con reglamento de convivencia y criterios de seleccion. Postulacion via InfoAlumnos. Requiere acreditacion socioeconomica.,,,,ValueError
+Programa de Laborancia UACh para que estudiantes trabajen en unidades academicas o administrativas recibiendo retribucion economica. Horas compatibles con el horario academico. Postulacion via InfoAlumnos en Beneficios. Requiere acreditacion socioeconomica vigente.,,,,ValueError
+[OBLIGATORIO] Certificado de matricula o alumno regular; [OPCIONAL] Registro Social de Hogares,,,,ValueError
+diplomado o doctorado. Ponderación: 80% vulnerabilidad socioeconómica y 20% rendimiento académico.,,,,ValueError
+http://www.mranquil.cl/,200,http://www.mranquil.cl/,9e430e33a30090d3bfefb27879ede1e1bbeccb529d0e86fa8d053bf615a90c0d,
+https://admision.finis.cl/becas-y-beneficios/,200,https://admision.finis.cl/becas-y-beneficios/,938bc8e110939d2a3e9b4bf561c45787dbdc306b4eb01a82c18c8445010f67d3,
+https://admision.pucv.cl/beneficios/,,,,URLError
+https://admision.uahurtado.cl/becas-y-beneficios,200,https://admision.uahurtado.cl/becas-y-beneficios/,aa2b32321d49586abc728f985aa00b00c981b4c6480b37708928b0d499f32554,
+https://admision.uahurtado.cl/becas-y-beneficios/,200,https://admision.uahurtado.cl/becas-y-beneficios/,aa2b32321d49586abc728f985aa00b00c981b4c6480b37708928b0d499f32554,
+https://admision.uai.cl/becas-y-beneficios/,404,https://admision.uai.cl/becas-y-beneficios/,,HTTP no accesible
+https://admision.uandes.cl/becas,200,https://admision.uandes.cl/becas,e5d34e5fa77b01960e3e1bc9ab26378ac8f9d1736ee5d447a3863c372775360f,
+https://admision.uautonoma.cl/becas-y-creditos/becas-internas/,200,https://admision.uautonoma.cl/becas-y-creditos/becas-internas/,cbae2be5cd46a6df1a02095b04290af358976ee6bf3d3a734abfb0f1e22dd1b2,
+https://admision.ubiobio.cl/becas-y-beneficios/,,,,URLError
+https://admision.ubo.cl/becas-y-beneficios/,200,https://admision.ubo.cl/wp-content/uploads/2018/11/Becas-y-Beneficios.jpg,378102d88916a8a49f184f91ccfcbfc49c8805f952fb6ef09ad401e28eb60f4b,
+https://admision.ubo.cl/financiamiento/,200,https://admision.ubo.cl/financiamiento/,71b38b6aba053b586e2ef63e624459f3985efa200c98892623abc30d836f60c2,
+https://admision.ucentral.cl/becas-y-beneficios/,404,https://admision.ucentral.cl/becas-y-beneficios/,,HTTP no accesible
+https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/,200,https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/,9486f002b6e0839d3432d0c97d64aae4e8ac8a58535924d7e98ba3d7df91023e,
+https://admision.ucsc.cl/becas-y-beneficios/,200,https://admision.ucsc.cl/becas-y-beneficios/,6735536cb753a15d31ba913142185375a5fb4044c5c9b5300a0ecfa72a12a9a3,
+https://admision.ucsc.cl/becas/,200,https://admision.ucsc.cl/becas-y-financiamiento/,547079e0f25b0d86d4e9c95643a7dcba9427e2d88ef1167e4071e55ad66ce80c,
+https://admision.ucsh.cl/becas-y-beneficios/,,,,gaierror
+https://admision.uct.cl/becas-y-beneficios/,404,https://admision.uct.cl/becas-y-beneficios/,,HTTP no accesible
+https://admision.udd.cl/becas/,200,https://www.udd.cl/,6b478116a1f0fed17489932befb8f21db55e5fc2719e23e89900d8a453deac03,
+https://admision.udec.cl/becas-y-beneficios/,404,https://admision.udec.cl/becas-y-beneficios/,,HTTP no accesible
+https://admision.udla.cl/becas-y-financiamiento/,404,https://admision.udla.cl/becas-y-financiamiento/,,HTTP no accesible
+https://admision.udla.cl/becas/,200,https://admision.udla.cl/diurno/becas/,78688f6b2039cacfb0a2344ac7d6ae3e891f8a67e6e31f0f66f25659ee537caa,
+https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/,200,https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/,b8d044274640418d7ca8a8473ad6ac7d548953dd53c19c0d572751d373f878bc,
+https://admision.ufro.cl/becas-y-beneficios/,200,https://admision.ufro.cl/becas-y-beneficios/,795b260480d7eb6e5cfd6f9a5c6e0b94fd70f1d78c6be9c781a8d2804e00704f,
+https://admision.uft.cl/becas/,404,https://admision.finis.cl/becas/,,HTTP no accesible
+https://admision.ulagos.cl/becas/,200,https://admision.ulagos.cl/becasybeneficios/becas-ulagos/becas-de-arancel/,5bd39472c6101c382bd4c378d4e728cc5b1beee7636a363b8db264395f0d4fab,
+https://admision.umag.cl/?page_id=4095,200,https://admision.umag.cl/?page_id=4095,758588dc9cf4f8436895437c6084eddfd34a125173071056b61264662a28bf63,
+https://admision.umag.cl/becas/,200,https://admision.umag.cl/becas/,649637033dab2ca7e6ae18e34c4d8a1e431612d2ed6395152824e738eed4e51b,
+https://admision.unap.cl/becas/,,,,gaierror
+https://admision.upla.cl/becas-y-beneficios/,,,,gaierror
+https://admision.uss.cl/becas-y-financiamiento/,200,https://admision.uss.cl/becas-y-financiamiento,1635a47a326ae4c70380b13269f511c49f25b700003e61ffaa82a9504625b9a1,
+https://admision.uta.cl/becas/,404,https://admision.uta.cl/becas/,,HTTP no accesible
+https://admision.utalca.cl/becas/,200,https://admision.utalca.cl/becas/,80698a1ef78c866876045908c257dacd8d34f014e256db67bd7bf1f51d10089f,
+https://admision.uv.cl/becas-y-beneficios,200,https://admision.uv.cl/becas-y-beneficios,6b823d981ac9c36d9fb536f8153849c6b7252fa2d19350fdcfa59106105effa0,
+https://admision.uvm.cl/becas/,404,https://admision.uvm.cl/becas/,,HTTP no accesible
+https://alhue.cl/,,,,gaierror
+https://andacollochile.cl/,200,https://andacollochile.cl/,180a9744eccd8a5cdae42c1a93df4be77f5946979c57f5018109e08ca34039d1,
+https://arancelesybeneficios.uc.cl/,200,https://admision.uc.cl/financiamiento-y-matricula/,f4e0ccb19a05f8c18a1b995512ff861cc918b3c2a857d00e8080fe4b732d9a03,
+https://becasybeneficios.unab.cl/,200,https://simuladorbecas.unab.cl/,b9fa70cbcea5c8f054df81e77946ec8068cbccf873ac3abe07c495b1fdac0ece,
+https://carahue.cl/,200,https://carahue.cl/web/,c8c09470bdbfb841978162bf8ae4a40d2584150a79212fbd523372144d93d42b,
+https://cauquenes.cl/,200,https://www.cauquenes.cl/,dafd9d676ba0c1a70e81d8fafac9bf6c8504c94c4ab8e97f0c6cd1735e8c1761,
+https://chillanviejo.cl/,403,https://chillanviejo.cl/,,HTTP no accesible
+https://cisterna.cl/,200,https://cisterna.cl/,df27e857f0fea28812968c9b2755d11d371367beac4fcf804eb3b2ba94b14de6,
+https://cobquecura.cl/,200,https://municipalidadcobquecura.cl/,2064e214c6d3b926014eeb2ef07c085b3d61a27d1c9d578297ab8ae3ee2887aa,
+https://conchali.cl/,200,https://conchali.cl/,886a5a8e2da9e99853500bc77d317d1f7b328e37de62adac9885b611459d0632,
+https://concon.cl/,200,https://www.concon.cl/,82a1de2e803dd83bf47adaf9d711baea297d9ae84968a02ffe5c708d24709f0c,
+https://curacodevelez.cl/,200,https://curacodevelez.cl/web/,0f8aa5014236827162a00723d4190533445377a315be6bb95749d3436cd36ee2,
+https://curarrehue.cl/,200,https://curarrehue.cl/on/,6fd044d453ae6ec69696a6d6f1f87161c94da0a6202f8482b30299d72e64b8de,
+https://curepto.cl/,200,http://www.curepto.cl/imcurepto_web/,bd4f75179d651debc12f8a3586444b7f6893bb85164c238a1a3a8750817218fc,
+https://dae.uv.cl/,200,https://dae.uv.cl/,ab557e7d97e3bcee34e82911b1c8f271331feb6468f08e066d25447e64c4eceb,
+https://eltabo.cl/,200,https://eltabo.cl/,8d09ce087d9f4871fdb51256c37a133f49215056438a2f4dd1c1ddf7a1aced48,
+https://estacioncentral.cl/,200,https://estacioncentral.cl/,8ccfd9b0c4c38cd783223abe94f14acd8636f7672b65efce08be8e0e9e2bcb75,
+https://galvarino.cl/,200,https://galvarino.cl/,7ab5b7e20507e64b236b2aee4ffb83215b3fb76f5470d720ad8ff62ce509e6e9,
+https://hijuelas.cl/,200,https://hijuelas.cl/,f609b6db66eca169165c96f5ada09f63de0c0c4f71d702135c8052881426a4f8,
+https://hualane.cl/,200,https://www.hualane.cl/,32d2e15e51a423387e420d0581c1398e6693553c6c5a02da7f51a339217748d1,
+https://hualpenciudad.cl/,,,,URLError
+https://imda.gob.cl/beca-municipal/,200,https://imda.gob.cl/beca-municipal/,4b669215ff3d3c8e7543d38d549be99e65c5570c07a1ceea21e1f51394d0df16,
+https://imhuasco.cl/,200,https://imhuasco.cl/,4b88ee95d7c21d3e0432643196ee2a2deba2549d6051ef6db22b587761f1e0b5,
+https://islademaipo.cl/,200,https://www.islademaipo.cl/,eac4010a21d75162a797bc5ec965e0be2855adfe21f9061be4a2d9b7fd173d50,
+https://lacalera.cl/,526,https://lacalera.cl/,,HTTP no accesible
+https://lacruz.cl/,200,https://www.lacruz.cl/Municipalidad/,75e1726e2869b161780c6a66de7e22747ec2f95dd2db448c8d481b8aa2ef2bb4,
+https://laligua.cl/,200,https://laligua.cl/,bfce63e124b1b3dde7dddb4b86e1fb8dd93402cdaed59e37f803275fca17769b,
+https://lampa.cl/,200,https://lampa.cl/,9f2d8a073b2ec734d3067442b60b411a9bbf6e29d9aac0ff04b5fd4850b86822,
+https://lampa.cl/asi-puedes-postular-a-la-beca-de-arancel-municipal-para-la-educacion-superior/,404,https://lampa.cl/asi-puedes-postular-a-la-beca-de-arancel-municipal-para-la-educacion-superior/,,HTTP no accesible
+https://lebu.cl/,200,https://lebu.cl/,ed98c786c9e6844f50631a47b4e1e5ac3ba08fb11c62d4d19bdaad453a64e26b,
+https://limache.cl/,200,https://limache.cl/,88f674fe86337ee1fae2b796f2632f8c4d560d65ab731f69cfabf1a29b2ee70c,
+https://loespejo.cl/,200,https://www.loespejo.cl/,bdbd457ae3268a268f7e0717530c4fb82126339e698c15316847485fa1cb8f94,
+https://loprado.cl/,200,https://loprado.cl/,8ba43b915d95ce9052f858577f712b299fd940e690ae02652698906ee0741ef7,
+https://lota.cl/,200,https://lota.cl/,7e145e7535b406ef2bc494b19394b56a21c109a14955d8e2d2263b3b7ea6a3e7,
+https://marchigue.cl/,200,https://www.marchigue.cl/municipalidad/,364be04d655d00d456f7d43e4d8d08c90d10cfe712956929dddb03de17b80e1c,
+https://mostazal.cl/,200,https://mostazal.cl/,7d5631672b0d7a4b9a60f39d2d54acbb8d155df3b009e7ebaa3282da587c6adf,
+https://mpeumo.cl/,200,https://mpeumo.cl/,86b8cbdd5cc89141d93ca5fce3614329ebc5a51f98dd85ea02f8f624510d4ea5,
+https://mph.cl/,200,https://portal.mph.cl/,93124f5962634da5206ca0bfdd5495604be9c7f39e33243214953aca7dc3902f,
+https://mportezuelo.cl/,,,,URLError
+https://muncipalidadninhue.cl/,,,,gaierror
+https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/,200,https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/,5c477489087d44c5e021db9ddfe39df91d8aa64bf1eb516c971e30b4f9ffcd3b,
+https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/,200,https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/,f65f07ab7cc62bf5cb759818d5a6328fe5ec73408ccd28ed8128b3d19942fd58,
+https://muniarauco.cl/,200,https://muniarauco.cl/,afdf37611662b115b6796b5e84098ca3833eec24eb0b642d153038f53cc5dd27,
+https://municanete.cl/v2/becasmunicipales/,200,https://municanete.cl/v2/becasmunicipales/,d8835f897786d307cfa2c98e6ca20bca972166874fde9afc0a5c099927162c37,
+https://municatemu.cl/,200,https://municatemu.cl/,617e3ee6d676ef881446350d25208145c112625cafbf318da28beee5e4daaa7b,
+https://municipalidadcartagena.cl/,200,https://municipalidadcartagena.cl/,1fcbbfab5b38879514887ffe89505ffb7b968747d2e3218e87abc06e34230a5a,
+https://municipalidadchonchi.cl/,200,https://municipalidadchonchi.cl/web/,9e6b23a05e1c63f00c95f69aa2cd359085de2b515aecfcae199476b17a99ff19,
+https://municipalidadcollipulli.cl/,200,https://municipalidadcollipulli.cl/,2a73f64c05dc6a0bd4777267b8874ec133ff00fe7e242b22e6231748e7128630,
+https://municipalidaddepuyehue.cl/,200,https://municipalidaddepuyehue.cl/,497f1e9a99155438d88c8d18ac1319a34bdf4d764cd356cf214a35f1dac94dfd,
+https://municipalidadelbosque.cl/,200,https://www.municipalidadelbosque.cl/,362346feae059de537a48cea7b371c84de9f02cca6567e5511de99fdfc8d7def,
+https://municipalidadgorbea.cl/,200,https://home.municipalidadgorbea.cl/,7f33a914540929b83417dcf0fc0ed324a64ad3bc831a50341be48f314f272a5d,
+https://municipalidadgraneros.cl/,200,https://www.municipalidadgraneros.cl/,d8f51e6348842da5ba9aacd95859eaadc6dd84b46bd76b3d092cf0bfde653f4f,
+https://municipalidadlagranja.cl/,200,https://www.municipalidadlagranja.cl/,5110c64a6c86a2c580bb269e8290f0c74a750270c37bb846cd6fa49db7e61c30,
+https://municipalidadlosalamos.cl/,200,https://municipalidadlosalamos.cl/,cc16c6e9f0d64fbf28cbf77279274325c93cc19572419f3df4cebd5ef1a91454,
+https://municipalidadpalena.cl/,200,https://municipalidadpalena.cl/,61ef869270063a89aa703af407cfda79ecab77b5a9f1d007ac1122c63191aa98,
+https://municipalidadpanguipulli.cl/,200,https://municipalidadpanguipulli.cl/,7b1d621b2d184afb66e1c0e79f79280f7f4225a2fd8c23e52f5ca67816eea8f7,
+https://municipalidadprimavera.cl/,,,,gaierror
+https://municipalidadquilaco.cl/,200,https://municipalidadquilaco.cl/w/,b19f73b6dfb0f1fd1795c80caadf00032644dc6acc2eb757efc333cf981930a1,
+https://municipalidadrenaico.cl/,200,https://municipalidadrenaico.cl/,b15381994b0d668bf1622629efa527ba7d7d7e19e9aaddafe71d20811f6bb881,
+https://municipalidadsaavedra.cl/,,,,gaierror
+https://municipalidadsanfernando.cl/,200,https://municipalidadsanfernando.cl/,c1417d230397f2103411bdb9a3e5fb763cadd484cac8f6fbee754ad0c760f8db,
+https://municipalidadsanrosendo.cl/,200,https://municipalidadsanrosendo.cl/,e933e39891b8e33cd205cfd29544e826302d73c2b0300c16467f264ff0d52d07,
+https://municipalidadvichuquen.cl/,,,,gaierror
+https://municipalidadvicuna.cl/,200,https://munivicuna.cl/,00aead424a18d2df4bf91428c097a865b2a17c017c306ca0e926aa196c2c8e4d,
+https://municipiocabildo.cl/,200,https://municipiocabildo.cl/,f5cb512cfcb009234dd26b2c5b9900ef52a2f115899f5613cd2e34b3d3aa57ea,
+https://munifrutillar.cl/,200,https://munifrutillar.cl/,3d63bc3824248d5604847884e779a8c6a6d6cf40fa74a12bc2fd311be2eccca8,
+https://muniguaitecas.cl/,200,https://muniguaitecas.cl/,81ab893c6b53ba4ba623d98d6aac80bdd3c7d01903f766070ea50f6b42db25a2,
+https://munilanco.cl/,200,https://munilanco.cl/,8d2105b278ab51c6f75fa33c94613a7ab15fe03598c17a0eb4d3d9ae2241d801,
+https://munilonquimay.cl/,,,,gaierror
+https://muniloslagos.cl/,200,https://muniloslagos.cl/,aa0f59fc8db87c6b95fe3a8f2acb7297050214a8300d77ae6773b1c9b677a743,
+https://munilossauces.cl/,200,https://munilossauces.cl/,b73858c854458c39bf85e1fd84db384b2cfa919c26625a30fd3cb5c1ec028639,
+https://munilumaco.cl/,200,https://munilumaco.cl/,299a2c137f0396c904b165a910bfa3ec80436cc749bb63d88a904b736a79fe3b,
+https://munimafil.cl/,200,https://munimafil.cl/,8d9726eea143ce2987cf568ff514b39322aa17fd889b53962a14b6d9dfc9a560,
+https://munimaullin.cl/,200,https://munimaullin.cl/,71711a1a4ce5c7c08e4a1ec54805127605b0ab9371ef30f485ee775ca6161938,
+https://munimelipeuco.cl/,,,,gaierror
+https://muninavidad.cl/,200,https://www.muninavidad.cl/,8b608cd439da19d398f839ead13488378c1576f591b3738979515073c31bd60e,
+https://muniolivar.cl/,200,https://muniolivar.cl/,3db6770a850e7069b225099d3f511257dbad18fbbbb2e82a322a958c1f904c57,
+https://muniporvenir.cl/,200,https://www.muniporvenir.cl/,8ceffd01da0679c9b98e25d261f67308c1fd2c137152a489d3339d9035dbe46b,
+https://muniquintero.cl/,200,https://www.muniquintero.cl/,4d3ca37b98d8e265d5338f6d50e9c2dff7255596d3f1f81029a9369bb6598cc2,
+https://munirinconada.cl/,200,https://munirinconada.cl/,1feba23a34960c13e93572effcbd4cc56e0be1437521746e1a20bc5a119b01e9,
+https://muniteodoro.cl/,200,https://muniteodoro.cl/portal/,04cf7ed3a78935b6b7b54e6e8cff22bda2e3faca1ec121f262760a1d179309dc,
+https://munitiltil.cl/,200,https://munitiltil.cl/,fd73f508ebbf3aecffe79b034442068f3c3036f70fce7a506b5f8dd5d19d2d86,
+https://munitolten.cl/,,,,gaierror
+https://muparedones.cl/,,,,gaierror
+https://padrelascasas.cl/,523,https://padrelascasas.cl/,,HTTP no accesible
+https://pedroaguirrecerda.cl/,200,https://www.pedroaguirrecerda.cl/,10661e35d4609c9f37f3b407abd88eb2aa75d803fc02fd504e6cfea953069cb2,
+https://penaflor.cl/,200,https://penaflor.cl/,ae82242d01b8e91d6c55dee5f6cec149c80319632a71607620a9c2bce6d34d5a,
+https://perquenco.cl/,200,https://www.perquenco.cl/,28fbb36905a279b364733b9d3f6e4ea17e25c762045786683b2a36643abc2158,
+https://pintana.cl/,,,,URLError
+https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb,200,https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb,03348121cc66f853a3b7617e56aa72df8fa9d97982a42ed801e498d0a1255e74,
+https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm,200,https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm,31fc5e7004621b637db6d3ed6d44c1e28651ad76308bbc6260ff205ee081a60a,
+https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm,200,https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm,9f94f07a55f27aef1950bb140b8ec8e24b1abdb3721d46b718c0e8fdb5404787,
+https://portal.beneficiosestudiantiles.cl/gratuidad,200,https://portal.beneficiosestudiantiles.cl/gratuidad,0207288ed395cd41407bc4c781cf1ee1aa333103c3fa09e40e6767bf4e88560f,
+https://providencia.cl/,200,https://providencia.cl/provi/site/edic/base/port/inicio.html,c649e762889411abfdf30aa8ca07c146ffd7e7af10458243f86d17d596bd9e45,
+https://puertoaysen.cl/,200,https://muniaysen.gob.cl/,1ac06b3cf0fdfc5337537aa0ed7ce6b73d5f7fe22f5c5adee5bb0b8d1ebce923,
+https://quilicura.cl/,200,https://ww2.muniquilicura.cl/,4b03e92e2f6d1efbe116f809aa98fdcf1307e0c0d238e7ce351f3d66addf8b7c,
+https://renca.cl/,200,https://renca.cl/,65bb0589f81cbeb8c428ecdfaaaa56efe7c9a81a6c0b60dcdaa22699384675db,
+https://requinoa.cl/,200,https://requinoa.cl/,17e1118e5b954e32a6767f9fe92c592cf44b131453b92daea97522d2766a54e5,
+https://rioibanez.cl/,200,https://rioibanez.cl/,dc1441486c4332c47dcf709d3708b5704e7305afe548580025b9419871bdbdf9,
+https://sanclemente.cl/,200,https://www.sanclemente.cl/,6fd5caf0b6b9717c48aa6ed97bc76d63b138f768fd958f300efdcc48e3f6d1dd,
+https://sangregorio.cl/,200,https://sangregorio.cl/,a92b7166f2ada14836957cd3c1c91f31bfb141e83b4ee9a5258c028a16b9b72d,
+https://sanjoaquin.cl/,200,https://sanjoaquin.cl/,ea42a081e944a7ae66f84c0f35f38c8d3369b012d637d82579dbc993a59d4217,
+https://sanpedrodelapaz.cl/,200,https://sanpedrodelapaz.cl/,da503c52d361cd2c0186a1d0546cb36542091a762ca92d16615e5396e5aee8d2,
+https://sanramon.cl/,200,https://sanramon.cl/,1211a0be363584bdc5262fb2524806d0dccc8424cb88e912436239f43df295dd,
+https://santajuana.cl/,200,https://santajuana.cl/,48b7fb3e85b46428fca10b5572d8879c959879b34ec276c307cff341248cf365,
+https://santodomingo.cl/,200,https://santodomingo.cl/,4a972ad6ef61a90d5406a6384269a1ba3fd09e4e7559d28fbaffd0590593623b,
+https://talagante.cl/,200,https://es.wikipedia.org/wiki/Talagante,f8ea92d9a79dbe98c744f5dd18e6a48c6d309184a8cbb5c10116a11b0435e54d,
+https://tiltil.cl/,200,https://munitiltil.cl/,fd73f508ebbf3aecffe79b034442068f3c3036f70fce7a506b5f8dd5d19d2d86,
+https://torresdelpaine.cl/,200,https://torresdelpaine.com/,03a9b5dd92e27f67f60dc74261329f7b6293a5b5d47adfcb9e73cb67758b82cf,
+https://trehuaco.com/,200,https://www.trehuaco.com/,5a330f9b2957d5589d13c5c2ab04484375d698797e590302cb345d03f429fcca,
+https://tupuedes.cl/becas-y-beneficios/,200,https://www.tupuedes.cl/web/wp-content/uploads/sites/28/2017/05/becas-y-beneficios.jpg,d8fdcbe3ceb7b60ab362a4dc6dc2968d3e3b3c29f52725e715c5a319c1b6657f,
+https://uach.cl/alumnos/utiles/bienestar-integral,200,https://uach.cl/alumnos/utiles/bienestar-integral,bd0c316f2a5163bf158a00c5d5cd3377f2a106ad02538ab7620f30c0e47cbb4e,
+https://ubiobio.cl/admision/Becas_y_Beneficios/,,,,URLError
+https://uchile.cl/presentacion/asuntos-estudiantiles/beneficios-y-becas,404,https://uchile.cl/presentacion/asuntos-estudiantiles/beneficios-y-becas,,HTTP no accesible
+https://usm.cl/admision/becas/,200,https://usm.cl/admision/becas/,54cd3201998b612acb03f250834635228a6491e393f716dd5c7606a0ea969264,
+https://vitacura.cl/,200,https://vitacura.cl/,9a97000697d94fce94b2c411d30bcfa75e59a1b9ab193453da4e9b2b66c357af,
+https://vrae.usach.cl/beneficios-estudiantiles,404,https://vrae.usach.cl/beneficios-estudiantiles,,HTTP no accesible
+https://web.molina.cl/,200,https://web2.molina.cl/,9a044076c34680285bf5baf77cc5960f608246be1aa2bf1d6739196992b35397,
+https://webdae.uta.cl/index.php/becas/,200,https://webdae.uta.cl/index.php/becas/,d1523b9ba7a0c9843444766711c88dd9f096482674e8c25425fc48b977057805,
+https://www.admisionmayor.cl/becas-y-creditos,200,https://www.admisionmayor.cl/becas-y-creditos,93ce85788a8ef1aef861eb86f2d4a26bc8b250075f81e4a7ad1be3177755540e,
+https://www.aiep.cl/admision/becas-y-financiamiento/,200,https://www.aiep.cl/admision/becas-y-financiamiento/,32933dc470c92032bb7af13dc365093fafa8da9eafa76d6cac10abcbf403cab3,
+https://www.altodelcarmen.cl/,,,,URLError
+https://www.angol.cl/,200,https://www.angol.cl/,c4f6aac31deb3fcf73f849627043f7ddb1ef93d9c669d1cc14841a46705df9c1,
+https://www.buin.cl/,200,https://www.buin.cl/,bc043357c3f20323b2e135d5c4198e3be93892d33243e17589443cb15f534cdf,
+https://www.cabrero.cl/,200,https://www.cabrero.cl/,35b888dc84b18e16c4472994df61f1226f12109b0d722b9b4d979f1d28e7d684,
+https://www.caldera.cl/,,,,URLError
+https://www.cerronavia.cl/,200,https://www.cerronavia.cl/,7d9d133cbdbc425ef40fa7dd1d15479f32d324968deb8b98ba72ee3ef57e0f1e,
+https://www.chiguayante.cl/,200,https://chiguayante.cl/Chgte/,ca82b0bf6f6d873332c87148acb0131ec766b1dfd598d0d6010ee2da40f64fa9,
+https://www.cochamo.cl/,200,https://cochamo.cl/,48f0bb178b3a132c0f712ec4bf3343fe080c30e5ab736fc3da3577e8d619f449,
+https://www.colina.cl/,200,https://www.colina.cl/,7ccf9007b3abcde781df4bee29e33fb6fa20ae55fd83123379d16ae6a7318655,
+https://www.coltauco.cl/,200,https://www.coltauco.cl/rsp/index.php,d514796176d8ded7bba25499613b84bc00337b1600c495e071e9b0f0869e09cc,
+https://www.combarbala.cl/,,,,gaierror
+https://www.comunajuanfernandez.cl/,200,https://munijf.cl:443/,ffdd103e85c87fefe1f5f016577962e9398e759c22c59e549bd3fc4636facb70,
+https://www.concepcion.cl/servicios-municipales/,200,https://concepcion.cl/servicios-municipales-estan-disponibles-el-dia-sabado/,bb13491e4367efa113635d1c2e660132940e5f3b13685c091aed165f431fb77d,
+https://www.conchali.cl/,200,https://conchali.cl/,e18bbc7bd6ac5bfa56103aa901c99e01689f8c67209181a51fc2f0e11443b17d,
+https://www.constitucion.cl/,200,https://www.constitucion.cl/sitio/,5c9c07605c3efa81baab1e31e67808c1d8d5284c1c321767d715b72829523126,
+https://www.contulmo.cl/,200,https://www.contulmo.cl/,ad2bbe485d870c1e0bcf6899c7dca02acd7ec54219fbf62fd39bc9dd9abf93b2,
+https://www.copiapo.cl/tramites-municipales/,404,https://copiapo.cl/tramites-municipales/,,HTTP no accesible
+https://www.coronel.cl/,200,https://www.coronel.cl/,a757b16e4a3cd172789ac9d16490bba479b92a7f45cc27b4b1a5047e8b4189a9,
+https://www.corporacionlinares.cl/,,,,URLError
+https://www.curanilahue.cl/,,,,gaierror
+https://www.curarrehue.cl/,200,https://curarrehue.cl/on/,323fbf07367b66455bee68e7554229f1201ad1f10b98833adafcef3075e40f6e,
+https://www.duoc.cl/admision/financiamiento/becas-duocuc/,200,https://www.duoc.cl/admision/financiamiento/becas-duocuc/,4d24ace8c3a3051777a53477c052cc5b58d31c9d40d95a08b9b60d8671fea5e6,
+https://www.elquisco.cl/,200,https://www.elquisco.cl/,0c429a21195e200c05a213ff3b1033a56581f07268e5fbc6cdbe3365a22176f2,
+https://www.empedrado.cl/,200,https://empedrado.cl/,a823336ee82120f62ad0f0b25b096ef834485aefb076e1916d74386f0fe6a2ca,
+https://www.futaleufu.cl/,200,https://www.futaleufu.cl/,1439d85842119f202bbe713f36834a42b7d8352676fd9a35921e566f8cb3d812,
+https://www.hualpenciudad.cl/,,,,URLError
+https://www.huechuraba.cl/,200,https://huechuraba.cl/,3f07522de78b2673c15a6b627fc323643a75a309e55ed485c5bc0a188b23cf98,
+https://www.imb.cl/,200,https://www.imb.cl/,3f015a7f41e21321b8983ee2c15137fee9d1922d38ebb63f60f531a794a50312,
+https://www.imcolchane.cl/,200,https://imcolchane.cl/web/,d2623ce5891f437a1046782c7e9cfec0ac53b35c3f436b01fbac3113d702b05a,
+https://www.imfreirina.cl/,200,https://imfreirina.cl/,c77b8307acd7a9a3ba0b63fafaa061765811ca1678e82def989f1d467ec59f18,
+https://www.imhuara.cl/,200,https://imhuara.cl/,175dab0b7d0f70eaa2f65fbf42f2ee249cf5489f56c2930a36c8c2d7d19ab570,
+https://www.immariaelena.cl/,,,,gaierror
+https://www.imputre.cl/,200,https://imputre.cl/,147cb25b198247a8706183af9b0b48d4f495165d9b06d51d5346030899b833e4,
+https://www.imsanjavier.cl/,200,https://imsanjavier.cl/,19f3cc657f104ae4a1ba7271c75a7ec8a0408e968ec8459b2c8da270a8838980,
+https://www.imsantamaria.cl/,200,https://imsantamaria.cl/,7cef17ec7834f5f5e0df552bef89bcca4be5c4dda2d9ca8813eb5c548d680876,
+https://www.imtocopilla.cl/,200,https://imtocopilla.cl/,b5cdeeb91b62c0203eb301f12fb372cf7cb1255ca2e3c5b66d5c64989e6c6053,
+https://www.inacap.cl/tportal/portales/tp4964b0e11802/becas-y-beneficios.html,404,https://www.inacap.cl/tportal/portales/tp4964b0e11802/becas-y-beneficios.html,,HTTP no accesible
+https://www.independencia.cl/,200,https://www.independencia.cl/,4c6ad777a194d52afbfd3687ec63bc7992f302391f8b69194a9eff3636193259,
+https://www.islademaipo.cl/,200,https://www.islademaipo.cl/,84440ac68a7cec3ee1d6eba64208d695d3d24958a359a9935e9f4629c7f2d93c,
+https://www.junaeb.cl/becas-educacion-superior/,404,https://www.junaeb.cl/becas-educacion-superior/,,HTTP no accesible
+https://www.laflorida.cl/,200,https://www.laflorida.cl/sitio/,aec57220607f3c6d8eac8a52aafcbea5f3f546e4277f39de314a3d18ddd81a24,
+https://www.lascabrasmunicipalidad.cl/,,,,URLError
+https://www.lascondes.cl/,200,https://www.lascondes.cl/,18cd1e570f7629dd13caa18305cb10d5cbe0fea22b59deee1c2e0639a0deaab4,
+https://www.laserena.cl/,200,https://laserena.cl/,98cd5f1eb3103a19940a7eec1d16d704cc21b24e59f68fc64cd6ddb6d8dec07b,
+https://www.laserena.cl/dideco/,200,https://laserena.cl/dideco/,98cd5f1eb3103a19940a7eec1d16d704cc21b24e59f68fc64cd6ddb6d8dec07b,
+https://www.llanquihue.cl/,200,https://llanquihue.cl/,dd689217c9ae39153b87ba98231e83b2a1a97bc2f2191daf7b7925041d28f541,
+https://www.lobarnechea.cl/,200,https://www.lobarnechea.cl/,d14c0c5d3fe9dd2ab5e802a757a95b42c3719ae1148226e071f6a4f3342d9030,
+https://www.loprado.cl/,,,,URLError
+https://www.losandes.cl/,200,https://www.losandes.cl/,7390e7705c37afcc0506c23eb833d78fe5086aebb8d87654655bafdd489f88b7,
+https://www.losangeles.cl/,200,https://www.losangeles.cl/,438664cd2d5029fb1c4ce59960a92da55be8e25b671a85931d075d7b595a0636,
+https://www.losvilos.cl/,200,https://www.losvilos.cl/,6a6ec13047d16f4b385578fd35e890042053f7149e2cd81ec1af96dda9000a3e,
+https://www.machali.cl/,200,https://machali.cl/,909a672ea0309f99a24e82bf14041712cc1f023261d024af4e42a9d4d5d0446e,
+https://www.mcerrillos.cl/,200,https://mcerrillos.cl/,0e3672f1018ac893ab63785ddea528da2f59dccab14f729f5cb54250412c2740,
+https://www.mdonihue.cl/,200,https://www.mdonihue.cl/,6aabf1ddc711533304124ae83e59091fa309e1cb51c2e61886e2ba235ecb84b9,
+https://www.mejillones.cl/,200,https://www.mejillones.cl/,0c5a628bd78adf59e26277c95d424c5dd6a5369a503927c52e6d2e5e55e51cfb,
+https://www.melipilla.cl/,200,https://melipilla.cl/,ce4d067f1dd8bc8046a1919e0b973f40eac2c5f1983b1be0ade71c2f129f86ca,
+https://www.mlicanten.cl/,,,,URLError
+https://www.molina.cl/,200,https://web2.molina.cl/,9a044076c34680285bf5baf77cc5960f608246be1aa2bf1d6739196992b35397,
+https://www.mpencahue.cl/,200,https://mpencahue.cl/,055a3fbf1a6df6c7d10d848fef84ec083cd9e67855829bd4e58d458af831dba5,
+https://www.mph.cl/,200,https://portal.mph.cl/,93124f5962634da5206ca0bfdd5495604be9c7f39e33243214953aca7dc3902f,
+https://www.mpinto.cl/,200,https://www.mpinto.cl/,a91420f1bf8bf91568f71f621eced9c46f436e97457ff7b86e05faa821921dbf,
+https://www.mpitrufquen.cl/,200,https://www.mpitrufquen.cl/,3b06d0f3a73a11a572aeebfe9eaa298bebd106a6875e1b2644741ef8a7b23a4d,
+https://www.mpudahuel.cl/,200,https://www.mpudahuel.cl/,c6c20725df85baf1ea07377da1ee691023df37f8db995a3e1b5363867c897016,
+https://www.mpudahuel.cl/dideco,200,https://www.mpudahuel.cl/dideco,c6c20725df85baf1ea07377da1ee691023df37f8db995a3e1b5363867c897016,
+https://www.mpuentealto.cl/,200,https://www.mpuentealto.cl/,65c066023bb88b1396e081aaaddd977b67fbc87f370b9c2211bc249a64f31830,
+https://www.mtraiguen.cl/,200,https://mtraiguen.cl/,44ba024584301239815e3fc00f68234e3d31c0e16d220a70198b255340a6ba47,
+https://www.muermos.cl/,200,https://www.muermos.cl/,2e72cb03b8e3371f7afa25e56fd8225227cd6e1a21d916ab79c7893579190e63,
+https://www.mungenerallagos.cl/,,,,gaierror
+https://www.munialtobiobio.cl/,200,https://munialtobiobio.cl/,9dd3010b7a1fa8b411e4c22d954cc0ea21dbe538eb5f9c26e495d7640a79e566,
+https://www.muniancud.cl/,200,https://www.muniancud.cl/,060113e428685036c9e44e74bf46896c8fdd3954459aef61e259bfefb84a7085,
+https://www.muniantuco.cl/,,,,gaierror
+https://www.muniarauco.cl/,200,https://muniarauco.cl/,9b762860c593e9b4a3ca0b1bb43d008cc853e0c7f569975f9804db5a561365ca,
+https://www.muniarica.cl/dideco,200,https://www.muniarica.cl/dideco,56cf56a8feebc3f999cfb546d98e016138a5b50e9d1cf626f87a774f2957d7c3,
+https://www.municallelarga.cl/,200,https://www.municallelarga.cl/,6bdf8e835229e021f4d4bcd4339ffda6367e6110661ef0f1ccfd5d542bda5178,
+https://www.municamina.cl/,,,,gaierror
+https://www.municasablanca.cl/,,,,gaierror
+https://www.munichanaral.cl/,200,https://www.munichanaral.cl/,234aefb203fb0a17442f6f88e8bac5f6d8be24af24e5bff903261ea34d2aa512,
+https://www.municipalidadalgarrobo.cl/,200,https://munialgarrobo.cl/,19f109f401b856e198a0939ef41e6b6ec22731d8b4d3573f09d70793585e0d86,
+https://www.municipalidadantofagasta.cl/,200,https://www.municipalidadantofagasta.cl/,f1e1b4e390025f14b0c45162ae0a047ab58cc3c41a3ac37b3d81416f77d006a1,
+https://www.municipalidadcabodehornos.cl/,,,,gaierror
+https://www.municipalidadcalama.cl/servicios-dideco,404,https://www.municipalidadcalama.cl/servicios-dideco,,HTTP no accesible
+https://www.municipalidadcalbuco.cl/,200,https://www.municipalidadcalbuco.cl/,7533e9bc8e0f1b3b18054901bd6ee26f5c7fd8263b6cdd9957c880dd0f456786,
+https://www.municipalidadcasablanca.cl/,200,https://www.municipalidadcasablanca.cl/,99b4c1761d2d2d3a2925d0304f388c242636aba5bb1c94103f6d3cb0cad8f159,
+https://www.municipalidadchaiten.cl/,200,https://www.municipalidadchaiten.cl/,c3e68d5b449022fb94204953d523c4296a9e90fb1c09e7b77edf91155d7b797d,
+https://www.municipalidadchillan.cl/,200,https://www.municipalidadchillan.cl/sitio/,4ba0b0202fe43665aaf6b4e55d814229593642bfbd8fdd63632af8407db92edf,
+https://www.municipalidadchimbarongo.com/,200,https://municipalidadchimbarongo.cl/,4eef849001f16b3a41eb2ae633e3ed27a21df6d5fbebd8d75f21bfd4457c8f51,
+https://www.municipalidadcholchol.cl/,,,,gaierror
+https://www.municipalidadcisnes.cl/,200,https://municipalidadcisnes.cl/,301d71d3ebc1aeb30f41fee6f278430e14d2417d959d4ce361b33dd345917b2d,
+https://www.municipalidadcolbun.cl/,200,https://municipalidadcolbun.cl/,9feecb9cc379b41682c17dbeed6e4d97088c364d2b68ffbe65a0cc14fe1e991f,
+https://www.municipalidadcuracavi.cl/,200,https://municipalidadcuracavi.cl/,6f969eaf8890a6e335ed0bb29f82d44b9f90fdbe8bea090cdcfe01f738111074,
+https://www.municipalidaddecodegua.cl/,200,https://www.municipalidaddecodegua.cl/,8b1b00acce5b11b3e5dc1e03d7522707d2e10d5f238a25f268cf7f17746fcfb8,
+https://www.municipalidaddevalparaiso.cl/,200,https://municipalidaddevalparaiso.cl/,84a5c5cf68d2188ba6d4f3518a09215dcd2415105c2bd33ff3df06578794da6d,
+https://www.municipalidaddevalparaiso.cl/dideco/,404,https://municipalidaddevalparaiso.cl/dideco/,,HTTP no accesible
+https://www.municipalidadillapel.cl/,200,https://municipalidadillapel.cl/,63b97f24bc441c2b32fa6f7dba4c470ac4a8467f8f25539887778508731a3537,
+https://www.municipalidadlagranja.cl/,200,https://www.municipalidadlagranja.cl/,e3a3f54d222795b07db9d1f9b474502a201eabfbc30cfcee837226c4df6880cf,
+https://www.municipalidadlongavi.cl/,200,https://www.municipalidadlongavi.cl/,95ab332d3ce62ba7bcf75e232e4c2cd924f883e7f600873dd64f3a18cd77c401,
+https://www.municipalidadmaipu.cl/,200,https://www.municipalidadmaipu.cl/,b24334e98e3bf6542bcc4ebc70784c9e0b396111c61d6977d2f9733078dd9aa6,
+https://www.municipalidadohiggins.cl/,200,https://www.municipalidadohiggins.cl/,b3e0f9b7b7f88b486314b300c72019e89c528af9ef50a74d9c56a8fac0a73b92,
+https://www.municipalidadosorno.cl/dideco,404,https://www.municipalidadosorno.cl/dideco,,HTTP no accesible
+https://www.municipalidadovalle.cl/,200,https://www.municipalidadovalle.cl/,f7dc2ae622c132e3df2dbf4942aee905c5bbe90ce337923406cff6c1dfc3d287,
+https://www.municipalidadpapudo.cl/,,,,URLError
+https://www.municipalidadpetorca.cl/,,,,URLError
+https://www.municipalidadpucon.cl/,200,https://municipalidadpucon.cl/,ae3e97a6e74dc9f53742a65c3262b7d7f2d9f469f214c48de87c6fefe3c94aa5,
+https://www.municipalidadquinchao.cl/,200,https://www.municipalidadquinchao.cl/,a96fd70212646458ec341cd0c388300b1dfab2ac6d689f017ed00706cc194564,
+https://www.municipalidadrengo.cl/,200,https://municipalidadrengo.cl/,135a21e39567432620d8a05f8f7c56a22131ecd0ef1701fc17155fa41fc51057,
+https://www.municipalidadsanramon.cl/,200,https://municipalidadsanramon.cl/,e90a3c28ae97b5687cf1d157f71de87728522be003c2e22194d2506213fa9a4e,
+https://www.municipalidadsantacruz.cl/,,,,URLError
+https://www.municipalidadsanvicente.cl/,200,https://www.municipalidadsanvicente.cl/,90bf0cb12b1cac3080ca5c1702a713485cd17690e2c7c39e6a2c873997293298,
+https://www.municipalidadtaltal.cl/,200,https://portal.municipalidadtaltal.cl/,32f25f6d7538ad85381765c0bf4c73b9d08a32977424954e96d031054c27e4de,
+https://www.municipalidadtimaukel.cl/,,,,URLError
+https://www.municipalidadtortel.cl/,,,,gaierror
+https://www.municipioiquique.cl/,200,https://www.municipioiquique.cl/,69cfb37949d27994aabb7a2323bf36b59e43453fd263cf962b30c9cf1d9e9a75,
+https://www.municoelemu.cl/,200,https://www.municoelemu.cl/,39b2708ce67ab78a4d7a5c04052c6f6d6c09aaf9c387e54ec72dbf85c59f938a,
+https://www.municoquimbo.cl/direccion-de-desarrollo-comunitario/,404,https://www.municoquimbo.cl/direccion-de-desarrollo-comunitario/,,HTTP no accesible
+https://www.municorral.cl/,,,,gaierror
+https://www.municunco.cl/,200,https://www.municunco.cl/,c8cd8603a47a22b80a4b40a744d20b171ccd21fccca5e32382a1771565e91870,
+https://www.munidalcahue.cl/,200,https://www.munidalcahue.cl/portal/,958c71129ed7f467c1ae41f8b1051c4e10161004be100fe5a67ba2f908486eab,
+https://www.munielmonte.cl/,200,https://www.munielmonte.cl/,03bc047d35f0f96d857167f2340826f3f5e13e2903a02d841cd3488a20409260,
+https://www.muniflorida.cl/,200,https://muniflorida.cl/,6a4bb9d71478969c7e2cbd72cbdc7022058d08099a111d03807d859be977a67b,
+https://www.munifresia.cl/,200,https://www.munifresia.cl/,1c5ca369b03f4bd4bc02c55547d93fa40cd95247e14085482ceead35ad152115,
+https://www.munihualqui.cl/,200,https://www.munihualqui.cl/,c4b3817e1eac41de291e26af62f2dcca2d0d6f853022ad64da0e686d4999e6a5,
+https://www.muniisladepascua.cl/,,,,gaierror
+https://www.munilaestrella.cl/,200,https://munilaestrella.cl/,18e683d36b70d29cea26e0adccafdd8b54dc6f8973c63156a3b1c106f122b553,
+https://www.munilaja.cl/,200,https://munilaja.cl/w/,235154b29fb0cf56ac9f8aedaa8a07760bf93aa996fdf3a41253209952d7b640,
+https://www.munilaunion.cl/,200,https://www.munilaunioninfo.com/,f79cd5d00455bd46d1d1739b3f76654148deecc88afff2317e16b9c9266a4930,
+https://www.munilautaro.cl/,200,https://sitio.munilautaro.cl/,9fc9a3fc83a16543dec46f1ecfbcb54963e9ddcf7f790aeed10e63c48ab9eefd,
+https://www.munillay.cl/,,,,URLError
+https://www.muniloncoche.cl/,200,https://muniloncoche.cl/,fe32780fe08ee83cc0b32271ce088faaf64d338537ecafe4c928de5600f296f9,
+https://www.munilossauces.cl/,200,https://www.munilossauces.cl/,b73858c854458c39bf85e1fd84db384b2cfa919c26625a30fd3cb5c1ec028639,
+https://www.munimacul.cl/,200,https://www.munimacul.cl/portalnv/,83e773c06f9af11afd36ab90b31dadaa1fc05cd72c14607f59f5970ad65c0b64,
+https://www.munimariquina.cl/,200,https://munimariquina.cl/,ebf55f469a936e17a1290988c5c75e08f26c760ed47c469b3243b747e577fe32,
+https://www.munimontepatria.cl/,200,https://munimontepatria.cl/web/,e2a76a84c1b7170007f8242baeaa0c00e84e0b38a6db3d8aa45b75a6e6c318e0,
+https://www.munimulchen.cl/,200,https://www.munimulchen.cl/,991e2920420346d6252ba6a23dc314b92e9718266081ceeda4c709b0d4d73cfd,
+https://www.muninancagua.cl/,,,,gaierror
+https://www.muninatales.cl/,200,https://portal.muninatales.cl/,880a35c4197d79e3e40c4622d6bd3b4ea06c758b490d0a409878dd0df204b0b5,
+https://www.muninegrete.cl/,200,https://www.muninegrete.cl/,6ce249e14563d5fd7b5647914104e44962e48e55425e5d4dcdb751186ea0ac18,
+https://www.muninogales.cl/,,,,URLError
+https://www.muniolmue.cl/,200,https://www.muniolmue.cl/,fa74cd9eaca62a32acfb268a44b4f141095b6c793d8387a42a9e70ac05b3820f,
+https://www.munipaillaco.cl/,200,https://www.munipaillaco.cl/,c1730b2e2dbfc86e6aca08fb1a35d8f013e15e6b5461a80d0906e5b58fe2dd8c,
+https://www.munipelluhue.cl/,,,,TimeoutError
+https://www.munipuchuncavi.cl/,200,https://www.munipuchuncavi.cl/,910eaf40bcdf33c679fc4ada85e7227730cfbfac55f0cb18803a2f89a081a99c,
+https://www.munipumanque.cl/,200,https://munipumanque.cl/,c8c808e6076c63501117ad0e09788ce86006cb6f797db6179adf06e533a36b06,
+https://www.munipunitaqui.cl/,200,https://www.munipunitaqui.cl/,98ba06ab5724b4ec3a917d953df5df2a897e4bcaf193544d7f3b9b16968f1507,
+https://www.munipuqueldon.cl/,200,https://munipuqueldon.cl/,4f4d4e23d76dade39c9aa3ba923e7fec3d3b3645b7d9ba91efb64c5cd024aa46,
+https://www.muniquellon.cl/,200,https://muniquellon.cl/,3a4e73a24645b4316262bc32dca5a1d16f98184de19d9eda7ef3d2ca47626d60,
+https://www.muniquemchi.cl/,200,https://www.muniquemchi.cl/,f6f6a827f81c4a6eb7bfdbf76862bcf99614703e3871d6ba1b12a43b7125212d,
+https://www.muniquilleco.cl/,,,,gaierror
+https://www.munirauco.cl/,200,https://www.munirauco.cl/,9845d00fac348876a928ba753442500ad72631e0541280220ee36b8276489272,
+https://www.muniretiro.cl/,,,,gaierror
+https://www.muniriobueno.cl/,200,https://muniriobueno.cl/,0840b2ebf9582bcf295458754721c47950cad0daed2902729677587273ad7e2a,
+https://www.munirioclaro.cl/,,,,gaierror
+https://www.munirionegro.cl/,200,https://www.munirionegro.cl/,cb6a4dfe2b1321a2d134688ee2ed0485bebf70880e4690cbfdebba690067ed03,
+https://www.munisanesteban.cl/,200,https://www.munisanesteban.cl/,05ffa50e63acce8494d8fbdabf8426151095eae905db033231222295cd9d67c8,
+https://www.munisanfernando.cl/,200,https://municipalidadsanfernando.cl/,c1417d230397f2103411bdb9a3e5fb763cadd484cac8f6fbee754ad0c760f8db,
+https://www.munisanpedro.gob.cl/,200,https://www.munisanpedro.gob.cl/,778a04cf6b511051e53c70382e26c1e91dca28182b3f46a3124e8c56a199e6ca,
+https://www.munistgo.cl/,200,https://www.munistgo.cl/,d523ed283b18f911919009953234d9ef9eb162ccf5ab7cb732934d38bb4bac86,
+https://www.munistgo.cl/becas-y-fondos/,200,https://www.munistgo.cl/becas-y-fondos/,35c0a21b0cdbaa0058422785ea8aae7a2982e98740b6497c8b2ef6f6023b7d46,
+https://www.munistgo.cl/fondos-y-becas/,404,https://www.munistgo.cl/fondos-y-becas/,,HTTP no accesible
+https://www.munitirua.cl/,200,https://vries-partners.nl/,2ce9c2858b882a80decef62852521188a444349a6151126311dc596415d38b02,
+https://www.munitucapel.cl/,200,https://www.munitucapel.cl/,ab21bee35a665429bbe5fb09bef84973e2beb69843005a4f1ce3fbc9a1b4a30e,
+https://www.munivaldivia.cl/,200,https://munivaldivia.cl/,c48b7f13c7920187f2db3f7a8ae15e172cab6b7f8ca33f5c921ab71895235cec,
+https://www.munivina.cl/,200,https://www.munivina.cl/,b9cd8036dae081f018bbfa5c0bea0ec585be95d920d83d39207d5790dce8f31b,
+https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/,200,https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/,363846f85b91983f28d0de2fcc5ebb79ddf8171fb41548f1f9aec7df2d2cc6dd,
+https://www.munizapallar.cl/,200,https://www.munizapallar.cl/,e55300e7e31738fa174caa5113ab054122213bd3e75066cc0b343e21c811771d,
+https://www.nacimiento.cl/,200,https://www.nacimiento.cl/,9540cbe175b0d0faa2e6cae3da2d70050bced44128f5ec67f5732e7331e02d42,
+https://www.nuevaimperial.cl/,200,https://www.nuevaimperial.cl/,e05f79db3ce87b35991fdd0934ced85e7bc49a3526e169d489dfccf7e5d0fdab,
+https://www.paine.cl/,200,https://www.paine.cl/,b32a0283eaadeacd569705ec18bd76fc66596cdf939dc16637629179db58cd22,
+https://www.panquehue.cl/,,,,gaierror
+https://www.parral.cl/,200,https://www.parral.cl/,20022efa217c36e5ea7a3037d11a35d99676d8f2d60c06a82647a530b085bb87,
+https://www.penalolen.cl/,200,https://www.penalolen.cl/,cd95a201dfa758c193c18f8df16ddefbb5bf6428691bc212d61bacbd6199f6f1,
+https://www.penco.cl/,503,https://www.penco.cl/,,HTTP no accesible
+https://www.pichilemu.cl/,200,https://pichilemu.cl/,ec252176a4b363da25781c60a1abccd630184986ff315af378e61a5f9cf3dcc9,
+https://www.pintana.cl/,,,,URLError
+https://www.pirque.cl/,200,https://www.pirque.cl/,97e3ad6c7cf3cb93c62af27a227224d8acea1c517b45e7c0ac14c440fcfc1027,
+https://www.ptovaras.cl/,,,,URLError
+https://www.puertomontt.cl/,200,https://www.puertomontt.cl/,a83171ccdcaf89751196546e8c93045aa05633f88a7cedf98bbf59d590eb1299,
+https://www.puntaarenas.cl/dideco,200,https://www.puntaarenas.cl/dideco,91b127eea7ee87ccd4f30f526126734b30e3ef08521c81ffd3d569b7778ffb00,
+https://www.purranque.cl/,200,https://www.purranque.cl/,86fb9e4720bc33922a5782d42cdd5f71c312b939713c28cd41cb41c57427bbbf,
+https://www.putaendo.cl/,200,https://www.putaendo.cl/,d967fa6551a80e9c423660a0502ca3e99ad59186c6bf7d669d85de6a94c0146c,
+https://www.quillota.cl/,200,https://www.quillota.cl/,4bf9a1988723506b3cacc558d97846222c4d73f039f69077e8153cd058f7899c,
+https://www.quilpue.cl/,200,https://muniquilpue.gob.cl:443/,3a3fdcbd9965a0e1ebf21a0728fbff1228e2b279b5686772927b7f4296a24416,
+https://www.quintanormal.cl/,200,https://www.quintanormal.cl/,4c4578ddce4efc9d3d6e2c416dfd9fc25f95d04d314c478f6172bfd83b38eb44,
+https://www.recoleta.cl/,200,https://www.recoleta.cl/,,TimeoutError
+https://www.rioverde.cl/,200,https://www.rioverde.cl/,6e008acb8c3ee2c61423a2caf2849dd5b96245f1480d26908e6114799e038bd3,
+https://www.romeral.cl/,200,https://www.romeral.cl:443/es-CL/,8576b5670a14b4e458e232b96472d604e130c9c678d049b88c7e7fe15ae1dbb0,
+https://www.sagradafamilia.cl/,200,https://www.sagradafamilia.cl/,f5aa172b82befec6cd93de2b504cf22c92c3c52faf4eec14a9da2ab27fdd4eb4,
+https://www.salamanca.cl/,200,https://salamanca.cl/,c6a3241df87f7452019b6897fe7d9141d8542993897983c14aad61ef334aa56c,
+https://www.sanantonio.cl/,200,https://www.sanantonio.cl/,83f4bd540ddacd482749286c2ccc9d52a069be052e8436837da1275bfa35a3d1,
+https://www.sanantonio.cl/index.php/dideco,404,https://www.sanantonio.cl/index.php/dideco,,HTTP no accesible
+https://www.sanbernardo.cl/,200,https://www.sanbernardo.cl/,0f87e8a0c11360e4c5572221b5b486474c10e8ffcfee02a56779e5d585c7a113,
+https://www.sanbernardo.cl/dideco,200,https://www.sanbernardo.cl/dideco/,af342c8ad465221ddf522af34e89b30e25c8efd989d2fee1919ab69b74e10bd3,
+https://www.sancarlos.cl/,200,https://munisancarlos.cl/,eca717046add18a7660615e85813f8a308be8e9f1d6258a0a45cf4a372a39223,
+https://www.sanfabian.cl/,200,https://www.sanfabian.cl/,5eac2467b0601d0781607b955a7e6ef794070b31aef82dc93d3b15a4e088ae51,
+https://www.sanjoaquin.cl/,200,https://sanjoaquin.cl/,1ca61bd520eece7a6e778fc55676de2eab05f135608a1f9651e0358dd06cf423,
+https://www.sanjosedemaipo.cl/,200,https://www.sanjosedemaipo.cl/,bed45224fb1ae15f28f91eec94781bbaaaa36adc6381de113e59753f23addbea,
+https://www.sanjuandelacosta.cl/,200,https://sanjuandelacosta.cl/,fd66a2ed9e06d530e5e83e7019eae4e014505599892b85e5c8edfe719cf383fb,
+https://www.sanmiguel.cl/,200,https://www.sanmiguel.cl/,81a04c23c672936efb9f9dc2506982fd4ddb1170ac13f513e952290892fc0b11,
+https://www.sanpedrodeatacamatransparente.cl/,200,https://www.sanpedrodeatacamatransparente.cl/,680b865a91e910a50fc9b2241f2658593ef243823cfd581d221d7486656e8fd0,
+https://www.santabarbara.cl/,200,https://www.santabarbara.cl/,5311f1300a08e3ffc27efc3f16dd8eeb538f96ec8de2614e96a1709028540745,
+https://www.talagante.cl/,200,https://es.wikipedia.org/wiki/Talagante,f8ea92d9a79dbe98c744f5dd18e6a48c6d309184a8cbb5c10116a11b0435e54d,
+https://www.talca.cl/,,,,URLError
+https://www.talcahuano.cl/,,,,URLError
+https://www.temuco.cl/dideco/,404,https://www.temuco.cl/dideco/,,HTTP no accesible
+https://www.teno.cl/,200,https://www.teno.cl/portal2/,4f96fa8dd911c0c856bbc46948ad9ea4b3b06a73991e5e4fbc469f20b3e3392a,
+https://www.tierraamarilla.cl/,,,,gaierror
+https://www.tome.cl/,200,https://www.tome.cl/,e34b1788971ec97bee60e79cb1dbb1413961d3134b38b402b055622f4c9b4c0b,
+https://www.uach.cl/cedere/beneficios-estudiantiles,200,https://www.uach.cl/cedere/beneficios-estudiantiles,e27bc6ab85206698a0e0220e0296e547440f0d430060499ba4029b85c825a30f,
+https://www.uai.cl/admision/becas-y-aranceles/becas,200,https://www.uai.cl/admision/becas-y-aranceles/becas,a1ac85046f90e5368922cb9accfd2806ab1d271582fc127b0d9d0c2f944a8be8,
+https://www.ucentral.cl/admision/becas-y-beneficios,200,https://www.ucentral.cl/estudiantes/dave/area-de-beneficios-y-servicios-estudiantiles/becas-y-beneficios/,8bc08f9e0ebe68a58e6ff681d345186d4d471cdf465b2345b7fb2740b3c31bfb,
+https://www.udd.cl/admision/becas/,200,https://www.udd.cl/admision-pregrado/becas/,ec79ed7a3616198b2ad197d553dbd01ddbd1c1f9ed7ed4f0e92749046dd5d530,
+https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/,200,https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/,db50adffff736605ea56428dc9411bd67e8ef53601648bce8a62ef43f8c9125e,
+https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html,200,https://www.unap.cl/prontus_unap/site/artic/20230926/pags/20230926171445.html,ddcec8789ffbb0b00ce5a54eb1cdd368b84364a138e1011e6247af1d317a3030,
+https://www.upla.cl/admision/becas-y-beneficios/,404,https://www.upla.cl/admision/becas-y-beneficios/,,HTTP no accesible
+https://www.uvm.cl/becas-y-beneficios/,404,https://www.uvm.cl/becas-y-beneficios/,,HTTP no accesible
+https://www.vallenar.cl/,200,https://www.imvallenar.gob.cl/,d90ae24993c2f9f8864d0ba2d034954a10ff6e71f79985c37b668a4b6173fd54,
+https://www.victoria.cl/,200,https://www.victoria.cl/,c22e8619b6292676511ef4b53f88d58319178c3343c0d39e40104e9f649974b2,
+https://www.villalegre.cl/,200,https://villalegre.cl/,843d207631b859d30cb0af0729ee20308caf54f612214fd39c5371841b9f280a,
+https://www.villalemana.cl/,200,https://munivillalemana.gob.cl/,5b3cfe097b3cee71b9e810e2b1f005dbf3eb490e7a05674dd3277c6ce3ecea85,
+https://www.yumbel.cl/,200,https://yumbel.cl/,c96e3cb3d9fc3f8d98f31fdb56a0e79b6764e17dd31121aec9d08cae43116558,
+https://www.yungay.cl/,200,https://www.yungay.cl/,17de39df9b4200d2c0f52b20d4198e01b3453136ef9ec0da126694b551e7c0d1,
+materiales). Cierre de postulaciones: 6 de marzo. Primera vez: obligatorio haber egresado de Colegio Pasión de Jesús,,,,ValueError
+o 5.0 para estudiantes antiguos (4.5 para estudiantes con discapacidad certificada).,,,,ValueError
+vie 16:30) o digital.,,,,ValueError

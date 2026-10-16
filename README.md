@@ -79,7 +79,7 @@ El sistema está dividido en dos aplicaciones principales:
 - Spring Validation
 - JWT con `io.jsonwebtoken`
 - Maven
-- MySQL
+- PostgreSQL 17
 - Lombok
 - Springdoc OpenAPI / Swagger UI
 - OpenCSV
@@ -99,7 +99,7 @@ El sistema está dividido en dos aplicaciones principales:
 
 ### Base de datos e infraestructura
 
-- MySQL 8.0
+- PostgreSQL 17
 - Script DDL en `infra/ddl.sql`
 - Datos iniciales en `backend/src/main/resources/data.sql`
 
@@ -157,7 +157,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Maven 3.8 o superior.
 - Node.js 20 o superior.
 - npm.
-- PostgreSQL 15 o superior.
+- PostgreSQL 17.
 - Git.
 
 ---
@@ -250,7 +250,7 @@ mvn clean install
 Ejecuta la API:
 
 ```bash
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 Por defecto, el backend se levanta en:
@@ -447,7 +447,7 @@ JWT_EXPIRATION_MS=86400000
 ```bash
 cd backend
 mvn clean install
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 ### Frontend
@@ -471,13 +471,13 @@ El proyecto incluye suites de pruebas automatizadas tanto para backend como para
 Desde la raíz del repositorio:
 
 ```bash
-.\run_all_tests.ps1
+.\run_all_tests.ps1 -MavenPath "ruta\a\mvn.cmd"
 ```
 
 Este script ejecuta:
 
-1. **Backend**: 60 tests unitarios y de integración con JUnit 5 + H2 en memoria.
-2. **Frontend**: Tests E2E con Playwright (requiere el frontend corriendo en `http://localhost:5173`).
+1. **Backend**: pruebas unitarias y de integración con JUnit 5 + H2 en memoria.
+2. **Frontend**: instalación con npm ci, lint, audit, build y E2E en Chromium/Firefox. Playwright inicia y detiene un preview aislado en 127.0.0.1:5198; no requiere iniciar el servidor dev. El script falla ante cualquier error.
 
 ### Solo backend
 
@@ -492,8 +492,13 @@ Los reportes se generan en `backend/target/surefire-reports/`.
 
 ```bash
 cd frontend
-npx playwright test
+npm ci
+npm run build
+npx playwright install chromium firefox
+npx playwright test --workers 1
 ```
+
+El pipeline [Quality](.github/workflows/quality.yml) verifica también PostgreSQL 17 real y presupuestos de rendimiento, sin desplegar. La [evidencia previa al despliegue](documentacion/CALIDAD_PRE_DESPLIEGUE.md) incluye alcance y limitaciones.
 
 ### Plan de pruebas
 

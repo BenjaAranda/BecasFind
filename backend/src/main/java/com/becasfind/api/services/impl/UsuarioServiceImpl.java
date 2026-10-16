@@ -38,8 +38,15 @@ public class UsuarioServiceImpl implements UsuarioService {
     @Override
     @Transactional(readOnly = true)
     public List<UsuarioDTO> findAll() {
-        return usuarioRepository.findAll().stream()
-                .map(this::toDTO)
+        return usuarioRepository.findAllForAdministration().stream()
+                .map(user -> UsuarioDTO.builder()
+                        .idUsuario(user.getIdUsuario())
+                        .email(user.getEmail())
+                        .nombreCompleto(user.getNombreCompleto())
+                        .rol(user.getRol())
+                        .activo(user.getActivo())
+                        .creadoEn(user.getCreadoEn())
+                        .build())
                 .collect(Collectors.toList());
     }
 

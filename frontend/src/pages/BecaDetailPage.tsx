@@ -1,7 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import PublicNavbar from '../components/layout/PublicNavbar';
 import { becaService } from '../services/becaService';
 import type { BecaDetail } from '../types';
+import { formatCalendarDate, isClosingDateExpired } from '../utils/dates';
 import {
   ArrowLeft,
   Calendar,
@@ -9,7 +11,6 @@ import {
   Tag,
   Globe,
   FileCheck,
-  GraduationCap,
   AlertCircle,
   Clock,
 } from 'lucide-react';
@@ -19,168 +20,139 @@ export default function BecaDetailPage() {
   const navigate = useNavigate();
   const [beca, setBeca] = useState<BecaDetail | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [retry, setRetry] = useState(0);
 
   useEffect(() => {
-    if (!id) return;
-    becaService.findById(Number(id))
-      .then(({ data }) => setBeca(data.data))
-      .catch(() => navigate('/'))
-      .finally(() => setLoading(false));
-  }, [id, navigate]);
+    let active = true;
+    const controller = new AbortController();
+    const request = id && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)
+      ? becaService.findById(id, controller.signal)
+      : Promise.reject(new Error('Identificador inválido'));
+    request.then(({ data }) => { if (active) { setBeca(data.data); setError(''); } })
+      .catch(() => { if (active) { setBeca(null); setError('No pudimos abrir esta beca. El enlace puede no estar disponible o hubo un problema de conexión.'); } })
+      .finally(() => { if (active) setLoading(false); });
+    return () => { active = false; controller.abort(); };
+  }, [id, retry]);
 
   const goBack = useCallback(() => {
-    if (window.history.length > 1) {
+    if (window.history.state?.idx > 0) {
       navigate(-1);
     } else {
       navigate('/explorar');
     }
   }, [navigate]);
 
-  useEffect(() => {
-    const handleHardwareBack = (e: Event) => {
-      if (e instanceof KeyboardEvent && e.key === 'Escape') {
-        goBack();
-      } else if (e instanceof MouseEvent && (e.button === 3 || e.button === 4)) {
-        e.preventDefault();
-        goBack();
-      }
-    };
-    window.addEventListener('keydown', handleHardwareBack);
-    window.addEventListener('mouseup', handleHardwareBack);
-    return () => {
-      window.removeEventListener('keydown', handleHardwareBack);
-      window.removeEventListener('mouseup', handleHardwareBack);
-    };
-  }, [goBack]);
-
-  const formatDate = (dateStr: string) =>
-    new Date(dateStr).toLocaleDateString('es-CL', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    });
+  const formatDate = formatCalendarDate;
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-blue-600" />
+      <div className="min-h-screen bg-[#f8fafc] flex items-center justify-center">
+        <p role="status" className="text-[#0b3c75]">Cargando la beca…</p>
       </div>
     );
   }
 
-  if (!beca) return null;
+  if (!beca) return <div className="min-h-screen bg-[#f8fafc]"><PublicNavbar /><main className="max-w-2xl mx-auto px-6 py-16"><h1 className="font-sans font-semibold text-4xl text-[#0b3c75] mb-6">No pudimos abrir esta beca</h1><p role="alert" className="text-slate-600 mb-6">{error}</p><div className="flex flex-wrap gap-4"><button onClick={() => { setLoading(true); setRetry(value => value + 1); }} className="min-h-12 px-5 bg-[#0b3c75] text-white focus-visible:outline-2 focus-visible:outline-offset-4">Reintentar</button><button onClick={() => navigate('/explorar')} className="min-h-12 px-5 text-[#0b3c75] underline focus-visible:outline-2 focus-visible:outline-offset-4">Volver al buscador</button></div></main></div>;
 
-  const isExpired = new Date(beca.fechaCierrePostulacion) < new Date();
+  const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
-          <button
-            onClick={goBack}
-            className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 transition cursor-pointer"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Volver
-          </button>
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
-            <GraduationCap className="w-6 h-6 text-blue-600" />
-            <span className="font-bold text-lg text-gray-800">BecasFind</span>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen bg-[#f8fafc]">
+      <PublicNavbar />
 
-      <main className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+        <button onClick={goBack} className="inline-flex items-center gap-2 min-h-11 text-sm text-[#0b3c75] underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2"><ArrowLeft size={16} aria-hidden="true" />Volver</button>
+        <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">{beca.nombre}</h1>
-            <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
-              {isExpired ? 'Expirada' : 'Activa'}
+            <h1 className="font-sans font-semibold text-3xl sm:text-5xl leading-tight break-words text-[#0b3c75]">{beca.nombre}</h1>
+            <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired || !beca.estadoActiva || !beca.fechaCierrePostulacion ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
+              {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : isExpired ? 'Vencida' : 'Vigente'}
             </span>
           </div>
 
           {beca.descripcionCorta && (
-            <p className="text-gray-600 mb-4">{beca.descripcionCorta}</p>
+            <p className="text-slate-600 mb-4">{beca.descripcionCorta}</p>
           )}
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <Building2 className="w-4 h-4 text-gray-400 shrink-0" />
+            <div className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
+              <Building2 className="w-4 h-4 text-slate-500 shrink-0" />
               <span className="font-medium">Institución:</span>
               <span>{beca.institucion?.nombre}</span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <Tag className="w-4 h-4 text-gray-400 shrink-0" />
+            <div className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
+              <Tag className="w-4 h-4 text-slate-500 shrink-0" />
               <span className="font-medium">Tipo:</span>
               <span>{beca.tipoBeca?.nombre}</span>
             </div>
             {beca.montoCobertura && (
-              <div className="flex items-center gap-2 text-sm text-gray-600">
+              <div className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
                 <span className="font-medium">Monto:</span>
                 <span>{beca.montoCobertura}</span>
               </div>
             )}
-            <div className="flex items-center gap-2 text-sm text-gray-600">
-              <Globe className="w-4 h-4 text-gray-400 shrink-0" />
+            <div className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
+              <Globe className="w-4 h-4 text-slate-500 shrink-0" />
               <span className="font-medium">Alcance:</span>
               <span>{beca.regiones.length > 0 ? beca.regiones.map(r => r.nombre).join(', ') : 'Nacional'}</span>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 bg-gray-50 rounded-lg">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-4 bg-[#f8fafc] rounded-sm">
             {beca.fechaInicioPostulacion && (
               <div className="flex items-center gap-2 text-sm">
                 <Calendar className="w-4 h-4 text-blue-500 shrink-0" />
                 <div>
-                  <span className="text-gray-500">Inicio postulación:</span>
-                  <p className="font-medium text-gray-800">{formatDate(beca.fechaInicioPostulacion)}</p>
+                  <span className="text-slate-600">Inicio postulación:</span>
+                  <p className="font-medium text-[#0b3c75]">{formatDate(beca.fechaInicioPostulacion)}</p>
                 </div>
               </div>
             )}
             <div className="flex items-center gap-2 text-sm">
-              <Clock className={`w-4 h-4 shrink-0 ${isExpired ? 'text-red-500' : 'text-orange-500'}`} />
+              <Clock className={`w-4 h-4 shrink-0 ${isExpired ? 'text-red-700' : 'text-orange-500'}`} />
               <div>
-                <span className="text-gray-500">Cierre postulación:</span>
-                <p className="font-medium text-gray-800">{formatDate(beca.fechaCierrePostulacion)}</p>
+                <span className="text-slate-600">Cierre postulación:</span>
+                <p className="font-medium text-[#0b3c75]">{formatDate(beca.fechaCierrePostulacion)}</p>
               </div>
             </div>
           </div>
         </div>
 
         {beca.descripcionLarga && (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-            <h2 className="text-lg font-semibold text-gray-800 mb-3">Descripción Completa</h2>
-            <p className="text-gray-600 whitespace-pre-line">{beca.descripcionLarga}</p>
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-3">Descripción Completa</h2>
+            <p className="text-slate-600 leading-relaxed whitespace-pre-line break-words">{beca.descripcionLarga}</p>
           </div>
         )}
 
         {beca.requisitoPerfil && (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-            <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-500" />
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
+              <AlertCircle className="w-5 h-5 text-amber-700" />
               Requisitos del Perfil
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {beca.requisitoPerfil.rshMaximoPorcentaje != null && (
-                <div className="p-3 bg-amber-50 rounded-lg">
+                <div className="p-3 bg-amber-50 rounded-sm">
                   <p className="text-xs text-amber-600 font-medium">RSH Máximo</p>
                   <p className="text-lg font-bold text-amber-800">{beca.requisitoPerfil.rshMaximoPorcentaje}%</p>
                 </div>
               )}
               {beca.requisitoPerfil.nemMinimo != null && (
-                <div className="p-3 bg-blue-50 rounded-lg">
-                  <p className="text-xs text-blue-600 font-medium">NEM Mínimo</p>
-                  <p className="text-lg font-bold text-blue-800">{beca.requisitoPerfil.nemMinimo}</p>
+                <div className="p-3 bg-[#eff6ff] rounded-sm">
+                  <p className="text-xs text-[#0b3c75] font-medium">NEM Mínimo</p>
+                  <p className="text-lg font-bold text-[#0b3c75]">{beca.requisitoPerfil.nemMinimo}</p>
                 </div>
               )}
               {beca.requisitoPerfil.paesMinimo != null && (
-                <div className="p-3 bg-purple-50 rounded-lg">
-                  <p className="text-xs text-purple-600 font-medium">PAES Mínimo</p>
-                  <p className="text-lg font-bold text-purple-800">{beca.requisitoPerfil.paesMinimo}</p>
+                <div className="p-3 bg-[#eff6ff] rounded-sm">
+                  <p className="text-xs text-[#375b80] font-medium">PAES Mínimo</p>
+                  <p className="text-lg font-bold text-[#0b3c75]">{beca.requisitoPerfil.paesMinimo}</p>
                 </div>
               )}
-              <div className="p-3 bg-gray-50 rounded-lg">
-                <p className="text-xs text-gray-500 font-medium">Nivel</p>
+              <div className="p-3 bg-[#f8fafc] rounded-sm">
+                <p className="text-xs text-slate-600 font-medium">Nivel</p>
                 <p className="text-sm font-medium text-gray-700">
                   {beca.requisitoPerfil.esParaPrimerAnio && 'Primer Año'}
                   {beca.requisitoPerfil.esParaPrimerAnio && beca.requisitoPerfil.esParaCursoSuperior && ' / '}
@@ -193,38 +165,38 @@ export default function BecaDetailPage() {
         )}
 
         {beca.documentosRequeridos.length > 0 ? (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-            <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
               <FileCheck className="w-5 h-5 text-green-500" />
               Documentos Requeridos
             </h2>
             <ul className="space-y-2">
               {beca.documentosRequeridos.map((doc) => (
-                <li key={doc.idDocumento} className="flex items-center gap-2 text-sm text-gray-600">
+                <li key={doc.idDocumento} className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
                   <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${doc.esObligatorio ? 'bg-red-400' : 'bg-amber-400'}`} />
                   {doc.nombreDocumento}
-                  <span className={`text-xs font-medium ${doc.esObligatorio ? 'text-red-500' : 'text-amber-500'}`}>
+                  <span className={`text-xs font-medium ${doc.esObligatorio ? 'text-red-700' : 'text-amber-700'}`}>
                     ({doc.esObligatorio ? 'Obligatorio' : 'Opcional'})
                   </span>
                 </li>
               ))}
             </ul>
           </div>
-        ) : beca.descripcionLarga && beca.descripcionLarga.includes('[OBLIGATORIO]') ? (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-            <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+        ) : beca.descripcionLarga && /\[(OBLIGATORIO|OPCIONAL)\]/i.test(beca.descripcionLarga) ? (
+          <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
+            <h2 className="font-sans font-semibold text-2xl text-[#0b3c75] mb-4 flex items-center gap-2">
               <FileCheck className="w-5 h-5 text-green-500" />
               Documentos Requeridos
             </h2>
             <ul className="space-y-2">
-              {beca.descripcionLarga.match(/\[(OBLIGATORIO|OPCIONAL)\]\s*([^;]+)/gi)?.map((item, i) => {
+              {beca.descripcionLarga.match(/\[(OBLIGATORIO|OPCIONAL)\]\s*([^;[\r\n]+)/gi)?.map((item, i) => {
                 const obligatorio = item.toUpperCase().includes('OBLIGATORIO');
                 const texto = item.replace(/\[(OBLIGATORIO|OPCIONAL)\]\s*/i, '').trim();
                 return (
-                  <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
+                  <li key={i} className="flex items-center gap-2 flex-wrap text-sm text-slate-600">
                     <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${obligatorio ? 'bg-red-400' : 'bg-amber-400'}`} />
                     {texto}
-                    <span className={`text-xs font-medium ${obligatorio ? 'text-red-500' : 'text-amber-500'}`}>
+                    <span className={`text-xs font-medium ${obligatorio ? 'text-red-700' : 'text-amber-700'}`}>
                       ({obligatorio ? 'Obligatorio' : 'Opcional'})
                     </span>
                   </li>
@@ -240,7 +212,7 @@ export default function BecaDetailPage() {
               href={beca.urlOficial}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition"
+              className="inline-flex items-center gap-2 min-h-12 px-6 py-3 focus-visible:outline-2 focus-visible:outline-offset-4 bg-[#0b3c75] hover:bg-[#082e5b] text-white font-medium rounded-sm transition"
             >
               <Globe className="w-4 h-4" />
               Ver convocatoria oficial
