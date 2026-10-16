@@ -48,6 +48,14 @@ La [página oficial de Admisión ENAC](https://enac.cl/admision/) informa sobre 
 
 Se localizaron bases y convocatorias oficiales de becas municipales en otras comunas, incluidas Quillota, Constitución, Renca, San Pedro, Teodoro Schmidt y otras. Son fuentes útiles como ejemplos de programas municipales, pero no corroboran becas atribuidas a El Monte, Concepción, Estación Central, Santa María, Talca, Victoria, Camiña, Tierra Amarilla ni las demás municipalidades de esta cola. Tampoco se utiliza la falta de resultados o la inaccesibilidad de un dominio como evidencia de inexistencia.
 
+## Municipalidad de Lo Espejo — Beca Municipal de Educación Superior
+
+**Candidata:** `110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8`.
+
+La [página oficial del Departamento de Desarrollo Social](https://www.loespejo.cl/departamento-de-desarrollo-social/) enumera «Postulación a Becas de Educación Superior» dentro de Acción Social y señala que el departamento coordina subsidios entregados por el Gobierno Central. Esto acredita un servicio municipal de apoyo/postulación a becas, pero no identifica una beca municipal propia de mantención ni confirma el monto, el RSH 60% o el promedio NEM 5,0 atribuidos en el registro. No se transforma la orientación sobre becas estatales en una beca municipal financiada por Lo Espejo.
+
+**Decisión:** mantener `REQUIERE_ACLARACION` hasta localizar bases o un acto que vincule esta ficha con un beneficio monetario municipal. La página oficial reduce la ambigüedad del servicio prestado, pero no confirma la identidad financiera de la candidata.
+
 ## Universidad Alberto Hurtado — Beca Vocación Social
 
 **Candidata:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`.
