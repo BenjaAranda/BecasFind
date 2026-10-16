@@ -77,3 +77,17 @@ La [página oficial UAH de Becas y Beneficios 2026](https://admision.uahurtado.c
 ## Resultado ampliado
 
 Este anexo queda vinculado a nueve candidatas en total. Los catálogos institucionales ayudan a descartar la transferencia accidental de datos entre programas, pero no autorizan a convertir la falta de una denominación en evidencia de inexistencia histórica. El estado de estas nueve candidatas no cambia; se conservan identidad, campos y trazas originales hasta obtener un acto o ficha oficial específica.
+
+## CFT ENAC — cinco candidatas de beneficios internos
+
+**Candidatas:** `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` (Vocación de Servicio).
+
+La [página oficial de admisión ENAC](https://enac.cl/admision/) informa gratuidad, beneficios estatales y becas JUNAEB; la [Dirección de Permanencia Estudiantil](https://enac.cl/estudiantes/atencion-estudiantil/) ofrece orientación para beneficios internos y externos, sin publicar en esa página las cinco reglas descritas por estas candidatas. La página oficial de [Titulados ENAC](https://enac.cl/titulados/) sí publica un convenio de continuidad de estudios con descuento de arancel en la Universidad Católica Silva Henríquez; eso no acredita un descuento para cursar una segunda carrera dentro de ENAC. ENAC también documentó el fondo estudiantil [CREA ENAC 2024](https://innovacion.enac.cl/crea-enac-2024/), que financia proyectos de emprendimiento; corresponde a otra modalidad.
+
+En los originales accesibles de `becas_cftenac.csv`, las filas “Beca Deportiva” y “Beca Vocación de Servicio” presentan indicios de desplazamiento de columnas: el campo URL contiene marcadores de documentos y la dirección enlazada aparece dentro de la descripción larga. Por ello esos campos no se tratan como fuente ni como confirmación. La página antigua citada dentro del texto no basta para verificar los beneficios específicos.
+
+**Decisión:** las cinco permanecen pendientes. Los sitios oficiales prueban que ENAC orienta y administra beneficios, pero no vinculan inequívocamente estas cinco denominaciones a las tasas, poblaciones, requisitos o vigencias que atribuye el corpus. No eliminar ni combinar las candidatas; corregir su estructura solo al cotejar los CSV originales con una ficha o bases oficiales específicas.
+
+## Resultado actualizado
+
+El anexo ya incluye catorce candidatas: cinco grupos municipales o institucionales y cuatro becas universitarias del corte anterior, además del grupo ENAC. Ninguna se cierra con evidencia indirecta. Las filas originales permanecen preservadas y sus hallazgos quedan conectados a través de `revisiones_parciales.csv`.
