@@ -142,6 +142,24 @@ En Victoria, la municipalidad informa que la [Beca de Excelencia CMPC de 2025](h
 
 **Decisión:** mantener ambos expedientes abiertos. Se identificaron servicios y becas oficiales con alcance distinto, pero no se acreditó la identidad de la beca general histórica ni se probó su inexistencia. No trasladar montos, requisitos ni otorgantes.
 
+## Municipalidades de Coronel y Valparaíso
+
+### Coronel — Beca Municipal de Educación Superior
+
+**Candidata:** `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`.
+
+La [Cuenta Pública municipal 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf) registra la «Beca Alcalde» y señala que benefició a 63 estudiantes de educación superior desde 2016; la define para estudiantes con los puntajes PSU más altos y atribuye su financiamiento al alcalde. Una publicación municipal de [2022](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/) confirma entrega mediante cheque a 20 jóvenes con puntajes destacados para costear los primeros gastos de educación superior. En 2026 la municipalidad también publicó una [Beca Municipal de Subvención de Pasajes](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/) para dos estudiantes con puntaje nacional PAES que se trasladan a estudiar.
+
+Las fuentes verifican que Coronel tuvo becas municipales relacionadas con ingreso y transporte para estudios superiores, pero no prueban que sean la ayuda DIDECO general descrita por la candidata, ni respaldan RSH 60%, promedio 5,0 o una asignación anual general. **Decisión:** mantener abierta; no cambiar el otorgante ni requisitos desde la Beca Alcalde o la beca de pasajes.
+
+### Valparaíso — tres candidatas DIDECO, mantención y transporte
+
+**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d` (Beca Municipal Educación Superior), `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c` (Beca Municipalidad de Valparaíso DIDECO) y `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068` (Beca de Transporte).
+
+La [página municipal oficial de Becas](https://municipalidaddevalparaiso.cl/becas/) describe la Beca Presidente de la República y la Beca Indígena como beneficios estatales; explica que el municipio orienta y gestiona las postulaciones y que JUNAEB selecciona. No identifica una beca municipal general de educación superior ni una subvención de transporte. El [preuniversitario popular municipal](https://municipalidaddevalparaiso.cl/valparaiso-cuenta-con-nuevo-preuniversitario-popular/) es un servicio de preparación PAES, no un aporte monetario para estudiantes ya matriculados.
+
+Las dos fichas de mantención comparten afirmaciones de residencia, RSH y NEM, pero difieren en nombre, monto, cierre y procedencia del archivo; una tercera ficha describe transporte mensual. Esa semejanza entre registros locales no demuestra que las tres sean la misma convocatoria ni que dos sean duplicados. La fuente oficial consultada tampoco verifica las cifras o requisitos. **Decisión:** mantener abiertas las tres; no consolidar ni descartar ninguna sin bases, decretos o listados municipales que vinculen de forma positiva los registros con una modalidad concreta.
+
 ## Resultado y alcance
 
 Esta iteración aporta contraste documental adicional, pero no cambia estados: las fuentes específicas consultadas delimitan beneficios reales sin identificar suficientemente las fichas pendientes. El corte comprobado de `casos.csv` es de **45 casos abiertos: 31 `PENDIENTE_CONFIRMACION_COMPLETA` y 14 `EXCLUSION_HISTORICA_SIN_RATIFICAR`**. El archivo auxiliar `pendientes_esenciales_actuales.csv` tenía 44 filas y omitía la candidata UAH descrita arriba; quedó sincronizado con el inventario y ahora contiene 45. No se descartan ni fusionan registros por ausencia de evidencia.
