@@ -28,6 +28,22 @@ La [oferta institucional UCT de becas y créditos](https://admision.uct.cl/becas
 
 La [DAFE UdeC publica el catálogo de becas, gratuidad y créditos](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/), que incluye beneficios del Estado como Bicentenario, Excelencia Académica, Juan Gómez Millas y Nuevo Milenio. La [oferta de beneficios institucionales UdeC](https://admision.udec.cl/beneficios/) describe por separado becas propias con requisitos y coberturas específicas. Estas páginas permiten distinguir beneficios estatales de las becas propias, pero no establecen que la ficha genérica pendiente corresponda a una modalidad concreta ni corroboran sus campos históricos. **Decisión:** mantener la identidad pendiente y no tratar el rótulo genérico como confirmación de una beca propia.
 
+El catálogo institucional consultado nuevamente para 2026 enumera beneficios concretos como Enrique Molina Garmendia, Doctor Virginio Gómez, ayudas ligadas a carreras, deporte, olimpiadas y alimentación, con requisitos, decretos y coberturas propios. La coincidencia general en que varias becas cubren arancel no vincula esas modalidades con la ficha «Beca de Arancel UdeC» ni respalda su afirmación de cobertura socioeconómica de 50–100%.
+
+## Universidad Bernardo O’Higgins — Beca Socioeconómica UBO
+
+**Candidata:** `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`.
+
+La [página oficial de financiamiento UBO para Admisión 2026](https://admision.ubo.cl/financiamiento/) detalla beneficios internos por admisión directa, mujeres en ingeniería, condición laboral, convenios y puntaje PAES. No identifica una «Beca Socioeconómica» general con descuento de 15–40% y RSH hasta 60% como afirma el original. La página de [Gratuidad UBO](https://admision.ubo.cl/gratuidad/) explica el beneficio estatal; tampoco equivale a la beca institucional descrita en la ficha. **Decisión:** conservar la exclusión histórica sin ratificar. El catálogo del ciclo consultado no prueba que un beneficio separado nunca haya existido ni basta para descartar la ficha histórica.
+
+## CFT ENAC — cinco candidatas institucionales
+
+**Candidatas:** `317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5` (Apoyo Familiar), `caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c` (Convenio Empresas), `bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e` (Deportiva), `be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31` (Titulado) y `1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656` (Vocación de Servicio).
+
+La [página oficial de Admisión ENAC](https://enac.cl/admision/) informa sobre gratuidad, CAE, becas Mineduc y JUNAEB. La [Dirección de Permanencia Estudiantil](https://enac.cl/estudiantes/atencion-estudiantil/) confirma que DIPE orienta sobre beneficios internos o externos y problemáticas socioeconómicas, pero no identifica en esa página las cinco becas ni confirma los porcentajes, destinatarios o requisitos atribuidos en los CSV. Una página de orientación no sustituye las bases o convenios de cada beneficio.
+
+**Decisión para las cinco:** mantenerlas como exclusiones históricas sin ratificar. La evidencia acredita que ENAC presta orientación sobre beneficios, no las identidades ni las condiciones específicas alegadas. Tampoco prueba que esas modalidades nunca existieran. Se requieren bases, convenios o convocatorias institucionales individualizadas.
+
 ## Búsquedas municipales
 
 Se localizaron bases y convocatorias oficiales de becas municipales en otras comunas, incluidas Quillota, Constitución, Renca, San Pedro, Teodoro Schmidt y otras. Son fuentes útiles como ejemplos de programas municipales, pero no corroboran becas atribuidas a El Monte, Concepción, Estación Central, Santa María, Talca, Victoria, Camiña, Tierra Amarilla ni las demás municipalidades de esta cola. Tampoco se utiliza la falta de resultados o la inaccesibilidad de un dominio como evidencia de inexistencia.
