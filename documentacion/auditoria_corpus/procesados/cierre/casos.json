@@ -25336,7 +25336,7 @@
       },
       {
         "informe": "CONTRASTE_FUENTES_PRIMARIAS_UCT_ENAC_MEJILLONES_2026_10_13.md",
-        "informe_sha256": "425ffb784bfae73a9510841cd810a50bb8bb5a4c4b6e767505c8a12ea32bf7fa",
+        "informe_sha256": "2522434e37a09f959654938c328d790a077da93bb1b5351a36ae658645c96551",
         "extractos": [
           "**Beca Municipal Educación Superior Mejillones** (`10ff76533448d99eb23690b3de215c3d6181697366b60cd129e2ffc98b70b2f2`) queda **confirmada esencialmente con alcance histórico limitado**. La Cuenta Pública de 2009 registra becas en dinero para 179 estudiantes de educación superior que estudiaban fuera de la comuna, con inversión total de $36.750.000. La Cuenta Pública de 2024 registra becas de enseñanza media y superior para 655 estudiantes e inversión agregada de $125.400.000, sin separar niveles ni importes individuales. Las cuentas de 2021 y 2022 también documentan apoyos superiores. En conjunto, son evidencia municipal positiva de identidad institucional, apoyo económico y población estudiantil superior. No confirman bases o vigencia 2026, monto individual, periodicidad, umbral RSH 60%, promedio 5,0 ni fechas de postulación; estos campos quedan desconocidos y la beca no debe activarse como vigente sin convocatoria/cierre confirmado.\n\nFuentes: [Cuenta Pública 2009](https://www.mejillones.cl/wp-content/uploads/2010/09/Cuenta-P%C3%BAblica-2009.pdf), [Cuenta Pública 2021](https://www.mejillones.cl/wp-content/uploads/2022/06/CUENTA-PUBLICA-2021-1.pdf), [Cuenta Pública 2022](https://mejillones.cl/wp-content/uploads/2023/05/CUENTA-VISTA_compressed.pdf), [Cuenta Pública 2024](https://mejillones.cl/wp-content/uploads/2025/05/CUENTA-MEJILLONES-WEB.pdf)."
         ]
@@ -34226,6 +34226,13 @@
         "informe_sha256": "9626db66c334ff72dc7a66fac630c4532853ac089bd68e2553b08b9cdca2570b",
         "extractos": [
           "## Romeral — `5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b`\n\nLas páginas municipales encontradas describen la coordinación de las becas Presidente de la República e Indígena y actividades de apoyo escolar. No individualizan la beca municipal de educación superior que alega la candidata ni prueban que no exista una modalidad aparte.\n\nFuentes: [calendario municipal de becas JUNAEB 2013–2014](https://muniromeral.cl/romeral/?p=3466), [noticias municipales de Romeral](https://muniromeral.cl/romeral/?author=2&paged=9).\n\nEstado: abierta; no se trasladan datos de becas estatales o apoyos escolares."
+        ]
+      },
+      {
+        "informe": "LECTURA_ACTAS_ROMERAL_2026_10_19.md",
+        "informe_sha256": "b1f575e25b4af3e6f9d865b62144864aa90cc0dd23c904bf068346b863dc7caa",
+        "extractos": [
+          "Candidata: `5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b` — Beca Municipal de Educación Superior Romeral. Consulta: 19 de octubre de 2026. Estado: **requiere aclaración de identidad/modalidad**."
         ]
       }
     ],
