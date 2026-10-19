@@ -11139,5 +11139,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4",
+    "revisado": "2026-10-18",
+    "alcance": "Existencia y beneficio esencial del programa municipal 100 por 100 documentado para estudiantes universitarios de Coronel en 2019; no acredita una convocatoria posterior.",
+    "informe": "CONFIRMACION_ESENCIAL_100_POR_100_CORONEL_2026_10_18.md",
+    "fuentes": [
+      "https://www.coronel.cl/noticias/entrega-de-96-becas-a-alumnos-y-alumnas-universitarias-de-nuestra-comuna/"
+    ],
+    "beneficio": "Becas municipales del programa 100 por 100; 96 estudiantes universitarios recibieron beca en 2019. La fuente no especifica el monto individual.",
+    "requisitos_principales": "No especificados en la publicación oficial consultada.",
+    "limites": "Alcance histórico 2019. No confirma el subsidio anual de libre disposición, RSH 60%, NEM 5,0, fechas ni documentos del original; tampoco acredita vigencia o convocatoria 2026. Mantener inactiva y no publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
