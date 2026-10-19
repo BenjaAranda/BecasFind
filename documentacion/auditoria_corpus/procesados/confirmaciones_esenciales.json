@@ -10306,16 +10306,16 @@
   },
   {
     "candidato": "ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30",
-    "revisado": "2026-10-13",
-    "alcance": "Beca de Excelencia Académica Mineduc disponible para estudiantes de carreras técnicas de CFT ENAC; no es beca interna propia de ENAC.",
-    "informe": "CONFIRMACION_ESENCIAL_BECA_EXCELENCIA_ACADEMICA_ENAC_2026_10_13.md",
+    "revisado": "2026-10-19",
+    "alcance": "Beca Excelencia Académica interna de ENAC; contenido institucional archivado en 2013 y 2015. Corrige la atribución anterior a Mineduc; no acredita convocatoria 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md",
     "fuentes": [
-      "https://enac.cl/admision/",
-      "https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf"
+      "https://web.archive.org/web/20130611194042id_/http://www.enac.cl:80/becas/becas-enac",
+      "https://web.archive.org/web/20150614042632id_/http://enac.cl:80/becas/beca-enac"
     ],
-    "beneficio": "Financia matrícula y arancel hasta el límite normativo aplicable; para carreras técnicas en CFT, máximo de $600.000 según reglamento consolidado.",
-    "requisitos_principales": "Egreso de enseñanza media el año inmediatamente anterior y pertenecer al 10% superior del establecimiento o contar con DTE elegible; hasta octavo decil de ingreso per cápita. Sujeto a reglas generales e institución/carrera elegibles.",
-    "limites": "La página ENAC no ofrece un monto interno separado. Convocatoria anual, documentos operativos, adjudicación y cierre vigente no comprobados. Identificar al Mineduc como otorgante; no publicar como beca institucional vigente sin convocatoria anual.",
+    "beneficio": "Descuento del 50% del arancel anual; la beca se otorga anualmente.",
+    "requisitos_principales": "Estudiante con el mejor promedio de notas de cada promoción. Umbral numérico mínimo: No especificado en las fichas consultadas.",
+    "limites": "Alcance histórico de las publicaciones ENAC archivadas en 2013 y 2015. No confirma el 25% semestral, NEM de ingreso 5,5 ni renovación automática con 5,0 del original. No usar requisitos o cobertura de la BEA Mineduc. Documentos, fechas y reglas posteriores: No especificado. Mantener inactiva sin cierre vigente comprobado.",
     "fecha_inicio": null,
     "fecha_cierre": null,
     "documentos": null,
@@ -11151,6 +11151,28 @@
     "beneficio": "Becas municipales del programa 100 por 100; 96 estudiantes universitarios recibieron beca en 2019. La fuente no especifica el monto individual.",
     "requisitos_principales": "No especificados en la publicación oficial consultada.",
     "limites": "Alcance histórico 2019. No confirma el subsidio anual de libre disposición, RSH 60%, NEM 5,0, fechas ni documentos del original; tampoco acredita vigencia o convocatoria 2026. Mantener inactiva y no publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c",
+    "revisado": "2026-10-19",
+    "alcance": "Beca Convenio ENAC identificada en contenido oficial archivado en 2013 y 2015; corresponde a la línea de descuentos por convenio de la candidata Convenio Empresas. No identifica un convenio empresarial individual ni acredita convocatoria 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md",
+    "fuentes": [
+      "https://web.archive.org/web/20130611194042id_/http://www.enac.cl:80/becas/becas-enac",
+      "https://web.archive.org/web/20150614042632id_/http://enac.cl:80/becas/beca-enac"
+    ],
+    "beneficio": "Descuentos arancelarios entre 20% y 100%, según el convenio institucional. Corrige el rango 10–20% del original.",
+    "requisitos_principales": "Provenir de una institución con la que ENAC haya celebrado convenio. Empresas concretas, vínculo laboral y elegibilidad de cargas familiares: No especificado en las fichas oficiales consultadas.",
+    "limites": "Confirmación histórica de la línea institucional, no adjudicación ni convenio individual. Porcentaje individual, duración, periodicidad del descuento, RSH, documentos y calendario: No especificado. No confirma fechas 2026 ni autoriza activar o publicar como vigente.",
     "fecha_inicio": null,
     "fecha_cierre": null,
     "documentos": null,

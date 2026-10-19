@@ -1,22 +1,22 @@
-# Confirmación esencial: Beca de Excelencia Académica disponible en CFT ENAC
+# Beca Excelencia Académica ENAC: atribución anterior corregida
 
-Fecha de revisión: 13 de octubre de 2026
+Revisión inicial: 13 de octubre de 2026. Corrección: 19 de octubre de 2026.
 Candidata: `ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30`
 Decisión: `CONFIRMADA_ESENCIAL`
 
 ## Identidad y alcance
 
-La ficha histórica “Beca Excelencia Académica ENAC” corresponde a la **Beca de Excelencia Académica del Ministerio de Educación**, que ENAC enumera entre las becas estatales disponibles para postulantes de carreras técnicas. No es una beca interna creada por ENAC. Se confirma la existencia y el acceso institucional, sin atribuirle el descuento de una beca propia.
+**La atribución anterior a la Beca de Excelencia Académica Mineduc queda sin efecto.** ENAC sí publicó una beca interna con ese nombre en las páginas oficiales archivadas de 2013 y 2015. El nuevo [informe individual](CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md) conserva la correspondencia, las fuentes históricas y la corrección del beneficio y los requisitos. El registro mantiene confirmación esencial histórica de la beca interna, no de la estatal.
 
 ## Beneficio y requisitos corroborados
 
-La normativa oficial identifica la Beca de Excelencia Académica y exige, para el grupo aplicable, egresar de enseñanza media el año inmediatamente anterior, pertenecer al 10% de mejor rendimiento del establecimiento o contar con una Distinción a las Trayectorias Educativas elegible, además de pertenecer hasta al octavo decil de ingreso per cápita. Para carreras técnicas en CFT, el reglamento consolidado establece un máximo de $600.000 para matrícula y arancel, sujeto al arancel real y las reglas de elegibilidad institucional.
+La fuente ENAC identifica una asignación anual de 50% del arancel al mejor promedio de cada promoción. No especifica en esa ficha una nota mínima numérica, documentos o calendario. El requisito del 10% superior de egreso escolar y el límite monetario del reglamento estatal no pertenecen a la modalidad interna y se retiran de su confirmación.
 
 ## Límites
 
-La página de admisión de ENAC confirma que informa esta beca estatal para su alumnado, pero no publica en esa página un monto institucional distinto. No se confirman aquí cupos individuales, fechas de convocatoria, documentos operativos ni adjudicación a una persona. El registro no autoriza publicación como convocatoria vigente sin revisar la convocatoria anual. La descripción pública debe identificar el otorgante como Mineduc y evitar presentarla como descuento propio de ENAC.
+El contenido de 2013 y 2015 no acredita vigencia 2026, adjudicaciones personales ni renovación automática con promedio 5,0. El dato original de 25% semestral y NEM 5,5 tampoco queda confirmado. Conservar desconocidos y mantener inactiva sin cierre vigente comprobado.
 
 ## Fuentes oficiales específicas
 
-- ENAC, admisión y beneficios estatales: https://enac.cl/admision/
-- Ministerio de Educación, Decreto 97 consolidado y reglas de la Beca de Excelencia Académica: https://portal.beneficiosestudiantiles.cl/sites/default/files/20250909_38501_decreto-97_09-oct-2013_actualizacion_2025.pdf
+- Fuentes y hashes vigentes: [confirmación interna histórica de ENAC](CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md).
+- Las fuentes estatales usadas inicialmente fueron https://enac.cl/admision/ y el Decreto 97 consolidado de Mineduc. Son antecedentes del error de atribución; no se usan como evidencia de identidad de esta beca interna.

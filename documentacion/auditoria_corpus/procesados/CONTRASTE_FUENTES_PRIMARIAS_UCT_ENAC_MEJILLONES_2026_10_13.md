@@ -37,4 +37,6 @@ Fuente: PDF enlazado arriba, páginas 1–3 y 6. SHA-256 de los bytes consultado
 
 ## Resultado del contraste
 
+Actualización del 19 de octubre: la recuperación de las páginas oficiales históricas de ENAC permite confirmar la línea Beca Convenio y corregir la atribución estatal de Excelencia Académica. Véase [confirmación histórica interna](CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md). Las conclusiones anteriores de falta de fuente para esas dos identidades quedan superadas por ese informe; las otras cuatro candidatas ENAC continúan abiertas.
+
 Se añadieron fuentes oficiales y límites probatorios a nueve candidatas. Mejillones alcanza confirmación esencial limitada a la existencia histórica del apoyo municipal; no equivale a confirmar convocatoria 2026. Las ocho candidatas UCT y ENAC siguen pendientes porque las fuentes no establecen identidad, cobertura y elegibilidad de sus fichas exactas. ENAC reconoce públicamente beneficios internos, de modo que la búsqueda de sus reglas debe continuar en su canal de Bienestar Estudiantil. No se interpreta una consulta sin resultado como inexistencia ni se ratifican descartes.

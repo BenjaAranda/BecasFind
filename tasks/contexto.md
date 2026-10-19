@@ -4,17 +4,17 @@ Actualizado el 19 de octubre de 2026. Leer este archivo, `AGENTS.md`, `PLAN_MEJO
 
 ## Tarea activa y estado comprobado
 
-Terminar la revisión esencial de las 132 candidatas que estaban pendientes en el corte del 12 de octubre. La cola actual contiene **40**, no 132: 28 requieren aclaración y 12 son exclusiones históricas todavía sin ratificar. El último contraste no cerró ninguna candidata; las búsquedas repetidas no son avance.
+Terminar la revisión esencial de las 132 candidatas que estaban pendientes en el corte del 12 de octubre. La cola actual contiene **39**, no 132: 28 requieren aclaración y 11 son exclusiones históricas todavía sin ratificar. Último avance: una confirmación esencial histórica nueva (Beca Convenio ENAC) y la corrección de una confirmación existente (Excelencia Académica ENAC interna, atribuida antes a Mineduc por error).
 
 | Inventario | Cantidad |
 |---|---:|
 | Archivos originales | 93 |
 | Referencias originales | 647 |
 | Identidades candidatas | 568 |
-| Confirmadas esenciales | 515 |
+| Confirmadas esenciales | 516 |
 | Confirmadas completas | 2 |
 | Descartes ratificados | 11 |
-| Pendientes de cierre | 40 |
+| Pendientes de cierre | 39 |
 
 No confundir candidatas con programas distintos. Confirmación histórica y vigencia publicable son controles separados.
 
@@ -46,7 +46,9 @@ Antes de cada consulta, leer la carencia y los informes ya vinculados al hash. R
 
 No repetir catálogos generales sin un enlace, apartado o año nuevo que pueda resolver el hecho faltante. UAI/INACAP y Valdivia ya tienen contraste del 19 de octubre. Talca y General Lagos ya fueron contrastadas con programas JUNAEB; esas fuentes no prueban la beca municipal genérica. Los catálogos de UCT/UA/UBO/UdeC ya fueron consultados y no permiten reasignar programas por parecido.
 
-Avance documental nuevo del 19 de octubre: `LECTURA_ACTAS_ROMERAL_2026_10_19.md` y su manifiesto JSON registran OCR de 611 páginas de 27 actas de 2026. El Acta 20, páginas 26–27 leídas visualmente, identifica una residencia municipal en Talca, sin demostrar equivalencia con la candidata de mantención. Buscar su reglamento y la respuesta al requerimiento del concejo. El PDF `Convenio-Serbima-ENAC.pdf` se leyó completo y su página 6 visualmente: es un folleto SERBIMA con becas Humberto Elgueta Guerín; no acredita un convenio estudiantil ENAC. Se corrigió esa atribución en el informe de UCT/ENAC/Mejillones del 13 de octubre y en las dos carencias afectadas. No volver a tratar su lectura como pendiente ni trasladar sus beneficios a ENAC. Siguen 40 candidatas abiertas.
+Avance documental nuevo del 19 de octubre: `LECTURA_ACTAS_ROMERAL_2026_10_19.md` y su manifiesto JSON registran OCR de 611 páginas de 27 actas de 2026. El Acta 20, páginas 26–27 leídas visualmente, identifica una residencia municipal en Talca, sin demostrar equivalencia con la candidata de mantención. Buscar su reglamento y la respuesta al requerimiento del concejo. El PDF `Convenio-Serbima-ENAC.pdf` se leyó completo y su página 6 visualmente: es un folleto SERBIMA con becas Humberto Elgueta Guerín; no acredita un convenio estudiantil ENAC. Se corrigió esa atribución en el informe de UCT/ENAC/Mejillones del 13 de octubre y en las dos carencias afectadas. No volver a tratar su lectura como pendiente ni trasladar sus beneficios a ENAC. Ese contraste dejó 40 abiertas; el avance ENAC posterior reduce la cola a 39.
+
+Fuentes archivadas recuperables: las páginas oficiales ENAC de 2013/2015 identifican Beca Convenio (20–100% por convenio) y Excelencia Académica interna (50% anual al mejor promedio por promoción). `CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md` confirma la primera y corrige la atribución previa de la segunda a Mineduc. Sus originales permanecen intactos. Las cuatro ENAC restantes no se equiparan con Hermanos, la beca general de arancel 2023 ni SERBIMA. Timaukel tiene ahora un llamado municipal concreto de mayo de 2020; falta el afiche/bases que identifique el nivel y otorgante, según `CONTRASTE_ARCHIVO_TIMAUKEL_2020_2026_10_19.md`.
 
 Herramientas ya comprobadas para documentos: `pypdf` está en el Python del runtime indicado por `load_workspace_dependencies`, no en el `python` del PATH. Poppler y el OCR local de Windows en español funcionan; los auxiliares `tmp/read_romeral_20261019.py` y `tmp/ocr_romeral_20261019.ps1` conservan la recuperación y el OCR por página. Ambos procesos terminaron; no hay OCR pendiente ni trabajo en segundo plano que esperar. Las páginas y PDFs recuperados permanecen en `tmp/romeral-actas-2026/`; no volver a descargarlos para revisar un pasaje.
 
@@ -60,8 +62,8 @@ Agrupar por institución y leer una sola vez las fuentes compartidas. Registrar 
 - Archivos personales: `BecasFind - ET.docx` y material de `tmp/`; no eliminarlos como si fueran caché. `tmp/` contiene PDFs de fuentes y sus renderizados.
 - Los planes anteriores a esta consolidación están en `documentacion/historial/`. No cargarlos por defecto.
 
-Para verificar coherencia después de cambiar decisiones editoriales: `python infra/audit-editorial-evidence.py` y `python infra/report-corpus-progress.py`. Revisar el diff y los conteos; no ejecutar suites de aplicación por una edición documental.
+Para verificar coherencia después de cambiar decisiones editoriales: ejecutar primero `python infra/report-corpus-progress.py` y después `python infra/audit-editorial-evidence.py`, que consume el avance regenerado. Revisar el diff y los conteos; no ejecutar suites de aplicación por una edición documental.
 
-Este archivo conserva el contexto relevante para retomar; no significa que las 40 pendientes estén confirmadas ni que la aplicación esté publicada.
+Este archivo conserva el contexto relevante para retomar; no significa que las 39 pendientes estén confirmadas ni que la aplicación esté publicada.
 
 La limpieza local de `backend/target`, `frontend/dist` e `infra/__pycache__` fue rechazada por la política automática del entorno el 19 de octubre. Esas salidas regenerables ocupaban 68.412.732 bytes y permanecen en disco. No reintentar su eliminación con otra herramienta para eludir el bloqueo.

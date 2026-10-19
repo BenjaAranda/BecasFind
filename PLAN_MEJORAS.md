@@ -4,9 +4,9 @@ Actualizado el 19 de octubre de 2026. Este es el único listado de trabajo. El c
 
 ## Prioridad actual: P04, confirmación de becas
 
-Estado reproducible: **568 candidatas; 515 confirmaciones esenciales; 2 completas; 11 descartes ratificados; 40 pendientes**. Las pendientes incluyen 28 aclaraciones y 12 exclusiones históricas sin ratificar. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. El último contraste no produjo cierres nuevos.
+Estado reproducible: **568 candidatas; 516 confirmaciones esenciales; 2 completas; 11 descartes ratificados; 39 pendientes**. Las pendientes incluyen 28 aclaraciones y 11 exclusiones históricas sin ratificar. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. Último avance: confirmación histórica de Beca Convenio ENAC y corrección de Excelencia Académica ENAC a su modalidad interna; no se certifica vigencia 2026.
 
-- [ ] Resolver las [40 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
+- [ ] Resolver las [39 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
 - [ ] Registrar campos publicados; conservar «No especificado» cuando el expediente oficial no los publique. La identidad del programa sí requiere evidencia positiva.
 - [ ] Resolver equivalencias y variantes por programa, modalidad y año; consultar sus decisiones actuales antes de declarar el cierre global. No convertir referencias repetidas en duplicados sin prueba.
 - [ ] Comprobar coherencia documental y subir decisiones nuevas a GitHub con mensajes en español.

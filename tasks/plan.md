@@ -4,7 +4,7 @@ Actualizado el 19 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md]
 
 ## Punto de partida
 
-Quedan **40 candidatas**: 28 aclaraciones y 12 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo.
+Quedan **39 candidatas**: 28 aclaraciones y 11 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo.
 
 ## Ejecución
 
@@ -14,7 +14,7 @@ Quedan **40 candidatas**: 28 aclaraciones y 12 exclusiones históricas sin ratif
 4. Confirmar esencialmente cuando la fuente específica demuestra identidad y existencia. Investigar los campos restantes en fuentes oficiales; los que el expediente no publique quedan «No especificado», con año y alcance. La falta de importe, documentos o calendario no bloquea por sí sola. La falta de identidad sí.
 5. Resolver variantes por modalidad y convocatoria. Duplicidad o falsedad requieren evidencia positiva individual. Preservar originales; no descartar por error HTTP, antigüedad o ausencia en búsqueda.
 6. Actualizar el informe pertinente y sus registros una sola vez por bloque de decisiones. No crear otro informe si solo repite la carencia existente. Diferenciar consultas, cierres esenciales nuevos, descartes y variantes resueltas.
-7. Comprobar coherencia con `python infra/audit-editorial-evidence.py`, regenerar el avance con `python infra/report-corpus-progress.py`, revisar cambios y subir un commit en español. No ejecutar pruebas de aplicación durante la revisión documental.
+7. Regenerar primero el avance con `python infra/report-corpus-progress.py` y después comprobar coherencia con `python infra/audit-editorial-evidence.py`, que lee ese avance. Revisar cambios y subir un commit en español. No ejecutar pruebas de aplicación durante la revisión documental.
 
 ## Control de rendimiento
 
