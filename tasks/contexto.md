@@ -1,69 +1,41 @@
-# Contexto de trabajo — BecasFind
+# Contexto mínimo de BecasFind
 
-Actualizado el 19 de octubre de 2026. Leer este archivo, `AGENTS.md`, `PLAN_MEJORAS.md` y el estado real de Git al retomar. Este resumen orienta; los registros documentales son la fuente de los conteos.
+Actualizado el 19 de octubre de 2026. Retomar leyendo AGENTS.md, este archivo, PLAN_MEJORAS.md y el estado real de Git. El método está en tasks/plan.md. Cargar informes y registros únicamente por candidata.
 
-## Tarea activa y estado comprobado
+## Estado vigente
 
-Terminar la revisión esencial de las 132 candidatas que estaban pendientes en el corte del 12 de octubre. La cola actual contiene **39**, no 132: 28 requieren aclaración y 11 son exclusiones históricas todavía sin ratificar. Último avance: una confirmación esencial histórica nueva (Beca Convenio ENAC) y la corrección de una confirmación existente (Excelencia Académica ENAC interna, atribuida antes a Mineduc por error).
+- Repositorio: https://github.com/BenjaAranda/BecasFind; rama bugfix/security-and-recovery.
+- Última decisión editorial subida: 88f2742. Convenio ENAC confirmado históricamente; Excelencia Académica ENAC corregida a su modalidad interna. No acredita vigencia 2026.
+- 93 archivos originales; 647 referencias; 568 candidatas: **516 confirmaciones esenciales, 2 completas, 11 descartes ratificados y 39 pendientes**. Pendientes: 28 aclaraciones y 11 exclusiones históricas sin ratificar. Las 132 son un corte anterior.
+- Conteos: documentacion/auditoria_corpus/procesados/avance/resumen.json. No usar el resumen.json de la raíz de esa carpeta como avance editorial.
+- Cola única: documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv. Leer carencia e informes por hash antes de consultar fuentes.
 
-| Inventario | Cantidad |
-|---|---:|
-| Archivos originales | 93 |
-| Referencias originales | 647 |
-| Identidades candidatas | 568 |
-| Confirmadas esenciales | 516 |
-| Confirmadas completas | 2 |
-| Descartes ratificados | 11 |
-| Pendientes de cierre | 39 |
+## Límites
 
-No confundir candidatas con programas distintos. Confirmación histórica y vigencia publicable son controles separados.
+Prioridad: revisión de becas. Sin Firecrawl, pruebas de aplicación, importaciones, activaciones ni despliegue. P12–P14 no autorizadas. Fuente oficial específica debe demostrar identidad y existencia. Registrar campos publicados; dejar «No especificado» cuando el expediente no los publique. No sustituir modalidades por parecido. No descartar por antigüedad, error HTTP o ausencia en búsquedas. Duplicidad o falsedad requieren evidencia positiva individual. Preservar originales y separar confirmación histórica de vigencia publicable.
 
-## Archivos que se deben consultar
+Producto: costo previsto $0; azul y blanco institucional; búsqueda y detalle públicos; sesión para guardar datos y administración; PostgreSQL 17; Gmail SMTP con secretos externos. Nunca copiar credenciales al contexto.
 
-Todos los siguientes registros están en `documentacion/auditoria_corpus/procesados/`:
+## Retomar sin repetir
 
-- `avance/resumen.json`: conteos reproducibles actuales. `resumen.json` de la raíz de esa carpeta pertenece a otra auditoría; no usarlo como avance editorial.
-- `pendientes_esenciales_actuales.csv`: cola única con hash, carencia, fuentes consultadas y siguiente acción.
-- `originales.jsonl`: originales y trazas que se deben preservar.
-- `confirmaciones_esenciales.json`, `confirmaciones_completas.json`, `descartes.json` y `revisiones_parciales.csv`: decisiones y referencias. Distinguir los descartes ratificados de las exclusiones históricas presentes también en la cola pendiente.
-- `avance/por_registro.csv` y `avance/por_archivo.csv`: estado por referencia y archivo.
-- `variantes/`: evidencias de conciliación. No deducir su estado global de conteos antiguos de los planes.
+Informes bajo documentacion/auditoria_corpus/procesados/:
 
-Los informes antiguos son antecedentes para localizar evidencia, no pruebas que sustituyan la lectura oficial. Consultar solo los apartados de las candidatas en curso.
+- **ENAC:** CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md. Fichas oficiales archivadas identifican Convenio (20–100%) y Excelencia interna (50% anual al mejor promedio por promoción). Las otras cuatro candidatas no se equiparan con Hermanos, arancel general 2023 ni SERBIMA. SERBIMA ya leído completo; su beca Humberto Elgueta Guerín no acredita esas modalidades.
+- **Romeral:** LECTURA_ACTAS_ROMERAL_2026_10_19.md y manifiesto JSON. OCR de 27 actas y 611 páginas. Acta 20, páginas 26–27 revisadas visualmente: residencia en Talca; no demuestra equivalencia con la candidata de mantención. Buscar reglamento y respuesta al concejo. PDF y OCR en tmp/romeral-actas-2026/; no repetir descarga ni OCR.
+- **Timaukel:** CONTRASTE_ARCHIVO_TIMAUKEL_2020_2026_10_19.md. Llamado de mayo de 2020 a Mantención y Excelencia. Falta afiche/bases que identifiquen nivel educativo y otorgante. El afiche actual y archivado devolvió 404; cambiar de pista.
+- **Archivos históricos:** consulta terminada de 25 dominios: 10 respuestas, 15 errores y 158 recursos. Índice en tasks/indice_archivos_historicos.json; respuestas locales en tmp/archivo-pendientes-20261019/. Son enlaces sin confirmar. Próxima acción: documentos específicos nuevos UFRO/UCT/UBO y Nanning/Iquique; comprobar identidad antes de trasladar datos. No reiniciar el barrido completo.
+- UAI/INACAP y Valdivia ya contrastadas el 19 de octubre; Talca/General Lagos con JUNAEB. Sus catálogos no prueban automáticamente las candidatas genéricas. Consultar informes por hash.
 
-## Criterios y límites vigentes
+## Rendimiento y conservación
 
-- Fuente oficial específica que identifique el programa y su existencia; registrar beneficio y destinatarios publicados. Si el expediente no publica un campo, dejar «No especificado» y delimitar año y alcance. No exigir cifras ni calendario ausentes para cerrar una identidad demostrada.
-- No reemplazar una candidata por un beneficio parecido. La falta de fuente que identifique el programa sigue siendo una carencia esencial.
-- No descartar por antigüedad, error HTTP o ausencia en búsquedas. Duplicidad o falsedad requieren evidencia positiva individual; preservar originales.
-- No usar Firecrawl. Usar búsqueda web, sitios oficiales y lectura directa de documentos. Un resultado de búsqueda aislado no certifica una ficha.
-- Prioridad exclusiva: becas. Pruebas de backend/frontend, importaciones, activación y despliegue están aplazados. P12–P14 no autorizadas.
-- Costo mensual previsto: $0. Diseño azul y blanco institucional; navegación pública; sesión para guardar datos y administración. PostgreSQL 17; correo Gmail SMTP con secretos externos. No reabrir estas decisiones ni copiar credenciales al contexto.
+Agrupar por institución y leer una vez cada fuente compartida. Buscar por hash; evitar volcar CSV, índices e informes completos. Registrar decisiones nuevas, sin duplicar informes. No hay OCR ni consultas activos.
 
-## Evitar el bucle de búsquedas
+Python del PATH carece de pypdf; usar el runtime de load_workspace_dependencies. Poppler y OCR Windows español comprobados; auxiliares en tmp/.
 
-Antes de cada consulta, leer la carencia y los informes ya vinculados al hash. Reutilizar la conclusión y cambiar a una fuente concreta pendiente: bases, decreto, reglamento, convocatoria o documento histórico oficial.
+Limpieza verificada: **609 PNG regenerables eliminados; 647.954.754 bytes liberados**. Conservados 27 PDF, 611 textos OCR y las imágenes 016187ad14c7-p26.png y -p27.png. Manifiesto local: tmp/romeral-actas-2026/limpieza-renderizados-20261019.json. Regenerar solo una página necesaria con Poppler; el auxiliar OCR reutiliza textos existentes.
 
-No repetir catálogos generales sin un enlace, apartado o año nuevo que pueda resolver el hecho faltante. UAI/INACAP y Valdivia ya tienen contraste del 19 de octubre. Talca y General Lagos ya fueron contrastadas con programas JUNAEB; esas fuentes no prueban la beca municipal genérica. Los catálogos de UCT/UA/UBO/UdeC ya fueron consultados y no permiten reasignar programas por parecido.
+Preservar tmp/ (fuentes), BecasFind - ET.docx, originales, respaldos y documentacion/historial/. La eliminación previa de backend/target, frontend/dist e infra/__pycache__ fue rechazada por la política automática; no reintentar con otra herramienta. No se incluyeron en esta limpieza.
 
-Avance documental nuevo del 19 de octubre: `LECTURA_ACTAS_ROMERAL_2026_10_19.md` y su manifiesto JSON registran OCR de 611 páginas de 27 actas de 2026. El Acta 20, páginas 26–27 leídas visualmente, identifica una residencia municipal en Talca, sin demostrar equivalencia con la candidata de mantención. Buscar su reglamento y la respuesta al requerimiento del concejo. El PDF `Convenio-Serbima-ENAC.pdf` se leyó completo y su página 6 visualmente: es un folleto SERBIMA con becas Humberto Elgueta Guerín; no acredita un convenio estudiantil ENAC. Se corrigió esa atribución en el informe de UCT/ENAC/Mejillones del 13 de octubre y en las dos carencias afectadas. No volver a tratar su lectura como pendiente ni trasladar sus beneficios a ENAC. Ese contraste dejó 40 abiertas; el avance ENAC posterior reduce la cola a 39.
+## Guardar decisiones
 
-Fuentes archivadas recuperables: las páginas oficiales ENAC de 2013/2015 identifican Beca Convenio (20–100% por convenio) y Excelencia Académica interna (50% anual al mejor promedio por promoción). `CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md` confirma la primera y corrige la atribución previa de la segunda a Mineduc. Sus originales permanecen intactos. Las cuatro ENAC restantes no se equiparan con Hermanos, la beca general de arancel 2023 ni SERBIMA. Timaukel tiene ahora un llamado municipal concreto de mayo de 2020; falta el afiche/bases que identifique el nivel y otorgante, según `CONTRASTE_ARCHIVO_TIMAUKEL_2020_2026_10_19.md`.
-
-Herramientas ya comprobadas para documentos: `pypdf` está en el Python del runtime indicado por `load_workspace_dependencies`, no en el `python` del PATH. Poppler y el OCR local de Windows en español funcionan; los auxiliares `tmp/read_romeral_20261019.py` y `tmp/ocr_romeral_20261019.ps1` conservan la recuperación y el OCR por página. Ambos procesos terminaron; no hay OCR pendiente ni trabajo en segundo plano que esperar. Las páginas y PDFs recuperados permanecen en `tmp/romeral-actas-2026/`; no volver a descargarlos para revisar un pasaje.
-
-Agrupar por institución y leer una sola vez las fuentes compartidas. Registrar únicamente evidencia nueva o una decisión nueva en el informe pertinente; evitar otro informe que repita la misma aclaración. Si solo la institución puede resolver la identidad, documentar exactamente el acto o respuesta necesaria; el envío de consultas requiere autorización.
-
-## Continuidad y Git
-
-- Repositorio: `https://github.com/BenjaAranda/BecasFind`.
-- Rama observada: `bugfix/security-and-recovery`; comprobar antes de trabajar. Último commit anterior a esta consolidación: `6702e9b`.
-- Commits nuevos: Conventional Commits con descripción en español; subir los cambios autorizados. No reescribir historial ni hacer force-push.
-- Archivos personales: `BecasFind - ET.docx` y material de `tmp/`; no eliminarlos como si fueran caché. `tmp/` contiene PDFs de fuentes y sus renderizados.
-- Los planes anteriores a esta consolidación están en `documentacion/historial/`. No cargarlos por defecto.
-
-Para verificar coherencia después de cambiar decisiones editoriales: ejecutar primero `python infra/report-corpus-progress.py` y después `python infra/audit-editorial-evidence.py`, que consume el avance regenerado. Revisar el diff y los conteos; no ejecutar suites de aplicación por una edición documental.
-
-Este archivo conserva el contexto relevante para retomar; no significa que las 39 pendientes estén confirmadas ni que la aplicación esté publicada.
-
-La limpieza local de `backend/target`, `frontend/dist` e `infra/__pycache__` fue rechazada por la política automática del entorno el 19 de octubre. Esas salidas regenerables ocupaban 68.412.732 bytes y permanecen en disco. No reintentar su eliminación con otra herramienta para eludir el bloqueo.
+Actualizar informe y registros pertinentes; conservar originales.jsonl y reparaciones/reparados.jsonl. Ejecutar primero python infra/report-corpus-progress.py y después python infra/audit-editorial-evidence.py. Revisar diff y subir commit Conventional Commits en español. Sin reescribir historial ni force-push. Si solo cambia contexto, basta verificar documentos y diff; no ejecutar auditorías de aplicación.
