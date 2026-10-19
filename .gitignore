@@ -38,6 +38,8 @@ frontend/test-results/
 frontend/playwright-report/
 
 # Temporary
+tmp/
+test-results/
 graphify-out/
 *.tmp
 *.bak

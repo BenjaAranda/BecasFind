@@ -486,3 +486,7 @@ Antes de dar por finalizada cualquier tarea que involucre texto en español, ver
 ---
 
 **Fin del Contrato Arquitectónico. Toda sesión de IA debe comenzar leyendo este archivo.**
+
+## Contexto operativo para retomar
+
+Después de este contrato, leer `tasks/contexto.md` y `PLAN_MEJORAS.md`. Los conteos editoriales vigentes se reconstruyen desde `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`; los planes archivados contienen cifras históricas. Consultar solo los informes pertinentes a las candidatas en curso.
