@@ -9420,7 +9420,7 @@
       },
       {
         "informe": "CONFIRMACION_ESENCIAL_UALUMNI_2026_10_16.md",
-        "informe_sha256": "07f295dea217efc0eaa988c4d51b7955a8a4cb9bc1fe975031caf0f950e76b68",
+        "informe_sha256": "f46e8f49cf6408346f278204e9da7db6f230475fbec4cb2ad845f20f6155c6b7",
         "extractos": [
           "Candidata de origen: `f88bb7b264553f2353696cfbecf1de2bb767000cc03aa82b7a3cb09251a49c0c` — “Beca Alumni UA”, Universidad Autónoma de Chile."
         ]
@@ -48466,6 +48466,13 @@
         "informe_sha256": "e20744d50e574d1163ad8ec762442e60f8033b2441969dde68018b03cd7be5db",
         "extractos": [
           "### Coronel — `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4`\n\nLa Cuenta Pública 2020 registra la Beca Alcalde para puntajes PSU destacados; la noticia oficial de 2022 informa 20 jóvenes y apoyo para gastos iniciales de educación superior. Es una modalidad de mérito y no acredita la ficha genérica de mantención con RSH/NEM; permanece abierta la identidad.\n\nFuentes oficiales:\n- [https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf)\n- [https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/)\n\nDecisión: conservar en aclaración; sin confirmación esencial ni descarte."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_CORONEL_MODALIDADES_OFICIALES_2026_10_18.md",
+        "informe_sha256": "bdcbbdab62e4a70616f7d8dbda02065439129ff3ec3f4f89c8ec33f66505ad0b",
+        "extractos": [
+          "Candidata: `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4` — “Beca Municipal de Educación Superior Coronel”."
         ]
       }
     ],
