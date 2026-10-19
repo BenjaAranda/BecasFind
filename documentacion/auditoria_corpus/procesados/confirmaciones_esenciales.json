@@ -11182,5 +11182,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "635cf6ce0b82c6c433f06f0106aaf7517e423bc0b35ab1d61cd78675582db316",
+    "revisado": "2026-10-19",
+    "informe": "CONFIRMACION_ESENCIAL_CONVENIOS_EMPRESARIALES_UDD_2026_10_19.md",
+    "fuentes": [
+      "https://www.udd.cl/admision-postgrado/proceso-de-admision/",
+      "https://comunicaciones.udd.cl/noticias/2013/06/conoce-el-diplomado-en-gestion-y-produccion-ejecutiva-para-cine-y-tv/",
+      "https://www.udd.cl/noticias/2010/11/03/udd-y-chv-firman-importante-alianza-estrategica/"
+    ],
+    "alcance": "Descuentos por convenios empresariales UDD para postgrado y educación continua; línea corporativa demostrada en convocatorias oficiales de 2010 y 2013 y en el proceso de admisión consultado en 2026. El original no especifica pregrado; se corrige esa exigencia añadida por las revisiones previas.",
+    "beneficio": "Descuento de arancel según convenio y programa. Porcentaje general: No especificado. El 20% publicado para profesionales de CHV en 2010 es un ejemplo histórico individual; no se generaliza ni confirma el rango 10–30% del original.",
+    "requisitos_principales": "Pertenecer a una empresa con convenio y cumplir la admisión del programa correspondiente. La convocatoria 2013 identifica funcionarios de Cinecolor, BF Distribución, Kine Imagen, Aural, Fábula y Chilevisión; no certifica su vigencia actual.",
+    "limites": "Confirmación del mecanismo de descuento institucional para trabajadores; no acredita una beca general de pregrado. Empresas y convenios vigentes en 2026, porcentaje individual, cargas familiares, documentos específicos del descuento, renovación semestral, acumulación y calendario: No especificado. Mantener inactiva sin programa/convenio y cierre vigentes comprobados.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

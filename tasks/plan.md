@@ -4,7 +4,7 @@ Actualizado el 19 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md]
 
 ## Punto de partida
 
-Quedan **39 candidatas**: 28 aclaraciones y 11 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo.
+Quedan **38 candidatas**: 28 aclaraciones y 10 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo. UDD se confirmó como descuento corporativo de postgrado/educación continua; no exigir pregrado cuando el original no lo especifica.
 
 ## Ejecución
 
