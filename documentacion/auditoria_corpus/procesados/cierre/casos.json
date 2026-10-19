@@ -1004,6 +1004,13 @@
         "extractos": [
           "### Viña del Mar — `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`\n\nLa Cuenta Pública municipal 2023 sí registra una “Beca Educación Superior” y reporta 279 estudiantes beneficiados y $16.740.000 invertidos en total. La página municipal de ayudas sociales también contempla apoyo para matrículas de enseñanza superior sujeto a evaluación social. Ninguna de las dos fuentes identifica una subvención de pasajes semestral ni confirma el RSH, los documentos o las fechas de la ficha. La noticia de la Beca Deportiva 2026 describe viajes a competencias, que son otra finalidad. No trasladar estos datos al candidato de pasajes.\n\nFuentes oficiales:\n- [Cuenta Pública municipal 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf)\n- [Programa municipal de ayudas sociales](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/)\n- [Beca Deportiva Municipal 2026](https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/)\n\nEstado: aclaración pendiente; la fuente confirma programas municipales distintos, no esta modalidad de pasajes."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Viña del Mar — `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`\n\nLa Cuenta Pública municipal 2023 informa una “Beca Educación Superior” con 279 estudiantes y $16.740.000 de gasto total. El reporte no desglosa modalidad, elegibilidad ni monto por persona y no identifica un subsidio de pasajes. La noticia municipal de la Beca Deportiva 2026 financia viajes a competencias y es otra modalidad. No se atribuyen esos requisitos o importes a la candidata de pasajes.\n\nFuentes: [Cuenta Pública municipal 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf), [Beca Deportiva 2026](https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/)."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -9213,6 +9220,13 @@
         "extractos": [
           "## Universidad Autónoma — Beca Socioeconómica (`0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`)\n\nEl catálogo institucional de becas internas y el reglamento describen beneficios sujetos a condiciones y, en varios casos, a puntaje PAES, CAE o copago. No vinculan el alias socioeconómico genérico con una modalidad de 15–40% y RSH 60%. El reglamento confirma que la universidad maneja evaluación socioeconómica en ciertos beneficios, pero no basta para identificar esta beca.\n\nFuentes: [Becas internas UA](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/) y [Reglamento de Becas y Créditos UA](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf).\n\nEstado: abierta; requiere identificar el beneficio y sus reglas en un instrumento específico."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Universidad Autónoma — `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750`\n\nLa página institucional presenta becas internas y beneficios disponibles, y remite a asistentes sociales para conocer requisitos y procesos. No identifica la candidata socioeconómica ni una regla Alumni asociada. La página no permite concluir que no existan apoyos internos fuera de lo publicado; la identidad sigue abierta.\n\nFuente: [Becas internas de la Universidad Autónoma](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -13677,6 +13691,13 @@
         "extractos": [
           "### UdeC — `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`\n\nLa página institucional de financiamiento de arancel enumera becas estatales para pregrado; la página de Admisión detalla beneficios propios concretos con requisitos y coberturas. Ninguna identifica en el material consultado una beca genérica con el título exacto del candidato; no inferir inexistencia ni trasladar reglas de otras modalidades.\n\nFuentes oficiales:\n- [https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/)\n- [https://admision.udec.cl/beneficios/](https://admision.udec.cl/beneficios/)\n\nDecisión: conservar en aclaración; sin confirmación esencial ni descarte."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### UdeC — `cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598`\n\nEl catálogo de Admisión y la Dirección de Finanzas publican becas nominadas de pregrado, beneficios estatales y procesos de acreditación. No identifican cuál modalidad describe la ficha genérica “Beca de Arancel UdeC”. No se consolidan ni trasladan requisitos de programas con nombres o poblaciones distintas.\n\nFuentes: [Beneficios de Admisión UdeC](https://admision.udec.cl/beneficios/), [financiamiento de arancel](https://vraeaweb.udec.cl/dirfin/dafe/financiamiento-de-arancel/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -15021,6 +15042,13 @@
         "informe_sha256": "c1d010918ba35b59c1c1d448bfd01bc50b5584eaf2d5f3d9ee0a3a340d4f75cf",
         "extractos": [
           "| `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997` — Beca de Apoyo Socioeconómico UFRO | [Beneficios de arancel UFRO](https://dde.ufro.cl/beneficios-estudiantiles/arancel/) | El portal describe beneficios de arancel nominados, incluidos beneficios estatales, con requisitos y coberturas propios. No identifica una beca UFRO general de mantención de monto variable con RSH ≤60% como la ficha. Falta reglamento o convocatoria DDE que conecte la ficha con una ayuda concreta. |"
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### UFRO — `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997`\n\nLa Dirección de Desarrollo Estudiantil describe beneficios de mantención JUNAEB y becas con objetivos y poblaciones definidos. No identifica la ayuda socioeconómica general con RSH 60% de la ficha. La diferencia de denominación o el silencio de la página no prueban inexistencia de otra convocatoria institucional; permanece abierta.\n\nFuente: [Beneficios de mantención UFRO](https://dde.ufro.cl/beneficios-estudiantiles/mantencion/)."
         ]
       }
     ],
@@ -22343,6 +22371,13 @@
         "informe_sha256": "349b2fcf14b496705df76506813de5d19a3f0632db66e53595e5f8ee9e8161c3",
         "extractos": [
           "Candidatas `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` y `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`.\n\nEl municipio documenta el incentivo “Hijos e Hijas de la Pesca Artesanal”, dirigido a estudiantes de educación superior con respaldo de un sindicato de pescadores, y el “Incentivo PAES”, para egresados de establecimientos municipales con puntaje mínimo. La fuente de 2024 fija montos y requisitos distintos para cada modalidad. La ficha pendiente solo dice “Beca Municipal Educación Superior”, atribuye su administración a DIDECO y registra RSH 60%/NEM 5,0; no aporta una referencia que permita escoger entre estas modalidades. Por ello no se les asignan los $750.000 de pesca ni el $1.000.000 de PAES, ni se las declara duplicadas.\n\nFuentes oficiales: [convocatoria 2024 y requisitos](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [entrega de becas a hijos de pescadores 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/), [antecedente municipal de la línea pesquera](https://www.puertomontt.cl/36-hijos-de-pescadores-artesanales-seran-favorecidos-con-beca-financiada-por-concejo/).\n\nEstado: ambas siguen abiertas por falta de vínculo entre el original genérico y una de las modalidades oficiales."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Puerto Montt — `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`, `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`\n\nLas fuentes municipales distinguen el Incentivo PAES para egresados de establecimientos municipales y el beneficio para hijos e hijas de pescadores artesanales. La publicación de 2024 detalla para esos procesos $1.000.000 y $750.000, respectivamente; otra noticia municipal confirma una convocatoria pesquera de 2025 por $750.000. Los originales examinados son fichas genéricas de libre disposición DIDECO y no identifican ninguna de esas dos modalidades. No asignarles los montos, requisitos o años de esos programas sin un enlace documental individual.\n\nFuentes: [Convocatoria municipal 2024 para ambos incentivos](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [entrega del incentivo PAES](https://www.puertomontt.cl/estudiantes-de-puerto-montt-cuentan-con-importante-ayuda-economica-en-primer-ano-universitario/), [beneficio a hijos de pescadores 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/)."
         ]
       }
     ],
@@ -41705,6 +41740,13 @@
         "extractos": [
           "Candidata(s): `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20`.\n\n- [Cuenta pública municipal 2024](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf)\n- [Página de Educación municipal](https://www.munielmonte.cl/educacion.html)\n\n**Decisión:** La cuenta pública documenta TNE y habilitación de pases de enseñanza superior, no un estipendio municipal de mantención. La página de Educación enumera establecimientos, no una beca superior. No confirma ni contradice por sí sola una línea DIDECO separada. Mantener abierta; importe, requisitos y convocatoria de la candidata siguen sin verificar."
         ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### El Monte — `6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20`\n\nLa Cuenta Pública municipal 2024 describe la gestión de beneficios JUNAEB, Beca Presidente de la República y Beca Indígena, además de ayudas sociales generales. No identifica la beca municipal de mantención de educación superior con $100.000 que afirma el original. La omisión no prueba que no exista otra línea; el monto y la elegibilidad siguen sin ratificar.\n\nFuente: [Cuenta Pública 2024 de El Monte](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -42679,6 +42721,13 @@
         "extractos": [
           "| Beca Municipal Educación Superior Cochamó (`f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d) | El sitio municipal accesible ([municochamo.cl](https://municochamo.cl/)) no presenta bases ni ficha de beca. Una nota de prensa local de julio de 2026 relata un aporte estudiantil e incluye declaraciones del alcalde y del Departamento Social, pero no es una publicación primaria municipal ni enlaza bases legibles; se conserva solo como pista para localizar el acto. | Sigue pendiente. No se certifican con esa nota la cuota, RSH, NEM, destinatarios de educación superior ni documentación del original. Solicitar o localizar decreto, bases, nómina pública anonimizada o cuenta presupuestaria municipal. |"
         ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Cochamó — `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`\n\nLa búsqueda localizó una noticia periodística de 2026 que atribuye al municipio la primera entrega de aportes estudiantiles, pero no se localizó en esta revisión un acto, bases o publicación alojada por la Municipalidad. Esa noticia queda como pista de búsqueda, no como confirmación primaria; no usarla para cerrar la identidad ni los campos de la ficha.\n\nFuente municipal consultada, sin ficha específica localizada: [Municipalidad de Cochamó](https://municochamo.cl/municipalidad/)."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -43111,6 +43160,13 @@
         "informe_sha256": "349b2fcf14b496705df76506813de5d19a3f0632db66e53595e5f8ee9e8161c3",
         "extractos": [
           "Candidatas `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` y `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`.\n\nEl municipio documenta el incentivo “Hijos e Hijas de la Pesca Artesanal”, dirigido a estudiantes de educación superior con respaldo de un sindicato de pescadores, y el “Incentivo PAES”, para egresados de establecimientos municipales con puntaje mínimo. La fuente de 2024 fija montos y requisitos distintos para cada modalidad. La ficha pendiente solo dice “Beca Municipal Educación Superior”, atribuye su administración a DIDECO y registra RSH 60%/NEM 5,0; no aporta una referencia que permita escoger entre estas modalidades. Por ello no se les asignan los $750.000 de pesca ni el $1.000.000 de PAES, ni se las declara duplicadas.\n\nFuentes oficiales: [convocatoria 2024 y requisitos](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [entrega de becas a hijos de pescadores 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/), [antecedente municipal de la línea pesquera](https://www.puertomontt.cl/36-hijos-de-pescadores-artesanales-seran-favorecidos-con-beca-financiada-por-concejo/).\n\nEstado: ambas siguen abiertas por falta de vínculo entre el original genérico y una de las modalidades oficiales."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Puerto Montt — `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212`, `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216`\n\nLas fuentes municipales distinguen el Incentivo PAES para egresados de establecimientos municipales y el beneficio para hijos e hijas de pescadores artesanales. La publicación de 2024 detalla para esos procesos $1.000.000 y $750.000, respectivamente; otra noticia municipal confirma una convocatoria pesquera de 2025 por $750.000. Los originales examinados son fichas genéricas de libre disposición DIDECO y no identifican ninguna de esas dos modalidades. No asignarles los montos, requisitos o años de esos programas sin un enlace documental individual.\n\nFuentes: [Convocatoria municipal 2024 para ambos incentivos](https://www.puertomontt.cl/municipalidad-de-puerto-montt-invita-a-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/), [entrega del incentivo PAES](https://www.puertomontt.cl/estudiantes-de-puerto-montt-cuentan-con-importante-ayuda-economica-en-primer-ano-universitario/), [beneficio a hijos de pescadores 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/)."
         ]
       }
     ],
@@ -43989,6 +44045,13 @@
         "informe_sha256": "c1d010918ba35b59c1c1d448bfd01bc50b5584eaf2d5f3d9ee0a3a340d4f75cf",
         "extractos": [
           "| `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02` — Beca Hermanos UAI | [Becas UAI, Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas) | La oferta de admisión 2026 describe beneficios para postulantes de ese ciclo, pero no identifica un descuento de hermanos ni confirma el 25% atribuido. La falta de mención no ratifica que nunca existió un beneficio histórico. Falta reglamento financiero o convocatoria UAI que identifique esta beca y sus destinatarios. |"
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### UAI — `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`\n\nEl catálogo oficial consultado describe las becas asociadas a admisión regular 2026 y sus condiciones. No contiene una regla que confirme el beneficio para hermanos del 25% atribuido en el original. El alcance de admisión no descarta por sí solo una regla interna histórica o distinta; no se ratifica ni se descarta la candidata.\n\nFuente: [Becas y aranceles UAI](https://www.uai.cl/admision/becas-y-aranceles/becas)."
         ]
       }
     ],
@@ -45883,6 +45946,13 @@
         "informe_sha256": "9626db66c334ff72dc7a66fac630c4532853ac089bd68e2553b08b9cdca2570b",
         "extractos": [
           "## Talca — `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`\n\nLa Cuenta Pública 2024 de Talca identifica la coordinación DAEM de las becas JUNAEB Presidente de la República e Indígena y reporta 420 beneficiarios de educación superior entre ambas. La Cuenta Pública 2020 describe también la Beca de Residencia Indígena como beneficio JUNAEB. Ninguna fuente identifica la beca municipal general de educación superior atribuida a la candidata ni sustenta sus condiciones. No transferir requisitos o montos de las becas estatales.\n\nFuentes: [Cuenta Pública Talca 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), [Cuenta Pública Talca 2020](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf).\n\nEstado: abierta; falta convocatoria, bases o acto municipal de la beca específica."
+        ]
+      },
+      {
+        "informe": "RECONTRASTE_OFICIAL_PENDIENTES_2026_10_18.md",
+        "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
+        "extractos": [
+          "### Talca — `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`\n\nLa Cuenta Pública municipal 2024 identifica las becas coordinadas por DAEM como beneficios JUNAEB y distingue Beca Presidente de la República y Beca Indígena, incluidas cifras de educación superior. No acredita la beca municipal general descrita en la ficha. La fuente de 2014 también trata programas estatales y residencia estudiantil, no la identidad exacta de la candidata. Se mantiene abierta.\n\nFuentes: [Cuenta Pública 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), [Cuenta Pública 2014](https://www.talcatransparente.cl/documentos/doc_download/5902-)."
         ]
       }
     ],
