@@ -41717,7 +41717,7 @@
     "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
     "nombre": "Beca de Educación Superior Municipalidad de Penaflor",
     "institucion": "Municipalidad de Penaflor",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
@@ -41906,13 +41906,41 @@
         "extractos": [
           "## Peñaflor — `3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b`\n\nLa Cuenta Pública municipal 2025 registra asistencia social y la entrega de gift cards escolares para estudiantes de establecimientos municipales, subvencionados y de educación parvularia. No identifica la beca anual de educación superior con $150.000, RSH 70% y estudios en instituciones reconocidas que describe la candidata. La página de DIDECO tampoco aporta bases de esa modalidad. No se trasladan las gift cards ni sus destinatarios a esta ficha.\n\nFuentes: [Cuenta Pública Peñaflor 2025](https://penaflor.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf) y [DIDECO Peñaflor](https://penaflor.cl/dideco/).\n\nEstado: abierta; requiere bases, decreto o nómina oficial vinculada a estudios superiores."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_SUBSIDIO_PENAFLOR_2026_10_18.md",
+        "informe_sha256": "0273457a8151d6ffd1ec73ae814a94240c9b805a5a9a2b8f3787c21efe97be0d",
+        "extractos": [
+          "Candidata: `3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b`.\n\nFecha de revisión: 18 de octubre de 2026. Se conserva el original. El alcance de esta confirmación es histórico y se limita al subsidio descrito en la Cuenta Pública 2021 de la Municipalidad de Peñaflor."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
+      "revisado": "2026-10-18",
+      "alcance": "Existencia y reglas esenciales del Subsidio Social para alumnos de Educación Superior descrito por la Cuenta Pública 2021 de Peñaflor; no acredita convocatoria vigente.",
+      "informe": "CONFIRMACION_ESENCIAL_SUBSIDIO_PENAFLOR_2026_10_18.md",
+      "fuentes": [
+        "https://penaflor.cl/wp-content/uploads/2022/04/CTAPCA-2021_ABR2022-C.pdf"
+      ],
+      "beneficio": "Aporte económico para cancelar aranceles; monto individual y porcentaje No especificados.",
+      "requisitos_principales": "No haber accedido a beneficios MINEDUC y acreditar vulnerabilidad socioeconómica, enfermedad catastrófica o discapacidad propia o de un integrante del hogar; certificado de alumno regular.",
+      "limites": "Alcance histórico 2021. La fuente no confirma los $150.000, RSH 70%, NEM 5,0 ni convocatoria 2026 del original. No publicar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "380be2915801e1b17c2fa14c28a351bab0e6576b0aad988c9f7e6879c28a62b6",
@@ -48470,7 +48498,7 @@
       },
       {
         "informe": "CONTRASTE_CORONEL_MODALIDADES_OFICIALES_2026_10_18.md",
-        "informe_sha256": "bdcbbdab62e4a70616f7d8dbda02065439129ff3ec3f4f89c8ec33f66505ad0b",
+        "informe_sha256": "722c8b993129faceb0b424f6a4c02d89c2af741ed1b12594565094c69a24eff3",
         "extractos": [
           "Candidata: `f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4` — “Beca Municipal de Educación Superior Coronel”."
         ]

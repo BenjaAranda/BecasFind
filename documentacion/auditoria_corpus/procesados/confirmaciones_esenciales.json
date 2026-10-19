@@ -11118,5 +11118,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
+    "revisado": "2026-10-18",
+    "alcance": "Existencia y reglas esenciales del Subsidio Social para alumnos de Educación Superior descrito por la Cuenta Pública 2021 de Peñaflor; no acredita convocatoria vigente.",
+    "informe": "CONFIRMACION_ESENCIAL_SUBSIDIO_PENAFLOR_2026_10_18.md",
+    "fuentes": [
+      "https://penaflor.cl/wp-content/uploads/2022/04/CTAPCA-2021_ABR2022-C.pdf"
+    ],
+    "beneficio": "Aporte económico para cancelar aranceles; monto individual y porcentaje No especificados.",
+    "requisitos_principales": "No haber accedido a beneficios MINEDUC y acreditar vulnerabilidad socioeconómica, enfermedad catastrófica o discapacidad propia o de un integrante del hogar; certificado de alumno regular.",
+    "limites": "Alcance histórico 2021. La fuente no confirma los $150.000, RSH 70%, NEM 5,0 ni convocatoria 2026 del original. No publicar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
