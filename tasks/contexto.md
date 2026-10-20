@@ -5,7 +5,7 @@ Actualizado el 20 de octubre de 2026. Retomar leyendo AGENTS.md, este archivo, P
 ## Estado vigente
 
 - Repositorio: https://github.com/BenjaAranda/BecasFind; rama bugfix/security-and-recovery.
-- Último commit subido verificado en la rama local y `origin`: `f368d8f`, contrasta la candidata de Lo Espejo. Antecedentes recientes: delimitación de becas vigentes Universidad Autónoma (`da703bd`), contraste PADEM Talca (`466369f`), anexo de reglamento ENAC (`978bac3`) y programas municipales de Puerto Montt (`bca9057`). UDD: descuentos corporativos confirmados para postgrado/educación continua; no se certifican convenios individuales vigentes.
+- Último commit subido verificado en la rama local y `origin`: `6458d94`, documenta la lectura visual del Acta 111/2015 de Concepción. Antecedente inmediato: contraste de la candidata de Lo Espejo (`f368d8f`). Otros antecedentes: delimitación de becas vigentes Universidad Autónoma (`da703bd`), contraste PADEM Talca (`466369f`), anexo de reglamento ENAC (`978bac3`) y programas municipales de Puerto Montt (`bca9057`). UDD: descuentos corporativos confirmados para postgrado/educación continua; no se certifican convenios individuales vigentes.
 - 93 archivos originales; 647 referencias; 568 candidatas: **517 confirmaciones esenciales, 2 completas, 11 descartes ratificados y 38 pendientes**. Pendientes: 28 aclaraciones y 10 exclusiones históricas sin ratificar. Las 132 son un corte anterior.
 - Conteos: documentacion/auditoria_corpus/procesados/avance/resumen.json. No usar el resumen.json de la raíz de esa carpeta como avance editorial.
 - Cola única: documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv. Leer carencia e informes por hash antes de consultar fuentes.
