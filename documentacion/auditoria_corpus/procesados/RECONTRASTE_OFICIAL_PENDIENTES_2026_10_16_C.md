@@ -28,9 +28,9 @@ Estado: abierta; requiere documento que identifique la modalidad municipal atrib
 
 ## General Lagos / Visviri — `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131`
 
-El portal oficial municipal describe la entrega de vestuario y otros útiles a un jardín infantil de Visviri; la transparencia municipal y el PADEM de 2011 mencionan servicios escolares y programas estatales. Son ayudas de nivel escolar y no confirman la supuesta beca de apoyo para educación superior. La existencia de estas ayudas diferentes tampoco descarta una eventual línea municipal para estudios superiores.
+El Acta Ordinaria 29 del Concejo Municipal (15/10/2009, pp. PDF 3–7) registra que el Programa de Residencia Familiar era de JUNAEB para que escolares rurales continuaran estudios en Arica mediante familias tutoras. El año anterior egresaron 10 estudiantes de 8.º básico; 11 obtuvieron residencia y cuatro o cinco familias que quedaron fuera asumieron gastos con apoyo municipal. El acta también describe coordinación municipal de beneficios JUNAEB; no identifica una beca municipal propia de educación superior. El portal oficial municipal describe además una entrega de vestuario y útiles a un jardín infantil de Visviri. Son apoyos escolares/residenciales distintos; no confirman el aporte anual superior alegado ni lo descartan.
 
-Fuentes: [Municipalidad de General Lagos](https://www.portalvisviri.cl/), [transparencia y trámites municipales](https://www.portalvisviri.cl/transparencia/tramites.html), [PADEM 2011](https://www.portalvisviri.cl/transparencia/documentos/padem/PADEM%202011.pdf).
+Fuentes: [Acta Ordinaria 29 del Concejo Municipal, 15/10/2009](https://www.portalvisviri.cl/transparencia/documentos/concejomunicipal/2009/Acta%20Ordinaria%2029%20del%2015-10-2009.pdf), [Municipalidad de General Lagos](https://www.portalvisviri.cl/), [transparencia y trámites municipales](https://www.portalvisviri.cl/transparencia/tramites.html), [PADEM 2011](https://www.portalvisviri.cl/transparencia/documentos/padem/PADEM%202011.pdf).
 
 Estado: abierta; identidad, beneficio y requisitos de educación superior siguen sin evidencia específica.
 

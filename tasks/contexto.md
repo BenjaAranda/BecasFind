@@ -33,6 +33,8 @@ Informes bajo documentacion/auditoria_corpus/procesados/:
 - **Viña del Mar:** actualizado CONTRASTE_VINA_CUENTAS_Y_AYUDAS_SOCIALES_2026_10_13.md el 20/10. D.A. 5852 incluye pago de pasajes como ayuda social por necesidad evaluada; una nota de 2012 registra pasajes aéreos para una estudiante de liceo en un viaje académico. No demuestra la beca general de transporte superior de la candidata `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`; sigue abierta. El informe y la cola contienen los enlaces y la delimitación; no repetir la búsqueda.
 - UAI/INACAP y Valdivia ya contrastadas el 19 de octubre; Talca/General Lagos con JUNAEB. Sus catálogos no prueban automáticamente las candidatas genéricas. Consultar informes por hash.
 
+- **General Lagos / Visviri:** Acta del Concejo 29 (15/10/2009) establece que Residencia Familiar era programa JUNAEB para escolares que seguían estudios en Arica; hubo cuatro o cinco familias sin cupo con apoyo municipal. No acredita la beca propia superior alegada. Quedó documentado en RECONTRASTE_OFICIAL_PENDIENTES_2026_10_16_C.md y cola; continúa abierta. No repetir la lectura del acta.
+
 ## Rendimiento y conservación
 
 Agrupar por institución y leer una vez cada fuente compartida. Buscar por hash; evitar volcar CSV, índices e informes completos. Registrar decisiones nuevas, sin duplicar informes. No hay OCR ni consultas activos.
