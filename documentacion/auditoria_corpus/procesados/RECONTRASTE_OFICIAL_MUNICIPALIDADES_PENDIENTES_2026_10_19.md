@@ -20,6 +20,12 @@ El portal municipal publica la Beca Artística “Sixto Rojas Acosta”. Su lín
 
 Fuentes: [Bases municipales de la Beca Artística](https://www.municipioiquique.cl/files/1439), [publicación municipal sobre la beca](https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta).
 
+### Comparación de las dos fichas genéricas de Iquique — 20 de octubre de 2026
+
+Se compararon los datos originales preservados en `bloque5_muni.csv` (registro 2, `b8b0e486…`) y `bloque12_muni.csv` (registro 7, `1d5e0e1a…`). Ambas atribuyen un aporte monetario anual para educación superior y enlazan la portada municipal. Difieren en periodo de cierre (30 de abril frente a 31 de marzo) y en los requisitos anotados: el registro 2 menciona residencia en Iquique, institución reconocida, vulnerabilidad socioeconómica y pago en una o dos cuotas según decreto; el registro 7 añade tramo RSH de 60%, matrícula y promedio 5,0, y dice que cubre universidades, CFT e IP. Estos son datos del corpus de origen, no evidencia oficial verificada. La semejanza permite tratarlas como posible variante/duplicidad para investigar, pero las diferencias y la falta de un decreto o bases comunes impiden fusionarlas o descartar una. La Beca Artística Sixto Rojas continúa separada.
+
+Siguiente acción: localizar una convocatoria, decreto o bases municipales que identifique el programa y determine si las dos fichas corresponden a una misma modalidad/año. Hasta entonces, mantener ambas pendientes y todos sus campos sin ratificar.
+
 ### Putre — `3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367`
 
 La Cuenta Pública municipal de 2019 informa asistencia para postular y renovar la Beca Indígena y la Beca Presidente de la República, programas estatales administrados por JUNAEB. Una Cuenta Pública de 2011 menciona una “Beca de residencia Familiar” en el contexto de continuidad de estudios en la localidad, pero no establece que sea la beca superior de traslado y arriendo de $250.000 de la ficha. No transferir identidad, cobertura o requisitos sin las bases de la candidata.
@@ -34,4 +40,4 @@ Fuente: [Departamento de Educación Municipal de Cochamó](https://municochamo.c
 
 ## Resultado
 
-Ninguna de estas seis candidatas tiene todavía una fuente oficial específica que confirme conjuntamente identidad, beneficio y requisitos principales. No se cierra ni descarta ninguna. La beca artística de Iquique y las becas deportivas de Santa María quedan documentadas como modalidades diferentes, no como equivalencias.
+Ninguna candidata incluida tiene todavía una fuente oficial específica que confirme conjuntamente identidad, beneficio y requisitos principales. No se cierra ni descarta ninguna. La comparación interna detecta un posible par de variantes Iquique, pero no prueba duplicidad. La beca artística de Iquique y las becas deportivas de Santa María quedan documentadas como modalidades diferentes, no como equivalencias.
