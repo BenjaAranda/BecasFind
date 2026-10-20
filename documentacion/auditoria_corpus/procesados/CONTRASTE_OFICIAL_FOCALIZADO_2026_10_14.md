@@ -34,6 +34,10 @@ La Cuenta Pública Gestión 2025 de la [Municipalidad de Teodoro](https://munite
 
 La [guía telefónica oficial de DIDECO Talca](https://www.talca.cl/dideco/guia-telefonica.php) identifica una Oficina de Asistencia Financiera y a su encargado, pero no describe una beca municipal ni sus reglas. La [Cuenta Pública Gestión 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), p. impresa 147, en cambio denomina expresamente “Becas JUNAEB en coordinación con DAEM Talca” a la Beca Presidente de la República y a la Beca Indígena. Esos antecedentes precisan que existe una unidad financiera y que las becas enumeradas por DAEM son estatales; no identifican ni contradicen de manera concluyente la beca genérica atribuida a DIDECO. La candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` permanece `REQUIERE_ACLARACION`. El dato faltante es una convocatoria, reglamento o acto municipal público que enlace a DIDECO con la beca exacta; no completar sus requisitos con los de JUNAEB.
 
+### Valdivia — becas deportivas DIDECO 2025 frente a las fichas generales (20 de octubre)
+
+La [convocatoria municipal de Becas de Excelencia y Proyección Deportiva 2025](https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/) confirma dos apoyos económicos de DIDECO administrados por Deportes y Recreación: $1.200.000 para 55 becas de excelencia y $400.000 para 35 de proyección, en pago único de libre disposición. La selección exige residencia en Valdivia y RSH hasta 70%; además, las bases publicadas delimitan las postulaciones por logros deportivos. Es un programa municipal real, pero distinto de las dos fichas de mantención para educación superior que alegan RSH 60% y NEM 5,0. No usar sus requisitos o montos para completarlas ni tratar la semejanza de las fichas como prueba de duplicidad. Los candidatos `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` y `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313` permanecen `REQUIERE_ACLARACION` hasta hallar la convocatoria o acto de la modalidad general.
+
 ## Fuentes primarias
 
 - [Beca Alcalde y educación municipal de Coronel](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/), [beca de pasajes 2026 de Coronel](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/) y [Cuenta Pública 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf).
@@ -49,6 +53,7 @@ La [guía telefónica oficial de DIDECO Talca](https://www.talca.cl/dideco/guia-
 - [Cuenta Pública Gestión 2025 de Cochamó](https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf), p. impresa 38.
 - [Cuenta Pública Gestión 2025 de Teodoro](https://muniteodoro.cl/portal/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf), p. impresa 12; [Departamento de Asistencia Social Río Claro](https://rioclaro.cl/departamento-de-asistencia-social/) y [actas del Concejo de Río Claro](https://rioclaro.cl/actas-de-concejo-municipal-ano-2022-2023-2024/).
 - [Guía telefónica DIDECO Talca](https://www.talca.cl/dideco/guia-telefonica.php) y [Cuenta Pública Gestión 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), p. impresa 147.
+- [Convocatoria oficial de Becas de Excelencia y Proyección Deportiva 2025 de Valdivia](https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/) y [página oficial de bases](https://munivaldivia.cl/becas-deportivas-2025/).
 
 ## Resultado
 
