@@ -14,6 +14,12 @@ La página oficial para Admisión 2026 describe becas para estudiantes de primer
 
 Fuentes: [Becas UAI Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas); [reglamento oficial de ingreso 2024](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2024.pdf); [reglamento oficial de ingreso 2025](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2025-uai.pdf); [reglamento oficial de pregrado 2026](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-pregrado-2026.pdf); [índice de transparencia UAI](https://www.uai.cl/la-universidad/transparencia).
 
+### UBO — Beca Socioeconómica — `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`
+
+La página oficial actual de la DAE distingue la beca de Alimentación, dirigida a estudiantes con dificultades económicas o de salud, y la beca de Contingencia, para dificultades económicas extraordinarias durante el periodo académico. También publica un descuento anual de 5% para hermanos o familiares directos. La postulación a Alimentación requiere antecedentes socioeconómicos y/o de salud; Contingencia se evalúa individualmente por la asistente social y el Comité de Becas. La página no publica un descuento socioeconómico general de 15–40%, límite RSH de 60% ni renovación anual con esas condiciones. Son diferencias materiales frente al CSV original; no descartan por sí solas una modalidad histórica separada. La candidata sigue sin ratificar y no se trasladan estos criterios o beneficios.
+
+Fuente: [Becas UBO, DAE](https://dae.ubo.cl/becas/becas-ubo/) (consulta del 20 de octubre de 2026).
+
 ### Municipalidad de Valdivia — `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` y `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`
 
 El municipio describe actualmente el Departamento de Asistencia Social como encargado de orientar y asistir a personas y familias vulnerables y otorgar ayudas sociales disponibles; esa descripción no individualiza una beca de educación superior ni sus importes o criterios académicos. La noticia oficial de 2025 confirma becas de excelencia y proyección deportiva con montos y destinatarios deportivos. Son modalidades distintas de las dos fichas genéricas de mantención estudiantil. Los dos registros históricos comparten comuna, nombre base y varias condiciones, pero difieren en el cierre registrado y en algunos detalles; sin bases o decreto común no se certifican como duplicados ni se fusionan.
@@ -22,4 +28,4 @@ Fuentes: [Asistencia Social municipal](https://munivaldivia.cl/asistencia-social
 
 ## Resultado
 
-Las fuentes permiten separar beneficios oficiales diferentes y precisar qué no acreditan. No establecen identidad positiva de las candidatas genéricas ni contradicen positivamente su existencia histórica. No se ratifica, descarta ni fusiona ninguna de las cuatro.
+Las fuentes permiten separar beneficios oficiales diferentes y precisar qué no acreditan. No establecen identidad positiva de las candidatas genéricas ni contradicen positivamente su existencia histórica. No se ratifica, descarta ni fusiona ninguna de las cinco.
