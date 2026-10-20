@@ -11205,5 +11205,28 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "cfb90f338bf474a6fd91fba28d38420f6cc7ae5a338cf3383d0ff54b6e0c7598",
+    "revisado": "2026-10-20",
+    "alcance": "Identidad y condiciones publicadas de la Beca Interna UdeC para pregrado; ficha de carrera 2026. No valida convocatoria ni monto de 2027.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md",
+    "fuentes": [
+      "https://admision.udec.cl/periodismo/",
+      "https://admision.udec.cl/beneficios/",
+      "https://documentos.udec.cl/sites/default/files/decreto_2022-157_sw.pdf"
+    ],
+    "beneficio": "Aporte institucional al arancel anual definido por carrera. Ejemplo oficial 2026 de Periodismo: 728815 CLP; no extrapolar a otras carreras.",
+    "requisitos_principales": "Estudiante nuevo o antiguo matriculado en UdeC y sin gratuidad; acceso a la Beca Interna sin postular, segun la ficha oficial de carrera.",
+    "limites": "El alias original se normaliza a Beca Interna UdeC. Se retiran el 50-100%, RSH 60%, evaluacion socioeconomica, documentos y fechas atribuidos porque no coinciden con las fuentes de esta beca. No confundir con becas nominadas. No activar ni extender a 2027.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

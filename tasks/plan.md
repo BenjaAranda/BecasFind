@@ -4,7 +4,7 @@ Actualizado el 19 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md]
 
 ## Punto de partida
 
-Quedan **38 candidatas**: 28 aclaraciones y 10 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo. UDD se confirmó como descuento corporativo de postgrado/educación continua; no exigir pregrado cuando el original no lo especifica.
+Quedan **37 candidatas**: 28 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo. UDD se confirmó como descuento corporativo de postgrado/educación continua; no exigir pregrado cuando el original no lo especifica. El 20/10 se confirmó la Beca Interna UdeC corrigiendo el alias genérico y las condiciones atribuidas; véase `CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md`.
 
 ## Ejecución
 
