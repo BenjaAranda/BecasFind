@@ -30,6 +30,10 @@ La [Cuenta Pública Gestión 2025 de la Municipalidad de Cochamó](https://munic
 
 La Cuenta Pública Gestión 2025 de la [Municipalidad de Teodoro](https://muniteodoro.cl/portal/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf), p. impresa 12, identifica una “Beca Municipal Educación Superior” de $120.000 por estudiante destinada a gastos de matrícula, para estudiantes de familias vulnerables y con buen rendimiento académico. El monto coincide con el atribuido a la candidata de Río Claro, pero la fuente corresponde expresamente a otra municipalidad y no demuestra que el beneficio de Río Claro exista ni que los demás requisitos coincidan. La página oficial de [Asistencia Social de Río Claro](https://rioclaro.cl/departamento-de-asistencia-social/) describe la unidad, sin identificar esa beca; su [índice oficial de actas municipales](https://rioclaro.cl/actas-de-concejo-municipal-ano-2022-2023-2024/) ofrece documentos de sesiones, tampoco una ficha específica en el material revisado. Esto plantea una posible confusión de atribución que debe verificarse, no una prueba de falsedad. La candidata `8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1` permanece `REQUIERE_ACLARACION`; no trasladar a Río Claro el monto ni los requisitos publicados por Teodoro.
 
+### Talca — directorio DIDECO y prestaciones coordinadas por DAEM (20 de octubre)
+
+La [guía telefónica oficial de DIDECO Talca](https://www.talca.cl/dideco/guia-telefonica.php) identifica una Oficina de Asistencia Financiera y a su encargado, pero no describe una beca municipal ni sus reglas. La [Cuenta Pública Gestión 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), p. impresa 147, en cambio denomina expresamente “Becas JUNAEB en coordinación con DAEM Talca” a la Beca Presidente de la República y a la Beca Indígena. Esos antecedentes precisan que existe una unidad financiera y que las becas enumeradas por DAEM son estatales; no identifican ni contradicen de manera concluyente la beca genérica atribuida a DIDECO. La candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` permanece `REQUIERE_ACLARACION`. El dato faltante es una convocatoria, reglamento o acto municipal público que enlace a DIDECO con la beca exacta; no completar sus requisitos con los de JUNAEB.
+
 ## Fuentes primarias
 
 - [Beca Alcalde y educación municipal de Coronel](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/), [beca de pasajes 2026 de Coronel](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/) y [Cuenta Pública 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf).
@@ -44,6 +48,7 @@ La Cuenta Pública Gestión 2025 de la [Municipalidad de Teodoro](https://munite
 - [Registro histórico del convenio Universidad San Sebastián–Municipalidad de Valdivia](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm).
 - [Cuenta Pública Gestión 2025 de Cochamó](https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf), p. impresa 38.
 - [Cuenta Pública Gestión 2025 de Teodoro](https://muniteodoro.cl/portal/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf), p. impresa 12; [Departamento de Asistencia Social Río Claro](https://rioclaro.cl/departamento-de-asistencia-social/) y [actas del Concejo de Río Claro](https://rioclaro.cl/actas-de-concejo-municipal-ano-2022-2023-2024/).
+- [Guía telefónica DIDECO Talca](https://www.talca.cl/dideco/guia-telefonica.php) y [Cuenta Pública Gestión 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), p. impresa 147.
 
 ## Resultado
 
