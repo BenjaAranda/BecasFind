@@ -10,9 +10,9 @@ Fuentes: [catálogo oficial de becas INACAP](https://portal.inacap.cl/financiami
 
 ### UAI — Beca Hermanos — `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`
 
-La página oficial para Admisión 2026 describe las becas aplicables a estudiantes de primer ingreso seleccionados por admisión centralizada y enumera sus beneficios y condiciones. No incluye una beca de hermanos con el 25% señalado en la ficha. El alcance de esta publicación no prueba que una modalidad interna separada o histórica no haya existido. No se confirma ni se descarta la candidata.
+La página oficial para Admisión 2026 describe becas para estudiantes de primer ingreso y enlaza su reglamento. Se revisaron además los reglamentos oficiales de becas de excelencia académica para las promociones 2024, 2025 y 2026. Cada documento limita expresamente su alcance a las becas que regula; enumeran beneficios de excelencia y mantención, y ninguno contiene una modalidad para hermanos (búsqueda del término en los PDF 2025 y 2026; lectura del reglamento 2024). El reglamento 2024 sí menciona como compatibles ciertos beneficios para hijos o cónyuges de funcionarios, que son destinatarios distintos. Este conjunto delimita las becas de excelencia publicadas, pero no demuestra que nunca haya existido un beneficio familiar separado ni acredita el 25% de la ficha. No se confirma ni se descarta la candidata.
 
-Fuente: [Becas UAI para Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas).
+Fuentes: [Becas UAI Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas); [reglamento oficial de ingreso 2024](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2024.pdf); [reglamento oficial de ingreso 2025](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2025-uai.pdf); [reglamento oficial de pregrado 2026](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-pregrado-2026.pdf); [índice de transparencia UAI](https://www.uai.cl/la-universidad/transparencia).
 
 ### Municipalidad de Valdivia — `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` y `35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313`
 
