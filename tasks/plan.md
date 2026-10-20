@@ -1,10 +1,10 @@
 # Método vigente de revisión esencial
 
-Actualizado el 19 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Contexto mínimo para retomar: [contexto.md](contexto.md).
+Actualizado el 20 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Contexto mínimo para retomar: [contexto.md](contexto.md).
 
 ## Punto de partida
 
-Quedan **37 candidatas**: 28 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo. UDD se confirmó como descuento corporativo de postgrado/educación continua; no exigir pregrado cuando el original no lo especifica. El 20/10 se confirmó la Beca Interna UdeC corrigiendo el alias genérico y las condiciones atribuidas; véase `CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md`.
+Quedan **36 candidatas**: 27 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Sus fuentes e informes ya consultados deben leerse antes de repetir consultas. La cifra de 132 es histórica; no reconstruir esa cola desde un informe antiguo. UDD se confirmó como descuento corporativo de postgrado/educación continua; no exigir pregrado cuando el original no lo especifica. El 20/10 se confirmaron la Beca Interna UdeC y la línea histórica de Mantención Timaukel (2020); véanse `CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md` y `CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md`. Timaukel no acredita nivel superior ni convocatoria 2026.
 
 ## Ejecución
 
