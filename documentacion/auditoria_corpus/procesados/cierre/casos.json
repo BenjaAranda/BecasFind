@@ -42883,9 +42883,9 @@
   },
   {
     "candidato": "f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d",
-    "nombre": "Beca Municipal Educación Superior Cochamo",
-    "institucion": "Municipalidad de Cochamo",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "nombre": "Beca estudiantil municipal Cochamó",
+    "institucion": "Municipalidad de Cochamó",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque38_muni.csv",
@@ -43032,13 +43032,41 @@
         "extractos": [
           "### Cochamó — `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`\n\nLa página oficial del DAEM explica la misión del sistema educacional comunal, pero no documenta la beca superior ni sus $200.000, requisitos, proceso o cierre. La descripción general del sistema no confirma ni contradice la candidata; se mantiene abierta.\n\nFuente: [Departamento de Educación Municipal de Cochamó](https://municochamo.cl/daem1/)."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_COHAMO_2026_10_20.md",
+        "informe_sha256": "c0c2bbe88584ecb10172e5898c2cee0e2458c28e1d1fc533cb86b58dab479c89",
+        "extractos": [
+          "Revisión del 20 de octubre de 2026. Candidata `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d`, referencia original `bloque38_muni.csv#6`. Decisión: **CONFIRMADA_ESENCIAL**, limitada a la categoría histórica que la Municipalidad de Cochamó informa para la gestión 2025."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d",
+      "revisado": "2026-10-20",
+      "alcance": "Categoría histórica de beca estudiantil en las Ayudas Sociales Municipales informadas para la gestión 2025; nivel y convocatoria 2026 no acreditados.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_COHAMO_2026_10_20.md",
+      "fuentes": [
+        "https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf"
+      ],
+      "beneficio": "Beca estudiantil municipal; cobertura concreta e importe individual no especificados. Los $65.677.013 corresponden al total del conjunto de ayudas sociales, no a esta beca.",
+      "requisitos_principales": "No especificados en la Cuenta Pública 2025 consultada; no validar RSH 70%, NEM 5,0, prioridad territorial ni documentos del registro original.",
+      "limites": "La fuente confirma una categoría municipal de beca estudiantil en 2025; no especifica nivel educativo, condiciones de elegibilidad, monto individual, documentos ni fechas. No ratifica una convocatoria 2026 ni permite afirmar que sea exclusiva de educación superior. No activar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "a54f11a8d99fb6f189927d82e486b22e96560878bb0c25485ad63d1e4aeebd5a",

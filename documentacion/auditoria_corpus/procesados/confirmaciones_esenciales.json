@@ -11249,5 +11249,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d",
+    "revisado": "2026-10-20",
+    "alcance": "Categoría histórica de beca estudiantil en las Ayudas Sociales Municipales informadas para la gestión 2025; nivel y convocatoria 2026 no acreditados.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_COHAMO_2026_10_20.md",
+    "fuentes": [
+      "https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf"
+    ],
+    "beneficio": "Beca estudiantil municipal; cobertura concreta e importe individual no especificados. Los $65.677.013 corresponden al total del conjunto de ayudas sociales, no a esta beca.",
+    "requisitos_principales": "No especificados en la Cuenta Pública 2025 consultada; no validar RSH 70%, NEM 5,0, prioridad territorial ni documentos del registro original.",
+    "limites": "La fuente confirma una categoría municipal de beca estudiantil en 2025; no especifica nivel educativo, condiciones de elegibilidad, monto individual, documentos ni fechas. No ratifica una convocatoria 2026 ni permite afirmar que sea exclusiva de educación superior. No activar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]
