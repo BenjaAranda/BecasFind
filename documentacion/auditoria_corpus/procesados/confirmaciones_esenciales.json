@@ -11228,5 +11228,26 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392",
+    "revisado": "2026-10-20",
+    "alcance": "Llamado municipal histórico de Beca Mantención publicado en 2020; nivel educativo y convocatoria posterior no acreditados.",
+    "informe": "CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md",
+    "fuentes": [
+      "https://web.archive.org/web/20211209111449id_/https://www.munitimaukel.cl/beca-mantencion-beca-excelencia/"
+    ],
+    "beneficio": "Beca municipal de mantención; monto y periodicidad no especificados en la publicación recuperada.",
+    "requisitos_principales": "No especificados en el texto del llamado recuperado; no validar RSH 60%, promedio 5,0 ni los documentos atribuidos en el original.",
+    "limites": "La publicación identifica una Beca Mantención municipal y recepción por el área social. No publica nivel educacional ni acredita educación superior, destinatarios, importe, documentos o convocatoria 2026. No activar ni presentar como vigente.",
+    "fecha_inicio": null,
+    "fecha_cierre": "2020-06-10",
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

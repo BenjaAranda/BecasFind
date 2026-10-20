@@ -37085,9 +37085,9 @@
   },
   {
     "candidato": "f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392",
-    "nombre": "Beca Municipal de Educación Superior Timaukel",
+    "nombre": "Beca de Mantención Timaukel",
     "institucion": "Municipalidad de Timaukel",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque31_muni.csv",
@@ -37192,13 +37192,41 @@
         "extractos": [
           "Candidata: `f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392`. Revisión: 19 de octubre de 2026. Estado: **requiere aclaración de modalidad y nivel**.\n\nLa publicación municipal del 22 de mayo de 2020 anuncia postulaciones a «Beca Mantención» y «Beca Excelencia», con recepción de documentos por correo del área social y presencial hasta el 10 de junio de 2020. Es evidencia de un llamado concreto publicado por el municipio, distinta de la falta de acceso que figuraba como carencia general.\n\nEl texto no identifica el nivel educativo, el importe ni quién financia cada modalidad. Tampoco publica el RSH 60%, promedio 5,0 o asignación única anual de la candidata. El afiche enlazado en la publicación no se pudo recuperar de su URL actual ni de las versiones archivadas consultadas. Por eso aún no se demuestra correspondencia con la candidata de educación superior; no se sustituye ni se descarta.\n\nDos publicaciones separadas de octubre y diciembre de 2020 difunden FUAS y JUNAEB. Identifican explícitamente esos programas estatales, pero no establecen si el llamado de mayo pertenece a ellos o a una línea municipal propia. No trasladar requisitos entre los tres avisos."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md",
+        "informe_sha256": "b4d769de2def9918fce295ee0b64de71117fdc96140d02008452c6d5631ab238",
+        "extractos": [
+          "Revisión del 20 de octubre de 2026. Candidata `f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392`, referencia original `bloque31_muni.csv#10`. Decisión: **CONFIRMADA_ESENCIAL**, limitada al llamado municipal histórico de 2020."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392",
+      "revisado": "2026-10-20",
+      "alcance": "Llamado municipal histórico de Beca Mantención publicado en 2020; nivel educativo y convocatoria posterior no acreditados.",
+      "informe": "CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md",
+      "fuentes": [
+        "https://web.archive.org/web/20211209111449id_/https://www.munitimaukel.cl/beca-mantencion-beca-excelencia/"
+      ],
+      "beneficio": "Beca municipal de mantención; monto y periodicidad no especificados en la publicación recuperada.",
+      "requisitos_principales": "No especificados en el texto del llamado recuperado; no validar RSH 60%, promedio 5,0 ni los documentos atribuidos en el original.",
+      "limites": "La publicación identifica una Beca Mantención municipal y recepción por el área social. No publica nivel educacional ni acredita educación superior, destinatarios, importe, documentos o convocatoria 2026. No activar ni presentar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": "2020-06-10",
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
