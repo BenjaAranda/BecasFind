@@ -22,6 +22,10 @@ Se revisaron 13 PDFs de actas enlazados desde el [índice oficial del Concejo Mu
 
 Actas enlazadas: [001](https://imputre.cl/transparencia/ActasConcejoMunicipal2026/Acta01-2026.pdf), [002](https://imputre.cl/transparencia/ActasConcejoMunicipal2026/Acta02-2026.pdf), [003](https://imputre.cl/transparencia/ActasConcejoMunicipal2026/Acta03-2026.pdf), [004](https://imputre.cl/transparencia/ActasConcejoMunicipal2026/Acta04-2026.pdf), [005](https://imputre.cl/transparencia/ActasConcejoMunicipal2026/Acta05-2026.pdf), [008](https://drive.google.com/open?id=1a5N88As9-RuZVsIWYdcJa7Ekddg629vz), [009](https://drive.google.com/open?id=1GWh81OOHheuQlv0EhlaPj9aEuJte6dQ3), [010](https://drive.google.com/open?id=1W3uMTZWoD5fwN_xq7A809uvMJwS2mKOv), [011](https://drive.google.com/open?id=1n9BqEVSndQ67zZPwRAOmShdxIkfUUnXH), [004 extraordinaria](https://drive.google.com/open?id=1VOFlVujTDNxj1_nVLREdDPGFGGSpgqdb), [005 extraordinaria](https://drive.google.com/open?id=1p2HeGavi5wbqmMmvPmfJQTMycZmr8NOY), [012](https://drive.google.com/open?id=1rgCoV3dEfoD-falnCzKPpab8PrqZtc4n) y [006 extraordinaria](https://drive.google.com/open?id=1zFd95xY2rRGdE1us5Sij1KFpzdIXOyBc).
 
+### Cochamó — Cuenta Pública Gestión 2025 (20 de octubre)
+
+La [Cuenta Pública Gestión 2025 de la Municipalidad de Cochamó](https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf), p. impresa 38, indica que el Departamento Social administra recursos municipales de asistencia y enumera entre las “Ayudas Sociales Municipales” una “beca estudiantil”. El documento informa $65.677.013 para el ítem agregado de Ayudas Sociales Municipales; no atribuye ese total a la beca. Esto confirma que en 2025 el municipio incluía una categoría de apoyo estudiantil dentro de sus ayudas sociales, pero no identifica nivel educativo, convocatoria, beneficiarios ni vínculo con la candidata de educación superior. Tampoco valida los $200.000, la cuota, RSH 70%, NEM 5,0, prioridad territorial, documentos o fechas de la ficha. La candidata `f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d` permanece `REQUIERE_ACLARACION`; no se trasladan datos entre modalidades.
+
 ## Fuentes primarias
 
 - [Beca Alcalde y educación municipal de Coronel](https://www.coronel.cl/noticias/por-quinto-ano-consecutivo-alcalde-boris-chamorro-dona-su-sueldo-a-puntajes-destacados-de-la-pdt/), [beca de pasajes 2026 de Coronel](https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/) y [Cuenta Pública 2020](https://www.coronel.cl/wp-content/uploads/2021/04/Cuenta-Publica-2020_compressed.pdf).
@@ -34,6 +38,7 @@ Actas enlazadas: [001](https://imputre.cl/transparencia/ActasConcejoMunicipal202
 - [Cuenta Pública Peñaflor 2023](https://penaflor.cl/wp-content/uploads/2024/05/CUENTA-PUBLICA-2023-MUNICIPALIDAD-DE-PENAFLOR.pdf), [Cuenta Pública 2020](https://penaflor.cl/wp-content/uploads/2021/03/CUENTA-PUBLICA-2020_web.pdf) y [apoyo social escolar 2026](https://penaflor.cl/alcalde-rodrigo-cornejo-triplica-el-apoyo-social-para-estudiantes-de-penaflor/).
 - [Bases oficiales Beca Artística Sixto Rojas Acosta](https://municipioiquique.cl/files/1452) y [convocatoria municipal 2021](https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta).
 - [Registro histórico del convenio Universidad San Sebastián–Municipalidad de Valdivia](https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm).
+- [Cuenta Pública Gestión 2025 de Cochamó](https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf), p. impresa 38.
 
 ## Resultado
 
