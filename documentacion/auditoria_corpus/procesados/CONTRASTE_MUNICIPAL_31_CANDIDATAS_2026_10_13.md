@@ -14,7 +14,9 @@ Fuentes: <https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-prog
 
 Camiña: la consulta oficial no recuperó bases de esta denominación. No corregir “Camina” solo por semejanza ni descartar por falta de resultado.
 
-Fuentes: <https://www.municamina.cl/>
+Pista pública adicional revisada el 20/10/2026: una noticia de la Biblioteca Pública de Camiña alojada en BiblioRedes (portal institucional del sistema de bibliotecas públicas) anunció en 2011 el sitio municipal `municipalidaddecamina.cl` y señaló que incluiría una sección de transparencia. El dominio no resuelve hoy. La búsqueda de capturas en Wayback respondió HTTP 503; la consulta de CDX y el historial de versiones en Arquivo.pt no devolvieron capturas. Esto no demuestra que nunca existieran bases ni que la beca no existiera; solo deja sin recuperar ese archivo histórico. No se localizó una fuente que identifique la candidata ni sus datos.
+
+Fuentes: <https://www.municamina.cl/> | <https://www.biblioredes.gob.cl/bibliotecas/camina/noticias/lanzamiento-pagina-web-ilustre-municipalidad-de-camina> | <https://arquivo.pt/textsearch?versionHistory=municipalidaddecamina.cl&maxItems=50>
 
 ### 29. Beca Municipal Educación Superior Chanaral — Municipalidad de Chanaral (`b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47`)
 
