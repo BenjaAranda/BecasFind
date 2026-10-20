@@ -20,3 +20,7 @@ Las bases y el decreto son positivos para la existencia y reglas de Talento Cent
 
 - Bases de Postulación Becas Talento Centralin@ 2026: https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf
 - Decreto Alcaldicio N.º 00547/2026, resultados del proceso: https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/DECRETO-ALCALDICIO-5472026.pdf
+
+## Antecedente oficial adicional: edición 2025
+
+El 20 de octubre de 2026 se recuperó directamente desde el almacenamiento oficial municipal el PDF [Bases Beca Talento Centralin@ 2025](https://api.municipalidaddeestacioncentral.cl/storage/files/bddb4aa78e6e15434907f4e727ba27af.pdf), de cuatro páginas. Sus páginas 1–4 identifican la misma línea Talento Centralin@: 40 cupos, aporte anual de $1.000.000, residencia en Estación Central, edad máxima de 23 años, RSH hasta 80% y selección por trayectoria/participación, reconocimientos y proyección en ámbitos académico, artístico o deportivo. Es evidencia adicional de una modalidad municipal real y diferenciada en 2025; no vincula esa modalidad con la beca genérica de mantención alegada en el registro. Mantener `REQUIERE_ACLARACION`; no transferir campos ni usar la diferencia como prueba de inexistencia.
