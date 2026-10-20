@@ -22,3 +22,16 @@ La Municipalidad también publica **ayudas sociales para matrículas de enseñan
 - [Programa municipal de ayudas sociales](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-de-ayudas-sociales/)
 - [Beca Presidente de la República gestionada localmente](https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/)
 - [Beca deportiva municipal Viña del Mar, 2026](https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/)
+
+## Contraste adicional — 20 de octubre de 2026
+
+El Decreto Alcaldicio N.º 5852, que aprueba el procedimiento municipal de ayudas sociales, incluye el **pago de pasajes** entre otras ayudas. Para la ayuda social tramitada por decreto exige informe social que acredite indigencia o necesidad manifiesta y residencia en Viña del Mar; admite a personas de tránsito por causa justificada y considera preferible contar con RSH. El texto no limita esta ayuda a estudiantes, educación superior, viajes de estudio, RSH de hasta 60%, NEM 5,0 ni pagos mensuales. Por tanto, acredita una vía general de ayuda social para pasajes, pero no la beca estudiantil descrita en la ficha.
+
+Una publicación municipal de 2012 documenta un caso distinto: la Corporación Municipal pagó pasajes aéreos a una estudiante de 17 años, egresada de un liceo municipal, para asistir a un campamento de estudios en Beijing después de obtener una beca del programa de chino mandarín. El hecho confirma apoyo municipal de viaje en esa ocasión; no demuestra una convocatoria general de pasajes para educación superior ni los requisitos y montos de la candidata.
+
+**Decisión para `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`:** mantener `REQUIERE_ACLARACION`. No trasladar a la ficha la ayuda social general ni el caso singular de 2012. Siguen sin fuente específica el nombre de un programa de transporte para educación superior, su periodicidad, importe, población y criterios académicos o socioeconómicos.
+
+Fuentes nuevas:
+
+- [Decreto Alcaldicio N.º 5852 — procedimiento de ayudas sociales](https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf)
+- [Registro municipal de apoyo a una estudiante que viajó a Beijing](https://www.munivina.cl/noticias/alcaldesa-virginia-reginato-felicito-a-alumna-que-viaja-a-beijing-para-participar-en-campamento-de-estudios/)
