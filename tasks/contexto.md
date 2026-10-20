@@ -1,6 +1,6 @@
 # Contexto mínimo de BecasFind
 
-Actualizado el 19 de octubre de 2026. Retomar leyendo AGENTS.md, este archivo, PLAN_MEJORAS.md y el estado real de Git. El método está en tasks/plan.md. Cargar informes y registros únicamente por candidata.
+Actualizado el 20 de octubre de 2026. Retomar leyendo AGENTS.md, este archivo, PLAN_MEJORAS.md y el estado real de Git. El método está en tasks/plan.md. Cargar informes y registros únicamente por candidata.
 
 ## Estado vigente
 
@@ -20,7 +20,7 @@ Producto: costo previsto $0; azul y blanco institucional; búsqueda y detalle p�
 
 Informes bajo documentacion/auditoria_corpus/procesados/:
 
-- **ENAC:** CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md. Fichas oficiales archivadas identifican Convenio (20–100%) y Excelencia interna (50% anual al mejor promedio por promoción). Las otras cuatro candidatas no se equiparan con Hermanos, arancel general 2023 ni SERBIMA. SERBIMA ya leído completo; su beca Humberto Elgueta Guerín no acredita esas modalidades.
+- **ENAC:** CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md. Fichas oficiales archivadas identifican Convenio (20–100%) y Excelencia interna (50% anual al mejor promedio por promoción). Las otras cuatro candidatas no se equiparan con Hermanos, arancel general 2023 ni SERBIMA. La documentación institucional archivada enlaza el Reglamento de Becas, anexo 52, pero el PDF da HTTP 503 en Internet Archive y no aparece en Arquivo.pt. Evidencia y decisiones en ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md; no repetir catálogos generales ni presentar el fallo de archivo como inexistencia. SERBIMA ya leído completo; su beca Humberto Elgueta Guerín no acredita esas modalidades.
 - **Romeral:** LECTURA_ACTAS_ROMERAL_2026_10_19.md y manifiesto JSON. OCR de 27 actas y 611 páginas. Acta 20, páginas 26–27 revisadas visualmente: residencia en Talca; no demuestra equivalencia con la candidata de mantención. Buscar reglamento y respuesta al concejo. PDF y OCR en tmp/romeral-actas-2026/; no repetir descarga ni OCR.
 - **Timaukel:** CONTRASTE_ARCHIVO_TIMAUKEL_2020_2026_10_19.md. Llamado de mayo de 2020 a Mantención y Excelencia. Falta afiche/bases que identifiquen nivel educativo y otorgante. El afiche actual y archivado devolvió 404; cambiar de pista.
 - **Archivos históricos:** consulta terminada de 25 dominios: 10 respuestas, 15 errores y 158 recursos. Índice en tasks/indice_archivos_historicos.json; respuestas locales en tmp/archivo-pendientes-20261019/. Ya se leyeron las fuentes seleccionadas UFRO/UCT/UBO y Nanning/Iquique: CONTRASTE_ARCHIVOS_ESPECIFICOS_2026_10_19.md y JSON. No demuestran las candidatas genéricas; no repetir su lectura como tarea nueva. ENAC parte 3 del informe de acreditación 2016, página 55, aporta una pista concreta: Reglamento de Becas anexo. Página 49 identifica Elisa Sanfuentes y Alimentación, sin equivalencia con las cuatro pendientes.
