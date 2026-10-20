@@ -2089,7 +2089,7 @@
     ]
   },
   "REVISION_REFUERZO_FUENTES_2026_10_12.md": {
-    "sha256": "a1a221b078dbc748b515e9585cea736c07133d2baf76d6e3fdd7ad5bab87d654",
+    "sha256": "4e587ddd41adff4ce57a2987e7c523846c91e29773bfd5539ace782fc60ce7ee",
     "urls": [
       "https://admision.uahurtado.cl/becas-y-beneficios/",
       "https://admision.uai.cl/assets/uploads/2021/01/reglamento-becas-excelencia-academica-aplicable-a-la-promocin-de-ingreso-2021-.pdf",
@@ -3431,9 +3431,11 @@
     ]
   },
   "CONTRASTE_CONCEPCION_2026_10_14.md": {
-    "sha256": "67f5ffd00d52b556e96eea32b9b3d1e5a7c95c2fbc870b8ab92fb57ce3207eb4",
+    "sha256": "de89986c3ffbfb46caa08041cec0cc6807718f6adddc457a6bba3a67db88c7ca",
     "urls": [
-      "https://concepcion.cl/subvenciones-municipales-2026/"
+      "https://concepcion.cl/subvenciones-municipales-2026/",
+      "https://transparencia.concepcion.cl/documentos/decretos/decretos2017/DA_99-20170001.pdf",
+      "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf"
     ]
   },
   "CONTRASTE_CALDERA_MOVILIZACION_2026_10_14.md": {
@@ -4327,11 +4329,12 @@
     ]
   },
   "RECONTRASTE_OFICIAL_MUNICIPALIDADES_PENDIENTES_2026_10_19.md": {
-    "sha256": "17298f4935bcaf83bff6760d927b9f4a662c6d5bf02be9191766a5796770c4b8",
+    "sha256": "aa147325ee71ffeae8681be94481acb9f1663eb8e1af49e45b2473cd777246fa",
     "urls": [
       "https://imputre.cl/transparencia/archivos_muni/CUENTA%20PUBLICA%202011.pdf",
       "https://imputre.cl/wp-content/uploads/2020/04/LIBRO-CUENTA-PUBLICA-2019-FINAL.pdf",
       "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/",
+      "https://municipioiquique.cl/general/faq.html",
       "https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
       "https://municochamo.cl/daem1/",
       "https://www.loespejo.cl/departamento-de-desarrollo-social/",
@@ -4339,8 +4342,9 @@
     ]
   },
   "RECONTRASTE_OFICIAL_UNIVERSITARIO_Y_VALDIVIA_2026_10_19.md": {
-    "sha256": "fd89f19798f4d06f1949c132a1d90d85c4bf809395b38099984d05381624ff95",
+    "sha256": "a4000260e32a588d253219dbdf51244e7500d8fc856a6681c96d3c7f110abef5",
     "urls": [
+      "https://dae.ubo.cl/becas/becas-ubo/",
       "https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/",
       "https://munivaldivia.cl/asistencia-social/",
       "https://portal.inacap.cl/financiamiento-estudiantil/becas",
