@@ -6,9 +6,9 @@ Actualizado el 20 de octubre de 2026. Leer `AGENTS.md`, este archivo, `PLAN_MEJO
 
 - Repositorio: `BenjaAranda/BecasFind`; rama habitual `bugfix/security-and-recovery` (comprobarla al retomar).
 - Corpus: 93 archivos originales, 647 referencias y 568 candidatas únicas.
-- Conteo vigente: **521 confirmadas esenciales, 2 completas, 13 descartes ratificados y 32 pendientes** (23 aclaraciones y 9 exclusiones históricas sin ratificar).
+- Conteo vigente: **522 confirmadas esenciales, 2 completas, 13 descartes ratificados y 31 pendientes** (22 aclaraciones y 9 exclusiones históricas sin ratificar).
 - Fuentes de verdad para conteos: `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`. No usar cifras antiguas de 132, 157 o 291.
-- El último avance editorial fue `91252f6 docs: elimina candidata duplicada de Valdivia`. No hay cambios de código/documentación pendientes de esta sesión; el único elemento no rastreado observado es el documento personal `BecasFind - ET.docx`, que no se debe modificar ni borrar.
+- El avance editorial actual confirma la línea histórica municipal de becas monetarias de estudio de Putre, con campos no acreditados conservados como desconocidos. El elemento no rastreado `BecasFind - ET.docx` es un documento personal y no se debe modificar ni borrar.
 
 ## Alcance y reglas de revisión
 
@@ -24,6 +24,7 @@ Antes de investigar cada candidata: leer su hash, carencia e informe pertinente 
 - **ENAC**: el anexo 52 del Reglamento de Becas no se recuperó; no inferir inexistencia. El CSV original tiene una fila mezclada por comas sin escapar; `originales.jsonl` registra `COLUMNAS_AUSENTES` en Vocación. No usar esa fila como evidencia. Informes: `ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md` y `CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md`.
 - **Timaukel**: confirmada solo la línea histórica de mantención anunciada en 2020; no se confirmó nivel superior, monto, requisitos ni vigencia actual. Informe: `CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md`.
 - **Santa María**: confirmadas ayudas universitarias municipales descritas en ficha DIDECO de 2016; no se acreditan nombre «beca», monto ni vigencia actual. Informe: `CONFIRMACION_ESENCIAL_AYUDAS_UNIVERSITARIAS_SANTA_MARIA_2026_10_20.md`.
+- **Putre**: confirmada en alcance histórico la línea municipal de becas monetarias de estudio gestionadas por DIDECO, registrada en la Cuenta Pública 2011. Nivel educativo, destinatarios, importe, requisitos de adjudicación y vigencia actual no especificados. No equiparar con la Beca de Residencia Familiar para estudiantes que estudiaban en Putre. Informe: `CONFIRMACION_ESENCIAL_BECAS_ESTUDIO_PUTRE_2026_10_20.md`.
 - **Huara**: fuente municipal acredita una línea deportiva distinta de la candidata de mantención superior. Informe: `CONTRASTE_BECA_DEPORTIVA_HUARA_2018_2019_2026_10_20.md`.
 - **UCT, UBO, UFRO, Iquique, General Lagos, Talca, Viña del Mar, Victoria, El Monte, Concepción, INACAP, Autónoma y candidatas con apoyos JUNAEB**: sus comparaciones y límites están en los informes citados en la carencia de cada fila de la cola; no transferir reglas de beneficios parecidos ni cerrar por omisión.
 - Archivos y URLs históricos consultados están indexados en `tasks/indice_archivos_historicos.json`; leer resultados locales solo cuando el hash pendiente los requiera. Las actas de Romeral ya descargadas/OCR están en `LECTURA_ACTAS_ROMERAL_2026_10_19.md` y su manifiesto.
