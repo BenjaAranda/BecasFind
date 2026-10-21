@@ -4,9 +4,9 @@ Actualizado el 20 de octubre de 2026. Este es el único listado de trabajo. El c
 
 ## Prioridad actual: P04, confirmación de becas
 
-Estado reproducible: **568 candidatas; 518 confirmaciones esenciales; 2 completas; 11 descartes ratificados; 37 pendientes**. Las pendientes incluyen 28 aclaraciones y 9 exclusiones históricas sin ratificar. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. El 20/10 se confirmó la candidata genérica de arancel UdeC como alias de la Beca Interna UdeC, corrigiendo la cuantía, requisitos socioeconómicos y documentos no respaldados; informe individual disponible en `CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md`.
+Estado reproducible al 20/10: **568 candidatas; 520 confirmaciones esenciales; 2 completas; 12 descartes ratificados; 34 pendientes**. Las pendientes incluyen 25 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única y `avance/resumen.json` son la fuente de los conteos; este texto se actualiza junto con ellos. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. Entre los cierres del 20/10 están UdeC, Timaukel y Cochamó; sus límites se detallan en `tasks/contexto.md`.
 
-- [ ] Resolver las [37 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
+- [ ] Resolver las [34 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
 - [ ] Registrar campos publicados; conservar «No especificado» cuando el expediente oficial no los publique. La identidad del programa sí requiere evidencia positiva.
 - [ ] Resolver equivalencias y variantes por programa, modalidad y año; consultar sus decisiones actuales antes de declarar el cierre global. No convertir referencias repetidas en duplicados sin prueba.
 - [ ] Comprobar coherencia documental y subir decisiones nuevas a GitHub con mensajes en español.
