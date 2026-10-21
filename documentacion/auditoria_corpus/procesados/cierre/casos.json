@@ -22158,7 +22158,7 @@
     "candidato": "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
     "nombre": "Beca Municipal para Estudiantes de Educación Superior Valdivia",
     "institucion": "Municipalidad de Valdivia",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -22383,7 +22383,19 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
+      "candidato": "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
+      "revisado": "2026-10-20",
+      "motivo": "Duplicado positivo en el corpus de la misma ficha genérica que dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18: coinciden institución, beca municipal DIDECO de mantención/libre disposición para educación superior, monto alegado, inicio 01/03/2026, RSH 60%, NEM 5,0, región XIV y URL municipal. Las diferencias de cierre (31/03 vs 31/05), redacción y documentos no identifican otra modalidad o convocatoria.",
+      "alcance": "Se excluye solo la identidad repetida 35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313. Se conservan los CSV originales y ambas filas. La candidata canónica dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18 sigue pendiente de fuente oficial específica; la deduplicación no afirma que el programa exista o no exista ni valida campos.",
+      "informe": "REVISION_DUPLICADO_VALDIVIA_2026_10_20.md",
+      "evidencia": [
+        "REVISION_DUPLICADO_VALDIVIA_2026_10_20.md"
+      ],
+      "criterio": "DUPLICADO_IDENTIDAD",
+      "duplicado_de": "dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18"
+    }
   },
   {
     "candidato": "8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216",
