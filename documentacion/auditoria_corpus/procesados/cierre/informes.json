@@ -4455,10 +4455,19 @@
     "urls": []
   },
   "RECONTRASTE_PUBLICO_UBO_SOCIOECONOMICA_2026_10_20.md": {
-    "sha256": "99a570735aea0005f4eda0df0c948958e8d3f69b8b732f1905a6bc54b1e4b3f8",
+    "sha256": "b534d90f68207078a26941b05f4f5eccbe2dae927494928d138e28354819eafe",
     "urls": [
       "https://admision.ubo.cl/financiamiento/",
       "https://dae.ubo.cl/becas/becas-ubo/"
+    ]
+  },
+  "RECONTRASTE_UFRO_MANTENCION_SOCIOECONOMICA_2026_10_20.md": {
+    "sha256": "67fe2df2356be9fe0240d6a2166a1069cbeedb87800595f56975e949b8a82a01",
+    "urls": [
+      "https://dde.ufro.cl/beneficios-estudiantiles/arancel/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/",
+      "https://dde.ufro.cl/beneficios-estudiantiles/mantencion/",
+      "https://dde.ufro.cl/wp-content/uploads/2024/09/Preguntas-frecuentes-beneficios-estudiantiles.pdf"
     ]
   }
 }
