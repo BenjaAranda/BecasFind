@@ -35338,7 +35338,7 @@
     "candidato": "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
     "nombre": "Beca Educación Superior Santa Maria",
     "institucion": "Municipalidad de Santa Maria",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque28_muni.csv",
@@ -35498,7 +35498,28 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
+      "revisado": "2026-10-20",
+      "alcance": "Línea histórica de ayudas universitarias municipales para estudiantes domiciliados en Santa María, documentada en la ficha DIDECO de 2016; no acredita convocatoria ni vigencia 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_AYUDAS_UNIVERSITARIAS_SANTA_MARIA_2026_10_20.md",
+      "fuentes": [
+        "https://www.santamariatransparente.cl/web/images/stories/Contenido/Tramites/Tramites_SOCIAL2016.pdf"
+      ],
+      "beneficio": "Apoyos universitarios: aporte para matrícula, pasajes a Valparaíso o Santiago, o mensualidad. La ficha indica recepción dos veces al año (primer y segundo semestre), sin distribuir esa frecuencia por tipo de apoyo. Importe no especificado.",
+      "requisitos_principales": "Domicilio en la comuna de Santa María. No se especifican en esta ficha requisitos académicos o de tramo socioeconómico para estas ayudas.",
+      "limites": "La fuente identifica ayudas universitarias municipales, pero no las denomina beca ni publica importes, documentos particulares, condiciones de renovación, fechas exactas o vigencia 2026. No transfiere las reglas de las filas separadas de Beca Municipal de Rinconada ni de la beca de viajes a Valparaíso. No activar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
