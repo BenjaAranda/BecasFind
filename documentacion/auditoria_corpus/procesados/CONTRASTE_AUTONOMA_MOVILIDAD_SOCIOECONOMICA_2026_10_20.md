@@ -10,8 +10,16 @@
 - El [Reglamento de Becas y Créditos 2024](https://www.uautonoma.cl/content/uploads/2024/01/Reglamento-de-Becas-y-Creditos.pdf) regula becas, apoyos y créditos de pregrado, aplicables a estudiantes nuevos desde 2024. El texto consultado no identifica la ficha genérica bajo revisión; el silencio de ese reglamento no prueba que no existiera otro programa o convocatoria.
 - La [página oficial de becas internas](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/) no establece las condiciones de la candidata. No se reutilizan sus condiciones para esta ficha.
 
+## Revisión completa del catálogo vigente — 20 de octubre de 2026
+
+Se volvió a leer el contenido completo de la página institucional para el **periodo académico 2026**. Enumera Matrícula Gratis, Tecnológica, Trayectoria Académica, Deportiva/Liderazgo/Científica, Hermanos Estudiantes Regulares, Regiones, Bachillerato Internacional, PAES y Copago Cero. La página no identifica una «Beca Socioeconómica» con descuento general de 15–40% o requisito RSH 60%.
+
+El Reglamento de Becas y Créditos, Resolución de Rectoría 208/2023, precisa que sus reglas aplican a estudiantes nuevos desde 2024 y que los antiguos conservan los beneficios con que fueron otorgados. Su artículo 8 sí regula apoyos distintos: 15% para estudiantes procedentes de Arica y Parinacota, Tarapacá o Antofagasta; 20% para estudiantes de Magallanes, Aysén y Antártica; 10% para hermanos de estudiantes regulares. No equivalen a la rebaja socioeconómica general del original. La fuente institucional no publica aquí un beneficio general basado en RSH 60%.
+
+**Alcance:** esta comprobación mejora la delimitación del catálogo institucional vigente y contradice que el enlace original describa la beca alegada; no demuestra que nunca haya existido una ayuda separada, histórica o individual de DAE. Se mantiene `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no se transfiere el 15%, 20% o 10% al candidato ni se convierte la ausencia del catálogo en prueba de inexistencia. No repetir la consulta completa del catálogo 2026 ni la lectura del reglamento 2024; solo reabrir si aparece una fuente oficial nueva con la denominación o programa exactos.
+
 ## Decisión
 
-**Sigue `EXCLUSION_HISTORICA_SIN_RATIFICAR`.** El hallazgo de movilidad es positivo para una modalidad distinta y ayuda a evitar una posible confusión de registros; no hay evidencia de que la candidata de arancel sea ese beneficio. No confirmar, descartar ni fusionar. No transferir importe, requisitos, fechas o vigencia. Hace falta una fuente pública institucional que identifique la beca socioeconómica genérica o una evidencia positiva que contradiga su existencia.
+**Sigue `EXCLUSION_HISTORICA_SIN_RATIFICAR`.** El catálogo 2026 y el reglamento acotan el contenido del enlace original y muestran apoyos distintos; no identifican la beca socioeconómica alegada ni demuestran que nunca existió una ayuda separada, histórica o individual de DAE. No confirmar, descartar ni fusionar. No transferir importe, requisitos, fechas o vigencia. Para reabrir se necesita una fuente pública institucional nueva que identifique la candidata o contradiga positivamente su existencia.
 
-Esta revisión no cambia los conteos: 520 confirmaciones esenciales, 2 completas, 12 descartes ratificados y 34 pendientes (25 aclaraciones y 9 exclusiones históricas sin ratificar), según `avance/resumen.json` y la cola vigente.
+Conteo editorial vigente al ampliar este informe: 522 confirmaciones esenciales, 2 completas, 13 descartes ratificados, 9 exclusiones históricas sin ratificar y 31 pendientes (22 aclaraciones y 9 exclusiones). La fuente de verdad es `avance/resumen.json` junto con `pendientes_esenciales_actuales.csv`.
