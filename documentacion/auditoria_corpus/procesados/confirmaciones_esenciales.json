@@ -11380,5 +11380,27 @@
       "fecha_cierre": null,
       "documentos": null
     }
+  },
+  {
+    "candidato": "1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c",
+    "revisado": "2026-10-21",
+    "alcance": "Confirmación esencial de la Beca de Contingencia UBO publicada para la comunidad estudiantil en 2026; corrige la identidad de la ficha genérica original.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_CONTINGENCIA_UBO_2026_10_21.md",
+    "fuentes": [
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dae.ubo.cl/wp-content/uploads/2026/03/Calendario-Academico-2026.pdf"
+    ],
+    "beneficio": "Apoyo financiero para continuar estudios ante dificultad económica extraordinaria o sobreviniente; modalidad e importe no especificados.",
+    "requisitos_principales": "Ser estudiante; solicitar en DAE por formulario electrónico y presentar antecedentes que justifiquen situación económica y/o de salud; evaluación socioeconómica por asistente social y revisión del Comité de Becas y Financiamiento de Aranceles.",
+    "limites": "Se corrige el alias original «Beca Socioeconomica UBO» a la modalidad oficial Beca de Contingencia. El 15–40%, RSH máximo 60%, importe, periodicidad, cupos y lista exhaustiva de documentos no están respaldados y quedan No especificado. El calendario confirma actividad de postulación 2026; no acredita convocatoria abierta ahora ni vigencia posterior a 2026. Registro administrativo inactivo.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
   }
 ]

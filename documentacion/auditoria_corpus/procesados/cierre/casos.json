@@ -10049,9 +10049,9 @@
   },
   {
     "candidato": "1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c",
-    "nombre": "Beca Socioeconomica UBO",
+    "nombre": "Beca de Contingencia UBO",
     "institucion": "Universidad Bernardo O'Higgins",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubo.csv",
@@ -10296,23 +10296,41 @@
         "extractos": [
           "Candidata: `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`\nInstitución atribuida: Universidad Bernardo O’Higgins"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_CONTINGENCIA_UBO_2026_10_21.md",
+        "informe_sha256": "783d80ab322721b121de18eaa9e1d0239c6378d94c00d9d8353c67ae3e7c4fed",
+        "extractos": [
+          "Revisión del 21 de octubre de 2026. Candidata del corpus `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`, originalmente titulada «Beca Socioeconomica UBO». Decisión editorial: **CONFIRMADA_ESENCIAL con identidad corregida** a la modalidad oficial Beca de Contingencia de la Universidad Bernardo O’Higgins. La fila original se conserva sin alteraciones y la ficha administrativa sigue inactiva."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
       "candidato": "1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c",
-      "revisado": "2026-10-06",
-      "motivo": "Contingencia DAE exige dificultad extraordinaria o sobreviniente; no acredita una beca Socioeconómica genérica con RSH universal.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
-      "evidencia": [
-        "CONFIRMACION_ESENCIAL_UBO_UVM_UCSH_14.md"
-      ]
+      "revisado": "2026-10-21",
+      "alcance": "Confirmación esencial de la Beca de Contingencia UBO publicada para la comunidad estudiantil en 2026; corrige la identidad de la ficha genérica original.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_CONTINGENCIA_UBO_2026_10_21.md",
+      "fuentes": [
+        "https://dae.ubo.cl/becas/becas-ubo/",
+        "https://dae.ubo.cl/wp-content/uploads/2026/03/Calendario-Academico-2026.pdf"
+      ],
+      "beneficio": "Apoyo financiero para continuar estudios ante dificultad económica extraordinaria o sobreviniente; modalidad e importe no especificados.",
+      "requisitos_principales": "Ser estudiante; solicitar en DAE por formulario electrónico y presentar antecedentes que justifiquen situación económica y/o de salud; evaluación socioeconómica por asistente social y revisión del Comité de Becas y Financiamiento de Aranceles.",
+      "limites": "Se corrige el alias original «Beca Socioeconomica UBO» a la modalidad oficial Beca de Contingencia. El 15–40%, RSH máximo 60%, importe, periodicidad, cupos y lista exhaustiva de documentos no están respaldados y quedan No especificado. El calendario confirma actividad de postulación 2026; no acredita convocatoria abierta ahora ni vigencia posterior a 2026. Registro administrativo inactivo.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
     }
   },
   {
