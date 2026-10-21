@@ -40095,7 +40095,7 @@
     "candidato": "93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8",
     "nombre": "Beca Municipal Educación Superior Tolten",
     "institucion": "Municipalidad de Tolten",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
@@ -40214,13 +40214,55 @@
         "extractos": [
           "`93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8` — Beca Municipal Educación Superior Toltén.\n\nEl registro original atribuye a la Municipalidad de Toltén un aporte único de $200.000, 120 cupos, RSH de hasta 60%, promedio 5,0 e incompatibilidad con ciertas becas Mineduc. El original enlaza `munitolten.cl`, mientras que el sitio institucional localizado es [tolten.cl](https://tolten.cl/), actualmente en mantención."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_TOLTEN_2026_10_21.md",
+        "informe_sha256": "3669fd13e191aa053f469d30535b01ccbadb3eeea9dee04e3b7562a42cc8e573",
+        "extractos": [
+          "Revisión del 21 de octubre de 2026. Candidata `93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8`, referencia original `bloque34_muni.csv#3`. Decisión: **CONFIRMADA_ESENCIAL**, limitada a convocatorias históricas documentadas por la Municipalidad de Toltén; no acredita vigencia actual."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8",
+      "revisado": "2026-10-21",
+      "alcance": "Identidad, cobertura estudiantil, beneficio y requisitos esenciales de la Beca Municipal histórica de Toltén, acreditada en publicaciones de 2013 y bases de 2020. No acredita convocatoria ni vigencia 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_TOLTEN_2026_10_21.md",
+      "fuentes": [
+        "https://web.archive.org/web/20130627091130id_/http://www.tolten.cl/muni/index.php/noticias/destacados/171-beca-municipal-2013",
+        "https://web.archive.org/web/20200929235222id_/http://www.tolten.cl/web/index.php/noticias/98-becas-municipales",
+        "https://web.archive.org/web/20200929232349id_/http://www.tolten.cl/web/images/becas/REQUISITOS_POSTULACIONES_BECA_MUNICIPAL_AO_2020.pdf"
+      ],
+      "beneficio": "Beca Municipal para estudiantes; importe, moneda, cupos y periodicidad no especificados en las publicaciones oficiales consultadas.",
+      "requisitos_principales": "En 2020: matrícula regular de segundo semestre; promedio mínimo 5,0 para educación superior. Para primera postulación desde enseñanza media, nota mínima 5,5. Certificado RSH y antecedentes económicos. No se publica umbral RSH ni incompatibilidad Mineduc.",
+      "limites": "Alcance histórico 2013 y 2020. Las fechas 2013 y 2020 son de llamados cerrados. Importe, moneda, cupos, periodicidad y vigencia 2026 no especificados. No se confirman los $200.000, 120 cupos, RSH máximo 60%, incompatibilidad Mineduc ni fechas 2026 del original. Mantener inactiva; no inferir desaparición posterior.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Beca Municipal de Toltén (convocatorias históricas 2013 y 2020)",
+        "tipo_beneficio": "DESCONOCIDA",
+        "monto": "No especificado",
+        "moneda": null,
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null
+      }
+    }
   },
   {
     "candidato": "dcb38cf7abb28bdff77f140c73299962ea5a8424bd50440c766c69f769804bb0",
