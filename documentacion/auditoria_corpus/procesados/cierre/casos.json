@@ -22389,7 +22389,7 @@
     "candidato": "8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216",
     "nombre": "Beca Municipal Educación Superior Puerto Montt",
     "institucion": "Municipalidad de Puerto Montt",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -22598,7 +22598,19 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
+      "candidato": "8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216",
+      "revisado": "2026-10-20",
+      "motivo": "Duplicado positivo en el corpus de la misma ficha genérica que ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212: coinciden institución, categoría de mantención DIDECO, monto alegado, fechas 2026, RSH 60%, NEM 5,0, región X y URL municipal; las diferencias de redacción y listas documentales no identifican otra modalidad o convocatoria. La existencia y las condiciones oficiales de la ficha genérica continúan sin confirmar.",
+      "alcance": "Se excluye solo la identidad documental redundante. Se preservan todas las filas y archivos originales. La candidata canónica ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212 permanece pendiente. La deduplicación no afirma que el programa exista o no exista.",
+      "informe": "CONTRASTE_PROGRAMAS_PUERTO_MONTT_2026_10_20.md",
+      "evidencia": [
+        "CONTRASTE_PROGRAMAS_PUERTO_MONTT_2026_10_20.md"
+      ],
+      "criterio": "DUPLICADO_IDENTIDAD",
+      "duplicado_de": "ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212"
+    }
   },
   {
     "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
