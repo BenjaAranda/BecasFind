@@ -4,7 +4,7 @@ Actualizado el 20 de octubre de 2026. Este es el único listado de trabajo. El c
 
 ## Prioridad actual: P04, confirmación de becas
 
-Estado reproducible al 20/10: **568 candidatas; 520 confirmaciones esenciales; 2 completas; 12 descartes ratificados; 34 pendientes**. Las pendientes incluyen 25 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única y `avance/resumen.json` son la fuente de los conteos; este texto se actualiza junto con ellos. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. Entre los cierres del 20/10 están UdeC, Timaukel y Cochamó; sus límites se detallan en `tasks/contexto.md`.
+Estado reproducible al 20/10: **568 candidatas; 520 confirmaciones esenciales; 2 completas; 12 descartes ratificados; 34 pendientes**. Las pendientes incluyen 25 aclaraciones y 9 exclusiones históricas sin ratificar. La cola única y `avance/resumen.json` son la fuente de los conteos; este texto se actualiza junto con ellos. Las cifras de 132, 157 o 291 pertenecen a cortes anteriores. Entre los cierres recientes están UdeC, Timaukel y Cochamó; sus límites se detallan en `tasks/contexto.md`. Contrastes nuevos de UA y El Monte mantuvieron sus fichas abiertas por falta de fuente específica, según sus informes individuales.
 
 - [ ] Resolver las [34 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
 - [ ] Registrar campos publicados; conservar «No especificado» cuando el expediente oficial no los publique. La identidad del programa sí requiere evidencia positiva.
