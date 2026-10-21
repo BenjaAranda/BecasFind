@@ -1,6 +1,7 @@
 # Contraste público: Becas de Mantención de Estación Central
 
-Fecha: 21 de octubre de 2026  
+Fecha: 21 de octubre de 2026
+
 Candidata mantenida pendiente: `c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a` — «Beca Municipal para Estudiantes de Educación Superior».
 
 ## Evidencia oficial consultada
