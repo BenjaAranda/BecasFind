@@ -40112,6 +40112,13 @@
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
         ]
+      },
+      {
+        "informe": "CONTRASTE_TOLTEN_TEODORO_SCHMIDT_2026_10_20.md",
+        "informe_sha256": "1c7dc0a2742fdd5d345f10780771042bbf7f6f7670b57119d23ec11d1782c3e8",
+        "extractos": [
+          "`93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8` — Beca Municipal Educación Superior Toltén.\n\nEl registro original atribuye a la Municipalidad de Toltén un aporte único de $200.000, 120 cupos, RSH de hasta 60%, promedio 5,0 e incompatibilidad con ciertas becas Mineduc. El original enlaza `munitolten.cl`, mientras que el sitio institucional localizado es [tolten.cl](https://tolten.cl/), actualmente en mantención."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -46372,6 +46379,14 @@
         "informe_sha256": "1cce4289720254110e613a5982eabc1cc8b04ebbd360155e954ad9197003e1cf",
         "extractos": [
           "### Talca — `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`\n\nLa Cuenta Pública municipal 2024 identifica las becas coordinadas por DAEM como beneficios JUNAEB y distingue Beca Presidente de la República y Beca Indígena, incluidas cifras de educación superior. No acredita la beca municipal general descrita en la ficha. La fuente de 2014 también trata programas estatales y residencia estudiantil, no la identidad exacta de la candidata. Se mantiene abierta.\n\nFuentes: [Cuenta Pública 2024](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), [Cuenta Pública 2014](https://www.talcatransparente.cl/documentos/doc_download/5902-)."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PADEM_TALCA_2020_2026_10_20.md",
+        "informe_sha256": "838d080f07808e1d63450d459aa1bc90d743d7777171262032b8f1a025566a15",
+        "extractos": [
+          "**Consulta:** 20 de octubre de 2026. **Candidata:** `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` — «Beca Municipal Educación Superior Talca».",
+          "**Candidata:** `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` — Beca Municipal Educación Superior Talca.\n\n**Consulta y lectura:** 20 de octubre de 2026. Se descargó la [Cuenta Pública de Gestión 2025](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2025.pdf), documento oficial de 299 páginas (SHA-256 `53D74613B82F003FC1CBBFB28E4B46F48001911C412EE518D65CC9FCFC275F9A`). Se revisó el apartado del Subdepartamento Social del Departamento de Administración de Educación Municipal (páginas impresas 108–111; PDF páginas 109–112).\n\nLa tabla 74 enumera Beca Presidente de la República, Beca Indígena y Becas TIC, con sus niveles, coberturas y financiamiento. Las páginas siguientes identifican el Programa de Residencia Familiar y otros apoyos del DAEM. El apartado leído acredita esas líneas de apoyo socioeducativo DAEM; no nombra la beca general DIDECO de la candidata ni publica sus condiciones. Tampoco demuestra que no exista una línea separada de DIDECO. No trasladar becas ni requisitos de DAEM a esta ficha. Mantener `REQUIERE_ACLARACION` hasta localizar un acto, bases o ficha específica de DIDECO."
         ]
       }
     ],

@@ -19,3 +19,12 @@ El original atribuye a DIDECO una beca genérica de mantención, monto variable 
 ## Decisión
 
 Mantener la candidata abierta. El PADEM no prueba que la ficha sea una de estas becas JUNAEB ni demuestra que no exista una ayuda DIDECO separada. No reemplazar sus requisitos ni descartarla por omisión. Para resolverla hace falta el decreto, las bases o una ficha oficial de DIDECO que identifique la modalidad genérica atribuida al registro. La lectura de estas páginas no se presenta como revisión visual de las 114 páginas completas.
+
+
+## Contraste posterior: Cuenta Pública de Gestión 2025
+
+**Candidata:** `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759` — Beca Municipal Educación Superior Talca.
+
+**Consulta y lectura:** 20 de octubre de 2026. Se descargó la [Cuenta Pública de Gestión 2025](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2025.pdf), documento oficial de 299 páginas (SHA-256 `53D74613B82F003FC1CBBFB28E4B46F48001911C412EE518D65CC9FCFC275F9A`). Se revisó el apartado del Subdepartamento Social del Departamento de Administración de Educación Municipal (páginas impresas 108–111; PDF páginas 109–112).
+
+La tabla 74 enumera Beca Presidente de la República, Beca Indígena y Becas TIC, con sus niveles, coberturas y financiamiento. Las páginas siguientes identifican el Programa de Residencia Familiar y otros apoyos del DAEM. El apartado leído acredita esas líneas de apoyo socioeducativo DAEM; no nombra la beca general DIDECO de la candidata ni publica sus condiciones. Tampoco demuestra que no exista una línea separada de DIDECO. No trasladar becas ni requisitos de DAEM a esta ficha. Mantener `REQUIERE_ACLARACION` hasta localizar un acto, bases o ficha específica de DIDECO.
