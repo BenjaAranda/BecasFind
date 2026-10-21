@@ -17,3 +17,7 @@
 **Se mantiene `REQUIERE_ACLARACION`.** La ordenanza prueba la existencia histórica de dos programas municipales, pero la candidata no identifica si alude a la Beca Académica, a la Beca Continuidad de Estudios o a una convocatoria posterior. La página municipal vigente prueba orientación/postulación, no otorgamiento. No se encontró evidencia pública oficial que vincule la cifra de $150.000, RSH 60% o NEM 5,0 con alguno de esos programas. Tampoco hay base para descartar la candidata, declarar duplicidad o inferir que dejó de existir.
 
 La pieza decisiva para cerrar la identidad sería el texto de los artículos/bases de la Ordenanza 10 o una convocatoria/acto municipal que enlace explícitamente una de esas modalidades con la ficha. No se contactó a la institución. Confirmación histórica y vigencia publicable permanecen separadas.
+
+## Recuperación adicional del documento en BCN
+
+Se consultó directamente el servicio público de LeyChile para la norma `176953` (`https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=176953`). La respuesta oficial contiene únicamente el extracto reproducido arriba y metadatos de la Ordenanza 10/1999; no entrega los artículos de categorías, montos, evaluación ni postulación. La descarga PDF de LeyChile no fue accesible durante esta revisión. Este hallazgo confirma el límite de la ficha digital consultada, pero no demuestra que los artículos o una convocatoria posterior no existan; por ello no cambia el estado `REQUIERE_ACLARACION` ni ratifica o contradice monto, RSH o NEM de la candidata.
