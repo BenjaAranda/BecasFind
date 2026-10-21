@@ -1,6 +1,6 @@
 # Contexto operativo de BecasFind
 
-Actualizado el 20 de octubre de 2026. Leer `AGENTS.md`, este archivo, `PLAN_MEJORAS.md` y el estado de Git al retomar. Para revisar becas, seguir `tasks/plan.md` y cargar únicamente los informes de los hashes en curso.
+Actualizado el 21 de octubre de 2026. Leer `AGENTS.md`, este archivo, `PLAN_MEJORAS.md` y el estado de Git al retomar. Para revisar becas, seguir `tasks/plan.md` y cargar únicamente los informes de los hashes en curso.
 
 ## Estado editorial
 
@@ -21,6 +21,7 @@ Antes de investigar cada candidata: leer su hash, carencia e informe pertinente 
 
 ## Pistas focalizadas vigentes
 
+- **Tierra Amarilla** (`06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488`): la Municipalidad publicó becas deportivas 2025 (30 cupos y aporte mensual por categoría), modalidad distinta de la beca general de mantención superior alegada; no prueba ni refuta otra línea académica. **Concepción** (`f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`): el Acta 060-2010 registra una beca de matrícula superior para socios funcionarios del Servicio de Bienestar, distinta de la ayuda DIDECO a vecinos alegada. **Lo Espejo** (`110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8`): noticia municipal de 2022 confirma Becas SUBDERE para funcionarios; no acredita la ayuda DIDECO postulada. Las tres siguen abiertas; fuentes y límites en `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`.
 - **Romeral** (`5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b`): la Cuenta Pública 2023, p. 88, registra que el Concejo aprobó «Programas estudiantiles» y una «Ordenanza apoyo estudiantil» el 09/02/2023. No publica el texto, nivel, población, tipo de ayuda ni reglas; no demuestra que sea la beca superior de la candidata. El índice de actas disponible lista sesiones 2024–2026. Mantener abierta y no repetir las búsquedas ya anotadas. Informe: `CONTRASTE_ORDENANZA_APOYO_ESTUDIANTIL_ROMERAL_2026_10_20.md`.
 - **ENAC**: el anexo 52 del Reglamento de Becas no se recuperó; no inferir inexistencia. El CSV original tiene una fila mezclada por comas sin escapar; `originales.jsonl` registra `COLUMNAS_AUSENTES` en Vocación. No usar esa fila como evidencia. Informes: `ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md` y `CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md`.
 - **Timaukel**: confirmada solo la línea histórica de mantención anunciada en 2020; no se confirmó nivel superior, monto, requisitos ni vigencia actual. Informe: `CONFIRMACION_ESENCIAL_TIMAUKEL_2026_10_20.md`.
