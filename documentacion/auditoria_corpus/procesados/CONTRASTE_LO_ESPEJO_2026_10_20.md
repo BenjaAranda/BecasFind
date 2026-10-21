@@ -19,6 +19,12 @@
 
 La pieza decisiva para cerrar la identidad sería el texto de los artículos/bases de la Ordenanza 10 o una convocatoria/acto municipal que enlace explícitamente una de esas modalidades con la ficha. No se contactó a la institución. Confirmación histórica y vigencia publicable permanecen separadas.
 
+## Contraste de la Cuenta Pública municipal 2019
+
+La [Cuenta Pública 2019, enlazada desde la página municipal de documentos](https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/CUENTA%2BPUBLICA%2B2019_compressed.pdf/5e19b20d-53e8-447b-965a-a8ab627ac1d1), fue descargada y revisada en sus 163 páginas. En el apartado de Desarrollo Social, p. impresa 28, señala que el municipio solo asesora por demanda espontánea en el trámite en línea de la Beca Presidente de la República, un programa estatal. En otras secciones menciona que la Oficina de la Juventud informa sobre becas, y la atención indígena orienta sobre postulaciones; ninguna identifica una beca municipal de educación superior ni publica el monto, RSH o NEM de esta candidata. Esta fuente histórica ayuda a distinguir orientación municipal de financiamiento propio, pero no prueba que una convocatoria municipal posterior no exista.
+
+El documento oficial no resuelve la identidad de la ficha de 2026. Se conserva `REQUIERE_ACLARACION`; esta lectura no ratifica ni contradice sus cifras y no cambia la vigencia.
+
 ## Recuperación adicional del documento en BCN
 
 Se consultó directamente el servicio público de LeyChile para la norma `176953` (`https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=176953`). La respuesta oficial contiene únicamente el extracto reproducido arriba y metadatos de la Ordenanza 10/1999; no entrega los artículos de categorías, montos, evaluación ni postulación. La descarga PDF de LeyChile no fue accesible durante esta revisión. Este hallazgo confirma el límite de la ficha digital consultada, pero no demuestra que los artículos o una convocatoria posterior no existan; por ello no cambia el estado `REQUIERE_ACLARACION` ni ratifica o contradice monto, RSH o NEM de la candidata.
