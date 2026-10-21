@@ -10290,7 +10290,7 @@
       "3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367"
     ],
     "nombre_de_referencia": "Beca Municipal Estudiantil Putre (Educación Superior)",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
@@ -10299,12 +10299,14 @@
         "institucion_original": "Municipalidad de Putre"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "La cuenta pública Putre 2019 describe gestión y subvenciones; falta identificar las bases del beneficio estudiantil original.",
-    "fuentes_verificadas_del_expediente": [],
-    "informe_esencial": null,
+    "alcance_verificado": "Línea histórica municipal de becas monetarias de estudio gestionadas por DIDECO; Cuenta Pública 2011.",
+    "beneficio_verificado": "Beca monetaria de estudio; importe, moneda y periodicidad no especificados.",
+    "requisitos_principales_verificados": "DIDECO preparaba informes sociales para postular; criterios de adjudicación no especificados.",
+    "limites": "La fuente no vincula esta línea con el nombre exacto de la candidata ni acredita educación superior, $250.000 anuales, RSH 70%, NEM 5, traslado/arriendo o convocatoria 2026. No confundir con Beca de Residencia Familiar para estudios en Putre ni con beneficios JUNAEB. Vigencia actual no evaluada.",
+    "fuentes_verificadas_del_expediente": [
+      "https://imputre.cl/transparencia/archivos_muni/CUENTA%20PUBLICA%202011.pdf"
+    ],
+    "informe_esencial": "CONFIRMACION_ESENCIAL_BECAS_ESTUDIO_PUTRE_2026_10_20.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
     "accion_administrativa": "NINGUNA"
   },

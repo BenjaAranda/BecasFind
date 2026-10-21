@@ -33191,7 +33191,7 @@
     "candidato": "3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367",
     "nombre": "Beca Municipal Estudiantil Putre (Educación Superior)",
     "institucion": "Municipalidad de Putre",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
@@ -33331,7 +33331,28 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367",
+      "revisado": "2026-10-20",
+      "alcance": "Línea histórica municipal de becas monetarias de estudio gestionadas por DIDECO, documentada en 2011; no acredita nivel superior ni convocatoria actual.",
+      "informe": "CONFIRMACION_ESENCIAL_BECAS_ESTUDIO_PUTRE_2026_10_20.md",
+      "fuentes": [
+        "https://imputre.cl/transparencia/archivos_muni/CUENTA%20PUBLICA%202011.pdf"
+      ],
+      "beneficio": "Beca municipal monetaria de estudio. Importe, moneda y periodicidad no especificados.",
+      "requisitos_principales": "La cuenta pública indica que DIDECO preparaba informes sociales para postular; no publica criterios de adjudicación.",
+      "limites": "No confirma la denominación exacta de la ficha, educación superior, $250.000 anuales, RSH 70%, NEM 5, traslado/arriendo, documentos ni convocatoria 2026. La beca de residencia familiar para estudios en Putre y los beneficios JUNAEB son líneas distintas. Registro inactivo; no publicar como vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
