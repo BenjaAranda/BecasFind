@@ -10249,6 +10249,13 @@
         "extractos": [
           "| UBO Socioeconómica `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c` | Revisión oficial adicional 20/10/2026 de la [página vigente DAE Becas UBO](https://dae.ubo.cl/becas/becas-ubo/): identifica Contingencia (dificultad económica extraordinaria o sobreviniente; evaluación socioeconómica y apoyo financiero para continuar estudios) y Alimentación. No presenta una beca general llamada Socioeconómica ni acredita el 15–40%, RSH 60% o renovación anual del original. La ficha archivada en 2024 ya diferenciaba esas modalidades. | La página oficial confirma programas socioeconómicos distintos, pero no identifica esta candidata con ninguno. Mantener `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no transferir los requisitos de Contingencia. Para cerrar, falta una fuente pública específica que vincule el título/atributos originales a una modalidad histórica. |"
         ]
+      },
+      {
+        "informe": "RECONTRASTE_PUBLICO_UBO_SOCIOECONOMICA_2026_10_20.md",
+        "informe_sha256": "99a570735aea0005f4eda0df0c948958e8d3f69b8b732f1905a6bc54b1e4b3f8",
+        "extractos": [
+          "Candidata: `1f5b64abcd3fbfbdb0f07a9c4b8f3e27c33931d3c570c7cb6b9a3ccc0d48d97c`  \nInstitución atribuida: Universidad Bernardo O’Higgins"
+        ]
       }
     ],
     "grupo_variantes": false,
