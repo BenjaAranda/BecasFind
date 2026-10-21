@@ -12486,7 +12486,7 @@
     "candidato": "5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578",
     "nombre": "Beca Intercultural UCT",
     "institucion": "Universidad Católica de Temuco",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uct.csv",
@@ -12751,15 +12751,16 @@
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "5f17b62ec6ecb905ceed2b7e3271a2974e374ec3b003fbcd3816c06fac6b7578",
-      "revisado": "2026-10-06",
-      "motivo": "La información de beneficios indígenas externos no acredita una beca interna Intercultural de arancel.",
-      "criterio": "PROGRAMA_DISTINTO",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "revisado": "2026-10-21",
+      "motivo": "Los catálogos oficiales UCT de Admisión 2026 y Beneficios Internos 2026 contradicen la oferta de descuento interno Intercultural de 20% descrita para esa convocatoria.",
+      "criterio": "CONTRADICCION_OFICIAL_OFERTA_2026",
+      "alcance": "Exclusión editorial limitada a la oferta UCT descrita para 2026. No afirma inexistencia en otros años ni descarta otras ayudas indígenas o JUNAEB. Original, referencias y registro administrativo inactivo conservados.",
+      "informe": "RATIFICACION_DESCARTE_BECA_INTERCULTURAL_UCT_2026_10_21.md",
       "evidencia": [
+        "RATIFICACION_DESCARTE_BECA_INTERCULTURAL_UCT_2026_10_21.md",
         "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md"
       ]
     }
