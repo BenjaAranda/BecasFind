@@ -3195,7 +3195,24 @@
       "fecha_inicio",
       "monto"
     ],
-    "conciliacion": null,
+    "conciliacion": {
+      "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+      "revisado": "2026-10-20",
+      "decision_identidad": "Las cuatro referencias identifican la misma beca municipal para educación superior. Una publicación oficial municipal confirma su creación en el presupuesto 2025; la Beca Talentos Deportivos es otra modalidad.",
+      "informe": "CONCILIACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2026_10_20.md",
+      "fuentes": [
+        "https://www.villalemana.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/",
+        "https://becasdeportivas.villalemana.cl/"
+      ],
+      "campos": {
+        "descripcion": "Mantener solo que es beca municipal para estudiantes de educación superior; finalidad más precisa no especificada.",
+        "descripcion_larga": "Finalidad específica y modalidad de pago no especificadas; no promover texto histórico a dato confirmado.",
+        "documentos_requeridos": "No especificados por la fuente oficial consultada; listas históricas no corroboradas.",
+        "fecha_cierre": "No especificada; fechas históricas discrepantes, sin convocatoria confirmada.",
+        "fecha_inicio": "No especificada para una convocatoria.",
+        "monto": "No especificado; valores históricos discrepantes y una fila truncada."
+      }
+    },
     "descarte": null
   },
   {

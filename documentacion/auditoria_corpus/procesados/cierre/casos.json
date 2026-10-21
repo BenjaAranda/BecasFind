@@ -594,9 +594,9 @@
       }
     ],
     "grupo_variantes": true,
-    "estado_variantes": "PENDIENTE_CONCILIACION",
+    "estado_variantes": "CONCILIADO",
     "campos_historicos_distintos": "descripcion; descripcion_larga; documentos_requeridos; fecha_cierre; fecha_inicio; monto",
-    "informe_conciliacion": "",
+    "informe_conciliacion": "variantes/CONCILIACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2026_10_20.md",
     "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
     "confirmacion_esencial": {
       "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",

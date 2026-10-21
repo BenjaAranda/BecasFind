@@ -4,7 +4,9 @@
     "revisado": "2026-10-12",
     "decision_identidad": "Las cuatro referencias originales identifican la misma beca municipal de educación superior de Quilpué; sus nombres e institución coinciden. La ficha consultada de Beca Escolar La Florida no guarda relación y no se usa como prueba.",
     "informe": "CONCILIACION_MUNICIPAL_QUILPUE_EVIDENCIA_INSUFICIENTE_2026_10_12.md",
-    "fuentes": ["https://www.quilpue.cl/"],
+    "fuentes": [
+      "https://www.quilpue.cl/"
+    ],
     "campos": {
       "descripcion": "Las cuatro referencias atribuyen un aporte municipal a educación superior; la finalidad y cobertura exactas no están confirmadas por fuente oficial específica.",
       "descripcion_larga": "Identidad editorial reconciliada como una candidata con cuatro referencias históricas. Se conservan como desconocidos el monto anual (las filas difieren entre $80.000 y $250.000 y cifras truncadas), RSH, NEM, documentos y calendario. El único enlace municipal aportado es la página raíz y no identifica bases de esta beca.",
@@ -730,6 +732,24 @@
       "documentos_requeridos": "Desconocidos; la página oficial consultada no publica lista documental específica.",
       "institucion": "Universidad Adolfo Ibáñez",
       "regiones": "Establecimientos fuera de RM y Valparaíso; excepción de ubicación para Isla de Pascua y Juan Fernández."
+    }
+  },
+  {
+    "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+    "revisado": "2026-10-20",
+    "decision_identidad": "Las cuatro referencias identifican la misma beca municipal para educación superior. Una publicación oficial municipal confirma su creación en el presupuesto 2025; la Beca Talentos Deportivos es otra modalidad.",
+    "informe": "CONCILIACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2026_10_20.md",
+    "fuentes": [
+      "https://www.villalemana.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/",
+      "https://becasdeportivas.villalemana.cl/"
+    ],
+    "campos": {
+      "descripcion": "Mantener solo que es beca municipal para estudiantes de educación superior; finalidad más precisa no especificada.",
+      "descripcion_larga": "Finalidad específica y modalidad de pago no especificadas; no promover texto histórico a dato confirmado.",
+      "documentos_requeridos": "No especificados por la fuente oficial consultada; listas históricas no corroboradas.",
+      "fecha_cierre": "No especificada; fechas históricas discrepantes, sin convocatoria confirmada.",
+      "fecha_inicio": "No especificada para una convocatoria.",
+      "monto": "No especificado; valores históricos discrepantes y una fila truncada."
     }
   }
 ]
