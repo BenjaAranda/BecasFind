@@ -6,9 +6,9 @@ Actualizado el 20 de octubre de 2026. Leer `AGENTS.md`, este archivo, `PLAN_MEJO
 
 - Repositorio: `BenjaAranda/BecasFind`; rama habitual `bugfix/security-and-recovery` (comprobarla al retomar).
 - Corpus: 93 archivos originales, 647 referencias y 568 candidatas únicas.
-- Conteo vigente: **522 confirmadas esenciales, 2 completas, 13 descartes ratificados y 31 pendientes** (22 aclaraciones y 9 exclusiones históricas sin ratificar).
+- Conteo vigente: **522 confirmadas esenciales, 2 completas, 14 descartes ratificados y 30 pendientes** (21 aclaraciones y 9 exclusiones históricas sin ratificar).
 - Fuentes de verdad para conteos: `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`. No usar cifras antiguas de 132, 157 o 291.
-- El avance editorial actual confirma la línea histórica municipal de becas monetarias de estudio de Putre, con campos no acreditados conservados como desconocidos. El elemento no rastreado `BecasFind - ET.docx` es un documento personal y no se debe modificar ni borrar.
+- El 20 de octubre se excluyó la ficha Iquique `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` como copia documental de `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`; se preservan ambos originales y la ficha canónica permanece pendiente. Véase `REVISION_DUPLICADO_IQUIQUE_2026_10_20.md`. El avance editorial actual confirma la línea histórica municipal de becas monetarias de estudio de Putre, con campos no acreditados conservados como desconocidos. El elemento no rastreado `BecasFind - ET.docx` es un documento personal y no se debe modificar ni borrar.
 
 ## Alcance y reglas de revisión
 

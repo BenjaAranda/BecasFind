@@ -22628,7 +22628,7 @@
     "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
     "nombre": "Beca Municipal de Educación Superior Iquique",
     "institucion": "Municipalidad de Iquique",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
@@ -22832,13 +22832,33 @@
         "extractos": [
           "| Iquique `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` y `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` | La noticia institucional del 3 de julio de 2018, recuperada en archivo, anuncia dos becas completas financiadas por Nanning para estudiar allí. Es un destino y otorgante identificados; no demuestra las ayudas generales DIDECO de los originales. | No asignar a las dos fichas la cobertura de Nanning ni fusionarlas por ciudad. |"
         ]
+      },
+      {
+        "informe": "REVISION_DUPLICADO_IQUIQUE_2026_10_20.md",
+        "informe_sha256": "e96717b8ac72b18389ad7bf0ac4742ca4f1a36e609618194d8d1726407faa75e",
+        "extractos": [
+          "- Copia excluida del inventario de candidatas: `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`, “Beca Municipal de Educación Superior Iquique”, archivo original `bloque12_muni.csv`, registro 7.",
+          "Se excluye únicamente `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` como duplicado de identidad documental de `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`. La ficha canónica permanece `REQUIERE_ACLARACION`: la identidad de la convocatoria oficial, el monto, sus requisitos y el cierre no quedan confirmados. No se fusionan ni corrigen valores originales y no se afirma que la beca sea falsa o inexistente."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
+      "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
+      "revisado": "2026-10-20",
+      "motivo": "Duplicado positivo de identidad documental de b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf: coinciden institución, programa DIDECO, aporte monetario anual, nivel (universidades/CFT/IP), RSH 60%, NEM 5,0, región I, fecha de inicio 01/03/2026 y descripción del beneficio. La diferencia de cierre y un documento no identifican otra modalidad o convocatoria.",
+      "alcance": "Se excluye únicamente la identidad documental repetida 1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a. Se preservan ambos originales y todas sus filas. La candidata canónica b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf permanece pendiente de fuente oficial específica; esta deduplicación no afirma existencia o inexistencia del programa ni valida sus campos.",
+      "informe": "REVISION_DUPLICADO_IQUIQUE_2026_10_20.md",
+      "evidencia": [
+        "REVISION_DUPLICADO_IQUIQUE_2026_10_20.md"
+      ],
+      "criterio": "DUPLICADO_IDENTIDAD",
+      "duplicado_de": "b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf"
+    }
   },
   {
     "candidato": "134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452",
@@ -43760,6 +43780,14 @@
         "informe_sha256": "68dd01f2c19ca3e01536fba9a0a87f0d4bc65ea739be7b7d5f86f84fbf4dfe4f",
         "extractos": [
           "| Iquique `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` y `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` | La noticia institucional del 3 de julio de 2018, recuperada en archivo, anuncia dos becas completas financiadas por Nanning para estudiar allí. Es un destino y otorgante identificados; no demuestra las ayudas generales DIDECO de los originales. | No asignar a las dos fichas la cobertura de Nanning ni fusionarlas por ciudad. |"
+        ]
+      },
+      {
+        "informe": "REVISION_DUPLICADO_IQUIQUE_2026_10_20.md",
+        "informe_sha256": "e96717b8ac72b18389ad7bf0ac4742ca4f1a36e609618194d8d1726407faa75e",
+        "extractos": [
+          "- Canónico conservado: `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`, “Beca Municipal de Educación Superior”, archivo original `bloque5_muni.csv`, registro 2.\n- Copia excluida del inventario de candidatas: `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`, “Beca Municipal de Educación Superior Iquique”, archivo original `bloque12_muni.csv`, registro 7.",
+          "Se excluye únicamente `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a` como duplicado de identidad documental de `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`. La ficha canónica permanece `REQUIERE_ACLARACION`: la identidad de la convocatoria oficial, el monto, sus requisitos y el cierre no quedan confirmados. No se fusionan ni corrigen valores originales y no se afirma que la beca sea falsa o inexistente."
         ]
       }
     ],
