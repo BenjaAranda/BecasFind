@@ -1,6 +1,6 @@
 archivo,registros,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,descartadas,exclusiones_historicas_sin_ratificar,pendientes_confirmacion
-auditoria_municipal.csv,16,16,3,0,0,11,2,0,3
-auditoria_municipal_fix.csv,16,16,3,0,0,11,2,0,3
+auditoria_municipal.csv,16,16,2,0,0,12,2,0,2
+auditoria_municipal_fix.csv,16,16,2,0,0,12,2,0,2
 beca_uai_fix.csv,1,1,0,0,0,1,0,0,0
 becas_aiep.csv,5,5,0,0,0,5,0,0,0
 becas_cftenac.csv,6,6,0,0,0,2,0,4,4
@@ -13,7 +13,7 @@ becas_munialgarrobo.csv,2,2,0,0,0,1,1,0,0
 becas_munilaserena.csv,2,2,0,0,0,2,0,0,0
 becas_munistgo.csv,2,2,0,0,0,1,1,0,0
 becas_munivalpo.csv,2,2,2,0,0,0,0,0,2
-becas_munivina.csv,2,2,1,0,0,1,0,0,1
+becas_munivina.csv,2,2,0,0,0,2,0,0,0
 becas_puc.csv,3,3,0,0,0,3,0,0,0
 becas_pucv.csv,5,5,0,0,0,5,0,0,0
 becas_santotomas.csv,6,6,0,0,0,6,0,0,0

@@ -740,7 +740,7 @@
       },
       {
         "informe": "CONTRASTE_VINA_CUENTAS_Y_AYUDAS_SOCIALES_2026_10_13.md",
-        "informe_sha256": "26e9b5fe3faa1fb666c54a865c9279e5cd3fc63737b073ccf22fefd66548eff8",
+        "informe_sha256": "f6c5ccd603ff98c7d3100c4bb491c9767d3a887053076c58c217eefd01b299b4",
         "extractos": [
           "- `cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d` — Beca Municipal de Educación Superior Viña del Mar.\n- `fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac` — Beca de Educación Superior Viña del Mar."
         ]
@@ -778,7 +778,7 @@
     "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
     "nombre": "Beca de Pasajes Viña del Mar",
     "institucion": "Municipalidad de Viña del Mar",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
@@ -887,7 +887,7 @@
       },
       {
         "informe": "CONTRASTE_VINA_CUENTAS_Y_AYUDAS_SOCIALES_2026_10_13.md",
-        "informe_sha256": "26e9b5fe3faa1fb666c54a865c9279e5cd3fc63737b073ccf22fefd66548eff8",
+        "informe_sha256": "f6c5ccd603ff98c7d3100c4bb491c9767d3a887053076c58c217eefd01b299b4",
         "extractos": [
           "**Decisión para `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`:** mantener `REQUIERE_ACLARACION`. No trasladar a la ficha la ayuda social general ni el caso singular de 2012. Siguen sin fuente específica el nombre de un programa de transporte para educación superior, su periodicidad, importe, población y criterios académicos o socioeconómicos.\n\nFuentes nuevas:\n\n- [Decreto Alcaldicio N.º 5852 — procedimiento de ayudas sociales](https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf)\n- [Registro municipal de apoyo a una estudiante que viajó a Beijing](https://www.munivina.cl/noticias/alcaldesa-virginia-reginato-felicito-a-alumna-que-viaja-a-beijing-para-participar-en-campamento-de-estudios/)"
         ]
@@ -1011,13 +1011,53 @@
         "extractos": [
           "### Viña del Mar — `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`\n\nLa Cuenta Pública municipal 2023 informa una “Beca Educación Superior” con 279 estudiantes y $16.740.000 de gasto total. El reporte no desglosa modalidad, elegibilidad ni monto por persona y no identifica un subsidio de pasajes. La noticia municipal de la Beca Deportiva 2026 financia viajes a competencias y es otra modalidad. No se atribuyen esos requisitos o importes a la candidata de pasajes.\n\nFuentes: [Cuenta Pública municipal 2023](https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf), [Beca Deportiva 2026](https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/)."
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_AYUDA_SOCIAL_PASAJES_VINA_2026_10_21.md",
+        "informe_sha256": "b247c8ad767c4ff57f7c5695a3686901ac5d22b949802014fbf190e143c62e36",
+        "extractos": [
+          "Fecha de revisión: 21 de octubre de 2026. Candidata `b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8`, registrada originalmente como «Beca de Pasajes Viña del Mar»."
+        ]
       }
     ],
     "grupo_variantes": true,
     "estado_variantes": "PENDIENTE_CONCILIACION",
     "campos_historicos_distintos": "descripcion_larga; documentos_requeridos; fecha_cierre; institucion; monto; nem_minimo",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+      "revisado": "2026-10-21",
+      "alcance": "Identidad y beneficio esencial histórico de ayuda social municipal para pago de pasajes en Viña del Mar; corrige la clasificación original de beca estudiantil. No acredita disponibilidad en 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_AYUDA_SOCIAL_PASAJES_VINA_2026_10_21.md",
+      "fuentes": [
+        "https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf"
+      ],
+      "beneficio": "Ayuda social para pagar pasajes, asignada tras evaluación del caso social; cuantía individual y modalidad exacta no especificadas.",
+      "requisitos_principales": "Informe social que acredite indigencia o necesidad manifiesta y residencia en Viña del Mar. Se admite a personas de tránsito por causa justificada; el RSH se considera preferible, no obligatorio.",
+      "limites": "No especificados por la fuente: destino de estudios, educación superior, monto individual, periodicidad, RSH máximo, NEM, cupos, calendario de postulación y convocatoria 2026. La fuente identifica ayuda social para pasajes, no una beca exclusiva para estudiantes.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      },
+      "correccion_editorial": {
+        "nombre": "Ayuda social municipal para pago de pasajes (Viña del Mar)",
+        "tipo_beneficio": "DESCONOCIDA",
+        "monto": "Pago de pasajes según evaluación social; cuantía individual no especificada",
+        "moneda": null,
+        "periodicidad": "DESCONOCIDA",
+        "rsh_maximo": null,
+        "nem_minimo": null,
+        "fecha_inicio": null,
+        "fecha_cierre": null,
+        "documentos": null
+      }
+    }
   },
   {
     "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
@@ -46970,7 +47010,7 @@
       },
       {
         "informe": "CONTRASTE_VINA_CUENTAS_Y_AYUDAS_SOCIALES_2026_10_13.md",
-        "informe_sha256": "26e9b5fe3faa1fb666c54a865c9279e5cd3fc63737b073ccf22fefd66548eff8",
+        "informe_sha256": "f6c5ccd603ff98c7d3100c4bb491c9767d3a887053076c58c217eefd01b299b4",
         "extractos": [
           "- `fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac` — Beca de Educación Superior Viña del Mar."
         ]

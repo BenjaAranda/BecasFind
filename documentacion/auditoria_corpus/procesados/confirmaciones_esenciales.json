@@ -11312,5 +11312,38 @@
       "cobertura": true,
       "requisitos_principales": true
     }
+  },
+  {
+    "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+    "revisado": "2026-10-21",
+    "alcance": "Identidad y beneficio esencial histórico de ayuda social municipal para pago de pasajes en Viña del Mar; corrige la clasificación original de beca estudiantil. No acredita disponibilidad en 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_AYUDA_SOCIAL_PASAJES_VINA_2026_10_21.md",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf"
+    ],
+    "beneficio": "Ayuda social para pagar pasajes, asignada tras evaluación del caso social; cuantía individual y modalidad exacta no especificadas.",
+    "requisitos_principales": "Informe social que acredite indigencia o necesidad manifiesta y residencia en Viña del Mar. Se admite a personas de tránsito por causa justificada; el RSH se considera preferible, no obligatorio.",
+    "limites": "No especificados por la fuente: destino de estudios, educación superior, monto individual, periodicidad, RSH máximo, NEM, cupos, calendario de postulación y convocatoria 2026. La fuente identifica ayuda social para pasajes, no una beca exclusiva para estudiantes.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    },
+    "correccion_editorial": {
+      "nombre": "Ayuda social municipal para pago de pasajes (Viña del Mar)",
+      "tipo_beneficio": "DESCONOCIDA",
+      "monto": "Pago de pasajes según evaluación social; cuantía individual no especificada",
+      "moneda": null,
+      "periodicidad": "DESCONOCIDA",
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null
+    }
   }
 ]

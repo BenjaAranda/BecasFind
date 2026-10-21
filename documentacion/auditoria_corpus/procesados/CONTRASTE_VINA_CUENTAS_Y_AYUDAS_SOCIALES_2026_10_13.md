@@ -35,3 +35,8 @@ Fuentes nuevas:
 
 - [Decreto Alcaldicio N.º 5852 — procedimiento de ayudas sociales](https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf)
 - [Registro municipal de apoyo a una estudiante que viajó a Beijing](https://www.munivina.cl/noticias/alcaldesa-virginia-reginato-felicito-a-alumna-que-viaja-a-beijing-para-participar-en-campamento-de-estudios/)
+
+
+## Resolución esencial de la candidata de pasajes — 21 de octubre de 2026
+
+La conclusión de mantener pendiente del contraste del 20/10 queda reemplazada por la [confirmación esencial corregida](CONFIRMACION_ESENCIAL_AYUDA_SOCIAL_PASAJES_VINA_2026_10_21.md). El Decreto Alcaldicio N.º 5852 confirma una ayuda social para pago de pasajes, pero no la identifica como beca educativa ni restringe su público a estudiantes. Se cierra la candidata solo como ayuda social municipal; la población estudiantil, educación superior, monto, periodicidad y umbrales alegados quedan sin especificar.
