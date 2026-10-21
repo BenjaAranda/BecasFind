@@ -44379,7 +44379,7 @@
     "candidato": "b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02",
     "nombre": "Beca Hermanos UAI",
     "institucion": "Universidad Adolfo Ibanez",
-    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "estado": "DESCARTADA_EDITORIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
@@ -44624,22 +44624,29 @@
         "extractos": [
           "### UAI — Beca Hermanos — `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`\n\nLa página oficial para Admisión 2026 describe becas para estudiantes de primer ingreso y enlaza su reglamento. Se revisaron además los reglamentos oficiales de becas de excelencia académica para las promociones 2024, 2025 y 2026. Cada documento limita expresamente su alcance a las becas que regula; enumeran beneficios de excelencia y mantención, y ninguno contiene una modalidad para hermanos (búsqueda del término en los PDF 2025 y 2026; lectura del reglamento 2024). El reglamento 2024 sí menciona como compatibles ciertos beneficios para hijos o cónyuges de funcionarios, que son destinatarios distintos. Este conjunto delimita las becas de excelencia publicadas, pero no demuestra que nunca haya existido un beneficio familiar separado ni acredita el 25% de la ficha. No se confirma ni se descarta la candidata.\n\nFuentes: [Becas UAI Admisión 2026](https://www.uai.cl/admision/becas-y-aranceles/becas); [reglamento oficial de ingreso 2024](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2024.pdf); [reglamento oficial de ingreso 2025](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-ingreso-2025-uai.pdf); [reglamento oficial de pregrado 2026](https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-pregrado-2026.pdf); [índice de transparencia UAI](https://www.uai.cl/la-universidad/transparencia)."
         ]
+      },
+      {
+        "informe": "RATIFICACION_DESCARTE_BECA_HERMANOS_UAI_2026_10_21.md",
+        "informe_sha256": "a1e11d7e59d3be6fbbb1d97f88cba2f38e470720e1f8144af8060709b276e695",
+        "extractos": [
+          "Revisión del 21 de octubre de 2026. Candidata `b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02`, referencia original `bloque6_docs.csv#3`. Decisión: **DESCARTADA_EDITORIAL** en el alcance que alega el registro: una Beca Hermanos UAI con 25% de descuento vigente durante 2026."
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Revisar el antecedente individual con fuente oficial; continúa pendiente. No excluir ni contar como cierre.",
-    "antecedente_exclusion_sin_ratificar": {
+    "accion": "Excluida editorialmente; conservar el histórico inactivo. No publicar ni contar como pendiente.",
+    "descarte": {
       "candidato": "b63145bc2bc7b48135118afcb914e671ce8d350ec138979cb4939c39f172cc02",
-      "revisado": "2026-10-06",
-      "motivo": "Las fichas de becas consultadas no acreditan identidad, rebaja del 25% y condiciones de Hermanos. No se concluye inexistencia.",
-      "criterio": "IDENTIDAD_NO_ACREDITADA",
-      "alcance": "Exclusión del candidato histórico de la selección para publicar; no prueba inexistencia. Originales y registro administrativo inactivo conservados.",
-      "informe": "DESCARTE_EDITORIAL_SEGUNDO_LOTE_50.md",
+      "revisado": "2026-10-21",
+      "motivo": "La candidata atribuye a 2026 una Beca Hermanos UAI con 25% del arancel anual. La página oficial de becas de Admisión 2026 remite al reglamento institucional completo de esa cohorte; este define las becas UAI y enumera sus seis modalidades, sin incluir Beca Hermanos ni descuento por hermano. Se contradice positivamente la oferta 2026 alegada. El alcance no afirma inexistencia de un posible beneficio histórico anterior o descuento de otra naturaleza.",
+      "criterio": "CONTRADICCION_OFICIAL_OFERTA_2026",
+      "alcance": "Descarte editorial de la candidata de Beca Hermanos con vigencia 2026. No descarta beneficios familiares históricos de otras cohortes ni otros descuentos no presentados como becas. El original se conserva; la ficha administrativa permanece inactiva.",
+      "informe": "RATIFICACION_DESCARTE_BECA_HERMANOS_UAI_2026_10_21.md",
       "evidencia": [
-        "CONFIRMACION_ESENCIAL_UAI_UDLA_ULAGOS_13.md"
+        "RATIFICACION_DESCARTE_BECA_HERMANOS_UAI_2026_10_21.md"
       ]
     }
   },
