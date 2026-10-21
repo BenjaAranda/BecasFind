@@ -66,3 +66,4 @@ Preservar tmp/ (fuentes), BecasFind - ET.docx, originales, respaldos y documenta
 ## Guardar decisiones
 
 Actualizar informe y registros pertinentes; conservar originales.jsonl y reparaciones/reparados.jsonl. Ejecutar primero python infra/report-corpus-progress.py y después python infra/audit-editorial-evidence.py. Revisar diff y subir commit Conventional Commits en español. Sin reescribir historial ni force-push. Si solo cambia contexto, basta verificar documentos y diff; no ejecutar auditorías de aplicación.
+- **ENAC — integridad de origen:** la revisión del CSV `becas_cftenac.csv` halló que una fila contiene comas sin escapar y texto de la fila siguiente dentro de la descripción; `originales.jsonl` registra `COLUMNAS_AUSENTES` para Vocación. Esto prueba una anomalía de parseo, no duplicidad ni falsedad. CSV y originales se preservan; no tomar la fila mezclada como evidencia. Detalle en `ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md`.
