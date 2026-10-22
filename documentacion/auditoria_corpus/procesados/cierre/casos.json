@@ -1414,7 +1414,7 @@
       },
       {
         "informe": "CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md",
-        "informe_sha256": "5cf6edae22818a5029a76a5722bcdf6c9814ecae3b7aaeec8e567f7b1642773c",
+        "informe_sha256": "64db6bcddca7a2d4b9c42aa0c0f394e777d7373b19371febfa9f5ae6cf711c68",
         "extractos": [
           "**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d`, `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`."
         ]
@@ -1631,7 +1631,7 @@
       },
       {
         "informe": "CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md",
-        "informe_sha256": "5cf6edae22818a5029a76a5722bcdf6c9814ecae3b7aaeec8e567f7b1642773c",
+        "informe_sha256": "64db6bcddca7a2d4b9c42aa0c0f394e777d7373b19371febfa9f5ae6cf711c68",
         "extractos": [
           "**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d`, `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`."
         ]
@@ -37986,6 +37986,13 @@
         "extractos": [
           "## Huara — `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99`\n\nAyuda Mineduc publica una Beca de Mantención para la Educación Superior (BMES) nacional: aporte referencial de $207.950 hasta en 10 cuotas, para estudiantes incluidos en la última resolución JUNAEB, matriculados en una institución reconocida y con un beneficio de arancel Mineduc o Comisión Ingresa. La candidata se atribuye a la Municipalidad de Huara y agrega RSH 70%, NEM 5,0 y asignación municipal anual. La fuente confirma la existencia de la BMES nacional, pero no vincula esta candidata con ella ni descarta una línea municipal aparte; el corpus ya conserva una ficha JUNAEB con ese nombre. No fusionar sin prueba de modalidad/convocatoria común.\n\nFuente: [Ayuda Mineduc — BMES](https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes).\n\nEstado: abierta; resolver si el nombre del registro es una atribución errónea de la BMES o una beca local diferente."
         ]
+      },
+      {
+        "informe": "CONTRASTE_BECA_DEPORTIVA_HUARA_2018_2019_2026_10_20.md",
+        "informe_sha256": "24e9e3c68e9a1f7c3c04739f4bd6e1413de3a6c095a3fa0fe13f01ae2fba4d6d",
+        "extractos": [
+          "**Consulta:** 20 de octubre de 2026. **Candidata:** `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99` — «Beca de Mantención Educación Superior Huara»."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -46997,7 +47004,7 @@
       },
       {
         "informe": "CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md",
-        "informe_sha256": "5cf6edae22818a5029a76a5722bcdf6c9814ecae3b7aaeec8e567f7b1642773c",
+        "informe_sha256": "64db6bcddca7a2d4b9c42aa0c0f394e777d7373b19371febfa9f5ae6cf711c68",
         "extractos": [
           "**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d`, `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`."
         ]

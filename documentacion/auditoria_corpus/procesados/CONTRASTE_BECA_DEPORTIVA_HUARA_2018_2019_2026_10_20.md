@@ -15,3 +15,13 @@ La fuente confirma una línea municipal deportiva con destinatarios, años, un g
 ## Paso concreto
 
 Buscar bases, convocatoria o acto público de Huara para la beca de mantención superior de la ficha. Mantenerla separada de la beca deportiva y de BMES/JUNAEB. No usar una búsqueda negativa como fundamento para descartar.
+
+## Contraste de Transparencia Activa 2026
+
+**Consulta:** 21 de octubre de 2026. Se abrió la ficha oficial de la [Municipalidad de Huara en Transparencia Activa](https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU107), actualizada ese mismo día, y se revisó el registro mensual «09. Subsidios y beneficios → Subsidios y Beneficios Propios → Asistencia Social 2026 → Marzo 2026».
+
+La fila publicada se titula **Ayuda Social**. Indica un monto global asignado de **$50.000.000**, período de postulación del 1 al 31 de marzo de 2026, evaluación individual por profesionales sociales y domicilio acreditado en Huara. Describe apoyos en mercadería, servicios funerarios, materiales de construcción, medicamentos, camas, textiles, pasajes u otros, para familias de escasos recursos o en contingencia. La ficha no identifica educación superior, requisito académico ni una beca de mantención.
+
+Este registro oficial confirma la existencia de una línea municipal de asistencia social general en marzo de 2026, pero no vincula esa línea con la candidata «Beca de Mantención Educación Superior Huara». No se trasladan su monto global, criterios ni período a la candidata, y la diferencia de alcance no prueba que no existiera otra beca superior. Se mantiene `REQUIERE_ACLARACION`; el beneficio y los requisitos atribuidos en el original siguen sin ratificar. Enero de 2026 también mostraba una declaración mensual de ausencia de prestaciones de asistencia social, pero esa ausencia no se usa como evidencia de inexistencia.
+
+**Conclusión operativa:** la nueva fuente delimita mejor el programa municipal publicado en marzo de 2026, pero aún falta una fuente pública específica que vincule la candidata con Huara y con estudios superiores. No se contactará a la institución.
