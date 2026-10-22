@@ -26,6 +26,16 @@ El municipio describe actualmente el Departamento de Asistencia Social como enca
 
 Fuentes: [Asistencia Social municipal](https://munivaldivia.cl/asistencia-social/), [Becas de Excelencia y Proyección Deportiva 2025](https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/).
 
+#### Contraste histórico adicional de fuentes oficiales de Valdivia — 21 de octubre de 2026
+
+Se recuperaron publicaciones archivadas en el sitio oficial municipal y la Cuenta Pública municipal 2016, para comprobar si las modalidades históricas conocidas corresponden a la candidata pendiente `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18` («Beca Municipal para Estudiantes de Educación Superior»):
+
+- La [Cuenta Pública 2016](https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2016.pdf), en el apartado «Resultado postulaciones según tipo de beca y nivel educacional», identifica las líneas tabuladas como Beca Indígena y Beca Presidente de la República, y luego describe fichas de acreditación socioeconómica para beneficios estatales. No identifica la beca municipal general de la candidata.
+- La [publicación municipal de mayo de 2004](https://www.munivaldivia.cl/doctos/noticias_valdivia/mayo/sem2.html) denomina «Beca municipal de Implementos escolares» a una ayuda para estudiantes de segundo a cuarto medio de establecimientos municipales, destinada a materiales escolares y financiada por el municipio.
+- Las publicaciones municipales de [abril de 2003](https://www.munivaldivia.cl/doctos/noticias_valdivia/2003/abril/sem4.html) y [mayo de 2004](https://www.munivaldivia.cl/doctos/noticias_valdivia/mayo/sem2.html) describen becas de excelencia deportiva para jóvenes de 15–17 años. La noticia de [marzo de 2005](https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/marzo/sem5-2.htm) trata un convenio entre la Municipalidad y la Universidad San Sebastián que ofrecía cupos para funcionarios, sus hijos y estudiantes de colegios municipales.
+
+Las fuentes identifican modalidades específicas, años, destinatarios o fines distintos. Ninguna vincula la candidata genérica de mantención para educación superior con una de esas líneas ni respalda su libre disposición, criterios, monto o cierre de 2026. Por alcance temporal, tampoco prueban que la candidata nunca haya existido ni descartan otra modalidad municipal. No se transfieren requisitos, importes ni destinatarios; la candidata sigue `REQUIERE_ACLARACION`.
+
 ## Resultado
 
 Las fuentes permiten separar beneficios oficiales diferentes y precisar qué no acreditan. No establecen identidad positiva de las candidatas genéricas ni contradicen positivamente su existencia histórica. No se ratifica, descarta ni fusiona ninguna de las cinco.
