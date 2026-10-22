@@ -13,7 +13,7 @@ Fuente autoritativa: `documentacion/auditoria_corpus/procesados/avance/resumen.j
 - 93 archivos fuente; 647 referencias; 568 candidatas únicas.
 - 525 confirmaciones esenciales; 2 completas; 16 descartes ratificados.
 - 25 abiertas: 19 requieren aclaración y 6 exclusiones históricas siguen sin ratificar.
-- Última comprobación: 21/10/2026. El análisis adicional de fuentes ENAC e INACAP no resolvió ninguna candidata; el conteo no cambió. Ignorar cifras históricas de 132, 157 y 291.
+- Última comprobación: 21/10/2026. El análisis adicional de fuentes oficiales no resolvió identidades: la Ordenanza N.º 10 de Lo Espejo (LeyChile/BCN) nombra dos becas históricas distintas pero no incluye el articulado íntegro; las publicaciones de Puerto Montt describen líneas específicas que no se vinculan a la candidata genérica; la página de acreditación ENAC 2016 no expone el anexo citado y su API REST respondió 403. No se cerró ni descartó ninguna candidata; el conteo no cambió. Ignorar cifras históricas de 132, 157 y 291.
 - La cola nombra los 25 casos, su carencia y los informes/fuentes pertinentes. Leer solo las filas del grupo elegido y sus informes vinculados; no volcar la cola completa ni reconstruirla desde planes antiguos.
 
 ## Método de trabajo
@@ -33,8 +33,8 @@ Después de un cambio editorial respaldado, ejecutar en orden `python infra/repo
 
 ## Espacio y rendimiento
 
-La limpieza histórica documentada eliminó 609 imágenes regenerables (647.954.754 bytes); no repetirla. La mayor parte de `tmp/` contiene fuentes oficiales o archivos de trabajo vinculados a candidatas abiertas y se conserva. No borrar `graphify-out/`, `test-results/`, OCR ni fuentes respaldatorias sin comprobar primero sus referencias.
+La limpieza histórica documentada eliminó 609 imágenes regenerables (647.954.754 bytes); no repetirla. La descarga temporal propia `tmp/enac-acreditacion-2016.html` se usó para verificar la página oficial y se retiró después; el sitio no publicó un enlace al informe/anexo citado. La mayor parte de `tmp/` contiene fuentes oficiales o archivos de trabajo vinculados a candidatas abiertas y se conserva. No borrar `graphify-out/`, `test-results/`, OCR ni fuentes respaldatorias sin comprobar primero sus referencias.
 
-En esta sesión se retiró únicamente `tmp/INACAP-informe-acreditacion-2024.pdf` (descarga temporal propia de 30.800.266 bytes): el informe no identifica las candidatas INACAP pendientes ni cambia su estado; la fuente oficial sigue enlazable desde el informe de contraste. Los otros archivos temporales no se consideran descartables sin análisis de referencias. Los dos archivos personales sin seguimiento siguen intactos.
+En esta sesión se retiraron las descargas temporales propias `tmp/INACAP-informe-acreditacion-2024.pdf` (30.800.266 bytes) y `tmp/elmonte-cuenta-publica-2024-oficial.pdf` (80.437.590 bytes) junto con su extracción `.txt` (587.811 bytes), después de registrar sus hallazgos en informes que conservan enlaces a las fuentes oficiales. El contraste adicional del 21/10 volvió a comprobar El Monte, Concepción y Valparaíso sin resolver sus candidatas; no se deben repetir búsquedas generales ni cambiar sus estados por omisión. Los otros archivos temporales no se consideran descartables sin análisis de referencias. Los dos archivos personales sin seguimiento siguen intactos.
 
 Para reducir contexto: consultar el resumen JSON, elegir pocas filas relacionadas de la cola y abrir solo sus informes citados. Los informes individuales conservan el historial probatorio; `tasks/plan.md` conserva el procedimiento y `PLAN_MEJORAS.md` el plan global.

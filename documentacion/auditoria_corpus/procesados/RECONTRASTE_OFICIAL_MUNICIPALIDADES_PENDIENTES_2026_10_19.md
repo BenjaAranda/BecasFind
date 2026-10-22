@@ -13,6 +13,9 @@ Fuente: [Entrega de becas deportivas municipales 2026](https://imsantamaria.cl/m
 La página oficial del Departamento de Desarrollo Social incluye “Postulación a Becas de Educación Superior” entre sus servicios de Acción Social y entrega datos de contacto. No especifica si se trata de una beca municipal propia o de asistencia para postular a programas externos, y no publica el monto variable, el RSH ni otros requisitos de la ficha. La existencia de atención municipal para postulaciones no basta para identificar la convocatoria exacta.
 
 Fuente: [Departamento de Desarrollo Social de Lo Espejo](https://www.loespejo.cl/departamento-de-desarrollo-social/).
+**Contraste con ordenanza histórica municipal localizado el 21 de octubre de 2026:** la ficha oficial de LeyChile/BCN registra la Ordenanza N.º 10 de Lo Espejo, promulgada el 2 de noviembre de 1999 y publicada el 26 de octubre de 2000. Su sumario identifica dos líneas separadas: “Beca Académica I. Municipalidad de Lo Espejo” y “Beca Continuidad de Estudios”, con apartados sobre categorías, evaluación, montos, cupos y postulación. El texto íntegro no está incluido en el registro ni en el PDF de metadatos consultado. Esta fuente confirma la existencia histórica de dos programas con nombres distintos, pero no permite vincular la ficha genérica actual a uno de ellos ni trasladar sus requisitos o montos. Mantener la identidad pendiente hasta conseguir el articulado íntegro o una fuente oficial que conecte la candidata con una modalidad concreta.
+
+Fuente: [Ordenanza N.º 10 de Lo Espejo, LeyChile/BCN](https://www.bcn.cl/leychile/navegar?i=176953).
 
 ### Iquique — `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` y `1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a`
 
