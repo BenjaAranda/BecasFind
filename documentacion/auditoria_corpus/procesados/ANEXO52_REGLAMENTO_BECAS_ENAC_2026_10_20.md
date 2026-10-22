@@ -31,3 +31,9 @@ Las páginas oficiales acreditan que ENAC ofrece orientación sobre beneficios e
 Al contrastar `originales.jsonl` con `ScrapperBecasFind/data_lake_becas/03_procesados/becas_cftenac.csv`, la candidata «Beca Vocación de Servicio ENAC» (`1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656`) aparece con `COLUMNAS_AUSENTES`. La descripción larga de la fila física de Vocación contiene comas no entrecomilladas y, a continuación, incorpora el texto de la fila «Beca Titulado ENAC». El CSV leído como texto sí enumera Vocación y Titulado en filas distintas; por eso la concatenación es una anomalía de parseo/estructura, no evidencia positiva de que las becas sean una misma modalidad, un duplicado o programas falsos.
 
 No se modifica ni se reescribe el CSV original y no se corrige ningún dato de las candidatas a partir de este archivo defectuoso. Las cuatro candidatas ENAC siguen pendientes porque aún falta una fuente institucional específica recuperable que confirme identidad, beneficio y requisitos principales de cada modalidad. La lista institucional archivada del Reglamento (anexo 52) no basta para resolverlo; véase el análisis de recuperación en este informe.
+
+## Verificación final del archivo exacto en Internet Archive (22 de octubre de 2026)
+
+Se consultaron directamente los endpoints públicos CDX y TimeMap de Internet Archive para la URL exacta del PDF enlazado por el índice institucional. Ambos respondieron HTTP 200 con `[]`; el índice consultado no registra una captura de esa URL. Repetir la descarga o la consulta de disponibilidad de esa misma URL no es una vía útil con el estado actual del archivo. Esto no demuestra que el reglamento no exista ni cambia la decisión sobre las cuatro candidatas.
+
+**Siguiente paso:** localizar otra publicación institucional oficial que aloje el reglamento o identifique individualmente las modalidades. No volver a consultar en Internet Archive la URL exacta ya comprobada.
