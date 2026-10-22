@@ -43,3 +43,9 @@ Se revisaron la [página oficial de Admisión](https://enac.cl/admision/) y la p
 ## Alcance
 
 Las fuentes nuevas de General Lagos y ENAC se verificaron en páginas oficiales públicas el 21 de octubre de 2026. Junto con los contrastes de Tierra Amarilla, Concepción y Lo Espejo, identifican modalidades o servicios distintos, pero no resuelven las candidatas generales. No son evidencia negativa sobre otros programas. Las fichas de esos municipios permanecen abiertas y las cuatro candidatas ENAC siguen sin ratificación hasta encontrar una fuente pública que identifique las líneas exactas o evidencia individual que contradiga su existencia.
+
+## INACAP — alcance público de la Red de Exalumnos — 21 de octubre de 2026
+
+La página oficial [Bienvenida Estudiantes 2027](https://digital.inacap.cl/bienvenida/) presenta la Red de Exalumnos como comunidad de empleabilidad y desarrollo profesional. La página oficial [Red Exalumnos Destacados](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte) describe acceso automático tras titulación, programa de desarrollo laboral/actualización profesional y 30% de descuento en Educación Continua. Son alcances distintos de la candidata «Beca Red de Egresados», cuyo original afirma 15% semestral para familiares de egresados que cursen pregrado. La diferencia documenta una falta de correspondencia entre la Red descrita en esas páginas y el beneficio de la ficha, pero no refuta la posible existencia histórica de un descuento familiar separado ni la relación que una versión histórica del reglamento de becas pudiera establecer.
+
+**Decisión:** mantener `EXCLUSION_HISTORICA_SIN_RATIFICAR`. No ratificar el 15% ni los requisitos de la ficha; tampoco descartar la beca por estas páginas. Falta el Reglamento de Becas institucional citado en el informe de acreditación 2016 o evidencia oficial positiva específica del periodo que permita decidir la relación con la Red.
