@@ -1,6 +1,6 @@
 # Contexto operativo de BecasFind
 
-Actualizado el 21 de octubre de 2026. Este archivo es un índice breve de continuidad, no reemplaza las fuentes de verdad. Al retomar, leer `AGENTS.md`, `PLAN_MEJORAS.md`, este archivo y `tasks/plan.md`; comprobar `git status` y reconstruir el estado desde los artefactos indicados abajo.
+Actualizado el 22 de octubre de 2026. Este archivo es un índice breve de continuidad, no reemplaza las fuentes de verdad. Al retomar, leer `AGENTS.md`, `PLAN_MEJORAS.md`, este archivo y `tasks/plan.md`; comprobar `git status` y reconstruir el estado desde los artefactos indicados abajo.
 
 ## Objetivo activo
 
@@ -13,8 +13,9 @@ Fuente autoritativa: `documentacion/auditoria_corpus/procesados/avance/resumen.j
 - 93 archivos fuente; 647 referencias; 568 candidatas únicas.
 - 525 confirmaciones esenciales; 2 completas; 16 descartes ratificados.
 - 25 abiertas: 19 requieren aclaración y 6 exclusiones históricas siguen sin ratificar.
-- Última comprobación: 21/10/2026. El análisis adicional de fuentes oficiales no resolvió identidades: la Ordenanza N.º 10 de Lo Espejo (LeyChile/BCN) nombra dos becas históricas distintas pero no incluye el articulado íntegro; las publicaciones de Puerto Montt describen líneas específicas que no se vinculan a la candidata genérica; la página de acreditación ENAC 2016 no expone el anexo citado y su API REST respondió 403. El contraste del PADEM Victoria 2014 y las Cuentas Públicas Valparaíso 2012–2013 separa becas JUNAEB y el Programa BETA de las candidatas municipales genéricas; no vincula ni refuta las identidades alegadas. Hallazgos en `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`; no repetir esas fuentes como si resolvieran los casos. No se cerró ni descartó ninguna candidata; el conteo no cambió. Ignorar cifras históricas de 132, 157 y 291.
+- Última comprobación: 22/10/2026. El análisis adicional de fuentes oficiales no resolvió identidades: la Ordenanza N.º 10 de Lo Espejo (LeyChile/BCN) nombra dos becas históricas distintas pero no incluye el articulado íntegro; las publicaciones de Puerto Montt describen líneas específicas que no se vinculan a la candidata genérica; la página de acreditación ENAC 2016 no expone el anexo citado y su API REST respondió 403. El contraste del PADEM Victoria 2014 y las Cuentas Públicas Valparaíso 2012–2013 separa becas JUNAEB y el Programa BETA de las candidatas municipales genéricas; no vincula ni refuta las identidades alegadas. Hallazgos en `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`; no repetir esas fuentes como si resolvieran los casos. No se cerró ni descartó ninguna candidata; el conteo no cambió. Ignorar cifras históricas de 132, 157 y 291.
 - La cola nombra los 25 casos, su carencia y los informes/fuentes pertinentes. Leer solo las filas del grupo elegido y sus informes vinculados; no volcar la cola completa ni reconstruirla desde planes antiguos.
+- Contraste oficial nuevo del 22/10: Huara (beca deportiva 2018), Río Claro (incentivo laboral/emprendimiento 2021) y Camiña (PEI escolar 2026–2029) documentan modalidades o redes distintas; no identifican ni refutan las tres candidatas de educación superior. Informe: `CONTRASTE_PUBLICO_MUNICIPALES_2026_10_22.md`. No repetir estas fuentes; los estados y el conteo siguen sin cambios.
 
 ## Método de trabajo
 

@@ -37808,6 +37808,13 @@
         "extractos": [
           "## Camiña — `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`\n\nUn proyecto educativo institucional de una escuela de Camiña alojado en el servidor del Ministerio de Educación menciona una “Beca Municipal” para uniforme escolar, junto a beneficios JUNAEB. Esto acredita un apoyo escolar de alcance diferente, no la beca DIDECO de educación superior descrita por la candidata. La fuente no permite concluir que esta última no exista.\n\nFuente: [Proyecto Educativo Institucional, Escuela de Camiña, servidor MINEDUC](https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf).\n\nEstado: abierta; el instrumento municipal de educación superior sigue sin identificarse."
         ]
+      },
+      {
+        "informe": "CONTRASTE_PUBLICO_MUNICIPALES_2026_10_22.md",
+        "informe_sha256": "03e35f37eb3f44b05d040e0619667c030c361ab038a2acfe7739d15d7e4bab4a",
+        "extractos": [
+          "## Camiña — `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d`\n\nEl Proyecto Educativo Institucional 2026–2029 del Liceo Camiña, alojado en el repositorio oficial de MINEDUC, menciona en su apartado de oportunidades una red general de beneficios estatales y municipales para permanencia escolar, y enumera JUNAEB, becas indígenas y Pro-retención. No identifica una beca municipal para educación superior ni publica monto, elegibilidad o convocatoria de la candidata. El documento demuestra que el liceo reconoce apoyos escolares en general; no permite trasladarlos a una ayuda universitaria.\n\nFuente: [Liceo Camiña TP, Proyecto Educativo Institucional 2026–2029, p. impresa 15](https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf).\n\n**Decisión:** `REQUIERE_ACLARACION`. La fuente no identifica la beca alegada ni contradice positivamente su existencia. Mantener beneficio, requisitos, documentos y vigencia sin ratificar; no confundir apoyos escolares o estatales con una beca municipal de educación superior."
+        ]
       }
     ],
     "grupo_variantes": false,
@@ -38013,6 +38020,13 @@
         "informe_sha256": "24e9e3c68e9a1f7c3c04739f4bd6e1413de3a6c095a3fa0fe13f01ae2fba4d6d",
         "extractos": [
           "**Consulta:** 20 de octubre de 2026. **Candidata:** `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99` — «Beca de Mantención Educación Superior Huara»."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PUBLICO_MUNICIPALES_2026_10_22.md",
+        "informe_sha256": "03e35f37eb3f44b05d040e0619667c030c361ab038a2acfe7739d15d7e4bab4a",
+        "extractos": [
+          "## Huara — `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99`\n\nUn informe de actividades municipales de Huara de 2018, incorporado a un documento de la Cámara de Diputadas y Diputados, indica que ese año el municipio gestionó, por petición del Concejo y orden del alcalde, una “Beca Municipal deportiva” para deportistas destacados. El pasaje confirma una modalidad municipal deportiva en 2018, pero no describe mantención para educación superior, requisitos socioeconómicos ni monto de la candidata. Tampoco demuestra que no existiera otra línea municipal separada.\n\nFuente: [Cámara de Diputadas y Diputados, documento de comisión con informe de actividades de Huara, PDF p. 1](https://www.camara.cl/verDoc.aspx?prmID=161135&prmTipo=DOCUMENTO_COMISION).\n\n**Decisión:** `REQUIERE_ACLARACION`. Mantener separadas la beca deportiva documentada y la candidata de educación superior. No trasladar beneficiarios ni condiciones; hace falta un acto o bases que identifique la línea de mantención alegada."
         ]
       }
     ],
@@ -43516,6 +43530,13 @@
         "informe_sha256": "d858a7413621801a95499111425ce3351c9f35621291f1535f137daed8ad4e6d",
         "extractos": [
           "El informe enlazado no tiene un apartado identificado por este hash. Requiere lectura de la sección correspondiente; no se atribuyen automáticamente sus fuentes al candidato."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_PUBLICO_MUNICIPALES_2026_10_22.md",
+        "informe_sha256": "03e35f37eb3f44b05d040e0619667c030c361ab038a2acfe7739d15d7e4bab4a",
+        "extractos": [
+          "## Río Claro — `8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1`\n\nLa Municipalidad publicó en 2021 una nota del Programa Mujeres Jefas de Hogar: 20 participantes completaron un curso de cocina de 200 horas y recibieron un incentivo de $100.000 para iniciar o retomar emprendimientos. La nota lo denomina “beca laboral”; se refiere a capacitación y emprendimiento, no a estudios superiores. Es una modalidad distinta y no confirma el registro genérico de educación superior ni permite descartarlo por sí sola.\n\nFuente: [Municipalidad de Río Claro, incentivo del Programa Mujeres Jefas de Hogar](https://rioclaro.cl/20-mujeres-de-rio-claro-recibieron-importante-impulso-para-emprender/).\n\n**Decisión:** `REQUIERE_ACLARACION`. No trasladar monto ni requisitos. Para identificar la candidata hace falta una fuente municipal específica de educación superior o evidencia individual que establezca que la ficha es esta beca laboral."
         ]
       }
     ],
