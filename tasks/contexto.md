@@ -35,4 +35,8 @@ Al haber una decisión respaldada, actualizar el informe individual y los regist
 
 ## Limpieza y continuidad
 
-La limpieza autorizada anterior eliminó 609 imágenes regenerables y liberó 647.954.754 bytes. Se conservaron 27 PDF, 611 páginas OCR y las dos imágenes necesarias para verificación visual. No repetir esa limpieza ni borrar artefactos protegidos. Para ahorrar contexto, cargar solo el hash en curso y sus informes pertinentes; `tasks/plan.md` contiene el método y `PLAN_MEJORAS.md` el plan general.
+La limpieza autorizada anterior eliminó 609 imágenes regenerables y liberó 647.954.754 bytes. Se conservaron 27 PDF, 611 páginas OCR y las dos imágenes necesarias para verificación visual. No repetir esa limpieza ni borrar artefactos protegidos.
+
+Auditoría de espacio del 21/10/2026: `tmp/` ocupa aproximadamente 485 MiB y contiene fuentes públicas y archivos de trabajo asociados a candidatas todavía abiertas; los directorios mayores son `romeral-actas-2026/` (668 archivos; 212 MiB) y `putre-actas-ocr-20261020/` (252 archivos; 78 MiB). No son basura regenerable: conservar mientras respalden informes o candidatas abiertas. `graphify-out/` (7,4 MiB) y `test-results/` (75 KiB) son artefactos locales ignorados por Git, pero se mantienen porque aportan contexto visual/arquitectónico y no liberarlos no afecta el flujo. El escaneo no identificó otro objetivo de limpieza seguro. Los archivos personales sin seguimiento `BecasFind - ET.docx` y `spa.traineddata` siguen protegidos.
+
+Para ahorrar contexto y acelerar futuras sesiones: reconstruir el estado desde `avance/resumen.json`, tomar solo los hashes de la cola en curso y leer únicamente los informes oficiales vinculados; no volcar inventarios completos ni reabrir planes históricos. `tasks/plan.md` contiene el método y `PLAN_MEJORAS.md` el plan general.
