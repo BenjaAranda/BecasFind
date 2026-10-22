@@ -1,6 +1,6 @@
 # Contrastes oficiales de modalidades distintas — 21 de octubre de 2026
 
-Esta nota registra tres fuentes institucionales específicas que identifican beneficios distintos de las candidatas generales de mantención municipal. Se conservan las tres candidatas en la cola: las fuentes no prueban que un programa académico separado no exista.
+Esta nota registra fuentes institucionales específicas consultadas para distinguir modalidades de las candidatas generales. Se conservan abiertas las candidatas cuya identidad exacta no queda probada; una página que no menciona la modalidad no demuestra que no exista.
 
 ## Tierra Amarilla — candidata `06b82c37a5226bd77f19eade94f49903073e6b494caf7dbeecb57fc89982a488`
 
@@ -26,6 +26,20 @@ Fuente: [Municipalidad de Lo Espejo, resultados de Becas SUBDERE 2022](https://w
 
 **Decisión:** `REQUIERE_ACLARACION`; no se trasladan condiciones del fondo de funcionarios ni se interpreta la noticia como prueba de inexistencia de una ayuda DIDECO separada.
 
+## General Lagos — candidata `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131`
+
+La página oficial municipal conserva una noticia del 5 de julio de 2019 titulada «Municipio en Apoyo a los estudiantes». El texto precisa que la entrega fue de buzos, zapatillas y otros enseres para el jardín infantil de Visviri. Es apoyo escolar preescolar en especie; no identifica la supuesta beca municipal de educación superior de la candidata ni contradice por sí solo una modalidad distinta. La página municipal actual tampoco aporta bases o acto para esa candidata.
+
+Fuentes: [Municipalidad de General Lagos — noticia de apoyo a estudiantes](https://portalvisviri.cl/noticias_zapatos_estudiantes.html) (05/07/2019); [equipo municipal y atribuciones del Departamento Social](https://portalvisviri.cl/municipalidad_equipo_trabajo.html).
+
+**Decisión:** `REQUIERE_ACLARACION`; mantener separados el apoyo al jardín infantil, las becas estatales JUNAEB y la candidata de educación superior.
+
+## ENAC — cuatro candidatas históricas
+
+Se revisaron la [página oficial de Admisión](https://enac.cl/admision/) y la portada institucional vigente para Admisión 2027. La primera enumera gratuidad, CAE, becas Mineduc y JUNAEB; la portada promociona «Beca Matrícula Costo $0» para admisión temprana. Ninguna fuente identifica las cuatro modalidades del corpus —Apoyo Familiar, Deportiva, Titulado y Vocación de Servicio— ni las condiciones atribuidas a ellas. La diferencia de año y el alcance público de esas páginas impiden usar la omisión como prueba de inexistencia histórica. Los originales ENAC, además, contienen filas concatenadas/campos desplazados que requieren trazabilidad, pero esa corrupción de origen no prueba por sí sola falsedad.
+
+**Decisión:** las cuatro candidatas permanecen `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no ratificar ni trasladar beneficios actuales o estatales. Hace falta una fuente institucional pública que identifique individualmente cada modalidad, o evidencia oficial positiva que contradiga su existencia en el periodo atribuido.
+
 ## Alcance
 
-Las tres fuentes se verificaron en páginas/documentos oficiales públicos el 21 de octubre de 2026. Son evidencia positiva de modalidades concretas, no evidencia negativa sobre otros programas. Las tres fichas permanecen abiertas hasta encontrar una fuente pública específica que identifique las líneas exactas alegadas o evidencia individual que las contradiga.
+Las fuentes nuevas de General Lagos y ENAC se verificaron en páginas oficiales públicas el 21 de octubre de 2026. Junto con los contrastes de Tierra Amarilla, Concepción y Lo Espejo, identifican modalidades o servicios distintos, pero no resuelven las candidatas generales. No son evidencia negativa sobre otros programas. Las fichas de esos municipios permanecen abiertas y las cuatro candidatas ENAC siguen sin ratificación hasta encontrar una fuente pública que identifique las líneas exactas o evidencia individual que contradiga su existencia.
