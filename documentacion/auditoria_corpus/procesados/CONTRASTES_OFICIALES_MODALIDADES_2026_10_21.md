@@ -22,7 +22,9 @@ Fuente: [Municipalidad de Concepción, Acta Ordinaria 060-2010, p. impresa 2](ht
 
 La Municipalidad informó en 2022 que cuatro funcionarios municipales fueron favorecidos por el Fondo Concursable de Becas Municipales de SUBDERE, que financiaba el 100% del arancel para estudios de pregrado o posgrado. Es una línea nacional dirigida a funcionarios municipales. La candidata afirma un aporte municipal DIDECO sujeto a evaluación, para residentes/estudiantes y con RSH hasta 60%; la noticia SUBDERE no identifica esa ayuda comunal.
 
-Fuente: [Municipalidad de Lo Espejo, resultados de Becas SUBDERE 2022](https://www.loespejo.cl/resultados-becas-subdere-2022/).
+La página municipal del [Departamento de Desarrollo Social](https://www.loespejo.cl/departamento-de-desarrollo-social/) incluye «Postulación a Becas de Educación Superior» entre los servicios de Acción Social, pero no indica si es una beca municipal propia o apoyo de postulación. Una publicación municipal de 2023 sí especifica que la oficina asistía con la postulación/renovación de las becas JUNAEB Presidente de la República e Indígena. Es evidencia del servicio de orientación y de esas modalidades estatales, no de la beca municipal general ni de los montos y requisitos alegados.
+
+Fuentes: [Municipalidad de Lo Espejo, resultados de Becas SUBDERE 2022](https://www.loespejo.cl/resultados-becas-subdere-2022/); [Departamento de Desarrollo Social](https://www.loespejo.cl/departamento-de-desarrollo-social/); [postulación y renovación de becas Presidente de la República e Indígena 2023](https://www.loespejo.cl/postulacion-o-renovacion-de-beca-presidente-de-la-republica-y-beca-indigena/).
 
 **Decisión:** `REQUIERE_ACLARACION`; no se trasladan condiciones del fondo de funcionarios ni se interpreta la noticia como prueba de inexistencia de una ayuda DIDECO separada.
 
