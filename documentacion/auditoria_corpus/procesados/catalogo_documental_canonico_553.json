@@ -4143,8 +4143,8 @@
     "candidatos_origen": [
       "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997"
     ],
-    "nombre_de_referencia": "Beca de Apoyo Socioeconomico UFRO",
-    "estado_revision": "REQUIERE_ACLARACION",
+    "nombre_de_referencia": "Becas de Mantención UFRO (familia de programas financiados por donatarios)",
+    "estado_revision": "CONFIRMADA_ESENCIAL",
     "referencias_originales": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ufro.csv",
@@ -4153,21 +4153,17 @@
         "institucion_original": "Universidad de La Frontera"
       }
     ],
-    "alcance_verificado": null,
-    "beneficio_verificado": null,
-    "requisitos_principales_verificados": null,
-    "limites": "DEMRE Admisión 2024, páginas 179–180: UFRO distingue matrícula, PROENTA, olimpiadas y alimentación para estudiantes sin BAES. Asesorar la acreditación socioeconómica Mineduc no acredita una beca institucional genérica; la práctica deportiva no demuestra por sí sola financiamiento deportivo. Falta: Fuente específica de la beca deportiva y de apoyo socioeconómico descritas en los originales. No reemplazar apoyo económico por asesoría o servicios. Recontraste oficial 16/10/2026: la DDE UFRO publica becas institucionales nominadas y ayudas por carrera; la Red de Donatarios describe apoyos con requisitos propios. La FAQ institucional indica que no hay becas internas para cubrir arancel, pero esto no descarta por sí solo ayudas de mantención. Ninguna fuente vincula inequívocamente la ficha genérica con un programa ni confirma RSH 60%, monto variable o periodicidad; no trasladar reglas de otros apoyos. Véase RECONTRASTE_UFRO_APOYO_SOCIOECONOMICO_2026_10_16.md.",
+    "alcance_verificado": "Familia institucional de becas de mantención UFRO administradas por DDE y financiadas por donatarios externos; reglamento aprobado el 13/08/2021. No identifica un programa/donatario individual ni una convocatoria 2026.",
+    "beneficio_verificado": "Fondos de libre disposición para contribuir a gastos de mantención de estudiantes de pregrado. Número y monto dependen del programa y de las donaciones de cada año; valor individual y periodicidad: No especificado.",
+    "requisitos_principales_verificados": "Requisitos generales del reglamento: matrícula de pregrado UFRO; financiamiento de arancel mediante Mineduc, Ingresa o UFRO; acreditación de vulnerabilidad socioeconómica y entrevista DDE; condiciones sobre otras becas de mantención; plan de estudios al día y promedio acumulado mínimo igual al de la cohorte de ingreso. Los programas tienen condiciones particulares.",
+    "limites": "El RSH máximo de 60% y los demás datos específicos del original no están respaldados por el reglamento. El alias original se conserva en referencias_originales/identidades_historicas. Confirmación del marco regulatorio de 2021; sin convocatoria ni cierre confirmados para 2026. No publicar como vigente. No trasladar requisitos de becas UFRO nominadas.",
     "fuentes_verificadas_del_expediente": [
-      "https://dde.ufro.cl/beneficios-estudiantiles/arancel/",
-      "https://dde.ufro.cl/beneficios-estudiantiles/docs-bienestar-estudiantil/",
-      "https://dde.ufro.cl/beneficios-estudiantiles/mantencion/",
-      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/",
-      "https://dde.ufro.cl/wp-content/uploads/2024/09/Preguntas-frecuentes-beneficios-estudiantiles.pdf",
-      "https://dde.ufro.cl/beneficios-estudiantiles/red-de-donatarios/"
+      "https://www2.ufro.cl/transparencia/ver_doc.php?c=1&i=2&id=304580&m=2",
+      "https://admision.ufro.cl/becas-y-beneficios/"
     ],
-    "informe_esencial": "RECONTRASTE_UFRO_APOYO_SOCIOECONOMICO_2026_10_16.md",
+    "informe_esencial": "CONFIRMACION_ESENCIAL_BECAS_MANTENCION_UFRO_2026_10_22.md",
     "vigencia_publicable": "NO_EVALUADA_EN_ESTA_CONSOLIDACION",
-    "accion_administrativa": "NINGUNA"
+    "accion_administrativa": "CONSERVAR_INACTIVA_HASTA_CONFIRMAR_CONVOCATORIA_Y_FECHA_DE_CIERRE"
   },
   {
     "clave_documental": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",

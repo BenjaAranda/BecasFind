@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 16 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 19 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 525 confirmación esencial: quedan 25 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 16 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 18 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 526 confirmación esencial: quedan 24 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 6 exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los 16 descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
@@ -43,7 +43,7 @@ Los conteos por archivo comparten becas repetidas: no sumar su columna de única
 | becas_udec.csv | 3 | 3 | 0 | 3 | 0 | 0 | 0 | 0 |
 | becas_udla.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_udp.csv | 6 | 6 | 0 | 6 | 0 | 0 | 0 | 0 |
-| becas_ufro.csv | 4 | 4 | 1 | 2 | 1 | 0 | 0 | 1 |
+| becas_ufro.csv | 4 | 4 | 0 | 3 | 1 | 0 | 0 | 0 |
 | becas_uft.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_ulagos.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
 | becas_umag.csv | 4 | 4 | 0 | 4 | 0 | 0 | 0 | 0 |

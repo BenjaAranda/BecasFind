@@ -15152,9 +15152,9 @@
   },
   {
     "candidato": "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997",
-    "nombre": "Beca de Apoyo Socioeconomico UFRO",
+    "nombre": "Becas de Mantención UFRO (familia de programas financiados por donatarios)",
     "institucion": "Universidad de La Frontera",
-    "estado": "PENDIENTE_CONFIRMACION_COMPLETA",
+    "estado": "CONFIRMADA_ESENCIAL",
     "referencias": [
       {
         "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ufro.csv",
@@ -15364,13 +15364,42 @@
         "extractos": [
           "**Candidata:** `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997`"
         ]
+      },
+      {
+        "informe": "CONFIRMACION_ESENCIAL_BECAS_MANTENCION_UFRO_2026_10_22.md",
+        "informe_sha256": "a7cf739d958a5ca19e427bcfe9303fa5f90ae003e55d265d085c92f1e824ef13",
+        "extractos": [
+          "**Candidata:** `d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997`  \n**Nombre original conservado:** Beca de Apoyo Socioeconomico UFRO"
+        ]
       }
     ],
     "grupo_variantes": false,
     "estado_variantes": "SIN_GRUPO_REPETIDO",
     "campos_historicos_distintos": "",
     "informe_conciliacion": "",
-    "accion": "Contrastar identidad y convocatoria; verificar cobertura, requisitos y documentos; resolver discrepancias antes de certificar."
+    "accion": "Revisión esencial cerrada; conservar desconocidos y límites. No activar sin cierre confirmado.",
+    "confirmacion_esencial": {
+      "candidato": "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997",
+      "revisado": "2026-10-22",
+      "alcance": "Familia institucional de becas de mantención UFRO bajo el Reglamento de Becas de Mantención aprobado por Resolución Exenta 1458/2021; no confirma convocatoria 2026.",
+      "informe": "CONFIRMACION_ESENCIAL_BECAS_MANTENCION_UFRO_2026_10_22.md",
+      "fuentes": [
+        "https://www2.ufro.cl/transparencia/ver_doc.php?c=1&i=2&id=304580&m=2",
+        "https://admision.ufro.cl/becas-y-beneficios/"
+      ],
+      "beneficio": "Fondos de libre disposición para contribuir a gastos de mantención de pregrado; monto y número varían por programa y donación anual. Valor y periodicidad individual: No especificado.",
+      "requisitos_principales": "Matrícula UFRO de pregrado; financiamiento del arancel por Mineduc, Ingresa o UFRO; vulnerabilidad socioeconómica acreditada y entrevista DDE; condiciones generales de compatibilidad; avance académico y promedio mínimo según cohorte. Condiciones particulares dependen del programa.",
+      "limites": "El nombre original se normaliza al marco institucional; no se identifica un donatario o programa individual. El umbral RSH 60% no está en el reglamento y no se ratifica. Sin fechas ni convocatoria 2026; no activar para búsqueda vigente.",
+      "fecha_inicio": null,
+      "fecha_cierre": null,
+      "documentos": null,
+      "verificaciones": {
+        "identidad": true,
+        "fuente_oficial": true,
+        "cobertura": true,
+        "requisitos_principales": true
+      }
+    }
   },
   {
     "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
