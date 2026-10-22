@@ -23,3 +23,14 @@ La guía de becas municipales UCSC de 2024 se descargó y se extrajo por página
 ## Decisión cerrada en este bloque
 
 La candidata UDD `635cf6ce0b82c6c433f06f0106aaf7517e423bc0b35ab1d61cd78675582db316` sí se cierra esencialmente: el original no exigía pregrado y publicaciones específicas identifican trabajadores de empresas en convenio para educación continua/postgrado. Véase [confirmación individual](CONFIRMACION_ESENCIAL_CONVENIOS_EMPRESARIALES_UDD_2026_10_19.md). El resto de este informe delimita fuentes; no suma confirmaciones ni descartes.
+
+## Fuente primaria histórica adicional de ENAC — consulta 21/10/2026
+
+Se recuperó la captura archivada de la página institucional **“Beca ENAC”**, publicada originalmente en el dominio `enac.cl`, fechada por Internet Archive el 14/06/2015: [captura del sitio institucional](https://web.archive.org/web/20150614042632id_/http://enac.cl:80/becas/beca-enac). La página enumera siete beneficios internos: Elisa Sanfuentes de Báguena (hasta 20% anual, priorización socioeconómica); Excelencia Académica (50% anual); Fallecimiento del Responsable Financiero (50% anual); Hermanos de Estudiantes (10% anual a hermanos de estudiantes ENAC que comparten responsable financiero); Hijos de Estudiantes (10% anual); Padre de Estudiantes (10% anual); Convenio (20%–100%) y Funcionario (máximo de dos asignaciones anuales).
+
+Comparación individual con las cuatro candidatas del corpus:
+
+- **Apoyo Familiar**: el beneficio histórico “Hermanos de Estudiantes” comparte un tema familiar, pero su población, institución de estudios del hermano y cobertura no coinciden con la ficha (un familiar puede estudiar en cualquier institución; 15% semestral; RSH 60%). No se establece que sean la misma modalidad.
+- **Deportiva**, **Titulado** y **Vocación de Servicio**: la captura no presenta esos nombres. La página documenta lo publicado en 2015; no descarta que se crearan beneficios distintos después.
+
+**Resolución:** fuente pública oficial histórica nueva; **cero cierres**. Mantener las cuatro candidatas `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no reutilizar requisitos ni importes del catálogo 2015 para la cohorte 2026. Para ratificar un descarte o confirmar una modalidad se requiere un reglamento, acto o convocatoria oficial posterior que trate expresamente la beca candidata. La lista de la página archivada no se trata como prueba de inexistencia fuera de su fecha y alcance.
