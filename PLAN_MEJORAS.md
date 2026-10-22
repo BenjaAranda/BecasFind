@@ -11,6 +11,8 @@ Estado reproducible al 21/10: **568 candidatas; 525 confirmaciones esenciales; 2
 - [ ] Resolver equivalencias y variantes por programa, modalidad y año; consultar sus decisiones actuales antes de declarar el cierre global. No convertir referencias repetidas en duplicados sin prueba.
 - [ ] Comprobar coherencia documental y subir decisiones nuevas a GitHub con mensajes en español.
 
+Contraste añadido el 21/10: dos capturas archivadas de documentos DIDECO 2019 para Valparaíso describen colaboración JUNAEB, pero no identifican las tres candidatas locales de mantención/transporte. Se registraron como límite histórico, sin confirmar ni descartar. Siguen abiertas las 25; detalle por hash en `CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md`.
+
 Originales, trazas e inactividad administrativa se conservan. No descartar por falta de datos, acceso fallido o búsquedas sin resultado. Confirmación histórica no equivale a vigencia. Las búsquedas o aclaraciones repetidas no cuentan como cierres.
 
 Los conteos vigentes se consultan en [avance/resumen.json](documentacion/auditoria_corpus/procesados/avance/resumen.json); el detalle está en [avance por archivo](documentacion/auditoria_corpus/procesados/avance/por_archivo.csv). Los informes anteriores se leen solo cuando sean pertinentes al hash revisado.
