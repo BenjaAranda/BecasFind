@@ -1418,6 +1418,13 @@
         "extractos": [
           "**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d`, `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`."
         ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
+        "informe_sha256": "140161556ec3188201a05dd185200e56196ac1089aa79d9e99e1f730715b2665",
+        "extractos": [
+          "### `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c` — Beca Municipalidad de Valparaíso DIDECO\n\nLa cuenta de 2011 no identifica estas fichas con “Súmate” ni acredita los importes, RSH, notas, documentos o calendario 2026. La cifra cero está acotada al indicador “becas municipales” de ese año; no constituye evidencia de que una convocatoria municipal distinta no existiera después. Las dos candidatas siguen separadas: sus originales presentan diferencias en umbral RSH y cobertura, y el documento no las conecta.\n\n**Decisión:** ambas continúan `REQUIERE_ACLARACION`. No fusionar ni descartar por esta fuente histórica. Se requiere un acto o bases que identifiquen la convocatoria atribuida a 2026."
+        ]
       }
     ],
     "grupo_variantes": true,
@@ -1641,6 +1648,13 @@
         "informe_sha256": "b59c8b956181ad4ab2aca83e274891872a89ff2c39204807459414d536b2fcf0",
         "extractos": [
           "## Valparaíso — candidata de transporte `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`\n\nLas cuentas públicas municipales de 2012 y 2013 describen el Programa BETA de cooperación entre la PUCV y establecimientos de la comuna: sus participantes de 6.º básico a 4.º medio recibieron becas de transporte, materiales académicos y clases universitarias para potenciar talentos. La ficha del corpus, en cambio, atribuye un subsidio municipal mensual de transporte a estudiantes que cursan educación superior. La fuente oficial confirma un apoyo histórico de transporte dentro de otro programa y para otro nivel educativo; no vincula la candidata con BETA ni demuestra que la beca genérica actual no exista.\n\nFuentes: [Cuenta Pública municipal 2012](https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA%20PUBLICA%2029042013.pdf); [Cuenta Pública municipal 2013](https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA_PUBLICA_2013.pdf).\n\n**Decisión:** `REQUIERE_ACLARACION`; no trasladar destinatarios ni cobertura del Programa BETA. Buscar una convocatoria, decreto o ficha municipal que mencione expresamente el subsidio de transporte para educación superior."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
+        "informe_sha256": "140161556ec3188201a05dd185200e56196ac1089aa79d9e99e1f730715b2665",
+        "extractos": [
+          "### `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068` — Beca de Transporte Valparaíso\n\nLa cuenta de 2011 tampoco contiene una línea municipal de transporte de educación superior identificable con esta candidata. “Súmate” aparece como otra beca técnica superior, sin detalle de sus condiciones. El Programa BETA y sus becas de transporte escolares de 2012–2013 constan en el contraste separado de `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`; ninguno demuestra que la candidata 2026 sea la misma modalidad.\n\n**Decisión:** continúa `REQUIERE_ACLARACION`. No atribuirle “Súmate” ni BETA ni trasladar sus condiciones. Falta una fuente específica de la convocatoria alegada."
         ]
       }
     ],
@@ -47050,6 +47064,13 @@
         "informe_sha256": "64db6bcddca7a2d4b9c42aa0c0f394e777d7373b19371febfa9f5ae6cf711c68",
         "extractos": [
           "**Candidatas:** `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d`, `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c`, `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`."
+        ]
+      },
+      {
+        "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
+        "informe_sha256": "140161556ec3188201a05dd185200e56196ac1089aa79d9e99e1f730715b2665",
+        "extractos": [
+          "### `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d` — Beca Municipal Educación Superior Valparaíso"
         ]
       }
     ],

@@ -1,6 +1,6 @@
 # Método vigente de revisión esencial
 
-Actualizado el 21 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Contexto mínimo para retomar: [contexto.md](contexto.md).
+Actualizado el 22 de octubre de 2026. Alcance y estado global: [PLAN_MEJORAS.md](../PLAN_MEJORAS.md). Contexto mínimo para retomar: [contexto.md](contexto.md).
 
 ## Punto de partida
 
