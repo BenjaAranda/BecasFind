@@ -1,42 +1,40 @@
 # Contexto operativo de BecasFind
 
-Actualizado el 21 de octubre de 2026. Este archivo es un índice de continuidad, no una segunda base de datos. Para retomar, leer `AGENTS.md`, `PLAN_MEJORAS.md`, `tasks/plan.md` y comprobar `git status`.
+Actualizado el 21 de octubre de 2026. Este archivo es un índice breve de continuidad, no reemplaza las fuentes de verdad. Al retomar, leer `AGENTS.md`, `PLAN_MEJORAS.md`, este archivo y `tasks/plan.md`; comprobar `git status` y reconstruir el estado desde los artefactos indicados abajo.
 
-## Estado editorial vigente
+## Objetivo activo
 
-- Repositorio `BenjaAranda/BecasFind`; rama observada: `bugfix/security-and-recovery`, siguiendo `origin/bugfix/security-and-recovery`. Comprobar Git al retomar; no fijar aquí el hash del último commit porque cambia con cada actualización.
-- Corpus: 93 archivos originales, 647 referencias y 568 candidatas únicas.
-- Conteos autoritativos: 525 confirmadas esenciales, 2 completas, 16 descartes ratificados y **25 pendientes** (19 requieren aclaración; 6 exclusiones históricas sin ratificar). Reconstruirlos desde `documentacion/auditoria_corpus/procesados/avance/resumen.json`; la cola exacta es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Ignorar cifras históricas de 132, 157 y 291.
-- La revisión vigente se centra solo en candidatas de becas: verificar identidad, fuente oficial específica, beneficio y requisitos publicados. Registrar desconocidos como «No especificado», conservar originales y trazas, y separar confirmación histórica de vigencia/publicación actual. No cerrar por búsquedas sin resultado, HTTP fallido, antigüedad u omisión de un catálogo.
-- Contraste público 21/10/2026: se ampliaron las fuentes oficiales de INACAP para «Beca Red de Egresados» (`34caa8ab…`): Bienvenida 2027 y Red de Exalumnos Destacados describen empleabilidad/actualización y 30% de descuento en Educación Continua, distintos del 15% familiar de pregrado del original. No prueban inexistencia histórica ni resuelven relación con el Reglamento de Becas 2016. Sigue `EXCLUSION_HISTORICA_SIN_RATIFICAR`; sin cierre.
-- Contraste público 21/10/2026: Talca (`49a1cf45…`) contrastado además con Cuentas Públicas 2019–2021 y guía DIDECO; describen JUNAEB, residencia y servicios sociales, sin identificar la beca genérica. Omisión no descarta; falta acto/bases/ficha DIDECO. Se agregó a `CONTRASTE_PADEM_TALCA_2020_2026_10_20.md`.
-- En esta continuación la cola sigue en 25; no hubo decisión editorial que cambie estado. Los nuevos contrastes están en `CONTRASTE_PADEM_TALCA_2020_2026_10_20.md` y `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`.
-- Contraste oficial 21/10/2026 de la Cuenta Pública Iquique 2019 (p. 213): DIDECO registra 362 casos agrupados como «Otros (Informes de Beca e Intendencia)», sin desglose que identifique la candidata de mantención superior, fuente del pago o requisitos. Se añadió a `RECONTRASTE_OFICIAL_MUNICIPALIDADES_PENDIENTES_2026_10_19.md`; no confirma ni descarta las dos fichas genéricas ni permite fusionarlas.
-- Contraste archivístico nuevo de Valparaíso: se revisaron íntegramente dos PDF DIDECO archivados de 2019. Uno no identifica becas superiores ni transporte; el otro menciona colaboración en procesos de becas JUNAEB Presidente de la República e Indígena. Esto acota la gestión documentada en esos materiales, pero no confirma ni demuestra inexistencia de las tres candidatas municipales. Las tres siguen pendientes y separadas. Informe: `documentacion/auditoria_corpus/procesados/CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md`. El total sigue en 25.
-- Contraste oficial histórico adicional de Valdivia (21/10/2026): la Cuenta Pública 2016 distingue las becas estatales y las fichas sociales municipales; las noticias de 2003–2005 describen ayudas deportivas/escolares y un convenio USS para poblaciones específicas. Ninguna vincula la candidata genérica de mantención superior con esas modalidades. Se conservaron las diferencias sin trasladar montos ni cerrar por omisión; el total sigue en 25. Informe actualizado: `documentacion/auditoria_corpus/procesados/RECONTRASTE_OFICIAL_UNIVERSITARIO_Y_VALDIVIA_2026_10_19.md`.
-- Contraste oficial adicional de Victoria (21/10/2026): recuperado y leído visualmente el Reglamento de Ayuda Social aprobado por Decreto Alcaldicio N.º 1148 (23/04/2012), enlazado por la transparencia municipal. Regula ayudas DIDECO generales y apoyo financiero a familias vulnerables, pero no identifica la beca superior ni sus reglas. Se mantiene aclaración; no se transfiere el fondo social global ni se descarta por omisión. Informe: `CONTRASTE_REGLAMENTO_AYUDA_SOCIAL_VICTORIA_2026_10_21.md`.
-- Recontraste público 21/10/2026: la noticia municipal de General Lagos localizada trata de ropa y enseres para un jardín infantil; no acredita ni refuta una beca superior. Las páginas oficiales ENAC revisadas para admisión actual identifican beneficios Mineduc/JUNAEB y una campaña distinta de matrícula $0, sin nombrar las cuatro modalidades históricas pendientes. El acta CNA N.º 1004 y su anexo de acreditación institucional ENAC 2016 tampoco identifican esas cuatro modalidades. No se usa la omisión para descartarlas. Los hallazgos ENAC están en `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md` y `ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md`; la cola sigue en 25.
-- Contraste oficial adicional de Lo Espejo (21/10/2026): Desarrollo Social lista apoyo para postular a becas de educación superior y una publicación de 2023 detalla la tramitación de BPR e Indígena JUNAEB. No identifica la beca municipal DIDECO atribuida al registro ni prueba que no exista una línea separada. Se añadieron ambas fuentes al informe de modalidades y a la ficha pendiente; sigue abierta.
-- Historial reciente y decisiones por hash: consultar los informes nombrados en la columna `carencia_documentada` de la cola, no releer lotes históricos completos.
+Cerrar la revisión esencial de candidatas de becas con evidencia pública oficial, sin contactar instituciones, usar Firecrawl, ejecutar pruebas de aplicación, importar datos ni desplegar. Preservar originales y trazas. No descartar por falta de resultados, enlace caído, antigüedad o ausencia en catálogos. Descartar falsedad o duplicidad solo con evidencia positiva individual. Mantener separadas la confirmación histórica y la vigencia actual.
 
-## Siguiente acción
+## Estado vigente verificado
 
-Tomar un hash de `pendientes_esenciales_actuales.csv`, leer su original en `originales.jsonl` y solo los apartados/informes vinculados. Buscar una fuente pública oficial nueva que pueda resolver su identidad; no repetir búsquedas generales ya documentadas. Si no aparece evidencia resolutiva, conservar el estado y pasar a otro caso. El procedimiento completo está en `tasks/plan.md`.
+Fuente autoritativa: `documentacion/auditoria_corpus/procesados/avance/resumen.json` y cola exacta `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`.
 
-Al haber una decisión respaldada, actualizar el informe individual y los registros canónicos, preservar los originales, ejecutar en este orden `python infra/report-corpus-progress.py` y `python infra/audit-editorial-evidence.py`, revisar el diff y hacer un commit Conventional Commit en español. No hacer un commit si no hay cambio sustantivo.
+- 93 archivos fuente; 647 referencias; 568 candidatas únicas.
+- 525 confirmaciones esenciales; 2 completas; 16 descartes ratificados.
+- 25 abiertas: 19 requieren aclaración y 6 exclusiones históricas siguen sin ratificar.
+- Última comprobación: 21/10/2026. El análisis adicional de fuentes ENAC e INACAP no resolvió ninguna candidata; el conteo no cambió. Ignorar cifras históricas de 132, 157 y 291.
+- La cola nombra los 25 casos, su carencia y los informes/fuentes pertinentes. Leer solo las filas del grupo elegido y sus informes vinculados; no volcar la cola completa ni reconstruirla desde planes antiguos.
 
-## Límites de esta etapa
+## Método de trabajo
 
-- Solo fuentes públicas oficiales; el usuario rechazó contactar instituciones. No usar Firecrawl.
-- No ejecutar pruebas de backend/frontend, importaciones, activaciones ni despliegues en la revisión de becas. El despliegue no ha comenzado; P12–P14 no están autorizadas.
-- No borrar originales, trazas, datos personales ni carpetas de compilación cuya eliminación previa fue rechazada. No tocar `BecasFind - ET.docx`: es un archivo personal sin seguimiento. No hay una limpieza adicional de archivos segura identificada; reducir contexto redundante, no eliminar datos del proyecto.
-- Costo objetivo mensual $0, sin contratar servicios ni comprar dominios. Búsqueda/detalle públicos sin sesión; sesión solo para datos guardados y administración. Mantener estética azul y blanca institucional.
-- PostgreSQL 17; entorno local mediante perfil `dev`, producción `prod`, secretos externos, esquema preinstalado y `ddl-auto: validate`. Recuperación por Gmail SMTP sin costo mediante `spring-boot-starter-mail`; el usuario configurará la cuenta y los secretos. No incluir credenciales en el repositorio.
+Agrupar por institución y seleccionar una fuente pública específica que pueda resolver identidad, beneficio o requisitos principales. Confirmar cuando una fuente oficial identifica el programa exacto; investigar el resto en fuentes oficiales y marcar «No especificado» solo dentro del alcance consultado. Una búsqueda vacía u omisión de catálogo no demuestra inexistencia. Registrar evidencia nueva una sola vez en el informe adecuado y actualizar datos canónicos solo si la fuente corresponde al mismo programa.
 
-## Limpieza y continuidad
+Después de un cambio editorial respaldado, ejecutar en orden `python infra/report-corpus-progress.py` y `python infra/audit-editorial-evidence.py`, revisar el diff y crear commit Conventional Commit con descripción en español. No hacer commit si no hay cambio sustantivo. No repetir búsquedas generales ya documentadas; si una técnica no aporta evidencia, pasar a otra fuente o candidata.
 
-La limpieza autorizada anterior eliminó 609 imágenes regenerables y liberó 647.954.754 bytes. Se conservaron 27 PDF, 611 páginas OCR y las dos imágenes necesarias para verificación visual. No repetir esa limpieza ni borrar artefactos protegidos.
+## Decisiones y restricciones persistentes
 
-Auditoría de espacio del 21/10/2026: `tmp/` ocupa aproximadamente 485 MiB y contiene fuentes públicas y archivos de trabajo asociados a candidatas todavía abiertas; los directorios mayores son `romeral-actas-2026/` (668 archivos; 212 MiB) y `putre-actas-ocr-20261020/` (252 archivos; 78 MiB). No son basura regenerable: conservar mientras respalden informes o candidatas abiertas. `graphify-out/` (7,4 MiB) y `test-results/` (75 KiB) son artefactos locales ignorados por Git, pero se mantienen porque aportan contexto visual/arquitectónico y no liberarlos no afecta el flujo. El escaneo no identificó otro objetivo de limpieza seguro. Los archivos personales sin seguimiento `BecasFind - ET.docx` y `spa.traineddata` siguen protegidos.
+- Solo fuentes públicas; no correos ni solicitudes de transparencia. No Firecrawl.
+- No pruebas backend/frontend, importaciones, activaciones ni despliegue durante la revisión documental. P12–P14 siguen sin autorización.
+- Becas y archivos originales no se borran. `BecasFind - ET.docx` y `spa.traineddata` son archivos personales sin seguimiento: no tocar.
+- Meta de costo mensual: $0; búsqueda/detalle públicos sin sesión; cuenta solo para datos guardados y administración; estética institucional azul y blanca.
+- PostgreSQL 17; perfiles locales `dev` y producción `prod`; secretos externos; producción valida esquema preinstalado. Recuperación por Gmail SMTP gratuito, con la cuenta/secretos pendientes de configuración por el usuario.
+- Los commits nuevos llevan prefijos Conventional Commits y descripciones en español.
 
-Para ahorrar contexto y acelerar futuras sesiones: reconstruir el estado desde `avance/resumen.json`, tomar solo los hashes de la cola en curso y leer únicamente los informes oficiales vinculados; no volcar inventarios completos ni reabrir planes históricos. `tasks/plan.md` contiene el método y `PLAN_MEJORAS.md` el plan general.
+## Espacio y rendimiento
+
+La limpieza histórica documentada eliminó 609 imágenes regenerables (647.954.754 bytes); no repetirla. La mayor parte de `tmp/` contiene fuentes oficiales o archivos de trabajo vinculados a candidatas abiertas y se conserva. No borrar `graphify-out/`, `test-results/`, OCR ni fuentes respaldatorias sin comprobar primero sus referencias.
+
+En esta sesión se retiró únicamente `tmp/INACAP-informe-acreditacion-2024.pdf` (descarga temporal propia de 30.800.266 bytes): el informe no identifica las candidatas INACAP pendientes ni cambia su estado; la fuente oficial sigue enlazable desde el informe de contraste. Los otros archivos temporales no se consideran descartables sin análisis de referencias. Los dos archivos personales sin seguimiento siguen intactos.
+
+Para reducir contexto: consultar el resumen JSON, elegir pocas filas relacionadas de la cola y abrir solo sus informes citados. Los informes individuales conservan el historial probatorio; `tasks/plan.md` conserva el procedimiento y `PLAN_MEJORAS.md` el plan global.
