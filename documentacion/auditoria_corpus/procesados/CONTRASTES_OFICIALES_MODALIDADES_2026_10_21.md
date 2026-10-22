@@ -42,6 +42,21 @@ Se revisaron la [página oficial de Admisión](https://enac.cl/admision/) y la p
 
 **Decisión:** las cuatro candidatas permanecen `EXCLUSION_HISTORICA_SIN_RATIFICAR`; no ratificar ni trasladar beneficios actuales o estatales. Hace falta una fuente institucional pública que identifique individualmente cada modalidad, o evidencia oficial positiva que contradiga su existencia en el periodo atribuido.
 
+## Municipalidad de Victoria — candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`
+
+El PADEM municipal de 2014, en su cuadro “Becas año 2013”, atribuye al Departamento Social 22 asignaciones de Beca Indígena JUNAEB para enseñanza superior y 51 de Beca Práctica Técnico Profesional JUNAEB para enseñanza superior/media. No describe una beca municipal general de mantención como la ficha, cuyos requisitos alegados son RSH 60% y promedio 5,0. La transparencia municipal vigente de “Subsidios y Beneficios Propios” registra en 2026 ayuda social para emergencias y subvenciones a organizaciones; no identifica la ficha de educación superior. Son fuentes oficiales que permiten separar programas, pero el periodo y alcance no prueban inexistencia de una beca adicional ni vinculan esta candidata con un programa concreto.
+
+Fuentes: [PADEM 2014, p. impresa 31](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf); [Transparencia municipal: subsidios y beneficios propios](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/).
+
+**Decisión:** `REQUIERE_ACLARACION`; mantener sin ratificar montos, RSH y rendimiento de la candidata. No reutilizar como nueva evidencia el PADEM 2014 ni la transparencia 2026; hace falta un acto, bases o ficha oficial que la identifique.
+
+## Valparaíso — candidata de transporte `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`
+
+Las cuentas públicas municipales de 2012 y 2013 describen el Programa BETA de cooperación entre la PUCV y establecimientos de la comuna: sus participantes de 6.º básico a 4.º medio recibieron becas de transporte, materiales académicos y clases universitarias para potenciar talentos. La ficha del corpus, en cambio, atribuye un subsidio municipal mensual de transporte a estudiantes que cursan educación superior. La fuente oficial confirma un apoyo histórico de transporte dentro de otro programa y para otro nivel educativo; no vincula la candidata con BETA ni demuestra que la beca genérica actual no exista.
+
+Fuentes: [Cuenta Pública municipal 2012](https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA%20PUBLICA%2029042013.pdf); [Cuenta Pública municipal 2013](https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA_PUBLICA_2013.pdf).
+
+**Decisión:** `REQUIERE_ACLARACION`; no trasladar destinatarios ni cobertura del Programa BETA. Buscar una convocatoria, decreto o ficha municipal que mencione expresamente el subsidio de transporte para educación superior.
 ## Alcance
 
 Las fuentes nuevas de General Lagos y ENAC se verificaron en páginas oficiales públicas el 21 de octubre de 2026. Junto con los contrastes de Tierra Amarilla, Concepción y Lo Espejo, identifican modalidades o servicios distintos, pero no resuelven las candidatas generales. No son evidencia negativa sobre otros programas. Las fichas de esos municipios permanecen abiertas y las cuatro candidatas ENAC siguen sin ratificación hasta encontrar una fuente pública que identifique las líneas exactas o evidencia individual que contradiga su existencia.
