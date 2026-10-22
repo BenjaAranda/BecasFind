@@ -4,7 +4,7 @@ Actualizado el 21 de octubre de 2026. Este archivo es un índice de continuidad,
 
 ## Estado editorial vigente
 
-- Repositorio `BenjaAranda/BecasFind`; rama observada: `bugfix/security-and-recovery`, siguiendo `origin/bugfix/security-and-recovery`. Último commit observado: `d18281a docs: ratificar descarte UCT limitado a 2026`.
+- Repositorio `BenjaAranda/BecasFind`; rama observada: `bugfix/security-and-recovery`, siguiendo `origin/bugfix/security-and-recovery`. Comprobar Git al retomar; no fijar aquí el hash del último commit porque cambia con cada actualización.
 - Corpus: 93 archivos originales, 647 referencias y 568 candidatas únicas.
 - Conteos autoritativos: 525 confirmadas esenciales, 2 completas, 16 descartes ratificados y **25 pendientes** (19 requieren aclaración; 6 exclusiones históricas sin ratificar). Reconstruirlos desde `documentacion/auditoria_corpus/procesados/avance/resumen.json`; la cola exacta es `documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv`. Ignorar cifras históricas de 132, 157 y 291.
 - La revisión vigente se centra solo en candidatas de becas: verificar identidad, fuente oficial específica, beneficio y requisitos publicados. Registrar desconocidos como «No especificado», conservar originales y trazas, y separar confirmación histórica de vigencia/publicación actual. No cerrar por búsquedas sin resultado, HTTP fallido, antigüedad u omisión de un catálogo.
