@@ -36,6 +36,12 @@ Fuentes: [Municipalidad de General Lagos — noticia de apoyo a estudiantes](htt
 
 **Decisión:** `REQUIERE_ACLARACION`; mantener separados el apoyo al jardín infantil, las becas estatales JUNAEB y la candidata de educación superior.
 
+### Actas del concejo 2026 — revisión OCR del 22/10/2026
+
+El [índice oficial de actas ordinarias 2026](https://www.portalvisviri.cl/transparencia/concejomunicipal%20actas%202026.html) enlaza 27 sesiones. Se recuperaron y revisaron mediante OCR en español las 285 páginas de esos documentos escaneados. La búsqueda no halló menciones legibles a becas ni pasajes que vincularan un aporte estudiantil con esta candidata. Este resultado acota lo que publican esas actas revisadas; la ausencia de una mención no demuestra que la ayuda no exista.
+
+**Decisión:** se mantiene `REQUIERE_ACLARACION`. Falta una publicación oficial específica —bases, decreto o convocatoria— que identifique la ayuda de educación superior atribuida y sus destinatarios. No se trasladan requisitos de JUNAEB ni de otros apoyos municipales.
+
 ## ENAC — cuatro candidatas históricas
 
 Se revisaron la [página oficial de Admisión](https://enac.cl/admision/) y la portada institucional vigente para Admisión 2027. La primera enumera gratuidad, CAE, becas Mineduc y JUNAEB; la portada promociona «Beca Matrícula Costo $0» para admisión temprana. Ninguna fuente identifica las cuatro modalidades del corpus —Apoyo Familiar, Deportiva, Titulado y Vocación de Servicio— ni las condiciones atribuidas a ellas. La diferencia de año y el alcance público de esas páginas impiden usar la omisión como prueba de inexistencia histórica. Los originales ENAC, además, contienen filas concatenadas/campos desplazados que requieren trazabilidad, pero esa corrupción de origen no prueba por sí sola falsedad.
