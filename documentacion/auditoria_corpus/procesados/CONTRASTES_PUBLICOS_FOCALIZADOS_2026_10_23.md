@@ -82,6 +82,12 @@ Candidata `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`.
 
 Las [bases oficiales de la Beca Artística Sixto Rojas](https://www.municipioiquique.cl/files/1439) y la [convocatoria municipal](https://municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta) describen una modalidad de apoyo artístico-cultural, incluida su línea de Proyección para estudios superiores o posgrado. Esa identidad y ese propósito específico no acreditan la beca general DIDECO alegada. Se conserva separada; no copiar importe, elegibilidad ni periodicidad de la modalidad artística.
 
+El archivo histórico de [Transparencia Activa de Iquique](https://www.iquiquetransparente.cl/progsociales.html) enlaza el Decreto Alcaldicio N.º 061/2016. Se recuperó el [PDF oficial completo](https://www.iquiquetransparente.cl/Descargas/Actos_resolucion/2016/ApruebaProgramas/061.pdf) y se revisaron visualmente sus siete páginas porque es un documento escaneado. El decreto aprueba programas sociales DIDECO para 2016 y asigna presupuesto a las oficinas municipales allí enumeradas, incluida Juventud; su descripción cubre talleres, actividades y fondos concursables juveniles, pero no identifica una beca general de educación superior.
+
+El documento acredita ese plan y presupuesto de 2016; no es una nómina exhaustiva de todas las ayudas de Iquique para otros años y no contradice por sí solo una beca de otra cohorte. Tampoco vincula la candidata general con la Beca Artística Sixto Rojas. SHA-256 del PDF revisado: `479273ddae5ddb36b9cd61704129b1b357ca94fec52b6bebc9f0a07b8e6704c8`.
+
+**Decisión:** la candidata general sigue `REQUIERE_ACLARACION`; no se alteran sus campos ni se descarta. Hace falta una convocatoria, bases, decreto o registro municipal que la identifique específicamente.
+
 ## Límites de cierre
 
 Estos contrastes aportan delimitación positiva de programas cercanos y ligas oficiales nuevas, pero no resuelven la identidad de las candidatas. No se modifica ningún dato canónico ni el estado de la cola. Para confirmar aún hace falta una fuente pública que enlace el nombre o la descripción original con un programa concreto; para descartar, evidencia positiva e individual de duplicidad, inexistencia o fuera de alcance.
