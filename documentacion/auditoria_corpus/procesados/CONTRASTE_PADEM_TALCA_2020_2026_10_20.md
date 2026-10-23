@@ -34,3 +34,13 @@ La tabla 74 enumera Beca Presidente de la República, Beca Indígena y Becas TIC
 Se consultaron las [Cuentas Públicas de Talca 2019](https://www.talca.cl/descargas-talca/Cuenta%20Publica%202019.pdf), [2020](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf) y [2021](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2021.pdf), además de la [guía municipal DIDECO](https://www.talca.cl/dideco/oficinas.php). Los fragmentos accesibles describen Becas Indígena y Presidente de la República financiadas por JUNAEB, Beca de Residencia Indígena y Programa de Residencia Familiar; la guía DIDECO muestra oficina RSH/subsidios y menciona que las resoluciones de programas sociales anteceden sus convocatorias, sin identificar esta beca. No atribuir esos beneficios a la candidata. Estas fuentes no constituyen prueba de inexistencia de una línea distinta ni validan el importe, RSH, NEM o entrevista social del original.
 
 **Decisión:** sin cambio; `REQUIERE_ACLARACION`. Sigue faltando la convocatoria, bases o acto DIDECO que identifique la beca general atribuida a la ficha. La búsqueda de estos documentos oficiales no equivale a revisión integral de todas las cuentas públicas.
+
+## Revisión complementaria del capítulo DIDECO — 23 de octubre de 2026
+
+Se examinó el apartado de Desarrollo Comunitario de la misma [Cuenta Pública de Gestión 2025](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2025.pdf), no cubierto por la lectura DAEM anterior. Se revisaron visualmente las páginas impresas 117–119 (PDF 118–120):
+
+- La sección «Asistencia social» describe ayudas municipales para necesidades básicas de familias en pobreza o vulnerabilidad. Informa una inversión de M$1.239.000 y 47.239 beneficios sociales en 2025; la Tabla 83 desglosa enseres, habitabilidad, servicios funerarios y aportes de salud.
+- En la página impresa 119, DIDECO informa 650 certificados sociales o informes socioeconómicos emitidos para estudiantes universitarios que postulaban a becas, además de personas que postulaban a beneficios de otros servicios públicos.
+- En el capítulo DAEM, la Tabla 74 (página impresa 109) identifica Beca Presidente de la República, Beca Indígena y Becas TIC con coberturas y cifras propias. Esas modalidades no son la beca DIDECO general de la candidata.
+
+La cuenta acredita asistencia social municipal general y apoyo documental para estudiantes que postulan a becas; no identifica un aporte municipal propio de educación superior ni vincula la candidata con alguno de esos servicios. Este contraste no prueba inexistencia en 2026. No valida monto, RSH, NEM, entrevista ni fechas del registro; conservarlos sin ratificar y mantener `REQUIERE_ACLARACION` hasta hallar un acto, bases o ficha específica de DIDECO.
