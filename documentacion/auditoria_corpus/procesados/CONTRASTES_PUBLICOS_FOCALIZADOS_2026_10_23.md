@@ -2,6 +2,24 @@
 
 Este apunte registra fuentes oficiales nuevas consultadas para casos abiertos. No cambia estados editoriales: ninguna de las páginas siguientes identifica inequívocamente la candidata descrita en el registro.
 
+## Camiña — portal oficial de Transparencia Activa
+
+Candidata `5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d` — “Beca Municipal de Apoyo a la Educación Superior”.
+
+El [Consejo para la Transparencia publica el directorio de organismos regulados](https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html), donde identifica a la Municipalidad de Camiña como MU025 y proporciona su enlace de Transparencia Activa: [portal oficial de MU025](https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU025). Al abrirlo, el portal respondió HTTP 403; las búsquedas públicas exactas por el identificador y por el nombre de la beca no recuperaron actos, bases o una convocatoria. El sitio municipal histórico tampoco resolvió durante esta consulta. Este resultado confirma que existe un enlace institucional registrado, pero no permite leer sus contenidos ni constituye prueba sobre existencia o inexistencia de la beca.
+
+**Decisión:** `REQUIERE_ACLARACION`. No se confirma ni se descarta la candidata y no se trasladan las condiciones de la beca escolar de uniforme identificada en el PEI del Liceo Camiña. Para cerrar identidad, beneficio y elegibilidad sigue faltando una fuente pública municipal específica y legible.
+
+## Puerto Montt — seguimiento del Reglamento N.º 0004/2017
+
+Candidata `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` — “Beca Municipal Educación Superior”.
+
+El [registro municipal de requerimientos de concejales de 2026](https://www.puertomontt.cl/wp-content/uploads/2025/12/REQUERIMIENTO-2026-al-dia-03.06.2026.pdf), p. 3 del PDF, consigna una solicitud del 6 de enero de 2026 a la Dirección Jurídica para compartir el Reglamento N.º 0004, de 29 de marzo de 2017, titulado “Otorgamiento y administración incentivos para estudiantes con mejores puntajes en PAES egresados de establecimientos educacionales de la comuna de Puerto Montt y otros incentivos”. Registra como respuesta de la unidad el Ord. 132 del 21 de enero y como respuesta al concejal el Ord. 193 del 26 de enero; la solicitud figura cerrada. La búsqueda pública por ambos números de oficio y el número de reglamento solo recuperó este registro, no el texto de los oficios ni el reglamento adjunto.
+
+El antecedente identifica un trámite municipal real para obtener la versión actualizada de una norma que contempla incentivos estudiantiles, pero no revela su contenido ni permite saber si alguno corresponde a la ficha genérica de mantención DIDECO. Tampoco demuestra que el reglamento sea la base de esa candidata.
+
+**Decisión:** `REQUIERE_ACLARACION`. Mantener separados el Reglamento N.º 0004/2017 y sus incentivos aún no leídos de la candidata general. No trasladar identidad, montos o requisitos; reabrir esta línea solo si se publica el Ord. 132/193 o el reglamento legible.
+
 ## Talca — Beca Municipal Educación Superior
 
 Candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`.
