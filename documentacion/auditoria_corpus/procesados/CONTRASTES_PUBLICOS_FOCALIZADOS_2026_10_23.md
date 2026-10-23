@@ -32,6 +32,10 @@ Candidata `5ab3468f5021` (hash completo en la cola vigente).
 
 La [Cuenta Pública municipal 2023](https://muniromeral.cl/romeral/wp-content/uploads/2024/04/cuenta_pub_2023_web.pdf) registra por separado el acuerdo 18, “Aprueba Programas estudiantiles”, y el acuerdo 19, “Aprueba Ordenanza apoyo estudiantil”, ambos de 9 de febrero de 2023. El documento prueba que se aprobaron esos instrumentos, pero no incorpora el texto de la ordenanza ni el detalle de los programas. Una noticia periodística sobre alojamiento de estudiantes en Talca no sustituye la fuente municipal ni determina si coincide con esta candidata. Mantener la identidad, el nivel, el beneficio y los requisitos sin ratificar hasta recuperar el instrumento específico.
 
+La [Cuenta Pública de Gestión 2014](https://muniromeral.cl/romeral/wp-content/uploads/2015/04/Cuenta-Publica-Romeral-2014.compressed.pdf) describe la Beca Presidente de la República como un programa social del Ministerio del Interior, con 21 estudiantes de enseñanza media y $5.442.570 reportados, y la Beca Indígena como un aporte para estudiantes de ascendencia indígena en básica, media y superior. Las publicaciones municipales de 2013–2014 también presentan procesos de postulación y renovación de BPR e Indígena. Esto identifica modalidades estatales gestionadas localmente; no permite equipararlas con la ordenanza estudiantil aprobada en 2023 ni con la candidata genérica de educación superior.
+
+**Decisión:** se mantienen sin ratificar la identidad y las reglas de la candidata. No trasladar niveles, montos ni requisitos JUNAEB. El documento municipal de 2014 es una delimitación histórica positiva de programas cercanos, no evidencia de inexistencia de otra línea.
+
 ## Iquique — beca municipal general
 
 Candidata `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`.
