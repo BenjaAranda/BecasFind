@@ -22,6 +22,14 @@ Se registra `8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216` c
 
 El contraste oficial nuevo del 20 de octubre de 2026 amplía la pista sobre becas sociales municipales, pero la publicación no identifica sus bases, población ni cobertura. La candidata canónica continúa en `REQUIERE_ACLARACION`; no se convierte la mención de becas sociales en confirmación de una ayuda de mantención superior ni se atribuyen requisitos del original.
 
+### Actualización pública del programa Hijo de Pescador — 23/10/2026
+
+La Municipalidad informó el 6 de mayo de 2026 que el Concejo aprobó regularizar pagos pendientes de 2025 de la beca Hijo de Pescador y que, terminado ese proceso, se abrirían las bases de 2026. La publicación también describe una ampliación que el municipio quería impulsar: además de hijos de pescadores, incluir nietos y egresados de establecimientos subvencionados. Esto confirma continuidad y una modificación anunciada para una modalidad identificada por parentesco con pescadores artesanales; no publica las bases 2026 ni la vincula con la candidata genérica DIDECO que registra RSH 60%, NEM 5,0 y monto de libre disposición.
+
+Fuente: [Municipalidad de Puerto Montt, regularización de la beca Hijo de Pescador](https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/).
+
+**Decisión:** mantener la candidata canónica `ba64f69ca2f4923b0cc3eeaab9e3b32f62b3d1640a4d98961cc106164d9c7212` en `REQUIERE_ACLARACION`. No trasladar las reglas de la modalidad pesquera ni inferir que la apertura anunciada ocurrió. La fuente no confirma la beca general registrada ni contradice positivamente su existencia.
+
 ## Reglamento municipal localizado en el registro público de requerimientos — 23/10/2026
 
 El [registro oficial de requerimientos del Concejo Municipal de 2026](https://www.puertomontt.cl/wp-content/uploads/2025/12/Requerimientos-Concejales-ano-2026-hasta-13-02-2026.pdf) identifica un instrumento concreto: Reglamento N.º 0004, de 29/03/2017, «Otorgamiento y administración incentivos para estudiantes con mejores puntajes en PAES egresados de establecimientos educacionales de la comuna de Puerto Montt y Otros Incentivos». El registro consigna que la concejala solicitó copia; la unidad respondió mediante Ord. N.º 132, de 21/01/2026, y la respuesta a la concejala consta como Ord. N.º 193, de 26/01/2026; el requerimiento aparece contestado.
