@@ -92,6 +92,12 @@ La candidata general de educación superior `b8b0e486aadb5a9ea10a112dcb4f875f4b7
 
 **Decisión:** la candidata general permanece `REQUIERE_ACLARACION`; falta una fuente oficial que la identifique por separado.
 
+### Cuenta Pública DIDECO 2019 — 23 de octubre de 2026
+
+La [Cuenta Pública municipal 2019](https://www.municipioiquique.cl/descargas/cuenta-publica/cuentapublica2019.pdf), p. impresa 213, registra 362 atenciones en la categoría «Otros (Informes de Beca e Intendencia)» dentro de la actividad de Acción Social DIDECO. La tabla no identifica esos informes como aportes económicos, no delimita educación superior ni los vincula con la candidata. Es evidencia de gestión/atención social, no de una beca municipal propia; no confirma ni descarta una línea separada.
+
+**Decisión:** mantener `REQUIERE_ACLARACION`; no convertir los informes sociales en beneficio ni importar monto, RSH, NEM o calendario de la Beca Artística Sixto Rojas.
+
 ## Municipalidad de Valdivia — candidata `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18`
 
 En una nueva lectura de la página oficial de [Acción Social municipal](https://munivaldivia.cl/2017/12/15/social/), su función relativa a becas se formula como difusión de las becas otorgadas por el Estado, orientación de postulaciones, evaluación socioeconómica y administración coordinada con Mineduc y la Dirección de Servicios Incorporados. Esto concreta la función de intermediación de DIDECO que los antecedentes previos describían en general; no identifica una beca municipal de mantención de libre disposición para educación superior. La fuente es de 2017 y no es un inventario exhaustivo de beneficios municipales posteriores.
