@@ -34,6 +34,6 @@ Para el siguiente lote, leer primero la fila individual de `pendientes_esenciale
 
 - Tras cada cambio probatorio: `python infra/report-corpus-progress.py`, después `python infra/audit-editorial-evidence.py`, `git diff --check` y revisión del diff. No contar una distinción de modalidades como confirmación.
 - El usuario autorizó GitHub. Cometer cambios sustantivos con prefijo Conventional Commits y descripción en español.
-- Tras quitar la copia duplicada, el inventario de `tmp/` quedó en 628,6 MB (558,8 MB en PDFs); `frontend/node_modules` ocupa 178,2 MB y `graphify-out/` 7,4 MB. Se eliminaron 609 imágenes regenerables en una limpieza anterior; no repetirla. Se preservan fuentes vinculadas a casos abiertos, OCR, `graphify-out/` y dependencias instaladas.
+- Tras retirar una copia PDF exacta adicional (1,4 MB) de las actas de Putre, `tmp/` queda en 627,2 MB (aprox.; inventario medido el 23/10/2026); `frontend/node_modules` ocupa 170,4 MB y `graphify-out/` 7,4 MB. Se eliminaron 609 imágenes regenerables en una limpieza anterior; no repetirla. Se preservan fuentes vinculadas a casos abiertos, OCR, `graphify-out/` y dependencias instaladas.
 - En esta sesión se eliminó una copia binaria idéntica de un acta de Romeral; se conservaron 11,29 MB. La fuente idéntica permanece en `tmp/romeral_acta_20_2026.pdf`.
 - No tocar los archivos personales sin seguimiento `BecasFind - ET.docx` ni `spa.traineddata`.
