@@ -30,6 +30,14 @@ También se consultó el [portal municipal de fondos concursables](https://trami
 
 **Decisión:** las tres candidatas siguen `REQUIERE_ACLARACION`, sin fusión ni descarte. No transferirles condiciones JUNAEB ni de fondos concursables. Continúa faltando un acto, unas bases o una convocatoria pública que vincule cada ficha con el programa municipal exacto.
 
+## Cuenta Pública municipal 2017 — contraste de becas tramitadas por DIDECO
+
+La [Cuenta Pública de Valparaíso 2017](https://www.munivalpo.cl/repositorio/archivos/Cuenta%20Publica/CUENTA_PUBLICA_2017.pdf), en el cuadro de la sección “Subsidios, pensiones y becas”, encabeza los recursos reportados como fondos que emanan del Gobierno y son intermediados mediante la gestión municipal. Registra 651 beneficiarios de la Beca Presidente de la República y 81, 89 y 48 beneficiarios de la Beca Indígena para enseñanza básica, media y superior, respectivamente. En la fila “Otras becas otorgadas en la comuna de educación superior” el cuadro no consigna beneficiarios ni monto. El mismo informe, en el apartado de gestión DIDECO, registra 1.092 becas tramitadas y 677 otorgadas, pero no las desglosa por programa.
+
+Este antecedente confirma actividad municipal de tramitación de becas en 2017 y permite atribuir las líneas nominadas a recursos estatales. No identifica la candidata general de 2026 ni aclara qué programas integraban “otras becas”; tampoco confirma una beca municipal de mantención o transporte ni demuestra su inexistencia.
+
+**Decisión:** las tres candidatas permanecen `REQUIERE_ACLARACION` y separadas. No asignarles los montos, requisitos o niveles de las becas JUNAEB; no usar la fila sin detalle como evidencia de identidad ni de descarte.
+
 ## Contraste adicional en Transparencia Activa — 23 de octubre de 2026
 
 Se revisó la sección municipal [Programas de Subsidios y Beneficios Municipales](https://www.munivalpo.cl/transparencia/paginas/multi_pagina.aspx?pag=tab-subsidios_beneficios_municipales.html&titulo=Programas+de+Subsidios+y+Beneficios+Municipales). El índice muestra “Beneficios Sociales Propios - Departamento de Desarrollo y Promoción Social” como vigente, pero el archivo enlazado es una síntesis de febrero de 2017. Esa ficha enumera ayudas de DIDECO como alimentos y mercadería, medicamentos, vivienda de emergencia, materiales de construcción y pago de arriendo. No contiene una beca de educación superior ni una modalidad de transporte estudiantil en el documento consultado. Por ser una síntesis mensual de 2017 y no un registro histórico integral, su silencio no demuestra que las tres candidatas nunca hayan existido.
