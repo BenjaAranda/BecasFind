@@ -53,3 +53,13 @@ La convocatoria y las [bases municipales de Becas de Excelencia y Proyección De
 Candidata `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`.
 
 El [portal institucional vigente de becas](https://portal.inacap.cl/financiamiento-estudiantil/becas) distingue becas estatales, becas internas y alternativas para alumnos nuevos y antiguos. La página de [Red de Exalumnos Destacados](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte) vincula esa red con desarrollo laboral, actualización profesional y descuentos de Educación Continua para titulados; la [guía oficial de bienvenida 2026](https://digital.inacap.cl/bienvenida/docs/guia-estudiantes-2026.pdf) describe servicios de empleabilidad de la red. Estas fuentes no acreditan el 15% del arancel de pregrado para familiares que atribuye la candidata ni descartan una beca histórica distinta. Mantener `EXCLUSION_HISTORICA_SIN_RATIFICAR` y no trasladar beneficios de la red.
+
+## Victoria — Cuenta Pública 2024 (lectura directa), 23 de octubre de 2026
+
+Candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`.
+
+Se descargó desde el dominio municipal y se extrajo el texto del PDF completo (304 páginas) de la [Cuenta Pública de Gestión Municipal 2024](https://victoriachile.cl/wp-content/uploads/2025/07/Cuenta-Publica-2024-Municipalidad-de-Victoria.pdf). En la p. impresa 2, el índice clasifica “Programa de Becas de Mantención JUNAEB” dentro de Desarrollo Humano y Cultural. La p. impresa 17 atribuye expresamente a JUNAEB la Beca Presidente de la República y la Beca Indígena; informa 62 becas Presidente para enseñanza media y 548 Becas Indígenas de básica y media, financiadas con recursos JUNAEB. La p. impresa 199 también separa esos aportes estatales de “Ayuda Social Municipalidad”, que aparece como partida distinta del presupuesto municipal.
+
+El documento permite identificar la fuente y el alcance 2024 de las líneas JUNAEB tramitadas localmente y distinguirlas del rubro municipal de asistencia social. No menciona la supuesta beca municipal de mantención superior ni liga a ella el aporte anual, el RSH 60%, el promedio 5,0 o los documentos descritos en la candidata. El rótulo del índice y el detalle desarrollado se limitan a becas estatales de enseñanza básica/media; no demuestran inexistencia de un apoyo superior aparte.
+
+**Decisión:** `REQUIERE_ACLARACION`. No transferir montos o criterios JUNAEB ni el presupuesto global de ayuda social. Se conserva pendiente, sin cambios al registro canónico ni descarte. La fuente nueva no permite confirmar la identidad esencial de la candidata.
