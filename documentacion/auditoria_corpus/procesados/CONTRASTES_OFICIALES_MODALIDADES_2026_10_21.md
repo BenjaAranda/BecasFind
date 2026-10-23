@@ -56,6 +56,18 @@ Fuentes: [PADEM 2014, p. impresa 31](https://victoriachile.cl/wp-content/uploads
 
 **Decisión:** `REQUIERE_ACLARACION`; mantener sin ratificar montos, RSH y rendimiento de la candidata. No reutilizar como nueva evidencia el PADEM 2014 ni la transparencia 2026; hace falta un acto, bases o ficha oficial que la identifique.
 
+### Contraste adicional: PADEM de Victoria 2016 — 23 de octubre de 2026
+
+Se recuperó y leyó el [PADEM oficial de Victoria 2016](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2016.pdf), p. impresa 43 (PDF p. 45), que informa becas en proceso durante 2015. Su cuadro registra la **Beca de Práctica Técnico Profesional (BPTP)** como aporte de mérito para estudiantes vulnerables con rendimiento sobresaliente y cuenta 99 asignaciones en la columna Liceo B-11; la fuente del cuadro es el Departamento Social municipal. La ficha oficial actual de [JUNAEB](https://buscatubeneficio.junaeb.cl/?_sf_s=becas+estudiantiles) clasifica BPTP para enseñanza media. Por tanto, esta evidencia identifica una modalidad histórica distinta de la beca general de educación superior DIDECO del original; no prueba que fuera la única ayuda municipal ni contradice por sí sola otra línea de educación superior.
+
+**Decisión:** no trasladar BPTP, sus beneficiarios ni sus criterios a la candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. Sigue `REQUIERE_ACLARACION`: el PADEM no identifica el aporte anual de educación superior, su monto, RSH 60% o NEM 5,0. No descartar por omisión; se requiere un acto, bases o convocatoria que vincule positivamente esa ficha con un programa municipal concreto.
+
+## Municipalidad de Valdivia — candidata `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18`
+
+En una nueva lectura de la página oficial de [Acción Social municipal](https://munivaldivia.cl/2017/12/15/social/), su función relativa a becas se formula como difusión de las becas otorgadas por el Estado, orientación de postulaciones, evaluación socioeconómica y administración coordinada con Mineduc y la Dirección de Servicios Incorporados. Esto concreta la función de intermediación de DIDECO que los antecedentes previos describían en general; no identifica una beca municipal de mantención de libre disposición para educación superior. La fuente es de 2017 y no es un inventario exhaustivo de beneficios municipales posteriores.
+
+**Decisión:** la candidata continúa `REQUIERE_ACLARACION`. No trasladar el alcance de la gestión de becas estatales a la ficha ni usarlo para negar una línea municipal separada. El aporte, los requisitos de RSH y rendimiento, documentos y calendario originales siguen sin confirmación; falta una convocatoria o acto oficial que enlace expresamente el programa con la candidata.
+
 ## Valparaíso — candidata de transporte `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068`
 
 Las cuentas públicas municipales de 2012 y 2013 describen el Programa BETA de cooperación entre la PUCV y establecimientos de la comuna: sus participantes de 6.º básico a 4.º medio recibieron becas de transporte, materiales académicos y clases universitarias para potenciar talentos. La ficha del corpus, en cambio, atribuye un subsidio municipal mensual de transporte a estudiantes que cursan educación superior. La fuente oficial confirma un apoyo histórico de transporte dentro de otro programa y para otro nivel educativo; no vincula la candidata con BETA ni demuestra que la beca genérica actual no exista.
