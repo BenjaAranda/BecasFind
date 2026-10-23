@@ -21,3 +21,11 @@ La cuenta de 2011 no identifica estas fichas con “Súmate” ni acredita los i
 La cuenta de 2011 tampoco contiene una línea municipal de transporte de educación superior identificable con esta candidata. “Súmate” aparece como otra beca técnica superior, sin detalle de sus condiciones. El Programa BETA y sus becas de transporte escolares de 2012–2013 constan en el contraste separado de `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`; ninguno demuestra que la candidata 2026 sea la misma modalidad.
 
 **Decisión:** continúa `REQUIERE_ACLARACION`. No atribuirle “Súmate” ni BETA ni trasladar sus condiciones. Falta una fuente específica de la convocatoria alegada.
+
+## Contraste del portal municipal vigente — 23 de octubre de 2026
+
+Se revisó la página institucional actual de [Becas de la Municipalidad de Valparaíso](https://municipalidaddevalparaiso.cl/becas/). Esta identifica la Beca Presidente de la República y la Beca Indígena como beneficios estatales: señala que el municipio orienta y gestiona postulaciones, mientras JUNAEB define la selección. La página no identifica las tres candidatas anteriores ni publica sus bases, importe, RSH, NEM o calendario. Su alcance es una página informativa de beneficios; que no enumere las candidatas no demuestra que una línea municipal separada no exista, en el presente o históricamente.
+
+También se consultó el [portal municipal de fondos concursables](https://tramites.munivalpo.cl/fondos), que muestra cuatro convocatorias municipales de 2026 dirigidas a personas jurídicas. Esas convocatorias no son becas individuales y no identifican las candidatas; el catálogo de fondos tampoco se trata como un registro exhaustivo de beneficios sociales.
+
+**Decisión:** las tres candidatas siguen `REQUIERE_ACLARACION`, sin fusión ni descarte. No transferirles condiciones JUNAEB ni de fondos concursables. Continúa faltando un acto, unas bases o una convocatoria pública que vincule cada ficha con el programa municipal exacto.
