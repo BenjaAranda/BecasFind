@@ -8,6 +8,8 @@ Candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`.
 
 La [Cuenta Pública municipal 2019](https://www.talca.cl/descargas-talca/Cuenta%20Publica%202019.pdf) describe la Beca Indígena y la Beca Presidente de la República como prestaciones estatales tramitadas y coordinadas con JUNAEB. La [Cuenta Pública 2020](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf) vuelve a identificar la Beca de Residencia Indígena como financiada por JUNAEB. Son modalidades estatales distintas de la supuesta beca municipal general de mantención. La consulta focalizada del sitio municipal no produjo convocatoria ni bases de esta candidata; esa ausencia no demuestra que no exista. Mantener beneficio, identidad y elegibilidad sin ratificar; no trasladar montos ni requisitos.
 
+La Cuenta Pública 2019 además publica reglas históricas de esas becas JUNAEB: Beca Indígena de educación superior con $638.000 en diez cuotas, y Beca Presidente de la República con 1,24 UTM mensuales en diez cuotas para educación superior. Esos montos pertenecen a las becas estatales descritas y no a la candidata municipal general. El rastreo adicional del sitio municipal no encontró una convocatoria específica de esta última; el caso permanece abierto.
+
 ## Concepción — Beca Educación Superior
 
 Candidata `f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55`.
