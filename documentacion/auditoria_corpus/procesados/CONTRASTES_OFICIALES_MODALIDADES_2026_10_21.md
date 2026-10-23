@@ -42,6 +42,12 @@ El [índice oficial de actas ordinarias 2026](https://www.portalvisviri.cl/trans
 
 **Decisión:** se mantiene `REQUIERE_ACLARACION`. Falta una publicación oficial específica —bases, decreto o convocatoria— que identifique la ayuda de educación superior atribuida y sus destinatarios. No se trasladan requisitos de JUNAEB ni de otros apoyos municipales.
 
+### Contraste adicional: documento social municipal de becas JUNAEB — 23 de octubre de 2026
+
+El portal de transparencia municipal mantiene un [documento de requisitos para Beca Indígena y Beca Presidente de la República](https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf). El texto describe procesos 2012–2013 de beneficios estatales: para Beca Indígena indica $607.000 en diez cuotas en educación superior, ascendencia indígena certificada, rendimiento académico y situación socioeconómica; la postulación superior se realiza en la DAE y, si no hay asistente social, en el municipio del domicilio familiar. También consigna requisitos documentales de ambas becas. Este documento confirma el papel de apoyo/tramitación local para JUNAEB en ese periodo; no identifica una beca municipal propia de apoyo estudiantil de educación superior ni vincula con ella el monto o los requisitos.
+
+**Decisión:** la candidata `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131` sigue `REQUIERE_ACLARACION`. No trasladar los $607.000, el NEM ni la elegibilidad indígena de JUNAEB. Hace falta una fuente pública específica de la ayuda municipal alegada; la antigüedad y el alcance del documento no prueban que esa ayuda no exista.
+
 ## ENAC — cuatro candidatas históricas
 
 Se revisaron la [página oficial de Admisión](https://enac.cl/admision/) y la portada institucional vigente para Admisión 2027. La primera enumera gratuidad, CAE, becas Mineduc y JUNAEB; la portada promociona «Beca Matrícula Costo $0» para admisión temprana. Ninguna fuente identifica las cuatro modalidades del corpus —Apoyo Familiar, Deportiva, Titulado y Vocación de Servicio— ni las condiciones atribuidas a ellas. La diferencia de año y el alcance público de esas páginas impiden usar la omisión como prueba de inexistencia histórica. Los originales ENAC, además, contienen filas concatenadas/campos desplazados que requieren trazabilidad, pero esa corrupción de origen no prueba por sí sola falsedad.
@@ -61,6 +67,14 @@ Fuentes: [PADEM 2014, p. impresa 31](https://victoriachile.cl/wp-content/uploads
 Se recuperó y leyó el [PADEM oficial de Victoria 2016](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2016.pdf), p. impresa 43 (PDF p. 45), que informa becas en proceso durante 2015. Su cuadro registra la **Beca de Práctica Técnico Profesional (BPTP)** como aporte de mérito para estudiantes vulnerables con rendimiento sobresaliente y cuenta 99 asignaciones en la columna Liceo B-11; la fuente del cuadro es el Departamento Social municipal. La ficha oficial actual de [JUNAEB](https://buscatubeneficio.junaeb.cl/?_sf_s=becas+estudiantiles) clasifica BPTP para enseñanza media. Por tanto, esta evidencia identifica una modalidad histórica distinta de la beca general de educación superior DIDECO del original; no prueba que fuera la única ayuda municipal ni contradice por sí sola otra línea de educación superior.
 
 **Decisión:** no trasladar BPTP, sus beneficiarios ni sus criterios a la candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. Sigue `REQUIERE_ACLARACION`: el PADEM no identifica el aporte anual de educación superior, su monto, RSH 60% o NEM 5,0. No descartar por omisión; se requiere un acto, bases o convocatoria que vincule positivamente esa ficha con un programa municipal concreto.
+
+## Iquique — beca genérica de educación superior y Beca Artística Sixto Rojas — 23 de octubre de 2026
+
+Las [bases municipales de la Beca Artística Sixto Rojas Acosta](https://www.municipioiquique.cl/files/1439) y la [convocatoria municipal de 2021](https://www.municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta) describen dos líneas para personas con talento artístico residentes en Iquique. «Formación» cubre estudiantes de básica o media de 8 a 19 años y entrega $1.000.000 en una cuota. «Proyección» cubre educación superior o posgrado en Chile, edades de 18 a 28 años, y entrega $2.400.000 en una cuota; exige pertenecer al 80% más vulnerable, además de residencia y trayectoria artística. Las bases delimitan el uso a implementos, bienes o servicios vinculados con la disciplina artística.
+
+La candidata general de educación superior `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf` atribuye una ayuda municipal DIDECO general para estudiantes universitarios, IP y CFT; las fuentes de Sixto Rojas no la identifican. Aunque la línea Proyección incluya a estudiantes superiores, sus destinatarios, disciplina y reglas son específicos y no coinciden con una ayuda general. No se trasladan sus montos o requisitos ni se usa esta diferencia para descartar una línea municipal separada.
+
+**Decisión:** la candidata general permanece `REQUIERE_ACLARACION`; falta una fuente oficial que la identifique por separado.
 
 ## Municipalidad de Valdivia — candidata `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18`
 
