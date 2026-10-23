@@ -76,6 +76,14 @@ Se recuperó y leyó el [PADEM oficial de Victoria 2016](https://victoriachile.c
 
 **Decisión:** no trasladar BPTP, sus beneficiarios ni sus criterios a la candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. Sigue `REQUIERE_ACLARACION`: el PADEM no identifica el aporte anual de educación superior, su monto, RSH 60% o NEM 5,0. No descartar por omisión; se requiere un acto, bases o convocatoria que vincule positivamente esa ficha con un programa municipal concreto.
 
+### Lectura primaria del PADEM 2015 — 23 de octubre de 2026
+
+Se descargó desde el dominio municipal y se revisó la página impresa 52 (PDF p. 52) del [PADEM oficial de Victoria 2015](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2015.pdf). La tabla «Becas otorgadas en Proceso 2010–2014», cuya fuente se identifica como Departamento Social municipal, registra para la Beca Vocación de Profesor JUNAEB un complemento a la beca de MINEDUC: estudiantes con al menos 700 puntos PSU reciben un aporte monetario de libre disposición. En el corte de 2010–2014 la tabla informa cero asignaciones en ambas columnas de liceos. El mismo cuadro lista Beca Indígena, Beca JUNAEB para la PSU y Beca Práctica Técnico Profesional como programas JUNAEB con alcances propios.
+
+El PADEM 2014 también había registrado una asignación de Beca Vocación de Profesor JUNAEB y la había descrito expresamente como complemento. El PADEM 2015 aporta otro periodo oficial del mismo programa, pero no vincula esa ayuda focalizada en futuros docentes con la candidata genérica de mantención DIDECO, cuyo original alega aporte anual, RSH hasta 60% y promedio 5,0. La fuente tampoco confirma ni refuta una línea municipal general separada.
+
+**Decisión:** mantener la candidata `REQUIERE_ACLARACION`; no trasladar el umbral PSU, la condición docente ni el monto desconocido. La evidencia identifica modalidades JUNAEB diferenciadas y acota sus años; no ratifica ni descarta la beca genérica alegada. No prueba vigencia posterior a 2014.
+
 ## Iquique — beca genérica de educación superior y Beca Artística Sixto Rojas — 23 de octubre de 2026
 
 Las [bases municipales de la Beca Artística Sixto Rojas Acosta](https://www.municipioiquique.cl/files/1439) y la [convocatoria municipal de 2021](https://www.municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta) describen dos líneas para personas con talento artístico residentes en Iquique. «Formación» cubre estudiantes de básica o media de 8 a 19 años y entrega $1.000.000 en una cuota. «Proyección» cubre educación superior o posgrado en Chile, edades de 18 a 28 años, y entrega $2.400.000 en una cuota; exige pertenecer al 80% más vulnerable, además de residencia y trayectoria artística. Las bases delimitan el uso a implementos, bienes o servicios vinculados con la disciplina artística.
