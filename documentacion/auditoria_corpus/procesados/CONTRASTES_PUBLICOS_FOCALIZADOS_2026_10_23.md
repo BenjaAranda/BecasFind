@@ -35,3 +35,19 @@ Las [bases oficiales de la Beca Artística Sixto Rojas](https://www.municipioiqu
 ## Límites de cierre
 
 Estos contrastes aportan delimitación positiva de programas cercanos y ligas oficiales nuevas, pero no resuelven la identidad de las candidatas. No se modifica ningún dato canónico ni el estado de la cola. Para confirmar aún hace falta una fuente pública que enlace el nombre o la descripción original con un programa concreto; para descartar, evidencia positiva e individual de duplicidad, inexistencia o fuera de alcance.
+
+## Actualización — Valdivia e INACAP, 23 de octubre de 2026
+
+### Valdivia — Beca Municipal para Estudiantes de Educación Superior
+
+Candidata `dbcdf820447cc2d3a206a3db3a4943a999a500d92860f58843dd045b194c6e18`.
+
+La página municipal de [Asistencia Social](https://munivaldivia.cl/2017/12/15/asistencia-social/) asigna a esa unidad la difusión, orientación, evaluación socioeconómica y administración de becas otorgadas por el Estado, coordinadas con MINEDUC y Servicios Incorporados. El [PADEM 2023](https://munivaldivia.cl/web/media/attachments/2023/01/05/padem-2023.pdf) identifica los programas de becas que coordina DAEM como JUNAEB. Esto permite distinguir la atención y tramitación local de beneficios estatales de una beca municipal propia; no descarta una ayuda DIDECO separada.
+
+La convocatoria y las [bases municipales de Becas de Excelencia y Proyección Deportiva 2025](https://munivaldivia.cl/2025/10/21/municipio-de-valdivia-abre-postulaciones-para-las-becas-de-excelencia-y-proyeccion-deportiva-2025/) documentan otra línea municipal: apoyo económico en pago único para deportistas, con cuantías, cupos y requisitos deportivos publicados. Por su población y finalidad, no corresponde a la candidata general de mantención para educación superior. No trasladar sus montos ni elegibilidad. La candidata permanece `REQUIERE_ACLARACION`; no se ratifican monto, RSH, promedio o vigencia.
+
+### INACAP — Beca Red de Egresados
+
+Candidata `34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c`.
+
+El [portal institucional vigente de becas](https://portal.inacap.cl/financiamiento-estudiantil/becas) distingue becas estatales, becas internas y alternativas para alumnos nuevos y antiguos. La página de [Red de Exalumnos Destacados](https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte) vincula esa red con desarrollo laboral, actualización profesional y descuentos de Educación Continua para titulados; la [guía oficial de bienvenida 2026](https://digital.inacap.cl/bienvenida/docs/guia-estudiantes-2026.pdf) describe servicios de empleabilidad de la red. Estas fuentes no acreditan el 15% del arancel de pregrado para familiares que atribuye la candidata ni descartan una beca histórica distinta. Mantener `EXCLUSION_HISTORICA_SIN_RATIFICAR` y no trasladar beneficios de la red.
