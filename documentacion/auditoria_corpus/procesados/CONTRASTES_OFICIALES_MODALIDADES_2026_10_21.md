@@ -36,6 +36,14 @@ Fuentes: [Municipalidad de General Lagos — noticia de apoyo a estudiantes](htt
 
 **Decisión:** `REQUIERE_ACLARACION`; mantener separados el apoyo al jardín infantil, las becas estatales JUNAEB y la candidata de educación superior.
 
+### Transparencia Activa municipal 2013–2015 — actualización 23/10/2026
+
+La [sección municipal de Subsidios y Beneficios](https://portalvisviri.cl/transparencia/subsidiosybeneficios.html) enlaza el documento de requisitos de la Beca Indígena y, por separado, páginas históricas anuales. El registro 2013 la identifica expresamente como Beca Indígena; asigna $607.000 para educación superior, indica postulación ante la DAE y reserva la intervención municipal para instituciones sin asistente social. Las páginas municipales de [2014](https://portalvisviri.cl/transparencia/subsidiosybeneficios_2014.html) y [2015](https://portalvisviri.cl/transparencia/subsidiosybeneficios_2015.html) detallan operativos sociales comunitarios y apoyos en especie —incluido calzado escolar—, sin describir en esos años una beca municipal de educación superior.
+
+El alcance anual de esos listados no demuestra que nunca existiera otra línea municipal, ni permite reasignar la Beca Indígena a la candidata. No se trasladan el monto, la elegibilidad ni las reglas de JUNAEB.
+
+**Decisión:** la candidata `6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131` sigue `REQUIERE_ACLARACION`; hace falta un acto o unas bases que identifiquen positivamente la beca municipal atribuida.
+
 ### Actas del concejo 2026 — revisión OCR del 22/10/2026
 
 El [índice oficial de actas ordinarias 2026](https://www.portalvisviri.cl/transparencia/concejomunicipal%20actas%202026.html) enlaza 27 sesiones. Se recuperaron y revisaron mediante OCR en español las 285 páginas de esos documentos escaneados. La búsqueda no halló menciones legibles a becas ni pasajes que vincularan un aporte estudiantil con esta candidata. Este resultado acota lo que publican esas actas revisadas; la ausencia de una mención no demuestra que la ayuda no exista.

@@ -18,6 +18,12 @@ Fuente: [Cámara de Diputadas y Diputados, documento de comisión con informe de
 
 **Decisión:** `REQUIERE_ACLARACION`. Mantener separadas la beca deportiva documentada y la candidata de educación superior. No trasladar beneficiarios ni condiciones; hace falta un acto o bases que identifique la línea de mantención alegada.
 
+### Ruta de Transparencia Activa municipal — actualización 23/10/2026
+
+La página oficial de Huara enlaza su ficha en Transparencia Activa, organismo `MU107`. La categoría [Subsidios y Beneficios Propios](https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU107/SB/SB) lista registros anuales de «Asistencia Social» desde 2017 hasta 2026; el registro 2026 es el ítem `62105416`. El detalle del ítem no pudo recuperarse y no se obtuvo su contenido. La API pública del sitio municipal admite búsqueda y devolvió cero publicaciones para “beca”; ese resultado no prueba que el programa no exista.
+
+**Decisión:** la candidata `15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99` continúa `REQUIERE_ACLARACION`. La lista de asistencia social y la beca deportiva de 2018 no identifican la beca de mantención superior atribuida. No trasladar reglas ni descartar por la falta de resultados; no repetir esta ruta mientras los detalles del portal sigan inaccesibles.
+
 ## Río Claro — `8630387a7f9cec25198a7c736bd5039038b22360da3437993b45b042ab224eb1`
 
 La Municipalidad publicó en 2021 una nota del Programa Mujeres Jefas de Hogar: 20 participantes completaron un curso de cocina de 200 horas y recibieron un incentivo de $100.000 para iniciar o retomar emprendimientos. La nota lo denomina “beca laboral”; se refiere a capacitación y emprendimiento, no a estudios superiores. Es una modalidad distinta y no confirma el registro genérico de educación superior ni permite descartarlo por sí sola.
