@@ -63,3 +63,17 @@ Se descargó desde el dominio municipal y se extrajo el texto del PDF completo (
 El documento permite identificar la fuente y el alcance 2024 de las líneas JUNAEB tramitadas localmente y distinguirlas del rubro municipal de asistencia social. No menciona la supuesta beca municipal de mantención superior ni liga a ella el aporte anual, el RSH 60%, el promedio 5,0 o los documentos descritos en la candidata. El rótulo del índice y el detalle desarrollado se limitan a becas estatales de enseñanza básica/media; no demuestran inexistencia de un apoyo superior aparte.
 
 **Decisión:** `REQUIERE_ACLARACION`. No transferir montos o criterios JUNAEB ni el presupuesto global de ayuda social. Se conserva pendiente, sin cambios al registro canónico ni descarte. La fuente nueva no permite confirmar la identidad esencial de la candidata.
+
+## Talca — Cuenta Pública 2024 y candidata municipal general, 23 de octubre de 2026
+
+Candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`.
+
+La [Cuenta Pública 2024 de Talca](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf) identifica una sección de becas JUNAEB coordinadas con DAEM: Presidente de la República e Indígena. Define las postulaciones como trámites a través de plataformas JUNAEB con atención y difusión municipal; informa 640 becarios Presidente de la República y 44 Becas Indígenas, sumando niveles básica, media y superior. Esto documenta cantidades y otorgante de esos programas estatales para 2024. No acredita el aporte DIDECO variable que afirma la candidata ni conecta con ella la evaluación socioeconómica, entrevista o residencia alegadas. No trasladar requisitos de becas JUNAEB; mantener abierta la identidad y el beneficio de la candidata municipal.
+
+## Universidad Autónoma — catálogo institucional de becas 2026
+
+Candidata `0eb2e27ef8fea6544e1097291e058a86a7d689d3150d65f40233dd356378c750` — “Beca Socioeconómica UA”.
+
+La página oficial de [Becas Internas de la Universidad Autónoma](https://admision.uautonoma.cl/becas-y-creditos/becas-internas/) presenta sus alternativas para el periodo académico 2026. Enumera beneficios por matrícula, trayectoria académica, tecnología, participación deportiva/liderazgo/ciencias, hermanos, procedencia regional, bachillerato internacional, PAES y copago cero; el contenido accesible no presenta una beca interna con el nombre “Socioeconómica” ni los porcentajes de 15%–40% y corte RSH 60% del original. El catálogo permite comparar la ficha con la oferta publicada de 2026, pero no declara que enumere beneficios históricos agotados ni demuestra por sí solo que nunca existiera una modalidad separada. No descartar por omisión ni transferir porcentajes de otra beca. Conservar `EXCLUSION_HISTORICA_SIN_RATIFICAR` hasta obtener evidencia oficial positiva sobre la modalidad o el periodo alegado.
+
+**Resultado de esta actualización:** dos fuentes oficiales nuevas leídas; cero cambios de estado. Las candidatas siguen abiertas porque las fuentes describen otros beneficios, sin identificar ni refutar positivamente cada ficha.
