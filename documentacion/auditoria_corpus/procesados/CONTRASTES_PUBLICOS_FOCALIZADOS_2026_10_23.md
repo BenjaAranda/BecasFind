@@ -36,6 +36,28 @@ La [Cuenta Pública de Gestión 2014](https://muniromeral.cl/romeral/wp-content/
 
 **Decisión:** se mantienen sin ratificar la identidad y las reglas de la candidata. No trasladar niveles, montos ni requisitos JUNAEB. El documento municipal de 2014 es una delimitación histórica positiva de programas cercanos, no evidencia de inexistencia de otra línea.
 
+## Revisión de fuentes primarias — El Monte, Talca, Río Claro y Concepción (23 de octubre de 2026)
+
+Esta comprobación adicional se limitó a los enlaces institucionales ya registrados, los dominios oficiales corregidos y los documentos municipales primarios disponibles. No produjo cierres esenciales ni descartes; se anotan los límites para no volver a tratar modalidades vecinas como evidencia de identidad.
+
+### El Monte
+
+La [Cuenta Pública municipal 2024](https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf), p. impresa 136, explica que DIDECO entrega beneficios municipales para necesidades económicas y emergencias, y distingue esa asistencia de la orientación y postulación a beneficios estatales. Enumera la tramitación de becas JUNAEB, Beca Presidente de la República y Beca Indígena, sin identificar la beca municipal de educación superior del original ni respaldar sus $100.000, RSH 60%, promedio 5,0 o documentos. La búsqueda oficial por nombre y esos datos tampoco localizó bases específicas. La omisión y la consulta sin resultados no prueban inexistencia; conservar `REQUIERE_ACLARACION` y los campos sin ratificar.
+
+### Talca
+
+Las [Cuentas Públicas municipales 2019](https://www.talca.cl/descargas-talca/Cuenta%20Publica%202019.pdf), 2020 ([PDF oficial](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf)) y 2024 ([PDF oficial](https://www.talca.cl/cuenta-publica/CuentaPublicaAno2024.pdf), p. impresa 147) atribuyen a JUNAEB las becas Indígena y Presidente de la República cuya postulación difunde y tramita DAEM. El relato municipal identifica organismo, finalidad, niveles y montos de aquellas líneas estatales, pero no una beca general DIDECO ni el apoyo variable descrito en la candidata. Se mantiene abierta; no transferir montos o requisitos JUNAEB.
+
+### Río Claro
+
+Se comprobó el dominio municipal actual `rioclaro.cl`, ya identificado en los contrastes del 19 y 22 de octubre. La página municipal de [Asistencia Social](https://rioclaro.cl/departamento-de-asistencia-social/) publica misión y contacto, sin bases de una beca superior. La [búsqueda oficial por el monto de $120.000 y los términos de la ficha](https://rioclaro.cl/?s=beca) no devolvió una convocatoria coincidente. Los resultados municipales sobre “beca laboral” corresponden al programa Mujeres Jefas de Hogar y emprendimiento; no coinciden con educación superior. El original enlaza `munirioclaro.cl`, no el dominio institucional comprobado. Ni el enlace desactualizado ni una búsqueda vacía prueban falsedad. Se mantiene `REQUIERE_ACLARACION`; no ratificar $120.000, RSH 70%, NEM 5,0, documentos ni incompatibilidades.
+
+### Concepción
+
+El portal oficial de [Transparencia, decretos municipales](https://transparencia.concepcion.cl/programas/decretos/listado_decretos_2018.php) permitió comprobar decretos concretos relacionados con becas: el Decreto Alcaldicio 99/2017 otorga una subvención a una asociación cultural para becas y gastos de su Orquesta Infantil; los decretos 681/2013 y 476/2014 respaldan subvenciones a esa misma organización para becas y matrículas de alumnos del Conservatorio. El decreto 33/2006 financia dos becas de especialización para médicos de atención primaria dentro de un convenio con el Servicio de Salud. En otra categoría, el Decreto 6/2018 regula un fondo de becas para funcionarios municipales. Estas fuentes positivas identifican mecanismos, beneficiarios y poblaciones diferentes; ninguna corresponde a la ayuda individual general DIDECO descrita en la ficha. La restricción de subvenciones municipales 2026 a personas jurídicas tampoco excluye una línea separada. Mantener la candidata abierta y sus datos originales sin ratificar.
+
+**Resultado de esta comprobación:** cero candidatas confirmadas o descartadas; cuatro expedientes municipales contrastados con fuentes primarias y límites individualizados. Los programas de similitud nominal se conservan como modalidades separadas.
+
 ## Iquique — beca municipal general
 
 Candidata `b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf`.
