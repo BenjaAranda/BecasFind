@@ -34,3 +34,17 @@ Estas páginas recuperan contenido que ya no se podía leer desde los antiguos e
 ## Actualización de portal y alcance de Asistencia Social — 23 de octubre de 2026
 
 El dominio antiguo `muniestacioncentral.cl` redirige actualmente a `ecentral.cl`; también redirige allí la URL registrada como PDF de bases `bases-BTC.pdf`, que no entrega el documento. En la [guía vigente de Asistencia Social](https://www.ecentral.cl/guia-de-tramites/asistencia-social/) aparecen Activación Red Social, Convenios de Servicios Básicos, Informes Sociales, Informes Socioeconómicos para Tribunal de Familia y Subsidio Económico. La ficha oficial de [Subsidio Económico](https://www.ecentral.cl/guia-de-tramites/asistencia-social/subsidio-economico/) lo limita a medicamentos para enfermedades crónicas o permanentes y exámenes médicos de alto costo. Este apoyo específico no corresponde a educación superior. La página y el catálogo no acreditan la candidata general ni permiten concluir que no exista otra línea municipal; mantener abierta, sin trasladar condiciones de Talento Centralin@ ni del subsidio médico.
+
+## Guía municipal recuperada: alcance de “Becas de Mantención” — 23 de octubre de 2026
+
+Se recuperó directamente el PDF oficial de [Becas de Mantención](https://api.municipalidaddeestacioncentral.cl/storage/files/dd6c76e5e614b322d13b14ed10b9c753.pdf), una página, identificado como trámite de la Dirección de Desarrollo Comunitario. El documento dice que consiste en postular a la Beca Presidente de la República y la Beca Indígena que otorga JUNAEB. Para Presidente de la República lista enseñanza media; para Indígena incluye educación básica, media y superior. En ambos casos remite el porcentaje del RSH a JUNAEB. También indica recepción municipal y fechas diciembre–enero sujetas a confirmación.
+
+Esta ficha explica el nombre “Becas de Mantención” como gestión local de beneficios estatales, no como una beca monetaria municipal propia de educación superior. Por tanto, no respalda para la candidata el aporte DIDECO general, RSH máximo 60%, NEM 5,0 ni cierre 31 de marzo, y tampoco permite transferir requisitos de JUNAEB a la ficha. Las categorías municipales de orientación JUNAEB y Talento Centralino son modalidades distintas.
+
+**Decisión:** mantener la candidata `REQUIERE_ACLARACION`; no descartarla ni marcarla como duplicada. El PDF acredita una prestación de tramitación JUNAEB, pero no aporta prueba positiva de que esa sea la identidad del registro original ni de que una beca municipal general separada no exista. La vigencia de cualquier convocatoria actual continúa sin confirmar.
+
+La URL histórica del Decreto Alcaldicio 547/2026 sigue redirigiendo a la portada municipal y no se usó como contenido documental en esta actualización.
+
+## Fuente nueva
+
+- Guía de trámite DIDECO, Becas de Mantención (PDF oficial, una página): https://api.municipalidaddeestacioncentral.cl/storage/files/dd6c76e5e614b322d13b14ed10b9c753.pdf
