@@ -1421,7 +1421,7 @@
       },
       {
         "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
-        "informe_sha256": "8b884a2e45a174346fba759af831c58e08788265d698fbc0b21ce34483edf08c",
+        "informe_sha256": "69d92f52dac07d8a77529de36b24ab56c7df2a3e7633cd61e210014279c219b5",
         "extractos": [
           "### `aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c` — Beca Municipalidad de Valparaíso DIDECO\n\nLa cuenta de 2011 no identifica estas fichas con “Súmate” ni acredita los importes, RSH, notas, documentos o calendario 2026. La cifra cero está acotada al indicador “becas municipales” de ese año; no constituye evidencia de que una convocatoria municipal distinta no existiera después. Las dos candidatas siguen separadas: sus originales presentan diferencias en umbral RSH y cobertura, y el documento no las conecta.\n\n**Decisión:** ambas continúan `REQUIERE_ACLARACION`. No fusionar ni descartar por esta fuente histórica. Se requiere un acto o bases que identifiquen la convocatoria atribuida a 2026."
         ]
@@ -1653,7 +1653,7 @@
       },
       {
         "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
-        "informe_sha256": "8b884a2e45a174346fba759af831c58e08788265d698fbc0b21ce34483edf08c",
+        "informe_sha256": "69d92f52dac07d8a77529de36b24ab56c7df2a3e7633cd61e210014279c219b5",
         "extractos": [
           "### `80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068` — Beca de Transporte Valparaíso\n\nLa cuenta de 2011 tampoco contiene una línea municipal de transporte de educación superior identificable con esta candidata. “Súmate” aparece como otra beca técnica superior, sin detalle de sus condiciones. El Programa BETA y sus becas de transporte escolares de 2012–2013 constan en el contraste separado de `CONTRASTES_OFICIALES_MODALIDADES_2026_10_21.md`; ninguno demuestra que la candidata 2026 sea la misma modalidad.\n\n**Decisión:** continúa `REQUIERE_ACLARACION`. No atribuirle “Súmate” ni BETA ni trasladar sus condiciones. Falta una fuente específica de la convocatoria alegada."
         ]
@@ -47105,7 +47105,7 @@
       },
       {
         "informe": "CONTRASTE_VALPARAISO_HISTORICO_2026_10_22.md",
-        "informe_sha256": "8b884a2e45a174346fba759af831c58e08788265d698fbc0b21ce34483edf08c",
+        "informe_sha256": "69d92f52dac07d8a77529de36b24ab56c7df2a3e7633cd61e210014279c219b5",
         "extractos": [
           "### `5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d` — Beca Municipal Educación Superior Valparaíso"
         ]
