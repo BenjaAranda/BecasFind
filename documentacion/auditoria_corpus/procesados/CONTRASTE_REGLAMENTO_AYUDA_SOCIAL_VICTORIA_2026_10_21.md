@@ -10,6 +10,10 @@ La primera página identifica el Decreto Alcaldicio N.º 1148, de 23 de abril de
 
 El registro municipal de 2025 y 2026 en la misma página declara para «Ayudas Sociales» un fondo global de $50.000.000 cada año y una descripción de apoyos de emergencia. Esos datos se refieren al programa general, no acreditan que exista una línea de educación superior ni permiten atribuir ese monto global a una beca.
 
+### Distinción adicional: Beca de Excelencia CMPC
+
+La Municipalidad publicó en 2025 que 22 estudiantes de Victoria recibieron la [Beca de Excelencia de CMPC](https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/). La noticia identifica a CMPC como impulsor y otorgante del programa; está dirigida a estudiantes de enseñanza media que viven en zonas alejadas, contempla $300.000 anuales y permite continuidad durante la enseñanza media. Aunque la beca apoya a estudiantes de la comuna, su proveedor y nivel educativo no corresponden a la candidata de educación superior atribuida a DIDECO. No trasladar su monto o criterios ni tratarla como prueba de que la candidata municipal existe o no existe.
+
 ## Decisión y límites
 
 El reglamento confirma la existencia histórica de un mecanismo DIDECO de apoyo social que puede incluir dinero para familias, pero no conecta expresamente ese mecanismo con la candidata estudiantil. La categoría general podría cubrir situaciones diversas; el silencio sobre educación superior no prueba que nunca se haya atendido a estudiantes ni contradice por sí solo una línea específica. No se trasladan a la candidata el monto global, los requisitos ni la vigencia del apoyo general.

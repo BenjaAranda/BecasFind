@@ -44,7 +44,8 @@ Confirmar lo esencial solo con fuente oficial que individualice la existencia e 
 - **Iquique:** la beca artística Sixto Rojas es distinta; el Decreto 061/2016 no individualiza la candidata general.
 - **Tierra Amarilla:** iniciativa con Universidad Nacional de La Rioja no prueba firma ni corresponde necesariamente a la candidata municipal general; no transferir montos o requisitos.
 - **Valdivia:** fuentes halladas describen programas escolares, convenio para funcionarios/familias y trámites JUNAEB, no la candidata DIDECO general.
-- **El Monte, Concepción, Estación Central, Talca, Victoria y Río Claro:** consultar la acción y los informes de cada fila; las fuentes revisadas no identifican inequívocamente las fichas.
+- **Talca:** la Cuenta Pública 2025, p. impresa 109, enumera BPR, Beca Indígena y TIC; en las pp. 118–119 DIDECO reporta ayudas sociales básicas y 650 informes socioeconómicos para estudiantes que postulan a becas externas. No identifica la beca municipal general ni prueba que no exista. Reabrir con bases/acto específico; ver `CONTRASTES_PUBLICOS_FOCALIZADOS_2026_10_23.md`.
+- **El Monte, Concepción, Estación Central, Victoria y Río Claro:** consultar la acción y los informes de cada fila; las fuentes revisadas no identifican inequívocamente las fichas.
 - **Universidad Autónoma:** su exclusión histórica, junto con las cuatro de ENAC, suma cinco sin ratificar; el catálogo/reglamento 2026 no prueba que una ayuda separada o histórica no existiera.
 
 Los informes citados en la cola son la bitácora detallada; no volver a copiar su contenido aquí. No hay limpieza de almacenamiento pendiente justificada: `tmp/` ocupa ~627.6 MiB y contiene fuentes/OCR usados en expedientes; el análisis encontró solo duplicados exactos pequeños de texto/JSON y ningún duplicado binario grande. Conservarlos.
