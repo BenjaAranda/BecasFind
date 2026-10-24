@@ -20,6 +20,12 @@ El antecedente identifica un trámite municipal real para obtener la versión ac
 
 **Decisión:** `REQUIERE_ACLARACION`. Mantener separados el Reglamento N.º 0004/2017 y sus incentivos aún no leídos de la candidata general. No trasladar identidad, montos o requisitos; reabrir esta línea solo si se publica el Ord. 132/193 o el reglamento legible.
 
+### Contraste adicional de programas municipales identificados
+
+En una publicación municipal del 19 de mayo de 2025, el municipio identifica específicamente el incentivo para hijos e hijas de pescadores artesanales: aporte anual de $750.000 por estudiante y propósito de apoyar la permanencia en educación superior técnica o universitaria ([publicación municipal 2025](https://www.puertomontt.cl/municipio-entrego-becas-para-hijos-de-pescadores-artesanales-2025/)). El 6 de mayo de 2026, otra publicación informa la regularización de 19 pagos pendientes de 2025 y la continuidad del proceso 2026 para la beca Hijo de Pescador; también señala que las nuevas bases 2026 se publicarían posteriormente ([acuerdo de regularización 2026](https://www.puertomontt.cl/concejo-municipal-aprobo-regularizacion-de-la-beca-hijo-de-pescador/)). Son fuentes oficiales nuevas que documentan una modalidad con identidad y población beneficiaria propias. No identifican la candidata genérica “Beca Municipal Educación Superior” como esa modalidad ni revelan el contenido del Reglamento N.º 0004/2017.
+
+**Decisión adicional:** mantener `REQUIERE_ACLARACION`. Registrar los incentivos PAES y Hijo de Pescador como programas municipales separados; no trasladar a la candidata genérica monto, requisitos o vigencia. Sigue faltando una fuente que la vincule individualmente con el Reglamento N.º 0004/2017 u otra modalidad municipal concreta.
+
 ## Talca — Beca Municipal Educación Superior
 
 Candidata `49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759`.
