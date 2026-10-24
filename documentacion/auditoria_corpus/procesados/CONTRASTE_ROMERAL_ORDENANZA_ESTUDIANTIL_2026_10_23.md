@@ -19,3 +19,9 @@ Se mantiene `REQUIERE_ACLARACION`. La fuente de 2023 es una pista individualizad
 ## Próxima comprobación
 
 Recuperar por una ruta pública municipal el acta/acuerdo de Concejo del 9 de febrero de 2023, el texto de la Ordenanza de Apoyo Estudiantil o las bases aprobadas. Verificar expresamente nivel educativo, destinatarios y tipo de beneficio antes de confirmar o separar esta candidatura; el archivo público de actas consultado no expone 2023.
+
+## Acta ordinaria N.º 20/2026: residencia estudiantil en Talca
+
+Se recuperó desde el archivo municipal de actas y se leyó mediante OCR el [Acta de Reunión Ordinaria N.º 20/2026](https://muniromeral.cl/romeral/wp-content/uploads/2026/08/Acta-Reunion-Ordinaria-N%C2%B020-2026.pdf), de 8 de julio de 2026. En la página 27 impresa/digital, un concejal pregunta por la residencia de estudiantes de Romeral en Talca; el alcalde responde que solicitará información sobre cuántos jóvenes la usan y cómo funciona. La lectura OCR se contrastó visualmente con la página renderizada.
+
+El pasaje acredita una residencia/apoyo municipal para estudiantes, pero no la denomina beca, no identifica la Ordenanza de Apoyo Estudiantil aprobada en 2023 ni informa beneficiarios, requisitos o aporte monetario. No demuestra que sea la candidata «Beca Municipal de Educación Superior Romeral». Mantener `REQUIERE_ACLARACION`; investigar si la residencia es una modalidad distinta y recuperar el acta de 9/02/2023 y el texto de su ordenanza antes de transferir cualquier dato.

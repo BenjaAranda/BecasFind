@@ -40,7 +40,7 @@ Confirmar lo esencial solo con fuente oficial que individualice la existencia e 
 - **Lo Espejo:** DIDECO confirma un trámite de postulación y la fuente 2024 identifica beneficios JUNAEB; no identifica aporte municipal propio. Ver `CONTRASTE_DIDECO_LO_ESPEJO_2026_10_23.md`.
 - **Camiña:** el directorio oficial enlaza el portal de transparencia, que devuelve 403. El acceso fallido no demuestra inexistencia.
 - **Huara:** el registro de Asistencia Social existe, pero el detalle 2026 no es legible ni identifica beca. No repetir hasta que cambie el acceso.
-- **Romeral:** Cuenta Pública 2023 registra acuerdos para programas y ordenanza estudiantil, sin adjuntar sus textos. Recuperar el acta/acuerdo y la ordenanza antes de inferir identidad.
+- **Romeral:** La Cuenta Pública 2023 registra acuerdos 18 y 19 («Programas estudiantiles» y «Ordenanza apoyo estudiantil»), sin adjuntar sus textos. Acta Ordinaria 20/2026, p. 27, menciona residencia de estudiantes en Talca; no la identifica como beca ni como la candidata. OCR revisado visualmente. Recuperar acta/acuerdo del 9/02/2023 y ordenanza; no volver a usar acta 20/2026 para intentar confirmar. Ver `CONTRASTE_ROMERAL_ORDENANZA_ESTUDIANTIL_2026_10_23.md`.
 - **Iquique:** la beca artística Sixto Rojas es distinta; el Decreto 061/2016 no individualiza la candidata general.
 - **Tierra Amarilla:** iniciativa con Universidad Nacional de La Rioja no prueba firma ni corresponde necesariamente a la candidata municipal general; no transferir montos o requisitos.
 - **Valdivia:** fuentes halladas describen programas escolares, convenio para funcionarios/familias y trámites JUNAEB, no la candidata DIDECO general.
