@@ -38,6 +38,14 @@ Este antecedente confirma actividad municipal de tramitación de becas en 2017 y
 
 **Decisión:** las tres candidatas permanecen `REQUIERE_ACLARACION` y separadas. No asignarles los montos, requisitos o niveles de las becas JUNAEB; no usar la fila sin detalle como evidencia de identidad ni de descarte.
 
+## Presentación institucional DDPS 2013 — alcance de la sección de becas
+
+Se revisó la presentación oficial del [Departamento de Desarrollo y Promoción Social, noviembre de 2013](https://www.munivalpo.cl/transparencia/paginas/DIDECO/Presentaciones/DDPS_PRESENTACION_2013.pdf), 20 páginas. En las páginas 5–7 impresas, la sección de Subsidios se define como facilitadora del acceso a la red estatal de subsidios y prestaciones; el listado de programas que administra incluye la Beca Indígena y la Beca Presidente de la República. En las páginas 16–17 impresas, la Plataforma de Atención Social se describe como acceso a beneficios gubernamentales tramitados por el municipio. El organigrama incluye una sección denominada “Subsidios, Pensiones y Becas”.
+
+Este documento acredita que esas dos becas estatales estaban entre las tareas de la DDPS en 2013. No afirma que fueran la oferta exhaustiva del municipio en todos los años, no descarta que se hayan creado programas municipales después y no identifica las tres candidatas del corpus. Por tanto, no se trasladan requisitos ni se interpreta la falta de otros nombres como prueba de inexistencia.
+
+**Decisión:** las candidatas “Beca Municipal Educación Superior Valparaíso”, “Beca Municipalidad de Valparaíso DIDECO” y “Beca de Transporte Valparaíso” continúan `REQUIERE_ACLARACION`, distintas entre sí. La fuente precisa el alcance histórico de la sección municipal de becas, pero no confirma ni contradice positivamente la identidad, el beneficio o la elegibilidad de ninguna de las tres.
+
 ## Contraste adicional en Transparencia Activa — 23 de octubre de 2026
 
 Se revisó la sección municipal [Programas de Subsidios y Beneficios Municipales](https://www.munivalpo.cl/transparencia/paginas/multi_pagina.aspx?pag=tab-subsidios_beneficios_municipales.html&titulo=Programas+de+Subsidios+y+Beneficios+Municipales). El índice muestra “Beneficios Sociales Propios - Departamento de Desarrollo y Promoción Social” como vigente, pero el archivo enlazado es una síntesis de febrero de 2017. Esa ficha enumera ayudas de DIDECO como alimentos y mercadería, medicamentos, vivienda de emergencia, materiales de construcción y pago de arriendo. No contiene una beca de educación superior ni una modalidad de transporte estudiantil en el documento consultado. Por ser una síntesis mensual de 2017 y no un registro histórico integral, su silencio no demuestra que las tres candidatas nunca hayan existido.
