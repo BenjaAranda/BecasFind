@@ -1,6 +1,6 @@
 # Contexto operativo de BecasFind
 
-Actualizado el 23 de octubre de 2026. Este archivo es un resumen de arranque; no acumular bitácoras aquí. La evidencia histórica permanece en los informes por caso y en `documentacion/historial/`.
+Actualizado el 24 de octubre de 2026. Este archivo es un resumen de arranque; no acumular bitácoras aquí. La evidencia histórica permanece en los informes por caso y en `documentacion/historial/`.
 
 ## Objetivo vigente
 
@@ -17,6 +17,12 @@ Reconstruido por `python infra/report-corpus-progress.py`: 93 fuentes, 647 refer
 - Contrato: [`AGENTS.md`](../AGENTS.md).
 
 Siempre volver a generar el resumen; no reutilizar cifras antiguas de 132, 157, 222, 291 o 24 pendientes.
+
+## Revisión de continuidad — 24 de octubre de 2026
+
+Se reconstruyó la cola y se buscaron fuentes oficiales nuevas para El Monte, Concepción, Estación Central, Talca, Romeral, ENAC y Valdivia. Los documentos encontrados describen JUNAEB, ayudas generales, subvenciones, programas escolares, convenios para funcionarios/familias o acuerdos cuyo texto no está publicado; ninguno individualiza una candidata pendiente con identidad, beneficio y requisitos esenciales suficientes. No se modificó el estado editorial: siguen **23 pendientes**. Evitar repetir estas rutas; reabrirlas solo al aparecer convocatoria, bases, decreto, reglamento o nómina oficial específica.
+
+Limpieza de espacio: `tmp/` contiene 640,6 MiB en PDFs y renders/OCR de expedientes. La búsqueda de duplicados exactos encontró solo 121 KiB recuperables en textos OCR redundantes; no se borraron, para conservar las trazas y rutas de evidencia. `backend/target` (64,6 MiB) y `frontend/dist` (0,5 MiB) son salidas reconstruibles, pero se conservaron para no interrumpir el entorno. No tocar los archivos personales no rastreados `BecasFind - ET.docx` y `spa.traineddata`.
 
 ## Regla de decisión
 
@@ -40,7 +46,7 @@ Confirmar lo esencial solo con fuente oficial que individualice la existencia e 
 - **Lo Espejo:** DIDECO confirma un trámite de postulación y la fuente 2024 identifica beneficios JUNAEB; no identifica aporte municipal propio. Ver `CONTRASTE_DIDECO_LO_ESPEJO_2026_10_23.md`.
 - **Camiña:** el directorio oficial enlaza el portal de transparencia, que devuelve 403. El acceso fallido no demuestra inexistencia.
 - **Huara:** el registro de Asistencia Social existe, pero el detalle 2026 no es legible ni identifica beca. No repetir hasta que cambie el acceso.
-- **Romeral:** La Cuenta Pública 2023 registra acuerdos 18 y 19 («Programas estudiantiles» y «Ordenanza apoyo estudiantil»), sin adjuntar sus textos. Acta Ordinaria 20/2026, p. 27, menciona residencia de estudiantes en Talca; no la identifica como beca ni como la candidata. OCR revisado visualmente. Recuperar acta/acuerdo del 9/02/2023 y ordenanza; no volver a usar acta 20/2026 para intentar confirmar. Ver `CONTRASTE_ROMERAL_ORDENANZA_ESTUDIANTIL_2026_10_23.md`.
+- **Romeral:** La Cuenta Pública 2023 registra acuerdos 18 y 19 («Programas estudiantiles» y «Ordenanza apoyo estudiantil»), sin adjuntar sus textos. Acta Ordinaria 20/2026, p. 27, menciona residencia de estudiantes en Talca; no la identifica como beca ni como la candidata. OCR revisado visualmente. El portal de trámites enlazado desde el sitio municipal (`portal.muniromeral.cl`) devolvió 403 el 23/10/2026; es una barrera de acceso, no evidencia de inexistencia. No repetir esa ruta hasta que cambie el acceso. Sigue pendiente recuperar el acta/acuerdo del 9/02/2023 y la ordenanza. Ver `CONTRASTE_ROMERAL_ORDENANZA_ESTUDIANTIL_2026_10_23.md`.
 - **Iquique:** la beca artística Sixto Rojas es distinta; el Decreto 061/2016 no individualiza la candidata general.
 - **Tierra Amarilla:** iniciativa con Universidad Nacional de La Rioja no prueba firma ni corresponde necesariamente a la candidata municipal general; no transferir montos o requisitos.
 - **Valdivia:** fuentes halladas describen programas escolares, convenio para funcionarios/familias y trámites JUNAEB, no la candidata DIDECO general.
