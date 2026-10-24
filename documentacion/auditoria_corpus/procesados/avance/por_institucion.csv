@@ -1,6 +1,6 @@
 institucion,becas_unicas,revision_parcial,sin_revision_individual,confirmadas_completas,confirmadas_esenciales,descartadas,exclusiones_historicas_sin_ratificar,pendientes_confirmacion
 AIEP,5,0,0,0,5,0,0,0
-CFT ENAC,6,0,0,0,2,0,4,4
+CFT ENAC,6,0,0,0,2,4,0,0
 DUOC UC,4,0,0,0,4,0,0,0
 INACAP,6,0,0,0,5,1,0,0
 IP Chile,6,0,0,0,5,1,0,0
@@ -28,7 +28,7 @@ Municipalidad de Calbuco,1,0,0,0,1,0,0,0
 Municipalidad de Caldera,1,0,0,0,1,0,0,0
 Municipalidad de Calera de Tango,1,0,0,0,1,0,0,0
 Municipalidad de Calle Larga,1,0,0,0,1,0,0,0
-Municipalidad de Camina,1,1,0,0,0,0,0,1
+Municipalidad de Camina,1,0,0,0,0,1,0,0
 Municipalidad de Canete,1,0,0,0,1,0,0,0
 Municipalidad de Carahue,1,0,0,0,1,0,0,0
 Municipalidad de Cartagena,1,0,0,0,1,0,0,0
@@ -56,7 +56,7 @@ Municipalidad de Colina,2,0,0,0,2,0,0,0
 Municipalidad de Collipulli,1,0,0,0,1,0,0,0
 Municipalidad de Coltauco,1,0,0,0,1,0,0,0
 Municipalidad de Combarbala,1,0,0,0,1,0,0,0
-Municipalidad de Concepción,1,1,0,0,0,0,0,1
+Municipalidad de Concepción,1,0,0,0,0,1,0,0
 Municipalidad de Conchali,2,0,0,0,2,0,0,0
 Municipalidad de Concon,1,0,0,0,1,0,0,0
 Municipalidad de Constitucion,1,0,0,0,1,0,0,0
@@ -75,18 +75,18 @@ Municipalidad de Dalcahue,1,0,0,1,0,0,0,0
 Municipalidad de Diego de Almagro,1,0,0,0,1,0,0,0
 Municipalidad de Donihue,1,0,0,0,1,0,0,0
 Municipalidad de El Bosque,1,0,0,0,1,0,0,0
-Municipalidad de El Monte,1,1,0,0,0,0,0,1
+Municipalidad de El Monte,1,0,0,0,0,1,0,0
 Municipalidad de El Quisco,2,0,0,0,2,0,0,0
 Municipalidad de El Tabo,1,0,0,0,1,0,0,0
 Municipalidad de Empedrado,1,0,0,0,1,0,0,0
-Municipalidad de Estacion Central,1,1,0,0,0,0,0,1
+Municipalidad de Estacion Central,1,0,0,0,0,1,0,0
 Municipalidad de Florida,1,0,0,0,1,0,0,0
 Municipalidad de Freirina,1,0,0,0,1,0,0,0
 Municipalidad de Fresia,1,0,0,0,1,0,0,0
 Municipalidad de Frutillar,1,0,0,0,1,0,0,0
 Municipalidad de Futaleufu,1,0,0,0,1,0,0,0
 Municipalidad de Galvarino,1,0,0,0,1,0,0,0
-Municipalidad de General Lagos,1,1,0,0,0,0,0,1
+Municipalidad de General Lagos,1,0,0,0,0,1,0,0
 Municipalidad de Gorbea,1,0,0,0,1,0,0,0
 Municipalidad de Graneros,1,0,0,0,1,0,0,0
 Municipalidad de Guaitecas,1,0,0,0,1,0,0,0
@@ -95,12 +95,12 @@ Municipalidad de Hualane,1,0,0,0,1,0,0,0
 Municipalidad de Hualpen,1,0,0,0,1,0,0,0
 Municipalidad de Hualpén e Instituto Profesional Diego Portales,1,0,0,0,1,0,0,0
 Municipalidad de Hualqui,1,0,0,0,1,0,0,0
-Municipalidad de Huara,1,1,0,0,0,0,0,1
+Municipalidad de Huara,1,0,0,0,0,1,0,0
 Municipalidad de Huasco,1,0,0,0,1,0,0,0
 Municipalidad de Huechuraba,1,0,0,0,1,0,0,0
 Municipalidad de Illapel,1,0,0,0,1,0,0,0
 Municipalidad de Independencia,1,0,0,0,1,0,0,0
-Municipalidad de Iquique,2,1,0,0,0,1,0,1
+Municipalidad de Iquique,2,0,0,0,0,2,0,0
 Municipalidad de Isla de Maipo,2,0,0,0,2,0,0,0
 Municipalidad de Isla de Pascua,1,0,0,0,1,0,0,0
 Municipalidad de La Calera,1,0,0,0,1,0,0,0
@@ -126,7 +126,7 @@ Municipalidad de Linares,1,0,0,0,1,0,0,0
 Municipalidad de Llanquihue,1,0,0,0,1,0,0,0
 Municipalidad de Llay Llay,1,0,0,0,1,0,0,0
 Municipalidad de Lo Barnechea,1,0,0,0,1,0,0,0
-Municipalidad de Lo Espejo,1,1,0,0,0,0,0,1
+Municipalidad de Lo Espejo,1,0,0,0,0,1,0,0
 Municipalidad de Lo Prado,2,0,0,0,2,0,0,0
 Municipalidad de Loncoche,1,0,0,0,1,0,0,0
 Municipalidad de Longavi,1,0,0,0,1,0,0,0
@@ -199,7 +199,7 @@ Municipalidad de Pucon,1,0,0,0,1,0,0,0
 Municipalidad de Pudahuel,2,0,0,0,2,0,0,0
 Municipalidad de Puente Alto,2,0,0,0,2,0,0,0
 Municipalidad de Puerto Aysen,1,0,0,0,1,0,0,0
-Municipalidad de Puerto Montt,2,1,0,0,0,1,0,1
+Municipalidad de Puerto Montt,2,0,0,0,0,2,0,0
 Municipalidad de Puerto Natales,1,0,0,0,1,0,0,0
 Municipalidad de Puerto Varas,1,0,0,0,1,0,0,0
 Municipalidad de Pumanque,1,0,0,0,1,0,0,0
@@ -230,11 +230,11 @@ Municipalidad de Requinoa,1,0,0,0,1,0,0,0
 Municipalidad de Retiro,1,0,0,0,1,0,0,0
 Municipalidad de Rinconada,1,0,0,0,1,0,0,0
 Municipalidad de Rio Bueno,1,0,0,0,1,0,0,0
-Municipalidad de Rio Claro,1,1,0,0,0,0,0,1
+Municipalidad de Rio Claro,1,0,0,0,0,1,0,0
 Municipalidad de Rio Ibanez,1,0,0,0,1,0,0,0
 Municipalidad de Rio Negro,1,0,0,0,1,0,0,0
 Municipalidad de Rio Verde,1,0,0,0,1,0,0,0
-Municipalidad de Romeral,1,1,0,0,0,0,0,1
+Municipalidad de Romeral,1,0,0,0,0,1,0,0
 Municipalidad de Saavedra,1,0,0,0,1,0,0,0
 Municipalidad de Sagrada Familia,1,0,0,0,1,0,0,0
 Municipalidad de Salamanca,1,0,0,0,1,0,0,0
@@ -265,13 +265,13 @@ Municipalidad de Santa Maria,1,0,0,0,1,0,0,0
 Municipalidad de Santiago,3,0,0,0,2,1,0,0
 Municipalidad de Santo Domingo,1,0,0,0,1,0,0,0
 Municipalidad de Talagante,2,0,0,0,2,0,0,0
-Municipalidad de Talca,1,1,0,0,0,0,0,1
+Municipalidad de Talca,1,0,0,0,0,1,0,0
 Municipalidad de Talcahuano,1,0,0,0,1,0,0,0
 Municipalidad de Taltal,1,0,0,0,1,0,0,0
 Municipalidad de Temuco,1,0,0,0,1,0,0,0
 Municipalidad de Teno,1,0,0,0,1,0,0,0
 Municipalidad de Teodoro Schmidt,2,0,0,0,2,0,0,0
-Municipalidad de Tierra Amarilla,1,1,0,0,0,0,0,1
+Municipalidad de Tierra Amarilla,1,0,0,0,0,1,0,0
 Municipalidad de Tiltil,2,0,0,0,2,0,0,0
 Municipalidad de Timaukel,1,0,0,0,1,0,0,0
 Municipalidad de Tirua,1,0,0,0,1,0,0,0
@@ -284,11 +284,11 @@ Municipalidad de Tortel,1,0,0,0,1,0,0,0
 Municipalidad de Traiguen,1,0,0,0,1,0,0,0
 Municipalidad de Trehuaco,1,0,0,0,1,0,0,0
 Municipalidad de Tucapel,1,0,0,0,1,0,0,0
-Municipalidad de Valdivia,2,1,0,0,0,1,0,1
+Municipalidad de Valdivia,2,0,0,0,0,2,0,0
 Municipalidad de Vallenar,1,0,0,0,1,0,0,0
-Municipalidad de Valparaíso,3,3,0,0,0,0,0,3
+Municipalidad de Valparaíso,3,0,0,0,0,3,0,0
 Municipalidad de Vichuquen,1,0,0,0,1,0,0,0
-Municipalidad de Victoria,1,1,0,0,0,0,0,1
+Municipalidad de Victoria,1,0,0,0,0,1,0,0
 Municipalidad de Vicuna,1,0,0,0,1,0,0,0
 Municipalidad de Villa Alegre,1,0,0,0,1,0,0,0
 Municipalidad de Villa Alemana,1,0,0,0,1,0,0,0
@@ -305,7 +305,7 @@ Universidad Adolfo Ibáñez,5,0,0,0,4,1,0,0
 Universidad Alberto Hurtado,5,0,0,0,5,0,0,0
 Universidad Arturo Prat,6,0,0,0,6,0,0,0
 Universidad Austral de Chile,4,0,0,0,4,0,0,0
-Universidad Autónoma de Chile,6,0,0,0,5,0,1,1
+Universidad Autónoma de Chile,6,0,0,0,5,1,0,0
 Universidad Bernardo O'Higgins,5,0,0,0,5,0,0,0
 Universidad Católica Silva Henriquez,5,0,0,0,5,0,0,0
 Universidad Católica de Temuco,6,0,0,0,5,1,0,0

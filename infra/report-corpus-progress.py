@@ -1,6 +1,7 @@
 """Report reconstructed records and editorial progress without counting duplicates twice."""
 import csv
 import json
+from datetime import date
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
@@ -129,11 +130,15 @@ def report(folder):
     write_csv(output/'por_institucion.csv', list(by_institution[0]), by_institution)
     (output/'resumen.json').write_text(json.dumps(totals, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     table = '\n'.join(f"| {r['archivo']} | {r['registros']} | {r['becas_unicas']} | {r['revision_parcial']} | {r['confirmadas_esenciales']} | {r['descartadas']} | {r['exclusiones_historicas_sin_ratificar']} | {r['sin_revision_individual']} | {r['pendientes_confirmacion']} |" for r in summary)
+    today = date.today()
+    months = ('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
+              'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre')
+    date_label = f"{today.day} de {months[today.month - 1]} de {today.year}"
     text = f'''# Avance editorial por archivo
 
-Inventario actualizado al 16 de octubre de 2026: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. {totals['confirmadas_completas']} tienen confirmación completa y {totals['confirmadas_esenciales']} confirmación esencial: quedan {totals['pendientes_confirmacion']} pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al {date_label}: {totals['registros']} registros en {totals['archivos']} archivos; {totals['becas_unicas']} identidades únicas. {totals['revision_parcial']} tienen revisión parcial documentada y {totals['sin_revision_individual']} no tienen revisión individual. {totals['confirmadas_completas']} tienen confirmación completa y {totals['confirmadas_esenciales']} confirmación esencial: quedan {totals['pendientes_confirmacion']} pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
-Hay {totals['exclusiones_historicas_sin_ratificar']} exclusiones históricas sin ratificar: continúan pendientes según la revisión reiniciada y no equivalen a decisiones vigentes de descarte. Los {totals['descartadas']} descartes ratificados se cuentan por separado. Originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
+Hay {totals['exclusiones_historicas_sin_ratificar']} exclusiones históricas sin ratificar. Los {totals['descartadas']} descartes editoriales se cuentan por separado. La exclusión por insuficiencia de evidencia no afirma falsedad ni inexistencia; los originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 
 Los conteos por archivo comparten becas repetidas: no sumar su columna de únicas para obtener el total global. `por_registro.csv` identifica cada una de las 647 referencias y su estado; `por_institucion.csv` agrupa las identidades. `revisiones_parciales.csv` conserva la relación candidata/informe; se cuenta revisión parcial una sola vez por candidato, incluso si aparece en varios archivos.
 

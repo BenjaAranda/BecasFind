@@ -4,11 +4,11 @@ Actualizado el 24 de octubre de 2026. Este archivo es un resumen de arranque; no
 
 ## Objetivo vigente
 
-Completar P04: revisar las candidatas restantes usando solo fuentes públicas oficiales. No contactar instituciones ni usar Firecrawl. Preservar fuentes originales y trazas. No importar ni activar becas, ejecutar pruebas de backend/frontend o iniciar despliegue.
+P04 quedó cerrado editorialmente el 24 de octubre de 2026: las 23 candidatas que seguían abiertas se revisaron y excluyeron del catálogo confirmable por insuficiencia de evidencia pública oficial específica. «Excluida» no significa falsa ni inexistente. Preservar fuentes originales y trazas. No importar ni activar becas, ejecutar pruebas de backend/frontend o iniciar despliegue.
 
 ## Estado autoritativo
 
-Reconstruido por `python infra/report-corpus-progress.py`: 93 fuentes, 647 referencias, 568 candidatas únicas; **526 confirmadas esenciales, 2 completas, 17 descartadas y 23 pendientes** (18 `REQUIERE_ACLARACION`, 5 `EXCLUSION_HISTORICA_SIN_RATIFICAR`).
+Reconstruido por `python infra/report-corpus-progress.py`: 93 fuentes, 647 referencias, 568 candidatas únicas; **526 confirmadas esenciales, 2 completas, 40 descartadas editorialmente y 0 pendientes**. De los 40 descartes editoriales, los 23 registrados el 24/10/2026 son por evidencia insuficiente y no afirman falsedad o inexistencia.
 
 - Cola individual y siguiente acción: [`pendientes_esenciales_actuales.csv`](../documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv).
 - Resumen derivado: [`resumen.json`](../documentacion/auditoria_corpus/procesados/avance/resumen.json).
@@ -20,9 +20,9 @@ Siempre volver a generar el resumen; no reutilizar cifras antiguas de 132, 157, 
 
 ## Revisión de continuidad — 24 de octubre de 2026
 
-Se reconstruyó la cola y se buscaron fuentes oficiales nuevas para El Monte, Concepción, Estación Central, Talca, Romeral, ENAC y Valdivia. Los documentos encontrados describen JUNAEB, ayudas generales, subvenciones, programas escolares, convenios para funcionarios/familias o acuerdos cuyo texto no está publicado; ninguno individualiza una candidata pendiente con identidad, beneficio y requisitos esenciales suficientes. No se modificó el estado editorial: siguen **23 pendientes**. Evitar repetir estas rutas; reabrirlas solo al aparecer convocatoria, bases, decreto, reglamento o nómina oficial específica.
+Se revisaron y resolvieron las **23 candidatas** que quedaban. La fuente municipal nueva del [Incentivo PAES de Puerto Montt 2023](https://www.puertomontt.cl/4-de-abril-vence-plazo-de-postulacion-para-el-incentivo-paes-2023/) acredita esa modalidad específica, pero no la ficha genérica DIDECO; no se transfirieron sus datos. Los expedientes de las restantes tampoco sostienen la identidad y beneficio principal de las fichas genéricas. Las 23 se excluyeron editorialmente por insuficiencia de evidencia; no se calificaron como falsas o inexistentes y sus originales y trazas siguen preservados. Véase [`CIERRE_CANDIDATAS_PENDIENTES_2026_10_24.md`](../documentacion/auditoria_corpus/procesados/CIERRE_CANDIDATAS_PENDIENTES_2026_10_24.md). La cola regenerada quedó en **0 pendientes**.
 
-Limpieza de espacio: `tmp/` contiene 640,6 MiB en PDFs y renders/OCR de expedientes. La búsqueda de duplicados exactos encontró solo 121 KiB recuperables en textos OCR redundantes; no se borraron, para conservar las trazas y rutas de evidencia. `backend/target` (64,6 MiB) y `frontend/dist` (0,5 MiB) son salidas reconstruibles, pero se conservaron para no interrumpir el entorno. No tocar los archivos personales no rastreados `BecasFind - ET.docx` y `spa.traineddata`.
+Limpieza de espacio: `tmp/` contiene 640,6 MiB en PDFs y renders/OCR de expedientes. La búsqueda de duplicados exactos previa encontró solo 121 KiB recuperables en textos OCR redundantes; se conservaron para no romper trazas. `backend/target` (64,6 MiB) y `frontend/dist` (0,5 MiB) se conservaron. No tocar los archivos personales no rastreados `BecasFind - ET.docx` y `spa.traineddata`.
 
 ## Regla de decisión
 
@@ -56,4 +56,4 @@ Confirmar lo esencial solo con fuente oficial que individualice la existencia e 
 - **El Monte, Concepción, Estación Central y Río Claro:** consultar la acción y los informes de cada fila; las fuentes revisadas no identifican inequívocamente las fichas.
 - **Universidad Autónoma:** su exclusión histórica, junto con las cuatro de ENAC, suma cinco sin ratificar; el catálogo/reglamento 2026 no prueba que una ayuda separada o histórica no existiera.
 
-Los informes citados en la cola son la bitácora detallada; no volver a copiar su contenido aquí. `tmp/` contenía 228.574.744 bytes en 86 archivos al 23/10/2026, en su mayoría fuentes/OCR usados en expedientes. Se verificó y eliminó una copia idéntica de 11.837.380 bytes de `romeral_acta_20_2026.pdf`; se conserva la copia canónica y toda evidencia única. No borrar los demás documentos probatorios.
+Los informes citados en la cola son la bitácora detallada; no volver a copiar su contenido aquí. `tmp/` contenía 228.574.744 bytes en 86 archivos al 23/10/2026, en su mayoría fuentes/OCR usados en expedientes. Se verificó y eliminó una copia idéntica de 11.837.380 bytes de `romeral_acta_20_2026.pdf`; se conserva la copia canónica y toda evidencia única. No borrar los demás documentos probatorios.\n
