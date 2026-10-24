@@ -62,16 +62,6 @@
     "estado": "SUPERADO_POR_CONFIRMACION_ESENCIAL"
   },
   {
-    "candidato": "34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c",
-    "revisado": "2026-10-06",
-    "motivo": "Plan 40/40 para cursos/diplomados no acredita beca de pregrado para familiares de egresados.",
-    "alcance": "Exclusión del catálogo editorial; originales y registro administrativo inactivo conservados; no afirma inexistencia del beneficio.",
-    "informe": "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
-    "evidencia": [
-      "REVISION_ESENCIAL_INSTITUCIONES_SEGUIMIENTO_53.md"
-    ]
-  },
-  {
     "candidato": "6a714f7d1428f67456471f3806815b50cfac706cc432290d07a671af249e274c",
     "revisado": "2026-10-13",
     "motivo": "La ficha llama beca a un supuesto pago institucional del copago. IPCHILE define el copago como diferencia entre arancel de referencia y arancel real que debe pagar el estudiante, y publica planes de cuotas para cubrirla; esto contradice que la institución cubra esa brecha como beca.",
@@ -432,5 +422,17 @@
     ],
     "criterio": "DUPLICADO_IDENTIDAD",
     "duplicado_de": "b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf"
+  },
+  {
+    "candidato": "34caa8abfdbea88cf08a57fa33f7e0629f9dec390d260879a8dfa6869d1d936c",
+    "revisado": "2026-10-23",
+    "motivo": "La Red de Exalumnos de INACAP sí publica descuentos para exalumnos en Educación Continua: 30% en cursos/diplomados y 40% en Sello STEM. Esto difiere positivamente de la candidata atribuida a la Red: 15% semestral para familiares de titulados en arancel de carrera. Se excluye solo esa atribución; no se afirma que no exista una beca familiar separada.",
+    "alcance": "Ratifica PROGRAMA_DISTINTO y excluye del catálogo el alias tal como está descrito. Preserva originales, variantes y registro inactivo; no confirma inexistencia de otro beneficio familiar.",
+    "informe": "RATIFICACION_RED_EXALUMNOS_INACAP_2026_10_23.md",
+    "evidencia": [
+      "DESCARTE_EDITORIAL_INSTITUCIONES_53.md",
+      "RATIFICACION_RED_EXALUMNOS_INACAP_2026_10_23.md"
+    ],
+    "criterio": "PROGRAMA_DISTINTO"
   }
 ]
