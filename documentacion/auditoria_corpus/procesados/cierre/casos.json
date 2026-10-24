@@ -26781,6 +26781,13 @@
           "## Municipalidad de Victoria — candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`\n\nEl PADEM municipal de 2014, en su cuadro “Becas año 2013”, atribuye al Departamento Social 22 asignaciones de Beca Indígena JUNAEB para enseñanza superior y 51 de Beca Práctica Técnico Profesional JUNAEB para enseñanza superior/media. No describe una beca municipal general de mantención como la ficha, cuyos requisitos alegados son RSH 60% y promedio 5,0. La transparencia municipal vigente de “Subsidios y Beneficios Propios” registra en 2026 ayuda social para emergencias y subvenciones a organizaciones; no identifica la ficha de educación superior. Son fuentes oficiales que permiten separar programas, pero el periodo y alcance no prueban inexistencia de una beca adicional ni vinculan esta candidata con un programa concreto.\n\nFuentes: [PADEM 2014, p. impresa 31](https://victoriachile.cl/wp-content/uploads/2023/07/padem_2014.pdf); [Transparencia municipal: subsidios y beneficios propios](https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/).\n\n**Decisión:** `REQUIERE_ACLARACION`; mantener sin ratificar montos, RSH y rendimiento de la candidata. No reutilizar como nueva evidencia el PADEM 2014 ni la transparencia 2026; hace falta un acto, bases o ficha oficial que la identifique.",
           "**Decisión:** no trasladar BPTP, sus beneficiarios ni sus criterios a la candidata `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc`. Sigue `REQUIERE_ACLARACION`: el PADEM no identifica el aporte anual de educación superior, su monto, RSH 60% o NEM 5,0. No descartar por omisión; se requiere un acto, bases o convocatoria que vincule positivamente esa ficha con un programa municipal concreto."
         ]
+      },
+      {
+        "informe": "CONTRASTE_ADICIONAL_VICTORIA_2026_10_23.md",
+        "informe_sha256": "03748050a7f969734bb1a3cc81c5aa2fa284182e6972164b388a1da9150240f0",
+        "extractos": [
+          "**Consulta:** 23 de octubre de 2026. **Candidata:** `c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc` — Beca Municipal de Educación Superior Victoria."
+        ]
       }
     ],
     "grupo_variantes": false,
