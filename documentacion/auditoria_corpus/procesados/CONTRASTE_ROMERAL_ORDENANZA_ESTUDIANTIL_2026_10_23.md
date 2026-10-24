@@ -10,10 +10,12 @@ La [Política de Recursos Humanos municipal](https://www.muniromeral.cl/adjuntos
 
 La [página municipal de Transparencia](https://www.muniromeral.cl/transparencia/) advierte que responde a una versión antigua, actualizada por última vez el 13 de julio de 2015, y enlaza al [portal vigente de transparencia](https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU276). La consulta pública de ese destino devolvió 403 en esta revisión; por tanto, no se obtuvo el expediente ni la ordenanza desde allí. La inaccesibilidad no prueba ausencia del documento.
 
+En una consulta posterior al [archivo público de Actas del Concejo Municipal](https://muniromeral.cl/romeral/?page_id=9336), sus seis páginas enlazaron actas de 2024–2026; no se encontró allí un enlace al acta del 9 de febrero de 2023 ni al texto de la ordenanza. La propia Cuenta Pública 2023 sigue siendo solo un índice de acuerdos en este punto. El alcance temporal de esa página no acredita que el acta o la ordenanza no estén publicados en otra sección municipal.
+
 ## Decisión
 
 Se mantiene `REQUIERE_ACLARACION`. La fuente de 2023 es una pista individualizada para continuar la búsqueda del acuerdo y su ordenanza, pero no permite afirmar que la candidata sea ese programa ni que sea una beca de educación superior. No se descarta, confirma ni modifican los datos originales. Los importes, periodicidad, requisitos y fechas quedan sin ratificar, no como “No especificado” de una confirmación cerrada.
 
 ## Próxima comprobación
 
-Recuperar el acta/acuerdo de Concejo del 9 de febrero de 2023, el texto de la Ordenanza de Apoyo Estudiantil o las bases aprobadas. Verificar expresamente nivel educativo, destinatarios y tipo de beneficio antes de confirmar o separar esta candidatura.
+Recuperar por una ruta pública municipal el acta/acuerdo de Concejo del 9 de febrero de 2023, el texto de la Ordenanza de Apoyo Estudiantil o las bases aprobadas. Verificar expresamente nivel educativo, destinatarios y tipo de beneficio antes de confirmar o separar esta candidatura; el archivo público de actas consultado no expone 2023.
