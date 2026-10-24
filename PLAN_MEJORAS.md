@@ -1,49 +1,40 @@
 # Plan vigente de BecasFind
 
-Actualizado el 23 de octubre de 2026. Este es el único listado de trabajo. El contexto para retomar está en [tasks/contexto.md](tasks/contexto.md) y el método de revisión en [tasks/plan.md](tasks/plan.md).
+Actualizado el 23 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
 
-## Prioridad actual: P04, confirmación de becas
+## Prioridad: P04, revisión esencial de becas
 
-Estado reproducible al 23/10: **568 candidatas; 526 confirmaciones esenciales; 2 completas; 16 descartes ratificados; 24 pendientes**. Las pendientes incluyen 18 aclaraciones y 6 exclusiones históricas sin ratificar. La cola única y `avance/resumen.json` son la fuente de los conteos; las cifras de 132, 157 o 291 pertenecen a cortes anteriores. Los contrastes de UA, El Monte, Lo Espejo, Valdivia, Valparaíso y Puerto Montt mantuvieron candidatas abiertas por falta de vínculo oficial específico; sus límites y enlaces están en `tasks/contexto.md` y los informes individuales. El 22/10 se confirmó la familia institucional de Becas de Mantención UFRO con la Resolución Exenta 1458/2021; el RSH de 60% no está respaldado y no se afirma convocatoria 2026. El 23/10 el registro público del Concejo de Puerto Montt identificó el Reglamento N.º 0004/2017 sobre incentivos PAES y otros incentivos, pero no incluyó su texto ni vinculó la candidata genérica DIDECO. Se mantiene abierta. No hubo cambio de conteos en el último contraste.
+Conteo reproducible: 568 candidatas únicas; **526 confirmadas esenciales, 2 completas, 17 descartadas y 23 pendientes** (18 `REQUIERE_ACLARACION`, 5 `EXCLUSION_HISTORICA_SIN_RATIFICAR`). La cola única está en [`pendientes_esenciales_actuales.csv`](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) y el resumen generado en [`resumen.json`](documentacion/auditoria_corpus/procesados/avance/resumen.json). El conteo prevalece sobre cifras de cortes históricos.
 
-- [ ] Resolver las [24 candidatas de la cola única](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) con fuentes oficiales específicas. Leer sus carencias e informes existentes antes de consultar de nuevo.
-- [ ] Registrar campos publicados; conservar «No especificado» cuando el expediente oficial no los publique. La identidad del programa sí requiere evidencia positiva.
-- [ ] Resolver equivalencias y variantes por programa, modalidad y año; consultar sus decisiones actuales antes de declarar el cierre global. No convertir referencias repetidas en duplicados sin prueba.
-- [ ] Comprobar coherencia documental y subir decisiones nuevas a GitHub con mensajes en español.
+- [ ] Resolver las 23 candidatas con fuentes públicas oficiales específicas; leer la carencia y la próxima acción de cada fila antes de consultar.
+- [ ] Registrar solo campos respaldados. Mantener «No especificado» cuando la fuente oficial no publique el dato dentro del alcance consultado.
+- [ ] Resolver variantes por institución, modalidad y año. Exigir evidencia positiva individual para duplicidad, falsedad o descarte.
+- [ ] Regenerar y auditar los índices tras cambios probatorios; subir cambios sustantivos a GitHub con mensajes en español.
 
-El contraste archivado DIDECO 2019 de Valparaíso describe colaboración JUNAEB, pero no identifica las candidatas locales de mantención/transporte. Se conserva como antecedente histórico, sin confirmar ni descartar; detalle por hash en `CONTRASTE_ARCHIVO_DIDECO_VALPARAISO_2026_10_21.md`.
+No contactar instituciones ni usar Firecrawl. Conservar originales y trazas. No importar ni activar becas, probar backend/frontend ni iniciar despliegue durante esta prioridad. No hay cierre global mientras queden candidatas sin resolución respaldada.
 
-Originales, trazas e inactividad administrativa se conservan. No descartar por falta de datos, acceso fallido o búsquedas sin resultado. Confirmación histórica no equivale a vigencia. Las búsquedas o aclaraciones repetidas no cuentan como cierres.
+## Fases de producto
 
-Los conteos vigentes se consultan en [avance/resumen.json](documentacion/auditoria_corpus/procesados/avance/resumen.json); el detalle está en [avance por archivo](documentacion/auditoria_corpus/procesados/avance/por_archivo.csv). Los informes anteriores se leen solo cuando sean pertinentes al hash revisado.
-
-## Estado de las fases
-
-| Fase | Estado y alcance restante |
+| Fase | Estado |
 |---|---|
-| P01 | Completada: esquema y cobertura monetaria estructurada; conservar texto original y desconocidos. |
+| P01 | Completada: cobertura monetaria estructurada; se conserva el texto original y los desconocidos. |
 | P02 | Completada: filtros y orden monetario por moneda/periodicidad, sin conversiones implícitas. |
-| P03 | Completada: UUID públicos de becas; números en administración y catálogos. |
-| P04 | Implementación cerrada; revisión editorial pendiente de los casos indicados arriba. |
+| P03 | Completada: UUID públicos; IDs numéricos en administración y catálogos. |
+| P04 | Revisión editorial en curso; 23 candidatas en la cola actual. |
 | P05 | Completada: concurrencia administrativa/importación, atomicidad y batch PostgreSQL. |
-| P06 | Completada: trazabilidad de requisitos y cobertura funcional acordada. |
-| P07 | Completada: accesibilidad y compatibilidad con el alcance registrado. |
-| P08 | Completada: rendimiento local/sintético; no garantiza rendimiento en producción. |
-| P09 | Completada localmente: recuperación por Gmail SMTP probada con correo real; activación externa pendiente del despliegue. Secretos externos. |
-| P10 | Pipeline Quality implementado y validado en entregas anteriores. No afirmar estado actual de CI sin consultarlo. |
-| P11 | Completada localmente: PostgreSQL 17, migraciones 001–005, respaldo/restauración y validación del esquema. El destino externo sigue pendiente. |
-| P12 | No autorizada: preparar vista previa Vercel + Oracle Always Free, capacidad real, arquitectura Docker, producción/secretos, BD privada, Nginx/HTTPS, CORS y rutas SPA. |
-| P13 | No autorizada: operación en destino, copias/restauración, reinicio y rollback. Depende de P12. |
-| P14 | No autorizada: publicación y comprobación pública de HTTPS, rutas, API y roles. Depende de P12/P13. |
+| P06–P08 | Completadas según alcance registrado. |
+| P09 | Completa localmente: recuperación Gmail SMTP probada con correo real; configuración externa de producción queda para despliegue. |
+| P10 | Pipeline de calidad implementado y validado en entregas previas; no representa estado actual de CI. |
+| P11 | Completa localmente: PostgreSQL 17, migraciones 001–005, respaldo/restauración y validación de esquema. Destino externo no configurado. |
+| P12–P14 | No autorizadas: preparación, operación y publicación del despliegue. |
 
-## Decisiones que se conservan
+## Decisiones vigentes
 
-Costo mensual objetivo $0; no contratar planes ni comprar dominios. Frontend previsto en Vercel y backend/PostgreSQL en Oracle Always Free; recursos y límites deben verificarse antes de desplegar. La aplicación no tiene publicación validada.
+- Objetivo de costo mensual: $0. No contratar servicios ni comprar dominio sin nueva autorización. La arquitectura prevista es Vercel para frontend y Oracle Cloud Always Free para backend/PostgreSQL; verificar límites antes de iniciar el despliegue.
+- Mantener diseño azul y blanco institucional, accesibilidad y búsqueda/detalle públicos. Sesión solo para perfil, favoritos, recomendaciones guardadas y administración.
+- Desarrollo con perfil `dev`; producción con `prod`, secretos externos y `ddl-auto: validate`.
+- Prioridad actual: terminar P04. No reabrir fases completadas sin una regresión concreta.
 
-Mantener azul y blanco institucional, tipografía sans-serif, accesibilidad y acceso público a búsqueda/detalle. Sesión para perfil, favoritos, recomendaciones guardadas y administración. Desarrollo con perfil `dev`; producción con `prod`, secretos externos y `ddl-auto: validate`.
+## Evidencias anteriores
 
-Prioridad de esta entrega: revisión de becas. Backend/frontend, sus pruebas, importaciones, activación y despliegue permanecen aplazados. No reabrir tareas completadas sin una regresión concreta.
-
-## Historial y evidencias
-
-Los planes acumulativos anteriores se preservan en [plan histórico al consolidar](documentacion/historial/PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md) y [método anterior](documentacion/historial/PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md). El [historial previo](documentacion/PLAN_MEJORAS_HISTORICO.md) y los informes individuales conservan los resultados, comandos y límites de entregas anteriores; no constituyen otro listado vigente.
+Los planes previos consolidados se conservan en [`PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md) y [`PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md). El [`historial de planes`](documentacion/PLAN_MEJORAS_HISTORICO.md) y los informes por caso son evidencia, no colas de trabajo vigentes.
