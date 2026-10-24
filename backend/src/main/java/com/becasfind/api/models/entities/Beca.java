@@ -31,9 +31,20 @@ import java.util.Set;
 public class Beca {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "becas_id_beca_seq")
+    @jakarta.persistence.SequenceGenerator(name = "becas_id_beca_seq", sequenceName = "becas_id_beca_seq", allocationSize = 1)
+    @org.hibernate.annotations.ColumnDefault("NEXT VALUE FOR becas_id_beca_seq")
     @Column(name = "id_beca")
     private Long idBeca;
+
+    @Column(name = "public_id", nullable = false, unique = true, updatable = false)
+    @org.hibernate.annotations.ColumnDefault("RANDOM_UUID()")
+    private java.util.UUID publicId = java.util.UUID.randomUUID();
+
+    @jakarta.persistence.Version
+    @Column(nullable = false)
+    @org.hibernate.annotations.ColumnDefault("0")
+    private Long version;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_institucion", nullable = false)
@@ -59,10 +70,35 @@ public class Beca {
     @Column(name = "monto_cobertura", length = 255)
     private String montoCobertura;
 
+    @Column(name = "cobertura_tipo", nullable = false, length = 20)
+    @org.hibernate.annotations.ColumnDefault("'DESCONOCIDA'")
+    private String coberturaTipo = "DESCONOCIDA";
+    @Column(name = "cobertura_importe", precision = 18, scale = 2)
+    private java.math.BigDecimal coberturaImporte;
+    @Column(name = "cobertura_moneda", length = 3)
+    private String coberturaMoneda;
+    @Column(name = "cobertura_periodicidad", length = 20)
+    private String coberturaPeriodicidad;
+    @Column(name = "cobertura_porcentaje", precision = 5, scale = 2)
+    private java.math.BigDecimal coberturaPorcentaje;
+
+    // Old clients and CSV keep metadata only while the original source text is unchanged.
+    public void setMontoCobertura(String texto) {
+        if (!java.util.Objects.equals(montoCobertura, texto)) {
+            coberturaTipo = "DESCONOCIDA";
+            coberturaImporte = null;
+            coberturaMoneda = null;
+            coberturaPeriodicidad = null;
+            coberturaPorcentaje = null;
+        }
+        montoCobertura = texto;
+    }
+
+
     @Column(name = "fecha_inicio_postulacion")
     private LocalDate fechaInicioPostulacion;
 
-    @Column(name = "fecha_cierre_postulacion", nullable = false)
+    @Column(name = "fecha_cierre_postulacion")
     private LocalDate fechaCierrePostulacion;
 
     @Column(name = "url_oficial", length = 500)

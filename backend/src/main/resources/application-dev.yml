@@ -1,0 +1,13 @@
+# Activación explícita: SPRING_PROFILES_ACTIVE=dev.
+# Configuración local; nunca usar este perfil en la página pública.
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8

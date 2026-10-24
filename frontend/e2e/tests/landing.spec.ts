@@ -5,11 +5,11 @@ test('CP-60: Landing Page muestra hero, features y footer', async ({ page }) => 
   await page.goto('/');
   
   // Hero section
-  await expect(page.locator('text=Encuentra la beca')).toBeVisible({ timeout: 5000 });
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('estudiando');
   
   // Feature cards
-  await expect(page.locator('text=Perfil Personalizado')).toBeVisible();
-  await expect(page.locator('text=Cobertura Nacional')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Explora tus opciones', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Explorar becas', exact: true }).last()).toHaveAttribute('href', '/explorar');
   
   // Navbar with public links
   await expect(page.locator('text=Ingresar').first()).toBeVisible();

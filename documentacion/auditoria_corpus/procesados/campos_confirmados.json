@@ -1,0 +1,217 @@
+[
+  {
+    "nombre": "Gratuidad",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/gratuidad",
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"
+    ],
+    "campos": {
+      "monto": "Matrícula y arancel durante la duración nominal",
+      "url": "https://portal.beneficiosestudiantiles.cl/gratuidad",
+      "fecha_inicio": "2026-10-01",
+      "fecha_cierre": "2026-10-22"
+    },
+    "limite": "Primer periodo FUAS para ingreso 2027. No equivale a renovación automática. Requisitos y documentos completos pendientes de certificación."
+  },
+  {
+    "nombre": "Beca Bicentenario",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb",
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"
+    ],
+    "campos": {
+      "monto": "Arancel de referencia anual",
+      "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb",
+      "fecha_inicio": "2026-10-01",
+      "fecha_cierre": "2026-10-22"
+    },
+    "limite": "Primer periodo FUAS 2027. Ficha con fechas institucionales contradictorias; no activar por tener calendario común."
+  },
+  {
+    "nombre": "Beca Nuevo Milenio I",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"
+    ],
+    "campos": {
+      "monto": "Hasta 600000 CLP del arancel anual",
+      "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+      "nem_minimo": "5.0",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "600000",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "fecha_inicio": "2026-10-01",
+      "fecha_cierre": "2026-10-22"
+    },
+    "limite": "Primer periodo FUAS 2027. Conservar topes, no prometer asignación íntegra. RSH y documentos desconocidos; elegibilidad institucional pendiente."
+  },
+  {
+    "nombre": "Beca Nuevo Milenio II",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"
+    ],
+    "campos": {
+      "monto": "Hasta 860000 CLP del arancel anual",
+      "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+      "nem_minimo": "5.0",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "860000",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "fecha_inicio": "2026-10-01",
+      "fecha_cierre": "2026-10-22"
+    },
+    "limite": "Primer periodo FUAS 2027. Primer año y condiciones propias; no fusionar con modalidad I. RSH y documentos desconocidos."
+  },
+  {
+    "nombre": "Beca Juan Gómez Millas",
+    "institucion": "Ministerio de Educación",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm",
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/index.php"
+    ],
+    "campos": {
+      "monto": "Hasta 1150000 CLP del arancel anual",
+      "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-juan-gomez-millas-bjgm",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "1150000",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "fecha_inicio": "2026-10-01",
+      "fecha_cierre": "2026-10-22"
+    },
+    "limite": "Primer periodo FUAS 2027. No reducir PAES/PACE a NEM. Ficha con fechas institucionales contradictorias; documentos completos pendientes."
+  },
+  {
+    "nombre": "Beca Municipal para Estudios Superiores Retiro",
+    "institucion": "Municipalidad de Retiro",
+    "revisado": "2026-10-12",
+    "fuentes": [
+      "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf",
+      "https://www.retiro.cl/archivos_adjuntos/actas_concejo/ACTA_TRASPASO_2021_2024.pdf"
+    ],
+    "campos": {
+      "monto": "2022: aporte parcial o total de matrícula o aporte semestral; monto individual desconocido",
+      "url": "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf"
+    },
+    "limite": "Confirmación histórica 2022; monto individual, RSH y vigencia 2026 desconocidos. No activar."
+  },
+  {
+    "nombre": "Beneficio Empresas AIEP",
+    "institucion": "AIEP",
+    "revisado": "2026-10-12",
+    "fuentes": [
+      "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/"
+    ],
+    "campos": {
+      "monto": "Monto por orden de compra definido por la empresa; sin porcentaje fijo publicado",
+      "url": "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": null,
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "Confirmación del mecanismo empresarial vigente; porcentaje original, cargas familiares y elegibilidad laboral no confirmados. No activar como convocatoria."
+  },
+  {
+    "nombre": "Cobro de Arancel Ajustado UC Temuco",
+    "institucion": "Universidad Católica de Temuco",
+    "revisado": "2026-10-14",
+    "fuentes": [
+      "https://dcr.uct.cl/preguntas-frecuentes/"
+    ],
+    "campos": {
+      "beneficio": "Ajuste del cobro del arancel",
+      "monto": "No especificado en las preguntas frecuentes consultadas",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": null,
+      "cobertura_moneda": null,
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "rsh_maximo": "90%",
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "No equiparar a beca monetaria ni atribuir porcentaje; el registro histórico fue corregido a la identidad institucional del Cobro de Arancel Ajustado. No se confirma convocatoria vigente."
+  },
+  {
+    "nombre": "Beca de Excelencia Académica (BEA, MINEDUC)",
+    "institucion": "Universidad de Santiago de Chile",
+    "revisado": "2026-10-13",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+      "https://admision.usach.cl/supernumerario"
+    ],
+    "campos": {
+      "beneficio": "Financia hasta $1.150.000 CLP del arancel anual de una carrera de pregrado.",
+      "monto": "Financia hasta $1.150.000 CLP del arancel anual de una carrera de pregrado.",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "1150000",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "cobertura_porcentaje": null,
+      "rsh_maximo": "80%",
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "Es un beneficio estatal asignado por MINEDUC, no una beca propia de USACH. No se respaldan el 50% ni un NEM fijo de 5,8 del registro original. El tope se imputa al arancel anual y no es dinero libre. Fechas y documentos específicos no indicados en la ficha oficial consultada. No se certifica convocatoria abierta; permanece inactiva."
+  },
+  {
+    "nombre": "Residencia Familiar Estudiantil (JUNAEB) — Arica",
+    "institucion": "JUNAEB / Municipalidad de Arica",
+    "revisado": "2026-10-13",
+    "fuentes": [
+      "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral"
+    ],
+    "campos": {
+      "beneficio": "Alojamiento en casa de familia tutora, alimentación y apoyo afectivo; programa JUNAEB ejecutado mediante convenio municipal.",
+      "monto": "No especificado",
+      "cobertura_tipo": "NO_MONETARIA",
+      "cobertura_importe": null,
+      "cobertura_moneda": null,
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "cobertura_porcentaje": null,
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "La fuente identifica residencia JUNAEB mediante convenio, no una beca municipal en efectivo de $250.000. Monto monetario, tramo RSH, NEM, documentos y fechas de cierre no especificados. La nota de abril de 2026 informó cupos disponibles en la convocatoria reportada entonces, no disponibilidad actual. Ficha inactiva."
+  },
+  {
+    "nombre": "Beca de Estudios Superiores — Municipalidad de Santiago",
+    "institucion": "Municipalidad de Santiago",
+    "revisado": "2026-10-13",
+    "fuentes": [
+      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/",
+      "https://www.munisantiago.cl/becas-y-fondos/"
+    ],
+    "campos": {
+      "beneficio": "Aporte único de $450.000 CLP para edición 2026",
+      "monto": "450000",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "450000",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "UNICA",
+      "cobertura_porcentaje": null,
+      "rsh_maximo": null,
+      "nem_minimo": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "limite": "Confirmación previa del 2026-10-05; no extrapolar fechas ni importe a futuras ediciones."
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "fecha": "2026-10-19",
+  "fuentes": [
+    {
+      "clave": "uct-guia-2011",
+      "original": "http://admision.uct.cl/doc/guia-becas-y-creditos-2011.pdf",
+      "archivo": "https://web.archive.org/web/20110831120311id_/http://admision.uct.cl/doc/guia-becas-y-creditos-2011.pdf",
+      "sha256": "7200b3aa28b9085c234ea14b28313d895c9c353fa5a7a1d61f021dc0742a2a07",
+      "bytes": 1547819,
+      "paginas": 13
+    },
+    {
+      "clave": "uct-becas-2014",
+      "original": "http://admision.uct.cl:80/becas-uct/",
+      "archivo": "https://web.archive.org/web/20140314091858id_/http://admision.uct.cl:80/becas-uct/",
+      "sha256": "fbdbe64dff0176479b3a9839140dda1dcd9fa966b4ee715eff1f734420f37a60",
+      "bytes": 22344
+    },
+    {
+      "clave": "ubo-internas-2024",
+      "original": "https://dae.ubo.cl/becas/becas-ubo/",
+      "archivo": "https://web.archive.org/web/20240616001727id_/https://dae.ubo.cl/becas/becas-ubo/",
+      "sha256": "b913d3bf6828f56bbd1f024d4a849cfd82cd74b1eacaf89cb9fab5b47919cccb",
+      "bytes": 141576
+    },
+    {
+      "clave": "ufro-ayudas-2015",
+      "original": "http://dde.ufro.cl/index.php?view=article&id=46%3Aayudas-estudiantiles&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=54",
+      "archivo": "https://web.archive.org/web/20150604033623id_/http://dde.ufro.cl/index.php?view=article&id=46%3Aayudas-estudiantiles&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=54",
+      "sha256": "bd0e349e9fb27c67392c2fdf1f082b7472f88b7a0ed40d4b62c859a90efadc42",
+      "bytes": 4965
+    },
+    {
+      "clave": "ufro-arancel-2020",
+      "original": "https://dde.ufro.cl/wp-content/uploads/documentos/requisitos-beneficio-arancel/REQUISITOS-BECAS-ARANCEL-2020.pdf",
+      "archivo": "https://web.archive.org/web/20201021184430id_/https://dde.ufro.cl/wp-content/uploads/documentos/requisitos-beneficio-arancel/REQUISITOS-BECAS-ARANCEL-2020.pdf",
+      "sha256": "faff3bfa4a921d1aaedd718a5b235e794e76154a04929396a2f8a4dbbeaa9393",
+      "bytes": 962276,
+      "paginas": 2
+    },
+    {
+      "clave": "ufro-apoyo-2023",
+      "original": "https://dde.ufro.cl/wp-content/uploads/2023/08/Bases-apoyo-econ%C3%B3mico-para-estudiantes-de-pregrado-dirigida-a-congresosm-movilidad-o-representaci%C3%B3n-universitaria.pdf",
+      "archivo": "https://web.archive.org/web/20231022023605id_/https://dde.ufro.cl/wp-content/uploads/2023/08/Bases-apoyo-econ%C3%B3mico-para-estudiantes-de-pregrado-dirigida-a-congresosm-movilidad-o-representaci%C3%B3n-universitaria.pdf",
+      "sha256": "a68b627d0ff4c5462ec760dc1f5030d3a8596b9393f7ca190371763cc2a242f6",
+      "bytes": 235825,
+      "paginas": 5
+    },
+    {
+      "clave": "iquique-nanning-2018",
+      "original": "http://www.municipioiquique.cl:80/2018/07/03/ciudad-de-nanning-destinara-becas-a-iquiquenos-que-cursen-estudios-superiores/",
+      "archivo": "https://web.archive.org/web/20180904005920id_/http://www.municipioiquique.cl:80/2018/07/03/ciudad-de-nanning-destinara-becas-a-iquiquenos-que-cursen-estudios-superiores/",
+      "sha256": "9b3f1e1046705dc9bc25a715b079ad4cd11ed405119b759183cee57a22f740d3",
+      "bytes": 21527
+    },
+    {
+      "clave": "udd-convenios-admision",
+      "url": "https://www.udd.cl/admision-postgrado/proceso-de-admision/",
+      "sha256": "215a1aabe79cd4bf0fc8c115f68274fcfc3f5258266d61a7f5cd0a75b64a547d",
+      "bytes": 98607
+    },
+    {
+      "clave": "udd-convenios-cine-2013",
+      "url": "https://comunicaciones.udd.cl/noticias/2013/06/conoce-el-diplomado-en-gestion-y-produccion-ejecutiva-para-cine-y-tv/",
+      "sha256": "e4f75fde7d3a8e9f467056eee7b4c96ec81cd67e9f495000cdd9cd77e21b37ee",
+      "bytes": 86492
+    },
+    {
+      "clave": "udd-chv-2010",
+      "url": "https://www.udd.cl/noticias/2010/11/03/udd-y-chv-firman-importante-alianza-estrategica/",
+      "sha256": "7e89edf9287d9d5b7b7457e14df82fd4fac888b38d109e0fb582587e54b7b200",
+      "bytes": 97086
+    },
+    {
+      "clave": "enac-bienestar-2022",
+      "original": "https://acreditacion.enac.cl/wp-content/uploads/2022/05/POLITICA-DE-PARTICIPACION-Y-BIENESTAR-ESTUDIANTIL.pdf",
+      "archivo": "https://web.archive.org/web/20240803193733id_/https://acreditacion.enac.cl/wp-content/uploads/2022/05/POLITICA-DE-PARTICIPACION-Y-BIENESTAR-ESTUDIANTIL.pdf",
+      "sha256": "90dae459f4f2a3e22ac10df166d295586e5947564956c3e397277b9fe095f9b9",
+      "paginas": 8
+    },
+    {
+      "clave": "enac-autoevaluacion-parte3-2017",
+      "original": "http://aseguramientocalidad.enac.cl/images/acredita/acc-documentos/general/Informe-autoevaluacion-Inst.Parte3.pdf",
+      "archivo": "https://web.archive.org/web/20171228121052id_/http://aseguramientocalidad.enac.cl/images/acredita/acc-documentos/general/Informe-autoevaluacion-Inst.Parte3.pdf",
+      "sha256": "2cea57885c9d024983c0cc0f3c814e4d7ec23189385e8dc6c54e0b2253726414",
+      "paginas": 79
+    },
+    {
+      "clave": "enac-estudiante-2018",
+      "original": "http://enac.cl:80/web2018/wp-content/uploads/2018/10/Reglamento-del-Estudiante-ENAC-2018.pdf",
+      "archivo": "https://web.archive.org/web/20181104170556id_/http://enac.cl:80/web2018/wp-content/uploads/2018/10/Reglamento-del-Estudiante-ENAC-2018.pdf",
+      "sha256": "712880f2c8ecbc54a2d8c4a8798c78fd63ec7ad7bdbbcf8b6c69f0d8c535079f",
+      "paginas": 7
+    },
+    {
+      "clave": "ufro-institucionales-archivo",
+      "archivo": "https://web.archive.org/web/20150604031103id_/http://dde.ufro.cl/index.php?option=com_content&view=article&id=73&Itemid=54",
+      "sha256": "b943b07f7fc9f7514d2c4fd005665fd00a931670dfa75a89bd17ac03c5d95e52",
+      "limite": "Captura de 2015 con condiciones de cohortes anteriores; no atribuirlas a 2026."
+    },
+    {
+      "clave": "ucsc-catastro-2024",
+      "url": "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+      "sha256": "37959101e494e9bac3dece309d737d805b30a7ef699643bc5677ec7dbb1a516e",
+      "paginas": 86,
+      "limite": "Localización textual por nombres; no lectura visual íntegra ni prueba de ausencia."
+    }
+  ],
+  "alcances_lectura": {
+    "uct-guia-2011": "Introducción y presentación ministerial de páginas PDF 2–3; no se usa como beca propia UCT.",
+    "ufro-arancel-2020": "Dos páginas renderizadas y leídas visualmente.",
+    "ufro-apoyo-2023": "Texto de las cinco páginas; programa de movilidad/congresos.",
+    "enac-autoevaluacion-parte3-2017": "Documento elaborado en 2015; pasajes de becas y páginas 49–52 y 55.",
+    "enac-bienestar-2022": "Documento escaneado. Solo página 6 revisada visualmente; no afirmar ausencia en el resto.",
+    "enac-estudiante-2018": "Búsqueda textual en siete páginas; no demuestra inexistencia de modalidades no localizadas."
+  },
+  "consultas_municipales": [
+    {
+      "dominio": "concepcion.cl",
+      "consulta": "https://concepcion.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 5
+    },
+    {
+      "dominio": "estacioncentral.cl",
+      "consulta": "https://estacioncentral.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 410: Gone",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "imhuara.cl",
+      "consulta": "https://imhuara.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 406: Not Acceptable",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "imputre.cl",
+      "consulta": "https://imputre.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "imsantamaria.cl",
+      "consulta": "https://imsantamaria.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 403: Forbidden",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "loespejo.cl",
+      "consulta": "https://loespejo.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 10
+    },
+    {
+      "dominio": "municipalidaddevalparaiso.cl",
+      "consulta": "https://municipalidaddevalparaiso.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 6
+    },
+    {
+      "dominio": "municipioiquique.cl",
+      "consulta": "https://municipioiquique.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 404: Not Found",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "municochamo.cl",
+      "consulta": "https://municochamo.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 406: Not Acceptable",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "munielmonte.cl",
+      "consulta": "https://munielmonte.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 404: Not Found",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "munitimaukel.cl",
+      "consulta": "https://munitimaukel.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 403: Forbidden",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "munivaldivia.cl",
+      "consulta": "https://munivaldivia.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 30
+    },
+    {
+      "dominio": "munivina.cl",
+      "consulta": "https://munivina.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "portalvisviri.cl",
+      "consulta": "https://portalvisviri.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 404: Not Found",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "puertomontt.cl",
+      "consulta": "https://puertomontt.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 72
+    },
+    {
+      "dominio": "rioclaro.cl",
+      "consulta": "https://rioclaro.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 3
+    },
+    {
+      "dominio": "talca.cl",
+      "consulta": "https://talca.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 404: Not Found",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "tierraamarilla.cl",
+      "consulta": "https://tierraamarilla.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "tolten.cl",
+      "consulta": "https://tolten.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "error": "HTTP Error 404: Not Found",
+      "publicaciones_localizadas": 0
+    },
+    {
+      "dominio": "victoriachile.cl",
+      "consulta": "https://victoriachile.cl/wp-json/wp/v2/search?search=beca&per_page=100&_fields=id,title,url,type,subtype",
+      "publicaciones_localizadas": 14
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+[
+  {
+    "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
+    "nombre": "Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior",
+    "url_consultada": "https://imcolchane.cl/Becas.php",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "a580e779bc86b15407e5001f094552e85663bbd10a90d4ed2434b1b3718c21c2",
+    "hallazgo": "El índice municipal identifica el decreto de la beca en 2022. No modifica ni resuelve por sí mismo la contradicción entre admisibilidad y tabla de puntuación del decreto 494/2023.",
+    "carencia_anterior": "El decreto 494/2023 identifica la beca y un millón de pesos en una cuota. La admisibilidad señala promedio 6,5 y RSH 40–60%; la tabla puntúa notas 5,5–6,5 y RSH inferior a 40%. También mezcla referencias 2022/2023. No se puede confirmar un corte de elegibilidad ignorando estas contradicciones.",
+    "pendiente_tras_contraste": "Precisar mediante acto modificatorio o bases corregidas qué criterios de admisibilidad prevalecen. Conservar el programa y el aporte acreditados; no descartar.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://imcolchane.cl/Becas.php"
+    ]
+  },
+  {
+    "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
+    "nombre": "Beca de Mantención Educación Superior Fresia",
+    "url_consultada": "https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "587c49943213cf17daa4aedd7ca4fae1ab5e3ebb84ed26779b5b8d399061cf44",
+    "hallazgo": "Cuenta pública de gestión 2023: distingue Beca Concejo Municipal y movilización. Los importes por nivel y las 4 UTM de movilización no permiten identificar automáticamente cuál corresponde al original de mantención.",
+    "carencia_anterior": "Cuenta pública 2023 distingue Beca Concejo Municipal (750.000 universidad; 500.000 IP/CFT) y movilización (4 UTM). La candidata de mantención no tiene correspondencia inequívoca con una de ellas; falta identificar modalidad.",
+    "pendiente_tras_contraste": "Contrastar Beca de Mantención Educación Superior Fresia con el apartado del programa de Municipalidad de Fresia; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf"
+    ]
+  },
+  {
+    "candidato": "c1bfe255f8585bb0c9e79bc82a7b66ce7b915310b1913e5111a334a3fce1b005",
+    "nombre": "Beca Municipal Incentivo al Rendimiento Taltal",
+    "url_consultada": "https://municipalidadtaltal.cl/portal9/wp-content/uploads/2026/04/RESUMEN-CUENTA-PUBLICA-ANO-2025-1.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "d61c60dd1d4441952ae2e74ec152de7b5daa6568942d62adababa007761e3b50",
+    "hallazgo": "Cuenta pública 2025: registra Beca Municipal y Beca Paranal con presupuestos separados. No acredita cortes de elegibilidad ni un importe individual uniforme.",
+    "carencia_anterior": "Cuenta pública 2025 distingue Beca Municipal y Paranal, con fondos agregados. Falta elegibilidad; no dividir presupuesto por beneficiarios para deducir importe.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal Incentivo al Rendimiento Taltal con el apartado del programa de Municipalidad de Taltal; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://municipalidadtaltal.cl/portal9/wp-content/uploads/2026/04/RESUMEN-CUENTA-PUBLICA-ANO-2025-1.pdf"
+    ]
+  },
+  {
+    "candidato": "f60b937cac06b69d259df3f6d4a8e4e8a2c288f04f40e8814bf925b36ca2b451",
+    "nombre": "Beca Municipal de Educación Superior 2026",
+    "url_consultada": "https://www.caleradetango.cl/departamento-social",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "6e15a4ad20b26e7431f21d543e0b6df16e92b80f6fc2a0f7dbed4aaa561631b9",
+    "hallazgo": "Departamento Social reconoce la beca propia para educación superior y evaluación del equipo social. No especifica su cobertura económica ni criterios de selección particulares.",
+    "carencia_anterior": "Página social identifica beca municipal superior y evaluación social, pero no precisa beneficio. Falta leer bases o acuerdo de creación; URL original contiene texto ajeno.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior 2026 en Municipalidad de Calera de Tango; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.caleradetango.cl/departamento-social"
+    ]
+  },
+  {
+    "candidato": "0d2f745ea1726bbaa603ca4933f75a62150cd37bdceddf02b3b1c5315737ba9b",
+    "nombre": "Beca de Educación Superior Maria Elena",
+    "url_consultada": "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "57e380504e4b337d6a7d6a08527d069e5ca56dc1e7341247a58bc8fe9854e330",
+    "hallazgo": "Informe de Secretaría Municipal de 2015 constituye antecedente de aprobación. No sustituye el texto del reglamento con elegibilidad y beneficio.",
+    "carencia_anterior": "Informe de secretaría 2015 identifica aprobación del programa de educación superior. Falta contenido del reglamento: beneficio y elegibilidad.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca de Educación Superior Maria Elena en Municipalidad de Maria Elena; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf"
+    ]
+  },
+  {
+    "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
+    "nombre": "Beca Educación Superior Ilustre Municipalidad de Papudo",
+    "url_consultada": "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf",
+    "resultado_acceso": "ERROR_ACCESO",
+    "sha256_recurso": null,
+    "hallazgo": "No se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.",
+    "carencia_anterior": "PDF recuperado y leído mediante conexión HTTP: su título real es Beca Presidente de la República y su calendario corresponde a 2013. Las notas 6,0 media/5,0 superior y los aportes 24.435/48.871 CLP pertenecen a esa beca, no prueban un programa propio municipal superior.",
+    "pendiente_tras_contraste": "Reglamento del aporte municipal de educación superior identificado en la cuenta pública. No trasladar beneficio JUNAEB a una beca propia ni excluir por fallo HTTPS.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf"
+    ]
+  },
+  {
+    "candidato": "ca0e6229369a472919fca235617e8fca06aa229bffb66fd73d32f0e1952e9c65",
+    "nombre": "Beca Estudiantil Municipal Yumbel",
+    "url_consultada": "https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "ea5fb0faafddd6650fa6ff8abfd19777b7fe058eab60fc0faad9643abbfe194b",
+    "hallazgo": "El formulario recuperado es Solicitud Beca de Residencia Municipal Enseñanza Superior 2025 en Concepción. No prueba el cheque o apoyo monetario general atribuido al original.",
+    "carencia_anterior": "Página 68: Beca Residencia Yumbel, estadía en hogares de Concepción marzo–diciembre; matrícula en institución superior de Concepción–Talcahuano, domicilio, notas, RSH y formulario. No describe un cheque ni un aporte general según presupuesto. Falta fuente que demuestre el supuesto apoyo monetario original; no sustituirlo por alojamiento.",
+    "pendiente_tras_contraste": "Contrastar Beca Estudiantil Municipal Yumbel con el apartado del programa de Municipalidad de Yumbel; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://yumbel.cl/wp-content/uploads/2024/12/POSTULACION-BECA-RESIDENCIA-2025-2.pdf"
+    ]
+  },
+  {
+    "candidato": "6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20",
+    "nombre": "Beca Municipal Estudiantil El Monte",
+    "url_consultada": "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf",
+    "resultado_acceso": "ERROR_ACCESO",
+    "sha256_recurso": null,
+    "hallazgo": "No se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.",
+    "carencia_anterior": "Cuenta pública 2024 muestra gestión de BPR/BI de JUNAEB; no acredita beca municipal propia. Falta fuente específica de esta última; no concluir inexistencia.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de El Monte indicado en las fuentes; localizar el apartado de Beca Municipal Estudiantil El Monte y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf"
+    ]
+  },
+  {
+    "candidato": "cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90",
+    "nombre": "Beca Concejo Municipal de Osorno para Educación Superior",
+    "url_consultada": "https://www.municipalidadosorno.cl/docs/site/cuentapublica/cuentapublica2011.pdf",
+    "resultado_acceso": "PDF_SIN_TEXTO_RELEVANTE",
+    "sha256_recurso": "6b790975318ef23a8e2523cbab994efdd35bc191d7524bb2c34206ba6acc0823",
+    "hallazgo": "La extracción del PDF no produjo texto relevante. No equivale a lectura visual ni permite confirmar o descartar el programa.",
+    "carencia_anterior": "PDF 2011 sin texto extraíble. Requiere lectura visual del acuerdo del Concejo; no sustituir por becas deportivas o culturales actuales.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Osorno indicado en las fuentes; localizar el apartado de Beca Concejo Municipal de Osorno para Educación Superior y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipalidadosorno.cl/docs/site/cuentapublica/cuentapublica2011.pdf"
+    ]
+  },
+  {
+    "candidato": "1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b",
+    "nombre": "Beca Municipal de Mantención Pudahuel",
+    "url_consultada": "https://dideco.mpudahuel.cl/app/tramites/home.asp",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "f93fd02d9e96fad5e060d6fa658094ae8e62ebbd26353c3093954f0a3812a6dc",
+    "hallazgo": "El portal DIDECO ofrece consulta de resultados de Beca de Educación Superior por RUT; no publica en esta pantalla la cobertura y requisitos. No se consultan datos de personas.",
+    "carencia_anterior": "Boletín municipal agosto 2024 respalda pago económico, pero no elegibilidad. Catastro UAH 2022 corresponde a otro año; recuperar bases de una misma convocatoria antes de combinarlos.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Mantención Pudahuel en Municipalidad de Pudahuel; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://dideco.mpudahuel.cl/app/tramites/home.asp"
+    ]
+  },
+  {
+    "candidato": "f8b6eed134d17b2e4dbc41b3563fafb078b7b4af683348ddafd031d71c9dbc55",
+    "nombre": "Beca Educación Superior",
+    "url_consultada": "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf",
+    "resultado_acceso": "PDF_SIN_TEXTO_RELEVANTE",
+    "sha256_recurso": "096f924c7640703c35da75fa0cac143f08fd1d48663b7c8a8c4c08fa1fd58227",
+    "hallazgo": "La extracción del PDF no produjo texto relevante. No equivale a lectura visual ni permite confirmar o descartar el programa.",
+    "carencia_anterior": "Acta 2015 sin texto extraíble requiere lectura visual. Documento de 2018 para funcionarios no acredita candidata general de educación superior.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Concepción indicado en las fuentes; localizar el apartado de Beca Educación Superior y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.concepcion.cl/transparencia/documentos/actas_ord_2012_2016/Acta_111-2015.pdf"
+    ]
+  },
+  {
+    "candidato": "a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6",
+    "nombre": "Beca Municipal de Educación Superior",
+    "url_consultada": "https://transparencia.temuco.cl/theconcejo/2024/junio/18-06.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "f12b6413c81910d5aacf1de1d721eb183f8ac2bfd76b98dfedb4a680154a97c4",
+    "hallazgo": "El acta recuperada contiene bases de becas deportivas. Su contenido no respalda por sí solo la candidata genérica de educación superior.",
+    "carencia_anterior": "Acta 2024 consultada describe becas deportivas. No respalda candidata de mantención superior; falta reglamento de esta modalidad.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Temuco indicado en las fuentes; localizar el apartado de Beca Municipal de Educación Superior y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.temuco.cl/theconcejo/2024/junio/18-06.pdf"
+    ]
+  },
+  {
+    "candidato": "c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior",
+    "url_consultada": "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "184ff5383ebd90220043cd8e7102419ddfe4862665f314f511b91d14809435fb",
+    "hallazgo": "La dirección con terminación PDF devuelve contenido HTML; no se han leído las supuestas bases BTC. Debe localizarse el archivo efectivo en el portal municipal actual.",
+    "carencia_anterior": "Enlace a bases 2026 redirige a portada municipal. Recuperar archivo desde transparencia o publicación original; portada no prueba requisitos.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Estacion Central indicado en las fuentes; localizar el apartado de Beca Municipal para Estudiantes de Educación Superior y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf"
+    ]
+  },
+  {
+    "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
+    "nombre": "Beca Municipal Educación Superior Caldera",
+    "url_consultada": "https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "bb19142954130ddadb2829d1d1cc4391e47d51fcabd998099f036529f5444fcb",
+    "hallazgo": "El supuesto PDF de FONDESCO devuelve HTML. FONDESCO no debe asumirse como beca individual para educación superior sin comprobar su objeto y beneficiarios.",
+    "carencia_anterior": "Ruta FONDESCO 2025 devuelve HTML, no bases PDF. Falta demostrar beneficio individual superior; contratación de transporte no acredita aporte monetario propio.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Caldera indicado en las fuentes; localizar el apartado de Beca Municipal Educación Superior Caldera y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://caldera.cl/wp-content/uploads/2025/06/BASES-TECNICAS-Y-ADMINISTRATIVAS-FONDESCO-2025-of.pdf"
+    ]
+  },
+  {
+    "candidato": "cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925",
+    "nombre": "Beca Municipal Estudiantil",
+    "url_consultada": "https://www.coltauco.cl/rsp/noticias.php?id=359",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "0bc087f06996c54966af66b1bdaa0519cf9c2207d45ca787f245427157a0d602",
+    "hallazgo": "Noticia específica abre becas municipales para educación superior y enlaza formulario. El formulario recuperado exige acceso y no permite acreditar beneficio y elegibilidad desde la vista pública.",
+    "carencia_anterior": "Noticia municipal anuncia postulaciones de superior, sin precisar aporte ni condiciones. Leer bases o formulario público enlazado sin enviar solicitud.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Estudiantil en Municipalidad de Coltauco; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.coltauco.cl/rsp/noticias.php?id=359"
+    ]
+  },
+  {
+    "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
+    "nombre": "Beca Municipal Capital del Mimbre",
+    "url_consultada": "https://www.camara.cl/verDoc.aspx?prmID=372191&prmTIPO=DOCUMENTO_COMISION",
+    "resultado_acceso": "formulario 2024 indexado (403 al abrir); ficha municipal A-14 legible",
+    "sha256_recurso": "486180dbe4d63856474951a7434058d26db30100d258c8f6584caa892c3652ac",
+    "hallazgo": "Formulario oficial 2024 identifica modalidad superior y remite al Decreto 865/2021. Ficha A-14 describe ayuda económica para estudiantes superiores residentes, pero cita norma de 2010; no se trasladan sus condiciones ni montos como actuales.",
+    "carencia_anterior": "Documento alojado en Cámara no recuperado por 403. Buscar reglamento municipal Capital del Mimbre y verificar alcance de superior.",
+    "pendiente_tras_contraste": "No queda pendiente la identidad esencial. Monto actual, requisitos detallados, documentos y convocatoria 2026 desconocidos; mantener inactiva.",
+    "estado": "CONFIRMADA_ESENCIAL",
+    "informe": "CONFIRMACION_ESENCIAL_CHIMBARONGO_2026_10_12.md",
+    "fuentes": [
+      "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+      "https://www.municipalidadchimbarongo.com/becas.pdf"
+    ]
+  },
+  {
+    "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
+    "nombre": "Beca Municipal de Educación Superior",
+    "url_consultada": "https://mpeumo.cl/page/2/?paged=2",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "72899263a233b97dd48c5cd298cec82c502ffecb1c910e4ed43b1ac6731b1d9a",
+    "hallazgo": "Página municipal anuncia beneficiarios de Beca Municipal. No presenta en el contenido obtenido las bases ni los requisitos de selección.",
+    "carencia_anterior": "Documento oficial contiene beneficiarios, no bases ni cobertura. Falta acuerdo o reglamento del mismo programa; no deducir criterios desde nómina.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior en Municipalidad de Peumo; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://mpeumo.cl/page/2/?paged=2"
+    ]
+  },
+  {
+    "candidato": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",
+    "nombre": "Beca de Mantención Municipal para Estudios Superiores",
+    "url_consultada": "https://www.municoquimbo.cl/direccion-de-desarrollo-comunitario/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "1e18a7fc2f685cc92c427554579785c0e15ca005f04e8534f2038a4903d2e8e8",
+    "hallazgo": "La dirección DIDECO no ofrece una ficha específica legible de la beca de mantención. Mantener el antecedente; no certificar por respuesta HTTP.",
+    "carencia_anterior": "Ficha de 2019 distingue aporte de arancel para egresados de establecimientos municipales/subvencionados y aporte anual de residencia para estudiantes con gratuidad o becas Mineduc que estudian fuera de la región. El original de mantención excluye gratuidad; no coincide inequívocamente con ninguna modalidad.",
+    "pendiente_tras_contraste": "Identificar la modalidad del original antes de asignar las condiciones de arancel o residencia. No cambiar mantención por residencia para cerrar el caso.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municoquimbo.cl/direccion-de-desarrollo-comunitario/"
+    ]
+  },
+  {
+    "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
+    "nombre": "Beca de Estudio Graneros Nueva Ciudad",
+    "url_consultada": "https://www.daemgraneros.cl/file/padem2019.pdf",
+    "resultado_acceso": "403 (la búsqueda indexó contenido oficial)",
+    "sha256_recurso": "8b7922d9df614e0f15a4a6dee35c46a9596ab0fc8bc0e6b81bb42f21f1f6bccd",
+    "hallazgo": "La búsqueda en el dominio oficial del DAEM recupera el PADEM 2019, sección 13.4.d, pág. impresa 45: identifica Graneros Nueva Ciudad 2018, población vulnerable residente y $150.000 por beca superior. La apertura directa posterior devuelve 403; intentos previos 404/HTML. Confirmación esencial histórica documentada; no acredita requisitos o vigencia actuales.",
+    "carencia_anterior": "PADEM 2019 devuelve 404. Recuperar sección del programa y sus condiciones; no certificar desde la URL.",
+    "pendiente_tras_contraste": "Ninguna para identidad/beneficio/requisitos históricos esenciales. Vigencia actual, fechas y documentos permanecen desconocidos y no publicables.",
+    "estado": "CONFIRMADA_ESENCIAL",
+    "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
+    "fuentes": [
+      "https://www.daemgraneros.cl/file/padem2019.pdf"
+    ]
+  },
+  {
+    "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
+    "nombre": "Beca de Mantención Educación Superior Hualpen",
+    "url_consultada": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+    "resultado_acceso": "ERROR_ACCESO",
+    "sha256_recurso": null,
+    "hallazgo": "No se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.",
+    "carencia_anterior": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas.",
+    "pendiente_tras_contraste": "Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ]
+  },
+  {
+    "candidato": "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
+    "nombre": "Beca Educación Superior Santa Maria",
+    "url_consultada": "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "700b727fc92599eebcb14217c6bbb8f162331a6d76d0efabf69972c0231322a2",
+    "hallazgo": "Noticia de agosto de 2026 describe 30 becas deportivas. Es una modalidad distinta; no demuestra el apoyo superior general de la candidata.",
+    "carencia_anterior": "Noticia de deportes bloqueada 403; título no respalda educación superior. Falta localizar beca estudiantil propia.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Santa Maria indicado en las fuentes; localizar el apartado de Beca Educación Superior Santa Maria y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://imsantamaria.cl/municipalidad-de-santa-maria-entrega-30-becas-deportivas-a-destacados-deportistas-locales/"
+    ]
+  },
+  {
+    "candidato": "49a1cf4554d04de646e6729a5b2bcfb8b652a5eaa22066ea9e55686fe7800759",
+    "nombre": "Beca Municipal Educación Superior Talca",
+    "url_consultada": "https://www.talca.cl/?p=26627",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "275771ec9097cafe7450d5c1249d1c9d3b705ae9ce5f33d2360308fc7f6f5174",
+    "hallazgo": "La respuesta obtenida del artículo de Talca no contiene texto específico utilizable de elegibilidad y beneficio. No cerrar por el estado HTTP.",
+    "carencia_anterior": "Documento municipal no recuperado por cadena TLS. Recuperar archivo de bases, sin inferir cobertura del nombre.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Talca indicado en las fuentes; localizar el apartado de Beca Municipal Educación Superior Talca y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.talca.cl/?p=26627"
+    ]
+  },
+  {
+    "candidato": "c5a89ab81b7d1fca835bb09dbbe5414aea0b1b008180247495c14f5355fe72cc",
+    "nombre": "Beca Municipal de Educación Superior Victoria",
+    "url_consultada": "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "d461a25e19097de80a88467f8c5f2a33fdf1ca870235f5c66dca487cbceda61f",
+    "hallazgo": "El portal de Victoria enlaza el Reglamento de Ayudas Sociales de julio de 2023. El PDF es escaneado; falta comprobar visualmente su apartado educativo antes de atribuir requisitos.",
+    "carencia_anterior": "Página de subsidios leída; reglamento de ayuda social enlazado devuelve 403. Falta leer apartado de educación y comprobar si existe programa superior específico.",
+    "pendiente_tras_contraste": "Recuperar y leer visualmente el documento de Municipalidad de Victoria indicado en las fuentes; localizar el apartado de Beca Municipal de Educación Superior Victoria y registrar páginas con beneficio y elegibilidad.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://victoriachile.cl/departamentos-y-direcciones/secretaria-municipal/transparencia-subsidios-y-beneficios-propios/"
+    ]
+  },
+  {
+    "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+    "nombre": "Aporte de Movilidad y Combustible Algarrobo",
+    "url_consultada": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "456772c5174a6f6707aa3dc028ba5e14cf2c0c24094a8c225055ed7909033dfb",
+    "hallazgo": "La ficha de abril de 2026 y el formulario describen aporte de combustible a hogares con vehículo, evaluación social y prioridades de vulnerabilidad; estudiar en educación superior es un dato opcional del grupo familiar. No respaldan los requisitos estudiantiles ni el monto 30–80 mil del original. No se elimina el original ni se ratifica exclusión por esta sola diferencia temporal.",
+    "carencia_anterior": "El aporte de movilidad y combustible 2026 se dirige a familias vulnerables y otros grupos sociales; no se acredita la condición de estudiante de educación superior del original.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Aporte de Movilidad y Combustible Algarrobo en Municipalidad de Algarrobo; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
+    ]
+  },
+  {
+    "candidato": "4442e480302d438f05cf0783dcc19e759d5a20c332865a007fa197bf5acb492f",
+    "nombre": "Beca Municipal de Educación Superior Arica",
+    "url_consultada": "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "75421845c3aea10a60f2d14a4bb50829e5da06e823cdd99b43eb11ea11400a44",
+    "hallazgo": "La noticia de Arica identifica Residencia Familiar Estudiantil en convenio JUNAEB, con familias tutoras. No es evidencia de un aporte monetario municipal superior propio.",
+    "carencia_anterior": "La noticia del 7 de abril de 2026 corresponde a Residencia Familiar Estudiantil JUNAEB; no al aporte municipal de dinero de la candidata.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior Arica en Municipalidad de Arica; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral"
+    ]
+  },
+  {
+    "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",
+    "nombre": "Beca Pedro Aguirre Cerda",
+    "url_consultada": "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "d090000bbc14f6dde1b52d69680d189fe2e69d037656e72fda1c2b92d6346e63",
+    "hallazgo": "El catastro UAH 2022 reúne múltiples beneficios. Debe aislarse la ficha Pedro Aguirre Cerda; datos de otras comunas o de beneficios estatales no respaldan esta candidata.",
+    "carencia_anterior": "El catastro UAH 2022 refiere la comuna Pedro Aguirre Cerda. No acredita un programa homónimo de Calle Larga.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Pedro Aguirre Cerda en Municipalidad de Calle Larga; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+    ]
+  },
+  {
+    "candidato": "5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Camina",
+    "url_consultada": "https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "8c1751894e3ca4bbb440968e54103d9ffe32dcdc1e27f93916cc6c6a3684b35e",
+    "hallazgo": "El PEI del Liceo de Camiña menciona redes de becas JUNAEB e indígenas y permanencia escolar. No detalla el supuesto aporte municipal para educación superior.",
+    "carencia_anterior": "El proyecto educativo del Liceo Camiña menciona redes de becas; no detalla una beca municipal propia para educación superior.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Apoyo a la Educación Superior Camina en Municipalidad de Camina; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://wwwfs.mineduc.cl/Archivos/infoescuelas/documentos/12759/ProyectoEducativo12759.pdf"
+    ]
+  },
+  {
+    "candidato": "f01eabac42e8476ca5b8bebba55201b8a1cc93a2a521eb78c112f7a9bf987235",
+    "nombre": "Beca Municipal de Educación Superior Catemu",
+    "url_consultada": "https://www.municatemu.cl/index.php/2-uncategorised/32-becas-deportivas-municipalidad-de-catemu",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "8c4fd96fa37985faa3f41cc7c8b044b730fa82d197fd5a21015798d7d0d48210",
+    "hallazgo": "La página de Catemu se titula Becas Deportivas y ofrece sus bases. No debe usarse como fuente de la candidata genérica superior.",
+    "carencia_anterior": "La publicación corresponde a becas deportivas; no acredita una beca general de educación superior de Catemu.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal de Educación Superior Catemu con el apartado del programa de Municipalidad de Catemu; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municatemu.cl/index.php/2-uncategorised/32-becas-deportivas-municipalidad-de-catemu"
+    ]
+  },
+  {
+    "candidato": "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
+    "nombre": "Beca Municipal Educación Superior Chanaral",
+    "url_consultada": "https://www.munichanaral.cl/noticias.html",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "c2d8d40f63bc7a3a7a6878ec2a961f5647c88e60cc96772c1f54173d29c7ff07",
+    "hallazgo": "El contenido recuperado es un listado de noticias de Chañaral, sin ficha específica de la beca superior en los pasajes obtenidos. No prueba inexistencia.",
+    "carencia_anterior": "La página recuperada es un índice de noticias; no contiene beneficio y requisitos atribuibles a esta candidata.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Educación Superior Chanaral en Municipalidad de Chanaral; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.munichanaral.cl/noticias.html"
+    ]
+  },
+  {
+    "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+    "nombre": "Beca Municipal Estudios Superiores Cholchol",
+    "url_consultada": "https://municholchol.cl/municipio/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "c630b263201842aa24afd0a36ad21b8127b8a75aa78665f85156487a3e68ced3",
+    "hallazgo": "La respuesta de Cholchol carece de contenido específico legible; no aporta bases para esta variante de nombre.",
+    "carencia_anterior": "La página de organización municipal no contiene las reglas del aporte de educación superior de Cholchol.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Estudios Superiores Cholchol en Municipalidad de Cholchol; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://municholchol.cl/municipio/"
+    ]
+  },
+  {
+    "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
+    "nombre": "Beca de Educación Superior Cholchol",
+    "url_consultada": "https://municholchol.cl/contacto-5/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "5c08048936c1452918164604255cb04552985f151f0b79a5b2e682d5ba8b8009",
+    "hallazgo": "La misma limitación de Cholchol afecta esta segunda candidata. No fusionar las dos variantes por compartir municipio o fallo de acceso.",
+    "carencia_anterior": "El directorio de contactos no describe monto ni condiciones del programa; no prueba duplicidad con la otra candidata Cholchol.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca de Educación Superior Cholchol en Municipalidad de Cholchol; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://municholchol.cl/contacto-5/"
+    ]
+  },
+  {
+    "candidato": "f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d",
+    "nombre": "Beca Municipal Educación Superior Cochamo",
+    "url_consultada": "https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "4cc6eaf13dceaea3ee27a35de3d35d164212f5c6c074df689244914d846bfc75",
+    "hallazgo": "Diario Huemul informa aportes de Cochamó de 2026: primera cuota 200.000 y continuidad de estudios. Es prensa secundaria; no se incorpora como confirmación oficial ni se traslada automáticamente al supuesto programa de 2024.",
+    "carencia_anterior": "La noticia de El Huemul describe aportes 2026 para 34 estudiantes de varios niveles; es un medio externo. Falta publicación oficial que establezca requisitos de selección.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Educación Superior Cochamo en Municipalidad de Cochamo; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/"
+    ]
+  },
+  {
+    "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
+    "nombre": "Beca Municipal Educación Superior Coelemu",
+    "url_consultada": "https://www.municoelemu.cl/decreto-alcaldicio-n-2000-con-fecha-de-20-de-noviembre-de-2024-que-aprueba-bases-administrativas-de-beca-de-excelencia-y-proyeccion-deportiva-coelemu-2024/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "ebbc719e2aa2be6b3307d87ec017b8c6ed32bf0dd3f9cc8fcff94b90d0abd992",
+    "hallazgo": "El decreto 2000/2024 y la página de Coelemu describen Excelencia y Proyección Deportiva para deportistas residentes. No prueban una beca superior general.",
+    "carencia_anterior": "Las bases deportivas no acreditan la modalidad de mantención estudiantil de Coelemu.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Educación Superior Coelemu en Municipalidad de Coelemu; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municoelemu.cl/decreto-alcaldicio-n-2000-con-fecha-de-20-de-noviembre-de-2024-que-aprueba-bases-administrativas-de-beca-de-excelencia-y-proyeccion-deportiva-coelemu-2024/"
+    ]
+  },
+  {
+    "candidato": "12b538ef6d46de6e96a66c6b59cc781840e337764bbc8fe1158ca44328d9d0cb",
+    "nombre": "Beca Municipal de Educación Superior Copiapo",
+    "url_consultada": "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "fa1e1e79a896a17ddd14fe312e3ef1459e4581806761fa3cf44100ac8fb84ad9",
+    "hallazgo": "Copiapó identifica becados de Medicina y Odontología del programa Carmen Vilches en La Rioja. La noticia no acredita cobertura ni selección de una beca superior general dentro de Chile.",
+    "carencia_anterior": "La recuperación del enlace devolvió 403. No demuestra inexistencia; falta una ficha oficial del aporte de educación superior.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal de Educación Superior Copiapo con el apartado del programa de Municipalidad de Copiapo; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
+    ]
+  },
+  {
+    "candidato": "f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4",
+    "nombre": "Beca Municipal de Educación Superior Coronel",
+    "url_consultada": "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "edd57cf93370d04c87cbb076ac182d3ada9a71a866d6843e0006d9e0cbb999f0",
+    "hallazgo": "La noticia de Coronel nombra Beca Municipal de Subvención de Pasajes concedida a dos puntajes nacionales. Acredita finalidad de transporte; no prueba libre disposición ni criterios generales de toda la convocatoria.",
+    "carencia_anterior": "Página 71: subvención de pasajes Coronel, año 2024; monto según presupuesto. RSH sin umbral publicado; notas 5,5 al egreso y todos los ramos aprobados en superior. Restringida a locomoción: no valida libre disposición anual ni NEM 5,0 del original. La comunicación municipal de 2019 sobre programa 100 por 100 identifica otro antecedente; falta precisar cuál corresponde al registro.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal de Educación Superior Coronel con el apartado del programa de Municipalidad de Coronel; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/"
+    ]
+  },
+  {
+    "candidato": "6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131",
+    "nombre": "Beca Municipal de Apoyo Estudiantil Visviri / General Lagos",
+    "url_consultada": "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "7f3ee398a0146c936619c9a1c9d444832a68044e4b264325955e8832cacee303",
+    "hallazgo": "El PDF de General Lagos es Beca Indígena y conserva calendario 2013. Los pagos de educación superior son estatales; no acreditan el supuesto apoyo municipal propio.",
+    "carencia_anterior": "El documento de Beca Indígena 2013 describe JUNAEB; no acredita una beca municipal propia de General Lagos.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Apoyo Estudiantil Visviri / General Lagos en Municipalidad de General Lagos; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf"
+    ]
+  },
+  {
+    "candidato": "349245ad74fc8dbe5e8eb93fb9b786d0a21cdba992eec27b0d9e03e14d4e868c",
+    "nombre": "Beca Municipal Estudiantil Gorbea",
+    "url_consultada": "https://www.municipalidadgorbea.cl/transparencia/images/ArchivosHOME/Anuncios/Bonos/2025/BASES%20BECAS%20DEPORTIVAS%202025%20WEB.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "7a69c19d0b52cf9800645166b8012ff5e3a439e9455478556b1a9e6f65514601",
+    "hallazgo": "Las bases de Gorbea de 2025 regulan deportistas destacados, con ordenanza 003 y programa deportivo. No confundir con la candidata estudiantil superior genérica.",
+    "carencia_anterior": "Las bases Gorbea 2025 definen logros deportivos regionales, nacionales o internacionales. No respaldan la modalidad estudiantil general del original.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Estudiantil Gorbea en Municipalidad de Gorbea; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipalidadgorbea.cl/transparencia/images/ArchivosHOME/Anuncios/Bonos/2025/BASES%20BECAS%20DEPORTIVAS%202025%20WEB.pdf"
+    ]
+  },
+  {
+    "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
+    "nombre": "Beca Municipal Estudiantil Hualane",
+    "url_consultada": "https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12137&ig=411&m=3",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "a9b05798419fd246e57c5c11c0f4582c2a4cd1f869d2aa1191b798e5203642f5",
+    "hallazgo": "El índice de Hualañé identifica decreto 423/2026 de Deportistas Destacados y montos según nivel competitivo. No son importes de una beca de educación superior general.",
+    "carencia_anterior": "Transparencia marzo 2026 identifica decreto 423 para deportistas destacados y sus montos. No acredita la beca estudiantil general de Hualañé.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal Estudiantil Hualane con el apartado del programa de Municipalidad de Hualane; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.hualane.cl/index.php?a=2026&action=plantillas_generar_plantilla&ia=12137&ig=411&m=3"
+    ]
+  },
+  {
+    "candidato": "156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a",
+    "nombre": "Beca Municipal Educación Superior Hualpen",
+    "url_consultada": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+    "resultado_acceso": "ERROR_ACCESO",
+    "sha256_recurso": null,
+    "hallazgo": "No se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.",
+    "carencia_anterior": "La página histórica DIDECO describe Beca Presidente de la República y Beca Indígena administradas localmente. No acredita el aporte propio municipal de mantención superior que describen las dos candidatas.",
+    "pendiente_tras_contraste": "Fuente específica del programa municipal propio y correspondencia entre ambas variantes. No contar gestión municipal de JUNAEB como financiamiento municipal.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ]
+  },
+  {
+    "candidato": "15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99",
+    "nombre": "Beca de Mantención Educación Superior Huara",
+    "url_consultada": "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "93dca15007d72ee951b4e284e25d09181503a3511158a12346edea1fbf39ff67",
+    "hallazgo": "Gobierno Regional informa computadores e internet del programa TIC de Mineduc/JUNAEB para séptimo básico en Huara. No respalda mantención universitaria municipal.",
+    "carencia_anterior": "La noticia de abril de 2020 describe computadores JUNAEB para séptimo básico. No respalda mantención municipal para educación superior de Huara.",
+    "pendiente_tras_contraste": "Contrastar Beca de Mantención Educación Superior Huara con el apartado del programa de Municipalidad de Huara; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/"
+    ]
+  },
+  {
+    "candidato": "b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf",
+    "nombre": "Beca Municipal de Educación Superior",
+    "url_consultada": "https://www.municipioiquique.cl/files/1439",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "c5e14fbaf430975e700eccbf0a8fc4936ee4bcd76069617183036d6d2b2a0d66",
+    "hallazgo": "El archivo 1439 de Iquique corresponde a Beca Artística Sixto Rojas Acosta: Formación y Proyección. No prueba un beneficio superior genérico sin requisitos artísticos.",
+    "carencia_anterior": "Las bases oficiales describen Sixto Rojas Acosta: formación artística escolar y proyección artística superior/postgrado. No es una beca general para cualquier estudiante superior.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior en Municipalidad de Iquique; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipioiquique.cl/files/1439"
+    ]
+  },
+  {
+    "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
+    "nombre": "Beca Municipal de Educación Superior Iquique",
+    "url_consultada": "https://www.municipioiquique.cl/files/1439",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "c5e14fbaf430975e700eccbf0a8fc4936ee4bcd76069617183036d6d2b2a0d66",
+    "hallazgo": "La segunda candidata de Iquique comparte el archivo de beca artística. No fusionar ni confirmar ambos registros superiores como si el PDF fuera un aporte universal.",
+    "carencia_anterior": "Las bases Sixto Rojas exigen disciplina artística y distinguen dos líneas. No acreditan la modalidad genérica original ni permiten declarar duplicidad solo por municipio.",
+    "pendiente_tras_contraste": "Contrastar Beca Municipal de Educación Superior Iquique con el apartado del programa de Municipalidad de Iquique; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipioiquique.cl/files/1439"
+    ]
+  },
+  {
+    "candidato": "e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed",
+    "nombre": "Beca Municipal de Educación Superior Archipielago Juan Fernandez",
+    "url_consultada": "https://www.comunajuanfernandez.cl/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "5d7517bed5e3b5a3496fb9323f9eacc2da044290db11bd7d2dc921e5bd1ab325",
+    "hallazgo": "La página raíz de Juan Fernández no ofrece ficha específica legible del programa. Un dominio institucional raíz no cumple la política de enlace profundo.",
+    "carencia_anterior": "La referencia de partida no contiene ficha específica. Beca Integración Territorial JUNAEB no acredita un programa propio municipal Juan Fernández.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior Archipielago Juan Fernandez en Municipalidad de Juan Fernandez; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.comunajuanfernandez.cl/"
+    ]
+  },
+  {
+    "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+    "nombre": "Beca Municipal Educación Superior La Florida",
+    "url_consultada": "https://appx.laflorida.cl/beca_escolar/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "e094489b0f6fb001f5298ffa85eccc3e70eed29db3caff9a14b3aeaae203237f",
+    "hallazgo": "La Florida publica Beca Escolar Municipal 2026 para kínder a cuarto medio, útiles, calzado o vestimenta. Excluye educación superior de los niveles descritos y no respalda la candidata superior.",
+    "carencia_anterior": "El formulario municipal consultado cubre educación escolar desde kínder hasta cuarto medio. La población destinataria no corresponde a educación superior del original.",
+    "pendiente_tras_contraste": "Fuente de la modalidad superior o evidencia individual de que los originales describen el programa escolar. El formulario escolar no prueba inexistencia de otra beca.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://appx.laflorida.cl/beca_escolar/"
+    ]
+  },
+  {
+    "candidato": "3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be",
+    "nombre": "Beca Municipal de Educación Superior La Florida",
+    "url_consultada": "https://appx.laflorida.cl/beca_escolar/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "e094489b0f6fb001f5298ffa85eccc3e70eed29db3caff9a14b3aeaae203237f",
+    "hallazgo": "La otra candidata superior de La Florida comparte la fuente escolar. No fusionar ni sustituir por la beca escolar solo por coincidencia territorial.",
+    "carencia_anterior": "El formulario municipal consultado cubre educación escolar desde kínder hasta cuarto medio. La población destinataria no corresponde a educación superior del original.",
+    "pendiente_tras_contraste": "Fuente de la modalidad superior o evidencia individual de que los originales describen el programa escolar. El formulario escolar no prueba inexistencia de otra beca.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://appx.laflorida.cl/beca_escolar/"
+    ]
+  },
+  {
+    "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+    "nombre": "Subsidio de Pasajes La Serena",
+    "url_consultada": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "022cb53a220a267a912350eb38e72508800b02981a6f26a8def4407d8c0879e2",
+    "hallazgo": "Acta de La Serena de 2013 aprueba mantención para diez ingresos SIPEE a Universidad de Chile, 150.000 mensuales por alumno. No respalda un subsidio general de pasajes para todos los estudiantes.",
+    "carencia_anterior": "El acta La Serena 2013 trata solicitudes de subvenciones a organizaciones y actividades. Falta regla específica de subsidio de pasajes para estudiantes superiores.",
+    "pendiente_tras_contraste": "Contrastar Subsidio de Pasajes La Serena con el apartado del programa de Municipalidad de La Serena; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
+    ]
+  },
+  {
+    "candidato": "00f59b834069f459dac589b6fc8bdd7c4fb6b0ac0a0851ab4b99f4bc976f0f9a",
+    "nombre": "Beca PAES y Educación Superior Lebu 2026",
+    "url_consultada": "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
+    "resultado_acceso": "PDF_TEXTUAL",
+    "sha256_recurso": "42d798fec88029e6e3f67741e4434f0cdf5f2b12a9179560d7b7d73917bbd863",
+    "hallazgo": "El catastro UCSC 2026 separa Lebu (aporte de continuidad) de Los Ángeles (excelencia PAES). No trasladar un puntaje PAES desde la ficha de otra municipalidad a Lebu.",
+    "carencia_anterior": "El PDF completo ya se recuperó y leyó. Página 48: Beca Efectivo de Lebu, con referencia expresa a 2025; aporte durante diez meses sujeto a presupuesto. Egreso de establecimiento municipal; ingreso per cápita máximo 180.000 CLP; nota 5,0 para nuevos y 4,5 para superiores, sin dos o más asignaturas reprobadas. No respalda una beca PAES de pago único 2026. Página 47 corresponde a otra modalidad de residencia 2024: 80.000 mensuales por diez meses. Falta identificar el incentivo PAES, no recuperar otra vez este PDF.",
+    "pendiente_tras_contraste": "Contrastar Beca PAES y Educación Superior Lebu 2026 con el apartado del programa de Municipalidad de Lebu; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
+    "nombre": "Beca Municipal Educación Superior Llay Llay",
+    "url_consultada": "https://www.munillay.cl/",
+    "resultado_acceso": "ERROR_ACCESO",
+    "sha256_recurso": null,
+    "hallazgo": "No se obtuvo acceso al documento en esta consulta. No se deriva inexistencia ni exclusión.",
+    "carencia_anterior": "No se obtuvo ficha específica de Llay Llay. Un documento de transporte de Tiltil que menciona destinos Llay Llay no acredita una beca propia de esta comuna.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal Educación Superior Llay Llay en Municipalidad de Llay Llay; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.munillay.cl/"
+    ]
+  },
+  {
+    "candidato": "110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8",
+    "nombre": "Beca Municipal de Educación Superior Lo Espejo",
+    "url_consultada": "https://www.loespejo.cl/departamento-de-desarrollo-social/",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "0a7056c8574b77136945f2f671dc31dceeb578c0c54cffd0c40f5816eaf6bd63",
+    "hallazgo": "Departamento de Desarrollo Social de Lo Espejo menciona postulación a becas superiores. No detalla cobertura económica ni elegibilidad de un programa propio.",
+    "carencia_anterior": "El departamento social menciona postulación a becas de educación superior; no acredita un aporte propio municipal ni sus reglas.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Municipal de Educación Superior Lo Espejo en Municipalidad de Lo Espejo; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "REQUIERE_ACLARACION",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.loespejo.cl/departamento-de-desarrollo-social/"
+    ]
+  },
+  {
+    "candidato": "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Los Vilos",
+    "url_consultada": "https://registros19862.gob.cl/transferencia/25727",
+    "resultado_acceso": "HTML",
+    "sha256_recurso": "5f69c23e515051041a7b7b8c9097db160b462851c0a22698d9838999f41dec90",
+    "hallazgo": "El registro de Hacienda es transferencia JUNAEB al municipio de 2005 para Residencia Familiar Estudiantil; no acredita la beca superior municipal propia. Esta carencia se resuelve para 2025 mediante dos fichas municipales específicas.",
+    "carencia_anterior": "La transferencia 25727 corresponde a Residencia Familiar Estudiantil de marzo de 2005. No acredita el aporte de libre disposición del original.",
+    "pendiente_tras_contraste": "Revisión esencial histórica cerrada; vigencia actual por evaluar separadamente.",
+    "estado": "CONFIRMADA_ESENCIAL",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://registros19862.gob.cl/transferencia/25727",
+      "https://www.munilosvilos.cl/?p=58415",
+      "https://www.munilosvilos.cl/?p=59156"
+    ]
+  },
+  {
+    "candidato": "ea0b3c58661cd4a8bb7fdcb61928b14a0790903b6fbfe7b1a739ba28d7365e30",
+    "nombre": "Beca Excelencia Académica ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Excelencia Académica ENAC en CFT ENAC; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "317fc4e2853c759fae7d0742bb8613f5dda0fdd0a57437f63741d2df0e998bc5",
+    "nombre": "Beca Apoyo Familiar ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Apoyo Familiar ENAC en CFT ENAC; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "bc21440901dae5612e24a28e4cb4ef9d045428f756d255fdbb95ab65d8f3247e",
+    "nombre": "Beca Deportiva ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Deportiva ENAC en CFT ENAC; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "caf8058fd9dc82de04456bb99374a18534754876b7673ce78d485b5eb1b4945c",
+    "nombre": "Beca Convenio Empresas ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Contrastar Beca Convenio Empresas ENAC con el apartado del programa de CFT ENAC; documentar correspondencia de nivel, destinatarios y tipo de apoyo antes de corregir cifras.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "1e99953c14c855e25d0c8dc49e63a2b99a3957f9459258142435bfe2bf1a5656",
+    "nombre": "Beca Vocacion de Servicio ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Vocacion de Servicio ENAC en CFT ENAC; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "be15e902598267d92ab44f3ec66c63e0d20fe0daa3af99492030a0bc0a544b31",
+    "nombre": "Beca Titulado ENAC",
+    "url_consultada": "https://enac.cl/admision/",
+    "resultado_acceso": "HTML_LEIDO_APARTADO_FINANCIAMIENTO",
+    "hallazgo": "Página de admisión ENAC recuperada mediante descarga directa: la oferta interna 2027 enumera TENS Masculino, STEM, Joven TEC y ENAC +50, además de becas estatales. No acredita la identidad, descuento o requisitos de esta candidata específica; ausencia en esta página no prueba inexistencia histórica.",
+    "carencia_anterior": "El informe oficial 2022, páginas 150–151 y 302, describe financiamiento estatal y orientación a beneficios internos/externos sin identificar esta beca ni sus requisitos. Página 318 menciona becas para pagar el proceso de título: no una beca de segunda carrera para titulados. No permite confirmar porcentajes ni requisitos del registro. No demuestra inexistencia del programa; se requiere instrumento específico.",
+    "pendiente_tras_contraste": "Localizar las bases o ficha específica de Beca Titulado ENAC en CFT ENAC; contrastar el beneficio y los destinatarios frente a la carencia individual descrita en el antecedente.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://enac.cl/admision/"
+    ]
+  },
+  {
+    "candidato": "58c8bafe48f523b309998df46b2dba7d9aaec8ef91525886a73a5af0f4a152a7",
+    "nombre": "Beca Deportiva UMayor",
+    "url_consultada": "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+    "resultado_acceso": "PDF_INDICE_Y_DISPOSICIONES_LEIDOS",
+    "hallazgo": "Índice y disposiciones iniciales del reglamento oficial 2026: Espíritu Emprendedor es el sistema general de becas. La lista identifica NEM, Familia Mayor, PAES, Araucanía y otras modalidades; no acredita el descuento deportivo o la beca individual de talento emprendedor atribuida al original. No se afirma inexistencia por ausencia en el índice.",
+    "carencia_anterior": "DEMRE Admisión 2024, páginas 302–303: el título Sistema de Apoyo y Becas Espíritu Emprendedor agrupa varias ayudas de Universidad Mayor; no acredita una Beca Talento Emprendedor individual. Los apartados leídos describen mérito académico, familia, PAES, Araucanía y egresados; tampoco fijan cobertura de la candidata deportiva.",
+    "pendiente_tras_contraste": "Fuente individual de Talento Emprendedor y de la beca deportiva con beneficio y elegibilidad. No convertir el nombre del sistema en programa independiente ni excluir por los apartados consultados.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+      "https://www.umayor.cl/um/matricula-renovante/becas"
+    ]
+  },
+  {
+    "candidato": "28419e40546a00015949dfd6c4a3a002aa17bac9befd30109cde13d7ecd87019",
+    "nombre": "Beca Talento Emprendedor UMayor",
+    "url_consultada": "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+    "resultado_acceso": "PDF_INDICE_Y_DISPOSICIONES_LEIDOS",
+    "hallazgo": "Índice y disposiciones iniciales del reglamento oficial 2026: Espíritu Emprendedor es el sistema general de becas. La lista identifica NEM, Familia Mayor, PAES, Araucanía y otras modalidades; no acredita el descuento deportivo o la beca individual de talento emprendedor atribuida al original. No se afirma inexistencia por ausencia en el índice.",
+    "carencia_anterior": "DEMRE Admisión 2024, páginas 302–303: el título Sistema de Apoyo y Becas Espíritu Emprendedor agrupa varias ayudas de Universidad Mayor; no acredita una Beca Talento Emprendedor individual. Los apartados leídos describen mérito académico, familia, PAES, Araucanía y egresados; tampoco fijan cobertura de la candidata deportiva.",
+    "pendiente_tras_contraste": "Fuente individual de Talento Emprendedor y de la beca deportiva con beneficio y elegibilidad. No convertir el nombre del sistema en programa independiente ni excluir por los apartados consultados.",
+    "estado": "EXCLUSION_HISTORICA_SIN_RATIFICAR",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.umayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+      "https://www.umayor.cl/um/matricula-renovante/becas"
+    ]
+  },
+  {
+    "candidato": "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Lota",
+    "url_consultada": "https://www.lotatransparente.cl/index.php?a=2023&action=plantillas_generar_plantilla&ia=71453&ig=115&m=7",
+    "resultado_acceso": "FICHA_MUNICIPAL_LEIDA",
+    "hallazgo": "Ayuda municipal para gastos de transporte de estudiantes que ingresan o cursan educación superior. La noticia de 2025 acredita financiación municipal; importe individual desconocido en las fuentes incorporadas, sin dividir presupuesto por beneficiarios. Ficha histórica 2023: residencia en Lota acreditada por RSH y certificado vecinal; alumno regular de educación superior; RSH hasta 40%; promedio de cuarto medio 5,5 para ingreso y promedio del año anterior 5,0 para cursos superiores.",
+    "carencia_anterior": "Decreto 483/2026 de 17 de abril: Beca Municipal Educación Superior para 200 alumnos de institutos y universidades; 100.000 CLP individuales por transferencia. El considerando denomina el apoyo Beca de Pasajes 2026. Los antecedentes incluyen informe socioeconómico, RSH vigente y certificado de alumno regular. Se distingue importe por persona de presupuesto agregado de 20 millones.",
+    "pendiente_tras_contraste": "Revisión esencial histórica cerrada; vigencia actual por evaluar separadamente.",
+    "estado": "CONFIRMADA_ESENCIAL",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.lotatransparente.cl/index.php?a=2023&action=plantillas_generar_plantilla&ia=71453&ig=115&m=7",
+      "https://lota.cl/juntos-fortalecemos-lota-colcura-y-chivilingo/"
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "candidato": "f22ffe5540ac95988a25543e78f7406b31203091c628d6fe4f3522d7b5f5d099",
+    "nombre": "Beca Puntaje Ponderado UAI",
+    "institucion": "Universidad Adolfo Ibáñez",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "campos": {
+      "monto": "Descuento variable de arancel según campus; carrera y puntaje ponderado",
+      "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Admisión 2026. Condiciones de matrícula y renovación en fuente. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "1bed886d10115e86a9a3aae7ac3b3b5cd87b6fabe51372b4dbbaf790c9d49ddd",
+    "nombre": "Beca Total UAI",
+    "institucion": "Universidad Adolfo Ibáñez",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas"
+    ],
+    "campos": {
+      "monto": "100 % de matrícula y arancel anual durante la duración formal",
+      "url": "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Admisión centralizada 2026; preselección de gratuidad y requisitos académicos. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "2e318c92a1b62588be4a7668e807537f72f2f4e4cda08922d4787d65470cbe69",
+    "nombre": "Alimentación UCN",
+    "institucion": "Universidad Católica del Norte",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "monto": "Servicio de almuerzo y cena como beca o préstamo según cupos",
+      "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "cobertura_tipo": "NO_MONETARIA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Modalidad y condiciones concretas pendientes. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "5f8ddd940c279567e10ac65cb81a5508d78dc10e8dc2a9a0cc0e3dc2160ef3bc",
+    "nombre": "Alojamiento UCN",
+    "institucion": "Universidad Católica del Norte",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "monto": "Alojamiento en residencias de Antofagasta y Coquimbo según cupos",
+      "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "cobertura_tipo": "NO_MONETARIA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Evaluación y documentos completos pendientes. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "01d3f6f7876542f22da805464eabac81b1c8666b612a44bd6626160d1d360582",
+    "nombre": "Distincion Excelencia Académica UCN",
+    "institucion": "Universidad Católica del Norte",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "monto": "Arancel de carrera del primer año; convocatoria a confirmar",
+      "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. La ficha cita egreso en diciembre de 2026; no se confirma vigencia actual. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "160f232ecf91941db99ccfa05250728dd5908715567b0211105a212060f39b66",
+    "nombre": "Plan de Escolaridad Segura UCN",
+    "institucion": "Universidad Católica del Norte",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/"
+    ],
+    "campos": {
+      "monto": "Pago de arancel condicionado al fallecimiento del sostenedor",
+      "url": "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Plan de protección; completar bases específicas. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "92569119ae4b688cb9c5e465709fa7f6c7071a44fb235cd4fd03e707a7bba171",
+    "nombre": "Beca de Alimentación UCT",
+    "institucion": "Universidad Católica de Temuco",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uct.cl/becas-y-creditos/"
+    ],
+    "campos": {
+      "monto": "Ración diaria de almuerzo en el casino institucional",
+      "url": "https://admision.uct.cl/becas-y-creditos/",
+      "cobertura_tipo": "NO_MONETARIA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Asignación y documentos completos pendientes. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  },
+  {
+    "candidato": "52d3f94542f369d46ac07b20587f5cca46e2cfa2ce32b977d8f2a75b94952248",
+    "nombre": "Beca Deportiva UCentral",
+    "institucion": "Universidad Central de Chile",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "campos": {
+      "monto": "Rebaja de arancel con tope definido por la Comisión de Becas",
+      "url": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial. Evaluación deportiva; no hay porcentaje fijo confirmado. Cierre y DOCUMENTOS REQUERIDOS: Lista concreta pendiente."
+  }
+]

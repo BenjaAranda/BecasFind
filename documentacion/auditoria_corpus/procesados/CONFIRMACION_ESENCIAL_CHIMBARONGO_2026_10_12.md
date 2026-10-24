@@ -1,0 +1,9 @@
+# Confirmación esencial histórica: Beca Capital del Mimbre de Chimbarongo — 12 de octubre de 2026
+
+La Municipalidad de Chimbarongo publicó un formulario de postulación 2024 denominado “Beca Capital del Mimbre — Nivel Superior”. El formulario identifica el programa para estudiantes de educación superior; solicita datos del postulante, domicilio familiar, institución, carrera y nivel que cursará. Declara que sus antecedentes y requisitos se rigen por el Decreto municipal N.º 865 del 7 de abril de 2021.
+
+La ficha municipal de trámites A-14 describe la Beca Capital del Mimbre como colaboración económica para estudios de enseñanza media y superior de residentes de Chimbarongo, con trámite ante el Departamento Social. Esa ficha menciona cuantías y requisitos y cita la Ordenanza/Decreto N.º 2.209 de 2010. Como el formulario posterior remite a una norma de 2021, no traslado al registro los requisitos detallados ni los montos de la ficha A-14: su vigencia frente al decreto posterior no quedó resuelta.
+
+Fuentes municipales: [Formulario oficial de nivel superior 2024](https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf) y [ficha municipal de trámites A-14](https://www.municipalidadchimbarongo.com/becas.pdf). La búsqueda indexa el contenido del formulario oficial, aunque la descarga directa respondió 403 en esta revisión.
+
+Se confirman esencialmente la identidad de la beca, su orientación como apoyo económico para educación superior y su alcance general para estudiantes residentes de Chimbarongo. No se confirma el monto individual actual, periodicidad, límite de edad, nota o porcentaje de ramos exigido, incompatibilidades, documentación completa, fechas ni convocatoria 2026. Se mantiene inactiva hasta contar con bases actuales.

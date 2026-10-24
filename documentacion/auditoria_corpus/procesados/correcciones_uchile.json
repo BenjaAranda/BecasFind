@@ -1,0 +1,87 @@
+[
+  {
+    "registro": 1,
+    "nombre": "Beca Universidad de Chile",
+    "fuentes": ["https://uchile.cl/dbe/buch"],
+    "campos": {
+      "descripcion": "BUCH: matrícula y arancel completos para excelencia académica. Revisión parcial de admisión 2027; registro inactivo.",
+      "detalle": "Revisión oficial 01/10/2026: NEM mínimo 6.0 y RSH hasta 90 %. PAES promedio 700; otras condiciones en fuente. Formulario hasta el 19/10/2026 al mediodía. El sistema no representa la hora de cierre; no activar sin resolver ese límite y completar revisión de exclusiones. No compatible con gratuidad o beneficio equivalente.",
+      "monto": "Matrícula y arancel completos",
+      "url": "https://uchile.cl/dbe/buch",
+      "fecha_inicio": "2026-09-21",
+      "fecha_cierre": "2026-10-19",
+      "rsh_maximo": "90",
+      "nem_minimo": "6.0",
+      "documentos_requeridos": "[OBLIGATORIO] Cartola del Registro Social de Hogares",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "100"
+    }
+  },
+  {
+    "registro": 2,
+    "nombre": "Beca Andres Bello",
+    "fuentes": ["https://uchile.cl/dbe/bab"],
+    "campos": {
+      "descripcion": "Beca Andrés Bello: matrícula y arancel completos; selección automática con DTE. Registro inactivo y revisión parcial.",
+      "detalle": "Revisión oficial 01/10/2026: NEM mínimo 6.0 y DTE para admisión 2027. La cabecera enero 2027 contradice un resultado de selección enero 2026; no establecer plazo abierto. Diez beneficios; incompatible con gratuidad o beneficio equivalente. Documentos completos por confirmar.",
+      "monto": "Matrícula y arancel completos",
+      "url": "https://uchile.cl/dbe/bab",
+      "nem_minimo": "6.0",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "100"
+    }
+  },
+  {
+    "registro": 3,
+    "nombre": "Beca de Atención Económica",
+    "fuentes": ["https://uchile.cl/convocatorias/7734/beca-de-atencion-economica-bae-"],
+    "campos": {
+      "descripcion": "BAE: mantención en modalidades según condición estudiantil. Registro inactivo; calendario y documentos por confirmar.",
+      "detalle": "Revisión oficial 01/10/2026: ocho cuotas durante 2026; valores mensuales según modalidad y evaluación interna. FOCES y cuenta bancaria propia. La cabecera no es cierre universal: curso superior depende de unidad académica. Puntaje de evaluación no se convierte en tramo RSH; requisitos y acreditación completos en fuente.",
+      "monto": "Modalidades 30000 / 57000 / 70000 / 82000 pesos mensuales según condición (2026)",
+      "url": "https://uchile.cl/convocatorias/7734/beca-de-atencion-economica-bae-"
+    }
+  },
+  {
+    "registro": 4,
+    "nombre": "Beca de Alimentación UChile",
+    "fuentes": ["https://gobierno.uchile.cl/pregrado/bienestar/becas-y-beneficios-internos"],
+    "campos": {
+      "descripcion": "Registro histórico de alimentación sin identidad institucional confirmada. Inactivo; no acredita una tarjeta de monto fijo.",
+      "detalle": "Revisión 01/10/2026: la Facultad de Gobierno describe un beneficio de almuerzos. Esa referencia no confirma la tarjeta universal de 35000 pesos del histórico. Ámbito y convocatoria desconocidos. No extrapolar el beneficio de facultad ni confundirlo con BAES/JUNAEB."
+    }
+  },
+  {
+    "registro": 5,
+    "nombre": "Beca Deportiva UChile",
+    "fuentes": ["https://portaluchile.uchile.cl/presentacion/vicerrectoria-de-asuntos-estudiantiles-y-comunitarios/direccion-de-deportes-y-actividad-fisica/apoyo-a-deportistas/beca-de-excelencia-deportiva", "https://www.deporteazul.cl/category/becas/"],
+    "campos": {
+      "descripcion": "Excelencia Deportiva: concurso institucional para deportistas. Registro inactivo y revisión parcial de modalidades.",
+      "detalle": "Revisión 01/10/2026: Dirección de Deportes confirma concurso y currículo deportivo reciente. DeporteAzul enumera coberturas alternativas para 2026; falta convocatoria específica con cierre y documentos completos. Admisión deportiva y asignación de beca son procesos diferentes.",
+      "monto": "Alternativas de 25 % / 50 % / 100 % del arancel anual; falta completar bases 2026",
+      "url": "https://portaluchile.uchile.cl/presentacion/vicerrectoria-de-asuntos-estudiantiles-y-comunitarios/direccion-de-deportes-y-actividad-fisica/apoyo-a-deportistas/beca-de-excelencia-deportiva"
+    }
+  },
+  {
+    "registro": 6,
+    "nombre": "Beca Hijos de Funcionarios",
+    "fuentes": ["https://uchile.cl/convocatorias/7790/descuento-de-arancel-para-hijos-de-funcionarios-o-academicos"],
+    "campos": {
+      "descripcion": "Descuento de arancel para hijos de personal UChile. Cobertura depende del caso; registro inactivo.",
+      "detalle": "Revisión oficial 01/10/2026: primer ingreso y primera carrera de hijos de personal vigente tiene cobertura completa en 2026; otras modalidades dependen de contrato, jornada y renta. No aplicar 50 % ni antigüedad de dos años universal. Asignación automática o revisión según caso; documentos y calendario aplicable por confirmar.",
+      "monto": "Modalidades de 25 % / 50 % / 100 % del arancel según situación (2026)",
+      "url": "https://uchile.cl/convocatorias/7790/descuento-de-arancel-para-hijos-de-funcionarios-o-academicos"
+    }
+  },
+  {
+    "registro": 7,
+    "nombre": "Beca de Residencia Universitaria",
+    "fuentes": ["https://uchile.cl/dbe/residencias"],
+    "campos": {
+      "descripcion": "Programa de residencia: vacante con copago y beca interna por etapa. Registro inactivo y revisión parcial.",
+      "detalle": "Revisión oficial 01/10/2026: beca interna con bases mensuales por etapa ajustables al arriendo. Familia fuera de RM salvo excepciones. FOCES y acreditación interna; sin RSH numérico confirmado. Calendarios/documentos difieren entre ingreso y renovación; la página mezcla referencias a 2025 y 2026.",
+      "monto": "Vacante con copago o beca interna base 160000 / 120000 pesos mensuales por etapa; ajustable al arriendo",
+      "url": "https://uchile.cl/dbe/residencias"
+    }
+  }
+]

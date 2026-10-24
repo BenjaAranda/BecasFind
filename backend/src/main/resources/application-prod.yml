@@ -1,0 +1,21 @@
+# Producción exige variables externas y un esquema previamente instalado.
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    defer-datasource-initialization: false
+  sql:
+    init:
+      mode: never
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+logging:
+  level:
+    root: INFO
+    com.becasfind.api: INFO
+    org.springframework.security: WARN
+    org.hibernate.SQL: WARN
