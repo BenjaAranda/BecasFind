@@ -34,7 +34,7 @@ Confirmar lo esencial solo con fuente oficial que individualice la existencia e 
 ## Rutas agotadas: reabrir solo con una fuente nueva y específica
 
 - **ENAC (4):** no se recuperó el Reglamento Anexo 52; páginas actuales y acta CNA no identifican las cuatro modalidades. Ver referencias por hash en la cola y `ANEXO52_REGLAMENTO_BECAS_ENAC_2026_10_20.md`.
-- **Puerto Montt:** Incentivo PAES, ayuda a hijos de pescadores y Reglamento 0004/2017 son modalidades distintas. Registros mencionan Ord. 132/2026 y 193/2026, cuyos textos no están disponibles. Ver `CONTRASTES_PUBLICOS_FOCALIZADOS_2026_10_23.md`.
+- **Puerto Montt:** Incentivo PAES, ayuda a hijos de pescadores y Reglamento 0004/2017 son modalidades distintas. Fuentes municipales de 2026 distinguen becas Social, Cultural y Deportiva; la publicación deportiva no define la candidata genérica de educación superior. Siguen sin publicarse los Ord. 132/2026 y 193/2026 y el reglamento. No repetir noticias deportivas ni de hijos de pescadores salvo nueva fuente para la beca general. Ver `CONTRASTES_PUBLICOS_FOCALIZADOS_2026_10_23.md`.
 - **General Lagos/Visviri:** 27 actas 2026, OCR y transparencia 2013–2015 revisadas; no individualizan la candidata. No repetir ese corpus.
 - **Valparaíso (3):** revisados catálogos, decretos, cuentas públicas y archivos disponibles. BETA es escolar; beneficios JUNAEB son estatales; ninguno identifica estas candidatas superiores. Ver informes citados en las tres filas.
 - **Lo Espejo:** DIDECO confirma un trámite de postulación y la fuente 2024 identifica beneficios JUNAEB; no identifica aporte municipal propio. Ver `CONTRASTE_DIDECO_LO_ESPEJO_2026_10_23.md`.
