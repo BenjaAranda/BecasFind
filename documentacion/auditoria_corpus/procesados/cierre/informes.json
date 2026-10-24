@@ -4634,7 +4634,7 @@
     ]
   },
   "CONTRASTES_PUBLICOS_FOCALIZADOS_2026_10_23.md": {
-    "sha256": "2c9588b2e32d3d7a01bb2d73f1c6f68a8adb2bd8ea7a69662f4f8872e2ce4e9d",
+    "sha256": "84db2999d34a26f1a69f24e3f42a9439136063949487150a7697e57823d072b2",
     "urls": [
       "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
       "https://concepcion.cl/direccion-de-desarrollo-comunitario/",
@@ -4666,6 +4666,7 @@
       "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/junio/sem1.htm",
       "https://www.munivaldivia.cl/doctos/noticias_valdivia/mayo/sem2.html",
       "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2014.pdf",
+      "https://www.munivaldivia.cl/doctos/transparencia/cuentapublica/ctapublica2016.pdf",
       "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU025",
       "https://www.puertomontt.cl/wp-content/uploads/2025/12/REQUERIMIENTO-2026-al-dia-03.06.2026.pdf",
       "https://www.talca.cl/cuenta-publica/CuentaPublicaAno2020.pdf",
@@ -4689,6 +4690,15 @@
     "urls": [
       "https://portal.inacap.cl/exalumnos",
       "https://portales.inacap.cl/exalumnos/red-exalumno-destacado/como-ser-parte"
+    ]
+  },
+  "CONTRASTE_BECAS_MUNICIPALES_VALDIVIA_2026_10_23.md": {
+    "sha256": "d4d014ed9417ef53ddaef1112c55f285a8d6d7e5d62f71e9b701b446937788d8",
+    "urls": [
+      "https://munivaldivia.cl/wp-content/uploads/2020/10/padem-2023.pdf",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/2005/junio/sem1.htm",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/agosto/sem4.htm",
+      "https://www.munivaldivia.cl/doctos/noticias_valdivia/mayo/sem5.html"
     ]
   }
 }
