@@ -29,6 +29,8 @@ Actualización autorizada el 24 de octubre de 2026: cerrar en esta revisión tod
 
 ## 1. Estructura del Monorepo
 
+Actualización autorizada el 24 de octubre de 2026: el usuario autoriza comenzar el despliegue y ejecutar P12 con las becas confirmadas esenciales y completas. Esta autorización sustituye el límite previo de no iniciar despliegue para P12; P13/P14 conservan su secuencia y autorización por fase. No autoriza compras ni planes de pago. La confirmación editorial no sustituye la comprobación de vigencia y cierre oficial antes de publicar una beca. El proveedor previsto sigue sujeto a disponibilidad y acceso del usuario; no crear recursos mientras se aclara su elección de alojamiento.
+
 ```
 BecasFind/
 ├── backend/                 # Spring Boot 3.x · Maven · Java 17+

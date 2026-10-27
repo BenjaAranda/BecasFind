@@ -29,6 +29,8 @@ jobs:
         run: python3 infra/test-recover-malformed-corpus.py
       - name: Editorial progress counting safeguards
         run: python3 infra/test-report-corpus-progress.py
+      - name: P12 import backup and package safeguards
+        run: python3 infra/test-import-p12-catalog.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:
