@@ -1,0 +1,11 @@
+[Unit]
+Description=Cierre oficial BUCH admision 2027 a mediodia
+After=docker.service
+Requires=docker.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker exec becasfind-db psql -X -U postgres -d becasfind -v ON_ERROR_STOP=1 -c "UPDATE becas SET estado_activa=false, version=version+1 WHERE public_id='c8d21ab3-66b0-45ad-8d2b-17c764918549' AND fecha_cierre_postulacion=DATE '2026-10-30' AND estado_activa=true AND CURRENT_TIMESTAMP>=TIMESTAMPTZ '2026-10-30 12:00:00 America/Santiago';"
+Restart=on-failure
+RestartSec=15s

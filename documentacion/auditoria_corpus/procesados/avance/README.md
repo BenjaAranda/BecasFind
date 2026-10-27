@@ -1,6 +1,6 @@
 # Avance editorial por archivo
 
-Inventario actualizado al 24 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 0 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 526 confirmación esencial: quedan 0 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
+Inventario actualizado al 27 de octubre de 2026: 647 registros en 93 archivos; 568 identidades únicas. 0 tienen revisión parcial documentada y 0 no tienen revisión individual. 2 tienen confirmación completa y 526 confirmación esencial: quedan 0 pendientes de cierre con el criterio vigente. Una confirmación no autoriza publicar como vigente sin cierre confirmado.
 
 Hay 0 exclusiones históricas sin ratificar. Los 40 descartes editoriales se cuentan por separado. La exclusión por insuficiencia de evidencia no afirma falsedad ni inexistencia; los originales y registros administrativos inactivos se conservan. `descartes.json` conserva los antecedentes; `pendientes_esenciales_actuales.csv` distingue cuáles requieren nueva resolución. El criterio esencial confirma identidad, fuente específica, beneficio y requisitos principales. Una confirmación no autoriza activar sin cierre confirmado.
 

@@ -1,0 +1,11 @@
+[Unit]
+Description=Cierre FUAS 2027 a las 14 horas de Santiago
+After=docker.service
+Requires=docker.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker exec becasfind-db psql -X -U postgres -d becasfind -v ON_ERROR_STOP=1 -c "UPDATE becas SET estado_activa=false, version=version+1 WHERE public_id IN ('b5866285-b077-4806-b0cb-2d8f277956f6','1178ad3c-4894-4f76-a060-e0d75cacfa1e') AND fecha_cierre_postulacion=DATE '2026-11-05' AND estado_activa AND CURRENT_TIMESTAMP>=TIMESTAMPTZ '2026-11-05 14:00:00 America/Santiago';"
+Restart=on-failure
+RestartSec=15s
