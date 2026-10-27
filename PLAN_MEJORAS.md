@@ -39,9 +39,9 @@ P01–P11 quedan cerradas dentro de sus alcances registrados. El usuario autoriz
 - [x] Habilitar Gmail SMTP privado en Oracle y comprobar entrega, enlace HTTPS, cambio de clave, reutilización rechazada y sesiones invalidadas.
 - [x] Comprobar en navegador búsqueda/filtros, detalle y recarga, ADMIN/STUDENT, perfil, recomendaciones y favoritos; sin errores de consola capturados.
 - [x] Compilar las mismas fuentes backend en Oracle y pasar auditoría editorial y controles del importador. Incorporar estos últimos a Quality.
-- [ ] Completar versionado y comprobar el resultado de Quality en el commit final de esta entrega.
+- [x] Versionar scripts y evidencias e integrar sus controles en Quality. El estado de la entrega se verifica en las [ejecuciones de la rama](https://github.com/BenjaAranda/BecasFind/actions?query=branch%3Abugfix%2Fsecurity-and-recovery).
 
-La selección se cerró con límites explícitos: 466 fichas requieren nueva evidencia para activarse; no son descartes ni convocatorias vigentes. No se declara lectura íntegra de 379 documentos. P13/P14 no se iniciaron. No repetir los scripts ya aplicados.
+La selección se cerró con límites explícitos: 466 fichas requieren nueva evidencia para activarse; no son descartes ni convocatorias vigentes. No se declara lectura íntegra de 379 documentos. El cierre de entrega exige Quality aprobado en GitHub; no se omiten sus controles. P13/P14 no se iniciaron. No repetir los scripts ya aplicados.
 
 ## Fases de producto
 
@@ -56,7 +56,7 @@ La selección se cerró con límites explícitos: 466 fichas requieren nueva evi
 | P09 | Completa localmente: recuperación Gmail SMTP probada con correo real; configuración externa de producción queda para despliegue. |
 | P10 | Pipeline de calidad implementado y validado en entregas previas; no representa estado actual de CI. |
 | P11 | Completa en su alcance local; esquema y comprobaciones externas posteriores registrados en P12. |
-| P12 | Operación y selección completadas en preview; cinco activas; correo y recorridos aprobados. Cierre de versionado y Quality en esta entrega. |
+| P12 | Operación y selección completadas en preview; cinco activas; correo y recorridos aprobados; evidencias versionadas y Quality enlazado. |
 | P13–P14 | Pendientes: operación y publicación después de P12 y su autorización por fase. |
 
 ## Decisiones vigentes

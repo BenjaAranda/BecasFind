@@ -21,7 +21,7 @@ La preview conserva su configuración de acceso Vercel. Búsqueda y detalle no e
 
 La importación inicial creó 528 fichas inactivas sin errores; no se repitió. El CSV y el manifiesto son instantáneas inmutables. Su SHA-256 es `757cec62e2dcb3ac980c65bc4a33c2ea204b6c2eba1b9d536188108400732d16`.
 
-La conciliación inicial encontró igualdad de todos los campos importados. La final conserva los UUID y solo seis fichas presentan cambios justificados: UDD y las cinco publicables. Se retiraron fechas de clases UDD, se actualizaron convocatorias, tipo y nivel de ingreso, y NEM de Nuevo Milenio I. Los textos públicos ya no muestran hashes ni notas de ejecución. Cero patrones bytea corruptos en PostgreSQL; no se hicieron reparaciones masivas de tildes.
+La conciliación inicial encontró igualdad de todos los campos importados. La final conserva los UUID y solo seis fichas presentan cambios justificados: UDD y las cinco publicables. Se retiraron fechas de clases UDD, se actualizaron convocatorias, tipo y nivel de ingreso, y NEM de Nuevo Milenio I. Los documentos exigidos de UANDES y los condicionales UChile también aparecen en su sección visual. Los textos públicos ya no muestran hashes ni notas de ejecución. Cero patrones bytea corruptos en PostgreSQL; no se hicieron reparaciones masivas de tildes.
 
 Las cinco activas son BUCH, Hijos de Funcionarios UChile, UANDES Económica, Nuevo Milenio I y Gratuidad. Temporizadores systemd cierran BUCH el 30/10/2026 a las 12:00 y las dos FUAS el 05/11/2026 a las 14:00 de Santiago. Se comprobaron activos y una ejecución anticipada no desactivó fichas.
 
@@ -46,6 +46,7 @@ Las comprobaciones de API HTTPS y los recorridos reales pasaron. La consola cons
 - Preview: deployment `dpl_Ho3tTsrGuWPfE14NMhmsnRCM8Yys`; frontend del commit `cdbf84cc7d3aeeee2171eb4bbca11d328adb0ee7`. No hubo cambios de interfaz en esta entrega.
 - Backend compilado en Oracle con `mvn -q compile`, salida 0; mismas fuentes locales y remotas, hash en el informe técnico.
 - Tres pruebas de protección de importación aprobadas; una integración PostgreSQL local omitida. Restauraciones reales verificadas en Oracle.
+- [Parche de dependencias](../documentacion/P12_DEPENDENCIAS_2026_10_27.md): Vite, follow-redirects y Zod actualizados dentro de sus rangos. Auditoría local sin vulnerabilidades, lint y build aprobados. El lockfile nuevo no se presenta como desplegado en la preview anterior.
 - La [bitácora anterior](../documentacion/historial/P12_DESPLIEGUE_ANTES_CONSOLIDACION_2026_10_26.md) conserva cortes históricos; no usar sus pendientes como estado actual.
 
 ## Trabajo posterior

@@ -39,10 +39,10 @@ Se trabajó con expedientes previos y lotes de selección de nueve grupos de 50 
 
 ## Integridad y operación
 
-La conciliación inicial encontró 528 fichas idénticas al CSV. La final conserva los 528 UUID y registra diferencias únicamente en seis fichas: UDD y las cinco activas. Se ajustaron tipo de beca y nivel de ingreso de las activas; NEM 5,0 de Nuevo Milenio I quedó estructurado. Se retiraron notas de trabajo y hashes de sus descripciones públicas; sus trazas siguen en los expedientes y mapas UUID/candidata. La comprobación PostgreSQL por límites de bytes devuelve cero patrones de mojibake.
+La conciliación inicial encontró 528 fichas idénticas al CSV. La final conserva los 528 UUID y registra diferencias únicamente en seis fichas: UDD y las cinco activas. Se ajustaron tipo de beca y nivel de ingreso de las activas; NEM 5,0 de Nuevo Milenio I quedó estructurado. Los dos documentos exigidos de UANDES Económica y el documento condicional para hijos de jubilados UChile también quedaron en la sección visual de documentos. Se retiraron notas de trabajo y hashes de sus descripciones públicas; sus trazas siguen en los expedientes y mapas UUID/candidata. La comprobación PostgreSQL por límites de bytes devuelve cero patrones de mojibake.
 
 El CSV inicial y su manifiesto permanecen inmutables. SHA-256 del CSV: `757cec62e2dcb3ac980c65bc4a33c2ea204b6c2eba1b9d536188108400732d16`. No se repitió la importación ni se modificó la base local.
 
-Antes de las modificaciones se conservaron respaldos privados y se comprobaron restauraciones aisladas de las 14 tablas. Últimos respaldos: `pre-catalogo-20261027T193952Z-73dfb13a.dump`, `pre-catalogo-20261027T194246Z-b621413b.dump` y `pre-catalogo-20261027T194742Z-2d8075e8.dump`, dentro del directorio privado de Oracle. No se publican sus contenidos.
+Antes de las modificaciones se conservaron respaldos privados y se comprobaron restauraciones aisladas de las 14 tablas. Últimos respaldos: `pre-catalogo-20261027T193952Z-73dfb13a.dump`, `pre-catalogo-20261027T194246Z-b621413b.dump`, `pre-catalogo-20261027T194742Z-2d8075e8.dump` y `pre-catalogo-20261027T200939Z-d453dfb3.dump`, dentro del directorio privado de Oracle. No se publican sus contenidos.
 
 Evidencia: `conciliacion_oracle_2026_10_27.json`, `pruebas_api_2026_10_27.json`, `prueba_recuperacion_2026_10_27.json` y `recorridos_web_2026_10_27.json`. El cierre de selección no autoriza promover Vercel a producción ni iniciar P13/P14.

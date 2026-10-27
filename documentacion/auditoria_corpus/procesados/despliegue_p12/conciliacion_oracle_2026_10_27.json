@@ -1,7 +1,7 @@
 {
-  "capturado_utc": "2026-10-27T19:48:17.298053+00:00",
+  "capturado_utc": "2026-10-27T20:10:42.906953+00:00",
   "fecha_santiago": "2026-10-27",
-  "snapshot_sha256": "129fbfa7bec91d47131a445b7a976141dd141cdc3da234f68a65352389666c2d",
+  "snapshot_sha256": "81572c1557ded8ad7c05f6dc1d1474c9c947188dcf2b513eb83251e80e22ed33",
   "csv_sha256": "757cec62e2dcb3ac980c65bc4a33c2ea204b6c2eba1b9d536188108400732d16",
   "total": 528,
   "uuid_unicos": 528,
@@ -3301,7 +3301,7 @@
       "candidato": "7ae777fdde7894ecc523a0a19f243e12a089b2d8707b56301ccf515ce9ddabd9",
       "id_beca": 253,
       "public_id": "bc2eb567-a143-4bf6-9fdb-ef1e722e9df1",
-      "version": 2,
+      "version": 3,
       "nombre": "Beca UANDES Económica",
       "institucion": "Universidad de los Andes",
       "estado_editorial": "CONFIRMADA_ESENCIAL",
@@ -3311,7 +3311,8 @@
         "descripcion_larga",
         "fecha_inicio",
         "fecha_cierre",
-        "estado_activa"
+        "estado_activa",
+        "documentos_requeridos"
       ],
       "estado_activa": true,
       "fecha_inicio": "2026-10-19",
@@ -4666,7 +4667,7 @@
       "candidato": "a7add480ae1c014fbf47d21eeffd015842829399ea2988e2d743f41393504c11",
       "id_beca": 356,
       "public_id": "dc6f8e70-8943-43f6-a9c1-2d78896987f1",
-      "version": 2,
+      "version": 3,
       "nombre": "Beca Hijos de Funcionarios",
       "institucion": "Universidad de Chile",
       "estado_editorial": "CONFIRMADA_ESENCIAL",
@@ -4674,7 +4675,8 @@
         "tipo_beca",
         "descripcion",
         "descripcion_larga",
-        "estado_activa"
+        "estado_activa",
+        "documentos_requeridos"
       ],
       "estado_activa": true,
       "fecha_inicio": "2026-01-13",

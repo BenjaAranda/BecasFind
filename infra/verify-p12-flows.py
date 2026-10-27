@@ -71,6 +71,8 @@ def main():
         assert result['data']['fechaCierrePostulacion'] == closing
         assert result['data']['tipoBeca']['nombre'] == 'Beca de Arancel'
         assert 'TRAZABILIDAD EDITORIAL:' not in result['data']['descripcionLarga']
+        if public_id in (ECON, PARENT):
+            assert len(result['data']['documentosRequeridos']) == (2 if public_id == ECON else 1)
     checks.append('Detalle público con cierres oficiales')
     try:
         request('/becas/' + UDD)

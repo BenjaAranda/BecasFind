@@ -91,7 +91,8 @@ jobs:
     env:
       VITE_API_URL: http://127.0.0.1:5198
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    # Incluye dependencias del sistema y 220 pruebas en dos motores; conserva sus límites individuales.
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: frontend
@@ -108,7 +109,7 @@ jobs:
       - run: npm run lint
       - run: npm audit --audit-level=high
       - run: npm run build
-      - run: npx playwright install --with-deps chromium firefox
+      - run: npx playwright install --with-deps --only-shell chromium firefox
       - run: node measure-performance.mjs
       - run: npx playwright test --workers 1
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
