@@ -1,17 +1,47 @@
 # Plan vigente de BecasFind
 
-Actualizado el 23 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
+Actualizado el 27 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
 
-## Prioridad: P04, revisión esencial de becas
+## P04: revisión editorial cerrada
 
-Conteo reproducible: 568 candidatas únicas; **526 confirmadas esenciales, 2 completas, 17 descartadas y 23 pendientes** (18 `REQUIERE_ACLARACION`, 5 `EXCLUSION_HISTORICA_SIN_RATIFICAR`). La cola única está en [`pendientes_esenciales_actuales.csv`](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) y el resumen generado en [`resumen.json`](documentacion/auditoria_corpus/procesados/avance/resumen.json). El conteo prevalece sobre cifras de cortes históricos.
+Conteo reconstruido el 24/10/2026: 568 candidatas únicas en 93 fuentes y 647 referencias; **526 confirmadas esenciales, 2 completas, 40 descartadas editorialmente y 0 pendientes**. No quedan exclusiones históricas sin ratificar. La cola [`pendientes_esenciales_actuales.csv`](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) está vacía y el [`resumen.json`](documentacion/auditoria_corpus/procesados/avance/resumen.json) prevalece sobre cifras de cortes históricos.
 
-- [ ] Resolver las 23 candidatas con fuentes públicas oficiales específicas; leer la carencia y la próxima acción de cada fila antes de consultar.
-- [ ] Registrar solo campos respaldados. Mantener «No especificado» cuando la fuente oficial no publique el dato dentro del alcance consultado.
-- [ ] Resolver variantes por institución, modalidad y año. Exigir evidencia positiva individual para duplicidad, falsedad o descarte.
-- [ ] Regenerar y auditar los índices tras cambios probatorios; subir cambios sustantivos a GitHub con mensajes en español.
+- [x] Resolver las últimas 23 candidatas conforme a la autorización del 24/10/2026: exclusión editorial por insuficiencia de evidencia específica; no implica falsedad ni inexistencia.
+- [x] Conservar las 526 confirmaciones esenciales y 2 completas, sus desconocidos y límites de año/modalidad; preservar originales y trazas de los 40 descartes.
+- [x] Regenerar el avance y ejecutar `python infra/audit-editorial-evidence.py` sin errores. Esta auditoría comprueba integridad documental; no certifica vigencia ni sustituye la revisión de fuentes.
+- [x] Registrar las resoluciones individuales en el [informe de cierre](documentacion/auditoria_corpus/procesados/CIERRE_CANDIDATAS_PENDIENTES_2026_10_24.md), versionado en `cdbf84c`.
 
-No contactar instituciones ni usar Firecrawl. Conservar originales y trazas. No importar ni activar becas, probar backend/frontend ni iniciar despliegue durante esta prioridad. No hay cierre global mientras queden candidatas sin resolución respaldada.
+El cierre de P04 es editorial y no libera automáticamente el catálogo para publicación. No importar ni activar becas ni ejecutar pruebas de aplicación en este cierre documental. Reabrir casos solo con evidencia oficial nueva y específica; no reconstruir pendientes desde informes históricos.
+
+## Trabajo restante, en orden
+
+- [x] Conciliar plan, contexto y método con el cierre editorial; comprobar integridad de índices y `git diff --check`.
+- [x] P12: infraestructura, selección de 528 fichas, cinco convocatorias activas, correo real y recorridos comprobados. Control final de GitHub de esta entrega; evidencia en [P12_DESPLIEGUE.md](infra/P12_DESPLIEGUE.md).
+- [ ] P13, después de P12 y con autorización: completar operación y rollback del destino real, aprovechando las comprobaciones de respaldo/restauración y reinicio ya realizadas; repetirlas solo cuando un cambio o fallo lo justifique.
+- [ ] P14, después de P12/P13 y con autorización: promover/publicar el destino final y comprobar sus rutas, API y recorridos públicos/autenticados.
+
+P01–P11 quedan cerradas dentro de sus alcances registrados. El usuario autorizó explícitamente iniciar P12 el 24/10/2026. No contratar planes ni comprar dominio. P13/P14 se ejecutan después de P12 conforme al protocolo por fases.
+
+## Checklist vigente de P12
+
+- [x] Oracle ARM64, Docker y PostgreSQL 17.11; esquema prod validado y secretos externos.
+- [x] API HTTPS, redirección 301, renovación Certbot y firewall persistente comprobados.
+- [x] Preview Vercel READY, build y ruta directa SPA; preflight CORS con origen exacto.
+- [x] Registro/login de cuenta propia y rol ADMIN confirmados por el usuario.
+- [x] Reinicio real con regreso de servicios y conservación del clúster PostgreSQL.
+- [x] Respaldo privado y restauración aislada de las 14 tablas antes de la carga.
+- [x] Importación: 528 creadas; cero errores; encoding correcto en Oracle.
+- [x] Conciliación inicial compartida: 528 fichas idénticas al CSV, 528 UUID únicos y cero diferencias. No acredita vigencia actual.
+- [x] Aplicar corrección UDD y activación UChile con respaldo/restauración previos; no repetir el script.
+- [x] Corregir y activar BUCH con cierre oficial 30/10/2026 al mediodía y temporizador específico.
+- [x] Conciliación final: mismos 528 UUID; seis fichas con cambios justificados; nueve comprobaciones de API aprobadas.
+- [x] Resolver selección individual de las 528, en nueve lotes de 50 y uno de 78: cinco activas, 57 cerradas y 466 inactivas por calendario desconocido o vigencia no acreditada. Mantener originales y no certificar las inactivas.
+- [x] Habilitar Gmail SMTP privado en Oracle y comprobar entrega, enlace HTTPS, cambio de clave, reutilización rechazada y sesiones invalidadas.
+- [x] Comprobar en navegador búsqueda/filtros, detalle y recarga, ADMIN/STUDENT, perfil, recomendaciones y favoritos; sin errores de consola capturados.
+- [x] Compilar las mismas fuentes backend en Oracle y pasar auditoría editorial y controles del importador. Incorporar estos últimos a Quality.
+- [ ] Completar versionado y comprobar el resultado de Quality en el commit final de esta entrega.
+
+La selección se cerró con límites explícitos: 466 fichas requieren nueva evidencia para activarse; no son descartes ni convocatorias vigentes. No se declara lectura íntegra de 379 documentos. P13/P14 no se iniciaron. No repetir los scripts ya aplicados.
 
 ## Fases de producto
 
@@ -20,20 +50,21 @@ No contactar instituciones ni usar Firecrawl. Conservar originales y trazas. No 
 | P01 | Completada: cobertura monetaria estructurada; se conserva el texto original y los desconocidos. |
 | P02 | Completada: filtros y orden monetario por moneda/periodicidad, sin conversiones implícitas. |
 | P03 | Completada: UUID públicos; IDs numéricos en administración y catálogos. |
-| P04 | Revisión editorial en curso; 23 candidatas en la cola actual. |
+| P04 | Cerrada editorialmente: 526 esenciales, 2 completas, 40 descartadas y 0 pendientes; vigencia/publicación son controles separados. |
 | P05 | Completada: concurrencia administrativa/importación, atomicidad y batch PostgreSQL. |
 | P06–P08 | Completadas según alcance registrado. |
 | P09 | Completa localmente: recuperación Gmail SMTP probada con correo real; configuración externa de producción queda para despliegue. |
 | P10 | Pipeline de calidad implementado y validado en entregas previas; no representa estado actual de CI. |
-| P11 | Completa localmente: PostgreSQL 17, migraciones 001–005, respaldo/restauración y validación de esquema. Destino externo no configurado. |
-| P12–P14 | No autorizadas: preparación, operación y publicación del despliegue. |
+| P11 | Completa en su alcance local; esquema y comprobaciones externas posteriores registrados en P12. |
+| P12 | Operación y selección completadas en preview; cinco activas; correo y recorridos aprobados. Cierre de versionado y Quality en esta entrega. |
+| P13–P14 | Pendientes: operación y publicación después de P12 y su autorización por fase. |
 
 ## Decisiones vigentes
 
 - Objetivo de costo mensual: $0. No contratar servicios ni comprar dominio sin nueva autorización. La arquitectura prevista es Vercel para frontend y Oracle Cloud Always Free para backend/PostgreSQL; verificar límites antes de iniciar el despliegue.
 - Mantener diseño azul y blanco institucional, accesibilidad y búsqueda/detalle públicos. Sesión solo para perfil, favoritos, recomendaciones guardadas y administración.
 - Desarrollo con perfil `dev`; producción con `prod`, secretos externos y `ddl-auto: validate`.
-- Prioridad actual: terminar P04. No reabrir fases completadas sin una regresión concreta.
+- P04 cerrada; P12 ejecutada en preview. No reabrir fases completadas sin una regresión concreta.
 
 ## Evidencias anteriores
 
