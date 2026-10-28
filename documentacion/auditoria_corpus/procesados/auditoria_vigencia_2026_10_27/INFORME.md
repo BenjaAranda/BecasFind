@@ -75,3 +75,17 @@ Avance acumulado: **356 investigadas; 218 con conclusión documental limitada; 1
 La ficha de Rauco enlaza al portal de Arauco, otra comuna: se mantiene inconclusa mientras se obtiene su fuente correcta. La URL histórica de Chaitén ahora muestra apuestas; no se usa como prueba de vigencia ni como evidencia de que la beca desapareció. El Bosque publica beneficio y requisitos 2026, pero no fecha final y su enlace de postulación devuelve 404. Esos problemas quedan localizados por UUID y con siguiente acción; no se presentan como revisiones concluyentes.
 
 No se inició P13/P14, no se promovió producción y no se contrataron recursos. La auditoría **no está concluida**; el inventario muestra el trabajo que falta y los casos inconclusos con sus rutas de investigación.
+
+## Octavo lote: 50 investigaciones
+
+El corte alcanzó 406 fichas investigadas, 237 con conclusión documental limitada y 169 inconclusas; quedaban 60 sin recorrer. Renca se comprobó mediante lectura visual de las páginas 2–5: recepción del 2 al 27 de marzo de 2026. Curarrehue identifica el 7–27 de abril para Incentivo Superior, sin extenderlo al antiguo traslado de otra ficha. La Unión fija el 31 de marzo de 2026; no se copió la hora de una edición anterior. Providencia conserva contradicción entre recepción presencial y documento online. No hubo cambios remotos.
+
+## Noveno lote: las 60 restantes de la primera pasada
+
+Se recorrió la cohorte fija completa: **466 investigadas; 266 con conclusión limitada y 200 inconclusas**. Las 266 se distribuyen en 62 cierres acreditados, 113 expedientes sin calendario utilizable, 87 calendarios por modalidad y cuatro convocatorias con cierre no vencido. No se identificó todavía una recepción permanente explícitamente acreditada. Estos conteos no sustituyen la base remota ni significan lectura completa de todos los documentos.
+
+Petorca publica recepción del segundo semestre del 14 al 21 de octubre de 2026, separada de validación, notificación y depósito. Teno enlaza un calendario referencial con recepción del 7 al 21 de septiembre de 2026 a las 14:00. Lonquimay informa recepción del 6 al 17 de abril de 2026; el 30 de agosto del reglamento anterior es acreditación para segunda cuota. Los cierres de Río Ibáñez documentados aquí corresponden únicamente a 2024; no se convierten en convocatoria 2026.
+
+Se localizó una contradicción sustancial: **ID 490**, atribuido a San Pedro de la Paz, usa documentos y noticia de **San Pedro de Melipilla**. Su estado permanece inconcluso. La ficha 525 corresponde a Melipilla; compartir fuentes no autoriza fusionar UUID ni trasladar institución sin revisar las candidatas originales. En Quellón, las bases de Hijos de Pescadores excluyen expresamente la Beca Municipal: no se trasladaron sus condiciones a la ficha general.
+
+**La auditoría sigue abierta.** Las 200 inconclusas incluyen escaneos aún no leídos, accesos fallidos y contradicciones. Cada una conserva una acción concreta en el inventario; no son descartes ni cierres confirmados. Hay dos correcciones ministeriales pendientes de aplicar tras conciliar condiciones. Los cambios remotos acumulados continúan siendo solo 314, 518 y 445, con dos activaciones. Las 528 fichas y sus UUID permanecen conservados. Los lotes octavo y noveno no modificaron Oracle ni la interfaz desplegada.

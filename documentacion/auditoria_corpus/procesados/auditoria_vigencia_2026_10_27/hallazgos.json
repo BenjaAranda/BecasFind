@@ -5911,5 +5911,1794 @@
     "siguiente_accion": "Recuperar llamado y bases de pasajes2026 sin usar calendario JUNAEB.",
     "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 318,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Pedro Aguirre Cerda; nueva beca2026",
+    "referencia": "Pedro Aguirre Cerda; nueva beca2026",
+    "fuentes": [
+      "https://www.pedroaguirrecerda.cl/arn/postula-a-la-nueva-beca-municipal-de-educacion-superior-2026/",
+      "https://www.pedroaguirrecerda.cl/app/uploads/2026/05/2912-5.pdf",
+      "https://www.pedroaguirrecerda.cl/app/uploads/2026/02/Bases-de-Becas-Decretadas.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Aviso fija 23febrero–2marzo; decreto2912/2026 acredita modificación posterior por2606/2026 del17abril.",
+    "limitaciones": "No se presume que la modificación mantenga calendario/condiciones iniciales.",
+    "siguiente_accion": "Leer2606/2026 y conciliar bases antes de registrar cierre definitivo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 319,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Ninhue; reglamento2026 artículos42–43",
+    "referencia": "Ninhue; reglamento2026 artículos42–43",
+    "fuentes": [
+      "https://www.munininhue.cl/wp-content/uploads/2026/02/Reglamento-Beca-2026.pdf",
+      "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "El expediente oficial2026 identifica matrícula/notas2026 y recepción online en marzo para primer semestre y agosto para segundo.",
+    "limitaciones": "No fija días finales; el PDF directo presenta verificación de acceso, pero sección fue recuperada en índice.",
+    "siguiente_accion": "Buscar aviso por semestre con días concretos; no usar último día del mes de relleno.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 321,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Providencia; modalidades presencial y online2026",
+    "referencia": "Providencia; modalidades presencial y online2026",
+    "fuentes": [
+      "https://providencia.cl/provi/site/docs/20260112/20260112113918/beca_educacion_superior_online.pdf",
+      "https://transparencia.providencia.cl/Carpeta/VerTabla/24175",
+      "https://transparencia.providencia.cl/Carpeta/VerTablaV/413476"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Tabla actual exige atención presencial; documento2026 titulado ONLINE publica requisitos para matrícula2026. Antecedente antiguo dice noviembre/diciembre.",
+    "limitaciones": "Contradicción de canal y falta de cierre actual; no asignar plazo anual antiguo a convocatoria online.",
+    "siguiente_accion": "Leer decreto322/2026 y llamado online para conciliar canal/calendario.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 322,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Florida; postulación municipal2026",
+    "referencia": "Florida; postulación municipal2026",
+    "fuentes": [
+      "https://muniflorida.cl/wp-content/uploads/2025/12/REQUISITOS-POSTULANTES.pdf",
+      "https://www.bcn.cl/leychile/navegar?idNorma=248359"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Documento2026 identifica NEM6,0, promedio superior5,0, RSH60 y límite24años; actualiza antigua descripción de solo liceos locales.",
+    "limitaciones": "No se recuperó cierre explícito de solicitudes; BCN no carga norma histórica.",
+    "siguiente_accion": "Buscar aviso/calendario de esta convocatoria y resolución actual.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 326,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Renca; decreto496/2026; lectura visual páginas2–5",
+    "referencia": "Renca; decreto496/2026; lectura visual páginas2–5",
+    "fuentes": [
+      "https://renca.cl/wp-content/uploads/2026/02/DECRETO-496-APRUEBA-BASES-DE-POSTULACION-A-LA-BECA-MUNICIPAL-DE-INCENTIVO-A-LAS-TRAYECTORIAS-EDUCATIVAS-1.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se leyeron imágenes del PDF: primer año2026, egreso2023–25, RSH40–70; página4 apartado h fija postulación2–27marzo.",
+    "limitaciones": "Resultados30abril y ceremonia9mayo no son nuevas ventanas; voluntariado es opcional.",
+    "siguiente_accion": "Registrar calendario acreditado del programa de trayectorias.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-03-02",
+    "cierre": "2026-03-27"
+  },
+  {
+    "id_beca": 329,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Santa Juana; devolución matrícula primer año2024",
+    "referencia": "Santa Juana; devolución matrícula primer año2024",
+    "fuentes": [
+      "https://santajuana.cl/wp-content/uploads/2024/01/aprueba-bases-beca-devolucion-de-matricula-para-estudiantes-de-primer-ano-educacion-superior.pdf",
+      "https://santajuana.cl/beca-devolucion-de-matricula/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Portal específico fecha15enero2024 y enlaza bases/ficha2024; visor de bases responde403.",
+    "limitaciones": "No se leyó calendario del PDF ni una nueva edición2026.",
+    "siguiente_accion": "Abrir URL directa del PDF2024 y localizar convocatoria actual.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 330,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Los Andes; superior2026",
+    "referencia": "Los Andes; superior2026",
+    "fuentes": [
+      "https://www.losandes.cl/download/2026-bases-beca-educacion-superior/",
+      "https://www.losandes.cl/ultimos-dias-para-postular-a-la-beca-de-educacion-superior-en-los-andes/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/?wpdmdl=15723&refresh=6ac5255f9bb091791305055&ind=1770180488141&filename=2026_ANTECEDENTES_POSTULACION_BECA_SUPERIOR.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia5marzo2026 fija último plazo viernes6marzo y enumera U/IP/CFT. Existen bases2026 en biblioteca municipal.",
+    "limitaciones": "No se inventa apertura ni se toma disponibilidad de cupos como extensión posterior.",
+    "siguiente_accion": "Registrar cierre y contrastar bases de condiciones.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "cierre": "2026-03-06"
+  },
+  {
+    "id_beca": 335,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Arauco; canales de recepción2026",
+    "referencia": "Arauco; canales de recepción2026",
+    "fuentes": [
+      "https://beca.muniarauco.cl/wp-content/uploads/2026/02/Antecedentes-obligatorios.pdf",
+      "https://www.bcn.cl/leychile/navegar?i=1201092"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja esta variante con convocatoria2026: apertura23febrero y cierre online2marzo/presencial6marzo.",
+    "limitaciones": "El formulario de antecedentes no sustituye el calendario por canal. Conservar UUID separado de30.",
+    "siguiente_accion": "Registrar ventanas por canal sin fusionar variantes.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "calendarios": [
+      {
+        "modalidad": "online",
+        "apertura": "2026-02-23",
+        "cierre": "2026-03-02"
+      },
+      {
+        "modalidad": "presencial",
+        "apertura": "2026-02-23",
+        "cierre": "2026-03-06"
+      }
+    ]
+  },
+  {
+    "id_beca": 336,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Santa María; trámites Social2016",
+    "referencia": "Santa María; trámites Social2016",
+    "fuentes": [
+      "https://www.santamariatransparente.cl/web/images/stories/Contenido/Tramites/Tramites_SOCIAL2016.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda municipal actual no recupera convocatoria de educación superior; expediente mantiene tabla2016.",
+    "limitaciones": "No se acreditó calendario actual; no usar becas homónimas de otras comunas.",
+    "siguiente_accion": "Recuperar tabla original íntegra y llamado vigente de Santa María.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 337,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Molina; entrega2026",
+    "referencia": "Molina; entrega2026",
+    "fuentes": [
+      "https://web.molina.cl/?p=81797"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia18mayo2026 acredita150becas de200.000, por única vez para primer ingreso.",
+    "limitaciones": "La fecha de ceremonia no es cierre; no se recuperó recepción anual.",
+    "siguiente_accion": "Localizar bases y aviso previo de primera postulación.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 338,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Quilaco; catastro institucional2024",
+    "referencia": "Quilaco; catastro institucional2024",
+    "fuentes": [
+      "https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La búsqueda municipal dirigida no recuperó convocatoria2026; queda referencia del catastro UdeC2024.",
+    "limitaciones": "No se certificó lectura del reglamento actual ni fin del programa.",
+    "siguiente_accion": "Verificar dominio oficial y recuperar fila del catastro y bases municipales.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 340,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Caldera; antecedente Mercado Público",
+    "referencia": "Caldera; antecedente Mercado Público",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se buscó beca municipal2026 en el sitio de Caldera sin recuperar llamado específico.",
+    "limitaciones": "El enlace de contratación no permite atribuir recepción individual; no acredita cierre.",
+    "siguiente_accion": "Recuperar bases de beneficio municipal y aclarar relación de contratación con ficha.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 342,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "San Fernando; renovación2026",
+    "referencia": "San Fernando; renovación2026",
+    "fuentes": [
+      "https://municipalidadsanfernando.cl/beca-municipal-2026/",
+      "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La convocatoria municipal distingue explícitamente renovación con documentos del5febrero al31marzo2026 y promedio5,0.",
+    "limitaciones": "No acredita nuevas primeras asignaciones; conservar UUID de esta variante y su antecedente2012.",
+    "siguiente_accion": "Registrar ventana de renovantes y buscar ingreso nuevo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "calendarios": [
+      {
+        "modalidad": "renovación2026",
+        "apertura": "2026-02-05",
+        "cierre": "2026-03-31"
+      }
+    ]
+  },
+  {
+    "id_beca": 380,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "San Fernando; renovación2026",
+    "referencia": "San Fernando; renovación2026",
+    "fuentes": [
+      "https://municipalidadsanfernando.cl/beca-municipal-2026/",
+      "https://municipalidadsanfernando.cl/wp-content/uploads/2023/03/cuenta-pc3bablica-gestic3b3n-municipal-2012.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La convocatoria municipal distingue explícitamente renovación con documentos del5febrero al31marzo2026 y promedio5,0.",
+    "limitaciones": "No acredita nuevas primeras asignaciones; conservar UUID de esta variante y su antecedente2012.",
+    "siguiente_accion": "Registrar ventana de renovantes y buscar ingreso nuevo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "calendarios": [
+      {
+        "modalidad": "renovación2026",
+        "apertura": "2026-02-05",
+        "cierre": "2026-03-31"
+      }
+    ]
+  },
+  {
+    "id_beca": 344,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Santiago; variante de estudios superiores; proceso2026",
+    "referencia": "Santiago; variante de estudios superiores; proceso2026",
+    "fuentes": [
+      "https://www.munistgo.cl/beca-de-estudios/",
+      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja esta ficha con portal de beca de estudios: beneficiarios2026 y requisitos por duración de carrera.",
+    "limitaciones": "No contiene una recepción actual verificable; título2025 y nómina2026 no justifican fecha.",
+    "siguiente_accion": "Buscar bases del proceso2026 preservando UUID separado de206.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 345,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Yungay; Reglamento2026",
+    "referencia": "Yungay; Reglamento2026",
+    "fuentes": [
+      "https://www.yungay.cl/wp-content/uploads/2026/03/Reglamento-Beca-Municipal-2026-PDF.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF específico agota tiempo; búsqueda del reglamento no recuperó sección de calendario.",
+    "limitaciones": "No se certifica lectura del documento ni cierre de la edición.",
+    "siguiente_accion": "Descargar y leer articulado de calendario por ruta oficial alternativa.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 348,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Quilicura; beca municipal2026; bases página6",
+    "referencia": "Quilicura; beca municipal2026; bases página6",
+    "fuentes": [
+      "https://becamunicipal.quilicura.cl/",
+      "https://becasmunicipales.quilicura.cl/Doc/BASES_3.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja esta variante con calendario leído visualmente de bases2026:4–31mayo.",
+    "limitaciones": "No usar antiguas anualidades de portadas ni fusionar UUID con11.",
+    "siguiente_accion": "Registrar mismo proceso acreditado manteniendo ficha original.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-05-04",
+    "cierre": "2026-05-31"
+  },
+  {
+    "id_beca": 352,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Puqueldón; servicio de Beca Municipal",
+    "referencia": "Puqueldón; servicio de Beca Municipal",
+    "fuentes": [
+      "https://munipuqueldon.cl/servicios-municipales/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La página diferencia usos superiores de escolares; el enlace Postula aquí retorna a la misma ficha.",
+    "limitaciones": "Una oferta de servicio continua no afirma postulación permanente; no publica cierre.",
+    "siguiente_accion": "Recuperar formulario y llamado de estudios superiores2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 353,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Tocopilla; DIDECO y subvenciones2026",
+    "referencia": "Tocopilla; DIDECO y subvenciones2026",
+    "fuentes": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Página DIDECO y búsquedas actuales recuperan subvenciones a organizaciones2026–27, diferentes de una beca individual superior.",
+    "limitaciones": "No se recuperó convocatoria propia de la ficha; no se transfiere plazo organizacional.",
+    "siguiente_accion": "Localizar beneficio estudiantil específico y sus bases en transparencia.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 354,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Temuco; trámite DIDECO y subsidios2026",
+    "referencia": "Temuco; trámite DIDECO y subsidios2026",
+    "fuentes": [
+      "https://transparencia.temuco.cl/h_tramites/dideco/index.htm"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Tabla actual de trámites no recupera coincidencia de beca; subsidios septiembre contienen otros programas y etapas.",
+    "limitaciones": "No se acredita recepción del apoyo superior del expediente. Ausencia de fila no prueba desaparición.",
+    "siguiente_accion": "Recuperar norma específica y acto anual del beneficio educativo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 355,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Freirina; apoyo municipal histórico2007/2010",
+    "referencia": "Freirina; apoyo municipal histórico2007/2010",
+    "fuentes": [
+      "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%202010.pdf",
+      "https://www.imfreirina.cl/transparencia/data/Cuenta%20Publica%20%202007.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta oficial2010 identifica apoyo iniciado2007 para20estudiantes,30.000mensuales marzo–diciembre.",
+    "limitaciones": "Periodo de pagos no es plazo de solicitud ni acredita edición2026.",
+    "siguiente_accion": "Buscar reglamento y nueva convocatoria, conservando alcance histórico.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 357,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Constitución; decreto1120C2025",
+    "referencia": "Constitución; decreto1120C2025",
+    "fuentes": [
+      "https://www.constitucion.cl/wp-content/uploads/2025/04/DECRETO-EXENTO-1120C-BECAS-MUNICIPALES.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "URL del decreto devuelve404; búsqueda no aporta texto actual equivalente en las fuentes consultadas.",
+    "limitaciones": "No se leyó calendario ni se equipara ayuda cultural de otra institución.",
+    "siguiente_accion": "Recuperar decreto desde índice de actos municipales y llamado2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 359,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Curarrehue; Incentivo Educación Superior2026; página4",
+    "referencia": "Curarrehue; Incentivo Educación Superior2026; página4",
+    "fuentes": [
+      "https://curarrehue.cl/on/wp-content/uploads/2026/04/bases-incentivo-educacion-superior-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Bases2026 enumeran recepción y subsanación del7al27abril; fin de rendición11diciembre2026 es separado.",
+    "limitaciones": "El27abril se refiere a solicitudes; no traslada calendario al antiguo traslado del otro UUID229 sin acreditar identidad.",
+    "siguiente_accion": "Registrar ventana del Incentivo y preservar alcance de esta ficha.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-04-07",
+    "cierre": "2026-04-27"
+  },
+  {
+    "id_beca": 360,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Santa Bárbara; beca superior histórica frente a empleo2026",
+    "referencia": "Santa Bárbara; beca superior histórica frente a empleo2026",
+    "fuentes": [
+      "https://www.santabarbara.cl/santa-barbara-programa-pge-estudiantes/",
+      "https://historico.santabarbara.cl/noticias-de-la-comuna-historico/educacion/item/1924-estudiantes-de-educacion-superior-reciben-beneficio-municipal-unico-en-su-tipo-en-la-region"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia17febrero2026 identifica Programa Generación de Empleo para más de70estudiantes y encuesta comunitaria.",
+    "limitaciones": "No demuestra que ese trabajo reemplace la beca histórica del expediente; no usar fecha de lanzamiento como apertura.",
+    "siguiente_accion": "Contrastar reglamento de beca y programa laboral antes de relacionarlos.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 361,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "La Unión; Educación Superior2026",
+    "referencia": "La Unión; Educación Superior2026",
+    "fuentes": [
+      "https://www.munilaunioninfo.com/single-post/municipio-inicia-proceso-de-postulaci%C3%B3n-proceso-de-postulaci%C3%B3n-a-beca-de-educaci%C3%B3n-superior-2026",
+      "https://www.munilaunioninfo.com/single-post/municipio-inicia-proceso-de-postulaci%25C3%25B3n-proceso-de-postulaci%25C3%25B3n-a-beca-de-educaci%25C3%25B3n-superior-2026"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia23febrero2026, actualizada24febrero, fija fin de documentos y postulación31marzo2026;255cupos y70.000mensuales.",
+    "limitaciones": "No usar hora13:30 de convocatoria2025 para edición2026 sin fuente expresa.",
+    "siguiente_accion": "Registrar cierre y mantener hora desconocida.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "cierre": "2026-03-31"
+  },
+  {
+    "id_beca": 362,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Hualañé; decreto histórico2019 y tabla2025",
+    "referencia": "Hualañé; decreto histórico2019 y tabla2025",
+    "fuentes": [
+      "https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=12189&ig=411&m=12",
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2019/12_Diciembre/3574.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "El expediente abre listado de decretos diciembre2019 actualizado2026, sin convocatoria superior actual identificada. Tabla2025 contiene beneficios estatales.",
+    "limitaciones": "Actualización del listado no cambia año de actos; falta lectura del acto específico de beca.",
+    "siguiente_accion": "Localizar acto de beca en tabla y nueva convocatoria propia.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 365,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Alhué; ficha de beca municipal",
+    "referencia": "Alhué; ficha de beca municipal",
+    "fuentes": [
+      "https://municipalidadalhue.cl/portal/beca-municipal/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Texto dice primera cuota abril/mayo y segunda septiembre/octubre, pero campo Mes de postulación dice junio.",
+    "limitaciones": "Contradicción interna impide fijar cierre actual o considerar abierta la recepción.",
+    "siguiente_accion": "Contrastar reglamento y aviso anual para conciliar meses antes de aplicar fechas.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 367,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Huasco; apoyo superior frente a residencia2023",
+    "referencia": "Huasco; apoyo superior frente a residencia2023",
+    "fuentes": [
+      "https://imhuasco.cl/Transparenciamunicipal/Documentos/BECAS/2023/BECA%20RESIDENCIA%20ESTUDIANTIL.pdf",
+      "https://imhuasco.cl/Transparenciamunicipal/Documentos/cuentas_publicas/Cuenta_Publica_2024.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se recuperó programa Residencia Estudiantil2023 para La Serena y requisitos de sus postulantes.",
+    "limitaciones": "La ayuda general del expediente no se identifica necesariamente con residencia; no transferir plazos ni montos.",
+    "siguiente_accion": "Leer cuenta2024 y bases del aporte propio para precisar modalidad.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 368,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Puente Alto; variante de educación superior",
+    "referencia": "Puente Alto; variante de educación superior",
+    "fuentes": [
+      "https://www.mpuentealto.cl/estudiantes-de-puente-alto-reciben-beca-municipal-de-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se cotejó enlace de entrega y portal de datos con trámite online; no se recuperó calendario anual.",
+    "limitaciones": "Preservar UUID distinto de157; compartir enlace no demuestra duplicidad ni vigencia actual.",
+    "siguiente_accion": "Abrir bases del trámite superior y verificar cierre por edición.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 369,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Melipeuco; decreto y bases junio2026",
+    "referencia": "Melipeuco; decreto y bases junio2026",
+    "fuentes": [
+      "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-BASES-BECA-MUNICIPAL.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Enlace específico no accesible tras nuevo intento; antecedente91 ya documenta misma barrera.",
+    "limitaciones": "No se certificó lectura de bases; concursos laborales de marzo son otro proceso.",
+    "siguiente_accion": "Recuperar PDF municipal por índice o lectura local sin inferir calendario.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 370,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Curacaví; ficha de apoyo económico2026",
+    "referencia": "Curacaví; ficha de apoyo económico2026",
+    "fuentes": [
+      "https://transparencia.municipalidadcuracavi.cl/1_09_Programas_sociales/2026/Info_ayuda_estudiantes_2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF identifica primera carrera con necesidad económica y recepción marzo primer semestre/agosto segundo.",
+    "limitaciones": "No fija días finales; no usar último día del mes como cierre artificial.",
+    "siguiente_accion": "Localizar aviso específico de cada semestre con fecha final.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 374,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Río Verde; proceso2026",
+    "referencia": "Río Verde; proceso2026",
+    "fuentes": [
+      "https://www.rioverde.cl/noticias?start=30",
+      "https://www.rioverde.cl/component/phocadownload/category/8-noticias?Itemid=101&download=90%3ARequisitos+Beca.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Buscador institucional identifica proceso Beca Municipalidad Río Verde2026; página de noticias falla al recuperar apartado específico.",
+    "limitaciones": "No se leyó calendario del aviso ni anexos; resultados de natación no aplican.",
+    "siguiente_accion": "Abrir artículo específico del proceso y requisitos por nivel.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 375,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Retiro; oficio117",
+    "referencia": "Retiro; oficio117",
+    "fuentes": [
+      "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf",
+      "https://www.retiro.cl/archivos_adjuntos/actas_concejo/ACTA_TRASPASO_2021_2024.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF de2páginas es escaneado sin texto recuperable; búsqueda2026 no publica llamado específico en resultados consultados.",
+    "limitaciones": "No se certificó lectura visual ni cierre; un oficio de auditoría no es convocatoria por sí solo.",
+    "siguiente_accion": "Leer escaneo y localizar reglamento/calendario actual de la ayuda.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 378,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Paine; resultados superiores2025",
+    "referencia": "Paine; resultados superiores2025",
+    "fuentes": [
+      "https://www.paine.cl/resultados-becas-educacion-superior-2025/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La página original no es accesible; búsqueda actual no recupera convocatoria2026 específica.",
+    "limitaciones": "Una nómina histórica no acreditaría cierre ni nueva recepción.",
+    "siguiente_accion": "Recuperar resultados y bases desde portal oficial y revisar edición actual.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 379,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Pucón; ordenanza de estudios superiores",
+    "referencia": "Pucón; ordenanza de estudios superiores",
+    "fuentes": [
+      "https://municipalidadpucon.cl/oldweb/web2010/para%20descarga/ordenanzas/Ordenanza%20Municipal%20Otorgamiento%20Beca%20de%20Estudios%20Superior.PDF",
+      "https://www.municipalidadpucon.cl/oldweb/web2010/transparencia/LetraC/Reglamento_Becas_Municipales_2019.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La norma distingue aporte profesional/técnico y premios específicos ITUR, con renovación anual.",
+    "limitaciones": "El aviso de Beca Aporte Cultural es otro objeto; no se acreditó calendario2026 de la modalidad superior.",
+    "siguiente_accion": "Contrastar modificación2019 y llamado anual por tipo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 381,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Chañaral; cuenta pública2014",
+    "referencia": "Chañaral; cuenta pública2014",
+    "fuentes": [
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202014.pdf",
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202015.pdf",
+      "https://www.munichanaral.cl/pdf/Cuenta%20Publica%202013.pdf",
+      "https://www.munichanaral.cl/new_graduacion_liceo_24.html",
+      "https://www.munichanaral.cl/pdf/Cuenta_Publica_2024.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se recuperó documento histórico119páginas; búsqueda actual no recuperó convocatoria superior2026.",
+    "limitaciones": "No se certificó lectura del apartado completo de becas ni cierre actual.",
+    "siguiente_accion": "Leer apartado educativo y buscar norma y llamado propio actual.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 382,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Curaco de Vélez; gestión2022 página128",
+    "referencia": "Curaco de Vélez; gestión2022 página128",
+    "fuentes": [
+      "https://curacodevelez.cl/2014/wp-content/uploads/2023/05/CP-2022.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La cuenta describe17becarios egresados Liceo Alfredo Barría,50.000mensuales diez meses.",
+    "limitaciones": "La nueva beca deportiva es distinta; duración del apoyo no es recepción actual.",
+    "siguiente_accion": "Localizar reglamento superior y llamado2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 388,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Santo Domingo; trámite de educación superior",
+    "referencia": "Santo Domingo; trámite de educación superior",
+    "fuentes": [
+      "https://tramites.santodomingo.cl/beca-educacion-superior"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se consultó URL específica y búsqueda de fuentes municipales del proceso; no se obtuvo contenido de calendario utilizable.",
+    "limitaciones": "No se certificó cierre ni inexistencia por fallo de acceso.",
+    "siguiente_accion": "Recuperar ficha desde índice de trámites y bases anuales.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 391,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Codegua; DAEM/DIDECO histórico2018",
+    "referencia": "Codegua; DAEM/DIDECO histórico2018",
+    "fuentes": [
+      "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/cuentapublica2021.pdf",
+      "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/archivos/particip/CUENTA%20PUBLICA%20DEFINITIVO%202018.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta2018 excede tamaño admitido; cuenta2021 describe ayudas JUNAEB, distintas de una ayuda propia.",
+    "limitaciones": "No se leyó apartado2018 íntegro ni se acreditó calendario municipal2026.",
+    "siguiente_accion": "Leer sección2018 localmente y buscar continuidad de ayuda propia.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 393,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "La Florida; beca superior frente a Escolar2026",
+    "referencia": "La Florida; beca superior frente a Escolar2026",
+    "fuentes": [
+      "https://appx.laflorida.cl/beca_escolar/",
+      "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
+      "https://pladeco.laflorida.cl/v3/main.php"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Plataforma2026 restringe beca escolar a kínder–4medio; PLADECO contiene programas y metas.",
+    "limitaciones": "No sustituir ficha superior por ayuda escolar ni descartar automáticamente el programa histórico.",
+    "siguiente_accion": "Leer apartado superior del PLADECO y obtener convocatoria propia.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 395,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Quillota; beca municipal2026",
+    "referencia": "Quillota; beca municipal2026",
+    "fuentes": [
+      "https://www.quillota.cl/becas",
+      "https://quillota.cl/municipalidad/beca-municipal/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "URL antigua redirige al inicio; buscador oficial identifica resultados Beca Educación Superior2026 en nueva ruta.",
+    "limitaciones": "Resultados no acreditan ventana de solicitudes; falta leer bases y fechas.",
+    "siguiente_accion": "Recuperar convocatoria asociada a los resultados2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 398,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Zapallar; reglamento2021",
+    "referencia": "Zapallar; reglamento2021",
+    "fuentes": [
+      "https://www.transparenciazapallar.cl/transparencia/files/2021/REGLAMENTO/76.pdf",
+      "https://www.transparenciazapallar.cl/transparencia/files/2019/DECRETOS/2371.pdf",
+      "https://www.transparenciazapallar.cl/transparencia/files/2016/decretos/6198.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF5páginas escaneado sin texto; búsqueda2026 recupera TIC JUNAEB y otras noticias, no calendario superior propio.",
+    "limitaciones": "No se certificó lectura visual; TIC escolar no sustituye programa superior.",
+    "siguiente_accion": "Leer escaneo y localizar convocatoria de beca superior2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 399,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Purranque; aporte superior2026",
+    "referencia": "Purranque; aporte superior2026",
+    "fuentes": [
+      "https://purranque.cl/noticias/noticias-2026/post-42.html",
+      "https://www.purranque.cl/descargas/BASES-BECA-ED-SUPERIOR.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Portal oficial informa92beneficiarios2026; bases8páginas no tienen texto extraíble.",
+    "limitaciones": "La postulación21–27octubre recuperada es para giras3º/4ºmedio, distinta; no se transfiere.",
+    "siguiente_accion": "Leer visualmente bases de superior y buscar llamado2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 401,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Taltal; servicio de estudios superiores",
+    "referencia": "Taltal; servicio de estudios superiores",
+    "fuentes": [
+      "https://municipalidadtaltal.cl/portal9/dideco/",
+      "https://www.municipalidadtaltal.cl/portal7/images/cuentaPublica2016Taltal.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "DIDECO actual incluye expresamente beca municipal superior separada de otras prestaciones sociales.",
+    "limitaciones": "Sin calendario publicado en esa ficha; no acreditar permanencia por ser un servicio estable.",
+    "siguiente_accion": "Buscar llamado y ordenanza vigente de Incentivo al Rendimiento.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 402,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Villa Alemana; educación superior; presupuesto2025",
+    "referencia": "Villa Alemana; educación superior; presupuesto2025",
+    "fuentes": [
+      "https://munivillalemana.gob.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda actual recupera programas municipales y beca deportiva, frente al antecedente presupuestario2025.",
+    "limitaciones": "Presupuesto no prueba recepción2026 y deportiva no sustituye ayuda superior.",
+    "siguiente_accion": "Recuperar acto de beca educacional y su convocatoria anual.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 403,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Máfil; superior; gestión2024",
+    "referencia": "Máfil; superior; gestión2024",
+    "fuentes": [
+      "https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf",
+      "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF de cuenta2024 devuelve404; bases2026 recuperadas corresponden a deportiva/cultural.",
+    "limitaciones": "No se certifica continuidad ni cierre de superior por ese documento diferente.",
+    "siguiente_accion": "Recuperar copia de cuenta y norma superior vigente.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 406,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Quinta Normal; superior histórica2006",
+    "referencia": "Quinta Normal; superior histórica2006",
+    "fuentes": [
+      "https://www.quintanormal.cl/actividades/postula-becas-culturales-2026-161187",
+      "https://ligup-v2.s3.amazonaws.com/quintanormal/multimedia/19430_cuenta_publica_2006.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Archivo de cuenta devuelve error de lectura; portal actual publica útiles escolares y beca cultural2026.",
+    "limitaciones": "No hay identidad demostrada entre estas y beca superior; no transferir cierre28febrero cultural.",
+    "siguiente_accion": "Leer antecedente2006 y buscar continuidad de ayuda de educación superior.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 407,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Quintero; variante educación superior2026",
+    "referencia": "Quintero; variante educación superior2026",
+    "fuentes": [
+      "https://www.muniquintero.cl/index.php/2026/06/15/municipio-entregara-692-becas-para-estudiantes-de-la-educacion-superior-junto-con-ello-concejo-municipal-no-54-arueba-convenio-noche-digna/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja esta variante con noticias junio2026 y los150.000/200.000semestrales según establecimiento de egreso.",
+    "limitaciones": "Entrega y aprobación no dan fecha de postulación. Mantener UUID separado de284.",
+    "siguiente_accion": "Recuperar bases y ventana de recepción superior2026.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 408,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Torres del Paine; hijos de trabajadores; gestión2025",
+    "referencia": "Torres del Paine; hijos de trabajadores; gestión2025",
+    "fuentes": [
+      "https://www.munitorresdelpaine.cl/Portal%20TA/Otros%20Antecedentes/CUENTA%20P%C3%BAblica%202025.pdf",
+      "https://www.munitorresdelpaine.cl/VARIOS/bases_beca.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Bases presentan barrera de verificación; cuenta2025 identifica2UTM para superior y1UTMpara media marzo–diciembre.",
+    "limitaciones": "Periodo del beneficio no es recepción; no se asigna cierre por publicación2026 de la cuenta.",
+    "siguiente_accion": "Recuperar bases íntegramente y acto anual de convocatoria.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 412,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Pencahue; resultados estudiantiles2026; nivel sin precisar",
+    "referencia": "Pencahue; resultados estudiantiles2026; nivel sin precisar",
+    "fuentes": [
+      "https://mpencahue.cl/index.php/resultados-becas-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Página oficial publica nómina de resultados sin indicar en texto nivel, beneficio ni calendario.",
+    "limitaciones": "No se deduce nivel universitario por nombres de beneficiarios ni fecha de subida.",
+    "siguiente_accion": "Localizar bases y llamado de esa misma nómina para precisar población y plazo.",
+    "propuesta_cambio": "Preservar originales y UUID. No activar sin cierre aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 413,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Pichilemu; Beca Cardenal Caro; regla anual",
+    "referencia": "Pichilemu; Beca Cardenal Caro; regla anual",
+    "fuentes": [
+      "https://pichilemu.cl/servicios/tramites/educacion/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Trámite específico fija recepción del1al31marzo de cada año y exige residencia, alumno regular y notas.",
+    "limitaciones": "No se recuperó acto anual2026 que confirme eventuales modificaciones. No es recepción permanente.",
+    "siguiente_accion": "Buscar llamado2026 y modificaciones del calendario.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 415,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Concón; reglamento DA164",
+    "referencia": "Concón; reglamento DA164",
+    "fuentes": [
+      "https://www.transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Reglamento/DA164.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF oficial de cinco páginas está escaneado sin texto; búsqueda2026 recupera regulación deportiva DA718 distinta.",
+    "limitaciones": "No se certificó lectura íntegra del escaneo; deporte no sustituye educación superior.",
+    "siguiente_accion": "Leer visualmente DA164 y localizar convocatoria superior2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 416,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Pudahuel; portal de resultados",
+    "referencia": "Pudahuel; portal de resultados",
+    "fuentes": [
+      "https://dideco.mpudahuel.cl/app/tramites/home.asp",
+      "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Trámites DIDECO incluye Beca de Educación Superior y consulta de resultados; boletín2024 trata retiro de dinero.",
+    "limitaciones": "Resultados y retiro no son plazo de postulación; sin recepción actual acreditada.",
+    "siguiente_accion": "Recuperar bases y llamado previo a resultados.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 419,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Coltauco; ordenanza2022 y cuenta2025",
+    "referencia": "Coltauco; ordenanza2022 y cuenta2025",
+    "fuentes": [
+      "https://www.coltauco.cl/rsp/pdf/2026/Cuenta%20P%C3%BAblica%20Gesti%C3%B3n%202025.pdf",
+      "https://www.coltauco.cl/rsp/servicios-municipales.php?unidad=Ordenanzas",
+      "https://www.coltauco.cl/Nuevo/pdf/2022/OBM.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Ordenanza OBM consta de ocho páginas sin texto. Cuenta2025 distingue beca municipal básica/media de orientación a superior.",
+    "limitaciones": "No se certificó lectura visual del reglamento ni población superior aplicable.",
+    "siguiente_accion": "Leer OBM y aclarar nivel educativo antes de atribuir calendario.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 421,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Osorno; acta1161_478 frente a BEMART2026",
+    "referencia": "Osorno; acta1161_478 frente a BEMART2026",
+    "fuentes": [
+      "https://www.imo.cl/sistemas/sitioweb/actas/1161_478.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Acta recuperada trata sesión de enero2024; búsqueda actual recupera BEMART y su comisión.",
+    "limitaciones": "No se leyó apartado de beca superior del acta; BEMART no prueba identidad con Concejo Municipal.",
+    "siguiente_accion": "Localizar sección pertinente del acta y bases de beca Concejo2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 424,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Coelemu; cuenta gestión2009 y deportiva2026",
+    "referencia": "Coelemu; cuenta gestión2009 y deportiva2026",
+    "fuentes": [
+      "https://www.municoelemu.cl/beca-deportiva-coelemu-2026/",
+      "https://transparencia.municoelemu.cl/index.php?a=2010&action=plantillas_generar_archivo&ia=778&ig=207&m=3"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Enlace antiguo entrega informe2009; llamado26octubre2026 es proyección deportiva.",
+    "limitaciones": "No se identificó calendario superior propio; no transferir fechas deportivas.",
+    "siguiente_accion": "Leer apartado educativo del informe y localizar regulación superior actual.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 425,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Tirúa; Excelencia e Incentivo Superior2026",
+    "referencia": "Tirúa; Excelencia e Incentivo Superior2026",
+    "fuentes": [
+      "https://munitirua.gob.cl/noticias/?cst=&query-14-page=5",
+      "https://munitirua.gob.cl/alcalde-jose-linco-encabezo-entrega-de-becas-para-la-educacion-superior-a-17-estudiantes-de-tirua/",
+      "https://munitirua.gob.cl/alcalde-jose-linco-encabezo-ceremonia-de-entrega-de-becas-municipales-a-nuestros-estudiantes/",
+      "https://munitirua.gob.cl/apoyo-a-los-estudiantes-de-tirua-entrega-de-la-beca-de-excelencia-academica-y-beca-de-incentivo-a-la-ensenanza-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Índice municipal9junio2026 identifica entrega de ambas becas; apertura directa del artículo agota tiempo.",
+    "limitaciones": "Entrega no acredita recepción; falta leer y separar modalidades.",
+    "siguiente_accion": "Recuperar artículo y bases de cada modalidad.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 426,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Viña del Mar; ayuda superior histórica frente a servicios actuales",
+    "referencia": "Viña del Mar; ayuda superior histórica frente a servicios actuales",
+    "fuentes": [
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/",
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Servicio Social actual detalla validación JUNAEB y ayudas sociales; no identifica allí recepción de beca superior municipal propia.",
+    "limitaciones": "No equiparar JUNAEB ni ayuda general con el programa de las cuentas2022/2023; mantener UUID separados.",
+    "siguiente_accion": "Leer apartados de ambas cuentas y buscar acto específico de continuidad.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 528,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Viña del Mar; ayuda superior histórica frente a servicios actuales",
+    "referencia": "Viña del Mar; ayuda superior histórica frente a servicios actuales",
+    "fuentes": [
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/",
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Servicio Social actual detalla validación JUNAEB y ayudas sociales; no identifica allí recepción de beca superior municipal propia.",
+    "limitaciones": "No equiparar JUNAEB ni ayuda general con el programa de las cuentas2022/2023; mantener UUID separados.",
+    "siguiente_accion": "Leer apartados de ambas cuentas y buscar acto específico de continuidad.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 427,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Alto del Carmen; IMAC2024",
+    "referencia": "Alto del Carmen; IMAC2024",
+    "fuentes": [
+      "https://www.munialtodelcarmen.cl/web/wp-content/uploads/REQUISITOS-BECA-IMAC-2024.pdf",
+      "https://www.munialtodelcarmen.cl/web/wp-content/uploads/BASES-BECA-IMAC-2021.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Síntesis oficial2024 identifica50.000mensuales, superior presencial/online/híbrida y notas de ingreso/renovación.",
+    "limitaciones": "Sin plazo actual leído; premio PAES2025 no sustituye IMAC.",
+    "siguiente_accion": "Recuperar convocatoria IMAC2026 y su calendario.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 428,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Colbún; renovación2026",
+    "referencia": "Colbún; renovación2026",
+    "fuentes": [
+      "https://municipalidadcolbun.cl/becas2026.html",
+      "https://www.bcn.cl/leychile/navegar?idNorma=1002805"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Página2026 fija renovación2febrero–10marzo y rechaza recepción fuera de plazo.",
+    "limitaciones": "No acredita nueva asignación ni calendario2027; una segunda apertura devolvió403.",
+    "siguiente_accion": "Conservar ventana de renovantes y localizar bases para nuevos.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "calendarios": [
+      {
+        "modalidad": "renovación2026",
+        "apertura": "2026-02-02",
+        "cierre": "2026-03-10"
+      }
+    ]
+  },
+  {
+    "id_beca": 429,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Río Negro; Profesor Luis Castillo Cid2026",
+    "referencia": "Río Negro; Profesor Luis Castillo Cid2026",
+    "fuentes": [
+      "https://www.munirionegro.cl/entrevista-para-beca-municipal/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Ficha específica fija7abril–7mayo2026;200.000,RSH40 y egresados de cuarto medio de la comuna.",
+    "limitaciones": "Formulario de entrevista disponible no reabre recepción; no inventar hora.",
+    "siguiente_accion": "Registrar cierre de esta convocatoria.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-04-07",
+    "cierre": "2026-05-07"
+  },
+  {
+    "id_beca": 432,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Coquimbo; Aportes Municipales Educación Superior",
+    "referencia": "Coquimbo; Aportes Municipales Educación Superior",
+    "fuentes": [
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "URL específica agota tiempo; búsqueda2026 no recupera llamado equivalente identificable.",
+    "limitaciones": "No se acredita lectura de calendario actual ni término del programa.",
+    "siguiente_accion": "Recuperar noticia4834 y decreto anual en archivo municipal.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 434,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Andacollo; Ignacio Domeyko; plazos anuales",
+    "referencia": "Andacollo; Ignacio Domeyko; plazos anuales",
+    "fuentes": [
+      "https://www.andacollochile.cl/page/Becas-Municipales"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Sección Ignacio Domeyko aplica a universidades públicas/privadas,100.000anuales; recepción primer día hábil abril–último hábil mayo.",
+    "limitaciones": "IP/CFT corresponde a Gabriela Mistral; no transferir esa población. No se asignan días ni edición2026 sin acto anual.",
+    "siguiente_accion": "Buscar llamado anual y posibles modificaciones.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 440,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Hualpén; mantención superior frente a convenios",
+    "referencia": "Hualpén; mantención superior frente a convenios",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+      "https://legalpython.com/municipalidades/hualpen/padems/PADEM_2023.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PLADECO2026–2032 recupera asesoría FUAS/JUNAEB; cuenta2022 menciona convenio Diego Portales.",
+    "limitaciones": "Ninguno acredita identidad con ayuda monetaria histórica; fuente original es de tercero.",
+    "siguiente_accion": "Recuperar PADEM desde dominio municipal y acto de ayuda propia.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 441,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Trehuaco; catastro UBB2025; devolución pasajes",
+    "referencia": "Trehuaco; catastro UBB2025; devolución pasajes",
+    "fuentes": [
+      "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Fila Trehuaco identifica devolución de pasajes para residentes superiores, alumno regular y RSH; separa convenio Diego Portales.",
+    "limitaciones": "Catastro no publica ventana; no transferir arancel del convenio a pasajes.",
+    "siguiente_accion": "Buscar llamado y calendario municipal de devolución de pasajes.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 447,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Algarrobo; Aporte Económico2026; variante",
+    "referencia": "Algarrobo; Aporte Económico2026; variante",
+    "fuentes": [
+      "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja expediente con llamado11marzo2026: recepción en marzo/abril y evaluación social.",
+    "limitaciones": "No fija día final ni acredita recepción actual; no fusionar con UUID245.",
+    "siguiente_accion": "Leer formulario y bases para precisar cierre.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 448,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Pitrufquén; Pasajes Superior2026",
+    "referencia": "Pitrufquén; Pasajes Superior2026",
+    "fuentes": [
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/index.php",
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/publicaciones/Postulacion_a_Becas_de_Pasajes_para_Estudiantes_de_Educacion_Superior_2026_6a5e6d15e3545/BASES_BECAS_ESTUDIANTES_2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Índice municipal anuncia recepción desde20julio2026; PDF específico no accesible mediante consulta actual.",
+    "limitaciones": "No se leyó cierre. Cultural Julio Dumont6julio–6agosto es distinta.",
+    "siguiente_accion": "Recuperar PDF Pasajes y leer cronograma.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 450,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "USS; convenio Punta Arenas; primer/segundo semestre",
+    "referencia": "USS; convenio Punta Arenas; primer/segundo semestre",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Sección convenio identifica egresados de ocho establecimientos,10%o15%según carrera. Regla común solicita hasta último hábil marzo/agosto según semestre.",
+    "limitaciones": "No es aporte municipal general ni admisión permanente; falta acto con año y días precisos.",
+    "siguiente_accion": "Confirmar admisión aplicable y calendario de convenios USS.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 451,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Monte Patria; antecedente transparencia2018",
+    "referencia": "Monte Patria; antecedente transparencia2018",
+    "fuentes": [
+      "https://www.munimontepatria.cl/transparencia/index.php?a=2018&action=plantillas_generar_archivo&ia=49110&ig=404&m=12"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda dirigida2026 no recuperó convocatoria específica del apoyo superior; permaneció antecedente2018.",
+    "limitaciones": "No se certificó lectura íntegra del expediente ni se deduce cierre por ausencia de resultados.",
+    "siguiente_accion": "Recuperar tabla2018 y buscar decreto2026 en transparencia municipal.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 452,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Río Ibáñez; José Panichine Cayún2024",
+    "referencia": "Río Ibáñez; José Panichine Cayún2024",
+    "fuentes": [
+      "https://rioibanez.cl/2024/08/12/beca-municipal-jose-panichine/",
+      "https://rioibanez.cl/wp-content/uploads/2023/08/Beca-Municipal-Jose-Panchine-Cayun.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia12agosto2024 fija recepción12agosto–5septiembre2024 a17:00,450.000y exclusión Aysén/Patagonia.",
+    "limitaciones": "Cierre solo2024; cuenta2025 menciona programa1–29agosto pero no se toma como recepción. Falta llamado2026.",
+    "siguiente_accion": "Localizar llamado2026 y completar aviso2025 antes de atribuir nuevos plazos.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2024-08-12",
+    "cierre": "2024-09-05",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago"
+  },
+  {
+    "id_beca": 453,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Corral; ficha2020 y reglamentos posteriores",
+    "referencia": "Corral; ficha2020 y reglamentos posteriores",
+    "fuentes": [
+      "https://www.municipalidadcorral.cl/storage/archivospdf/daem/2024/REGLAMENTO%20BECA%20MUNICIAL%202024.pdf",
+      "https://www.municipalidadcorral.cl/page/beca"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Ficha específica identifica superior fuera de residencia;400.000habituales y excepción2020 de300.000únicos.",
+    "limitaciones": "No aplicar monto excepcional2020 a2026; reglamento2024 indexa25marzo–12abril2024 pero no se leyó íntegro.",
+    "siguiente_accion": "Leer reglamento2024 y buscar proceso2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 455,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Bulnes; transporte diurno/nocturno",
+    "referencia": "Bulnes; transporte diurno/nocturno",
+    "fuentes": [
+      "https://www.imb.cl/wp-content/uploads/2024/04/DECRETO-NOMINA-BECAS-TRANSPORTE-2024-BULNES.pdf",
+      "https://pace.ubiobio.cl/wp-content/uploads/2024/07/Becas-Municipales-Nuble-Diguillin.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se identifica institución Bulnes. Decreto491/2024 acredita pagos de beca de estudios; servicios2026 recupera deportiva Larqui.",
+    "limitaciones": "Pagos no son recepción; falta cotejar transporte con beca de estudios.",
+    "siguiente_accion": "Leer fila Bulnes del catastro y ordenanza894/2020; buscar convocatoria transporte2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 456,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Los Sauces; variante municipal",
+    "referencia": "Los Sauces; variante municipal",
+    "fuentes": [
+      "https://www.munilossauces.cl/noticias/postulacion-a-residencia-estudiantil-2026-estudia--22964",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja con expediente267: residencia Estudia Tranquilo16–18febrero2026 para Temuco y nómina municipal2025.",
+    "limitaciones": "No está demostrada equivalencia entre residencia y beca monetaria; conservar variantes.",
+    "siguiente_accion": "Recuperar bases propias de la beca municipal.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 457,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Penco; mil becas superiores",
+    "referencia": "Penco; mil becas superiores",
+    "fuentes": [
+      "https://penco.cl/penco-abre-postulacion-a-mil-becas-para-la-educacion-superior-con-una-inversion-de-100-millones-de-pesos/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia específica devuelve403 y búsqueda dirigida2026 no recupera texto equivalente.",
+    "limitaciones": "No se certificó lectura del plazo ni se interpreta bloqueo como cierre.",
+    "siguiente_accion": "Recuperar noticia por archivo municipal y bases2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 458,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Tiltil; programa transporte2025",
+    "referencia": "Tiltil; programa transporte2025",
+    "fuentes": [
+      "https://munitiltil.cl/wp-content/uploads/2025/04/BECA-MUNICIPAL-DE-TRANSPORTE-2025-PROGRAMA-PRESENTACION.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Programa identifica aporte de transporte para media/superior, evaluación social, documentos y restricciones.",
+    "limitaciones": "Fragmentos leídos no acreditan calendario2026; no convertir pagos ni rendimiento en plazo.",
+    "siguiente_accion": "Leer calendario íntegro y localizar acto anual2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 463,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Cholchol; licitaciones2025/2026",
+    "referencia": "Cholchol; licitaciones2025/2026",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-32-LE25",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-30-LE26"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda municipal recupera índice institucional sin llamado específico; antecedentes remiten a contratación pública.",
+    "limitaciones": "Una licitación no acredita recepción de solicitudes estudiantiles.",
+    "siguiente_accion": "Leer objeto y anexos de4993-30-LE26 y acto de postulación beneficiarios.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 467,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Chimbarongo; Capital del Mimbre2026",
+    "referencia": "Chimbarongo; Capital del Mimbre2026",
+    "fuentes": [
+      "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf",
+      "https://www.municipalidadchimbarongo.com/becas.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda2026 recupera noticias periodísticas de entrega781becas, no bases oficiales actuales.",
+    "limitaciones": "No usar prensa como prueba suficiente ni ceremonia como cierre; formulario original no acredita año.",
+    "siguiente_accion": "Recuperar formulario/reglamento desde municipio y llamado2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 470,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Teno; convocatoria2026; calendario referencial página1",
+    "referencia": "Teno; convocatoria2026; calendario referencial página1",
+    "fuentes": [
+      "https://www.teno.cl/portal2/Depto_Unidades/Dideco/Becas/CALENDARIO%20BECA%20MUNICIPAL%202026.pdf",
+      "https://www.teno.cl/portal2/beca-municipal-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Calendario enlazado oficialmente fija7–21septiembre2026, cierre14:00; revisión/resultados/pagos posteriores son etapas distintas.",
+    "limitaciones": "Documento se titula referencial; no se halló modificación posterior en página consultada.",
+    "siguiente_accion": "Registrar cierre con alcance del calendario publicado.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-09-07",
+    "cierre": "2026-09-21",
+    "hora_cierre": "14:00",
+    "zona_horaria": "America/Santiago"
+  },
+  {
+    "id_beca": 471,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Petorca; segundo semestre2026",
+    "referencia": "Petorca; segundo semestre2026",
+    "fuentes": [
+      "https://munipetorca.cl/docs/becamunicipaleducacionsuperior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Ficha oficial fija postulación14–21octubre2026, validación22–28octubre, notificación29octubre–2noviembre y depósito3–10noviembre.",
+    "limitaciones": "Solo recepción termina21octubre; no usar pago como cierre.",
+    "siguiente_accion": "Registrar ventana y alcance semestral.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-10-14",
+    "cierre": "2026-10-21"
+  },
+  {
+    "id_beca": 472,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Porvenir Siembra; ordenanza19/2026",
+    "referencia": "Porvenir Siembra; ordenanza19/2026",
+    "fuentes": [
+      "https://www.muniporvenir.cl/municipalidad-de-porvenir-aprueba-nueva-beca-de-educacion-superior-porvenir-siembra/",
+      "https://www.muniporvenir.cl/wpcont-wp/uploads/2026/06/ORDENANZA-19-BECA-PORVENIR-SIEMBRA.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia9junio2026 acredita80.000mensuales marzo–diciembre, residencia, presencial y renovación semestral con80%aprobado.",
+    "limitaciones": "Procedimiento permanente en considerando no prueba recepción permanente; PDF directo agotó tiempo y falta artículo de calendario.",
+    "siguiente_accion": "Leer ordenanza completa y primer llamado2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 476,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Guaitecas/Melinka; Incentivo Escolar2018",
+    "referencia": "Guaitecas/Melinka; Incentivo Escolar2018",
+    "fuentes": [
+      "https://muniguaitecas.cl/2018/05/16/beca-incentivo-escolar-un-beneficio-exclusivo-que-apoya-a-los-jovenes-de-guaitecas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia16mayo2018 diferencia superior70.000por ocho meses y media40.000; residencia y70%ramos superiores.",
+    "limitaciones": "No publica recepción ni acredita montos/calendario2026. Fecha actual de pie de página no actualiza noticia.",
+    "siguiente_accion": "Buscar reglamento y llamado2026 del incentivo.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 480,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Nacimiento; beca superior2026",
+    "referencia": "Nacimiento; beca superior2026",
+    "fuentes": [
+      "https://www.nacimiento.cl/noticias/140-estudiantes-de-educacion-superior-recibieron-l-24003",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia oficial acredita140beneficiarios,97renovantes y43nuevos;1UTMmensual marzo–diciembre.",
+    "limitaciones": "Periodo de pagos no es recepción; ceremonia no acredita cierre.",
+    "siguiente_accion": "Localizar bases y llamado previo2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 481,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Quellón; municipal frente a Hijos de Pescadores2026",
+    "referencia": "Quellón; municipal frente a Hijos de Pescadores2026",
+    "fuentes": [
+      "https://muniquellon.cl/wp-content/uploads/2026/04/Bases-Beca-HP-2026.pdf",
+      "https://muniquellon.cl/wp-content/uploads/2025/03/Bases-Beca-Municipal-2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda actual recupera bases Hijos de Pescadores400.000en dos cuotas; estas excluyen explícitamente Beca Municipal.",
+    "limitaciones": "Programas distintos: no trasladar fechas, beneficios o requisitos de pescadores a municipal general.",
+    "siguiente_accion": "Recuperar Bases Beca Municipal2026 por índice oficial.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 486,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Paillaco; superior histórica2021",
+    "referencia": "Paillaco; superior histórica2021",
+    "fuentes": [
+      "https://www.munipaillaco.cl/wp-content/uploads/2025/03/Acta-N%C2%B010.pdf",
+      "https://www.munipaillaco.cl/wp-content/uploads/2021/04/BECA-MUNICIPAL-PAILLACO-2021-1.pdf",
+      "https://www.munipaillaco.cl/wp-content/uploads/2023/05/Cuenta-Publica-Paillaco-2022.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda2026 recupera acta10/2025 con referencias a becas, no calendario actual identificable.",
+    "limitaciones": "No se leyó reglamento2021 íntegro ni se atribuye al municipio convocatoria SUBDERE para funcionarios.",
+    "siguiente_accion": "Leer reglamento y acta10 para identificar modalidad y llamado2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 490,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Contradicción de institución: San Pedro de la Paz / Melipilla",
+    "referencia": "Contradicción de institución: San Pedro de la Paz / Melipilla",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/03/DECRETO-N%C2%B0406-APRUEBA-NUEVO-REGLAMENTO-DE-BECA-MUNICIPAL-DE-EDUCACION-SUPERIO-Y-BECA-PAES.pdf",
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf",
+      "https://www.munisanpedro.gob.cl/noticias/becas-municipales-de-educacion-superior-y-beca-paes/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "La noticia oficial original de10marzo2026 y dominio munisanpedro.gob.cl se identifican como San Pedro de Melipilla; ficha dice San Pedro de la Paz.",
+    "limitaciones": "Contradicción sustancial de comuna; no trasladar calendario ni corregir institución sin conciliar identidad original.",
+    "siguiente_accion": "Revisar candidata/hash y fuente primaria de San Pedro de la Paz; separar eventual atribución errónea.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 492,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Ránquil; Hogar Estudiantil Valle del Itata",
+    "referencia": "Ránquil; Hogar Estudiantil Valle del Itata",
+    "fuentes": [
+      "https://mportezuelo.cl/Inicio/becas-y-beneficios-estudiantiles/",
+      "https://pace.ubiobio.cl/wp-content/uploads/2025/05/Becas-Municipales-Nuble-Itata.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Municipio de Portezuelo identifica residencia compartida en Penco para ocho comunas incluyendo Ránquil, alojamiento,once/cena y servicios de lunes a viernes.",
+    "limitaciones": "Fuente no acredita cupos ni calendario de Ránquil2026; no asignar reglas de otra comuna.",
+    "siguiente_accion": "Recuperar convocatoria de la Asociación y selección municipal de Ránquil.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 494,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "La Cruz; Sí se puede",
+    "referencia": "La Cruz; Sí se puede",
+    "fuentes": [
+      "https://lacruz.cl/a94a8fe5/noticias/beca-municipal-si-se-puede/",
+      "https://lacruz.cl/a94a8fe5/wp-content/uploads/2026/04/CUENTA-PUBLICA-2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta2025 devuelve404; noticia municipal identifica300.000superior y20horas comunitarias, sin calendario leído.",
+    "limitaciones": "No equiparar JUNAEB de DIDECO con beca propia; falta edición actual.",
+    "siguiente_accion": "Recuperar noticia íntegra y bases de Sí se puede2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 496,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Limache; gestión2023 página153",
+    "referencia": "Limache; gestión2023 página153",
+    "fuentes": [
+      "https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta2023 identifica150.000semestrales, egresados municipales y125asignaciones/renovaciones más excepciones.",
+    "limitaciones": "Sin recepción2026; bus vespertino es otro programa.",
+    "siguiente_accion": "Buscar llamado2026 y reglamento de beca monetaria.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 497,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Cauquenes; beca general frente a CFT San Agustín",
+    "referencia": "Cauquenes; beca general frente a CFT San Agustín",
+    "fuentes": [
+      "https://cauquenes.cl/ordenanzas/pdf/562.pdf",
+      "https://www.cauquenes.cl/transparencia_activa/Cuenta_Publica_2020.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta2020 devuelve403; ordenanza562 indexada fija3–15abril anual para convenio CFT San Agustín.",
+    "limitaciones": "No se acreditó que el UUID general corresponda exclusivamente al convenio; no transferir calendario a todas las modalidades.",
+    "siguiente_accion": "Leer ordenanza íntegra y sección de cuenta original para conciliar modalidad.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 498,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Catemu; Residencia Estudiantil; artículo5",
+    "referencia": "Catemu; Residencia Estudiantil; artículo5",
+    "fuentes": [
+      "https://www.municatemu.cl/ARCHIVOS_WEB/reglamentoresidencial.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Reglamento específico distingue diciembre para alumnos superiores/matriculados directos y enero para ingreso que requiere PAES, según DEMRE.",
+    "limitaciones": "No es dinero de libre disposición; falta convocatoria anual y días exactos.",
+    "siguiente_accion": "Precisar descripción de ficha y convocatoria2027 sin inventar cierre.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 499,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Macul; Profesor Carlos Herrera Ferrada2026",
+    "referencia": "Macul; Profesor Carlos Herrera Ferrada2026",
+    "fuentes": [
+      "https://www.munimacul.cl/portalnv/index.php/2026/07/20/566-favorecidos-con-beca-profesor-carlos-herrera-ferrada-2026/",
+      "https://www.uahurtado.cl/wp-images/uploads/2022/03/BENEFICIOS-ESTUDIANTILES-ADMISION-2022.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia20julio2026 acredita566estudiantes superiores,150.000por única vez y sexto año de entrega.",
+    "limitaciones": "No publica plazo de recepción en texto leído; no guardar datos personales de nómina.",
+    "siguiente_accion": "Buscar bases y llamado previo al resultado2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 500,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Coronel; superior frente a deportiva2026",
+    "referencia": "Coronel; superior frente a deportiva2026",
+    "fuentes": [
+      "https://www.coronel.cl/noticias/entrega-de-96-becas-a-alumnos-y-alumnas-universitarias-de-nuestra-comuna/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Resultado actual corresponde a Deportista Destacado2026,32becas y15millones; ficha original trata96universitarios.",
+    "limitaciones": "No se acredita equivalencia ni calendario superior; no usar fecha de lanzamiento deportivo.",
+    "siguiente_accion": "Recuperar artículo original de96becas y nueva convocatoria universitaria.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 502,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Mostazal; Concejo y Samuel Ovalle2026",
+    "referencia": "Mostazal; Concejo y Samuel Ovalle2026",
+    "fuentes": [
+      "https://www.mostazal.cl/noticias/municipalidad-de-mostazal-entrego-la-beca-concejo-municipal-a-146-estudiantes-de-educacion-superior/",
+      "https://mostazal.cl/wp-content/uploads/2025/04/Cuenta_Publica_gestion_2024_digital.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia oficial acredita146becarios Concejo2026 y distingue Samuel Ovalle, Especialidades y otros niveles; cuenta2024 describe Samuel300.000en dos cuotas.",
+    "limitaciones": "No trasladar condiciones de Samuel a Concejo ni usar ceremonia como cierre.",
+    "siguiente_accion": "Recuperar bases y calendario2026 de cada línea.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 504,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "María Pinto; beca estudiantil histórica",
+    "referencia": "María Pinto; beca estudiantil histórica",
+    "fuentes": [
+      "https://studylib.es/doc/7986385/acta-47---transparencia-municipal",
+      "https://www.mpinto.cl/actas-de-consejo/",
+      "https://ensanpedro.cl/2022/08/12/invitan-a-estudiantes-universitarios-de-maria-pinto-a-renovar-la-beca-de-conectividad-de-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsqueda sitio municipal2026 recupera portal y actas, sin convocatoria específica; enlace Studylib es tercero.",
+    "limitaciones": "Conectividad2022 no demuestra identidad con beca estudiantil histórica.",
+    "siguiente_accion": "Recuperar acta47 primaria y acto actual desde archivo municipal.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 505,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Peñaflor; variante superior histórica2020",
+    "referencia": "Peñaflor; variante superior histórica2020",
+    "fuentes": [
+      "https://penaflor.cl/tramites/",
+      "https://penaflor.cl/wp-content/uploads/2021/03/CUENTA-PUBLICA-2020_web.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja con129: portal de trámites y deportiva2026, frente a cuenta2020 de esta variante.",
+    "limitaciones": "No acreditar calendario superior usando deportiva; conservar UUID distinto.",
+    "siguiente_accion": "Abrir trámite superior y bases actuales.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 507,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Angol; catastro UCSC2024",
+    "referencia": "Angol; catastro UCSC2024",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Búsquedas dirigidas municipal2026 y nombre recuperan llamados de otras comunas, sin programa Angol específico actual.",
+    "limitaciones": "No se leyó llamado2026; ausencia de resultados no es cierre ni inexistencia.",
+    "siguiente_accion": "Leer fila Angol del catastro y recuperar bases desde dominio municipal.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 509,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "San Gregorio; convocatoria2025",
+    "referencia": "San Gregorio; convocatoria2025",
+    "fuentes": [
+      "https://www.sangregorio.cl/2025/03/14/ya-estan-abiertas-postulaciones-para-becas-municipales-de-san-gregorio-2025/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia específica2025 devuelve502; búsqueda2026 no recupera alternativa oficial.",
+    "limitaciones": "No se certificó lectura del plazo2025 ni convocatoria actual.",
+    "siguiente_accion": "Recuperar publicación por archivo y bases2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 510,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Calera de Tango; Departamento Social",
+    "referencia": "Calera de Tango; Departamento Social",
+    "fuentes": [
+      "https://www.caleradetango.cl/departamento-social"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Página actual enumera Beca Municipal para estudiantes superiores entre apoyos sujetos a evaluación social.",
+    "limitaciones": "Servicio disponible no afirma recepción permanente ni fija cierre.",
+    "siguiente_accion": "Buscar reglamento y llamado anual aplicable.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 512,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Antofagasta; Beca Municipal2023; pagos2024",
+    "referencia": "Antofagasta; Beca Municipal2023; pagos2024",
+    "fuentes": [
+      "https://www.municipalidadantofagasta.cl/index.php/noticias/3999-beca-municipal-2023-conoce-donde-retirarla"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Índice oficial conserva llamado a retirar fondos de beca2023 de básica/media/superior en BCI.",
+    "limitaciones": "Retiro no es recepción; fecha2026 del portal no cambia anualidad de noticia.",
+    "siguiente_accion": "Recuperar bases2026 y separar categoría superior de escolares.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 513,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Cochamó; gestión2025",
+    "referencia": "Cochamó; gestión2025",
+    "fuentes": [
+      "https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Cuenta2025 no accesible mediante herramienta y búsqueda2026 vacía para beca municipal.",
+    "limitaciones": "No se leyó apartado ni calendario; no inferir cierre o desaparición.",
+    "siguiente_accion": "Recuperar copia pública de cuenta y llamado del beneficio.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 514,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "modalidad_anio": "Cerrillos; modificación ordenanza20/2018",
+    "referencia": "Cerrillos; modificación ordenanza20/2018",
+    "fuentes": [
+      "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Diario Oficial14noviembre2018 acredita modificación de beca superior y agrega puntajes nacionales; fija NEM5,5 y ponderaciones.",
+    "limitaciones": "Es modificación parcial histórica; no publica recepción2026 ni reglamento refundido completo.",
+    "siguiente_accion": "Recuperar texto refundido vigente y convocatoria anual.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 515,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Carahue; edición2025 frente a2026",
+    "referencia": "Carahue; edición2025 frente a2026",
+    "fuentes": [
+      "https://carahue.cl/web/wp-content/uploads/2025/03/REQUISITOS-Y-REGLAMENTO.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Reglamento2025 devuelve502; nómina oficial indexada se identifica expresamente como2025.",
+    "limitaciones": "No publicar como2026 por nombre mixto de ficha; nómina no da plazo.",
+    "siguiente_accion": "Leer reglamento2025 y localizar bases2026 sin copiar anualidad.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 516,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "Lonquimay; superior2026",
+    "referencia": "Lonquimay; superior2026",
+    "fuentes": [
+      "https://www.mlonquimay.cl/web/departamentos-2/noticias/page/7/?i=71-816-1",
+      "https://www.mlonquimay.cl/web/wp-content/uploads/2022/07/reglamento-beca-municipal-FINAL-1.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Noticia oficial7abril2026 informa recepción lunes6–viernes17abril en segundo piso municipal.",
+    "limitaciones": "No usar30agosto del reglamento2022: es acreditación para segunda cuota.",
+    "siguiente_accion": "Recuperar artículo completo y registrar ventana actual.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-04-06",
+    "cierre": "2026-04-17"
+  },
+  {
+    "id_beca": 517,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Buin; variante; guía DIDECO2024",
+    "referencia": "Buin; variante; guía DIDECO2024",
+    "fuentes": [
+      "https://www.buin.cl/wp-content/uploads/2024/12/DIDECO-GUIA-DE-ORIENTACION-USUARIO.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja con294: guía identifica superior para alumnos sin gratuidad y diferencia otros apoyos.",
+    "limitaciones": "Falta lectura de plazo exacto y llamado2026; conservar ambos UUID.",
+    "siguiente_accion": "Leer fila completa y acto anual antes de atribuir vigencia.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 522,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Conchalí; decreto328; ocho páginas escaneadas",
+    "referencia": "Conchalí; decreto328; ocho páginas escaneadas",
+    "fuentes": [
+      "https://conchalitransparencia.cl/Actos%20y%20Resoluciones%20con%20efectos%20a%20terceros/Reglamentos/Decreto%20Exento%20328%20Reglamento%20becas%20ensenanza%20superior.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "PDF oficial recuperado no tiene texto; búsqueda2026 no aporta convocatoria alternativa.",
+    "limitaciones": "No se certifica lectura visual ni recepción permanente.",
+    "siguiente_accion": "Leer escaneo y localizar decreto de convocatoria2026.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 523,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "Contulmo; programa municipal y deportiva2026",
+    "referencia": "Contulmo; programa municipal y deportiva2026",
+    "fuentes": [
+      "https://www.transparencia.contulmo.cl/nomina-de-julio-2026/",
+      "https://www.contulmo.cl/Transparencia/Decretos/2022/05-Mayo/DE1685.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Transparencia marzo/julio2026 reúne postulantes/renovantes y Becas Deportivas en misma fila.",
+    "limitaciones": "Índice no distingue calendario superior; no usar fechas de nómina como recepción.",
+    "siguiente_accion": "Leer decreto1685/2022 y acto anual de superior.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 524,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "modalidad_anio": "San Vicente; Excelencia y Estímulo2026; variante",
+    "referencia": "San Vicente; Excelencia y Estímulo2026; variante",
+    "fuentes": [
+      "https://convocatorias.municipalidadsanvicente.cl/",
+      "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Se coteja con42 y portal oficial: ambas modalidades muestran1febrero–31marzo2026 y estado cerrado.",
+    "limitaciones": "Calendario común no convierte ambas becas en una; no fusionar UUID ni coberturas.",
+    "siguiente_accion": "Precisar correspondencia de cada modalidad con ficha.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "apertura": "2026-02-01",
+    "cierre": "2026-03-31"
+  },
+  {
+    "id_beca": 525,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "modalidad_anio": "San Pedro de Melipilla; BMES/Bono PAES2025–2026",
+    "referencia": "San Pedro de Melipilla; BMES/Bono PAES2025–2026",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/noticias/becas-municipales-de-educacion-superior-y-beca-paes/",
+      "https://www.munisanpedro.cl/wp-content/uploads/2025/03/REGLAMENTO-BECAS-BMES-2025-1.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "Reglamento2025 distingue postulación anual y rendición; noticia10marzo2026 anuncia becas superiores/PAES pero contenido principal es imagen.",
+    "limitaciones": "No se leyó calendario de imagen ni decreto406/2026; no confundir con San Pedro de la Paz490.",
+    "siguiente_accion": "Leer imagen2026 y decreto406, luego conciliar modalidades.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 526,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Empedrado; postulación/renovación semestral",
+    "referencia": "Empedrado; postulación/renovación semestral",
+    "fuentes": [
+      "https://empedrado.cl/faq-preguntas-frecuentes/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "razonamiento": "FAQ municipal identifica30.000mensuales y residencia en Talca; exige residencia/RSH y superior. Indica nueva postulación o renovación cada semestre.",
+    "limitaciones": "No se renueva automáticamente; fechas remiten a reglamentos/redes sin días publicados en FAQ.",
+    "siguiente_accion": "Leer reglamento y llamado del semestre actual.",
+    "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
+    "estado_aplicacion": "SIN_CAMBIO"
   }
 ]
