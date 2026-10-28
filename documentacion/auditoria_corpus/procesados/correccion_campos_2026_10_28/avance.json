@@ -1,0 +1,19 @@
+{
+  "verificado_utc": "2026-10-28T22:46:14.478797+00:00",
+  "catalogo": 528,
+  "revisadas_en_lotes": 114,
+  "fichas_corregidas": 106,
+  "categorias_corregidas": 105,
+  "tipos_desconocidos_resueltos": 104,
+  "tipo_conocido_incorrecto_corregido": 1,
+  "beneficios_vacios_recuperados": 3,
+  "sin_cambio_lote_01": 3,
+  "requieren_aclaracion_lote_01": 5,
+  "tipo_no_especificado_inicial": 522,
+  "tipo_no_especificado_actual": 418,
+  "aplicado": true,
+  "estado_revision_completa": "PENDIENTE: los tres lotes están aplicados y verificados; no se ha completado la revisión de campos del catálogo entero.",
+  "evidencia_publica": "verificacion_publica_final.json",
+  "cola_tipo": "pendientes_tipo.csv",
+  "otros_campos": "No se modificaron importes estructurados, documentos, requisitos, regiones ni calendarios. Requieren revisión separada; desconocido no equivale a cero ni ausencia de requisito."
+}

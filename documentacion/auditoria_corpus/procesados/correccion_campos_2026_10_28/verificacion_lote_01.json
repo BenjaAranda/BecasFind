@@ -1,0 +1,29 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 48,
+  "tipos_desconocidos_resueltos": 47,
+  "tipo_conocido_corregido": 1,
+  "filas_catalogo": 528,
+  "comprobacion_publica": {
+    "busqueda": 528,
+    "detalles": 51,
+    "unico_campo_modificado": "nombreTipoBeca"
+  },
+  "conciliacion_privada": {
+    "filas": 528,
+    "uuid_preservados": true,
+    "cambios": 48,
+    "campos_modificados": [
+      "tipo_beca",
+      "version"
+    ],
+    "incremento_version": 1
+  },
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261028T223721Z-a8ddc237.dump",
+  "instantaneas_privadas": [
+    "tipos-lote01-antes.json",
+    "tipos-lote01-despues.json"
+  ],
+  "sql_sha256": "8ed84894de4f86d147671757c6127262adf3d2751dd7620d8dad4e53bb14eb2f",
+  "advertencia": "SQL aplicado; no volver a ejecutar. No se modificaron vigencia, importes ni requisitos."
+}

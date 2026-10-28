@@ -14,6 +14,8 @@ El catálogo público con estados claros se desplegó en preview el 28/10: `http
 
 ## Estado actual
 
+Corrección de campos del 28/10: 114 fichas revisadas en tres lotes; 106 modificadas y verificadas en Oracle y API pública. Se corrigieron 105 categorías (104 desconocidas y una incorrecta) y se recuperaron tres beneficios vacíos. Quedan 418 categorías «No especificado», individualizadas en `documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/pendientes_tipo.csv`. Los tres SQL están aplicados: no repetirlos. Copias privadas previas y restauraciones de 14 tablas verificadas; categorías/beneficios y versiones fueron los únicos cambios. No se alteraron los estados de postulación. El lote municipal reutiliza hechos documentados: no es una nueva confirmación de convocatorias. Leer el README y `avance.json` de esa carpeta para límites y contradicciones, especialmente Cunco/Villa Alegre (14). Esta revisión de campos no está terminada y no sustituye la auditoría de vigencia.
+
 - P04 cerrada: 568 candidatas; 526 esenciales; dos completas; 40 exclusiones editoriales; cero pendientes editoriales. Los 23 descartes del último cierre son por evidencia insuficiente, no por falsedad.
 - P12 operativamente completada en preview: Oracle y Vercel conectados; HTTPS/CORS/reinicio comprobados; Gmail habilitado y recuperación real aprobada; recorridos públicos, ADMIN y STUDENT aprobados. Verificación final de GitHub en la entrega vigente.
 - Corte previo a la auditoría: 528 becas y UUID; cinco activas, 57 cerradas y 466 sin vigencia acreditada. Es un antecedente histórico; el estado posterior a las correcciones está arriba. No hubo nuevos descartes ni eliminaciones.
@@ -24,7 +26,7 @@ El catálogo público con estados claros se desplegó en preview el 28/10: `http
 
 - Repositorio: `BenjaAranda/BecasFind`, rama `bugfix/security-and-recovery`; commits en español. No reescribir historial ni promover producción.
 - Oracle existente: `ubuntu@155.181.41.231`, directorio `/home/ubuntu/becasfind-p12`; clave privada `~/.ssh/becasfind`. Secretos solo en configuración privada; no imprimirlos ni pedirlos por chat.
-- API: https://155-181-41-231.sslip.io . Preview: https://becasfind-afeqpkmym-benjatlou13-1274.vercel.app . Frontend de `cdbf84c`; imagen backend `0cb720bf4639…`; origen CORS exacto y FRONTEND_URL de la preview.
+- API: https://155-181-41-231.sslip.io . Preview vigente del catálogo: https://becasfind-pf8timp72-benjatlou13-1274.vercel.app . Frontend `719646b`; backend `37ae1a1`. La preview anterior `afeqpkmym` es histórica y no contiene el catálogo completo por defecto. Origen CORS exacto y FRONTEND_URL de la preview vigente.
 - Gmail SMTP usa la configuración privada de Oracle. Cuenta dedicada STUDENT del usuario validada; contraseña de acceso en `~/.local/state/becasfind/cuenta-propia-validacion.json`, exclusivamente en Oracle. No modificar credenciales ADMIN. Contenedor anterior detenido `becasfind-api-pre-gmail` conservado para reversión.
 - Respaldos privados y restauraciones aisladas de 14 tablas comprobados antes de cambios. No tocar la base local, volúmenes ni originales.
 - No usar Firecrawl ni contactar instituciones. Solo fuentes públicas oficiales. No crear recursos de pago ni comprar dominio.
