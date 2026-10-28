@@ -493,4 +493,6 @@ Antes de dar por finalizada cualquier tarea que involucre texto en español, ver
 
 ## Contexto operativo para retomar
 
+Actualización autorizada el 28 de octubre de 2026: mostrar por defecto el catálogo público de las 528 fichas editorialmente confirmadas, incluidas las que no tienen calendario acreditado. Separar visibilidad de estado_activa y conservar BR-VIGENCIA para el filtro de postulaciones abiertas y recomendaciones. Mostrar «Fechas por confirmar» cuando falta calendario e «Información en revisión» cuando la auditoría sigue inconclusa. No descartar por ausencia de fechas ni inventarlas; preservar UUID y originales. Esta autorización no inicia P13/P14 ni certifica vigencia por probabilidad.
+
 Después de este contrato, leer `tasks/contexto.md` y `PLAN_MEJORAS.md`. Los conteos editoriales vigentes se reconstruyen desde `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`; los planes archivados contienen cifras históricas. Consultar solo los informes pertinentes a las candidatas en curso.

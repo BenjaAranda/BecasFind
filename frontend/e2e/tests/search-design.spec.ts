@@ -14,7 +14,7 @@ async function prepare(page: Page) {
   await page.route('**/api/**', route => {
     const path = new URL(route.request().url()).pathname;
     const data = path.endsWith('/buscar') ? { content: [summary, { ...summary, idBeca: "00000000-0000-4000-8000-000000000002", nombre: 'Beca de continuidad académica' }], totalElements: 2, totalPages: 1, number: 0 }
-      : path.endsWith('/becas/00000000-0000-4000-8000-000000000001') ? detail : [];
+      : path.endsWith('/00000000-0000-4000-8000-000000000001') ? detail : [];
     return route.fulfill({ json: { data } });
   });
 }
@@ -50,7 +50,7 @@ test('favorito es independiente de abrir la tarjeta y el título funciona con te
 test('detalle fallido permite reintentar y abrir un enlace directo vuelve al buscador', async ({ page }) => {
   await prepare(page);
   let calls = 0;
-  await page.route('**/api/becas/00000000-0000-4000-8000-000000000001', route => ++calls === 1 ? route.fulfill({ status: 500, json: { message: 'Error' } }) : route.fulfill({ json: { data: detail } }));
+  await page.route('**/api/becas/**00000000-0000-4000-8000-000000000001', route => ++calls === 1 ? route.fulfill({ status: 500, json: { message: 'Error' } }) : route.fulfill({ json: { data: detail } }));
   await page.goto('/becas/00000000-0000-4000-8000-000000000001');
   await expect(page.getByRole('alert')).toContainText('No pudimos abrir');
   await expect(page).toHaveURL(/\/becas\/00000000-0000-4000-8000-000000000001$/);

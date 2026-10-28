@@ -66,6 +66,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/becas/buscar").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/becas/catalogo/buscar").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/becas/administracion/**").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/recomendadas").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/becas/**").permitAll()

@@ -42,6 +42,8 @@ public class BecaDetailDTO {
 
     private Boolean estadoActiva;
 
+    private EstadoPostulacion estadoPostulacion;
+
     private InstitucionDTO institucion;
 
     private TipoBecaDTO tipoBeca;

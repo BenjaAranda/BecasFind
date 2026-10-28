@@ -1,6 +1,7 @@
 import { type BecaSummary } from '../../types';
-import { Calendar, Building2, Tag, MapPin, Bookmark, Clock, ArrowUpRight } from 'lucide-react';
-import { formatCalendarDate, isClosingDateExpired } from '../../utils/dates';
+import { Calendar, Building2, Tag, MapPin, Bookmark, ArrowUpRight } from 'lucide-react';
+import { formatCalendarDate } from '../../utils/dates';
+import EstadoPostulacion from './EstadoPostulacion';
 
 interface BecaCardProps {
   beca: BecaSummary;
@@ -11,12 +12,10 @@ interface BecaCardProps {
 }
 
 export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito, favoritoPending }: BecaCardProps) {
-  const isExpired = isClosingDateExpired(beca.fechaCierrePostulacion);
 
   return (
     <div
-      onClick={() => onClick(beca.idBeca)}
-      className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6 hover:border-[#375b80] transition cursor-pointer h-full flex flex-col"
+      className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6 hover:border-[#375b80] transition h-full flex flex-col"
     >
       <div className="flex items-center justify-between mb-2">
         <span className="text-xs font-medium px-2 py-1 bg-[#eff6ff] text-[#0b3c75] rounded-full break-words min-w-0">
@@ -40,14 +39,7 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito, 
         <button onClick={event => { event.stopPropagation(); onClick(beca.idBeca); }} className="text-left cursor-pointer hover:underline decoration-1 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-2">{beca.nombre}</button>
       </h3>
 
-      {(isExpired || beca.estadoActiva === false) && (
-        <div className="flex items-center gap-1.5 mb-3">
-          <Clock className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-          <span className="text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
-            {beca.estadoActiva === false ? 'Beca inactiva' : 'Postulación cerrada'}
-          </span>
-        </div>
-      )}
+      <div className="mb-3"><EstadoPostulacion beca={beca} /></div>
 
       {beca.descripcionCorta && (
         <p className="text-sm leading-relaxed text-slate-600 mb-5 line-clamp-3">{beca.descripcionCorta}</p>
@@ -76,7 +68,7 @@ export default function BecaCard({ beca, onClick, isFavorito, onToggleFavorito, 
           <span className="truncate">Cierre: {formatCalendarDate(beca.fechaCierrePostulacion)}</span>
         </div>
       </div>
-      <span aria-hidden="true" className="mt-5 flex justify-between items-center text-sm font-medium text-[#0b3c75]">Conocer esta beca <ArrowUpRight size={18} /></span>
+      <button onClick={() => onClick(beca.idBeca)} className="mt-5 min-h-11 flex justify-between items-center text-sm font-medium text-[#0b3c75] cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2">Conocer esta beca <ArrowUpRight size={18} aria-hidden="true" /></button>
     </div>
   );
 }

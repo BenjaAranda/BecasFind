@@ -39,7 +39,7 @@ public class FavoritoController {
     @PostMapping("/{idBeca}")
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<ApiResponse<Void>> guardar(@PathVariable java.util.UUID idBeca, Principal principal) {
-        favoritoService.guardar(principal.getName(), becaService.findByPublicId(idBeca).getIdBeca());
+        favoritoService.guardar(principal.getName(), becaService.findCatalogoByPublicId(idBeca).getIdBeca());
         return ResponseEntity.ok(ApiResponse.success(null, "Beca guardada en favoritos"));
     }
 

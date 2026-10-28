@@ -20,7 +20,7 @@ test.beforeEach(async ({ page }) => { await prepare(page); });
 
 test('escritura rápida dispara una búsqueda tras 400 ms con el texto final', async ({ page }) => {
   const queries: string[] = [];
-  await page.route('**/api/becas/buscar', route => {
+  await page.route('**/api/becas/**buscar', route => {
     queries.push(route.request().postDataJSON().query || '');
     return route.fulfill({ json: response() });
   });
@@ -36,7 +36,7 @@ test('escritura rápida dispara una búsqueda tras 400 ms con el texto final', a
 
 test('buscar inmediatamente usa el texto actual y cancela la búsqueda pendiente', async ({ page }) => {
   const queries: string[] = [];
-  await page.route('**/api/becas/buscar', route => {
+  await page.route('**/api/becas/**buscar', route => {
     queries.push(route.request().postDataJSON().query || '');
     return route.fulfill({ json: response() });
   });
@@ -52,7 +52,7 @@ test('buscar inmediatamente usa el texto actual y cancela la búsqueda pendiente
 
 test('reiniciar limpia URL, controles y petición sin reutilizar filtros', async ({ page }) => {
   const bodies: Record<string, unknown>[] = [];
-  await page.route('**/api/becas/buscar', route => {
+  await page.route('**/api/becas/**buscar', route => {
     bodies.push(route.request().postDataJSON());
     return route.fulfill({ json: response() });
   });
@@ -68,7 +68,7 @@ test('reiniciar limpia URL, controles y petición sin reutilizar filtros', async
 test('recomendaciones mantienen su endpoint al cambiar tamaño y página', async ({ page }) => {
   let searches = 0;
   const recommended: string[] = [];
-  await page.route('**/api/becas/buscar', route => { searches++; return route.fulfill({ json: response() }); });
+  await page.route('**/api/becas/**buscar', route => { searches++; return route.fulfill({ json: response() }); });
   await page.route('**/api/becas/recomendadas?*', route => {
     const url = new URL(route.request().url());
     recommended.push(`${url.searchParams.get('page')}/${url.searchParams.get('size')}`);
@@ -86,12 +86,12 @@ test('recomendaciones mantienen su endpoint al cambiar tamaño y página', async
 
 test('volver del detalle restaura texto y página desde la URL', async ({ page }) => {
   const pages: number[] = [];
-  await page.route('**/api/becas/buscar', route => {
+  await page.route('**/api/becas/**buscar', route => {
     const body = route.request().postDataJSON();
     pages.push(body.page);
     return route.fulfill({ json: response('Beca de prueba', undefined, body.page, body.size) });
   });
-  await page.route('**/api/becas/00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: {
+  await page.route('**/api/becas/**00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: {
     ...scholarship(), fechaInicioPostulacion: '2029-01-01', descripcionLarga: '', regiones: [], documentosRequeridos: [],
   } } }));
   await page.goto('/explorar?q=guardado&page=2');
@@ -105,7 +105,7 @@ test('volver del detalle restaura texto y página desde la URL', async ({ page }
 
 test('una respuesta anterior lenta no reemplaza la búsqueda nueva', async ({ page }) => {
   let started = false;
-  await page.route('**/api/becas/buscar', async route => {
+  await page.route('**/api/becas/**buscar', async route => {
     const query = route.request().postDataJSON().query;
     if (query === 'vieja') { started = true; await new Promise(resolve => setTimeout(resolve, 900)); }
     try { await route.fulfill({ json: response(query === 'nueva' ? 'Resultado nuevo' : 'Resultado anterior') }); } catch { /* Petición cancelada. */ }
@@ -121,7 +121,7 @@ test('una respuesta anterior lenta no reemplaza la búsqueda nueva', async ({ pa
 
 test('fallo de red muestra error y permite recuperar resultados', async ({ page }) => {
   let failed = true;
-  await page.route('**/api/becas/buscar', route => failed ? route.fulfill({ status: 500, json: { status: 500 } }) : route.fulfill({ json: response() }));
+  await page.route('**/api/becas/**buscar', route => failed ? route.fulfill({ status: 500, json: { status: 500 } }) : route.fulfill({ json: response() }));
   await page.goto('/explorar');
   await expect(page.getByRole('alert')).toContainText('No pudimos cargar');
   failed = false;
@@ -132,25 +132,25 @@ test('fallo de red muestra error y permite recuperar resultados', async ({ page 
 
 test('fecha de cierre no cambia de día y permanece vigente hoy en Chile', async ({ page }) => {
   await page.clock.setFixedTime(new Date('2030-01-02T01:00:00Z'));
-  await page.route('**/api/becas/buscar', route => route.fulfill({ json: response('Cierra hoy', '2030-01-01') }));
+  await page.route('**/api/becas/**buscar', route => route.fulfill({ json: response('Cierra hoy', '2030-01-01') }));
   await page.goto('/explorar');
   await expect(page.getByText('Cierre: 1 de enero de 2030', { exact: true })).toBeVisible();
-  await expect(page.getByText('Postulación cerrada', { exact: true })).toHaveCount(0);
+  await expect(page.getByText('Convocatoria cerrada', { exact: true })).toHaveCount(0);
   await page.clock.setFixedTime(new Date('2030-01-02T12:00:00Z'));
   await page.getByRole('button', { name: 'Buscar Becas' }).click();
-  await expect(page.getByText('Postulación cerrada', { exact: true })).toBeVisible();
+  await expect(page.getByText('Convocatoria cerrada', { exact: true })).toBeVisible();
 });
 
 test('móvil permite usar filtros y no desborda la navegación', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.route('**/api/becas/buscar', route => route.fulfill({ json: response() }));
+  await page.route('**/api/becas/**buscar', route => route.fulfill({ json: response() }));
   await page.goto('/explorar');
   await expect(page.getByRole('button', { name: 'Beca de prueba', exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
 test('selector de tamaño permanece disponible aunque quede una sola página', async ({ page }) => {
-  await page.route('**/api/becas/buscar', route => {
+  await page.route('**/api/becas/**buscar', route => {
     const size = route.request().postDataJSON().size;
     const result = response();
     result.data.totalElements = 24;

@@ -78,6 +78,8 @@ export interface Cobertura {
 }
 
 export interface BecaSummary {
+  estadoPostulacion?: 'ABIERTA' | 'CERRADA' | 'PROXIMA' | 'FECHAS_POR_CONFIRMAR' | 'EN_REVISION';
+  fechaInicioPostulacion?: string | null;
   estadoActiva: boolean;
   idBeca: string;
   nombre: string;
@@ -92,6 +94,7 @@ export interface BecaSummary {
 }
 
 export interface BecaDetail {
+  estadoPostulacion?: 'ABIERTA' | 'CERRADA' | 'PROXIMA' | 'FECHAS_POR_CONFIRMAR' | 'EN_REVISION';
   idBeca: string;
   nombre: string;
   descripcionCorta: string;

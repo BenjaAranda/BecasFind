@@ -32,13 +32,15 @@ public class FavoritoServiceImpl implements FavoritoService {
     private final BecaFavoritaRepository becaFavoritaRepository;
     private final BecaRepository becaRepository;
     private final UsuarioRepository usuarioRepository;
+    private final com.becasfind.api.services.CatalogoPublico catalogoPublico;
 
     public FavoritoServiceImpl(BecaFavoritaRepository becaFavoritaRepository,
                                BecaRepository becaRepository,
-                               UsuarioRepository usuarioRepository) {
+                               UsuarioRepository usuarioRepository, com.becasfind.api.services.CatalogoPublico catalogoPublico) {
         this.becaFavoritaRepository = becaFavoritaRepository;
         this.becaRepository = becaRepository;
         this.usuarioRepository = usuarioRepository;
+        this.catalogoPublico = catalogoPublico;
     }
 
     @Override
@@ -116,6 +118,8 @@ public class FavoritoServiceImpl implements FavoritoService {
                     coverage.setPorcentaje(b.getCoberturaPorcentaje());
                     return BecaDTO.builder()
                             .estadoActiva(b.getEstadoActiva())
+                            .estadoPostulacion(catalogoPublico.estado(b))
+                            .fechaInicioPostulacion(b.getFechaInicioPostulacion())
                             .idBeca(b.getIdBeca())
                             .publicId(b.getPublicId())
                             .nombre(b.getNombre())

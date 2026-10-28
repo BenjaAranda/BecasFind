@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
+import EstadoPostulacion from '../components/common/EstadoPostulacion';
+import { estadoPostulacion } from '../utils/estadoPostulacion';
 import PublicNavbar from '../components/layout/PublicNavbar';
 import { becaService } from '../services/becaService';
 import type { BecaDetail } from '../types';
@@ -18,6 +20,8 @@ import {
 export default function BecaDetailPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+  const catalogo = params.get('catalogo') !== '0';
   const [beca, setBeca] = useState<BecaDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -27,13 +31,13 @@ export default function BecaDetailPage() {
     let active = true;
     const controller = new AbortController();
     const request = id && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)
-      ? becaService.findById(id, controller.signal)
+      ? (catalogo ? becaService.detalleCatalogo(id, controller.signal) : becaService.findById(id, controller.signal))
       : Promise.reject(new Error('Identificador inválido'));
     request.then(({ data }) => { if (active) { setBeca(data.data); setError(''); } })
       .catch(() => { if (active) { setBeca(null); setError('No pudimos abrir esta beca. El enlace puede no estar disponible o hubo un problema de conexión.'); } })
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; controller.abort(); };
-  }, [id, retry]);
+  }, [id, retry, catalogo]);
 
   const goBack = useCallback(() => {
     if (window.history.state?.idx > 0) {
@@ -66,11 +70,10 @@ export default function BecaDetailPage() {
         <div className="bg-white rounded-sm shadow-none border border-[#dbe3ed] p-6">
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
             <h1 className="font-sans font-semibold text-3xl sm:text-5xl leading-tight break-words text-[#0b3c75]">{beca.nombre}</h1>
-            <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isExpired || !beca.estadoActiva || !beca.fechaCierrePostulacion ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>
-              {!beca.estadoActiva ? 'Inactiva' : !beca.fechaCierrePostulacion ? 'Fecha por confirmar' : isExpired ? 'Vencida' : 'Vigente'}
-            </span>
+            <EstadoPostulacion beca={beca} />
           </div>
 
+          {estadoPostulacion(beca) !== 'ABIERTA' && <p role="note" className="mb-4 border-l-2 border-[#0b3c75] bg-[#eff6ff] p-3 text-sm text-[#0b3c75]">Esta ficha conserva la información documentada del programa. No acredita una postulación abierta hoy. Revisa el año, los requisitos y los plazos en la fuente oficial.</p>}
           {beca.descripcionCorta && (
             <p className="text-slate-600 mb-4">{beca.descripcionCorta}</p>
           )}

@@ -16,8 +16,8 @@ for (const width of [390, 1280]) {
     await select.focus();
     await select.press('End');
     await expect(select).toHaveValue('montoDesc');
-    await expect(page.getByRole('note')).toContainText('por moneda y periodicidad');
-    await expect(page.getByRole('note')).toContainText('sin importe confirmado aparecen al final');
+    await expect(page.locator('#coverage-order-note')).toContainText('por moneda y periodicidad');
+    await expect(page.locator('#coverage-order-note')).toContainText('sin importe confirmado aparecen al final');
     await expect(select).toHaveAttribute('aria-describedby', 'coverage-order-note');
     await expect.poll(() => bodies.at(-1)?.sort).toBe('montoDesc');
     await select.press('ArrowUp');
@@ -25,7 +25,7 @@ for (const width of [390, 1280]) {
     await expect.poll(() => bodies.at(-1)?.sort).toBe('montoAsc');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await select.selectOption('fechaAsc');
-    await expect(page.getByRole('note')).toHaveCount(0);
+    await expect(page.locator('#coverage-order-note')).toHaveCount(0);
   });
 }
 

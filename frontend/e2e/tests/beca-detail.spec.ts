@@ -11,7 +11,7 @@ const beca = { idBeca: "00000000-0000-4000-8000-000000000001", nombre: 'Beca de 
   ] };
 
 test('CP-61: detalle muestra documentos obligatorios y opcionales', async ({ page }) => {
-  await page.route('**/api/becas/00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: beca } }));
+  await page.route('**/api/becas/**00000000-0000-4000-8000-000000000001', route => route.fulfill({ json: { data: beca } }));
   await page.goto('/becas/00000000-0000-4000-8000-000000000001');
   await expect(page.getByRole('heading', { name: beca.nombre, exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Documentos Requeridos' })).toBeVisible();
@@ -22,12 +22,12 @@ test('CP-61: detalle muestra documentos obligatorios y opcionales', async ({ pag
 });
 
 test('CP-62: detalle identifica una beca vencida', async ({ page }) => {
-  await page.route('**/api/becas/00000000-0000-4000-8000-000000000006', route => route.fulfill({ json: { data: {
+  await page.route('**/api/becas/**00000000-0000-4000-8000-000000000006', route => route.fulfill({ json: { data: {
     ...beca, idBeca: "00000000-0000-4000-8000-000000000006", fechaCierrePostulacion: '2024-03-01',
   } } }));
   await page.goto('/becas/00000000-0000-4000-8000-000000000006');
   await expect(page.getByRole('heading', { name: beca.nombre, exact: true })).toBeVisible();
-  await expect(page.getByText('Vencida', { exact: true })).toBeVisible();
+  await expect(page.getByText('Convocatoria cerrada', { exact: true })).toBeVisible();
   await expect(page.getByText('Vigente', { exact: true })).toHaveCount(0);
   await expect(page.getByText('1 de marzo de 2024', { exact: true })).toBeVisible();
 });

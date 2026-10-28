@@ -28,6 +28,7 @@ export default function SearchPage() {
   const requestedSize = Number(searchParams.get('size') || 12);
   const pageSize = [12, 50, 100].includes(requestedSize) ? requestedSize : 12;
   const tab = isAuthenticated && searchParams.get('mode') === 'recomendar' ? 'recomendar' : 'buscar';
+  const catalogo = searchParams.get('vista') !== 'abiertas';
   const [becas, setBecas] = useState<BecaSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [totalElements, setTotalElements] = useState(0);
@@ -59,7 +60,7 @@ export default function SearchPage() {
         }
         const response = isAuthenticated && params.get('mode') === 'recomendar'
           ? await becaService.recomendar(p, size, controller.signal)
-          : await becaService.search({ rsh: number('rsh'), nem: number('nem'), regionId: number('region'),
+          : await (params.get('vista') !== 'abiertas' ? becaService.searchCatalogo : becaService.search)({ rsh: number('rsh'), nem: number('nem'), regionId: number('region'),
             query: params.get('q') || undefined, idTipoBeca: number('tipo'), idInstitucion: number('inst'),
             idTipoInstitucion: number('cat'), sort: params.get('sort') || 'fechaAsc', page: p, size }, controller.signal);
         if (!active) return;
@@ -165,7 +166,7 @@ export default function SearchPage() {
                   <li>• RSH: ingresas tu %, ves becas que acepten ≥ ese valor</li>
                   <li>• NEM: ingresas tu promedio, ves becas con mínimo ≤ tu nota</li>
                   <li>• Región: filtra becas locales o de alcance nacional</li>
-                  <li>• Becas vencidas se excluyen automáticamente</li>
+                  <li>• {catalogo ? 'El catálogo incluye fichas con fechas por confirmar y convocatorias cerradas' : 'Solo se muestran postulaciones abiertas'}</li>
                 </ul>
               </div>
             </>
@@ -208,6 +209,14 @@ export default function SearchPage() {
               Recomendadas
             </button>
           </div>
+
+          {tab === 'buscar' && <div className="mb-6">
+            <div role="group" aria-label="Vista del buscador" className="flex flex-wrap gap-2">
+              <button aria-pressed={!catalogo} onClick={() => updateParam('vista', 'abiertas', true)} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${!catalogo ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Postulaciones abiertas</button>
+              <button aria-pressed={catalogo} onClick={() => updateParam('vista', '', true)} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${catalogo ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Catálogo completo</button>
+            </div>
+            {catalogo && <p role="note" className="mt-3 text-sm text-slate-600">Consulta todas las fichas confirmadas y su fuente oficial. «Fechas por confirmar» no significa que la beca haya sido descartada. Solo «Postulación abierta» acredita un plazo vigente.</p>}
+          </div>}
 
           <div className="mb-4 flex items-center gap-2">
             <Search className="w-5 h-5 text-[#0b3c75]" />

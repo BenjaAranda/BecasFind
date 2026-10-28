@@ -2,6 +2,13 @@ import api from './api';
 import type { ApiResponse, BecaSummary, BecaDetail, BecaSearchRequest, PageResponse, Region } from '../types';
 
 export const becaService = {
+  searchCatalogo(filters: BecaSearchRequest, signal?: AbortSignal) {
+    return api.post<ApiResponse<PageResponse<BecaSummary>>>('/becas/catalogo/buscar', filters, { signal });
+  },
+
+  detalleCatalogo(id: string, signal?: AbortSignal) {
+    return api.get<ApiResponse<BecaDetail>>(`/becas/catalogo/${id}`, { signal });
+  },
   search(filters: BecaSearchRequest, signal?: AbortSignal) {
     return api.post<ApiResponse<PageResponse<BecaSummary>>>('/becas/buscar', filters, { signal });
   },

@@ -10,7 +10,7 @@ Dos bloques de datos aplicados con restauración verificada: Deportiva UNAB (314
 
 Primera pasada sobre las 466 fichas y seguimiento visual de Concón: 267 con conclusión limitada al alcance documentado y 199 inconclusas. Cero sin recorrer no significa auditoría terminada: los escaneos no leídos, barreras y contradicciones permanecen pendientes por UUID. No equivale a 267 becas abiertas. Juan Gómez Millas y Bicentenario tienen calendario FUAS 2027 acreditado, pero su aplicación sigue pendiente de conciliación de condiciones. La ficha 490 dice San Pedro de la Paz y enlaza San Pedro de Melipilla: no trasladar su calendario ni corregir institución sin conciliar candidata original.
 
-El catálogo público con estados claros fue aprobado en este chat. Sus cambios de interfaz/API están en preparación local, separados de los commits de auditoría; no están desplegados. Prioridad actual: investigación documental y aplicación de correcciones individualmente probadas. No confundir el código local con el estado remoto.
+El catálogo público con estados claros fue aprobado y el 28/10 se pidió continuar su implementación. La vista inicial local incluye las 528 fichas confirmadas y 199 etiquetas de información en revisión; la búsqueda de abiertas y las recomendaciones conservan BR-VIGENCIA. No hay activación masiva ni fechas inventadas. Contrato y límites en `documentacion/CATALOGO_PUBLICO.md`. La implementación local no acredita despliegue remoto; conservar separada la investigación documental pendiente.
 
 ## Estado actual
 

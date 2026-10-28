@@ -57,6 +57,20 @@ public class BecaController {
         return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Becas recuperadas exitosamente"));
     }
 
+    @PostMapping("/catalogo/buscar")
+    public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> buscarCatalogo(@Valid @RequestBody BecaSearchRequest request) {
+        var becas = becaService.buscarCatalogo(request.getRsh(), request.getNem(),
+                request.getRegionId() == null ? null : request.getRegionId().longValue(), request.getQuery(),
+                request.getIdTipoBeca(), request.getIdInstitucion(), request.getIdTipoInstitucion(), request.getSort(),
+                PageRequest.of(request.getPage() == null ? 0 : request.getPage(), request.getSize() == null ? 12 : request.getSize()));
+        return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Catálogo público de becas"));
+    }
+
+    @GetMapping("/catalogo/{id}")
+    public ResponseEntity<ApiResponse<PublicBecaDetailDTO>> detalleCatalogo(@PathVariable java.util.UUID id) {
+        return ResponseEntity.ok(ApiResponse.success(PublicBecaDetailDTO.from(becaService.findCatalogoByPublicId(id)), "Ficha del catálogo"));
+    }
+
     @GetMapping("/recomendadas")
     @PreAuthorize("isAuthenticated()")
     public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> recomendar(

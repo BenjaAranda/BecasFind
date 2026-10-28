@@ -7,7 +7,7 @@ for(const width of [360,1280]) test(`visita sin sesión a ${width}px busca y abr
  await page.route('**/api/**',route=>{
   const path=new URL(route.request().url()).pathname;
   if(/favoritos|perfil|recomendadas|administracion/.test(path)){privateCalls.push(path);return route.fulfill({status:401,json:{data:null}});}
-  const data=path.endsWith('/buscar')?{content:[scholarship],totalElements:1,totalPages:1,number:0}:path.endsWith('/becas/'+id)?{...scholarship,descripcionLarga:'Información de prueba.',institucion:{nombre:scholarship.nombreInstitucion},tipoBeca:{nombre:'Arancel'},regiones:[],documentosRequeridos:[],requisitoPerfil:null,urlOficial:'https://example.com/becas'}:[];
+  const data=path.endsWith('/buscar')?{content:[scholarship],totalElements:1,totalPages:1,number:0}:path.endsWith('/'+id)?{...scholarship,descripcionLarga:'Información de prueba.',institucion:{nombre:scholarship.nombreInstitucion},tipoBeca:{nombre:'Arancel'},regiones:[],documentosRequeridos:[],requisitoPerfil:null,urlOficial:'https://example.com/becas'}:[];
   return route.fulfill({json:{status:200,data}});
  });
  await page.goto('/');

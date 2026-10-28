@@ -97,7 +97,7 @@ test('favoritos conserva becas inactivas e informa su estado', async ({ page }) 
   await prepare(page);
   await page.route('**/api/favoritos', route => route.fulfill({ json: { data: [{ ...beca, estadoActiva: false }] } }));
   await page.goto('/favoritos');
-  await expect(page.getByText('Beca inactiva', { exact: true })).toBeVisible();
+  await expect(page.getByText('Fechas por confirmar', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Quitar de favoritos' })).toBeEnabled();
 });
 

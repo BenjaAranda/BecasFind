@@ -27,6 +27,7 @@ import com.becasfind.api.repositories.TipoBecaRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.BecaService;
 import com.becasfind.api.services.BecaSpecifications;
+import com.becasfind.api.services.CatalogoPublico;
 import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -58,6 +59,7 @@ public class BecaServiceImpl implements BecaService {
     private final DocumentoRequeridoRepository documentoRequeridoRepository;
     private final PerfilEstudianteRepository perfilEstudianteRepository;
     private final jakarta.validation.Validator validator;
+    private final CatalogoPublico catalogoPublico;
 
     public BecaServiceImpl(BecaRepository becaRepository,
                            InstitucionRepository institucionRepository,
@@ -66,7 +68,7 @@ public class BecaServiceImpl implements BecaService {
                            UsuarioRepository usuarioRepository,
                            DocumentoRequeridoRepository documentoRequeridoRepository,
                            PerfilEstudianteRepository perfilEstudianteRepository,
-                           jakarta.validation.Validator validator) {
+                           jakarta.validation.Validator validator, CatalogoPublico catalogoPublico) {
         this.becaRepository = becaRepository;
         this.institucionRepository = institucionRepository;
         this.tipoBecaRepository = tipoBecaRepository;
@@ -75,6 +77,7 @@ public class BecaServiceImpl implements BecaService {
         this.documentoRequeridoRepository = documentoRequeridoRepository;
         this.perfilEstudianteRepository = perfilEstudianteRepository;
         this.validator = validator;
+        this.catalogoPublico = catalogoPublico;
     }
 
     @Override
@@ -82,9 +85,26 @@ public class BecaServiceImpl implements BecaService {
     public Page<BecaDTO> buscarBecas(Integer rsh, Double nem, Long regionId,
                                      String query, Long idTipoBeca, Long idInstitucion,
                                      Long idTipoInstitucion, String sort, Pageable pageable) {
+        return buscar(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort, pageable,
+                BecaSpecifications.isVigente());
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Page<BecaDTO> buscarCatalogo(Integer rsh, Double nem, Long regionId,
+                                     String query, Long idTipoBeca, Long idInstitucion,
+                                     Long idTipoInstitucion, String sort, Pageable pageable) {
+        Specification<Beca> approved = (root, criteria, cb) -> root.get("publicId").in(catalogoPublico.getPublicIds());
+        return buscar(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort, pageable,
+                approved.or(BecaSpecifications.isVigente()));
+    }
+
+    private Page<BecaDTO> buscar(Integer rsh, Double nem, Long regionId,
+                                     String query, Long idTipoBeca, Long idInstitucion,
+                                     Long idTipoInstitucion, String sort, Pageable pageable, Specification<Beca> visibility) {
         validateSearch(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, pageable);
         Specification<Beca> spec = Specification
-                .where(BecaSpecifications.isVigente())
+                .where(visibility)
                 .and(BecaSpecifications.hasRshMax(rsh))
                 .and(BecaSpecifications.hasNemMin(nem))
                 .and(BecaSpecifications.hasRegionOrNational(regionId))
@@ -170,6 +190,18 @@ public class BecaServiceImpl implements BecaService {
         Beca beca = becaRepository.findByPublicId(id)
                 .filter(item -> Boolean.TRUE.equals(item.getEstadoActiva())
                         && item.getFechaCierrePostulacion() != null)
+                .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada"));
+        return toBecaDetailDTO(beca);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public BecaDetailDTO findCatalogoByPublicId(java.util.UUID id) {
+        Beca beca = becaRepository.findByPublicId(id)
+                .filter(item -> catalogoPublico.getPublicIds().contains(id)
+                        || com.becasfind.api.models.dtos.EstadoPostulacion.calcular(item.getEstadoActiva(),
+                        item.getFechaInicioPostulacion(), item.getFechaCierrePostulacion())
+                        == com.becasfind.api.models.dtos.EstadoPostulacion.ABIERTA)
                 .orElseThrow(() -> new EntityNotFoundException("Beca no encontrada"));
         return toBecaDetailDTO(beca);
     }
@@ -352,9 +384,11 @@ public class BecaServiceImpl implements BecaService {
                 .publicId(beca.getPublicId())
                 .nombre(beca.getNombre())
                 .estadoActiva(beca.getEstadoActiva())
+                .estadoPostulacion(catalogoPublico.estado(beca))
                 .descripcionCorta(beca.getDescripcionCorta())
                 .montoCobertura(beca.getMontoCobertura())
                 .cobertura(toCoverage(beca))
+                .fechaInicioPostulacion(beca.getFechaInicioPostulacion())
                 .fechaCierrePostulacion(beca.getFechaCierrePostulacion())
                 .urlOficial(beca.getUrlOficial())
                 .nombreInstitucion(beca.getInstitucion() != null ? beca.getInstitucion().getNombre() : null)
@@ -440,6 +474,7 @@ public class BecaServiceImpl implements BecaService {
                 .fechaCierrePostulacion(beca.getFechaCierrePostulacion())
                 .urlOficial(beca.getUrlOficial())
                 .estadoActiva(beca.getEstadoActiva())
+                .estadoPostulacion(catalogoPublico.estado(beca))
                 .institucion(institucionDTO)
                 .tipoBeca(tipoBecaDTO)
                 .regiones(regionesDTO)

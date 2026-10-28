@@ -14,7 +14,7 @@ for (const width of [360,390,768,1440,720]) {
       const path = new URL(route.request().url()).pathname;
       let data: unknown = [];
       if (path.endsWith('/buscar') || path.endsWith('/administracion')) data={content:[path.endsWith('/administracion') ? {...summary,idBeca:1,publicId:id,version:0}:summary],totalElements:1,totalPages:1,number:0};
-      else if (path.endsWith('/becas/'+id)) data={...summary,institucion:{nombre:summary.nombreInstitucion},tipoBeca:{nombre:'Arancel'},regiones:[],documentosRequeridos:[],requisitoPerfil:null,urlOficial:'https://example.com/becas'};
+      else if (path.endsWith('/'+id)) data={...summary,institucion:{nombre:summary.nombreInstitucion},tipoBeca:{nombre:'Arancel'},regiones:[],documentosRequeridos:[],requisitoPerfil:null,urlOficial:'https://example.com/becas'};
       else if (path.endsWith('/favoritos')) data=[summary];
       else if (path.endsWith('/perfil')) data=null;
       else if (path.endsWith('/regiones')) data=[{idRegion:1,nombre:'Ñuble',abreviatura:'NB'}];

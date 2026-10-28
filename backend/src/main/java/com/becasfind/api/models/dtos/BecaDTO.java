@@ -31,6 +31,8 @@ public class BecaDTO {
 
     private LocalDate fechaCierrePostulacion;
 
+    private LocalDate fechaInicioPostulacion;
+
     private String urlOficial;
 
     private String nombreInstitucion;
@@ -40,4 +42,6 @@ public class BecaDTO {
     private String nombreRegion;
 
     private Boolean estadoActiva;
+
+    private EstadoPostulacion estadoPostulacion;
 }
