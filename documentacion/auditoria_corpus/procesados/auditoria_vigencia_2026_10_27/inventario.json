@@ -376,7 +376,7 @@
     "nombre": "Beca CAE Complemento UDLA",
     "institucion": "Universidad de Las Américas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Copago CAE UDLA; ficha de financiamiento consultada.",
+    "modalidad_anio": "UDLA; Copago CAE; carreras y jornadas habilitadas",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -393,20 +393,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.udla.cl/programa-executive/becas-carreras-executive",
+      "https://admision.udla.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Copago CAE; carreras y jornadas habilitadas",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La oferta diferencia coberturas por carrera, modalidades y asignación por orden de matrícula.",
+    "limitaciones": "No publica cierre único; no se fusiona este UUID con el otro de Copago por compartir programa.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Precisar carrera/jornada y recepción de matrícula antes de asignar plazo."
   },
   {
     "candidato": "0569f0a59ceef770ba23e06a5b68cf773a5d8fe79cac25857fbb90d612785415",
@@ -1089,7 +1092,7 @@
     "nombre": "Beca de Honor Distincion Trayectorias Educativas",
     "institucion": "Universidad de Valparaíso",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca de Honor Distincion Trayectorias Educativas; no certifica convocatoria abierta",
+    "modalidad_anio": "UV; Honor DTE",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
@@ -1106,20 +1109,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UV; Honor DTE",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El beneficio se asigna por distinción o posición de selección y matrícula de primer ingreso.",
+    "limitaciones": "El cierre FUAS del encabezado corresponde a ayudas estatales y no al premio interno.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Revisar calendario de matrícula y resolución de asignación de la cohorte."
   },
   {
     "candidato": "13043d3d19445f14c45ecd7e23cadbfc64535a3f780d2ccb9abd004a76b54e4a",
@@ -1393,7 +1398,7 @@
     "nombre": "Beca de Honor Primer Lugar de Matrícula",
     "institucion": "Universidad de Valparaíso",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca de Honor Primer Lugar de Matrícula; no certifica convocatoria abierta",
+    "modalidad_anio": "UV; Honor Primer Lugar de Matrícula",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_30.md",
@@ -1410,20 +1415,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UV; Honor Primer Lugar de Matrícula",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El beneficio se asigna por distinción o posición de selección y matrícula de primer ingreso.",
+    "limitaciones": "El cierre FUAS del encabezado corresponde a ayudas estatales y no al premio interno.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Revisar calendario de matrícula y resolución de asignación de la cohorte."
   },
   {
     "candidato": "15bd3a7d2897fed8d6dfcc78af3f961504aeadb5733b27e2b2d61afd82eb0e6b",
@@ -1919,7 +1926,7 @@
     "nombre": "Beca Total UAI",
     "institucion": "Universidad Adolfo Ibáñez",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca Total UAI; no certifica convocatoria abierta",
+    "modalidad_anio": "UAI; Total; cohorte 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
@@ -1936,20 +1943,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UAI; Total; cohorte 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal dice expresamente que sus reglas corresponden a ingreso 2026 y que las condiciones 2027 se publicarán próximamente.",
+    "limitaciones": "No certifica una nueva convocatoria por las ponderaciones 2027 de la navegación; conserva modalidad y UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar reglamento 2027 del mismo beneficio y su proceso de asignación."
   },
   {
     "candidato": "1c47d8aba6a0d077201251fe750018ee5237e9ba394c6674085171b14e630c95",
@@ -2663,7 +2673,7 @@
     "nombre": "Beca Deportiva UBB",
     "institucion": "Universidad del Bío-Bío",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Mineduc, admisión 2026, página 313: Beca Estudiantes Deportistas UBB.",
+    "modalidad_anio": "UBB; Estudiantes Deportistas; becas internas 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -2673,20 +2683,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UBB; Estudiantes Deportistas; becas internas 2026",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario y buscar nueva convocatoria específica."
   },
   {
     "candidato": "2cc109644b2dd0812c372d3c47e03563ea59689b2f9b3c1769d39b39f0f600ea",
@@ -2987,7 +3000,7 @@
     "nombre": "Beca Mantención Regiones UAI",
     "institucion": "Universidad Adolfo Ibáñez",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Mantención Regiones UAI, nombre y campos corregidos; reglas esenciales publicadas para Admisión 2026, sin certificar convocatoria vigente",
+    "modalidad_anio": "UAI; Mantención Regiones; cohorte 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_UAI_MANTENCION_REGIONES_2026_10_12.md",
@@ -3004,20 +3017,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UAI; Mantención Regiones; cohorte 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal dice expresamente que sus reglas corresponden a ingreso 2026 y que las condiciones 2027 se publicarán próximamente.",
+    "limitaciones": "No certifica una nueva convocatoria por las ponderaciones 2027 de la navegación; conserva modalidad y UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar reglamento 2027 del mismo beneficio y su proceso de asignación."
   },
   {
     "candidato": "305155ba36aa3c6648b576c3988442b004222a2c5a3d0e3d080eb6d9a3a9da8c",
@@ -3026,7 +3042,7 @@
     "nombre": "Beca Excelencia Académica UBB",
     "institucion": "Universidad del Bio-Bio",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Catálogo oficial Mineduc de servicios universitarios, admisión 2026, página 312: Excelencia Académica UBB.",
+    "modalidad_anio": "UBB; Excelencia Académica de ingreso 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -3036,20 +3052,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://ubiobio.cl/admision/Instrucciones_para_el_proceso_de_Matricula_ano_academico_2026/admision/Consultanos/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UBB; Excelencia Académica de ingreso 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Las instrucciones de matrícula 2026 identifican excelencia para ingresantes y condiciones propias.",
+    "limitaciones": "La beca Mérito Académico para antiguos tiene otro alcance; no usar su ventana de marzo ni fusionar UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar resolución de excelencia y matrícula de nueva cohorte."
   },
   {
     "candidato": "311a8c367f5c18c5c95a1baf69b7de14fc3f18e50265aaee27bfdcf69725b533",
@@ -4597,7 +4616,7 @@
     "nombre": "Beca Puntaje Académico UAI",
     "institucion": "Universidad Adolfo Ibanez",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UAI: corrección del rótulo Puntaje Académico a Beca Puntaje Ponderado Pedro Luis González; reglamento de cohorte 2026, artículos 8–11.",
+    "modalidad_anio": "UAI; Puntaje Ponderado Pedro Luis González; cohorte 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -4615,20 +4634,25 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado",
+      "https://www.uai.cl/la-universidad/transparencia",
+      "https://uai.cdn7pm.net/documentos/reglamento-becas-excelencia-academica-pregrado-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UAI; Puntaje Ponderado Pedro Luis González; cohorte 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal dice expresamente que sus reglas corresponden a ingreso 2026 y que las condiciones 2027 se publicarán próximamente.",
+    "limitaciones": "No certifica una nueva convocatoria por las ponderaciones 2027 de la navegación; conserva modalidad y UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar reglamento 2027 del mismo beneficio y su proceso de asignación."
   },
   {
     "candidato": "3f37ad439dfcc5e03f7525917c6b7b82bbb00c9615ce7f31ea22ac0d80d691b2",
@@ -4673,7 +4697,7 @@
     "nombre": "Beca de Residencia UFRO",
     "institucion": "Universidad de La Frontera",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UFRO: alojamiento en Residencias Estudiantiles Autogestionadas (REAS), alcance descrito en diagnóstico institucional 2023 y noticias 2024–2025.",
+    "modalidad_anio": "UFRO; Residencias Estudiantiles Autogestionadas",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -4692,20 +4716,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+      "https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/",
+      "https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UFRO; Residencias Estudiantiles Autogestionadas",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El diagnóstico y las noticias oficiales identifican alojamiento y renovación; no publican un cierre utilizable de nueva recepción.",
+    "limitaciones": "No aplicar plazos JUNAEB de Residencia Indígena a REAS; las obras de mejora no son convocatoria.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar llamado de ingreso REAS y calendario por residencia."
   },
   {
     "candidato": "3ff215f978cb8864a1d994beed74dc4bfa0f8368639de6405c98cf8bd9e38e63",
@@ -4836,7 +4864,7 @@
     "nombre": "Beca de Mantención Educación Superior",
     "institucion": "JUNAEB",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales publicadas de Beca de Mantención Educación Superior; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "modalidad_anio": "JUNAEB; BMES; renovación 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
@@ -4853,20 +4881,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes",
+      "https://www.ventanillaunicasocial.gob.cl/ficha/111/beca-mantencion-educacion-superior"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "JUNAEB; BMES; renovación 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Ayuda MINEDUC aclara que no requiere trámite de renovación y depende de última resolución previa, matrícula y beneficio de arancel.",
+    "limitaciones": "No es una convocatoria nueva; no recibe cierre ficticio. Se conserva este UUID sin fusionar el par.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Comprobar reglas de continuidad y proponer visualización de asignación sin postulación."
   },
   {
     "candidato": "4230e052a0e3f7b0661575dc0d2a0dfad060e5f590532171cfb51267d35d9704",
@@ -4995,7 +5026,7 @@
     "nombre": "Residencia Familiar Estudiantil (JUNAEB) — Arica",
     "institucion": "JUNAEB / Municipalidad de Arica",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad corregida con fuente oficial específica; beneficio y requisitos esenciales contrastados. No acredita convocatoria abierta ni vigencia publicable.",
+    "modalidad_anio": "PRFE JUNAEB–Arica; superior y otros niveles 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_ARICA_RESIDENCIA_JUNAEB_2026_10_13.md",
@@ -5012,20 +5043,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.ventanillaunicasocial.gob.cl/ficha/125/programa-residencia-familiar-estudiantil-educacion-superior",
+      "https://www.muniarica.cl/noticias/publicacion/municipalidad-lanza-programa-de-residencia-familiar-estudiantil-que-beneficiara-a-jovenes-vulnerables-de-zonas-alejadas-con-apoyo-integral"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "PRFE JUNAEB–Arica; superior y otros niveles 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La noticia municipal acredita cobertura y cupos. Ventanilla fija 1 diciembre 2025–4 febrero 2026, pero su ficha superior copia requisitos de educación media.",
+    "limitaciones": "El llamado local a familias tutoras no prueba nueva recepción de estudiantes; la contradicción de nivel impide certificar todo el trámite.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar bases JUNAEB de renovantes superiores y recepción local, manteniendo separado ingreso de familias tutoras."
   },
   {
     "candidato": "44d43d4b95af6bd191b116173c0c428bf40965cc20d10ba9f5aaa652a8aa0ef2",
@@ -5195,7 +5229,7 @@
     "nombre": "Beca de Mérito Académico",
     "institucion": "INACAP",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca al Mérito INACAP, modalidad escolar descrita oficialmente en 2020.",
+    "modalidad_anio": "INACAP; Beca al Mérito escolar 2020",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -5212,20 +5246,23 @@
         "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://portal.inacap.cl/w/inacap-osorno-reconoci%C3%B3-a-titulados-destacados-por-su-excelencia-acad%C3%A9mica-en-ceremonia-de-m%C3%A9rito-acad%C3%A9mico-2025",
+      "https://portales.inacap.cl/noticias/noticias-inacap/2020/nunoa-20/becas-al-merito-inacap-2020-beneficia-a-alumno-del-liceo-industrial-chileno-aleman-de-nunoa-?page=390"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "INACAP; Beca al Mérito escolar 2020",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El enlace original redirige a mantenimiento. La noticia actual de diplomados a titulados de Osorno es otra modalidad.",
+    "limitaciones": "No se sustituye mérito escolar por especialización de titulados ni se declara cerrada por el error web.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar llamado escolar equivalente y bases actuales."
   },
   {
     "candidato": "484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b",
@@ -5273,7 +5310,7 @@
     "nombre": "Beca Familiar UDLA",
     "institucion": "Universidad de Las Americas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ficha oficial SIAE UDLA consultada el 6 de octubre de 2026.",
+    "modalidad_anio": "UDLA; Beca Familiar; renovación y AUC",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -5290,20 +5327,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://siae.udla.cl/becas-udla/becas-familiares/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Beca Familiar; renovación y AUC",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "SIAE distingue familiar y familia/trabajo solo renovables del apoyo matrimonial/AUC.",
+    "limitaciones": "No acredita nueva postulación de la modalidad familiar histórica; no trasladar 50% de AUC a todas las familias.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Precisar modalidad del UUID y calendario de renovación."
   },
   {
     "candidato": "4a5de12a7ae56ae7b9bf5d12e00979bbec8894b72835c38cafbb24d508a8b8d6",
@@ -5431,7 +5470,7 @@
     "nombre": "Beca Excelencia Académica UDD",
     "institucion": "Universidad del Desarrollo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UDD: el rótulo genérico de excelencia se corrige y limita a Beca NEM de ingreso 2026, sin mezclarla con Puntaje Ponderado.",
+    "modalidad_anio": "UDD; NEM; admisión directa 2027",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -5441,20 +5480,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.udd.cl/admision-pregrado/becas/?udd_beca=172769",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDD; NEM; admisión directa 2027",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha NEM 2027 exige ingreso por vía NEM; sus condiciones generales también exigen Sistema de Acceso.",
+    "limitaciones": "La contradicción entre vía directa y requisito centralizado no se resuelve automáticamente.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar condiciones específicas de NEM y calendario por carrera."
   },
   {
     "candidato": "4f1b6f61f222298377b0967da919d5b0cb2673399e81d93e832d1275d8cd64e8",
@@ -5463,7 +5505,7 @@
     "nombre": "Beca Municipal de Educación Superior San Bernardo",
     "institucion": "Municipalidad de San Bernardo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglamento de Becas Municipales San Bernardo 2026; categoría superior.",
+    "modalidad_anio": "San Bernardo; beca municipal académica 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -5480,20 +5522,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
-    "hora_cierre": null,
-    "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://www.sanbernardo.cl/becas-2026/",
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "San Bernardo; beca municipal académica 2026",
+    "apertura": "2026-06-01",
+    "cierre": "2026-06-15",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago",
+    "razonamiento": "El aviso oficial fija solicitudes del 1 al 15 junio 2026; cierre a las 17:00.",
+    "limitaciones": "Los actos de entrega de septiembre no amplían recepción. Se mantienen ambos UUID sin resolver duplicidad por nombre.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario académico y comparar variantes preservando originales."
   },
   {
     "candidato": "500cab60de1499617e480ca56535336479dd7531fd8ca0b036614f8596d14bb8",
@@ -5703,7 +5748,7 @@
     "nombre": "Beca Fomento Regional",
     "institucion": "Universidad del Alba",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Fomento Regional de Universidad del Alba; reglamento institucional 2026, corroborado con reglamento institucional histórico de Universidad Pedro de Valdivia/Universidad del Alba. La atribución original a UDLA no queda respaldada por la fuente que traía la ficha y se corrige conforme a la coincidencia específica del nombre, porcentaje y requisito regional. Confirma existencia y condiciones esenciales documentadas; no una convocatoria vigente.",
+    "modalidad_anio": "Universidad del Alba; Fomento Regional; título V del reglamento 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_FOMENTO_REGIONAL_UDALBA_2026.md",
@@ -5722,20 +5767,24 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf",
+      "https://www.udalba.cl/wp-content/uploads/2021/10/Decreto_Universitario_2021.pdf",
+      "https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Universidad del Alba; Fomento Regional; título V del reglamento 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El reglamento identifica estudiantes nuevos de regiones sin sede y asignación por Admisión.",
+    "limitaciones": "Permanente en las políticas no acredita recepción sin plazo; no confundir con UDLA.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar aviso de acreditación de procedencia y recepción anual del mismo programa."
   },
   {
     "candidato": "526967115bd25380d1d433196774528634fb8a10a49980e44324ed0f6dee86f0",
@@ -6182,7 +6231,7 @@
     "nombre": "Beca de Honor UTA",
     "institucion": "Universidad de Tarapacá",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Honor de alumnos destacados UTA; sin certificar convocatoria abierta",
+    "modalidad_anio": "UTA; Honor de Alumnos Destacados",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
@@ -6199,20 +6248,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.uta.cl/transparencia/pdf/mn/1/772.pdf",
+      "https://webdae.uta.cl/index.php/reglamentos-dae/",
+      "https://webdae.uta.cl/index.php/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UTA; Honor de Alumnos Destacados",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El reglamento distingue el premio de honor y la oferta de apoyos internos, sin calendario actual acreditado para honor.",
+    "limitaciones": "Los plazos semestrales de alimentación no se transfieren al premio por rendimiento.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer resolución anual de asignación de Honor y su procedimiento."
   },
   {
     "candidato": "57ee232f68ffe9a3208aa7e92876271d5c5e7bd731714bc4d41ed75cf7fc2eb2",
@@ -6768,7 +6821,7 @@
     "nombre": "Beca Puntaje PAES UDD",
     "institucion": "Universidad del Desarrollo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UDD: Beca Puntaje Ponderado, catálogo de admisión 2026, páginas 323 y 325–326.",
+    "modalidad_anio": "UDD; Puntaje Ponderado; sede/carrera y establecimiento 2027",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -6778,20 +6831,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.udd.cl/admision-pregrado/becas/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDD; Puntaje Ponderado; sede/carrera y establecimiento 2027",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La oferta 2027 distingue tablas por campus, carrera y establecimiento, vinculadas a selección regular y matrícula.",
+    "limitaciones": "No contiene cierre autónomo común de todas las tablas; no usar calendario de otro programa de liderazgo.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Precisar modalidad de la ficha y tabla de asignación en matrícula."
   },
   {
     "candidato": "62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a",
@@ -7043,7 +7099,7 @@
     "nombre": "Beca Deportista Destacado UCSC",
     "institucion": "Universidad Católica de la Santísima Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Deportiva UCSC; apartado oficial específico sin cohorte anual confirmada.",
+    "modalidad_anio": "UCSC; Deportiva",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -7060,20 +7116,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://ucsc.cl/admision/pregrado/becas-y-financiamiento/becas-y-beneficios/?id=beca-deportiva"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UCSC; Deportiva",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página específica mantiene el beneficio deportivo separado de los ministeriales.",
+    "limitaciones": "No se acreditó cierre deportivo. La actualización de mantención excluye beneficios no enumerados.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar convocatoria deportiva específica y no usar cierre de alimentación."
   },
   {
     "candidato": "66485691272bfd880740e0a666b838cdfdf752d658b91ba2eb0e12fb3dc63001",
@@ -7608,7 +7666,7 @@
     "nombre": "Beca Excelencia Académica UFRO",
     "institucion": "Universidad de La Frontera",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca Excelencia Académica UFRO; no certifica convocatoria abierta",
+    "modalidad_anio": "UFRO; Excelencia Académica; cursos superiores",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
@@ -7625,20 +7683,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://dde.ufro.cl/beneficios-estudiantiles/beneficios-ufro/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UFRO; Excelencia Académica; cursos superiores",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha reconoce mejor estudiante por carrera y promedio general acumulado, sin ventana publicada.",
+    "limitaciones": "Premio anual no implica recepción permanente ni convocatoria de primer ingreso.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar resolución anual y proceso de asignación del premio."
   },
   {
     "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
@@ -8516,7 +8576,7 @@
     "nombre": "Beca de Excelencia Académica UBB",
     "institucion": "Universidad del Bío-Bío",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Catálogo oficial Mineduc de servicios universitarios, admisión 2026, página 312: Excelencia Académica UBB.",
+    "modalidad_anio": "UBB; Excelencia Académica de ingreso 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8526,20 +8586,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://ubiobio.cl/admision/Instrucciones_para_el_proceso_de_Matricula_ano_academico_2026/admision/Consultanos/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UBB; Excelencia Académica de ingreso 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Las instrucciones de matrícula 2026 identifican excelencia para ingresantes y condiciones propias.",
+    "limitaciones": "La beca Mérito Académico para antiguos tiene otro alcance; no usar su ventana de marzo ni fusionar UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar resolución de excelencia y matrícula de nueva cohorte."
   },
   {
     "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",
@@ -8875,7 +8938,7 @@
     "nombre": "Beca de Apoyo Estudiantil UTA",
     "institucion": "Universidad de Tarapacá",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Estudiantil UTA: identidad y reglas esenciales corregidas con el catálogo oficial vinculado desde el registro; no certifica una convocatoria 2026 abierta.",
+    "modalidad_anio": "UTA; Beca Estudiantil; Casa Central",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONTRASTE_BECAS_UTA_APOYO_ESTUDIANTIL_2026_10_13.md",
@@ -8892,20 +8955,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uta.cl/transparencia/beneficios/",
+      "https://webdae.uta.cl/index.php/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UTA; Beca Estudiantil; Casa Central",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Se consultó la oferta DAE y la transparencia 2026; la página directa de transparencia no entrega texto al abrirse.",
+    "limitaciones": "Los pasajes recuperados no permiten vincular un plazo concreto de otra fila con Beca Estudiantil.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar tabla completa o decreto y enlazar fila/programa antes de aplicar fechas."
   },
   {
     "candidato": "7ca08d1ca442a3a99c402e817bcce7c62de546f0893d07bbdb3d3a6f27768bc9",
@@ -8914,7 +8980,7 @@
     "nombre": "Beca de Residencia UdeC",
     "institucion": "Universidad de Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UdeC: el alojamiento genérico se restringe a Beca de Residencia Doctor Virginio Gómez para ingreso 2026.",
+    "modalidad_anio": "UdeC; Residencia Doctor Virginio Gómez; ingreso 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -8931,20 +8997,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://admision.udec.cl/beneficios/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UdeC; Residencia Doctor Virginio Gómez; ingreso 2026",
+    "apertura": "2026-01-20",
+    "cierre": "2026-01-29",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha específica liga solicitud de residencia a matrícula 20–29 enero 2026.",
+    "limitaciones": "No transferir fechas de deporte; no acredita edición de ingreso 2027.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar cierre 2026 y buscar nueva cohorte."
   },
   {
     "candidato": "7d7a697df80c332c341316e28812b94143342a4833e2eae45dd4823a36bb83e0",
@@ -9911,7 +9979,7 @@
     "nombre": "Beca Presidente de la Republica",
     "institucion": "JUNAEB",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Presidente de la República; ficha oficial de ChileAtiende consultada el 6 de octubre de 2026.",
+    "modalidad_anio": "JUNAEB; Presidente de la República; solo renovación superior 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -9928,20 +9996,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/2086"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "JUNAEB; Presidente de la República; solo renovación superior 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "ChileAtiende distingue primera postulación de enseñanza media y renovación en superior.",
+    "limitaciones": "Fechas de corte RSH y resultados no son cierre de solicitudes; no se considera postulación nueva universitaria.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar calendario de renovación superior del próximo proceso."
   },
   {
     "candidato": "88dfd2bc8b76b883df2318f9845420ccd18dedaeedb0092f95157a6c5b70dcea",
@@ -10220,7 +10290,7 @@
     "nombre": "Beca de Excelencia Deportiva UV",
     "institucion": "Universidad de Valparaíso",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UV, decreto exento 4218 de 2016, modificación de la Beca de Excelencia Deportiva.",
+    "modalidad_anio": "UV; Excelencia Deportiva; modificación de reglamento 2016",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10237,20 +10307,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://contraloriainterna.uv.cl/attachments/CONTENIDO/CONTROL%20DE%20JURIDICIDAD/NORMATIVA%20UNIVERSITARIA/DEXE_N_4218_2016.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UV; Excelencia Deportiva; modificación de reglamento 2016",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El decreto distingue exención arancelaria y apoyo para implementos cuando ya hay exención.",
+    "limitaciones": "El decreto no publica una convocatoria actual ni cierre de recepción.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar llamado deportivo actual y diferenciar modalidades de apoyo."
   },
   {
     "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
@@ -10603,7 +10675,7 @@
     "nombre": "Beca Excelencia Académica Santo Tomas",
     "institucion": "Santo Tomás",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Excelencia Académica interna de Universidad Santo Tomás; catálogo de admisión 2026, página 377.",
+    "modalidad_anio": "Santo Tomás; Excelencia Académica interna; antecedente 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -10613,20 +10685,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/beca-paes/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Santo Tomás; Excelencia Académica interna; antecedente 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La oferta diferencia BEA estatal y Beca PAES interna aún con pruebas 2024/2025.",
+    "limitaciones": "No acredita que la excelencia interna del catálogo 2026 sea la BEA estatal ni que exista nueva edición equivalente.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar definición y tabla de excelencia interna con bases 2027, sin sustituir identidad."
   },
   {
     "candidato": "91edc86d30f49900052e39f7b54ad94dd4a84f5ea4bccc6ec72b52f5f7be85f8",
@@ -10635,7 +10710,7 @@
     "nombre": "Beca Deportiva UDLA",
     "institucion": "Universidad de Las Américas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca Deportiva UDLA; no certifica convocatoria abierta",
+    "modalidad_anio": "UDLA; Deportiva de Estudiantes Antiguos",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
@@ -10652,20 +10727,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://siae.udla.cl/becas-udla/beca-deportiva-estudiantes-antiguos/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Deportiva de Estudiantes Antiguos",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha permite exclusivamente renovación y excluye matrícula del segundo semestre.",
+    "limitaciones": "No hay día exacto ni convocatoria nueva; evaluación de méritos no acredita primera asignación.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar calendario de renovación de primer semestre del Instituto del Deporte."
   },
   {
     "candidato": "92569119ae4b688cb9c5e465709fa7f6c7071a44fb235cd4fd03e707a7bba171",
@@ -11491,7 +11568,7 @@
     "nombre": "Beca Académica UDLA",
     "institucion": "Universidad de Las Americas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.",
+    "modalidad_anio": "UDLA; Puntaje PAES de ingreso regular",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -11502,20 +11579,24 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.udla.cl/diurno/becas/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+      "https://siae.udla.cl/sistema-de-becas/becas-udla/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Puntaje PAES de ingreso regular",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página de admisión identifica beca PAES, compatible con ayudas estatales sobre saldo y renovable por rendimiento.",
+    "limitaciones": "No fija cierre propio; se mantiene el alcance corregido de este UUID sin confundirlo con beca de mérito para antiguos.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar tabla por carrera y fecha de matrícula de la cohorte."
   },
   {
     "candidato": "9be88ff7a97c85dd8656adda7a434a6dc1156fb175917f84cc8fa7e98280a9fb",
@@ -11750,7 +11831,7 @@
     "nombre": "Beca Municipal Educación Superior San Bernardo",
     "institucion": "Municipalidad de San Bernardo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglamento de Becas Municipales San Bernardo 2026; categoría superior.",
+    "modalidad_anio": "San Bernardo; beca municipal académica 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -11767,20 +11848,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
-    "hora_cierre": null,
-    "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://www.sanbernardo.cl/becas-2026/",
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "San Bernardo; beca municipal académica 2026",
+    "apertura": "2026-06-01",
+    "cierre": "2026-06-15",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago",
+    "razonamiento": "El aviso oficial fija solicitudes del 1 al 15 junio 2026; cierre a las 17:00.",
+    "limitaciones": "Los actos de entrega de septiembre no amplían recepción. Se mantienen ambos UUID sin resolver duplicidad por nombre.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario académico y comparar variantes preservando originales."
   },
   {
     "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
@@ -12457,7 +12541,7 @@
     "nombre": "Beca Familia UCSC",
     "institucion": "Universidad Católica de la Santísima Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Matrícula Familiar UCSC; ficha publicada el 6 de agosto de 2026, modalidad de más de dos hermanos.",
+    "modalidad_anio": "UCSC; Matrícula Familiar; ficha de agosto 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -12474,20 +12558,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://sube.ucsc.cl/contenido/beca-matricula-familiar/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UCSC; Matrícula Familiar; ficha de agosto 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha expresa más de dos hermanos pero describe simultáneamente validación entre ambos; requiere aclarar el umbral.",
+    "limitaciones": "No publica cierre. No se corrige el número de hermanos por suposición.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar reglamento de matrícula familiar y calendario de acreditación."
   },
   {
     "candidato": "a8184eb83e65d96f5f62c85c0538582a753ec0c9a555b0933f394bfd787422fc",
@@ -13372,7 +13458,7 @@
     "nombre": "Beca de Pasajes Viña del Mar",
     "institucion": "Municipalidad de Viña del Mar",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad y beneficio esencial histórico de ayuda social municipal para pago de pasajes en Viña del Mar; corrige la clasificación original de beca estudiantil. No acredita disponibilidad en 2026.",
+    "modalidad_anio": "Viña del Mar; ayuda de pasajes; manual de ayudas sociales 2021",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_AYUDA_SOCIAL_PASAJES_VINA_2026_10_21.md",
@@ -13389,20 +13475,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Viña del Mar; ayuda de pasajes; manual de ayudas sociales 2021",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El decreto aprueba manual de ayudas; PDF escaneado sin texto recuperable en el lector web.",
+    "limitaciones": "La fecha de subida 2022 no es convocatoria; no se certificó lectura del apartado escaneado de pasajes.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Revisar visualmente el apartado y localizar procedimiento actual de ayuda estudiantil de pasajes."
   },
   {
     "candidato": "baa2c616c9df714d61ba845947461ee7739b1b1d2d7c72b9d122bcb3608b3b90",
@@ -13411,7 +13499,7 @@
     "nombre": "Beca de Alimentación UBB",
     "institucion": "Universidad del Bío-Bío",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca de Alimentación UBB; no certifica convocatoria abierta",
+    "modalidad_anio": "UBB; Alimentación; becas internas 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
@@ -13428,20 +13516,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UBB; Alimentación; becas internas 2026",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario y buscar nueva convocatoria específica."
   },
   {
     "candidato": "bbf9abe727b9d19e2c2458b88239500def9f2e79b596299c6629cd4475134ab7",
@@ -13653,7 +13744,7 @@
     "nombre": "Beca de Alimentación UTA",
     "institucion": "Universidad de Tarapacá",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ayuda Solidaria de Alimentación UTA; sin certificar convocatoria abierta",
+    "modalidad_anio": "UTA; Ayuda Solidaria de Alimentación",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_UNAP_UCT_UPLA_UTA_UCSC_27.md",
@@ -13670,20 +13761,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uta.cl/transparencia/beneficios/",
+      "https://webdae.uta.cl/index.php/beneficios-complementarios/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UTA; Ayuda Solidaria de Alimentación",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La transparencia recupera requisitos alimentarios y ventanas semestrales, pero el lector directo no carga la tabla completa.",
+    "limitaciones": "No certificar la asociación fila/plazo solo por vecindad del resultado indexado.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar fila íntegra y decreto de alimentación para atribuir correctamente el calendario."
   },
   {
     "candidato": "bf9b92a1b55051e2d4a75aed55d83213433d79f16a62b964355c878f326c259d",
@@ -13731,7 +13825,7 @@
     "nombre": "Beca Excelencia Académica UTA",
     "institucion": "Universidad de Tarapaca",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UTA: Beca Puntaje PAES, ingreso 2026; catálogo páginas 285–286.",
+    "modalidad_anio": "UTA; Puntaje PAES; ingreso 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -13741,20 +13835,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uta.cl/transparencia/beneficios/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UTA; Puntaje PAES; ingreso 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La tabla de transparencia conserva becas PSU derogadas para nuevos junto con otras ayudas.",
+    "limitaciones": "No concluir que la actual Puntaje PAES esté derogada por compartir palabras con la fila PSU.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer decreto de Puntaje PAES y distinguirlo de la línea histórica solo renovantes."
   },
   {
     "candidato": "c066649684c96f6f79937d4ad4d2be7874fdd1fd3aa3cc843dc7815b9d035e1c",
@@ -13884,7 +13981,7 @@
     "nombre": "Beca Integración Transfronteriza UTA",
     "institucion": "Universidad de Tarapacá",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Catálogo Mineduc admisión 2026, página 293: Integración Transfronteriza UTA–AGCID.",
+    "modalidad_anio": "UTA–AGCID; Integración Transfronteriza; Perú y Bolivia",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -13894,20 +13991,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uta.cl/index.php/direccion-de-internacionalizacion-documentos/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UTA–AGCID; Integración Transfronteriza; Perú y Bolivia",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal de Internacionalización identifica formulario de admisión 2026 y reglamento específico.",
+    "limitaciones": "No publica un cierre verificable para nueva edición; admisión especial general es otro proceso.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar formulario/bases y calendario de Integración Transfronteriza."
   },
   {
     "candidato": "c1bfe255f8585bb0c9e79bc82a7b66ce7b915310b1913e5111a334a3fce1b005",
@@ -14261,7 +14361,7 @@
     "nombre": "Beca de Residencia UBB",
     "institucion": "Universidad del Bío-Bío",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca de Residencia UBB; no certifica convocatoria abierta",
+    "modalidad_anio": "UBB; Residencia; becas internas 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
@@ -14278,20 +14378,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UBB; Residencia; becas internas 2026",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario y buscar nueva convocatoria específica."
   },
   {
     "candidato": "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a",
@@ -14456,7 +14559,7 @@
     "nombre": "Beca Convenio Empresas ENAC",
     "institucion": "CFT ENAC",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Convenio ENAC identificada en contenido oficial archivado en 2013 y 2015; corresponde a la línea de descuentos por convenio de la candidata Convenio Empresas. No identifica un convenio empresarial individual ni acredita convocatoria 2026.",
+    "modalidad_anio": "ENAC; Convenio; contenido oficial archivado 2013/2015",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md",
@@ -14474,20 +14577,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://enac.cl/admision/",
+      "https://web.archive.org/web/20130611194042id_/http://www.enac.cl:80/becas/becas-enac",
+      "https://web.archive.org/web/20150614042632id_/http://enac.cl:80/becas/beca-enac"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "ENAC; Convenio; contenido oficial archivado 2013/2015",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La copia archivada no pudo recuperarse; la oferta actual de admisión presenta becas estatales y otra promoción de matrícula temprana.",
+    "limitaciones": "No sustituyen la línea interna histórica ni demuestran desaparición del beneficio.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar reglamento interno vigente y verificar continuidad del mismo programa."
   },
   {
     "candidato": "cb716976a191d01fa438e26b99e4b8f475d99bb9d201934d3ee43226ad7f0925",
@@ -14616,7 +14723,7 @@
     "nombre": "Beca de Alimentación UCSC",
     "institucion": "Universidad Católica de la Santisima Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Alimentación UCSC; reglamento de 2013 alojado por la universidad.",
+    "modalidad_anio": "UCSC; Alimentación; novatos 2026 y regulares 2027",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -14633,20 +14740,36 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://dae.ucsc.cl/blog-y-noticias/postulacion-becas-de-mantencion-interna-para-estudiantes-novatos/",
+      "https://dae.ucsc.cl/blog-y-noticias/proceso-de-actualizacion-de-antecedentes-2026-renovacion-y-postulacion-beneficios-internos-2/",
+      "https://direcciones.ucsc.cl/content/uploads/sites/17/2023/08/REGLAMENTO-BECA-DE-ALIMENTACION-UCSC.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UCSC; Alimentación; novatos 2026 y regulares 2027",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Hay solicitud de novatos 30 marzo–1 abril 2026 y actualización para regulares 2027 con documentos 5–23 octubre 2026.",
+    "limitaciones": "La segunda ventana es para regulares; no se presenta como abierta al vencimiento ni se confunde con MINEDUC.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Comprobar prórroga o rezagados 2027 de esta misma actualización.",
+    "calendarios": [
+      {
+        "modalidad": "novatos 2026",
+        "apertura": "2026-03-30",
+        "cierre": "2026-04-01"
+      },
+      {
+        "modalidad": "regulares 2027; documentación obligatoria",
+        "apertura": "2026-10-05",
+        "cierre": "2026-10-23"
+      }
+    ]
   },
   {
     "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
@@ -14926,7 +15049,7 @@
     "nombre": "Beca Interna UdeC",
     "institucion": "Universidad de Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad y condiciones publicadas de la Beca Interna UdeC para pregrado; ficha de carrera 2026. No valida convocatoria ni monto de 2027.",
+    "modalidad_anio": "UdeC; Beca Interna de pregrado",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECA_INTERNA_UDEC_2026_10_20.md",
@@ -14945,20 +15068,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.udec.cl/beneficios/",
+      "https://admision.udec.cl/periodismo/",
+      "https://documentos.udec.cl/sites/default/files/decreto_2022-157_sw.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UdeC; Beca Interna de pregrado",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El expediente distingue beca interna de carrera y reglamento; la oferta actual contiene varios programas y no un cierre general de toda ayuda interna.",
+    "limitaciones": "No trasladar fechas de Enrique Molina ni residencia al rótulo genérico sin vinculación expresa.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar convocatoria del apoyo interno definido por decreto 2022-157."
   },
   {
     "candidato": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",
@@ -15190,7 +15317,7 @@
     "nombre": "Beca Hijo Funcionario UAI",
     "institucion": "Universidad Adolfo Ibáñez",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beneficio UAI para hijos/as o cónyuges de funcionarios confirmado en reglamento oficial 2024; no certifica vigencia 2026 ni convocatoria abierta",
+    "modalidad_anio": "UAI; hijos o cónyuges de funcionarios; reglamento 2024",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_HIJO_FUNCIONARIO_UAI_2026_10_12.md",
@@ -15207,20 +15334,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://alumno.uai.cl/assets/uploads/2024/04/reglamentos-uai-2024.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UAI; hijos o cónyuges de funcionarios; reglamento 2024",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El documento original devuelve tiempo de espera agotado; la oferta de mérito no es sustituto del beneficio laboral.",
+    "limitaciones": "No se acreditó instructivo actual ni calendario de solicitud del personal.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar disposición vigente de beneficio laboral y su trámite de acreditación."
   },
   {
     "candidato": "d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00",
@@ -15229,7 +15358,7 @@
     "nombre": "Beca Rendimiento Académico UDLA",
     "institucion": "Universidad de Las Américas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.",
+    "modalidad_anio": "UDLA; Puntaje PAES de ingreso regular",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -15240,20 +15369,24 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.udla.cl/diurno/becas/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+      "https://siae.udla.cl/sistema-de-becas/becas-udla/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Puntaje PAES de ingreso regular",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página de admisión identifica beca PAES, compatible con ayudas estatales sobre saldo y renovable por rendimiento.",
+    "limitaciones": "No fija cierre propio; se mantiene el alcance corregido de este UUID sin confundirlo con beca de mérito para antiguos.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar tabla por carrera y fecha de matrícula de la cohorte."
   },
   {
     "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
@@ -15382,7 +15515,7 @@
     "nombre": "Becas de Mantención UFRO (familia de programas financiados por donatarios)",
     "institucion": "Universidad de La Frontera",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Familia institucional de becas de mantención UFRO bajo el Reglamento de Becas de Mantención aprobado por Resolución Exenta 1458/2021; no confirma convocatoria 2026.",
+    "modalidad_anio": "UFRO; red de donatarios de mantención",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECAS_MANTENCION_UFRO_2026_10_22.md",
@@ -15400,20 +15533,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://dde.ufro.cl/red-de-donataris-ufro-entrega-12-becas-de-mantencion-a-estudiantes-de-medicina/",
+      "https://www2.ufro.cl/transparencia/ver_doc.php?c=1&i=2&id=304580&m=2",
+      "https://admision.ufro.cl/becas-y-beneficios/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UFRO; red de donatarios de mantención",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La noticia de agosto 2026 acredita entrega en Medicina y distingue distintos donatarios de la red.",
+    "limitaciones": "La entrega de doce apoyos no fija una solicitud abierta para toda carrera ni un calendario común.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar convocatoria por donatario y carrera; mantener esta ficha como familia de programas."
   },
   {
     "candidato": "d7058912548ea3c97dfe49965790b1745e9836bf5338df8bcf6cf8da57875154",
@@ -16258,7 +16395,7 @@
     "nombre": "Beca de Alimentación UFRO",
     "institucion": "Universidad de La Frontera",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "ficha específica de programa sin calendario certificado; sin certificar convocatoria abierta",
+    "modalidad_anio": "UFRO; Programa de Alimentación",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_UCHILE_UACH_UFRO_13.md",
@@ -16275,20 +16412,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.ufro.cl/becas-y-beneficios/programa-de-alimentacion-ufro/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UFRO; Programa de Alimentación",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha identifica almuerzo y condición de no disponer BAES, sin fecha de recepción.",
+    "limitaciones": "El calendario JUNAEB es distinto; la mera oferta del programa no demuestra solicitudes abiertas.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar aviso específico de postulación o renovación del Programa de Alimentación."
   },
   {
     "candidato": "e3dd75e9c59630416c8b5ce61513c1dbafac208a68d03145572ca7eddf93e350",
@@ -16696,7 +16835,7 @@
     "nombre": "Beca Excelencia Académica ENAC",
     "institucion": "CFT ENAC",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Excelencia Académica interna de ENAC; contenido institucional archivado en 2013 y 2015. Corrige la atribución anterior a Mineduc; no acredita convocatoria 2026.",
+    "modalidad_anio": "ENAC; Excelencia Académica interna; contenido oficial archivado 2013/2015",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECAS_INTERNAS_ENAC_2013_2015_2026_10_19.md",
@@ -16714,20 +16853,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://enac.cl/admision/",
+      "https://web.archive.org/web/20130611194042id_/http://www.enac.cl:80/becas/becas-enac",
+      "https://web.archive.org/web/20150614042632id_/http://enac.cl:80/becas/beca-enac"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "ENAC; Excelencia Académica interna; contenido oficial archivado 2013/2015",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La copia archivada no pudo recuperarse; la oferta actual de admisión presenta becas estatales y otra promoción de matrícula temprana.",
+    "limitaciones": "No sustituyen la línea interna histórica ni demuestran desaparición del beneficio.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar reglamento interno vigente y verificar continuidad del mismo programa."
   },
   {
     "candidato": "ea44764b8b2401817e1d4cacade7b1d7f9673f7f9ccb274590622b4be2f823f0",
@@ -16890,7 +17033,7 @@
     "nombre": "Beca Excelencia Académica UdeC",
     "institucion": "Universidad de Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UdeC: corrección de la excelencia genérica a la modalidad documentada Beca Enrique Molina Garmendia para admisión 2026.",
+    "modalidad_anio": "UdeC; Enrique Molina Garmendia; ingreso 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -16907,20 +17050,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://admision.udec.cl/beneficios/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UdeC; Enrique Molina Garmendia; ingreso 2026",
+    "apertura": "2026-01-20",
+    "cierre": "2026-01-29",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La convocatoria de la beca enumera condiciones y recepción en matrícula del 20 al 29 enero 2026.",
+    "limitaciones": "Es esta modalidad de excelencia, no cualquier beca del sitio ni nueva convocatoria 2027.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario de la edición y buscar bases de ingreso 2027."
   },
   {
     "candidato": "ebbc870f644be29040fcef815783e2d5b20b767b2877ed8ca38773d8d89f98a8",
@@ -16929,7 +17074,7 @@
     "nombre": "Beca Copago UDLA",
     "institucion": "Universidad de Las Americas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UDLA; catálogo oficial de becas de copago consultado el 6 de octubre de 2026.",
+    "modalidad_anio": "UDLA; Copago CAE; carreras y jornadas habilitadas",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -16946,20 +17091,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.udla.cl/programa-executive/becas-carreras-executive",
+      "https://admision.udla.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UDLA; Copago CAE; carreras y jornadas habilitadas",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La oferta diferencia coberturas por carrera, modalidades y asignación por orden de matrícula.",
+    "limitaciones": "No publica cierre único; no se fusiona este UUID con el otro de Copago por compartir programa.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Precisar carrera/jornada y recepción de matrícula antes de asignar plazo."
   },
   {
     "candidato": "ebd7aebb575dda598b7d124aeca15c7f92765c5f122f88a48937cd30f5b35599",
@@ -17042,7 +17190,7 @@
     "nombre": "Beca de Mantención para la Educación Superior (BMES)",
     "institucion": "Junta Nacional de Auxilio Escolar y Becas (JUNAEB)",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad, aporte y requisitos vigentes 2026 de la Beca de Mantención para la Educación Superior (BMES), listada por UMAG como beneficio JUNAEB; no valida la cobertura, requisitos ni fechas del registro original.",
+    "modalidad_anio": "JUNAEB; BMES; renovación 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BMES_UMAG_2026_10_12.md",
@@ -17061,20 +17209,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.ayudamineduc.cl/ficha/beca-de-mantencion-educacion-superior-bmes",
+      "https://admision.umag.cl/?page_id=634",
+      "https://www.chileatiende.gob.cl/fichas/10453/1/pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "JUNAEB; BMES; renovación 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Ayuda MINEDUC aclara que no requiere trámite de renovación y depende de última resolución previa, matrícula y beneficio de arancel.",
+    "limitaciones": "No es una convocatoria nueva; no recibe cierre ficticio. Se conserva este UUID sin fusionar el par.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Comprobar reglas de continuidad y proponer visualización de asignación sin postulación."
   },
   {
     "candidato": "eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677",
@@ -17339,7 +17491,7 @@
     "nombre": "Beca de Alimentación para la Educación Superior",
     "institucion": "JUNAEB",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca de Alimentación para la Educación Superior; no certifica convocatoria abierta",
+    "modalidad_anio": "JUNAEB; BAES; asignación automática",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
@@ -17356,20 +17508,22 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-de-alimentacion-baes"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "JUNAEB; BAES; asignación automática",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha ministerial afirma que no se postula directamente; asignación anual condicionada y presupuestaria.",
+    "limitaciones": "FUAS puede originar beneficio de arancel, pero no es una solicitud BAES con cierre propio.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Mostrar como beneficio de asignación automática sin crear fecha de cierre."
   },
   {
     "candidato": "ef6988a5b06dcc9019344a3036c07730adc3ede4b73a1ce1a11b2e552edff76f",
@@ -17654,7 +17808,7 @@
     "nombre": "Beca Puntaje Ponderado UAI",
     "institucion": "Universidad Adolfo Ibáñez",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas públicas esenciales de Beca Puntaje Ponderado UAI; no certifica convocatoria abierta",
+    "modalidad_anio": "UAI; Puntaje Ponderado; cohorte 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_LOTE_62.md",
@@ -17671,20 +17825,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.uai.cl/admision/becas-y-aranceles/becas",
+      "https://www.uai.cl/faq/estudiar-una-carrera-de-pregrado"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UAI; Puntaje Ponderado; cohorte 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal dice expresamente que sus reglas corresponden a ingreso 2026 y que las condiciones 2027 se publicarán próximamente.",
+    "limitaciones": "No certifica una nueva convocatoria por las ponderaciones 2027 de la navegación; conserva modalidad y UUID.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar reglamento 2027 del mismo beneficio y su proceso de asignación."
   },
   {
     "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
@@ -18249,7 +18406,7 @@
     "nombre": "Beca Excelencia Académica UCSC",
     "institucion": "Universidad Católica de la Santísima Concepción",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UCSC: Beca Excelencia Puntaje Trayectoria Educativa 2; catálogo de admisión 2026, página 108.",
+    "modalidad_anio": "UCSC; Excelencia Puntaje Trayectoria Educativa 2; antecedente 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
@@ -18259,20 +18416,23 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://ucsc.cl/admision/pregrado/becas-y-financiamiento/becas-y-beneficios/?id=beca-deportiva",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "UCSC; Excelencia Puntaje Trayectoria Educativa 2; antecedente 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La página vigente contiene beneficios estatales con años antiguos, distintos de la modalidad institucional del expediente.",
+    "limitaciones": "No acredita nuevas condiciones 2027 ni cierre de esta modalidad; no se sustituye por BEA ministerial.",
+    "propuesta_cambio": "Conservar UUID, alcance editorial y originales; no activar sin recepción aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar tabla o reglamento institucional específico de Excelencia Trayectoria Educativa 2."
   },
   {
     "candidato": "fd2aac77793899dd23a4a5a9b02243e5b958ab5463939bba252b884fc78245c8",

@@ -2,19 +2,19 @@
   "cohorte": 466,
   "fuente_inicial": "documentacion/auditoria_corpus/procesados/despliegue_p12/seleccion_publicacion_2026_10_27.json",
   "sha256_fuente": "89b6049dcdf6e0ecf33fb11ec67fdabd014898708331babcdc3a8d672c123663",
-  "leidas_individualmente": 206,
-  "sin_revisar": 260,
-  "resueltas": 129,
-  "inconclusas": 77,
+  "leidas_individualmente": 256,
+  "sin_revisar": 210,
+  "resueltas": 161,
+  "inconclusas": 95,
   "clasificaciones": {
-    "CALENDARIO_POR_MODALIDAD": 44,
-    "SIN_CALENDARIO_PUBLICADO": 55,
-    "REVISION_INCONCLUSA": 77,
-    "CERRADA_CONFIRMADA": 26,
+    "CALENDARIO_POR_MODALIDAD": 57,
+    "SIN_CALENDARIO_PUBLICADO": 67,
+    "REVISION_INCONCLUSA": 95,
+    "CERRADA_CONFIRMADA": 33,
     "VIGENTE_CON_CIERRE_CONFIRMADO": 4
   },
   "aplicacion": {
-    "SIN_CAMBIO": 201,
+    "SIN_CAMBIO": 251,
     "APLICADA": 3,
     "PENDIENTE": 2
   },
