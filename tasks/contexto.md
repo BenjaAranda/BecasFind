@@ -6,7 +6,9 @@ Actualizado el 27 de octubre de 2026. Fuente de trabajo: `PLAN_MEJORAS.md`; deta
 
 El usuario reabre expresamente la investigación individual de vigencia según `tasks/PROMPT_AUDITORIA_VIGENCIA.md`. La selección conservadora anterior no equivale a investigación concluida. Fuente vigente de avance: `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/avance.json`; inventario y evidencia por UUID en esa misma carpeta. No usar «cero pendientes» de P04 para cerrar esta auditoría distinta. No hay autorización para P13/P14 ni cambios masivos de activación.
 
-Primer bloque de datos aplicado con restauración verificada: Deportiva UNAB (314) activada con cierre 31/01/2027; UAlumni (518) conserva inactividad y registra cierre 25/09/2026. Ahora hay seis activas, 58 cierres vencidos y 464 cierres desconocidos en BD; el inventario fijo de investigación sigue siendo 466. Evidencia en `aplicacion_lote_01.json`. No repetir ese SQL: ambas versiones ahora son 1.
+Dos bloques de datos aplicados con restauración verificada: Deportiva UNAB (314) activada con cierre 31/01/2027; UAlumni (518) conserva inactividad y registra cierre 25/09/2026; Alimentación UANDES (445) activada exclusivamente para ingreso 2027, cierre 28/01/2027. Estado posterior: siete activas, 58 cierres vencidos y 463 cierres desconocidos en BD. El inventario fijo de investigación sigue siendo 466. Evidencia en `aplicacion_lote_01.json` y `aplicacion_lote_02.json`. No repetir esos SQL: las tres versiones ahora son 1.
+
+Al sexto lote: 306 fichas investigadas; 194 con conclusión limitada al alcance documentado; 112 inconclusas y 160 sin recorrer. No equivale a 194 becas abiertas. Los hallazgos individuales y los siguientes pasos están en el inventario; la investigación continúa. Juan Gómez Millas y Bicentenario tienen calendario FUAS 2027 acreditado, pero su aplicación sigue pendiente de conciliación de condiciones.
 
 El catálogo público con estados claros fue aprobado en este chat. Sus cambios de interfaz/API están en preparación local, separados de los commits de auditoría; no están desplegados. Prioridad actual: investigación documental y aplicación de correcciones individualmente probadas. No confundir el código local con el estado remoto.
 
@@ -14,9 +16,9 @@ El catálogo público con estados claros fue aprobado en este chat. Sus cambios 
 
 - P04 cerrada: 568 candidatas; 526 esenciales; dos completas; 40 exclusiones editoriales; cero pendientes editoriales. Los 23 descartes del último cierre son por evidencia insuficiente, no por falsedad.
 - P12 operativamente completada en preview: Oracle y Vercel conectados; HTTPS/CORS/reinicio comprobados; Gmail habilitado y recuperación real aprobada; recorridos públicos, ADMIN y STUDENT aprobados. Verificación final de GitHub en la entrega vigente.
-- Oracle conserva 528 becas y 528 UUID: cinco activas, 57 con convocatoria cerrada, 466 inactivas sin calendario vigente acreditado. Hay decisión de publicación para todas; esto no certifica vigencia de las 466 ni lectura completa de todos los documentos. No hubo nuevos descartes ni eliminaciones.
-- Activas: BUCH; Hijos de Funcionarios UChile; UANDES Económica; Nuevo Milenio I; Gratuidad. Temporizadores específicos BUCH 30/10/2026 12:00 y FUAS 05/11/2026 14:00, Santiago.
-- Diferencias contra la carga inicial: solo seis fichas justificadas; UDD y las cinco activas. Encoding bytea: cero corrupciones. El CSV inicial y su manifiesto siguen inmutables; no regenerarlos encima ni reimportarlos.
+- Corte previo a la auditoría: 528 becas y UUID; cinco activas, 57 cerradas y 466 sin vigencia acreditada. Es un antecedente histórico; el estado posterior a las correcciones está arriba. No hubo nuevos descartes ni eliminaciones.
+- Activas después de los dos bloques: BUCH; Hijos de Funcionarios UChile; UANDES Económica; Nuevo Milenio I; Gratuidad; Deportiva UNAB; Alimentación UANDES. Temporizadores específicos BUCH 30/10/2026 12:00 y FUAS 05/11/2026 14:00, Santiago.
+- Diferencias contra la carga inicial: seis fichas justificadas en la selección original más 314, 518 y 445 en esta auditoría. El CSV inicial y su manifiesto siguen inmutables; no regenerarlos encima ni reimportarlos.
 
 ## Entorno y continuidad
 

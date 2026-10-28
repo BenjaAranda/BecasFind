@@ -60,4 +60,12 @@ Se incorporan las 47 fichas restantes de instituciones superiores y programas na
 
 Si aparece una postulación explícitamente permanente, la propuesta es conservar su calendario sin fecha de cierre artificial y mostrarla en el catálogo informativo con la etiqueta correspondiente. Publicarla dentro del filtro de postulaciones abiertas o recomendarla como vigente requeriría una autorización específica para modificar BR-VIGENCIA. Esa regla no se cambia en esta auditoría. El catálogo público con estados fue aprobado previamente, pero su implementación local sigue separada y no desplegada.
 
+## Sexto lote: 50 municipales
+
+Se documentan otras 50 investigaciones: **306 investigadas; 194 con conclusión limitada al alcance descrito; 112 inconclusas; 160 sin recorrer**. Este bloque no modificó Oracle. Los cierres nuevos acreditados incluyen Diego de Almagro (segundo llamado 19–23 octubre), Chillán Viejo (16 febrero–17 abril), Puchuncaví (9 marzo–1 abril) y Puyehue (12–31 agosto), todos de 2026. Rinconada prorrogó el cierre inicial hasta el 25 de mayo; la noticia posterior permite corregir la fecha sin copiar una errata de día de semana del aviso anterior.
+
+Longaví y Cañete separan primera recepción de renovación. Quemchi distingue excelencia de hijos de pescadores: se leyó el calendario de excelencia del segundo proceso, mientras que las bases escaneadas de pescadores requieren lectura visual. Mulchén publica dos programas distintos y su documento de apoyo conserva una frase contradictoria sobre la definición de fecha; no se aplica ese plazo a la beca Fray Alejandro Manera. San Rosendo y Punitaqui tampoco reciben una única fecha para todas las ayudas agrupadas en sus fichas.
+
+Se conserva como inconclusa la revisión de Los Muermos: el portal incorpora texto ajeno de apuestas junto a su antigua tabla de trámites. Esa contaminación impide tratarlo como evidencia íntegra de una convocatoria actual. Las tablas de Olivar conservan el año 2014 aunque su actualización indique 2026. Ninguna de estas limitaciones ocasionó descartes ni eliminación de registros.
+
 No se inició P13/P14, no se promovió producción y no se contrataron recursos. La auditoría **no está concluida**; el inventario muestra el trabajo que falta y los casos inconclusos con sus rutas de investigación.
