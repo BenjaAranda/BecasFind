@@ -7342,7 +7342,7 @@
     "nombre": "Aporte Económico para Educación Superior",
     "institucion": "Municipalidad de Santiago",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Santiago: beneficio 2026 y condiciones de ficha general con título 2025",
+    "modalidad_anio": "Santiago; proceso 2026 y requisitos por duración",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md",
@@ -7360,20 +7360,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.munistgo.cl/beca-de-estudios/",
+      "https://www.munistgo.cl/mas-oportunidades-para-estudiar-municipalidad-de-santiago-amplia-a-360-las-becas-de-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Santiago; proceso 2026 y requisitos por duración",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El portal presenta beneficiarios del proceso 2026 y exigencias académicas distintas por duración de carrera.",
+    "limitaciones": "No acredita recepción actual; el título conserva 2025 y no se toma una nómina como llamado abierto.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar bases y calendario de solicitud 2026 sin reproducir datos personales."
   },
   {
     "candidato": "665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678",
@@ -7382,7 +7385,7 @@
     "nombre": "Beca Municipal de Apoyo a la Educación Superior Quilleco",
     "institucion": "Municipalidad de Quilleco",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales publicadas de Beca Municipal de Apoyo a la Educación Superior Quilleco; alcance temporal delimitado, sin certificar convocatoria abierta",
+    "modalidad_anio": "Quilleco; nueva ordenanza vigente desde 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_81.md",
@@ -7399,20 +7402,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://municipalidadquilleco.cl/municipalidad-de-quilleco-aprueba-nueva-ordenanza-de-beca-municipal-para-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Quilleco; nueva ordenanza vigente desde 2026",
+    "apertura": "2026-03-01",
+    "cierre": "2026-03-31",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Aviso 2 febrero 2026 establece recepción y renovación del 1 al 31 marzo de cada año, sustituyendo decreto 590/2025.",
+    "limitaciones": "Pagos marzo–diciembre no son ventana de postulación; norma solo aplicada a edición acreditada.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario 2026 y preservar condiciones de edad/RSH."
   },
   {
     "candidato": "66d55e436f0924e675186a39dfc8c3e607d578ed33e1abbc5ae41f0f99e58ade",
@@ -7462,7 +7467,7 @@
     "nombre": "Programa Beca Municipal Rio Bueno",
     "institucion": "Municipalidad de Rio Bueno",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Municipal de Río Bueno; alcance histórico del PADEM 2007, página 13.",
+    "modalidad_anio": "Río Bueno; PADEM 2007 y búsqueda actual",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -7480,20 +7485,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://transparencia.muniriobueno.cl/index.php?d=EDUCACION&f=PADEM+2007.pdf",
+      "https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Río Bueno; PADEM 2007 y búsqueda actual",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El archivo se entrega en formato no admitido por lector; la búsqueda municipal 2026 no recupera llamado específico.",
+    "limitaciones": "No se certificó lectura del antecedente ni nuevo plazo; no se descarta el programa.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Descargar PDF original y localizar decreto/convocatoria en sitio municipal actual."
   },
   {
     "candidato": "67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857",
@@ -7549,7 +7557,7 @@
     "nombre": "Beca de Educación Superior Recoleta",
     "institucion": "Municipalidad de Recoleta",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Recoleta: resolución 162 de 2023; artículos 3 y 12 de la Beca de Educación Superior.",
+    "modalidad_anio": "Recoleta; resolución 162 expediente 2023",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -7566,20 +7574,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.recoletatransparente.cl/archivos_2023/programas_sociales/RES%20162_OCR.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Recoleta; resolución 162 expediente 2023",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El enlace devuelve 403 y la búsqueda dirigida a beca superior no recupera copia de calendario.",
+    "limitaciones": "No se leyó la resolución completa ni convocatoria posterior.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar resolución por índice de transparencia y buscar edición vigente."
   },
   {
     "candidato": "688865ce719e35999b182da7a8426f82958820d6386f20347be7a966019737c7",
@@ -7588,7 +7598,7 @@
     "nombre": "Beca Municipal de Educación Superior Traiguen",
     "institucion": "Municipalidad de Traiguen",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales ordenanza 2003 con modificaciones 2010 de Beca Municipal de Educación Superior Traiguen; sin certificar convocatoria abierta",
+    "modalidad_anio": "Traiguén; ordenanza y antecedente PLADECO",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_96.md",
@@ -7605,20 +7615,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://mtraiguen.cl/wp-content/uploads/2025/11/PLADECO-TRAIGUEN-2025-2025.pdf",
+      "https://www.bcn.cl/leychile/navegar?idNorma=211823"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Traiguén; ordenanza y antecedente PLADECO",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "BCN no carga la norma; PLADECO oficial describe pagos 2023, mientras prensa anuncia llamado agosto 2026.",
+    "limitaciones": "La noticia de prensa no se usa para certificar cierre oficial; falta fuente primaria del llamado.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar bases agosto 2026 en mtraiguen.cl y contrastar norma."
   },
   {
     "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
@@ -7709,7 +7722,7 @@
     "nombre": "Beca Educación Superior DIDECO Chillan",
     "institucion": "Municipalidad de Chillan",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Chillán: convocatoria municipal 2024 de Beca Aporte Económico Educación Superior; contraste con UBB Diguillín 2024.",
+    "modalidad_anio": "Chillán; Aporte Económico Educación Superior OMAJ",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -7727,20 +7740,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.municipalidadchillan.cl/sitio/index.php?not=5010",
+      "https://www.municipalidadchillan.cl/sitio/noticia.php?id=3147",
+      "https://pace.ubiobio.cl/wp-content/uploads/2024/07/Becas-Municipales-Nuble-Diguillin.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Chillán; Aporte Económico Educación Superior OMAJ",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha describe 19 aportes de 500.000, recepción 27 mayo–24 junio sin año inequívoco recuperado.",
+    "limitaciones": "Beca Artística y Patrimonial 2026 prorrogada al 30 octubre es otro beneficio y no sustituye este UUID.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar fecha de noticia OMAJ y convocatoria actual de ese aporte."
   },
   {
     "candidato": "6af35875af55315c2e5f263752be976bdfacf1bf5f8eb55f73fb529478a2d113",
@@ -7790,7 +7807,7 @@
     "nombre": "Beca Municipal de Estudios Superiores (Modalidad Reembolso de Matrícula)",
     "institucion": "Municipalidad de Licanten",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca de Reembolso de Matrícula de Licantén; definición publicada en la gestión 2023, página 64.",
+    "modalidad_anio": "Licantén; reembolso matrícula histórico",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
@@ -7807,20 +7824,22 @@
         "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.mlicanten.cl/laip/Transparencia%20Municipalidad/Cuentas%20Publicas%20de%20Gestion/2023/Cuenta%20P%C3%BAblica%202023.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Licantén; reembolso matrícula histórico",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La cuenta 2023 agota tiempo; un decreto de pago 2013 identifica explícitamente reembolso municipal.",
+    "limitaciones": "La convocatoria Presidente República 2026 no es reembolso; su página contiene enlace ajeno que no debe seguirse.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar bases de reembolso y acto anual; no usar plazos JUNAEB."
   },
   {
     "candidato": "6bf1dd6dd4fc351adf739cea579e956179bd22f3cd16711e3d6951ec5cbd6987",
@@ -7829,7 +7848,7 @@
     "nombre": "Beca Municipal Educación Superior Tucapel",
     "institucion": "Municipalidad de Tucapel",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Tucapel: reglamento Profesionales del Futuro con disposición PAES aplicable desde 2026; cuatro páginas escaneadas leídas.",
+    "modalidad_anio": "Tucapel; expediente PDF y PADEM 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -7846,20 +7865,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.munitucapel.cl/admin/archivos/1764346563.pdf",
+      "https://www.munitucapel.cl/filesglob/1773648567.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Tucapel; expediente PDF y PADEM 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "PDF 1773648567 no accesible; PADEM recupera ayudas JUNAEB y residencia, sin vinculación al programa municipal propio.",
+    "limitaciones": "No se transfiere plazo estatal a beca comunal.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar PDF del expediente y llamado municipal."
   },
   {
     "candidato": "6bf3c78dce1940fc9e9473a15a9b076b1ba04e71b75a270d684a718621f23225",
@@ -7909,7 +7931,7 @@
     "nombre": "Beca de Estudio Graneros Nueva Ciudad",
     "institucion": "Municipalidad de Graneros",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Programa municipal histórico 2018: identidad, aporte de educación superior y requisitos generales; no acredita convocatoria vigente. Evidencia oficial indexada del PADEM 2019, sección 13.4.d, página impresa 45.",
+    "modalidad_anio": "Graneros; Nueva Ciudad; PADEM 2019",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_GRANEROS_2026_10_12.md",
@@ -7926,20 +7948,22 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.daemgraneros.cl/file/padem2019.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Graneros; Nueva Ciudad; PADEM 2019",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El documento original responde 403; búsqueda municipal del año no recupera convocatoria de Nueva Ciudad.",
+    "limitaciones": "No se comprobó continuidad ni recepción actual; no se interpreta el error como cierre.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar PADEM y reglamento específico de Nueva Ciudad."
   },
   {
     "candidato": "6d27dd7c71d47e54c56dfc4a2141d6d67e8aee34ab58caf79844b9f09970a000",
@@ -8074,7 +8098,7 @@
     "nombre": "Beca Municipal Educación Superior",
     "institucion": "Municipalidad de Teodoro Schmidt",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Teodoro Schmidt, requisitos y decreto 1015 de julio de 2025.",
+    "modalidad_anio": "Teodoro Schmidt; beca general 2025",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8092,20 +8116,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://muniteodoro.cl/portal/wp-content/uploads/2025/04/REQUISITOS-BECA-MUNICIPAL-EDUCACION-SUPERIOR.pdf",
+      "https://muniteodoro.cl/portal/wp-content/uploads/2025/07/DAE-1015-APRUEBA-ACTA-Y-ENTREGA-BECA-MUNICIPAL-2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Teodoro Schmidt; beca general 2025",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Se contrasta esta variante con bases generales 2025 y nueva residencia 2026: son alcances diferentes.",
+    "limitaciones": "No se acredita sustitución ni calendario general 2026; preservar UUID separado de 168.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar decreto de convocatoria general 2026; no trasladar plazo de residencia."
   },
   {
     "candidato": "6f9080cda30c636549b12249aa5126036cbcda9c155a61e267ebfd21f47e05e3",
@@ -8155,7 +8182,7 @@
     "nombre": "Beca Municipal de Mantención 2026 y Beca PAES",
     "institucion": "Municipalidad de Panguipulli",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Panguipulli 2026: registro combinado de Mantención y PAES, con alcance separado para cada modalidad.",
+    "modalidad_anio": "Panguipulli; Mantención 2026 y PAES",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8174,20 +8201,25 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://municipalidadpanguipulli.cl/archivos/48401",
+      "https://municipalidadpanguipulli.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025_opt.pdf",
+      "https://municipalidadpanguipulli.cl/archivos/45837",
+      "https://municipalidadpanguipulli.cl/archivos/47524"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Panguipulli; Mantención 2026 y PAES",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La noticia febrero anuncia Mantención para varios niveles; cuenta 2025 diferencia premio PAES de mantención.",
+    "limitaciones": "Las fechas relevantes de la ficha no son legibles en texto recuperado; entrega julio no es nueva recepción ni plazo PAES.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer afiche/bases 2026 y atribuir calendario a cada modalidad."
   },
   {
     "candidato": "70347cf150e51c674a124886ead11a97ae2eed3e750356fad5f53093e36e3ee8",
@@ -8196,7 +8228,7 @@
     "nombre": "Beca Traslado Estudiantil Educación Superior Curarrehue",
     "institucion": "Municipalidad de Curarrehue",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Curarrehue: bases oficiales Incentivo a la Educación Superior 2026, apartados 3–13.",
+    "modalidad_anio": "Curarrehue; traslado frente a Incentivo 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8213,20 +8245,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://curarrehue.cl/on/wp-content/uploads/2026/04/bases-incentivo-educacion-superior-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Curarrehue; traslado frente a Incentivo 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Bases Incentivo página 4 acreditan recepción 7–27 abril 2026 y admiten transporte como uso, además de arancel/materiales.",
+    "limitaciones": "No acredita que la línea histórica Traslado Estudiantil se haya sustituido por Incentivo; no cambiar identidad por coincidencia de gasto.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar antecedente de traslado con acto de Incentivo y precisar modalidad."
   },
   {
     "candidato": "70623ffdd6b40eda19d12997b0ab61ebc649f2503436e625e4bf347f568030dd",
@@ -8235,7 +8269,7 @@
     "nombre": "Beca Municipal Alberto Antonio Herrera Cardenas",
     "institucion": "Municipalidad de San Juan de la Costa",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Municipal Alberto Antonio Herrera Cárdenas de San Juan de la Costa; bases aprobadas el 14 de junio de 2023.",
+    "modalidad_anio": "San Juan de la Costa; Alberto Antonio Herrera 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -8252,20 +8286,24 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://sanjuandelacosta.cl/2026/06/01/municipalidad-de-san-juan-de-la-costa-invita-a-postular-a-las-becas-municipales-2026/",
+      "https://sanjuandelacosta.cl/2026/08/07/prueba/",
+      "https://sanjuandelacosta.cl/archivostransparencia/dctos_concejo/2023/junio/14-06-2023.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "San Juan de la Costa; Alberto Antonio Herrera 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El llamado junio enumera esta beca y la deriva a DAEM; resultados agosto la distinguen de residencia/deporte.",
+    "limitaciones": "El pasaje recuperado no publica cierre; apertura directa limitada por 429.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar bases anexas y su calendario desde municipio."
   },
   {
     "candidato": "70699bc9ed88bac846b5399646c77d71c8027a40a10a5a2d46ec72db13e327f6",
@@ -8399,7 +8437,7 @@
     "nombre": "Beca Municipal Dr. Joaquin Contreras Silva 2026",
     "institucion": "Municipalidad de Requinoa",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Programa Beca Municipal Dr. Joaquín Contreras Silva de Requínoa; reglamento 2014, no convocatoria 2026 del título original",
+    "modalidad_anio": "Requínoa; Dr. Joaquín Contreras; reglamento 2014",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "REVISION_BLOQUE_ESENCIAL_50_2026_10_08.md",
@@ -8416,20 +8454,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Requínoa; Dr. Joaquín Contreras; reglamento 2014",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Documento leído se identifica proceso 2014 aunque la candidata diga 2026; prensa actual informa una entrega.",
+    "limitaciones": "No certifica normativa ni calendario 2026 con fuente primaria actual.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar decreto y llamado municipal 2026 sin trasladar fechas del reglamento 2014."
   },
   {
     "candidato": "70e13bcc5e803463641c7301979d0b31fa5cafcc397cc3b3c2e4931f3cd392f1",
@@ -8438,7 +8478,7 @@
     "nombre": "Beca Municipal de Educación Superior Nogales",
     "institucion": "Municipalidad de Nogales",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Municipal de Nogales; gestión 2015, página 29.",
+    "modalidad_anio": "Nogales; entrega municipal 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
@@ -8455,20 +8495,23 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.muninogales.cl/2026_becas_estudiantes_739.html",
+      "https://www.muninogales.cl/transp/archivos/otrosantecedentes/cp15.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Nogales; entrega municipal 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Noticia oficial 6 julio acredita 739 beneficiarios y depósito de 100.000 más aporte empresarial.",
+    "limitaciones": "La entrega no define cierre; beca deportiva todavía en proceso es otra ayuda.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar convocatoria anterior y bases de educación superior."
   },
   {
     "candidato": "724bc40ea97f49f31f653251554c435c4f090a6a0c8bd4d428767ff0997577c5",
@@ -8511,7 +8554,7 @@
     "nombre": "Beca de Educación Superior Municipalidad de Lumaco",
     "institucion": "Municipalidad de Lumaco",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Municipalidad de Lumaco: comunicación institucional de entrega de becas de educación superior.",
+    "modalidad_anio": "Lumaco; aporte municipal de estudios superiores",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8528,20 +8571,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://transparencia.munilumaco.cl/index.php?a=2016&action=plantillas_generar_archivo&ia=4255&ig=166&m=1",
+      "https://munilumaco.cl/index.php/sala-de-prensa/525-municipio-entrega-becas-a-estudiantes-de-educacion-superior-de-la-comuna"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Lumaco; aporte municipal de estudios superiores",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La noticia específica describe entrega de 25 apoyos de 200.000; reglamento de funciones diferencia beca interna de JUNAEB.",
+    "limitaciones": "No contiene calendario de solicitud actual ni año comprobado en cuerpo de entrega.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar reglamento interno y llamado anual."
   },
   {
     "candidato": "73bb66c800351cbfee020f307be46393c24a3515d48b04b146c490860ef6216b",
@@ -8550,7 +8596,7 @@
     "nombre": "Beca Municipal de Educación Superior Vicuna",
     "institucion": "Municipalidad de Vicuna",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca de Estudios Superior de Vicuña; ficha municipal de trámites de septiembre de 2023.",
+    "modalidad_anio": "Vicuña; ficha Social 2023",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
@@ -8567,20 +8613,22 @@
         "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.transparenciavicuna.cl/wp-content/uploads/2023/09/SOCIAL.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Vicuña; ficha Social 2023",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El archivo responde 502 y la búsqueda del año no recupera convocatoria específica del beneficio.",
+    "limitaciones": "No se certifica lectura ni desaparición por falla del portal.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar tabla de beneficios y bases actuales."
   },
   {
     "candidato": "73d28e70cf8252afface9ef30e2c937cf187921bf2ea84f0403aaefc2b4c936f",
@@ -8589,7 +8637,7 @@
     "nombre": "Programa Beca Municipal de Educación Superior Parral",
     "institucion": "Municipalidad de Parral",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales 2014 de Programa Beca Municipal de Educación Superior Parral; sin certificar convocatoria abierta",
+    "modalidad_anio": "Parral; Programa Beca Municipal",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_96.md",
@@ -8606,20 +8654,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.transparencia.parral.cl/UserFiles/File/area%20social/beca_municipal.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Parral; Programa Beca Municipal",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Ficha de Acción Social especifica NEM5,5/regular5 y documentación; diferencia locomoción en otro programa.",
+    "limitaciones": "Sin año ni cierre actual acreditado; horarios de atención no son calendario.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar decreto anual y recepción Beca Municipal, separada de Locomoción."
   },
   {
     "candidato": "74f2312dfa48e8430ec8fe4af6235fc7ea200c9df394dd1951508c5797ea0930",
@@ -8628,7 +8678,7 @@
     "nombre": "Beca Municipal de Estudiantes de Educación Superior",
     "institucion": "Municipalidad de Marchigue",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Municipal de Estudiantes de Educación Superior de Marchigüe; modificación reglamentaria aprobada el 20 de abril de 2022.",
+    "modalidad_anio": "Marchigüe; cuenta de gestión 2022",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
@@ -8645,20 +8695,22 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://marchigue.cl/pdf/Cuenta-publica-2022.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Marchigüe; cuenta de gestión 2022",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La cuenta describe tramos de aporte según matrícula y modificación reglamentaria en 2022.",
+    "limitaciones": "Un acuerdo de modificación no prueba nuevo plazo ni edición 2026.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar reglamento modificado y llamado actual."
   },
   {
     "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
@@ -8667,7 +8719,7 @@
     "nombre": "Beca Municipal Educación Superior Padre Hurtado",
     "institucion": "Municipalidad de Padre Hurtado",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Padre Hurtado: convocatoria municipal publicada el 27 de mayo de 2016; alcance histórico para tercer semestre.",
+    "modalidad_anio": "Padre Hurtado; ficha municipal de entrega",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -8677,20 +8729,22 @@
       "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
       "recuperacion": null
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://portal.mph.cl/?p=11935"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Padre Hurtado; ficha municipal de entrega",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El enlace del expediente agota tiempo de acceso.",
+    "limitaciones": "No se recuperó convocatoria actual específica ni fecha final; no se infiere cierre por acceso fallido.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar aviso desde portal municipal y tabla de beneficios propios."
   },
   {
     "candidato": "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d",
@@ -8699,7 +8753,7 @@
     "nombre": "Beca Municipal para Estudiantes de Educación Superior Lota",
     "institucion": "Municipalidad de Lota",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca de Pasajes de Lota: identidad y requisitos de la ficha municipal de julio de 2023; continuidad del apoyo al transporte acreditada en 2025. Confirmación documental histórica del programa, sin certificar la convocatoria 2026.",
+    "modalidad_anio": "Lota; Beca de Pasajes; trámite2023 y entrega2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
@@ -8717,20 +8771,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://lota.cl/2026/04/",
+      "https://www.lotatransparente.cl/index.php?a=2023&action=plantillas_generar_plantilla&ia=71453&ig=115&m=7",
+      "https://lota.cl/juntos-fortalecemos-lota-colcura-y-chivilingo/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Lota; Beca de Pasajes; trámite2023 y entrega2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La tabla DIDECO identifica pasajes para superior con entrevista social y documentos; noticias abril2026 acreditan277beneficiarios.",
+    "limitaciones": "Todo el año describe la fila general de ayudas sociales, no demuestra convocatoria permanente de pasajes. La entrega no acredita fecha final.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar llamado y bases de pasajes2026 sin usar calendario JUNAEB."
   },
   {
     "candidato": "785adf6fb6623ffd37230cbe0eaaa3ad1eaa0cb173382028b4bf8886a8c479ed",
@@ -8739,7 +8797,7 @@
     "nombre": "Beca Municipal de Educación Superior Algarrobo",
     "institucion": "Municipalidad de Algarrobo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Algarrobo: Aporte Económico Municipal 2026",
+    "modalidad_anio": "Algarrobo; Aporte Económico Municipal 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md",
@@ -8756,20 +8814,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://munialgarrobo.cl/postulaciones-aporte-economico-municipal-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Algarrobo; Aporte Económico Municipal 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Noticia oficial 11 marzo admite recepción durante marzo y abril 2026; enumera documentos de estudios y evaluación social.",
+    "limitaciones": "No fija día final; no se inventa 30 abril. Movilidad/combustible tiene plazo propio distinto.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar formulario o bases con día final del aporte estudiantil."
   },
   {
     "candidato": "795ecb1745d45294aac3defc740c3992abf826901fa0ea33e1d5432d5790e2fe",
@@ -8813,7 +8873,7 @@
     "nombre": "Beca Pedro Aguirre Cerda",
     "institucion": "Municipalidad de Calle Larga",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales históricas del programa identificado por Transparencia Activa; no acredita convocatoria vigente.",
+    "modalidad_anio": "Calle Larga; Pedro Aguirre Cerda",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_CALLE_LARGA_2026_10_12.md",
@@ -8830,20 +8890,22 @@
         "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.transparencia.callelarga.cl/Archivos/DeptoSocial/6.-Becas/Beca%20Pedro%20Aguirre%20Cerda/programa%20BECA%20PEDRO%20AGUIRRE%20CERDA.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Calle Larga; Pedro Aguirre Cerda",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Programa PDF no es accesible y búsqueda dirigida no recupera llamado actual.",
+    "limitaciones": "No confundir nombre del premio con municipalidad Pedro Aguirre Cerda y su beca 2026.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar reglamento del programa de Calle Larga y convocatoria propia."
   },
   {
     "candidato": "7a22e3022ef6d47d689330d988119c5395f8ed9e2a0fc8f8a5bc3fd0efc75cb5",
@@ -8936,7 +8998,7 @@
     "nombre": "Beca Municipal de Educación Superior",
     "institucion": "Municipalidad de Peumo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad y datos públicos esenciales de la convocatoria municipal 2025; no confirma vigencia 2026",
+    "modalidad_anio": "Peumo; afiche histórico 2025",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md",
@@ -8953,20 +9015,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://mpeumo.cl/page/2/?paged=2",
+      "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Peumo; afiche histórico 2025",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La búsqueda actual recupera enlace a beneficiarios; el expediente es una imagen de marzo 2025.",
+    "limitaciones": "No se certificó lectura visual del afiche ni una fecha de recepción 2026.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer afiche original y contrastar nueva convocatoria en DIDECO."
   },
   {
     "candidato": "7a5baf654548340776c10708c375147c5e4c10ec8eb4c807b1eaf646e42df921",
@@ -9016,7 +9081,7 @@
     "nombre": "Beca Educación Superior",
     "institucion": "Municipalidad de Cartagena",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Educación Superior de Cartagena; bases 2025 y Cuenta Pública gestión 2025, páginas 32 y 216. Confirmación histórica de la naturaleza monetaria y elegibilidad; importe 2025 desconocido.",
+    "modalidad_anio": "Cartagena; requisitos Beca Educación Superior 2025",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md",
@@ -9035,20 +9100,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://cms.municipalidadcartagena.cl/uploads/REQUISITOS_Y_DOCUMENTOS_A_PRESENTAR_BECAS_MUNICIPALES_2025_0d01e13d4a.pdf",
+      "https://drive.google.com/file/d/1uuP1pliYswd0nuv5ShRJYYfuOk46M_Rn/view",
+      "https://cms.municipalidadcartagena.cl/noticias/742"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Cartagena; requisitos Beca Educación Superior 2025",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "PDF distingue requisitos superiores de otras becas; residencia 5 años, RSH40–80 y notas5/5,5.",
+    "limitaciones": "No contiene calendario utilizable en los pasajes recuperados ni llamado 2026. Convenio AIEP de prácticas es otro trámite.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar llamado anual y bases con fecha específica."
   },
   {
     "candidato": "7b3ebc5e68996d6c9229a763c6605eefb780f314ad66e1d35ff46f285150e91d",
@@ -9101,7 +9170,7 @@
     "nombre": "Beca Municipal de Educación Superior La Cisterna",
     "institucion": "Municipalidad de La Cisterna",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ficha municipal sin convocatoria anual identificada",
+    "modalidad_anio": "La Cisterna; resultados Educación Superior 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_SEGUNDO_50.md",
@@ -9118,20 +9187,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.cisterna.cl/noticias/ya-estan-disponibles-los-resultados-de-la-beca-de-educacion-superior-2026-de-la-cisterna",
+      "https://www.cisterna.cl/paginas/beneficios-sociales-y-apoyos-sociales-directos-nan"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "La Cisterna; resultados Educación Superior 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Noticia oficial 10 agosto identifica aporte único y resultados de quienes postularon.",
+    "limitaciones": "No informa calendario de recepción; resultados deportivos julio son otra modalidad.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Localizar llamado previo y bases superiores 2026."
   },
   {
     "candidato": "7bef7d41d7b3ee6e69e8c2af55f784beab29a49f3476ff21b09128d34946bae3",
@@ -9223,7 +9295,7 @@
     "nombre": "Beca Municipal de Educación Superior 2026",
     "institucion": "Municipalidad de Portezuelo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Portezuelo: apartado específico Beca Municipal de Enseñanza Superior de la ficha DIDECO; sin año explícito.",
+    "modalidad_anio": "Portezuelo; beca municipal superior",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -9240,20 +9312,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://mportezuelo.cl/Inicio/becas-y-beneficios-estudiantiles/",
+      "https://mportezuelo.cl/Inicio/direccion-de-desarrollo-comunitario/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Portezuelo; beca municipal superior",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "DIDECO describe ayuda compatible con beneficios estatales e incompatible con hogar Valle del Itata.",
+    "limitaciones": "Duración por semestres de carrera no acredita recepción permanente; banner de renovación no entrega fecha en texto.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer aviso de renovación y llamado de nuevos separadamente."
   },
   {
     "candidato": "7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92",
@@ -9304,7 +9379,7 @@
     "nombre": "Beca Municipal Estudiantil Rauco",
     "institucion": "Municipalidad de Rauco",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Existencia histórica del proceso municipal Beca Estudiantil 2025; no confirma vigencia ni datos atribuidos a 2026.",
+    "modalidad_anio": "Rauco; enlace de Arauco incongruente",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_RAUCO_2026_10_14.md",
@@ -9321,20 +9396,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.munirauco.cl/",
+      "https://beca.muniarauco.cl/login/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Rauco; enlace de Arauco incongruente",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El expediente enlaza beca.muniarauco.cl, de otra comuna. Se consultó portal de Rauco y búsqueda municipal actual.",
+    "limitaciones": "No se atribuyen a Rauco los plazos ni requisitos de Arauco. Se conserva UUID mientras se resuelve fuente correcta.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar reglamento de Rauco y corregir enlace solo al verificar identidad."
   },
   {
     "candidato": "7ecb41780801fc76ae8f0422dc040ca1c205ffd7b3ea0a62914e914336195151",
@@ -9343,7 +9421,7 @@
     "nombre": "Beca Municipal de Educación Superior El Bosque",
     "institucion": "Municipalidad de El Bosque",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Reglas esenciales 2026 de Beca Municipal de Educación Superior El Bosque; sin certificar convocatoria abierta",
+    "modalidad_anio": "El Bosque; beca superior 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_96.md",
@@ -9360,20 +9438,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.municipalidadelbosque.cl/noticias-elbosque/el-bosque-inicia-las-postulaciones-a-la-beca-municipal-de-educacion-superior-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "El Bosque; beca superior 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La ficha oficial acredita 400.000 y RSH70; describe trámite digital, pero no publica fechas. Enlace becamunicipal devuelve404.",
+    "limitaciones": "Falta fecha final y no se considera abierta por redacción del anuncio.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar plataforma actual o bases con calendario."
   },
   {
     "candidato": "7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529",
@@ -9505,7 +9585,7 @@
     "nombre": "Beca Estudiantil Municipal Los Sauces",
     "institucion": "Municipalidad de Los Sauces",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UCSC, catastro municipal, página 83: Beca Municipal Los Sauces.",
+    "modalidad_anio": "Los Sauces; beca municipal frente a residencia 2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -9522,20 +9602,24 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.munilossauces.cl/noticias/postulacion-a-residencia-estudiantil-2026-estudia--22964",
+      "https://www.munilossauces.cl/noticias/20479",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Los Sauces; beca municipal frente a residencia 2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Portal publica residencia Estudia Tranquilo para Temuco 16–18 febrero 2026 y listado beca municipal2025 con error de documentos.",
+    "limitaciones": "No se acreditó que la residencia sea la modalidad monetaria histórica del UUID.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer bases municipales y precisar relación con residencia; no trasladar su plazo."
   },
   {
     "candidato": "81c96cf6918051e9300d2fc634f368dcfad7af34d0a832cc20ff316ed5d30b8d",
@@ -9620,7 +9704,7 @@
     "nombre": "Beca de Educación Superior San Javier",
     "institucion": "Municipalidad de San Javier",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "San Javier: PLADECO 2026–2029; alcance de la modalidad para egresados del Liceo Manuel Montt descrita en el diagnóstico.",
+    "modalidad_anio": "San Javier; beca universitaria; ejecución 2025",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -9637,20 +9721,24 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://imsanjavier.cl/wp-content/uploads/2026/06/Cuenta-publica-2025.pdf",
+      "https://imsanjavier.cl/comunicados/",
+      "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "San Javier; beca universitaria; ejecución 2025",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Cuenta 2025 describe 45.000 mensuales diez meses pagados en tres cuotas para estudiantes superiores vulnerables.",
+    "limitaciones": "El archivo subido en2026 sigue siendo gestión2025; no acredita cierre de convocatoria2026.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer reglamento enlazado en Comunicados y aviso anual."
   },
   {
     "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
@@ -9659,7 +9747,7 @@
     "nombre": "Subsidio de Pasajes La Serena",
     "institucion": "Municipalidad de La Serena",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Programa municipal histórico publicado para 2023: Pasajes terrestres con fines de estudio. Confirma el apoyo, su finalidad y requisitos sociales esenciales; no una convocatoria abierta ni un pago mensual.",
+    "modalidad_anio": "La Serena; pasajes con fines de estudios",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_PASAJES_LA_SERENA_2026_10_12.md",
@@ -9676,20 +9764,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://transparencia.laserena.cl/ptransact.php?n=146",
+      "https://transparencia.laserena.cl/ptransact.php?n=104"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "La Serena; pasajes con fines de estudios",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Tabla específica admite pasajes para retorno a clases o al hogar previa evaluación social y alumno regular/asistencia.",
+    "limitaciones": "Horario de oficina y tabla2023 actualizada no acreditan postulación permanente ni cierre actual.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Contrastar regla de recepción del subsidio con acto vigente."
   },
   {
     "candidato": "838212eb4961778ab10d91be3dbaa66b2b0b2b843aad6d0d657f29335422ce90",
@@ -9866,7 +9957,7 @@
     "nombre": "Beca de Arancel Municipal para la Educación Superior",
     "institucion": "Municipalidad de Lampa",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca de Arancel Municipal Lampa; noticia oficial 2023.",
+    "modalidad_anio": "Lampa; arancel; edición histórica2023",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -9883,20 +9974,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://lampa.cl/noticias/asi-puedes-postular-a-la-beca-de-arancel-municipal-para-la-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Lampa; arancel; edición histórica2023",
     "apertura": null,
-    "cierre": null,
+    "cierre": "2023-07-28",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Se coteja esta variante con noticia25julio2023: recepción hasta28julio para egresados y segundo año.",
+    "limitaciones": "Conservar UUID separado de163; ordenanza2025–2028 no reabre automáticamente convocatoria histórica.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer ordenanza y llamado anual actual."
   },
   {
     "candidato": "86678953008adbda7594a249d7f78734a8dba7c0801e2471fd2729d0276f4848",
@@ -10064,7 +10157,7 @@
     "nombre": "Beca Municipal de Apoyo a la Educación Superior Colina",
     "institucion": "Municipalidad de Colina",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Programa de Colina 2024; decreto y programa adjunto.",
+    "modalidad_anio": "Colina; programa superior2024; página8",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10081,20 +10174,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://transparencia.colina.cl/archivos/cf73484-0779.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Colina; programa superior2024; página8",
+    "apertura": "2024-04-22",
+    "cierre": "2024-05-03",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Programa anexo a decreto E-1261/2024 fija solicitudes22abril–3mayo2024; diferencia arancel anual y ayudas.",
+    "limitaciones": "El plan de funcionarios2026 no aplica a esta ficha estudiantil. Solo cierre histórico acreditado.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar convocatoria actual del programa estudiantil."
   },
   {
     "candidato": "87d6aa970a561466fd44f04f7b7865cc9bd5fce4e881c859b56585a1dc72e6cc",
@@ -10103,7 +10198,7 @@
     "nombre": "Beca de Educación Superior",
     "institucion": "Municipalidad de Las Condes",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ficha oficial Beca enseñanza superior consultada el 6 de octubre de 2026.",
+    "modalidad_anio": "Las Condes; subsidio arancel superior2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10120,20 +10215,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://subsidios.lascondes.cl/",
+      "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/",
+      "https://transparencia.lascondes.cl/transparencia/tramites-organismo/direccion_desarrollo_comunitario.html"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Las Condes; subsidio arancel superior2026",
+    "apertura": "2026-05-22",
+    "cierre": "2026-06-05",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Se coteja esta variante con convocatoria superior22mayo–5junio2026 y landing cerrada.",
+    "limitaciones": "No usar cierre de Escolaridad ni Empleo Juvenil; conservar UUID separado de200.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar ventana superior y comparar variantes sin fusionarlas."
   },
   {
     "candidato": "883c8be7ade5b6bbec6d0a6eabaeafe0a97e21fa3fca0fe53b7e108bcf2cd676",
@@ -10142,7 +10241,7 @@
     "nombre": "Beca de Educación Superior Ilustre Municipalidad de Quintero",
     "institucion": "Municipalidad de Quintero",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Ilustre Municipalidad de Quintero; comunicación municipal de junio de 2026.",
+    "modalidad_anio": "Quintero; Educación Superior2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10159,20 +10258,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.muniquintero.cl/index.php/2026/06/30/municipalidad-de-quintero-invierte-mas-de-110-millones-de-pesos-en-becas-para-692-estudiantes-de-educacion-superior/",
+      "https://www.muniquintero.cl/index.php/2026/06/15/municipio-entregara-692-becas-para-estudiantes-de-la-educacion-superior-junto-con-ello-concejo-municipal-no-54-arueba-convenio-noche-digna/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Quintero; Educación Superior2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Noticias junio acreditan692becas y dos coberturas semestrales según liceo de egreso.",
+    "limitaciones": "25junio es ceremonia y10junio acuerdo de concejo; no son cierre de recepción.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar bases y plazo del proceso superior2026."
   },
   {
     "candidato": "88a8806e5d161a246eb5452ed695d4ccc6f2edf335e2d5e8802641dd3677f759",
@@ -10298,7 +10400,7 @@
     "nombre": "Beca Estudiantes de Educación Superior Ilustre Municipalidad de Calama",
     "institucion": "Municipalidad de Calama",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Categoría de educación superior; ordenanza municipal de Calama 2024.",
+    "modalidad_anio": "Calama; ordenanza002/2024 y entrega2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -10315,20 +10417,22 @@
         "error": "HTTPError: HTTP Error 400: Bad Request"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.municipalidadcalama.cl/resources/docs/ORDENANZA_N%C2%B0_002%2C_18.04.2024_ARCH_%282%29.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Calama; ordenanza002/2024 y entrega2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Norma prevé asignación anual por DIDECO y presupuesto; portal25septiembre2026 informa124beneficiarios.",
+    "limitaciones": "No fija cierre de la convocatoria superior actual; fechas de normativa o entrega no lo sustituyen.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar llamado y formulario superior2026."
   },
   {
     "candidato": "8a8ef87bbef0ebebe9e0ff064ed8b4adec8599541d91f9b3bd32543e04c6387b",
@@ -10413,7 +10517,7 @@
     "nombre": "Beca de Educación Superior Curanilahue",
     "institucion": "Municipalidad de Curanilahue",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UCSC, página 38: Beca de Educación Superior Curanilahue; comunicación municipal de entrega 2026.",
+    "modalidad_anio": "Curanilahue; catastro municipal",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10431,20 +10535,24 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2026/01/Becas-Municipales-2026.pdf",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+      "https://munichue.com/wp/municipalidad-de-curanilahue-entrego-166-becas-a-estudiantes-que-cursan-su-educacion-superior/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Curanilahue; catastro municipal",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Búsqueda en dominio curanilahue.cl no recuperó convocatoria específica; el catastro UCSC2026 no pudo abrirse.",
+    "limitaciones": "Falta verificar dominio municipal actual y contenido del reglamento; no se da por agotada búsqueda oficial.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Buscar municuranilahue y recuperar fila/llamado municipal."
   },
   {
     "candidato": "8dacec815c407a63695707c2b6210a347fb63578abefbcc0d54c326997c2da72",
@@ -10453,7 +10561,7 @@
     "nombre": "Beca Municipal Educación Superior Buin",
     "institucion": "Municipalidad de Buin",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Buin: guía DIDECO 2024, sección Enseñanza Superior página 6",
+    "modalidad_anio": "Buin; guía DIDECO2024",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_50.md",
@@ -10470,20 +10578,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.buin.cl/wp-content/uploads/2024/12/DIDECO-GUIA-DE-ORIENTACION-USUARIO.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Buin; guía DIDECO2024",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La guía define beca superior para quienes no obtuvieron gratuidad y diferencia otros programas sociales.",
+    "limitaciones": "No se acreditó recepción2026 ni cierre; condiciones del reglamento2013 no sustituyen automáticamente guía posterior.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer íntegramente fila de plazos y acto anual antes de publicar."
   },
   {
     "candidato": "8dbb7049d6aeb6617fc578fc19cd4be0d45510a6849fb2f70301818de51a9870",
@@ -10533,7 +10643,7 @@
     "nombre": "Beca Municipal de Educación Superior La Serena",
     "institucion": "Municipalidad de La Serena",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Acuerdo municipal de La Serena de 2013; modalidad específica SIPEE.",
+    "modalidad_anio": "La Serena; acta898 de2013",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10550,20 +10660,22 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "La Serena; acta898 de2013",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Acta corresponde a sesión6marzo2013; se contrastó con subsidio de pasajes del portal, otro beneficio.",
+    "limitaciones": "No se certificó una convocatoria2026 del aporte superior de esta ficha ni el apartado completo del acta.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer apartado específico de beca en acta y buscar continuidad municipal actual."
   },
   {
     "candidato": "8ed2b2d2a1272943fbbd233a07879095f7ad17f6e1d212adb8d3fe45cb87a8f9",
@@ -10572,7 +10684,7 @@
     "nombre": "Beca Municipal de Educación Superior Hualqui",
     "institucion": "Municipalidad de Hualqui",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "UCSC, catastro municipal, página 70: Beca Municipal Hualqui.",
+    "modalidad_anio": "Hualqui; becas propias y apoyos JUNAEB",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10589,20 +10701,23 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.munihualqui.cl/oficina-de-la-discapacidad-articulo-dideco-1611603978.html",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Hualqui; becas propias y apoyos JUNAEB",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Ficha de Discapacidad enumera Más Cerca de la Gente e Instituto Diego Portales separadas de ayudas estatales.",
+    "limitaciones": "No hay plazo único aplicable al rótulo genérico del UUID; el horario de atención no certifica recepción anual.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Precisar modalidad y localizar bases/calendario propio."
   },
   {
     "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
@@ -10611,7 +10726,7 @@
     "nombre": "Beca de Movilización del Concejo Municipal de Fresia",
     "institucion": "Municipalidad de Fresia",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad corregida a Beca de Movilización del Concejo Municipal de Fresia; cobertura y condiciones esenciales documentadas para gestión 2023, no vigencia 2026.",
+    "modalidad_anio": "Fresia; Movilización Concejo Municipal",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_FRESIA_MOVILIZACION_2026_10_12.md",
@@ -10628,20 +10743,22 @@
         "error": "ValueError: Documento supera el límite de descarga; requiere lectura específica"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Fresia; Movilización Concejo Municipal",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Cuenta de gestión2023 devuelve403; búsqueda recupera servicios y PLADECO pero no calendario de esta modalidad.",
+    "limitaciones": "El asesoramiento JUNAEB no sustituye beca de movilización propia.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar cuenta, reglamento de movilización y llamado2026."
   },
   {
     "candidato": "8f72bd261a65f6a0f96ae5fdb6f71ca3c9adbe103a2bb40688cdf39452f8f617",
@@ -10650,7 +10767,7 @@
     "nombre": "Beca Municipal Educación Superior Cobquecura",
     "institucion": "Municipalidad de Cobquecura",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Bases municipales Cobquecura 2025; texto íntegro leído en el visor web.",
+    "modalidad_anio": "Cobquecura; Aporte Superior2025",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10667,20 +10784,22 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://cobquecura.cl/wp-content/uploads/BASES-APORTE-EDUCACION-SUPERIOR-ANO-2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Cobquecura; Aporte Superior2025",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Se recuperó identificación y alcance del reglamento2025; PDF directo devuelve403 al buscar calendario.",
+    "limitaciones": "No se leyó apartado final ni se acredita nueva edición2026.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar articulado de calendario por otra ruta y llamado2026."
   },
   {
     "candidato": "909ff9418bcda015e2cdc50d480bc97b841d5ebd15ec2d5f4594701d3ad370b6",
@@ -10689,7 +10808,7 @@
     "nombre": "Beca Municipal de Asistencialidad Chaiten",
     "institucion": "Municipalidad de Chaiten",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Municipalidad de Chaitén: convocatoria de 5 de marzo de 2024.",
+    "modalidad_anio": "Chaitén; beca asistencial; fuente histórica2024",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -10706,20 +10825,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.municipalidadchaiten.cl/abierto-se-encuentra-el-proceso-de-postulacion-a-beca-municipal/",
+      "https://www.municipalidadchaiten.cl/se-encuentra-abierto-el-proceso-de-postulacion-a-la-beca-municipal-2024/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Chaitén; beca asistencial; fuente histórica2024",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La URL original ahora sirve contenido de apuestas ajeno a la municipalidad; noticia2023 todavía identifica cierre31marzo2023.",
+    "limitaciones": "Integridad del enlace comprometida; no certificar condiciones actuales ni tomar subvención organizacional2026 como beca.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar copia oficial íntegra y nuevo llamado estudiantil."
   },
   {
     "candidato": "9128e1de1498d39f011b4d87625c566b6fdcca045e04ae41361a03fa18ab2ae8",
@@ -10728,7 +10850,7 @@
     "nombre": "Beca Municipal Educación Superior Quinchao",
     "institucion": "Municipalidad de Quinchao",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca Municipal de Educación Superior de Quinchao; reglamento de 7 de julio de 2026, nueve páginas leídas. Páginas 2–3 verificadas visualmente.",
+    "modalidad_anio": "Quinchao; reglamento de beca municipal",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACIONES_MUNICIPALES_2026_10_12.md",
@@ -10746,20 +10868,23 @@
         "error": "HTTPError: HTTP Error 500: Internal Server Error"
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.municipalidadquinchao.cl/cquinchao/reglamento-beca-municipal/",
+      "https://www.municipalidadquinchao.cl/cquinchao/wp-content/uploads/2026/07/reglamento_beca_municipal.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Quinchao; reglamento de beca municipal",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Apertura de reglamento devuelve403 y búsqueda dirigida no recupera llamado2026.",
+    "limitaciones": "No se certificó lectura del documento ni desaparición del programa.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar reglamento por transparencia y convocatoria específica."
   },
   {
     "candidato": "9158a99e8cd09a9f3dfc3365d2fae183fd36d0a6c7e0d44a3f12ff3fb750e65a",
@@ -10994,7 +11119,7 @@
     "nombre": "Beca Municipal de Educación Superior Puerto Varas",
     "institucion": "Municipalidad de Puerto Varas",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Beca estudiantil para primer ingreso; reglamento Puerto Varas aprobado en septiembre de 2022.",
+    "modalidad_anio": "Puerto Varas; reglamento escaneado y sistema online2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_30_2026_10_07.md",
@@ -11011,20 +11136,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.ptovaras.cl/noticias/puerto-varas-presento-sus-avances-en-inteligencia-artificial-en-encuentro-nacional-de-alcaldes",
+      "https://ptovaras.cl/documentos/becas-municipales/DEC%203914%20REGLAMENTO%20BECAS%20MUNICIPALES.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Puerto Varas; reglamento escaneado y sistema online2026",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "El reglamento de12páginas no tiene texto extraíble; noticia septiembre2026 acredita plataforma de solicitud.",
+    "limitaciones": "No se leyó visualmente el calendario; presupuesto70millones no acredita apertura.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Leer escaneo y calendario de plataforma actual."
   },
   {
     "candidato": "92e4ad7a0560c3a831af47c3412ee193c26746839a7b4fbc7e949183226b0c26",
@@ -11068,7 +11196,7 @@
     "nombre": "Beca de Enseñanza Superior Maullin",
     "institucion": "Municipalidad de Maullin",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ordenanza Maullín de 2000, artículos 13–19; texto obtenido de BCN.",
+    "modalidad_anio": "Maullín; ordenanza de enseñanza superior actualizada",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -11085,20 +11213,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://munimaullin.cl/ordenanzas/",
+      "https://munimaullin.cl/documents/",
+      "https://www.bcn.cl/leychile/navegar?idNorma=156710"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Maullín; ordenanza de enseñanza superior actualizada",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "BCN no carga; índice oficial publica decreto3128 de17diciembre2025 para beca superior.",
+    "limitaciones": "Falta leer decreto y llamado2026; deportiva2026 tiene otro objeto.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Descargar y leer3128; registrar calendario explícito por modalidad."
   },
   {
     "candidato": "93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8",
@@ -11107,7 +11239,7 @@
     "nombre": "Beca Municipal Educación Superior Tolten",
     "institucion": "Municipalidad de Tolten",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Identidad, cobertura estudiantil, beneficio y requisitos esenciales de la Beca Municipal histórica de Toltén, acreditada en publicaciones de 2013 y bases de 2020. No acredita convocatoria ni vigencia 2026.",
+    "modalidad_anio": "Toltén; antecedente2013",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_TOLTEN_2026_10_21.md",
@@ -11126,20 +11258,24 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://web.archive.org/web/20130627091130id_/http://www.tolten.cl/muni/index.php/noticias/destacados/171-beca-municipal-2013",
+      "https://web.archive.org/web/20200929235222id_/http://www.tolten.cl/web/index.php/noticias/98-becas-municipales",
+      "https://web.archive.org/web/20200929232349id_/http://www.tolten.cl/web/images/becas/REQUISITOS_POSTULACIONES_BECA_MUNICIPAL_AO_2020.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Toltén; antecedente2013",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "La búsqueda municipal actual no recupera llamado específico; antecedente del expediente solo está en archivo web2013.",
+    "limitaciones": "No acredita recepción actual y no se considera cerrada por antigüedad.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Recuperar aviso original archivado y normativa/llamado actual del municipio."
   },
   {
     "candidato": "9480220484dc43773469aff604795c0a6d27b18e8441b28a834f6689efe60da3",
@@ -11192,7 +11328,7 @@
     "nombre": "Beca Municipal de Educación Superior San Esteban",
     "institucion": "Municipalidad de San Esteban",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Ficha municipal Beca San Esteban 2026.",
+    "modalidad_anio": "San Esteban; enseñanza superior2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -11209,20 +11345,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://www.munisanesteban.cl/noticias/municipio-abre-proceso-de-postulacion-online-a-bec-22973",
+      "https://www.munisanesteban.cl/actividades/beca-ensenanza-superior-san-esteban-2026-162189"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "San Esteban; enseñanza superior2026",
+    "apertura": "2026-02-16",
+    "cierre": "2026-03-31",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Actividad oficial identifica inicio16febrero y término31marzo2026; noticia distingue beca superior de pasajes.",
+    "limitaciones": "Descripción genérica dice revisión de bases en marzo; para fecha se usa calendario explícito de actividad2026, no el premio deportivo.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar calendario y contrastar bases si se aplican condiciones."
   },
   {
     "candidato": "952273dbc59fe30412742f7c1045027f2bc54fd6a8a42a3e97a1c3c6066fdb66",
@@ -11231,7 +11370,7 @@
     "nombre": "Beca Municipal Educación Superior",
     "institucion": "Municipalidad de El Tabo",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "El Tabo: reglamento 2025, páginas escaneadas 2–7 leídas mediante OCR; importe y requisitos cotejados visualmente. Alcance de continuidad universitaria y técnica.",
+    "modalidad_anio": "El Tabo; convocatoria superior2026",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
@@ -11248,20 +11387,23 @@
         "error": null
       }
     },
-    "revision_individual_realizada": false,
-    "clasificacion_nueva": null,
-    "fuentes": [],
-    "fecha_consulta": null,
-    "referencia": null,
-    "apertura": null,
-    "cierre": null,
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://eltabo.cl/municipalidad-de-el-tabo-abre-proceso-de-postulacion-a-becas-para-estudiantes-de-educacion-superior/",
+      "https://eltabo.cl/wp-content/uploads/2025/03/Reglamento-y-requisitos-Becas-2025.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "El Tabo; convocatoria superior2026",
+    "apertura": "2026-03-09",
+    "cierre": "2026-04-17",
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "No investigada todavía en esta auditoría. La etiqueta previa no sustituye la lectura.",
-    "limitaciones": "Vigencia actual sin comprobar.",
-    "propuesta_cambio": "No modificar la BD sin evidencia.",
+    "razonamiento": "Noticia7marzo2026 fija recepción desde9marzo hasta17abril; formularios2026 distinguen edición del reglamento2025.",
+    "limitaciones": "No se usa el escaneo2025 ilegible como fuente del plazo ni se considera vigente por redacción del anuncio.",
+    "propuesta_cambio": "Conservar UUID y originales; no activar sin recepción actual aplicable y cierre acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer expediente y buscar convocatoria oficial actual."
+    "siguiente_accion": "Registrar ventana y conservar enlace actual."
   },
   {
     "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",

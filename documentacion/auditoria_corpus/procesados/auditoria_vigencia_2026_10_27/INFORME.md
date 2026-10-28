@@ -68,4 +68,10 @@ Longaví y Cañete separan primera recepción de renovación. Quemchi distingue 
 
 Se conserva como inconclusa la revisión de Los Muermos: el portal incorpora texto ajeno de apuestas junto a su antigua tabla de trámites. Esa contaminación impide tratarlo como evidencia íntegra de una convocatoria actual. Las tablas de Olivar conservan el año 2014 aunque su actualización indique 2026. Ninguna de estas limitaciones ocasionó descartes ni eliminación de registros.
 
+## Séptimo lote: otras 50 investigaciones
+
+Avance acumulado: **356 investigadas; 218 con conclusión documental limitada; 138 inconclusas; 110 sin recorrer**. Quilleco publica nueva ordenanza vigente desde 2026 y recepción del 1 al 31 de marzo. El Tabo recibió solicitudes del 9 de marzo al 17 de abril. Colina solo permite acreditar una ventana de 2024; San Esteban identifica su calendario superior 2026 separado de pasajes y deporte. No se hicieron cambios remotos en este bloque.
+
+La ficha de Rauco enlaza al portal de Arauco, otra comuna: se mantiene inconclusa mientras se obtiene su fuente correcta. La URL histórica de Chaitén ahora muestra apuestas; no se usa como prueba de vigencia ni como evidencia de que la beca desapareció. El Bosque publica beneficio y requisitos 2026, pero no fecha final y su enlace de postulación devuelve 404. Esos problemas quedan localizados por UUID y con siguiente acción; no se presentan como revisiones concluyentes.
+
 No se inició P13/P14, no se promovió producción y no se contrataron recursos. La auditoría **no está concluida**; el inventario muestra el trabajo que falta y los casos inconclusos con sus rutas de investigación.

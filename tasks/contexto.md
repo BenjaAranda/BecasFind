@@ -8,7 +8,7 @@ El usuario reabre expresamente la investigación individual de vigencia según `
 
 Dos bloques de datos aplicados con restauración verificada: Deportiva UNAB (314) activada con cierre 31/01/2027; UAlumni (518) conserva inactividad y registra cierre 25/09/2026; Alimentación UANDES (445) activada exclusivamente para ingreso 2027, cierre 28/01/2027. Estado posterior: siete activas, 58 cierres vencidos y 463 cierres desconocidos en BD. El inventario fijo de investigación sigue siendo 466. Evidencia en `aplicacion_lote_01.json` y `aplicacion_lote_02.json`. No repetir esos SQL: las tres versiones ahora son 1.
 
-Al sexto lote: 306 fichas investigadas; 194 con conclusión limitada al alcance documentado; 112 inconclusas y 160 sin recorrer. No equivale a 194 becas abiertas. Los hallazgos individuales y los siguientes pasos están en el inventario; la investigación continúa. Juan Gómez Millas y Bicentenario tienen calendario FUAS 2027 acreditado, pero su aplicación sigue pendiente de conciliación de condiciones.
+Al séptimo lote: 356 fichas investigadas; 218 con conclusión limitada al alcance documentado; 138 inconclusas y 110 sin recorrer. No equivale a 218 becas abiertas. Los hallazgos individuales y los siguientes pasos están en el inventario; la investigación continúa. Juan Gómez Millas y Bicentenario tienen calendario FUAS 2027 acreditado, pero su aplicación sigue pendiente de conciliación de condiciones.
 
 El catálogo público con estados claros fue aprobado en este chat. Sus cambios de interfaz/API están en preparación local, separados de los commits de auditoría; no están desplegados. Prioridad actual: investigación documental y aplicación de correcciones individualmente probadas. No confundir el código local con el estado remoto.
 
