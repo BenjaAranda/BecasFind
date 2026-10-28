@@ -22,4 +22,8 @@ Compilación de frontend y lint aprobados. Suite Maven existente aprobada; nueva
 
 El auditor genérico de interfaz detecta deuda previa del conjunto de la aplicación y contratos de controles nativos no formalizados. No equivale a un fallo de compilación ni se declara conformidad integral con esa guía. La verificación de esta entrega se limita al comportamiento ejecutado.
 
-Esta implementación local no acredita despliegue remoto. No se ejecutan importaciones masivas ni P13/P14 por este cambio.
+## Preview desplegada el 28/10/2026
+
+Frontend `719646b` en [preview del catálogo](https://becasfind-pf8timp72-benjatlou13-1274.vercel.app/explorar); backend `37ae1a1` en Oracle. Se verificaron las 528 fichas sin sesión y todas las instituciones de sus filtros: 323. La búsqueda «Funcionarios» devuelve dos fichas en catálogo y una en abiertas; una ficha sin fechas abre su detalle sin pedir sesión. El error durante el reinicio se recuperó con Reintentar.
+
+La conciliación de los 528 registros y todos sus campos contra el corte anterior no detectó cambios. Antes de cada sustitución se comprobó respaldo y restauración aislada de 14 tablas. Orígenes anteriores, destino de correo y contenedores previos conservados; protección Vercel vigente. Evidencia en `P12_CATALOGO_PREVIEW_2026_10_28.json` y recibo remoto en `P12_CATALOGO_APLICACION_2026_10_28.json`. No se ejecutaron importaciones masivas ni P13/P14.

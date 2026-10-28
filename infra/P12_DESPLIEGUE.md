@@ -1,5 +1,7 @@
 # P12: despliegue de prueba y selección del catálogo
 
+Actualización del 28/10/2026: catálogo público con estados desplegado en [nueva preview](https://becasfind-pf8timp72-benjatlou13-1274.vercel.app/explorar), frontend `719646b` y backend `37ae1a1`. Acceso anónimo a 528 fichas, selector de 323 instituciones y filtro de siete postulaciones abiertas verificados. Las 528 filas permanecen idénticas; no se activaron masivamente ni se modificaron datos. Respaldo y restauración previa comprobados. Evidencias: `documentacion/P12_CATALOGO_PREVIEW_2026_10_28.json` y `documentacion/P12_CATALOGO_APLICACION_2026_10_28.json`. Los apartados siguientes conservan el corte histórico del 27/10. No se promovió producción ni se iniciaron P13/P14.
+
 Actualizado el 27 de octubre de 2026. Trabajo operativo completado en la preview; controles finales de GitHub asociados al commit de esta entrega. P13/P14 no iniciadas. El usuario asignó el control de P12 a este chat; no ejecutar cambios concurrentes ni repetir importaciones.
 
 **Ampliación de esta entrega:** el usuario solicitó una auditoría individual nueva de las 466 fichas cuya vigencia no quedó acreditada. Está en curso según `tasks/PROMPT_AUDITORIA_VIGENCIA.md`; sus hallazgos y aplicación se registran en `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/`. El cierre técnico de preview no cierra esta investigación. Los conteos siguientes son el corte previo, hasta conciliación posterior documentada.
