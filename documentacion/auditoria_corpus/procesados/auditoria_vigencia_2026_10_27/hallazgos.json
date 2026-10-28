@@ -6753,18 +6753,24 @@
   },
   {
     "id_beca": 415,
-    "clasificacion_nueva": "REVISION_INCONCLUSA",
-    "modalidad_anio": "Concón; reglamento DA164",
-    "referencia": "Concón; reglamento DA164",
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "modalidad_anio": "Concón; reglamento DA164; lectura visual páginas2–4",
+    "referencia": "Página3; títuloIII; artículos10–11",
     "fuentes": [
       "https://www.transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Reglamento/DA164.pdf"
     ],
     "fecha_consulta": "2026-10-27",
-    "razonamiento": "PDF oficial de cinco páginas está escaneado sin texto; búsqueda2026 recupera regulación deportiva DA718 distinta.",
-    "limitaciones": "No se certificó lectura íntegra del escaneo; deporte no sustituye educación superior.",
-    "siguiente_accion": "Leer visualmente DA164 y localizar convocatoria superior2026.",
+    "razonamiento": "Lectura visual confirma ayuda de primera matrícula de pregrado. Artículo10 vincula recepción al periodo de matrícula de cada institución; artículo11 permite documentación tardía justificada por hasta una semana.",
+    "limitaciones": "Reglamento histórico sin acto anual2026 contrastado. No convertir excepción documental en prórroga general ni fijar fecha única para todas las instituciones.",
+    "siguiente_accion": "Recuperar convocatoria2026 y calendario de matrícula de la institución correspondiente; comprobar modificaciones posteriores.",
     "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
-    "estado_aplicacion": "SIN_CAMBIO"
+    "estado_aplicacion": "SIN_CAMBIO",
+    "historial_revision": [
+      {
+        "clasificacion_previa": "REVISION_INCONCLUSA",
+        "motivo": "Se supera la falta de lectura del escaneo mediante render y lectura visual de páginas2–4. Sigue pendiente vigencia anual."
+      }
+    ]
   },
   {
     "id_beca": 416,

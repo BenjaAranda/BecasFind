@@ -14993,7 +14993,7 @@
     "nombre": "Beca Municipal Educación Superior Concon",
     "institucion": "Municipalidad de Concon",
     "estado_editorial": "CONFIRMADA_ESENCIAL",
-    "modalidad_anio": "Concón; reglamento DA164",
+    "modalidad_anio": "Concón; reglamento DA164; lectura visual páginas2–4",
     "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
     "evidencia_anterior": {
       "informe": "CONFIRMACIONES_MUNICIPALES_2026_10_12.md",
@@ -15011,21 +15011,27 @@
       }
     },
     "revision_individual_realizada": true,
-    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
     "fuentes": [
       "https://www.transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Reglamento/DA164.pdf"
     ],
     "fecha_consulta": "2026-10-27",
-    "referencia": "Concón; reglamento DA164",
+    "referencia": "Página3; títuloIII; artículos10–11",
     "apertura": null,
     "cierre": null,
     "hora_cierre": null,
     "zona_horaria": null,
-    "razonamiento": "PDF oficial de cinco páginas está escaneado sin texto; búsqueda2026 recupera regulación deportiva DA718 distinta.",
-    "limitaciones": "No se certificó lectura íntegra del escaneo; deporte no sustituye educación superior.",
+    "razonamiento": "Lectura visual confirma ayuda de primera matrícula de pregrado. Artículo10 vincula recepción al periodo de matrícula de cada institución; artículo11 permite documentación tardía justificada por hasta una semana.",
+    "limitaciones": "Reglamento histórico sin acto anual2026 contrastado. No convertir excepción documental en prórroga general ni fijar fecha única para todas las instituciones.",
     "propuesta_cambio": "Conservar originales y UUID. No activar sin cierre actual aplicable acreditado.",
     "estado_aplicacion": "SIN_CAMBIO",
-    "siguiente_accion": "Leer visualmente DA164 y localizar convocatoria superior2026."
+    "siguiente_accion": "Recuperar convocatoria2026 y calendario de matrícula de la institución correspondiente; comprobar modificaciones posteriores.",
+    "historial_revision": [
+      {
+        "clasificacion_previa": "REVISION_INCONCLUSA",
+        "motivo": "Se supera la falta de lectura del escaneo mediante render y lectura visual de páginas2–4. Sigue pendiente vigencia anual."
+      }
+    ]
   },
   {
     "candidato": "c9e5274d62f345099433f6aa2842dea701f6f16e263b004517d3c3c0edbc8f06",
