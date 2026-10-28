@@ -42,6 +42,16 @@ El tercer lote incorpora otras 50 investigaciones de instituciones de educación
 
 Avance documental al terminar estos lotes: **155 de 466 investigadas; 101 con clasificación documental concluyente para el alcance descrito, 54 inconclusas y 311 todavía sin investigar**. Las conclusiones incluyen ausencia de calendario publicado o calendarios por modalidad; no equivalen a 101 convocatorias abiertas. No se aplicaron cambios adicionales a Oracle durante los lotes segundo y tercero. El inventario conserva las limitaciones, el campo no publicado y la siguiente acción por ficha. La investigación de la cohorte completa continúa pendiente.
 
+## Cuarto lote y segunda aplicación
+
+Se incorporan 51 investigaciones de UVM, UMAG, UCSH, UBO, UPLA, PUCV, UAH, UC Temuco, ULagos y UNAP. UMAG enumera expresamente las cinco modalidades investigadas en su calendario actualizado: recepción enero y marzo–abril 2026. UCSH Don Bosco recibió solicitudes 5–19 de octubre de 2026. ULagos distingue el cierre de becas del cierre FAS; el llamado enumera Alimentación Interna, Trayectoria Formativa y Delia Domínguez. PAI UAH 2026 recibió solicitudes en septiembre de 2025. Las búsquedas de otras convocatorias no se usaron para convertir esos plazos en una edición nueva.
+
+Avance acumulado: **206 investigadas; 129 con conclusión limitada al alcance documentado, 77 inconclusas y 260 sin investigar**. No se declara concluida la auditoría.
+
+Después de contrastar las condiciones de Alimentación UANDES con Económica 2027 se aplicó únicamente la corrección de la ficha 445: recepción 19/10/2026–28/01/2027; mismo UUID; versión 1. Su calendario de ingreso no certifica la recepción interna por Banner de estudiantes antiguos. El beneficio conserva los montos diferenciados según BAES y el uso exclusivo en campus.
+
+Respaldo privado `pre-catalogo-20261028T015421Z-599baf0e.dump`, restauración aislada de 14 tablas y transacción con guardas comprobados. La conciliación de las 528 filas contra el bloque anterior detectó únicamente el cambio previsto en 445; conservó todos los UUID. Listado, filtro por nombre y detalle HTTPS aprobados. Recibo: `aplicacion_lote_02.json`. **Estado real posterior: 528 conservadas; 7 activas; 58 con cierre vencido; 463 sin cierre registrado.** En la cohorte auditada hay dos activaciones aplicadas y una corrección de calendario cerrado; ninguna eliminación.
+
 Si aparece una postulación explícitamente permanente, la propuesta es conservar su calendario sin fecha de cierre artificial y mostrarla en el catálogo informativo con la etiqueta correspondiente. Publicarla dentro del filtro de postulaciones abiertas o recomendarla como vigente requeriría una autorización específica para modificar BR-VIGENCIA. Esa regla no se cambia en esta auditoría. El catálogo público con estados fue aprobado previamente, pero su implementación local sigue separada y no desplegada.
 
 No se inició P13/P14, no se promovió producción y no se contrataron recursos. La auditoría **no está concluida**; el inventario muestra el trabajo que falta y los casos inconclusos con sus rutas de investigación.
