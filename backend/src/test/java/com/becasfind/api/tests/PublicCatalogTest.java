@@ -25,6 +25,17 @@ class PublicCatalogTest extends BaseTest {
             assertEquals(false, data.get("estadoActiva"));
             assertTrue(java.util.Set.of("FECHAS_POR_CONFIRMAR", "EN_REVISION").contains(data.get("estadoPostulacion")));
             assertNull(data.get("fechaCierrePostulacion"));
+            var institution = jdbc.queryForMap("select i.id_institucion,i.rut from instituciones i join becas b on b.id_institucion=i.id_institucion where b.id_beca=1");
+            try {
+                jdbc.update("update instituciones set rut='IMP-CATALOGO-TEST' where id_institucion=?", institution.get("id_institucion"));
+                var institutions = get("/api/instituciones", null, Map.class);
+                assertEquals(200, institutions.getStatusCode().value());
+                var options = (java.util.List<?>) institutions.getBody().get("data");
+                assertTrue(options.stream().anyMatch(option -> ((Map<?, ?>) option).get("idInstitucion").toString().equals(institution.get("id_institucion").toString())));
+                assertFalse(institutions.getBody().toString().contains("IMP-CATALOGO-TEST"));
+            } finally {
+                jdbc.update("update instituciones set rut=? where id_institucion=?", institution.get("rut"), institution.get("id_institucion"));
+            }
             var response = post("/api/becas/catalogo/buscar", null, Map.of("page", 0, "size", 100), Map.class);
             assertEquals(200, response.getStatusCode().value());
             assertTrue(response.getBody().toString().contains(approved.toString()));

@@ -12,6 +12,7 @@ public interface InstitucionRepository extends JpaRepository<Institucion, Long> 
 
     @org.springframework.data.jpa.repository.Query("select i from Institucion i where i.rut not like 'IMP-%' "
             + "or exists (select b.idBeca from Beca b where b.institucion = i and b.estadoActiva = true "
-            + "and b.fechaCierrePostulacion is not null)")
-    java.util.List<Institucion> findPublicCatalog();
+            + "and b.fechaCierrePostulacion is not null) "
+            + "or exists (select b.idBeca from Beca b where b.institucion = i and b.publicId in :publicIds)")
+    java.util.List<Institucion> findPublicCatalog(@org.springframework.data.repository.query.Param("publicIds") java.util.Set<java.util.UUID> publicIds);
 }

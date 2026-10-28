@@ -26,17 +26,19 @@ public class CatalogoServiceImpl implements CatalogoService {
     private final TipoBecaRepository tipoBecaRepository;
     private final TipoInstitucionRepository tipoInstitucionRepository;
     private final InstitucionRepository institucionRepository;
+    private final com.becasfind.api.services.CatalogoPublico catalogoPublico;
 
     public CatalogoServiceImpl(RegionRepository regionRepository,
                                ComunaRepository comunaRepository,
                                TipoBecaRepository tipoBecaRepository,
                                TipoInstitucionRepository tipoInstitucionRepository,
-                               InstitucionRepository institucionRepository) {
+                               InstitucionRepository institucionRepository, com.becasfind.api.services.CatalogoPublico catalogoPublico) {
         this.regionRepository = regionRepository;
         this.comunaRepository = comunaRepository;
         this.tipoBecaRepository = tipoBecaRepository;
         this.tipoInstitucionRepository = tipoInstitucionRepository;
         this.institucionRepository = institucionRepository;
+        this.catalogoPublico = catalogoPublico;
     }
 
     @Override
@@ -90,7 +92,7 @@ public class CatalogoServiceImpl implements CatalogoService {
     @Override
     @Transactional(readOnly = true)
     public List<InstitucionDTO> findAllInstituciones() {
-        return (isAdmin() ? institucionRepository.findAll() : institucionRepository.findPublicCatalog()).stream()
+        return (isAdmin() ? institucionRepository.findAll() : institucionRepository.findPublicCatalog(catalogoPublico.getPublicIds())).stream()
                 .map(this::toInstitucionDTO)
                 .collect(Collectors.toList());
     }
