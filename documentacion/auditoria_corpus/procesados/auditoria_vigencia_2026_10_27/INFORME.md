@@ -34,7 +34,13 @@ Estado de la BD después del bloque: **528 conservadas, 6 activas, 58 con cierre
 
 ## Continuación y decisiones de producto
 
-El segundo lote aborda 50 fichas municipales, incluidas fuentes históricas o de acceso difícil. No se reduce el alcance a las activables. Sus decisiones se incorporan solo después de investigar cada ficha; las filas aún no investigadas permanecen identificadas como tales.
+El segundo lote incorpora 50 investigaciones municipales. Hay cierres 2026 documentados en Quilicura (31/05), Hijuelas (14/04 a las 14:00), San Antonio (12/04), Vichuquén y San Vicente (31/03), y Primavera (13/03 a las 13:00). Panquehue solo permite acreditar un cierre histórico de 2024. Arauco distingue canal online y presencial; Ovalle distingue ingreso y renovación. Ninguno de estos cierres se interpreta como desaparición del programa.
+
+Quilicura exigió leer visualmente las bases escaneadas: su página de calendario acredita 4–31 de mayo de 2026. Los textos de cursos anteriores de la portada no se usaron para sustituir esas bases. Melipeuco, Lautaro, Tomé y Melipilla conservan barreras o contradicciones concretas pendientes; no se certificó el contenido de documentos inaccesibles. Las dos fichas de Tomé, San Joaquín y Chiguayante conservan sus UUID y no se fusionaron por compartir fuente.
+
+El tercer lote incorpora otras 50 investigaciones de instituciones de educación superior. Se detectó una convocatoria de Alimentación UANDES con fechas explícitas 19/10/2026–28/01/2027; su aplicación permanece sin ejecutar hasta conciliar condiciones y copia pública. UChile BAE distingue el calendario FOCES de los cierres por unidad y primer ingreso; Residencia presenta anualidades contradictorias. UDD aclara que admisión directa deportiva y programa de descuentos son procesos distintos. Las ventanas de otros beneficios no se trasladaron a estas fichas.
+
+Avance documental al terminar estos lotes: **155 de 466 investigadas; 101 con clasificación documental concluyente para el alcance descrito, 54 inconclusas y 311 todavía sin investigar**. Las conclusiones incluyen ausencia de calendario publicado o calendarios por modalidad; no equivalen a 101 convocatorias abiertas. No se aplicaron cambios adicionales a Oracle durante los lotes segundo y tercero. El inventario conserva las limitaciones, el campo no publicado y la siguiente acción por ficha. La investigación de la cohorte completa continúa pendiente.
 
 Si aparece una postulación explícitamente permanente, la propuesta es conservar su calendario sin fecha de cierre artificial y mostrarla en el catálogo informativo con la etiqueta correspondiente. Publicarla dentro del filtro de postulaciones abiertas o recomendarla como vigente requeriría una autorización específica para modificar BR-VIGENCIA. Esa regla no se cambia en esta auditoría. El catálogo público con estados fue aprobado previamente, pero su implementación local sigue separada y no desplegada.
 

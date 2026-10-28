@@ -51,8 +51,11 @@ def main():
                    inconclusas=sum(x['clasificacion_nueva'] == 'REVISION_INCONCLUSA' for x in findings),
                    clasificaciones=dict(Counter(x['clasificacion_nueva'] for x in findings)),
                    aplicacion=dict(Counter(x['estado_aplicacion'] for x in findings)),
+                   activadas=sum(x.get('activacion_aplicada') is True for x in findings),
+                   activables=sum(x.get('activable_acreditada') is True for x in findings),
+                   pendientes_de_aplicar=sum(x['estado_aplicacion'] == 'PENDIENTE' for x in findings),
                    auditoria_concluida=False,
-                   limite='No certifica lecturas de filas aún no investigadas. La aplicación remota exige recibo y conciliación, no se infiere de la clasificación.')
+                   limite='Leídas individualmente incluye investigaciones inconclusas y no implica lectura íntegra de cada expediente. Activable exige valoración explícita adicional al calendario; no se infiere de su clasificación. La aplicación remota exige recibo y conciliación.')
     (FOLDER / 'inventario.json').write_text(json.dumps(rows, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     (FOLDER / 'avance.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     buffer = io.StringIO(newline='')

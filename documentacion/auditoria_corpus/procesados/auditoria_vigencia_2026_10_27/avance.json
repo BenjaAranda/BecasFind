@@ -2,22 +2,25 @@
   "cohorte": 466,
   "fuente_inicial": "documentacion/auditoria_corpus/procesados/despliegue_p12/seleccion_publicacion_2026_10_27.json",
   "sha256_fuente": "89b6049dcdf6e0ecf33fb11ec67fdabd014898708331babcdc3a8d672c123663",
-  "leidas_individualmente": 55,
-  "sin_revisar": 411,
-  "resueltas": 43,
-  "inconclusas": 12,
+  "leidas_individualmente": 155,
+  "sin_revisar": 311,
+  "resueltas": 101,
+  "inconclusas": 54,
   "clasificaciones": {
-    "CALENDARIO_POR_MODALIDAD": 19,
-    "SIN_CALENDARIO_PUBLICADO": 19,
-    "REVISION_INCONCLUSA": 12,
-    "CERRADA_CONFIRMADA": 2,
-    "VIGENTE_CON_CIERRE_CONFIRMADO": 3
+    "CALENDARIO_POR_MODALIDAD": 35,
+    "SIN_CALENDARIO_PUBLICADO": 47,
+    "REVISION_INCONCLUSA": 54,
+    "CERRADA_CONFIRMADA": 15,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 4
   },
   "aplicacion": {
-    "SIN_CAMBIO": 51,
+    "SIN_CAMBIO": 151,
     "APLICADA": 2,
     "PENDIENTE": 2
   },
+  "activadas": 1,
+  "activables": 1,
+  "pendientes_de_aplicar": 2,
   "auditoria_concluida": false,
-  "limite": "No certifica lecturas de filas aún no investigadas. La aplicación remota exige recibo y conciliación, no se infiere de la clasificación."
+  "limite": "Leídas individualmente incluye investigaciones inconclusas y no implica lectura íntegra de cada expediente. Activable exige valoración explícita adicional al calendario; no se infiere de su clasificación. La aplicación remota exige recibo y conciliación."
 }
