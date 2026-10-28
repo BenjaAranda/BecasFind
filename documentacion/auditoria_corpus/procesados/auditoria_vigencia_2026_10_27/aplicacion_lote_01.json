@@ -1,0 +1,29 @@
+{
+  "fecha_santiago": "2026-10-27",
+  "capturado_utc": "2026-10-28T01:29:55.65519+00:00",
+  "respaldo_privado": "pre-catalogo-20261028T012824Z-56ae0d43.dump",
+  "restauracion_aislada_verificada": true,
+  "tablas_restauradas_y_conciliadas": 14,
+  "sql_sha256": "f887ebc60191dad51abe4f6094be9b8d28e93b38d7828eee260ca2920e2695e1",
+  "snapshot_posterior_sha256": "2695c3bf1668d8c4b55e6513b4bedc928f62b03e37fe21f31aef323e27d72579",
+  "total_becas": 528,
+  "uuid_conservados": 528,
+  "fichas_sin_diferencias_contra_corte_anterior": 526,
+  "fichas_modificadas": [314, 518],
+  "eliminaciones": 0,
+  "activaciones": 1,
+  "activas_en_bd": 6,
+  "cierres_vencidos_en_bd": 58,
+  "cierres_desconocidos_en_bd": 464,
+  "version_posterior": {"314": 1, "518": 1},
+  "verificacion_https": {
+    "listado_total_publico": 6,
+    "detalle_uuid": "a721fbc7-5b58-46db-ac88-5999638e9c38",
+    "apertura": "2026-09-01",
+    "cierre": "2027-01-31",
+    "filtro_texto": "Deportiva UNAB",
+    "resultados_filtro": 1,
+    "resultado": "APROBADO"
+  },
+  "limite": "Cambios exclusivamente de datos. No se desplegaron los cambios locales del catálogo público ni se modificó la regla de vigencia. No hubo cambios de cuentas, correo ni infraestructura."
+}

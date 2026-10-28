@@ -1,0 +1,861 @@
+[
+  {
+    "id_beca": 6,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "https://admision.ucn.cl/proceso-de-admision/calendario-de-admision/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Distinción Excelencia Académica",
+    "modalidad_anio": "Distinción Excelencia Académica",
+    "razonamiento": "Ingreso 2027; asignación automática por mérito, sin solicitud independiente.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Comprobar calendario de selección y matrícula 2027 aplicable al premio."
+  },
+  {
+    "id_beca": 41,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "https://admision.ucn.cl/proceso-de-admision/calendario-de-admision/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Plan de Escolaridad Segura",
+    "modalidad_anio": "Plan de Escolaridad Segura",
+    "razonamiento": "Incorporación durante matrícula; cobertura condicionada al fallecimiento del sostenedor.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Vincular la incorporación al calendario de matrícula; no confundirla con el siniestro."
+  },
+  {
+    "id_beca": 81,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "https://admision.ucn.cl/proceso-de-admision/calendario-de-admision/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Alimentación",
+    "modalidad_anio": "Alimentación",
+    "razonamiento": "Solicitud al matricularse; cupos limitados y posible beca o préstamo.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar calendario de matrícula y modalidad beca frente a préstamo."
+  },
+  {
+    "id_beca": 192,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucn.cl/becas-y-ayudas/becas-y-beneficios-ucn/",
+      "https://admision.ucn.cl/proceso-de-admision/calendario-de-admision/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Alojamiento",
+    "modalidad_anio": "Alojamiento",
+    "razonamiento": "Solicitud en matrícula; cupos y evaluación para residencias de Antofagasta y Coquimbo.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar sede, cupos y calendario de matrícula correspondiente."
+  },
+  {
+    "id_beca": 18,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Universidad de Talca",
+    "modalidad_anio": "Beca Universidad de Talca",
+    "razonamiento": "Premio ligado al ranking y selección de ingreso; la ficha no fija días de solicitud.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Localizar resolución anual de asignación de este beneficio."
+  },
+  {
+    "id_beca": 281,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca al más alto puntaje promedio",
+    "modalidad_anio": "Beca al más alto puntaje promedio",
+    "razonamiento": "Reconoce al mejor puntaje matriculado; no se publica cierre independiente.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar resolución de asignación y calendario de matrícula de ingreso."
+  },
+  {
+    "id_beca": 286,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca de arancel para pedagogías",
+    "modalidad_anio": "Beca de arancel para pedagogías",
+    "razonamiento": "Solicitud en primer año y renovación condicionada; sin fechas en esta ficha.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar convocatoria de Bienestar para nuevas solicitudes de pedagogías."
+  },
+  {
+    "id_beca": 372,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/",
+      "https://www.utalca.cl/noticias/beca-abate-molina-beneficia-a-comunidad-utalina/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Abate Molina",
+    "modalidad_anio": "Beca Abate Molina",
+    "razonamiento": "Hijos de funcionarios; puede solicitarse en cualquier año de carrera, sin plazo público definido.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar instrucciones de Bienestar; cualquier año de carrera no significa recepción permanente."
+  },
+  {
+    "id_beca": 437,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca a los mejores puntajes promedio regionales",
+    "modalidad_anio": "Beca a los mejores puntajes promedio regionales",
+    "razonamiento": "Premio regional vinculado a ingreso; sin calendario autónomo publicado.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar resolución de asignación para la cohorte de ingreso."
+  },
+  {
+    "id_beca": 459,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca de apoyo para mujeres ingenieras",
+    "modalidad_anio": "Beca de apoyo para mujeres ingenieras",
+    "razonamiento": "Beneficio de primer año para carreras que exigen M2; sin cierre publicado.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Consultar convocatorias públicas de Bienestar para este apoyo específico."
+  },
+  {
+    "id_beca": 487,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.utalca.cl/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca de excelencia deportiva",
+    "modalidad_anio": "Beca de excelencia deportiva",
+    "razonamiento": "Acceso por Talento Deportivo; requiere trayectoria regional y representación institucional.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Leer convocatoria específica de Talento Deportivo y su beca; no trasladar fechas generales."
+  },
+  {
+    "id_beca": 75,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Otras becas / Excelencia Académica",
+    "modalidad_anio": "Otras becas / Excelencia Académica",
+    "razonamiento": "Beneficio por rendimiento no postulable; no necesita un cierre de solicitud ficticio.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Proponer representación de asignación automática, separada de postulaciones abiertas."
+  },
+  {
+    "id_beca": 174,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca USS / Becas de Admisión",
+    "modalidad_anio": "Beca USS / Becas de Admisión",
+    "razonamiento": "El cuerpo conserva primer semestre 2026 aunque el título del portal diga 2027.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Localizar condiciones 2027 de Beca USS antes de modificar la anualidad."
+  },
+  {
+    "id_beca": 268,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Titulados USS",
+    "modalidad_anio": "Beca Titulados USS",
+    "razonamiento": "Se solicita durante matrícula de primera carrera nueva; rebaja institucional condicionada.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Identificar la matrícula de ingreso aplicable; no asignar un cierre único a todas las vías."
+  },
+  {
+    "id_beca": 303,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Deportiva",
+    "modalidad_anio": "Beca Deportiva",
+    "razonamiento": "Vía especial Deportista; para centralizada señala apertura en octubre sin día de cierre.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Revisar formulario deportivo y calendario de cada vía, sin enviar datos."
+  },
+  {
+    "id_beca": 305,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Hijo de Egresados",
+    "modalidad_anio": "Beca Hijo de Egresados",
+    "razonamiento": "Solicitud con parentesco acreditado al matricularse; no publica plazo autónomo.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar matrícula por vía y sede para la convocatoria correspondiente."
+  },
+  {
+    "id_beca": 430,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Talento Líder",
+    "modalidad_anio": "Beca Talento Líder",
+    "razonamiento": "La sección específica indica postulación cerrada, aunque permanezca el formulario informativo.",
+    "limitaciones": "La fuente dice cerrada pero no precisa el día de cierre de esta convocatoria; no inventarlo.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar nuevo llamado; el cierre observado no prueba que el programa haya terminado."
+  },
+  {
+    "id_beca": 469,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Familiar",
+    "modalidad_anio": "Beca Familiar",
+    "razonamiento": "Beneficio para familiares matriculados el mismo año; sin días de recepción publicados.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar instructivo de acreditación familiar y sus plazos para estudiantes antiguos y nuevos."
+  },
+  {
+    "id_beca": 16,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Deportista Destacado",
+    "modalidad_anio": "Deportista Destacado",
+    "razonamiento": "Premio al mayor ponderado de esa vía; la página de becas sigue identificada como admisión 2026.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar bases de beca 2027 con la vía deportiva específica."
+  },
+  {
+    "id_beca": 98,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Deportista en Formación Élite",
+    "modalidad_anio": "Deportista en Formación Élite",
+    "razonamiento": "Modalidad distinta de Élite: hasta 50% del arancel; no traslado entre categorías.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar cobertura y calendario 2027 de Formación Élite en admisión especial."
+  },
+  {
+    "id_beca": 232,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Deportista Élite",
+    "modalidad_anio": "Deportista Élite",
+    "razonamiento": "Modalidad con matrícula y arancel; no es la beca Formación Élite.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Obtener calendario aplicable y reglas de beca para la cohorte 2027."
+  },
+  {
+    "id_beca": 276,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Premio Puntaje Máximo PAES 2026",
+    "modalidad_anio": "Premio Puntaje Máximo PAES 2026",
+    "razonamiento": "Reglas y egreso identifican admisión 2026; no acredita una nueva oferta 2027.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar publicación de becas de admisión 2027 para este premio."
+  },
+  {
+    "id_beca": 343,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Premio a la Excelencia para Primer Año 2026",
+    "modalidad_anio": "Premio a la Excelencia para Primer Año 2026",
+    "razonamiento": "Cobertura solo primer año; requisitos de selección 2026. No reutilizar PAES ni año.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar tabla y requisitos de la edición 2027."
+  },
+  {
+    "id_beca": 377,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://usm.cl/admision/becas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Ingreso Programa Propedéutico Ex Umbra in Solem",
+    "modalidad_anio": "Ingreso Programa Propedéutico Ex Umbra in Solem",
+    "razonamiento": "Beneficio ligado a ingreso especial y primera preferencia; sin cierre propio.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Revisar proceso Propedéutico y asignación de beca; no usar calendario deportivo."
+  },
+  {
+    "id_beca": 89,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Bachillerato Internacional",
+    "modalidad_anio": "Beca Bachillerato Internacional",
+    "razonamiento": "Beneficio por diploma y convenio; no publica fechas independientes.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Revisar convenio aplicable al diploma y proceso de ingreso de esa modalidad."
+  },
+  {
+    "id_beca": 236,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Distinción a las Trayectorias Educativas",
+    "modalidad_anio": "Beca Distinción a las Trayectorias Educativas",
+    "razonamiento": "La sección restringe expresamente las pruebas al proceso 2026.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar condiciones DTE UDP 2027; no trasladar el calendario estatal a esta beca interna."
+  },
+  {
+    "id_beca": 290,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca de Cesantía para Estudiantes Vespertinos",
+    "modalidad_anio": "Beca de Cesantía para Estudiantes Vespertinos",
+    "razonamiento": "Apoyo por cesantía involuntaria; seis mensualidades son cobertura y no plazo para solicitar.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar instructivo de solicitud por contingencia para estudiantes vespertinos."
+  },
+  {
+    "id_beca": 404,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca puntaje PAES 2026",
+    "modalidad_anio": "Beca puntaje PAES 2026",
+    "razonamiento": "Tabla expresa 2026; no respalda nuevos descuentos 2027.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar tabla 2027 de este beneficio antes de publicar como vigente."
+  },
+  {
+    "id_beca": 435,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Deportista Destacado",
+    "modalidad_anio": "Beca Deportista Destacado",
+    "razonamiento": "Trayectoria, prueba técnica y formulario específicos; no publica días de cierre.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Revisar formulario sin enviar datos y bases deportivas; no usar cierre de otra vía."
+  },
+  {
+    "id_beca": 449,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Convenios de Descuento",
+    "modalidad_anio": "Convenios de Descuento",
+    "razonamiento": "Diferencia CFT ITC y DIPRECA, con poblaciones elegibles distintas.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar convenio y matrícula en vez de dar un cierre común a todos los convenios."
+  },
+  {
+    "id_beca": 15,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.uautonoma.cl/content/uploads/2024/01/Aprueba-Reglamento-de-Becas-y-Creditos.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Artículo 8.c; página 4",
+    "modalidad_anio": "Artículo 8.c; página 4",
+    "razonamiento": "Excelencia Académica tiene asignación por autoridad; reglamento no fija cierre de solicitud.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar resolución anual del porcentaje y cohorte; no sustituirla por Beca PAES."
+  },
+  {
+    "id_beca": 170,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca deportiva, líderes o científica",
+    "modalidad_anio": "Beca deportiva, líderes o científica",
+    "razonamiento": "Publica condiciones deportivas y FUAS; calendario FUAS no es plazo de la beca interna.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar recepción y evaluación deportiva 2027 específica."
+  },
+  {
+    "id_beca": 273,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Copago Cero",
+    "modalidad_anio": "Beca Copago Cero",
+    "razonamiento": "Tabla y encabezado académico siguen 2026; matrícula/CAE son requisitos y no una nueva convocatoria.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar tabla Copago Cero 2027 y su proceso de asignación."
+  },
+  {
+    "id_beca": 527,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Hermanos estudiantes regulares",
+    "modalidad_anio": "Hermanos estudiantes regulares",
+    "razonamiento": "Descuento por parentesco acreditado; no hay plazo de solicitud en la sección.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar instructivo anual de acreditación de hermanos."
+  },
+  {
+    "id_beca": 518,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://postgrados.uautonoma.cl/2da-convocatoria-ualumni-2026/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Preguntas 5, 6 y 7 / segunda convocatoria 2026",
+    "modalidad_anio": "UAlumni segunda convocatoria 2026",
+    "razonamiento": "Solicitud 4–25 septiembre; evaluación y resultados posteriores no amplían recepción.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Registrar calendario documentado vencido; conservar inactiva.",
+    "estado_aplicacion": "APLICADA",
+    "siguiente_accion": "Comprobar siguiente convocatoria UAlumni sin confundirla con matrícula de diplomados.",
+    "apertura": "2026-09-04",
+    "cierre": "2026-09-25",
+    "version_posterior": 1
+  },
+  {
+    "id_beca": 171,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Deportiva",
+    "modalidad_anio": "Beca Deportiva",
+    "razonamiento": "Evaluación técnica y curricular; la Comisión determina el tope. Sin cierre publicado.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar convocatoria deportiva por sede y su formulario específico."
+  },
+  {
+    "id_beca": 215,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Filiación",
+    "modalidad_anio": "Beca Filiación",
+    "razonamiento": "Parentesco se acredita al matricularse; es un procedimiento ligado a matrícula.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar proceso de matrícula y plazo de acreditación para cada ingreso."
+  },
+  {
+    "id_beca": 266,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca U. Central",
+    "modalidad_anio": "Beca U. Central",
+    "razonamiento": "Asignación por promedio PAES y simulador para admisión centralizada.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar tabla del simulador y fechas de matrícula 2027; simulación no es adjudicación."
+  },
+  {
+    "id_beca": 222,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.ucentral.cl/ucentral/site/docs/20191218/20191218100048/informativo.pdf",
+      "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Informativo histórico 2019; ficha actual de primer año",
+    "modalidad_anio": "Informativo histórico 2019; ficha actual de primer año",
+    "razonamiento": "El PDF anterior devuelve 404; la beca Complementaria actual no demuestra continuidad de aquella modalidad técnica.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar archivo oficial del informativo y una convocatoria de la misma modalidad; no sustituirla por otra beca."
+  },
+  {
+    "id_beca": 166,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Instructivo 2026; página 8: Calendario de Hitos; página 4: requisitos contradictorios",
+    "modalidad_anio": "Requisitos postulación 2026 / Cómo postular",
+    "razonamiento": "El instructivo cierra el 04/01/2026, pero mezcla matrícula/admisión 2025 con convocatoria 2026. Calendario conocido; condiciones y eventual nuevo llamado sin resolver.",
+    "limitaciones": "Se conserva REVISION_INCONCLUSA por contradicción del propio instructivo. No se interpreta como recepción actual.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar fe de erratas o instructivo corregido y llamado posterior al cierre 04/01/2026.",
+    "apertura": "2025-12-08",
+    "cierre": "2026-01-04"
+  },
+  {
+    "id_beca": 224,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Instructivo 2026; página 8: Calendario de Hitos; página 4: requisitos contradictorios",
+    "modalidad_anio": "Requisitos postulación 2026 / Cómo postular",
+    "razonamiento": "El instructivo cierra el 04/01/2026, pero mezcla matrícula/admisión 2025 con convocatoria 2026. Calendario conocido; condiciones y eventual nuevo llamado sin resolver.",
+    "limitaciones": "Se conserva REVISION_INCONCLUSA por contradicción del propio instructivo. No se interpreta como recepción actual.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar fe de erratas o instructivo corregido y llamado posterior al cierre 04/01/2026.",
+    "apertura": "2025-12-08",
+    "cierre": "2026-01-04"
+  },
+  {
+    "id_beca": 349,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://proceso-de-admision.unab.cl/becas-y-beneficios-para-estudiar-en-la-unab-guia-para-financiar-tu-carrera/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Fomento Regional / Admisión 2027",
+    "modalidad_anio": "Beca Fomento Regional / Admisión 2027",
+    "razonamiento": "La guía actual confirma el beneficio para Viña del Mar; no fija cierre propio.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar certificado y condiciones del simulador para la modalidad regional."
+  },
+  {
+    "id_beca": 351,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://proceso-de-admision.unab.cl/becas-y-beneficios-para-estudiar-en-la-unab-guia-para-financiar-tu-carrera/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Académica Andrés Bello / Admisión 2027",
+    "modalidad_anio": "Beca Académica Andrés Bello / Admisión 2027",
+    "razonamiento": "La guía 2027 confirma mérito y selección; el certificado del simulador no garantiza asignación.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar plazo por vía y tabla vigente del simulador antes de activar."
+  },
+  {
+    "id_beca": 314,
+    "clasificacion_nueva": "VIGENTE_CON_CIERRE_CONFIRMADO",
+    "fuentes": [
+      "https://explora.unab.cl/deportes-unab-formacion-apoyo-y-oportunidades-para-compatibilizar-los-estudios-con-el-alto-rendimiento/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Deportiva / Cuándo se postula",
+    "modalidad_anio": "Beca Deportiva UNAB; ingreso 2027",
+    "razonamiento": "Fuente específica 2027 vincula trayectoria, cobertura y recepción del 01/09/2026 al 31/01/2027.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Actualizar fuente y calendario; activar esta modalidad conservando su UUID.",
+    "estado_aplicacion": "APLICADA",
+    "siguiente_accion": "Preparar activación individual con respaldo, guardas y conciliación.",
+    "apertura": "2026-09-01",
+    "cierre": "2027-01-31",
+    "version_posterior": 1
+  },
+  {
+    "id_beca": 36,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2026/01/Convenios-Vigentes-vespertinos-1.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Página 16 del PDF; Holding Walmart Chile",
+    "modalidad_anio": "Página 16 del PDF; Holding Walmart Chile",
+    "razonamiento": "Convenio vespertino específico con matrícula y arancel; no es toda empresa ni todo pregrado.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Precisar validación del convenio y calendario de matrícula vespertino sin extrapolar al diurno."
+  },
+  {
+    "id_beca": 422,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://postgrado.unab.cl/programas/especializacion-en-odontopediatria/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Alumni / Descripción del programa",
+    "modalidad_anio": "Beca Alumni / Descripción del programa",
+    "razonamiento": "Programa 2027 abierto desde agosto 2026; descuento Alumni y cupos anuales, sin cierre de beca.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar cierre de recepción Alumni del programa; marzo es inicio de clases."
+  },
+  {
+    "id_beca": 40,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.aiep.cl/estudiantes/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Preguntas frecuentes de becas / Mérito Académico",
+    "modalidad_anio": "Preguntas frecuentes de becas / Mérito Académico",
+    "razonamiento": "Selección institucional por rendimiento; el portal no publica días de postulación a este beneficio.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar resolución anual de selección por rendimiento; no tratarla como concurso abierto."
+  },
+  {
+    "id_beca": 54,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "fuentes": [
+      "https://www.aiep.cl/admision/becas-y-financiamiento/beneficio-empresas/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Antecedentes / Procedimiento",
+    "modalidad_anio": "Antecedentes / Procedimiento",
+    "razonamiento": "Financiamiento empresarial por órdenes semestrales, una vez matriculado; sin porcentaje único.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Representar obligación empresarial y período por orden; no convertir vencimiento de factura en cierre."
+  },
+  {
+    "id_beca": 173,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://www.aiep.cl/noticias/conoce-a-que-becas-puedes-optar-para-estudiar-en-aiep/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Becas internas / contraste con continuidad AIEP-UNAB",
+    "modalidad_anio": "Becas internas / contraste con continuidad AIEP-UNAB",
+    "razonamiento": "La lista actual no identifica la rebaja Titulado de segunda carrera AIEP; continuidad UNAB es otro beneficio.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar condiciones vigentes de segunda carrera en AIEP; ausencia en lista no demuestra eliminación."
+  },
+  {
+    "id_beca": 442,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.aiep.cl/noticias/conoce-a-que-becas-puedes-optar-para-estudiar-en-aiep/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Becas Hijos de Estudiantes / Padres de Estudiantes",
+    "modalidad_anio": "Becas Hijos de Estudiantes / Padres de Estudiantes",
+    "razonamiento": "La institución conserva ambas modalidades familiares sin calendario utilizable en esta nota.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Revisar condiciones y recepción de cada parentesco; no trasladar el convenio Bomberos."
+  },
+  {
+    "id_beca": 446,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "fuentes": [
+      "https://www.aiep.cl/noticias/conoce-a-que-becas-puedes-optar-para-estudiar-en-aiep/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Beca Deportistas",
+    "modalidad_anio": "Beca Deportistas",
+    "razonamiento": "La nota actual reconoce deportistas; no define ventana ni actualiza porcentajes por categoría.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Buscar reglamento y convocatoria deportiva de la sede; no extrapolar otro beneficio."
+  },
+  {
+    "id_beca": 17,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Cobertura / modalidad II",
+    "modalidad_anio": "Cobertura / modalidad II",
+    "razonamiento": "La modalidad II conserva acreditación 2025, distinta de modalidad I actualizada a 2027.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar folleto 2027 y elegibilidad institucional específica de Nuevo Milenio II."
+  },
+  {
+    "id_beca": 255,
+    "clasificacion_nueva": "VIGENTE_CON_CIERRE_CONFIRMADO",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/preguntas-frecuentes/postulacion",
+      "https://losrios.mineduc.cl/2026/10/08/fuas-2027-ya-esta-abierta-la-postulacion-a-becas-creditos-y-gratuidad-para-la-educacion-superior/",
+      "https://portal.beneficiosestudiantiles.cl/?id_portal=74",
+      "https://www.ucentral.cl/postulacion-fuas-2027/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Postulación para estudiantes de cursos superiores / elegibilidad 2027",
+    "modalidad_anio": "Primera postulación FUAS para asignación 2027; nuevos y antiguos",
+    "razonamiento": "MINEDUC vincula expresamente Juan Gómez Millas al FUAS 2027; ampliación y hora contrastadas con UCEN.",
+    "limitaciones": "Postulación no garantiza adjudicación. Calendario separado de requisitos por institución y carrera.",
+    "propuesta_cambio": "Activación condicionada a conciliación de requisitos 2027 y cierre horario existente.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Preparar actualización individual; conservar límites específicos de elegibilidad y no equiparar FUAS a RSH.",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago"
+  },
+  {
+    "id_beca": 327,
+    "clasificacion_nueva": "VIGENTE_CON_CIERRE_CONFIRMADO",
+    "fuentes": [
+      "https://portal.beneficiosestudiantiles.cl/preguntas-frecuentes/postulacion",
+      "https://losrios.mineduc.cl/2026/10/08/fuas-2027-ya-esta-abierta-la-postulacion-a-becas-creditos-y-gratuidad-para-la-educacion-superior/",
+      "https://portal.beneficiosestudiantiles.cl/?id_portal=74",
+      "https://www.ucentral.cl/postulacion-fuas-2027/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "Postulación para estudiantes de cursos superiores / elegibilidad 2027",
+    "modalidad_anio": "Primera postulación FUAS para asignación 2027; nuevos y antiguos",
+    "razonamiento": "MINEDUC vincula Bicentenario al proceso actual; FAQ 2027 aclara acreditación institucional.",
+    "limitaciones": "Postulación no garantiza adjudicación. Calendario separado de requisitos por institución y carrera.",
+    "propuesta_cambio": "Activación condicionada a conciliación de requisitos 2027 y cierre horario existente.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Contrastar anomalía de acreditación de carreras de la ficha antes de aplicar condiciones no verificadas.",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago"
+  },
+  {
+    "id_beca": 373,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "fuentes": [
+      "https://admision.usach.cl/cupos-acceso-directos",
+      "https://www.admision.usach.cl/trayectoria-educativa",
+      "https://www.ucentral.cl/postulacion-fuas-2027/"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "referencia": "BEA estatal frente a vías de admisión USACH 2027",
+    "modalidad_anio": "BEA estatal frente a vías de admisión USACH 2027",
+    "razonamiento": "La convocatoria FUAS confirma BEA estatal; el acceso especial no equivale a adjudicación ni define modalidad USACH.",
+    "limitaciones": "La lectura acredita solo el alcance descrito; no certifica recepción abierta sin cierre aplicable.",
+    "propuesta_cambio": "Conservar UUID y estado editorial. No activar sin calendario concluyente.",
+    "estado_aplicacion": "SIN_CAMBIO",
+    "siguiente_accion": "Contrastar ficha BEA actual y alcance institucional; no activar una variante heredada sin resolver esa vinculación."
+  }
+]

@@ -2,6 +2,14 @@
 
 Actualizado el 27 de octubre de 2026. Fuente de trabajo: `PLAN_MEJORAS.md`; detalles y evidencia: `infra/P12_DESPLIEGUE.md`. Este chat asume P12 por petición del usuario. No coordinar escrituras concurrentes ni repetir lo aplicado.
 
+## Trabajo activo: auditoría de las 466
+
+El usuario reabre expresamente la investigación individual de vigencia según `tasks/PROMPT_AUDITORIA_VIGENCIA.md`. La selección conservadora anterior no equivale a investigación concluida. Fuente vigente de avance: `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/avance.json`; inventario y evidencia por UUID en esa misma carpeta. No usar «cero pendientes» de P04 para cerrar esta auditoría distinta. No hay autorización para P13/P14 ni cambios masivos de activación.
+
+Primer bloque de datos aplicado con restauración verificada: Deportiva UNAB (314) activada con cierre 31/01/2027; UAlumni (518) conserva inactividad y registra cierre 25/09/2026. Ahora hay seis activas, 58 cierres vencidos y 464 cierres desconocidos en BD; el inventario fijo de investigación sigue siendo 466. Evidencia en `aplicacion_lote_01.json`. No repetir ese SQL: ambas versiones ahora son 1.
+
+El catálogo público con estados claros fue aprobado en este chat. Sus cambios de interfaz/API están en preparación local, separados de los commits de auditoría; no están desplegados. Prioridad actual: investigación documental y aplicación de correcciones individualmente probadas. No confundir el código local con el estado remoto.
+
 ## Estado actual
 
 - P04 cerrada: 568 candidatas; 526 esenciales; dos completas; 40 exclusiones editoriales; cero pendientes editoriales. Los 23 descartes del último cierre son por evidencia insuficiente, no por falsedad.

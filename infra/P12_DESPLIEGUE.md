@@ -2,6 +2,8 @@
 
 Actualizado el 27 de octubre de 2026. Trabajo operativo completado en la preview; controles finales de GitHub asociados al commit de esta entrega. P13/P14 no iniciadas. El usuario asignó el control de P12 a este chat; no ejecutar cambios concurrentes ni repetir importaciones.
 
+**Ampliación de esta entrega:** el usuario solicitó una auditoría individual nueva de las 466 fichas cuya vigencia no quedó acreditada. Está en curso según `tasks/PROMPT_AUDITORIA_VIGENCIA.md`; sus hallazgos y aplicación se registran en `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/`. El cierre técnico de preview no cierra esta investigación. Los conteos siguientes son el corte previo, hasta conciliación posterior documentada.
+
 ## Estado comprobado
 
 | Elemento | Resultado |

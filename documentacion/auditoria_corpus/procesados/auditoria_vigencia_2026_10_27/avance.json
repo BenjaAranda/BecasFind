@@ -1,0 +1,23 @@
+{
+  "cohorte": 466,
+  "fuente_inicial": "documentacion/auditoria_corpus/procesados/despliegue_p12/seleccion_publicacion_2026_10_27.json",
+  "sha256_fuente": "89b6049dcdf6e0ecf33fb11ec67fdabd014898708331babcdc3a8d672c123663",
+  "leidas_individualmente": 55,
+  "sin_revisar": 411,
+  "resueltas": 43,
+  "inconclusas": 12,
+  "clasificaciones": {
+    "CALENDARIO_POR_MODALIDAD": 19,
+    "SIN_CALENDARIO_PUBLICADO": 19,
+    "REVISION_INCONCLUSA": 12,
+    "CERRADA_CONFIRMADA": 2,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 3
+  },
+  "aplicacion": {
+    "SIN_CAMBIO": 51,
+    "APLICADA": 2,
+    "PENDIENTE": 2
+  },
+  "auditoria_concluida": false,
+  "limite": "No certifica lecturas de filas aún no investigadas. La aplicación remota exige recibo y conciliación, no se infiere de la clasificación."
+}

@@ -15,6 +15,8 @@ El cierre de P04 es editorial y no libera automáticamente el catálogo para pub
 
 ## Trabajo restante, en orden
 
+- [ ] Auditoría individual de las 466 fichas sin vigencia acreditada, reabierta el 27/10 por instrucción del usuario: seguir `tasks/PROMPT_AUDITORIA_VIGENCIA.md`. Inventario y avance nuevos en `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/`. La investigación no está cerrada por la anterior selección de publicación.
+
 - [x] Conciliar plan, contexto y método con el cierre editorial; comprobar integridad de índices y `git diff --check`.
 - [x] P12: infraestructura, selección de 528 fichas, cinco convocatorias activas, correo real y recorridos comprobados. Control final de GitHub de esta entrega; evidencia en [P12_DESPLIEGUE.md](infra/P12_DESPLIEGUE.md).
 - [ ] P13, después de P12 y con autorización: completar operación y rollback del destino real, aprovechando las comprobaciones de respaldo/restauración y reinicio ya realizadas; repetirlas solo cuando un cambio o fallo lo justifique.
