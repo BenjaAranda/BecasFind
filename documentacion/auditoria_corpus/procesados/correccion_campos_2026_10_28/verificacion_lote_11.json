@@ -1,0 +1,18 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 11,
+  "categorias_completadas": 10,
+  "filas_conciliadas": 528,
+  "nuevos_tipos": {
+    "10": "Apoyo mixto o varias modalidades",
+    "11": "Articulación académica sin aporte monetario",
+    "12": "Admisión especial sin beca acreditada"
+  },
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T223104Z-93f624c1.dump",
+  "instantaneas_privadas": [
+    "tipos-lote11-antes.json",
+    "tipos-lote11-despues.json"
+  ],
+  "sql_sha256": "6855f171c1e47440c3efbb20a7bc46d4785b642b409a6c3f9989cb1a53f50c62",
+  "advertencia": "SQL ya aplicado; no repetir. No se acreditó ejecución actual ni apertura por añadir categoría."
+}
