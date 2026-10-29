@@ -1,6 +1,6 @@
 # Corrección de campos del catálogo — 28 de octubre de 2026
 
-Se aplicaron cambios en **287 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **286 categorías**: 285 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+Se aplicaron cambios en **356 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **355 categorías**: 354 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
 
 ## Continuación: lote 04
 
@@ -21,15 +21,15 @@ En el lote 03 se reconsultaron las notas municipales de [Copiapó](https://copia
 
 ## Verificación de aplicación
 
-Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los seis SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
+Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los siete SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
 
 Las comparaciones privadas antes/después comprobaron las 528 filas y únicamente los cambios previstos: categoría, beneficio textual en tres fichas y aumento de versión. Las credenciales y respaldos permanecen fuera del repositorio. Los manifiestos guardan las huellas de los SQL y los nombres de los respaldos, sin secretos.
 
-La verificación pública final recorrió las 528 fichas de búsqueda y 290 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_06.json`.
+La verificación pública final recorrió las 528 fichas de búsqueda y 290 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_07.json`.
 
 ## Pendientes reales
 
-**237 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
+**168 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
 
 Prioridades detectadas:
 
@@ -49,4 +49,8 @@ Otras 60 categorías aplicadas: 37 de mantención, 17 de arancel, cinco deportiv
 
 ## Lote 06 — 29 de octubre de 2026
 
-Aplicadas otras 62 categorías: 44 de mantención, 14 de arancel, tres deportivas y una de alimentación. Relectura individual de beneficio y alcance previamente documentados. La vivienda de Santa Bárbara conserva su aporte a cargo del estudiante; no se presume gratuidad. El transporte diario de Fresia y Caldera se clasifica como mantención, sin intercambio académico. Se mantienen fuera las modalidades de Colina y Santa María que necesitan aclarar su finalidad. Comparación privada: 528 UUID preservados y solamente 62 cambios de tipo y versión. Verificación pública: 528 entradas y 290 detalles acumulados. Quedan 237 categorías pendientes. No se alteraron fechas ni estados.
+Aplicadas otras 62 categorías: 44 de mantención, 14 de arancel, tres deportivas y una de alimentación. Relectura individual de beneficio y alcance previamente documentados. La vivienda de Santa Bárbara conserva su aporte a cargo del estudiante; no se presume gratuidad. El transporte diario de Fresia y Caldera se clasifica como mantención, sin intercambio académico. Se mantienen fuera las modalidades de Colina y Santa María que necesitan aclarar su finalidad. Comparación privada: 528 UUID preservados y solamente 62 cambios de tipo y versión. Verificación pública: 528 entradas y 290 detalles acumulados. Quedan 168 categorías pendientes. No se alteraron fechas ni estados.
+
+## Lote 07 — 29 de octubre de 2026
+
+Aplicadas otras 69 categorías: 46 de mantención, 14 de arancel, cuatro deportivas y cinco de alimentación. Se revisó individualmente el alcance y beneficio del expediente previo. Los programas históricos o planificados conservan sus límites; asignar categoría no acredita ejecución ni disponibilidad actual. No se completaron importes individuales desde presupuestos agregados. Comparación privada: 528 UUID preservados y únicamente 69 cambios de tipo y versión. Verificación pública acumulada: 528 entradas y 359 detalles. Quedan 168 categorías pendientes. Fechas y estados sin cambios.

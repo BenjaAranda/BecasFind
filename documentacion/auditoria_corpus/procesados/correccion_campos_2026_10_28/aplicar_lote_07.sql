@@ -1,0 +1,83 @@
+BEGIN;
+SET LOCAL lock_timeout='5s';
+CREATE TEMP TABLE correcciones(id bigint,uuid uuid,version bigint,tipo_anterior bigint,tipo_nuevo bigint) ON COMMIT DROP;
+INSERT INTO correcciones VALUES
+(371,'6f13d587-6739-4cf2-9c4b-abf87db5d90a'::uuid,0,9,7),
+(374,'3465cdb7-f393-4de2-b9e5-cf8fc70c8465'::uuid,0,9,7),
+(378,'21b70095-4dfe-46aa-90ad-c3908ed358a0'::uuid,0,9,7),
+(379,'02db0f19-ae9b-4ee3-bb70-fc882db88331'::uuid,0,9,7),
+(380,'d2244da5-c569-444f-bfcf-3f3c5911828c'::uuid,0,9,7),
+(382,'bdc2bba9-78b3-4de1-8a7d-3f3c7fcd618f'::uuid,0,9,7),
+(385,'3ddcf8c8-2a70-40ca-9632-45e470c8385e'::uuid,0,9,7),
+(386,'7d6eab5d-efc3-4206-9f21-5b31ade95eba'::uuid,0,9,7),
+(388,'0f7fa1b8-a97b-4d3a-bdcb-e5453dd75eb2'::uuid,0,9,7),
+(391,'76dd2495-a281-43f2-a696-aa0353e9501e'::uuid,0,9,7),
+(392,'96d3c47f-d79d-493f-b178-9cfd99714599'::uuid,0,9,7),
+(395,'2a2b3a7d-68cf-41d6-b672-de395587005e'::uuid,0,9,7),
+(398,'f19f3256-cee1-40d0-a193-cda4201cdd59'::uuid,0,9,7),
+(399,'2a43fa46-4a31-4018-9242-9e45bc61e0f1'::uuid,0,9,7),
+(401,'b139e785-c3b1-4611-a537-8a3382c71aad'::uuid,0,9,7),
+(403,'2e77097d-1a77-46ff-b96a-9ebfa81e5036'::uuid,0,9,7),
+(406,'78affd44-3860-4b8c-8e16-d2df7729bbd4'::uuid,0,9,7),
+(407,'e8f3a485-41c5-4b85-a991-cfefd7879b56'::uuid,0,9,7),
+(408,'c98615bb-8a9f-4124-b8aa-96d6e451c581'::uuid,0,9,7),
+(411,'10cdc994-9b07-4f5f-994d-e269c935b2cf'::uuid,0,9,7),
+(413,'dddef2eb-17b8-43b7-a1cc-855b5fe705aa'::uuid,0,9,7),
+(414,'697c276e-0325-469f-a1ba-9a2576a608a3'::uuid,0,9,7),
+(417,'93c1b7f1-5b87-4e40-9568-cd9670c2e64e'::uuid,0,9,7),
+(420,'9e484e32-0f14-42f4-b385-418e1ce29c65'::uuid,0,9,7),
+(421,'e0c5f05d-f641-4bcc-8b11-930f6f21b12f'::uuid,0,9,7),
+(424,'bd16eeb2-e333-48c3-931f-d63e4aee44b9'::uuid,0,9,7),
+(425,'86a972ff-4d96-4866-8e70-af58d0271f31'::uuid,0,9,7),
+(427,'80a979fa-fbf4-4f67-9f7a-af5b6b77e6fb'::uuid,0,9,7),
+(428,'d3a5e7e0-c51a-4851-87e2-a827893bd83c'::uuid,0,9,7),
+(429,'e66bd0e5-eb94-41d4-9dbb-02a5664029d0'::uuid,0,9,7),
+(434,'711ab725-9055-42c3-98a7-87db939611d0'::uuid,0,9,7),
+(436,'94012252-50e7-46d9-a1be-42130fc46942'::uuid,0,9,7),
+(440,'82ef63fe-7a67-4c02-9145-dea0daf8fcf8'::uuid,0,9,7),
+(441,'71d1bd8f-f074-40ad-aac8-80491f02f52e'::uuid,0,9,7),
+(443,'7f4ea8b9-6d21-4b3d-b1c9-9f9878e86995'::uuid,0,9,7),
+(447,'ab635eb3-897f-4358-8b8a-26488351e033'::uuid,0,9,7),
+(448,'c2d34bc4-82a0-44d4-b0b3-f1cd8232c1b6'::uuid,0,9,7),
+(451,'fb4e9d28-1652-477e-b905-42972ef6c0a5'::uuid,0,9,7),
+(452,'479e29cf-f894-41fe-9541-722d4ec3e95f'::uuid,0,9,7),
+(453,'f5164a48-9aa6-4f45-bbe2-8416b721edc4'::uuid,0,9,7),
+(455,'8ad49966-ad42-437a-9033-686fb2c5eb05'::uuid,0,9,7),
+(456,'93008537-4ee1-48d7-83d4-93c47f3095da'::uuid,0,9,7),
+(457,'a64ab8be-76a1-4f9f-a047-4237671ab53d'::uuid,0,9,7),
+(458,'330eaf2c-1b10-4128-ad9a-4dbb24ace547'::uuid,0,9,7),
+(463,'6f635e53-4633-4fe0-831b-0b5d3ce1da7b'::uuid,0,9,7),
+(464,'29e88760-f0c1-427d-a27c-8a6496624a5a'::uuid,0,9,7),
+(381,'93a1499e-6648-4815-ad49-7c3b5446670b'::uuid,0,9,5),
+(384,'fa7f66c1-8d80-4594-ba58-be96dc378931'::uuid,0,9,5),
+(389,'32226c69-6ad9-4be3-ba9e-6c95b2218e72'::uuid,0,9,5),
+(390,'71d385bb-857d-4f10-9856-5156fd6fcdb1'::uuid,0,9,5),
+(409,'cc02bb04-7363-4469-bc08-965b3c22b50b'::uuid,0,9,5),
+(415,'c580abd3-aac0-466c-9f6b-c0c8b96c5c45'::uuid,0,9,5),
+(416,'71acb961-9eba-477e-96a3-c0dadaaf04fc'::uuid,0,9,5),
+(418,'97a71176-c41c-4def-990c-77898a2f23ad'::uuid,0,9,5),
+(431,'702970f1-94de-4951-b7af-b58923e0315b'::uuid,0,9,5),
+(438,'70532341-595c-417b-bd04-226946138bcb'::uuid,0,9,5),
+(442,'0e0b0cdf-3bde-4890-b04b-01ee6b71d3e6'::uuid,0,9,5),
+(449,'ad84055a-5cb0-4525-9f03-80f74554e69e'::uuid,0,9,5),
+(450,'8bd0297f-36fe-4163-8f6b-1e715fd5179b'::uuid,0,9,5),
+(461,'a0830043-203b-4bbf-8c1d-c3cdeaa28293'::uuid,0,9,5),
+(435,'3a50fa0b-6021-4e28-a5a3-600baf00a0d3'::uuid,0,9,2),
+(444,'7c8d64e0-054e-4045-92bb-4dbd5cfdbc34'::uuid,0,9,2),
+(446,'158e87b5-89f3-4761-9a15-85abdec89e25'::uuid,0,9,2),
+(454,'b845e5ec-8735-4ab0-949f-bd10a8690b5a'::uuid,0,9,2),
+(387,'ccffe04f-d144-4837-b452-b7dacf9c6bce'::uuid,0,9,8),
+(394,'15a3c480-52af-4a5b-b87d-54ec2d7225df'::uuid,0,9,8),
+(397,'85a5e73c-b05f-4d22-83f5-4d5a7dc007d8'::uuid,0,9,8),
+(423,'3253c670-8387-4fbe-8d59-0a4e45708c0c'::uuid,0,9,8),
+(465,'ef6a9e50-6bea-4d10-95c6-200f80b09c44'::uuid,0,9,8);
+DO $guard$
+BEGIN
+ IF (SELECT count(*) FROM becas)<>528 THEN RAISE EXCEPTION 'Inventario diferente'; END IF;
+ PERFORM id_beca FROM becas WHERE id_beca IN (SELECT id FROM correcciones) FOR UPDATE;
+ IF EXISTS (SELECT 1 FROM correcciones c LEFT JOIN becas b ON b.id_beca=c.id WHERE b.id_beca IS NULL OR b.public_id<>c.uuid OR b.version<>c.version OR b.id_tipo_beca<>c.tipo_anterior) THEN RAISE EXCEPTION 'Estado previo diferente; conciliar antes de aplicar'; END IF;
+ IF EXISTS (SELECT 1 FROM correcciones c LEFT JOIN tipos_beca t ON t.id_tipo_beca=c.tipo_nuevo WHERE t.id_tipo_beca IS NULL) THEN RAISE EXCEPTION 'Tipo inexistente'; END IF;
+END;
+$guard$;
+UPDATE becas b SET id_tipo_beca=c.tipo_nuevo,version=b.version+1 FROM correcciones c WHERE b.id_beca=c.id;
+COMMIT;
