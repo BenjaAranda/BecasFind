@@ -1,16 +1,16 @@
 {
   "filas": 528,
   "uuid_preservados": true,
-  "fichas_modificadas": 356,
-  "detalles_comprobados": 359,
+  "fichas_modificadas": 408,
+  "detalles_comprobados": 411,
   "tipos": {
-    "No especificado": 168,
-    "Beca de Mantención": 230,
-    "Beca de Arancel": 81,
-    "Beca Deportiva": 24,
+    "Beca de Mantención": 261,
+    "No especificado": 116,
+    "Beca de Arancel": 91,
+    "Beca Deportiva": 25,
     "Beca de Movilidad": 1,
-    "Beca de Alimentación": 12,
-    "Beca de Excelencia Académica": 12
+    "Beca de Alimentación": 13,
+    "Beca de Excelencia Académica": 21
   },
   "estados": {
     "CERRADA": 58,
