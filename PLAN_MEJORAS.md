@@ -71,3 +71,5 @@ La selección se cerró con límites explícitos: 466 fichas requieren nueva evi
 ## Evidencias anteriores
 
 Los planes previos consolidados se conservan en [`PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md) y [`PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md). El [`historial de planes`](documentacion/PLAN_MEJORAS_HISTORICO.md) y los informes por caso son evidencia, no colas de trabajo vigentes.
+
+Clasificación descriptiva de las 19 aplicada; siguen abiertos 17 detalles de cobertura y dos identidades. La cola documental vigente está en `documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/pendientes_documentales_actuales.csv`. Ver `CLASIFICACION_19_Y_LIMITES.md` antes de interpretar contadores o continuar investigando. No equivale a cierre de vigencia ni autoriza P13/P14.

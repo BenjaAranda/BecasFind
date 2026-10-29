@@ -1,0 +1,16 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 19,
+  "clasificaciones_descriptivas_generales": 17,
+  "clasificaciones_de_identidad_sin_confirmar": 2,
+  "coberturas_especificas_confirmadas_en_este_lote": 0,
+  "identidades_resueltas_en_este_lote": 0,
+  "filas_conciliadas": 528,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T224807Z-27664c13.dump",
+  "instantaneas_privadas": [
+    "tipos-lote14-antes.json",
+    "tipos-lote14-despues.json"
+  ],
+  "sql_sha256": "816122f51d45c7183b3bb301d556111d8d9e488385f069b030e55ea4ab08c135",
+  "advertencia": "SQL aplicado. No repetir. La clasificación no resuelve las carencias documentales."
+}

@@ -1,6 +1,8 @@
 # Corrección de campos del catálogo — 28 de octubre de 2026
 
-Se aplicaron cambios en **523 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **504 categorías**: 503 estaban sin especificar y una estaba equivocada. También se recuperaron siete beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+Resumen vigente tras el lote 14: **523 fichas distintas modificadas**, 504 categorías específicas o mixtas corregidas y 19 clasificaciones descriptivas con límites explícitos. Estas últimas conservan 17 coberturas y dos identidades sin confirmar. Se recuperaron siete beneficios vacíos y se rectificaron fuentes cruzadas. Cunco recibió fechas corregidas y Maipú requisitos documentados; los cambios exactos están en cada manifiesto. Las 528 fichas y sus UUID se conservan, sin activaciones ni eliminaciones.
+
+Las secciones siguientes describen cortes históricos por lote. La cola actual de investigación es `pendientes_documentales_actuales.csv`; las etiquetas descriptivas no acreditan los datos que faltan.
 
 ## Continuación: lote 04
 
@@ -78,3 +80,7 @@ Las 55 fueron revisadas; 25 fichas corregidas y 19 categorías siguen desconocid
 ## Lote 13 de datos
 
 [Continuación de los 20 casos](CONTINUACION_20.md): tipo arancel de Hualpén completado y requisitos/documentos de Maipú estructurados. Quedan 19 categorías y un documento necesario indicado por fila. El total de fichas distintas sigue en 523: estas tres eran revisitas.
+
+## Lote 14: clasificación descriptiva de las 19
+
+[Decisiones y límites de las 19 fichas](CLASIFICACION_19_Y_LIMITES.md). Las etiquetas ya son explícitas; siguen pendientes 17 coberturas y dos identidades. No interpretar este cambio como confirmación ni cierre de investigación. Cola vigente: `pendientes_documentales_actuales.csv`.
