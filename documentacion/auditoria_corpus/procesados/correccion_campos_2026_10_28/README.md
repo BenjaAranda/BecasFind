@@ -1,6 +1,6 @@
 # Corrección de campos del catálogo — 28 de octubre de 2026
 
-Se aplicaron cambios en **165 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **164 categorías**: 163 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+Se aplicaron cambios en **225 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **224 categorías**: 223 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
 
 ## Continuación: lote 04
 
@@ -21,15 +21,15 @@ En el lote 03 se reconsultaron las notas municipales de [Copiapó](https://copia
 
 ## Verificación de aplicación
 
-Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los cuatro SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
+Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los cinco SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
 
 Las comparaciones privadas antes/después comprobaron las 528 filas y únicamente los cambios previstos: categoría, beneficio textual en tres fichas y aumento de versión. Las credenciales y respaldos permanecen fuera del repositorio. Los manifiestos guardan las huellas de los SQL y los nombres de los respaldos, sin secretos.
 
-La verificación pública final recorrió las 528 fichas de búsqueda y 168 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_04.json`.
+La verificación pública final recorrió las 528 fichas de búsqueda y 228 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_05.json`.
 
 ## Pendientes reales
 
-**359 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
+**299 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
 
 Prioridades detectadas:
 
@@ -42,3 +42,7 @@ Prioridades detectadas:
 - Convenios vespertinos UNAB: el tipo arancel está acreditado; el porcentaje general de 15 % necesita corregirse por convenio. Este lote no certifica ese porcentaje universal.
 
 La revisión de todos los campos del catálogo **sigue pendiente**. Los campos no publicados —fechas, documentos, requisitos o importes— conservan su condición desconocida. Esta entrega no cierra la auditoría de vigencia ni inicia P13/P14. Los archivos originales y la selección de publicación inicial permanecen intactos.
+
+## Lote 05 — 29 de octubre de 2026
+
+Otras 60 categorías aplicadas: 37 de mantención, 17 de arancel, cinco deportivas y una de alimentación. Se preservaron los límites históricos y las modalidades separadas; las residencias no implican gratuidad y el transporte cotidiano no se presenta como intercambio. Clasificación documental sobre expedientes previos, sin afirmar nueva comprobación de convocatorias. Comparación privada de 528 filas: únicamente 60 cambios de tipo y versión. Se comprobó búsqueda completa y 228 detalles acumulados. Quedan 299 tipos pendientes individualizados.

@@ -58,7 +58,7 @@ La selección se cerró con límites explícitos: 466 fichas requieren nueva evi
 | P09 | Completa localmente: recuperación Gmail SMTP probada con correo real; configuración externa de producción queda para despliegue. |
 | P10 | Pipeline de calidad implementado y validado en entregas previas; no representa estado actual de CI. |
 | P11 | Completa en su alcance local; esquema y comprobaciones externas posteriores registrados en P12. |
-| P12 | Catálogo de 528 fichas en preview; siete abiertas y estados separados. Auditoría de vigencia y revisión de campos en curso; correcciones verificadas en 165 fichas. Evidencias y pendientes actuales en `tasks/contexto.md`. |
+| P12 | Catálogo de 528 fichas en preview; siete abiertas y estados separados. Auditoría de vigencia y revisión de campos en curso; correcciones verificadas en 225 fichas. Evidencias y pendientes actuales en `tasks/contexto.md`. |
 | P13–P14 | Pendientes: operación y publicación después de P12 y su autorización por fase. |
 
 ## Decisiones vigentes
