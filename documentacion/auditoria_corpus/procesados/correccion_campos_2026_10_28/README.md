@@ -1,6 +1,10 @@
 # Corrección de campos del catálogo — 28 de octubre de 2026
 
-Se aplicaron cambios en **106 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **105 categorías**: 104 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+Se aplicaron cambios en **165 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **164 categorías**: 163 estaban sin especificar y una estaba equivocada. También se recuperaron tres beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+
+## Continuación: lote 04
+
+Se aplicaron otras 59 categorías tras revisar individualmente los expedientes: 43 de mantención, 11 de arancel/matrícula, tres deportivas y dos de alimentación. La beca de Lampa se clasificó como arancel conforme al alcance del expediente. Se separaron Putre (nivel educativo no acreditado), Calbuco (modalidad de excelencia que necesita precisar categoría) y Fomento Regional del Alba (conciliar institución antes de otros cambios). No se modificó ningún otro campo ni calendario. Respaldo y restauración de 14 tablas comprobados; 59 cambios exclusivos de tipo y versión conciliados.
 
 ## Alcance y procedencia
 
@@ -9,6 +13,7 @@ Se aplicaron cambios en **106 fichas** y se comprobaron públicamente las 528 en
 | 01 | 56 fichas universitarias; fuentes específicas consultadas y evidencia individual en JSON/CSV | 48 categorías corregidas; tres categorías conservadas; cinco casos sin asignación por evidencia insuficiente o contradicción |
 | 02 | 55 fichas municipales; relectura individual de beneficio y alcance de sus expedientes esenciales | 53 categorías de mantención y dos de arancel/matrícula |
 | 03 | Mejillones, Copiapó y Panquehue | Tres beneficios recuperados; además, categorías de mantención en Mejillones y Panquehue |
+| 04 | 59 expedientes con finalidad acreditada; relectura individual del alcance y beneficio | 43 de mantención; 11 de arancel/matrícula; tres deportivas; dos de alimentación |
 
 El lote 02 es una clasificación editorial de hechos previamente acreditados, **no una nueva consulta de todas las convocatorias oficiales**. Cada fila cita el expediente, su fecha y sus límites; la huella del archivo de procedencia queda en `procedencia_lote_02.json`. El dinero para continuidad de estudios, gastos educativos o transporte cotidiano se clasifica como mantención. Matrícula y arancel se agrupan bajo la categoría existente «Beca de Arancel». No se afirma que estas denominaciones sean el nombre oficial del programa.
 
@@ -16,15 +21,15 @@ En el lote 03 se reconsultaron las notas municipales de [Copiapó](https://copia
 
 ## Verificación de aplicación
 
-Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los tres SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
+Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los cuatro SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
 
 Las comparaciones privadas antes/después comprobaron las 528 filas y únicamente los cambios previstos: categoría, beneficio textual en tres fichas y aumento de versión. Las credenciales y respaldos permanecen fuera del repositorio. Los manifiestos guardan las huellas de los SQL y los nombres de los respaldos, sin secretos.
 
-La verificación pública final recorrió las 528 fichas de búsqueda y 109 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_03.json`.
+La verificación pública final recorrió las 528 fichas de búsqueda y 168 detalles correspondientes a los resultados de los lotes. Comprobó categorías y beneficios esperados. Permanecen **528 fichas visibles: siete abiertas, 58 cerradas, 264 con fechas por confirmar y 199 en revisión**. No se cambiaron esos estados. Evidencia: `verificacion_publica_final.json` y `verificacion_lote_01.json` a `verificacion_lote_04.json`.
 
 ## Pendientes reales
 
-**418 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
+**359 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
 
 Prioridades detectadas:
 
