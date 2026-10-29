@@ -1,6 +1,6 @@
 # Corrección de campos del catálogo — 28 de octubre de 2026
 
-Se aplicaron cambios en **503 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **501 categorías**: 500 estaban sin especificar y una estaba equivocada. También se recuperaron siete beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
+Se aplicaron cambios en **523 fichas** y se comprobaron públicamente las 528 entradas del catálogo. Se corrigieron **503 categorías**: 502 estaban sin especificar y una estaba equivocada. También se recuperaron siete beneficios que habían quedado vacíos al trasladar información ya documentada. No se borraron registros ni cambiaron UUID, activación, fechas, requisitos o importes numéricos.
 
 ## Continuación: lote 04
 
@@ -21,7 +21,7 @@ En el lote 03 se reconsultaron las notas municipales de [Copiapó](https://copia
 
 ## Verificación de aplicación
 
-Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los once SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
+Antes de cada lote se realizó un respaldo privado y una restauración aislada de las 14 tablas. Los SQL usan transacciones, bloqueo y comprobaciones de inventario, UUID, categoría y versión previa. **Los doce SQL ya están aplicados; no repetirlos**. Una primera ejecución del lote 01 se revirtió íntegramente al detectar una versión anterior distinta; se concilió ese antecedente antes de aplicar el lote definitivo.
 
 Las comparaciones privadas antes/después comprobaron las 528 filas y únicamente los cambios previstos: categoría, beneficio textual en tres fichas y aumento de versión. Las credenciales y respaldos permanecen fuera del repositorio. Los manifiestos guardan las huellas de los SQL y los nombres de los respaldos, sin secretos.
 
@@ -29,7 +29,7 @@ La verificación pública final recorrió las 528 fichas de búsqueda y 290 deta
 
 ## Pendientes reales
 
-**22 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
+**20 fichas mantienen categoría sin especificar**, frente a 522 inicialmente. Están individualizadas por UUID, fuente y beneficio en `pendientes_tipo.csv`; esta cola enumera carencias, no constituye una clasificación automática ni una nueva confirmación de vigencia.
 
 Prioridades detectadas:
 
@@ -49,24 +49,28 @@ Otras 60 categorías aplicadas: 37 de mantención, 17 de arancel, cinco deportiv
 
 ## Lote 06 — 29 de octubre de 2026
 
-Aplicadas otras 62 categorías: 44 de mantención, 14 de arancel, tres deportivas y una de alimentación. Relectura individual de beneficio y alcance previamente documentados. La vivienda de Santa Bárbara conserva su aporte a cargo del estudiante; no se presume gratuidad. El transporte diario de Fresia y Caldera se clasifica como mantención, sin intercambio académico. Se mantienen fuera las modalidades de Colina y Santa María que necesitan aclarar su finalidad. Comparación privada: 528 UUID preservados y solamente 62 cambios de tipo y versión. Verificación pública: 528 entradas y 290 detalles acumulados. Quedan 22 categorías pendientes. No se alteraron fechas ni estados.
+Aplicadas otras 62 categorías: 44 de mantención, 14 de arancel, tres deportivas y una de alimentación. Relectura individual de beneficio y alcance previamente documentados. La vivienda de Santa Bárbara conserva su aporte a cargo del estudiante; no se presume gratuidad. El transporte diario de Fresia y Caldera se clasifica como mantención, sin intercambio académico. Se mantienen fuera las modalidades de Colina y Santa María que necesitan aclarar su finalidad. Comparación privada: 528 UUID preservados y solamente 62 cambios de tipo y versión. Verificación pública: 528 entradas y 290 detalles acumulados. Quedan 20 categorías pendientes. No se alteraron fechas ni estados.
 
 ## Lote 07 — 29 de octubre de 2026
 
-Aplicadas otras 69 categorías: 46 de mantención, 14 de arancel, cuatro deportivas y cinco de alimentación. Se revisó individualmente el alcance y beneficio del expediente previo. Los programas históricos o planificados conservan sus límites; asignar categoría no acredita ejecución ni disponibilidad actual. No se completaron importes individuales desde presupuestos agregados. Comparación privada: 528 UUID preservados y únicamente 69 cambios de tipo y versión. Verificación pública acumulada: 528 entradas y 359 detalles. Quedan 22 categorías pendientes. Fechas y estados sin cambios.
+Aplicadas otras 69 categorías: 46 de mantención, 14 de arancel, cuatro deportivas y cinco de alimentación. Se revisó individualmente el alcance y beneficio del expediente previo. Los programas históricos o planificados conservan sus límites; asignar categoría no acredita ejecución ni disponibilidad actual. No se completaron importes individuales desde presupuestos agregados. Comparación privada: 528 UUID preservados y únicamente 69 cambios de tipo y versión. Verificación pública acumulada: 528 entradas y 359 detalles. Quedan 20 categorías pendientes. Fechas y estados sin cambios.
 
 ## Lote 08 — 29 de octubre de 2026
 
-Aplicadas otras 52 categorías: 31 de mantención, diez de arancel, nueve de excelencia académica, una deportiva y una de alimentación. Para mérito académico se leyeron los requisitos del expediente; no se clasificó solo por título. La revisión mantiene el alojamiento, el transporte cotidiano, el descuento y el dinero como prestaciones distintas. La clasificación no completa cobertura ni certifica vigencia. Comparación privada: 528 UUID preservados y únicamente 52 cambios de tipo y versión. UAlumni (518) conservaba versión previa 1, respetada en el SQL. Verificación pública acumulada: 528 entradas y 411 detalles. Quedan 22 categorías pendientes. Fechas y estados sin cambios.
+Aplicadas otras 52 categorías: 31 de mantención, diez de arancel, nueve de excelencia académica, una deportiva y una de alimentación. Para mérito académico se leyeron los requisitos del expediente; no se clasificó solo por título. La revisión mantiene el alojamiento, el transporte cotidiano, el descuento y el dinero como prestaciones distintas. La clasificación no completa cobertura ni certifica vigencia. Comparación privada: 528 UUID preservados y únicamente 52 cambios de tipo y versión. UAlumni (518) conservaba versión previa 1, respetada en el SQL. Verificación pública acumulada: 528 entradas y 411 detalles. Quedan 20 categorías pendientes. Fechas y estados sin cambios.
 
 ## Lote 09 — 29 de octubre de 2026
 
-Aplicadas otras 61 categorías: 32 de mérito académico, 14 de arancel, siete de mantención, siete deportivas y una de alimentación. Se leyeron alcance y requisitos, además del beneficio. No se clasificó mérito por el nombre; se verificó el criterio de adjudicación en el expediente. Los apoyos históricos de San Miguel y Putre conservan el nivel educativo no acreditado. Dalcahue queda fuera de este lote al carecer del mismo expediente esencial de procedencia. No se modificaron requisitos, cobertura, fechas ni estados. Respaldo y restauración de 14 tablas verificados; comparación privada de 528 UUID con 61 cambios exclusivos de tipo y versión. Verificación pública: 528 entradas y 472 detalles acumulados. Quedan 22 categorías pendientes.
+Aplicadas otras 61 categorías: 32 de mérito académico, 14 de arancel, siete de mantención, siete deportivas y una de alimentación. Se leyeron alcance y requisitos, además del beneficio. No se clasificó mérito por el nombre; se verificó el criterio de adjudicación en el expediente. Los apoyos históricos de San Miguel y Putre conservan el nivel educativo no acreditado. Dalcahue queda fuera de este lote al carecer del mismo expediente esencial de procedencia. No se modificaron requisitos, cobertura, fechas ni estados. Respaldo y restauración de 14 tablas verificados; comparación privada de 528 UUID con 61 cambios exclusivos de tipo y versión. Verificación pública: 528 entradas y 472 detalles acumulados. Quedan 20 categorías pendientes.
 
 ## Lote 10: revisión de las últimas 55
 
-Las 55 fueron revisadas; 25 fichas corregidas y 22 categorías siguen desconocidas. No vaciar artificialmente su cola. [Resoluciones individuales y límites](REVISION_ULTIMAS_55.md). Cunco queda rectificada con fuente propia; San Pedro de la Paz conserva una contradicción de identidad, advertida públicamente y sin el enlace de otra comuna.
+Las 55 fueron revisadas; 25 fichas corregidas y 20 categorías siguen desconocidas. No vaciar artificialmente su cola. [Resoluciones individuales y límites](REVISION_ULTIMAS_55.md). Cunco queda rectificada con fuente propia; San Pedro de la Paz conserva una contradicción de identidad, advertida públicamente y sin el enlace de otra comuna.
 
 ## Lote 11
 
-[Continuación de los 32 casos](CONTINUACION_32.md): diez categorías completadas, tres tipos nuevos y advertencia de fuente cruzada en Rauco. Quedan 22 categorías sin determinar. Conteo acumulado conciliado por UUID: 503 fichas distintas; no sumar tamaños de lote.
+[Continuación de los 32 casos](CONTINUACION_32.md): diez categorías completadas, tres tipos nuevos y advertencia de fuente cruzada en Rauco. Quedan 20 categorías sin determinar. Conteo acumulado conciliado por UUID: 503 fichas distintas; no sumar tamaños de lote.
+
+## Lote 12
+
+[Investigación de los 22 casos](INVESTIGACION_22.md): 20 descripciones completadas y categorías académicas de Natales/San Javier verificadas. Quedan 20 categorías sin determinar. Conteo acumulado por UUID: 523 fichas distintas.
