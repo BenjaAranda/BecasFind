@@ -2,7 +2,11 @@
 
 Resumen vigente tras el lote 14: **523 fichas distintas modificadas**, 504 categorías específicas o mixtas corregidas y 19 clasificaciones descriptivas con límites explícitos. Estas últimas conservan 17 coberturas y dos identidades sin confirmar. Se recuperaron siete beneficios vacíos y se rectificaron fuentes cruzadas. Cunco recibió fechas corregidas y Maipú requisitos documentados; los cambios exactos están en cada manifiesto. Las 528 fichas y sus UUID se conservan, sin activaciones ni eliminaciones.
 
-Las secciones siguientes describen cortes históricos por lote. La cola actual de investigación es `pendientes_documentales_actuales.csv`; las etiquetas descriptivas no acreditan los datos que faltan.
+Las secciones siguientes describen cortes históricos por lote. El registro vigente de inconclusas de esta tanda es `casos_inconclusos_actuales.csv`; las etiquetas descriptivas no acreditan los datos que faltan.
+
+## Resultado vigente de la tanda final de 19
+
+[Dictámenes individuales](RESULTADO_FINAL_19.md): **19 inconclusas; cero confirmaciones nuevas; cero sin dictamen**. Se publicó el resultado en sus detalles. Las colas de trabajo de esta tanda están cerradas y las incógnitas se conservan en `casos_inconclusos_actuales.csv`. No equivale a confirmar la cobertura, resolver identidades ni cerrar la auditoría general de vigencia. Las secciones por lote de abajo son antecedentes históricos.
 
 ## Continuación: lote 04
 

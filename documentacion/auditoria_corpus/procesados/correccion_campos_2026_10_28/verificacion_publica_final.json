@@ -23,5 +23,18 @@
     "ABIERTA": 7,
     "EN_REVISION": 199,
     "FECHAS_POR_CONFIRMAR": 264
+  },
+  "dictamen_final_19": {
+    "filas_comprobadas": 528,
+    "resumenes_sin_cambios": true,
+    "dictamenes_publicos_comprobados": 19,
+    "inconclusas_cobertura": 17,
+    "inconclusas_identidad": 2,
+    "estados": {
+      "CERRADA": 58,
+      "ABIERTA": 7,
+      "EN_REVISION": 199,
+      "FECHAS_POR_CONFIRMAR": 264
+    }
   }
 }

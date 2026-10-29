@@ -4,7 +4,7 @@ Actualizado el 24 de octubre de 2026. El alcance y las fases están en [`PLAN_ME
 
 ## Cola y avance
 
-La revisión de campos solicitada el 28/10 tiene una cola distinta de la confirmación esencial: [informe de correcciones](../documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/README.md). Aplicadas y verificadas correcciones en 523 fichas; 19 categorías pendientes en `pendientes_tipo.csv` de esa carpeta. Continuar primero conciliando contradicciones de identidad y recuperando datos ya acreditados que no llegaron a los campos públicos. No asignar categorías ni completar requisitos por el nombre de la beca. No repetir los SQL aplicados ni confundir clasificación documental con comprobación actual de vigencia.
+La tanda final de 19 quedó terminada el 29/10 con **19 INCONCLUSA, cero confirmaciones nuevas y cero casos sin dictamen**. Leer [resultado individual](../documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/RESULTADO_FINAL_19.md). Las incógnitas siguen explícitas en casos_inconclusos_actuales.csv; las colas para dictaminar esta tanda están vacías. Reabrir por nueva fuente específica o alcance nuevo, no repetir búsquedas agotadas. La auditoría general de vigencia es otro trabajo y no se declara terminada.
 
 La única cola vigente es [`pendientes_esenciales_actuales.csv`](../documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv), regenerada desde la evidencia del corpus. Tras el cierre editorial autorizado del 24/10/2026 contiene **0 candidatas abiertas**. El informe individual de las 23 resoluciones está en [`CIERRE_CANDIDATAS_PENDIENTES_2026_10_24.md`](../documentacion/auditoria_corpus/procesados/CIERRE_CANDIDATAS_PENDIENTES_2026_10_24.md). No reconstruir colas desde informes antiguos ni usar sus conteos históricos.
 
@@ -27,4 +27,4 @@ La única cola vigente es [`pendientes_esenciales_actuales.csv`](../documentacio
 
 El método histórico se conserva en [`PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md`](../documentacion/historial/PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md).
 
-Clasificación descriptiva de las 19 aplicada; siguen abiertos 17 detalles de cobertura y dos identidades. La cola documental vigente está en `documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/pendientes_documentales_actuales.csv`. Ver `CLASIFICACION_19_Y_LIMITES.md` antes de interpretar contadores o continuar investigando. No equivale a cierre de vigencia ni autoriza P13/P14.
+La clasificación descriptiva anterior se conserva como antecedente. Los 17 detalles de cobertura y las dos identidades recibieron dictamen individual INCONCLUSA el 29/10; ya no quedan por dictaminar en esta tanda. Consultar `documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/casos_inconclusos_actuales.csv`. No equivale a cierre de vigencia ni autoriza P13/P14.

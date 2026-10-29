@@ -1,5 +1,5 @@
 {
-  "verificado_utc": "2026-10-29T22:50:13.158635+00:00",
+  "verificado_utc": "2026-10-29T22:57:29.736137+00:00",
   "catalogo": 528,
   "revisadas_en_lotes": 585,
   "fichas_corregidas": 523,
@@ -12,15 +12,24 @@
   "tipo_no_especificado_inicial": 522,
   "tipo_no_especificado_actual": 0,
   "aplicado": true,
-  "estado_revision_completa": "Clasificación descriptiva aplicada a las 19. Investigación documental abierta: 17 coberturas específicas y dos identidades sin confirmar. No son 19 confirmaciones nuevas.",
+  "estado_revision_completa": "Tanda de 19 finalizada por petición expresa: 19 dictámenes INCONCLUSA, cero sin dictamen. Los datos sin acreditar siguen desconocidos; la auditoría general de vigencia no se declara concluida.",
   "evidencia_publica": "verificacion_publica_final.json",
   "cola_tipo": "lote_14.csv",
-  "otros_campos": "No se modificaron importes estructurados, documentos, requisitos, regiones ni calendarios. Requieren revisión separada; desconocido no equivale a cero ni ausencia de requisito.",
+  "otros_campos": "Este dictamen solo añadió su resultado al detalle y aumentó versiones. Se conservan datos desconocidos, las correcciones previas de Cunco/Maipú y todos los originales.",
   "recorridas_ultimas_pendientes": 55,
   "nota_conteo_revisiones": "Revisiones acumuladas incluyen revisitas. Las 523 fichas distintas se conciliaron contra la instantánea pública inicial de 528 UUID.",
   "clasificaciones_descriptivas_con_limite": 19,
   "coberturas_especificas_sin_acreditar": 17,
   "identidades_sin_confirmar": 2,
   "nota_tipo_no_especificado": "Cero mide únicamente el valor literal de la etiqueta anterior. No significa cero incógnitas ni cero pendientes documentales.",
-  "cola_documental": "pendientes_documentales_actuales.csv"
+  "cola_documental": "casos_inconclusos_actuales.csv",
+  "dictamenes_finales_19": {
+    "confirmadas_nuevas": 0,
+    "inconclusas": 19,
+    "sin_dictamen": 0,
+    "alcance_cobertura": 17,
+    "alcance_identidad": 2
+  },
+  "cola_por_dictaminar": "pendientes_documentales_actuales.csv",
+  "dictamen_individual": "dictamenes_finales_19.json"
 }

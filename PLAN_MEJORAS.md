@@ -2,6 +2,10 @@
 
 Actualizado el 27 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
 
+## Dictamen final de las 19 — 29/10/2026
+
+Tanda completada con 19 inconclusas (17 coberturas y dos identidades), cero confirmaciones nuevas y cero sin dictamen. [Resultado y evidencia individual](documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/RESULTADO_FINAL_19.md). Los datos desconocidos se conservan; la investigación de vigencia de 466 mantiene su propio alcance. No iniciar P13/P14. Las menciones posteriores a colas de 19 son antecedentes previos a este dictamen.
+
 ## P04: revisión editorial cerrada
 
 Conteo reconstruido el 24/10/2026: 568 candidatas únicas en 93 fuentes y 647 referencias; **526 confirmadas esenciales, 2 completas, 40 descartadas editorialmente y 0 pendientes**. No quedan exclusiones históricas sin ratificar. La cola [`pendientes_esenciales_actuales.csv`](documentacion/auditoria_corpus/procesados/pendientes_esenciales_actuales.csv) está vacía y el [`resumen.json`](documentacion/auditoria_corpus/procesados/avance/resumen.json) prevalece sobre cifras de cortes históricos.
@@ -72,4 +76,4 @@ La selección se cerró con límites explícitos: 466 fichas requieren nueva evi
 
 Los planes previos consolidados se conservan en [`PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_MEJORAS_ANTES_CONSOLIDACION_2026_10_19.md) y [`PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md`](documentacion/historial/PLAN_REVISION_ANTES_CONSOLIDACION_2026_10_19.md). El [`historial de planes`](documentacion/PLAN_MEJORAS_HISTORICO.md) y los informes por caso son evidencia, no colas de trabajo vigentes.
 
-Clasificación descriptiva de las 19 aplicada; siguen abiertos 17 detalles de cobertura y dos identidades. La cola documental vigente está en `documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/pendientes_documentales_actuales.csv`. Ver `CLASIFICACION_19_Y_LIMITES.md` antes de interpretar contadores o continuar investigando. No equivale a cierre de vigencia ni autoriza P13/P14.
+Las 19 revisiones recibieron dictamen individual INCONCLUSA el 29/10. Los motivos pendientes de evidencia se conservan en `casos_inconclusos_actuales.csv`; la cola para dictaminar esta tanda está vacía. No equivale a cierre de vigencia ni autoriza P13/P14.

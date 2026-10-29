@@ -493,6 +493,8 @@ Antes de dar por finalizada cualquier tarea que involucre texto en español, ver
 
 ## Contexto operativo para retomar
 
+Actualización autorizada el 29 de octubre de 2026 por «continua hasta terminar de confirmar o concluye que son inconclusas»: cerrar la tanda final de 19 con dictámenes individuales INCONCLUSA cuando la evidencia revisada no permita acreditar el campo investigado. Conservar los registros, las incógnitas y los fundamentos; no excluir ni activar por este resultado. Cero casos sin dictamen no significa cero datos desconocidos. Esta resolución no cierra la auditoría general de 466 ni inicia P13/P14.
+
 Actualización autorizada el 28 de octubre de 2026: mostrar por defecto el catálogo público de las 528 fichas editorialmente confirmadas, incluidas las que no tienen calendario acreditado. Separar visibilidad de estado_activa y conservar BR-VIGENCIA para el filtro de postulaciones abiertas y recomendaciones. Mostrar «Fechas por confirmar» cuando falta calendario e «Información en revisión» cuando la auditoría sigue inconclusa. No descartar por ausencia de fechas ni inventarlas; preservar UUID y originales. Esta autorización no inicia P13/P14 ni certifica vigencia por probabilidad.
 
 Después de este contrato, leer `tasks/contexto.md` y `PLAN_MEJORAS.md`. Los conteos editoriales vigentes se reconstruyen desde `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`; los planes archivados contienen cifras históricas. Consultar solo los informes pertinentes a las candidatas en curso.
