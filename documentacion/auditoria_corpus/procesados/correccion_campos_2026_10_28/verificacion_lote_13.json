@@ -1,0 +1,14 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 3,
+  "categorias_completadas": 1,
+  "perfiles_completados": 2,
+  "filas_conciliadas": 528,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T224218Z-41cecef5.dump",
+  "instantaneas_privadas": [
+    "tipos-lote13-antes.json",
+    "tipos-lote13-despues.json"
+  ],
+  "sql_sha256": "5bc1fd495b1ca40678202db1f8924fb2740e8fff7e2e0e528dd2d6e124261fb4",
+  "advertencia": "SQL aplicado; no repetir. Lote de datos, no fase P13."
+}
