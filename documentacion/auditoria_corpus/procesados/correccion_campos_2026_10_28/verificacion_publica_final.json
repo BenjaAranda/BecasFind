@@ -1,21 +1,21 @@
 {
   "filas": 528,
+  "detalles_lote_10": 55,
   "uuid_preservados": true,
-  "fichas_modificadas": 469,
-  "detalles_comprobados": 472,
   "tipos": {
-    "Beca de Mantención": 268,
-    "No especificado": 55,
-    "Beca de Arancel": 105,
-    "Beca Deportiva": 32,
-    "Beca de Movilidad": 1,
+    "Beca de Mantención": 278,
+    "Beca de Arancel": 110,
+    "No especificado": 32,
+    "Beca Deportiva": 33,
+    "Beca de Movilidad": 3,
     "Beca de Alimentación": 14,
-    "Beca de Excelencia Académica": 53
+    "Beca de Excelencia Académica": 58
   },
   "estados": {
     "CERRADA": 58,
     "ABIERTA": 7,
     "EN_REVISION": 199,
     "FECHAS_POR_CONFIRMAR": 264
-  }
+  },
+  "fichas_modificadas_acumuladas": 494
 }
