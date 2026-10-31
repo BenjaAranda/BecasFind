@@ -11,8 +11,8 @@ import com.becasfind.api.repositories.PasswordResetTokenRepository;
 import com.becasfind.api.repositories.RolRepository;
 import com.becasfind.api.repositories.UsuarioRepository;
 import com.becasfind.api.services.AuthService;
+import com.becasfind.api.services.ResetEmailService;
 import com.becasfind.api.utils.JwtUtil;
-import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -25,6 +25,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
+import java.nio.charset.StandardCharsets;
+import com.becasfind.api.exceptions.BusinessException;
 
 @Service
 public class AuthServiceImpl implements AuthService {
@@ -37,19 +39,21 @@ public class AuthServiceImpl implements AuthService {
     private final PasswordResetTokenRepository passwordResetTokenRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtUtil jwtUtil;
+    private final ResetEmailService resetEmailService;
 
     public AuthServiceImpl(AuthenticationManager authenticationManager,
                            UsuarioRepository usuarioRepository,
                            RolRepository rolRepository,
                            PasswordResetTokenRepository passwordResetTokenRepository,
                            PasswordEncoder passwordEncoder,
-                           JwtUtil jwtUtil) {
+                           JwtUtil jwtUtil, ResetEmailService resetEmailService) {
         this.authenticationManager = authenticationManager;
         this.usuarioRepository = usuarioRepository;
         this.rolRepository = rolRepository;
         this.passwordResetTokenRepository = passwordResetTokenRepository;
         this.passwordEncoder = passwordEncoder;
         this.jwtUtil = jwtUtil;
+        this.resetEmailService = resetEmailService;
     }
 
     @Override
@@ -63,7 +67,8 @@ public class AuthServiceImpl implements AuthService {
         String token = jwtUtil.generateToken(
                 userDetails.getUsername(),
                 userDetails.getRole(),
-                userDetails.getNombreCompleto()
+                userDetails.getNombreCompleto(),
+                userDetails.getPassword()
         );
 
         return AuthResponse.builder()
@@ -78,8 +83,9 @@ public class AuthServiceImpl implements AuthService {
     @Override
     @Transactional
     public AuthResponse register(RegisterRequest request) {
+        validatePasswordBytes(request.getPassword());
         if (usuarioRepository.existsByEmail(request.getEmail())) {
-            throw new IllegalArgumentException("El email ya esta registrado: " + request.getEmail());
+            throw new IllegalArgumentException("El email ya está registrado");
         }
 
         Rol rolStudent = rolRepository.findByNombreRol("STUDENT")
@@ -98,7 +104,8 @@ public class AuthServiceImpl implements AuthService {
         String token = jwtUtil.generateToken(
                 usuario.getEmail(),
                 rolStudent.getNombreRol(),
-                usuario.getNombreCompleto()
+                usuario.getNombreCompleto(),
+                usuario.getPasswordHash()
         );
 
         return AuthResponse.builder()
@@ -113,8 +120,11 @@ public class AuthServiceImpl implements AuthService {
     @Override
     @Transactional
     public void forgotPassword(String email) {
-        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email)
-                .orElseThrow(() -> new EntityNotFoundException("No se encontro un usuario activo con el email: " + email));
+        resetEmailService.requireConfigured();
+        Usuario usuario = usuarioRepository.findByEmailAndActivoTrue(email).orElse(null);
+        if (usuario == null) {
+            return;
+        }
 
         passwordResetTokenRepository.deleteByUsuarioId(usuario.getIdUsuario());
 
@@ -122,28 +132,39 @@ public class AuthServiceImpl implements AuthService {
         resetToken.setToken(UUID.randomUUID().toString());
         resetToken.setUsuario(usuario);
         resetToken.setFechaExpiracion(LocalDateTime.now().plusMinutes(15));
-        passwordResetTokenRepository.save(resetToken);
+        passwordResetTokenRepository.saveAndFlush(resetToken);
+        resetEmailService.sendPasswordReset(usuario.getEmail(), resetToken.getToken());
 
-        log.info("Token de recuperacion generado para el usuario: {}. Token: {}", email, resetToken.getToken());
     }
 
     @Override
-    @Transactional
+    @Transactional(noRollbackFor = BadCredentialsException.class)
     public void resetPassword(String token, String newPassword) {
+        validatePasswordBytes(newPassword);
         PasswordResetToken resetToken = passwordResetTokenRepository.findByToken(token)
-                .orElseThrow(() -> new BadCredentialsException("Token de recuperacion invalido"));
+                .orElseThrow(() -> new BadCredentialsException("Token de recuperación inválido"));
 
-        if (resetToken.getFechaExpiracion().isBefore(LocalDateTime.now())) {
+        if (!resetToken.getFechaExpiracion().isAfter(LocalDateTime.now())) {
             passwordResetTokenRepository.delete(resetToken);
-            throw new BadCredentialsException("El token de recuperacion ha expirado");
+            throw new BadCredentialsException("El token de recuperación ha expirado");
         }
 
-        Usuario usuario = resetToken.getUsuario();
+        Usuario usuario = usuarioRepository.findById(resetToken.getUsuario().getIdUsuario()).orElse(null);
+        if (usuario == null || !Boolean.TRUE.equals(usuario.getActivo())) {
+            passwordResetTokenRepository.delete(resetToken);
+            throw new BadCredentialsException("Token de recuperación inválido");
+        }
         usuario.setPasswordHash(passwordEncoder.encode(newPassword));
         usuarioRepository.save(usuario);
 
         passwordResetTokenRepository.delete(resetToken);
 
-        log.info("Contrasenia restablecida exitosamente para el usuario: {}", usuario.getEmail());
+        log.info("Contraseña restablecida exitosamente");
+    }
+
+    private static void validatePasswordBytes(String password) {
+        if (password.getBytes(StandardCharsets.UTF_8).length > 72) {
+            throw new BusinessException("La contraseña es demasiado larga. Usa como máximo 72 bytes UTF-8.");
+        }
     }
 }

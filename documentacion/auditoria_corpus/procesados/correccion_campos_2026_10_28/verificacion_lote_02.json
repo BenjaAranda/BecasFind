@@ -1,0 +1,18 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 55,
+  "filas_conciliadas": 528,
+  "uuid_preservados": true,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261028T224231Z-ceb798bc.dump",
+  "instantaneas_privadas": [
+    "tipos-lote02-antes.json",
+    "tipos-lote02-despues.json"
+  ],
+  "conciliacion_privada": "tipos-lote02-conciliacion.json",
+  "campos_modificados": [
+    "tipo_beca",
+    "version"
+  ],
+  "sql_sha256": "02054e9f2926ea3954094d43904d469287ba96ccd4eed770ef56e930a04e1979",
+  "advertencia": "Ya aplicado. No repetir SQL; las versiones originales ya cambiaron."
+}

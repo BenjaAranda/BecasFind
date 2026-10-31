@@ -1,0 +1,26 @@
+{
+  "cohorte": 466,
+  "fuente_inicial": "documentacion/auditoria_corpus/procesados/despliegue_p12/seleccion_publicacion_2026_10_27.json",
+  "sha256_fuente": "89b6049dcdf6e0ecf33fb11ec67fdabd014898708331babcdc3a8d672c123663",
+  "leidas_individualmente": 466,
+  "sin_revisar": 0,
+  "resueltas": 267,
+  "inconclusas": 199,
+  "clasificaciones": {
+    "CALENDARIO_POR_MODALIDAD": 88,
+    "SIN_CALENDARIO_PUBLICADO": 113,
+    "REVISION_INCONCLUSA": 199,
+    "CERRADA_CONFIRMADA": 62,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 4
+  },
+  "aplicacion": {
+    "SIN_CAMBIO": 461,
+    "APLICADA": 3,
+    "PENDIENTE": 2
+  },
+  "activadas": 2,
+  "activables": 2,
+  "pendientes_de_aplicar": 2,
+  "auditoria_concluida": false,
+  "limite": "Leídas individualmente incluye investigaciones inconclusas y no implica lectura íntegra de cada expediente. Activable exige valoración explícita adicional al calendario; no se infiere de su clasificación. La aplicación remota exige recibo y conciliación."
+}

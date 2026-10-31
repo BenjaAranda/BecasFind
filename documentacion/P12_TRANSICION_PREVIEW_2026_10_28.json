@@ -1,0 +1,25 @@
+{
+  "fuente": "Salida remota aportada por el usuario desde PowerShell",
+  "verificado_utc": "2026-10-28T22:06:19.713759+00:00",
+  "deployment": "dpl_J1JHhskcABsrZLiyFjzP2x9BnpN7",
+  "commit": "f2facacf2a0393a8cfc138641cd63002847742bc",
+  "origen_agregado": "https://becasfind-ejsx6hw61-benjatlou13-1274.vercel.app",
+  "origenes_anteriores_conservados": true,
+  "frontend_url_conservada": true,
+  "api_y_cors_local": true,
+  "contenedor_anterior": "becasfind-api-before-preview-20261028t220607779700z",
+  "imagen_conservada": "sha256:0cb720bf46390beac784d44ef52aee06aad0383fd5cb63cbc871093be37a3d70",
+  "env_anterior_sha256": "bdb8da163420e7988fbc764c1e63ed380c9e59b1404db52e36edda1d5ed84a67",
+  "preflight_externo": {
+    "estado": "APROBADO",
+    "fecha_http": "Wed, 28 Oct 2026 22:07:08 GMT",
+    "url": "https://155-181-41-231.sslip.io/api/becas/buscar",
+    "status": 200,
+    "access_control_allow_origin": "https://becasfind-ejsx6hw61-benjatlou13-1274.vercel.app",
+    "access_control_allow_methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+    "access_control_allow_headers": "content-type",
+    "fuente": "Salida curl.exe aportada por el usuario"
+  },
+  "recorrido_navegador_nueva_preview": "PENDIENTE",
+  "limite": "API/CORS local y preflight externo aprobados; recorrido visual pendiente. El correo conserva la URL anterior."
+}

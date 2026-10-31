@@ -1,0 +1,682 @@
+{
+  "informe": "REVISION_FUENTES_51_2026_10_08.md",
+  "fecha": "2026-10-08",
+  "respaldo": {
+    "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261008-190437.zip",
+    "archivos": 201,
+    "sha256": "658f993b872a10bf7f988acb310a7ee7e3c9f4b2b696cfc3c7cd06f435d30455"
+  },
+  "revisiones": [
+    {
+      "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La convocatoria escolar 2026 comprende kínder a cuarto medio. No acredita educación superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://appx.laflorida.cl/beca_escolar/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "e094489b0f6fb001f5298ffa85eccc3e70eed29db3caff9a14b3aeaae203237f",
+          "url_final": "https://appx.laflorida.cl/beca_escolar/"
+        }
+      ]
+    },
+    {
+      "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El apartado educativo consultado no describe cobertura y requisitos de esta beca superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.villalemana.cl/secciones/educacion/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "967267f791de00458f97e560a5a5632c8d503035a7494a64bb06247dde1f15bc",
+          "url_final": "https://www.villalemana.cl/secciones/educacion/"
+        }
+      ]
+    },
+    {
+      "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Departamento social: falta ficha específica de la modalidad superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "ed160a5ad5661da1408b5ccb1a6b603690125223a754d31fc1c703da9aab8314",
+          "url_final": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      ]
+    },
+    {
+      "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Departamento social: no acredita la modalidad de pasajes del candidato.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "ed160a5ad5661da1408b5ccb1a6b603690125223a754d31fc1c703da9aab8314",
+          "url_final": "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/"
+        }
+      ]
+    },
+    {
+      "candidato": "f84e049175177d690886a6c79b0793844cec14b0d7eefabfa23b34c6b22f44fc",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Beca de Estudios tiene requisitos propios. Falta vincularla con la modalidad de transporte del original; no sustituir automáticamente.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munistgo.cl/beca-de-estudios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "81a3a8af1372c214b541957d6a7b4b6250160d0b218c6c059279dac1d32be15c",
+          "url_final": "https://www.munistgo.cl/beca-de-estudios/"
+        }
+      ]
+    },
+    {
+      "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El portal orienta postulaciones JUNAEB. No prueba un aporte municipal propio.",
+      "evidencia_consulta": [
+        {
+          "url": "https://municipalidaddevalparaiso.cl/becas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "1742b1f27f0b553a60942155a385d912d6029c4ebed06bda355c81cc750214dc",
+          "url_final": "https://municipalidaddevalparaiso.cl/becas/"
+        }
+      ]
+    },
+    {
+      "candidato": "80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La orientación JUNAEB no prueba esta modalidad municipal de transporte.",
+      "evidencia_consulta": [
+        {
+          "url": "https://municipalidaddevalparaiso.cl/becas/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "1742b1f27f0b553a60942155a385d912d6029c4ebed06bda355c81cc750214dc",
+          "url_final": "https://municipalidaddevalparaiso.cl/becas/"
+        }
+      ]
+    },
+    {
+      "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El aporte de combustible 2026 beneficia familias según evaluación social; la fuente no acredita una beca educativa superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "d9b494362a2458b5f10e96557ba1383d1365779308c1891e67a24b9a91cfaf80",
+          "url_final": "https://munialgarrobo.cl/postulacion-aporte-economico-de-movilidad-y-combustible/"
+        }
+      ]
+    },
+    {
+      "candidato": "82e713f0fbea43f22b9bfa7c6641b139e5f012e85a896aaad1d3d4194e7fdcd3",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El acta de 2013 describe apoyo SIPEE a estudiantes de liceos municipales. No acredita una modalidad general de pasajes.",
+      "evidencia_consulta": [
+        {
+          "url": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "022cb53a220a267a912350eb38e72508800b02981a6f26a8def4407d8c0879e2",
+          "paginas": 33,
+          "url_final": "https://transparencia.laserena.cl/documentos/898_06-03-2013_11-25-56_O.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "805b6e58c31cda7605f9e2eb6f70c69176bed44854792ff519e2c813a97376d9",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "No se identifica Fundadores en la página consultada; otras becas no prueban equivalencia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "281733e4af5a078b45a1b9d79a55171476e69805f1f2ceadea1b52255d319033",
+          "url_final": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/"
+        }
+      ]
+    },
+    {
+      "candidato": "8be893cd6d836b64c8865febc653653af6cb1fed5a4a7180a542d316dc5a9967",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La enumeración de beneficios no acredita porcentaje de arancel ni requisitos de esta modalidad deportiva.",
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.ufro.cl/becas-y-beneficios/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "13d3ad83289b25e3225f4331c1188b4f3afd52b6f42859bbaad3f930ad1c99de",
+          "url_final": "https://admision.ufro.cl/becas-y-beneficios/"
+        }
+      ]
+    },
+    {
+      "candidato": "d5f97ce59d9fba8b7820cfa630c6cc9e8c257564e04394118a9bd49d43dae997",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Los programas de acompañamiento no acreditan una beca económica interna general.",
+      "evidencia_consulta": [
+        {
+          "url": "https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "14ebbf1dabdce2149772d163feca08846dcd9dc2245e8f544fef4f21f4e600d1",
+          "url_final": "https://dde.ufro.cl/culmina-un-ciclo-programa-reas-finaliza-sus-actividades-virtuales/"
+        }
+      ]
+    },
+    {
+      "candidato": "b1a2df581f33a23e380d1c9ff533c236b0a037797f6b65b26fe1011f13ab47ff",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Se deben separar becas deportivas, estatales y mérito PAES; falta atribución específica de la cobertura del original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://vrae.usach.cl/beneficios-estudiantiles",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "33ec94d4fb3a968b3de117432023d23c16f0f8309478f65c576115e780cf56a9",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La orientación DAE no define cobertura y requisitos del programa socioeconómico candidato.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Publicación del alcalde informa aporte de $100.000 a 286 estudiantes en 2026. Falta corroboración municipal específica y criterios de selección; no certificar por fuente secundaria institucionalmente distinta.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "fffe3335e92665b609cf86572bef74e3b687c09304a549788064878acfb1b176",
+          "url_final": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu"
+        }
+      ]
+    },
+    {
+      "candidato": "1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El apartado educativo no acredita beneficio propio superior. No usar noticias de otra comuna.",
+      "evidencia_consulta": [
+        {
+          "url": "https://web.sanmiguel.cl/category/educacion/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "59e271a83e21bd1ddf48fc6d1100287f9dedf88b31612dab03f0916d34703c04",
+          "url_final": "https://web.sanmiguel.cl/category/educacion/"
+        }
+      ]
+    },
+    {
+      "candidato": "c184494125231a03affcbe31c17eca4b7cea9a9bcb454850a996fa9460a3f51a",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Texto extraído insuficiente para identificar cobertura y requisitos. Requiere lectura de bases, sin certificar por descarga.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.muniestacioncentral.cl/wp-content/uploads/2026/03/bases-BTC.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "afb5c91fbb8d73d0b485862a9bdfa6ccab1b1a60775a674237de03559916b76a",
+          "url_final": "https://www.ecentral.cl/"
+        }
+      ]
+    },
+    {
+      "candidato": "432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Acceso fallido a la fuente; no acredita inexistencia. Buscar bases de la modalidad superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.talcahuano.cl/centro-de-servicios/apoyo-social/subsidios-y-beneficios",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ]
+    },
+    {
+      "candidato": "ecec85e3fcec3c2300080131f2fe657701ff13bc3db3968e55a151adfd69eedc",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El catálogo no entrega ficha completa de cobertura y requisitos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.transparencia.sanpedrodelapaz.cl/admin/programas.php",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "324eb429d21efb1d60aa429141c1609e1ed496b7e655a848c4db5c2bf0eb7edc",
+          "url_final": "https://www.transparencia.sanpedrodelapaz.cl/admin/programas.php"
+        }
+      ]
+    },
+    {
+      "candidato": "156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Descarga del PLADECO sin lectura utilizable. No atribuir un convenio de arancel a una beca de mantención.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "<urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder>"
+        }
+      ]
+    },
+    {
+      "candidato": "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Noticias identifican Beca Pasajes 2026. Faltan bases y equivalencia con el aporte económico genérico original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://lota.cl/2026/04/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "3074ae2c30ebfc86056f3e9c14f9756460290ad25167a9cf27f188d9b7f60c53",
+          "url_final": "https://lota.cl/2026/04/"
+        }
+      ]
+    },
+    {
+      "candidato": "35f9a8955aef575df868a6d378cbd6bc7ba653a0bdd2a242aedfc9d46fe5b313",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "El preuniversitario 2026 es otro beneficio; no acredita una beca propia de educación superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "61a93f28628fed0f24dcabbd82394aee52717dbf8e3c609a28b615edc3771f45",
+          "url_final": "https://munivaldivia.cl/2026/03/25/llaman-a-postular-al-preuniversitario-municipal-en-valdivia-clases-parten-en-abril/"
+        }
+      ]
+    },
+    {
+      "candidato": "8e06647a5b0809fa08e8825421fa64cc8f63723877eafde0470f1cef87df1216",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La noticia corresponde a una cohorte PAES específica y exige residencia, matrícula y puntaje. No acredita beneficio general ni el importe del original.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "a4070cd25647f64a5a20537c04c51e934faf0cb275c05f1d1bd51d034483319f",
+          "url_final": "https://www.puertomontt.cl/hasta-el-27-de-marzo-se-amplia-el-plazo-para-postular-a-beneficios-para-estudiantes-de-la-educacion-superior-egresados-de-la-educacion-municipal/"
+        }
+      ]
+    },
+    {
+      "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La fuente trata Sixto Rojas artística; no trasladar requisitos a una beca genérica superior.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.municipioiquique.cl/files/1439",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "c5e14fbaf430975e700eccbf0a8fc4936ee4bcd76069617183036d6d2b2a0d66",
+          "paginas": 14,
+          "url_final": "https://www.municipioiquique.cl/files/1439"
+        }
+      ]
+    },
+    {
+      "candidato": "134c809033fadcecdb8aff678997abb675ac809e8107ce87aee3b3937ce65452",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "No atribuir beneficios de otras comunas de la región de Aysén a esta municipalidad.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Enlace deportivo inaccesible; no confirma beca superior ni demuestra inexistencia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "110abad952a6979326ffe1fe52a0ce8555f5d3020caab03b56c094ad4bf617c8",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La función administrativa de postular becas superiores no acredita un aporte municipal propio.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.loespejo.cl/departamento-de-desarrollo-social/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "69c08c518dbda3bc2f9b8d00e8e740ba08bf6b904b238800bd0d9f05f4039e88",
+          "url_final": "https://www.loespejo.cl/departamento-de-desarrollo-social/"
+        }
+      ]
+    },
+    {
+      "candidato": "c813d491edc595bdd474efd08d3229ec4cbe4ed24b63c059a979a5164dd422b5",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Reglamento deportivo 2026: modalidad distinta del candidato superior general.",
+      "evidencia_consulta": [
+        {
+          "url": "https://transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Decretos/Decretos%20Alcaldicios%202026/Marzo/DA0718.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "bb83cffb557650058eab29ff2cc25f397fdce08a62cef57380163c7c1fe84c6d",
+          "paginas": 20,
+          "url_final": "https://transparenciaconcon.cl/upload/planilla/07_actosyresoluciones/Decretos/Decretos%20Alcaldicios%202026/Marzo/DA0718.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La orientación sobre becas estatales no acredita esta beca municipal propia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://penaflor.cl/departamento-social/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "4abbb30c465e3d48a72c7187eb46472ade269f0d46c471b26e8ed7147ea56847",
+          "url_final": "https://penaflor.cl/departamento-social/"
+        }
+      ]
+    },
+    {
+      "candidato": "89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Enlace deportivo inaccesible; identidad y cobertura siguen abiertas.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.machali.cl/ANEXOS%20BECA%20DEPORTIVA%20%28Aprobado%20por%20Concejo%29%20%281%29.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La página de departamento no aporta cobertura y requisitos específicos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://municholchol.cl/municipio/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "c630b263201842aa24afd0a36ad21b8127b8a75aa78665f85156487a3e68ced3",
+          "url_final": "https://municholchol.cl/municipio/"
+        }
+      ]
+    },
+    {
+      "candidato": "f6544cfccaf444bc6d458753b2c10ab81419fde7073b2a24f83946322b228392",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Fuente de Porvenir sobre apoyo escolar: otra comuna y otro nivel.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.muniporvenir.cl/2024/07/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "5cb13a36c944cd305f0ab5cea04d06ddf8541be6638564204779d23538e5362c",
+          "url_final": "https://www.muniporvenir.cl/2024/07/"
+        }
+      ]
+    },
+    {
+      "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Portal y prórroga identifican una convocatoria. Faltan bases con beneficio y requisitos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://imcolchane.cl/Becas.php",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "a580e779bc86b15407e5001f094552e85663bbd10a90d4ed2434b1b3718c21c2",
+          "url_final": "https://imcolchane.cl/Becas.php"
+        }
+      ]
+    },
+    {
+      "candidato": "5bec6bdc0c12d45035f6c5c3b12d702bb380e5d16aec03a2e70c82016963737d",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "No se obtuvo fuente primaria utilizable; resultados de otra localidad o país no son evidencia.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "15c8db341720668baebdd2a2be22b25bd8c99a733e5d854f6a53929b18b45b99",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La entrega regional de computadores escolares es otro nivel y otro organismo.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "7ba0f01a0a8fcc5ec90ecee6741fe6dfd6a0f283bfac6f749c29a16cd0f11b5a",
+          "url_final": "https://www.goretarapaca.gov.cl/2-477-computadores-con-conexion-gratuita-a-internet-entrega-el-mineduc-a-estudiantes-de-tarapaca/"
+        }
+      ]
+    },
+    {
+      "candidato": "6e9fa1f5b3f2577cf61e596a308c1a07baf9dc18f187b60c50dd322909457131",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Requisitos de Beca Indígena corresponden a JUNAEB; no prueban una beca municipal propia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "7f3ee398a0146c936619c9a1c9d444832a68044e4b264325955e8832cacee303",
+          "paginas": 8,
+          "url_final": "https://www.portalvisviri.cl/transparencia/documentos/social/REQUISITOS%20BECA%20INDIGENA.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "e815bff334da2705dfa9de4cce04d097a1ab8b79c6ca323df0e83814a3ac50ed",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "No se localizó una ficha primaria utilizable; conservar y buscar bases o cuenta pública.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "c0bdc07760312c8208ca965c3160c4028bf74895cc9b9547daf49291cd2c6d36",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Team Zapallar corresponde a deporte; no prueba la beca superior candidata.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munizapallar.cl/blog/becas-deportivas-team-zapallar-2026",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "373ad2b14cd507005edf903286ecae38c102c0098d42ae3b73cb55e7b33a69e2",
+          "url_final": "https://www.munizapallar.cl/blog/becas-deportivas-team-zapallar-2026"
+        }
+      ]
+    },
+    {
+      "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Formularios FONDEVE son financiamiento vecinal; no acreditan una beca estudiantil.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.mpinto.cl/formularios-fondeve/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "54bdfcac43f67264581aecb280a950074809fb4e287aa827f341df7596b376b0",
+          "url_final": "https://www.mpinto.cl/formularios-fondeve/"
+        }
+      ]
+    },
+    {
+      "candidato": "52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Noticia de 2020 es una pista de convocatoria. Faltan bases primarias de beneficio y requisitos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.lavozdelaregion.cl/index.php/educacion",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "86d84ecc83667911af947218777b36ca76a641632eb9a2652c7558cd5f6fa30c",
+          "url_final": "https://www.lavozdelaregion.cl/index.php/educacion"
+        }
+      ]
+    },
+    {
+      "candidato": "62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Referencia presupuestaria sin reglamento primario utilizable. No dividir presupuesto por beneficiarios para inventar importe.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Página social sin ficha específica de cobertura y requisitos.",
+      "evidencia_consulta": [
+        {
+          "url": "https://municholchol.cl/contacto-5/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "5c08048936c1452918164604255cb04552985f151f0b79a5b2e682d5ba8b8009",
+          "url_final": "https://municholchol.cl/contacto-5/"
+        }
+      ]
+    },
+    {
+      "candidato": "93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La referencia de convocatoria no entrega bases legibles. No equiparar al beneficio deportivo.",
+      "evidencia_consulta": []
+    },
+    {
+      "candidato": "a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "La plantilla de transparencia consultada no describe esta beca.",
+      "evidencia_consulta": [
+        {
+          "url": "https://transparencia.santabarbara.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=3264&ig=237&m=3",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "b2a0d7010be69f4de5fef736e87d7053882ad15e2092f8cdb6900b28cd68a05d",
+          "url_final": "https://transparencia.santabarbara.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=3264&ig=237&m=3"
+        }
+      ]
+    },
+    {
+      "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "PLADECO sin contenido leído satisfactoriamente. No convertir convenio de arancel en mantención.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "<urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder>"
+        }
+      ]
+    },
+    {
+      "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Publicación del alcalde describe $100.000 en 2026; no acredita dos cuotas ni $200.000. Buscar respaldo municipal y criterios.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "fffe3335e92665b609cf86572bef74e3b687c09304a549788064878acfb1b176",
+          "url_final": "https://www.rodrigocontrerasg.cl/noticias/gestion-del-alcalde-rodrigo-contreras-cumple-tres-anos-entregando-la-beca-de-edu"
+        }
+      ]
+    },
+    {
+      "candidato": "6b040bf2cb8c5732b3e9f3b9fb223cc457e78044fc235ded186e8fd32fbddd20",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "PDF de gestión no pudo extraerse satisfactoriamente; no certificar por haberlo descargado.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "Invalid object in /Pages",
+          "sha256": "e0633fd7d54fd3292e15f508906431c06a71fbcfaca52f4d40c543378a0a7aa4",
+          "url_final": "https://www.munielmonte.cl/files/CUENTA%20PUBLICA%202024.pdf"
+        }
+      ]
+    },
+    {
+      "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Orientación sobre FUAS y JUNAEB no acredita una beca municipal propia.",
+      "evidencia_consulta": [
+        {
+          "url": "https://penaflor.cl/departamento-social/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "4abbb30c465e3d48a72c7187eb46472ade269f0d46c471b26e8ed7147ea56847",
+          "url_final": "https://penaflor.cl/departamento-social/"
+        }
+      ]
+    },
+    {
+      "candidato": "c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Bases deportivas inaccesibles. No acreditan la modalidad superior candidata.",
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf",
+          "consulta": "2026-10-08",
+          "metodo": "Intento de acceso; contenido no leído",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "candidato": "f6ee87674bac80bc6912223da830ad62d050cca1da1eaaeca41b7d08343a741d",
+      "estado": "REQUIERE_ACLARACION",
+      "hallazgo": "Prensa local informa primera cuota de $200.000 para varios niveles. Falta fuente municipal de criterios; no certificar aporte único ni RSH 70%.",
+      "evidencia_consulta": [
+        {
+          "url": "https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/",
+          "consulta": "2026-10-08",
+          "metodo": "Lectura de texto servido o apartados extraídos; no lectura íntegra",
+          "sha256": "a7384262da396662285068b0b957b631c11870a0098d23cba4876447991027e0",
+          "url_final": "https://elhuemul.cl/2026/07/21/municipalidad-de-cochamo-entrega-los-primeros-aportes-municipales-estudiantiles-a-34-estudiantes-de-la-comuna/"
+        }
+      ]
+    }
+  ],
+  "recuperacion": {
+    "candidato": "3e95cab235ff364f2b441a5676988cf44b6c5cb6d771bd1c8b3cb9d3757458a2",
+    "revisado": "2026-10-08",
+    "alcance": "Beca de Apoyo a Residencia de la UCT; informe institucional de autoevaluación 2024, página 44.",
+    "informe": "REVISION_FUENTES_51_2026_10_08.md",
+    "fuentes": [
+      "https://acreditacion.uct.cl/wp-content/uploads/Informe-Autoevaluacion-2024.pdf"
+    ],
+    "beneficio": "Apoyo para gastos relacionados con la residencia; importe y periodicidad desconocidos.",
+    "requisitos_principales": "Estudiantes de la UCT provenientes de comunas distantes a Temuco y pertenecientes a los primeros deciles de ingreso; recursos limitados.",
+    "limites": "La fuente no especifica qué deciles ni un RSH máximo 60%. No confirma alojamiento en hogares, importe mensual, calendario vigente ni admisibilidad individual. Se recupera una beca interna distinta de JUNAEB; la exclusión anterior no queda ratificada. Lectura del apartado oficial indexado; descarga directa fallida por certificado.",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  }
+}

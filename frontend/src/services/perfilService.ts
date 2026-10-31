@@ -3,7 +3,7 @@ import type { ApiResponse, PerfilEstudiante } from '../types';
 
 export const perfilService = {
   getPerfil() {
-    return api.get<ApiResponse<PerfilEstudiante>>('/perfil');
+    return api.get<ApiResponse<PerfilEstudiante | null>>('/perfil');
   },
 
   savePerfil(data: Record<string, unknown>) {

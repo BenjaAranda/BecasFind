@@ -69,12 +69,24 @@ export interface DocumentoRequerido {
   esObligatorio: boolean;
 }
 
+export interface Cobertura {
+  tipo: 'MONETARIA' | 'PORCENTUAL' | 'NO_MONETARIA' | 'DESCONOCIDA';
+  importe?: string | null;
+  moneda?: string | null;
+  periodicidad?: 'UNICA' | 'MENSUAL' | 'SEMESTRAL' | 'ANUAL' | 'DESCONOCIDA' | null;
+  porcentaje?: string | null;
+}
+
 export interface BecaSummary {
-  idBeca: number;
+  estadoPostulacion?: 'ABIERTA' | 'CERRADA' | 'PROXIMA' | 'FECHAS_POR_CONFIRMAR' | 'EN_REVISION';
+  fechaInicioPostulacion?: string | null;
+  estadoActiva: boolean;
+  idBeca: string;
   nombre: string;
   descripcionCorta: string;
   montoCobertura: string;
-  fechaCierrePostulacion: string;
+  cobertura?: Cobertura;
+  fechaCierrePostulacion: string | null;
   urlOficial: string;
   nombreInstitucion: string;
   nombreTipoBeca: string;
@@ -82,13 +94,15 @@ export interface BecaSummary {
 }
 
 export interface BecaDetail {
-  idBeca: number;
+  estadoPostulacion?: 'ABIERTA' | 'CERRADA' | 'PROXIMA' | 'FECHAS_POR_CONFIRMAR' | 'EN_REVISION';
+  idBeca: string;
   nombre: string;
   descripcionCorta: string;
   descripcionLarga: string;
   montoCobertura: string;
+  cobertura?: Cobertura;
   fechaInicioPostulacion: string;
-  fechaCierrePostulacion: string;
+  fechaCierrePostulacion: string | null;
   urlOficial: string;
   estadoActiva: boolean;
   institucion: Institucion | null;
@@ -146,6 +160,10 @@ export interface PerfilEstudiante {
 export interface ImportResult {
   creadas: number;
   actualizadas: number;
+  omitidas?: number;
   errores: number;
   mensajesError: string[];
 }
+
+export interface AdminBecaSummary extends Omit<BecaSummary, "idBeca"> { idBeca: number; publicId: string; version?: number }
+export interface AdminBecaDetail extends Omit<BecaDetail, "idBeca"> { idBeca: number; version?: number }

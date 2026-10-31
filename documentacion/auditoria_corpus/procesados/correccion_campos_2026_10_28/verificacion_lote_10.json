@@ -1,0 +1,19 @@
+{
+  "aplicado": true,
+  "revisadas": 55,
+  "filas_modificadas": 25,
+  "categorias_completadas": 23,
+  "beneficios_vacios_recuperados": 4,
+  "atribucion_cunco_corregida": true,
+  "fuente_cruzada_san_pedro_retirada": true,
+  "identidad_san_pedro_resuelta": false,
+  "filas_conciliadas": 528,
+  "uuid_preservados": true,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T220359Z-541343f2.dump",
+  "instantaneas_privadas": [
+    "tipos-lote10-antes.json",
+    "tipos-lote10-despues.json"
+  ],
+  "sql_sha256": "9f65caddc7e4c625ded6e914d67bcd9a7ee22e8af3f5a8dc3c95b54555811aa7",
+  "advertencia": "SQL aplicado; no repetir. Fuente pública de verificación en verificacion_publica_lote_10.json."
+}

@@ -1,0 +1,32 @@
+{
+  "fecha_santiago": "2026-10-27",
+  "backend_compilacion": "mvn -q compile: salida 0 en Oracle; imagen maven:3.9.6-eclipse-temurin-17",
+  "backend_fuentes_local_y_oracle_sha256": "d1be1ae1bfb996c6924e4ddf1ab108e5f153901d3af85733fd266ef7aaae79ee",
+  "algoritmo_fuentes": "SHA256 acumulado de ruta relativa UTF-8, NUL y bytes; rutas ordenadas por texto sensible a mayúsculas; pom.xml, Dockerfile y src/main",
+  "imagen_runtime": "sha256:0cb720bf46390beac784d44ef52aee06aad0383fd5cb63cbc871093be37a3d70",
+  "uid_backend": 999,
+  "encoding_patrones_corruptos_bytea": 0,
+  "https": 200,
+  "total_oracle": 528,
+  "activas": 5,
+  "inactivas_cerradas": 57,
+  "inactivas_sin_cierre_acreditado": 466,
+  "temporizadores": {
+    "BUCH": "2026-10-30 12:00 America/Santiago",
+    "FUAS": "2026-11-05 14:00 America/Santiago"
+  },
+  "ambos_temporizadores_activos": true,
+  "prueba_anticipada_cierre_fuas": "Servicio ejecutado antes del plazo: conservó las cinco activas",
+  "pruebas_importador": "Tres aprobadas; una integración PostgreSQL local omitida. Restauración real de 14 tablas sí comprobada en Oracle.",
+  "auditoria_editorial": "report-corpus-progress.py y audit-editorial-evidence.py: salida 0",
+  "limite": "No se alteró la base local; no se promovió Vercel a producción. El fallo inicial mvn local por PATH se resolvió compilando las mismas fuentes en Oracle.",
+  "frontend_parche_dependencias": {
+    "vite": "8.3.5",
+    "follow_redirects": "1.16.2",
+    "zod": "4.6.7",
+    "npm_audit_vulnerabilidades": 0,
+    "lint": "salida 0",
+    "build": "salida 0",
+    "limite": "Lockfile corregido en Git; preview anterior no sustituida por este build"
+  }
+}

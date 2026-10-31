@@ -1,0 +1,265 @@
+[
+  {
+    "candidato": "0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b",
+    "id_beca": 12,
+    "public_id": "98c9d555-3d2d-4934-b772-de3c7829fc89",
+    "nombre": "Beca Deportistas Destacados UMAG",
+    "institucion": "Universidad de Magallanes",
+    "estado_editorial": "CONFIRMADA_ESENCIAL",
+    "modalidad_anio": "UMAG; Deportista Destacado; calendario actualizado RES.117/VRAC/2026; páginas 2 y 4",
+    "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
+    "evidencia_anterior": {
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=3911"
+      ],
+      "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
+      "recuperacion": null
+    },
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
+      "https://admision.umag.cl/?page_id=3911"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "referencia": "Resolución 117/VRAC/2026, páginas 2 y 4; segunda ventana. Primera ventana conservada en el razonamiento.",
+    "apertura": "2026-03-02",
+    "cierre": "2026-04-30",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "razonamiento": "El calendario enumera esta modalidad: primera recepción 12–23 enero y segunda recepción/renovación 2 marzo–30 abril de 2026.",
+    "limitaciones": "Se acredita cierre de estas ventanas 2026, sin inferir desaparición del beneficio ni convocatoria 2027. No usar plazos JUNAEB o matrícula técnica.",
+    "propuesta_cambio": "Preservar originales, UUID y estado editorial; no activar sin cierre confirmado aplicable.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Conservar ambas ventanas y buscar rectificación o nueva convocatoria de esta modalidad.",
+    "calendarios": [
+      {
+        "modalidad": "primera recepción",
+        "apertura": "2026-01-12",
+        "cierre": "2026-01-23"
+      },
+      {
+        "modalidad": "segunda recepción",
+        "apertura": "2026-03-02",
+        "cierre": "2026-04-30"
+      }
+    ],
+    "clasificacion_corte_anterior": "CERRADA_CONFIRMADA",
+    "relectura_expediente": "2026-10-29",
+    "metodo_corte": "Relectura individual del razonamiento y los límites del expediente. Solo las notas de nuevos_dictamenes.json registran fuentes o decisiones adicionales; no afirma nueva lectura íntegra de todas las fuentes.",
+    "resultado_al_corte": "DICTAMEN_CON_ALCANCE_DELIMITADO"
+  },
+  {
+    "candidato": "67619de59c7379d92be87cbfd2d42f95bb606486f872d80b8f8a7a8eb22a6857",
+    "id_beca": 211,
+    "public_id": "3112dffa-bfb6-4917-884b-1bc63e2fe7c6",
+    "nombre": "Beca Mayor Puntaje PAES UMAG",
+    "institucion": "Universidad de Magallanes",
+    "estado_editorial": "CONFIRMADA_ESENCIAL",
+    "modalidad_anio": "UMAG; Mayor Puntaje PAES; calendario actualizado RES.117/VRAC/2026; páginas 2 y 4",
+    "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
+    "evidencia_anterior": {
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=4099"
+      ],
+      "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
+      "recuperacion": null
+    },
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
+      "https://admision.umag.cl/?page_id=4099"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "referencia": "Resolución 117/VRAC/2026, páginas 2 y 4; segunda ventana. Primera ventana conservada en el razonamiento.",
+    "apertura": "2026-03-02",
+    "cierre": "2026-04-30",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "razonamiento": "El calendario enumera esta modalidad: primera recepción 12–23 enero y segunda recepción/renovación 2 marzo–30 abril de 2026.",
+    "limitaciones": "Se acredita cierre de estas ventanas 2026, sin inferir desaparición del beneficio ni convocatoria 2027. No usar plazos JUNAEB o matrícula técnica.",
+    "propuesta_cambio": "Preservar originales, UUID y estado editorial; no activar sin cierre confirmado aplicable.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Conservar ambas ventanas y buscar rectificación o nueva convocatoria de esta modalidad.",
+    "calendarios": [
+      {
+        "modalidad": "primera recepción",
+        "apertura": "2026-01-12",
+        "cierre": "2026-01-23"
+      },
+      {
+        "modalidad": "segunda recepción",
+        "apertura": "2026-03-02",
+        "cierre": "2026-04-30"
+      }
+    ],
+    "clasificacion_corte_anterior": "CERRADA_CONFIRMADA",
+    "relectura_expediente": "2026-10-29",
+    "metodo_corte": "Relectura individual del razonamiento y los límites del expediente. Solo las notas de nuevos_dictamenes.json registran fuentes o decisiones adicionales; no afirma nueva lectura íntegra de todas las fuentes.",
+    "resultado_al_corte": "DICTAMEN_CON_ALCANCE_DELIMITADO"
+  },
+  {
+    "candidato": "e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8",
+    "id_beca": 461,
+    "public_id": "a0830043-203b-4bbf-8c1d-c3cdeaa28293",
+    "nombre": "Beca Pueblos Originarios Magallanes UMAG",
+    "institucion": "Universidad de Magallanes",
+    "estado_editorial": "CONFIRMADA_ESENCIAL",
+    "modalidad_anio": "UMAG; Pueblos Originarios; calendario actualizado RES.117/VRAC/2026; páginas 2 y 4",
+    "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
+    "evidencia_anterior": {
+      "informe": "CONFIRMACION_ESENCIAL_LOTE_78.md",
+      "fuentes": [
+        "https://admision.umag.cl/?page_id=4083"
+      ],
+      "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
+      "recuperacion": null
+    },
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
+      "https://admision.umag.cl/?page_id=4083"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "referencia": "Resolución 117/VRAC/2026, páginas 2 y 4; segunda ventana. Primera ventana conservada en el razonamiento.",
+    "apertura": "2026-03-02",
+    "cierre": "2026-04-30",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "razonamiento": "El calendario enumera esta modalidad: primera recepción 12–23 enero y segunda recepción/renovación 2 marzo–30 abril de 2026.",
+    "limitaciones": "Se acredita cierre de estas ventanas 2026, sin inferir desaparición del beneficio ni convocatoria 2027. No usar plazos JUNAEB o matrícula técnica.",
+    "propuesta_cambio": "Preservar originales, UUID y estado editorial; no activar sin cierre confirmado aplicable.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Conservar ambas ventanas y buscar rectificación o nueva convocatoria de esta modalidad.",
+    "calendarios": [
+      {
+        "modalidad": "primera recepción",
+        "apertura": "2026-01-12",
+        "cierre": "2026-01-23"
+      },
+      {
+        "modalidad": "segunda recepción",
+        "apertura": "2026-03-02",
+        "cierre": "2026-04-30"
+      }
+    ],
+    "clasificacion_corte_anterior": "CERRADA_CONFIRMADA",
+    "relectura_expediente": "2026-10-29",
+    "metodo_corte": "Relectura individual del razonamiento y los límites del expediente. Solo las notas de nuevos_dictamenes.json registran fuentes o decisiones adicionales; no afirma nueva lectura íntegra de todas las fuentes.",
+    "resultado_al_corte": "DICTAMEN_CON_ALCANCE_DELIMITADO"
+  },
+  {
+    "candidato": "e1d0b2f915b494c0070072f2f718c974c447c643651879791b821f58bdd20b00",
+    "id_beca": 464,
+    "public_id": "29e88760-f0c1-427d-a27c-8a6496624a5a",
+    "nombre": "Beca de Residencia UMAG",
+    "institucion": "Universidad de Magallanes",
+    "estado_editorial": "CONFIRMADA_ESENCIAL",
+    "modalidad_anio": "UMAG; Alojamiento; calendario actualizado RES.117/VRAC/2026; páginas 2 y 4",
+    "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
+    "evidencia_anterior": {
+      "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "observacion": "Expediente y fuente compartida ya contrastados en la primera tanda; conservar sus límites.",
+      "recuperacion": null
+    },
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "referencia": "Resolución 117/VRAC/2026, páginas 2 y 4; segunda ventana. Primera ventana conservada en el razonamiento.",
+    "apertura": "2026-03-02",
+    "cierre": "2026-04-30",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "razonamiento": "El calendario enumera esta modalidad: primera recepción 12–23 enero y segunda recepción/renovación 2 marzo–30 abril de 2026.",
+    "limitaciones": "Se acredita cierre de estas ventanas 2026, sin inferir desaparición del beneficio ni convocatoria 2027. No usar plazos JUNAEB o matrícula técnica.",
+    "propuesta_cambio": "Preservar originales, UUID y estado editorial; no activar sin cierre confirmado aplicable.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Conservar ambas ventanas y buscar rectificación o nueva convocatoria de esta modalidad.",
+    "calendarios": [
+      {
+        "modalidad": "primera recepción",
+        "apertura": "2026-01-12",
+        "cierre": "2026-01-23"
+      },
+      {
+        "modalidad": "segunda recepción",
+        "apertura": "2026-03-02",
+        "cierre": "2026-04-30"
+      }
+    ],
+    "clasificacion_corte_anterior": "CERRADA_CONFIRMADA",
+    "relectura_expediente": "2026-10-29",
+    "metodo_corte": "Relectura individual del razonamiento y los límites del expediente. Solo las notas de nuevos_dictamenes.json registran fuentes o decisiones adicionales; no afirma nueva lectura íntegra de todas las fuentes.",
+    "resultado_al_corte": "DICTAMEN_CON_ALCANCE_DELIMITADO"
+  },
+  {
+    "candidato": "eca3a961c94b847ef1e8f6c0c119a377bd1f91968ba7ab68d0a3f2808d318677",
+    "id_beca": 489,
+    "public_id": "c8982c95-c281-4d09-9cf7-317a8de7b21a",
+    "nombre": "Beca Excelencia Académica UMAG",
+    "institucion": "Universidad de Magallanes",
+    "estado_editorial": "CONFIRMADA_ESENCIAL",
+    "modalidad_anio": "UMAG; Excelencia Académica; calendario actualizado RES.117/VRAC/2026; páginas 2 y 4",
+    "estado_previo": "INACTIVA_CALENDARIO_DESCONOCIDO_O_VIGENCIA_NO_ACREDITADA",
+    "evidencia_anterior": {
+      "informe": "CONFIRMACION_ESENCIAL_EXCELENCIA_UMAG_2026_10_12.md",
+      "fuentes": [
+        "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+        "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf"
+      ],
+      "observacion": "Control limitado del expediente y pasajes de calendario recuperados; no se declara lectura íntegra ni certificación de los campos por HTTP. Esos pasajes no se usan para activar esta modalidad sin evidencia específica suficiente.",
+      "recuperacion": {
+        "url": "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+        "url_final": "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf",
+        "http": 200,
+        "sha256": "c7b2c8087464f232c0be8e1ec7f34e1413ce7193cfd70a0423a8c26e31b69a76",
+        "estado_recuperacion": "TEXTO_RECUPERADO_PENDIENTE_LECTURA",
+        "error": null
+      }
+    },
+    "revision_individual_realizada": true,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "fuentes": [
+      "https://umag.cl/wp-content/uploads/2026/05/CalendarioAcademico2026.pdf",
+      "https://analisis.umag.cl/transparencia/documentos/sbb_20190628.105651.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "referencia": "Resolución 117/VRAC/2026, páginas 2 y 4; segunda ventana. Primera ventana conservada en el razonamiento.",
+    "apertura": "2026-03-02",
+    "cierre": "2026-04-30",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "razonamiento": "El calendario enumera esta modalidad: primera recepción 12–23 enero y segunda recepción/renovación 2 marzo–30 abril de 2026.",
+    "limitaciones": "Se acredita cierre de estas ventanas 2026, sin inferir desaparición del beneficio ni convocatoria 2027. No usar plazos JUNAEB o matrícula técnica.",
+    "propuesta_cambio": "Preservar originales, UUID y estado editorial; no activar sin cierre confirmado aplicable.",
+    "estado_aplicacion": "PENDIENTE",
+    "siguiente_accion": "Conservar ambas ventanas y buscar rectificación o nueva convocatoria de esta modalidad.",
+    "calendarios": [
+      {
+        "modalidad": "primera recepción",
+        "apertura": "2026-01-12",
+        "cierre": "2026-01-23"
+      },
+      {
+        "modalidad": "segunda recepción",
+        "apertura": "2026-03-02",
+        "cierre": "2026-04-30"
+      }
+    ],
+    "clasificacion_corte_anterior": "CERRADA_CONFIRMADA",
+    "relectura_expediente": "2026-10-29",
+    "metodo_corte": "Relectura individual del razonamiento y los límites del expediente. Solo las notas de nuevos_dictamenes.json registran fuentes o decisiones adicionales; no afirma nueva lectura íntegra de todas las fuentes.",
+    "resultado_al_corte": "DICTAMEN_CON_ALCANCE_DELIMITADO"
+  }
+]

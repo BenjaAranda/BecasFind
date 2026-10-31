@@ -1,0 +1,127 @@
+[
+  {
+    "candidato": "a183d08a238734f518bbd4cced586d1793a5a966dbfbaba4b33fb62fa984e423",
+    "nombre": "Aporte Excepcional de Transporte ULagos",
+    "institucion": "Universidad de Los Lagos",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+    ],
+    "campos": {
+      "monto": "Aporte excepcional de transporte; importe y periodicidad no especificados",
+      "url": "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial; cierre y condiciones completas pendientes. Exclusivo del campus Osorno para Obstetricia y Puericultura o Ingeniería Civil en Informática; ingreso hasta 2023. DOCUMENTOS REQUERIDOS: La unidad de becas solicita antecedentes; lista concreta no confirmada."
+  },
+  {
+    "candidato": "e12a1e8532b17861b3766394ad198755e7135a7652079be51dd9dd82eedb72e8",
+    "nombre": "Beca Pueblos Originarios Magallanes UMAG",
+    "institucion": "Universidad de Magallanes",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=4083"
+    ],
+    "campos": {
+      "monto": "Beneficio de arancel para pueblos originarios de Magallanes; porcentaje no especificado",
+      "url": "https://admision.umag.cl/?page_id=4083",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial; cierre y condiciones completas pendientes. La ficha exige acreditación CONADI para pueblo Kawésqar o Yagan y registro social de hogares; no indica umbral RSH. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Acreditación CONADI. Lista completa pendiente."
+  },
+  {
+    "candidato": "0589b551c3bc86f9bfe9d90288448c9d1b343b950160006e06a3fcfdcfca665b",
+    "nombre": "Beca Deportistas Destacados UMAG",
+    "institucion": "Universidad de Magallanes",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.umag.cl/?page_id=3911"
+    ],
+    "campos": {
+      "monto": "Financiamiento total o parcial del arancel de carrera según evaluación deportiva",
+      "url": "https://admision.umag.cl/?page_id=3911",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial; cierre y condiciones completas pendientes. Rendimiento deportivo y patrocinio de entrenador. Debe representar a la universidad. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Currículo deportivo con evidencias certificadas por IND; federación o autoridad deportiva competente. Lista completa pendiente."
+  },
+  {
+    "candidato": "158fa6c0e34a3b1f8f489fa60a20a1ea6769d03e7bf360488de39eb31cd4079a",
+    "nombre": "Beca de Honor Primer Lugar de Matrícula",
+    "institucion": "Universidad de Valparaíso",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "campos": {
+      "monto": "100 % del arancel anual del primer año",
+      "url": "https://admision.uv.cl/becas-y-beneficios",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial; cierre y condiciones completas pendientes. Primer lugar por puntaje ponderado en la carrera. Egreso de enseñanza media del año anterior. Puntaje ponderado PAES de al menos 750. DOCUMENTOS REQUERIDOS: No confirmados por esta ficha."
+  },
+  {
+    "candidato": "12efd20e2ebeb5752e26afb9feca068226f4d893ef47a4f473c118ca68f8e020",
+    "nombre": "Beca de Honor Distincion Trayectorias Educativas",
+    "institucion": "Universidad de Valparaíso",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uv.cl/becas-y-beneficios"
+    ],
+    "campos": {
+      "monto": "100 % del arancel anual del primer año",
+      "url": "https://admision.uv.cl/becas-y-beneficios",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial; cierre y condiciones completas pendientes. Distinción a la trayectoria educativa otorgada por Mineduc y egreso de enseñanza media del año anterior. DOCUMENTOS REQUERIDOS: No confirmados por esta ficha."
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "fecha_cierre": "2026-10-30",
+  "cohorte": 466,
+  "expedientes_con_dictamen": 466,
+  "sin_dictamen": 0,
+  "clasificaciones": {
+    "REVISION_INCONCLUSA": 187,
+    "CALENDARIO_POR_MODALIDAD": 88,
+    "SIN_CALENDARIO_PUBLICADO": 119,
+    "CERRADA_CONFIRMADA": 68,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 4
+  },
+  "permanentes_confirmadas": 0,
+  "conclusion_delimitada": 279,
+  "inconclusas": 187,
+  "estado": "CORTE_CERRADO_CON_INCONCLUSAS",
+  "auditoria_concluida_al_corte": true,
+  "investigacion_exhaustiva_de_todas_las_fuentes": false,
+  "fichas_modificadas_en_esta_entrega": 56,
+  "calendarios_cerrados_registrados_en_esta_entrega": 54,
+  "activadas_en_esta_entrega": 2,
+  "activadas_acumuladas_en_cohorte": 4,
+  "aplicaciones_previas_conservadas": 3,
+  "pendientes_de_aplicar": 0,
+  "catalogo_publico": {
+    "CERRADA": 112,
+    "FECHAS_POR_CONFIRMAR": 221,
+    "ABIERTA": 8,
+    "EN_REVISION": 187
+  },
+  "limite": "Cierre documental finito con dictamen por UUID. Las 187 inconclusas siguen sin vigencia acreditada; no son descartes ni confirmaciones actuales. Tampoco se certifica la continuidad actual de los cierres históricos. Fuentes de 27–30/10 y límites conservados; no son 466 nuevas lecturas íntegras ni 466 confirmaciones."
+}

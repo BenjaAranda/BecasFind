@@ -26,17 +26,19 @@ public class CatalogoServiceImpl implements CatalogoService {
     private final TipoBecaRepository tipoBecaRepository;
     private final TipoInstitucionRepository tipoInstitucionRepository;
     private final InstitucionRepository institucionRepository;
+    private final com.becasfind.api.services.CatalogoPublico catalogoPublico;
 
     public CatalogoServiceImpl(RegionRepository regionRepository,
                                ComunaRepository comunaRepository,
                                TipoBecaRepository tipoBecaRepository,
                                TipoInstitucionRepository tipoInstitucionRepository,
-                               InstitucionRepository institucionRepository) {
+                               InstitucionRepository institucionRepository, com.becasfind.api.services.CatalogoPublico catalogoPublico) {
         this.regionRepository = regionRepository;
         this.comunaRepository = comunaRepository;
         this.tipoBecaRepository = tipoBecaRepository;
         this.tipoInstitucionRepository = tipoInstitucionRepository;
         this.institucionRepository = institucionRepository;
+        this.catalogoPublico = catalogoPublico;
     }
 
     @Override
@@ -68,6 +70,7 @@ public class CatalogoServiceImpl implements CatalogoService {
     @Transactional(readOnly = true)
     public List<TipoBecaDTO> findAllTiposBeca() {
         return tipoBecaRepository.findAll().stream()
+                .filter(t -> isAdmin() || !"Beca por verificar".equalsIgnoreCase(t.getNombre()))
                 .map(t -> TipoBecaDTO.builder()
                         .idTipoBeca(t.getIdTipoBeca())
                         .nombre(t.getNombre())
@@ -89,7 +92,7 @@ public class CatalogoServiceImpl implements CatalogoService {
     @Override
     @Transactional(readOnly = true)
     public List<InstitucionDTO> findAllInstituciones() {
-        return institucionRepository.findAll().stream()
+        return (isAdmin() ? institucionRepository.findAll() : institucionRepository.findPublicCatalog(catalogoPublico.getPublicIds())).stream()
                 .map(this::toInstitucionDTO)
                 .collect(Collectors.toList());
     }
@@ -105,11 +108,17 @@ public class CatalogoServiceImpl implements CatalogoService {
 
         return InstitucionDTO.builder()
                 .idInstitucion(inst.getIdInstitucion())
-                .rut(inst.getRut())
+                .rut(inst.getRut() != null && inst.getRut().startsWith("IMP-") && !isAdmin() ? null : inst.getRut())
                 .nombre(inst.getNombre())
                 .sitioWeb(inst.getSitioWeb())
                 .contactoEmail(inst.getContactoEmail())
                 .tipoInstitucion(tipoDTO)
                 .build();
+    }
+
+    private boolean isAdmin() {
+        var auth = org.springframework.security.core.context.SecurityContextHolder.getContext().getAuthentication();
+        return auth != null && auth.isAuthenticated() && auth.getAuthorities().stream()
+                .anyMatch(authority -> "ROLE_ADMIN".equals(authority.getAuthority()));
     }
 }

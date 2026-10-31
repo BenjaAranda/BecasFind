@@ -2,6 +2,9 @@ package com.becasfind.api.repositories;
 
 import com.becasfind.api.models.entities.PasswordResetToken;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Lock;
+import jakarta.persistence.LockModeType;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -13,6 +16,8 @@ import java.util.Optional;
 @Repository
 public interface PasswordResetTokenRepository extends JpaRepository<PasswordResetToken, Long> {
 
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    @Transactional
     Optional<PasswordResetToken> findByToken(String token);
 
     @Modifying

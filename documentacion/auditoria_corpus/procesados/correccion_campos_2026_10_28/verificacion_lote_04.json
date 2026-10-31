@@ -1,0 +1,19 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 59,
+  "filas_conciliadas": 528,
+  "uuid_preservados": true,
+  "campos_modificados": [
+    "tipo_beca",
+    "version"
+  ],
+  "incremento_version": 1,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T002030Z-a0a5cdc4.dump",
+  "instantaneas_privadas": [
+    "tipos-lote04-antes.json",
+    "tipos-lote04-despues.json"
+  ],
+  "sql_sha256": "76e68cf5ccece58006b4ae922fc248200873a0f7c52463f1a0af857577e65edc",
+  "procedencia": "Relectura de los expedientes confirmados citados por cada fila; sin nueva certificación de convocatoria.",
+  "advertencia": "SQL ya aplicado; no repetir."
+}

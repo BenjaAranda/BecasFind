@@ -1,0 +1,21 @@
+{
+  "files": 94,
+  "rows": 645,
+  "unique_keys": 577,
+  "duplicate_keys": 48,
+  "sources": 387,
+  "checked_sources": 387,
+  "status_counts": {
+    "ValueError": 12,
+    "200": 294,
+    "URLError": 23,
+    "404": 23,
+    "gaierror": 30,
+    "403": 1,
+    "526": 1,
+    "523": 1,
+    "TimeoutError": 1,
+    "503": 1
+  },
+  "file_errors": []
+}

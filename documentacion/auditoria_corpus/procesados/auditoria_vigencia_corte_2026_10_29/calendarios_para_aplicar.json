@@ -1,0 +1,818 @@
+[
+  {
+    "id_beca": 11,
+    "public_id": "da8bdcfe-2746-4a95-92c0-852042f7a903",
+    "nombre": "Beca Municipal para Estudios Superiores Amanda Labarca",
+    "apertura": "2026-05-04",
+    "cierre": "2026-05-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://becasmunicipales.quilicura.cl/index.aspx",
+      "https://becasmunicipales.quilicura.cl/Doc/BASES_3.pdf"
+    ],
+    "referencia": "Bases escaneadas; páginas 5–6; sección IV y decreto de aprobación al final",
+    "razonamiento": "La lectura visual de las bases acredita recepción en línea del 4 al 31 de mayo de 2026. Junio corresponde a tramitación y subsanación.",
+    "limitaciones": "La portada web mantiene textos de años anteriores; prevalece el calendario explícito de las bases 2026. No se deduce prórroga de la subsanación."
+  },
+  {
+    "id_beca": 20,
+    "public_id": "6ec7f358-681e-43d2-a8cc-5a8d7a27da76",
+    "nombre": "Beca Municipal de Educación Superior Capital de las Flores",
+    "apertura": "2026-03-30",
+    "cierre": "2026-04-14",
+    "hora_cierre": "14:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://hijuelas.cl/beca-de-excelencia-municipal/",
+      "https://hijuelas.cl/wp-content/uploads/BASES-Beca-municipal-2024.pdf"
+    ],
+    "referencia": "Noticia de apertura del 30 de marzo de 2026",
+    "razonamiento": "La convocatoria establece recepción del 30 de marzo al 14 de abril de 2026 a las 14:00; exige residencia, RSH y condición estudiantil.",
+    "limitaciones": "La entrega de premios de mayo no amplía la recepción. No se traslada el monto de las bases 2024 sin respaldo de esta edición."
+  },
+  {
+    "id_beca": 24,
+    "public_id": "32d2a10c-1c8b-46d9-b461-84b8082d9a6a",
+    "nombre": "Beca Municipal de Educación Superior San Antonio",
+    "apertura": "2026-03-23",
+    "cierre": "2026-04-12",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.sanantonio.cl/municipalidad/noticias/item/14791-municipio-abre-postulaciones-a-la-beca-imsa-2026.html",
+      "https://transparencia.sanantonio.cl/municipalidad/noticias/item/download/2201_5017f1e6eb156d7396044f78f0e37ad5.html",
+      "https://www.sanantonio.cl/servicios/portal-servicios/tramites-por-unidades/item/8873-beca-municipal.html"
+    ],
+    "referencia": "Noticia de apertura 19/03/2026; instructivo 2026",
+    "razonamiento": "La noticia municipal fija recepción online del 23 de marzo al 12 de abril de 2026; aporte único de $160.000 para estudiantes superiores con RSH comunal.",
+    "limitaciones": "La revisión de abril/mayo y la selección no son extensión de postulaciones. No se accedió con Clave Única ni se enviaron formularios."
+  },
+  {
+    "id_beca": 35,
+    "public_id": "0573fb91-8350-4e79-850c-322ffc876913",
+    "nombre": "Beca Socioeconomica UCSH",
+    "apertura": "2026-10-05",
+    "cierre": "2026-10-19",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.ucsh.cl/actualidad/ucsh-abre-postulaciones-a-la-beca-don-bosco-2025-2026-conoce-los-requisitos-promedios-y-plazos-del-beneficio/",
+      "https://academicos.ucsh.cl/calendarioacad.aspx",
+      "https://www.ucsh.cl/assets/uploads/2023/10/info_BDB.pdf"
+    ],
+    "referencia": "UCSH; Don Bosco 2026–2027; noticia 05/10/2026",
+    "razonamiento": "La convocatoria específica fija recepción online del 5 al 19 de octubre de 2026 para estudiantes regulares con mérito y necesidad económica.",
+    "limitaciones": "La URL conserva 2025 pero el texto y calendario académico indican 2026; diciembre es resultado, no cierre."
+  },
+  {
+    "id_beca": 39,
+    "public_id": "ee214984-660e-433b-80bd-1a2ccc48e3dd",
+    "nombre": "Beca Municipal Educación Superior Vichuquen",
+    "apertura": null,
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.munivichuquen.cl/postula-a-la-beca-municipal-de-incentivo-a-la-educacion-superior-2026-no-pierdas-la-oportunidad/"
+    ],
+    "referencia": "Noticia 18/03/2026; plazo y requisitos",
+    "razonamiento": "La municipalidad fija cierre el 31 de marzo de 2026 para el incentivo único de $200.000; exige regularidad 2026 y condiciones académicas y sociales.",
+    "limitaciones": "El día de publicación no acredita apertura; no se inventa fecha inicial. El pago de abril no amplía el cierre."
+  },
+  {
+    "id_beca": 42,
+    "public_id": "a1c86c4a-c48e-40e8-b190-a75e6684fb56",
+    "nombre": "Beca Municipal de Educación Superior San Vicente",
+    "apertura": "2026-02-01",
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.municipalidadsanvicente.cl/tramites/postulaciones",
+      "https://convocatorias.municipalidadsanvicente.cl/",
+      "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+    ],
+    "referencia": "Portal oficial de convocatorias; beca municipal y beca estímulo",
+    "razonamiento": "El portal diferencia excelencia académica y estímulo socioeconómico; ambas ventanas publicadas van del 1 de febrero al 31 de marzo de 2026 y figuran cerradas.",
+    "limitaciones": "El calendario coincide pero no prueba que ambas becas sean un mismo programa ni autoriza trasladar coberturas entre ellas."
+  },
+  {
+    "id_beca": 76,
+    "public_id": "6e1979d4-9c61-4b08-a45b-6b6d6e2525ca",
+    "nombre": "Beca Deportiva UBB",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "referencia": "UBB; Estudiantes Deportistas; becas internas 2026",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado."
+  },
+  {
+    "id_beca": 80,
+    "public_id": "6fc9b420-ae9b-4e94-94ed-83b7b2ed7673",
+    "nombre": "Beca Municipal Educación Superior Cerro Sombrero",
+    "apertura": "2026-02-16",
+    "cierre": "2026-03-13",
+    "hora_cierre": "13:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.muniprimavera.cl/noticias/proceso-de-becas-municipales-de-primavera-2026/",
+      "https://drive.google.com/file/d/1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h/view?usp=drive_link",
+      "https://drive.google.com/uc?export=download&id=1-ZIm27npFj8vg26DHj-k57XXbpLZFh_h"
+    ],
+    "referencia": "Proceso de becas municipales 2026; fechas de entrega física",
+    "razonamiento": "El municipio publica recepción presencial del 16 de febrero al 13 de marzo de 2026 a las 13:00; no acepta solicitudes por correo.",
+    "limitaciones": "El 10 de febrero es publicación de bases y no apertura. Los apoyos de viaje son un componente separado."
+  },
+  {
+    "id_beca": 113,
+    "public_id": "996eddb7-7f41-4663-9f39-10b21144d7b3",
+    "nombre": "Beca Social de Estudios Municipalidad San Pedro de Atacama",
+    "apertura": "2026-02-02",
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.sanpedrodeatacamatransparente.cl/Uploads/2022/07/09%20Subsidios%20y%20Beneficios%20propios/Beca%20Municipal/BECA%20SOCIAL%20ESTUDIOS%20MARZO%202026.pdf",
+      "https://sanpedrodeatacamatransparente.cl/Uploads/2022/07/09%20Subsidios%20y%20Beneficios%20propios/2026/Beca%20Municipal/BECA%20SOCIAL%20DE%20ESTUDIOS%20ENERO%202026.pdf"
+    ],
+    "referencia": "San Pedro de Atacama; Beca Social Estudios 2026; tabla marzo",
+    "razonamiento": "La fila 2026 fija 2 febrero–31 marzo; separa evaluación abril/mayo y pagos junio/septiembre.",
+    "limitaciones": "El año del acto 2023 es normativo; no altera la edición 2026. No se halló prórroga en las tablas leídas."
+  },
+  {
+    "id_beca": 115,
+    "public_id": "c7a19c94-6821-43ec-ae63-be7125b86796",
+    "nombre": "Beca Municipal Incentivo a la Educación Superior",
+    "apertura": "2026-10-19",
+    "cierre": "2026-10-23",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://imda.gob.cl/beca-municipal/"
+    ],
+    "referencia": "Diego de Almagro; Incentivo; segundo llamado 2026",
+    "razonamiento": "La página específica fija segundo llamado 19–23 octubre 2026; aporte único 400.000 y orden de recepción completa.",
+    "limitaciones": "El encabezado exige egreso anterior pero FAQ dice sin requisito de año; no corregir elegibilidad masivamente. El ejemplo de certificado agosto no es apertura."
+  },
+  {
+    "id_beca": 116,
+    "public_id": "a5aeebbd-0be7-48ea-825d-7cbb8099e7fb",
+    "nombre": "Beca Municipal de Educación Superior 2026",
+    "apertura": null,
+    "cierre": "2026-05-25",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://munirinconada.cl/municipalidad-amplia-plazo-de-postulacion-a-beca-de-educacion-superior-2026/",
+      "https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/"
+    ],
+    "referencia": "Rinconada; prórroga publicada 20 mayo 2026",
+    "razonamiento": "El aviso posterior sustituye cierre 20 mayo por lunes 25 mayo; atención final hasta 17:00.",
+    "limitaciones": "Una noticia previa escribe sábado 17 mayo, día incompatible con 2026; el aviso posterior acredita explícitamente año y prórroga coherente."
+  },
+  {
+    "id_beca": 128,
+    "public_id": "9b9a66e2-2676-45ee-9b76-f9032fa0df06",
+    "nombre": "Beca Municipal para Educación Superior 2026",
+    "apertura": "2026-02-16",
+    "cierre": "2026-04-17",
+    "hora_cierre": "14:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://chillanviejo.cl/noticia/se-abre-el-proceso-de-postulacion-para-la-beca-municipal-2026-en-chillan-viejo/",
+      "https://chillanviejo.cl/wp-content/uploads/2024/02/REGLAMENTO-BECA-MUNICIPAL-2024.pdf"
+    ],
+    "referencia": "Chillán Viejo; postulación 2026",
+    "razonamiento": "La noticia del 13 febrero fija solicitudes 16 febrero–17 abril 2026 de 08:30 a 14:00; hasta 400 aportes de 210.000.",
+    "limitaciones": "La antigua tabla PSU diciembre/enero no sustituye el llamado actual. La adjudicación posterior no amplía recepción."
+  },
+  {
+    "id_beca": 132,
+    "public_id": "2120c1b4-12d2-48d4-9ae2-460317c24da5",
+    "nombre": "Beca de Apoyo ULagos",
+    "apertura": null,
+    "cierre": "2026-03-12",
+    "hora_cierre": "23:59",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.ulagos.cl/comunicados/becas-internas-2026/",
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "referencia": "ULagos; Trayectoria Formativa; becas internas 2026",
+    "razonamiento": "La convocatoria enumera Trayectoria Formativa y fija cierre el 12 de marzo de 2026 a las 23:59.",
+    "limitaciones": "No confundir recepción de becas con FAS abierto hasta abril."
+  },
+  {
+    "id_beca": 146,
+    "public_id": "f10dcc10-b985-4bb8-aa58-329d54d8ed60",
+    "nombre": "Beca Empresarios de Chile",
+    "apertura": "2026-03-24",
+    "cierre": "2026-04-13",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-asistencial"
+    ],
+    "referencia": "INACAP; BECH Asistencial; primer semestre 2026",
+    "razonamiento": "La ficha contiene edición 2026 con recepción y acreditación del 24 de marzo al 13 de abril; también conserva una sección 2025 separada.",
+    "limitaciones": "El alcance es Universidad Tecnológica de Chile INACAP; no generalizar a todo IP/CFT."
+  },
+  {
+    "id_beca": 154,
+    "public_id": "3fbb74c4-279f-4ecf-8c5e-4b9cbe98c4d3",
+    "nombre": "Beca Municipal de Pasajes San Fabian",
+    "apertura": "2026-02-02",
+    "cierre": "2026-02-20",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://sanfabian.cl/noticias/?id=1079",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "referencia": "San Fabián; transporte vespertino primer semestre 2026",
+    "razonamiento": "La noticia específica del 13 febrero recibe sobres del 2 al 20 febrero; aclara transporte solo jornada vespertina.",
+    "limitaciones": "No extender arancel/transporte diurno ni inferir segundo semestre."
+  },
+  {
+    "id_beca": 159,
+    "public_id": "82238e26-0d6e-456b-92be-b1deef4a2b8b",
+    "nombre": "Beca Municipal de Educación Superior San Bernardo",
+    "apertura": "2026-06-01",
+    "cierre": "2026-06-15",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.sanbernardo.cl/becas-2026/",
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "referencia": "San Bernardo; beca municipal académica 2026",
+    "razonamiento": "El aviso oficial fija solicitudes del 1 al 15 junio 2026; cierre a las 17:00.",
+    "limitaciones": "Los actos de entrega de septiembre no amplían recepción. Se mantienen ambos UUID sin resolver duplicidad por nombre."
+  },
+  {
+    "id_beca": 166,
+    "public_id": "3e8215fc-2554-465f-bedd-5d8dcf7a5f6a",
+    "nombre": "Beca Socioeconomica UNAB",
+    "apertura": "2025-12-08",
+    "cierre": "2026-01-04",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "referencia": "Instructivo de cursos superiores: apartado de recepción ya documentado en la investigación de 27/10.",
+    "razonamiento": "El instructivo del expediente fija cierre el 4 de enero de 2026 para esta modalidad. La contradicción de requisitos no convierte ese plazo vencido en recepción abierta.",
+    "limitaciones": "Se acredita únicamente ese cierre histórico. Se mantienen sin resolver las condiciones 2025/2026 y un llamado posterior; no se actualizan requisitos."
+  },
+  {
+    "id_beca": 179,
+    "public_id": "61343ed1-6067-4ff3-a855-8359299426c4",
+    "nombre": "Beca Municipalidad de Puchuncavi Ano 2026",
+    "apertura": "2026-03-09",
+    "cierre": "2026-04-01",
+    "hora_cierre": "13:30",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://munipuchuncavi.cl/2.0/sitio10/becas2026.php",
+      "https://munipuchuncavi.cl/2.0/sitio10/pdf/becas2026/reglamento.pdf",
+      "https://munipuchuncavi.cl/2.0/sitio10/news-estudiantes-de-puchuncav-2183.html",
+      "https://www.munipuchuncavi.cl/news-concejo-municipal-aprueba-2114.html"
+    ],
+    "referencia": "Puchuncaví; Reglamento Beca 2026; páginas 1–2",
+    "razonamiento": "El texto establece postulación y renovación 9 marzo–1 abril a las 13:30; pagos tienen otro calendario.",
+    "limitaciones": "El apoyo es 50.000 mensual; controles de alumno regular después del día 10 no reabren solicitudes."
+  },
+  {
+    "id_beca": 188,
+    "public_id": "96a2f04e-fa92-4963-bbca-0820613a6941",
+    "nombre": "Beca Municipal Heriberto Hott Contreras 2025/2026",
+    "apertura": "2026-08-12",
+    "cierre": "2026-08-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://municipalidaddepuyehue.cl/web/wp-content/uploads/2026/08/fffffDIPTICO_2026.pdf.pdf"
+    ],
+    "referencia": "Puyehue; Heriberto Hott; díptico 2026",
+    "razonamiento": "El díptico oficial leído fija proceso 12–31 agosto 2026; alumno regular actualizado agosto y notas 2025.",
+    "limitaciones": "El slug 2025 del portal no invalida el cuerpo 2026 del díptico. No crear fecha de otra edición."
+  },
+  {
+    "id_beca": 200,
+    "public_id": "c5993f59-b9d2-482f-b670-5f63d97bd9de",
+    "nombre": "Beca de Educación Superior Las Condes",
+    "apertura": "2026-05-22",
+    "cierre": "2026-06-05",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://subsidios.lascondes.cl/",
+      "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/",
+      "https://transparencia.lascondes.cl/transparencia/tramites-organismo/direccion_desarrollo_comunitario.html"
+    ],
+    "referencia": "Las Condes; Educación Superior 2026",
+    "razonamiento": "Portal de convocatorias identifica subsidio de arancel superior con apertura 22 mayo y cierre 5 junio 2026; landing dice cerrada.",
+    "limitaciones": "Empleo Juvenil y Escolaridad de agosto son otras líneas y no amplían esta convocatoria."
+  },
+  {
+    "id_beca": 207,
+    "public_id": "4a1e3ab6-2492-4159-8718-cbdd03eae1a9",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Quilleco",
+    "apertura": "2026-03-01",
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://municipalidadquilleco.cl/municipalidad-de-quilleco-aprueba-nueva-ordenanza-de-beca-municipal-para-educacion-superior/"
+    ],
+    "referencia": "Quilleco; nueva ordenanza vigente desde 2026",
+    "razonamiento": "Aviso 2 febrero 2026 establece recepción y renovación del 1 al 31 marzo de cada año, sustituyendo decreto 590/2025.",
+    "limitaciones": "Pagos marzo–diciembre no son ventana de postulación; norma solo aplicada a edición acreditada."
+  },
+  {
+    "id_beca": 224,
+    "public_id": "c40dabd6-af08-4c3d-a6e3-3c320a4c3717",
+    "nombre": "Beca Copago UNAB",
+    "apertura": "2025-12-08",
+    "cierre": "2026-01-04",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "referencia": "Instructivo de cursos superiores: apartado de recepción ya documentado en la investigación de 27/10.",
+    "razonamiento": "El instructivo del expediente fija cierre el 4 de enero de 2026 para esta modalidad. La contradicción de requisitos no convierte ese plazo vencido en recepción abierta.",
+    "limitaciones": "Se acredita únicamente ese cierre histórico. Se mantienen sin resolver las condiciones 2025/2026 y un llamado posterior; no se actualizan requisitos."
+  },
+  {
+    "id_beca": 252,
+    "public_id": "da9f9f5b-9006-466f-824c-08df80484463",
+    "nombre": "Beca de Apoyo Socioeconomico USACH",
+    "apertura": "2026-04-13",
+    "cierre": "2026-04-20",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://vrae.usach.cl/comenzaron-las-postulaciones-de-becas-internas-para-este-primer-semestre-2026/"
+    ],
+    "referencia": "USACH; becas internas de pregrado; primer semestre 2026",
+    "razonamiento": "El llamado enumera Dinero, Alimentación, Trabajo y Residencia con recepción del 13 al 20 de abril de 2026.",
+    "limitaciones": "El llamado de postgrado de septiembre/octubre es distinto; falta verificar una edición posterior de pregrado."
+  },
+  {
+    "id_beca": 258,
+    "public_id": "ff4ef933-fe40-48f6-a450-ddf0bd6f59a3",
+    "nombre": "Beca de Residencia UdeC",
+    "apertura": "2026-01-20",
+    "cierre": "2026-01-29",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://admision.udec.cl/beneficios/"
+    ],
+    "referencia": "UdeC; Residencia Doctor Virginio Gómez; ingreso 2026",
+    "razonamiento": "La ficha específica liga solicitud de residencia a matrícula 20–29 enero 2026.",
+    "limitaciones": "No transferir fechas de deporte; no acredita edición de ingreso 2027."
+  },
+  {
+    "id_beca": 269,
+    "public_id": "d12d90d3-2fdc-4d6b-b0f3-d9d776686d8f",
+    "nombre": "Beca Ejercito UANDES",
+    "apertura": "2025-11-19",
+    "cierre": "2026-01-08",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://admision.uandes.cl/becas/beca-ejercito",
+      "https://www.uandes.cl/wp-content/uploads/2023/12/Reglamento-de-Becas-de-Pregrado-diciembre-2019.pdf"
+    ],
+    "referencia": "UANDES; Ejército; admisión 2026",
+    "razonamiento": "La ficha específica fija recepción 19/11/2025–08/01/2026 y cupos por carrera 2026.",
+    "limitaciones": "El nuevo enlace de navegación 2027 no convierte estos plazos en nueva convocatoria; hay discordancia de número de ley en el texto."
+  },
+  {
+    "id_beca": 275,
+    "public_id": "74742803-319e-4295-b5a4-c29eb9f43f8a",
+    "nombre": "Beca de Alimentación ULagos",
+    "apertura": "2026-01-22",
+    "cierre": "2026-03-12",
+    "hora_cierre": "23:59",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.ulagos.cl/comunicados/becas-internas-2026/",
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/"
+    ],
+    "referencia": "ULagos; Alimentación Interna; becas 2026",
+    "razonamiento": "El llamado enumera Alimentación Interna y fija cierre el 12 de marzo de 2026 a las 23:59.",
+    "limitaciones": "El plazo FAS no extiende solicitudes; BAES es otro beneficio."
+  },
+  {
+    "id_beca": 283,
+    "public_id": "87e0f3a8-aac5-4be8-b93f-e922e26819ac",
+    "nombre": "Beca de Educación Superior",
+    "apertura": "2026-05-22",
+    "cierre": "2026-06-05",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://subsidios.lascondes.cl/",
+      "https://landingconvocatorias.lascondes.cl/beneficio/educacion-superior/",
+      "https://transparencia.lascondes.cl/transparencia/tramites-organismo/direccion_desarrollo_comunitario.html"
+    ],
+    "referencia": "Las Condes; subsidio arancel superior2026",
+    "razonamiento": "Se coteja esta variante con convocatoria superior22mayo–5junio2026 y landing cerrada.",
+    "limitaciones": "No usar cierre de Escolaridad ni Empleo Juvenil; conservar UUID separado de200."
+  },
+  {
+    "id_beca": 311,
+    "public_id": "4e6e42c8-9ad5-485a-a37d-631911a93a5c",
+    "nombre": "Beca de Enseñanza Superior Maullin",
+    "apertura": "2026-01-12",
+    "cierre": "2026-03-20",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://munimaullin.cl/ordenanzas/",
+      "https://munimaullin.cl/wp-content/uploads/2025/12/ordenanza-municipal-beca-ensen%CC%83anza-superior.pdf"
+    ],
+    "referencia": "Lectura visual página 9: artículos 25–27; aprobación Decreto 3128 de diciembre 2025.",
+    "razonamiento": "El artículo transitorio 27 establece para 2026 recepción del 12 de enero al 20 de marzo. Evaluación y transferencias son etapas posteriores.",
+    "limitaciones": "No convertir el periodo de difusión del 5 de enero en apertura ni trasladar el calendario a 2027."
+  },
+  {
+    "id_beca": 315,
+    "public_id": "725bd129-0f0e-4f93-84ae-b2435a4a505a",
+    "nombre": "Beca Municipal de Educación Superior San Esteban",
+    "apertura": "2026-02-16",
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.munisanesteban.cl/noticias/municipio-abre-proceso-de-postulacion-online-a-bec-22973",
+      "https://www.munisanesteban.cl/actividades/beca-ensenanza-superior-san-esteban-2026-162189"
+    ],
+    "referencia": "San Esteban; enseñanza superior2026",
+    "razonamiento": "Actividad oficial identifica inicio16febrero y término31marzo2026; noticia distingue beca superior de pasajes.",
+    "limitaciones": "Descripción genérica dice revisión de bases en marzo; para fecha se usa calendario explícito de actividad2026, no el premio deportivo."
+  },
+  {
+    "id_beca": 316,
+    "public_id": "a9d0f01b-1b36-432b-8f9f-20151ec88fc1",
+    "nombre": "Beca Municipal Educación Superior",
+    "apertura": "2026-03-09",
+    "cierre": "2026-04-17",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://eltabo.cl/municipalidad-de-el-tabo-abre-proceso-de-postulacion-a-becas-para-estudiantes-de-educacion-superior/",
+      "https://eltabo.cl/wp-content/uploads/2025/03/Reglamento-y-requisitos-Becas-2025.pdf"
+    ],
+    "referencia": "El Tabo; convocatoria superior2026",
+    "razonamiento": "Noticia7marzo2026 fija recepción desde9marzo hasta17abril; formularios2026 distinguen edición del reglamento2025.",
+    "limitaciones": "No se usa el escaneo2025 ilegible como fuente del plazo ni se considera vigente por redacción del anuncio."
+  },
+  {
+    "id_beca": 326,
+    "public_id": "b5a8075b-4929-4962-9250-e02ee9fa6236",
+    "nombre": "Beca Municipal Renca Orgullosa Educación Superior",
+    "apertura": "2026-03-02",
+    "cierre": "2026-03-27",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://renca.cl/wp-content/uploads/2026/02/DECRETO-496-APRUEBA-BASES-DE-POSTULACION-A-LA-BECA-MUNICIPAL-DE-INCENTIVO-A-LAS-TRAYECTORIAS-EDUCATIVAS-1.pdf"
+    ],
+    "referencia": "Renca; decreto496/2026; lectura visual páginas2–5",
+    "razonamiento": "Se leyeron imágenes del PDF: primer año2026, egreso2023–25, RSH40–70; página4 apartado h fija postulación2–27marzo.",
+    "limitaciones": "Resultados30abril y ceremonia9mayo no son nuevas ventanas; voluntariado es opcional."
+  },
+  {
+    "id_beca": 330,
+    "public_id": "d07b4f20-aa32-40bc-b1ab-4a4a651f8e29",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Los Andes",
+    "apertura": null,
+    "cierre": "2026-03-06",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.losandes.cl/download/2026-bases-beca-educacion-superior/",
+      "https://www.losandes.cl/ultimos-dias-para-postular-a-la-beca-de-educacion-superior-en-los-andes/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/",
+      "https://www.losandes.cl/download/2026_antecedentes_postulacion_beca_superior/?wpdmdl=15723&refresh=6ac5255f9bb091791305055&ind=1770180488141&filename=2026_ANTECEDENTES_POSTULACION_BECA_SUPERIOR.pdf"
+    ],
+    "referencia": "Los Andes; superior2026",
+    "razonamiento": "Noticia5marzo2026 fija último plazo viernes6marzo y enumera U/IP/CFT. Existen bases2026 en biblioteca municipal.",
+    "limitaciones": "No se inventa apertura ni se toma disponibilidad de cupos como extensión posterior."
+  },
+  {
+    "id_beca": 339,
+    "public_id": "84f4de8c-14a6-4f74-979b-4ee171ac3d77",
+    "nombre": "Beca Municipal Educación Superior San Bernardo",
+    "apertura": "2026-06-01",
+    "cierre": "2026-06-15",
+    "hora_cierre": "17:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.sanbernardo.cl/becas-2026/",
+      "https://www.sanbernardo.cl/wp-content/uploads/2026/05/REGLAMENTO-BECA-2026.pdf"
+    ],
+    "referencia": "San Bernardo; beca municipal académica 2026",
+    "razonamiento": "El aviso oficial fija solicitudes del 1 al 15 junio 2026; cierre a las 17:00.",
+    "limitaciones": "Los actos de entrega de septiembre no amplían recepción. Se mantienen ambos UUID sin resolver duplicidad por nombre."
+  },
+  {
+    "id_beca": 345,
+    "public_id": "8aadf4e9-53dc-4ebd-a682-3dd906b13c41",
+    "nombre": "Beca Municipal de Educación Superior Yungay",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-31",
+    "hora_cierre": "13:00:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.yungay.cl/wp-content/uploads/2026/03/Reglamento-Beca-Municipal-2026-PDF.pdf"
+    ],
+    "referencia": "Reglamento 2026 páginas 1–3: calendario II y entrega V.",
+    "razonamiento": "Recepción de antecedentes del 9 al 31 de marzo de 2026; cierre presencial a las 13:00.",
+    "limitaciones": "La difusión inicia el 2 de marzo; agosto es acreditación para segunda cuota. No extender la recepción hasta esos pagos."
+  },
+  {
+    "id_beca": 348,
+    "public_id": "9cb796f5-6d14-44ed-a5d4-3f0e0447c2d4",
+    "nombre": "Beca Municipal de Educación Superior Quilicura",
+    "apertura": "2026-05-04",
+    "cierre": "2026-05-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://becamunicipal.quilicura.cl/",
+      "https://becasmunicipales.quilicura.cl/Doc/BASES_3.pdf"
+    ],
+    "referencia": "Quilicura; beca municipal2026; bases página6",
+    "razonamiento": "Se coteja esta variante con calendario leído visualmente de bases2026:4–31mayo.",
+    "limitaciones": "No usar antiguas anualidades de portadas ni fusionar UUID con11."
+  },
+  {
+    "id_beca": 359,
+    "public_id": "548e96a8-e7d8-4b16-b549-c802242d17a4",
+    "nombre": "Programa Beca Estudiantil Educación Superior",
+    "apertura": "2026-04-07",
+    "cierre": "2026-04-27",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://curarrehue.cl/on/wp-content/uploads/2026/04/bases-incentivo-educacion-superior-2026.pdf"
+    ],
+    "referencia": "Curarrehue; Incentivo Educación Superior2026; página4",
+    "razonamiento": "Bases2026 enumeran recepción y subsanación del7al27abril; fin de rendición11diciembre2026 es separado.",
+    "limitaciones": "El27abril se refiere a solicitudes; no traslada calendario al antiguo traslado del otro UUID229 sin acreditar identidad."
+  },
+  {
+    "id_beca": 361,
+    "public_id": "bf5876ae-5c03-4e17-956e-befbdf065784",
+    "nombre": "Beca Municipal de Educación Superior La Union",
+    "apertura": null,
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.munilaunioninfo.com/single-post/municipio-inicia-proceso-de-postulaci%C3%B3n-proceso-de-postulaci%C3%B3n-a-beca-de-educaci%C3%B3n-superior-2026",
+      "https://www.munilaunioninfo.com/single-post/municipio-inicia-proceso-de-postulaci%25C3%25B3n-proceso-de-postulaci%25C3%25B3n-a-beca-de-educaci%25C3%25B3n-superior-2026"
+    ],
+    "referencia": "La Unión; Educación Superior2026",
+    "razonamiento": "Noticia23febrero2026, actualizada24febrero, fija fin de documentos y postulación31marzo2026;255cupos y70.000mensuales.",
+    "limitaciones": "No usar hora13:30 de convocatoria2025 para edición2026 sin fuente expresa."
+  },
+  {
+    "id_beca": 387,
+    "public_id": "ccffe04f-d144-4837-b452-b7dacf9c6bce",
+    "nombre": "Beca de Alimentación UBB",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "referencia": "UBB; Alimentación; becas internas 2026",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado."
+  },
+  {
+    "id_beca": 399,
+    "public_id": "2a43fa46-4a31-4018-9242-9e45bc61e0f1",
+    "nombre": "Beca de Estudios Superiores Municipalidad de Purranque",
+    "apertura": "2026-08-18",
+    "cierre": "2026-09-01",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://purranque.cl/descargas/BASES-BECA-ED-SUPERIOR.pdf"
+    ],
+    "referencia": "Lectura visual página 3, calendario de ejecución y canales de postulación.",
+    "razonamiento": "Las bases identifican recepción del 18 de agosto al 1 de septiembre de 2026 para el aporte superior.",
+    "limitaciones": "La ceremonia del 16 de octubre no es cierre. El horario 08:30–14:00 corresponde a atención presencial y no se impone al canal digital."
+  },
+  {
+    "id_beca": 409,
+    "public_id": "cc02bb04-7363-4469-bc08-965b3c22b50b",
+    "nombre": "Beca Convenio Empresas",
+    "apertura": null,
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://portal.inacap.cl/w/descubre-los-descuentos-de-carreras-t%C3%A9cnicas-para-estudiantes-nuevos-de-2026",
+      "https://portal.inacap.cl/w/descubre-los-convenios-de-financiamiento-para-el-primer-semestre-2025-en-inacap"
+    ],
+    "referencia": "INACAP; convenios de carreras técnicas; otoño 2026",
+    "razonamiento": "El aviso específico para nuevos estudiantes fija acceso al descuento hasta 31 de marzo de 2026.",
+    "limitaciones": "No comprende automáticamente otras jornadas, programas ni semestres del conjunto de convenios."
+  },
+  {
+    "id_beca": 411,
+    "public_id": "10cdc994-9b07-4f5f-994d-e269c935b2cf",
+    "nombre": "Beca de Residencia UBB",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-27",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://ubiobio.cl/admision/Becas_de_Mantencion_y_Cuota_Basica/",
+      "https://dde.ubiobio.cl/bienestar/becas-y-beneficios-ubb/"
+    ],
+    "referencia": "UBB; Residencia; becas internas 2026",
+    "razonamiento": "La página institucional incluye esta modalidad en la recepción interna del 9 al 27 de marzo de 2026.",
+    "limitaciones": "No trasladar ventana de postgrado del segundo semestre; se acredita solo proceso de pregrado identificado."
+  },
+  {
+    "id_beca": 429,
+    "public_id": "e66bd0e5-eb94-41d4-9dbb-02a5664029d0",
+    "nombre": "Beca Municipal de Rio Negro 2026",
+    "apertura": "2026-04-07",
+    "cierre": "2026-05-07",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.munirionegro.cl/entrevista-para-beca-municipal/"
+    ],
+    "referencia": "Río Negro; Profesor Luis Castillo Cid2026",
+    "razonamiento": "Ficha específica fija7abril–7mayo2026;200.000,RSH40 y egresados de cuarto medio de la comuna.",
+    "limitaciones": "Formulario de entrevista disponible no reabre recepción; no inventar hora."
+  },
+  {
+    "id_beca": 448,
+    "public_id": "c2d34bc4-82a0-44d4-b0b3-f1cd8232c1b6",
+    "nombre": "Beca Municipal para Estudios Superiores Pitrufquen",
+    "apertura": "2026-07-20",
+    "cierre": "2026-08-20",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/",
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/publicaciones/Postulacion_a_Becas_de_Pasajes_para_Estudiantes_de_Educacion_Superior_2026_6a5e6d15e3545/BASES_BECAS_ESTUDIANTES_2026.pdf"
+    ],
+    "referencia": "Bases 2026, páginas 2–4, apartados I, III y V.",
+    "razonamiento": "Recepción del 20 de julio al 20 de agosto de 2026 para Pasajes de Excelencia de educación superior.",
+    "limitaciones": "Los encabezados residuales 2025 no sustituyen la anualidad 2026 expresa del cuerpo y del calendario. No es la beca cultural."
+  },
+  {
+    "id_beca": 460,
+    "public_id": "f34f34e9-bb29-47a7-8dfb-6c1c470da438",
+    "nombre": "Beca Excelencia Académica ULagos",
+    "apertura": null,
+    "cierre": "2026-03-12",
+    "hora_cierre": "23:59",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.ulagos.cl/comunicados/becas-internas-2026/",
+      "https://www.ulagos.cl/portal-del-estudiante/financiamiento-estudiantil/",
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "referencia": "ULagos; Delia Domínguez; becas de arancel 2026",
+    "razonamiento": "El llamado incluye Delia Domínguez y fija recepción hasta 12 de marzo de 2026 a las 23:59.",
+    "limitaciones": "No ampliar por FAS ni reemplazar por excelencia genérica."
+  },
+  {
+    "id_beca": 470,
+    "public_id": "846bcf1d-45f4-47e2-ad41-eb2ad963c3db",
+    "nombre": "Beca Municipal Teno",
+    "apertura": "2026-09-07",
+    "cierre": "2026-09-21",
+    "hora_cierre": "14:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://www.teno.cl/portal2/Depto_Unidades/Dideco/Becas/CALENDARIO%20BECA%20MUNICIPAL%202026.pdf",
+      "https://www.teno.cl/portal2/beca-municipal-2026/"
+    ],
+    "referencia": "Teno; convocatoria2026; calendario referencial página1",
+    "razonamiento": "Calendario enlazado oficialmente fija7–21septiembre2026, cierre14:00; revisión/resultados/pagos posteriores son etapas distintas.",
+    "limitaciones": "Documento se titula referencial; no se halló modificación posterior en página consultada."
+  },
+  {
+    "id_beca": 471,
+    "public_id": "75e2f5b1-e021-4fe4-8534-fd2b2cf2c085",
+    "nombre": "Beca Municipal de Mantención Estudiantil",
+    "apertura": "2026-10-14",
+    "cierre": "2026-10-21",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://munipetorca.cl/docs/becamunicipaleducacionsuperior/"
+    ],
+    "referencia": "Petorca; segundo semestre2026",
+    "razonamiento": "Ficha oficial fija postulación14–21octubre2026, validación22–28octubre, notificación29octubre–2noviembre y depósito3–10noviembre.",
+    "limitaciones": "Solo recepción termina21octubre; no usar pago como cierre."
+  },
+  {
+    "id_beca": 484,
+    "public_id": "d2d2f486-7d6e-4ae6-85ff-8f19587f7c65",
+    "nombre": "Beca Excelencia Académica UdeC",
+    "apertura": "2026-01-20",
+    "cierre": "2026-01-29",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://admision.udec.cl/beneficios/"
+    ],
+    "referencia": "UdeC; Enrique Molina Garmendia; ingreso 2026",
+    "razonamiento": "La convocatoria de la beca enumera condiciones y recepción en matrícula del 20 al 29 enero 2026.",
+    "limitaciones": "Es esta modalidad de excelencia, no cualquier beca del sitio ni nueva convocatoria 2027."
+  },
+  {
+    "id_beca": 516,
+    "public_id": "61fdbc15-b108-4d89-9657-8fdda6b595e1",
+    "nombre": "Beca Municipal de Educación Superior Lonquimay",
+    "apertura": "2026-04-06",
+    "cierre": "2026-04-17",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://www.mlonquimay.cl/web/departamentos-2/noticias/page/7/?i=71-816-1",
+      "https://www.mlonquimay.cl/web/wp-content/uploads/2022/07/reglamento-beca-municipal-FINAL-1.pdf"
+    ],
+    "referencia": "Lonquimay; superior2026",
+    "razonamiento": "Noticia oficial7abril2026 informa recepción lunes6–viernes17abril en segundo piso municipal.",
+    "limitaciones": "No usar30agosto del reglamento2022: es acreditación para segunda cuota."
+  },
+  {
+    "id_beca": 524,
+    "public_id": "3d0bbdd0-8d31-497a-969a-2ea6ddbeb029",
+    "nombre": "Beca Municipal Excelencia y Beca Estimulo Enseñanza Superior",
+    "apertura": "2026-02-01",
+    "cierre": "2026-03-31",
+    "hora_cierre": null,
+    "zona_horaria": null,
+    "fuentes": [
+      "https://convocatorias.municipalidadsanvicente.cl/",
+      "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+    ],
+    "referencia": "San Vicente; Excelencia y Estímulo2026; variante",
+    "razonamiento": "Se coteja con42 y portal oficial: ambas modalidades muestran1febrero–31marzo2026 y estado cerrado.",
+    "limitaciones": "Calendario común no convierte ambas becas en una; no fusionar UUID ni coberturas."
+  },
+  {
+    "id_beca": 255,
+    "public_id": "d4b5e1f3-91b1-4091-834a-2a9f9f05bfed",
+    "nombre": "Beca Juan Gómez Millas",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+      "https://www.ucentral.cl/postulacion-fuas-2027/",
+      "https://www.ventanillaunicasocial.gob.cl/ficha/255/beca-juan-gomez-millas"
+    ],
+    "referencia": "FUAS oficial: extensión; ficha específica del beneficio; UCEN: hora de cierre.",
+    "razonamiento": "Convocatoria FUAS 2027 expresamente vinculada al beneficio; requisitos de la ficha oficial actual contrastados. Postulación no garantiza asignación.",
+    "limitaciones": "La adjudicación exige institución/carrera elegible y demás condiciones. No equiparar evaluación FUAS a porcentaje RSH ni garantizar acreditación futura."
+  },
+  {
+    "id_beca": 327,
+    "public_id": "c6303482-479e-4955-80d0-9827c0f9151e",
+    "nombre": "Beca Bicentenario",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago",
+    "fuentes": [
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+      "https://www.ucentral.cl/postulacion-fuas-2027/",
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb"
+    ],
+    "referencia": "FUAS oficial: extensión; ficha específica del beneficio; UCEN: hora de cierre.",
+    "razonamiento": "Convocatoria FUAS 2027 expresamente vinculada al beneficio; requisitos de la ficha oficial actual contrastados. Postulación no garantiza asignación.",
+    "limitaciones": "La adjudicación exige institución/carrera elegible y demás condiciones. No equiparar evaluación FUAS a porcentaje RSH ni garantizar acreditación futura."
+  }
+]
