@@ -1,5 +1,7 @@
 # Auditoría individual de vigencia
 
+Corte histórico. Consultar el [cierre documental del 30/10 y sus inconclusas](../auditoria_vigencia_corte_2026_10_29/INFORME_CIERRE.md). No ejecutar el generador histórico para sustituir ese corte.
+
 Abierta el 27 de octubre de 2026 por petición expresa del usuario. Sustituye el cierre de investigación implícito en la selección anterior: una decisión conservadora de no publicar **no acredita que se haya investigado suficientemente la convocatoria actual**.
 
 Las 466 fichas objetivo están conservadas y confirmadas editorialmente. No son nuevos descartes. El corte inicial se conserva sin sobrescribir; la auditoría mantiene el hash de ese archivo y la correspondencia candidata/ID/UUID. No reabre los 40 descartes anteriores.

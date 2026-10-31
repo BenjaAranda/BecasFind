@@ -1,6 +1,12 @@
 # Plan vigente de BecasFind
 
-Actualizado el 27 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
+Actualizado el 30 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
+
+## Auditoría de vigencia: corte final 30/10/2026
+
+Auditoría de vigencia cerrada al corte documental del 30/10 con resultados inconclusos conservados: 466 dictámenes; 4 con cierre no vencido, 68 cierres de convocatorias identificadas (incluidas históricas), 88 calendarios por modalidad, 119 sin calendario publicado en el expediente y 187 inconclusas. No equivale a investigación exhaustiva de todas las fuentes ni a 466 confirmaciones actuales. Fuente vigente: documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/INFORME_CIERRE.md, inventario.json y avance.json. Aplicados y conciliados 56 cambios (54 calendarios cerrados y dos activaciones: 255/327); no repetir los SQL. Todos los UUID conservados. Web verificada: 528 fichas; 8 abiertas, 112 cierres vencidos, 221 fechas por confirmar y 187 en revisión. BUCH cerró por su temporizador el 30/10 a las 12:00. Backend con recurso de 187 UUID actualizado; frontend 719646b conservado. No iniciar P13/P14.
+
+[Informe completo](documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/INFORME_CIERRE.md).
 
 ## Dictamen final de las 19 — 29/10/2026
 
@@ -19,7 +25,7 @@ El cierre de P04 es editorial y no libera automáticamente el catálogo para pub
 
 ## Trabajo restante, en orden
 
-- [ ] Auditoría individual de las 466 fichas sin vigencia acreditada, reabierta el 27/10 por instrucción del usuario: seguir `tasks/PROMPT_AUDITORIA_VIGENCIA.md`. Inventario y avance nuevos en `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/`. La investigación no está cerrada por la anterior selección de publicación.
+- [x] Emitir y comprobar los dictámenes de vigencia de las 466 al corte del 30/10, conservando 187 resultados inconclusos y sus límites. No confundir cierre del corte con certeza de vigencia en esos casos.
 
 - [x] Conciliar plan, contexto y método con el cierre editorial; comprobar integridad de índices y `git diff --check`.
 - [x] P12: infraestructura, selección de 528 fichas, cinco convocatorias activas, correo real y recorridos comprobados. Control final de GitHub de esta entrega; evidencia en [P12_DESPLIEGUE.md](infra/P12_DESPLIEGUE.md).

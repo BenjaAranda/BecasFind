@@ -1,16 +1,10 @@
 # Contexto operativo de BecasFind
 
-Actualizado el 27 de octubre de 2026. Fuente de trabajo: `PLAN_MEJORAS.md`; detalles y evidencia: `infra/P12_DESPLIEGUE.md`. Este chat asume P12 por petición del usuario. No coordinar escrituras concurrentes ni repetir lo aplicado.
+Actualizado el 30 de octubre de 2026. Fuente de trabajo: `PLAN_MEJORAS.md`; detalles y evidencia: `infra/P12_DESPLIEGUE.md`. Este chat asume P12 por petición del usuario. No coordinar escrituras concurrentes ni repetir lo aplicado.
 
-## Trabajo activo: auditoría de las 466
+## Auditoría de vigencia: corte final
 
-El usuario reabre expresamente la investigación individual de vigencia según `tasks/PROMPT_AUDITORIA_VIGENCIA.md`. La selección conservadora anterior no equivale a investigación concluida. Fuente vigente de avance: `documentacion/auditoria_corpus/procesados/auditoria_vigencia_2026_10_27/avance.json`; inventario y evidencia por UUID en esa misma carpeta. No usar «cero pendientes» de P04 para cerrar esta auditoría distinta. No hay autorización para P13/P14 ni cambios masivos de activación.
-
-Dos bloques de datos aplicados con restauración verificada: Deportiva UNAB (314) activada con cierre 31/01/2027; UAlumni (518) conserva inactividad y registra cierre 25/09/2026; Alimentación UANDES (445) activada exclusivamente para ingreso 2027, cierre 28/01/2027. Estado posterior: siete activas, 58 cierres vencidos y 463 cierres desconocidos en BD. El inventario fijo de investigación sigue siendo 466. Evidencia en `aplicacion_lote_01.json` y `aplicacion_lote_02.json`. No repetir esos SQL: las tres versiones ahora son 1.
-
-Primera pasada sobre las 466 fichas y seguimiento visual de Concón: 267 con conclusión limitada al alcance documentado y 199 inconclusas. Cero sin recorrer no significa auditoría terminada: los escaneos no leídos, barreras y contradicciones permanecen pendientes por UUID. No equivale a 267 becas abiertas. Juan Gómez Millas y Bicentenario tienen calendario FUAS 2027 acreditado, pero su aplicación sigue pendiente de conciliación de condiciones. La ficha 490 dice San Pedro de la Paz y enlaza San Pedro de Melipilla: no trasladar su calendario ni corregir institución sin conciliar candidata original.
-
-El catálogo público con estados claros se desplegó en preview el 28/10: `https://becasfind-pf8timp72-benjatlou13-1274.vercel.app`. Frontend `719646b`; backend `37ae1a1`, con selector de las 323 instituciones del catálogo. Comprobadas las 528 fichas: 7 abiertas, 58 con cierre registrado vencido, 264 con fechas por confirmar y 199 en revisión. Las 528 filas y todos sus campos permanecen idénticos antes/después; restauración previa de 14 tablas comprobada. Búsqueda, filtros, detalle y acceso sin sesión verificados. Evidencia en `documentacion/P12_CATALOGO_PREVIEW_2026_10_28.json`. Se conservaron correo, orígenes anteriores y contenedores para reversión; no hay promoción a producción ni cierre de investigación documental.
+Auditoría de vigencia cerrada al corte documental del 30/10 con resultados inconclusos conservados: 466 dictámenes; 4 con cierre no vencido, 68 cierres de convocatorias identificadas (incluidas históricas), 88 calendarios por modalidad, 119 sin calendario publicado en el expediente y 187 inconclusas. No equivale a investigación exhaustiva de todas las fuentes ni a 466 confirmaciones actuales. Fuente vigente: documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/INFORME_CIERRE.md, inventario.json y avance.json. Aplicados y conciliados 56 cambios (54 calendarios cerrados y dos activaciones: 255/327); no repetir los SQL. Todos los UUID conservados. Web verificada: 528 fichas; 8 abiertas, 112 cierres vencidos, 221 fechas por confirmar y 187 en revisión. BUCH cerró por su temporizador el 30/10 a las 12:00. Backend con recurso de 187 UUID actualizado; frontend 719646b conservado. No iniciar P13/P14.
 
 ## Estado actual
 

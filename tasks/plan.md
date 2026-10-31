@@ -2,6 +2,10 @@
 
 Actualizado el 24 de octubre de 2026. El alcance y las fases están en [`PLAN_MEJORAS.md`](../PLAN_MEJORAS.md); el estado operativo y las rutas ya agotadas, en [`contexto.md`](contexto.md).
 
+## Vigencia: corte del 30/10/2026
+
+Auditoría de vigencia cerrada al corte documental del 30/10 con resultados inconclusos conservados: 466 dictámenes; 4 con cierre no vencido, 68 cierres de convocatorias identificadas (incluidas históricas), 88 calendarios por modalidad, 119 sin calendario publicado en el expediente y 187 inconclusas. No equivale a investigación exhaustiva de todas las fuentes ni a 466 confirmaciones actuales. Fuente vigente: documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/INFORME_CIERRE.md, inventario.json y avance.json. Aplicados y conciliados 56 cambios (54 calendarios cerrados y dos activaciones: 255/327); no repetir los SQL. Todos los UUID conservados. Web verificada: 528 fichas; 8 abiertas, 112 cierres vencidos, 221 fechas por confirmar y 187 en revisión. BUCH cerró por su temporizador el 30/10 a las 12:00. Backend con recurso de 187 UUID actualizado; frontend 719646b conservado. No iniciar P13/P14.
+
 ## Cola y avance
 
 La tanda final de 19 quedó terminada el 29/10 con **19 INCONCLUSA, cero confirmaciones nuevas y cero casos sin dictamen**. Leer [resultado individual](../documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/RESULTADO_FINAL_19.md). Las incógnitas siguen explícitas en casos_inconclusos_actuales.csv; las colas para dictaminar esta tanda están vacías. Reabrir por nueva fuente específica o alcance nuevo, no repetir búsquedas agotadas. La auditoría general de vigencia es otro trabajo y no se declara terminada.
