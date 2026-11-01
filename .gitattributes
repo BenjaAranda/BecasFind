@@ -9,3 +9,6 @@ documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/*.
 # Evidencia del seguimiento: conservar huellas de SQL y capturas oficiales.
 documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/*.sql -text whitespace=cr-at-eol
 documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/fuentes_conservadas/* -text
+# Conservar el SQL aplicado y las capturas primarias del cierre de 177 dictámenes.
+documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/*.sql -text whitespace=cr-at-eol
+documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/fuentes_conservadas/* binary
