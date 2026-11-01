@@ -6,3 +6,6 @@ documentacion/auditoria_corpus/procesados/despliegue_p12/confirmadas_inactivas.c
 # Conservar los bytes de los SQL aplicados cuya huella figura en los recibos.
 documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/*.sql -text whitespace=cr-at-eol
 documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/*.sql -text whitespace=cr-at-eol
+# Evidencia del seguimiento: conservar huellas de SQL y capturas oficiales.
+documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/*.sql -text whitespace=cr-at-eol
+documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/fuentes_conservadas/* -text

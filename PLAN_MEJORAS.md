@@ -1,5 +1,17 @@
 # Plan vigente de BecasFind
 
+## Seguimiento vigente — 1 de noviembre de 2026
+
+Revisión individual de 62 universitarias/nacionales: diez dictámenes precisados y aplicados; 52 conservan resultado inconcluso. Quedan **177 inconclusas** de la cohorte de 466 (52 de este bloque y 125 municipales sin reconsulta en esta tanda). No se acreditaron nuevas solicitudes abiertas; cero activaciones o eliminaciones. Fuente vigente del seguimiento: `documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/INFORME.md`, `inventario_466.json`, `avance.json` e `inconclusas_177.csv`. La instantánea del 30/10 es histórica y permanece intacta.
+
+Aplicadas diez correcciones con respaldo/restauración y guardas: UTA alimentación, PAES UTA (incluye 1000 puntos y asignación automática), alcance 2026 de cuatro UAI, mérito UCSH, excelencia UAH, articulación INACAP y continuidad IPCHILE. 528 UUID conservados; 518 filas idénticas. Catálogo comprobado el 01/11: **8 abiertas, 114 cerradas, 229 fechas por confirmar y 177 en revisión**. El único cambio de fuente backend es el recurso de clasificación de 177 UUID. Frontend y preview conservados; no iniciar P13/P14 ni repetir el SQL aplicado.
+
+- [x] Contrastar y documentar las 62; aplicar y conciliar diez correcciones.
+- [ ] Continuar la investigación específica de las 177 inconclusas, usando las siguientes acciones por beca; no reclasificar por probabilidad ni por errores de acceso.
+- [ ] Conciliar coincidencias 131/503 y 175/508 sin borrar originales, UUID o favoritos.
+
+Los apartados siguientes conservan los antecedentes y cortes anteriores.
+
 Actualizado el 30 de octubre de 2026. Este es el listado único de trabajo. El contexto de retoma está en [`tasks/contexto.md`](tasks/contexto.md); el método de revisión en [`tasks/plan.md`](tasks/plan.md).
 
 ## Auditoría de vigencia: corte final 30/10/2026

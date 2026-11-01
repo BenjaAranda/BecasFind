@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-11-01",
+  "cohorte_general": 466,
+  "cohorte_seguimiento": 62,
+  "dictamenes_seguimiento": 62,
+  "dictamenes_precisados": 10,
+  "inconclusas_seguimiento": 52,
+  "inconclusas_municipales_sin_reconsulta_en_este_bloque": 125,
+  "clasificaciones_cohorte_466": {
+    "REVISION_INCONCLUSA": 177,
+    "CALENDARIO_POR_MODALIDAD": 89,
+    "SIN_CALENDARIO_PUBLICADO": 127,
+    "CERRADA_CONFIRMADA": 69,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 4
+  },
+  "inconclusas_totales": 177,
+  "activaciones": 0,
+  "eliminaciones": 0,
+  "aplicacion": "APLICADA_Y_VERIFICADA",
+  "limite": "La revisión de 62 no equivale a confirmar 62 convocatorias actuales. Conserva 177 inconclusas y calendarios desconocidos. No inicia P13/P14."
+}
