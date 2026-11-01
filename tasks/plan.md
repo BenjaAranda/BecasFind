@@ -1,5 +1,19 @@
 # Método vigente para cerrar la revisión esencial
 
+## Vigencia: revisión de las 177 restantes aplicada — 1 de noviembre de 2026
+
+**177 dictámenes individuales completados y publicados: 27 precisados y 150 inconclusos.** Cero fichas de esta tanda sin dictamen; las incógnitas de las 150 permanecen explícitas. Cohorte general: 466 dictámenes; 4 con cierre confirmado no vencido, 76 cerradas identificadas, 98 calendarios por modalidad, 138 sin calendario publicado y 150 inconclusas. No equivale a confirmar 466 convocatorias actuales ni a agotar toda fuente posible.
+
+Fuente vigente: `documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/INFORME.md`, `inventario_466.json`, `dictamenes_177.csv` e `inconclusas_150.csv`. Catálogo público comprobado: **528 fichas; 8 abiertas, 121 cerradas, 249 fechas por confirmar y 150 en revisión**. Cero activaciones/eliminaciones. Se conservaron todos los UUID y textos anteriores; 177 fichas distintas anotadas y una aclaración posterior de Río Verde, 178 operaciones. Los dos bloques tienen respaldo y restauración aislada comprobados; **no repetir los SQL**. Código y frontend conservados; recurso backend de 150 UUID actualizado en la misma preview. P13/P14 y promoción a producción no iniciadas.
+
+- [x] Revisar la tanda de 177 y documentar por ficha hallazgo, límite y fuentes.
+- [x] Aplicar y conciliar siete calendarios cerrados, ocho coberturas y las notas de los 177 dictámenes.
+- [x] Comprobar los 177 detalles públicos, listado de 528, búsqueda, filtro de institución y conservación de originales.
+- [x] Conciliar coincidencias 131/503 y 175/508 en `conciliacion_variantes.json`; conservar fichas, UUID y favoritos.
+- [x] Cerrar el recorrido de esta tanda; las 150 incógnitas quedan como resultado inconcluso documentado, sin activación por probabilidad.
+
+Los apartados siguientes son antecedentes históricos y no sustituyen los conteos anteriores. Reabrir una inconclusa únicamente con una fuente oficial específica nueva o un alcance autorizado nuevo.
+
 Actualizado el 1 de noviembre de 2026. El alcance y las fases están en [`PLAN_MEJORAS.md`](../PLAN_MEJORAS.md); el estado operativo y las rutas ya agotadas, en [`contexto.md`](contexto.md).
 
 ## Seguimiento vigente de vigencia

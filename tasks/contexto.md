@@ -1,5 +1,19 @@
 # Contexto operativo de BecasFind
 
+## Vigencia: revisión de las 177 restantes aplicada — 1 de noviembre de 2026
+
+**177 dictámenes individuales completados y publicados: 27 precisados y 150 inconclusos.** Cero fichas de esta tanda sin dictamen; las incógnitas de las 150 permanecen explícitas. Cohorte general: 466 dictámenes; 4 con cierre confirmado no vencido, 76 cerradas identificadas, 98 calendarios por modalidad, 138 sin calendario publicado y 150 inconclusas. No equivale a confirmar 466 convocatorias actuales ni a agotar toda fuente posible.
+
+Fuente vigente: `documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/INFORME.md`, `inventario_466.json`, `dictamenes_177.csv` e `inconclusas_150.csv`. Catálogo público comprobado: **528 fichas; 8 abiertas, 121 cerradas, 249 fechas por confirmar y 150 en revisión**. Cero activaciones/eliminaciones. Se conservaron todos los UUID y textos anteriores; 177 fichas distintas anotadas y una aclaración posterior de Río Verde, 178 operaciones. Los dos bloques tienen respaldo y restauración aislada comprobados; **no repetir los SQL**. Código y frontend conservados; recurso backend de 150 UUID actualizado en la misma preview. P13/P14 y promoción a producción no iniciadas.
+
+- [x] Revisar la tanda de 177 y documentar por ficha hallazgo, límite y fuentes.
+- [x] Aplicar y conciliar siete calendarios cerrados, ocho coberturas y las notas de los 177 dictámenes.
+- [x] Comprobar los 177 detalles públicos, listado de 528, búsqueda, filtro de institución y conservación de originales.
+- [x] Conciliar coincidencias 131/503 y 175/508 en `conciliacion_variantes.json`; conservar fichas, UUID y favoritos.
+- [x] Cerrar el recorrido de esta tanda; las 150 incógnitas quedan como resultado inconcluso documentado, sin activación por probabilidad.
+
+Los apartados siguientes son antecedentes históricos y no sustituyen los conteos anteriores. Reabrir una inconclusa únicamente con una fuente oficial específica nueva o un alcance autorizado nuevo.
+
 ## Seguimiento vigente — 1 de noviembre de 2026
 
 Revisión individual de 62 universitarias/nacionales: diez dictámenes precisados y aplicados; 52 conservan resultado inconcluso. Quedan **177 inconclusas** de la cohorte de 466 (52 de este bloque y 125 municipales sin reconsulta en esta tanda). No se acreditaron nuevas solicitudes abiertas; cero activaciones o eliminaciones. Fuente vigente del seguimiento: `documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/INFORME.md`, `inventario_466.json`, `avance.json` e `inconclusas_177.csv`. La instantánea del 30/10 es histórica y permanece intacta.
@@ -7,8 +21,8 @@ Revisión individual de 62 universitarias/nacionales: diez dictámenes precisado
 Aplicadas diez correcciones con respaldo/restauración y guardas: UTA alimentación, PAES UTA (incluye 1000 puntos y asignación automática), alcance 2026 de cuatro UAI, mérito UCSH, excelencia UAH, articulación INACAP y continuidad IPCHILE. 528 UUID conservados; 518 filas idénticas. Catálogo comprobado el 01/11: **8 abiertas, 114 cerradas, 229 fechas por confirmar y 177 en revisión**. El único cambio de fuente backend es el recurso de clasificación de 177 UUID. Frontend y preview conservados; no iniciar P13/P14 ni repetir el SQL aplicado.
 
 - [x] Contrastar y documentar las 62; aplicar y conciliar diez correcciones.
-- [ ] Continuar la investigación específica de las 177 inconclusas, usando las siguientes acciones por beca; no reclasificar por probabilidad ni por errores de acceso.
-- [ ] Conciliar coincidencias 131/503 y 175/508 sin borrar originales, UUID o favoritos.
+- [x] Tarea histórica atendida en el expediente vigente de 177; permanecen 150 conclusiones inconclusas documentadas.
+- [x] Coincidencias documentadas en la conciliación vigente; UUID y favoritos conservados.
 
 Los apartados siguientes conservan los antecedentes y cortes anteriores.
 

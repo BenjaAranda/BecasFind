@@ -1,5 +1,7 @@
 # Instrucciones para el agente: auditoría de vigencia de BecasFind
 
+Estado al 01/11/2026: la tanda de 177 está documentada y aplicada en `documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/`. Conserva 150 conclusiones inconclusas, sin fichas de esa tanda sin dictamen. Leer su `INFORME.md` antes de reabrir casos o repetir operaciones; estas instrucciones son el método, no una orden para volver a ejecutar SQL ya aplicado.
+
 Continúa en este repositorio hasta completar una auditoría individual de las becas
 que quedaron inactivas por calendario desconocido o vigencia no acreditada. El objetivo
 es recuperar todas las convocatorias realmente publicables mediante investigación
