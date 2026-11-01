@@ -1,6 +1,10 @@
 # Método vigente para cerrar la revisión esencial
 
-Actualizado el 24 de octubre de 2026. El alcance y las fases están en [`PLAN_MEJORAS.md`](../PLAN_MEJORAS.md); el estado operativo y las rutas ya agotadas, en [`contexto.md`](contexto.md).
+Actualizado el 1 de noviembre de 2026. El alcance y las fases están en [`PLAN_MEJORAS.md`](../PLAN_MEJORAS.md); el estado operativo y las rutas ya agotadas, en [`contexto.md`](contexto.md).
+
+## Seguimiento vigente de vigencia
+
+El [seguimiento individual de 62](../documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/INFORME.md) documenta diez dictámenes precisados y aplicados; 52 permanecen inconclusos. La cola actual reúne **177 inconclusas**: esos 52 y 125 municipales sin reconsulta en este bloque. Consultar `inventario_466.json` e `inconclusas_177.csv` de esa carpeta. No repetir el SQL aplicado ni convertir falta de fechas en una convocatoria abierta. Los apartados siguientes conservan los cortes anteriores.
 
 ## Vigencia: corte del 30/10/2026
 
