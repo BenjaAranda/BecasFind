@@ -1,0 +1,653 @@
+[
+  {
+    "url": "https://munisaavedra.cl/wp-content/uploads/2026/05/BASES-BECA-MUNICIPAL-2026.pdf",
+    "clave": "5380251ab66c48c6",
+    "consulta_utc": "2026-11-02T01:47:04.376742+00:00",
+    "url_final": "https://munisaavedra.cl/wp-content/uploads/2026/05/BASES-BECA-MUNICIPAL-2026.pdf",
+    "http": 200,
+    "bytes": 127965,
+    "sha256": "289a6569e1e2f51ec945b5eef3fb481a570c71d3f851fd00a820d2391cae55d3",
+    "tipo": "PDF",
+    "caracteres": 11681,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/5380251ab66c48c6.pdf"
+  },
+  {
+    "url": "https://munisaavedra.cl/wp-content/uploads/2026/05/DECRETO-BECA-MUNICIPAL-2026.pdf",
+    "clave": "605edb11d90615f0",
+    "consulta_utc": "2026-11-02T01:47:04.377547+00:00",
+    "url_final": "https://munisaavedra.cl/wp-content/uploads/2026/05/DECRETO-BECA-MUNICIPAL-2026.pdf",
+    "http": 200,
+    "bytes": 277788,
+    "sha256": "a65a4a2576eb400a0ed07cd04ba0d67d888ce6dd4f9e27485a50926a3d20f920",
+    "tipo": "PDF",
+    "caracteres": 4573,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/605edb11d90615f0.pdf"
+  },
+  {
+    "url": "https://penco.cl/wp-content/uploads/2026/02/BASES-BECA-MUNICIPAL-2026.pdf",
+    "clave": "b9e73c65f93dcbe6",
+    "consulta_utc": "2026-11-02T01:47:04.378015+00:00",
+    "url_final": "https://penco.cl/wp-content/uploads/2026/02/BASES-BECA-MUNICIPAL-2026.pdf",
+    "http": 200,
+    "bytes": 743747,
+    "sha256": "01b4ab387857b89573441d6045d85832c591a051d42ced39ac770549df6dcc9b",
+    "tipo": "PDF",
+    "caracteres": 29,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/b9e73c65f93dcbe6.pdf"
+  },
+  {
+    "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+    "clave": "f4445db9b43a171d",
+    "consulta_utc": "2026-11-02T01:47:04.474163+00:00",
+    "resultado": "BARRERA",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+    "clave": "c16e522c07c9eb5f",
+    "consulta_utc": "2026-11-02T01:47:04.483754+00:00",
+    "resultado": "BARRERA",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+    "clave": "3f4df6dcf166ea49",
+    "consulta_utc": "2026-11-02T01:47:04.505711+00:00",
+    "url_final": "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+    "http": 200,
+    "bytes": 18510,
+    "sha256": "9b037b9040e32eb78729dd79acc5d193673444e7567fe70942d299bcfd98ce51",
+    "tipo": "HTML",
+    "caracteres": 4052,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/3f4df6dcf166ea49.html"
+  },
+  {
+    "url": "https://www.paine.cl/wp-content/uploads/2026/03/FORMULARIO-DE-BECA-DE-INGRESO.pdf",
+    "clave": "edcdd4b4864d461f",
+    "consulta_utc": "2026-11-02T02:04:06.077032+00:00",
+    "url_final": "https://www.paine.cl/wp-content/uploads/2026/03/FORMULARIO-DE-BECA-DE-INGRESO.pdf",
+    "http": 200,
+    "bytes": 205128,
+    "sha256": "920ab9b3064561f3e0c3840bc42a857f58ab181af89359201b50b170a9800f25",
+    "tipo": "PDF",
+    "caracteres": 337,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/edcdd4b4864d461f.pdf"
+  },
+  {
+    "url": "https://dae.uach.cl/wp-content/uploads/2025/12/REGLAMENTO-RESIDENCIAS-ESTUDIANTILES-UACh-2024.pdf",
+    "clave": "3da3348c9fc8258c",
+    "consulta_utc": "2026-11-02T02:04:06.078499+00:00",
+    "url_final": "https://dae.uach.cl/wp-content/uploads/2025/12/REGLAMENTO-RESIDENCIAS-ESTUDIANTILES-UACh-2024.pdf",
+    "http": 200,
+    "bytes": 255025,
+    "sha256": "b3b79e6a70d0e6af6df17ce41e938e82451dc6f1540f2b1de410ef23281260cc",
+    "tipo": "PDF",
+    "caracteres": 23176,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/3da3348c9fc8258c.pdf"
+  },
+  {
+    "url": "https://sube.ucsc.cl/manual-de-postulacion-y-renovacion-de-beneficios-de-arancel-ucsc/",
+    "clave": "45537ad6af300819",
+    "consulta_utc": "2026-11-02T02:04:06.078990+00:00",
+    "url_final": "https://sube.ucsc.cl/2026/03/26/manual-de-postulacion-y-renovacion-de-beneficios-de-arancel-ucsc/",
+    "http": 200,
+    "bytes": 131366,
+    "sha256": "f8a1dbcfe1aac7057837a5c9692ff28b8e98b549d6bb6d2a0376c7de73ca439e",
+    "tipo": "HTML",
+    "caracteres": 2598,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/45537ad6af300819.html"
+  },
+  {
+    "url": "https://www.ventanillaunicasocial.gob.cl/ficha/125/programa-residencia-familiar-estudiantil-educacion-superior",
+    "clave": "32bc3a8ad2647a4f",
+    "consulta_utc": "2026-11-02T02:04:06.079450+00:00",
+    "url_final": "https://www.ventanillaunicasocial.gob.cl/ficha/125/programa-residencia-familiar-estudiantil-educacion-superior",
+    "http": 200,
+    "bytes": 202027,
+    "sha256": "618bdb293e02859574242d9a40b41b53c826345d5e8b32759a1aa87501fa1fbf",
+    "tipo": "HTML",
+    "caracteres": 3822,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/32bc3a8ad2647a4f.html"
+  },
+  {
+    "url": "https://www.chileatiende.gob.cl/fichas/4600-programa-residencia-familiar-estudiantil-prfe",
+    "clave": "3aece7373db61a17",
+    "consulta_utc": "2026-11-02T02:04:06.079880+00:00",
+    "url_final": "https://www.chileatiende.gob.cl/fichas/4600-programa-residencia-familiar-estudiantil-prfe",
+    "http": 200,
+    "bytes": 232940,
+    "sha256": "62a01f6dec181ff8e64265dbd002d6ea5bcd9ca87eb65887f2bf1442585767fe",
+    "tipo": "HTML",
+    "caracteres": 4031,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/3aece7373db61a17.html"
+  },
+  {
+    "url": "https://direcciones.ucsc.cl/content/uploads/sites/66/2026/08/Manual-becas-internas-1.pdf",
+    "clave": "630873201a71ca75",
+    "consulta_utc": "2026-11-02T02:36:14.677699+00:00",
+    "url_final": "https://direcciones.ucsc.cl/content/uploads/sites/66/2026/08/Manual-becas-internas-1.pdf",
+    "http": 200,
+    "bytes": 2154928,
+    "sha256": "fb44be30fb9159db96084e67d92a27632ab792518904e922031e14405cc94abd",
+    "tipo": "PDF",
+    "caracteres": 20420,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/630873201a71ca75.pdf"
+  },
+  {
+    "url": "https://www.udd.cl/admision-pregrado/becas/?udd_beca=172769",
+    "clave": "e4da646b181128ea",
+    "consulta_utc": "2026-11-02T02:36:14.678257+00:00",
+    "url_final": "https://www.udd.cl/admision-pregrado/becas/?udd_beca=172769",
+    "http": 200,
+    "bytes": 145928,
+    "sha256": "7d7949536a9b80497e8490fdca2f32d04052c72cd955f0c8b3af7db865747843",
+    "tipo": "HTML",
+    "caracteres": 15457,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/e4da646b181128ea.html"
+  },
+  {
+    "url": "https://admision.uss.cl/becas-y-financiamiento",
+    "clave": "0415d814caeb9514",
+    "consulta_utc": "2026-11-02T02:36:14.678792+00:00",
+    "url_final": "https://admision.uss.cl/becas-y-financiamiento",
+    "http": 200,
+    "bytes": 136377,
+    "sha256": "e18fc2a5767ca52e9c546c6a64d890f01170a2cf864643f5c75d7f9dd1f5f418",
+    "tipo": "HTML",
+    "caracteres": 45859,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/0415d814caeb9514.html"
+  },
+  {
+    "url": "https://uchile.cl/dbe/residencias",
+    "clave": "bbc7414f78fa9584",
+    "consulta_utc": "2026-11-02T02:36:14.679255+00:00",
+    "url_final": "https://uchile.cl/dbe/residencias",
+    "http": 200,
+    "bytes": 79315,
+    "sha256": "4ebf2435c62ff439f0e39afcc76074f249c6117ded7ee52183d4a2fa381d0574",
+    "tipo": "HTML",
+    "caracteres": 28198,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/bbc7414f78fa9584.html"
+  },
+  {
+    "url": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+    "clave": "8f22ab09f285d644",
+    "consulta_utc": "2026-11-02T02:36:14.679729+00:00",
+    "url_final": "https://admision.ucentral.cl/becas-y-financiamiento/becas-ucen-aplicables-desde-primer-ano/",
+    "http": 200,
+    "bytes": 157714,
+    "sha256": "85420f97d198348bfe5ba8ff0d0fbce67a4388dcfae6189184eb2902150efea5",
+    "tipo": "HTML",
+    "caracteres": 6387,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/8f22ab09f285d644.html"
+  },
+  {
+    "url": "https://www.admisionmayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+    "clave": "2a228006992fcd34",
+    "consulta_utc": "2026-11-02T02:36:14.680231+00:00",
+    "url_final": "https://www.admisionmayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+    "http": 200,
+    "bytes": 3783608,
+    "sha256": "328e4dc750ee4133acfebd49416accbcc6b32b00937cab7d27df50f37a2050b4",
+    "tipo": "PDF",
+    "caracteres": 78737,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/2a228006992fcd34.pdf"
+  },
+  {
+    "url": "https://dge.uct.cl/arancel/",
+    "clave": "aa3dcfb250d9b4d8",
+    "consulta_utc": "2026-11-02T02:36:14.976037+00:00",
+    "url_final": "https://dge.uct.cl/arancel/",
+    "http": 200,
+    "bytes": 96392,
+    "sha256": "a247863192778dd91f958f6f1ae1aaa76fe468c63560d464f2d36cb7a241b925",
+    "tipo": "HTML",
+    "caracteres": 3259,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/aa3dcfb250d9b4d8.html"
+  },
+  {
+    "url": "https://dcr.uct.cl/preguntas-frecuentes/",
+    "clave": "56d824263b690410",
+    "consulta_utc": "2026-11-02T02:36:14.996073+00:00",
+    "resultado": "BARRERA",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "url": "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf",
+    "clave": "89eb3f6c6412aa2e",
+    "consulta_utc": "2026-11-02T02:42:58.106245+00:00",
+    "url_final": "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf",
+    "http": 200,
+    "bytes": 7462814,
+    "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+    "tipo": "PDF",
+    "caracteres": 1156627,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/89eb3f6c6412aa2e.pdf"
+  },
+  {
+    "url": "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/",
+    "clave": "51aa107ad30103dc",
+    "consulta_utc": "2026-11-02T03:13:41.092332+00:00",
+    "url_final": "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/",
+    "http": 200,
+    "bytes": 180577,
+    "sha256": "2b51df85350be9762571fd1724bcd5629c8981a7f082ed77d88ce89d7dd1c666",
+    "tipo": "HTML",
+    "caracteres": 9031,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/51aa107ad30103dc.html"
+  },
+  {
+    "url": "https://www.mejillones.cl/noticias-comunales/estudiantes-de-educacion-superior-de-mejillones-reciben-beca-municipal/",
+    "clave": "479101367ff5bef9",
+    "consulta_utc": "2026-11-02T04:01:30.704943+00:00",
+    "url_final": "https://www.mejillones.cl/noticias-comunales/estudiantes-de-educacion-superior-de-mejillones-reciben-beca-municipal/",
+    "http": 200,
+    "bytes": 277858,
+    "sha256": "220d1ae153a46600fe74b81f03d773c5404de2a78c7ca5c5a5f594381cc499f1",
+    "tipo": "HTML",
+    "caracteres": 9159,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/479101367ff5bef9.html"
+  },
+  {
+    "url": "https://limache.cl/limache-entrega-beca-de-educacion-superior-y-beneficiara-a-136-alumnos-y-alumnas-recibiran-150-mil-por-semestre/",
+    "clave": "f09edea479c7d0cd",
+    "consulta_utc": "2026-11-02T04:01:30.705867+00:00",
+    "url_final": "https://limache.cl/limache-entrega-beca-de-educacion-superior-y-beneficiara-a-136-alumnos-y-alumnas-recibiran-150-mil-por-semestre/",
+    "http": 200,
+    "bytes": 114205,
+    "sha256": "2b4e9f719fcfaf9e9e0911fecb146e445a4b8d61330562f609351822c6af71fe",
+    "tipo": "HTML",
+    "caracteres": 7404,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/f09edea479c7d0cd.html"
+  },
+  {
+    "url": "https://www.paine.cl/wp-content/uploads/2026/03/BANNER-WEB-POSTULACIONES-Becas-Educacion-Superior-2026-1-scaled.jpg",
+    "clave": "694930f0bf10ec2d",
+    "consulta_utc": "2026-11-02T04:01:30.706425+00:00",
+    "url_final": "https://www.paine.cl/wp-content/uploads/2026/03/BANNER-WEB-POSTULACIONES-Becas-Educacion-Superior-2026-1-scaled.jpg",
+    "http": 200,
+    "bytes": 166138,
+    "sha256": "340edf675059899883071858f73f87a3c6ee0f0c4c142eb435f7538eadc5ae09",
+    "tipo": "HTML",
+    "caracteres": 122395,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/694930f0bf10ec2d.jpg"
+  },
+  {
+    "url": "https://www.munimulchen.cl/becas-estudiantiles-2026/",
+    "clave": "79398f36a96fc029",
+    "consulta_utc": "2026-11-02T04:01:30.706923+00:00",
+    "url_final": "https://www.munimulchen.cl/becas-estudiantiles-2026/",
+    "http": 200,
+    "bytes": 46275,
+    "sha256": "b0b81746cdeb7bafa8a1190e51899684d24ebdff3b3307359ccbadf3837f1697",
+    "tipo": "HTML",
+    "caracteres": 5483,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/79398f36a96fc029.html"
+  },
+  {
+    "url": "https://mtraiguen.cl/municipalidad/fortaleciendo-la-educacion-superior-becas-municipales/",
+    "clave": "69c32b0a07b1f282",
+    "consulta_utc": "2026-11-02T04:01:30.707447+00:00",
+    "url_final": "https://mtraiguen.cl/municipalidad/fortaleciendo-la-educacion-superior-becas-municipales/",
+    "http": 200,
+    "bytes": 261438,
+    "sha256": "65dd3b293e2e39f5b7d122942c83a895415749647fa4ce99086b268d5b63a112",
+    "tipo": "HTML",
+    "caracteres": 4432,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/69c32b0a07b1f282.html"
+  },
+  {
+    "url": "https://www.imb.cl/noticias/beca-municipal-de-estudios-2026/",
+    "clave": "4cf7bf004c0ff5e0",
+    "consulta_utc": "2026-11-02T04:01:30.802338+00:00",
+    "url_final": "https://www.imb.cl/noticias/beca-municipal-de-estudios-2026/",
+    "http": 200,
+    "bytes": 63431,
+    "sha256": "39b3e796ec84d11a0bb4d78c9741c910921dcf23a865baa321ba29ee0bcb2c15",
+    "tipo": "HTML",
+    "caracteres": 1504,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/4cf7bf004c0ff5e0.html"
+  },
+  {
+    "url": "https://www.imb.cl/noticias/municipalidad-de-bulnes-entrega-beca-de-transporte-a-351-estudiantes-de-educacion-superior/",
+    "clave": "7bcee3bd4013fb27",
+    "consulta_utc": "2026-11-02T04:01:30.843716+00:00",
+    "url_final": "https://www.imb.cl/noticias/municipalidad-de-bulnes-entrega-beca-de-transporte-a-351-estudiantes-de-educacion-superior/",
+    "http": 200,
+    "bytes": 66337,
+    "sha256": "490ec3188f50f17f1a652ec73df5539db411016afa221e6c6eccec6444324951",
+    "tipo": "HTML",
+    "caracteres": 3692,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/7bcee3bd4013fb27.html"
+  },
+  {
+    "url": "https://www.munipaillaco.cl/municipalidad-de-paillaco-invita-a-postular-a-beca-de-apoyo-a-la-educacion-superior-2/",
+    "clave": "3e3d126125f372ed",
+    "consulta_utc": "2026-11-02T04:01:30.844296+00:00",
+    "url_final": "https://www.munipaillaco.cl/municipalidad-de-paillaco-invita-a-postular-a-beca-de-apoyo-a-la-educacion-superior-2/",
+    "http": 200,
+    "bytes": 221886,
+    "sha256": "819e941fa8d54298d35ed6320ee3d143a61c748dfcdb303b0f144bc23085e811",
+    "tipo": "HTML",
+    "caracteres": 4730,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/3e3d126125f372ed.html"
+  },
+  {
+    "url": "https://www.munipaillaco.cl/beca-municipal-de-apoyo-a-la-educacion-superior-extiende-plazo-de-postulacion-hasta-el-14-de-mayo-2/",
+    "clave": "357bc3fb95819d40",
+    "consulta_utc": "2026-11-02T04:01:31.035445+00:00",
+    "url_final": "https://www.munipaillaco.cl/beca-municipal-de-apoyo-a-la-educacion-superior-extiende-plazo-de-postulacion-hasta-el-14-de-mayo-2/",
+    "http": 200,
+    "bytes": 221440,
+    "sha256": "ff97999c1ac8907da6118d833c08d3e0504e92964f317ef96b24ec246344605e",
+    "tipo": "HTML",
+    "caracteres": 3986,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/357bc3fb95819d40.html"
+  },
+  {
+    "url": "https://portal.ingresa.cl/extienden-plazo-para-postular-a-los-beneficios-estudiantiles-del-estado-para-el-ano-2027/",
+    "clave": "803f36ace7dcea6f",
+    "consulta_utc": "2026-11-02T04:01:31.080423+00:00",
+    "url_final": "https://portal.ingresa.cl/extienden-plazo-para-postular-a-los-beneficios-estudiantiles-del-estado-para-el-ano-2027/",
+    "http": 200,
+    "bytes": 70906,
+    "sha256": "8ecb6afb654befbb254701acd511e0a8c253c422ddaf25800bf37ccf7316ac9b",
+    "tipo": "HTML",
+    "caracteres": 5142,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/803f36ace7dcea6f.html"
+  },
+  {
+    "url": "https://www.imb.cl/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-02-at-08.55.57-2.jpeg",
+    "clave": "981f1836fe4ce870",
+    "consulta_utc": "2026-11-02T04:10:11.408413+00:00",
+    "url_final": "https://www.imb.cl/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-02-at-08.55.57-2.jpeg",
+    "http": 200,
+    "bytes": 212017,
+    "sha256": "d180fb50ee63c3107aea89bc6f377b907e3037b3f7d46749e64b2bcf86442fbe",
+    "tipo": "IMAGEN",
+    "caracteres": 171593,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/981f1836fe4ce870.jpg"
+  },
+  {
+    "url": "https://www.imb.cl/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-02-at-08.55.57-3.jpeg",
+    "clave": "66906e8253ad1d33",
+    "consulta_utc": "2026-11-02T04:10:11.609180+00:00",
+    "url_final": "https://www.imb.cl/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-02-at-08.55.57-3.jpeg",
+    "http": 200,
+    "bytes": 302172,
+    "sha256": "fe393d0ba5de5e28210eea25b1825ca037e0ec35f3e1d12e88dbe40e4b6b9687",
+    "tipo": "IMAGEN",
+    "caracteres": 239272,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/66906e8253ad1d33.jpg"
+  },
+  {
+    "url": "https://www.munimulchen.cl/wp-content/uploads/2026/03/Fray-Alejandro-Manera-Beca-de-Apoyo-al-Estudiante-de-Nivel-Tecnico-Profesional-y-Ensenanza-Superior.png",
+    "clave": "c564f4461d3eeb19",
+    "consulta_utc": "2026-11-02T04:10:11.783232+00:00",
+    "url_final": "https://www.munimulchen.cl/wp-content/uploads/2026/03/Fray-Alejandro-Manera-Beca-de-Apoyo-al-Estudiante-de-Nivel-Tecnico-Profesional-y-Ensenanza-Superior.png",
+    "http": 200,
+    "bytes": 461981,
+    "sha256": "cbd2a3ca8e8d1f8268b6d79e9ea47a61c4f51f78ea541419701ee8e379e09126",
+    "tipo": "IMAGEN",
+    "caracteres": 354295,
+    "resultado": "RECUPERADA_NO_EQUIVALE_A_LECTURA_NI_CONFIRMACION",
+    "copia": "fuentes_conservadas/c564f4461d3eeb19.png"
+  },
+  {
+    "url": "https://limache.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "614a0dc47c61991f",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:42.729888+00:00",
+    "sha256": "90b88b8cdf08a61b284dc5602041b40db23a5b2f4084b6019cc184e92dc0baa3",
+    "copia": "fuentes_conservadas/614a0dc47c61991f.json"
+  },
+  {
+    "url": "https://sanjoaquin.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "822282b51911eb14",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:43.734882+00:00",
+    "sha256": "826bd92189537e4105a4698df0c75b31c39540a465d0445b8716050d42250b68",
+    "copia": "fuentes_conservadas/822282b51911eb14.json"
+  },
+  {
+    "url": "https://municipiocabildo.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "aac0fff6f9b7457f",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:44.383432+00:00",
+    "sha256": "ae12d5a6fc1beec857eb62e850c82e961b31b1c20e754e074a293c4ea31647dd",
+    "copia": "fuentes_conservadas/aac0fff6f9b7457f.json"
+  },
+  {
+    "url": "https://muniteodoro.cl/portal/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "aa762cd707e557aa",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:46.763010+00:00",
+    "sha256": "48a2c17938b9c21eb40db7fbf034918a16a561a85cf86e5a2d18e958b4f21267",
+    "copia": "fuentes_conservadas/aa762cd707e557aa.json"
+  },
+  {
+    "url": "https://penco.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "8723c1f66272a05a",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:53.597350+00:00",
+    "sha256": "62ffbd7a108a96e7c797e29effe55cd047ba576b36428d2fca70f3dcbc7e6770",
+    "copia": "fuentes_conservadas/8723c1f66272a05a.json"
+  },
+  {
+    "url": "https://muniquellon.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "6b08d9f9eef3c955",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:53.841429+00:00",
+    "sha256": "ff7ba39f733e29b30ea86e28f7fd622828c18b6a16af24b8371081596fc43a5b",
+    "copia": "fuentes_conservadas/6b08d9f9eef3c955.json"
+  },
+  {
+    "url": "https://www.munipaillaco.cl/wp-json/wp/v2/posts?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "2e1fac7eb2bb5535",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:43:53.865763+00:00",
+    "sha256": "3c021e34c17fd2b5bc419d6b0bc4c4cc6eef6289101b6697324096b1727f4be5",
+    "copia": "fuentes_conservadas/2e1fac7eb2bb5535.json"
+  },
+  {
+    "url": "https://www.paine.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "4151684764cceff6",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:30.090648+00:00",
+    "sha256": "41357ad272b68d4a3afef9797988491e653c50ad2a106a9b83be70812b9678cd",
+    "copia": "fuentes_conservadas/4151684764cceff6.json"
+  },
+  {
+    "url": "https://dge.uct.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "210a9a5b184f92d7",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:32.169449+00:00",
+    "sha256": "12058dbb8d93aab3d9e048c5928c0b156c0cada83892c19446570be72236051e",
+    "copia": "fuentes_conservadas/210a9a5b184f92d7.json"
+  },
+  {
+    "url": "https://www.munimulchen.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "194cb228c5c60e99",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:32.644316+00:00",
+    "sha256": "e11e6462a942c32856b06ff6e564e88f3739e10bc1f5399eed086cd7533bf08a",
+    "copia": "fuentes_conservadas/194cb228c5c60e99.json"
+  },
+  {
+    "url": "https://www.ucentral.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "79b828337a1b8190",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:36.346395+00:00",
+    "sha256": "3f0a564e6458dba8e18538553674ef11a0dce52241bf756b183a5bf0950b91c1",
+    "copia": "fuentes_conservadas/79b828337a1b8190.json"
+  },
+  {
+    "url": "https://dae.uach.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "63198b1103445b3e",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:36.674420+00:00",
+    "sha256": "665b65eaa7b7b94d51f9b24700a2a63748fd3c58e865383305b56c32d39d4366",
+    "copia": "fuentes_conservadas/63198b1103445b3e.json"
+  },
+  {
+    "url": "https://admision.udp.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "b13060bcc671cef0",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:36.721256+00:00",
+    "sha256": "6bd33d0fad06188ba27a0e22d2c603512654b23a93e7d57650b6e0cde42b7666",
+    "copia": "fuentes_conservadas/b13060bcc671cef0.json"
+  },
+  {
+    "url": "https://www.ipchile.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "6c1cf2d8456bd451",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:41.306168+00:00",
+    "sha256": "9677d8465b20bc90d11a2590a8353889a3a79dcc79ed520d4b916dc523ddb62b",
+    "copia": "fuentes_conservadas/6c1cf2d8456bd451.json"
+  },
+  {
+    "url": "https://admision.finis.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "0d1f8327394bf8dd",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:41.584070+00:00",
+    "sha256": "40c8ec73497aab0b4008f7e1fc1c2cd25bdbe0d12b862ee376de6bef7f8f58c6",
+    "copia": "fuentes_conservadas/0d1f8327394bf8dd.json"
+  },
+  {
+    "url": "https://sube.ucsc.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "692a1f452fc8098b",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:42.247734+00:00",
+    "sha256": "16c1be36b2214ce18c789b3812a39953e876a87ff4a1d5c84d5c0cf98e206619",
+    "copia": "fuentes_conservadas/692a1f452fc8098b.json"
+  },
+  {
+    "url": "https://dae.ubo.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "5a09fc50faf0f4fc",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:45.026864+00:00",
+    "sha256": "514059ddba0dbdacb321858d942df0c0fba88558e0029060223f38a929e8b925",
+    "copia": "fuentes_conservadas/5a09fc50faf0f4fc.json"
+  },
+  {
+    "url": "https://enac.cl/wp-json/wp/v2/pages?search=beca&per_page=100&_fields=id,date,link,title,content",
+    "clave": "4e0f9c94c8b94517",
+    "tipo": "JSON_PUBLICO",
+    "consulta_utc": "2026-11-02T01:45:45.857583+00:00",
+    "sha256": "eea3536d5f51769c1335ecf38c288c26a27f8cbfe5273e16d54a3af478fc5e76",
+    "copia": "fuentes_conservadas/4e0f9c94c8b94517.json"
+  },
+  {
+    "url": "https://sitio.munilautaro.cl/wp-content/uploads/2026/02/PROGRAMA-ESTUDIANTIL.pdf",
+    "tipo": "PDF_DESCARGADO_MEDIANTE_NAVEGADOR",
+    "copia": "fuentes_conservadas/lautaro-programa-2026.pdf",
+    "sha256": "cd1841e5fd4bf920f45c71054bdbf2b247ca4d85bced3ac513c0cafa6212619a",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sitio.munilautaro.cl/wp-content/uploads/2026/02/DD_4701654_260316_P.pdf",
+    "tipo": "CAPTURA_VISUAL",
+    "copia": "fuentes_conservadas/lautaro-modificacion-pagina1.png",
+    "sha256": "ba3529da17a406db844076d2abe523ab2494b6785d8d1d2e06683de0ddabf3e5",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sitio.munilautaro.cl/wp-content/uploads/2026/02/DD_4701654_260316_P.pdf",
+    "tipo": "CAPTURA_VISUAL",
+    "copia": "fuentes_conservadas/lautaro-modificacion-pagina2.png",
+    "sha256": "f6754f1dc6e763ef04fa111569e8acb256f0895bc0696b257b102d6b06ada18a",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sitio.munilautaro.cl/programa-de-beneficio-estudiantil-para-alumnos-de-educacion-superior-tecnico-universitarios-de-la-comuna-de-lautaro-2026/",
+    "tipo": "TEXTO_VISIBLE_NAVEGADOR",
+    "copia": "fuentes_conservadas/lautaro-pagina-visible.txt",
+    "sha256": "5ac411679a585dbfd2ac8c4a14cafaae5fd0ff7d4edec9ceade90110b16e4527",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sangregorio.cl/wp-content/uploads/2026/03/ORDENANZA-BECA-MUNICIPAL-ESTUDIANTES-EDUCACION-SUPERIOR.pdf",
+    "tipo": "PDF_ESCANEADO_LECTURA_VISUAL_PAGINAS_1_A_5",
+    "copia": "fuentes_conservadas/sangregorio-ordenanza-2026.pdf",
+    "sha256": "5a53f123e9e0511d13df5189dbb1985128391cb983db770e316a82f59f9d0514",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sangregorio.cl/2026/03/19/beca-municipal-conoce-el-cronograma-de-recepcion-de-antecedentes/",
+    "tipo": "TEXTO_VISIBLE_NAVEGADOR",
+    "copia": "fuentes_conservadas/sangregorio-cronograma-visible.txt",
+    "sha256": "0c09e264290062439026392a716d9796d2201588b90e11f6fdf8763f4d037526",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://sangregorio.cl/2026/08/07/municipalidad-de-san-gregorio-inicia-proceso-de-renovacion-de-becas-municipales-para-estudiantes-de-ensenanza-media-y-educacion-superior/",
+    "tipo": "TEXTO_VISIBLE_NAVEGADOR",
+    "copia": "fuentes_conservadas/sangregorio-renovacion-visible.txt",
+    "sha256": "060abcc0aa949c9332fdabb11be4b32bd043e3fe03411f10e3e63588870896a0",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://municochamo.cl/?s=beca",
+    "tipo": "RESULTADO_BUSCADOR_NO_PRUEBA_AUSENCIA",
+    "copia": "fuentes_conservadas/cochamo-busqueda-visible.txt",
+    "sha256": "8d4dd89f06cbd582f1963b035b90d9134ef80621d1d9847903794986431968d6",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://carahue.cl/web/?s=beca",
+    "tipo": "RESULTADO_BUSCADOR_NO_PRUEBA_AUSENCIA",
+    "copia": "fuentes_conservadas/carahue-busqueda-visible.txt",
+    "sha256": "79518bcbda26a9e0900f1adde119ce241e58eb6d1a84d5fa4b19810ab1ff4b7b",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-excelencia-academica-bea",
+    "tipo": "FICHA_OFICIAL_TEXTO_VISIBLE_NAVEGADOR",
+    "copia": "fuentes_conservadas/bea-ficha-visible.txt",
+    "sha256": "8990c9f8e166f9370594f4194cf91957e3e7a31462abecba256b06ceacd90b32",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "url": "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-nuevo-milenio-bnm",
+    "tipo": "FICHA_OFICIAL_TEXTO_VISIBLE_NAVEGADOR",
+    "copia": "fuentes_conservadas/nuevo-milenio-ficha-visible.txt",
+    "sha256": "449804439ec297915b03c7ee0086ff2f3e9497534b7bc9817b51000e6759858f",
+    "fecha_consulta": "2026-11-02"
+  },
+  {
+    "tipo": "CONTENIDO_OFICIAL_INDEXADO",
+    "copia": "fuentes_conservadas/consulta_mineduc.json",
+    "sha256": "9c8ed87fae57ee4afadf1fb85012f5eb64d7814e62bf3e26d28eb37ea64398b5",
+    "alcance": "La recarga directa devolvió404. La consulta indexada no se presenta como descarga del origen."
+  }
+]

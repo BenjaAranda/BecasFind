@@ -1,5 +1,17 @@
 # Contexto operativo de BecasFind
 
+## Incertidumbres: primer bloque de 54 aplicado — 2 de noviembre de 2026
+
+Investigación reabierta sobre 150 fichas: **54 con nueva revisión individual; 33 dictámenes precisados y 21 inconclusos; 96 sin nueva revisión individual todavía**. Aplicadas y conciliadas las 54; tres activaciones (Nuevo Milenio II y dos fichas BEA Mineduc) con cierre automático FUAS del 05/11/2026 a las 14:00 de Santiago. Catálogo comprobado: **528 fichas; 11 abiertas, 131 cerradas, 269 fechas por confirmar y 117 en revisión**. Cero eliminaciones y 528 UUID preservados.
+
+Fuente vigente: `documentacion/auditoria_corpus/procesados/resolucion_incertidumbres_150_2026_11_02/INFORME.md`, `inventario_466.json`, `avance.json`, `sin_reconsulta_96.csv` e `incertidumbres_117.csv`. Las cifras de las secciones anteriores son históricas. No repetir el SQL de 54 ni regenerar el expediente aplicado con los borradores de `tmp/`. Los 33 dictámenes precisados no significan 33 fichas sin incógnitas. P13/P14 no iniciadas.
+
+- [x] Aplicar y comprobar el bloque de 54 con respaldo/restauración de 14 tablas y originales conservados.
+- [ ] Reconsultar individualmente las 96 restantes y continuar con las contradicciones de las 21 inconclusas de este bloque.
+- [ ] Completar la petición de resolver todas las incertidumbres sustentables; conservar explícitamente los datos que la fuente no publique.
+
+Los apartados siguientes conservan los cortes anteriores y no sustituyen el estado de este encabezado.
+
 ## Vigencia: revisión de las 177 restantes aplicada — 1 de noviembre de 2026
 
 **177 dictámenes individuales completados y publicados: 27 precisados y 150 inconclusos.** Cero fichas de esta tanda sin dictamen; las incógnitas de las 150 permanecen explícitas. Cohorte general: 466 dictámenes; 4 con cierre confirmado no vencido, 76 cerradas identificadas, 98 calendarios por modalidad, 138 sin calendario publicado y 150 inconclusas. No equivale a confirmar 466 convocatorias actuales ni a agotar toda fuente posible.
