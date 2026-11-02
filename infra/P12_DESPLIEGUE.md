@@ -1,5 +1,20 @@
 # P12: despliegue de prueba y selección del catálogo
 
+## Incertidumbres: tanda de 96 aplicada — 2 de noviembre de 2026
+
+Aplicadas y verificadas **96 fichas adicionales**: nueve dictámenes precisados y 87 inconclusos; ocho consultas limitadas por acceso o recuperación parcial. Las 150 reabiertas tienen ahora notas de reconsulta (54 + 96): **42 dictámenes precisados y 108 inconclusos**. Esto no significa que todas las convocatorias actuales estén leídas o que todos los campos estén resueltos.
+
+Catálogo verificado: **528 fichas; 11 abiertas, 132 cerradas, 277 fechas por confirmar y 108 en revisión**. Cero activaciones/eliminaciones en esta tanda. 528 UUID y originales conservados; 432 fichas y 13 tablas ajenas idénticas, respaldo/restauración de 14 tablas aprobado. Solo se publicó el recurso backend de 108 UUID; clases y dependencias idénticas. Temporizador FUAS de siete UUID sin cambios.
+
+Fuente vigente: `documentacion/auditoria_corpus/procesados/reconsulta_incertidumbres_96_2026_11_02/INFORME.md`, `inventario_466.json`, `avance.json`, `incertidumbres_108.csv` y `consultas_limitadas_8.csv`. No repetir el SQL de 96 ni el de 54; no regenerar expedientes aplicados con borradores de `tmp/`. P13/P14 y promoción a producción no iniciadas.
+
+- [x] Aplicar y verificar las 96 notas/correcciones, preservando UUID y originales.
+- [x] Precisar cinco adjudicaciones 2026, Talcahuano sin cupos y calendario cerrado de Tucapel y prestaciones publicadas de Huasco/Monte Patria.
+- [ ] Recuperar fuentes actuales suficientes para las ocho consultas limitadas (68, 202, 218, 240, 248, 312, 357, 463).
+- [ ] Resolver los campos sustentables de las 108 inconclusas según su límite individual; conservar desconocidos y contradicciones cuando no haya prueba pública suficiente.
+
+Los encabezados siguientes conservan cortes históricos y no sustituyen este estado.
+
 ## Incertidumbres: primer bloque de 54 aplicado — 2 de noviembre de 2026
 
 Investigación reabierta sobre 150 fichas: **54 con nueva revisión individual; 33 dictámenes precisados y 21 inconclusos; 96 sin nueva revisión individual todavía**. Aplicadas y conciliadas las 54; tres activaciones (Nuevo Milenio II y dos fichas BEA Mineduc) con cierre automático FUAS del 05/11/2026 a las 14:00 de Santiago. Catálogo comprobado: **528 fichas; 11 abiertas, 131 cerradas, 269 fechas por confirmar y 117 en revisión**. Cero eliminaciones y 528 UUID preservados.

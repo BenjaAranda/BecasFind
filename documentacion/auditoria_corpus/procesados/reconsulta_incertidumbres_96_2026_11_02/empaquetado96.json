@@ -1,0 +1,14 @@
+{
+  "fecha_utc": "2026-11-02T21:13:50.116898+00:00",
+  "imagen": "sha256:92d6b0cc5a0b2b0b3e02b5ec2de7044760cac2e88f51adde34be0cdff55a0a45",
+  "etiqueta": "becasfind-backend:reconsulta96-20261102",
+  "diferencias_fuentes": [
+    "src/main/resources/catalogo-en-revision-uuid.txt"
+  ],
+  "diferencias_jar": [
+    "BOOT-INF/classes/catalogo-en-revision-uuid.txt"
+  ],
+  "java_clases_y_dependencias_identicas": true,
+  "recurso_uuid": 108,
+  "sha256_recurso": "e0e506bf0ffcc61fb7201c1c59cab8ad0e0971ff57d78d6c35f31d851b56f67a"
+}
