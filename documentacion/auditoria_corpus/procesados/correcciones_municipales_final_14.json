@@ -1,0 +1,143 @@
+[
+  {
+    "candidato": "3426d91768d52b544544dfcce0a325e2a88b2f9073c44441284e6aab89991af3",
+    "campos": {
+      "monto": "Concejo Municipal 2026: 500000 CLP anuales en dos cuotas",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "500000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "fecha_inicio": "2026-03-09",
+      "fecha_cierre": "2026-03-31",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://muniovalle.gob.cl/servicios/beca-concejo-municipal/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Ficha 2026: 500000 CLP anuales en dos cuotas. Postulación 9–31 marzo; renovación 6–30 abril. Incluye excelencia académica; artística; deportiva; discapacidad y Bono Concejo. No umbral NEM ni RSH numérico común verificado. Archivo de requisitos académicos es DOCX no leído por el lector web; documentación completa pendiente. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://muniovalle.gob.cl/servicios/beca-concejo-municipal/"
+    ]
+  },
+  {
+    "candidato": "329da2a2114725f39f8812b23e46593a790326af4e63e95f93752eaaf9f392ec",
+    "campos": {
+      "monto": "BIES 2026; importe individual desconocido",
+      "rsh_maximo": "80",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://melipilla.cl/municipio-de-melipilla-entrego-beca-de-incentivo-a-la-educacion-superior-a-mas-de-2-mil-estudiantes-de-la-comuna/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Noticia municipal 2026 indexada acredita BIES y ampliación RSH hasta 80; recarga devuelve 403. Portal de bases 2026 y decreto 965 del 16 marzo corroboran proceso. Sin importe; calendario ni documentos contrastados. TIC y deportiva son beneficios distintos. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://melipilla.cl/municipio-de-melipilla-entrego-beca-de-incentivo-a-la-educacion-superior-a-mas-de-2-mil-estudiantes-de-la-comuna/"
+    ]
+  },
+  {
+    "candidato": "bf9b92a1b55051e2d4a75aed55d83213433d79f16a62b964355c878f326c259d",
+    "campos": {
+      "monto": "Proceso 2026: beca completa y media beca en dos pagos; importes desconocidos",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.quillota.cl/becas",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Resultados 2026 distinguen beca completa y media beca; dos pagos semestrales y rendiciones con voluntariado. Ficha anterior indexa 1–20 marzo 2026 pero redirige a portada; no asignar fechas sin recuperar convocatoria completa. RSH máximo 60 y promedio 5.0 del CSV no quedaron verificados. No copiar datos personales. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.quillota.cl/becas"
+    ]
+  },
+  {
+    "candidato": "99ebd9c78ae2b366aa048c432026cbcc3b3eb2a747840f7e769b1f84a1d7245c",
+    "campos": {
+      "monto": "2026: profesionales 450000 CLP; técnicos 250000 CLP; sin importe universal",
+      "fecha_cierre": "2026-03-06",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.losandes.cl/ultimos-dias-para-postular-a-la-beca-de-educacion-superior-en-los-andes/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Anuncio municipal 5 marzo 2026: cierre 6 marzo. Cien cupos profesionales de 450000 CLP y cien técnicos de 250000; no importe universal. Bases específicas 2026 indexadas pero descarga con timeout. Apertura; periodicidad y documentos completos pendientes. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.losandes.cl/ultimos-dias-para-postular-a-la-beca-de-educacion-superior-en-los-andes/"
+    ]
+  },
+  {
+    "candidato": "c7dd0cc93373c231f7536a20ae74e39f48a02215f72bd764a938af2a6d637327",
+    "campos": {
+      "monto": "2026: 500000 CLP fuera de Ancud; 200000 dentro; una cuota",
+      "fecha_inicio": "2026-07-14",
+      "fecha_cierre": "2026-07-21",
+      "rsh_maximo": "60",
+      "cobertura_tipo": "DESCONOCIDA",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.muniancud.cl/portal/beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Copia de cédula vigente por ambos lados; [OBLIGATORIO] Cartola RSH de Ancud vigente; [OBLIGATORIO] Declaración jurada de legitimidad de datos firmada; [OBLIGATORIO] Matrícula o alumno regular con validación y antigüedad máxima de 30 días; [OBLIGATORIO] Certificado de notas según ingreso o continuidad con validación"
+    },
+    "limite": "Bases 2303 y correcciones 2306 y 2421 de 2026: 500000 CLP fuera de comuna; 200000 dentro; una cuota. No importe único para alias genérico. Postulación 14–21 julio hasta 14:00; rectificación 6–12 agosto y evaluación hasta octubre no reabren postulación. RSH hasta 60. Promedio 1°–4° medio 6.0 aplica solo ingreso; notas superiores 5.0 no son NEM global. Estudios presenciales y duración diferenciada; documentos comunes parciales; condiciones socioeconómicas completas pendientes. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Copia de cédula vigente por ambos lados; [OBLIGATORIO] Cartola RSH de Ancud vigente; [OBLIGATORIO] Declaración jurada de legitimidad de datos firmada; [OBLIGATORIO] Matrícula o alumno regular con validación y antigüedad máxima de 30 días; [OBLIGATORIO] Certificado de notas según ingreso o continuidad con validación. Lista parcial; revisar condiciones y variantes en las bases.",
+    "fuentes": [
+      "https://www.muniancud.cl/portal/beca-municipal-de-educacion-superior-2026/",
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/DECRETO-2303-BASES-BECA-MUNICIPAL.pdf",
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/Decreto-Exento-2306.pdf",
+      "https://www.muniancud.cl/portal/wp-content/uploads/2026/07/Decreto-2421-Modifica-Cronograma-Bases-Becas-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "2d366f72cde758ed8a892956dd2951abac49700b28b96bd36ee77be37d1cb686",
+    "campos": {
+      "monto": "Beca general 2026: 20000 CLP mensuales marzo–diciembre",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "20000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "MENSUAL",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Entrega municipal mayo 2026: beca general 20000 CLP mensuales marzo–diciembre; total 200000 anual. Aporte PAES de 500000 CLP es otra modalidad. No conservar los 150000 históricos como monto actual. Calendario; documentos y requisitos numéricos completos pendientes. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.tome.cl/noticias/municipalidad-entrego-becas-de-educacion-superior-a-400-estudiantes-"
+    ]
+  }
+]

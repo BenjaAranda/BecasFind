@@ -1,0 +1,25 @@
+{
+  "fecha_santiago": "2026-10-27",
+  "preview": "https://becasfind-afeqpkmym-benjatlou13-1274.vercel.app",
+  "verificacion": "Navegador real, estado accesible y captura visual",
+  "aprobados": [
+    "Buscador sin sesión: cinco becas",
+    "Búsqueda por nombre Funcionarios: una beca",
+    "Filtros RSH 90 y NEM 6,0: solo BUCH",
+    "Recarga directa conserva URL y filtros",
+    "Detalle BUCH por UUID y recarga directa; convocatoria oficial disponible",
+    "Cuenta propia ADMIN: catálogo de 528 y búsqueda de UANDES Económica",
+    "Formulario administrativo: fechas, tipo y nivel actualizados; cancelado sin guardar",
+    "Cuenta propia STUDENT: navegación sin enlace Admin y ruta /admin rechazada",
+    "Perfil vacío guardado sin inventar datos personales",
+    "Recomendaciones: cinco becas al omitir criterios desconocidos",
+    "Guardar favorito, consultar lista y quitar: estados visibles correctos",
+    "Salida de ambas cuentas; buscador final sin sesión",
+    "Presentación azul y blanca comprobada visualmente",
+    "Consola consultada: cero avisos y errores capturados",
+    "Detalle UANDES Económica: dos documentos exigidos visibles y nivel Primer Año"
+  ],
+  "limites": "No sustituye una auditoría visual exhaustiva ni prueba todos los dispositivos. La recarga coincidió inicialmente con el reinicio controlado de la API; Reintentar recuperó el detalle y las comprobaciones finales pasaron.",
+  "captura_local": "tmp/p12-publico-2026-10-27.png",
+  "todas_aprobadas": true
+}

@@ -1,0 +1,17 @@
+# Preserve the exact UTF-8 CSV payloads recorded by the local import evidence.
+documentacion/auditoria_corpus/procesados/*.csv -text
+documentacion/auditoria_corpus/procesados/reparaciones/*.csv -text whitespace=cr-at-eol
+# La carga P12 conserva bytes y espacios del texto ya importado y firmado por SHA-256.
+documentacion/auditoria_corpus/procesados/despliegue_p12/confirmadas_inactivas.csv -text whitespace=-blank-at-eol
+# Conservar los bytes de los SQL aplicados cuya huella figura en los recibos.
+documentacion/auditoria_corpus/procesados/correccion_campos_2026_10_28/*.sql -text whitespace=cr-at-eol
+documentacion/auditoria_corpus/procesados/auditoria_vigencia_corte_2026_10_29/*.sql -text whitespace=cr-at-eol
+# Evidencia del seguimiento: conservar huellas de SQL y capturas oficiales.
+documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/*.sql -text whitespace=cr-at-eol
+documentacion/auditoria_corpus/procesados/seguimiento_vigencia_62_2026_11_01/fuentes_conservadas/* -text
+# Conservar el SQL aplicado y las capturas primarias del cierre de 177 dictámenes.
+documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/*.sql -text whitespace=cr-at-eol
+documentacion/auditoria_corpus/procesados/cierre_vigencia_177_2026_11_01/fuentes_conservadas/* binary
+# Preservar bytes y huellas de las fuentes y el SQL del bloque aplicado de 54.
+documentacion/auditoria_corpus/procesados/resolucion_incertidumbres_150_2026_11_02/fuentes_conservadas/* binary
+documentacion/auditoria_corpus/procesados/resolucion_incertidumbres_150_2026_11_02/*.sql -text whitespace=cr-at-eol

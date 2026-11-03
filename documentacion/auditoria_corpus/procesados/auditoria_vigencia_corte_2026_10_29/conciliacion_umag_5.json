@@ -1,0 +1,16 @@
+{
+  "filas_conciliadas": 528,
+  "uuid_conservados": 528,
+  "fichas_modificadas": [
+    12,
+    211,
+    461,
+    464,
+    489
+  ],
+  "otras_523_filas_identicas": true,
+  "texto_previo_integro": true,
+  "activaciones": 0,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261030T235809Z-3f03b5ab.dump",
+  "sql_sha256": "abfa094718effc2d486047328e4521582befb0bfd2f9570c8a81cbc1d748474c"
+}

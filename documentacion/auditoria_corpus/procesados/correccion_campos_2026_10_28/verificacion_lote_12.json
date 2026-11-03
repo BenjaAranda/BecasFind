@@ -1,0 +1,14 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 20,
+  "descripciones_completadas": 20,
+  "categorias_completadas": 2,
+  "filas_conciliadas": 528,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T223706Z-1801136d.dump",
+  "instantaneas_privadas": [
+    "tipos-lote12-antes.json",
+    "tipos-lote12-despues.json"
+  ],
+  "sql_sha256": "82190a734e334b0ed383d87df48ff2c54c3ef6fae2d0f06b285a90a8a5a802ee",
+  "advertencia": "SQL ya aplicado; no repetir. No se modificaron fechas, importes ni requisitos."
+}

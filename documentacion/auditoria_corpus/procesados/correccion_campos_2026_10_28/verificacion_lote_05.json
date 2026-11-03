@@ -1,0 +1,19 @@
+{
+  "aplicado": true,
+  "filas_modificadas": 60,
+  "filas_conciliadas": 528,
+  "uuid_preservados": true,
+  "campos_modificados": [
+    "tipo_beca",
+    "version"
+  ],
+  "incremento_version": 1,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T213803Z-55e1027c.dump",
+  "instantaneas_privadas": [
+    "tipos-lote05-antes.json",
+    "tipos-lote05-despues.json"
+  ],
+  "sql_sha256": "5150913b0276413efc87bd536f9e19a7f6162d485731c3dbb8d7d5f062b4adc1",
+  "procedencia": "Relectura individual de alcance y beneficio de expedientes confirmados, citados en cada fila; sin nueva certificación de convocatorias.",
+  "advertencia": "SQL ya aplicado; no repetir."
+}

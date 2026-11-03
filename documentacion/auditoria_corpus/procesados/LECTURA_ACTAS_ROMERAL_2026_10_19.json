@@ -1,0 +1,324 @@
+{
+  "fecha_consulta": "2026-10-19",
+  "candidato": "5ab3468f5021776c0496de2182244397e57fac292bee1f1a081a92dcc9dabd1b",
+  "indice_ordinarias": "https://muniromeral.cl/romeral/?page_id=9336&page=2",
+  "indice_extraordinarias": "https://muniromeral.cl/romeral/?page_id=9336&page=3",
+  "metodo": "Descarga oficial; búsqueda inicial de texto nativo; OCR local Windows es-ES a 1800 píxeles; lectura visual del pasaje pertinente. El OCR localiza pasajes, no demuestra ausencia de un programa.",
+  "documentos": [
+    {
+      "titulo": "Acta Reunión Ordinaria N°21 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/08/Acta-Reunion-Ordinaria-N°21-2026-1.pdf",
+      "sha256": "6611cdee8b3520b4824128b719e9d77b145b8f0087230b6901e175b87dd2aa94",
+      "bytes": 7357116,
+      "paginas": 18,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 18,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°20 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/08/Acta-Reunion-Ordinaria-N°20-2026.pdf",
+      "sha256": "b1fc3e9a389890006e7297d52fcfb33c5c01797c083e8323e8ee821a76c809ea",
+      "bytes": 11837380,
+      "paginas": 36,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 36,
+      "localizaciones": [
+        {
+          "pagina": 26,
+          "terminos": [
+            "educación superior",
+            "residencia estudiantil"
+          ]
+        }
+      ],
+      "paginas_revisadas_visualmente": [
+        26,
+        27
+      ]
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°19 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/07/Acta-Reunion-Ordinaria-N°19-2026.pdf",
+      "sha256": "e219f2a72705bfe55359a77b9512f7aa424f5130f8af2873464ceb2d39838f87",
+      "bytes": 40322319,
+      "paginas": 66,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 66,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°18 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/07/Acta-Reunion-Ordinaria-N°18-2026.pdf",
+      "sha256": "16ff221a7779efdebc92329619c2f202867f2b17b36c3417aaa84723699a57a5",
+      "bytes": 9492477,
+      "paginas": 27,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 27,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°17 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/07/Acta-Reunion-Ordinaria-N°17-2026.pdf",
+      "sha256": "ce47f092056d0c2c8adc5ee9bdc47db4b56273257112200d3942322ed17ad664",
+      "bytes": 9968290,
+      "paginas": 31,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 31,
+      "localizaciones": [
+        {
+          "pagina": 24,
+          "terminos": [
+            "educación superior"
+          ]
+        }
+      ],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°16 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Ordinaria-N°16-2026.pdf",
+      "sha256": "a07010be6f1cc6fcaf078799413256ccf1245ee323c5dc8c6ac96833e585f0b3",
+      "bytes": 11833302,
+      "paginas": 34,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 34,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°15 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Ordinaria-N°15-2026.pdf",
+      "sha256": "1a205bc0cf6464970ca3ea6345f45a1376fa55ba0f3b2b9b188eade0930a07f4",
+      "bytes": 9975462,
+      "paginas": 30,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 30,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°14 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Ordinaria-N°14-2026.pdf",
+      "sha256": "a9bd9d7d92a7a472bdefc0436ed5ef867966214f8c9398363e6b2074699ce0f8",
+      "bytes": 8039059,
+      "paginas": 25,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 25,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°13 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Ordinaria-N°13-2026.pdf",
+      "sha256": "790f4df48b20677043a7c8d1539544cea97c7ae22ced5fab939193c4eb854235",
+      "bytes": 7107097,
+      "paginas": 20,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 20,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°12 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/05/Acta-Reunion-Ordinaria-N°12-2026.pdf",
+      "sha256": "aecaab01ebc85316001ba96b470668d80ef57426c4a1d4900cd2e04fcc517bad",
+      "bytes": 8826489,
+      "paginas": 26,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 26,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°11 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Ordinaria-N°11-2026.pdf",
+      "sha256": "fbbd65ee0f5a2fd6a1f1d383e7f33ac89b10e3d901964749d1eb915a572916c9",
+      "bytes": 8369059,
+      "paginas": 26,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 26,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°10 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Ordinaria-N°10-2026.pdf",
+      "sha256": "8ce13eeaeb86e3d14aa9d49bd38228bab88eb858c60513c5988162a5e77fdb54",
+      "bytes": 6788259,
+      "paginas": 20,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 20,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°09 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Ordinaria-N°09-2026.pdf",
+      "sha256": "a414c950cfb10de12f12ae0505bf534f93bf92b506bc01abeb112e9109bda290",
+      "bytes": 10129339,
+      "paginas": 32,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 32,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°08 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°08-2026-1.pdf",
+      "sha256": "d2fe5e09c94ff8097428480d3311a575be3c8a1ebbc155322ba36b4e73199c90",
+      "bytes": 9514876,
+      "paginas": 28,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 28,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°07 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°07-2026-1.pdf",
+      "sha256": "1bb626058c6833f3384bb2e9ffefba3e76a2247d9c54e49b281f5f824d3a567f",
+      "bytes": 6316614,
+      "paginas": 19,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 19,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°06 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°06-2026.pdf",
+      "sha256": "698a99910e8f00b602df610a874fa760bab7bfa4ddbe13184f773d1c81511f52",
+      "bytes": 3696106,
+      "paginas": 11,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 11,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°05 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°05-2026.pdf",
+      "sha256": "b4bd3a0f15ca2606e22d5f8e15e36b0f09c32173b427c153d6901447a9959f85",
+      "bytes": 8254545,
+      "paginas": 36,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 36,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°04 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°04-2026.pdf",
+      "sha256": "daa3d7c728d00c758f2a196c6d95db0b84fa836a3a4659dd7f498df46203bafa",
+      "bytes": 9868305,
+      "paginas": 27,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 27,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°03 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°03-2026.pdf",
+      "sha256": "e465bce6fca24f8806bffebe42995baec857ca2d23bb9137f922b644fe2b039a",
+      "bytes": 7274967,
+      "paginas": 23,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 23,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°02 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°02-2026.pdf",
+      "sha256": "4f15a24d2f5c101de2d156d679ba855f63d308aa132949090a540bcf6e1a7771",
+      "bytes": 7325646,
+      "paginas": 23,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 23,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Ordinaria N°01 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/03/Acta-Reunion-Ordinaria-N°01-2026.pdf",
+      "sha256": "588927d9ca8c84371edb32da8f85b59e1b8ffc1294f70c1bf40bd405c5ed16b2",
+      "bytes": 8698924,
+      "paginas": 27,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 27,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°06 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Extraordinaria-N°06-2026.pdf",
+      "sha256": "6ff3045c8edf96cd20134fbf2fd38ea60fe6170bb3034bca12d71eeee12c2efc",
+      "bytes": 762890,
+      "paginas": 3,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 3,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°05 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/06/Acta-Reunion-Extraordinaria-N°05-2026.pdf",
+      "sha256": "e42b76b244b1fb0ec7cca4bee9d90cd7dc7c2198fd8e83a7303b20dedae08b8e",
+      "bytes": 462902,
+      "paginas": 2,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 2,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°04 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Extraordinaria-N°04-2026.pdf",
+      "sha256": "92259476385ba4efc52e437f725a8aef7c2c346f0ab40d0f1d8331b41879f26f",
+      "bytes": 394348,
+      "paginas": 2,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 2,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°03 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Extraordinaria-N°03-2026.pdf",
+      "sha256": "a7787bb4a666e502a3d9b73a1ec5fd5c2ae5c7e75c10d9e68f9eff22f1eb4ac5",
+      "bytes": 1687989,
+      "paginas": 7,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 7,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°02 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Extraordinaria-N°02-2026.pdf",
+      "sha256": "40cbdde2e563c9ac06454ff8912f55ac3eec1064fd52ec80b99f20bea8d62508",
+      "bytes": 2947807,
+      "paginas": 9,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 9,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    },
+    {
+      "titulo": "Acta Reunión Extraordinaria N°01 2026",
+      "url": "https://muniromeral.cl/romeral/wp-content/uploads/2026/04/Acta-Reunion-Extraordinaria-N°01-2026.pdf",
+      "sha256": "9b67af20ae05ee2d75f74fea03619995341743b7592ec070cc8c16c4890f9317",
+      "bytes": 837054,
+      "paginas": 3,
+      "paginas_con_texto": 0,
+      "paginas_con_ocr": 3,
+      "localizaciones": [],
+      "paginas_revisadas_visualmente": []
+    }
+  ]
+}

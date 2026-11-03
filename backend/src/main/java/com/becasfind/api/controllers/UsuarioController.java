@@ -67,7 +67,7 @@ public class UsuarioController {
     public ResponseEntity<ApiResponse<UsuarioDTO>> create(@Valid @RequestBody UsuarioRequest request) {
         UsuarioDTO usuario = usuarioService.create(request);
         return ResponseEntity.status(HttpStatus.CREATED)
-                .body(ApiResponse.success(usuario, "Usuario creado exitosamente"));
+                .body(ApiResponse.created(usuario, "Usuario creado exitosamente"));
     }
 
     @PutMapping("/{id}")

@@ -1,0 +1,11 @@
+# Confirmación esencial corregida: Programa de Apoyo Integral UAH — 15 de octubre de 2026
+
+**Candidata original:** `83840acd4c10e820a4db4a0f7c1fba524b7e382ea277f8c3784874536e8b447e`, registrada como “Beca Vocación Social UAH”. El registro original se conserva en `originales.jsonl` y no se usa como fuente de sus datos afirmados.
+
+La convocatoria institucional de la [Facultad de Economía y Negocios UAH para el PAI 2024](https://fen.uahurtado.cl/2023/noticias/convocatoria-estudiantes-de-pregrado-uah-unete-al-programa-de-apoyo-integral-2024/) identifica el programa, sus otorgantes y su población. La [convocatoria de la Facultad de Derecho](https://derecho.uahurtado.cl/convocatorias/convocatoria-programa-de-apoyo-integral-pai-2024/) detalla el beneficio y los requisitos. El Programa de Apoyo Integral fue realizado en colaboración con Fundación Mar Adentro, la Universidad Alberto Hurtado y el Centro Universitario Ignaciano.
+
+Para el ciclo 2024, ofrecía financiamiento parcial o total del arancel, asignaciones mensuales y apoyo para el proceso de titulación, además de acompañamiento y actividades de desarrollo integral, incluido voluntariado. Requería ser estudiante vigente de pregrado en la UAH, estar dentro del 35 % superior de la carrera/promoción, demostrar necesidad socioeconómica y no contar con gratuidad. El proceso publicado recibió postulaciones entre el 1 de agosto y el 1 de septiembre de 2023.
+
+Se corrige el alias histórico a la identidad oficial **Programa de Apoyo Integral (PAI) UAH — convocatoria 2024**. La descripción original parece haber convertido la “vocación social” mencionada en convocatorias del PAI en un nombre de beca y añadió condiciones que no aparecen en la convocatoria específica. El 30 % fijo, NEM 5,5 y la limitación a ciertas facultades quedan retirados. El monto individual y los documentos detallados no están publicados en las páginas consultadas y quedan como **No especificado**.
+
+**Estado:** `CONFIRMADA_ESENCIAL` para identidad, fuente oficial, beneficio y requisitos principales de la convocatoria 2024. La convocatoria no prueba vigencia ni apertura de postulaciones en 2026; fechas y documentos actuales quedan como desconocidos y el registro no se activa. La confirmación histórica se mantiene separada de la vigencia publicable.

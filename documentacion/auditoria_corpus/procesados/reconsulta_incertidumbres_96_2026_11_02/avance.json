@@ -1,0 +1,41 @@
+{
+  "fecha": "2026-11-02",
+  "cohorte_reabierta": 150,
+  "bloque_anterior_aplicado": 54,
+  "bloque_actual_aplicado": 96,
+  "notas_individuales_actualizadas": 150,
+  "dictamenes_precisados_acumulados": 42,
+  "dictamenes_inconclusos_cohorte": 108,
+  "dictamenes_precisados_esta_tanda": 9,
+  "inconclusas_esta_tanda": 87,
+  "consultas_actuales_limitadas": 8,
+  "ids_consultas_limitadas": [
+    68,
+    202,
+    218,
+    240,
+    248,
+    312,
+    357,
+    463
+  ],
+  "aplicadas_esta_tanda": 96,
+  "activaciones_esta_tanda": 0,
+  "eliminaciones": 0,
+  "originales_y_uuid_conservados": true,
+  "clasificaciones_cohorte_466": {
+    "CERRADA_CONFIRMADA": 93,
+    "REVISION_INCONCLUSA": 108,
+    "SIN_CALENDARIO_PUBLICADO": 154,
+    "CALENDARIO_POR_MODALIDAD": 104,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 7
+  },
+  "estados_publicos": {
+    "CERRADA": 132,
+    "ABIERTA": 11,
+    "FECHAS_POR_CONFIRMAR": 277,
+    "EN_REVISION": 108
+  },
+  "estado_tarea": "EN_CURSO_CON_INCONCLUSAS_DOCUMENTADAS",
+  "limite": "Las 150 fichas tienen notas de reconsulta; ocho consultas son limitadas y no equivalen a lectura de convocatoria actual. Quedan 108 dictámenes inconclusos y otros campos no publicados. No declarar resueltas todas las incertidumbres ni repetir SQL aplicado."
+}

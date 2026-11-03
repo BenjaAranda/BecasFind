@@ -13,9 +13,11 @@ RUN mvn clean package -DskipTests
 # --- Stage 2: Runtime image ---
 FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
+RUN groupadd --system becasfind && useradd --system --gid becasfind --no-create-home becasfind
 
 # Copy the compiled JAR file from the build stage into this clean runtime stage
 COPY --from=build /app/target/*.jar app.jar
+USER becasfind:becasfind
 
 # Expose the application port
 EXPOSE 8080

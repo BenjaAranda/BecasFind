@@ -102,4 +102,27 @@ class BecaSearchTest extends BaseTest {
         var page1 = post("/api/becas/buscar", userToken, Map.of("page",1,"size",2), Map.class);
         assertEquals(200, page1.getStatusCodeValue());
     }
+
+    @Test
+    void invalidSearchValuesReturnBadRequestOverHttp() {
+        for (Map<String, Object> invalid : List.<Map<String, Object>>of(
+                Map.of("rsh", 101), Map.of("nem", 7.1), Map.of("regionId", 0),
+                Map.of("size", 101), Map.of("query", "x".repeat(201)), Map.of("sort", "desconocido"))) {
+            assertEquals(400, post("/api/becas/buscar", userToken, invalid, Map.class).getStatusCode().value());
+        }
+        assertEquals(400, get("/api/becas/recomendadas?size=101", userToken, Map.class).getStatusCode().value());
+    }
+
+    @Test
+    void publicListingNeverContainsAnExpiredClosingDate() {
+        var response = get("/api/becas?size=100", null, Map.class);
+        assertEquals(200, response.getStatusCode().value());
+        var data = (Map<?, ?>) response.getBody().get("data");
+        var rows = (List<Map<String, Object>>) data.get("content");
+        assertFalse(rows.isEmpty());
+        var today = java.time.LocalDate.now(java.time.ZoneId.of("America/Santiago"));
+        for (var row : rows) {
+            assertFalse(java.time.LocalDate.parse((String) row.get("fechaCierrePostulacion")).isBefore(today));
+        }
+    }
 }

@@ -1,0 +1,306 @@
+[
+  {
+    "candidato": "2d84e8bcf07080e6c810804618bdfeb47b1b095061bbc4f08975dd02ce67e36b",
+    "campos": {
+      "monto": "Proceso 2026 para media y técnico profesional superior; importe desconocido",
+      "fecha_inicio": "2026-02-16",
+      "fecha_cierre": "2026-03-13",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.muniprimavera.cl/noticias/proceso-de-becas-municipales-de-primavera-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Recepción 16 febrero–13 marzo 2026 hasta 13:00. Media y técnico profesional superior; no afirmar elegibilidad de toda carrera universitaria. Bases enlazadas en Drive sin texto recuperado. Importe y documentos desconocidos. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.muniprimavera.cl/noticias/proceso-de-becas-municipales-de-primavera-2026/"
+    ]
+  },
+  {
+    "candidato": "405de1b7a1268f2f812809d7a752274d05115510e09efe3cb6e617a55d6ac11f",
+    "campos": {
+      "monto": "150000 CLP mensuales marzo–diciembre 2026",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "150000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "MENSUAL",
+      "fecha_inicio": "2026-03-01",
+      "fecha_cierre": "2026-03-20",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/03/10/44396/01/2779722.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Alumno regular o matrícula del año en curso; [OBLIGATORIO] Certificado de cinco años cursados en Escuela Comandante Luis Bravo Bravo; [OBLIGATORIO] Cartola RSH actualizada con domicilio familiar en Tortel; [OBLIGATORIO] Copia de cédula"
+    },
+    "limite": "Ordenanza Tortel 2026: 150000 CLP mensuales marzo–diciembre; postulación 1–20 marzo. RSH entre 40 y 90: el modelo de límite superior no representa todo el rango; conservarlo en texto. Cinco años de básica en escuela local y presencialidad fuera de comuna. Aprobación del 60% de ramos corresponde a renovación; no NEM. Documentos de cuenta admiten alternativa del apoderado. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Alumno regular o matrícula del año en curso; [OBLIGATORIO] Certificado de cinco años cursados en Escuela Comandante Luis Bravo Bravo; [OBLIGATORIO] Cartola RSH actualizada con domicilio familiar en Tortel; [OBLIGATORIO] Copia de cédula. Lista parcial; revisar condiciones y variantes en las bases.",
+    "fuentes": [
+      "https://www.diariooficial.interior.gob.cl/publicaciones/2026/03/10/44396/01/2779722.pdf"
+    ]
+  },
+  {
+    "candidato": "e9d19755434b511dcefa8b4292f6faac35007429f92ca5c271e4ba472b706e7e",
+    "campos": {
+      "monto": "Excelencia AquaChile 2026: 1000000 CLP anuales; equivalencia del alias pendiente",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://muniguaitecas.cl/2026/04/07/bases-beca-de-excelencia-y-ficha-de-postulacion-guaitecas-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Excelencia AquaChile–municipio 2026: 1000000 CLP anual; 6 abril–1 mayo. Relación con alias municipal genérico pendiente: no asignar importe o calendario universal. Bases PDF enlazadas pero descarga falla. No convertir menciones documentales generales en lista obligatoria. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://muniguaitecas.cl/2026/04/07/bases-beca-de-excelencia-y-ficha-de-postulacion-guaitecas-2026/"
+    ]
+  },
+  {
+    "candidato": "95d6f301382c2ab2fdc7f0acbd273a2c5409c87d9e6ecb45e20032c62bb94084",
+    "campos": {
+      "monto": "Beca superior 2026; importe desconocido",
+      "fecha_inicio": "2026-02-23",
+      "fecha_cierre": "2026-03-27",
+      "rsh_maximo": "60",
+      "cobertura_tipo": "DESCONOCIDA",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.galvarinochile.cl/web/beca-municipal-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Formulario de postulación; [OBLIGATORIO] Copia de cédula vigente; [OBLIGATORIO] Certificado de nacimiento para todo trámite; [OBLIGATORIO] Cartola RSH con antigüedad máxima de 30 días; [OBLIGATORIO] Certificado de notas según trayectoria; [OBLIGATORIO] Matrícula o alumno regular del año de postulación"
+    },
+    "limite": "Proceso 23 febrero–27 marzo 2026; RSH hasta 60. Cuarto medio 5.0 o promedio anual superior 4.5 no son NEM universal. Importe no indicado; 400000 CLP de procedimiento de invalidación 2024 no se reutiliza. Listado documental tiene condiciones según trayectoria. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Formulario de postulación; [OBLIGATORIO] Copia de cédula vigente; [OBLIGATORIO] Certificado de nacimiento para todo trámite; [OBLIGATORIO] Cartola RSH con antigüedad máxima de 30 días; [OBLIGATORIO] Certificado de notas según trayectoria; [OBLIGATORIO] Matrícula o alumno regular del año de postulación. Lista parcial; revisar condiciones y variantes en las bases.",
+    "fuentes": [
+      "https://www.galvarinochile.cl/web/beca-municipal-2026/"
+    ]
+  },
+  {
+    "candidato": "665003bcdc7d6cb1a2fb3ed995d116e16c0d1c8372dc8bf98d52a97c47d8e678",
+    "campos": {
+      "monto": "600000 CLP anuales en diez cuotas mensuales de 60000 para 2026",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "60000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "MENSUAL",
+      "rsh_maximo": "70",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://municipalidadquilleco.cl/municipalidad-de-quilleco-aprueba-nueva-ordenanza-de-beca-municipal-para-educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Ordenanza en vigor 2026: 600000 CLP anuales en diez cuotas de 60000; edad 18–28 y RSH hasta 70. Ventana recurrente 1–31 marzo sin convocatoria anual completa contrastada; fechas exactas permanecen desconocidas. Anuncio marzo 2026 añade atención presencial con reserva. PDF de ordenanza escaneado; lista documental completa pendiente. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://municipalidadquilleco.cl/municipalidad-de-quilleco-aprueba-nueva-ordenanza-de-beca-municipal-para-educacion-superior/",
+      "https://municipalidadquilleco.cl/informacion-importante-sobre-la-beca-municipal-de-educacion-superior-2026/"
+    ]
+  },
+  {
+    "candidato": "5d66d823e3a35dce6b83dce130430877cd2c6f5a8d0f51d877c1de76191e35b1",
+    "campos": {
+      "monto": "350000 CLP una vez al año en 2026",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "350000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "UNICA",
+      "fecha_inicio": "2026-08-12",
+      "fecha_cierre": "2026-08-31",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://municipalidaddepuyehue.cl/web/wp-content/uploads/2026/08/fffffDIPTICO_2026.pdf.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula vigente por ambos lados; [OBLIGATORIO] Formulario de identificación del grupo familiar; [OBLIGATORIO] Alumno regular actualizado agosto 2026; [OBLIGATORIO] Certificado de notas según trayectoria; [OBLIGATORIO] Declaración simple de otras becas; [OBLIGATORIO] Cotizaciones AFP o documento de no afiliación; [OBLIGATORIO] Acreditación de ingresos familiares según situación laboral"
+    },
+    "limite": "Díptico 2026: 350000 CLP una vez al año; 12–31 agosto. 365000 CLP es límite de ingresos; no monto de beca. Notas de cuarto medio o superior no se convierten en NEM. Sin umbral RSH publicado. Incompatible con Indígena; Presidente de la República y deportiva municipal. Documentos condicionales preservados fuera de lista común. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula vigente por ambos lados; [OBLIGATORIO] Formulario de identificación del grupo familiar; [OBLIGATORIO] Alumno regular actualizado agosto 2026; [OBLIGATORIO] Certificado de notas según trayectoria; [OBLIGATORIO] Declaración simple de otras becas; [OBLIGATORIO] Cotizaciones AFP o documento de no afiliación; [OBLIGATORIO] Acreditación de ingresos familiares según situación laboral. Lista parcial; revisar condiciones y variantes en las bases.",
+    "fuentes": [
+      "https://municipalidaddepuyehue.cl/web/wp-content/uploads/2026/08/fffffDIPTICO_2026.pdf.pdf",
+      "https://municipalidaddepuyehue.cl/postulacion-beca-heriberto-hott-2025/"
+    ]
+  },
+  {
+    "candidato": "4066f03ba36dbdcfa8eaa11ce9c0d64c03dd91f650eb6532267a02556628440c",
+    "campos": {
+      "monto": "Movilización superior mensual marzo–diciembre 2026; importe individual desconocido",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://municipalidadrenaico.cl/ochenta-estudiantes-de-educacion-superior-de-renaico-recibieron-beca-de-movilizacion-de-parte-del-municipio/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Entrega mayo 2026 confirma movilización superior y depósitos marzo–diciembre. Presupuesto de 26340000 CLP no es importe individual. Máximo de 32600 mensuales en requisitos 2024 no se extiende a 2026; monto individual actual y calendario pendientes. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://municipalidadrenaico.cl/ochenta-estudiantes-de-educacion-superior-de-renaico-recibieron-beca-de-movilizacion-de-parte-del-municipio/"
+    ]
+  },
+  {
+    "candidato": "7d7a697df80c332c341316e28812b94143342a4833e2eae45dd4823a36bb83e0",
+    "campos": {
+      "monto": "Apoyo superior municipal; importe 2026 desconocido",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://mportezuelo.cl/Inicio/direccion-de-desarrollo-comunitario/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Ficha municipal sin convocatoria anual concreta confirma apoyo superior y compatibilidades. Hogar Estudiantil Valle del Itata incompatible. Cuenta titulada 2026 describe gestión 2025. Importe y cierre 2026 sin confirmar; no copiar condiciones de becas estatales del mismo portal. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://mportezuelo.cl/Inicio/direccion-de-desarrollo-comunitario/"
+    ]
+  },
+  {
+    "candidato": "3e58349a5c478d40079a35bacf8244596d9d6f1d9108657cf8674573ec7ae4db",
+    "campos": {
+      "monto": "210000 CLP por estudiante en 2026; periodicidad no explicitada",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "210000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "fecha_inicio": "2026-02-16",
+      "fecha_cierre": "2026-04-17",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://chillanviejo.cl/noticia/se-abre-el-proceso-de-postulacion-para-la-beca-municipal-2026-en-chillan-viejo/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Fuente municipal indexada: 210000 CLP por cupo; 16 febrero–17 abril 2026. Periodicidad no explicitada. RSH actualizado sin umbral publicado. Recarga aislada falla; archivo municipal julio 2026 confirma importe individual. No copiar nóminas personales ni datos de la distinta comuna Chillán. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://chillanviejo.cl/noticia/se-abre-el-proceso-de-postulacion-para-la-beca-municipal-2026-en-chillan-viejo/",
+      "https://chillanviejo.cl/category/noticia/page/3/"
+    ]
+  },
+  {
+    "candidato": "b2be5fb5638a098b2d79ac9b8389cb7637c2d80967653353a7ce539024e79445",
+    "campos": {
+      "monto": "Proceso municipal 2026; importes por nivel sin confirmar",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.rioverde.cl/noticias/392-proceso-de-beca-municipalidad-de-rio-verde-2026-2",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Anuncios febrero y marzo 2026 remiten a afiches cuya descarga da timeout. Fecha de publicación no es fecha de postulación. Ficha sin año mezcla básica; media y superior con UTM distintas; no fijar monto único ni convertir a pesos. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.rioverde.cl/noticias/392-proceso-de-beca-municipalidad-de-rio-verde-2026-2",
+      "https://www.rioverde.cl/noticias/385-proceso-de-beca-municipalidad-de-rio-verde-2026"
+    ]
+  },
+  {
+    "candidato": "40044ec5fd96b31d08c362a29d66ec4fee46a73a644a0fed361d3b70383becfd",
+    "campos": {
+      "monto": "Excelencia y Pescadores Artesanales 2026; montos de cada modalidad pendientes",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.muniquemchi.cl/becas-municipales/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Portal distingue procesos 2026 de Excelencia y de Hijos de Pescadores Artesanales; incluye segundos llamados. El alias combina beneficios: no monto ni calendario únicos. Requisitos bajo sección 2024 no se trasladan a 2026. Bases actuales enlazadas en Drive requieren lectura completa. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.muniquemchi.cl/becas-municipales/"
+    ]
+  },
+  {
+    "candidato": "9665b7223c82df5ae960437894543746ad0410209a348f800b27e7f5739f700d",
+    "campos": {
+      "monto": "Reglamento 2026: Ingreso 150000 CLP; Mantención 170000; Excelencia 230000 anuales",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.munininhue.gob.cl/wp-content/uploads/2026/02/Reglamento-Beca-2026.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de Ninhue; [OBLIGATORIO] Matrícula o alumno regular 2026; [OBLIGATORIO] Notas según ingreso o continuidad"
+    },
+    "limite": "Reglamento con documentos 2026: Ingreso 150000 CLP; Mantención 170000; Excelencia 230000 anuales en dos cuotas. No importe universal. NEM 5.5 solo para ingreso; no umbral global. Artículos 10 y 43 mencionan marzo y marzo/agosto sin días exactos. Participación comunitaria y notas de institutos difieren entre artículos; preservar discrepancias. Dominio .cl bloqueado; .gob.cl permite lectura. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Cartola RSH de Ninhue; [OBLIGATORIO] Matrícula o alumno regular 2026; [OBLIGATORIO] Notas según ingreso o continuidad. Lista parcial; revisar condiciones y variantes en las bases.",
+    "fuentes": [
+      "https://www.munininhue.gob.cl/wp-content/uploads/2026/02/Reglamento-Beca-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "67525af331a8672c1804eacbb8fb49b4fc5582f0fede68652b43ef8f8a910db2",
+    "campos": {
+      "monto": "Aporte superior 2026; importe desconocido",
+      "fecha_cierre": "2026-05-11",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://municipalidadcollipulli.cl/becas-educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Aporte superior 2026: cierre 11 mayo confirmado por anuncio municipal. Residencia y carrera universitaria o técnica; importe no publicado. Reglamento PDF enlazado escaneado; lectura completa pendiente. Aporte deportivo cierra 25 mayo y es otro beneficio. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://municipalidadcollipulli.cl/becas-educacion-superior/",
+      "https://municipalidadcollipulli.cl/wp-content/uploads/2026/04/REGLAMENTO-APORTE-ECONOMICO-ESTUDIOS-SUPERIORES-2026-Tramitado-Ok.pdf"
+    ]
+  }
+]

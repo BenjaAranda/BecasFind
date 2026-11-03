@@ -6,7 +6,30 @@
 
 ---
 
+## Decisiones autorizadas el 30 de septiembre de 2026
+
+- Restaurar azul y blanco con estética institucional, tipografía sans-serif y controles sobrios. Mantener accesibilidad y navegación pública. Integrar Gmail SMTP gratuito para recuperación mediante spring-boot-starter-mail (versión administrada por Spring Boot); secretos externos. Ejecutar estas correcciones secuencialmente; no iniciar despliegue.
+
+- Acceso gratuito y sin sesión al buscador/detalle. Sesión solo para perfil/favoritos/recomendaciones guardadas y administración. No contratar planes ni comprar dominios sin autorización.
+
+- P06–P11 pueden ejecutarse secuencialmente por la petición «termina todas las tareas hasta antes del inicio del despliegue». P12–P14 no están autorizadas en esta entrega.
+- P01–P05 pueden ejecutarse secuencialmente en esta entrega por petición explícita del usuario.
+- Las becas usan UUID públicos en búsqueda, detalle y favoritos. Los IDs numéricos se reservan para administración y catálogos de selección.
+- La política «Cero Vacíos» queda reemplazada: no inferir requisitos, documentos ni fechas. Conservar desconocidos; excluir de la búsqueda vigente las becas sin cierre confirmado. No convertir fechas históricas en confirmadas por su apariencia.
+
+Actualización del 1 de octubre de 2026 por la petición de incorporar `03_procesados`: conservar originales y añadir candidatos como archivo administrativo inactivo. CSV admite `estado_activa=false` y `solo_crear=true`; este último omite existentes sin sobrescribirlos. Una URL desconocida puede quedar vacía únicamente en un registro explícitamente inactivo; cualquier URL presente debe cumplir la política de enlace específico. La incorporación histórica no certifica datos ni autoriza publicarlos sin revisión oficial.
+
+Actualización autorizada el 2 de octubre de 2026: el usuario pide confirmar lo esencial y reducir el coste de revisión. P04 admite `CONFIRMADA_ESENCIAL` cuando se verifican identidad, fuente oficial específica, beneficio y requisitos principales. No exige reconstruir documentos, calendario anual ni leer reglamentos completos cuando la ficha oficial basta para ese alcance. Guardar desconocidos y límites explícitos; las contradicciones que afectan identidad, cobertura o elegibilidad impiden confirmar ese campo. Este estado cierra la revisión esencial, no equivale a la confirmación exhaustiva anterior ni autoriza activar una beca sin cierre confirmado. Conservar las dos confirmaciones completas y distinguir ambos conteos; no inventar información ni certificar por HTTP.
+
+Actualización autorizada por la corrección del usuario del 6 de octubre de 2026: dejar sin efecto el cierre editorial masivo del commit 91e8c48. Reiniciar la revisión de las 568 candidatas aprovechando sus datos, enlaces oficiales e informes existentes. Trabajar en lotes de 50 o más para comprobar identidad, fuente específica, beneficio y requisitos principales; corregir únicamente datos contradichos por la fuente. Calendario y documentos desconocidos no bloquean la confirmación esencial. No descartar por enlace inaccesible, búsqueda sin resultados, antigüedad o falta de datos; conservar aclaraciones pendientes sin forzar el cierre del lote. Las decisiones anteriores son antecedentes que comprobar, no sustituyen la fuente. Resolver variantes distinguiendo programas, modalidades y años. Duplicidad o fuera de alcance requieren evidencia positiva individual; no eliminan originales. Confirmación esencial y vigencia publicable son controles separados. Esta decisión sustituye la regla anterior que exigía no dejar pendientes dentro del lote. No iniciar despliegue.
+
+Actualización autorizada el 13 de octubre de 2026: continuar las 132 candidatas pendientes hasta cerrar su revisión. Cuando una fuente oficial específica confirme la identidad y la existencia del programa, registrar y corregir los campos que publica. Investigar los datos restantes en fuentes oficiales; si el expediente oficial consultado no publica un campo, dejarlo como «No especificado» y cerrar la confirmación esencial de la beca, delimitando año y alcance. La ausencia en una búsqueda no demuestra que el dato no exista ni que la beca sea falsa. Descartar duplicados solo con evidencia positiva de que dos candidatas son la misma modalidad/convocatoria; descartar becas falsas solo con evidencia oficial positiva que contradiga su existencia. Preservar siempre los originales y sus trazas. Mantener separada la confirmación histórica de la vigencia y publicación actual.
+
+Actualización autorizada el 24 de octubre de 2026: cerrar en esta revisión todas las candidatas pendientes. Si la evidencia pública oficial identifica el programa, beneficio y requisitos principales, confirmar lo esencial y dejar como «No especificado» los campos no publicados. Si tras revisar el expediente y las fuentes públicas oficiales disponibles falta evidencia sustancial para identificar y sustentar la beca, excluirla editorialmente del catálogo confirmable por insuficiencia de evidencia. Este descarte no afirma que el programa sea falso o nunca haya existido. Preservar los registros originales, informes y enlaces; no activar ni publicar como vigente una beca excluida o sin cierre confirmado. Esta regla sustituye para esta cohorte la instrucción previa de mantener abiertas las candidatas no verificadas.
+
 ## 1. Estructura del Monorepo
+
+Actualización autorizada el 24 de octubre de 2026: el usuario autoriza comenzar el despliegue y ejecutar P12 con las becas confirmadas esenciales y completas. Esta autorización sustituye el límite previo de no iniciar despliegue para P12; P13/P14 conservan su secuencia y autorización por fase. No autoriza compras ni planes de pago. La confirmación editorial no sustituye la comprobación de vigencia y cierre oficial antes de publicar una beca. El proveedor previsto sigue sujeto a disponibilidad y acceso del usuario; no crear recursos mientras se aclara su elección de alojamiento.
 
 ```
 BecasFind/
@@ -54,10 +77,12 @@ BecasFind/
 | Frontend | React + Vite | 19.2.5 |
 | CSS | Tailwind CSS + @tailwindcss/vite | 4.3.0 |
 | Librerías Front | React Router DOM v7, Axios, lucide-react, jwt-decode | — |
-| Base de Datos | MySQL | 8.0 |
-| Servidor | Render (Cloud Platform) | — |
-| Proxy Web | Nginx / Render | — |
-| Despliegue | Render + Dockerfile | — |
+| Base de Datos | PostgreSQL | 17 |
+| Servidor | Oracle Cloud Always Free (opción acordada) | — |
+| Proxy Web | Nginx | — |
+| Despliegue | Vercel (frontend) + Oracle y Dockerfile (backend) | — |
+
+Actualización autorizada el 29 de septiembre de 2026: conservar PostgreSQL y preparar Vercel + Oracle. Desarrollo local: activar explícitamente el perfil `dev`. Producción: perfil `prod`, secretos externos, esquema instalado previamente, `ddl-auto: validate` y sin carga automática de datos. Las verificaciones de encoding deben usar `encode(convert_to(nombre, 'UTF8'), 'hex')` en PostgreSQL; los ejemplos históricos MySQL con `HEX`, `UNHEX` y `RLIKE` no deben ejecutarse en este motor.
 
 ---
 
@@ -252,6 +277,8 @@ El backend traduce a Sort.by() y lo incluye en PageRequest
 Default: fechaCierrePostulacion ASC (más próximas a vencer primero)
 ```
 
+Actualización autorizada el 30 de septiembre de 2026 para completar FASES 1/2/5 en esta petición: conservar `montoCobertura` como texto original y añadir `cobertura` estructurada. Tipos: MONETARIA, PORCENTUAL, NO_MONETARIA, DESCONOCIDA. Importe NUMERIC(18,2), moneda ISO 4217 y periodicidad UNICA/MENSUAL/SEMESTRAL/ANUAL/DESCONOCIDA cuando sean conocidos; porcentaje NUMERIC(5,2) entre 0 y 100. No inferir importes ni convertir porcentajes a dinero. Los órdenes monetarios agrupan primero por moneda y periodicidad; comparan importe numérico dentro del grupo, dejan importes desconocidos al final y desempatan por ID. No implican equivalencia entre grupos. Respuestas JSON representan decimales como cadenas para conservar precisión. La precisión NEM no cambia. Esta autorización de varias fases se limita a esta petición; el protocolo general sigue vigente.
+
 ### BR-RECOMENDACION (Auto-Match por Perfil)
 ```
 GET /api/becas/recomendadas → carga PerfilEstudiante del usuario autenticado
@@ -288,7 +315,9 @@ test: add unit tests for BecaService
 chore: update Maven dependencies
 ```
 
-**Formato**: `<type>: <descripción en inglés, imperativo, minúscula>`
+**Formato**: `<type>: <descripción en español, imperativo, minúscula>`
+
+Actualización autorizada el 2 de octubre de 2026: escribir los mensajes de los nuevos commits en español. Conservar los prefijos Conventional Commits (`feat`, `fix`, `docs`, etc.).
 
 ---
 
@@ -318,7 +347,7 @@ Antes de dar por completada CUALQUIER fase, el agente debe:
 - **Doble Descripción**: Cada beca debe mapear dos columnas:
   - `descripcion` (corta): Resumen directo de máximo 2 líneas (qué financia y a quién va dirigida).
   - `descripcion_larga`: Texto exhaustivo con renovaciones, exclusiones, documentos requeridos típicos y proceso interno.
-- **Cero Vacíos**: Deducir requisitos de RSH, NEM o PAES usando conocimiento del sistema educativo chileno. Si la fecha de cierre es ambigua, usar por defecto `2026-12-31` para visibilidad continua.
+- **Cero Vacíos**: Conservar RSH, NEM, PAES, documentos y fechas desconocidos cuando no exista evidencia oficial. No usar fechas de cierre por defecto; una beca sin cierre confirmado queda fuera de los resultados vigentes.
 - **CSV sin comas en texto**: Los campos `descripcion` y `descripcion_larga` NO deben contener comas (`,`). Usar punto (`.`) o punto y coma (`;`) como separadores internos. Los campos que requieran comas deben ir entrecomillados (`"`).
 - **Política de URLs Profundas (Deep Linking)**: Queda estrictamente prohibido usar dominios raíz (ej. `www.universidad.cl/`). Toda beca debe apuntar a la subpágina pública específica donde se detallan sus requisitos (portal de Admisión, DAE, o Asuntos Estudiantiles). Si el sistema web dificulta encontrarla, usar `site:universidad.cl "becas"` en Google.
 - **Documentación Requerida Obligatoria**: Toda beca debe incluir en su `descripcion_larga` una sección `DOCUMENTOS REQUERIDOS:` con cada ítem precedido por `[OBLIGATORIO]` o `[OPCIONAL]`. El frontend parsea automáticamente estos marcadores y los muestra en una sección visual separada con indicadores de color (rojo = obligatorio, ámbar = opcional).
@@ -461,3 +490,11 @@ Antes de dar por finalizada cualquier tarea que involucre texto en español, ver
 ---
 
 **Fin del Contrato Arquitectónico. Toda sesión de IA debe comenzar leyendo este archivo.**
+
+## Contexto operativo para retomar
+
+Actualización autorizada el 29 de octubre de 2026 por «continua hasta terminar de confirmar o concluye que son inconclusas»: cerrar la tanda final de 19 con dictámenes individuales INCONCLUSA cuando la evidencia revisada no permita acreditar el campo investigado. Conservar los registros, las incógnitas y los fundamentos; no excluir ni activar por este resultado. Cero casos sin dictamen no significa cero datos desconocidos. Esta resolución no cierra la auditoría general de 466 ni inicia P13/P14.
+
+Actualización autorizada el 28 de octubre de 2026: mostrar por defecto el catálogo público de las 528 fichas editorialmente confirmadas, incluidas las que no tienen calendario acreditado. Separar visibilidad de estado_activa y conservar BR-VIGENCIA para el filtro de postulaciones abiertas y recomendaciones. Mostrar «Fechas por confirmar» cuando falta calendario e «Información en revisión» cuando la auditoría sigue inconclusa. No descartar por ausencia de fechas ni inventarlas; preservar UUID y originales. Esta autorización no inicia P13/P14 ni certifica vigencia por probabilidad.
+
+Después de este contrato, leer `tasks/contexto.md` y `PLAN_MEJORAS.md`. Los conteos editoriales vigentes se reconstruyen desde `documentacion/auditoria_corpus/procesados/avance/resumen.json` y `pendientes_esenciales_actuales.csv`; los planes archivados contienen cifras históricas. Consultar solo los informes pertinentes a las candidatas en curso.

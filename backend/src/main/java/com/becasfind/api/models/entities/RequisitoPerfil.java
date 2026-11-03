@@ -21,7 +21,9 @@ import java.math.BigDecimal;
 public class RequisitoPerfil {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "requisitos_perfil_id_requisito_seq")
+    @jakarta.persistence.SequenceGenerator(name = "requisitos_perfil_id_requisito_seq", sequenceName = "requisitos_perfil_id_requisito_seq", allocationSize = 1)
+    @org.hibernate.annotations.ColumnDefault("NEXT VALUE FOR requisitos_perfil_id_requisito_seq")
     @Column(name = "id_requisito")
     private Long idRequisito;
 

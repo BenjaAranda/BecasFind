@@ -1,0 +1,152 @@
+[
+  {
+    "candidato": "85508df152226f5c39238b0ab17a19c2df41dab5bab96d13354c047581b0d613",
+    "nombre": "Premio Puntaje Maximo PAES",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "50; 75 o 100 % de arancel y matrícula según puntaje ponderado; duración nominal",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. PAES máximo; selección 2026 y renovación académica. Revisar tabla y condiciones. Cierre y documentos completos no confirmados."
+  },
+  {
+    "candidato": "a2dc0a9c95fbc43d84d981777e36027c8f7f466db01e2118f6d5a97e31d6dcc9",
+    "nombre": "Premio a la Excelencia Primer Ano",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "50; 75 o 100 % de arancel del primer año según puntaje; excluye matrícula",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. Ingreso 2026; egreso 2024/2025; sin matrícula USM regular en 2025. Cierre y documentos completos no confirmados."
+  },
+  {
+    "candidato": "b483efa25dc0e7e60fa0ab18d54295bc33e11a51478b4db0106dffecc487bb74",
+    "nombre": "Beca Propedéutico Ex Umbra in Solem",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "100 % de arancel y matrícula durante los dos primeros años; sin extensión",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. Ingreso mediante Propedéutico; primera preferencia USM. Cierre y documentos completos no confirmados."
+  },
+  {
+    "candidato": "09d21a3ca74f166c00b3b1642f8855e144b2ecaf731de79889df42d1cb9ec149",
+    "nombre": "Beca Deportista Destacado USM",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "100 % de arancel solo durante el primer año; sin extensión",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. Mayor puntaje de la vía deportiva respectiva; egreso del año en curso o anterior. Cierre y documentos completos no confirmados."
+  },
+  {
+    "candidato": "342a0694ec0aaa174acbe0685e25dbe5ccf3f070537cb5f0ed1fdcdaa9796705",
+    "nombre": "Beca Deportista en Formación Elite",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "Hasta 50 % del arancel anual durante la duración nominal",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. Mayor puntaje de la vía deportiva respectiva; egreso del año en curso o anterior. Cierre y documentos completos no confirmados."
+  },
+  {
+    "candidato": "70b5d9a68ae20d45e593e6d44d1c5b349bbefaf592798944509eb5d906bda746",
+    "nombre": "Beca Deportista Elite USM",
+    "institucion": "Universidad Técnica Federico Santa Maria",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://website.usm.cl/admision/becas/"
+    ],
+    "campos": {
+      "monto": "100 % de arancel y matrícula durante la duración nominal",
+      "url": "https://website.usm.cl/admision/becas/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "cobertura_porcentaje": "100.00",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": ""
+    },
+    "limite": "Revisión parcial de ficha de admisión 2026. Mayor puntaje de la vía deportiva respectiva; egreso del año en curso o anterior. Cierre y documentos completos no confirmados."
+  }
+]

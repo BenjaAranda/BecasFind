@@ -12,12 +12,11 @@ import org.springframework.core.annotation.Order;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.time.LocalDateTime;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 @Component
 @Order(1)
-@Profile("!test")
+@Profile("dev & !prod & !test")
 public class DatabaseSeeder implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(DatabaseSeeder.class);
@@ -25,13 +24,15 @@ public class DatabaseSeeder implements CommandLineRunner {
     private final UsuarioRepository usuarioRepository;
     private final RolRepository rolRepository;
     private final PasswordEncoder passwordEncoder;
+    private final JdbcTemplate jdbcTemplate;
 
     public DatabaseSeeder(UsuarioRepository usuarioRepository,
                           RolRepository rolRepository,
-                          PasswordEncoder passwordEncoder) {
+                          PasswordEncoder passwordEncoder, JdbcTemplate jdbcTemplate) {
         this.usuarioRepository = usuarioRepository;
         this.rolRepository = rolRepository;
         this.passwordEncoder = passwordEncoder;
+        this.jdbcTemplate = jdbcTemplate;
     }
 
     @Override
@@ -42,17 +43,15 @@ public class DatabaseSeeder implements CommandLineRunner {
     }
 
     private void seedAdminUser() {
+        if (accountExists("admin@becasfind.cl")) {
+            return;
+        }
         Rol rolAdmin = rolRepository.findByNombreRol("ADMIN")
                 .orElseThrow(() -> new IllegalStateException("Rol ADMIN no encontrado en la base de datos"));
 
         Usuario admin = usuarioRepository.findByEmail("admin@becasfind.cl").orElse(null);
 
-        if (admin != null) {
-            admin.setPasswordHash(passwordEncoder.encode("admin123"));
-            admin.setActivo(true);
-            usuarioRepository.save(admin);
-            log.info("Usuario admin existente actualizado con nuevo hash BCrypt: admin@becasfind.cl");
-        } else {
+        if (admin == null) {
             admin = new Usuario();
             admin.setEmail("admin@becasfind.cl");
             admin.setPasswordHash(passwordEncoder.encode("admin123"));
@@ -65,25 +64,29 @@ public class DatabaseSeeder implements CommandLineRunner {
     }
 
     private void seedStudentUser() {
+        if (accountExists("estudiante@duoc.cl")) {
+            return;
+        }
         Rol rolStudent = rolRepository.findByNombreRol("STUDENT")
                 .orElseThrow(() -> new IllegalStateException("Rol STUDENT no encontrado en la base de datos"));
 
         Usuario estudiante = usuarioRepository.findByEmail("estudiante@duoc.cl").orElse(null);
 
-        if (estudiante != null) {
-            estudiante.setPasswordHash(passwordEncoder.encode("admin123"));
-            estudiante.setActivo(true);
-            usuarioRepository.save(estudiante);
-            log.info("Usuario estudiante existente actualizado con nuevo hash BCrypt: estudiante@duoc.cl");
-        } else {
+        if (estudiante == null) {
             estudiante = new Usuario();
             estudiante.setEmail("estudiante@duoc.cl");
             estudiante.setPasswordHash(passwordEncoder.encode("admin123"));
-            estudiante.setNombreCompleto("Maria Gonzalez");
+            estudiante.setNombreCompleto("María González");
             estudiante.setRol(rolStudent);
             estudiante.setActivo(true);
             usuarioRepository.save(estudiante);
             log.info("Usuario estudiante creado exitosamente: estudiante@duoc.cl");
         }
+    }
+
+    private boolean accountExists(String email) {
+        // Incluye usuarios desactivados, que @Where oculta en las consultas JPA.
+        return jdbcTemplate.queryForObject("SELECT count(*) FROM usuarios WHERE email = ?",
+                Integer.class, email) > 0;
     }
 }

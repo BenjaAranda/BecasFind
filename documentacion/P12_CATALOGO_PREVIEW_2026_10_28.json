@@ -1,0 +1,56 @@
+{
+  "verificado_utc": "2026-10-28T22:16:11.926488+00:00",
+  "origen": "https://becasfind-pf8timp72-benjatlou13-1274.vercel.app",
+  "catalogo": 528,
+  "uuid_conservados": true,
+  "estados": {
+    "CERRADA": 58,
+    "ABIERTA": 7,
+    "EN_REVISION": 199,
+    "FECHAS_POR_CONFIRMAR": 264
+  },
+  "postulaciones_abiertas": 7,
+  "filtro_funcionarios": 2,
+  "instituciones_en_selector": 323,
+  "selector_incluye_todo_el_catalogo": true,
+  "preflight_y_cors": "APROBADOS",
+  "detalles_por_estado": "APROBADOS",
+  "sin_sesion": true,
+  "sin_escrituras": true,
+  "deployment": "dpl_KKgnTWnBCmLRnF2XM4pGeoucyFUj",
+  "entorno": "staging",
+  "frontend_commit": "719646b8eb328b5a242c1b03889ebab7a33a7ab1",
+  "backend_commit": "37ae1a1dd2fd320aa4762647c2d09531799f0d0e",
+  "backend_imagen": "sha256:42b709b3a845a5d65b40e11aa663cda9b4a1c1b288f7ba8c982dd8595a3f2202",
+  "respaldo_previo": "pre-catalogo-20261028T221514Z-3a2dfdc9.dump",
+  "restauracion_14_tablas": true,
+  "datos_antes_despues_identicos": true,
+  "filas_sha256": "64c2764273df27a646013765abcb0d3b19f6a6a638db79aea2bffac22b75554b3",
+  "navegador": {
+    "sin_sesion": true,
+    "catalogo_528": true,
+    "funcionarios_catalogo": 2,
+    "funcionarios_abiertas": 1,
+    "detalle_sin_fechas": true,
+    "reintento_tras_reinicio": true,
+    "selector_instituciones": 323,
+    "captura": "tmp/catalogo-preview-2026-10-28.jpg"
+  },
+  "limites": [
+    "Preview conserva protección Vercel; no se promovió producción.",
+    "FRONTEND_URL de recuperación y orígenes anteriores conservados.",
+    "No hubo importación, activación masiva ni cambio de datos.",
+    "La auditoría documental mantiene 199 inconclusas; visibilidad no certifica recepción actual."
+  ],
+  "calidad_github": {
+    "commit": "37ae1a1dd2fd320aa4762647c2d09531799f0d0e",
+    "run_id": 40778376684,
+    "estado": "success",
+    "url": "https://github.com/BenjaAranda/BecasFind/actions/runs/40778376684"
+  },
+  "transicion_simulada": {
+    "pruebas": 6,
+    "resultado": "APROBADAS",
+    "incluye": "Cambio de imagen por digest; conservación de configuración; reversión ante fallo de arranque o CORS."
+  }
+}

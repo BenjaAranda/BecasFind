@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-10-01",
+  "resultado": {
+    "creadas": 0,
+    "actualizadas": 13,
+    "omitidas": 0,
+    "errores": 0,
+    "mensajesError": []
+  },
+  "total_becas": 573,
+  "registros_preservados": 560,
+  "registros_restantes_preservados": true,
+  "activadas": 0,
+  "busqueda_publica_preservada": true,
+  "catalogo_publico_preservado": true,
+  "respaldo_restaurado": true,
+  "encoding_post_importacion_verificado": true,
+  "fechas_y_rsh_contrastados": true,
+  "nem_desconocido": true,
+  "archivo_sha256": "a8cb500b9b811d24e6075eaa108c40b31ecc652e69200e8d11fd071fc2b2afbd",
+  "respaldo_sha256": "a86f52b4fe75834afc3c22fbc9465a0dcfc767b3ebc42dc23e7cb52ab35afbb1",
+  "documentos_parciales_verificados": 7,
+  "documentos_desconocidos_preservados": 6,
+  "originales_sha256_verificados": 93
+}

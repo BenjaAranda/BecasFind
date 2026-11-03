@@ -1,0 +1,62 @@
+[
+  {
+    "candidato": "77e791153f86a28a6e03f161d07e5a56385189d69ee93da6b4247b1f4d674b4d",
+    "alcance": "Beca de Pasajes de Lota: identidad y requisitos de la ficha municipal de julio de 2023; continuidad del apoyo al transporte acreditada en 2025. Confirmación documental histórica del programa, sin certificar la convocatoria 2026.",
+    "fuentes": [
+      "https://www.lotatransparente.cl/index.php?a=2023&action=plantillas_generar_plantilla&ia=71453&ig=115&m=7",
+      "https://lota.cl/juntos-fortalecemos-lota-colcura-y-chivilingo/"
+    ],
+    "beneficio": "Ayuda municipal para gastos de transporte de estudiantes que ingresan o cursan educación superior. La noticia de 2025 acredita financiación municipal; importe individual desconocido en las fuentes incorporadas, sin dividir presupuesto por beneficiarios.",
+    "requisitos_principales": "Ficha histórica 2023: residencia en Lota acreditada por RSH y certificado vecinal; alumno regular de educación superior; RSH hasta 40%; promedio de cuarto medio 5,5 para ingreso y promedio del año anterior 5,0 para cursos superiores.",
+    "limites": "Se corrige la descripción genérica hacia la finalidad de pasajes identificada por DIDECO. No se trasladan los requisitos de 2023 a 2025/2026. La fecha de actualización del portal en 2026 no cambia el año de la fila. No se confirma libre disposición ni RSH 60%. Cierre actual, documentos actuales e importe individual quedan desconocidos; no activar.",
+    "correcciones": {
+      "nombre_oficial": "Beca de Pasajes",
+      "finalidad": "Transporte para educación superior",
+      "rsh_maximo_historico_2023": 40,
+      "notas_historicas_2023": "5,5 ingreso; 5,0 cursos superiores",
+      "monto": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "revisado": "2026-10-12",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  },
+  {
+    "candidato": "5b2d79384e9951cbd6186815af578ecd7cc208c75becb98098212fa496dedfeb",
+    "alcance": "Becas Municipales de Educación Superior de Los Vilos; convocatoria y entrega municipales de 2025. Confirmación esencial histórica; distingue educación superior, incentivo, residencia, deporte y movilización.",
+    "fuentes": [
+      "https://www.munilosvilos.cl/?p=58415",
+      "https://www.munilosvilos.cl/?p=59156"
+    ],
+    "beneficio": "Apoyo económico municipal a estudiantes de educación superior. La entrega 2025 identifica esta línea separadamente de residencias, deporte, incentivos y movilización CEDUC. No se deduce un importe individual del presupuesto conjunto ni se asigna un monto de otra modalidad.",
+    "requisitos_principales": "Convocatoria 2025: residencia y RSH en Los Vilos; matrícula en universidad, IP o CFT reconocido por el Estado; promedio 5,0 para egresados de enseñanza media y 4,0 para estudiantes superiores; vulnerabilidad socioeconómica acreditada. Duración financiada no superior a la duración formal más un semestre, previa evaluación social.",
+    "limites": "El tipo de ayuda, identidad, fuente específica y destinatarios están acreditados; importe exacto no es condición adicional de la revisión esencial. La ficha no impone RSH máximo 60% ni promedio 5,0 indistinto para todos. Los requisitos y el plazo publicados corresponden a 2025, no a 2026. No se confirma libre disposición ni renovación automática. Cierre vigente desconocido; no activar.",
+    "correcciones": {
+      "rsh_maximo": null,
+      "notas_historicas_2025": "5,0 ingreso; 4,0 cursos superiores",
+      "monto": null,
+      "fecha_inicio": null,
+      "fecha_cierre": null
+    },
+    "revisado": "2026-10-12",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fecha_inicio": null,
+    "fecha_cierre": null,
+    "documentos": null,
+    "verificaciones": {
+      "identidad": true,
+      "fuente_oficial": true,
+      "cobertura": true,
+      "requisitos_principales": true
+    }
+  }
+]

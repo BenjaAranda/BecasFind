@@ -1,0 +1,12 @@
+[Unit]
+Description=Cierre BUCH 30 octubre 2026 a las 12 America/Santiago
+
+[Timer]
+OnCalendar=2026-10-30 12:00:00 America/Santiago
+OnBootSec=90s
+AccuracySec=1s
+Persistent=true
+Unit=becasfind-buch-cierre.service
+
+[Install]
+WantedBy=timers.target

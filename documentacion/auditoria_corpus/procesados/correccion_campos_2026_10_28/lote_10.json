@@ -1,0 +1,1024 @@
+[
+  {
+    "id_beca": 1,
+    "public_id": "fc65e10e-f9ad-4698-a261-1d03b1212a14",
+    "nombre": "Beca Municipal de Enseñanza Superior",
+    "institucion": "Municipalidad de Papudo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo municipal para estudiantes de educación superior. La cuenta pública 2017 registra 44 beneficiarios; no detalla importe individual ni modalidad de pago para esta categoría.",
+    "beneficio_corregido": "Apoyo municipal para estudiantes de educación superior. La cuenta pública 2017 registra 44 beneficiarios; no detalla importe individual ni modalidad de pago para esta categoría.",
+    "informe": "CONFIRMACION_ESENCIAL_PAPUDO_2017_2026_10_12.md",
+    "fuentes": [
+      "https://www.municipalidadpapudo.cl/Archivos/cuenta_publica/cuenta_publica_2017.pdf",
+      "https://www.municipalidadpapudo.cl/portal/planes/plan_de_salud_2015.pdf"
+    ],
+    "alcance": "Identidad y existencia histórica de la Beca Municipal de Enseñanza Superior de Papudo en instrumentos de 2015 y 2017; no confirma condiciones ni convocatoria actual.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 14,
+    "public_id": "66adbcf6-f39b-4356-b404-21c6579f2bf3",
+    "nombre": "Programa Beca Municipal de Enseñanza Superior",
+    "institucion": "Municipalidad de Cunco",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "$100.000 CLP en un pago único a Cuenta RUT.",
+    "beneficio_corregido": "Cunco 2026: aporte directo para gastos educativos con rendición; importe y periodicidad no publicados. No corresponde al pago de $100.000 de Villa Alegre.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_64.md",
+    "fuentes": [
+      "https://www.municunco.cl/comunitarias/beca-municipal-educacion-superior-2026/",
+      "https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf"
+    ],
+    "alcance": "Cunco 2026; folleto completo de dos páginas leído el 29/10/2026. Rectifica condiciones de Villa Alegre.",
+    "decision": "Corregir atribución cruzada con fuente propia de Cunco.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA",
+    "fuentes_anteriores": [
+      "https://villalegre.cl/beca-municipal-educacion-superior-2026/"
+    ]
+  },
+  {
+    "id_beca": 23,
+    "public_id": "69d26871-62e4-435a-a231-35e4d0474262",
+    "nombre": "Beca de Educación Superior Maria Elena",
+    "institucion": "Municipalidad de Maria Elena",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal para educación superior; modalidad de pago y cobertura desconocidas.",
+    "beneficio_corregido": "Beca municipal para educación superior; modalidad de pago y cobertura desconocidas.",
+    "informe": "CONFIRMACION_ESENCIAL_MARIA_ELENA_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://transparencia.imme.cl/transparencia/datos/111/116/1698/15193_departamento-de-secretaria-municipal.pdf",
+      "https://transparencia.imme.cl/archivo_11078.php"
+    ],
+    "alcance": "Línea municipal histórica “Beca municipal, enseñanza superior 2015”; la fuente de trámites institucional enumera requisitos de la Beca Enseñanza Superior, sin fecharlos como convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 28,
+    "public_id": "245e6918-ab24-47e1-b9b3-589f068d919e",
+    "nombre": "Beca Municipal de Educación Superior Copiapo",
+    "institucion": "Municipalidad de Copiapo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Movilidad",
+    "beneficio_anterior": "Apoyo para jóvenes de Copiapó con mérito académico y recursos insuficientes que estudian Medicina u Odontología en Argentina (Carmen Vilches). Monto y periodicidad no publicados en la fuente de 2026.",
+    "beneficio_corregido": "Apoyo para jóvenes de Copiapó con mérito académico y recursos insuficientes que estudian Medicina u Odontología en Argentina (Carmen Vilches). Monto y periodicidad no publicados en la fuente de 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_CARMEN_VILCHES_COPIAPO_2026_10_14.md",
+    "fuentes": [
+      "https://copiapo.cl/index.php/2026/02/18/municipio-de-copiapo-se-reune-con-becados-de-medicina-y-proyecta-nuevas-alianzas-academicas-en-la-rioja/"
+    ],
+    "alcance": "Identidad, beneficiarios y beneficio esencial de la Beca Municipal Carmen Vilches según publicación municipal de 2026; no confirma convocatoria abierta.",
+    "decision": "Estudios internacionales de grado; movilidad no equivale a intercambio semestral.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 37,
+    "public_id": "e549c7af-aa24-4d4e-b4db-420943a15850",
+    "nombre": "Becas de estudio del convenio Instituto Profesional Diego Portales–Municipalidad de Hualpén (2022)",
+    "institucion": "Municipalidad de Hualpén e Instituto Profesional Diego Portales",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "20 becas de estudio para facilitar el acceso a educación superior. Monto individual, porcentaje, cobertura específica y forma de pago: No especificado.",
+    "beneficio_corregido": "20 becas de estudio para facilitar el acceso a educación superior. Monto individual, porcentaje, cobertura específica y forma de pago: No especificado.",
+    "informe": "CONFIRMACION_ESENCIAL_BECAS_HUALPEN_IPDP_2022.md",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2023/04/Cuenta-Publica-de-la-Gestion-del-ano-2022-Alcalde-y-marcha-Municipalidad-de-Hualpen-Reducido_compressed.pdf"
+    ],
+    "alcance": "Convenio histórico de becas municipal con el Instituto Profesional Diego Portales, según Cuenta Pública 2022; no certifica convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 52,
+    "public_id": "d717e436-d0e3-4c58-92d8-bb338f3b0222",
+    "nombre": "Beca Municipal de Educación Superior Colina",
+    "institucion": "Municipalidad de Colina",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "beneficio_corregido": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.colina.cl/archivos/cf73484-0779.pdf"
+    ],
+    "alcance": "Programa de Colina 2024; decreto y programa adjunto.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 59,
+    "public_id": "dea68947-564e-46b2-83ca-c086208efdff",
+    "nombre": "Beca de Contingencia UBO",
+    "institucion": "Universidad Bernardo O'Higgins",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo financiero para continuar estudios ante dificultad económica extraordinaria o sobreviniente; modalidad e importe no especificados.",
+    "beneficio_corregido": "Apoyo financiero para continuar estudios ante dificultad económica extraordinaria o sobreviniente; modalidad e importe no especificados.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_CONTINGENCIA_UBO_2026_10_21.md",
+    "fuentes": [
+      "https://dae.ubo.cl/becas/becas-ubo/",
+      "https://dae.ubo.cl/wp-content/uploads/2026/03/Calendario-Academico-2026.pdf"
+    ],
+    "alcance": "Confirmación esencial de la Beca de Contingencia UBO publicada para la comunidad estudiantil en 2026; corrige la identidad de la ficha genérica original.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 68,
+    "public_id": "b57476f8-6347-4d22-bfb9-86691e11c7ef",
+    "nombre": "Beca de Educación Superior Cholchol",
+    "institucion": "Municipalidad de Cholchol",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal para estudiantes de educación superior. PADEM registra beneficiarios/renovantes en 2019–2020; importe individual y periodicidad: No especificado.",
+    "beneficio_corregido": "Beca municipal para estudiantes de educación superior. PADEM registra beneficiarios/renovantes en 2019–2020; importe individual y periodicidad: No especificado.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_CHOLCHOL_2026_10_15.md",
+    "fuentes": [
+      "https://legalpython.com/municipalidades/cholchol/padems/PADEM_2021.pdf",
+      "https://surinformado.cl/entrega-becas-cholchol-2025/",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-32-LE25"
+    ],
+    "alcance": "Existencia e identidad histórica de la Beca Municipalidad de Cholchol para educación superior, documentada en PADEM 2021 para 2019–2020; no certifica vigencia actual.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 86,
+    "public_id": "b3d099dd-c18b-4ec2-8f5e-5d3aae1a7fd2",
+    "nombre": "Beca Municipal Dalcahue 2026",
+    "institucion": "Municipalidad de Dalcahue",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "350000 CLP por beneficiario de educación superior 2026; periodicidad no publicada",
+    "beneficio_corregido": "350000 CLP por beneficiario de educación superior 2026; periodicidad no publicada",
+    "informe": "CONFIRMACION_DALCAHUE_SUPERIOR_2026.md",
+    "fuentes": [
+      "https://www.munidalcahue.cl/transparencia/inicio/documentos/otros/concursos/2026/202603BECASMUNICIPALES.pdf"
+    ],
+    "alcance": "Modalidad educación superior 2026 de Dalcahue; convocatoria cerrada",
+    "decision": "La confirmación es completa, no esencial; se consultó el expediente correcto.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 90,
+    "public_id": "524d17dd-63f5-4a06-a779-e6fae7eaed90",
+    "nombre": "Beca Municipal Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Excelencia Académica",
+    "beneficio_anterior": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+    "beneficio_corregido": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+    "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+    ],
+    "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+    "decision": "Adjudicación por mérito académico; norma histórica.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 102,
+    "public_id": "ecb2bda1-fffc-4c4a-a1ef-d3682dece301",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Excelencia Académica",
+    "beneficio_anterior": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+    "beneficio_corregido": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+    "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+    ],
+    "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+    "decision": "Misma finalidad académica histórica; conservar variante.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 123,
+    "public_id": "3a29abc6-6e21-4163-8685-ec15dbd96e4f",
+    "nombre": "Beca de Articulacion EMTP",
+    "institucion": "INACAP",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Reconocimiento y convalidación de asignaturas del primer semestre en una carrera INACAP elegible. Beneficio académico no monetario; no es un descuento del 20%.",
+    "beneficio_corregido": "Reconocimiento y convalidación de asignaturas del primer semestre en una carrera INACAP elegible. Beneficio académico no monetario; no es un descuento del 20%.",
+    "informe": "CONFIRMACION_ESENCIAL_ARTICULACION_INACAP_2026_10_12.md",
+    "fuentes": [
+      "https://portal.inacap.cl/admision/articulacion/articulacion-directa",
+      "https://portal.inacap.cl/articulacion"
+    ],
+    "alcance": "Identidad y reglas esenciales de Articulación Directa EMTP de INACAP para admisión 2027; corrige la ficha de descuento no acreditada. No certifica convocatoria abierta.",
+    "decision": "Convalidación académica; no es beca por mérito ni financiamiento de arancel. La taxonomía actual carece de categoría adecuada.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 141,
+    "public_id": "7ec2669e-fa97-4c01-ae14-a8b8d5edf19a",
+    "nombre": "Beca Municipal para Estudios Superiores Talcahuano",
+    "institucion": "Municipalidad de Talcahuano",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "Apoyo económico para favorecer continuidad y finalización de trayectorias educativas, gestionado mediante convenios con empresas. Monto, moneda de pago y periodicidad: no especificados en las fuentes oficiales consultadas.",
+    "beneficio_corregido": "Apoyo económico para favorecer continuidad y finalización de trayectorias educativas, gestionado mediante convenios con empresas. Monto, moneda de pago y periodicidad: no especificados en las fuentes oficiales consultadas.",
+    "informe": "CONFIRMACION_ESENCIAL_TALCAHUANO_APADRINAMIENTO_2026_10_14.md",
+    "fuentes": [
+      "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/vinculacion-con-el-medio",
+      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/06%20PLADECO%202024-2027%20%20I_MUNICIPALIDAD%20DE%20TALCAHUANO.pdf",
+      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/CP%202024%20MUNICIPALIDAD%20DE%20TALCAHUANO.pdf",
+      "https://www.talcahuano.cl/adm/imagenes/ckfinder/files/07%20-%20Convenios%20Celebrados.pdf"
+    ],
+    "alcance": "Confirmación esencial del apoyo educativo municipal oficialmente denominado Proyecto Apadrinamiento Talcahuano / “Un niño, nuestro compromiso”. La correspondencia se apoya en la unidad municipal, el objetivo educativo, el apoyo económico y el perfil social descritos en fuentes oficiales; no certifica convocatoria abierta ni convierte el nombre histórico de la candidata en denominación oficial.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 158,
+    "public_id": "c6af8cf1-d8ee-4803-8107-9253a30e2903",
+    "nombre": "Beca Excelencia Académica UDD",
+    "institucion": "Universidad del Desarrollo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Excelencia Académica",
+    "beneficio_anterior": "Hasta 30% del arancel anual.",
+    "beneficio_corregido": "Hasta 30% del arancel anual.",
+    "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "alcance": "UDD: el rótulo genérico de excelencia se corrige y limita a Beca NEM de ingreso 2026, sin mezclarla con Puntaje Ponderado.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 167,
+    "public_id": "14fac1a4-44e1-40c1-b927-2b071b584fab",
+    "nombre": "Beca Fomento Regional",
+    "institucion": "Universidad del Alba",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Arancel",
+    "beneficio_anterior": "20% del arancel en carreras de pregrado según reglamento 2026. El reglamento histórico UPV establece 10% a 35% del arancel anual, con tope de $500.000; no mezclar esas condiciones históricas con el 20% de 2026.",
+    "beneficio_corregido": "20% del arancel en carreras de pregrado según reglamento 2026. El reglamento histórico UPV establece 10% a 35% del arancel anual, con tope de $500.000; no mezclar esas condiciones históricas con el 20% de 2026.",
+    "informe": "CONFIRMACION_ESENCIAL_FOMENTO_REGIONAL_UDALBA_2026.md",
+    "fuentes": [
+      "https://www.udalba.cl/wp-content/uploads/2026/04/DECRET-1.pdf",
+      "https://www.udalba.cl/wp-content/uploads/2021/10/Decreto_Universitario_2021.pdf",
+      "https://acreditacion.udalba.cl/2022/11/02/estas-son-las-multiples-becas-que-udalba-ofrece-a-sus-estudiantes/"
+    ],
+    "alcance": "Beca Fomento Regional de Universidad del Alba; reglamento institucional 2026, corroborado con reglamento institucional histórico de Universidad Pedro de Valdivia/Universidad del Alba. La atribución original a UDLA no queda respaldada por la fuente que traía la ficha y se corrige conforme a la coincidencia específica del nombre, porcentaje y requisito regional. Confirma existencia y condiciones esenciales documentadas; no una convocatoria vigente.",
+    "decision": "Institución actual comprobada como Universidad del Alba.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 181,
+    "public_id": "1a803d53-3830-4aad-aad7-529208c2b6c4",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Cabo de Hornos",
+    "institucion": "Municipalidad de Cabo de Hornos",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Arancel",
+    "beneficio_anterior": "Pago de arancel según puntuación: 45%, 75% o 100%; aporte indígena yagán separado hasta 15 UTM por una vez.",
+    "beneficio_corregido": "Pago de arancel según puntuación: 45%, 75% o 100%; aporte indígena yagán separado hasta 15 UTM por una vez.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.imcabodehornos.cl/DESCARGAS/Reglamento%20%20Municipal%20de%20Beca%202024.pdf"
+    ],
+    "alcance": "Cabo de Hornos: reglamento de Excelencia Académica alojado como 2024; alcance limitado a renovación.",
+    "decision": "Clasificar componente principal de arancel; aporte yagán separado.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 182,
+    "public_id": "6638adb2-8ea1-40fc-82b6-2c9b2da608fc",
+    "nombre": "Beca Municipal y Beca Mérito Deportivo",
+    "institucion": "Municipalidad de Punitaqui",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca Deportiva",
+    "beneficio_anterior": "",
+    "beneficio_corregido": "Beca al Mérito Deportivo de Punitaqui 2026: hasta 5 UTM anuales para transporte deportivo, inscripciones, hospedaje y equipamiento; sujeto a presupuesto. Excluye matrícula y arancel.",
+    "informe": "CONFIRMACIONES_CARTAGENA_PUNITAQUI_2026_10_09.md",
+    "fuentes": [
+      "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/"
+    ],
+    "alcance": "Beca al Mérito Deportivo de Punitaqui 2026, categorías Deportista Destacado y Deportista de Proyección. Corregir el título compuesto del original para representar exclusivamente el programa deportivo descrito.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 183,
+    "public_id": "56c64afc-2bed-48b1-8354-d536bcbeef39",
+    "nombre": "Programa Beca Municipal Educación Superior Calbuco",
+    "institucion": "Municipalidad de Calbuco",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Excelencia Académica",
+    "beneficio_anterior": "Financiamiento parcial de gastos superiores; dos cuotas del 50%; importe según decisión municipal anual.",
+    "beneficio_corregido": "Financiamiento parcial de gastos superiores; dos cuotas del 50%; importe según decisión municipal anual.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.bcn.cl/leychile/navegar?i=1007823"
+    ],
+    "alcance": "Ordenanza municipal Calbuco de 2009, publicada por BCN; Beca Excelencia Académica para Estudios Superiores.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 186,
+    "public_id": "917f5bbf-97ca-47ab-9992-3148b8a88f4e",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Los Vilos",
+    "institucion": "Municipalidad de Los Vilos",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "",
+    "beneficio_corregido": "Apoyo económico municipal a estudiantes de educación superior en Los Vilos (2025). Importe individual no publicado; no trasladar montos de residencia, deporte ni movilización.",
+    "informe": "REVISION_FUENTES_59_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.munilosvilos.cl/?p=58415",
+      "https://www.munilosvilos.cl/?p=59156"
+    ],
+    "alcance": "Becas Municipales de Educación Superior de Los Vilos; convocatoria y entrega municipales de 2025. Confirmación esencial histórica; distingue educación superior, incentivo, residencia, deporte y movilización.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 193,
+    "public_id": "8eceb9d6-8ca6-4634-8a13-ebd93bcafb11",
+    "nombre": "Beca Municipal Ilustre Municipalidad de Natales",
+    "institucion": "Municipalidad de Puerto Natales",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca financiada con fondos municipales; importe y periodicidad desconocidos.",
+    "beneficio_corregido": "Beca financiada con fondos municipales; importe y periodicidad desconocidos.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_97.md",
+    "fuentes": [
+      "https://portal.muninatales.cl/social/beca-excelencia-municipal/"
+    ],
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Ilustre Municipalidad de Natales; alcance delimitado, sin certificar convocatoria abierta",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 196,
+    "public_id": "93ebee9a-8f5e-4c87-bf62-a5c4b924afaf",
+    "nombre": "Beca Socioeconomica UDD",
+    "institucion": "Universidad del Desarrollo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Arancel",
+    "beneficio_anterior": "Apoyo para cubrir total o parcialmente matrícula y/o arancel por necesidad socioeconómica; monto/modalidad individual desconocidos.",
+    "beneficio_corregido": "Apoyo para cubrir total o parcialmente matrícula y/o arancel por necesidad socioeconómica; monto/modalidad individual desconocidos.",
+    "informe": "CONFIRMACION_ESENCIAL_UDD_SOCIOECONOMICA_2026_10_13.md",
+    "fuentes": [
+      "https://donaciones.udd.cl/?page_id=107369",
+      "https://www.udd.cl/dircom/reglamentos/Reglamento-de-becas.pdf"
+    ],
+    "alcance": "Existencia y finalidad general publicada de las Becas Socioeconómicas UDD; no certifica convocatoria abierta ni cuantía individual.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 197,
+    "public_id": "23818e4d-dc3f-43bb-8b0e-5a3fbd600f38",
+    "nombre": "Beca Puntaje PAES UDD",
+    "institucion": "Universidad del Desarrollo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Excelencia Académica",
+    "beneficio_anterior": "10% a 100% del arancel anual, según puntaje, carrera, dependencia escolar y sede.",
+    "beneficio_corregido": "10% a 100% del arancel anual, según puntaje, carrera, dependencia escolar y sede.",
+    "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "alcance": "UDD: Beca Puntaje Ponderado, catálogo de admisión 2026, páginas 323 y 325–326.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 228,
+    "public_id": "5bf4c919-bd7a-4b12-a579-d22ff74eae35",
+    "nombre": "Beca Municipal de Mantención 2026 y Beca PAES",
+    "institucion": "Municipalidad de Panguipulli",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "Mantención: aporte monetario individual desconocido. PAES: $300.000 por estudiante seleccionado.",
+    "beneficio_corregido": "Mantención: aporte monetario individual desconocido. PAES: $300.000 por estudiante seleccionado.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://municipalidadpanguipulli.cl/archivos/45837",
+      "https://municipalidadpanguipulli.cl/archivos/48401",
+      "https://municipalidadpanguipulli.cl/archivos/47524"
+    ],
+    "alcance": "Panguipulli 2026: registro combinado de Mantención y PAES, con alcance separado para cada modalidad.",
+    "decision": "Categoría del componente de mantención; premio PAES diferenciado.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 229,
+    "public_id": "af9ca817-b275-4731-9980-4fe8e515d7f8",
+    "nombre": "Beca Traslado Estudiantil Educación Superior Curarrehue",
+    "institucion": "Municipalidad de Curarrehue",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Subsidios parciales para arancel o aportes directos para materiales, transporte y alimentación; monto según presupuesto y proyecto, desconocido; posible pago en dos cuotas.",
+    "beneficio_corregido": "Subsidios parciales para arancel o aportes directos para materiales, transporte y alimentación; monto según presupuesto y proyecto, desconocido; posible pago en dos cuotas.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://curarrehue.cl/on/wp-content/uploads/2026/04/bases-incentivo-educacion-superior-2026.pdf"
+    ],
+    "alcance": "Curarrehue: bases oficiales Incentivo a la Educación Superior 2026, apartados 3–13.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 242,
+    "public_id": "f1e55afd-d717-4159-9654-bdb358271f32",
+    "nombre": "Beca Municipal de Estudiantes de Educación Superior",
+    "institucion": "Municipalidad de Marchigue",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "Matrícula superior a $100.000: $60.000–$65.000; matrícula entre $51.000 y $100.000: $45.000–$50.000; matrícula cero con gratuidad: $45.000–$50.000.",
+    "beneficio_corregido": "Matrícula superior a $100.000: $60.000–$65.000; matrícula entre $51.000 y $100.000: $45.000–$50.000; matrícula cero con gratuidad: $45.000–$50.000.",
+    "informe": "REVISION_MUNICIPAL_50_2026_10_08.md",
+    "fuentes": [
+      "https://marchigue.cl/pdf/Cuenta-publica-2022.pdf"
+    ],
+    "alcance": "Beca Municipal de Estudiantes de Educación Superior de Marchigüe; modificación reglamentaria aprobada el 20 de abril de 2022.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 251,
+    "public_id": "c88b5fa2-cc4a-410b-8d69-8d5975d01409",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Peumo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal para estudiantes de educación superior; monto, cobertura y forma de pago específicos no publicados en el aviso.",
+    "beneficio_corregido": "Beca municipal para estudiantes de educación superior; monto, cobertura y forma de pago específicos no publicados en el aviso.",
+    "informe": "CONFIRMACION_ESENCIAL_PEUMO_2025_2026_10_13.md",
+    "fuentes": [
+      "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+    ],
+    "alcance": "Identidad y datos públicos esenciales de la convocatoria municipal 2025; no confirma vigencia 2026",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 261,
+    "public_id": "bbf5e9c1-7545-40a9-800b-4973dd056260",
+    "nombre": "Beca Municipal Estudiantil Rauco",
+    "institucion": "Municipalidad de Rauco",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "El portal identifica una beca estudiantil municipal; modalidad y cuantía no especificadas en la página oficial consultada.",
+    "beneficio_corregido": "El portal identifica una beca estudiantil municipal; modalidad y cuantía no especificadas en la página oficial consultada.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_RAUCO_2026_10_14.md",
+    "fuentes": [
+      "https://beca.muniarauco.cl/login/"
+    ],
+    "alcance": "Existencia histórica del proceso municipal Beca Estudiantil 2025; no confirma vigencia ni datos atribuidos a 2026.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 265,
+    "public_id": "eda80e69-7f17-4c52-9e7c-6535c915376d",
+    "nombre": "Beca de Educación Superior Ilustre Municipalidad de Chonchi",
+    "institucion": "Municipalidad de Chonchi",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo en una sola modalidad: arancel, movilización, materiales o arriendo; cuantía desconocida.",
+    "beneficio_corregido": "Apoyo en una sola modalidad: arancel, movilización, materiales o arriendo; cuantía desconocida.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_96.md",
+    "fuentes": [
+      "https://municipalidadchonchi.cl/web/beca-de-educacion-superior-municipal-2026/"
+    ],
+    "alcance": "Reglas esenciales 2026 de Beca de Educación Superior Ilustre Municipalidad de Chonchi; sin certificar convocatoria abierta",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 270,
+    "public_id": "e026234b-3a85-430b-999f-02706662528a",
+    "nombre": "Beca de Educación Superior San Javier",
+    "institucion": "Municipalidad de San Javier",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Financiamiento municipal de apoyo al acceso a educación superior; importe individual desconocido.",
+    "beneficio_corregido": "Financiamiento municipal de apoyo al acceso a educación superior; importe individual desconocido.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://imsanjavier.cl/wp-content/uploads/2026/06/PLADECO-2026-2029-SAN-JAVIER.pdf"
+    ],
+    "alcance": "San Javier: PLADECO 2026–2029; alcance de la modalidad para egresados del Liceo Manuel Montt descrita en el diagnóstico.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 274,
+    "public_id": "e03e7695-ec19-494d-9062-9298222a564d",
+    "nombre": "Beca Vocacion Social UAH",
+    "institucion": "Universidad Alberto Hurtado",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "",
+    "beneficio_corregido": "PAI UAH 2024: financiamiento parcial o total de arancel según necesidad, asignaciones mensuales, apoyo para titulación y acompañamiento integral. Monto y porcentaje individuales no publicados.",
+    "informe": "CONFIRMACION_ESENCIAL_UAH_PAI_2026_10_15.md",
+    "fuentes": [
+      "https://fen.uahurtado.cl/2023/noticias/convocatoria-estudiantes-de-pregrado-uah-unete-al-programa-de-apoyo-integral-2024/",
+      "https://derecho.uahurtado.cl/convocatorias/convocatoria-programa-de-apoyo-integral-pai-2024/"
+    ],
+    "alcance": "Identidad corregida a Programa de Apoyo Integral (PAI) de la Universidad Alberto Hurtado; convocatoria 2024. Confirmación histórica; no acredita convocatoria ni vigencia en 2026.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 282,
+    "public_id": "cffd021b-f721-4d79-9fa9-32bb12028090",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Colina",
+    "institucion": "Municipalidad de Colina",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "beneficio_corregido": "Dos modalidades: arancel anual hasta $1.000.000; transporte hasta $400.000.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://transparencia.colina.cl/archivos/cf73484-0779.pdf"
+    ],
+    "alcance": "Programa de Colina 2024; decreto y programa adjunto.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 285,
+    "public_id": "d0ee5abe-9edb-4bef-86ea-6fc8d56440ab",
+    "nombre": "Beca Presidente de la Republica",
+    "institucion": "JUNAEB",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "En educación superior: 12,4 UTM al año, hasta diez cuotas.",
+    "beneficio_corregido": "En educación superior: 12,4 UTM al año, hasta diez cuotas.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://www.chileatiende.gob.cl/fichas/2086"
+    ],
+    "alcance": "Beca Presidente de la República; ficha oficial de ChileAtiende consultada el 6 de octubre de 2026.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 312,
+    "public_id": "dc45574b-ef2c-42e6-919f-bc0bf6f308fb",
+    "nombre": "Beca Municipal Educación Superior Tolten",
+    "institucion": "Municipalidad de Tolten",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca Municipal para estudiantes; importe, moneda, cupos y periodicidad no especificados en las publicaciones oficiales consultadas.",
+    "beneficio_corregido": "Beca Municipal para estudiantes; importe, moneda, cupos y periodicidad no especificados en las publicaciones oficiales consultadas.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_MUNICIPAL_TOLTEN_2026_10_21.md",
+    "fuentes": [
+      "https://web.archive.org/web/20130627091130id_/http://www.tolten.cl/muni/index.php/noticias/destacados/171-beca-municipal-2013",
+      "https://web.archive.org/web/20200929235222id_/http://www.tolten.cl/web/index.php/noticias/98-becas-municipales",
+      "https://web.archive.org/web/20200929232349id_/http://www.tolten.cl/web/images/becas/REQUISITOS_POSTULACIONES_BECA_MUNICIPAL_AO_2020.pdf"
+    ],
+    "alcance": "Identidad, cobertura estudiantil, beneficio y requisitos esenciales de la Beca Municipal histórica de Toltén, acreditada en publicaciones de 2013 y bases de 2020. No acredita convocatoria ni vigencia 2026.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 336,
+    "public_id": "3bb27b3c-bca1-48d3-b322-dfa8c6e15d11",
+    "nombre": "Beca Educación Superior Santa Maria",
+    "institucion": "Municipalidad de Santa Maria",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyos universitarios: aporte para matrícula, pasajes a Valparaíso o Santiago, o mensualidad. La ficha indica recepción dos veces al año (primer y segundo semestre), sin distribuir esa frecuencia por tipo de apoyo. Importe no especificado.",
+    "beneficio_corregido": "Apoyos universitarios: aporte para matrícula, pasajes a Valparaíso o Santiago, o mensualidad. La ficha indica recepción dos veces al año (primer y segundo semestre), sin distribuir esa frecuencia por tipo de apoyo. Importe no especificado.",
+    "informe": "CONFIRMACION_ESENCIAL_AYUDAS_UNIVERSITARIAS_SANTA_MARIA_2026_10_20.md",
+    "fuentes": [
+      "https://www.santamariatransparente.cl/web/images/stories/Contenido/Tramites/Tramites_SOCIAL2016.pdf"
+    ],
+    "alcance": "Línea histórica de ayudas universitarias municipales para estudiantes domiciliados en Santa María, documentada en la ficha DIDECO de 2016; no acredita convocatoria ni vigencia 2026.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 353,
+    "public_id": "1eafa257-d986-4f40-a58c-3eb65dea1575",
+    "nombre": "Beca Municipal de Educación Superior Tocopilla",
+    "institucion": "Municipalidad de Tocopilla",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "Existe una Beca Municipal con beneficios económicos; el importe y la cobertura de la línea superior son No especificado.",
+    "beneficio_corregido": "Existe una Beca Municipal con beneficios económicos; el importe y la cobertura de la línea superior son No especificado.",
+    "informe": "CONFIRMACION_ESENCIAL_TOCOPILLA_2026_10_13.md",
+    "fuentes": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/download/22874/?tmstv=1746030338"
+    ],
+    "alcance": "Identidad y planificación municipal de un programa de becas para educación superior en la cartera 2024; no acredita ejecución ni convocatoria",
+    "decision": "Clasificación del apoyo económico planificado; no acredita adjudicación.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 362,
+    "public_id": "31ad2b50-30ec-4150-aeed-37ce79d5db6a",
+    "nombre": "Beca Municipal Estudiantil Hualane",
+    "institucion": "Municipalidad de Hualane",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal adjudicada a una estudiante; monto, modalidad y periodicidad no especificados.",
+    "beneficio_corregido": "Beca municipal adjudicada a una estudiante; monto, modalidad y periodicidad no especificados.",
+    "informe": "CONFIRMACION_ESENCIAL_HUALANE_2026_10_14.md",
+    "fuentes": [
+      "https://transparencia.hualane.cl/index.php?a=2019&action=plantillas_generar_plantilla&ia=12189&ig=411&m=12",
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2019/12_Diciembre/3574.pdf"
+    ],
+    "alcance": "Existencia histórica en 2019 de Beca Municipalidad de Hualañé adjudicada en convenio con Universidad de Chile; sin reglas ni vigencia 2026 confirmadas.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 375,
+    "public_id": "829317a0-4751-427c-86c2-238e992d6b61",
+    "nombre": "Beca Municipal para Estudios Superiores Retiro",
+    "institucion": "Municipalidad de Retiro",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Arancel",
+    "beneficio_anterior": "Aporte monetario para cubrir parcial o totalmente la matrícula de ingreso mediante pago o reembolso, o aporte por semestre académico. Monto individual desconocido.",
+    "beneficio_corregido": "Aporte monetario para cubrir parcial o totalmente la matrícula de ingreso mediante pago o reembolso, o aporte por semestre académico. Monto individual desconocido.",
+    "informe": "CONFIRMACION_ESENCIAL_RETIRO_2026_10_12.md",
+    "fuentes": [
+      "https://www.retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf",
+      "https://www.retiro.cl/archivos_adjuntos/actas_concejo/ACTA_TRASPASO_2021_2024.pdf"
+    ],
+    "alcance": "Confirmación histórica 2022 del programa de educación superior de Retiro; continuidad reportada en gestión 2021-2024; no confirma convocatoria 2026.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 393,
+    "public_id": "e7671aaf-f602-4cf2-bed6-6c0fe63e6165",
+    "nombre": "Beca Municipal Educación Superior La Florida",
+    "institucion": "Municipalidad de La Florida",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal regulada por ordenanza para estudiantes de educación superior; modalidad y cuantía no especificadas en la fuente consultada.",
+    "beneficio_corregido": "Beca municipal regulada por ordenanza para estudiantes de educación superior; modalidad y cuantía no especificadas en la fuente consultada.",
+    "informe": "CONFIRMACION_ESENCIAL_LA_FLORIDA_ORDENANZA_127_2026_10_14.md",
+    "fuentes": [
+      "https://appx.laflorida.cl/transparencia/documentacion/VERSION_FINAL_PLADECO_LA_FLORIDA_2024_2029.pdf",
+      "https://appx.laflorida.cl/beca_escolar/",
+      "https://pladeco.laflorida.cl/v3/main.php"
+    ],
+    "alcance": "Existencia y alcance educativo acreditados por el título de la Ordenanza N.º 127/2020; no certifica bases completas ni convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 400,
+    "public_id": "e2b909f4-393c-4d10-b34e-060ddac7fdc8",
+    "nombre": "Beca Integración Transfronteriza UTA",
+    "institucion": "Universidad de Tarapacá",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Movilidad",
+    "beneficio_anterior": "100% de arancel básico y diferenciado durante la carrera; AGCID aporta $300.000 mensuales entre marzo y diciembre.",
+    "beneficio_corregido": "100% de arancel básico y diferenciado durante la carrera; AGCID aporta $300.000 mensuales entre marzo y diciembre.",
+    "informe": "../REVISION_ESENCIAL_291_2026_10_06.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "alcance": "Catálogo Mineduc admisión 2026, página 293: Integración Transfronteriza UTA–AGCID.",
+    "decision": "Formación internacional con arancel y manutención; no limitar a intercambio corto.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 402,
+    "public_id": "0346c14d-e1f7-479e-8d9a-9d4ff17a6d16",
+    "nombre": "Beca Municipal Educación Superior Villa Alemana",
+    "institucion": "Municipalidad de Villa Alemana",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal dirigida en términos generales a estudiantes de educación superior; monto y cobertura específica: No especificado.",
+    "beneficio_corregido": "Beca municipal dirigida en términos generales a estudiantes de educación superior; monto y cobertura específica: No especificado.",
+    "informe": "CONFIRMACION_VILLA_ALEMANA_EDUCACION_SUPERIOR_2025_2026_10_13.md",
+    "fuentes": [
+      "https://munivillalemana.gob.cl/2024/11/con-un-historico-aumento-de-casi-mil-millones-en-salud-concejo-municipal-de-villa-alemana-aprueba-presupuesto-2025/"
+    ],
+    "alcance": "Existencia histórica de la beca municipal para estudiantes de educación superior creada en el presupuesto 2025; no confirma monto, requisitos, convocatoria ni vigencia posterior.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 405,
+    "public_id": "50d864aa-269c-4ee6-a1eb-b685a8841caf",
+    "nombre": "Beca Municipal Educación Superior Maipu",
+    "institucion": "Municipalidad de Maipu",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo municipal para estudios superiores; importe desconocido.",
+    "beneficio_corregido": "Apoyo municipal para estudios superiores; importe desconocido.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_97.md",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ],
+    "alcance": "Reglas esenciales publicadas de Beca Municipal Educación Superior Maipu; alcance delimitado, sin certificar convocatoria abierta",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 410,
+    "public_id": "44168295-0fb6-447c-a943-55cc2b33b918",
+    "nombre": "Beca Interna ULagos",
+    "institucion": "Universidad de Los Lagos",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Arancel",
+    "beneficio_anterior": "25%, 50% o 75% de rebaja de arancel real.",
+    "beneficio_corregido": "25%, 50% o 75% de rebaja de arancel real.",
+    "informe": "TERCER_LOTE_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+    ],
+    "alcance": "ULagos: corrección de beca interna de arancel socioeconómico a Beca Social de carreras técnicas, catálogo 2026.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 412,
+    "public_id": "f5e0d1a7-69fb-4a5f-8078-b29d69157669",
+    "nombre": "Becas Estudiantiles Pencahue 2026 (nivel no especificado)",
+    "institucion": "Municipalidad de Pencahue",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "No especificado en la publicación; la fuente solo publica resultados de selección de becas estudiantiles.",
+    "beneficio_corregido": "No especificado en la publicación; la fuente solo publica resultados de selección de becas estudiantiles.",
+    "informe": "CONFIRMACION_ESENCIAL_PENCAHUE_2026_2026_10_14.md",
+    "fuentes": [
+      "https://mpencahue.cl/index.php/resultados-becas-2026/"
+    ],
+    "alcance": "Resultados municipales de becas estudiantiles de Pencahue publicados para 2026. Nivel, cobertura y convocatoria abierta no especificados. La etiqueta original de educación superior no queda confirmada.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 419,
+    "public_id": "de87f683-7d4e-4dba-86ee-eedf62f0ae21",
+    "nombre": "Beca Municipal Estudiantil",
+    "institucion": "Municipalidad de Coltauco",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "",
+    "beneficio_corregido": "Coltauco: aporte anual en una cuota para gastos educativos. Importe fijado por presupuesto; ciertos beneficiarios estatales reciben 50% del monto municipal (ordenanza 2021).",
+    "informe": "REVISION_SEGUNDO_LOTE_50_SIN_FIRECRAWL_2026_10_12.md",
+    "fuentes": [
+      "https://www.coltauco.cl/rsp/servicios-municipales.php?unidad=Ordenanzas",
+      "https://www.coltauco.cl/Nuevo/pdf/2022/OBM.pdf"
+    ],
+    "alcance": "Beca Municipal Estudiantil de Coltauco: modalidad de educación superior en la ordenanza aprobada por decreto 835 del 10 de agosto de 2021. Lectura visual de las ocho páginas; confirmación esencial histórica.",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 426,
+    "public_id": "f91de4a7-3178-4533-a21c-e8f1ea113fc4",
+    "nombre": "Beca Municipal de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "beneficio_corregido": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "informe": "CONFIRMACION_VINA_EDUCACION_SUPERIOR_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "alcance": "Existencia y cobertura agregada histórica 2022–2023 de la Beca Educación Superior municipal; no certifica reglas individuales ni convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 432,
+    "public_id": "27af4caf-be79-4d74-8327-31f118eaf49e",
+    "nombre": "Beca de Mantención Municipal para Estudios Superiores",
+    "institucion": "Municipalidad de Coquimbo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo económico en modalidad de cofinanciamiento de arancel anual o aporte para residencia fuera de la Región de Coquimbo; cuantía individual actual desconocida.",
+    "beneficio_corregido": "Apoyo económico en modalidad de cofinanciamiento de arancel anual o aporte para residencia fuera de la Región de Coquimbo; cuantía individual actual desconocida.",
+    "informe": "CONFIRMACION_ESENCIAL_COQUIMBO_APORTES_SOCIALES_2026_10_13.md",
+    "fuentes": [
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
+    ],
+    "alcance": "Existencia histórica y modalidades esenciales de Aportes Sociales para la Educación Superior de Coquimbo; no confirma convocatoria 2026 ni monto individual.",
+    "decision": "Varias finalidades o modalidades: no asignar una categoría exclusiva.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 468,
+    "public_id": "0db85f64-d53b-4dff-a8d1-a18392827cc8",
+    "nombre": "Beca Hijo Funcionario UDD",
+    "institucion": "Universidad del Desarrollo",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Dos cupos de admisión directa a Medicina UDD para el proceso 2027. No corresponde a cobertura monetaria; descuento de arancel: No especificado.",
+    "beneficio_corregido": "Dos cupos de admisión directa a Medicina UDD para el proceso 2027. No corresponde a cobertura monetaria; descuento de arancel: No especificado.",
+    "informe": "CONFIRMACION_ESENCIAL_VIA_ADMISION_HIJO_FUNCIONARIO_UDD_2026_10_14.md",
+    "fuentes": [
+      "https://medicina.udd.cl/medicina-santiago/admision-directa/"
+    ],
+    "alcance": "Vía oficial de admisión directa a Medicina UDD para hijos/as de funcionarios en Admisión 2027; no es una beca ni confirma descuento de arancel.",
+    "decision": "Vía de admisión, no beca monetaria. Sin categoría de beca acreditada; conservar la advertencia y el original.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 490,
+    "public_id": "fa4f6465-132e-4722-aede-f9dd25d63cd7",
+    "nombre": "Beca Municipal de Educación Superior San Pedro de la Paz",
+    "institucion": "Municipalidad de San Pedro de la Paz",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo económico municipal para apoyar y estimular la continuidad de estudios superiores; importe individual desconocido.",
+    "beneficio_corregido": "La fuente incorporada era de San Pedro de Melipilla y no acredita esta ficha de San Pedro de la Paz. Beneficio específico: no confirmado.",
+    "informe": "CONFIRMACION_ESENCIAL_SAN_PEDRO_2026_10_12.md",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/03/DECRETO-N%C2%B0406-APRUEBA-NUEVO-REGLAMENTO-DE-BECA-MUNICIPAL-DE-EDUCACION-SUPERIO-Y-BECA-PAES.pdf",
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf",
+      "https://www.munisanpedro.gob.cl/noticias/becas-municipales-de-educacion-superior-y-beca-paes/"
+    ],
+    "alcance": "Apoyo económico municipal para continuidad de estudios superiores; identifica el programa y destinatarios principales, sin certificar monto o convocatoria futura",
+    "decision": "CONTRADICCIÓN ABIERTA: institución San Pedro de la Paz frente a fuentes de San Pedro de Melipilla; no trasladar datos entre comunas.",
+    "accion": "CORREGIR",
+    "estado": "ADVERTENCIA_PUBLICADA_IDENTIDAD_SIN_RESOLVER"
+  },
+  {
+    "id_beca": 500,
+    "public_id": "a9fc3ffc-dfee-405c-8334-806d65e7c499",
+    "nombre": "Beca Municipal de Educación Superior Coronel",
+    "institucion": "Municipalidad de Coronel",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Becas municipales del programa 100 por 100; 96 estudiantes universitarios recibieron beca en 2019. La fuente no especifica el monto individual.",
+    "beneficio_corregido": "Becas municipales del programa 100 por 100; 96 estudiantes universitarios recibieron beca en 2019. La fuente no especifica el monto individual.",
+    "informe": "CONFIRMACION_ESENCIAL_100_POR_100_CORONEL_2026_10_18.md",
+    "fuentes": [
+      "https://www.coronel.cl/noticias/entrega-de-96-becas-a-alumnos-y-alumnas-universitarias-de-nuestra-comuna/"
+    ],
+    "alcance": "Existencia y beneficio esencial del programa municipal 100 por 100 documentado para estudiantes universitarios de Coronel en 2019; no acredita una convocatoria posterior.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 506,
+    "public_id": "24dbac8b-a756-4f08-a99e-0e0daa6e382a",
+    "nombre": "Beca Municipal de Educación Superior Maipu",
+    "institucion": "Municipalidad de Maipu",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Apoyo municipal para estudios superiores; importe desconocido.",
+    "beneficio_corregido": "Apoyo municipal para estudios superiores; importe desconocido.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_97.md",
+    "fuentes": [
+      "https://media.municipalidadmaipu.cl/media/documentos/2026/2/17708410446008.pdf"
+    ],
+    "alcance": "Reglas esenciales publicadas de Beca Municipal de Educación Superior Maipu; alcance delimitado, sin certificar convocatoria abierta",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 510,
+    "public_id": "c60f68ff-7c99-464e-9179-c7708d743f65",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior",
+    "institucion": "Municipalidad de Calera de Tango",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal para estudiantes de educación superior. La ficha oficial no detalla importe ni modalidad específica de cobertura.",
+    "beneficio_corregido": "Beca municipal para estudiantes de educación superior. La ficha oficial no detalla importe ni modalidad específica de cobertura.",
+    "informe": "CONFIRMACION_CALERA_TANGO_2026_10_12.md",
+    "fuentes": [
+      "https://www.caleradetango.cl/departamento-social"
+    ],
+    "alcance": "Identidad y criterio social esencial de la Beca Municipal para estudiantes de educación superior en Calera de Tango; no certifica monto ni convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 513,
+    "public_id": "78861a79-69c6-4e9f-9045-fcdfc4f40039",
+    "nombre": "Beca estudiantil municipal Cochamó",
+    "institucion": "Municipalidad de Cochamó",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca estudiantil municipal; cobertura concreta e importe individual no especificados. Los $65.677.013 corresponden al total del conjunto de ayudas sociales, no a esta beca.",
+    "beneficio_corregido": "Beca estudiantil municipal; cobertura concreta e importe individual no especificados. Los $65.677.013 corresponden al total del conjunto de ayudas sociales, no a esta beca.",
+    "informe": "CONFIRMACION_ESENCIAL_BECA_ESTUDIANTIL_COHAMO_2026_10_20.md",
+    "fuentes": [
+      "https://municochamo.cl/transparencia/cuentapublica/cuentapublica2025.pdf"
+    ],
+    "alcance": "Categoría histórica de beca estudiantil en las Ayudas Sociales Municipales informadas para la gestión 2025; nivel y convocatoria 2026 no acreditados.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 514,
+    "public_id": "03dc06f6-31bc-4f7c-aacb-ba3f09f1eccf",
+    "nombre": "Beca Municipal Educación Superior Cerrillos",
+    "institucion": "Municipalidad de Cerrillos",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.",
+    "beneficio_corregido": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.",
+    "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
+    "fuentes": [
+      "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf"
+    ],
+    "alcance": "Beca de educación superior de escasos recursos de Cerrillos; modificación de Ordenanza 20 publicada el 14 de noviembre de 2018.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  },
+  {
+    "id_beca": 521,
+    "public_id": "2b60e99f-ae81-45a0-b110-2884a70e4a30",
+    "nombre": "Beca Municipal de Educación Superior Frutillar",
+    "institucion": "Municipalidad de Frutillar",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "Beca de Mantención",
+    "beneficio_anterior": "$270.000 CLP en un pago para locomoción, arriendo o arancel; elegir un destino.",
+    "beneficio_corregido": "$270.000 CLP en un pago para locomoción, arriendo o arancel; elegir un destino.",
+    "informe": "CONFIRMACION_ESENCIAL_MUNICIPALES_96.md",
+    "fuentes": [
+      "https://www.munifrutillar.cl/wp-content/uploads/2025/03/BASES-BECA-EDUCACION-SUPERIOR-DE-LA-COMUNA-DE-FRUTILLAR-2025.pdf"
+    ],
+    "alcance": "Reglas esenciales 2025 de Beca Municipal de Educación Superior Frutillar; sin certificar convocatoria abierta",
+    "decision": "Clasificación editorial de la finalidad o del mérito acreditado en el expediente individual.",
+    "accion": "CORREGIR",
+    "estado": "APLICADA_VERIFICADA"
+  },
+  {
+    "id_beca": 528,
+    "public_id": "75c283b9-ad88-47c7-9e36-2a52051dcd98",
+    "nombre": "Beca de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "tipo_anterior": "No especificado",
+    "tipo_propuesto": "No especificado",
+    "beneficio_anterior": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "beneficio_corregido": "Beca de educación superior; 2022: $13.790.000 total para 275 estudiantes; 2023: $16.740.000 total para 279. El monto individual y destino específico son No especificado.",
+    "informe": "CONFIRMACION_VINA_EDUCACION_SUPERIOR_HISTORICA_2026_10_13.md",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2023/04/Cuenta-Publica-2022-Municipio-de-Cuidados_.pdf",
+      "https://www.munivina.cl/wp-content/uploads/2024/04/CPVina-2023_c.pdf"
+    ],
+    "alcance": "Existencia y cobertura agregada histórica 2022–2023 de la Beca Educación Superior municipal; no certifica reglas individuales ni convocatoria vigente.",
+    "decision": "La evidencia identifica el programa pero no publica una finalidad clasificable en la taxonomía actual.",
+    "accion": "CONSERVAR_DESCONOCIDO_CON_LIMITE",
+    "estado": "REVISADA_SIN_DATO_SUFICIENTE"
+  }
+]

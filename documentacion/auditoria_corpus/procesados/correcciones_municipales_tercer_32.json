@@ -1,0 +1,143 @@
+[
+  {
+    "candidato": "16658e3c9dbbb7e11563ea1966d986ee7723be0a23fe14876830ff240c0c671b",
+    "campos": {
+      "monto": "400000 CLP como aporte único para gastos académicos y transporte",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "400000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "UNICA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://municipalidadrengo.cl/actualidad/boletin-municipal/beca-municipal-rengo/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Noticia de marzo de 2026: aporte único de 400000 CLP para gastos académicos y transporte; no combustible. Sin calendario exacto ni lista documental completa. DOCUMENTOS REQUERIDOS: Desconocidos; revisar bases oficiales completas.",
+    "fuentes": [
+      "https://municipalidadrengo.cl/actualidad/boletin-municipal/beca-municipal-rengo/"
+    ]
+  },
+  {
+    "candidato": "0c7d609c72fc361501e101e307c3212b5002b02e8797efdc1d9116aa55f3697d",
+    "campos": {
+      "monto": "430000 CLP para estudios dentro de la RM; 560000 CLP fuera; dos cuotas según bases",
+      "fecha_inicio": "2026-03-09",
+      "fecha_cierre": "2026-03-22",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://huechuraba.cl/sala-de-prensa/1720/detalle/postula-hasta-el-22-de-marzo",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Certificado de alumno regular; [OBLIGATORIO] Certificado de notas; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Cartola RSH"
+    },
+    "limite": "Postulación 9 a 22 marzo 2026. 430000 CLP dentro de RM o 560000 fuera; pago en dos cuotas. RSH 40–60 como rango textual; promedio anual 5.5 no es NEM. Lista documental publicada es parcial. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula de identidad; [OBLIGATORIO] Certificado de alumno regular; [OBLIGATORIO] Certificado de notas; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Cartola RSH. Lista parcial; revisar bases completas y antecedentes condicionales.",
+    "fuentes": [
+      "https://huechuraba.cl/sala-de-prensa/1720/detalle/postula-hasta-el-22-de-marzo"
+    ]
+  },
+  {
+    "candidato": "dd49dcb2f2121f804fb53b15658a8cc81bd53d80df7694ac6f82b2937b59442c",
+    "campos": {
+      "monto": "100000 CLP por estudiante; periodicidad no confirmada",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "100000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "DESCONOCIDA",
+      "fecha_inicio": "2026-02-09",
+      "fecha_cierre": "2026-03-09",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://penco.cl/penco-abre-postulacion-a-mil-becas-para-la-educacion-superior-con-una-inversion-de-100-millones-de-pesos/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Fotocopia de cédula de identidad; [OBLIGATORIO] Comprobante de matrícula o certificado de alumno regular; [OBLIGATORIO] Concentración de notas de enseñanza media o certificado del semestre anterior de educación superior; [OBLIGATORIO] Cartola RSH vigente"
+    },
+    "limite": "Noticia 2026: 100000 CLP individual. Formulario oficial confirma 9 febrero a 9 marzo y documentos parciales. Periodicidad desconocida. Bases del portal DEM devolvieron 403. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Fotocopia de cédula de identidad; [OBLIGATORIO] Comprobante de matrícula o certificado de alumno regular; [OBLIGATORIO] Concentración de notas de enseñanza media o certificado del semestre anterior de educación superior; [OBLIGATORIO] Cartola RSH vigente. Lista parcial; revisar bases completas y antecedentes condicionales.",
+    "fuentes": [
+      "https://penco.cl/penco-abre-postulacion-a-mil-becas-para-la-educacion-superior-con-una-inversion-de-100-millones-de-pesos/",
+      "https://penco.cl/wp-content/uploads/2026/02/ANEXO-1-BECA-MUNICIPAL.pdf"
+    ]
+  },
+  {
+    "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",
+    "campos": {
+      "monto": "Hasta 500000 CLP; máximo no garantizado",
+      "fecha_inicio": "2026-02-23",
+      "fecha_cierre": "2026-03-02",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.pedroaguirrecerda.cl/arn/postula-a-la-nueva-beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Hasta 500000 CLP; máximo no garantizado. Calendario 23 febrero a 2 marzo confirmado en modificación de decreto de 23 marzo 2026. Bases escaneadas pendientes de lectura completa. DOCUMENTOS REQUERIDOS: Desconocidos; revisar bases oficiales completas.",
+    "fuentes": [
+      "https://www.pedroaguirrecerda.cl/arn/postula-a-la-nueva-beca-municipal-de-educacion-superior-2026/",
+      "https://www.pedroaguirrecerda.cl/app/uploads/2026/02/modificacion-decreto-becas.pdf",
+      "https://www.pedroaguirrecerda.cl/app/uploads/2026/02/Bases-de-Becas-Decretadas.pdf"
+    ]
+  },
+  {
+    "candidato": "562bf410b8ecba207698ab4f822528607ecca24c1864a78bd4f582e6346a6123",
+    "campos": {
+      "monto": "Hasta 750000 CLP por semestre para educación superior; máximo no garantizado",
+      "fecha_inicio": "2026-03-01",
+      "fecha_cierre": "2026-03-25",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://lobarnechea.cl/Noticias/becas-municipales-beneficios-y-plazos-para-postular/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Noticia 2026: educación superior 1 a 25 marzo; hasta 750000 CLP por semestre. Máximo no garantizado. No mezclar con becas de título; deporte o preescolar. DOCUMENTOS REQUERIDOS: Desconocidos; revisar bases oficiales completas.",
+    "fuentes": [
+      "https://lobarnechea.cl/Noticias/becas-municipales-beneficios-y-plazos-para-postular/"
+    ]
+  },
+  {
+    "candidato": "7ecb41780801fc76ae8f0422dc040ca1c205ffd7b3ea0a62914e914336195151",
+    "campos": {
+      "monto": "400000 CLP como aporte único de libre disposición",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "400000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "UNICA",
+      "rsh_maximo": "70",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://www.municipalidadelbosque.cl/noticias-elbosque/el-bosque-inicia-las-postulaciones-a-la-beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Certificados de notas en PDF; [OBLIGATORIO] Cartola RSH en PDF"
+    },
+    "limite": "Aporte único 400000 CLP; RSH hasta 70%. Notas 6.0 de cuarto medio o 5.5 del año universitario anterior según ingreso; no NEM. Sin plazo exacto. Documentos mencionados parcialmente en PDF. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Certificados de notas en PDF; [OBLIGATORIO] Cartola RSH en PDF. Lista parcial; revisar bases completas y antecedentes condicionales.",
+    "fuentes": [
+      "https://www.municipalidadelbosque.cl/noticias-elbosque/el-bosque-inicia-las-postulaciones-a-la-beca-municipal-de-educacion-superior-2026/"
+    ]
+  }
+]

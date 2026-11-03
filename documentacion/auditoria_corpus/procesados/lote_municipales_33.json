@@ -1,0 +1,332 @@
+[
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivina.csv",
+    "referencia": "registro original 1",
+    "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+    "nombre": "Beca Municipal de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivina.csv",
+    "referencia": "registro original 2",
+    "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+    "nombre": "Beca de Pasajes Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivalpo.csv",
+    "referencia": "registro original 1",
+    "candidato": "aa013b0146553e7b0e067b6f4679bc116ca2adb1d0236724a07e06c2632f743c",
+    "nombre": "Beca Municipalidad de Valparaíso DIDECO",
+    "institucion": "Municipalidad de Valparaíso",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivalpo.csv",
+    "referencia": "registro original 2",
+    "candidato": "80328011768c2c041309c054119de2d6507bff94e8c44f7e3936689fcb085068",
+    "nombre": "Beca de Transporte Valparaíso",
+    "institucion": "Municipalidad de Valparaíso",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munialgarrobo.csv",
+    "referencia": "registro original 1",
+    "candidato": "d840f752644fa6f45b665e45970e8bf8289c6fc5d3cf681ed629b551eeecf97b",
+    "nombre": "Aporte Económico Municipal Algarrobo",
+    "institucion": "Municipalidad de Algarrobo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munialgarrobo.csv",
+    "referencia": "registro original 2",
+    "candidato": "16a87f1001172cd1fe3a85de4a9c84690d53a5532b890db085fdb1017d563322",
+    "nombre": "Aporte de Movilidad y Combustible Algarrobo",
+    "institucion": "Municipalidad de Algarrobo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_final.csv",
+    "referencia": "registro original 2",
+    "candidato": "18e1550121f574042d69816d620bee87afe404c09daf0a802e77c73b1ec10702",
+    "nombre": "Beca Municipal de Educación Superior El Quisco",
+    "institucion": "Municipalidad de El Quisco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque10_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "1bd209e4d81b1fcf12836288ad291f6bf67b4994895ff09f252caf910e36aced",
+    "nombre": "Beca Municipal de Educación Superior Colina",
+    "institucion": "Municipalidad de Colina",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque10_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "f86f49fa9f5183697b0a47b5b7b35bb2cf8ac981976445245e632c5bfb0e35b3",
+    "nombre": "Beca Ilustre Municipalidad de Buin (Educación Superior)",
+    "institucion": "Municipalidad de Buin",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "78a4f743b12141800333751fd86dfb32a3cb808f5f6e8fdef421b01ece5ce08b",
+    "nombre": "Beca Municipal Educación Superior Casablanca",
+    "institucion": "Municipalidad de Casablanca",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a",
+    "nombre": "Beca Municipal Educación Superior Hualpen",
+    "institucion": "Municipalidad de Hualpen",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "1d5e0e1a3d7093d6cd170875d30b640fc8e17c11a5ee6e1a0adf27f48e46680a",
+    "nombre": "Beca Municipal de Educación Superior Iquique",
+    "institucion": "Municipalidad de Iquique",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "13043d3d19445f14c45ecd7e23cadbfc64535a3f780d2ccb9abd004a76b54e4a",
+    "nombre": "Beca Municipal de Educación Superior Arauco",
+    "institucion": "Municipalidad de Arauco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "fd2aac77793899dd23a4a5a9b02243e5b958ab5463939bba252b884fc78245c8",
+    "nombre": "Beca Municipal Educación Superior Conchali",
+    "institucion": "Municipalidad de Conchali",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque17_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "785adf6fb6623ffd37230cbe0eaaa3ad1eaa0cb173382028b4bf8886a8c479ed",
+    "nombre": "Beca Municipal de Educación Superior Algarrobo",
+    "institucion": "Municipalidad de Algarrobo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque19_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+    "nombre": "Beca Municipal Estudios Superiores Cholchol",
+    "institucion": "Municipalidad de Cholchol",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque19_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "9c63f664610f354234d869125ae44862d9d795112f1a3aa9b32b49b189a1143f",
+    "nombre": "Beca Municipal Arauco (Educación Superior)",
+    "institucion": "Municipalidad de Arauco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "70347cf150e51c674a124886ead11a97ae2eed3e750356fad5f53093e36e3ee8",
+    "nombre": "Beca Traslado Estudiantil Educación Superior Curarrehue",
+    "institucion": "Municipalidad de Curarrehue",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque28_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "4d9024363f39a4b72d2505e9916452ad71c3b9facc1f34eaaaabdf559737ceae",
+    "nombre": "Programa Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Cerro Navia",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
+    "nombre": "Beca de Educación Superior Cholchol",
+    "institucion": "Municipalidad de Cholchol",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "a8184eb83e65d96f5f62c85c0538582a753ec0c9a555b0933f394bfd787422fc",
+    "nombre": "Programa Beca Estudiantil Educación Superior",
+    "institucion": "Municipalidad de Curarrehue",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque35_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "ea1dda12e8967edfff99c361904c0c5c6a46f0e2d2575e2535d80451e2a1f971",
+    "nombre": "Beca Municipal de Estudios Superiores Casablanca",
+    "institucion": "Municipalidad de Casablanca",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "0146efe14f2d738d086499d2a25891b94a909db2260927882cbe2f73aaf66d6b",
+    "nombre": "Beca de Mantención Educación Superior Conchali",
+    "institucion": "Municipalidad de Conchali",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 1",
+    "candidato": "8dacec815c407a63695707c2b6210a347fb63578abefbcc0d54c326997c2da72",
+    "nombre": "Beca Municipal Educación Superior Buin",
+    "institucion": "Municipalidad de Buin",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
+    "nombre": "Beca de Mantención Educación Superior Hualpen",
+    "institucion": "Municipalidad de Hualpen",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "878a3bcced5d9efe65003d6a97a447f82a501b5e95e07232249ae3691fe1142d",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Colina",
+    "institucion": "Municipalidad de Colina",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a",
+    "nombre": "Beca Municipal Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "b8b0e486aadb5a9ea10a112dcb4f875f4b70455792e81803392506fd81120baf",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Iquique",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "b0def70562b69ba14b519719d0fa9e77d898619399ec6cb561137b13f67166ad",
+    "nombre": "Beca Municipal Educación Superior",
+    "institucion": "Municipalidad de El Quisco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "5c2cf6dda66f201f1755ba293ff38adf6a858dca012b111cc4184753ae34dc3d",
+    "nombre": "Beca Municipal Educación Superior Valparaíso",
+    "institucion": "Municipalidad de Valparaíso",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac",
+    "nombre": "Beca de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_auditadas.csv",
+    "referencia": "registro original 3",
+    "candidato": "4d3567990809fd93a61d77393e29c566a283eaaff612dfb649ebb9495ed8ab9f",
+    "nombre": "Beca Municipal Educación Superior Cerro Navia",
+    "institucion": "Municipalidad de Cerro Navia",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  }
+]

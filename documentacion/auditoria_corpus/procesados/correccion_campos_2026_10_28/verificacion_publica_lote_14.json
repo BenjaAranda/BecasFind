@@ -1,0 +1,27 @@
+{
+  "filas": 528,
+  "detalles": 19,
+  "uuid_preservados": true,
+  "filtros_nuevos_verificados": 2,
+  "categorias_generales_con_cobertura_por_confirmar": 17,
+  "identidades_sin_confirmar": 2,
+  "tipos": {
+    "Beca de Mantención": 278,
+    "Beca de Arancel": 112,
+    "Apoyo municipal · cobertura por confirmar": 17,
+    "Beca Deportiva": 33,
+    "Apoyo mixto o varias modalidades": 7,
+    "Beca de Movilidad": 3,
+    "Beca de Alimentación": 14,
+    "Beca de Excelencia Académica": 60,
+    "Articulación académica sin aporte monetario": 1,
+    "Identidad del programa por confirmar": 2,
+    "Admisión especial sin beca acreditada": 1
+  },
+  "estados": {
+    "CERRADA": 58,
+    "ABIERTA": 7,
+    "EN_REVISION": 199,
+    "FECHAS_POR_CONFIRMAR": 264
+  }
+}

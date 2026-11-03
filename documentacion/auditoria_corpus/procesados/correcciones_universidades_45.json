@@ -1,0 +1,232 @@
+[
+  {
+    "candidato": "9480220484dc43773469aff604795c0a6d27b18e8441b28a834f6689efe60da3",
+    "nombre": "Beca Deportiva UNAB",
+    "institucion": "Universidad Nacional Andrés Bello",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://explora.unab.cl/deportes-unab-formacion-apoyo-y-oportunidades-para-compatibilizar-los-estudios-con-el-alto-rendimiento/"
+    ],
+    "campos": {
+      "monto": "10 a 100 % del arancel anual según evaluación",
+      "url": "https://explora.unab.cl/deportes-unab-formacion-apoyo-y-oportunidades-para-compatibilizar-los-estudios-con-el-alto-rendimiento/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "fecha_inicio": "2026-09-01",
+      "fecha_cierre": "2027-01-31"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "a495c84181a2e5a241bf753c046b7377b4f50c2f90009f36c5215fcc8f0c431e",
+    "nombre": "Beca Fomento Regional UNAB",
+    "institucion": "Universidad Nacional Andrés Bello",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.unab.cl/becas-unab/"
+    ],
+    "campos": {
+      "monto": "Rebaja de arancel para egresados de regiones fuera de RM en sede Viña del Mar",
+      "url": "https://admision.unab.cl/becas-unab/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "e5aec1327d896ba5c9da9edc8c160e856e0c91807fee44d5710a7c4351eb51ee",
+    "nombre": "Beca Familiar USS",
+    "institucion": "Universidad San Sebastián",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "campos": {
+      "monto": "10 % del arancel anual",
+      "url": "https://admision.uss.cl/becas-y-financiamiento",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "10",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "81c96cf6918051e9300d2fc634f368dcfad7af34d0a832cc20ff316ed5d30b8d",
+    "nombre": "Beca Titulados USS",
+    "institucion": "Universidad San Sebastián",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "campos": {
+      "monto": "30 % del arancel anual",
+      "url": "https://admision.uss.cl/becas-y-financiamiento",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "30",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "91beafc8e8b96777ac1fe4b984f4df92a5a8427a0bb158e10c3176a3344d25f3",
+    "nombre": "Beca Hijo de Egresados USS",
+    "institucion": "Universidad San Sebastián",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "campos": {
+      "monto": "10 % del arancel anual",
+      "url": "https://admision.uss.cl/becas-y-financiamiento",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "10",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "2b1c57c9a5601c1d0e16f9adaffad9446ede5acd557da6f440532864bb93fbce",
+    "nombre": "Beca Excelencia Académica USS",
+    "institucion": "Universidad San Sebastián",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uss.cl/becas-y-financiamiento"
+    ],
+    "campos": {
+      "monto": "20 % del arancel anual o semestral según carrera",
+      "url": "https://admision.uss.cl/becas-y-financiamiento",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "20",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "c2d84306e2e91126d41dbe65c3333d4c5b726268307f64b77b52a68e1f814a11",
+    "nombre": "Beca Puntaje PAES UDP",
+    "institucion": "Universidad Diego Portales",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "campos": {
+      "monto": "25 % del arancel anual solo primer año. Admisión 2026",
+      "url": "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "25",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "316355690ce80d505a6d0de458c1b76920022ecc9bcd24840a69e50e6261c52a",
+    "nombre": "Beca Bachillerato Internacional UDP",
+    "institucion": "Universidad Diego Portales",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "campos": {
+      "monto": "25 % del arancel anual solo primer año",
+      "url": "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "25",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "d259e0e1d4c41596f82905035b8c53761c59ca8e741e6f023f44d9078d714cb4",
+    "nombre": "Beca Deportista Destacado UDP",
+    "institucion": "Universidad Diego Portales",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/"
+    ],
+    "campos": {
+      "monto": "Hasta 20 % del arancel anual",
+      "url": "https://admision.udp.cl/becas-y-beneficios/becas-y-beneficios-udp/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "b90cca7033047ac2c4805a0d5a1dbf92b8b413311a14c8c583b39a6367773980",
+    "nombre": "Beca Alumni UFT",
+    "institucion": "Universidad Finis Terrae",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.finis.cl/becas-y-beneficios/"
+    ],
+    "campos": {
+      "monto": "10 % del arancel anual para segunda carrera",
+      "url": "https://admision.finis.cl/becas-y-beneficios/",
+      "cobertura_tipo": "PORCENTUAL",
+      "cobertura_porcentaje": "10",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "02dcb6d235a1072697d929f9b3f644f24d2782b6f2356b0310d357ae8f39d99d",
+    "nombre": "Beca Deportiva UFT",
+    "institucion": "Universidad Finis Terrae",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.finis.cl/becas-y-beneficios/"
+    ],
+    "campos": {
+      "monto": "Hasta dos becas del 100 % de arancel anual. Distribución por comité",
+      "url": "https://admision.finis.cl/becas-y-beneficios/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  },
+  {
+    "candidato": "52cd38af83cfb47bc031ff8fc8c6aae3b755b49a95933212da99822eef5b3f55",
+    "nombre": "Beca Deportiva UA",
+    "institucion": "Universidad Autónoma de Chile",
+    "revisado": "2026-10-01",
+    "fuentes": [
+      "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/"
+    ],
+    "campos": {
+      "monto": "100 % internacional o 50 % nacional del arancel anual",
+      "url": "https://admision.uautonoma.cl/becas-y-creditos/becas-internas/",
+      "cobertura_tipo": "DESCONOCIDA",
+      "cobertura_porcentaje": "",
+      "cobertura_periodicidad": "",
+      "estado_activa": "false",
+      "solo_crear": "false"
+    },
+    "limite": "Revisión parcial. Condiciones y equivalencias en REVISION_UNIVERSIDADES_45.md; sin certificación completa ni activación."
+  }
+]

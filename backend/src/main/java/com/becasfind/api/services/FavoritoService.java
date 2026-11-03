@@ -10,7 +10,11 @@ public interface FavoritoService {
 
     void eliminar(String email, Long idBeca);
 
+    void eliminar(String email, java.util.UUID publicId);
+
     List<BecaDTO> listar(String email);
 
     boolean isFavorito(String email, Long idBeca);
+
+    boolean isFavorito(String email, java.util.UUID publicId);
 }

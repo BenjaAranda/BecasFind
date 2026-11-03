@@ -1,0 +1,354 @@
+{
+  "verificado_utc": "2026-10-30T23:59:44.665553+00:00",
+  "filas_catalogo": 528,
+  "uuid_unicos": 528,
+  "estados": {
+    "CERRADA": 112,
+    "FECHAS_POR_CONFIRMAR": 221,
+    "ABIERTA": 8,
+    "EN_REVISION": 187
+  },
+  "inconclusas_publicas_conciliadas": 187,
+  "detalles_comprobados": [
+    {
+      "id_beca": 11,
+      "public_id": "da8bdcfe-2746-4a95-92c0-852042f7a903",
+      "estado": "CERRADA",
+      "cierre": "2026-05-31"
+    },
+    {
+      "id_beca": 20,
+      "public_id": "6ec7f358-681e-43d2-a8cc-5a8d7a27da76",
+      "estado": "CERRADA",
+      "cierre": "2026-04-14"
+    },
+    {
+      "id_beca": 24,
+      "public_id": "32d2a10c-1c8b-46d9-b461-84b8082d9a6a",
+      "estado": "CERRADA",
+      "cierre": "2026-04-12"
+    },
+    {
+      "id_beca": 35,
+      "public_id": "0573fb91-8350-4e79-850c-322ffc876913",
+      "estado": "CERRADA",
+      "cierre": "2026-10-19"
+    },
+    {
+      "id_beca": 39,
+      "public_id": "ee214984-660e-433b-80bd-1a2ccc48e3dd",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 42,
+      "public_id": "a1c86c4a-c48e-40e8-b190-a75e6684fb56",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 76,
+      "public_id": "6e1979d4-9c61-4b08-a45b-6b6d6e2525ca",
+      "estado": "CERRADA",
+      "cierre": "2026-03-27"
+    },
+    {
+      "id_beca": 80,
+      "public_id": "6fc9b420-ae9b-4e94-94ed-83b7b2ed7673",
+      "estado": "CERRADA",
+      "cierre": "2026-03-13"
+    },
+    {
+      "id_beca": 113,
+      "public_id": "996eddb7-7f41-4663-9f39-10b21144d7b3",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 115,
+      "public_id": "c7a19c94-6821-43ec-ae63-be7125b86796",
+      "estado": "CERRADA",
+      "cierre": "2026-10-23"
+    },
+    {
+      "id_beca": 116,
+      "public_id": "a5aeebbd-0be7-48ea-825d-7cbb8099e7fb",
+      "estado": "CERRADA",
+      "cierre": "2026-05-25"
+    },
+    {
+      "id_beca": 128,
+      "public_id": "9b9a66e2-2676-45ee-9b76-f9032fa0df06",
+      "estado": "CERRADA",
+      "cierre": "2026-04-17"
+    },
+    {
+      "id_beca": 132,
+      "public_id": "2120c1b4-12d2-48d4-9ae2-460317c24da5",
+      "estado": "CERRADA",
+      "cierre": "2026-03-12"
+    },
+    {
+      "id_beca": 146,
+      "public_id": "f10dcc10-b985-4bb8-aa58-329d54d8ed60",
+      "estado": "CERRADA",
+      "cierre": "2026-04-13"
+    },
+    {
+      "id_beca": 154,
+      "public_id": "3fbb74c4-279f-4ecf-8c5e-4b9cbe98c4d3",
+      "estado": "CERRADA",
+      "cierre": "2026-02-20"
+    },
+    {
+      "id_beca": 159,
+      "public_id": "82238e26-0d6e-456b-92be-b1deef4a2b8b",
+      "estado": "CERRADA",
+      "cierre": "2026-06-15"
+    },
+    {
+      "id_beca": 166,
+      "public_id": "3e8215fc-2554-465f-bedd-5d8dcf7a5f6a",
+      "estado": "CERRADA",
+      "cierre": "2026-01-04"
+    },
+    {
+      "id_beca": 179,
+      "public_id": "61343ed1-6067-4ff3-a855-8359299426c4",
+      "estado": "CERRADA",
+      "cierre": "2026-04-01"
+    },
+    {
+      "id_beca": 188,
+      "public_id": "96a2f04e-fa92-4963-bbca-0820613a6941",
+      "estado": "CERRADA",
+      "cierre": "2026-08-31"
+    },
+    {
+      "id_beca": 200,
+      "public_id": "c5993f59-b9d2-482f-b670-5f63d97bd9de",
+      "estado": "CERRADA",
+      "cierre": "2026-06-05"
+    },
+    {
+      "id_beca": 207,
+      "public_id": "4a1e3ab6-2492-4159-8718-cbdd03eae1a9",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 224,
+      "public_id": "c40dabd6-af08-4c3d-a6e3-3c320a4c3717",
+      "estado": "CERRADA",
+      "cierre": "2026-01-04"
+    },
+    {
+      "id_beca": 252,
+      "public_id": "da9f9f5b-9006-466f-824c-08df80484463",
+      "estado": "CERRADA",
+      "cierre": "2026-04-20"
+    },
+    {
+      "id_beca": 258,
+      "public_id": "ff4ef933-fe40-48f6-a450-ddf0bd6f59a3",
+      "estado": "CERRADA",
+      "cierre": "2026-01-29"
+    },
+    {
+      "id_beca": 269,
+      "public_id": "d12d90d3-2fdc-4d6b-b0f3-d9d776686d8f",
+      "estado": "CERRADA",
+      "cierre": "2026-01-08"
+    },
+    {
+      "id_beca": 275,
+      "public_id": "74742803-319e-4295-b5a4-c29eb9f43f8a",
+      "estado": "CERRADA",
+      "cierre": "2026-03-12"
+    },
+    {
+      "id_beca": 283,
+      "public_id": "87e0f3a8-aac5-4be8-b93f-e922e26819ac",
+      "estado": "CERRADA",
+      "cierre": "2026-06-05"
+    },
+    {
+      "id_beca": 311,
+      "public_id": "4e6e42c8-9ad5-485a-a37d-631911a93a5c",
+      "estado": "CERRADA",
+      "cierre": "2026-03-20"
+    },
+    {
+      "id_beca": 315,
+      "public_id": "725bd129-0f0e-4f93-84ae-b2435a4a505a",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 316,
+      "public_id": "a9d0f01b-1b36-432b-8f9f-20151ec88fc1",
+      "estado": "CERRADA",
+      "cierre": "2026-04-17"
+    },
+    {
+      "id_beca": 326,
+      "public_id": "b5a8075b-4929-4962-9250-e02ee9fa6236",
+      "estado": "CERRADA",
+      "cierre": "2026-03-27"
+    },
+    {
+      "id_beca": 330,
+      "public_id": "d07b4f20-aa32-40bc-b1ab-4a4a651f8e29",
+      "estado": "CERRADA",
+      "cierre": "2026-03-06"
+    },
+    {
+      "id_beca": 339,
+      "public_id": "84f4de8c-14a6-4f74-979b-4ee171ac3d77",
+      "estado": "CERRADA",
+      "cierre": "2026-06-15"
+    },
+    {
+      "id_beca": 345,
+      "public_id": "8aadf4e9-53dc-4ebd-a682-3dd906b13c41",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 348,
+      "public_id": "9cb796f5-6d14-44ed-a5d4-3f0e0447c2d4",
+      "estado": "CERRADA",
+      "cierre": "2026-05-31"
+    },
+    {
+      "id_beca": 359,
+      "public_id": "548e96a8-e7d8-4b16-b549-c802242d17a4",
+      "estado": "CERRADA",
+      "cierre": "2026-04-27"
+    },
+    {
+      "id_beca": 361,
+      "public_id": "bf5876ae-5c03-4e17-956e-befbdf065784",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 387,
+      "public_id": "ccffe04f-d144-4837-b452-b7dacf9c6bce",
+      "estado": "CERRADA",
+      "cierre": "2026-03-27"
+    },
+    {
+      "id_beca": 399,
+      "public_id": "2a43fa46-4a31-4018-9242-9e45bc61e0f1",
+      "estado": "CERRADA",
+      "cierre": "2026-09-01"
+    },
+    {
+      "id_beca": 409,
+      "public_id": "cc02bb04-7363-4469-bc08-965b3c22b50b",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 411,
+      "public_id": "10cdc994-9b07-4f5f-994d-e269c935b2cf",
+      "estado": "CERRADA",
+      "cierre": "2026-03-27"
+    },
+    {
+      "id_beca": 429,
+      "public_id": "e66bd0e5-eb94-41d4-9dbb-02a5664029d0",
+      "estado": "CERRADA",
+      "cierre": "2026-05-07"
+    },
+    {
+      "id_beca": 448,
+      "public_id": "c2d34bc4-82a0-44d4-b0b3-f1cd8232c1b6",
+      "estado": "CERRADA",
+      "cierre": "2026-08-20"
+    },
+    {
+      "id_beca": 460,
+      "public_id": "f34f34e9-bb29-47a7-8dfb-6c1c470da438",
+      "estado": "CERRADA",
+      "cierre": "2026-03-12"
+    },
+    {
+      "id_beca": 470,
+      "public_id": "846bcf1d-45f4-47e2-ad41-eb2ad963c3db",
+      "estado": "CERRADA",
+      "cierre": "2026-09-21"
+    },
+    {
+      "id_beca": 471,
+      "public_id": "75e2f5b1-e021-4fe4-8534-fd2b2cf2c085",
+      "estado": "CERRADA",
+      "cierre": "2026-10-21"
+    },
+    {
+      "id_beca": 484,
+      "public_id": "d2d2f486-7d6e-4ae6-85ff-8f19587f7c65",
+      "estado": "CERRADA",
+      "cierre": "2026-01-29"
+    },
+    {
+      "id_beca": 516,
+      "public_id": "61fdbc15-b108-4d89-9657-8fdda6b595e1",
+      "estado": "CERRADA",
+      "cierre": "2026-04-17"
+    },
+    {
+      "id_beca": 524,
+      "public_id": "3d0bbdd0-8d31-497a-969a-2ea6ddbeb029",
+      "estado": "CERRADA",
+      "cierre": "2026-03-31"
+    },
+    {
+      "id_beca": 255,
+      "public_id": "d4b5e1f3-91b1-4091-834a-2a9f9f05bfed",
+      "estado": "ABIERTA",
+      "cierre": "2026-11-05"
+    },
+    {
+      "id_beca": 327,
+      "public_id": "c6303482-479e-4955-80d0-9827c0f9151e",
+      "estado": "ABIERTA",
+      "cierre": "2026-11-05"
+    },
+    {
+      "id_beca": 12,
+      "public_id": "98c9d555-3d2d-4934-b772-de3c7829fc89",
+      "estado": "CERRADA",
+      "cierre": "2026-04-30"
+    },
+    {
+      "id_beca": 211,
+      "public_id": "3112dffa-bfb6-4917-884b-1bc63e2fe7c6",
+      "estado": "CERRADA",
+      "cierre": "2026-04-30"
+    },
+    {
+      "id_beca": 461,
+      "public_id": "a0830043-203b-4bbf-8c1d-c3cdeaa28293",
+      "estado": "CERRADA",
+      "cierre": "2026-04-30"
+    },
+    {
+      "id_beca": 464,
+      "public_id": "29e88760-f0c1-427d-a27c-8a6496624a5a",
+      "estado": "CERRADA",
+      "cierre": "2026-04-30"
+    },
+    {
+      "id_beca": 489,
+      "public_id": "c8982c95-c281-4d09-9cf7-317a8de7b21a",
+      "estado": "CERRADA",
+      "cierre": "2026-04-30"
+    }
+  ],
+  "abiertas_en_busqueda_vigente": 8,
+  "anonimo": true,
+  "cors_preview": true,
+  "limite": "Comprobación documental y de publicación de este bloque; no ejecuta una batería de pruebas de backend/frontend. BUCH cerró mediante su temporizador el 30/10 a las 12:00; no es una eliminación ni un cambio de esta auditoría."
+}

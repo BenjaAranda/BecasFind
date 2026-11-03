@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-10-01",
+  "resultado": {
+    "creadas": 0,
+    "actualizadas": 7,
+    "omitidas": 0,
+    "errores": 0,
+    "mensajesError": []
+  },
+  "registros_restantes_preservados": true,
+  "activadas": 0,
+  "busqueda_publica_preservada": true,
+  "catalogo_publico_preservado": true,
+  "respaldo_restaurado": true,
+  "archivo_sha256": "01b4c83a1f2b8b2643279470880b802d5d8d53a400f3b1c7632061edf8cbc615",
+  "respaldo_sha256": "8f0976895dd176118465ec5c2c58042618a7b1af48c6f1c7bef9583b3f927455"
+}

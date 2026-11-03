@@ -1,0 +1,18 @@
+{
+  "fecha_utc": "2026-11-01T17:54:16.540752+00:00",
+  "sql_sha256": "b000f898642fe71bf2d0676d6ab86c588c50195ac142ef70311ee9412b0eac19",
+  "respaldo_privado": "~/.local/state/becasfind/backups/pre-catalogo-20261101T175238Z-f403444e.dump",
+  "restauracion_aislada_previa_14_tablas": true,
+  "id_beca": 374,
+  "filas_modificadas": 1,
+  "otras_filas_identicas": 527,
+  "uuid_antes": 528,
+  "uuid_despues": 528,
+  "version_despues": 3,
+  "original_integro_conservado": true,
+  "tablas_ajenas_identicas": 13,
+  "activaciones": 0,
+  "eliminaciones": 0,
+  "mojibake": 0,
+  "estado": "APLICADA_Y_VERIFICADA"
+}

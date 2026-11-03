@@ -12,8 +12,8 @@ export default function SortSelector({ value, onChange }: SortSelectorProps) {
     >
       <option value="fechaAsc">Más próximas a vencer</option>
       <option value="fechaDesc">Mayor plazo</option>
-      <option value="montoAsc">Menor monto</option>
-      <option value="montoDesc">Mayor monto</option>
+      <option value="montoAsc">Menor importe dentro de cada grupo</option>
+      <option value="montoDesc">Mayor importe dentro de cada grupo</option>
     </select>
   );
 }

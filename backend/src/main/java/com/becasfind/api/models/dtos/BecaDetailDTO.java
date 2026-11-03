@@ -19,6 +19,11 @@ public class BecaDetailDTO {
 
     private Long idBeca;
 
+    private Long version;
+
+    @com.fasterxml.jackson.annotation.JsonIgnore
+    private java.util.UUID publicId;
+
     private String nombre;
 
     private String descripcionCorta;
@@ -27,6 +32,8 @@ public class BecaDetailDTO {
 
     private String montoCobertura;
 
+    private CoberturaDTO cobertura;
+
     private LocalDate fechaInicioPostulacion;
 
     private LocalDate fechaCierrePostulacion;
@@ -34,6 +41,8 @@ public class BecaDetailDTO {
     private String urlOficial;
 
     private Boolean estadoActiva;
+
+    private EstadoPostulacion estadoPostulacion;
 
     private InstitucionDTO institucion;
 

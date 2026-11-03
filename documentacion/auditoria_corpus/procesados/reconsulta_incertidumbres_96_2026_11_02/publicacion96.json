@@ -1,0 +1,13 @@
+{
+  "verificado_utc": "2026-11-02T21:14:01.871410+00:00",
+  "origen_agregado": "https://becasfind-pf8timp72-benjatlou13-1274.vercel.app",
+  "origenes_anteriores_conservados": true,
+  "frontend_url_conservada": true,
+  "api_y_cors_local": true,
+  "contenedor_anterior": "becasfind-api-before-preview-20261102t211350313497z",
+  "imagen_anterior": "sha256:31d2a5f678686be6db43999479f298733f79acffb7c43dcad01eac7cb560e20d",
+  "imagen_actual": "sha256:92d6b0cc5a0b2b0b3e02b5ec2de7044760cac2e88f51adde34be0cdff55a0a45",
+  "imagen_conservada": false,
+  "env_anterior_sha256": "1eca4337a05849c6b5554798a8c3330381a8d0de264c31d383874a95ead933a4",
+  "limite": "No sustituye el preflight externo ni la prueba en navegador."
+}

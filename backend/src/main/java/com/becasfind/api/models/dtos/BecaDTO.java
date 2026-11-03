@@ -17,13 +17,21 @@ public class BecaDTO {
 
     private Long idBeca;
 
+    private Long version;
+
+    private java.util.UUID publicId;
+
     private String nombre;
 
     private String descripcionCorta;
 
     private String montoCobertura;
 
+    private CoberturaDTO cobertura;
+
     private LocalDate fechaCierrePostulacion;
+
+    private LocalDate fechaInicioPostulacion;
 
     private String urlOficial;
 
@@ -32,4 +40,8 @@ public class BecaDTO {
     private String nombreTipoBeca;
 
     private String nombreRegion;
+
+    private Boolean estadoActiva;
+
+    private EstadoPostulacion estadoPostulacion;
 }

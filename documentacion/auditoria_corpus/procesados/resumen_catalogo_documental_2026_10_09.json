@@ -1,0 +1,20 @@
+{
+  "candidatas_origen": 568,
+  "fichas_documentales": 553,
+  "alias_consolidados": 15,
+  "estados_fichas": {
+    "CONFIRMADA_COMPLETA": 2,
+    "CONFIRMADA_ESENCIAL": 419,
+    "EXCLUSION_HISTORICA_SIN_RATIFICAR": 42,
+    "REQUIERE_ACLARACION": 90
+  },
+  "confirmaciones_candidatas": {
+    "esenciales": 434,
+    "completas": 2
+  },
+  "candidatas_sin_resolucion": 132,
+  "originales_eliminados": 0,
+  "operaciones_bd": 0,
+  "despliegue": false,
+  "actualizado": "2026-10-12"
+}

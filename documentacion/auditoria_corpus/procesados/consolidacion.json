@@ -1,0 +1,384 @@
+{
+  "files": 93,
+  "original_rows": 641,
+  "candidates": 562,
+  "duplicate_candidates": 59,
+  "certified": 0,
+  "active": 0,
+  "files_sha256": [
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal.csv",
+      "sha256": "e6acb888ec7125a2007180e869b6811ad38375cec7b9276f384fbcac0e3aef8d"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/auditoria_municipal_fix.csv",
+      "sha256": "6f162587fc25cdb64ec9a8d463f1040a7d8b1e2da90996033bc20a3c0f3eb13c"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/beca_uai_fix.csv",
+      "sha256": "c96d9f4ce934f95eb8d086ae338d4e548cb3877d19b78d171ab4f930d6fd1cb2"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_aiep.csv",
+      "sha256": "37307b7967663a098a922df29081b58cab6da9381160056d0ba9ffd2312e260e"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_cftenac.csv",
+      "sha256": "edf16d18f5ad28465c17865041f13e288cf29d30446f118a198f7af3fc212229"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_duocuc.csv",
+      "sha256": "65e3eb3aa6e21bd04d266477f7adb6e5dcc0e6737db10b78ffcf842412d56619"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_inacap.csv",
+      "sha256": "ea3f12324c082d697e8c4e823bbd3028d1a25c522eea95b300f68097f82b2345"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ipchile.csv",
+      "sha256": "2bb0a696cb063a693fb6259b5a486077a24587152c9ccc13906691408374cc91"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_junaeb.csv",
+      "sha256": "3ce2fca824df339f31b3ff0d69d875b7f42a51e773aaf345ec7e27548c83a87b"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_mineduc.csv",
+      "sha256": "84200c7bf3ded055df36970da811c7ec6fb7cd961195f45989eb8ee23700fcef"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munialgarrobo.csv",
+      "sha256": "46153abb105f76b7f2a34ef4d279cccdc582b833d4fa4a8e5851f8ba23776e5a"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munilaserena.csv",
+      "sha256": "eb37fddf9d787975b1f5b6ae5ab3a8f579873bfef9a860613bb63ceb710ccbb5"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munistgo.csv",
+      "sha256": "f1c88bea70b0a009876075e32b98c82f780b8bbdb551d02f576f9587f970b8ec"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivalpo.csv",
+      "sha256": "25619ae335320f6363d65f9f4612bab752835f3578947ed731e227d686b6ce57"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_munivina.csv",
+      "sha256": "c795e3b68e27ced9732b1cbef8437c9e3b580e70b4d11a642aa0a97d7599ec93"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_puc.csv",
+      "sha256": "907be9cacf9749c0cd291b98c6d38a725238d8cff9f2d7944877a0db18b30599"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_pucv.csv",
+      "sha256": "575ca939a9fc50657f9c3f1cad8f95797c588fdb7e2291ad743fcb7c4648e6da"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_santotomas.csv",
+      "sha256": "d324dcc8cfec814e0f72d8dc84af010f4b1afdac1ecaf20465ace9d359696047"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uach.csv",
+      "sha256": "9321e5d0e550ef6e43ccc5e3fde95bf37d4fa32ea4265508d6a116f8fc11ba3e"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uah.csv",
+      "sha256": "f034c8230f1067f0bb0e3ba92e60ef8e2055ad10eb524410673d58f7aa8243b2"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uai.csv",
+      "sha256": "c6266948f11127e1ed99d1003ccbdae11fa93a28bdacad203b6707f7f1ad9fe4"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uandes.csv",
+      "sha256": "5e848b0ac9a1504854bd2f2f4f233a88416136d56fa241cd8572724d9d1d032b"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uautonoma.csv",
+      "sha256": "5e4c0fac69df2b4cca401c465e1f59284a0d51d70a35d8efccd5c9aee2458b17"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubb.csv",
+      "sha256": "1316ea9f8a3baccf75dfe50cf678aca93c426352a611092c715cb5dbb4097ad9"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ubo.csv",
+      "sha256": "2c812831703cb22f7dae12feaccd93ac1f76560c12966193761bc15d3056c09d"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucentral.csv",
+      "sha256": "bb344d96d0d569639e7a22038ae4709fffb8f2d50c270f5f3bc1e0e3ce10324a"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uchile.csv",
+      "sha256": "be1bf981714e0089d9c0a2a03022df260bf6b42d011b5dfcb3419338c47eab67"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucn.csv",
+      "sha256": "cf990f68325dab034095f5041b71818de268c45640ee58b42fe0e53c2cbbd8da"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsc.csv",
+      "sha256": "41f9356ccd2cec6b978886ef3053cb81e2f5353e8cf72fbfa812b69e0097462a"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ucsh.csv",
+      "sha256": "1e1f1f8a7ae76c5746eaa0ad01b3a1bad2b07de461296704cd9379463a691730"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uct.csv",
+      "sha256": "09613d62341ea7f472a2d49a0f06b1314d8765340adeaaa972738202f8c618df"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_udd.csv",
+      "sha256": "d8d5f59d87cb786a19deae642ce00a00e7c4bdbef3228eb23ba86d8bcc7050a9"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_udec.csv",
+      "sha256": "d3d249822031dae8673be2611e48b5ea50d19b89258937568f9afe660d9d6cc7"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_udla.csv",
+      "sha256": "b511b91fff9e5cd5486239af92b10ef2d2d99da7315d0362366ed340a902371b"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_udp.csv",
+      "sha256": "cad615e2d56b172504debd2937f5143bde409da5779c59aa129daddcb9d55c2d"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ufro.csv",
+      "sha256": "d6c692d61d8597965aa08c008b58ca6fe20972481e497ebae559dbffa9ded624"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uft.csv",
+      "sha256": "8f7784a5027ee589bd49a5c1e63e1e5570e1c95aa0f0c28280959c424b2c4f4f"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_ulagos.csv",
+      "sha256": "33776fdd728d0d15ce6f271da4b95a4731f7b0cff5728b194ec87d6e7293bbec"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umag.csv",
+      "sha256": "ac00880129ef690f093bf5b0364c7d63862a9f7ee8b66a60af1430b2b4fc474d"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_umayor.csv",
+      "sha256": "d58106901cdb208480411254151384e6a7edc9d3176f82571b16b3d75754beb2"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_unab.csv",
+      "sha256": "2173dd4ed1a1ec075104f2a1cdb0faf6168cb75fe3709f378e3ab1fb41869653"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_unap.csv",
+      "sha256": "5a6c918606705a32f108d64522c56469c3f3fac30f5cadf50e2b588f2399f269"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_upla.csv",
+      "sha256": "7cad131aa3c7efa82d470127ba883c53e1904ca3f24482515c2a196472ce8633"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_usach.csv",
+      "sha256": "6b31ad5aad7e82ce97f720f5d9167bf90cdda47b8c8d24932aa00cd55f34371c"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uss.csv",
+      "sha256": "f676395a40685750980c1223da6f55b7346cd926b9321560d9a21a1adb059ff4"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uta.csv",
+      "sha256": "c58d5321feb568258a8ecd178866068ec8a6bba0cafa013e76f6bddcd19d6447"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utalca.csv",
+      "sha256": "04c6a3ba7083aedde43346f5ab4e5394ab51b16b770b2772b4752dd8ca14e3dd"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_utfsm.csv",
+      "sha256": "7e39ce6452e94d648fbf0b2908237b4904b611d639271bccd148c55e30896dc6"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uv.csv",
+      "sha256": "76ed738809b07d3fa1522690eb5d0be351bed392ea1039365ca0c26d2c49209a"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/becas_uvm.csv",
+      "sha256": "b4b29ad419a217375e2f091b9b1ffcf6830b45f9e232b8c716ff3d976721adc9"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque10_muni.csv",
+      "sha256": "bfed414692af7657f814d5dbba3da13107e2e5e3fe11cf7e86028bc0fcae82be"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque11_muni.csv",
+      "sha256": "9d589e162ec9c5a8861baa2b5f702732d376dd95afe03cc86c6c70585f3372c5"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+      "sha256": "ba3b1ca6f19ac146407c64ad9d8091e6fcfc93d1cb805b4a8b885287d9ebe3c1"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+      "sha256": "494969ffa5fab2a782447e10317a7a874f74dd219e79db24682205c38a861ab2"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+      "sha256": "bb9b1907650f8ea5eeb0ba40e3f6bd1ced66e0acbb56d23360d343e9f6cad181"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+      "sha256": "99ecb7ca76fcf721660e5c589d9d9ce873dc76dcf2c36f81cd52aeed3e214004"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque16_muni.csv",
+      "sha256": "04bdec02761395e6e62b5a5f5386fbd9ff8c04ace25eaf0c5a03fdf5582cce45"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque17_muni.csv",
+      "sha256": "d10867c4dcb02086a89662afcfdc4843c911aebb08272e9207a23e9eac5a5887"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
+      "sha256": "7ff521c67f8a8c8763c3e6fdc9feaf57cc93a24fbc77c4784529195491c01df7"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque19_muni.csv",
+      "sha256": "14f3d4bc07a4b8f793680cd09273870918b2676e2d7805d23a3365b1b804db91"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque20_muni.csv",
+      "sha256": "2134f649ca2aea0a0abfc8c2f9faaac9579403ddfcebaa6576c62366dba50c54"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque21_muni.csv",
+      "sha256": "84216ef665ce1f0bc415e523cbd1a95f62725f6988d74b06ee9d5740a6c43b93"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque22_muni.csv",
+      "sha256": "461a69f80df811aec518b4d994238a9c272c3388f25d386b03ed12aaa45a7149"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque23_muni.csv",
+      "sha256": "92316446812eee089d8621d5e11ab204c711729308a12f4ec761b822104e7d7b"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque24_muni.csv",
+      "sha256": "8833ae047564abe281df2bf47a11be3a26e7a0037e609f2a95acd553146ae792"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
+      "sha256": "f56a41de57696ba8114428beb48e7f7e147d70101a7c6e579385e31fc045a604"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque26_muni.csv",
+      "sha256": "b60c94f90db5513b0564521160a8eb11727d1e78994ef9972f2c2bb122b400be"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque27_muni.csv",
+      "sha256": "bdedb8e9dbdb6c9bd82fd1286dbb8f9ffb7bd889caa14cc93c3dc4bb43e9b2c1"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque28_muni.csv",
+      "sha256": "9566fae759cb8ad9d99ac95d61a9f905c9da711f34f6baa29799faa480fd7bf4"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque29_muni.csv",
+      "sha256": "7a4e635dadf07ae6e1f0aa18a76153e2b471e90f28efe1c7046af587e8663965"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque30_muni.csv",
+      "sha256": "4c663e978c53406af747ace0937fa446c0990dc9461bf947e2a0eb316bf6a2e7"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque31_muni.csv",
+      "sha256": "fd28f3678e14e128bfc98548fd155f0cd16a506b9616f8202c8b97c0b58bd1d3"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque32_muni.csv",
+      "sha256": "8bbbfa86f26191253c1abcf0f6e221d10f7fa1908be5b04a901dd34cd7c4f5e9"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque33_muni.csv",
+      "sha256": "13df9edc8a10ea2e0a6dbc9fc0785e42390ac9c09aa66f9dbf6e64ccf6967d11"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+      "sha256": "b89b7a4a357b43363250a6d1f8fed3cdb56489a496488caa0d738180bdaf1706"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque35_muni.csv",
+      "sha256": "da37d9f37e055ac1cc5f0e2b7ce1c64a7c7d9ef9c7763cc842f6e594801091af"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+      "sha256": "1fa07c75a8664e867cae2ca3cbfb7b92154f214087b7cc0c4d056e348c72be23"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+      "sha256": "a68bd6b17ebb926a413b9b17a66bdf768c2b4bc7a4096720486a038036f7f4fe"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque38_muni.csv",
+      "sha256": "9cf4afa4d17483078d4394e106c6e551ad252e6413179584c33a4d5d8fed0920"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_docs.csv",
+      "sha256": "f99da0720e3007681624af480823a1512cf7ef15640de81ead52d3a2b18e2619"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque5_muni.csv",
+      "sha256": "e802df14742efcf0dfbc4a1fe1895efe2b663c9f1cd3a46482e97edefa10b656"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_docs.csv",
+      "sha256": "9e93eb7ee0c482a5c32e8a24a7a2165e258f1592495d711a1ba1d7440154d0c3"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
+      "sha256": "92388315c709db1343baf42d879aeacfa8d6fb49800a25f174310e1aba2352d1"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_docs.csv",
+      "sha256": "175e079ea4aeb9fae94c70372a299e027b83ca3d8a9c7ba7ea52a5e55be16f0c"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+      "sha256": "2b4f36fbe01c8e187024c4a625abe3353d4bb2aa7bfb15f118f03ef2596cba8f"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque8_docs.csv",
+      "sha256": "95c5879e7670ac8533f29eba8f63c064db9c458c1f83d5dc257453f17795a302"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_docs.csv",
+      "sha256": "57ad84358762157cab6661536f22f70569de7101e6ab3d9df12ebc0188803476"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque9_muni.csv",
+      "sha256": "011c592ab01d0d4067bd76ffda40456d73d757bb648730f41bde4d03f444db44"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque_muni_456.csv",
+      "sha256": "ebd3ec28d8bb8a902dd7ef6f91f58c0a5012370c5b154c06fb16a0d22f7a591a"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_auditadas.csv",
+      "sha256": "fd55571def961dab2fb21fa48ab2e2eb244af02c3115f648c5e8b5e2a9d0d9a7"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
+      "sha256": "0863e239a1cea958fc78341741b747bcd6ef24ff93794ffd146d56b587377ac2"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_final.csv",
+      "sha256": "a156816acd260f49409df6123979ca43ca144d741b3720558fb4e84923c6fd35"
+    },
+    {
+      "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+      "sha256": "6b5f1afe728f32c7536febb60fad6640308138cf94dc4189b0cd198357b23910"
+    }
+  ],
+  "parser_warnings": 17,
+  "partially_confirmed_candidates": 5
+}

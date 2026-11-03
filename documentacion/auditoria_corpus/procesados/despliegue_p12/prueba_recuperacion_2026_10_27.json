@@ -1,0 +1,17 @@
+{
+  "verificado_utc": "2026-10-27T19:45:27.104886+00:00",
+  "api": "https://155-181-41-231.sslip.io/api",
+  "smtp_oracle": true,
+  "entrega_real": true,
+  "enlace_https_preview": true,
+  "cambio_clave": true,
+  "reutilizacion_rechazada": true,
+  "sesion_anterior_invalidada": true,
+  "login_nuevo": true,
+  "student_admin_403": true,
+  "perfil_sin_datos_inventados": true,
+  "recomendaciones": true,
+  "favoritos_guardar_consultar_eliminar": true,
+  "cuenta": "Cuenta Gmail dedicada propiedad del usuario; credenciales privadas fuera del repositorio",
+  "caducidad": "No se forzó ni esperó la expiración en la base remota; cubierta por P09 local"
+}

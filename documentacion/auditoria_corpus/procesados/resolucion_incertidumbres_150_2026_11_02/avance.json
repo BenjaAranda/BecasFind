@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-11-02",
+  "cohorte_reabierta": 150,
+  "reconsultadas_individualmente": 54,
+  "sin_reconsulta_individual": 96,
+  "dictamenes_precisados": 33,
+  "inconclusas_en_bloque": 21,
+  "inconclusas_cohorte": 117,
+  "aplicadas": 54,
+  "activaciones": 3,
+  "eliminaciones": 0,
+  "clasificaciones_cohorte_466": {
+    "REVISION_INCONCLUSA": 117,
+    "SIN_CALENDARIO_PUBLICADO": 152,
+    "CALENDARIO_POR_MODALIDAD": 104,
+    "CERRADA_CONFIRMADA": 86,
+    "VIGENTE_CON_CIERRE_CONFIRMADO": 7
+  },
+  "estados_publicos": {
+    "CERRADA": 131,
+    "ABIERTA": 11,
+    "EN_REVISION": 117,
+    "FECHAS_POR_CONFIRMAR": 269
+  },
+  "estado_tarea": "EN_CURSO",
+  "limite": "No están resueltas todas las incertidumbres: 96 aún requieren nueva revisión individual, 21 mantienen dictamen inconcluso y los campos no publicados de otras fichas siguen desconocidos. No repetir SQL aplicado ni regenerar con los borradores de tmp."
+}

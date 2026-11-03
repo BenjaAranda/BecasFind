@@ -1,0 +1,322 @@
+[
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+    "referencia": "registro original 1",
+    "candidato": "c3449bf488fef3e4b256bd8d8faee4d3d38d0e215b646a93920ad810d17cd284",
+    "nombre": "Beca Municipal Educación Superior Maipu",
+    "institucion": "Municipalidad de Maipu",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_urbano.csv",
+    "referencia": "registro original 3",
+    "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+    "nombre": "Beca Municipal Educación Superior La Florida",
+    "institucion": "Municipalidad de La Florida",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque10_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "b4abedea616b97afaf36bc853b1258379835f447f55354b9985866ca429a659c",
+    "nombre": "Beca Municipal Educación Superior Paine",
+    "institucion": "Municipalidad de Paine",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque10_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "9e17a63a351bd5d9a214183edc39fa2f2c8c8837e5ee3f9b0db3333f35247f86",
+    "nombre": "Beca Municipal de Educación Superior Molina",
+    "institucion": "Municipalidad de Molina",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque12_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "5092c6312980bcfe38cd171b5db355a0e8a04f4de80c191017bb6608151e92a0",
+    "nombre": "Beca Municipal Educación Superior Machali",
+    "institucion": "Municipalidad de Machali",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "cba9604bbe173774416f073734453a6047425a6a0da36aa75fcca3c921601e64",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Lo Prado",
+    "institucion": "Municipalidad de Lo Prado",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque13_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "18cb53fe509caeed9752404d14f621a8b8af4eea7b50bb35301fa5f759cbb6b2",
+    "nombre": "Beca Municipal Educación Superior Panguipulli",
+    "institucion": "Municipalidad de Panguipulli",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque14_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "73acbb41b219b211ed0e0f4deeab2f72b0d4e65130ff86f830031966e9e8b6b6",
+    "nombre": "Beca Municipal para Estudios Superiores La Granja",
+    "institucion": "Municipalidad de La Granja",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Penaflor",
+    "institucion": "Municipalidad de Penaflor",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque15_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "6f31a1a550c43152541abba7392ff8334ed5840449d1d71c826d354a19cfa66b",
+    "nombre": "Beca Municipal Educación Superior Isla de Maipo",
+    "institucion": "Municipalidad de Isla de Maipo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "0e41cf1ebfdb5224ab698acd753ee65d9971b717b5f2e285337f2b631ee6443b",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Molina",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque18_muni.csv",
+    "referencia": "registro original 3",
+    "candidato": "89e6e393a324fe4f691f13fed69b77d60b29dd96767d8c8f7d0c6ad89c10b535",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Machali",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque23_muni.csv",
+    "referencia": "registro original 9",
+    "candidato": "80cc234b21d55436f4afa0bbfcee91e69e70c225808d3a44cb57c61570a64d4a",
+    "nombre": "Beca Estudiantil Municipal Los Sauces",
+    "institucion": "Municipalidad de Los Sauces",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque24_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "6fda2f2da246d5235e0fc5cf3a60ff0bc83888333b6ced0cc518cb80fdfd871c",
+    "nombre": "Beca Municipal de Mantención 2026 y Beca PAES",
+    "institucion": "Municipalidad de Panguipulli",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "6501ada7381928e9f2396ea5baa4bf078442e8981fc895734499d9139808421d",
+    "nombre": "Beca de Educación Superior Las Condes",
+    "institucion": "Municipalidad de Las Condes",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "50ce9b562c3494cfc27e1dd499fc90bb49d39b605325f095491b23057ee8a47a",
+    "nombre": "Beca Estudiantil Lampa (Educación Superior)",
+    "institucion": "Municipalidad de Lampa",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque25_muni.csv",
+    "referencia": "registro original 6",
+    "candidato": "ef6988a5b06dcc9019344a3036c07730adc3ede4b73a1ce1a11b2e552edff76f",
+    "nombre": "Beca Ilustre Municipalidad de Limache",
+    "institucion": "Municipalidad de Limache",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "323120dca07f297f629fc71a60d5b9fd0ba48b10c44b9ad45d9e10ea5ae86b51",
+    "nombre": "Beca Estudiantil Municipalidad de Melipeuco",
+    "institucion": "Municipalidad de Melipeuco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+    "referencia": "registro original 4",
+    "candidato": "dcb38cf7abb28bdff77f140c73299962ea5a8424bd50440c766c69f769804bb0",
+    "nombre": "Beca Municipal Los Sauces",
+    "institucion": "Municipalidad de Los Sauces",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque34_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "ae8c01706df16fc9b76b082a6ad29002f1c665951dccc04af004426663eabe19",
+    "nombre": "Beca Estudiantil Municipal Melipeuco",
+    "institucion": "Municipalidad de Melipeuco",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+    "referencia": "registro original 10",
+    "candidato": "8ab65568719a9608e437f36515de680a313dfdbd0d28d4b51f471736a02658f8",
+    "nombre": "Beca Municipal Estudiantil Lo Prado",
+    "institucion": "Municipalidad de Lo Prado",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "c9e5274d62f345099433f6aa2842dea701f6f16e263b004517d3c3c0edbc8f06",
+    "nombre": "Beca Municipal de Educación Superior Pudahuel",
+    "institucion": "Municipalidad de Pudahuel",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque36_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "2847e34534cb34947dec0aab78599d5c72c1ec8c56e2fceee9c566ef15c93dda",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior La Granja",
+    "institucion": "Municipalidad de La Granja",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "1b77c930cc4ec6ba4735090e67c1f7b4c14fe9dbfb5818f14e09a38a1522ea46",
+    "nombre": "Beca Municipal para la Educación Superior Paine",
+    "institucion": "Municipalidad de Paine",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 5",
+    "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
+    "nombre": "Beca de Educación Superior Municipalidad de Penaflor",
+    "institucion": "Municipalidad de Penaflor",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque37_muni.csv",
+    "referencia": "registro original 7",
+    "candidato": "380be2915801e1b17c2fa14c28a351bab0e6576b0aad988c9f7e6879c28a62b6",
+    "nombre": "Beca de Educación Superior Isla de Maipo",
+    "institucion": "Municipalidad de Isla de Maipo",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque6_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b",
+    "nombre": "Beca Municipal de Mantención Pudahuel",
+    "institucion": "Municipalidad de Pudahuel",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 2",
+    "candidato": "f3edd63a787ad1c010f0726016c24c9621cfe85f4cb657f26e8287131205f987",
+    "nombre": "Beca Municipal de Educación Superior Maipu",
+    "institucion": "Municipalidad de Maipu",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque7_muni.csv",
+    "referencia": "registro original 8",
+    "candidato": "3db63e158093f4ca059aa76fc230e609868cd150fbf00adc92115204f20847be",
+    "nombre": "Beca Municipal de Educación Superior La Florida",
+    "institucion": "Municipalidad de La Florida",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque_muni_456.csv",
+    "referencia": "línea física 3 reconstruida",
+    "candidato": "19f6c41c58aa99ac2e0c36c7f3d9981335261555aeadf2683371d4ad0c2ea25b",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Limache",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/bloque_muni_456.csv",
+    "referencia": "registro original 3",
+    "candidato": "8568b5a399f32efc017a64165a1ae4506dfd207d4ee0686f21e54b0131148deb",
+    "nombre": "Beca de Arancel Municipal para la Educación Superior",
+    "institucion": "Municipalidad de Lampa",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  },
+  {
+    "archivo": "ScrapperBecasFind/data_lake_becas/03_procesados/municipalidades_bloque3.csv",
+    "referencia": "línea física 2 reconstruida",
+    "candidato": "87d6aa970a561466fd44f04f7b7865cc9bd5fce4e881c859b56585a1dc72e6cc",
+    "nombre": "Beca de Educación Superior",
+    "institucion": "Municipalidad de Las Condes",
+    "estado": "SIN_REVISION_INDIVIDUAL",
+    "pendiente_confirmacion": "true",
+    "informes": ""
+  }
+]

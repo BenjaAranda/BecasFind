@@ -1,0 +1,660 @@
+{
+  "fecha": "2026-10-08",
+  "informe": "AMPLIACION_ESENCIAL_30_2026_10_08.md",
+  "respaldo": {
+    "ruta": "C:\\Users\\benja\\Documents\\BecasFind-respaldos\\corpus-antes-ampliacion30-20261007-212018.zip",
+    "archivos": 195,
+    "sha256": "9d906e1c362c5bd87ef8d0abce3efd5efd906a8bf56de9160eb015021ddeb73d"
+  },
+  "candidatas": [
+    {
+      "candidato": "16549819d19a32f2ee89760b7e220306352014258237afa4ee4a45d9ddddfbd6",
+      "alcance": "Beca Municipal de San Vicente de Tagua Tagua; categoría superior de la gestión 2025, páginas 157–158.",
+      "beneficio": "Aporte de $50.000 mensuales de marzo a diciembre.",
+      "requisitos_principales": "Estudiante de educación superior de escasos recursos y rendimiento sobresaliente; no contar con Beca Presidente de la República u otro beneficio similar.",
+      "limites": "No extender montos de enseñanza media o discapacidad a superior. Umbrales RSH y NEM y convocatoria actualmente abierta desconocidos.",
+      "fuentes": [
+        "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "f8f6b2d29630a76748a68d727c8c4b8234c4600d49459f1dd8b245f935fa225d",
+          "paginas": 256,
+          "url_final": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "fdd18ee0e2f9c495cc736519036023589e3ec6495ddafe7231f900598cb4c044",
+      "alcance": "Registro conjunto de San Vicente; se distinguen Beca Municipal superior y Estímulo para la Enseñanza Superior en gestión 2025, páginas 157–159.",
+      "beneficio": "Municipal superior: $50.000 mensuales marzo–diciembre. Estímulo: $130.000 por una vez y de libre disposición.",
+      "requisitos_principales": "Municipal: escasos recursos, rendimiento sobresaliente y sin BPR o similar. Estímulo: egresados de media o estudiantes superiores en universidad, IP o CFT acreditado; dificultad económica para estudiar fuera de la comuna.",
+      "limites": "Dos modalidades distintas: no sumar sus aportes ni afirmar compatibilidad. No convertir el registro conjunto en programa único. Los umbrales académicos y RSH no están definidos en la cuenta pública.",
+      "fuentes": [
+        "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "f8f6b2d29630a76748a68d727c8c4b8234c4600d49459f1dd8b245f935fa225d",
+          "paginas": 256,
+          "url_final": "https://storage.googleapis.com/san-vicente-bucket/archivos_portal/cuentas-publicas/68ea454d-0a0a-41b8-98e1-64b13bbbd818.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4",
+      "alcance": "Beca Municipal de Olivar; ejecución 2020, páginas 90–91 de la cuenta pública.",
+      "beneficio": "Aporte por semestre de $175.000 para estudiantes fuera de la región y $125.000 dentro de la región.",
+      "requisitos_principales": "Estudiar educación superior en universidad, instituto profesional o centro de formación técnica. Para continuidad en segundo semestre, acreditar alumno regular de ese periodo.",
+      "limites": "Importes individuales tomados de columnas monto c/u, sin dividir presupuestos. No inferir RSH, NEM ni condiciones completas de selección. El primer pago sin condicionante se refiere a beneficiarios seleccionados, no a admisión universal.",
+      "fuentes": [
+        "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "183f408284100ac317cdcb6c358450c2e74534e0c38a8133c460a30e907af575",
+          "paginas": 200,
+          "url_final": "https://muniolivar.cl/wp-content/uploads/2024/02/CUENTA-PUBLICA-2020-OLIVAR.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "00d1fa426f88bf92442581048ebdb3109c6b53bcb6ce2210a1a6fb33f41d813b",
+      "alcance": "Beca Municipal de La Estrella; categoría superior ejecutada en 2021, páginas 76–77.",
+      "beneficio": "$36.042 mensuales; total anual de $360.420 por estudiante de educación superior.",
+      "requisitos_principales": "Estudiantes superiores originarios de la comuna que deben continuar sus estudios donde exista oferta de educación superior.",
+      "limites": "La cuenta pública explica el apoyo en contexto de vulnerabilidad, pero no fija RSH ni NEM exigibles: quedan desconocidos. No trasladar el monto de enseñanza media. Confirmación histórica, sin certificar convocatoria actual.",
+      "fuentes": [
+        "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "03cfeb0efb9ff38bbcc3d0bf1bcb4c5b767362ee22bc899e93231a1930cbcd01",
+          "paginas": 209,
+          "url_final": "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86",
+      "alcance": "Beca Municipal de Combarbalá; apartado 9.3 A de la gestión 2024.",
+      "beneficio": "$30.000 mensuales en primer semestre y $50.000 mensuales en segundo semestre de 2024.",
+      "requisitos_principales": "Estudiantes de la comuna que continúan estudios de educación superior.",
+      "limites": "La cuenta pública documenta destinatarios y finalidad, sin publicar todos los criterios de selección. No inferir RSH ni NEM. No confundir con beca PAES ni Hogar Limarí del mismo apartado.",
+      "fuentes": [
+        "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "1d32339631a9d2d8177ab41bb425d0dbfd339adb62ca37faeb26c9776be162aa",
+          "paginas": 273,
+          "url_final": "https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "f7261c871cbe8c66d41f4fa9e4f175a2132e4aa53988a454afd7394bf7734501",
+      "alcance": "Beca de educación superior de escasos recursos de Cerrillos; modificación de Ordenanza 20 publicada el 14 de noviembre de 2018.",
+      "beneficio": "Beca municipal para apoyar estudios superiores; importe individual desconocido en la modificación consultada.",
+      "requisitos_principales": "Estudiantes de escasos recursos de Cerrillos; NEM mínimo 5,5. Selección pondera vulnerabilidad 40%, NEM 40% e informe social 20%; se incorpora gratuidad a restricciones.",
+      "limites": "Decreto modificatorio, no texto consolidado: las restricciones adicionales no se reconstruyen por inferencia. No confirmar $150.000 del archivo ni RSH máximo. Puntaje nacional PSU es otra modalidad y no se convierte en PAES.",
+      "fuentes": [
+        "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "ffd2466d5ca4263502c731fe8bb10c493c648b74b3adcf148d1cb631d0be3fe9",
+          "paginas": 2,
+          "url_final": "https://www.diariooficial.interior.gob.cl/publicaciones/2018/11/14/42204/01/1493735.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a",
+      "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+      "beneficio": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+      "requisitos_principales": "Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.",
+      "limites": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
+      "fuentes": [
+        "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "1064a616500b239d8e1af3b34c4d6fad1f5700ee41372fbc5e03429118c90b36",
+          "paginas": 8,
+          "url_final": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",
+      "alcance": "Chiguayante: alcance corregido a beca para exalumnos destacados que cursan educación superior, ordenanza del 11 de julio de 2000, artículos 2, 12, 17, 18 y 21.",
+      "beneficio": "Beca de hasta 15 UTM al año, sujeta al acuerdo y presupuesto municipal; posible continuidad anual durante carrera regular.",
+      "requisitos_principales": "Egreso de establecimiento municipal de la comuna hace no más de tres años; promedio de enseñanza media al menos 6,0; PAA ponderada al menos 600 o, si no rindió PAA, matrícula superior reconocida. Conducta satisfactoria, mérito extraescolar y patrocinio de organización comunitaria o diez docentes.",
+      "limites": "El rótulo municipal del archivo es genérico: solo se confirma esta modalidad identificada en ordenanza, no una ayuda social universal. No certificar los $150.000, NEM 5,0 o RSH del original. No convertir PAA a PAES ni probar duplicidad entre candidatas. No acredita vigencia 2026.",
+      "fuentes": [
+        "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "1064a616500b239d8e1af3b34c4d6fad1f5700ee41372fbc5e03429118c90b36",
+          "paginas": 8,
+          "url_final": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "3fa8612380b4ad51b8c44464c5131318bed480987ec58b5611d0566484a82a0e",
+      "alcance": "UFRO: alojamiento en Residencias Estudiantiles Autogestionadas (REAS), alcance descrito en diagnóstico institucional 2023 y noticias 2024–2025.",
+      "beneficio": "Alojamiento en residencias autogestionadas; residentes contribuyen a servicios básicos. No se acredita subsidio monetario de arriendo.",
+      "requisitos_principales": "Estudiantes de pregrado provenientes de fuera de Temuco que necesitan alojamiento; selección contempla antecedentes académicos y socioeconómicos y revisión académica para renovar.",
+      "limites": "Se confirma exclusivamente REAS. El diagnóstico no fija umbrales, que quedan desconocidos; no certificar RSH 60%, alojamiento totalmente gratuito ni manutención completa. Cupos operativos de noticias no se presentan como oferta actual.",
+      "fuentes": [
+        "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+        "https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/",
+        "https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "170a8a901766c903089d59742cfe35784bb63c5163b628740a8768019e9b22cc",
+          "paginas": 155,
+          "url_final": "https://dde.ufro.cl/wp-content/uploads/2023/12/Diagno%CC%81stico-BIE-web.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://dde.ufro.cl/las-residencias-estudiantiles-autogestionadas-celebran-32-anos-de-existencia/",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://dde.ufro.cl/universidad-de-la-frontera-recepciono-obras-de-mejoramiento-de-tres-de-sus-residencias-estudiantiles-autogestionadas/",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "9be6b079e6abf419333c410365d206221736d1cb8f7594f0927f0edf957f8094",
+      "alcance": "UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.",
+      "beneficio": "Reducción de hasta 100% del arancel anual según tramo de promedio PAES; se aplica al saldo después de beneficios externos.",
+      "requisitos_principales": "Estudiante nuevo de primer año 2026 por Sistema de Acceso; promedio de Competencia Lectora y Matemática 1 determina el tramo de beneficio.",
+      "limites": "No confundir con Excelencia UDLA por NEM de admisión directa. No certificar NEM 5,5 ni porcentajes 20–35/50 del archivo. Tabla numérica por carrera y renovación específica no reconstruidas. Dos candidatas conservadas sin declarar duplicidad.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+        "https://siae.udla.cl/sistema-de-becas/becas-udla/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://siae.udla.cl/sistema-de-becas/becas-udla/",
+          "consulta": "2026-10-07",
+          "sha256": "f4ac79b251195276efbf61cb30ffbeb4df4861784c8564e8f445748ff5320a54",
+          "url_final": "https://siae.udla.cl/becas-udla/",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00",
+      "alcance": "UDLA: modalidad Puntaje PAES de ingreso centralizado 2026; catálogo oficial, página 230.",
+      "beneficio": "Reducción de hasta 100% del arancel anual según tramo de promedio PAES; se aplica al saldo después de beneficios externos.",
+      "requisitos_principales": "Estudiante nuevo de primer año 2026 por Sistema de Acceso; promedio de Competencia Lectora y Matemática 1 determina el tramo de beneficio.",
+      "limites": "No confundir con Excelencia UDLA por NEM de admisión directa. No certificar NEM 5,5 ni porcentajes 20–35/50 del archivo. Tabla numérica por carrera y renovación específica no reconstruidas. Dos candidatas conservadas sin declarar duplicidad.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+        "https://siae.udla.cl/sistema-de-becas/becas-udla/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://siae.udla.cl/sistema-de-becas/becas-udla/",
+          "consulta": "2026-10-07",
+          "sha256": "f4ac79b251195276efbf61cb30ffbeb4df4861784c8564e8f445748ff5320a54",
+          "url_final": "https://siae.udla.cl/becas-udla/",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "53e222463ef2465e09c5f0f2df32431163625b0939925ae40b86c676efa6a889",
+      "alcance": "AIEP: apoyo financiero para segunda carrera de titulados; modalidad publicada en Becas y Financiamiento.",
+      "beneficio": "10% de descuento del arancel del primer año de segunda carrera.",
+      "requisitos_principales": "Ser estudiante nuevo y titulado AIEP; disponibilidad de cupos.",
+      "limites": "Se corrige 20% del archivo. No extender a cualquier egresado sin título ni a todos los años. El nombre Titulado AIEP es editorial; no añadir beneficios de matrícula de otras promociones.",
+      "fuentes": [
+        "https://www.aiep.cl/admision/becas-y-financiamiento/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.aiep.cl/admision/becas-y-financiamiento/",
+          "consulta": "2026-10-07",
+          "sha256": "e664298b773a8b6b0e81ef53207d7fbdb82a27aba2eb90ec8566aaa31e27f3eb",
+          "url_final": "https://www.aiep.cl/admision/becas-y-financiamiento/",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "46ce6745c005ceab3194b5e57b25126208a6e023643949829942f594bc39ffce",
+      "alcance": "Beca Empresarios de Chile (BECH), exclusivamente modalidad Asistencial para 2026.",
+      "beneficio": "Rebaja porcentual del arancel semestral, comprendiendo matrícula, colegiatura y titulación; porcentaje individual no publicado.",
+      "requisitos_principales": "Alumno regular de Universidad Tecnológica de Chile INACAP matriculado en primer semestre 2026; pertenecer al 60% de menores ingresos según evaluación. Promedio 4,8 sin reprobadas o 5,0 con una reprobada.",
+      "limites": "La ficha del archivo atribuye sin respaldo 50%, parentesco y empresa CPC. Se corrige a la modalidad BECH Asistencial identificada por INACAP y se excluyen esas afirmaciones. No generalizar al CFT/IP ni otras modalidades BECH. Proceso de marzo–abril terminado.",
+      "fuentes": [
+        "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-asistencial"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://portal.inacap.cl/financiamiento-estudiantil/becas/beca-asistencial",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "c569b40a8d5f68cc73121d2de6883233dbc7c7dbcdb5c0258165d6c95ab22cfd",
+      "alcance": "Convenio INACAP con Mutual de Seguridad; condiciones del primer semestre 2025.",
+      "beneficio": "Descuento base de 20% de colegiaturas mensuales en carreras presenciales.",
+      "requisitos_principales": "Trabajador afiliado o hijo, cónyuge, conviviente civil u otra carga familiar acreditada; matrícula en INACAP en periodo referido.",
+      "limites": "Solo este convenio dentro del rótulo corporativo genérico. No atribuirlo a cualquier empresa ni trasladar promociones excepcionales por orden de matrícula. No acumulable con otras becas/descuentos INACAP.",
+      "fuentes": [
+        "https://portal.inacap.cl/w/descubre-los-convenios-de-financiamiento-para-el-primer-semestre-2025-en-inacap"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://portal.inacap.cl/w/descubre-los-convenios-de-financiamiento-para-el-primer-semestre-2025-en-inacap",
+          "consulta": "2026-10-07",
+          "sha256": "dc30e40e5082ea130ae19cd01281d4bf4ab56b565bb7b4cbd854a9cff2a6eb8f",
+          "url_final": "https://portal.inacap.cl/w/descubre-los-convenios-de-financiamiento-para-el-primer-semestre-2025-en-inacap",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5",
+      "alcance": "Beca Excelencia Académica interna de Universidad Santo Tomás; catálogo de admisión 2026, página 377.",
+      "beneficio": "35% a 50% de rebaja del saldo de arancel después de becas externas, según promedio.",
+      "requisitos_principales": "Desde segundo año; mejor promedio ponderado de carrera por sede, superior a 5,5; asignación automática.",
+      "limites": "Corrige la caracterización de ingreso por NEM/PAES. No confundir con BEA del Ministerio ni descuentos de primer año. No se valida una tabla de porcentaje por nota no incluida en la fuente.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff",
+      "alcance": "Santo Tomás: convenio específico con Empresa Arauco, para UST, IP y CFT.",
+      "beneficio": "15% de descuento del arancel remanente después de beneficios externos.",
+      "requisitos_principales": "Trabajadores de Celulosa Arauco y Constitución, sus hijos, cónyuges o convivientes civiles; acreditar situación laboral y parentesco.",
+      "limites": "Excluye carreras de salud y online. Renovación requiere mantener vínculo laboral durante duración formal. No extender a todas las empresas bajo el rótulo corporativo del archivo.",
+      "fuentes": [
+        "https://www.tupuedes.cl/becas-y-beneficios/convenios/convenio-empresa-arauco/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.tupuedes.cl/becas-y-beneficios/convenios/convenio-empresa-arauco/",
+          "consulta": "2026-10-07",
+          "sha256": "acf5374a4825ce9a5167737ea05adeae04785e022aac8c4ef31ec107e0348572",
+          "url_final": "https://www.tupuedes.cl/becas-y-beneficios/convenios/convenio-empresa-arauco/",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
+      "alcance": "Beca Universidad Finis Terrae por puntaje ponderado; ingreso regular 2026, catálogo páginas 343–344.",
+      "beneficio": "20% del arancel anual.",
+      "requisitos_principales": "Ingreso a primer año por admisión regular; puntaje ponderado mínimo definido por carrera.",
+      "limites": "La descripción original identifica mérito PAES, pero su título Excelencia y rango 30–100% no quedan respaldados: se corrige al nombre y beneficio oficiales. Umbral por carrera desconocido. No acumulable con otras becas internas; excluye gratuidad y arancel ajustado.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279",
+      "alcance": "Finis Terrae: Fondo de Ayuda Estudiantil, reglamento revisado el 19 de diciembre de 2025, artículos 1–11.",
+      "beneficio": "Rebaja de 10% a 80% del arancel anual por el año en curso, según evaluación y fondos.",
+      "requisitos_principales": "Pregrado regular con dos semestres cursados, dentro de duración formal; situación económica sobreviniente desfavorable; ingreso familiar per cápita máximo 14 UF mensuales; promedio anual mínimo 5,0 y sin reprobación el último semestre. Postulación o compromiso de postular a FUAS.",
+      "limites": "El rótulo socioeconómico del archivo se concreta en este fondo, no una beca universal por RSH. Se corrigen rango 15–40% y RSH 60%. Entrevista y evaluación; posible colaboración hasta cuatro horas semanales. No asignación automática ni renovación garantizada.",
+      "fuentes": [
+        "https://finis.cl/wp-content/uploads/2026/01/RBB-2025-pre-y-posgrado-FINAL.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://finis.cl/wp-content/uploads/2026/01/RBB-2025-pre-y-posgrado-FINAL.pdf",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "6df6b1fdb7542c8a80b8340c0cf17a92226887ab13bbf0501c4654787428d33e",
+      "alcance": "Universidad Mayor: Beca Copago 0 DTE; reglamento 2026, artículos 55–60.",
+      "beneficio": "Financia el copago del arancel después de beneficios estatales para la modalidad DTE.",
+      "requisitos_principales": "Beneficiario de beca Mineduc Distinción a las Trayectorias Educativas; ingreso inmediatamente posterior al egreso de media; FUAS del primer periodo correspondiente. Mantener requisitos ministeriales para renovar.",
+      "limites": "Solo complemento DTE, no de cualquier ayuda estatal. Excluye gratuidad; no sumar beneficios automáticamente. Se utiliza reglamento 2026, sin trasladar referencias discordantes de admisión 2027.",
+      "fuentes": [
+        "https://www.admisionmayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.admisionmayor.cl/um/bundles/umayor/descargables/um/Reglamento-Sistema-de-Apoyo-y-Becas-2026.pdf",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "1505c7ed3c606713feb675642dc272cb31eeeedb9324f4368475b5d8746a6bae",
+      "alcance": "UNAB: convenio vespertino Holding Walmart Chile, documento de convenios vigentes 2026.",
+      "beneficio": "100% de matrícula y 15% de descuento de arancel anual.",
+      "requisitos_principales": "Trabajadores, cónyuges, hijos o cargas de Holding Walmart Chile; carrera vespertina; validación del convenio y antecedentes antes de matrícula.",
+      "limites": "No extender a jornada diurna ni todas las empresas. La cobertura confirmada se limita a Walmart. No acumulable con otros beneficios internos según condiciones del convenio.",
+      "fuentes": [
+        "https://www.unab.cl/servicioestudiante/wp-content/uploads/2026/01/Convenios-Vigentes-vespertinos-1.pdf",
+        "https://www.unab.cl/servicioestudiante/valida-tu-convenio/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.unab.cl/servicioestudiante/wp-content/uploads/2026/01/Convenios-Vigentes-vespertinos-1.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "7ea06ab21468974c684b2ab2260e27a56964c1665a5f18dd9d9e74154289405d",
+          "paginas": 25,
+          "url_final": "https://www.unab.cl/servicioestudiante/wp-content/uploads/2026/01/Convenios-Vigentes-vespertinos-1.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://www.unab.cl/servicioestudiante/valida-tu-convenio/",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "62a17a7e1af79715acfef1329490e40e539ffea6464182646bbe6f0b8e483a2f",
+      "alcance": "UDD: Beca Puntaje Ponderado, catálogo de admisión 2026, páginas 323 y 325–326.",
+      "beneficio": "10% a 100% del arancel anual, según puntaje, carrera, dependencia escolar y sede.",
+      "requisitos_principales": "Alumno nuevo matriculado en primer semestre 2026; pruebas válidas para admisión 2026 e ingreso por vía regular para esta modalidad.",
+      "limites": "Excluye Bachillerato. No certificar NEM 6,0 ni mínimo 15% del archivo. Tramos específicos por carrera desconocidos. No usar el apartado 60% que contiene un porcentaje discordante ni confundirlo con esta modalidad general.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af",
+      "alcance": "UBO: convenio ENAER descrito en financiamiento de admisión 2026.",
+      "beneficio": "15% de descuento del arancel anual.",
+      "requisitos_principales": "Personal activo o pasivo de ENAER y cargas familiares; estudiante nuevo 2026 de carrera cubierta; acreditación antes de matrícula.",
+      "limites": "Se confirma ENAER, no todas las empresas. Renovación por duración formal exige 100% de asignaturas aprobadas en los últimos dos semestres. Solo compatible con Beca Matrícula; incompatible con CAE. Aplicación al saldo después de beneficios ministeriales.",
+      "fuentes": [
+        "https://admision.ubo.cl/financiamiento/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://admision.ubo.cl/financiamiento/",
+          "consulta": "2026-10-07",
+          "sha256": "bf5dc9ac807ba3b41c63e03675e3ce40f10f72571fd76aa2c328bec34a8a20d7",
+          "url_final": "https://admision.ubo.cl/financiamiento/",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+      "alcance": "UCSC: Beca Excelencia Puntaje Trayectoria Educativa 2; catálogo de admisión 2026, página 108.",
+      "beneficio": "50% del arancel a pagar después de becas ministeriales; sin becas ministeriales, 50% de arancel.",
+      "requisitos_principales": "Promedio de 950 puntos en Competencia Lectora y Matemática 1 o 1000 puntos en alguna prueba obligatoria exigible para la carrera de matrícula.",
+      "limites": "Solo modalidad 2 de excelencia por PAES. No confundir con DTE 1 al 90%, rendimiento escolar ni Beca Arancel UCSC. No se certifican NEM 5,8 y rango 15–100% originales.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "86e8521e23d94015034c50c52d18ef04207e5c225f1cc8e319bbe482f9011dc2",
+      "alcance": "Beca Residencia UNAP; instructivo de beneficios internos 2024.",
+      "beneficio": "Aporte económico para parte de gastos de residencia; importe no indicado.",
+      "requisitos_principales": "Estudiantes de otras comunas en situación vulnerable; postulación y evaluación socioeconómica. Reglas generales 2024: carrera de ingreso PAES/PSU/PDT, duración formal, matrícula vigente; antiguos, 70% de asignaturas aprobadas el semestre anterior.",
+      "limites": "Se corrige cupo habitacional del archivo: Beca Residencia es económica, mientras los Hogares Universitarios son otra modalidad. No certificar RSH 60% ni prioridad rural. Instructivo indica requisitos adicionales por beneficio sin detallarlos, que quedan desconocidos.",
+      "fuentes": [
+        "https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf",
+          "consulta": "2026-10-07",
+          "sha256": "d3f39b6d52e5ebc065de5e702d77343efeff78b463a157f00648353b6d84e1b8",
+          "paginas": 15,
+          "url_final": "https://www.unap.cl/prontus_unap/site/docs/20210304/20210304163151/instructivo_de_beneficios_externos_e_internos_2024.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+      "alcance": "UVM: beneficio matrícula de ingreso 2026; catálogo página 399.",
+      "beneficio": "100% de matrícula del primer año.",
+      "requisitos_principales": "Alumno de primer año de programa regular diurno presencial, seleccionado por postulación centralizada o vía especial.",
+      "limites": "Se corrige 50–100% por PAES del archivo. No requiere trasladar NEM 5,5 no documentado, ni aplicar cobertura a matrícula de años posteriores.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f",
+      "alcance": "UVM: Beca Copago, ingreso 2026; catálogo página 399 y política financiera VRF 02/2022.",
+      "beneficio": "Hasta 100% de diferencia entre arancel lista y arancel de referencia.",
+      "requisitos_principales": "Primer año de programa regular diurno presencial por ingreso centralizado o especial; CAE por primera vez suscrito por 100% del arancel de referencia.",
+      "limites": "No extender a cualquier beneficio estatal ni certificar RSH 60%. El máximo no garantiza porcentaje individual. La política 2022 informa renovación con aprobación de 70% de asignaturas de los últimos dos semestres o tres trimestres; no se sustituye una convocatoria anual.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+        "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf?v=3801236"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        },
+        {
+          "url": "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf?v=3801236",
+          "consulta": "2026-10-07",
+          "sha256": "bc609e79aa318b13b7175c6fa2e656e1fe20a2f9e5f31ebacacc9fab479373ba",
+          "paginas": 9,
+          "url_final": "https://www.uvm.cl/wp-content/archivos/politica-financiamiento-estudiantil.pdf?v=3801236",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af",
+      "alcance": "UVM: convenios con cajas Los Héroes, 18 de Septiembre, Los Andes y La Araucana; admisión 2026, página 400.",
+      "beneficio": "15% de descuento del arancel anual.",
+      "requisitos_principales": "Estudiante afiliado a una de las cuatro cajas o cuyo tutor económico, padre o madre, sea afiliado.",
+      "limites": "Solo modalidad de cajas bajo el rótulo genérico de convenios del archivo. Excluye Obstetricia, Enfermería, Tecnología Médica y Entrenador Deportivo. No afirmar que todo trabajador o familiar de empresa tiene cobertura. Se conservan las dos candidatas sin probar duplicidad.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3",
+      "alcance": "UVM: convenios con cajas Los Héroes, 18 de Septiembre, Los Andes y La Araucana; admisión 2026, página 400.",
+      "beneficio": "15% de descuento del arancel anual.",
+      "requisitos_principales": "Estudiante afiliado a una de las cuatro cajas o cuyo tutor económico, padre o madre, sea afiliado.",
+      "limites": "Solo modalidad de cajas bajo el rótulo genérico de convenios del archivo. Excluye Obstetricia, Enfermería, Tecnología Médica y Entrenador Deportivo. No afirmar que todo trabajador o familiar de empresa tiene cobertura. Se conservan las dos candidatas sin probar duplicidad.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df",
+      "alcance": "UPLA: Beca Honor para ingreso 2025, preguntas frecuentes oficiales.",
+      "beneficio": "25% del arancel anual.",
+      "requisitos_principales": "Quince mejores puntajes de ingreso; al menos cinco cupos corresponden a pedagogías.",
+      "limites": "Se confirma mérito de ingreso indicado en la descripción PAES, corrigiendo el título editorial Excelencia y rango 15–100%. No convertirlo en premio NEM ni certificar renovación o cobertura para 2026.",
+      "fuentes": [
+        "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/",
+          "consulta": "2026-10-08",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    },
+    {
+      "candidato": "bfaa96e4bff3e6085df773d50a5492c27480eeff4cf50f9e42ab60377f6fc5b7",
+      "alcance": "UTA: Beca Puntaje PAES, ingreso 2026; catálogo páginas 285–286.",
+      "beneficio": "25% del arancel con promedio obligatorio PAES de 795 a menos de 850; 50% desde 850 a menos de 930; 100% desde 930 a menos de 1000.",
+      "requisitos_principales": "Ingreso a primer año; egreso de media dentro de los dos años anteriores y cumplimiento del tramo de promedio de pruebas obligatorias.",
+      "limites": "Se corrige mínimo 15% y se retira NEM no documentado del original. Mantener límites literales de los tramos; 1000 puntos tiene beneficio DTE separado. No certificar calendario actualmente abierto.",
+      "fuentes": [
+        "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf"
+      ],
+      "evidencia_consulta": [
+        {
+          "url": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "consulta": "2026-10-06",
+          "sha256": "021cb9a0539b03e83e647e0a6fc1f6f2955dc5457ada45aca6060197ec139ec4",
+          "paginas": 404,
+          "url_final": "https://acceso.mineduc.cl/wp-content/uploads/2025/11/SERV-Y-BENEF-2026-181125.pdf",
+          "alcance_lectura": "Contenido oficial leído; se confirma únicamente la modalidad y el periodo descritos en el informe. La huella de descarga no certifica información por sí sola."
+        }
+      ]
+    }
+  ],
+  "exclusiones_reconsideradas": [
+    "53e222463ef2465e09c5f0f2df32431163625b0939925ae40b86c676efa6a889",
+    "46ce6745c005ceab3194b5e57b25126208a6e023643949829942f594bc39ffce",
+    "c569b40a8d5f68cc73121d2de6883233dbc7c7dbcdb5c0258165d6c95ab22cfd",
+    "91c1153c27c059d3aa23144a0b524cebed67c9361e1ced71074d697fd72b00d5",
+    "5a391a575568826ef61b8e0034258555171f5e1312a01b642402048f75cdddff",
+    "a3a3b0bf75413553c6c56c2708f664670694d7b5393a5bc257f72d31326da76f",
+    "20e767d20e880811fd693018b4e0b699b2d7a7a7f5f737ebce334f684002a279",
+    "6df6b1fdb7542c8a80b8340c0cf17a92226887ab13bbf0501c4654787428d33e",
+    "1505c7ed3c606713feb675642dc272cb31eeeedb9324f4368475b5d8746a6bae",
+    "62a17a7e1af79715acfef1329490e40e539ffea6464182646bbe6f0b8e483a2f",
+    "866cad271e72a88ccad9096d002c5f6a4b464b9777202ec169eac7f3cc3635af",
+    "f9fae6375769f616dfdae7bdc33eb0b14d71de26ad72ab894b7e6deb87888a18",
+    "d3324283d59861aa363779f9c95c5ec9e4ad2ec7dddad91c290bbf1d34a82d00",
+    "86e8521e23d94015034c50c52d18ef04207e5c225f1cc8e319bbe482f9011dc2",
+    "3d51ccefe92a751d1a3a0eceebd4bdbb855f49c557f2ed9048aee3aa6ed6eafa",
+    "02ca97d10f19f590e1764f975028d00ff085b52cd134d5171add2481b790883f",
+    "a4998a5e23db0252fbbde1855dc1857d9493f12e7740de4fdcf1286bbd55c8af",
+    "5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df",
+    "bfaa96e4bff3e6085df773d50a5492c27480eeff4cf50f9e42ab60377f6fc5b7",
+    "32ef7f38e3a66c95c1df170149c4b85aefcd34281b5a159c1cd40406d000e8e3"
+  ]
+}

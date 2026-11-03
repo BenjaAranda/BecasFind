@@ -1,0 +1,304 @@
+[
+  {
+    "candidato": "65dc49a7438943dad01bbece6a5629c7a58607b3f09f6f685f51435f4296e6c7",
+    "campos": {
+      "monto": "Aporte superior 2026; importe no confirmado",
+      "fecha_inicio": "2026-07-10",
+      "fecha_cierre": "2026-07-31",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Copia de cédula; [OBLIGATORIO] Alumno regular vigente; [OBLIGATORIO] Concentración de notas del periodo previo; [OBLIGATORIO] Declaración simple de veracidad"
+    },
+    "limite": "Convocatoria 2026: 10–31 julio. Promedio del periodo previo 5.0 no equivale a NEM. Residencia por RSH; sin límite porcentual publicado. No haber recibido antes el aporte. Importe desconocido; documentos especiales son condicionales. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Copia de cédula; [OBLIGATORIO] Alumno regular vigente; [OBLIGATORIO] Concentración de notas del periodo previo; [OBLIGATORIO] Declaración simple de veracidad. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://www.sagradafamilia.cl/municipio-de-sagrada-familia-abre-postulaciones-para-la-beca-de-educacion-superior/"
+    ]
+  },
+  {
+    "candidato": "39d4209d0898fda374dc67ae41161b595fae0a43d004f3aa5695b71702fd3594",
+    "campos": {
+      "monto": "200000 CLP anuales en dos cuotas de 100000 en 2026",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "200000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "ANUAL",
+      "fecha_inicio": "2026-05-13",
+      "fecha_cierre": "2026-05-20",
+      "rsh_maximo": "40",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "2026: 200000 CLP anuales en dos cuotas de 100000; RSH hasta 40. Apertura 13 mayo y cierre 20 mayo. Promedios por cohorte no se convierten en NEM. La atención denominada sábado 17 mayo contradice el calendario 2026; conservar discrepancia. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://munirinconada.cl/alta-afluencia-marco-inicio-de-postulacion-a-beca-municipal-de-educacion-superior-2026/"
+    ]
+  },
+  {
+    "candidato": "5ef65c55bf100623560b5a47f453aaa1180011c6a1f650d437f494ce9484908c",
+    "campos": {
+      "monto": "Gastos estudiantiles 2026: 150000 CLP; devolución de matrícula sin importe confirmado",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Copia de cédula; [OBLIGATORIO] Alumno regular o matrícula vigente"
+    },
+    "limite": "Apoyo en gastos 2026: 150000 CLP por beneficiario; recepción 1–30 abril. RSH 60 admite excepciones familiares; no límite absoluto. Alias combina apoyo y devolución de matrícula: no asignar importe o calendario único sin separar modalidades. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Copia de cédula; [OBLIGATORIO] Alumno regular o matrícula vigente. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://municipalidadsanrosendo.cl/2026/03/postulacion-al-programa-de-ayuda-social-beca-de-apoyo-en-gastos-estudiantiles-2026/"
+    ]
+  },
+  {
+    "candidato": "06ffab7e269c76bbc3e4678a165287efce0e4e36f9862a630306e17390bf7e03",
+    "campos": {
+      "monto": "Aporte superior 2026; importe no confirmado",
+      "fecha_inicio": "2026-04-06",
+      "fecha_cierre": "2026-04-30",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Matrícula o alumno regular; [OBLIGATORIO] Concentración de notas según trayectoria; [OBLIGATORIO] Cartola RSH de Cunco; [OBLIGATORIO] Declaración simple municipal"
+    },
+    "limite": "Postulación 6–30 abril 2026; 18 diciembre es rendición. Cuarto medio 5.5 o promedio superior 5.0; hay excepciones. No son NEM universal. Ingreso per cápita máximo 500000 CLP no es aporte. Importe desconocido; CuentaRUT admite cheque alternativo. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Matrícula o alumno regular; [OBLIGATORIO] Concentración de notas según trayectoria; [OBLIGATORIO] Cartola RSH de Cunco; [OBLIGATORIO] Declaración simple municipal. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://www.municunco.cl/wp-content/uploads/2026/03/FOLLETO-BECA-MUNICIPAL-2026-OK.pdf"
+    ]
+  },
+  {
+    "candidato": "0b340924ac77c85bfb757e308f5117cbecd4354d511aff4768dd73396173b7f0",
+    "campos": {
+      "monto": "Excelencia municipal 2026; importe no confirmado",
+      "fecha_inicio": "2026-03-30",
+      "fecha_cierre": "2026-04-14",
+      "rsh_maximo": "60",
+      "cobertura_tipo": "DESCONOCIDA",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://hijuelas.cl/beca-de-excelencia-municipal/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Formulario municipal; [OBLIGATORIO] Matrícula 2026; [OBLIGATORIO] Cartola RSH hasta 60 e histórica de residencia; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Alumno regular 2026; [OBLIGATORIO] Copia bancaria; [OBLIGATORIO] Copia de cédula"
+    },
+    "limite": "Excelencia Municipal 2026: 30 marzo–14 abril a las 14:00; RSH 60 y un año de residencia. NEM documental de ingreso y avance de continuidad son distintos. Sin importe confirmado. Índice oficial confirma publicación; recarga aislada dio 404. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Formulario municipal; [OBLIGATORIO] Matrícula 2026; [OBLIGATORIO] Cartola RSH hasta 60 e histórica de residencia; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Alumno regular 2026; [OBLIGATORIO] Copia bancaria; [OBLIGATORIO] Copia de cédula. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://hijuelas.cl/beca-de-excelencia-municipal/"
+    ]
+  },
+  {
+    "candidato": "05e4e27bf6794c67f7cd58793b96ee2118e586f9e152465dc4de80cafd9a8836",
+    "campos": {
+      "monto": "Ordenanza 2026: presencial 600000 CLP o online 300000 CLP por semestre",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://cms.muninavidad.cl/uploads/Ordenanza_Beca_2026_final_f6616a6d22.pdf?updated_at=2026-03-10T16%3A30%3A00.255Z",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Formulario municipal; [OBLIGATORIO] RSH de Navidad; [OBLIGATORIO] Cédula vigente; [OBLIGATORIO] Alumno regular o matrícula; [OBLIGATORIO] Notas según trayectoria; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Carga académica; [OBLIGATORIO] Declaración simple; [OBLIGATORIO] Carta de intereses al alcalde; [OBLIGATORIO] Documento que acredita modalidad presencial u online"
+    },
+    "limite": "Ordenanza 2026: Profesionales para el Futuro; 600000 CLP semestrales presencial o 300000 online. No importe único. Renovación tiene fechas contradictorias: artículo 5 desde 15 julio y artículo 14 desde 20 julio. No convertir calendario anual en convocatoria confirmada; notas por cohorte sin NEM universal. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Formulario municipal; [OBLIGATORIO] RSH de Navidad; [OBLIGATORIO] Cédula vigente; [OBLIGATORIO] Alumno regular o matrícula; [OBLIGATORIO] Notas según trayectoria; [OBLIGATORIO] Malla curricular; [OBLIGATORIO] Carga académica; [OBLIGATORIO] Declaración simple; [OBLIGATORIO] Carta de intereses al alcalde; [OBLIGATORIO] Documento que acredita modalidad presencial u online. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://cms.muninavidad.cl/uploads/Ordenanza_Beca_2026_final_f6616a6d22.pdf?updated_at=2026-03-10T16%3A30%3A00.255Z"
+    ]
+  },
+  {
+    "candidato": "941771695c84be2119b14d50047e082a20ae06c6a345dccc09b7f4026bbc7fe5",
+    "campos": {
+      "monto": "100000 CLP en un pago único anual en 2026",
+      "cobertura_tipo": "MONETARIA",
+      "cobertura_importe": "100000.00",
+      "cobertura_moneda": "CLP",
+      "cobertura_periodicidad": "UNICA",
+      "fecha_inicio": "2026-04-02",
+      "fecha_cierre": "2026-04-23",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "url": "https://villalegre.cl/beca-municipal-educacion-superior-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Matrícula pagada o alumno regular original"
+    },
+    "limite": "Aporte 2026 de 100000 CLP en un pago único por año. Instructivo permite entregar 2–23 abril. RSH 80 admite informe social sin RSH; no límite universal. Promedios de cuarto medio y superiores no son NEM. Documentación varía por trayectoria. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Cédula por ambos lados; [OBLIGATORIO] Matrícula pagada o alumno regular original. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://villalegre.cl/beca-municipal-educacion-superior-2026/",
+      "https://villalegre.cl/wp-content/uploads/2026/04/INSTRUCTIVO-APORTE-ESTUDIANTES-2026.pdf"
+    ]
+  },
+  {
+    "candidato": "97cd52bf6568181b0ad219b87a81c222ce22024ef0861113ebd77ce210d5a83d",
+    "campos": {
+      "monto": "Ficha sin año:1.5 UF; importe 2026 no confirmado",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://muniflorida.cl/contacto/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Ficha municipal sin año ofrece 1.5 UF y pide tres años cursados en liceos de Florida. No confirmar importe 2026 ni convertir UF a pesos; promedio de años cursados no es NEM automático. Florida Biobío no es La Florida Santiago. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://muniflorida.cl/contacto/"
+    ]
+  },
+  {
+    "candidato": "fdc3f924f84f142ceb109d46af1ddc705180c3a0538a96e822c2b953f2e97c93",
+    "campos": {
+      "monto": "Apoyo mensual marzo–diciembre 2026; importe no confirmado",
+      "fecha_inicio": "2026-03-02",
+      "fecha_cierre": "2026-03-13",
+      "cobertura_tipo": "DESCONOCIDA",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.contulmo.cl/postula-a-la-beca-municipal-de-apoyo-a-la-educacion-superior-2026-%F0%9F%8E%93%E2%9C%A8/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "2026: recepción 2–13 marzo; apoyo mensual diez meses marzo–diciembre. Importe individual y bases documentales no publicados en anuncio. Deportes cierra 9 marzo y es otro beneficio; no confundirlo. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.contulmo.cl/postula-a-la-beca-municipal-de-apoyo-a-la-educacion-superior-2026-%F0%9F%8E%93%E2%9C%A8/"
+    ]
+  },
+  {
+    "candidato": "5840f712df04ee639d64d6b629fe7499810848e5a3426a01a50f5ad29f45e1a9",
+    "campos": {
+      "monto": "Deportiva 2026: hasta 5 UTM anuales; modalidad estudiantil sin importe confirmado",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Mérito Deportivo 2026 es distinto de beca estudiantil. Hasta5 UTM anuales es máximo; no convertir ni fijar importe garantizado. Aprobados municipales 2026 acredita otro proceso. Alias mixto exige separación y bases de ambas modalidades. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.munipunitaqui.cl/noticias/beca-al-merito-deportivo-2026/",
+      "https://www.munipunitaqui.cl/aprobados-beca-municipal-2026/"
+    ]
+  },
+  {
+    "candidato": "135e4f149149715bdfa8c6595fa7ad4db9916b2d442be87dbf6e4435847ecf53",
+    "campos": {
+      "monto": "2026: media 40000 CLP o superior 65000 CLP mensuales según nivel",
+      "fecha_cierre": "2026-03-31",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": "[OBLIGATORIO] Notas según nivel; [OBLIGATORIO] Alumno regular o matrícula vigente; [OBLIGATORIO] Cédula del postulante por ambos lados; [OBLIGATORIO] Cédulas del grupo familiar en RSH; [OBLIGATORIO] Copia de cuenta bancaria del estudiante"
+    },
+    "limite": "Manual 2026: media 40000 CLP y superior 65000 mensuales marzo–diciembre. Alias abarca dos niveles; no importe único. Cierre31 marzo; alumno regular puede completar en abril. Nota superior 5.0 y aprobación 60% no son NEM. Apertura exacta pendiente. DOCUMENTOS REQUERIDOS: [OBLIGATORIO] Notas según nivel; [OBLIGATORIO] Alumno regular o matrícula vigente; [OBLIGATORIO] Cédula del postulante por ambos lados; [OBLIGATORIO] Cédulas del grupo familiar en RSH; [OBLIGATORIO] Copia de cuenta bancaria del estudiante. Lista parcial; condiciones y variantes documentales pendientes.",
+    "fuentes": [
+      "https://municipalidadpalena.cl/wp-content/uploads/2026/03/Beca-2026.pdf",
+      "https://municipalidadpalena.cl/abierto-el-proceso-de-postulacion-a-la-beca-municipal-sebastian-reyes-fuentealba-2026/"
+    ]
+  },
+  {
+    "candidato": "d244c3f979f455ce6a5a3750f9d00dc24b448043b5e53028e26446b03ab6a557",
+    "campos": {
+      "monto": "Ficha sin año: Domeyko 100000 CLP anual; importe 2026 no confirmado",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://www.andacollochile.cl/page/Becas-Municipales",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Ficha sin convocatoria anual explícita: Ignacio Domeyko 100000 CLP anual; Gabriela Mistral y Pedro Regalado son otras becas. No atribuir 600000 de la sección siguiente a Domeyko. Documentos y calendario generales no certifican vigencia 2026. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://www.andacollochile.cl/page/Becas-Municipales"
+    ]
+  },
+  {
+    "candidato": "f1640ed80d2199300fa4c005ee543f019b33a8529da2c56368cab4ba5db9e238",
+    "campos": {
+      "monto": "Concejo 2026: total 600000 CLP en dos cuotas; Samuel Ovalle 2026 sin importe confirmado",
+      "cobertura_tipo": "DESCONOCIDA",
+      "fecha_inicio": "",
+      "fecha_cierre": "",
+      "rsh_maximo": "",
+      "nem_minimo": "",
+      "cobertura_porcentaje": "",
+      "cobertura_importe": "",
+      "cobertura_moneda": "",
+      "cobertura_periodicidad": "",
+      "url": "https://mostazal.cl/noticias/municipalidad-de-mostazal-entrego-la-beca-concejo-municipal-a-146-estudiantes-de-educacion-superior/",
+      "estado_activa": "false",
+      "solo_crear": "false",
+      "documentos_requeridos": ""
+    },
+    "limite": "Concejo 2026 entrega total 600000 CLP en dos cuotas 300000. Samuel Ovalle es otra modalidad; cuenta 2024 no confirma importe 2026 de esa beca. Alias mixto no admite cifra única; ceremonia 10 julio no es cierre de postulación. DOCUMENTOS REQUERIDOS: Desconocidos para la modalidad exacta; revisar bases completas.",
+    "fuentes": [
+      "https://mostazal.cl/noticias/municipalidad-de-mostazal-entrego-la-beca-concejo-municipal-a-146-estudiantes-de-educacion-superior/"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "fecha_utc": "2026-11-03T00:03:55.208467+00:00",
+  "sql_sha256": "f260576c2e51026caafbdf09f7b27facce8c67a06779d291e5c684a64405c75e",
+  "respaldo_privado": "/home/ubuntu/.local/state/becasfind/backups/pre-catalogo-20261103T000109Z-35a6506b.dump",
+  "restauracion_aislada_14_tablas": true,
+  "filas_modificadas": 7,
+  "otras_filas_identicas": 521,
+  "uuid_antes": 528,
+  "uuid_despues": 528,
+  "originales_integros_conservados": true,
+  "tablas_ajenas_identicas": 13,
+  "activaciones": 0,
+  "eliminaciones": 0,
+  "id_becas": [
+    51,
+    127,
+    158,
+    331,
+    357,
+    376,
+    378
+  ],
+  "versiones_despues": {
+    "51": 4,
+    "127": 4,
+    "158": 4,
+    "331": 4,
+    "357": 4,
+    "376": 4,
+    "378": 4
+  },
+  "temporizador_fuas_sin_cambios": true,
+  "estado": "APLICADA_BD_PUBLICACION_RECURSO_PENDIENTE"
+}

@@ -1,0 +1,34 @@
+{
+  "fecha_santiago": "2026-10-27",
+  "capturado_utc": "2026-10-28T01:55:00.994892+00:00",
+  "respaldo_privado": "pre-catalogo-20261028T015421Z-599baf0e.dump",
+  "restauracion_aislada_verificada": true,
+  "tablas_restauradas_y_conciliadas": 14,
+  "sql_sha256": "204535247f0bc7234a4959e140073b9aa1f2dedc0ae131defb178d9f98a1e4f4",
+  "snapshot_posterior_sha256": "fc703ca747d23cdae8bc094cd9b7c444168e3ed7c6855f98ee1559a4363cbc35",
+  "total_becas": 528,
+  "uuid_conservados": 528,
+  "fichas_sin_diferencias_contra_lote_anterior": 527,
+  "fichas_modificadas": [445],
+  "eliminaciones": 0,
+  "activaciones": 1,
+  "activas_en_bd": 7,
+  "cierres_vencidos_en_bd": 58,
+  "cierres_desconocidos_en_bd": 463,
+  "version_posterior": {"445": 1},
+  "verificacion_https": {
+    "listado_total_publico": 7,
+    "uuid_presente_en_listado": true,
+    "detalle_uuid": "929f4d5c-231e-4443-92c9-6ca2cb1cde87",
+    "apertura": "2026-10-19",
+    "cierre": "2027-01-28",
+    "filtro_texto": "Alimentación UANDES",
+    "resultados_filtro": 1,
+    "resultado": "APROBADO"
+  },
+  "fuentes": [
+    "https://admision.uandes.cl/becas/beca-alimentacion-uandes",
+    "https://admision.uandes.cl/becas/beca-uandes-economica"
+  ],
+  "limite": "Se activa exclusivamente recepción de ingreso 2027; no se certifica calendario interno de estudiantes vigentes por Banner. Sin cambios de aplicación, cuentas, correo o infraestructura."
+}

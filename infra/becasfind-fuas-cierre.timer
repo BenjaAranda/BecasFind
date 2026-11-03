@@ -1,0 +1,12 @@
+[Unit]
+Description=Programar cierre FUAS 2027
+
+[Timer]
+OnCalendar=2026-11-05 14:00:00 America/Santiago
+OnBootSec=90s
+AccuracySec=1s
+Persistent=true
+Unit=becasfind-fuas-cierre.service
+
+[Install]
+WantedBy=timers.target

@@ -20,6 +20,8 @@ public class ImportResultDTO {
 
     private int actualizadas;
 
+    private int omitidas;
+
     private int errores;
 
     @Builder.Default

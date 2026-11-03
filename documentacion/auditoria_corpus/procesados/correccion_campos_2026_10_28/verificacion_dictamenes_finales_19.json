@@ -1,0 +1,23 @@
+{
+  "aplicado": true,
+  "fecha": "2026-10-29",
+  "cohorte": 19,
+  "confirmadas_nuevas": 0,
+  "inconclusas": 19,
+  "sin_dictamen": 0,
+  "inconclusas_cobertura": 17,
+  "inconclusas_identidad": 2,
+  "filas_conciliadas": 528,
+  "unicos_campos_modificados": [
+    "descripcion_larga",
+    "version"
+  ],
+  "contenido_previo_conservado": true,
+  "respaldo_restaurado_14_tablas": "pre-catalogo-20261029T225439Z-ecc1daf2.dump",
+  "instantaneas_privadas": [
+    "dictamenes19-antes.json",
+    "dictamenes19-despues.json"
+  ],
+  "sql_sha256": "202def1b6798dc093b43884471929914340725ed8ca531230b4afd32ed4b9672",
+  "advertencia": "SQL aplicado; no repetir. Inconclusa no significa falsa ni convocatoria abierta."
+}

@@ -1,0 +1,452 @@
+{
+  "verificado_utc": "2026-11-01T16:48:58.544638+00:00",
+  "filas_catalogo": 528,
+  "uuid_unicos": 528,
+  "estados_publicos": {
+    "CERRADA": 114,
+    "ABIERTA": 8,
+    "EN_REVISION": 177,
+    "FECHAS_POR_CONFIRMAR": 229
+  },
+  "abiertas_busqueda_estricta": 8,
+  "inconclusas_conciliadas": 177,
+  "detalles_verificados": [
+    {
+      "id_beca": 17,
+      "public_id": "5f919505-ad66-404a-bb3c-33dd6995265d",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 26,
+      "public_id": "0c372274-cdc0-498c-bf75-13bf07c0c9f2",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 53,
+      "public_id": "d80f5bb9-1beb-436d-aa41-b722f6d6364f",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 74,
+      "public_id": "b5ab1857-8377-4c27-8f35-ca62aabcce98",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 83,
+      "public_id": "a01d0d98-da82-4111-9030-344bedcc65ef",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 84,
+      "public_id": "914b8c1b-8f90-4c85-bdd1-024cf76b54b7",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 92,
+      "public_id": "8dd7e072-983a-4b33-9c1f-caeb7d3b2f7d",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 101,
+      "public_id": "e50604ba-024c-46a2-a1a6-1e940d86ea7a",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 107,
+      "public_id": "fe455bbb-f320-4d3c-88e9-c23dabbabad6",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 110,
+      "public_id": "1a8ab1b1-7e39-4aa7-8330-1dcd511bd514",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 123,
+      "public_id": "3a29abc6-6e21-4163-8685-ec15dbd96e4f",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 124,
+      "public_id": "34df6d9a-f687-4609-83ec-2de1a210d257",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 130,
+      "public_id": "1b141394-e39a-43b3-905e-d76beccd32e3",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 131,
+      "public_id": "089eced8-f950-45fa-bfeb-74c31952e6d4",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 134,
+      "public_id": "3adc76b0-5f00-4243-ac2b-20d9547ced3a",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 142,
+      "public_id": "98a63c13-f0fa-4331-844d-362bcabd8347",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 148,
+      "public_id": "7280e8f4-42b4-47f1-b842-fba32f0ba92d",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 158,
+      "public_id": "c6af8cf1-d8ee-4803-8107-9253a30e2903",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 165,
+      "public_id": "07ea6341-bf45-4a3d-b0dd-7335383d4ab0",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 173,
+      "public_id": "5c0aba1f-d33b-49c0-8ae9-e84f4d7611a3",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 174,
+      "public_id": "419b8f9d-a696-4139-be2d-2e1561801e90",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 175,
+      "public_id": "af85d9b4-2afa-46b3-a8ac-1abfa270ffc1",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 177,
+      "public_id": "7249b8b3-e648-422c-870c-60c54181690f",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 214,
+      "public_id": "eec985a2-f75c-4c54-b8ba-e3f883f21aaf",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 217,
+      "public_id": "645f5e78-a187-4198-8b94-568b9973f208",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 222,
+      "public_id": "86b45159-0446-4d4f-8be0-4248f4ed3b76",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 223,
+      "public_id": "a1b8507f-d645-42d3-9c5c-8e773e5be571",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 231,
+      "public_id": "0485398a-a487-4203-9441-724d97d05789",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 233,
+      "public_id": "2c40d3ea-34c8-4687-b02a-fdf3eb26418e",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 236,
+      "public_id": "16cc9651-6c93-4894-a9f9-6d6b8f7a4a4e",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 257,
+      "public_id": "8f8b4b5f-1231-4ae9-9207-c6637a09f4de",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 260,
+      "public_id": "b00bde27-8092-4216-9774-8745ec78d9a4",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 263,
+      "public_id": "ab08a79f-417d-426b-b966-9a561ad7a1dc",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 273,
+      "public_id": "99323baf-0dcd-4d09-a0ed-0469d52f2aa2",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 276,
+      "public_id": "6911b56a-30e5-4638-b9de-388952541ac7",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 279,
+      "public_id": "e6ef0e92-595f-4789-b6ee-99a24e8005d6",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 280,
+      "public_id": "6df00ebf-d945-4d8d-8281-c5ce0c8d4e72",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 288,
+      "public_id": "6321fa90-534d-4031-acb2-39e78afb3c6c",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 292,
+      "public_id": "f191dd70-1764-4fef-9a10-7073a1734980",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 306,
+      "public_id": "21bd74a2-b2a0-49b8-944a-266a7718641c",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 325,
+      "public_id": "54d25af0-92b8-4e03-8ec0-5916895c9028",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 331,
+      "public_id": "214dac55-77e8-440a-80db-37c3c18e15f5",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 333,
+      "public_id": "f203e82f-69fd-49ad-a55b-594fb8c78124",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 343,
+      "public_id": "267502a0-fee7-49a1-8b2f-49d8e0ad3cd9",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 347,
+      "public_id": "51454f1c-5ff8-40a4-aacd-cbeff79838db",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 358,
+      "public_id": "af05b33d-c588-4d50-a86f-91046ce852f6",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 373,
+      "public_id": "e2213b53-51f8-4b59-b02c-f90a5fc88c4b",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 376,
+      "public_id": "330cbb6d-1567-4336-aaaf-07aa70523abb",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 390,
+      "public_id": "71d385bb-857d-4f10-9856-5156fd6fcdb1",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 394,
+      "public_id": "15a3c480-52af-4a5b-b87d-54ec2d7225df",
+      "estado": "CERRADA",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 396,
+      "public_id": "55ed985e-7701-4293-9526-e7ddabfa856b",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 400,
+      "public_id": "e2b909f4-393c-4d10-b34e-060ddac7fdc8",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 404,
+      "public_id": "3b92e7cd-b4ac-4627-9ecf-e6b44118acbc",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 418,
+      "public_id": "97a71176-c41c-4def-990c-77898a2f23ad",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 433,
+      "public_id": "2c5426ce-4880-4f95-b5db-22f873d8877f",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 438,
+      "public_id": "70532341-595c-417b-bd04-226946138bcb",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 474,
+      "public_id": "5ccc92c6-1cf2-4343-9e30-4b1dbabb7168",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 477,
+      "public_id": "06e92527-a183-4b37-9481-c88011de170b",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 501,
+      "public_id": "29c288d8-3e4b-48d8-aa66-da6bcffd0a32",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 503,
+      "public_id": "86cad381-f81f-4b75-92f6-e8b5a17ba04e",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 508,
+      "public_id": "3bf8f23b-f3d9-460e-9698-2e11e06653fc",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    },
+    {
+      "id_beca": 520,
+      "public_id": "c16d155f-4014-4769-b4cc-2a9f1a1052f8",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "resultado": "CONCILIA_CON_DICTAMEN"
+    }
+  ],
+  "cors_preview": true,
+  "acceso_anonimo": true,
+  "limite": "Comprueba publicación de datos y preservación de los 62 detalles; no constituye una nueva batería de pruebas funcionales de aplicación."
+}

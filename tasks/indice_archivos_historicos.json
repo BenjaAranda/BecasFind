@@ -1,0 +1,952 @@
+{
+  "fecha": "2026-10-19",
+  "alcance": "Descubrimiento de enlaces oficiales archivados. No acredita lectura ni confirmación de becas. No repetir el barrido completo por errores de acceso.",
+  "dominios": 25,
+  "respuestas": 10,
+  "errores": 15,
+  "recursos": 158,
+  "resultados": [
+    {
+      "dominio": "admision.uautonoma.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=admision.uautonoma.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "admision.uct.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=admision.uct.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20060819235056",
+          "http://admision.uct.cl:80/2006/becas/",
+          "text/html"
+        ],
+        [
+          "20040902192022",
+          "http://admision.uct.cl:80/becas/",
+          "text/html"
+        ],
+        [
+          "20140314091858",
+          "http://admision.uct.cl:80/becas-uct/",
+          "text/html"
+        ],
+        [
+          "20190923155059",
+          "https://admision.uct.cl/becas-y-creditos/",
+          "text/html"
+        ],
+        [
+          "20081004100515",
+          "http://admision.uct.cl:80/beneficios/beca-mantencion/",
+          "text/html"
+        ],
+        [
+          "20110831120311",
+          "http://admision.uct.cl/doc/guia-becas-y-creditos-2011.pdf",
+          "application/pdf"
+        ],
+        [
+          "20071222102959",
+          "http://admision.uct.cl:80/ingreso/beca-excelencia-academica/",
+          "text/html"
+        ],
+        [
+          "20061202121248",
+          "http://admision.uct.cl:80/ingreso/becas/",
+          "text/html"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "concepcion.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=concepcion.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "dae.ubo.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=dae.ubo.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20240615233009",
+          "https://dae.ubo.cl/becas/",
+          "text/html"
+        ],
+        [
+          "20240616002405",
+          "https://dae.ubo.cl/becas-alumnos-nuevos/",
+          "text/html"
+        ],
+        [
+          "20240616001727",
+          "https://dae.ubo.cl/becas/becas-ubo/",
+          "text/html"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "dde.ufro.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=dde.ufro.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20201204050706",
+          "https://dde.ufro.cl/10-estudiantes-ufro-obtuvieron-becas-academicas-de-la-camara-de-comercio-de-santiago/",
+          "text/html"
+        ],
+        [
+          "20201021184524",
+          "https://dde.ufro.cl/24-estudiantes-ufro-fueron-beneficiarios-con-la-beca-alberto-levy-widmer/",
+          "text/html"
+        ],
+        [
+          "20220627054007",
+          "https://dde.ufro.cl/beca-alberto-levy-33-anos-de-compromiso-social-con-estudiantes-de-malleco/",
+          "text/html"
+        ],
+        [
+          "20240613205437",
+          "https://dde.ufro.cl/beca-alberto-levy-widmer-celebra-35-anos-de-apoyo-a-estudiantes-de-malleco/",
+          "text/html"
+        ],
+        [
+          "20241111005206",
+          "https://dde.ufro.cl/beca-conectividad-2021-preguntas-frecuentes/",
+          "text/html"
+        ],
+        [
+          "20201021185953",
+          "https://dde.ufro.cl/beca-de-conectividad-ufro-entrega-aportes-financieros-y-equipos-a-estudiantes-para-semestre-virtual/",
+          "text/html"
+        ],
+        [
+          "20220118223347",
+          "https://dde.ufro.cl/beca-de-conectividad-ufro-entrega-aportes-financieros-y-equipos-a-estudiantes-para-semestre-virtual/embed/",
+          "text/html"
+        ],
+        [
+          "20211203005341",
+          "https://dde.ufro.cl/beca-electrica-solidaria-18-anos-apoyando-la-formacion-de-ingeniers-ufro-para-el-pais/",
+          "text/html"
+        ],
+        [
+          "20240613201956",
+          "https://dde.ufro.cl/beca-electrica-solidaria-entrega-beneficio-economico-a-cuatro-estudiantes-de-ingenieria-ufro/",
+          "text/html"
+        ],
+        [
+          "20240613190823",
+          "https://dde.ufro.cl/beca-ginebra-reconoce-a-dos-estudiantes-de-pedagogia-en-castellano-y-comunicacion-ufro/",
+          "text/html"
+        ],
+        [
+          "20240805054652",
+          "https://dde.ufro.cl/beca-janson-hugo-quezada-moraga-renovo-beneficio-a-estudiantes-de-ingenieria-en-construccion-ufro/",
+          "text/html"
+        ],
+        [
+          "20260618110925",
+          "https://dde.ufro.cl/beca-janson-reafirma-su-compromiso-solidario-beneficiando-a-tres-estudiantes-de-ingenieria-en-construccion-ufro/",
+          "text/html"
+        ],
+        [
+          "20241005061209",
+          "https://dde.ufro.cl/beca-levy-widmer-reconocio-a-25-estudiantes-de-la-comuna-de-malleco/",
+          "text/html"
+        ],
+        [
+          "20220812004730",
+          "https://dde.ufro.cl/becas-de-mantencion-conoce-los-procesos-de-renovacion-y-continuidad-de-los-beneficios-estudiantiles-junaeb/",
+          "text/html"
+        ],
+        [
+          "20220811225209",
+          "https://dde.ufro.cl/becas-de-mantencion-conoce-los-procesos-de-renovacion-y-continuidad-de-los-beneficios-estudiantiles-junaeb/embed/",
+          "text/html"
+        ],
+        [
+          "20260618104719",
+          "https://dde.ufro.cl/becas-de-mantencion-para-estudiantes-de-medicina-benefician-a-12-estudiantes-ufro/",
+          "text/html"
+        ],
+        [
+          "20240722222219",
+          "https://dde.ufro.cl/becas-de-mantencion-para-estudiantes-de-medicina-ufro-benefician-a-12-estudiantes-de-sobresaliente-rendimiento-academico/",
+          "text/html"
+        ],
+        [
+          "20240613194437",
+          "https://dde.ufro.cl/campus-pucon-potencia-sus-apoyos-con-una-dupla-psicosocial-de-la-direccion-de-desarrollo-estudiantil/",
+          "text/html"
+        ],
+        [
+          "20241005062803",
+          "https://dde.ufro.cl/centro-de-estudiantes-de-odontologia-otorgo-becas-de-apoyo-economico-a-estudiantes-de-la-carrera/",
+          "text/html"
+        ],
+        [
+          "20250323100041",
+          "https://dde.ufro.cl/centro-de-estudiantes-de-odontologia-ufro-entrega-beca-instrumental-a-13-estudiantes-de-la-carrera/",
+          "text/html"
+        ],
+        [
+          "20230127081228",
+          "https://dde.ufro.cl/centro-de-secretarias-ufro-entrego-beca-solidaria-a-seis-estudiantes-de-pregrado/",
+          "text/html"
+        ],
+        [
+          "20250620201807",
+          "https://dde.ufro.cl/conoce-el-detalle-de-procesos-para-el-primer-periodo-de-postulacion-de-ayudas-y-beneficios-estudiantiles/",
+          "text/html"
+        ],
+        [
+          "20240227205353",
+          "https://dde.ufro.cl/conoce-el-detalle-de-procesos-para-el-primer-periodo-de-postulacion-de-ayudas-y-beneficios-estudiantiles-para-el-2024/",
+          "text/html"
+        ],
+        [
+          "20240613205524",
+          "https://dde.ufro.cl/conoce-todo-lo-que-debes-saber-sobre-el-proceso-de-renovacion-y-postulacion-a-becas-de-mantencion-junaeb-ano-2024/",
+          "text/html"
+        ],
+        [
+          "20201021193303",
+          "https://dde.ufro.cl/cuatro-estudiantes-ufro-fueron-beneficiarios-con-la-beca-electrica-solidaria/",
+          "text/html"
+        ],
+        [
+          "20200814074427",
+          "https://dde.ufro.cl/dde-ufro-entrego-becas-otorgadas-por-personal-medico-del-servicio-de-traumatologia-del-hhha/",
+          "text/html"
+        ],
+        [
+          "20201021185841",
+          "https://dde.ufro.cl/donatarios-ufro-entregan-beca-janson-a-estudiantes-de-ingenieria-en-construccion/",
+          "text/html"
+        ],
+        [
+          "20221003171450",
+          "https://dde.ufro.cl/donatarios-ufro-realizan-entrega-de-becas-a-estudiantes-de-la-carrera-de-medicina/",
+          "text/html"
+        ],
+        [
+          "20211024090748",
+          "https://dde.ufro.cl/donatarios-ufro-realizan-la-primera-entrega-de-la-beca-servicio-de-cirugia-hhha/",
+          "text/html"
+        ],
+        [
+          "20240613212107",
+          "https://dde.ufro.cl/donataris-de-la-beca-janson-hugo-quezada-moraga-invitan-a-profesionales-de-ingenieria-en-construccion-a-sumarse-al-beneficio/",
+          "text/html"
+        ],
+        [
+          "20201022114539",
+          "https://dde.ufro.cl/en-que-consiste-la-linea-de-apoyo-y-orientacion-en-salud-estudiantil-para-casos-covid-19/",
+          "text/html"
+        ],
+        [
+          "20220118224445",
+          "https://dde.ufro.cl/en-que-consiste-la-linea-de-apoyo-y-orientacion-en-salud-estudiantil-para-casos-covid-19/embed/",
+          "text/html"
+        ],
+        [
+          "20240613205109",
+          "https://dde.ufro.cl/estudiantes-de-carrera-de-medicina-fueron-reconocidos-con-becas-de-la-red-de-donataris-ufro/",
+          "text/html"
+        ],
+        [
+          "20241005070645",
+          "https://dde.ufro.cl/estudiantes-de-ingenieria-en-construccion-reciben-la-beca-janson-perteneciente-a-la-red-de-donatarios-ufro/",
+          "text/html"
+        ],
+        [
+          "20241005071405",
+          "https://dde.ufro.cl/estudiantes-de-la-facultad-de-ingenieria-y-ciencias-recibieron-beca-electrica-solidaria/",
+          "text/html"
+        ],
+        [
+          "20210925155514",
+          "https://dde.ufro.cl/estudiantes-de-la-facultad-de-salud-son-beneficiadas-con-beca-de-traumatologia/",
+          "text/html"
+        ],
+        [
+          "20240613193628",
+          "https://dde.ufro.cl/estudiantes-de-odontologia-ufro-fueron-reconocidos-con-beca-instrumental/",
+          "text/html"
+        ],
+        [
+          "20210120162249",
+          "https://dde.ufro.cl/estudiantes-de-pedagogia-en-castellano-y-comunicacion-ufro-recibieron-beca-ginebra-en-ceremonia-virtual/",
+          "text/html"
+        ],
+        [
+          "20241111002055",
+          "https://dde.ufro.cl/estudiantes-de-pedagogia-en-castellano-y-comunicacion-ufro-recibieron-la-beca-ginebra-2024/",
+          "text/html"
+        ],
+        [
+          "20211024085904",
+          "https://dde.ufro.cl/estudiantes-mapuche-fueron-becados-por-miembros-de-la-red-de-donatarios-ufro-residentes-en-ginebra/",
+          "text/html"
+        ],
+        [
+          "20221202190325",
+          "https://dde.ufro.cl/estudiantes-ufro-son-beneficiados-con-la-entrega-de-la-beca-alberto-levy-widmer/",
+          "text/html"
+        ],
+        [
+          "20220812001909",
+          "https://dde.ufro.cl/events/abierta-las-postulaciones-beca-alberto-levy/",
+          "text/html"
+        ],
+        [
+          "20210803052457",
+          "https://dde.ufro.cl/events/activacion-beca-de-alimentacion-baes/",
+          "text/html"
+        ],
+        [
+          "20240613213958",
+          "https://dde.ufro.cl/events/beca-alberto-levy-widmer-2024/",
+          "text/html"
+        ],
+        [
+          "20221003182308",
+          "https://dde.ufro.cl/events/beca-centro-de-secretarias-ufro/",
+          "text/html"
+        ],
+        [
+          "20210515112622",
+          "https://dde.ufro.cl/events/beca-donatarios-ufro-carrera-de-odontologia/",
+          "text/html"
+        ],
+        [
+          "20220627054536",
+          "https://dde.ufro.cl/events/becas-de-mantencion-estudiantes-de-la-carrera-de-medicina/",
+          "text/html"
+        ],
+        [
+          "20250323114727",
+          "https://dde.ufro.cl/events/plazos-y-requisitos-para-renovar-o-postular-a-becas-de-mantencion-junaeb-2025/",
+          "text/html"
+        ],
+        [
+          "20221003170452",
+          "https://dde.ufro.cl/events/postula-a-la-beca-ginebra/",
+          "text/html"
+        ],
+        [
+          "20220627052001",
+          "https://dde.ufro.cl/events/postula-a-la-beca-janson/",
+          "text/html"
+        ],
+        [
+          "20210615180816",
+          "https://dde.ufro.cl/events/postulacion-beca-janson/",
+          "text/html"
+        ],
+        [
+          "20201215141750",
+          "https://dde.ufro.cl/events/postulacion-becas-junaeb/",
+          "text/html"
+        ],
+        [
+          "20220118223455",
+          "https://dde.ufro.cl/events/postulaciones-a-becas-junaeb/",
+          "text/html"
+        ],
+        [
+          "20241111015059",
+          "https://dde.ufro.cl/events/postulaciones-beca-de-excelencia-academica-2024/",
+          "text/html"
+        ],
+        [
+          "20241111004838",
+          "https://dde.ufro.cl/events/postulaciones-beca-de-excelencia-academica-2024/?occurrence=2024-11-11",
+          "text/html"
+        ],
+        [
+          "20241111010444",
+          "https://dde.ufro.cl/events/postulaciones-beca-espiritu-ufro/",
+          "text/html"
+        ],
+        [
+          "20210803041515",
+          "https://dde.ufro.cl/events/postulaciones-beca-levy-para-estudiantes-de-provincia-de-malleco/",
+          "text/html"
+        ],
+        [
+          "20210925144355",
+          "https://dde.ufro.cl/events/postulaciones-beca-solidaria-electrica/",
+          "text/html"
+        ],
+        [
+          "20240227202310",
+          "https://dde.ufro.cl/events/postulaciones-de-beca-excelencia-academica-2023/",
+          "text/html"
+        ],
+        [
+          "20220811233341",
+          "https://dde.ufro.cl/events/renovacion-y-continuidad-becas-junaeb/",
+          "text/html"
+        ],
+        [
+          "20210803043509",
+          "https://dde.ufro.cl/events/renovacion-y-continuidad-de-becas-de-mantencion-junaeb/",
+          "text/html"
+        ],
+        [
+          "20230926231720",
+          "https://dde.ufro.cl/events/renovacion-y-continuidad-de-las-becas-de-mantencion-de-junaeb-para-el-2do-semestre-2023/",
+          "text/html"
+        ],
+        [
+          "20210515113728",
+          "https://dde.ufro.cl/events/resultados-renovantes-beca-mantencion/",
+          "text/html"
+        ],
+        [
+          "20220627054827",
+          "https://dde.ufro.cl/events/se-amplia-plazo-de-postulacion-beca-de-mantencion/",
+          "text/html"
+        ],
+        [
+          "20230926222600",
+          "https://dde.ufro.cl/feria-cuidemonos-presento-apoyos-emocionales-a-la-comunidad-estudiantil/",
+          "text/html"
+        ],
+        [
+          "20140826044133",
+          "http://dde.ufro.cl/index.php?view=article&id=391:ealizan-ceremonia-de-entrega-de-la-beca-indigena-para-estudiantes-de-la-araucania-con-presencia-de-conadi-y-junaeb&format=pdf",
+          "text/html"
+        ],
+        [
+          "20150603185137",
+          "http://dde.ufro.cl/index.php?view=article&id=402:-cuatro-estudiantes-fueron-beneficiados-con-beca-solidaria-electrica-entregada-por-titulados-ufro&format=pdf",
+          "application/pdf"
+        ],
+        [
+          "20150603151354",
+          "http://dde.ufro.cl/index.php?view=article&id=413:ufro-y-mineduc-ofreceran-charla-sobre-ayudas-estudiantiles-para-la-educacion-superior&format=pdf",
+          "application/pdf"
+        ],
+        [
+          "20111112185042",
+          "http://dde.ufro.cl:80/index.php?option=com_content&view=article&id=150:entrega-becas-alberto-levy",
+          "text/html"
+        ],
+        [
+          "20121027213556",
+          "http://dde.ufro.cl/index.php?option=com_content&view=article&id=241:renovacion-de-creditos-y-becas",
+          "text/html"
+        ],
+        [
+          "20121030160518",
+          "http://dde.ufro.cl:80/index.php?option=com_content&view=article&id=245:estudiantes-reciben-beca-electrica-solidaria-2012",
+          "text/html"
+        ],
+        [
+          "20121030160532",
+          "http://dde.ufro.cl:80/index.php?option=com_content&view=article&id=248:ultimo-plazo-para-renovacion-de-creditos-y-becas-de-arancel-",
+          "text/html"
+        ],
+        [
+          "20140826064453",
+          "http://dde.ufro.cl/index.php?view=article&id=391:ealizan-ceremonia-de-entrega-de-la-beca-indigena-para-estudiantes-de-la-araucania-con-presencia-de-conadi-y-junaeb&tmpl=component&print=1&layout=default&page=",
+          "text/html"
+        ],
+        [
+          "20140826061201",
+          "http://dde.ufro.cl/index.php?option=com_content&view=article&id=391:ealizan-ceremonia-de-entrega-de-la-beca-indigena-para-estudiantes-de-la-araucania-con-presencia-de-conadi-y-junaeb",
+          "text/html"
+        ],
+        [
+          "20150604004410",
+          "http://dde.ufro.cl/index.php?option=com_content&view=article&id=392:dde-promueve-talleres-extraprogramaticos-que-ayudan-a-bajar-niveles-de-estres-en-estudiantes",
+          "text/html"
+        ],
+        [
+          "20150603185034",
+          "http://dde.ufro.cl/index.php?view=article&id=402:-cuatro-estudiantes-fueron-beneficiados-con-beca-solidaria-electrica-entregada-por-titulados-ufro&tmpl=component&print=1&layout=default&page=",
+          "text/html"
+        ],
+        [
+          "20150603184920",
+          "http://dde.ufro.cl/index.php?option=com_content&view=article&id=402:-cuatro-estudiantes-fueron-beneficiados-con-beca-solidaria-electrica-entregada-por-titulados-ufro",
+          "text/html"
+        ],
+        [
+          "20150603152052",
+          "http://dde.ufro.cl/index.php?view=article&id=413:ufro-y-mineduc-ofreceran-charla-sobre-ayudas-estudiantiles-para-la-educacion-superior&tmpl=component&print=1&layout=default&page=",
+          "text/html"
+        ],
+        [
+          "20150603185013",
+          "http://dde.ufro.cl/index.php?option=com_content&view=article&id=413:ufro-y-mineduc-ofreceran-charla-sobre-ayudas-estudiantiles-para-la-educacion-superior",
+          "text/html"
+        ],
+        [
+          "20150604033623",
+          "http://dde.ufro.cl/index.php?view=article&id=46%3Aayudas-estudiantiles&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=54",
+          "text/html"
+        ],
+        [
+          "20201021182329",
+          "https://dde.ufro.cl/la-coordinacion-de-ayudas-y-apoyo-estudiantil-adelanta-proceso-de-postulacion-a-becas-ufro-en-vinculo-con-donatarios/",
+          "text/html"
+        ],
+        [
+          "20241005063948",
+          "https://dde.ufro.cl/red-de-donatarios-as-ufro-asociacion-de-chilenos-residentes-en-suiza-entrega-becas-a-estudiantes-de-pedagogia/",
+          "text/html"
+        ],
+        [
+          "20211024092041",
+          "https://dde.ufro.cl/red-de-donatarios-ufro-realiza-entrega-de-beca-janson-a-estudiantes-de-ingenieria-en-construccion/",
+          "text/html"
+        ],
+        [
+          "20260618111101",
+          "https://dde.ufro.cl/renovacion-y-continuidad-de-becas-junaeb-2do-semestre-2025/",
+          "text/html"
+        ],
+        [
+          "20211024083645",
+          "https://dde.ufro.cl/se-abre-proceso-de-postulacion-a-beca-conectividad-ufro-2021/",
+          "text/html"
+        ],
+        [
+          "20210515121238",
+          "https://dde.ufro.cl/se-abre-proceso-de-postulacion-a-becas-de-red-de-donatarios-ufro/",
+          "text/html"
+        ],
+        [
+          "20200814084345",
+          "https://dde.ufro.cl/se-encuentra-abierto-el-tercer-llamado-a-postular-a-la-beca-de-conectividad-ufro/",
+          "text/html"
+        ],
+        [
+          "20201021190101",
+          "https://dde.ufro.cl/segundo-llamado-para-postulaciones-a-beca-de-conectividad-para-estudiantes-ufro/",
+          "text/html"
+        ],
+        [
+          "20240805054901",
+          "https://dde.ufro.cl/todo-lo-que-debes-saber-sobre-renovacion-y-continuidad-de-becas-junaeb-para-el-segundo-semestre/",
+          "text/html"
+        ],
+        [
+          "20240613194819",
+          "https://dde.ufro.cl/ufro-celebra-30-anos-de-la-entrega-de-becas-excelencia-academica/",
+          "text/html"
+        ],
+        [
+          "20260618110330",
+          "https://dde.ufro.cl/ufro-entrega-beca-alberto-levy-widmer-a-24-estudiantes-de-la-provincia-de-malleco/",
+          "text/html"
+        ],
+        [
+          "20201021190134",
+          "https://dde.ufro.cl/ufro-entregara-becas-de-conectividad-para-que-estudiantes-accedan-a-clases-virtuales/",
+          "text/html"
+        ],
+        [
+          "20260618110944",
+          "https://dde.ufro.cl/ufro-obtiene-autorizacion-sanitaria-para-prestaciones-de-apoyo-en-salud-estudiantil/",
+          "text/html"
+        ],
+        [
+          "20260618111231",
+          "https://dde.ufro.cl/ufro-reconoce-a-tres-estudiantes-de-pedagogia-con-beca-ginebra-2025/",
+          "text/html"
+        ],
+        [
+          "20211024103639",
+          "https://dde.ufro.cl/universidad-de-la-frontera-entrega-beca-de-conectividad-2021/",
+          "text/html"
+        ],
+        [
+          "20260618105513",
+          "https://dde.ufro.cl/universidad-de-la-frontera-reconoce-a-57-estudiantes-en-la-xxxiii-ceremonia-de-becas-de-excelencia-academica/",
+          "text/html"
+        ],
+        [
+          "20201001212326",
+          "https://dde.ufro.cl/wp-content/uploads/2020/07/BASES-BECA-DE-CONECTIVIDAD-UFRO.pdf",
+          "application/pdf"
+        ],
+        [
+          "20201021183715",
+          "https://dde.ufro.cl/wp-content/uploads/2020/07/Orientaciones_Beca-Conectivdad_DirectoresCarrera-2.pdf",
+          "application/pdf"
+        ],
+        [
+          "20201022113145",
+          "https://dde.ufro.cl/wp-content/uploads/2020/07/PAUTA-EVALUACI%C3%93N-BECA-CONECTIVIDAD-3%C2%B0CONVOCATORIA.pdf",
+          "application/pdf"
+        ],
+        [
+          "20241111011448",
+          "https://dde.ufro.cl/wp-content/uploads/2021/03/01.-BASES-POSTULACION-BECA-CONECTIVIDAD-APORTE-EN-CONEXION.pdf",
+          "application/pdf"
+        ],
+        [
+          "20241111000827",
+          "https://dde.ufro.cl/wp-content/uploads/2021/03/02.-BASES-POSTULACION-BECA-CONECTIVIDAD-PRESTAMO-DE-NOTEBOOK-1.pdf",
+          "application/pdf"
+        ],
+        [
+          "20251121162856",
+          "https://dde.ufro.cl/wp-content/uploads/2021/03/02.-BASES-POSTULACION-BECA-CONECTIVIDAD-PRESTAMO-DE-NOTEBOOK.pdf",
+          "application/pdf"
+        ],
+        [
+          "20231022023605",
+          "https://dde.ufro.cl/wp-content/uploads/2023/08/Bases-apoyo-econ%C3%B3mico-para-estudiantes-de-pregrado-dirigida-a-congresosm-movilidad-o-representaci%C3%B3n-universitaria.pdf",
+          "application/pdf"
+        ],
+        [
+          "20231022023525",
+          "https://dde.ufro.cl/wp-content/uploads/2023/08/Bases-Programa-de-apoyo-de-alimentaci%C3%B3n-para-actividades-estudiantiles.pdf",
+          "application/pdf"
+        ],
+        [
+          "20240805052604",
+          "https://dde.ufro.cl/wp-content/uploads/2024/06/Bases-apoyo-economico-para-estudiantes-de-pregrado-dirigida-a-congresosm-movilidad-o-representacion-universitaria-2do-semestre-2024.pdf",
+          "application/pdf"
+        ],
+        [
+          "20201021184430",
+          "https://dde.ufro.cl/wp-content/uploads/documentos/requisitos-beneficio-arancel/REQUISITOS-BECAS-ARANCEL-2020.pdf",
+          "application/pdf"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "estacioncentral.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=estacioncentral.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20091030151610",
+          "http://www.estacioncentral.cl:80/portada_2009/guia_tramites/educacion/educacion_beca_presi.html",
+          "text/html"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "imhuara.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=imhuara.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "imputre.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=imputre.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "loespejo.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=loespejo.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "municipalidaddevalparaiso.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=municipalidaddevalparaiso.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "municipioiquique.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=municipioiquique.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20110215100323",
+          "http://www.municipioiquique.cl:80/2011/02/08/llaman-a-postular-a-beca-deportiva-estanislao-loayza/",
+          "text/html"
+        ],
+        [
+          "20120514232712",
+          "http://www.municipioiquique.cl/2011/06/24/38-deportistas-contaran-con-la-beca-estanislao-loayza-2011/",
+          "text/html"
+        ],
+        [
+          "20120413193638",
+          "http://www.municipioiquique.cl:80/2012/03/14/ya-estan-abiertas-las-postulaciones-a-beca-estanislao-loayza/",
+          "text/html"
+        ],
+        [
+          "20190722095538",
+          "http://www.municipioiquique.cl/2014/05/14/comenzo-plazo-de-postulacion-a-beca-artistica-y-cultural-%E2%80%9Csixto-rojas%E2%80%9D/",
+          "text/html"
+        ],
+        [
+          "20160811150339",
+          "http://www.municipioiquique.cl:80/2014/07/01/becas-sixto-rojas-y-estanislao-loayza-recibio-116-postulaciones/",
+          "text/html"
+        ],
+        [
+          "20180904005920",
+          "http://www.municipioiquique.cl:80/2018/07/03/ciudad-de-nanning-destinara-becas-a-iquiquenos-que-cursen-estudios-superiores/",
+          "text/html"
+        ],
+        [
+          "20110320201302",
+          "http://www.municipioiquique.cl:80/beca-estanislao-loayza/",
+          "text/html"
+        ],
+        [
+          "20110321175859",
+          "http://www.municipioiquique.cl:80/beca-sixto-rojas/",
+          "text/html"
+        ],
+        [
+          "20130531075611",
+          "http://www.municipioiquique.cl/becaeloayza2013/",
+          "text/html"
+        ],
+        [
+          "20210402155032",
+          "http://www.municipioiquique.cl/noticias/general/detalle/383/municipalidad-de-iquique-inicia-proceso-de-postulacion-a-beca-artistica-sixto-rojas-acosta",
+          "text/html"
+        ],
+        [
+          "20231219031535",
+          "https://municipioiquique.cl/noticias/general/detalle/386/municipalidad-de-iquique-lanza-beca-sixto-rojas-acosta-para-apoyar-desarrollo-artistico-cultural-de-la-comuna",
+          "text/html"
+        ],
+        [
+          "20241208185718",
+          "http://municipioiquique.cl/noticias/general/detalle/388/beca-artistica-sixto-rojas-acosta-contara-con-comision-evaluadora-definida-tecnicamente",
+          "text/html"
+        ],
+        [
+          "20210518143944",
+          "http://www.municipioiquique.cl/noticias/general/detalle/395/manana-cierra-convocatoria-para-conformar-comision-evaluadora-de-la-beca-artistica-sixto-rojas-acosta",
+          "text/html"
+        ],
+        [
+          "20250804220103",
+          "http://municipioiquique.cl/noticias/general/detalle/425/beca-artistica-municipal-sixto-rojas-acosta-tiene-nueva-fecha-de-entrega-de-resultados",
+          "text/html"
+        ],
+        [
+          "20220125131642",
+          "https://www.municipioiquique.cl/noticias/general/detalle/435/beca-artistica-municipal-sixto-rojas-acosta-entregara-103-millones-a-67-personas",
+          "text/html"
+        ],
+        [
+          "20220523120600",
+          "https://municipioiquique.cl/noticias/general/detalle/557/beca-artistica-municipal-sixto-rojas-acosta-entregara-mas-de-60-millones-a-25-personas",
+          "text/html"
+        ],
+        [
+          "20170202134848",
+          "http://www.municipioiquique.cl/wp-content/uploads/2016/08/BaseBecaSixtoRojas2016.pdf",
+          "application/pdf"
+        ],
+        [
+          "20170724025517",
+          "http://www.municipioiquique.cl/wp-content/uploads/2017/05/BASES-BECA-ARTISTICA-SIXTO-ROJAS-2017.pdf",
+          "application/pdf"
+        ],
+        [
+          "20180904035536",
+          "http://www.municipioiquique.cl/wp-content/uploads/2018/07/1.-BASES-BECA-ARTISTICA-Y-CULTURAL-2018.pdf",
+          "application/pdf"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "municochamo.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=municochamo.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "munielmonte.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=munielmonte.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "munirioclaro.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=munirioclaro.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "muniromeral.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=muniromeral.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "munitolten.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=munitolten.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "munivaldivia.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=munivaldivia.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "munivina.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=munivina.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20261006012521",
+          "https://www.munivina.cl/beca-deportiva-comunal-de-vina-del-mar/",
+          "text/html"
+        ],
+        [
+          "20220627090500",
+          "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/beca-presidente-de-la-republica/",
+          "text/html"
+        ],
+        [
+          "20220628070834",
+          "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/programa-complementario-beca-presidente-de-la-republica/",
+          "text/html"
+        ],
+        [
+          "20260419015321",
+          "https://www.munivina.cl/noticias/145-estudiantes-vinamarinos-recibieron-beca-presidente-de-la-republica-de-parte-de-alcaldesa-virginia-reginato/",
+          "text/html"
+        ],
+        [
+          "20250216110754",
+          "https://www.munivina.cl/noticias/339-nuevos-jovenes-reciben-apoyo-economico-de-parte-de-alcaldesa-virginia-reginato-para-sus-estudios/",
+          "text/html"
+        ],
+        [
+          "20260414204756",
+          "https://www.munivina.cl/noticias/74-alumnos-de-ensenanza-media-de-vina-del-mar-reciben-beca-presidente-de-la-republica/",
+          "text/html"
+        ],
+        [
+          "20240425042110",
+          "https://www.munivina.cl/noticias/alcaldesa-virginia-reginato-encabezo-lanzamiento-en-vina-del-mar-de-programa-de-becas-disney-amigos-por-el-mundo/",
+          "text/html"
+        ],
+        [
+          "20240718041759",
+          "https://www.munivina.cl/noticias/alcaldesa-virginia-reginato-entrego-becas-de-estudio-a-18-hijos-de-funcionarios-del-cementerio-santa-ines/",
+          "text/html"
+        ],
+        [
+          "20260412094948",
+          "https://www.munivina.cl/noticias/hijos-de-socios-de-trabajadores-de-la-educacion-recibieron-beca-academica-de-parte-de-alcaldesa-virginia-reginato/",
+          "text/html"
+        ],
+        [
+          "20221221145158",
+          "https://www.munivina.cl/noticias/personas-trans-de-vina-del-mar-recibieron-becas-de-estudio-a-traves-de-inedito-convenio-entre-el-municipio-e-instituto-aiep/",
+          "text/html"
+        ],
+        [
+          "20261009002823",
+          "https://www.munivina.cl/noticias/ya-estan-abiertas-las-postulaciones-para-beca-deportiva-municipal-de-vina-del-mar/",
+          "text/html"
+        ],
+        [
+          "20250423044908",
+          "https://www.munivina.cl/videos/municipio-de-vina-del-mar-entrego-ayuda-en-utiles-escolares-a-1-900-estudiantes/",
+          "text/html"
+        ],
+        [
+          "20261005232623",
+          "https://www.munivina.cl/wp-content/uploads/2026/10/BECA-DEPORTIVA.pdf",
+          "application/pdf"
+        ],
+        [
+          "20231005032647",
+          "https://visitavina.munivina.cl/actividad/charla-experiencia-con-la-beca-estrategia-de-turismo-en-okinawa/",
+          "text/html"
+        ],
+        [
+          "20230320184807",
+          "https://visitavina.munivina.cl/actividad/cine-de-autor-alfred-hitchcock-rebeca/",
+          "text/html"
+        ],
+        [
+          "20230324052036",
+          "https://visitavina.munivina.cl/actividad/cine-de-autor-alfred-hitchcock-rebeca/?occurrence=2023-02-15",
+          "text/html"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "portalvisviri.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=portalvisviri.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "puertomontt.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=puertomontt.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "talca.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=talca.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "tierraamarilla.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=tierraamarilla.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "udd.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=udd.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    },
+    {
+      "dominio": "victoriachile.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=victoriachile.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "registros": [
+        [
+          "20250907213837",
+          "https://victoriachile.cl/22-estudiantes-de-victoria-reciben-beca-de-excelencia/",
+          "text/html"
+        ],
+        [
+          "20250909222049",
+          "https://victoriachile.cl/cmpc-entrega-becas-rurales-a-24-estudiantes-de-victoria-para-fomentar-su-educacion/",
+          "text/html"
+        ],
+        [
+          "20250905150503",
+          "https://victoriachile.cl/tag/becaexcelenciaacademica/",
+          "text/html"
+        ],
+        [
+          "20250910011223",
+          "https://victoriachile.cl/tag/becasjunaeb/",
+          "text/html"
+        ],
+        [
+          "20250909031807",
+          "https://victoriachile.cl/tag/becastic/",
+          "text/html"
+        ]
+      ],
+      "limite": 150,
+      "truncado": false
+    },
+    {
+      "dominio": "vraeaweb.udec.cl",
+      "consulta": "https://web.archive.org/cdx/search/cdx?url=vraeaweb.udec.cl&matchType=domain&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype&limit=150&filter=statuscode%3A200&filter=original%3A.%2A%28%5BBb%5D%5BEe%5D%5BCc%5D%5BAa%5D%7Cayuda.%2Aestud%7Capoyo.%2Aestud%29.%2A&filter=mimetype%3A%28text%2Fhtml%7Capplication%2Fpdf%29",
+      "error": "The read operation timed out"
+    }
+  ]
+}

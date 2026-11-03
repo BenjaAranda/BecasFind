@@ -1,0 +1,153 @@
+{
+  "verificado_utc": "2026-11-01T16:48:53.674353+00:00",
+  "filas": 528,
+  "uuid_preservados": 528,
+  "filas_modificadas": 10,
+  "filas_identicas": 518,
+  "originales_conservados": true,
+  "cambios": [
+    {
+      "id_beca": 53,
+      "public_id": "d80f5bb9-1beb-436d-aa41-b722f6d6364f",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 74,
+      "public_id": "b5ab1857-8377-4c27-8f35-ca62aabcce98",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 84,
+      "public_id": "914b8c1b-8f90-4c85-bdd1-024cf76b54b7",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 107,
+      "public_id": "fe455bbb-f320-4d3c-88e9-c23dabbabad6",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "url_oficial",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 123,
+      "public_id": "3a29abc6-6e21-4163-8685-ec15dbd96e4f",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 131,
+      "public_id": "089eced8-f950-45fa-bfeb-74c31952e6d4",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 325,
+      "public_id": "54d25af0-92b8-4e03-8ec0-5916895c9028",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 394,
+      "public_id": "15a3c480-52af-4a5b-b87d-54ec2d7225df",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "fecha_cierre_postulacion",
+        "fecha_inicio_postulacion",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 396,
+      "public_id": "55ed985e-7701-4293-9526-e7ddabfa856b",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "monto_cobertura",
+        "url_oficial",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    },
+    {
+      "id_beca": 503,
+      "public_id": "86cad381-f81f-4b75-92f6-e8b5a17ba04e",
+      "version_antes": 1,
+      "version_despues": 2,
+      "campos_modificados": [
+        "descripcion_larga",
+        "version"
+      ],
+      "original_conservado_completo": true,
+      "activa": false
+    }
+  ],
+  "unico_cambio_fuente_backend": [
+    "src/main/resources/catalogo-en-revision-uuid.txt"
+  ],
+  "sql_sha256": "ee737dd123a15d6a40ba9de792bfbcfd53745bccd2775e6386cc335efb285fa7",
+  "respaldo_restauracion_14_tablas": "pre-catalogo-20261101T163906Z-7684c465.dump",
+  "despliegue": {
+    "verificado_utc": "2026-11-01T16:47:28.709427+00:00",
+    "origen_agregado": "https://becasfind-pf8timp72-benjatlou13-1274.vercel.app",
+    "origenes_anteriores_conservados": true,
+    "frontend_url_conservada": true,
+    "api_y_cors_local": true,
+    "contenedor_anterior": "becasfind-api-before-preview-20261101t164717216981z",
+    "imagen_anterior": "sha256:1a0d0bf97a0de850846e4bea63dd7b7a5829a4c9f3dbe58bcba9f61a1df78c11",
+    "imagen_actual": "sha256:f07168fce54534b9d1cadee2032c2fd39bcf9104e7317a68eadbc7d57b63a3d7",
+    "imagen_conservada": false,
+    "env_anterior_sha256": "1eca4337a05849c6b5554798a8c3330381a8d0de264c31d383874a95ead933a4",
+    "limite": "No sustituye el preflight externo ni la prueba en navegador."
+  }
+}

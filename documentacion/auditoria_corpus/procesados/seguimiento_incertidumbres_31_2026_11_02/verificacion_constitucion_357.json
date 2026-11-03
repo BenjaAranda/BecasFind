@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-11-03",
+  "id_beca": 357,
+  "public_id": "c8e8679f-0be1-47c4-a548-f9acfb77ad78",
+  "estado": "CERRADA",
+  "fecha_inicio": "2026-04-13",
+  "fecha_cierre": "2026-05-03",
+  "cobertura": "$200.000 CLP en dos cuotas de $100.000 en el caso general. Para estudios en Constitución, $100.000 CLP en una cuota.",
+  "fichas_publicas": 528,
+  "estados": {
+    "CERRADA": 133,
+    "ABIERTA": 11,
+    "FECHAS_POR_CONFIRMAR": 282,
+    "EN_REVISION": 102
+  },
+  "uuid_preservados": true,
+  "cors_preview": true,
+  "acceso_anonimo": true,
+  "sql_sha256": "d15864b629237016a322df533928ea32ce3ced7f1aea8582c1363d1f9b817e2f",
+  "imagen": "sha256:61ae574ac76814af140ab56955f1fb94b42fda1ab5e76a40c5a652ef47b2fe12",
+  "otras_filas_identicas": 527,
+  "restauracion_aislada_14_tablas": true,
+  "activaciones": 0,
+  "eliminaciones": 0,
+  "temporizador_fuas_sin_cambios": true
+}

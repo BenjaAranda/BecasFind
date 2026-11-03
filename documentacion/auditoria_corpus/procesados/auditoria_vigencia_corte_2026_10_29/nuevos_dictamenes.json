@@ -1,0 +1,282 @@
+[
+  {
+    "id_beca": 448,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "Recepción del 20 de julio al 20 de agosto de 2026 para Pasajes de Excelencia de educación superior.",
+    "limitaciones": "Los encabezados residuales 2025 no sustituyen la anualidad 2026 expresa del cuerpo y del calendario. No es la beca cultural.",
+    "referencia": "Bases 2026, páginas 2–4, apartados I, III y V.",
+    "fuentes": [
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/",
+      "https://www.mpitrufquen.cl/portal/publicaciones/2026/publicaciones/Postulacion_a_Becas_de_Pasajes_para_Estudiantes_de_Educacion_Superior_2026_6a5e6d15e3545/BASES_BECAS_ESTUDIANTES_2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-07-20",
+    "cierre": "2026-08-20",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 311,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "El artículo transitorio 27 establece para 2026 recepción del 12 de enero al 20 de marzo. Evaluación y transferencias son etapas posteriores.",
+    "limitaciones": "No convertir el periodo de difusión del 5 de enero en apertura ni trasladar el calendario a 2027.",
+    "referencia": "Lectura visual página 9: artículos 25–27; aprobación Decreto 3128 de diciembre 2025.",
+    "fuentes": [
+      "https://munimaullin.cl/ordenanzas/",
+      "https://munimaullin.cl/wp-content/uploads/2025/12/ordenanza-municipal-beca-ensen%CC%83anza-superior.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-01-12",
+    "cierre": "2026-03-20",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 345,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "Recepción de antecedentes del 9 al 31 de marzo de 2026; cierre presencial a las 13:00.",
+    "limitaciones": "La difusión inicia el 2 de marzo; agosto es acreditación para segunda cuota. No extender la recepción hasta esos pagos.",
+    "referencia": "Reglamento 2026 páginas 1–3: calendario II y entrega V.",
+    "fuentes": [
+      "https://www.yungay.cl/wp-content/uploads/2026/03/Reglamento-Beca-Municipal-2026-PDF.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-03-09",
+    "cierre": "2026-03-31",
+    "hora_cierre": "13:00:00",
+    "zona_horaria": "America/Santiago",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 399,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "Las bases identifican recepción del 18 de agosto al 1 de septiembre de 2026 para el aporte superior.",
+    "limitaciones": "La ceremonia del 16 de octubre no es cierre. El horario 08:30–14:00 corresponde a atención presencial y no se impone al canal digital.",
+    "referencia": "Lectura visual página 3, calendario de ejecución y canales de postulación.",
+    "fuentes": [
+      "https://purranque.cl/descargas/BASES-BECA-ED-SUPERIOR.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-08-18",
+    "cierre": "2026-09-01",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 309,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "razonamiento": "El reglamento establece dos llamados anuales con plazos anunciados al inicio de cada semestre.",
+    "limitaciones": "El transitorio de octubre corresponde solo a 2022. La noticia de plataforma 2026 no determina una ventana vigente.",
+    "referencia": "Lectura visual páginas 5 y 11: artículos 9–10, 24 y 29.",
+    "fuentes": [
+      "https://ptovaras.cl/documentos/becas-municipales/DEC%203914%20REGLAMENTO%20BECAS%20MUNICIPALES.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 398,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "razonamiento": "La ordenanza 2021 sitúa preferentemente la postulación entre enero y marzo y diferencia renovación al fin del semestre.",
+    "limitaciones": "Preferentemente no establece un cierre exacto; no asignar 31 de marzo ni certificar convocatoria 2026 por esa norma.",
+    "referencia": "Lectura visual páginas 2–4: artículos 2, 3 y 6.",
+    "fuentes": [
+      "https://www.transparenciazapallar.cl/transparencia/files/2021/REGLAMENTO/76.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 4,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "razonamiento": "El decreto 328 contempla inicio en marzo y término según avance, sin superar agosto. La evaluación y el presupuesto se decretan anualmente.",
+    "limitaciones": "Reglamento histórico con pauta 2017. No acredita recepción 2026 ni un día de agosto; no fusionar UUID por compartir norma.",
+    "referencia": "Lectura visual página 3 y pauta de página 4.",
+    "fuentes": [
+      "https://conchalitransparencia.cl/Actos%20y%20Resoluciones%20con%20efectos%20a%20terceros/Reglamentos/Decreto%20Exento%20328%20Reglamento%20becas%20ensenanza%20superior.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 522,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "razonamiento": "El decreto 328 contempla inicio en marzo y término según avance, sin superar agosto. La evaluación y el presupuesto se decretan anualmente.",
+    "limitaciones": "Reglamento histórico con pauta 2017. No acredita recepción 2026 ni un día de agosto; no fusionar UUID por compartir norma.",
+    "referencia": "Lectura visual página 3 y pauta de página 4.",
+    "fuentes": [
+      "https://conchalitransparencia.cl/Actos%20y%20Resoluciones%20con%20efectos%20a%20terceros/Reglamentos/Decreto%20Exento%20328%20Reglamento%20becas%20ensenanza%20superior.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 419,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "La ordenanza incluye expresamente educación superior y obliga a una convocatoria anual por decreto que debe fijar las fechas.",
+    "limitaciones": "El reglamento 2022 no publica el decreto de recepción 2026; no trasladar fechas de ayudas escolares.",
+    "referencia": "Lectura visual OBM, página 3: artículos 1–3.",
+    "fuentes": [
+      "https://www.coltauco.cl/Nuevo/pdf/2022/OBM.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 375,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "El oficio de control acredita una beca superior y pagos de 2022; no contiene un calendario de solicitudes actual.",
+    "limitaciones": "Los decretos de pago no son apertura/cierre. El oficio no acredita una convocatoria 2026.",
+    "referencia": "Lectura de las dos páginas del Oficio 117, de 24 de junio de 2022.",
+    "fuentes": [
+      "https://retiro.cl/archivos_adjuntos/auditorias/Oficio117.pdf"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 114,
+    "clasificacion_nueva": "CALENDARIO_POR_MODALIDAD",
+    "razonamiento": "BAB anuncia del 4 al 28 de enero de 2027 y preselección automática por DTE, seguida de admisión y matrícula.",
+    "limitaciones": "Ventana futura de asignación; no es recepción independiente abierta. Persiste una fecha de resultados 19/01/2026 discordante, que no se corrige por inferencia.",
+    "referencia": "Ficha BAB: fechas de convocatoria, reglamento abril 2026 y proceso de asignación.",
+    "fuentes": [
+      "https://uchile.cl/dbe/bab"
+    ],
+    "fecha_consulta": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 166,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "El instructivo del expediente fija cierre el 4 de enero de 2026 para esta modalidad. La contradicción de requisitos no convierte ese plazo vencido en recepción abierta.",
+    "limitaciones": "Se acredita únicamente ese cierre histórico. Se mantienen sin resolver las condiciones 2025/2026 y un llamado posterior; no se actualizan requisitos.",
+    "referencia": "Instructivo de cursos superiores: apartado de recepción ya documentado en la investigación de 27/10.",
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "cierre": "2026-01-04",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 224,
+    "clasificacion_nueva": "CERRADA_CONFIRMADA",
+    "razonamiento": "El instructivo del expediente fija cierre el 4 de enero de 2026 para esta modalidad. La contradicción de requisitos no convierte ese plazo vencido en recepción abierta.",
+    "limitaciones": "Se acredita únicamente ese cierre histórico. Se mantienen sin resolver las condiciones 2025/2026 y un llamado posterior; no se actualizan requisitos.",
+    "referencia": "Instructivo de cursos superiores: apartado de recepción ya documentado en la investigación de 27/10.",
+    "fuentes": [
+      "https://www.unab.cl/servicioestudiante/beca-cursos-superiores/",
+      "https://www.unab.cl/servicioestudiante/wp-content/uploads/2025/12/Instructivo-Becas-Cursos-Superiores-2026.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "cierre": "2026-01-04",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 195,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "La norma define becas municipales y condiciones; DASI actual contiene becas estatales con otro procedimiento.",
+    "limitaciones": "La evidencia individualiza modalidades o requisitos, pero no un plazo aplicable; se rectifica la anterior etiqueta de calendario por modalidad. No se verificó calendario actual del programa local; no trasladar FUAS ni renovación JUNAEB.",
+    "referencia": "San José de Maipo; ordenanza histórica 2000 versión 2006",
+    "fuentes": [
+      "https://www.bcn.cl/leychile/navegar?idNorma=174606&idVersion=2006-02-13"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 294,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "La guía define beca superior para quienes no obtuvieron gratuidad y diferencia otros programas sociales.",
+    "limitaciones": "La evidencia individualiza modalidades o requisitos, pero no un plazo aplicable; se rectifica la anterior etiqueta de calendario por modalidad. No se acreditó recepción2026 ni cierre; condiciones del reglamento2013 no sustituyen automáticamente guía posterior.",
+    "referencia": "Buin; guía DIDECO2024",
+    "fuentes": [
+      "https://www.buin.cl/wp-content/uploads/2024/12/DIDECO-GUIA-DE-ORIENTACION-USUARIO.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 517,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "Se coteja con294: guía identifica superior para alumnos sin gratuidad y diferencia otros apoyos.",
+    "limitaciones": "La evidencia individualiza modalidades o requisitos, pero no un plazo aplicable; se rectifica la anterior etiqueta de calendario por modalidad. Falta lectura de plazo exacto y llamado2026; conservar ambos UUID.",
+    "referencia": "Buin; variante; guía DIDECO2024",
+    "fuentes": [
+      "https://www.buin.cl/wp-content/uploads/2024/12/DIDECO-GUIA-DE-ORIENTACION-USUARIO.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 298,
+    "clasificacion_nueva": "SIN_CALENDARIO_PUBLICADO",
+    "razonamiento": "Ficha de Discapacidad enumera Más Cerca de la Gente e Instituto Diego Portales separadas de ayudas estatales.",
+    "limitaciones": "La evidencia individualiza modalidades o requisitos, pero no un plazo aplicable; se rectifica la anterior etiqueta de calendario por modalidad. No hay plazo único aplicable al rótulo genérico del UUID; el horario de atención no certifica recepción anual.",
+    "referencia": "Hualqui; becas propias y apoyos JUNAEB",
+    "fuentes": [
+      "https://www.munihualqui.cl/oficina-de-la-discapacidad-articulo-dideco-1611603978.html",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO"
+  },
+  {
+    "id_beca": 139,
+    "clasificacion_nueva": "REVISION_INCONCLUSA",
+    "razonamiento": "Portal y dos documentos separan 1,5 UTM mensual de Fray y 100.000 únicos de apoyo. Apoyo escribe 9–31 marzo 14:00 con frase residual fecha a definir.",
+    "limitaciones": "La contradicción residual y la ambigüedad de modalidad impiden dar por resuelto el calendario de este UUID; se rectifica la anterior conclusión limitada.",
+    "referencia": "Mulchén; Fray Alejandro Manera y Apoyo Técnico/Superior 2026",
+    "fuentes": [
+      "https://www.munimulchen.cl/becas-estudiantiles-2026/",
+      "https://www.munimulchen.cl/wp-content/uploads/2026/03/06.-BECA-DE-APOYO-PARA-EL-ESTUDIANTE-NIVEL-TECNICO-Y-SUPERIOR-2026.docx",
+      "https://www.munimulchen.cl/wp-content/uploads/2026/03/04-BECA-FRAY-PADRE-MANERA.docx"
+    ],
+    "fecha_consulta": "2026-10-27",
+    "fecha_relectura_expediente": "2026-10-29",
+    "estado_aplicacion": "SIN_CAMBIO_INCONCLUSA"
+  },
+  {
+    "id_beca": 255,
+    "clasificacion_nueva": "VIGENTE_CON_CIERRE_CONFIRMADO",
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago",
+    "razonamiento": "Convocatoria FUAS 2027 expresamente vinculada al beneficio; requisitos de la ficha oficial actual contrastados. Postulación no garantiza asignación.",
+    "limitaciones": "La adjudicación exige institución/carrera elegible y demás condiciones. No equiparar evaluación FUAS a porcentaje RSH ni garantizar acreditación futura.",
+    "referencia": "FUAS oficial: extensión; ficha específica del beneficio; UCEN: hora de cierre.",
+    "fuentes": [
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+      "https://www.ucentral.cl/postulacion-fuas-2027/",
+      "https://www.ventanillaunicasocial.gob.cl/ficha/255/beca-juan-gomez-millas"
+    ],
+    "activable_acreditada": true,
+    "estado_aplicacion": "APLICADA"
+  },
+  {
+    "id_beca": 327,
+    "clasificacion_nueva": "VIGENTE_CON_CIERRE_CONFIRMADO",
+    "fecha_consulta": "2026-10-29",
+    "apertura": "2026-10-01",
+    "cierre": "2026-11-05",
+    "hora_cierre": "14:00:00",
+    "zona_horaria": "America/Santiago",
+    "razonamiento": "Convocatoria FUAS 2027 expresamente vinculada al beneficio; requisitos de la ficha oficial actual contrastados. Postulación no garantiza asignación.",
+    "limitaciones": "La adjudicación exige institución/carrera elegible y demás condiciones. No equiparar evaluación FUAS a porcentaje RSH ni garantizar acreditación futura.",
+    "referencia": "FUAS oficial: extensión; ficha específica del beneficio; UCEN: hora de cierre.",
+    "fuentes": [
+      "https://postulacion.beneficiosestudiantiles.cl/fuas/",
+      "https://www.ucentral.cl/postulacion-fuas-2027/",
+      "https://portal.beneficiosestudiantiles.cl/becas-y-creditos/beca-bicentenario-bb"
+    ],
+    "activable_acreditada": true,
+    "estado_aplicacion": "APLICADA"
+  }
+]

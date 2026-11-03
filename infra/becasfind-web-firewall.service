@@ -1,0 +1,12 @@
+[Unit]
+Description=BecasFind HTTP and HTTPS ingress
+After=network.target netfilter-persistent.service
+Before=nginx.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c '/usr/sbin/iptables -w -C INPUT -p tcp -m multiport --dports 80,443 -j ACCEPT || /usr/sbin/iptables -w -I INPUT -p tcp -m multiport --dports 80,443 -j ACCEPT'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,398 @@
+{
+  "verificado_utc": "2026-11-02T14:53:25.138061+00:00",
+  "cohorte_objetivo": 150,
+  "detalles_verificados": 54,
+  "filas_catalogo": 528,
+  "uuid_unicos": 528,
+  "estados_publicos": {
+    "CERRADA": 131,
+    "ABIERTA": 11,
+    "EN_REVISION": 117,
+    "FECHAS_POR_CONFIRMAR": 269
+  },
+  "abiertas_busqueda_estricta": 11,
+  "activaciones": 3,
+  "cors_preview": true,
+  "acceso_anonimo": true,
+  "comprobaciones": [
+    {
+      "id_beca": 17,
+      "public_id": "5f919505-ad66-404a-bb3c-33dd6995265d",
+      "estado": "ABIERTA",
+      "activa": true,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 26,
+      "public_id": "0c372274-cdc0-498c-bf75-13bf07c0c9f2",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 27,
+      "public_id": "5e68bb01-d118-45b2-8c11-1458b008c03a",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 34,
+      "public_id": "90707e2d-91e0-4019-a4b4-fe6b2f7e08cc",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 50,
+      "public_id": "384afa53-cbcf-4992-a20c-44fc5a01ed44",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 51,
+      "public_id": "c3185637-8e0b-47ff-bd29-c1304407c9ad",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 60,
+      "public_id": "01bfbc25-aaac-4c9b-b767-194e4508d3a8",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 63,
+      "public_id": "94d04245-92e0-4f04-ba1a-ab3271853edd",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 83,
+      "public_id": "a01d0d98-da82-4111-9030-344bedcc65ef",
+      "estado": "ABIERTA",
+      "activa": true,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 110,
+      "public_id": "1a8ab1b1-7e39-4aa7-8330-1dcd511bd514",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 117,
+      "public_id": "64dd46e4-c0b3-421b-8877-9b90bcbd5e03",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 124,
+      "public_id": "34df6d9a-f687-4609-83ec-2de1a210d257",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 130,
+      "public_id": "1b141394-e39a-43b3-905e-d76beccd32e3",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 139,
+      "public_id": "e19f64bb-5645-41af-8abf-43457e19775f",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 142,
+      "public_id": "98a63c13-f0fa-4331-844d-362bcabd8347",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 147,
+      "public_id": "4d8e556f-9769-4476-a63a-9fe399176c9d",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 158,
+      "public_id": "c6af8cf1-d8ee-4803-8107-9253a30e2903",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 168,
+      "public_id": "6de0793f-f3f3-453e-a1db-7b79bd796c88",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 174,
+      "public_id": "419b8f9d-a696-4139-be2d-2e1561801e90",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 213,
+      "public_id": "14e5b9a9-abfb-41c0-99ac-2f8f83aa3ace",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 222,
+      "public_id": "86b45159-0446-4d4f-8be0-4248f4ed3b76",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 223,
+      "public_id": "a1b8507f-d645-42d3-9c5c-8e773e5be571",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 226,
+      "public_id": "c697c921-e233-4110-8b15-cadd757a3529",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 231,
+      "public_id": "0485398a-a487-4203-9441-724d97d05789",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 233,
+      "public_id": "2c40d3ea-34c8-4687-b02a-fdf3eb26418e",
+      "estado": "CERRADA",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 236,
+      "public_id": "16cc9651-6c93-4894-a9f9-6d6b8f7a4a4e",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 257,
+      "public_id": "8f8b4b5f-1231-4ae9-9207-c6637a09f4de",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 273,
+      "public_id": "99323baf-0dcd-4d09-a0ed-0469d52f2aa2",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 279,
+      "public_id": "e6ef0e92-595f-4789-b6ee-99a24e8005d6",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 288,
+      "public_id": "6321fa90-534d-4031-acb2-39e78afb3c6c",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 292,
+      "public_id": "f191dd70-1764-4fef-9a10-7073a1734980",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 306,
+      "public_id": "21bd74a2-b2a0-49b8-944a-266a7718641c",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 331,
+      "public_id": "214dac55-77e8-440a-80db-37c3c18e15f5",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 333,
+      "public_id": "f203e82f-69fd-49ad-a55b-594fb8c78124",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 347,
+      "public_id": "51454f1c-5ff8-40a4-aacd-cbeff79838db",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 358,
+      "public_id": "af05b33d-c588-4d50-a86f-91046ce852f6",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 373,
+      "public_id": "e2213b53-51f8-4b59-b02c-f90a5fc88c4b",
+      "estado": "ABIERTA",
+      "activa": true,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 376,
+      "public_id": "330cbb6d-1567-4336-aaaf-07aa70523abb",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 378,
+      "public_id": "21b70095-4dfe-46aa-90ad-c3908ed358a0",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 390,
+      "public_id": "71d385bb-857d-4f10-9856-5156fd6fcdb1",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 400,
+      "public_id": "e2b909f4-393c-4d10-b34e-060ddac7fdc8",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 404,
+      "public_id": "3b92e7cd-b4ac-4627-9ecf-e6b44118acbc",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 418,
+      "public_id": "97a71176-c41c-4def-990c-77898a2f23ad",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 433,
+      "public_id": "2c5426ce-4880-4f95-b5db-22f873d8877f",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 455,
+      "public_id": "8ad49966-ad42-437a-9033-686fb2c5eb05",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 457,
+      "public_id": "a64ab8be-76a1-4f9f-a047-4237671ab53d",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 474,
+      "public_id": "5ccc92c6-1cf2-4343-9e30-4b1dbabb7168",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 477,
+      "public_id": "06e92527-a183-4b37-9481-c88011de170b",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 481,
+      "public_id": "8595e873-ce70-4269-bf04-2ccaff04662c",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 486,
+      "public_id": "e531d2dc-9bfb-4f55-890e-8da5c0362556",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 509,
+      "public_id": "23daf499-8c7c-4dc7-9a92-3dac13c5a533",
+      "estado": "FECHAS_POR_CONFIRMAR",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 513,
+      "public_id": "78861a79-69c6-4e9f-9045-fcdfc4f40039",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 515,
+      "public_id": "a9b513db-98c2-462b-afe1-02a6c84b24a6",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    },
+    {
+      "id_beca": 520,
+      "public_id": "c16d155f-4014-4769-b4cc-2a9f1a1052f8",
+      "estado": "EN_REVISION",
+      "activa": false,
+      "texto_anterior_conservado": true
+    }
+  ],
+  "limite": "Conciliación de datos publicados y preservación de las 54 fichas; no sustituye la revisión individual de las 96 restantes ni elimina las incógnitas de las 21 inconclusas de este bloque."
+}

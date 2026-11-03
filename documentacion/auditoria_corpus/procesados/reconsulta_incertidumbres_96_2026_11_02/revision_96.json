@@ -1,0 +1,1860 @@
+[
+  {
+    "id_beca": 1,
+    "public_id": "fc65e10e-f9ad-4698-a261-1d03b1212a14",
+    "candidato": "005bf2a8ea132fd3c3f5233c170a6340ab3022fc135ed97e6a412d347616904c",
+    "nombre": "Beca Municipal de Enseñanza Superior",
+    "institucion": "Municipalidad de Papudo",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "La noticia municipal del 18/06/2026 acredita adjudicación de la convocatoria 2026: 251 beneficiarios entre media, superior y deporte; 39 nuevos beneficiarios son de educación superior. Se recuperó navegando el portal municipal, no usando la noticia de prensa como prueba.",
+    "limite": "No publica importe individual superior ni fecha final de recepción. Los 216 millones son presupuesto conjunto; no se dividen entre estudiantes.",
+    "fuentes": [
+      "https://munipapudo.cl/noticias-y-actividades/noticias/papudo-entrega-251-becas-estudiantiles-con-inversion-municipal-superior-a-los-216-millones"
+    ],
+    "evidencia": "papudo-adjudicacion-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 2,
+    "public_id": "7698fdfa-3610-4c10-b74d-84be1d424eb7",
+    "candidato": "00d1fa426f88bf92442581048ebdb3109c6b53bcb6ce2210a1a6fb33f41d813b",
+    "nombre": "Beca Municipal Ilustre Municipalidad de La Estrella",
+    "institucion": "Municipalidad de La Estrella",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La cuenta municipal 2021, apartado Beca Municipal, registra 34 estudiantes superiores, 36.042 pesos mensuales y 360.420 anuales por estudiante. Se navegó el portal nuevo y su normativa publicada, que no contiene un llamado específico de esta beca.",
+    "limite": "Montos históricos 2021; no acreditan recepción ni presupuesto 2026. El índice de ordenanzas no se considera exhaustivo ni prueba de desaparición.",
+    "fuentes": [
+      "https://www.munilaestrella.cl/Documentos/CUENTA_PUBLICA_LA_ESTRELLA_2021.pdf",
+      "https://munilaestrella.cl/nuestras-ordenanzas/"
+    ],
+    "evidencia": "487d09759a77fd5f.txt;laestrella-normas-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 19,
+    "public_id": "89aa67b1-a632-4585-b51b-60ce5d4c75cc",
+    "candidato": "0a4097bbe78698400f66c0cb834dcfc6937debe7c615286fd6836737c99b3e86",
+    "nombre": "Beca Municipal de Educación Superior Combarbala",
+    "institucion": "Municipalidad de Combarbala",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "DIDECO publica actualmente las subvenciones municipales 2026 para proyectos y mantiene sus funciones de desarrollo comunitario. Este llamado no es una postulación individual al apoyo superior.",
+    "limite": "Faltan bases o acto anual específico del aporte superior. No utilizar plazos de rendición de organizaciones ni la beca deportiva como calendario estudiantil.",
+    "fuentes": [
+      "https://www.municombarbala.cl/departamento-desarrollo-comunitario-dideco/",
+      "https://www.municombarbala.cl/wp-content/uploads/2026/01/BASES-SUBVENCIONES-MUNICIPALES-2026.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 21,
+    "public_id": "e2114db0-b245-4950-a2bb-2660f007e342",
+    "candidato": "0c50c557857a93b275993deff71701b135075b48885dbc8e53c6827b577748ff",
+    "nombre": "Beca Municipal de Incentivo al Rendimiento Académico de Estudios Superior",
+    "institucion": "Municipalidad de Colchane",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La sección oficial actual de concursos de Colchane publica contratación para director del consultorio, no la beca de incentivo académico. La convocatoria 2023 citada en prensa conserva únicamente valor de pista.",
+    "limite": "No se acreditó convocatoria estudiantil 2026. No aplicar plazos laborales ni actualizar el millón de pesos y NEM 6,5 desde una noticia secundaria.",
+    "fuentes": [
+      "https://imcolchane.cl/web/concursos-publicos/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 33,
+    "public_id": "b9d08a38-8d37-432f-b637-82ca917311b4",
+    "candidato": "148f90ce4ef8c71176854884de3ac9125fb79725b3d274daa64bdd28404bc5ba",
+    "nombre": "Beca Municipal Educación Superior La Serena",
+    "institucion": "Municipalidad de La Serena",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Los documentos municipales actuales encontrados para 2026 corresponden al Programa Residencia Familiar Estudiantil, con pago a familias tutoras. No identifican una renovación del convenio SIPEE del acta de 2013.",
+    "limite": "Son poblaciones y prestaciones diferentes; faltan condiciones actuales del convenio universitario. Preservar ambos UUID sin convertir el aporte a tutoras en dinero para cualquier estudiante superior.",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/doc_59_21042026092751.pdf",
+      "https://transparencia.laserena.cl/documentos/doc_59_27032026042134.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 37,
+    "public_id": "e549c7af-aa24-4d4e-b4db-420943a15850",
+    "candidato": "156dd0bb62bd94aa399ff0ccfabd4a170ac4b527cde0c39d30b1d30a2508012a",
+    "nombre": "Convenio de becas IP Diego Portales–Hualpén (antecedentes 2022–2024)",
+    "institucion": "Municipalidad de Hualpén e Instituto Profesional Diego Portales",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El PLADECO Hualpén 2026–2032 describe asesoramiento de postulaciones FUAS, BPR e Indígena entre octubre y febrero. Esa función municipal no es una beca propia de mantención ni demuestra renovar el convenio IP Diego Portales.",
+    "limite": "Para 37 faltan condiciones actuales del convenio; para 440 falta sustento de una mantención municipal individual distinta de la orientación estatal. No se trasladan porcentajes entre las dos fichas.",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 4,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 49,
+    "public_id": "c1c28f20-cb82-42d2-ba12-f1f8079ee3e0",
+    "candidato": "19df4e73e6b31fa7b919bf2dd7aa58a2c44778ea6fc63ab1ec69d4cb57554abc",
+    "nombre": "Beca Ilustre Municipalidad de Linares",
+    "institucion": "Municipalidad de Linares",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El acta 121 de 12/11/2024, páginas 10–12, aprueba expresamente la Beca Carlos Ibáñez del Campo para 2025: 140 cupos, cien municipales y cuarenta particulares subvencionados. La discusión la define por rendimiento académico, no como selección por mayor vulnerabilidad.",
+    "limite": "La aprobación 2025 no es convocatoria 2026 ni permite actualizar los 50.000 mensuales de la noticia 2022. No se ha localizado un acto anual 2026 suficiente en esta consulta.",
+    "fuentes": [
+      "https://www.corporacionlinares.cl/ley20285/pdf/07/actas_de_concejo/ACTA_121_del_12_11_2024.pdf"
+    ],
+    "evidencia": "Lectura del PDF oficial indexado, apartado 5 y acuerdo 121/O/05; descarga directa impedida por certificado.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 52,
+    "public_id": "d717e436-d0e3-4c58-92d8-bb338f3b0222",
+    "candidato": "1bd209e4d81b1fcf12836288ad291f6bf67b4994895ff09f252caf910e36aced",
+    "nombre": "Beca Municipal de Educación Superior Colina",
+    "institucion": "Municipalidad de Colina",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La página específica de Colina sigue titulada Beneficiarios Proceso de Becas Educación Superior 2025. El expediente incorpora bases 2025, pero el archivo recuperado es escaneo y no se ha considerado leído por su descarga.",
+    "limite": "La página de resultados 2025 no prueba llamado 2026. El calendario debe contrastarse con bases o modificaciones legibles; no extrapolar umbrales de 2024 a 2026.",
+    "fuentes": [
+      "https://www.colina.cl/beneficiarios-proceso-de-becas-educacion-superior-2025/",
+      "https://transparencia.colina.cl/archivos/41db94d-cca6.pdf"
+    ],
+    "evidencia": "4f595e12ca01252d.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 55,
+    "public_id": "c9da3b0c-a207-41e4-98fd-06ae7623f75b",
+    "candidato": "1cd51c0d2ec1a24b6be88ad42557efc2a2d72e8d0312311c715338b7ffc5582b",
+    "nombre": "Beca Municipal de Mantención Pudahuel",
+    "institucion": "Municipalidad de Pudahuel",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El portal DIDECO Pudahuel muestra un servicio de consulta de resultados de Beca de Educación Superior mediante RUT, no un formulario público de nueva postulación con calendario.",
+    "limite": "El texto público no identifica año ni plazo. No consultar datos personales ni interpretar la presencia del módulo como recepción abierta.",
+    "fuentes": [
+      "https://dideco.mpudahuel.cl/app/tramites/home.asp"
+    ],
+    "evidencia": "c77259b4a3e6b731.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 57,
+    "public_id": "f393ea3c-a42b-49cb-b18d-f5ac6cf22f18",
+    "candidato": "1e8969f1902fd0d2d7581a12d2f58769b41d39c99bc4f2870b8aca9b982d7fbc",
+    "nombre": "Beca Municipal de Educación Superior San Miguel",
+    "institucion": "Municipalidad de San Miguel",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Las publicaciones educativas 2026 de San Miguel incluyen Beca Dorada INACAP para personas mayores, con financiación de una carrera técnica. Es una beca institucional difundida por el municipio.",
+    "limite": "No demuestra las condiciones de la ayuda superior municipal de la candidata. No reemplazar población ni modalidad por compartir la palabra beca.",
+    "fuentes": [
+      "https://web.sanmiguel.cl/category/educacion/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 64,
+    "public_id": "1c16f749-45f2-4b85-8838-50d1928758bc",
+    "candidato": "231222f21e7fb7f90549addab2d18e31b2c3098d57be980db26855217dbf2c18",
+    "nombre": "Beca de Educación Superior Ilustre Municipalidad de Tiltil",
+    "institucion": "Municipalidad de Tiltil",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia oficial del 02/07/2025 identifica Beca de Transporte Escolar: 60 cupos y 100.000 pesos anuales para media y superior. El aumento a 200.000 se presenta como intención que debe discutir el concejo.",
+    "limite": "No se acredita identidad con la ayuda superior general ni aprobación del aumento; no publicar 200.000 como importe confirmado ni crear calendario 2026.",
+    "fuentes": [
+      "https://munitiltil.cl/tiltil-aumenta-cupos-de-la-beca-de-transporte-escolar-y-proyecta-duplicar-el-monto-del-beneficio/"
+    ],
+    "evidencia": "fef681093f1cdede.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 68,
+    "public_id": "b57476f8-6347-4d22-bfb9-86691e11c7ef",
+    "candidato": "25891bb62e4d316afba8830c7cc238ef5a753ae74adfe101a12a8a93e600fdba",
+    "nombre": "Beca de Educación Superior Cholchol",
+    "institucion": "Municipalidad de Cholchol",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se contrastó la identidad histórica del aporte superior de Cholchol con la variante de transporte 463. Las licitaciones del servicio vespertino no acreditan una transferencia económica individual del programa histórico 2019–2020.",
+    "limite": "Portal cholchol.cl inaccesible y búsqueda actual sin fuente específica suficiente. La página de resultados alojada en un proyecto estudiantil github.io no es fuente municipal. Esta reconsulta es limitada: no se ha releído una convocatoria municipal actual ni se afirma que no exista.",
+    "fuentes": [
+      "https://www.cholchol.cl/"
+    ],
+    "evidencia": "Consulta pública del portal y búsqueda dirigida; antecedentes preservados en el expediente individual.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 90,
+    "public_id": "524d17dd-63f5-4a06-a779-e6fae7eaed90",
+    "candidato": "3171714f2d6cc963846015ee951f571e82bd44f83e4e415025a650d81fe0981a",
+    "nombre": "Beca Municipal Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Relectura de ordenanza Chiguayante de 11/07/2000: distingue áreas deportiva, artística y científica; prevé hasta cinco becas y tope 15 UTM, con continuidad superior excepcional. Marzo/abril son determinación y otorgamiento; la disposición de 2000 cambia esos meses para ese único año.",
+    "limite": "No presenta una convocatoria general superior 2026. No trasladar referencias PAA, pagos o límites de la norma histórica a una convocatoria actual sin acto anual.",
+    "fuentes": [
+      "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+    ],
+    "evidencia": "81a5dfceb05473ef.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 92,
+    "public_id": "8dd7e072-983a-4b33-9c1f-caeb7d3b2f7d",
+    "candidato": "329107086a1ae9bdd602e66bcc8067941be5b9d5aef977702c312e2e1a7eaccd",
+    "nombre": "Beca de Residencia UPLA",
+    "institucion": "Universidad de Playa Ancha",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se leyó el apartado UPLA del catálogo DEMRE admisión 2026, páginas 262–264. Enumera servicios de salud, préstamos, deporte, alimentación deportiva y acompañamiento, sin una convocatoria de residencia interna de esta ficha.",
+    "limite": "El apartado no es un inventario exhaustivo de toda ayuda UPLA y su silencio no acredita eliminación. Faltan cupos, prestación y calendario actuales de residencia.",
+    "fuentes": [
+      "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf"
+    ],
+    "evidencia": "DEMRE2026-262-264",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 100,
+    "public_id": "96648d83-e8a5-4849-bc16-7fbd134fc9c4",
+    "candidato": "349245ad74fc8dbe5e8eb93fb9b786d0a21cdba992eec27b0d9e03e14d4e868c",
+    "nombre": "Beca Municipal Estudiantil Gorbea",
+    "institucion": "Municipalidad de Gorbea",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Las bases oficiales Gorbea 2025 localizadas describen categorías deportivas de 200.000, 350.000 y 500.000 pesos, no el aporte superior de la cuenta pública 2023.",
+    "limite": "No sumar las categorías deportivas ni trasladarlas a la ayuda superior. Falta expediente anual específico del aporte estudiantil.",
+    "fuentes": [
+      "https://www.municipalidadgorbea.cl/transparencia/images/ArchivosHOME/Anuncios/Bonos/2025/BASES%20BECAS%20DEPORTIVAS%202025%20WEB.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 102,
+    "public_id": "ecb2bda1-fffc-4c4a-a1ef-d3682dece301",
+    "candidato": "362577de4c203d4b1738fdeb3898d5008a870e06ffb46e45c5d9f75318bd8db4",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Chiguayante",
+    "institucion": "Municipalidad de Chiguayante",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Relectura de ordenanza Chiguayante de 11/07/2000: distingue áreas deportiva, artística y científica; prevé hasta cinco becas y tope 15 UTM, con continuidad superior excepcional. Marzo/abril son determinación y otorgamiento; la disposición de 2000 cambia esos meses para ese único año.",
+    "limite": "No presenta una convocatoria general superior 2026. No trasladar referencias PAA, pagos o límites de la norma histórica a una convocatoria actual sin acto anual.",
+    "fuentes": [
+      "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/19%20Para_otorgamiento_de_Becas_a_estudiantes_destacados.pdf"
+    ],
+    "evidencia": "81a5dfceb05473ef.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 105,
+    "public_id": "d4bfeb79-7b05-45ad-9915-f0bfd75940bc",
+    "candidato": "3724ed4ba96fe9b6b13343f96aa0e0377f61fa03a31eeae8918f9c8d313a83b4",
+    "nombre": "Beca Estudiantil Municipal Olivar",
+    "institucion": "Municipalidad de Olivar",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La sección oficial actual de concursos de Olivar contiene cargos profesionales, educativos y programas laborales; sus estados cerrado/abierto pertenecen a esos cargos.",
+    "limite": "No permite actualizar la beca superior municipal. Falta convocatoria o acto de adjudicación que identifique el mismo apoyo y año.",
+    "fuentes": [
+      "https://muniolivar.cl/concursos/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 121,
+    "public_id": "99fd11bf-6953-4d10-a099-4b51b2de5468",
+    "candidato": "3b84b51cf1b3376a47226d92043464191fdc08a80242e2618244e56c52c6e768",
+    "nombre": "Beca Municipal Educación Superior Alto Biobio",
+    "institucion": "Municipalidad de Alto Biobio",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Releída la ficha Alto Biobío del catastro UCSC, página 60: aporte anual cuyo monto y seleccionados dependen del presupuesto 2025; exige domicilio local, RSH vigente y cédula. Publica recepción 26 de marzo–26 de abril sin convertirla en convocatoria municipal 2026.",
+    "limite": "Catastro referencial universitario; no fija importe ni ratifica recepción anual actual. No trasladar esas fechas a 2026.",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "evidencia": "16f3558ac152fc47.txt, página 60.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 126,
+    "public_id": "ac0a9ea4-cb5c-4df2-b260-651ef3dc5a89",
+    "candidato": "3e4673bc545382427a6ceab712fb1c04ad62322d3f7be60b28fab21f51f48367",
+    "nombre": "Beca Municipal Estudiantil Putre (Educación Superior)",
+    "institucion": "Municipalidad de Putre",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Putre publica subvención municipal 2026 para organizaciones comunitarias y concursos laborales con fechas propias. La etiqueta Resultado de estos concursos no corresponde a la beca superior.",
+    "limite": "Falta documentación anual específica de la beca. No usar el cierre de veterinario, CESFAM o subvenciones como plazo estudiantil.",
+    "fuentes": [
+      "https://imputre.cl/concursos/",
+      "https://imputre.cl/subvencion-2026/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 127,
+    "public_id": "dadba91f-f202-44bb-b81a-d20c8ffc224d",
+    "candidato": "3e4ff932460110c429fad99dca61e28e582411e133c6582f2416b50daa238c84",
+    "nombre": "Beca Municipal Estudiantil Los Muermos",
+    "institucion": "Municipalidad de Los Muermos",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se recuperó el acta 24/2022, pp. 38–42, acuerdo 226: modifica monto anual de 200.000 a 350.000 pesos en dos cuotas de 175.000, amplía a 115 cupos y elimina la limitación de un becado por familia. No modifica expresamente el NEM en los pasajes leídos.",
+    "limite": "Esto corrige el antecedente 2022, no demuestra presupuesto 2026. Persiste la discrepancia entre NEM 5,3 de trámites y 5,5 del reglamento anterior; no elegir uno sin norma aplicable.",
+    "fuentes": [
+      "https://www.muermos.cl/transparencia2.0/images/A_Transparencia_2022/Actas/acta_24_22_compressed.pdf",
+      "https://transparencia.muermos.cl/index.php?id=192%3Areglamento-interno&option=com_phocadownload&view=category"
+    ],
+    "evidencia": "99e473462af877dd.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 129,
+    "public_id": "7c6bc61b-739a-4360-91c8-f9840922bb00",
+    "candidato": "3e8cd9c8cbf5ccf2d1ff61f34213f00dbdb478428ee2e6b7f9220af053ba6d2b",
+    "nombre": "Beca de Educación Superior Municipalidad de Penaflor",
+    "institucion": "Municipalidad de Penaflor",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El mapa municipal actual enlaza la postulación deportiva 2026 y los resultados de subvenciones a organizaciones; no son bases del incentivo de ingreso superior de estas candidatas.",
+    "limite": "Falta acto específico actual del incentivo superior y su monto. La categoría becas o una entrega de reconocimiento no acredita por sí sola la modalidad monetaria.",
+    "fuentes": [
+      "https://penaflor.cl/mapa-del-sitio/",
+      "https://penaflor.cl/postulacion-becas-deportivas-2026/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 141,
+    "public_id": "7ec2669e-fa97-4c01-ae14-a8b8d5edf19a",
+    "candidato": "432bc766ba02a9ecf7043053e5814f4b8f35b635ef17c242820016a24f5bb399",
+    "nombre": "Beca Municipal para Estudios Superiores Talcahuano",
+    "institucion": "Municipalidad de Talcahuano",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "Se recuperó la página municipal actual de Proyecto Apadrinamiento Talcahuano: estudiantes de 10 a 23 años, residencia comunal, mérito y vulnerabilidad; apoyo económico mediante empresas. Declara expresamente que actualmente no hay cupos y avisará nuevos procesos. La identidad coincide con el alcance editorial de esta candidata.",
+    "limite": "No publica importe, cierre exacto ni umbral RSH/NEM. No inventar fecha para representar la ausencia de cupos ni describir el programa como extinguido.",
+    "fuentes": [
+      "https://web2026.talcahuano.cl/centro-de-servicios/jovenes/vinculacion-con-el-medio"
+    ],
+    "evidencia": "e94cc6673b93d43b.txt",
+    "nombre_propuesto": "Proyecto Apadrinamiento Talcahuano",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 148,
+    "public_id": "7280e8f4-42b4-47f1-b842-fba32f0ba92d",
+    "candidato": "480d4529d10aefb9b554c9d1d4f466eb1e6b73386cd40510503b56e0a6100b70",
+    "nombre": "Beca de Mérito Académico",
+    "institucion": "INACAP",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El portal actual INACAP separa becas Mineduc y JUNAEB. El reconocimiento al Mérito Académico Osorno de julio 2026 entrega beca de diplomado a titulados, distinta de la rebaja de matrícula/arancel a escolares seleccionados por sus liceos del antecedente Mérito INACAP.",
+    "limite": "No se acreditó continuidad anual de esa rebaja escolar; no reemplazarla por un diplomado de educación continua ni por BECH.",
+    "fuentes": [
+      "https://portal.inacap.cl/financiamiento-estudiantil/becas",
+      "https://portal.inacap.cl/w/inacap-osorno-reconoci%C3%B3-a-titulados-destacados-por-su-excelencia-acad%C3%A9mica-en-ceremonia-de-m%C3%A9rito-acad%C3%A9mico-2025"
+    ],
+    "evidencia": "08c6647039a22269.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 149,
+    "public_id": "a9c5e0e4-524f-4f4e-b8ea-5ecd7fc15ad3",
+    "candidato": "484d099ee535c5fcd3ae5cadd05af985fe3a61b880f718804c6f30a64039287b",
+    "nombre": "Beca Municipal Educación Superior Antuco",
+    "institucion": "Municipalidad de Antuco",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se abrió el visor oficial Antuco del procedimiento de convocatoria de Beca Municipal de Educación Superior. Describe evaluación social y académica, decreto y transferencia; el plazo de recepción solo dice Periodo. La fecha mostrada es de impresión y las firmas del formato están en blanco.",
+    "limite": "No acredita un calendario aprobado 2026 ni monto individual. No confundir fecha de impresión, duraciones internas de evaluación o plantilla procedimental con bases anuales firmadas.",
+    "fuentes": [
+      "https://serviciosantuco.cl/procedimientos_administrativos.php"
+    ],
+    "evidencia": "antuco-procedimiento-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 157,
+    "public_id": "a5192944-d1bc-45c8-9ffa-f7557a0b0c4d",
+    "candidato": "4e0757693c20c0a85c96ec08610b90795a1d274a1554c8cdc08fdf8818fc1cab",
+    "nombre": "Beca Municipal Educación Superior Puente Alto",
+    "institucion": "Municipalidad de Puente Alto",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El conjunto oficial de carreras de Puente Alto describe aporte económico a residentes que cursan estudios técnicos, profesionales o superiores, con última actualización 01/03/2024. La noticia FUAS refiere beneficios estatales 2026, no una recepción municipal propia.",
+    "limite": "No hay calendario municipal actual en el conjunto; no utilizar frecuencia anual del dataset ni plazos FUAS como apertura de esta beca. Preservar ambas fichas.",
+    "fuentes": [
+      "https://datos.mpuentealto.cl/datasets/197867/beca-municipal-de-educacion-superior-carrera/",
+      "https://www.mpuentealto.cl/ya-estan-abiertas-las-postulaciones-para-acceder-a-los-beneficios-estudiantiles-de-la-educacion-superior/"
+    ],
+    "evidencia": "f9666110c09f630a.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 164,
+    "public_id": "2d68ba2f-e660-4f8f-8816-95a725271b2b",
+    "candidato": "50e198264478a26158751d812063e626186c4588451fe67e5ccb0ab35815235f",
+    "nombre": "Beca Municipal de Educación Superior Santa Cruz",
+    "institucion": "Municipalidad de Santa Cruz",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El índice normativo municipal enlaza el decreto 2184 de 18/05/2023. Su única página, leída visualmente en Drive, añade un artículo transitorio que fija 273.248 pesos para postulantes y renovantes, en una cuota única durante 2023. La modificación 2680 corresponde a 2020.",
+    "limite": "El importe está delimitado expresamente a 2023; no actualiza las reglas de 2020 ni acredita cuantía o calendario 2026. No se considera exhaustivo el índice normativo.",
+    "fuentes": [
+      "https://www.transparenciasantacruz.cl/potestades-marco-normativo/marco-normativo",
+      "https://drive.google.com/file/d/1XS_jZC41Rs_GVS7ePben2FbYxXLcDsA9/view"
+    ],
+    "evidencia": "221eb0323c5f5eac.txt; lectura visual de la página única del decreto 2184.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 172,
+    "public_id": "2f5f3383-e3df-42ea-9705-757b0c56a15f",
+    "candidato": "52f8af30f4a3f7b65fa2426b0a4c01d4d19f27274fa46ffd70efd4523cf3bcf4",
+    "nombre": "Beca Municipal de Educación Superior Paredones",
+    "institucion": "Municipalidad de Paredones",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se recuperó y leyó la ficha histórica oficial Paredones vinculada al acuerdo 22 de 31/03/2011. Describe 25 becas de 80.000 pesos; carreras diurnas presenciales de al menos cuatro semestres, notas 5,5 de egreso y 5,0 en superior y recepción anual 16 abril–15 mayo.",
+    "limite": "La ficha histórica no demuestra presupuesto o llamado 2026; conserva FPS e ingreso per cápita de 150.000. No renovar esos importes ni fechas al año actual sin acto anual.",
+    "fuentes": [
+      "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/59-beca-ensenanza-superior?download=1791:benca-ensenanza"
+    ],
+    "evidencia": "2076895882fe278e.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 175,
+    "public_id": "af85d9b4-2afa-46b3-a8ac-1abfa270ffc1",
+    "candidato": "5546b3441fc2b5f4a989c3a3bbb4a424824e18e518ed887a950d1fab9e9df5df",
+    "nombre": "Beca Excelencia Académica UPLA",
+    "institucion": "Universidad de Playa Ancha",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El FAQ UPLA de 21/01/2025 identifica Beca de Honor: 25% del arancel anual a los 15 mejores puntajes, al menos cinco para pedagogía. Se contrastó con el apartado UPLA del catálogo 2026, que no aporta condiciones de esta beca de Honor.",
+    "limite": "No certificar asignación 2026/2027 por repetición. Ambas candidatas comparten antecedente, sin eliminar UUID ni fusionar favoritos.",
+    "fuentes": [
+      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/",
+      "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf"
+    ],
+    "evidencia": "80459e9aa5bc28b5.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 177,
+    "public_id": "7249b8b3-e648-422c-870c-60c54181690f",
+    "candidato": "561cf61f3e18aa9785dd49bc40778fb3175aa8ac94f1bc71a0211eb10734b00d",
+    "nombre": "Beca Familiar UCSH",
+    "institucion": "Universidad Católica Silva Henriquez",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El instructivo UCSH recuperado conserva resolución 2014/001 de 24/06/2014. Su beca de funcionarios comprende personal académico y de gestión, cónyuges e hijos y remite a resolución 2013/056. La página de admisión 2026 ofrece otros convenios, sin aclarar esa beca de familiares.",
+    "limite": "No extrapolar descuentos Carabineros/ANEF u otros convenios a familiares de personal UCSH. Faltan porcentaje y condiciones actuales de esta modalidad específica.",
+    "fuentes": [
+      "https://zonaestudiantes.ucsh.cl/documentos/Instructivo_GraL_Ayudas_Estudiantiles_UCSH.pdf",
+      "https://admisionucsh.cl/becas-y-beneficios/"
+    ],
+    "evidencia": "e58ddc01a33d0bb4.txt;46b662620cf9483b.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 198,
+    "public_id": "c6bd8e78-ca84-4014-a494-63e1202013b0",
+    "candidato": "62db0c8f117014a3ff21582bed8636c64f733bc9a11ee9d324f7d775a9b1290a",
+    "nombre": "Beca Municipal Educación Superior Perquenco",
+    "institucion": "Municipalidad de Perquenco",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia Perquenco de 601 aportes acumulados describe expresamente 2005–2017 y 70 beneficiarios de 100.000 pesos en 2017; distingue premios adicionales por promedio universitario y técnico.",
+    "limite": "La mención 2026 en el menú es permiso de circulación, no edición de la beca. Falta norma anual actual; no sumar premios al aporte ordinario ni usar agregados históricos como cupos nuevos.",
+    "fuentes": [
+      "https://www.perquenco.cl/perquenco-ha-beneficiado-a-601-alumnos-con-beca-municipal-para-la-educacion-superior/"
+    ],
+    "evidencia": "4f5262dd1b601368.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 202,
+    "public_id": "30184ba7-876c-499e-b992-de4bbbe871b9",
+    "candidato": "659599e5d6b312ea6c845ba9ce3e51441d5bf39887b404f07c3d2396df4e15d0",
+    "nombre": "Beca Municipal Educación Superior Llay Llay",
+    "institucion": "Municipalidad de Llay Llay",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La ficha esencial ya identifica un servicio no monetario de pasajes Llay Llay–Valparaíso/Viña del Mar. Se contrastó ese alcance con la consulta pública municipal actual; una compra de transporte no equivale al procedimiento de selección de estudiantes.",
+    "limite": "No se recuperaron bases de postulación individual, cupos disponibles ni cierre 2026. Portal consultado inaccesible; reconsulta limitada, sin dictamen de inexistencia ni cierre.",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=kGDvPC8G0Hqw%2B3YyfIoLpQ%3D%3D"
+    ],
+    "evidencia": "Identidad y alcance de la ficha esencial conservada; búsqueda dirigida de convocatoria actual.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 209,
+    "public_id": "3bd84a69-9adf-438a-b3da-9e7108a4ae4b",
+    "candidato": "671ce43a3f4eea74aff8189da16fe144e0e9180af68a1589cbbca1297f6f2376",
+    "nombre": "Programa Beca Municipal Rio Bueno",
+    "institucion": "Municipalidad de Rio Bueno",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se leyó visualmente el ORD 318 de 17/06/2024, primera página del expediente Río Bueno: solicita aprobar presupuesto de becas 2024 para 125 estudiantes y considera seis postulantes adicionales. Es una solicitud presupuestaria, no el acto final de adjudicación.",
+    "limite": "No dividir el presupuesto para inferir un importe individual ni sustituir el tope histórico del PADEM 2007. Se conserva el antecedente separado del decreto 3126/2024 ya documentado; no acredita convocatoria 2026.",
+    "fuentes": [
+      "https://muniriobueno.cl/uptransparencia/pdf/01_PDF_23/BECA%20MUNICIPAL%202024_C.pdf"
+    ],
+    "evidencia": "d40c20b626270d19.bin; riobueno-01.png. No se declara leído íntegro el expediente.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 212,
+    "public_id": "c5c15edc-fe9e-42a9-b262-e88b3070eb4e",
+    "candidato": "680087f1deb1051da26f42fcea650e3e6b893550afb3efa41a4abe6a43e13d35",
+    "nombre": "Beca de Educación Superior Recoleta",
+    "institucion": "Municipalidad de Recoleta",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La resolución Recoleta 162/2023, pp.10–11, exige residencia acreditada por RSH, primera carrera de al menos cuatro semestres, promedio 5,0 y no tener gratuidad. Delega la recepción de al menos 21 días al mes que indique DIDECO; no fija un cierre anual perpetuo.",
+    "limite": "El instrumento exige antecedentes 2023 y no certifica llamado 2026. No tomar la rendición de segunda cuota como recepción de nuevos postulantes.",
+    "fuentes": [
+      "https://www.recoletatransparente.cl/archivos_2023/programas_sociales/RES%20162_OCR.pdf"
+    ],
+    "evidencia": "fda3bed9bfbd5474.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 214,
+    "public_id": "eec985a2-f75c-4c54-b8ba-e3f883f21aaf",
+    "candidato": "68f9c2b1bf2aaf92ca59b1903cf03046310091d29f81533e1475abce2c88b4b3",
+    "nombre": "Beca de Alimentación UPLA",
+    "institucion": "Universidad de Playa Ancha",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El catálogo DEMRE 2026, apartado UPLA p.263, confirma alimentación para deportistas de selecciones y su evaluación específica. El FAQ también distingue alimentación artístico-musical.",
+    "limite": "Son modalidades específicas; no acreditan la alimentación interna general del antecedente de 2011 ni equivalen a BAES. Falta instrumento vigente de la ayuda general.",
+    "fuentes": [
+      "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf",
+      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/"
+    ],
+    "evidencia": "DEMRE2026-263",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 216,
+    "public_id": "7551ac2e-dc59-4df5-8acc-ca7b1958473e",
+    "candidato": "6aa434ee4b7ef7a402c40f03e5c5687be6e096329d6002dc3b8a7f38bf63ca2e",
+    "nombre": "Beca Educación Superior DIDECO Chillan",
+    "institucion": "Municipalidad de Chillan",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se recuperaron la noticia de la Beca Aporte Económico OMAJ y el Manual DIDECO 2026. La noticia exige alumno regular 2024, 19 aportes de 500.000 pesos y 27 mayo–24 junio; contiene diferencias entre primero–cuarto y primero–segundo año. El manual actual localizado trata becas estatales.",
+    "limite": "Falta precisión de cohorte elegible y llamado municipal actual. No transformar la noticia 2024 en postulación 2026 ni sustituirla por el concurso artístico/deportivo.",
+    "fuentes": [
+      "https://www.municipalidadchillan.cl/sitio/index.php?not=3147",
+      "https://www.municipalidadchillan.cl/sitio/descargas/DIDECO/Manual-DIDECO-2026.pdf"
+    ],
+    "evidencia": "8d77a2b813a3c6b9.txt;1ff0c70abf7accf8.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 217,
+    "public_id": "645f5e78-a187-4198-8b94-568b9973f208",
+    "candidato": "6af35875af55315c2e5f263752be976bdfacf1bf5f8eb55f73fb529478a2d113",
+    "nombre": "Beca Padre Hurtado",
+    "institucion": "Pontificia Universidad Católica de Chile",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El reglamento UC disponible es texto refundido 2000/2001, no una norma 2026 por su ruta de subida 2021. Los artículos 4 y 8 delegan criterios, cupos y calendario anuales; utiliza PAA. Materiales UC 2020 describen una modalidad de apoyo mensual ligada a gratuidad distinta de la exención histórica.",
+    "limite": "No transformar puntajes PAA ni afirmar continuidad de una cobertura histórica como convocatoria actual. Falta instrumento anual o ficha específica actual que armonice las modalidades.",
+    "fuentes": [
+      "https://registrosacademicos.uc.cl/wp-content/uploads/2021/11/padreHurtado.pdf",
+      "https://pedagogiamediaenciencias.uc.cl/wp-content/uploads/2021/02/alternativas-financiamiento-2020.pdf"
+    ],
+    "evidencia": "5825248c95225996.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 218,
+    "public_id": "34d248ee-0cf8-40b3-bbe1-7aa7ebe5ea47",
+    "candidato": "6bc95197a359821ca7f311c918f9c1350d70d691acd7c53a4b8e9de61bc0d638",
+    "nombre": "Beca Municipal de Estudios Superiores (Modalidad Reembolso de Matrícula)",
+    "institucion": "Municipalidad de Licanten",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se contrastó el alcance histórico de Reembolso de Matrícula de Licantén: modalidades del 100, 70 y 40 por ciento del primer año o semestre. La consulta del expediente y directorio municipal actual presenta barreras; no se confunde la noticia Beca Presidente de la República con este reembolso local.",
+    "limite": "No se ha recuperado convocatoria 2026 legible. Los porcentajes y población del expediente histórico no se certifican para nuevos postulantes actuales.",
+    "fuentes": [
+      "https://www.mlicanten.cl/laip/Transparencia%20Municipalidad/Cuentas%20Publicas%20de%20Gestion/2023/Cuenta%20P%C3%BAblica%202023.pdf"
+    ],
+    "evidencia": "0d18aa206fafbc82, certificado; directorio de subsidios 502. Reconsulta limitada; antecedente 2023 conservado.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 219,
+    "public_id": "94c3abb1-c020-48e2-b8bd-ad8f8e589fb7",
+    "candidato": "6bf1dd6dd4fc351adf739cea579e956179bd22f3cd16711e3d6951ec5cbd6987",
+    "nombre": "Beca Municipal Educación Superior Tucapel",
+    "institucion": "Municipalidad de Tucapel",
+    "resultado": "CERRADA_CONFIRMADA",
+    "apertura": "2026-08-03",
+    "cierre": "2026-08-31",
+    "hallazgo": "Lectura visual íntegra del calendario firmado decreto 614 de 09/03/2026: Profesionales del Futuro recibe 02–31 marzo y renovación 03–31 agosto. El reglamento distingue nuevos NEM 6,0 y PAES promedio 700; renovantes promedio 5,0 sin dos o más reprobadas; RSH 70% con evaluación especial hasta 80% y carreras de ocho semestres o más.",
+    "limite": "Agosto es renovación, no nuevos cupos. Importe anual fijado por acto anual no recuperado: no especificado. El plazo de septiembre es del Bono de Movilización. No convertir la excepción RSH en acceso automático.",
+    "fuentes": [
+      "https://www.municipalidadtucapel.cl/becas",
+      "https://www.munitucapel.cl/filesglob/1773648632.pdf",
+      "https://www.munitucapel.cl/filesglob/1773648567.pdf"
+    ],
+    "evidencia": "tucapel-calendario-1.png;tucapel-calendario-2.png;tucapel-reglamento-1.png;tucapel-reglamento-2.png;tucapel-reglamento-3.png;tucapel-reglamento-4.png",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "CERRADA"
+  },
+  {
+    "id_beca": 221,
+    "public_id": "62cf00eb-ceeb-4832-b9d6-802526fc9f24",
+    "candidato": "6bfaa7776894bbb9ca4951e00f219cff008f3c8027061b44b818cedf965f986d",
+    "nombre": "Beca de Estudio Graneros Nueva Ciudad",
+    "institucion": "Municipalidad de Graneros",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Recuperada la guía publicada por el portal municipal nuevo. Leído el apartado DIDECO/asistencialidad, páginas PDF 15–16: describe ayudas sociales generales mediante evaluación y RSH local; no identifica una beca Nueva Ciudad ni una convocatoria anual de educación superior.",
+    "limite": "El PADEM 2019 continúa inaccesible. La asistencia genérica no sustituye la identidad ni el importe histórico de 2018. No afirmar desaparición porque el programa no figure en esta guía.",
+    "fuentes": [
+      "https://www.municipalidadgraneros.cl/guia-servicios/guia.pdf",
+      "https://www.municipalidadgraneros.cl/dideco",
+      "https://www.daemgraneros.cl/file/padem2019.pdf"
+    ],
+    "evidencia": "6b79370942e32060.txt, apartado DIDECO; 5050e6f6f4edfdf0.txt; PADEM 404.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 234,
+    "public_id": "eda4c362-f3a8-41df-a241-254c9746293f",
+    "candidato": "70d4fb04e8a87e97a09bec9ae72c4b3fad2db3670019715e27bd41ddc7839fc1",
+    "nombre": "Beca Municipal Dr. Joaquin Contreras Silva 2026",
+    "institucion": "Municipalidad de Requinoa",
+    "resultado": "REVISION_INCONCLUSA",
+    "nombre_propuesto": "Beca Municipal Dr. Joaquín Contreras Silva (antecedente 2014)",
+    "hallazgo": "El reglamento Requínoa localizado corresponde de forma explícita a Proceso 2014, con recepción 24/03–30/04/2014 y certificado de alumno regular 2014. Dispone que el monto y los cupos se fijan anualmente. El 2026 del nombre de la ficha no está sustentado.",
+    "limite": "Corregir año engañoso del nombre y conservar la fuente histórica. No trasladar la convocatoria 2014 ni sus documentos a 2026 ni afirmar que el programa es falso.",
+    "fuentes": [
+      "https://www.transparenciarequinoa.cl/nueweb/tact/requinoa/2014/secretaria%20municipal/7.-%20JULIO2014/DA1815.pdf"
+    ],
+    "evidencia": "284e6acf3bedb643.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 240,
+    "public_id": "825e30aa-51eb-4d0a-aba5-7a25a3ea508e",
+    "candidato": "73bb66c800351cbfee020f307be46393c24a3515d48b04b146c490860ef6216b",
+    "nombre": "Beca Municipal de Educación Superior Vicuna",
+    "institucion": "Municipalidad de Vicuna",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La referencia específica SOCIAL.pdf de Vicuña no resuelve DNS en la consulta actual. Se revisó el alcance histórico ya conservado, que distingue NEM 6,0 de ingreso y promedio 4,5 de continuidad; no se convierte en una nueva convocatoria.",
+    "limite": "La búsqueda dirigida no recuperó bases actuales suficientes. No se han acreditado monto, periodicidad ni calendario 2026; no se certifica cierre ni falsedad.",
+    "fuentes": [
+      "https://www.transparenciavicuna.cl/wp-content/uploads/2023/09/SOCIAL.pdf"
+    ],
+    "evidencia": "aca70a62fb457583; reconsulta limitada por acceso, no nueva lectura de convocatoria.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 243,
+    "public_id": "cb00dd91-75c2-4d16-9a34-0e2456c81e20",
+    "candidato": "7593d9ac40f1497c2212147332c18459c76e12ec99465ffe2ddfd1e92ba80789",
+    "nombre": "Beca Municipal Educación Superior Padre Hurtado",
+    "institucion": "Municipalidad de Padre Hurtado",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "La noticia municipal de 13/08/2026 acredita entrega de Beca de Enseñanza Superior 2026 a 86 estudiantes: 41 renovantes y 45 nuevos. Sustituye la duda de existencia actual basada únicamente en noticia 2016.",
+    "limite": "Los cerca de 65 millones son inversión agregada, no monto individual. Fecha de entrega no es cierre; se conserva cierre desconocido mientras no se recupere calendario.",
+    "fuentes": [
+      "https://portal.mph.cl/?p=30433"
+    ],
+    "evidencia": "0dfbbc77afc56e8d.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 248,
+    "public_id": "d451029f-468b-4e34-b758-aebe08749491",
+    "candidato": "7a0664f019f258c3dcb76adfdd8961423a5dcb6df1f640006e2ca9d659226a74",
+    "nombre": "Beca Pedro Aguirre Cerda",
+    "institucion": "Municipalidad de Calle Larga",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se revisó la delimitación de la Beca Pedro Aguirre Cerda de Calle Larga: presupuesto global de siete millones en 2012, no cuantía por estudiante. El enlace específico de transparencia no resuelve DNS. Las noticias periodísticas no se usan como confirmación oficial anual.",
+    "limite": "No se recuperaron bases oficiales 2026 ni importe individual. Las noticias antiguas que exhiben una fecha actual en la cabecera del medio no se convierten en convocatoria actual.",
+    "fuentes": [
+      "https://www.transparencia.callelarga.cl/Archivos/DeptoSocial/6.-Becas/Beca%20Pedro%20Aguirre%20Cerda/programa%20BECA%20PEDRO%20AGUIRRE%20CERDA.pdf"
+    ],
+    "evidencia": "af8e48120b0beec8; reconsulta limitada por acceso, identidad histórica preservada.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 251,
+    "public_id": "c88b5fa2-cc4a-410b-8d69-8d5975d01409",
+    "candidato": "7a3ec8f3d5c492303812028da43f2af7317e056921f3fbfe6d274386952927f1",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Peumo",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La página Peumo recuperada publica Beneficiarios de la Beca Municipal sin año en su texto; el pie 2026 es copyright del sitio. El afiche conservado procede de marzo 2025.",
+    "limite": "No actualizar convocatoria por copyright ni fijar fecha de recepción a partir de una lista de seleccionados. Faltan bases o aviso oficial anual actual identificable.",
+    "fuentes": [
+      "https://mpeumo.cl/page/2/?paged=2",
+      "https://mpeumo.cl/wp-content/uploads/2025/03/481277172_933850362293800_8297977883969411565_n.jpg"
+    ],
+    "evidencia": "02ff384f3e4fa3ad.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 260,
+    "public_id": "b00bde27-8092-4216-9774-8745ec78d9a4",
+    "candidato": "7da1a73e9d802a0e0d76bf67ccd91d25879519df9f645b3d8dd4dfb402650d92",
+    "nombre": "Beca Copago Santo Tomas",
+    "institucion": "Santo Tomás",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se consultaron en navegador beneficios Santo Tomás y su enlace específico a becas internas. La vista recuperada conserva filtros y descripción general, sin tarjeta de Copago ni condiciones específicas. La Beca Matrícula 2027 es otro beneficio.",
+    "limite": "No atribuir el 100% de matrícula ni cierre 05/12/2026 a Copago. Faltan modalidad UST/IP/CFT y norma específica actual de esta beca.",
+    "fuentes": [
+      "https://www.tupuedes.cl/becas-beneficios/",
+      "https://www.tupuedes.cl/becas-y-beneficios/becas-internas/"
+    ],
+    "evidencia": "10b7e6d01aed2220.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 261,
+    "public_id": "bbf5e9c1-7545-40a9-800b-4973dd056260",
+    "candidato": "7e5103fb180e69c6b629ad32592c8527b6b854c0d0f7b912cace02c4818b544e",
+    "nombre": "Antecedente de beca municipal de Rauco · identidad por confirmar",
+    "institucion": "Municipalidad de Rauco",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El portal actual Rauco identifica sus servicios y normativa comunal, pero no acredita que la plataforma beca.muniarauco.cl de la ficha original pertenezca a Rauco. El acta ordinaria 28 debate una eventual beca deportiva, no una beca superior ya reglamentada.",
+    "limite": "Persiste identidad sin sustento suficiente. Conservar UUID y advertencia; no sustituir Rauco por Arauco ni tratar una propuesta deportiva como una ayuda superior aprobada.",
+    "fuentes": [
+      "https://www.munirauco.cl/",
+      "https://www.munirauco.cl/actas/pdf/2025-2028/ORDN%C2%B0028.pdf"
+    ],
+    "evidencia": "1e68ecffb0904364.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 263,
+    "public_id": "ab08a79f-417d-426b-b966-9a561ad7a1dc",
+    "candidato": "7f0afae2425cf80150a8af5ca17793350968b2031b89758387149523ae067529",
+    "nombre": "Beca Primeras Preferencias UNAP",
+    "institucion": "Universidad Arturo Prat",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Transparencia UNAP agosto 2026 publica Primera Preferencia con 50% de matrícula, referencias PSU/PDT y fundamento 10-0847-25. Se leyeron los artículos 4–10 y la disposición transitoria del reglamento enlazado, cursado el 20/08/2025: enumera cinco becas de estudios sin Primera Preferencia y conserva reglas anteriores para renovantes ya beneficiados.",
+    "limite": "La tabla publicada y el reglamento enlazado no concilian la admisión de nuevos postulantes a Primera Preferencia. El 50% no se certifica para un ingreso nuevo 2026. No afirmar eliminación del programa ni extender calendario DEMRE a esta modalidad.",
+    "fuentes": [
+      "https://transparencia.unap.cl/activa/web/index.php?a=2026&action=plantillas_generar_plantilla&ia=9320&ig=92&m=8",
+      "https://transparencia.unap.cl/activa/web/index.php?action=plantillas_generar_archivo&ig=92&m=2&a=2026&ia=9310"
+    ],
+    "evidencia": "unap-preferencia2026-visible.txt;unap-reglamento2025.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 267,
+    "public_id": "3d270aac-ca38-4f1a-b69c-dcfa1eecf09b",
+    "candidato": "80cc234b21d55436f4afa0bbfcee91e69e70c225808d3a44cb57c61570a64d4a",
+    "nombre": "Beca Estudiantil Municipal Los Sauces",
+    "institucion": "Municipalidad de Los Sauces",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia oficial Los Sauces 2026 corresponde a residencia Estudia Tranquilo: alojamiento en Temuco, promedio 5,0, RSH hasta 40% y recepción 16–18 febrero. La beca monetaria general de los antecedentes es otra prestación.",
+    "limite": "No trasladar requisitos o cierre de residencia a la beca monetaria ni fusionar las dos candidatas sin equivalencia positiva de modalidad y año.",
+    "fuentes": [
+      "https://www.munilossauces.cl/noticias/postulacion-a-residencia-estudiantil-2026-estudia--22964"
+    ],
+    "evidencia": "36ca1bb3407e28e2.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 293,
+    "public_id": "b92f2e33-8568-4c55-bd95-2b0b3506e2b9",
+    "candidato": "8c8a0b6ef680c9175d88e817de0224d660864d3d26bc49c0d911924b587bf132",
+    "nombre": "Beca de Educación Superior Curanilahue",
+    "institucion": "Municipalidad de Curanilahue",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "La noticia oficial de 17/06/2026 se recuperó en navegador: entrega de 166 becas, 165 tradicionales y una excepcional PAES. Acredita ejecución y selección del ciclo 2026.",
+    "limite": "El millón de pesos pertenece exclusivamente al caso excepcional PAES. No usarlo como importe de las 165 becas tradicionales. Fechas de postulación 2026 e importe ordinario no publicados en esta noticia.",
+    "fuentes": [
+      "https://munichue.com/wp/municipalidad-de-curanilahue-entrego-166-becas-a-estudiantes-que-cursan-su-educacion-superior/"
+    ],
+    "evidencia": "curanilahue-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 297,
+    "public_id": "cace1550-37d2-4d96-9324-8ade2478852b",
+    "candidato": "8e38dda69434f4e087d5dba1f07d1a258b10f1072a4e0be5b2c059edfd7c206b",
+    "nombre": "Beca Municipal de Educación Superior La Serena",
+    "institucion": "Municipalidad de La Serena",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Los documentos municipales actuales encontrados para 2026 corresponden al Programa Residencia Familiar Estudiantil, con pago a familias tutoras. No identifican una renovación del convenio SIPEE del acta de 2013.",
+    "limite": "Son poblaciones y prestaciones diferentes; faltan condiciones actuales del convenio universitario. Preservar ambos UUID sin convertir el aporte a tutoras en dinero para cualquier estudiante superior.",
+    "fuentes": [
+      "https://transparencia.laserena.cl/documentos/doc_59_21042026092751.pdf",
+      "https://transparencia.laserena.cl/documentos/doc_59_27032026042134.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 299,
+    "public_id": "7f94eb9a-3add-4d6e-b7c9-69eb9fe1cdc8",
+    "candidato": "8f26745c82ef1e3b42462b3ae90bfdf7fe4e6bc7ba2a5d35932dd892c7edbf09",
+    "nombre": "Beca de Movilización del Concejo Municipal de Fresia",
+    "institucion": "Municipalidad de Fresia",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Superada la limitación técnica de tamaño y releída la cuenta gestión Fresia 2023, página impresa 139: Beca de Movilización, treinta cupos, cuatro UTM por estudiante en dos entregas semestrales mayo/agosto; no renovable, recepción marzo/abril. El presupuesto global 2024 de 36,4 millones abarca varias becas.",
+    "limite": "Ni los meses genéricos ni el presupuesto agregado fijan cierre o cuantía individual 2026. El portal de servicios consultado no aporta una convocatoria específica de esta modalidad.",
+    "fuentes": [
+      "https://www.munifresia.cl/transparencia/descargas/MecanismoParticipacionCiudadana/CuentaPublica/2024/CuentaPublica2024-Gestion2023.pdf",
+      "https://mail.munifresia.cl/servicios"
+    ],
+    "evidencia": "fresia-cuenta2023.txt, página 139; SHA PDF 587c49943213cf17daa4aedd7ca4fae1ab5e3ebb84ed26779b5b8d399061cf44.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 300,
+    "public_id": "e4d1e6ae-c939-4f0d-9592-8ec6558b1e45",
+    "candidato": "8f72bd261a65f6a0f96ae5fdb6f71ca3c9adbe103a2bb40688cdf39452f8f617",
+    "nombre": "Beca Municipal Educación Superior Cobquecura",
+    "institucion": "Municipalidad de Cobquecura",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Releída la ficha Cobquecura del catastro UCSC, página 13: aporte superior fuera de la comuna de 150.000 pesos y recepción 15 mayo–14 junio. Difiere de las bases municipales 2025 ya conservadas, que distinguen 130.000, 160.000 y 90.000 según modalidad.",
+    "limite": "El catastro no prevalece sobre bases municipales del mismo ciclo. La nueva consulta de las bases está bloqueada; no se ha recuperado acto anual 2026 y no se promedian montos ni mezclan modalidades.",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+      "https://cobquecura.cl/wp-content/uploads/BASES-APORTE-EDUCACION-SUPERIOR-ANO-2025.pdf"
+    ],
+    "evidencia": "16f3558ac152fc47.txt, página 13; bases 2025 inaccesibles en recarga, antecedente previo preservado.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 301,
+    "public_id": "521ecc43-cd7d-41b7-9268-01e834c4fa44",
+    "candidato": "909ff9418bcda015e2cdc50d480bc97b841d5ebd15ec2d5f4594701d3ad370b6",
+    "nombre": "Beca Municipal de Asistencialidad Chaiten",
+    "institucion": "Municipalidad de Chaiten",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia municipal Chaitén recuperada confirma primer semestre 2023 con cierre 31/03/2023 y mínimos diferenciados: egreso de media 5,0 y continuidad superior 4,5. La segunda publicación disponible identifica año 2024.",
+    "limite": "Ambos llamados conservan su año. Falta calendario 2026; no trasladar el 31 de marzo por repetición ni usar subvenciones de verano para organizaciones como beca individual.",
+    "fuentes": [
+      "https://www.municipalidadchaiten.cl/abierto-se-encuentra-el-proceso-de-postulacion-a-beca-municipal/",
+      "https://www.municipalidadchaiten.cl/se-encuentra-abierto-el-proceso-de-postulacion-a-la-beca-municipal-2024/"
+    ],
+    "evidencia": "b5f3fbf3e5369757.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 312,
+    "public_id": "dc45574b-ef2c-42e6-919f-bc0bf6f308fb",
+    "candidato": "93aef50ce30d3e104174ab6bd53045b8892722b7f3c4d506dbf1e2d46a45e2c8",
+    "nombre": "Beca Municipal Educación Superior Tolten",
+    "institucion": "Municipalidad de Tolten",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El portal institucional de Toltén responde con SITIO WEB EN MANTENCIÓN. Se contrastó el alcance preservado de los antecedentes 2013/2020; no hay una convocatoria actual recuperable en esta consulta.",
+    "limite": "La mantención del sitio no demuestra cierre o desaparición. No se actualizaron importe, requisitos ni calendario 2026 a partir de las copias históricas.",
+    "fuentes": [
+      "https://www.tolten.cl/"
+    ],
+    "evidencia": "d4606b74a9f9c5fc.txt; consulta actual limitada por sitio en mantención.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 318,
+    "public_id": "5b96c1f3-2d86-4332-b736-db7700914247",
+    "candidato": "966316051f5070b74fdf5674752002b4b158a74d939fff5e360e4c81502546f4",
+    "nombre": "Beca Municipal Educación Superior PAC",
+    "institucion": "Municipalidad de Pedro Aguirre Cerda",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "El decreto SM-02912/2026 de 06/05/2026 aprueba adjudicación de 50 becas: 530 solicitudes, 106 admisibles. Acredita proceso evaluado y adjudicado. La modificación SM-02120/2026 de 23/03/2026 altera resultados y ceremonia, manteniendo 23 febrero–02 marzo de recepción en el calendario restatado.",
+    "limite": "El decreto de mayo cita además SM-2606/2026 de 17/04/2026 no leído; la fecha final exacta queda desconocida. No inventar su alcance ni afirmar que la modificación de marzo fue la última. No copiar datos personales de la nómina.",
+    "fuentes": [
+      "https://munipedroaguirrecerda.gob.cl/app/uploads/2026/05/2912-5.pdf",
+      "https://munipedroaguirrecerda.gob.cl/app/uploads/2026/02/modificacion-decreto-becas.pdf",
+      "https://munipedroaguirrecerda.gob.cl/postula-a-la-nueva-beca-municipal-de-educacion-superior-2026/"
+    ],
+    "evidencia": "bcb924191e3d94eb.txt;modificacion-decreto-becas.pdf.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 329,
+    "public_id": "3200e60d-476e-4822-94b8-94aff8b6c9c3",
+    "candidato": "99de0a46cc9f5c789ec328b01648ec4c462293edd80439b9af8954df5d80c1c5",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Santa Juana",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La página específica de devolución de matrícula sigue fechada 15/01/2024 y enlaza formularios 2024. El aviso municipal de septiembre 2026 es orientación FUAS 2027, no nuevas bases de la devolución municipal.",
+    "limite": "Falta convocatoria actual de esa misma modalidad. No actualizar año por noticias recientes del portal ni trasladar cierre estatal.",
+    "fuentes": [
+      "https://santajuana.cl/beca-devolucion-de-matricula/",
+      "https://santajuana.cl/%F0%9F%8E%93-atencion-estudiantes-y-familias-de-santa-juana-%F0%9F%8E%93/"
+    ],
+    "evidencia": "27b386e48db20fd7.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 336,
+    "public_id": "3bb27b3c-bca1-48d3-b322-dfa8c6e15d11",
+    "candidato": "9ce906481d31a5afe650ce6ce496adbb9f95ba8b1254a2e2e1837d71d408a519",
+    "nombre": "Beca Educación Superior Santa Maria",
+    "institucion": "Municipalidad de Santa Maria",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La guía Santa María 2016 distingue ayudas universitarias para residentes locales, aportes de matrícula, pasajes o mensualidad recibidos dos veces al año. La fila separada llamada Beca Municipal exige residencia de Rinconada, por lo que sus condiciones no se atribuyen a Santa María.",
+    "limite": "No hay importe ni convocatoria anual actual de la ayuda de Santa María en esa ficha. No convertir una tabla de otra comuna en requisito ni la frecuencia semestral en plazo exacto.",
+    "fuentes": [
+      "https://www.santamariatransparente.cl/web/images/stories/Contenido/Tramites/Tramites_SOCIAL2016.pdf"
+    ],
+    "evidencia": "f67e4ef403905e77.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 338,
+    "public_id": "b67f77b3-3d34-4bdd-b777-8e1c248a16dc",
+    "candidato": "9f4a326359d6f315b18bf71098b1c69ecf55f5779305bac407ec418ad541bfd6",
+    "nombre": "Beca Municipal Estudiantil Quilaco",
+    "institucion": "Municipalidad de Quilaco",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Releída UdeC 2024, página 13: Quilaco, 40.000 mensuales marzo–diciembre, primera carrera superior presencial u online, residencia y RSH local; continuidad con 50% de ramos aprobados. Recepción 1–31 marzo y reevaluación 1–31 agosto. La entrada UCSC titulada Quilaco muestra contacto de Quilleco: no es evidencia de un calendario alternativo de Quilaco.",
+    "limite": "Se resuelve la falsa equivalencia entre comunas, sin certificar vigencia 2026 de la guía 2024. Faltan ratificación municipal actual y monto de este ciclo.",
+    "fuentes": [
+      "https://cade.udec.cl/wp-content/uploads/2024/10/Catastro-Beneficios-Municipales-2.pdf",
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf"
+    ],
+    "evidencia": "UdeC página 13 leída; 16f3558ac152fc47.txt página 61.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 340,
+    "public_id": "735a2b59-21f1-4101-9d1b-a59a815a798d",
+    "candidato": "a11c77c03e7be7edc71ab53364ab40f2ccd66a4c3086294643c90019584e4777",
+    "nombre": "Beca Municipal Educación Superior Caldera",
+    "institucion": "Municipalidad de Caldera",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se contrastó la modalidad ya acreditada por contratación: transporte vespertino Caldera–Copiapó, no aporte monetario. El portal municipal actual enumera noticias y documentos laborales/FONDESCO, que no constituyen bases individuales de movilización estudiantil.",
+    "limite": "Sin requisitos de asignación individual, cupos disponibles ni cierre acreditado. Una licitación de transporte no prueba que se acepten postulaciones hoy.",
+    "fuentes": [
+      "https://caldera.cl/static/inicio/",
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=RrIdIuqVe8AGCxHRVJoIIg%3D%3D"
+    ],
+    "evidencia": "d5ca651544543789.txt; alcance del expediente esencial preservado.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 353,
+    "public_id": "1eafa257-d986-4f40-a58c-3eb65dea1575",
+    "candidato": "a69f0f20b7c4cba05bdc50c486cb245a3f854a9a24c5e692f793aeda64b9083d",
+    "nombre": "Beca Municipal de Educación Superior Tocopilla",
+    "institucion": "Municipalidad de Tocopilla",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "DIDECO Tocopilla mantiene función expresa de difundir, gestionar y entregar beneficios mediante Beca Municipal. Las subvenciones 2026–2027 localizadas son para organizaciones; el preuniversitario 2026 es preparación PAES.",
+    "limite": "Faltan bases individuales de la beca superior; no convertir la función orgánica o apertura de subvenciones en convocatoria estudiantil.",
+    "fuentes": [
+      "https://imtocopilla.cl/direccion-de-desarrollo-comunitario/",
+      "https://imtocopilla.cl/subvencion-municipal/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 354,
+    "public_id": "4d26d644-2873-4438-bda7-51b05e6e4f09",
+    "candidato": "a6bf4aee68f0b0f2711c04cfb093afc6d84a2733bd86970f277b8fb572c709b6",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Temuco",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Los documentos específicos educativos localizados de Temuco describen becas preuniversitarias para tercero y cuarto medio y BPR escolar. El fondo Juventud y Acción Climática 2026 tiene objeto distinto.",
+    "limite": "Falta evidencia específica que permita actualizar esta ayuda superior genérica; no trasladar población escolar o proyecto climático a estudiantes de una carrera.",
+    "fuentes": [
+      "https://transparencia.temuco.cl/g_resoluciones/decretos/2022/general_educacion/mayo/277_DGE_2022.pdf",
+      "https://www.temuco.cl/fondo-juventud-y-accion-climatica-2026/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 357,
+    "public_id": "c8e8679f-0be1-47c4-a548-f9acfb77ad78",
+    "candidato": "a7d1e5aeb120374260ecc498d9749c4ea2aaf290f514061c50ba21ffd28e85b0",
+    "nombre": "Beca Municipal Constitucion",
+    "institucion": "Municipalidad de Constitucion",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El índice de búsqueda conserva el decreto Constitución 1086 de 31/03/2026, que aprueba nueva ordenanza y deroga las anteriores; su texto inicial exige estudios presenciales de al menos cuatro semestres, frente a cinco en 2025. La descarga devuelve 404. El portal migrado publica entrega de 744 becas de 200.000 pesos para 2025, no para 2026.",
+    "limite": "No se ha leído íntegro el decreto 2026 recuperado desde el índice ni conciliado eventuales modificaciones. No trasladar requisitos, importe o cierre 2025. El calendario indexado 2026 es una pista por verificar, no fecha aplicada.",
+    "fuentes": [
+      "https://www.constitucion.cl/wp-content/uploads/2026/04/D.-EXENTO-1086-ORDENANZA-BECA-MUNICIPAL-Y-REQUISITOS.pdf",
+      "https://www.constitucion.cl/sitio/noticias/detalle.php?slug=ceremonia-simb-olica-de-la-beca-de-educaci-on-superior-2025-en-constituci-on-m-as-de-700-beneficiados"
+    ],
+    "evidencia": "2a8b22d0ee653f01, 404; lectura del encabezado oficial indexado y noticia municipal 2025.",
+    "alcance_reconsulta": "PARCIAL_CON_NUEVA_NORMA_POR_RECUPERAR",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 360,
+    "public_id": "78771074-0289-4b91-8623-07a7640c145a",
+    "candidato": "a8bc761f5e12dded29acfc7726e505e53b36717038b3335bda0a02f8bf7e6e3e",
+    "nombre": "Beca de Educación Superior Santa Barbara",
+    "institucion": "Municipalidad de Santa Barbara",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia oficial de 17/02/2026 describe Programa Generación de Empleo: más de 70 estudiantes, 20 horas de encuestas en cuatro días y pago líquido de 60.000 pesos. El antecedente de vivienda es otro programa.",
+    "limite": "No identificar un trabajo remunerado con la beca de alojamiento o una mantención genérica sin instrumento que los relacione. Falta definición actual de la modalidad de la candidata.",
+    "fuentes": [
+      "https://www.santabarbara.cl/santa-barbara-programa-pge-estudiantes/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 362,
+    "public_id": "31ad2b50-30ec-4150-aeed-37ce79d5db6a",
+    "candidato": "a8f912fccd636e21b44b40623366d008b52c4e9c71f2af449ff09cdbb9cd9e2a",
+    "nombre": "Beca Municipal Estudiantil Hualane",
+    "institucion": "Municipalidad de Hualane",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Leídas visualmente ambas páginas del decreto Hualañé 3574 de 04/12/2019: convenio SIPEE con Universidad de Chile, adjudicación individual condicionada a requisitos durante la carrera. El convenio refiere transferencia anual municipal de un millón para diez mensualidades; el pago de 700.000 en 2019 descuenta saldo 2018.",
+    "limite": "No es beca general para cualquier institución ni convocatoria 2026. No convertir la transferencia de 700.000 en beneficio por estudiante actual. Se conserva la referencia histórica SIPEE y no se reproducen datos bancarios o identificadores personales.",
+    "fuentes": [
+      "https://www.hualane.cl/TA_IGTA/Transparencia_Proactiva/Decretos_Alcaldicios/Exentos/2019/12_Diciembre/3574.pdf"
+    ],
+    "evidencia": "dc0f03b767f80bdd.bin; hualane-1.png y hualane-2.png, lectura completa de dos páginas.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 365,
+    "public_id": "d4e9691e-bef1-478e-af0e-2a5e8f01012e",
+    "candidato": "ac077e1770bbf329d185ddce24d60dad89227e0a73bf332e6eb9b7c407eaae26",
+    "nombre": "Beca Municipal Educación Superior Alhue",
+    "institucion": "Municipalidad de Alhue",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La ficha Alhué actual conserva abril/mayo para primera cuota, septiembre/octubre para segunda, pero declara junio como mes de postulación. Describe ingreso hasta 24 años y evaluación RSH hasta 60% entre 25 y 28, sin fijar año ni una secuencia de fechas coherente.",
+    "limite": "La inconsistencia del calendario persiste en la fuente; no escoger arbitrariamente uno de los meses ni convertir cuotas en cierre anual. El reloj de fecha del portal no actualiza el contenido.",
+    "fuentes": [
+      "https://municipalidadalhue.cl/portal/beca-municipal/"
+    ],
+    "evidencia": "b124c5ae0222e8ed.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 367,
+    "public_id": "3b91c020-b195-4128-89eb-affe6c9e5523",
+    "candidato": "ac899d3fd8c931d5198bf975940c54a4ee98b3edb2adeab4a7798307fa64211a",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Huasco",
+    "institucion": "Municipalidad de Huasco",
+    "resultado": "SIN_CALENDARIO_PUBLICADO",
+    "hallazgo": "El acta ordinaria 48 de Huasco, p.3, acuerdo 197, aprueba para 2026 la Beca Juanita González: 20 beneficiarios, 150.000 pesos mensuales durante diez meses marzo–diciembre y financiación Royalty. Deja sin efecto el acuerdo 195 para precisar esa financiación.",
+    "limite": "Meses de pago no son recepción. Calendario de nuevos postulantes no especificado; no usar las bases del hogar estudiantil ni presentar el beneficio como postulación abierta.",
+    "fuentes": [
+      "https://imhuasco.cl/Transparenciamunicipal/Documentos/ConcejoMunicipal/ActasOrdinarias/2026/48.pdf"
+    ],
+    "evidencia": "4c276046fe5afa13.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 368,
+    "public_id": "141e3bc2-0962-4b38-8346-f90376d92bef",
+    "candidato": "ae844129445fe6fbe5442e950b7effd4b1369d6196e56a17094125b5f86e3cb8",
+    "nombre": "Beca Municipal de Educación Superior",
+    "institucion": "Municipalidad de Puente Alto",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El conjunto oficial de carreras de Puente Alto describe aporte económico a residentes que cursan estudios técnicos, profesionales o superiores, con última actualización 01/03/2024. La noticia FUAS refiere beneficios estatales 2026, no una recepción municipal propia.",
+    "limite": "No hay calendario municipal actual en el conjunto; no utilizar frecuencia anual del dataset ni plazos FUAS como apertura de esta beca. Preservar ambas fichas.",
+    "fuentes": [
+      "https://datos.mpuentealto.cl/datasets/197867/beca-municipal-de-educacion-superior-carrera/",
+      "https://www.mpuentealto.cl/ya-estan-abiertas-las-postulaciones-para-acceder-a-los-beneficios-estudiantiles-de-la-educacion-superior/"
+    ],
+    "evidencia": "f9666110c09f630a.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 381,
+    "public_id": "93a1499e-6648-4815-ad49-7c3b5446670b",
+    "candidato": "b7768323f77789c61255a04ca8bf4484d89afee9d6d622d26bc387c52a1a7a47",
+    "nombre": "Beca Municipal Educación Superior Chanaral",
+    "institucion": "Municipalidad de Chanaral",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia Chañaral del 09/01/2026 es un reconocimiento a puntajes PAES y no anuncia una beca económica a cada reconocido. La beca de matrícula de egreso técnico de diciembre 2024 es un antecedente concreto distinto de una convocatoria general 2026.",
+    "limite": "No inferir monto, cupos o recepción desde un desayuno de reconocimiento. Faltan condiciones actuales de la beca superior genérica.",
+    "fuentes": [
+      "https://www.munichanaral.cl/mejores_puntajes_paes_2026.html",
+      "https://www.munichanaral.cl/new_graduacion_liceo_24.html"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 385,
+    "public_id": "3ddcf8c8-2a70-40ca-9632-45e470c8385e",
+    "candidato": "b9853a50ac6449a5f933f87aa7c7dbcc26a735d7399bd1ea7aa1296e20584cb8",
+    "nombre": "Beca de Pasajes Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Leídas visualmente páginas PDF 1–7 del manual Viña: decreto 5852 fechado 01/09/2021, aunque alojado en carpeta 2022; manual creado agosto y modificado octubre 2019. Su página interna 5 incluye pago de pasajes como ayuda social general con decreto, informe social y residencia local, admitiendo tránsito justificado. RSH figura de preferencia.",
+    "limite": "No es convocatoria estudiantil 2026 ni implica importe fijo o derecho automático; no elevar RSH preferente a requisito universal obligatorio. Calendario y disponibilidad actuales no acreditados.",
+    "fuentes": [
+      "https://www.munivina.cl/wp-content/uploads/2022/04/D.A-5852.pdf"
+    ],
+    "evidencia": "fb395591143e9f0f.bin; renders vina-manual, vina-indice y vina-requisitos; no se declara lectura de las 25 páginas.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 388,
+    "public_id": "0f7fa1b8-a97b-4d3a-bdcb-e5453dd75eb2",
+    "candidato": "bbf9abe727b9d19e2c2458b88239500def9f2e79b596299c6629cd4475134ab7",
+    "nombre": "Beca Educación Superior Santo Domingo",
+    "institucion": "Municipalidad de Santo Domingo",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El portal público Santo Domingo identifica postulación y renovación de becas municipales 2026, exclusivamente por ClaveÚnica. La página pública no publica plazo ni reglas específicas de la modalidad superior.",
+    "limite": "No iniciar sesión con identidad de otra persona ni inferir apertura efectiva porque el acceso esté disponible. Mantener fechas desconocidas.",
+    "fuentes": [
+      "https://agendabecas.santodomingo.cl/",
+      "https://tramites.santodomingo.cl/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 391,
+    "public_id": "76dd2495-a281-43f2-a696-aa0353e9501e",
+    "candidato": "bcdf2dd0fc609cc2c9a84af2571be8ae5717f2acb5e74bb17303da7942472c05",
+    "nombre": "Programa Beca Municipal de Educación Superior DAEM/DIDECO",
+    "institucion": "Municipalidad de Codegua",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Releída cuenta Codegua 2021: página 234 registra nuevo reglamento y nombre Luis Tamayo Hurtado, aprobado el 27/07/2021. Páginas 241–242: excelencia 120.000, normal primer tramo 100.000 y segundo 70.000. La ficha de subsidios 2015 publica cinco millones de presupuesto global y recepción abril/mayo.",
+    "limite": "Los importes de gestión 2021 no reemplazan automáticamente el alcance 2018 ni acreditan cuantías 2026. El presupuesto 2015 no es importe individual ni su calendario genérico es convocatoria actual.",
+    "fuentes": [
+      "https://www.municipalidaddecodegua.cl/municipalidad/transparencia/plantillas%20dideco/becasmunicipales.pdf"
+    ],
+    "evidencia": "a7d3d7c9e2b464b8.txt, páginas 234 y 241–242; 0010509a31d070d5.txt. URL de cuenta 2021 en metadatos de fuentes restantes.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 393,
+    "public_id": "e7671aaf-f602-4cf2-bed6-6c0fe63e6165",
+    "candidato": "bcf0f46a8e57d8c6393ed52c9728f1aae74ac4b4633b4f8620fd2559a9ca96a0",
+    "nombre": "Beca Municipal Educación Superior La Florida",
+    "institucion": "Municipalidad de La Florida",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La plataforma oficial La Florida Beca Escolar Municipal 2026 declara expresamente kínder a cuarto medio, incluida educación diferencial; permite adquirir útiles, calzado o vestimenta y exige postulación del apoderado.",
+    "limite": "No es una beca de educación superior. Falta instrumento específico de la candidata superior; no usar el registro escolar como postulación universitaria ni afirmar falsedad de otros apoyos.",
+    "fuentes": [
+      "https://appx.laflorida.cl/beca_escolar/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 402,
+    "public_id": "0346c14d-e1f7-479e-8d9a-9d4ff17a6d16",
+    "candidato": "c21da95a1b806b83d898e0790f1ad6a8d7dfada981df871e2604864ba98fb715",
+    "nombre": "Beca Municipal Educación Superior Villa Alemana",
+    "institucion": "Municipalidad de Villa Alemana",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Los decretos actuales de Villa Alemana localizados modifican Beca de Talento Deportivo 2026; el aviso presupuestario 2025 de beca superior no se convierte por ello en bases de ejecución.",
+    "limite": "Falta acto de convocatoria superior que determine prestación y elegibilidad. No importar fechas o montos deportivos.",
+    "fuentes": [
+      "https://munivillalemana.gob.cl/decretos/modifiquese-el-decreto-alcaldicio-n997-de-fecha-15-de-mayo-de-2026-que-aprueba-las-bases-generales-para-el-otorgamiento-de-beca-de-talento-deportivo-comuna-de-villa-alemana-en-los-siguientes-t/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 403,
+    "public_id": "2e77097d-1a77-46ff-b96a-9ebfa81e5036",
+    "candidato": "c23f9a26df1f5c65e25b477365c0556848bca3453f8fde442390638e729bdb9e",
+    "nombre": "Beca Municipal Educación Superior Mafil",
+    "institucion": "Municipalidad de Mafil",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El decreto Máfil 00164/2026 de 29/01/2026 regula becas deportivas y cultural-artísticas, con postulación 02–13 febrero. La cuenta de gestión 2024 refiere orientación de Beca Indígena estatal.",
+    "limite": "Ninguna es por sí sola la ayuda superior municipal genérica. No trasladar cierre de becas culturales o requisitos JUNAEB a esta candidata.",
+    "fuentes": [
+      "https://www.munimafil.cl/wp-content/uploads/2026/01/Becas-Deportivas-2026.pdf",
+      "https://www.munimafil.cl/wp-content/uploads/2025/05/PUBLICA-2024.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 406,
+    "public_id": "78affd44-3860-4b8c-8e16-d2df7729bbd4",
+    "candidato": "c3eb88ee2124c96061444a296f2c139368bf0902fafe2bbb70ab6264eabe79d6",
+    "nombre": "Beca Municipal Educación Superior Quinta Normal",
+    "institucion": "Municipalidad de Quinta Normal",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Quinta Normal distingue Útiles Escolares 2026, restringida a preescolar/básica/media/especial, de Becas Culturales 2026. Estas últimas admiten formación de pregrado o posgrado, pero exigen trayectoria cultural de dos años y retribución comunitaria, con cierre 28/02/2026.",
+    "limite": "La ayuda cultural puede financiar estudios, pero no identifica por sí sola la beca superior general del antecedente. No trasladar requisitos culturales a todo estudiante superior.",
+    "fuentes": [
+      "https://www.quintanormal.cl/actividades/beca-de-utiles-escolares-2026-161179",
+      "https://www.quintanormal.cl/actividades/postula-becas-culturales-2026-161187"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 408,
+    "public_id": "c98615bb-8a9f-4124-b8aa-96d6e451c581",
+    "candidato": "c47882f77478fbfc4297cf9b6f74d48d45271bc6c8be33d1f4ef155b65f19b9c",
+    "nombre": "Beca de Educación Superior Zona Extrema Torres del Paine",
+    "institucion": "Municipalidad de Torres del Paine",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La cuenta Torres del Paine de gestión 2024 informa prestaciones de 2 UTM para superior durante diez meses y atribuye fundamento a ordenanza 3 del 15/05/2023. El índice normativo publicado registra ordenanza 2 de esa fecha y el expediente anterior distingue aporte único.",
+    "limite": "Se conserva la diferencia entre referencia normativa y ejecución. No convertir la cuenta 2024 o bases sin año en convocatoria 2026 ni fijar periodicidad actual sin aclaración.",
+    "fuentes": [
+      "https://www.munitorresdelpaine.cl/Portal%20TA/Otros%20Antecedentes/CUENTA%20PUBLICA/Cuenta%20P%C3%BAblica%202024.pdf",
+      "https://www.munitorresdelpaine.cl/ordenanzas-municipales/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 412,
+    "public_id": "f5e0d1a7-69fb-4a5f-8078-b29d69157669",
+    "candidato": "c771d5766f936a13d34cf61fbe11fe17f43c7dc615944a6cebd3233f3601518a",
+    "nombre": "Becas Estudiantiles Pencahue 2026 (nivel no especificado)",
+    "institucion": "Municipalidad de Pencahue",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se recuperó en navegador la página Pencahue Resultados Becas 2026, antes bloqueada: muestra un listado de beneficiarios sin nivel de estudios, importe ni calendario. La búsqueda pública municipal devuelve esa página y Registro Social de Hogares.",
+    "limite": "La publicación acredita resultados de becas estudiantiles, pero no permite confirmar educación superior ni modalidad. No deducir edad/nivel a partir de nombres ni declarar agotado el archivo: el buscador muestra advertencia de limitación de resultados.",
+    "fuentes": [
+      "https://mpencahue.cl/index.php/resultados-becas-2026/",
+      "https://mpencahue.cl/?s=becas"
+    ],
+    "evidencia": "pencahue-busqueda-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 421,
+    "public_id": "e0c5f05d-f641-4bcc-8b11-930f6f21b12f",
+    "candidato": "cbccb00c7d8d89014ac78ebbcc2f3d49de80f58164b82f8d32881e161bcb6f90",
+    "nombre": "Beca Concejo Municipal de Osorno para Educación Superior",
+    "institucion": "Municipalidad de Osorno",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El acta Osorno que prepara BEMART 2026 y el portal actual anuncian Beca Municipal de las Artes 2027. Se verificó que el objeto es cultural y su comité específico; no demuestra una convocatoria general de mantención superior.",
+    "limite": "Falta identificación de programa/acto actual correspondiente a esta candidata. No reemplazarla por deportiva o BEMART por compartir al concejo otorgante.",
+    "fuentes": [
+      "https://www.imo.cl/sistemas/sitioweb/actas/1271_3840.pdf",
+      "https://www.imo.cl/"
+    ],
+    "evidencia": "f4770a2630db9976.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 424,
+    "public_id": "bd16eeb2-e333-48c3-931f-d63e4aee44b9",
+    "candidato": "cd7505441fad6a5c493bbae62b20cde11e27b4602864641986f8dc1bacbdfc1f",
+    "nombre": "Beca Municipal Educación Superior Coelemu",
+    "institucion": "Municipalidad de Coelemu",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se navegó el archivo de becas municipales de Coelemu hasta la tabla de mayo 2016. Identifica beca de excelencia, NEM 6,2 y recepción que termina 30/04/2016; difiere del acta 2011. El índice está actualizado a 2016; la noticia actual de octubre 2026 es deportiva.",
+    "limite": "El archivo municipal consultado no determina condiciones anuales actuales. No usar la apertura diciembre/enero de filas históricas como calendario 2026 ni reemplazar por beca deportiva.",
+    "fuentes": [
+      "https://transparencia.municoelemu.cl/index.php?action=plantillas_generar_plantilla&ig=310&m=5&a=2016&ia=7902",
+      "https://www.municoelemu.cl/beca-deportiva-coelemu-2026/"
+    ],
+    "evidencia": "coelemu-beca2016-visible.txt;coelemu-indice-visible.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 426,
+    "public_id": "f91de4a7-3178-4533-a21c-e8f1ea113fc4",
+    "candidato": "cddf9c877f17413c534f34ec36c7c28be662cfffd14ce0989d52f5dd218fdd6d",
+    "nombre": "Beca Municipal de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La sección actual Servicio Social Viña del Mar distingue validación BPR/Indígena vía JUNAEB, ayudas sociales y acreditación socioeconómica para universidades. No identifica en su texto una convocatoria propia de beca superior ni sus cupos anuales.",
+    "limite": "No identificar orientación estatal o emisión de informes con una beca propia de dinero. Los antecedentes 2022/2023 se conservan; ambas fichas siguen sin calendario municipal actual acreditado.",
+    "fuentes": [
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/"
+    ],
+    "evidencia": "ebf7565139892e32.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 432,
+    "public_id": "27af4caf-be79-4d74-8327-31f118eaf49e",
+    "candidato": "d180e8d90434d731b878be62de9c8e31bdcff85544b9ca440e8552d94bdb72c5",
+    "nombre": "Beca de Mantención Municipal para Estudios Superiores",
+    "institucion": "Municipalidad de Coquimbo",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia Coquimbo está fechada 08/01/2019 y cierra el 28 de febrero de ese ciclo. Distingue aporte para arancel y aporte para residencia fuera de la región; el presupuesto de 220 millones y 534 favorecidos se atribuye a 2018.",
+    "limite": "No usar noticias laterales de octubre 2026 como año del aviso ni asignar presupuesto agregado a un estudiante. Falta calendario actual de la modalidad de la candidata.",
+    "fuentes": [
+      "https://www.municoquimbo.cl/index.php/noticias/4834-invitan-a-jovenes-de-coquimbo-a-postular-a-aportes-municipales-para-la-educacion-superior"
+    ],
+    "evidencia": "1a28b9027eed5e8d.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 438,
+    "public_id": "70532341-595c-417b-bd04-226946138bcb",
+    "candidato": "d31299b2e19fcc0dd645c9835dbc8e3ce844c6fc23eeaa02f26c8fe702f5f18e",
+    "nombre": "Beca Hijo Funcionario UAI",
+    "institucion": "Universidad Adolfo Ibáñez",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El reglamento UAI 2024, reglas de compatibilidad de excelencia y honor, reconoce beneficios a hijos o cónyuges de funcionarios y limita la combinación al 100% de matrícula/arancel. No define ahí el porcentaje propio de la beca de familiares.",
+    "limite": "El tope de compatibilidad no equivale a cobertura individual del 100%. Falta norma específica actual de ese beneficio; no trasladar porcentajes de Pedro Luis González u Honor.",
+    "fuentes": [
+      "https://alumno.uai.cl/assets/uploads/2024/04/reglamentos-uai-2024.pdf"
+    ],
+    "evidencia": "5439fb63a48d01a3.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 440,
+    "public_id": "82ef63fe-7a67-4c02-9145-dea0daf8fcf8",
+    "candidato": "d429a131ee5eb0da8f128b67ea6826d736362150fb9214050db6838af03ab93c",
+    "nombre": "Beca de Mantención Educación Superior Hualpen",
+    "institucion": "Municipalidad de Hualpen",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El PLADECO Hualpén 2026–2032 describe asesoramiento de postulaciones FUAS, BPR e Indígena entre octubre y febrero. Esa función municipal no es una beca propia de mantención ni demuestra renovar el convenio IP Diego Portales.",
+    "limite": "Para 37 faltan condiciones actuales del convenio; para 440 falta sustento de una mantención municipal individual distinta de la orientación estatal. No se trasladan porcentajes entre las dos fichas.",
+    "fuentes": [
+      "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 451,
+    "public_id": "fb4e9d28-1652-477e-b905-42972ef6c0a5",
+    "candidato": "db0210a522cabef8ca2fa45f95c995e5308e9913fbcdf5f902654a6355da9e17",
+    "nombre": "Beca Municipal de Apoyo a la Educación Superior Monte Patria",
+    "institucion": "Municipalidad de Monte Patria",
+    "resultado": "SIN_CALENDARIO_PUBLICADO",
+    "hallazgo": "La noticia oficial Monte Patria del 28/01/2026 anuncia la beca municipal de 300.000 pesos y apertura en marzo, diferenciándola de los cupos del hogar de La Serena. Acredita continuidad anunciada para 2026.",
+    "limite": "No fija día final ni periodicidad del importe. La FAQ municipal copia requisitos de Las Condes y no se usa como fuente de residencia o instituciones elegibles de Monte Patria. No activar por el anuncio.",
+    "fuentes": [
+      "https://www.munimontepatria.cl/web/index.php/noticias/870-monte-patria-reconocio-a-18-estudiantes-que-obtuvieron-resultados-paes-sobresalientes",
+      "https://www.munimontepatria.cl/web/index.php/direcciones-municipales/departamento-social?id=69"
+    ],
+    "evidencia": "7a2e855419d4c797.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 456,
+    "public_id": "93008537-4ee1-48d7-83d4-93c47f3095da",
+    "candidato": "dcb38cf7abb28bdff77f140c73299962ea5a8424bd50440c766c69f769804bb0",
+    "nombre": "Beca Municipal Los Sauces",
+    "institucion": "Municipalidad de Los Sauces",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia oficial Los Sauces 2026 corresponde a residencia Estudia Tranquilo: alojamiento en Temuco, promedio 5,0, RSH hasta 40% y recepción 16–18 febrero. La beca monetaria general de los antecedentes es otra prestación.",
+    "limite": "No trasladar requisitos o cierre de residencia a la beca monetaria ni fusionar las dos candidatas sin equivalencia positiva de modalidad y año.",
+    "fuentes": [
+      "https://www.munilossauces.cl/noticias/postulacion-a-residencia-estudiantil-2026-estudia--22964"
+    ],
+    "evidencia": "36ca1bb3407e28e2.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 463,
+    "public_id": "6f635e53-4633-4fe0-831b-0b5d3ce1da7b",
+    "candidato": "e1c38b0822a3ca7475889b8d240c5c82843b8a2b41a57590a63958fbe16455d9",
+    "nombre": "Beca Municipal Estudios Superiores Cholchol",
+    "institucion": "Municipalidad de Cholchol",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Revisada la separación respecto del ID 68: el expediente de licitaciones 2025/2026 corresponde a movilización vespertina superior. Los 16.329.000 pesos publicados como presupuesto de contratación son globales, no dinero entregado a cada estudiante.",
+    "limite": "La reconsulta municipal actual no aporta procedimiento ni fecha de postulación individual. No fusionar con el aporte monetario histórico de Cholchol ni usar plazos de licitación como cierre estudiantil.",
+    "fuentes": [
+      "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-30-LE26",
+      "https://www.cholchol.cl/"
+    ],
+    "evidencia": "Expediente esencial y consulta pública actual limitada por acceso al portal.",
+    "alcance_reconsulta": "LIMITADA_POR_ACCESO",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 467,
+    "public_id": "cb393d0a-2749-4839-85ad-ff617b2ac5f1",
+    "candidato": "e4dc133f45e6b4b4870334d7e653bf322f1e15fe933dbb4eba16ea9770896c67",
+    "nombre": "Beca Municipal Capital del Mimbre",
+    "institucion": "Municipalidad de Chimbarongo",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El formulario Capital del Mimbre declara expresamente año 2024, nivel superior y aplicación del decreto 865 de 07/04/2021. La fecha de ingreso a completar también termina en 2024.",
+    "limite": "El formulario no acredita un llamado 2026 ni resuelve las diferencias con la norma 2010. No usar una noticia secundaria de entrega para certificar requisitos nuevos.",
+    "fuentes": [
+      "https://municipalidadchimbarongo.cl/wp-content/uploads/FORMULARIO-DE-POSTULACION-BECA-CAPITAL-DEL-MIMBRE-SUPERIOR.pdf"
+    ],
+    "evidencia": "b5ca7f36e79bfa6b.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 490,
+    "public_id": "fa4f6465-132e-4722-aede-f9dd25d63cd7",
+    "candidato": "ecec85e3fcec3c2300080131f2fe657701ff13bc3db3968e55a151adfd69eedc",
+    "nombre": "Antecedente de beca municipal de San Pedro de la Paz · identidad por confirmar",
+    "institucion": "Municipalidad de San Pedro de la Paz",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Se releyó el encabezado y fundamento del otorgamiento BMES/PAES 2026: emana de San Pedro de Melipilla. No acredita una beca de San Pedro de la Paz, institución de esta candidata.",
+    "limite": "Persiste error de identidad de origen. Conservar registro y UUID con advertencia; no copiar la adjudicación de Melipilla ni reclasificarla como beca falsa.",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf"
+    ],
+    "evidencia": "f3e835c845524028.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 497,
+    "public_id": "63070a6e-b29d-47f6-b9c4-9c82cee9c72d",
+    "candidato": "efaad4251a4538b5d56c39d92950d5b6b839c7cc38c3883785a290cc92136703",
+    "nombre": "Beca Municipal Educación Superior Cauquenes",
+    "institucion": "Municipalidad de Cauquenes",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El reglamento Cauquenes 562 regula convenio con CFT San Agustín, mínimo cinco becas y NEM 5,0; su plazo anual no acredita por sí solo la convocatoria 2026 de otra modalidad. El municipio mantiene referencia al reglamento 1921/2020.",
+    "limite": "Falta establecer qué instrumento actual corresponde a esta candidata general. No sustituirla por el convenio CFT ni usar plazos de FONDEPORTE.",
+    "fuentes": [
+      "https://cauquenes.cl/ordenanzas/pdf/562.pdf",
+      "https://www.cauquenes.cl/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 500,
+    "public_id": "a9fc3ffc-dfee-405c-8334-806d65e7c499",
+    "candidato": "f07686d2571b967768fbff52c4722d46b97c68f7a231705b1803180f7b55c9e4",
+    "nombre": "Beca Municipal de Educación Superior Coronel",
+    "institucion": "Municipalidad de Coronel",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La noticia oficial Coronel de 27/01/2026 otorga Beca Municipal de Subvención de Pasajes a dos puntajes nacionales PAES. No identifica equivalencia con el programa 100 por 100 de 2019 de esta candidata.",
+    "limite": "No convertir dos adjudicaciones extraordinarias en llamado general ni trasladar condiciones deportivas de septiembre. Falta sustento actual de la misma modalidad.",
+    "fuentes": [
+      "https://www.coronel.cl/noticias/orgullo-coronelino-alcalde-chamorro-premia-con-beca-a-dos-alumnos-del-liceo-bicentenario-por-puntaje-nacional-en-matematicas-paes/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 504,
+    "public_id": "b220d9ed-b064-4f12-8553-fc079bd85f53",
+    "candidato": "f2c8125ad91266de64f3916c120773b4e44f46191cd1b2d514c956df5c2ffae5",
+    "nombre": "Beca Municipal Estudiantil Maria Pinto",
+    "institucion": "Municipalidad de Maria Pinto",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La Cuenta Pública municipal de gestión 2025, p.122, identifica Beca Conectividad/Traslado para superior: 20.000 pesos mensuales durante nueve meses, 512 otorgadas y presupuesto 92.160.000. Es evidencia primaria que sustituye como sustento la pista radial de 2022.",
+    "limite": "La cuenta acredita ejecución 2025, no plazo o presupuesto 2026. Faltan bases de postulación/renovación actuales; conservar importe con año explícito y no usar horarios generales de buses como recepción de beca.",
+    "fuentes": [
+      "https://www.mpinto.cl/wp-content/uploads/2026/04/Cuenta-Publica-2025.pdf",
+      "https://www.mpinto.cl/actas-de-consejo/"
+    ],
+    "evidencia": "ae1e71583d65ccb1.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 505,
+    "public_id": "51d66b19-417a-4121-9791-ae9548f60718",
+    "candidato": "f3950ceac885049cfcac7eeb41284cb0f7652fa8444e7485caa128aa92a189d1",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Penaflor",
+    "institucion": "Municipalidad de Penaflor",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El mapa municipal actual enlaza la postulación deportiva 2026 y los resultados de subvenciones a organizaciones; no son bases del incentivo de ingreso superior de estas candidatas.",
+    "limite": "Falta acto específico actual del incentivo superior y su monto. La categoría becas o una entrega de reconocimiento no acredita por sí sola la modalidad monetaria.",
+    "fuentes": [
+      "https://penaflor.cl/mapa-del-sitio/",
+      "https://penaflor.cl/postulacion-becas-deportivas-2026/"
+    ],
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 507,
+    "public_id": "75e41376-08d6-4002-8ca2-605a95225b2c",
+    "candidato": "f435a119901e41f784b3ee4831a5af00ddbfd30b031da6188b775dbc98fdaead",
+    "nombre": "Beca Municipal para Estudiantes de Educación Superior Angol",
+    "institucion": "Municipalidad de Angol",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "Releída la ficha Angol del catastro UCSC, página 82: aporte económico anual sin monto, vulnerabilidad, matrícula en carrera superior de al menos cuatro semestres, RSH y notas para cursos superiores. Se siguió desde DIDECO el portal municipal de noticias; sus publicaciones disponibles no permiten ratificar recepción anual actual.",
+    "limite": "Marzo genérico del catastro no fija cierre 2026. El decreto 1216/2024 es antecedente de adjudicación histórico y su descarga escaneada no se cuenta como lectura íntegra; no se usa para completar importes actuales.",
+    "fuentes": [
+      "https://direcciones.ucsc.cl/content/uploads/sites/35/2024/12/Becas-Municipales.pdf",
+      "https://dideco.angol.cl/",
+      "https://noticias.angol.cl/",
+      "https://www.angol.cl/transparencia/actos%2Cdecisiones/SECRETARIA_MUNICIPAL/2024/JUNIO/1216.pdf"
+    ],
+    "evidencia": "16f3558ac152fc47.txt, página 82; c902e9e6371740b5.bin no leído íntegro.",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 508,
+    "public_id": "3bf8f23b-f3d9-460e-9698-2e11e06653fc",
+    "candidato": "f43b0040acd2914489f6b344a0e588582de5c297915978a8f4832fd14e0770a1",
+    "nombre": "Beca de Excelencia Académica UPLA",
+    "institucion": "Universidad de Playa Ancha",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "El FAQ UPLA de 21/01/2025 identifica Beca de Honor: 25% del arancel anual a los 15 mejores puntajes, al menos cinco para pedagogía. Se contrastó con el apartado UPLA del catálogo 2026, que no aporta condiciones de esta beca de Honor.",
+    "limite": "No certificar asignación 2026/2027 por repetición. Ambas candidatas comparten antecedente, sin eliminar UUID ni fusionar favoritos.",
+    "fuentes": [
+      "https://www.upla.cl/admision/2025/01/21/preguntas-frecuentes-sobre-el-proceso-de-admision-y-matricula-2025/",
+      "https://demre.cl/publicaciones/pdf/2026-25-11-20-servicios-y-beneficios-universitarios.pdf"
+    ],
+    "evidencia": "80459e9aa5bc28b5.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "EN_REVISION"
+  },
+  {
+    "id_beca": 525,
+    "public_id": "2b63ca1f-90f6-4a5f-8776-f27a951295c0",
+    "candidato": "ff02a97d84fc56770bcf9914792e5cc0b1a598e97af0763462e432096d6f15a7",
+    "nombre": "Beca Municipal de Educación Superior (BMES) y Bono PAES",
+    "institucion": "Municipalidad de San Pedro de Melipilla",
+    "resultado": "CERRADA_CONFIRMADA",
+    "hallazgo": "El decreto público de otorgamiento BMES y Bono PAES 2026 de San Pedro de Melipilla aprueba beneficiarios tras postulación y evaluación. Se verificaron antecedentes, municipio y objeto; no se transcribe la nómina personal.",
+    "limite": "Acredita adjudicación del ciclo, no el día final de postulación. Sigue sin leerse la modificación 462 de 22/04/2026; conservar cierre exacto desconocido y no actualizar a 2026 el reglamento 406 de 2025.",
+    "fuentes": [
+      "https://www.munisanpedro.gob.cl/wp-content/uploads/2026/04/Becas-2026-ok.pdf",
+      "https://www.munisanpedro.gob.cl/noticias/becas-municipales-de-educacion-superior-y-beca-paes/"
+    ],
+    "evidencia": "f3e835c845524028.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 3,
+    "estado_publico_despues": "FECHAS_POR_CONFIRMAR"
+  },
+  {
+    "id_beca": 528,
+    "public_id": "75c283b9-ad88-47c7-9e36-2a52051dcd98",
+    "candidato": "fff8ddd0931c4ac06f660ca2016c26455745fd05fcf0bfbd9e97dd61fdececac",
+    "nombre": "Beca de Educación Superior Viña del Mar",
+    "institucion": "Municipalidad de Viña del Mar",
+    "resultado": "REVISION_INCONCLUSA",
+    "hallazgo": "La sección actual Servicio Social Viña del Mar distingue validación BPR/Indígena vía JUNAEB, ayudas sociales y acreditación socioeconómica para universidades. No identifica en su texto una convocatoria propia de beca superior ni sus cupos anuales.",
+    "limite": "No identificar orientación estatal o emisión de informes con una beca propia de dinero. Los antecedentes 2022/2023 se conservan; ambas fichas siguen sin calendario municipal actual acreditado.",
+    "fuentes": [
+      "https://www.munivina.cl/desarrollo-comunitario/desarrollo-social/seccion-servicio-social/"
+    ],
+    "evidencia": "ebf7565139892e32.txt",
+    "fecha_revision": "2026-11-02",
+    "estado_aplicacion": "APLICADA_Y_VERIFICADA",
+    "alcance_reconsulta": "LECTURA_DOCUMENTAL_DELIMITADA",
+    "version_despues": 5,
+    "estado_publico_despues": "EN_REVISION"
+  }
+]
