@@ -7,6 +7,7 @@ import com.becasfind.api.models.dtos.BecaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
 import com.becasfind.api.models.dtos.BecaSearchRequest;
+import com.becasfind.api.models.dtos.FiltrosBecaDTO;
 import com.becasfind.api.models.dtos.ImportResultDTO;
 import com.becasfind.api.services.BecaImportService;
 import com.becasfind.api.services.BecaService;
@@ -59,11 +60,16 @@ public class BecaController {
 
     @PostMapping("/catalogo/buscar")
     public ResponseEntity<ApiResponse<Page<PublicBecaDTO>>> buscarCatalogo(@Valid @RequestBody BecaSearchRequest request) {
-        var becas = becaService.buscarCatalogo(request.getRsh(), request.getNem(),
-                request.getRegionId() == null ? null : request.getRegionId().longValue(), request.getQuery(),
-                request.getIdTipoBeca(), request.getIdInstitucion(), request.getIdTipoInstitucion(), request.getSort(),
+        var becas = becaService.buscarPublicas(request, false,
                 PageRequest.of(request.getPage() == null ? 0 : request.getPage(), request.getSize() == null ? 12 : request.getSize()));
         return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Catálogo público de becas"));
+    }
+
+    @GetMapping("/catalogo/filtros")
+    public ResponseEntity<ApiResponse<FiltrosBecaDTO>> filtrosPublicos(
+            @RequestParam(defaultValue = "false") boolean abiertas,
+            @RequestParam(defaultValue = "false") boolean estatales) {
+        return ResponseEntity.ok(ApiResponse.success(becaService.filtrosPublicos(abiertas, estatales), "Opciones de búsqueda"));
     }
 
     @GetMapping("/catalogo/{id}")
@@ -116,17 +122,7 @@ public class BecaController {
                 request.getPage() != null ? request.getPage() : 0,
                 request.getSize() != null ? request.getSize() : 10
         );
-        Page<BecaDTO> becas = becaService.buscarBecas(
-                request.getRsh(),
-                request.getNem(),
-                request.getRegionId() != null ? request.getRegionId().longValue() : null,
-                request.getQuery(),
-                request.getIdTipoBeca(),
-                request.getIdInstitucion(),
-                request.getIdTipoInstitucion(),
-                request.getSort(),
-                pageable
-        );
+        Page<BecaDTO> becas = becaService.buscarPublicas(request, true, pageable);
         return ResponseEntity.ok(ApiResponse.success(becas.map(PublicBecaDTO::from), "Busqueda completada exitosamente"));
     }
 

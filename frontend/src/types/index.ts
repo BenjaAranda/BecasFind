@@ -116,6 +116,8 @@ export interface BecaSearchRequest {
   rsh?: number | null;
   nem?: number | null;
   regionId?: number | null;
+  incluirNacionales?: boolean;
+  soloEstatales?: boolean;
   query?: string | null;
   idTipoBeca?: number | null;
   idInstitucion?: number | null;

@@ -59,14 +59,24 @@ public final class BecaSpecifications {
      * BR-REGION: Becas con regionId en BecaRegion O becas sin regiones (nacionales).
      */
     public static Specification<Beca> hasRegionOrNational(Long regionId) {
+        return hasRegion(regionId, true);
+    }
+
+    public static Specification<Beca> hasRegion(Long regionId, boolean includeNational) {
         if (regionId == null) return null;
 
         return (root, query, cb) -> {
             SetJoin<Beca, ?> regionJoin = root.joinSet("regiones", JoinType.LEFT);
-            return cb.or(
-                    cb.equal(regionJoin.get("idRegion"), regionId),
-                    cb.isNull(regionJoin.get("idRegion"))
-            );
+            var exact = cb.equal(regionJoin.get("idRegion"), regionId);
+            return includeNational ? cb.or(exact, cb.isNull(regionJoin.get("idRegion"))) : exact;
+        };
+    }
+
+    public static Specification<Beca> isStateBenefit() {
+        return (root, query, cb) -> {
+            var institution = root.get("institucion");
+            return cb.or(cb.equal(institution.get("tipoInstitucion").get("nombre"), "Organismo Gubernamental"),
+                    cb.like(cb.lower(institution.get("nombre")), "junaeb / %"));
         };
     }
 

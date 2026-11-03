@@ -18,6 +18,8 @@ public class BecaSearchRequest {
     private Double nem;
 
     private Integer regionId;
+    private Boolean incluirNacionales;
+    private boolean soloEstatales;
 
     private String query;
 
