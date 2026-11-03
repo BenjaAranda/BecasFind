@@ -1,0 +1,14 @@
+{
+  "fecha_utc": "2026-11-03T00:04:24.791990+00:00",
+  "imagen": "sha256:13fc6c957044162875591d17b8ee75954039eb117360c805d5588d40ef5fad92",
+  "etiqueta": "becasfind-backend:seguimiento31-20261102",
+  "diferencias_fuentes": [
+    "src/main/resources/catalogo-en-revision-uuid.txt"
+  ],
+  "diferencias_jar": [
+    "BOOT-INF/classes/catalogo-en-revision-uuid.txt"
+  ],
+  "java_clases_y_dependencias_identicas": true,
+  "recurso_uuid": 103,
+  "sha256_recurso": "57d59dff6c41fdb375cfc91d9b65c8f5a4fb5fd6e8b1696e30c474b3e701dafa"
+}

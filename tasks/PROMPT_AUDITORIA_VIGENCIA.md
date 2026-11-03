@@ -1,5 +1,19 @@
 # Instrucciones para el agente: auditoría de vigencia de BecasFind
 
+## Seguimiento de 31 fichas aplicado — 2 de noviembre de 2026
+
+**31 seguimientos individuales, siete fichas modificadas y cinco dictámenes precisados**: Paine (51/378) y UDD NEM (158) sin calendario publicado; UANDES Funcionario (331) y Armada (376) con anuncio de postulaciones cerradas. Los Muermos (127) incorpora reglamento histórico de 2022 sin extrapolarlo; Constitución (357) corrige su enlace municipal. Quedan **103 inconclusas**: 26 de esta tanda y 77 no reconsultadas aquí. Siete consultas limitadas: 218, 231, 240, 248, 312, 513, 515. No se declara concluida la investigación.
+
+Catálogo público verificado: **528 fichas; 11 abiertas, 132 cerradas, 282 fechas por confirmar y 103 en revisión**. Cero activaciones/eliminaciones. 528 UUID y originales conservados; 521 filas ajenas y 13 tablas idénticas. Respaldo/restauración de 14 tablas aprobados. El intento inicial de renombrado de Paine se revirtió por restricción única; el bloque aplicado conserva nombres. Solo se actualizó el recurso backend de 103 UUID; clases/dependencias y temporizador FUAS sin cambios.
+
+Fuente vigente: `documentacion/auditoria_corpus/procesados/seguimiento_incertidumbres_31_2026_11_02/INFORME.md`, `avance.json`, `inventario_466.json`, `incertidumbres_103.csv`, `revision_31.csv` y `consultas_limitadas_7.csv`.
+
+- [x] Documentar 31 seguimientos y aplicar/verificar siete correcciones sustentadas.
+- [ ] Resolver las 103 incertidumbres según el campo y límite individual; no sustituir evidencia faltante por probabilidad.
+- [ ] Recuperar fuentes suficientes para las siete consultas limitadas actuales y reconsultar las otras 77 inconclusas.
+
+No repetir los SQL aplicados de 54, 96 o siete ni ejecutar el intento revertido. Ante nueva evidencia, nuevo bloque con respaldo y guardas. P13/P14 y promoción a producción no iniciadas. Los encabezados siguientes son cortes históricos.
+
 ## Incertidumbres: tanda de 96 aplicada — 2 de noviembre de 2026
 
 Aplicadas y verificadas **96 fichas adicionales**: nueve dictámenes precisados y 87 inconclusos; ocho consultas limitadas por acceso o recuperación parcial. Las 150 reabiertas tienen ahora notas de reconsulta (54 + 96): **42 dictámenes precisados y 108 inconclusos**. Esto no significa que todas las convocatorias actuales estén leídas o que todos los campos estén resueltos.
