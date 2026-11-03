@@ -11,9 +11,9 @@ async function prepare(page: Page) {
   const payload = Buffer.from(JSON.stringify({ sub: 'student@example.com', role: 'STUDENT', nombre: 'Estudiante de prueba', exp: 4_000_000_000 })).toString('base64url');
   await page.addInitScript(token => localStorage.setItem('token', token), `e30.${payload}.test`);
   await page.route('**/api/favoritos', route => route.fulfill({ json: { data: [] } }));
-  for (const path of ['regiones', 'tipos-beca', 'instituciones', 'tipos-institucion']) {
-    await page.route(`**/api/${path}`, route => route.fulfill({ json: { data: [] } }));
-  }
+  await page.route(url => url.pathname === '/api/becas/catalogo/filtros', route => route.fulfill({
+    json: { data: { regiones: [], tiposBeca: [], instituciones: [], categorias: [] } },
+  }));
 }
 
 test.beforeEach(async ({ page }) => { await prepare(page); });
