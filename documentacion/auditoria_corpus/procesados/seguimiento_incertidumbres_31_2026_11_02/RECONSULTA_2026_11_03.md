@@ -1,6 +1,6 @@
 # Reconsulta del 3 de noviembre de 2026
 
-Este registro complementa la cola de 103 fichas inconclusas. Los ID remiten al inventario del lote anterior, que conserva los UUID. Las conclusiones son documentales. La conciliación con el catálogo queda pendiente.
+Este registro complementa la cola inicial de 103 fichas inconclusas. Los ID remiten al inventario del lote anterior, que conserva los UUID. El dictamen de Constitución ya se concilió con el catálogo.
 
 | ID | Dictamen documental | Evidencia y límite |
 | --- | --- | --- |
@@ -14,4 +14,22 @@ Este registro complementa la cola de 103 fichas inconclusas. Los ID remiten al i
 | 231 | REVISION_INCONCLUSA | La PUCV publica una vía de ingreso para deportistas destacados en Admisión 2027. El cierre del 30 de septiembre de 2026 es del ingreso especial y no acredita el calendario ni la cobertura de la beca deportiva registrada. [Ingresos especiales](https://www.pucv.cl/pucv/pucv-abre-postulaciones-para-sus-ingresos-especiales-2027). |
 | 393 | REVISION_INCONCLUSA | El municipio publica bases para su beca escolar 2026. La población publicada abarca de kínder a cuarto medio, incluida educación diferencial. Esa convocatoria no cubre la ficha de educación superior y sigue faltando evidencia específica para ella. [Plataforma municipal](https://appx.laflorida.cl/beca_escolar/). |
 
-Once fichas contrastadas en este corte. Una tiene un dictamen nuevo sustentado para el ciclo 2026 y diez conservan su dictamen. La cola operativa sigue en 103 hasta que se concilie la ficha 357. Las otras 92 fichas no se reconsultaron en este corte.
+## Contrastes adicionales
+
+| ID | Dictamen | Evidencia y límite |
+| --- | --- | --- |
+| 19 | REVISION_INCONCLUSA | La cuenta municipal acredita el apoyo superior en 2024. Las bases municipales de subvenciones 2026 exigen personalidad jurídica y se dirigen a organizaciones. Quedan pendientes el acto anual y las condiciones individuales actuales. [Cuenta municipal](https://www.municombarbala.cl/wp-content/uploads/2025/04/eSdcvc_dfer989dfXXs02.pdf) · [Bases de subvenciones](https://www.municombarbala.cl/wp-content/uploads/2026/01/BASES-SUBVENCIONES-MUNICIPALES-2026.pdf). |
+| 50 | REVISION_INCONCLUSA | La cuenta municipal identifica la beca superior en la gestión 2023. La cobertura de junio de 2026 orienta la búsqueda hacia el expediente de entrega a 180 estudiantes. Falta la confirmación primaria del ciclo 2026. [Cuenta pública municipal](https://limache.cl/wp-content/uploads/2024/04/cuenta_publica_gestion_2023.pdf). |
+| 172 | REVISION_INCONCLUSA | El informe oficial identifica a Paredones como municipio colaborador en Hogares y Residencias Estudiantiles. Esa modalidad corresponde a subvención de residencia. Sigue faltando el expediente actual de la beca municipal de aporte individual. [Informe ministerial](https://bips.ministeriodesarrollosocial.gob.cl/docs/informes/2026/468%20-%20Hogares%20y%20Residencias%20Estudiantiles.html). |
+| 214 | REVISION_INCONCLUSA | La UPLA publica la BAES en su sección Junaeb. Esa prestación se vincula a beneficios de arancel elegibles. Sigue faltando una norma actual del programa interno de alimentación de la ficha. [Beneficios Junaeb UPLA](https://www.upla.cl/desarrolloestudiantil/beneficios-junaeb/). |
+| 340 | REVISION_INCONCLUSA | Mercado Público acredita una licitación desierta para el suministro de pasajes Caldera–Copiapó en 2026. El cierre del 10 de febrero corresponde a ofertas de proveedores. Faltan las reglas de postulación individual y evidencia de continuidad del servicio. [Ficha de licitación](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=gWOX7rl+sAH7Zlm%2FV%2FoYUw%3D%3D). |
+| 438 | REVISION_INCONCLUSA | El reglamento UAI de 2024 identifica beneficios de hijos y cónyuges de funcionarios como compatibles con la beca Pedro Luis González hasta un descuento total de 100 %. Falta la norma específica actual que determine el descuento individual de la ficha. [Reglamentos UAI 2024](https://alumno.uai.cl/assets/uploads/2024/04/reglamentos-uai-2024.pdf). |
+| 520 | REVISION_INCONCLUSA | La admisión regular 2027 atribuye los cupos adicionales BEA al beneficio Mineduc. El manual interno 2026 contiene la opción de excelencia académica. Son referencias de distinto alcance y sigue pendiente la conciliación de compatibilidad del descuento interno. [Admisión regular UCSC](https://admision.ucsc.cl/admision/admision-regular/) · [Manual interno](https://sitios.ucsc.cl/sube/wp-content/uploads/sites/46/2026/03/Manual-becas-internas.pdf). |
+
+## Aplicación de Constitución
+
+El servidor municipal responde HTTP 404 para el PDF. La copia indexada permitió leer las bases y la ordenanza. Se mantuvo como enlace público la ficha específica operativa de DIDECO y se citó el decreto en la nota.
+
+Se aplicaron fechas y cobertura por lugar de estudios al ID 357 con una transacción protegida por UUID, versión y huella del texto previo. El respaldo se restauró en una base aislada para comprobar 14 tablas. Se conservaron los antecedentes y 527 filas quedaron idénticas. El empaquetado cambió solo el recurso de UUID en revisión. La API pública confirmó 528 fichas, 133 cerradas, 11 abiertas, 282 con fechas por confirmar y 102 en revisión. El recibo de la API y la cola actual están en `verificacion_constitucion_357.json` e `incertidumbres_102.csv`.
+
+En los dos cortes del 3 de noviembre se contrastaron 18 fichas de la cola inicial. Una se actualizó en el catálogo y 17 conservan incertidumbres. Las otras 85 siguen pendientes de una nueva consulta.

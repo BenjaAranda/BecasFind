@@ -1,5 +1,11 @@
 # P12: despliegue de prueba y selección del catálogo
 
+## Constitución conciliada en catálogo — 3 de noviembre de 2026
+
+La ficha 357 muestra el cierre oficial del 3 de mayo de 2026 y cobertura de 100.000 o 200.000 pesos según el lugar de estudios. Se conservan las 528 fichas y los UUID. Catálogo comprobado: 133 cerradas, 11 abiertas, 282 con fechas por confirmar y 102 en revisión.
+
+Cola vigente: documentacion/auditoria_corpus/procesados/seguimiento_incertidumbres_31_2026_11_02/incertidumbres_102.csv. Evidencia, límites y aplicación: documentacion/auditoria_corpus/procesados/seguimiento_incertidumbres_31_2026_11_02/RECONSULTA_2026_11_03.md y verificacion_constitucion_357.json. Las cifras de los cortes siguientes son históricas.
+
 ## Seguimiento de 31 fichas aplicado — 2 de noviembre de 2026
 
 **31 seguimientos individuales, siete fichas modificadas y cinco dictámenes precisados**: Paine (51/378) y UDD NEM (158) sin calendario publicado; UANDES Funcionario (331) y Armada (376) con anuncio de postulaciones cerradas. Los Muermos (127) incorpora reglamento histórico de 2022 sin extrapolarlo; Constitución (357) corrige su enlace municipal. Quedan **103 inconclusas**: 26 de esta tanda y 77 no reconsultadas aquí. Siete consultas limitadas: 218, 231, 240, 248, 312, 513, 515. No se declara concluida la investigación.
