@@ -28,7 +28,9 @@ export default function SearchPage() {
   const requestedSize = Number(searchParams.get('size') || 12);
   const pageSize = [12, 50, 100].includes(requestedSize) ? requestedSize : 12;
   const tab = isAuthenticated && searchParams.get('mode') === 'recomendar' ? 'recomendar' : 'buscar';
-  const catalogo = searchParams.get('vista') !== 'abiertas';
+  const vista = searchParams.get('vista') || '';
+  const catalogo = vista !== 'abiertas';
+  const estatales = vista === 'estatales';
   const [becas, setBecas] = useState<BecaSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [totalElements, setTotalElements] = useState(0);
@@ -61,6 +63,8 @@ export default function SearchPage() {
         const response = isAuthenticated && params.get('mode') === 'recomendar'
           ? await becaService.recomendar(p, size, controller.signal)
           : await (params.get('vista') !== 'abiertas' ? becaService.searchCatalogo : becaService.search)({ rsh: number('rsh'), nem: number('nem'), regionId: number('region'),
+            incluirNacionales: params.has('region') ? false : undefined,
+            soloEstatales: params.get('vista') === 'estatales' ? true : undefined,
             query: params.get('q') || undefined, idTipoBeca: number('tipo'), idInstitucion: number('inst'),
             idTipoInstitucion: number('cat'), sort: params.get('sort') || 'fechaAsc', page: p, size }, controller.signal);
         if (!active) return;
@@ -98,6 +102,17 @@ export default function SearchPage() {
       return next;
     }, { replace: true });
   };
+  const changeView = (nextView: string) => {
+    if (vista === nextView) return;
+    urgent.current = true;
+    setSearchParams(previous => {
+      const next = new URLSearchParams(previous);
+      for (const key of ['page', 'region', 'tipo', 'inst', 'cat']) next.delete(key);
+      if (nextView) next.set('vista', nextView); else next.delete('vista');
+      return next;
+    }, { replace: true });
+  };
+
   const handleSearch = () => { urgent.current = true; setRequestVersion(value => value + 1); };
   const handlePageChange = (p: number) => updateParam('page', String(p), true);
   const handleReset = () => {
@@ -152,6 +167,7 @@ export default function SearchPage() {
           {tab === 'buscar' ? (
             <>
               <SearchFilters
+                key={vista} vista={vista}
                 rsh={rsh} nem={nem} regionId={regionId}
                 query={query} idTipoBeca={idTipoBeca} idInstitucion={idInstitucion} idTipoInstitucion={idTipoInstitucion} sort={sort}
                 onRshChange={value => updateParam('rsh', value)} onNemChange={value => updateParam('nem', value)} onRegionChange={value => updateParam('region', value)}
@@ -165,7 +181,7 @@ export default function SearchPage() {
                 <ul className="text-xs text-[#0b3c75] space-y-1">
                   <li>• RSH: ingresas tu %, ves becas que acepten ≥ ese valor</li>
                   <li>• NEM: ingresas tu promedio, ves becas con mínimo ≤ tu nota</li>
-                  <li>• Región: filtra becas locales o de alcance nacional</li>
+                  <li>• Región: muestra fichas asociadas a la región seleccionada</li>
                   <li>• {catalogo ? 'El catálogo incluye fichas con fechas por confirmar y convocatorias cerradas' : 'Solo se muestran postulaciones abiertas'}</li>
                 </ul>
               </div>
@@ -212,10 +228,12 @@ export default function SearchPage() {
 
           {tab === 'buscar' && <div className="mb-6">
             <div role="group" aria-label="Vista del buscador" className="flex flex-wrap gap-2">
-              <button aria-pressed={!catalogo} onClick={() => updateParam('vista', 'abiertas', true)} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${!catalogo ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Postulaciones abiertas</button>
-              <button aria-pressed={catalogo} onClick={() => updateParam('vista', '', true)} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${catalogo ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Catálogo completo</button>
+              <button aria-pressed={!catalogo} onClick={() => changeView('abiertas')} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${!catalogo ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Postulaciones abiertas</button>
+              <button aria-pressed={catalogo && !estatales} onClick={() => changeView('')} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${catalogo && !estatales ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Catálogo completo</button>
+              <button aria-pressed={estatales} onClick={() => changeView('estatales')} className={`min-h-11 px-4 border border-[#375b80] rounded-sm cursor-pointer hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 ${estatales ? 'bg-[#0b3c75] text-white' : 'bg-white text-[#0b3c75]'}`}>Estatales y JUNAEB</button>
             </div>
-            {catalogo && <p role="note" className="mt-3 text-sm text-slate-600">Consulta todas las fichas confirmadas y su fuente oficial. «Fechas por confirmar» no significa que la beca haya sido descartada. Solo «Postulación abierta» acredita un plazo vigente.</p>}
+            {estatales ? <p className="mt-3 text-sm text-slate-600">Beneficios de JUNAEB y otros organismos del Estado. Cada ficha muestra su estado y su fuente oficial.</p>
+              : catalogo && <p role="note" className="mt-3 text-sm text-slate-600">Consulta todas las fichas confirmadas y su fuente oficial. «Fechas por confirmar» no significa que la beca haya sido descartada. Solo «Postulación abierta» acredita un plazo vigente.</p>}
           </div>}
 
           <div className="mb-4 flex items-center gap-2">

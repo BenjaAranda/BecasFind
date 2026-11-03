@@ -41,10 +41,10 @@ async function prepare(page: Page) {
       const content = body.query || body.regionId ? scholarships.slice(0, 1) : scholarships;
       return route.fulfill({ json: { status: 200, data: { content, totalElements: content.length, totalPages: 1, number: body.page, size: body.size } } });
     }
-    const data = path.endsWith('/regiones') ? [{ idRegion: 16, nombre: 'Ñuble', abreviatura: 'NU' }]
-      : path.endsWith('/tipos-beca') ? [{ idTipoBeca: 1, nombre: 'Alimentación' }]
-      : path.endsWith('/instituciones') ? [{ idInstitucion: 1, nombre: 'Institución de prueba' }]
-      : path.endsWith('/tipos-institucion') ? [{ idTipoInst: 1, nombre: 'Universidad' }] : [];
+    const data = path.endsWith('/catalogo/filtros') ? {
+      regiones: [{ id: 16, nombre: 'Ñuble' }], tiposBeca: [{ id: 1, nombre: 'Alimentación' }],
+      instituciones: [{ id: 1, nombre: 'Institución de prueba' }], categorias: [{ id: 1, nombre: 'Universidad' }],
+    } : [];
     return route.fulfill({ json: { status: 200, data } });
   });
   await page.goto('/explorar');
@@ -92,7 +92,7 @@ test('CP-66: filtros envían todos los valores y reiniciar restaura resultados y
   await page.getByLabel('Ordenar por').selectOption('fechaDesc');
   await page.getByRole('button', { name: 'Buscar Becas', exact: true }).click();
   await expect(page.getByRole('heading', { name: '1 beca encontrada', exact: true })).toBeVisible();
-  expect(bodies.at(-1)).toEqual({ rsh: 60, nem: 5.5, regionId: 16, idTipoBeca: 1, idInstitucion: 1, idTipoInstitucion: 1, sort: 'fechaDesc', page: 0, size: 12 });
+  expect(bodies.at(-1)).toEqual({ rsh: 60, nem: 5.5, regionId: 16, incluirNacionales: false, idTipoBeca: 1, idInstitucion: 1, idTipoInstitucion: 1, sort: 'fechaDesc', page: 0, size: 12 });
   await expect(page.getByRole('button', { name: scholarships[1].nombre, exact: true })).toHaveCount(0);
   await page.getByRole('button', { name: 'Reiniciar filtros', exact: true }).click();
   await expect(page.getByRole('heading', { name: '2 becas encontradas', exact: true })).toBeVisible();

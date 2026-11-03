@@ -5,11 +5,46 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import java.util.Map;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PublicCatalogTest extends BaseTest {
     @Autowired JdbcTemplate jdbc;
     @Autowired CatalogoPublico catalogo;
+
+    @Test void regionExactaYOpcionesPorVistaMantienenSeparadosMunicipiosYBeneficiosEstatales() {
+        var original = jdbc.queryForObject("select public_id from becas where id_beca=5", java.util.UUID.class);
+        var approved = catalogo.getPublicIds().iterator().next();
+        var category = jdbc.queryForObject("select id_tipo_inst from instituciones where id_institucion=1", Long.class);
+        var municipal = jdbc.queryForObject("select id_tipo_inst from tipos_institucion where nombre='Municipal'", Long.class);
+        try {
+            jdbc.update("update becas set public_id=? where id_beca=5", approved);
+            jdbc.update("update instituciones set id_tipo_inst=? where id_institucion=1", municipal);
+            var regional = post("/api/becas/catalogo/buscar", null,
+                    Map.of("regionId", 1, "incluirNacionales", false, "size", 100), Map.class);
+            assertEquals(200, regional.getStatusCode().value());
+            assertTrue(regional.getBody().toString().contains(publicScholarshipId(1)));
+            assertFalse(regional.getBody().toString().contains(approved.toString()));
+            var national = post("/api/becas/catalogo/buscar", null, Map.of("regionId", 1, "size", 100), Map.class);
+            assertTrue(national.getBody().toString().contains(approved.toString()));
+
+            var optionsResponse = get("/api/becas/catalogo/filtros", null, Map.class);
+            assertEquals(200, optionsResponse.getStatusCode().value());
+            var options = (Map<?, ?>) optionsResponse.getBody().get("data");
+            assertTrue(options.get("categorias").toString().contains("Municipal"));
+            assertFalse(options.get("instituciones").toString().contains("DUOC UC"));
+            assertFalse(options.get("categorias").toString().contains("Empresa Privada"));
+
+            var state = post("/api/becas/catalogo/buscar", null, Map.of("soloEstatales", true, "size", 100), Map.class);
+            assertEquals(200, state.getStatusCode().value());
+            var content = (List<?>) ((Map<?, ?>) state.getBody().get("data")).get("content");
+            assertFalse(content.isEmpty());
+            assertTrue(content.stream().allMatch(row -> "JUNAEB".equals(((Map<?, ?>) row).get("nombreInstitucion"))));
+        } finally {
+            jdbc.update("update instituciones set id_tipo_inst=? where id_institucion=1", category);
+            jdbc.update("update becas set public_id=? where id_beca=5", original);
+        }
+    }
 
     @Test void approvedUnknownDatesRemainVisibleWithoutOpeningApplications() {
         var original = jdbc.queryForMap("select public_id,estado_activa,fecha_inicio_postulacion,fecha_cierre_postulacion from becas where id_beca=1");

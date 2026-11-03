@@ -4,6 +4,9 @@ import com.becasfind.api.models.dtos.BecaDTO;
 import com.becasfind.api.models.dtos.CoberturaDTO;
 import com.becasfind.api.models.dtos.BecaDetailDTO;
 import com.becasfind.api.models.dtos.BecaRequest;
+import com.becasfind.api.models.dtos.BecaSearchRequest;
+import com.becasfind.api.models.dtos.FiltrosBecaDTO;
+import com.becasfind.api.models.dtos.FiltrosBecaDTO.Opcion;
 import com.becasfind.api.models.dtos.DocumentoRequeridoDTO;
 import com.becasfind.api.models.dtos.InstitucionDTO;
 import com.becasfind.api.models.dtos.RegionDTO;
@@ -29,6 +32,8 @@ import com.becasfind.api.services.BecaService;
 import com.becasfind.api.services.BecaSpecifications;
 import com.becasfind.api.services.CatalogoPublico;
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.persistence.Tuple;
+import jakarta.persistence.criteria.JoinType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
@@ -40,7 +45,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
@@ -86,7 +95,7 @@ public class BecaServiceImpl implements BecaService {
                                      String query, Long idTipoBeca, Long idInstitucion,
                                      Long idTipoInstitucion, String sort, Pageable pageable) {
         return buscar(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort, pageable,
-                BecaSpecifications.isVigente());
+                visibility(true, false), true);
     }
 
     @Override
@@ -94,20 +103,82 @@ public class BecaServiceImpl implements BecaService {
     public Page<BecaDTO> buscarCatalogo(Integer rsh, Double nem, Long regionId,
                                      String query, Long idTipoBeca, Long idInstitucion,
                                      Long idTipoInstitucion, String sort, Pageable pageable) {
-        Specification<Beca> approved = (root, criteria, cb) -> root.get("publicId").in(catalogoPublico.getPublicIds());
         return buscar(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort, pageable,
-                approved.or(BecaSpecifications.isVigente()));
+                visibility(false, false), true);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Page<BecaDTO> buscarPublicas(BecaSearchRequest request, boolean abiertas, Pageable pageable) {
+        return buscar(request.getRsh(), request.getNem(),
+                request.getRegionId() == null ? null : request.getRegionId().longValue(), request.getQuery(),
+                request.getIdTipoBeca(), request.getIdInstitucion(), request.getIdTipoInstitucion(),
+                request.getSort(), pageable, visibility(abiertas, request.isSoloEstatales()),
+                !Boolean.FALSE.equals(request.getIncluirNacionales()));
+    }
+
+    private Specification<Beca> visibility(boolean abiertas, boolean estatales) {
+        Specification<Beca> visibility = BecaSpecifications.isVigente();
+        if (!abiertas) {
+            visibility = visibility.or((root, criteria, cb) -> root.get("publicId").in(catalogoPublico.getPublicIds()));
+        }
+        return estatales ? visibility.and(BecaSpecifications.isStateBenefit()) : visibility;
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public FiltrosBecaDTO filtrosPublicos(boolean abiertas, boolean estatales) {
+        var cb = entityManager.getCriteriaBuilder();
+        var query = cb.createTupleQuery();
+        var beca = query.from(Beca.class);
+        var region = beca.join("regiones", JoinType.LEFT);
+        var tipo = beca.join("tipoBeca");
+        var institucion = beca.join("institucion");
+        var categoria = institucion.join("tipoInstitucion");
+        query.multiselect(region.get("idRegion"), region.get("nombre"), tipo.get("idTipoBeca"), tipo.get("nombre"),
+                institucion.get("idInstitucion"), institucion.get("nombre"), categoria.get("idTipoInst"), categoria.get("nombre"))
+                .distinct(true).where(visibility(abiertas, estatales).toPredicate(beca, query, cb));
+
+        Map<Long, Opcion> regiones = new HashMap<>(), tipos = new HashMap<>(), instituciones = new HashMap<>(), categorias = new HashMap<>();
+        Map<Long, Integer> prioridad = new HashMap<>();
+        for (Tuple row : entityManager.createQuery(query).getResultList()) {
+            addOption(regiones, row, 0);
+            addOption(tipos, row, 2);
+            addOption(categorias, row, 6);
+            String category = row.get(7, String.class);
+            if (!"Municipal".equalsIgnoreCase(category)) {
+                addOption(instituciones, row, 4);
+                prioridad.put(row.get(4, Long.class), switch (category) {
+                    case "Universidad" -> 0;
+                    case "Instituto Profesional" -> 1;
+                    case "Centro de Formación Técnica", "Centro de Formacion Tecnica" -> 2;
+                    default -> 3;
+                });
+            }
+        }
+        var names = java.text.Collator.getInstance(Locale.forLanguageTag("es-CL"));
+        Comparator<Opcion> alphabetic = Comparator.comparing(Opcion::nombre, names).thenComparing(Opcion::id);
+        return new FiltrosBecaDTO(regiones.values().stream().sorted(alphabetic).toList(),
+                tipos.values().stream().sorted(alphabetic).toList(),
+                instituciones.values().stream().sorted(Comparator.<Opcion>comparingInt(option -> prioridad.get(option.id()))
+                        .thenComparing(alphabetic)).toList(), categorias.values().stream().sorted(alphabetic).toList());
+    }
+
+    private static void addOption(Map<Long, Opcion> options, Tuple row, int index) {
+        Long id = row.get(index, Long.class);
+        if (id != null) options.putIfAbsent(id, new Opcion(id, row.get(index + 1, String.class)));
     }
 
     private Page<BecaDTO> buscar(Integer rsh, Double nem, Long regionId,
                                      String query, Long idTipoBeca, Long idInstitucion,
-                                     Long idTipoInstitucion, String sort, Pageable pageable, Specification<Beca> visibility) {
+                                     Long idTipoInstitucion, String sort, Pageable pageable, Specification<Beca> visibility,
+                                     boolean includeNational) {
         validateSearch(rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, pageable);
         Specification<Beca> spec = Specification
                 .where(visibility)
                 .and(BecaSpecifications.hasRshMax(rsh))
                 .and(BecaSpecifications.hasNemMin(nem))
-                .and(BecaSpecifications.hasRegionOrNational(regionId))
+                .and(BecaSpecifications.hasRegion(regionId, includeNational))
                 .and(BecaSpecifications.hasTextQuery(query))
                 .and(BecaSpecifications.hasTipoBeca(idTipoBeca))
                 .and(BecaSpecifications.hasInstitucion(idInstitucion))

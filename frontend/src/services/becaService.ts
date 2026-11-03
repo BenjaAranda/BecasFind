@@ -1,7 +1,15 @@
 import api from './api';
 import type { ApiResponse, BecaSummary, BecaDetail, BecaSearchRequest, PageResponse, Region } from '../types';
 
+type FilterOption = { id: number; nombre: string };
+export type SearchFilterOptions = Record<'regiones' | 'tiposBeca' | 'instituciones' | 'categorias', FilterOption[]>;
+
 export const becaService = {
+  searchFilters(vista: string, signal: AbortSignal) {
+    return api.get<ApiResponse<SearchFilterOptions>>('/becas/catalogo/filtros', {
+      params: { abiertas: vista === 'abiertas', estatales: vista === 'estatales' }, signal,
+    });
+  },
   searchCatalogo(filters: BecaSearchRequest, signal?: AbortSignal) {
     return api.post<ApiResponse<PageResponse<BecaSummary>>>('/becas/catalogo/buscar', filters, { signal });
   },

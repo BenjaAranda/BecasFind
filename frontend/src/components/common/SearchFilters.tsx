@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
-import type { Region, TipoBeca, Institucion, TipoInstitucion } from '../../types';
-import { catalogoService } from '../../services/becaService';
-import { adminService } from '../../services/adminService';
+import { becaService, type SearchFilterOptions } from '../../services/becaService';
 import { Search, Filter } from 'lucide-react';
 
 interface SearchFiltersProps {
+  vista: string;
   rsh: string;
   nem: string;
   regionId: string;
@@ -27,26 +26,24 @@ interface SearchFiltersProps {
 }
 
 export default function SearchFilters({
-  rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort,
+  vista, rsh, nem, regionId, query, idTipoBeca, idInstitucion, idTipoInstitucion, sort,
   onRshChange, onNemChange, onRegionChange, onQueryChange,
   onTipoBecaChange, onInstitucionChange, onTipoInstitucionChange, onSortChange,
   onSearch, onUseProfile, onReset,
 }: SearchFiltersProps) {
   const [expanded, setExpanded] = useState(false);
-  const [regiones, setRegiones] = useState<Region[]>([]);
-  const [tiposBeca, setTiposBeca] = useState<TipoBeca[]>([]);
-  const [instituciones, setInstituciones] = useState<Institucion[]>([]);
-  const [tiposInstitucion, setTiposInstitucion] = useState<TipoInstitucion[]>([]);
+  const [options, setOptions] = useState<SearchFilterOptions>();
   const [catalogError, setCatalogError] = useState('');
 
   useEffect(() => {
-    Promise.all([
-      catalogoService.getRegiones().then(r => setRegiones(r.data.data)),
-      adminService.getTiposBeca().then(r => setTiposBeca(r.data.data)),
-      adminService.getInstituciones().then(r => setInstituciones(r.data.data)),
-      adminService.getTiposInstitucion().then(r => setTiposInstitucion(r.data.data)),
-    ]).catch(() => setCatalogError('No pudimos cargar todas las opciones de los filtros. Recarga la página para volver a intentarlo.'));
-  }, []);
+    const controller = new AbortController();
+    becaService.searchFilters(vista, controller.signal)
+      .then(({ data }) => setOptions(data.data))
+      .catch(() => {
+        if (!controller.signal.aborted) setCatalogError('No pudimos cargar las opciones de los filtros. Recarga la página para volver a intentarlo.');
+      });
+    return () => controller.abort();
+  }, [vista]);
 
 
   return (
@@ -86,7 +83,7 @@ export default function SearchFilters({
           <select id="search-region" value={regionId} onChange={e => onRegionChange(e.target.value)}
             className="w-full min-h-12 px-3 py-2 border rounded-sm text-sm bg-white focus:ring-2 focus:ring-[#0b3c75] outline-none">
             <option value="">Todas</option>
-            {regiones.map(r => <option key={r.idRegion} value={r.idRegion}>{r.nombre}</option>)}
+            {options?.regiones?.map(r => <option key={r.id} value={r.id}>{r.nombre}</option>)}
           </select>
         </div>
         <div>
@@ -94,7 +91,7 @@ export default function SearchFilters({
           <select id="search-type" value={idTipoBeca} onChange={e => onTipoBecaChange(e.target.value)}
             className="w-full min-h-12 px-3 py-2 border rounded-sm text-sm bg-white focus:ring-2 focus:ring-[#0b3c75] outline-none">
             <option value="">Todos</option>
-            {tiposBeca.map(t => <option key={t.idTipoBeca} value={t.idTipoBeca}>{t.nombre}</option>)}
+            {options?.tiposBeca?.map(t => <option key={t.id} value={t.id}>{t.nombre}</option>)}
           </select>
         </div>
         <div>
@@ -102,7 +99,7 @@ export default function SearchFilters({
           <select id="search-institution" value={idInstitucion} onChange={e => onInstitucionChange(e.target.value)}
             className="w-full min-h-12 px-3 py-2 border rounded-sm text-sm bg-white focus:ring-2 focus:ring-[#0b3c75] outline-none">
             <option value="">Todas</option>
-            {instituciones.map(i => <option key={i.idInstitucion} value={i.idInstitucion}>{i.nombre}</option>)}
+            {options?.instituciones?.map(i => <option key={i.id} value={i.id}>{i.nombre}</option>)}
           </select>
         </div>
         <div>
@@ -110,7 +107,7 @@ export default function SearchFilters({
           <select id="search-category" value={idTipoInstitucion} onChange={e => onTipoInstitucionChange(e.target.value)}
             className="w-full min-h-12 px-3 py-2 border rounded-sm text-sm bg-white focus:ring-2 focus:ring-[#0b3c75] outline-none">
             <option value="">Todas</option>
-            {tiposInstitucion.map(t => <option key={t.idTipoInst} value={t.idTipoInst}>{t.nombre}</option>)}
+            {options?.categorias?.map(t => <option key={t.id} value={t.id}>{t.nombre === 'Municipal' ? 'Municipalidades' : t.nombre}</option>)}
           </select>
         </div>
         <div>
