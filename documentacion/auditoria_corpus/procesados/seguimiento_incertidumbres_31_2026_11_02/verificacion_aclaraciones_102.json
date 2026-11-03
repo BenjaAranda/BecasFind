@@ -1,0 +1,526 @@
+{
+  "verificado_utc": "2026-11-03T22:20:40.352818+00:00",
+  "fichas_publicas": 528,
+  "estados_publicos": {
+    "CERRADA": 133,
+    "ABIERTA": 11,
+    "FECHAS_POR_CONFIRMAR": 282,
+    "EN_REVISION": 102
+  },
+  "aclaraciones_verificadas": 102,
+  "uuid_preservados": 528,
+  "acceso_anonimo": true,
+  "cors_preview": true,
+  "comprobaciones": [
+    {
+      "id_beca": 2,
+      "public_id": "7698fdfa-3610-4c10-b74d-84be1d424eb7",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 19,
+      "public_id": "89aa67b1-a632-4585-b51b-60ce5d4c75cc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 21,
+      "public_id": "e2114db0-b245-4950-a2bb-2660f007e342",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 27,
+      "public_id": "5e68bb01-d118-45b2-8c11-1458b008c03a",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 33,
+      "public_id": "b9d08a38-8d37-432f-b637-82ca917311b4",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 37,
+      "public_id": "e549c7af-aa24-4d4e-b4db-420943a15850",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 49,
+      "public_id": "c1c28f20-cb82-42d2-ba12-f1f8079ee3e0",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 50,
+      "public_id": "384afa53-cbcf-4992-a20c-44fc5a01ed44",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 52,
+      "public_id": "d717e436-d0e3-4c58-92d8-bb338f3b0222",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 55,
+      "public_id": "c9da3b0c-a207-41e4-98fd-06ae7623f75b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 57,
+      "public_id": "f393ea3c-a42b-49cb-b18d-f5ac6cf22f18",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 64,
+      "public_id": "1c16f749-45f2-4b85-8838-50d1928758bc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 68,
+      "public_id": "b57476f8-6347-4d22-bfb9-86691e11c7ef",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 90,
+      "public_id": "524d17dd-63f5-4a06-a779-e6fae7eaed90",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 92,
+      "public_id": "8dd7e072-983a-4b33-9c1f-caeb7d3b2f7d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 100,
+      "public_id": "96648d83-e8a5-4849-bc16-7fbd134fc9c4",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 102,
+      "public_id": "ecb2bda1-fffc-4c4a-a1ef-d3682dece301",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 105,
+      "public_id": "d4bfeb79-7b05-45ad-9915-f0bfd75940bc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 121,
+      "public_id": "99fd11bf-6953-4d10-a099-4b51b2de5468",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 126,
+      "public_id": "ac0a9ea4-cb5c-4df2-b260-651ef3dc5a89",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 127,
+      "public_id": "dadba91f-f202-44bb-b81a-d20c8ffc224d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 129,
+      "public_id": "7c6bc61b-739a-4360-91c8-f9840922bb00",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 130,
+      "public_id": "1b141394-e39a-43b3-905e-d76beccd32e3",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 148,
+      "public_id": "7280e8f4-42b4-47f1-b842-fba32f0ba92d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 149,
+      "public_id": "a9c5e0e4-524f-4f4e-b8ea-5ecd7fc15ad3",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 157,
+      "public_id": "a5192944-d1bc-45c8-9ffa-f7557a0b0c4d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 164,
+      "public_id": "2d68ba2f-e660-4f8f-8816-95a725271b2b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 172,
+      "public_id": "2f5f3383-e3df-42ea-9705-757b0c56a15f",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 175,
+      "public_id": "af85d9b4-2afa-46b3-a8ac-1abfa270ffc1",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 177,
+      "public_id": "7249b8b3-e648-422c-870c-60c54181690f",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 198,
+      "public_id": "c6bd8e78-ca84-4014-a494-63e1202013b0",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 202,
+      "public_id": "30184ba7-876c-499e-b992-de4bbbe871b9",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 209,
+      "public_id": "3bd84a69-9adf-438a-b3da-9e7108a4ae4b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 212,
+      "public_id": "c5c15edc-fe9e-42a9-b262-e88b3070eb4e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 213,
+      "public_id": "14e5b9a9-abfb-41c0-99ac-2f8f83aa3ace",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 214,
+      "public_id": "eec985a2-f75c-4c54-b8ba-e3f883f21aaf",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 216,
+      "public_id": "7551ac2e-dc59-4df5-8acc-ca7b1958473e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 217,
+      "public_id": "645f5e78-a187-4198-8b94-568b9973f208",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 218,
+      "public_id": "34d248ee-0cf8-40b3-bbe1-7aa7ebe5ea47",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 221,
+      "public_id": "62cf00eb-ceeb-4832-b9d6-802526fc9f24",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 222,
+      "public_id": "86b45159-0446-4d4f-8be0-4248f4ed3b76",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 231,
+      "public_id": "0485398a-a487-4203-9441-724d97d05789",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 234,
+      "public_id": "eda4c362-f3a8-41df-a241-254c9746293f",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 240,
+      "public_id": "825e30aa-51eb-4d0a-aba5-7a25a3ea508e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 248,
+      "public_id": "d451029f-468b-4e34-b758-aebe08749491",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 251,
+      "public_id": "c88b5fa2-cc4a-410b-8d69-8d5975d01409",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 260,
+      "public_id": "b00bde27-8092-4216-9774-8745ec78d9a4",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 261,
+      "public_id": "bbf5e9c1-7545-40a9-800b-4973dd056260",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 263,
+      "public_id": "ab08a79f-417d-426b-b966-9a561ad7a1dc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 267,
+      "public_id": "3d270aac-ca38-4f1a-b69c-dcfa1eecf09b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 297,
+      "public_id": "cace1550-37d2-4d96-9324-8ade2478852b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 299,
+      "public_id": "7f94eb9a-3add-4d6e-b7c9-69eb9fe1cdc8",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 300,
+      "public_id": "e4d1e6ae-c939-4f0d-9592-8ec6558b1e45",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 301,
+      "public_id": "521ecc43-cd7d-41b7-9268-01e834c4fa44",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 312,
+      "public_id": "dc45574b-ef2c-42e6-919f-bc0bf6f308fb",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 329,
+      "public_id": "3200e60d-476e-4822-94b8-94aff8b6c9c3",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 333,
+      "public_id": "f203e82f-69fd-49ad-a55b-594fb8c78124",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 336,
+      "public_id": "3bb27b3c-bca1-48d3-b322-dfa8c6e15d11",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 338,
+      "public_id": "b67f77b3-3d34-4bdd-b777-8e1c248a16dc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 340,
+      "public_id": "735a2b59-21f1-4101-9d1b-a59a815a798d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 347,
+      "public_id": "51454f1c-5ff8-40a4-aacd-cbeff79838db",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 353,
+      "public_id": "1eafa257-d986-4f40-a58c-3eb65dea1575",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 354,
+      "public_id": "4d26d644-2873-4438-bda7-51b05e6e4f09",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 360,
+      "public_id": "78771074-0289-4b91-8623-07a7640c145a",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 362,
+      "public_id": "31ad2b50-30ec-4150-aeed-37ce79d5db6a",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 365,
+      "public_id": "d4e9691e-bef1-478e-af0e-2a5e8f01012e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 368,
+      "public_id": "141e3bc2-0962-4b38-8346-f90376d92bef",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 381,
+      "public_id": "93a1499e-6648-4815-ad49-7c3b5446670b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 385,
+      "public_id": "3ddcf8c8-2a70-40ca-9632-45e470c8385e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 388,
+      "public_id": "0f7fa1b8-a97b-4d3a-bdcb-e5453dd75eb2",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 390,
+      "public_id": "71d385bb-857d-4f10-9856-5156fd6fcdb1",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 391,
+      "public_id": "76dd2495-a281-43f2-a696-aa0353e9501e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 393,
+      "public_id": "e7671aaf-f602-4cf2-bed6-6c0fe63e6165",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 402,
+      "public_id": "0346c14d-e1f7-479e-8d9a-9d4ff17a6d16",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 403,
+      "public_id": "2e77097d-1a77-46ff-b96a-9ebfa81e5036",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 406,
+      "public_id": "78affd44-3860-4b8c-8e16-d2df7729bbd4",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 408,
+      "public_id": "c98615bb-8a9f-4124-b8aa-96d6e451c581",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 412,
+      "public_id": "f5e0d1a7-69fb-4a5f-8078-b29d69157669",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 418,
+      "public_id": "97a71176-c41c-4def-990c-77898a2f23ad",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 421,
+      "public_id": "e0c5f05d-f641-4bcc-8b11-930f6f21b12f",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 424,
+      "public_id": "bd16eeb2-e333-48c3-931f-d63e4aee44b9",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 426,
+      "public_id": "f91de4a7-3178-4533-a21c-e8f1ea113fc4",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 432,
+      "public_id": "27af4caf-be79-4d74-8327-31f118eaf49e",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 438,
+      "public_id": "70532341-595c-417b-bd04-226946138bcb",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 440,
+      "public_id": "82ef63fe-7a67-4c02-9145-dea0daf8fcf8",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 456,
+      "public_id": "93008537-4ee1-48d7-83d4-93c47f3095da",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 463,
+      "public_id": "6f635e53-4633-4fe0-831b-0b5d3ce1da7b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 467,
+      "public_id": "cb393d0a-2749-4839-85ad-ff617b2ac5f1",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 474,
+      "public_id": "5ccc92c6-1cf2-4343-9e30-4b1dbabb7168",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 477,
+      "public_id": "06e92527-a183-4b37-9481-c88011de170b",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 486,
+      "public_id": "e531d2dc-9bfb-4f55-890e-8da5c0362556",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 490,
+      "public_id": "fa4f6465-132e-4722-aede-f9dd25d63cd7",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 497,
+      "public_id": "63070a6e-b29d-47f6-b9c4-9c82cee9c72d",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 500,
+      "public_id": "a9fc3ffc-dfee-405c-8334-806d65e7c499",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 504,
+      "public_id": "b220d9ed-b064-4f12-8553-fc079bd85f53",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 505,
+      "public_id": "51d66b19-417a-4121-9791-ae9548f60718",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 507,
+      "public_id": "75e41376-08d6-4002-8ca2-605a95225b2c",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 508,
+      "public_id": "3bf8f23b-f3d9-460e-9698-2e11e06653fc",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 513,
+      "public_id": "78861a79-69c6-4e9f-9045-fcdfc4f40039",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 515,
+      "public_id": "a9b513db-98c2-462b-afe1-02a6c84b24a6",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 520,
+      "public_id": "c16d155f-4014-4769-b4cc-2a9f1a1052f8",
+      "estado": "EN_REVISION"
+    },
+    {
+      "id_beca": 528,
+      "public_id": "75c283b9-ad88-47c7-9e36-2a52051dcd98",
+      "estado": "EN_REVISION"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Contexto operativo de BecasFind
 
+## Aclaraciones públicas para 102 fichas — 3 de noviembre de 2026
+
+Las 102 fichas en revisión muestran una aclaración individual en su detalle. La API pública confirmó cada texto por UUID y preservó las 528 fichas. Informe y recibo: documentacion/auditoria_corpus/procesados/seguimiento_incertidumbres_31_2026_11_02/PUBLICACION_ACLARACIONES_102.md y verificacion_aclaraciones_102.json. La cola de evidencia sigue en incertidumbres_102.csv.
+
 ## Constitución conciliada en catálogo — 3 de noviembre de 2026
 
 La ficha 357 muestra el cierre oficial del 3 de mayo de 2026 y cobertura de 100.000 o 200.000 pesos según el lugar de estudios. Se conservan las 528 fichas y los UUID. Catálogo comprobado: 133 cerradas, 11 abiertas, 282 con fechas por confirmar y 102 en revisión.
